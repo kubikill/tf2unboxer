@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="user-scalable=no, minimal-ui, width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#383530">
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#383530" />
+    <meta name="Description"
+        content="A Team Fortress 2 crate/case simulator. Try your luck at opening one of 140 TF2 crates/cases! Now with the new Spooky Spoils Case!" />
+    <meta name="robots" content="noarchive, noimageindex" />
+    <meta property="og:image" content="https://tf2unboxer.tk/thumbnail.png">
+    <meta property="og:title" content="TF2 Unboxer">
+    <meta property="og:description"
+        content="A Team Fortress 2 crate/case simulator. Try your luck at opening one of 140 TF2 crates/cases! Now with the new Spooky Spoils Case!">
+    <meta property="og:url" content="https://tf2unboxer.tk">
+    <meta charset="UTF-8" />
+    <title>TF2 Unboxer</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="manifest" href="./manifest.json">
+</head>
+
+<body>
+    <!--Crate select screen-->
+
+    <div id="crateselect">
+        <div class="btn" id="morebtn" touch-action="none">
+            <span class="btntext" id="morebtntext">Options</span>
+        </div>
+        <div class="btn" id="statsbtn" touch-action="none">
+            <span class="btntext" id="statsbtntext">Statistics</span>
+        </div>
+        <div class="btn" id="gridviewbtn" touch-action="none">
+            <div class="btntext" id="gridviewbtntext">Grid view</div>
+        </div>
+        <div class="btn" id="exitgridviewbtn" touch-action="none" style="display: none;">
+            <div class="btntext" id="exitgridviewbtntext">Details view</div>
+        </div>
+        <div class="btn" id="unboxbtn" touch-action="none">
+            <div class="btntext" id="unboxbtntext">Unbox my loot!</div>
+        </div>
+        <div class="btn" id="randomcratebtn" touch-action="none" style="display: none;">
+            <div class="btntext" id="randomcratebtntext">Pick random crate</div>
+        </div>
+        <a href="https://steamcommunity.com/groups/tf2unboxer" id="steama" touch-action="none" target="_blank"
+            rel="noopener" style="cursor: initial">
+            <div class="btn" id="steambtn" touch-action="none">
+                <img id="steamicon" src="./images/steamicon.svg">
+            </div>
+        </a>
+        <div class="tooltip" id="steamtooltip">Steam group</div>
+        <div class="nosoundbtn" id="soundbtn" touch-action="none">
+            <img id="soundicon" src="./images/speakericonc.svg">
+        </div>
+        <div class="tooltip" id="soundtooltip">Mute sound</div>
+        <div id="cratemm">
+            <div id="crateview">
+                <div id="cratetitle">
+                    <p id="cratename"></p>
+                    <p id="crateseries">
+                    </p>
+                </div>
+                <div id="cratemain">
+                    <div class="imgdiv">
+                        <img id="crateimg" src="">
+                    </div>
+                </div>
+                <div id="crateinfo">
+                    <div id="crateinfocontent">
+                        <div>
+                            <p id="cratecontainstext">This crate contains one of the following items:</p>
+                            <ul id="lootlist">
+                            </ul>
+                            <p id="cratenote">Weapons unboxed from this crate are Strange quality.</p>
+                        </div>
+                    </div>
+                    <div id="crateinfoeffectscontent" style="display: none;">
+                        <p id="unusualeffectstext">Unusuals may have one of the following effects:</p>
+                        <ul id="effectlist">
+                        </ul>
+                    </div>
+                    <div class="btn" id="crateinforeturnbtn" touch-action="none">
+                        <span class="btntext" id="crateinforeturnbtntext">Return</span>
+                    </div>
+                    <div class="btn" id="crateinfoeffectsbtn" touch-action="none">
+                        <span class="btntext" id="crateinfoeffectsbtntext">Effects</span>
+                    </div>
+                    <div class="btn" id="crateinfolootbtn" touch-action="none" style="display: none;">
+                        <span class="btntext" id="crateinfolootbtntext">Loot</span>
+                    </div>
+                </div>
+                <div class="btn" id="crateinfobtn" touch-action="none">
+                    <span class="btntext" id="moreinfobtntext">More info...</span>
+                </div>
+            </div>
+            <div id="crateselectgrid" style="display: none;">
+            </div>
+        </div>
+        <div class="btn navbtn" id="navleft" touch-action="none">
+            &lt;
+        </div>
+        <div class="btn navbtn" id="navright" touch-action="none">
+            &gt;
+        </div>
+    </div>
+
+    <!--Countdown screen-->
+
+    <div id="countdowncontainer" style="display: none;">
+        <div id="countdown">
+            <p id="uncratingtext">Unboxing your loot</p>
+            <p id="uncratinganim">.</p>
+            <p id="uncratingcountdown">5</p>
+        </div>
+    </div>
+
+    <!--Crate result screen-->
+
+    <div id="crateresult" style="display: none;">
+        <p id="newlootacquired">New item acquired!</p>
+        <p id="youtext">You
+            <span id="unboxedtext">unboxed</span>:</p>
+        <div id="unboxeditem">
+            <div id="lootimgdiv">
+                <img id="lootimg" src="">
+                <img id="effectimg" src="">
+            </div>
+            <div id="loottextdiv">
+                <div id="lootnamediv">
+                    <span id="lootname"></span>
+                    <span id="effecttext">★ Unusual Effect: </span><span id="effectname"></span>
+                </div>
+                <div id="lootunboxchance">
+                    <span id="lootunboxchancetext">Chance to unbox:</span>
+                    <br>
+                    <span id="lootunboxpercent"></span>
+                </div>
+                <div id="lootunboxedtimes">
+                    <span id="lootunboxedtimestext">Times unboxed:</span>
+                    <br>
+                    <span id="lootunboxcount">1</span>
+                </div>
+                <div id="lootsincelastunusual">
+                    <span id="lootsincelastunusualtext">Unboxes since last unusual:</span>
+                    <br>
+                    <span id="lootsincelastunusualcount">1</span>
+                </div>
+            </div>
+        </div>
+        <div class="btn" id="returnbtn" touch-action="none">
+            <span class="btntext" id="returnbtntext">Return</span>
+        </div>
+        <div class="btn" id="unboxagainbtn" touch-action="none">
+            <span class="btntext" id="unboxagaintext">Unbox again</span>
+        </div>
+    </div>
+
+    <!--Statistics screen-->
+
+    <div id="stats" style="display: none;">
+        <div id="statsheader">
+            <div class="btn active" id="statsgeneralbtn" touch-action="none">
+                <span class="btntext" id="statsgeneralbtntext">General</span>
+            </div>
+            <div class="btn" id="statsunusualsbtn" touch-action="none">
+                <span class="btntext" id="statsunusualsbtntext">Unusuals</span>
+            </div>
+            <div class="btn" id="statscratesbtn" touch-action="none">
+                <span class="btntext" id="statscratesbtntext">Crates</span>
+            </div>
+        </div>
+        <div id="statscontainer">
+            <div id="statsgeneral" style="display: block;">
+                <div id="statsgeneraltext">
+                    <p id="cratesopenedtext">Crates opened: </p>
+                    <p id="moneywastedtext">Money wasted on keys: </p>
+                    <p id="sincelastunusualtext">Unboxes since last unusual: </p>
+                    <p id="shortestdroughttext">Shortest unusual drought: </p>
+                    <p id="longestdroughttext">Longest unusual drought: </p>
+                    <p id="uniqueunboxed"><span class="uniquecolor">Unique</span> items unboxed: </p>
+                    <p id="strangeunboxed"><span class="strangecolor">Strange</span> items unboxed: </p>
+                    <p id="hauntedunboxed"><span class="hauntedcolor">Haunted</span> items unboxed: </p>
+                    <p id="decoratedunboxed"><span class="decoratedcolor">Decorated</span> items unboxed: </p>
+                    <p id="unusualunboxed"><span class="unusualcolor">Unusuals</span> unboxed: </p>
+                </div>
+                <div id="statsgeneralnum">
+                    <p id="cratesopenedstat">0</p>
+                    <p>$<span id="moneywastedstat">0</span>.<span id="moneywastedcents">00</span>
+                    </p>
+                    <p id="sincelastunusualstat">0</p>
+                    <p id="shortestdroughtstat">N/A</p>
+                    <p id="longestdroughtstat">N/A</p>
+                    <p id="uniqueunboxedstat">0</p>
+                    <p id="strangeunboxedstat">0</p>
+                    <p id="hauntedunboxedstat">0</p>
+                    <p id="decoratedunboxedstat">0</p>
+                    <p id="unusualunboxedstat">0</p>
+                </div>
+            </div>
+            <div id="statsunusuals" style="display: none;">
+                <p id="nounusuals">No unusuals... yet.<br>Keep trying!</p>
+            </div>
+            <div id="statscrates" style="display: none;">
+            </div>
+        </div>
+        <div class="btn" id="statsreturnbtn" touch-action="none">
+            <span class="btntext" id="statsreturnbtntext">Return to main menu</span>
+        </div>
+        <div class="btn" id="statscratesdetailsreturnbtn" touch-action="none" style="display: none;">
+            <span class="btntext" id="statscratesdetailsreturnbtntext">Return to list</span>
+        </div>
+        <div id="statscratesdetails" style="display: none;">
+            <div id="statscratesdetailsheader">
+                <img id="statscratesdetailsimage" src="">
+                <div id="statscratesdetailscontainer">
+                    <div id="statscratesdetailstext">
+                        <p><span id="statscratesdetailsname"></span><br>
+                            <span id="statscratesdetailsseries"></span></p>
+                    </div>
+                    <div id="statscratesdetailsunboxed">
+                        <p id="statscratesdetailsunboxtext">Unboxed
+                            <span id="statscratesdetailsunbox">0</span> times</p>
+                    </div>
+                    <div id="statscratesdetailsnavs">
+                        <div class="btn" id="statscratesdetailsleftbtn" touch-action="none">
+                            <span class="btntext" id="morebtntext">&lt;</span>
+                        </div>
+                        <div class="btn" id="statscratesdetailsrightbtn" touch-action="none">
+                            <span class="btntext" id="morebtntext">&gt;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="statscratesdetailscontent">
+                <p id="noitems">No items... yet.<br>Unbox something, will ya?</p>
+            </div>
+        </div>
+    </div>
+
+    <!--More... screen-->
+
+    <div id="more" style="display: none;">
+        <div id="moreheader" style="display: block">
+            <div class="btn active" id="moreoptionsbtn" touch-action="none">
+                <span class="btntext" id="moreoptionsbtntext">Options</span>
+            </div>
+            <div class="btn" id="morechangelogbtn" touch-action="none">
+                <span class="btntext" id="morechangelogbtntext">Changelog</span>
+            </div>
+            <div class="btn" id="morecreditsbtn" touch-action="none">
+                <span class="btntext" id="morecreditsbtntext">Credits</span>
+            </div>
+        </div>
+        <div id="moreoptions">
+            <div>
+                <span id="langname">Language:</span>
+                <div class="btngroup">
+                    <select id="langdropdown">
+                        <option value="eng">English</option>
+                        <option value="pol">Polski</option>
+                        <option value="sch">中文(简体)‬</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <span id="fastunboxname">Fast unboxing:</span>
+                <div class="btngroup">
+                    <div class="btn active" id="fastunboxoffbtn" touch-action="none">
+                        <span class="btntext" id="fastunboxoffbtntext">Off</span>
+                    </div>
+                    <div class="btn" id="fastunboxonbtn" touch-action="none">
+                        <span class="btntext" id="fastunboxonbtntext">On</span>
+                    </div>
+                </div>
+                <p id="fastunboxtext">Skips the unboxing countdown.</p>
+            </div>
+            <div>
+                <span id="unusualcheatname">Extreme Crate Depression Mode:</span>
+                <div class="btngroup">
+                    <div class="btn active" id="unusualcheatoffbtn" touch-action="none">
+                        <span class="btntext" id="unusualcheatoffbtntext">Off</span>
+                    </div>
+                    <div class="btn" id="unusualcheatonbtn" touch-action="none">
+                        <span class="btntext" id="unusualcheatonbtntext">On</span>
+                    </div>
+                </div>
+                <p id="unusualcheattext">Crates will always contain an Unusual.<br>Does not affect crates that can't unbox Unusuals. <br>Stats and saves will be disabled until this is turned off!</p>
+            </div>
+            <div>
+                <span id="showallitemsname">Show all items in stats:</span>
+                <div class="btngroup">
+                    <div class="btn active" id="showallitemsoffbtn" touch-action="none">
+                        <span class="btntext" id="showallitemsoffbtntext">Off</span>
+                    </div>
+                    <div class="btn" id="showallitemsonbtn" touch-action="none">
+                        <span class="btntext" id="showallitemsonbtntext">On</span>
+                    </div>
+                </div>
+                <p id="showallitemstext">Shows all items in statistics, even those which haven't been unboxed yet.</p>
+            </div>
+            <div>
+                <span id="resetname">Reset save:</span>
+                <div class="btngroup">
+                    <div class="btn" id="resetbtn" touch-action="none">
+                        <span class="btntext" id="resetbtntext">Reset</span>
+                    </div>
+                </div>
+                <p id="resettext">Reset stats and all unboxed items, including unusuals.</p>
+            </div>
+        </div>
+        <div id="morechangelog" style="display: none;">
+            <p class="changelogtitle">v1.15 - February 12th, 2020</p>
+            <div class="changelogcontent">
+                <p>- Added the Winter 2019 Cosmetic Case and the Winter 2019 War Paint Case</p>
+            </div>
+            <p class="changelogtitle">v1.14 - October 28th, 2019</p>
+            <div class="changelogcontent">
+                <p>- Added the Spooky Spoils Case</p>
+                <p>- Added Extreme Crate Depression Mode</p>
+                <p>- Added Simplified Chinese support - thanks, deluxghost!</p>
+                <p>- Fixed some item name typos</p>
+            </div>
+            <p class="changelogtitle">v1.13 - September 10th, 2019</p>
+            <div class="changelogcontent">
+                <p>- Added 10 Unlocked Cosmetic Crates (found between the Mayflower Cosmetic Case and the Mann Co.
+                    Supply Munition #103)</p>
+                <p>- For first time users, TF2 Unboxer will now display in user's most preferred language that is
+                    supported</p>
+                <p>- Site language is now saved between sessions</p>
+                <p>- The Space key can now be used to unbox crates in the same way as the Enter key</p>
+                <p>- Fixed an issue where unboxing an unusual could disable keyboard shortcuts in some cases</p>
+            </div>
+            <p class="changelogtitle">v1.12 - July 30th, 2019</p>
+            <div class="changelogcontent">
+                <p>- Added the Summer 2019 Cosmetic Case</p>
+                <p>- Double-checked all crates to ensure they won't ruin the whole economy again</p>
+                <p>- Fixed keyboard shortcuts not being enabled/disabled in specific situations</p>
+            </div>
+            <p class="changelogtitle">v1.11 - June 3rd, 2019</p>
+            <div class="changelogcontent">
+                <p>- On the crate select screen, names of items that have a grade are now colored</p>
+                <p>- Slightly improved unboxing countdown</p>
+                <p>- Added missing Polish text</p>
+                <p>- Minor interface changes</p>
+            </div>
+            <p class="changelogtitle">v1.1 - December 30th, 2018</p>
+            <div class="changelogcontent">
+                <p>- Added the Winter 2018 Cosmetic Case</p>
+                <p>- Added multiple languages support</p>
+                <p>- Added Polish language</p>
+                <p>- Added Gen 1 and Gen 2 effects to crates #88 - #92 and #103</p>
+                <p>- Added 2 keyboard shortcuts: press Enter to unbox a crate and press A/D or left/right arrow keys to
+                    switch between crates.<br>You can hold the buttons for rapid unboxing/switching.</p>
+                <p>- Unusuals with a higher grade are now more rare than unusuals with a lower grade</p>
+                <p>- Fixed being unable to unbox strange unusuals from cosmetic cases</p>
+                <p>- Performance improvements</p>
+                <p>- Changed between v1.1 and v1.02: Replaced the Discord server with a Steam group</p>
+            </div>
+            <p class="changelogtitle">v1.02 - November 5th, 2018</p>
+            <div class="changelogcontent">
+                <p>- Added Gen 1, Gen 2 and Gen 3 effects to all cosmetic cases</p>
+                <p>- Tweaked Invasion update cases: Invasion update effects have a 5x bigger chance to be unboxed
+                    compared to any Gen 1, 2, 3 effect</p>
+                <p>- Tweaked Unlocked Creepy Crates, so only either Unique or Strange Haunted items can be unboxed</p>
+                <p>- Tweaked item chances for the Civilian grade keyless cases</p>
+                <p>- Removed the "Terror-Watt" effect from Unlocked Creepy Crates</p>
+
+            </div>
+            <p class="changelogtitle">v1.01 - November 4th, 2018</p>
+            <div class="changelogcontent">
+                <p>- Added "Unboxes since last unusual" stat</p>
+                <p>- Changed unboxing sound for the Winter 2016 and 2017 cosmetic cases</p>
+                <p>- Fixed wrong item unbox chances, which prevented unboxing unusuals from certain crates</p>
+
+            </div>
+            <p class="changelogtitle">v1.00 - November 4th, 2018</p>
+            <div class="changelogcontent">
+                <p>- Initial release</p>
+            </div>
+        </div>
+        <div id="morecredits" style="display: none;">
+            <p class="creditstitle">TF2 Unboxer v1.15</p>
+            <p id="credits1" class="creditstext">Made by <a href="https://steamcommunity.com/id/kubikill">kubikill</a>
+            </p>
+            <p id="credits2" class="creditstext">Special thanks to <a
+                    href="https://steamcommunity.com/profiles/76561198117761965">Gorno</a></p>
+            <p id="credits3" class="creditstext">Unusual effect images made by <a
+                    href="https://backpack.tf">backpack.tf</a></p>
+                    <br>
+            <p id="credits5" class="creditstext">Translations:</p>
+            <p id="credits6" class="creditstext">Simplified Chinese - <a href="https://steamcommunity.com/id/deluxghost/">deluxghost</a></p>
+            <div id="donationdiv">
+                <p id="credits4" class="donationtitle">If you like this website, please consider a donation:</p>
+                <p class="donation"><a href="https://paypal.me/kubikill">PayPal</a> | <a
+                        href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo">Steam</a></p>
+                <p id="thankyou">Thank you for checking out TF2 Unboxer!</p>
+            </div>
+        </div>
+        <div class="btn" id="morereturnbtn" touch-action="none">
+            <span class="btntext" id="morereturnbtntext">Return to main menu</span>
+        </div>
+    </div>
+
+    <!-- Load Modernizr-->
+    <script src="./js/modernizr.js"></script>
+    <!-- Load TF2 Unboxer scripts-->
+    <script src="./data/text.js"></script>
+    <script src="./data/itemnames.js"></script>
+    <script src="./data/cratenames.js"></script>
+    <script src="./data/unusualeffects.js"></script>
+    <script src="./data/crate.js"></script>
+    <script src="./js/tf2unboxer.js"></script>
+    <!-- Load analytics-->
+    <script src="https://www.googletagmanager.com/gtag/js?id=UA-61874396-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-61874396-2', {
+            'anonymize_ip': true
+        });
+        window.onerror = function (msg, src, line, col) {
+            gtag('event', 'exception', {
+                'description': msg + ' - at line ' + line + ', column ' + col + ', in ' + src,
+                'fatal': false
+            });
+        };
+
+        if (Modernizr.serviceworker) {
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('/sw.js');
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+.statscratesitem,
+.crategriditem {
+    float: left;
+    width: 33.3%;
+    height: 33%;
+}
+.statscratesdetailsitem, .unusualitem {
+    float: left;
+    width: 33.3%;
+    height: 50%;
+}
+@media (orientation:portrait) {
+    @media (max-aspect-ratio: 3/4) {
+        .statscratesitem {
+            width: 50%;
+        }
+    }
+    .crategriditem, .unusualitem {
+        width: 50%;
+    }
+}
+@media (orientation:landscape) {
+    @media (min-aspect-ratio: 4/3) {
+        .statscratesitem {
+            width: 25%;
+        }
+        .unusualitem, .crategriditem, .statscratesdetailsitem {
+            width: 33.3%;
+        }
+    }
+    @media (min-aspect-ratio: 14/9) {
+        .crategriditem {
+            width: 25%;
+        }
+    }
+    @media (min-aspect-ratio: 16/9) {
+        .statscratesitem, .crategriditem {
+            width: 20%;
+        }
+        .statscratesdetailsitem, .unusualitem {
+            width: 25%;
+        }
+    }
+    @media (min-aspect-ratio: 5/2) {
+        .statscratesitem, .crategriditem {
+            width: 16.6%;
+        }
+        .statscratesdetailsitem, .unusualitem {
+            width: 20%;
+        }
+    }
+}
