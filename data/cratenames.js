@@ -503,4 +503,10 @@ var cratename = {
         pol: "Zimowa Skrzynia Barw Wojennych 2019",
         sch: "Winter 2019 War Paint Case"
     },
+    c85: {
+        img: "summer_2020_cosmetic_case.png",
+        eng: "Summer 2020 Cosmetic Case",
+        pol: "Letnia Skrzynia Ozdób 2020",
+		sch: "Summer 2020 Cosmetic Case",
+    }
 }

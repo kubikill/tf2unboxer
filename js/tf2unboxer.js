@@ -2,7 +2,7 @@ console.log("Since you're snooping around, here are some cheats...");
 console.log("Set 'forceStranges' to true to always unbox a strange item whenever possible. Set to false to disable.");
 console.log("Set 'forceWear' to a value between 1 and 5 to unbox a skin with specific wear level. 1 is Factory New, 5 is Battle Scarred. Set to 0 to disable.");
 // Game variables
-var currentCrate = 142;
+var currentCrate = 143;
 var countdown = 5;
 var uncratingCountdown;
 var chanceNumber = 0;
@@ -691,7 +691,7 @@ function unbox() {
         if (cA[crateOrder[currentCrate]].loot["i" + i].quality == 1) {
           var unusualArray = [];
           var gradeRandom = Math.floor((Math.random() * 100) + 1);
-          if (gradeRandom == 100 && cA[crateOrder[currentCrate]].loot["i" + temp.length - 2].quality == 6) {
+          if (gradeRandom == 100) {
             gradeRandom = 6;
           } else if (gradeRandom >= 95) {
             gradeRandom = 5;
@@ -703,6 +703,14 @@ function unbox() {
           for (var ii = 1; ii <= temp.length; ii++) {
             if (cA[crateOrder[currentCrate]].loot["i" + ii].quality == 10 && cA[crateOrder[currentCrate]].loot["i" + ii].grade == gradeRandom) {
               unusualArray.push(cA[crateOrder[currentCrate]].loot["i" + ii].id);
+            }
+          }
+          if (unusualArray.length == 0) {
+            gradeRandom--;
+            for (var ii = 1; ii <= temp.length; ii++) {
+              if (cA[crateOrder[currentCrate]].loot["i" + ii].quality == 10 && cA[crateOrder[currentCrate]].loot["i" + ii].grade == gradeRandom) {
+                unusualArray.push(cA[crateOrder[currentCrate]].loot["i" + ii].id);
+              }
             }
           }
           randomNumber = Math.floor(Math.random() * unusualArray.length);

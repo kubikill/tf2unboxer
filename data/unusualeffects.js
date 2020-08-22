@@ -795,5 +795,59 @@ var unusualeffects = {
         eng: "Pyroland Daydream",
         pol: "Pyrolandowy sen na jawie",
         sch: "Pyroland Daydream",
+    },
+    e134: {
+        img: "verdatica.png",
+        eng: "Verdatica",
+        pol: "Verdatica",
+        sch: "Verdatica",
+    },
+    e135: {
+        img: "aromatica.png",
+        eng: "Aromatica",
+        pol: "Aromatica",
+        sch: "Aromatica",
+    },
+    e136: {
+        img: "chromatica.png",
+        eng: "Chromatica",
+        pol: "Chromatica",
+        sch: "Chromatica",
+    },
+    e137: {
+        img: "prismatica.png",
+        eng: "Prismatica",
+        pol: "Prismatica",
+        sch: "Prismatica",
+    },
+    e138: {
+        img: "bee_swarm.png",
+        eng: "Bee Swarm",
+        pol: "Bee Swarm",
+        sch: "Bee Swarm",
+    },
+    e139: {
+        img: "frisky_fireflies.png",
+        eng: "Frisky Fireflies",
+        pol: "Frisky Fireflies",
+        sch: "Frisky Fireflies",
+    },
+    e140: {
+        img: "smoldering_spirits.png",
+        eng: "Smoldering Spirits",
+        pol: "Smoldering Spirits",
+        sch: "Smoldering Spirits",
+    },
+    e141: {
+        img: "wandering_wisps.png",
+        eng: "Wandering Wisps",
+        pol: "Wandering Wisps",
+        sch: "Wandering Wisps",
+    },
+    e142: {
+        img: "kaleidoscope.png",
+        eng: "Kaleidoscope",
+        pol: "Kaleidoscope",
+        sch: "Kaleidoscope",
     }
 }
