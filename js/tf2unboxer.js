@@ -66,6 +66,19 @@ if (!Modernizr.cssgrid) {
   link.setAttribute("href", "./grid.css");
   document.head.appendChild(link);
 }
+// Check for WebP support
+
+var imageSupport = ".webp";
+var webpTest = new Image();
+webpTest.onload = function () {
+  if (webpTest.height !== 2) {
+    imageSupport = ".png";
+  }
+};
+webpTest.onerror = function () {
+  imageSupport = ".png";
+};
+webpTest.src = 'data:image/webp;base64,UklGRi4AAABXRUJQVlA4TCEAAAAvAUAAEB8wAiMwAgSSNtse/cXjxyCCmrYNWPwmHRH9jwMA';
 // HTML DOM
 var pageCrateName = document.getElementById("cratename");
 var pageCrateSeries = document.getElementById("crateseries");
@@ -488,7 +501,7 @@ function nextCrate() {
   }
   pageCrateName.innerHTML = cratename["c" + cA[crateOrder[currentCrate]].id][language];
   pageCrateSeries.innerHTML = getSeries(crateOrder[currentCrate]);
-  crateImg.src = "./images/crate/" + cratename["c" + cA[crateOrder[currentCrate]].id].img;
+  crateImg.src = "./images/crate/" + cratename["c" + cA[crateOrder[currentCrate]].id].img + imageSupport;
   lootList.innerHTML = "";
   effectList.innerHTML = "";
   generateLootList();
@@ -503,7 +516,7 @@ function previousCrate() {
   }
   pageCrateName.innerHTML = cratename["c" + cA[crateOrder[currentCrate]].id][language];
   pageCrateSeries.innerHTML = getSeries(crateOrder[currentCrate]);
-  crateImg.src = "./images/crate/" + cratename["c" + cA[crateOrder[currentCrate]].id].img;
+  crateImg.src = "./images/crate/" + cratename["c" + cA[crateOrder[currentCrate]].id].img + imageSupport;
   lootList.innerHTML = "";
   effectList.innerHTML = "";
   generateLootList();
@@ -520,7 +533,7 @@ function jumpToCrate(id) {
   currentCrate = id;
   pageCrateName.innerHTML = cratename["c" + cA[crateOrder[currentCrate]].id][language];
   pageCrateSeries.innerHTML = getSeries(crateOrder[currentCrate]);
-  crateImg.src = "./images/crate/" + cratename["c" + cA[crateOrder[currentCrate]].id].img;
+  crateImg.src = "./images/crate/" + cratename["c" + cA[crateOrder[currentCrate]].id].img + imageSupport;
   lootList.innerHTML = "";
   effectList.innerHTML = "";
   generateLootList();
@@ -749,7 +762,7 @@ function unbox() {
         }
         effectImg.src =
           "./images/effect/" +
-          unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]].img;
+          unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]].img + imageSupport;
         effectName.innerHTML =
           unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]][
             language
@@ -762,7 +775,7 @@ function unbox() {
           Math.round(cA[crateOrder[currentCrate]].loot["i" + i].chance * 100) / 10000 + "%";
         lootImg.src = "";
         lootImg.src =
-          "./images/item/" + itemname["i" + unusualPick[randomNumber]].img;
+          "./images/item/" + itemname["i" + unusualPick[randomNumber]].img + imageSupport;
         effectText.style.display = "inline";
         effectName.style.display = "inline";
         if (!forceUnusuals) {
@@ -785,9 +798,9 @@ function unbox() {
           unusualAdd.classList.add("unusualitem");
           unusualAdd.innerHTML =
             '<img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/effect/' +
-            unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]].img +
+            unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]].img + imageSupport +
             '"><img onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" class="statsunusualsimg" src="./images/item/' +
-            itemname["i" + unusualPick[randomNumber]].img +
+            itemname["i" + unusualPick[randomNumber]].img + imageSupport +
             '"><p class="statsunusualsname">' + qualityName +
             itemname["i" + unusualPick[randomNumber]][language] + qualityName2 +
             '</p><p class="statsunusualseffect">' + text.z6[language] +
@@ -826,7 +839,7 @@ function unbox() {
         lootImg.src = "";
         lootImg.src =
           "./images/item/" +
-          itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img;
+          itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img + imageSupport;
         switch (cA[crateOrder[currentCrate]].loot["i" + i].quality) {
           case 1: // 100% Unique
             lootName.classList.add("uniquecolor");
@@ -937,7 +950,7 @@ function unbox() {
                 lootImg.src =
                   "./images/item/skins/" +
                   gradeTable[1] +
-                  itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img;
+                  itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img + imageSupport;
                 itemWear = 1;
                 break;
               case 2:
@@ -946,7 +959,7 @@ function unbox() {
                 lootImg.src =
                   "./images/item/skins/" +
                   gradeTable[2] +
-                  itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img;
+                  itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img + imageSupport;
                 itemWear = 2;
                 break;
               case 4:
@@ -957,7 +970,7 @@ function unbox() {
                 lootImg.src =
                   "./images/item/skins/" +
                   gradeTable[3] +
-                  itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img;
+                  itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img + imageSupport;
                 itemWear = 3;
                 break;
               case 8:
@@ -966,7 +979,7 @@ function unbox() {
                 lootImg.src =
                   "./images/item/skins/" +
                   gradeTable[4] +
-                  itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img;
+                  itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img + imageSupport;
                 itemWear = 4;
                 break;
               case 10:
@@ -974,7 +987,7 @@ function unbox() {
                 lootImg.src =
                   "./images/item/skins/" +
                   gradeTable[5] +
-                  itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img;
+                  itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img + imageSupport;
                 itemWear = 5;
                 break;
             }
@@ -1010,7 +1023,7 @@ function unbox() {
                 effectImg.src =
                   "./images/effect/" +
                   unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]]
-                  .img;
+                  .img + imageSupport;
                 effectName.innerHTML =
                   unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]][
                     language
@@ -1036,10 +1049,10 @@ function unbox() {
                 unusualAdd.innerHTML =
                   '<img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/effect/' +
                   unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]]
-                  .img +
+                  .img + imageSupport +
                   '"><img onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" class="statsunusualsimg" src="./images/item/skins/' +
                   gradeTable[itemWear] +
-                  itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img +
+                  itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img + imageSupport +
                   '"><p class="statsunusualsname">' +
                   qualityName +
                   itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id][language] + qualityName2 +
@@ -1126,7 +1139,7 @@ function unbox() {
               effectImg.src =
                 "./images/effect/" +
                 unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]]
-                .img;
+                .img + imageSupport;
               effectName.innerHTML =
                 unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]][
                   language
@@ -1145,9 +1158,9 @@ function unbox() {
               unusualAdd.innerHTML =
                 '<img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/effect/' +
                 unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]]
-                .img +
+                .img + imageSupport +
                 '"><img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
-                itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img +
+                itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img + imageSupport +
                 '"><p class="statsunusualsname">' +
                 itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id][language] +
                 '</p><p class="statsunusualseffect">' + text.z6[language] +
@@ -1264,7 +1277,7 @@ function unbox() {
               effectImg.src =
                 "./images/effect/" +
                 unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]]
-                .img;
+                .img + imageSupport;
               effectName.innerHTML =
                 unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]][
                   language
@@ -1277,9 +1290,9 @@ function unbox() {
               unusualAdd.innerHTML =
                 '<img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/effect/' +
                 unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]]
-                .img +
+                .img + imageSupport +
                 '"><img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
-                itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img +
+                itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img + imageSupport +
                 '"><p class="statsunusualsname">' +
                 qualityName +
                 itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id][language] + qualityName2 +
@@ -1627,7 +1640,7 @@ function generateCrateDetails(id) {
   statsCratesDetailsName.innerHTML = cratename["c" + cA[id].id][language];
   statsCratesDetailsSeries.innerHTML = getSeries(id);
   statsCratesDetailsImage.src =
-    "./images/crate/" + cratename["c" + cA[id].id].img;
+    "./images/crate/" + cratename["c" + cA[id].id].img + imageSupport;
   statsCratesDetailsUnbox.innerHTML = gameSave["c" + id].num;
   var cratesDetailsList = document.getElementsByClassName(
     "statscratesdetailsitem"
@@ -1668,7 +1681,7 @@ function generateCrateDetails(id) {
         if (cA[id].loot["i" + i].grade != 0) {
           itemAdd.innerHTML =
             '<img class="statscratesimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
-            itemname["i" + cA[id].loot["i" + i].id].img +
+            itemname["i" + cA[id].loot["i" + i].id].img + imageSupport +
             '"><p class="statsitemname ' +
             gradeTable3[cA[id].loot["i" + i].grade] +
             '">' +
@@ -1680,7 +1693,7 @@ function generateCrateDetails(id) {
         } else {
           itemAdd.innerHTML =
             '<img class="statscratesimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
-            itemname["i" + cA[id].loot["i" + i].id].img +
+            itemname["i" + cA[id].loot["i" + i].id].img + imageSupport +
             '"><p class="statsitemname ' +
             qualityClass +
             '">' +
@@ -1709,7 +1722,7 @@ function generateCrateDetails(id) {
           itemAdd.innerHTML =
             '<img class="statscratesimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/skins/' +
             gradeTable[ii] +
-            itemname["i" + cA[id].loot["i" + i].id].img +
+            itemname["i" + cA[id].loot["i" + i].id].img + imageSupport +
             '"><p class="statsitemname ' +
             gradeTable3[cA[id].loot["i" + i].grade] +
             '">' +
@@ -1733,7 +1746,7 @@ function generateCrateDetails(id) {
             itemAdd.innerHTML =
               '<img class="statscratesimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/skins/' +
               gradeTable[ii - 5] +
-              itemname["i" + cA[id].loot["i" + i].id].img +
+              itemname["i" + cA[id].loot["i" + i].id].img + imageSupport +
               '"><p class="statsitemname ' +
               gradeTable3[cA[id].loot["i" + i].grade] +
               '">' +
@@ -1757,7 +1770,7 @@ function generateCrateDetails(id) {
           itemAdd.classList.add("statscratesdetailsitem");
           itemAdd.innerHTML =
             '<img class="statscratesimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
-            itemname["i" + cA[id].loot["i" + i].id].img +
+            itemname["i" + cA[id].loot["i" + i].id].img + imageSupport +
             '"><p class="statsitemname' +
             '">' +
             itemname["i" + cA[id].loot["i" + i].id][language] +
@@ -1770,7 +1783,7 @@ function generateCrateDetails(id) {
           itemAdd.classList.add("statscratesdetailsitem");
           itemAdd.innerHTML =
             '<img class="statscratesimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
-            itemname["i" + cA[id].loot["i" + i].id].img +
+            itemname["i" + cA[id].loot["i" + i].id].img + imageSupport +
             '"><p class="statsitemname hauntedcolor' +
             '">' + effectFirst("StrangeHaunted") +
             itemname["i" + cA[id].loot["i" + i].id][language] + effectLast("StrangeHaunted") +
@@ -1784,7 +1797,7 @@ function generateCrateDetails(id) {
             itemAdd.classList.add("statscratesdetailsitem");
             itemAdd.innerHTML =
               '<img class="statscratesimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
-              itemname["i" + cA[id].loot["i" + i].id].img +
+              itemname["i" + cA[id].loot["i" + i].id].img + imageSupport +
               '"><p class="statsitemname ' +
               gradeTable3[cA[id].loot["i" + i].grade] +
               '">' +
@@ -1798,7 +1811,7 @@ function generateCrateDetails(id) {
             itemAdd.classList.add("statscratesdetailsitem");
             itemAdd.innerHTML =
               '<img class="statscratesimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
-              itemname["i" + cA[id].loot["i" + i].id].img +
+              itemname["i" + cA[id].loot["i" + i].id].img + imageSupport +
               '"><p class="statsitemname ' +
               gradeTable3[cA[id].loot["i" + i].grade] +
               '">' + effectFirst("StrangeSpan") +
@@ -1812,7 +1825,7 @@ function generateCrateDetails(id) {
             itemAdd.classList.add("statscratesdetailsitem");
             itemAdd.innerHTML =
               '<img class="statscratesimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
-              itemname["i" + cA[id].loot["i" + i].id].img +
+              itemname["i" + cA[id].loot["i" + i].id].img + imageSupport +
               '"><p class="statsitemname">' +
               itemname["i" + cA[id].loot["i" + i].id][language] +
               '</p><p class="statsitemunbox">' + text.s13[language] + '<span class="unboxcount">' +
@@ -1824,7 +1837,7 @@ function generateCrateDetails(id) {
             itemAdd.classList.add("statscratesdetailsitem");
             itemAdd.innerHTML =
               '<img class="statscratesimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
-              itemname["i" + cA[id].loot["i" + i].id].img +
+              itemname["i" + cA[id].loot["i" + i].id].img + imageSupport +
               '"><p class="statsitemname strangecolor">' + effectFirst("Strange") +
               itemname["i" + cA[id].loot["i" + i].id][language] + effectLast("Strange") +
               '</p><p class="statsitemunbox">' + text.s13[language] + '<span class="unboxcount">' +
@@ -1851,7 +1864,7 @@ function generateCrateDetails(id) {
           }
           itemAdd.innerHTML =
             '<img class="statscratesimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
-            itemname["i" + cA[id].loot["i" + i].id].img +
+            itemname["i" + cA[id].loot["i" + i].id].img + imageSupport +
             '"><p class="statsitemname">' +
             qualityName +
             itemname["i" + cA[id].loot["i" + i].id][language] + qualityNameSpan +
@@ -2052,10 +2065,10 @@ function loadUnusuals() {
         }
         unusualAdd.innerHTML =
           '<img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/effect/' +
-          unusualeffects["e" + unusualSave[i].fx].img +
+          unusualeffects["e" + unusualSave[i].fx].img + imageSupport +
           '"><img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/skins/' +
           gradeTable[wear] +
-          itemname["i" + unusualSave[i].id].img +
+          itemname["i" + unusualSave[i].id].img + imageSupport +
           '"><p class="statsunusualsname">' +
           strange +
           itemname["i" + unusualSave[i].id][language] +
@@ -2068,9 +2081,9 @@ function loadUnusuals() {
       } else if (unusualSave[i].hasOwnProperty("st")) {
         unusualAdd.innerHTML =
           '<img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/effect/' +
-          unusualeffects["e" + unusualSave[i].fx].img +
+          unusualeffects["e" + unusualSave[i].fx].img + imageSupport +
           '"><img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
-          itemname["i" + unusualSave[i].id].img +
+          itemname["i" + unusualSave[i].id].img + imageSupport +
           '"><p class="statsunusualsname">' + effectFirst("StrangeSpan") +
           itemname["i" + unusualSave[i].id][language] + effectLast("StrangeSpan") +
           '</p><p class="statsunusualseffect">' + text.z6[language] +
@@ -2079,9 +2092,9 @@ function loadUnusuals() {
       } else {
         unusualAdd.innerHTML =
           '<img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/effect/' +
-          unusualeffects["e" + unusualSave[i].fx].img +
+          unusualeffects["e" + unusualSave[i].fx].img + imageSupport +
           '"><img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
-          itemname["i" + unusualSave[i].id].img +
+          itemname["i" + unusualSave[i].id].img + imageSupport +
           '"><p class="statsunusualsname">' +
           itemname["i" + unusualSave[i].id][language] +
           '</p><p class="statsunusualseffect">' + text.z6[language] +
@@ -2160,7 +2173,7 @@ function generateGrid(override) {
     crateSelectGridAdd.classList.add("crategriditem");
     crateSelectGridAdd.innerHTML =
       '<img class="statscratesimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/crate/' +
-      cratename["c" + cA[crateOrder[i]].id].img +
+      cratename["c" + cA[crateOrder[i]].id].img + imageSupport +
       '"><p class="statscratesname">' +
       cratename["c" + cA[crateOrder[i]].id][language] +
       '</p><p class="statscratesseries">' +
@@ -2192,7 +2205,7 @@ function generateStatsCrates(override) {
     statsCratesListAdd.classList.add("statscratesitem");
     statsCratesListAdd.innerHTML =
       '<img class="statscratesimg" src="./images/crate/' +
-      cratename["c" + cA[crateOrder[i]].id].img +
+      cratename["c" + cA[crateOrder[i]].id].img + imageSupport +
       '"><p class="statscratesname">' +
       cratename["c" + cA[crateOrder[i]].id][language] +
       '</p><p class="statscratesseries">' +
@@ -2226,7 +2239,7 @@ function generateStatsCrates(override) {
 document.addEventListener("DOMContentLoaded", function () {
   pageCrateName.innerHTML = cratename["c" + cA[crateOrder[currentCrate]].id][language];
   pageCrateSeries.innerHTML = getSeries(crateOrder[currentCrate]);
-  crateImg.src = "./images/crate/" + cratename["c" + cA[crateOrder[currentCrate]].id].img;
+  crateImg.src = "./images/crate/" + cratename["c" + cA[crateOrder[currentCrate]].id].img + imageSupport;
   generateLootList();
   generateEffectList();
   generateGameSave();
