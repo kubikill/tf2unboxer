@@ -15,8 +15,8 @@ self.addEventListener('activate', event => {
 });
 self.addEventListener('fetch', function (evt) {
   const requestURL = new URL(evt.request.url);
-  // Use cache and fallback to network, add to cache if not already for PNGs, SVGs, MP3s, WOFFs and WOFF2s
-  if (/\.png$/.test(requestURL.pathname) || /\.svg$/.test(requestURL.pathname) || /\.mp3$/.test(requestURL.pathname) || /\.woff$/.test(requestURL.pathname) || /\.woff2$/.test(requestURL.pathname)) {
+  // Use cache and fallback to network, add to cache if not already for WEBPs, PNGs, SVGs, MP3s, WOFFs and WOFF2s
+  if (/\.webp$/.test(requestURL.pathname) || /\.png$/.test(requestURL.pathname) || /\.svg$/.test(requestURL.pathname) || /\.mp3$/.test(requestURL.pathname) || /\.woff$/.test(requestURL.pathname) || /\.woff2$/.test(requestURL.pathname)) {
     evt.respondWith(cacheStatic(evt.request));
   } else { // Use network and fallback to cache, then update cache for everything else
     evt.respondWith(cacheDynamic(evt.request));
