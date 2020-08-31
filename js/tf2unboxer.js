@@ -809,16 +809,16 @@ function unbox() {
             ] +
             "</p>";
           statsUnusuals.appendChild(unusualAdd);
+          unboxDelay = true;
+          unboxAgainBtn.classList.remove("btn");
+          unboxAgainBtn.classList.add("btndisabled");
+          setTimeout(function () {
+            unboxDelay = false;
+            unboxAgainBtn.classList.remove("btndisabled");
+            unboxAgainBtn.classList.add("btn");
+            canUnbox = true;
+          }, 3000);
         }
-        unboxDelay = true;
-        unboxAgainBtn.classList.remove("btn");
-        unboxAgainBtn.classList.add("btndisabled");
-        setTimeout(function () {
-          unboxDelay = false;
-          unboxAgainBtn.classList.remove("btndisabled");
-          unboxAgainBtn.classList.add("btn");
-          canUnbox = true;
-        }, 3000);
         if (forceUnusuals) {
           soundToPlay = "unboxed";
         } else {
@@ -1036,6 +1036,16 @@ function unbox() {
                     fx: cA[crateOrder[currentCrate]].effects[randomNumber2],
                     wr: itemWear
                   });
+                  statsUnusuals.appendChild(unusualAdd);
+                  unboxDelay = true;
+                  unboxAgainBtn.classList.remove("btn");
+                  unboxAgainBtn.classList.add("btndisabled");
+                  setTimeout(function () {
+                    unboxDelay = false;
+                    unboxAgainBtn.classList.remove("btndisabled");
+                    unboxAgainBtn.classList.add("btn");
+                    canUnbox = true;
+                  }, 3000);
                 }
                 if (itemWear > 5) {
                   itemWear -= 5;
@@ -1064,16 +1074,6 @@ function unbox() {
                     language
                   ] +
                   "</p>";
-                statsUnusuals.appendChild(unusualAdd);
-                unboxDelay = true;
-                unboxAgainBtn.classList.remove("btn");
-                unboxAgainBtn.classList.add("btndisabled");
-                setTimeout(function () {
-                  unboxDelay = false;
-                  unboxAgainBtn.classList.remove("btndisabled");
-                  unboxAgainBtn.classList.add("btn");
-                  canUnbox = true;
-                }, 3000);
                 if (forceUnusuals) {
                   soundToPlay = "unboxed";
                 } else {
@@ -1152,6 +1152,16 @@ function unbox() {
                   fx: cA[crateOrder[currentCrate]].effects[randomNumber2]
                 });
                 localStorage.setItem("unusualSave", JSON.stringify(unusualSave));
+                statsUnusuals.appendChild(unusualAdd);
+                unboxDelay = true;
+                unboxAgainBtn.classList.remove("btn");
+                unboxAgainBtn.classList.add("btndisabled");
+                setTimeout(function () {
+                  unboxDelay = false;
+                  unboxAgainBtn.classList.remove("btndisabled");
+                  unboxAgainBtn.classList.add("btn");
+                  canUnbox = true;
+                }, 3000);
               }
               var unusualAdd = document.createElement("div");
               unusualAdd.classList.add("unusualitem");
@@ -1168,16 +1178,6 @@ function unbox() {
                   language
                 ] +
                 "</p>";
-              statsUnusuals.appendChild(unusualAdd);
-              unboxDelay = true;
-              unboxAgainBtn.classList.remove("btn");
-              unboxAgainBtn.classList.add("btndisabled");
-              setTimeout(function () {
-                unboxDelay = false;
-                unboxAgainBtn.classList.remove("btndisabled");
-                unboxAgainBtn.classList.add("btn");
-                canUnbox = true;
-              }, 3000);
               if (forceUnusuals) {
                 soundToPlay = "unboxed";
               } else {
@@ -1302,19 +1302,19 @@ function unbox() {
                 ] +
                 "</p>";
               statsUnusuals.appendChild(unusualAdd);
-              unboxDelay = true;
-              unboxAgainBtn.classList.remove("btn");
-              unboxAgainBtn.classList.add("btndisabled");
-              setTimeout(function () {
-                unboxDelay = false;
-                unboxAgainBtn.classList.remove("btndisabled");
-                unboxAgainBtn.classList.add("btn");
-                canUnbox = true;
-              }, 3000);
               if (forceUnusuals) {
                 soundToPlay = "unboxed";
               } else {
                 soundToPlay = "unusualunboxed";
+                unboxDelay = true;
+                unboxAgainBtn.classList.remove("btn");
+                unboxAgainBtn.classList.add("btndisabled");
+                setTimeout(function () {
+                  unboxDelay = false;
+                  unboxAgainBtn.classList.remove("btndisabled");
+                  unboxAgainBtn.classList.add("btn");
+                  canUnbox = true;
+                }, 3000);
               }
               timesUnboxedText.innerHTML = text.u9[language];
               timesUnboxedCount.innerHTML = unusualSave.length;
