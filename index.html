@@ -438,7 +438,7 @@
             'anonymize_ip': true
         });
         window.onerror = function (msg, src, line, col) {
-            gtag('send', 'exception', {
+            gtag('event', 'exception', {
                 'description': msg + ' - at line ' + line + ', column ' + col + ', in ' + src,
                 'fatal': false
             });

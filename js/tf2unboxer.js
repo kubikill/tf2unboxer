@@ -778,21 +778,21 @@ function unbox() {
           "./images/item/" + itemname["i" + unusualPick[randomNumber]].img + imageSupport;
         effectText.style.display = "inline";
         effectName.style.display = "inline";
+        if (cA[crateOrder[currentCrate]].loot["i" + i].quality == 1 && (Math.floor((Math.random() * 10) + 1) == 1 || forceStranges)) {
+          if (!forceUnusuals) { unusualSave.push({
+            id: unusualPick[randomNumber],
+            fx: cA[crateOrder[currentCrate]].effects[randomNumber2],
+            st: 1
+          })};
+          qualityName = effectFirst('StrangeSpan');
+          qualityName2 = effectLast('StrangeSpan');
+        } else if (!forceUnusuals) {
+          unusualSave.push({
+            id: unusualPick[randomNumber],
+            fx: cA[crateOrder[currentCrate]].effects[randomNumber2]
+          });
+        }
         if (!forceUnusuals) {
-          if (cA[crateOrder[currentCrate]].loot["i" + i].quality == 1 && (Math.floor((Math.random() * 10) + 1) == 1 || forceStranges)) {
-            unusualSave.push({
-              id: unusualPick[randomNumber],
-              fx: cA[crateOrder[currentCrate]].effects[randomNumber2],
-              st: 1
-            });
-            qualityName = effectFirst('StrangeSpan');
-            qualityName2 = effectLast('StrangeSpan');
-          } else {
-            unusualSave.push({
-              id: unusualPick[randomNumber],
-              fx: cA[crateOrder[currentCrate]].effects[randomNumber2]
-            });
-          }
           localStorage.setItem("unusualSave", JSON.stringify(unusualSave));
           var unusualAdd = document.createElement("div");
           unusualAdd.classList.add("unusualitem");
