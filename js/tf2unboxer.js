@@ -1030,6 +1030,26 @@ function unbox() {
                   ];
                 effectText.style.display = "inline";
                 effectName.style.display = "inline";
+                var unusualAdd = document.createElement("div");
+                unusualAdd.classList.add("unusualitem");
+                unusualAdd.innerHTML =
+                  '<img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/effect/' +
+                  unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]]
+                  .img + imageSupport +
+                  '"><img onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" class="statsunusualsimg" src="./images/item/skins/' +
+                  gradeTable[itemWear] +
+                  itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img + imageSupport +
+                  '"><p class="statsunusualsname">' +
+                  qualityName +
+                  itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id][language] + qualityName2 +
+                  " (" +
+                  gradeTable2[itemWear] +
+                  ")" +
+                  '</p><p class="statsunusualseffect">' + text.z6[language] +
+                  unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]][
+                    language
+                  ] +
+                  "</p>";
                 if (!forceUnusuals) {
                   unusualSave.push({
                     id: cA[crateOrder[currentCrate]].loot["i" + i].id,
@@ -1054,26 +1074,6 @@ function unbox() {
                   "unusualSave",
                   JSON.stringify(unusualSave)
                 );
-                var unusualAdd = document.createElement("div");
-                unusualAdd.classList.add("unusualitem");
-                unusualAdd.innerHTML =
-                  '<img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/effect/' +
-                  unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]]
-                  .img + imageSupport +
-                  '"><img onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" class="statsunusualsimg" src="./images/item/skins/' +
-                  gradeTable[itemWear] +
-                  itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img + imageSupport +
-                  '"><p class="statsunusualsname">' +
-                  qualityName +
-                  itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id][language] + qualityName2 +
-                  " (" +
-                  gradeTable2[itemWear] +
-                  ")" +
-                  '</p><p class="statsunusualseffect">' + text.z6[language] +
-                  unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]][
-                    language
-                  ] +
-                  "</p>";
                 if (forceUnusuals) {
                   soundToPlay = "unboxed";
                 } else {
