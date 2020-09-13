@@ -725,6 +725,14 @@ function unbox() {
                 unusualArray.push(cA[crateOrder[currentCrate]].loot["i" + ii].id);
               }
             }
+            if (unusualArray.length == 0) {
+              gradeRandom--;
+              for (var ii = 1; ii <= temp.length; ii++) {
+                if (cA[crateOrder[currentCrate]].loot["i" + ii].quality == 10 && cA[crateOrder[currentCrate]].loot["i" + ii].grade == gradeRandom) {
+                  unusualArray.push(cA[crateOrder[currentCrate]].loot["i" + ii].id);
+                }
+              }
+            }
           }
           randomNumber = Math.floor(Math.random() * unusualArray.length);
           unusualPick = unusualArray;
@@ -1151,6 +1159,21 @@ function unbox() {
                   id: cA[crateOrder[currentCrate]].loot["i" + i].id,
                   fx: cA[crateOrder[currentCrate]].effects[randomNumber2]
                 });
+                var unusualAdd = document.createElement("div");
+                unusualAdd.classList.add("unusualitem");
+                unusualAdd.innerHTML =
+                  '<img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/effect/' +
+                  unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]]
+                  .img + imageSupport +
+                  '"><img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
+                  itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img + imageSupport +
+                  '"><p class="statsunusualsname">' +
+                  itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id][language] +
+                  '</p><p class="statsunusualseffect">' + text.z6[language] +
+                  unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]][
+                    language
+                  ] +
+                  "</p>";
                 localStorage.setItem("unusualSave", JSON.stringify(unusualSave));
                 statsUnusuals.appendChild(unusualAdd);
                 unboxDelay = true;
@@ -1163,21 +1186,6 @@ function unbox() {
                   canUnbox = true;
                 }, 3000);
               }
-              var unusualAdd = document.createElement("div");
-              unusualAdd.classList.add("unusualitem");
-              unusualAdd.innerHTML =
-                '<img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/effect/' +
-                unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]]
-                .img + imageSupport +
-                '"><img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
-                itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img + imageSupport +
-                '"><p class="statsunusualsname">' +
-                itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id][language] +
-                '</p><p class="statsunusualseffect">' + text.z6[language] +
-                unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]][
-                  language
-                ] +
-                "</p>";
               if (forceUnusuals) {
                 soundToPlay = "unboxed";
               } else {
@@ -1284,7 +1292,10 @@ function unbox() {
                 ];
               effectText.style.display = "inline";
               effectName.style.display = "inline";
-              localStorage.setItem("unusualSave", JSON.stringify(unusualSave));
+              if (forceUnusuals) {
+                soundToPlay = "unboxed";
+              } else {
+                localStorage.setItem("unusualSave", JSON.stringify(unusualSave));
               var unusualAdd = document.createElement("div");
               unusualAdd.classList.add("unusualitem");
               unusualAdd.innerHTML =
@@ -1302,9 +1313,6 @@ function unbox() {
                 ] +
                 "</p>";
               statsUnusuals.appendChild(unusualAdd);
-              if (forceUnusuals) {
-                soundToPlay = "unboxed";
-              } else {
                 soundToPlay = "unusualunboxed";
                 unboxDelay = true;
                 unboxAgainBtn.classList.remove("btn");
