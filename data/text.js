@@ -330,14 +330,14 @@ var text = {
         sch: '稀有效果图像由 <a href="https://backpack.tf">backpack.tf</a> 制作'
     },
     c4: {
-        eng: 'TF2 Unboxer was made almost entirely by a single person in his spare time. If you like this website, please consider donating:',
-        pol: 'TF2 Unboxer zostało stworzone prawie całkowicie przez jedną osobę w jego wolnym czasie. Jeśli spodobała ci się ta strona, proszę o przekazanie darowizny:',
+        eng: 'Unboxer.tf was made almost entirely by a single person in his spare time. If you like this website, please consider donating:',
+        pol: 'Unboxer.tf został stworzony prawie całkowicie przez jedną osobę w jego wolnym czasie. Jeśli spodobała ci się ta strona, proszę o przekazanie darowizny:',
         sch: '如果您喜欢这个网站，请考虑捐助：'
     },
     c5: {
-        eng: 'Thank you for checking out TF2 Unboxer!',
-        pol: 'Dziękuję za skorzystanie z TF2 Unboxera!',
-        sch: '感谢您使用 TF2 Unboxer！'
+        eng: 'Thank you for checking out Unboxer.tf!',
+        pol: 'Dziękuję za skorzystanie z Unboxer.tf!',
+        sch: '感谢您使用 Unboxer.tf！'
     },
 	c6: {
 		eng: 'Translators:',

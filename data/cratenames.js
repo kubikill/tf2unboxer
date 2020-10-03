@@ -508,5 +508,17 @@ var cratename = {
         eng: "Summer 2020 Cosmetic Case",
         pol: "Letnia Skrzynia Ozdób 2020",
 		sch: "Summer 2020 Cosmetic Case",
+    },
+    c86: {
+        img: "wicked_windfall_case",
+        eng: "Wicked Windfall Case",
+        pol: "Wicked Windfall Case",
+        sch: "Wicked Windfall Case",
+    },
+    c87: {
+        img: "scream_fortress_xii_war_paint_case",
+        eng: "Scream Fortress XII War Paint Case",
+        pol: "Scream Fortress XII War Paint Case",
+        sch: "Scream Fortress XII War Paint Case",
     }
 }

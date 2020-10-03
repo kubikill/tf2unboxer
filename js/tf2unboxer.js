@@ -2,7 +2,7 @@ console.log("Since you're snooping around, here are some cheats...");
 console.log("Set 'forceStranges' to true to always unbox a strange item whenever possible. Set to false to disable.");
 console.log("Set 'forceWear' to a value between 1 and 5 to unbox a skin with specific wear level. 1 is Factory New, 5 is Battle Scarred. Set to 0 to disable.");
 // Game variables
-var currentCrate = 143;
+var currentCrate = 145;
 var countdown = 5;
 var uncratingCountdown;
 var chanceNumber = 0;

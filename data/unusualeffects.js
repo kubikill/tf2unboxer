@@ -849,5 +849,53 @@ var unusualeffects = {
         eng: "Kaleidoscope",
         pol: "Kalejdoskop",
         sch: "Kaleidoscope",
-    }
+    },
+    e143: {
+        img: "green_giggler",
+        eng: "Green Giggler",
+        pol: "Green Giggler",
+        sch: "Green Giggler",
+    },
+    e144: {
+        img: "laugh_o_lantern",
+        eng: "Laugh-O-Lantern",
+        pol: "Laugh-O-Lantern",
+        sch: "Laugh-O-Lantern",
+    },
+    e145: {
+        img: "plum_prankster",
+        eng: "Plum Prankster",
+        pol: "Plum Prankster",
+        sch: "Plum Prankster",
+    },
+    e146: {
+        img: "pyroland_nightmare",
+        eng: "Pyroland Nightmare",
+        pol: "Pyroland Nightmare",
+        sch: "Pyroland Nightmare",
+    },
+    e147: {
+        img: "gravelly_ghoul",
+        eng: "Gravelly Ghoul",
+        pol: "Gravelly Ghoul",
+        sch: "Gravelly Ghoul",
+    },
+    e148: {
+        img: "vexed_volcanics",
+        eng: "Vexed Volcanics",
+        pol: "Vexed Volcanics",
+        sch: "Vexed Volcanics",
+    },
+    e149: {
+        img: "gourdian_angel",
+        eng: "Gourdian Angel",
+        pol: "Gourdian Angel",
+        sch: "Gourdian Angel",
+    },
+    e150: {
+        img: "pumpkin_party",
+        eng: "Pumpkin Party",
+        pol: "Pumpkin Party",
+        sch: "Pumpkin Party",
+    },
 }
