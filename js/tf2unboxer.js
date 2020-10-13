@@ -2284,3 +2284,32 @@ document.addEventListener("DOMContentLoaded", function () {
       }
   }
 });
+
+var betaDismissed = localStorage.getItem("betadismissed");
+var betaBtn = document.querySelector("#steambtn");
+var betaContainer = document.querySelector("#betacontainer");
+var betaCloseBtn = document.querySelector("#betaclosebtn");
+var betaInterval;
+
+if (betaDismissed != "true") {
+  betaInterval = setInterval(function() {
+    betaBtn.style.opacity = 0;
+    setTimeout(function() {
+      betaBtn.style.opacity = 1;
+    }, 200)
+  }, 1500)
+} else {
+  betaBtn.classList.remove("active");
+}
+
+betaBtn.onclick = function() {
+  localStorage.setItem("betadismissed", "true");
+  clearInterval(betaInterval);
+  betaBtn.style.opacity = 1;
+  betaBtn.classList.remove("active");
+  betaContainer.style.display = "flex";
+}
+
+betaCloseBtn.onclick = function () {
+  betaContainer.style.display = "none";
+}

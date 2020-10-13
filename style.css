@@ -325,6 +325,56 @@ a {
     color: #222222;
 }
 
+#betacontainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #0006;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#betadiv {
+    max-width: 80vh;
+    background-color: #292526;
+    border: 0.5vh solid #554D4A;
+    border-radius: 2.5vh;
+    z-index: 100;
+    color: #EBE2CA;
+    font-family: "TF2 Secondary";
+    font-size: 2.2vh;
+    text-align: center;
+    padding: 0 1vh;
+    position: relative;
+}
+#betatitle {
+    font-size: 3vh;
+    font-family: "TF2 Build";
+}
+#betadiv a {
+    font-weight: normal;
+}
+#betabtns {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1vh;
+}
+#betabtns div,
+#betabtns a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    height: 6vh;
+    flex-basis: 45%;
+}
+#betabtns a div {
+    flex-basis: 100%;
+}
+
 #steambtn,
 #soundbtn {
     width: 10vh;
@@ -332,8 +382,8 @@ a {
 }
 
 #steamicon {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
 }
 
 #soundicon {
