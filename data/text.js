@@ -420,9 +420,9 @@ var text = {
         sch: "战痕累累"
     },
     t1: {
-        eng: "Steam Group",
-        pol: "Grupa na Steamie",
-        sch: "Steam 组"
+        eng: "Version 2.0 BETA",
+        pol: "Version 2.0 BETA",
+        sch: "Version 2.0 BETA"
     },
     t2: {
         eng: "Mute sound",
