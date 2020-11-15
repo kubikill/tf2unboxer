@@ -1,55 +1,58 @@
-self.addEventListener('install', function (evt) {
-  self.skipWaiting();
-  evt.waitUntil(
-    caches.open('cache').then(function (cache) {
-      return cache.addAll(
-        [
-          '/'
-        ]
-      );
-    })
-  );
-});
-self.addEventListener('activate', event => {
-  event.waitUntil(self.clients.claim());
-});
-self.addEventListener('fetch', function (evt) {
-  const requestURL = new URL(evt.request.url);
-  // Use cache and fallback to network, add to cache if not already for WEBPs, PNGs, SVGs, MP3s, WOFFs and WOFF2s
-  if (/\.webp$/.test(requestURL.pathname) || /\.png$/.test(requestURL.pathname) || /\.svg$/.test(requestURL.pathname) || /\.mp3$/.test(requestURL.pathname) || /\.woff$/.test(requestURL.pathname) || /\.woff2$/.test(requestURL.pathname)) {
-    evt.respondWith(cacheStatic(evt.request));
-  } else { // Use network and fallback to cache, then update cache for everything else
-    evt.respondWith(cacheDynamic(evt.request));
-    evt.waitUntil(update(evt.request));
-  }
+self.addEventListener('install', evt => {
+    self.skipWaiting();
+    evt.waitUntil(
+        caches.open('unboxertf').then(cache => {
+            return cache.addAll(
+                [
+                    './'
+                ]
+            );
+        })
+    );
 });
 
-async function cacheDynamic(request) {
-  const cache = await caches.open('cache');
-    try {
-      return await fetch(request);
-    } catch (err) {
-      return cache.match(request);
-    };
-};
-async function cacheStatic(request) {
-  const cache = await caches.open('cache');
-  return cache.match(request).then(function (matching) {
-    if (matching) {
-      return matching;
-    } else {
-      update(request);
-      return fetch(request);
-    }
-  });
-};
-async function update(request) {
-  const cache = await caches.open('cache');
-  try {
-    const response = await fetch(request);
-    await cache.put(request, response.clone());
-    return response;
-  } catch (err) {
-    console.log("Cache update failed")
-  }
-};
+self.addEventListener('fetch', event => {
+    const fileExt = event.request.url.split('.').pop();
+    event.respondWith(
+        caches.open('unboxertf').then(cache => {
+            if (["webp", "png", "mp3", "woff2", "ttf", "woff", "svg"].includes(fileExt)) {
+                return caches.match(event.request).then(res => {
+                    if (res != undefined) {
+                        return res;
+                    } else {
+                        return fetch(event.request)
+                            .then(response => {
+                                if (response.ok) {
+                                    cache.put(event.request, response.clone());
+                                    return response;
+                                } else {
+                                    throw new Error(`${response.url} - Resource is not in cache and can't reach resource from network`);
+                                }
+                            });
+                    }
+                })
+            } else {
+                return fetch(event.request)
+                    .then(response => {
+                        if (response.type == "opaque" || response.ok) {
+                            if (event.request.method != "POST" && response.type != "opaque") {
+                                cache.put(event.request, response.clone());
+                            }
+                            return response;
+                        } else {
+                            throw new Error;
+                        }
+                    }).catch(() => {
+                        return caches.match(event.request).then(response => {
+                            if (response != undefined) {
+                                return response;
+                            } else {
+                                throw new Error(`${event.request.url} - Can't reach resource from network, and resource is not in cache`);
+                            }
+                        });
+                    })
+            }
+        })
+    );
+
+});

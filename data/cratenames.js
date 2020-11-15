@@ -1,524 +1,698 @@
-var cratename = {
-    c1: {
+let dataCrates = {
+    1: {
         img: "mann_co_supply_crate",
         eng: "Mann Co. Supply Crate",
         pol: "Skrzynka Mann Co.",
-        sch: "曼恩公司供应箱"
+        sch: "曼恩公司供应箱",
+        fre: "Caisse Mann Co.",
+        bra: "Caixa de Suprimentos da Mann Co."
     },
-    c2: {
+    2: {
         img: "festive_winter_crate",
         eng: "Festive Winter Crate",
-        pol: "Świąteczna Zimowa Skrzynka",
-        sch: "欢冬补给箱"
+        pol: "Świąteczna zimowa skrzynka",
+        sch: "欢冬补给箱",
+        fre: "Caisse festive de Noël",
+        bra: "Caixa Festiva de Fim de Ano"
     },
-    c3: {
+    3: {
         img: "mann_co_audition_reel",
         eng: "Mann Co. Audition Reel",
-        pol: "Taśma Prób Nagraniowych Mann Co.",
-        sch: "曼恩公司影像资料箱"
+        pol: "Taśma prób nagraniowych Mann Co.",
+        sch: "曼恩公司影像资料箱",
+        fre: "Bobine Mann Co.",
+        bra: "Rolo de Filme da Mann Co."
     },
-    c4: {
+    4: {
         img: "concealed_killer_weapons_case",
         eng: "Concealed Killer Weapons Case",
-        pol: "Skrzynia Skrytego Mordercy",
-        sch: "隐秘杀手武器箱"
+        pol: "Skrzynia skrytego mordercy",
+        sch: "隐秘杀手武器箱",
+        fre: "Caisse d'armes de la Collection du Tueur Dissimulé",
+        bra: "Caixa de Arma do Assassino Furtivo"
     },
-    c5: {
+    5: {
         img: "refreshing_summer_cooler",
         eng: "Refreshing Summer Cooler",
-        pol: "Orzeźwiająca Letnia Lodówka",
-        sch: "冰凉夏日冷藏箱"
+        pol: "Orzeźwiająca letnia lodówka",
+        sch: "冰凉夏日冷藏箱",
+        fre: "Glacière Rafraîchissante de l'Été",
+        bra: "Cooler Refrescante de Férias"
     },
-    c6: {
+    6: {
         img: "salvaged_mann_co_supply_crate",
         eng: "Salvaged Mann Co. Supply Crate",
-        pol: "Ocalona Skrzynka Mann Co.",
-        sch: "废弃的曼恩公司供应箱"
+        pol: "Ocalona skrzynka Mann Co.",
+        sch: "废弃的曼恩公司供应箱",
+        fre: "Caisse Mann Co. de récupération",
+        bra: "Caixa Recuperada de Suprimentos da Mann Co."
     },
-    c7: {
+    7: {
         img: "naughty_winter_crate",
         eng: "Naughty Winter Crate",
-        pol: "Niegrzeczna Zimowa Skrzynka",
-        sch: "邋遢的欢冬供应箱"
+        pol: "Niegrzeczna zimowa skrzynka",
+        sch: "邋遢的欢冬供应箱",
+        fre: "Caisse d'hiver vilaine",
+        bra: "Caixa Malcomportada de Fim de Ano"
     },
-    c8: {
+    8: {
         img: "nice_winter_crate",
         eng: "Nice Winter Crate",
-        pol: "Grzeczna Zimowa Skrzynka",
-        sch: "精美的欢冬供应箱"
+        pol: "Grzeczna zimowa skrzynka",
+        sch: "精美的欢冬供应箱",
+        fre: "Caisse d'hiver bien sage",
+        bra: "Caixa Bem-comportada de Fim de Ano"
     },
-    c9: {
+    9: {
         img: "scorched_crate",
         eng: "Scorched Crate",
-        pol: "Osmalona Skrzynka",
-        sch: "被烧焦的箱子"
+        pol: "Osmalona skrzynka",
+        sch: "被烧焦的箱子",
+        fre: "Caisse roussie",
+        bra: "Caixa Chamuscada"
     },
-    c10: {
+    10: {
         img: "fall_crate",
         eng: "Fall Crate",
-        pol: "Jesienna Skrzynka",
-        sch: "秋季补给箱"
+        pol: "Jesienna skrzynka",
+        sch: "秋季补给箱",
+        fre: "Caisse d'automne",
+        bra: "Caixa de Outono"
     },
-    c11: {
+    11: {
         img: "eerie_crate",
         eng: "Eerie Crate",
-        pol: "Niesamowita Skrzynka",
-        sch: "怪异的补给箱"
+        pol: "Niesamowita skrzynka",
+        sch: "怪异的补给箱",
+        fre: "Caisse sinistre",
+        bra: "Caixa Sombria"
     },
-    c12: {
+    12: {
         img: "naughty_winter_crate_2012",
         eng: "Naughty Winter Crate 2012",
-        pol: "Niegrzeczna Zimowa Skrzynka 2012",
-        sch: "邋遢欢冬补给箱2012"
+        pol: "Niegrzeczna zimowa skrzynka 2012",
+        sch: "邋遢欢冬补给箱2012",
+        fre: "Caisse d'hiver vilaine 2012",
+        bra: "Caixa Malcomportada de Fim de Ano de 2012"
     },
-    c13: {
+    13: {
         img: "nice_winter_crate_2012",
         eng: "Nice Winter Crate 2012",
-        pol: "Grzeczna Zimowa Skrzynka 2012",
-        sch: "精美欢冬供应箱 2012"
+        pol: "Grzeczna zimowa skrzynka 2012",
+        sch: "精美欢冬供应箱 2012",
+        fre: "Caisse d'hiver bien sage 2012",
+        bra: "Caixa Bem-comportada de Fim de Ano de 2012"
     },
-    c14: {
+    14: {
         img: "robo_community_crate",
         eng: "Robo Community Crate",
-        pol: "RoboSkrzynka Społeczności",
-        sch: "机器社区补给箱"
+        pol: "Roboskrzynka społeczności",
+        sch: "机器社区补给箱",
+        fre: "RoboCaisse Communautaire",
+        bra: "RoboCaixa"
     },
-    c15: {
+    15: {
         img: "select_reserve_mann_co_supply_crate",
         eng: "Select Reserve Mann Co. Supply Crate",
-        pol: "Skrzynka Specjalnej Rezerwy Mann Co.",
-        sch: "曼恩公司特选保存补给箱"
+        pol: "Skrzynka specjalnej rezerwy Mann Co.",
+        sch: "曼恩公司特选保存补给箱",
+        fre: "Caisse de sélection Mann Co.",
+        bra: "Caixa Seleta de Suprimentos da Mann Co."
     },
-    c16: {
+    16: {
         img: "summer_appetizer_crate",
         eng: "Summer Appetizer Crate",
-        pol: "Letnia Skrzynka Przystawek",
-        sch: "夏日神秘补给箱"
+        pol: "Letnia skrzynka przystawek",
+        sch: "夏日神秘补给箱",
+        fre: "L'Apéricaisse Estivale",
+        bra: "Caixa de Entrada das Férias"
     },
-    c17: {
+    17: {
         img: "red_summer_2013_cooler",
         eng: "Red Summer 2013 Cooler",
-        pol: "Czerwona Letnia Lodówka 2013",
-        sch: "2013 真红夏日冷藏箱"
+        pol: "Czerwona letnia lodówka 2013",
+        sch: "2013 真红夏日冷藏箱",
+        fre: "Glacière Estivale Rouge 2013",
+        bra: "Cooler Vermelho das Férias de 2013"
     },
-    c18: {
+    18: {
         img: "orange_summer_2013_cooler",
         eng: "Orange Summer 2013 Cooler",
-        pol: "Pomarańczowa Letnia Lodówka 2013",
-        sch: "2013 澄橙夏日冷藏箱"
+        pol: "Pomarańczowa letnia lodówka 2013",
+        sch: "2013 澄橙夏日冷藏箱",
+        fre: "Glacière Estivale Orange 2013",
+        bra: "Cooler Laranja das Férias de 2013"
     },
-    c19: {
+    19: {
         img: "yellow_summer_2013_cooler",
         eng: "Yellow Summer 2013 Cooler",
-        pol: "Żółta Letnia Lodówka 2013",
-        sch: "2013 炫黄夏日冷藏箱"
+        pol: "Żółta letnia lodówka 2013",
+        sch: "2013 炫黄夏日冷藏箱",
+        fre: "Glacière Estivale Jaune 2013",
+        bra: "Cooler Amarelo das Férias de 2013"
     },
-    c20: {
+    20: {
         img: "green_summer_2013_cooler",
         eng: "Green Summer 2013 Cooler",
-        pol: "Zielona Letnia Lodówka 2013",
-        sch: "2013 鲜绿夏日冷藏箱"
+        pol: "Zielona letnia lodówka 2013",
+        sch: "2013 鲜绿夏日冷藏箱",
+        fre: "Glacière Estivale Verte 2013",
+        bra: "Cooler Verde das Férias de 2013"
     },
-    c21: {
+    21: {
         img: "aqua_summer_2013_cooler",
         eng: "Aqua Summer 2013 Cooler",
-        pol: "Turkusowa Letnia Lodówka 2013",
-        sch: "2013 水绿夏日冷藏箱"
+        pol: "Turkusowa letnia lodówka 2013",
+        sch: "2013 水绿夏日冷藏箱",
+        fre: "Glacière Estivale Aquatique 2013",
+        bra: "Cooler Azul-piscina das Férias de 2013"
     },
-    c22: {
+    22: {
         img: "blue_summer_2013_cooler",
         eng: "Blue Summer 2013 Cooler",
-        pol: "Niebieska Letnia Lodówka 2013",
-        sch: "2013 宝蓝夏日冷藏箱"
+        pol: "Niebieska letnia lodówka 2013",
+        sch: "2013 宝蓝夏日冷藏箱",
+        fre: "Glacière Estivale Bleue 2013",
+        bra: "Cooler Azul das Férias de 2013"
     },
-    c23: {
+    23: {
         img: "brown_summer_2013_cooler",
         eng: "Brown Summer 2013 Cooler",
-        pol: "Brązowa Letnia Lodówka 2013",
-        sch: "2013 棕木夏日冷藏箱"
+        pol: "Brązowa letnia lodówka 2013",
+        sch: "2013 棕木夏日冷藏箱",
+        fre: "Glacière Estivale Marron 2013",
+        bra: "Cooler Marrom das Férias de 2013"
     },
-    c24: {
+    24: {
         img: "black_summer_2013_cooler",
         eng: "Black Summer 2013 Cooler",
-        pol: "Czarna Letnia Lodówka 2013",
-        sch: "2013 酷黑夏日冷藏箱"
+        pol: "Czarna letnia lodówka 2013",
+        sch: "2013 酷黑夏日冷藏箱",
+        fre: "Glacière Estivale Noire 2013",
+        bra: "Cooler Preto das Férias de 2013"
     },
-    c25: {
+    25: {
         img: "fall_2013_acorns_crate",
         eng: "Fall 2013 Acorns Crate",
-        pol: "Jesienna Żołędziowa Skrzynka 2013",
-        sch: "2013 秋季橡子补给箱"
+        pol: "Jesienna żołędziowa skrzynka 2013",
+        sch: "2013 秋季橡子补给箱",
+        fre: "Caisse Automnale à Glands 2013",
+        bra: "Caixa de Bolotas das Folhas Secas de 2013"
     },
-    c26: {
+    26: {
         img: "fall_2013_gourd_crate",
         eng: "Fall 2013 Gourd Crate",
-        pol: "Jesienna Dyniowa Skrzynka 2013",
-        sch: "2013 秋季瓠子补给箱"
+        pol: "Jesienna dyniowa skrzynka 2013",
+        sch: "2013 秋季瓠子补给箱",
+        fre: "Caisse Automnale à Citrouilles 2013",
+        bra: "Caixa de Porongo das Folhas Secas de 2013"
     },
-    c27: {
+    27: {
         img: "spooky_crate",
         eng: "Spooky Crate",
-        pol: "Upiorna Skrzynka",
-        sch: "诡异的补给箱"
+        pol: "Upiorna skrzynka",
+        sch: "诡异的补给箱",
+        fre: "Caisse effrayante",
+        bra: "Caixa Apavorante"
     },
-    c28: {
+    28: {
         img: "naughty_winter_crate_2013",
         eng: "Naughty Winter Crate 2013",
-        pol: "Niegrzeczna Zimowa Skrzynka 2013",
-        sch: "邋遢的欢冬供应箱 2013"
+        pol: "Niegrzeczna zimowa skrzynka 2013",
+        sch: "邋遢的欢冬供应箱 2013",
+        fre: "Caisse d'hiver vilaine 2013",
+        bra: "Caixa Malcomportada de Fim de Ano de 2013"
     },
-    c29: {
+    29: {
         img: "nice_winter_crate_2013",
         eng: "Nice Winter Crate 2013",
-        pol: "Grzeczna Zimowa Skrzynka 2013",
-        sch: "精美的欢冬供应箱 2013"
+        pol: "Grzeczna zimowa skrzynka 2013",
+        sch: "精美的欢冬供应箱 2013",
+        fre: "Caisse d'hiver bien sage 2013",
+        bra: "Caixa Bem-comportada de Fim de Ano de 2013"
     },
-    c30: {
+    30: {
         img: "mann_co_strongbox",
         eng: "Mann Co. Strongbox",
-        pol: "Wzmocniona Skrzynka Mann co.",
-        sch: "曼恩公司保险箱"
+        pol: "Wzmocniona skrzynka Mann Co.",
+        sch: "曼恩公司保险箱",
+        fre: "Coffre-fort Mann Co.",
+        bra: "Caixa-forte da Mann Co."
     },
-    c31: {
+    31: {
         img: "mann_co_supply_munition",
         eng: "Mann Co. Supply Munition",
         pol: "Uzbrojenie Mann Co.",
-        sch: "曼恩公司供给军需品"
+        sch: "曼恩公司供给军需品",
+        fre: "Munitions Mann Co.",
+        bra: "Caixa de Provisões da Mann Co."
     },
-    c32: {
+    32: {
         img: "bread_box",
         eng: "Bread Box",
         pol: "Chlebak",
-        sch: "面包怪兽箱"
+        sch: "面包怪兽箱",
+        fre: "Boîte à pain",
+        bra: "Caixa de Pão"
     },
-    c33: {
+    33: {
         img: "mann_co_stockpile_crate",
         eng: "Mann Co. Stockpile Crate",
-        pol: "Skrzynka Zapasów Mann Co.",
-        sch: "曼恩公司储备物资箱"
+        pol: "Skrzynka zapasów Mann Co.",
+        sch: "曼恩公司储备物资箱",
+        fre: "Caisse de la réserve Mann Co.",
+        bra: "Caixa do Estoque da Mann Co."
     },
-    c34: {
+    34: {
         img: "unlocked_creepy_scout_crate",
         eng: "Unlocked Creepy Scout Crate",
-        pol: "Otwarta Straszna Skrzynka Skauta",
-        sch: "侦察兵的无锁恐怖箱"
+        pol: "Otwarta straszna skrzynka Skauta",
+        sch: "侦察兵的无锁恐怖箱",
+        fre: "Caisse sinistre déverrouillée de Scout",
+        bra: "Caixa Destrancada Horripilante do Scout"
     },
-    c35: {
+    35: {
         img: "unlocked_creepy_soldier_crate",
         eng: "Unlocked Creepy Soldier Crate",
-        pol: "Otwarta Straszna Skrzynka Żołnierza",
-        sch: "士兵的无锁恐怖箱"
+        pol: "Otwarta straszna skrzynka Żołnierza",
+        sch: "士兵的无锁恐怖箱",
+        fre: "Caisse sinistre déverrouillée de Soldier",
+        bra: "Caixa Destrancada Horripilante do Soldier"
     },
-    c36: {
+    36: {
         img: "unlocked_creepy_pyro_crate",
         eng: "Unlocked Creepy Pyro Crate",
-        pol: "Otwarta Straszna Skrzynka Pyro",
-        sch: "火焰兵的无锁恐怖箱"
+        pol: "Otwarta straszna skrzynka Pyro",
+        sch: "火焰兵的无锁恐怖箱",
+        fre: "Caisse sinistre déverrouillée de Pyro",
+        bra: "Caixa Destrancada Horripilante de Pyro"
     },
-    c37: {
+    37: {
         img: "unlocked_creepy_demo_crate",
         eng: "Unlocked Creepy Demo Crate",
-        pol: "Otwarta Straszna Skrzynka Demomana",
-        sch: "爆破手的无锁恐怖箱"
+        pol: "Otwarta straszna skrzynka Demomana",
+        sch: "爆破手的无锁恐怖箱",
+        fre: "Caisse sinistre déverrouillée de Demoman",
+        bra: "Caixa Destrancada Horripilante do Demoman"
     },
-    c38: {
+    38: {
         img: "unlocked_creepy_heavy_crate",
         eng: "Unlocked Creepy Heavy Crate",
-        pol: "Otwarta Straszna Skrzynka Grubego",
-        sch: "机枪手的无锁恐怖箱"
+        pol: "Otwarta straszna skrzynka Grubego",
+        sch: "机枪手的无锁恐怖箱",
+        fre: "Caisse sinistre déverrouillée de Heavy",
+        bra: "Caixa Destrancada Horripilante do Heavy"
     },
-    c39: {
+    39: {
         img: "unlocked_creepy_engineer_crate",
         eng: "Unlocked Creepy Engineer Crate",
-        pol: "Otwarta Straszna Skrzynka Inżyniera",
-        sch: "工程师的无锁恐怖箱"
+        pol: "Otwarta straszna skrzynka Inżyniera",
+        sch: "工程师的无锁恐怖箱",
+        fre: "Caisse sinistre déverrouillée d'Engineer",
+        bra: "Caixa Destrancada Horripilante do Engineer"
     },
-    c40: {
+    40: {
         img: "unlocked_creepy_medic_crate",
         eng: "Unlocked Creepy Medic Crate",
-        pol: "Otwarta Straszna Skrzynka Medyka",
-        sch: "医生的无锁恐怖箱"
+        pol: "Otwarta straszna skrzynka Medyka",
+        sch: "医生的无锁恐怖箱",
+        fre: "Caisse sinistre déverrouillée de Medic",
+        bra: "Caixa Destrancada Horripilante do Medic"
     },
-    c41: {
+    41: {
         img: "unlocked_creepy_sniper_crate",
         eng: "Unlocked Creepy Sniper Crate",
-        pol: "Otwarta Straszna Skrzynka Snajpera",
-        sch: "狙击手的无锁恐怖箱"
+        pol: "Otwarta straszna skrzynka Snajpera",
+        sch: "狙击手的无锁恐怖箱",
+        fre: "Caisse sinistre déverrouillée de Sniper",
+        bra: "Caixa Destrancada Horripilante do Sniper"
     },
-    c42: {
+    42: {
         img: "unlocked_creepy_spy_crate",
         eng: "Unlocked Creepy Spy Crate",
-        pol: "Otwarta Straszna Skrzynka Szpiega",
-        sch: "间谍的无锁恐怖箱"
+        pol: "Otwarta straszna skrzynka Szpiega",
+        sch: "间谍的无锁恐怖箱",
+        fre: "Caisse sinistre déverrouillée de Spy",
+        bra: "Caixa Destrancada Horripilante do Spy"
     },
-    c43: {
+    43: {
         img: "limited_late_summer_crate",
         eng: "Limited Late Summer Crate",
-        pol: "Limitowana Spóźniona Letnia Skrzynka",
-        sch: "限量夏末补给箱"
+        pol: "Limitowana spóźniona letnia skrzynka",
+        sch: "限量夏末补给箱",
+        fre: "Caisse limitée de fin d'été",
+        bra: "Caixa Limitada de Férias Atrasada"
     },
-    c44: {
+    44: {
         img: "end_of_the_line_community_crate",
         eng: "End of the Line Community Crate",
-        pol: "Koniec Trasy - Skrzynka Społeczności",
-        sch: "End of the Line 社区补给箱"
+        pol: "Skrzynka aktualizacji społeczności „Koniec trasy”",
+        sch: "End of the Line 社区补给箱",
+        fre: "Caisse communautaire End of the Line",
+        bra: "Caixa do End of the Line"
     },
-    c45: {
+    45: {
         img: "naughty_winter_crate_2014",
         eng: "Naughty Winter Crate 2014",
-        pol: "Niegrzeczna Zimowa Skrzynka 2014",
-        sch: "邋遢欢冬补给箱 2014"
+        pol: "Niegrzeczna zimowa skrzynka 2014",
+        sch: "邋遢欢冬补给箱 2014",
+        fre: "Caisse d'hiver vilaine 2014",
+        bra: "Caixa Malcomportada de Fim de Ano de 2014"
     },
-    c46: {
+    46: {
         img: "nice_winter_crate_2014",
         eng: "Nice Winter Crate 2014",
-        pol: "Grzeczna Zimowa Skrzynka 2014",
-        sch: "精美欢冬补给箱 2014"
+        pol: "Grzeczna zimowa skrzynka 2014",
+        sch: "精美欢冬补给箱 2014",
+        fre: "Caisse d'hiver bien sage 2014",
+        bra: "Caixa Bem-comportada de Fim de Ano de 2014"
     },
-    c47: {
+    47: {
         img: "powerhouse_weapons_case",
         eng: "Powerhouse Weapons Case",
         pol: "Skrzynia Powerhouse",
-        sch: "Powerhouse 武器箱"
+        sch: "Powerhouse 武器箱",
+        fre: "La caisse d'armes Powerhouse",
+        bra: "Caixa de Arma da Coleção Powerhouse"
     },
-    c48: {
+    48: {
         img: "gun_mettle_cosmetic_case",
         eng: "Gun Mettle Cosmetic Case",
-        pol: "Skrzynia Ozdób Aktualizacji „Siła Charakteru”",
-        sch: "枪魂饰品箱"
+        pol: "Skrzynia ozdób aktualizacji „Siła charakteru”",
+        sch: "枪魂饰品箱",
+        fre: "Caisse cosmétique Gun Mettle",
+        bra: "Caixa de Cosméticos do Arsenal Artístico"
     },
-    c49: {
+    49: {
         img: "quarantined_collection_case",
         eng: "Quarantined Collection Case",
-        pol: "Skrzynia Kolekcji Kwarantanny",
-        sch: "隔离收藏品箱"
+        pol: "Skrzynia kolekcji kwarantanny",
+        sch: "隔离收藏品",
+        fre: "Caisse de la collection Quarantaine",
+        bra: "Caixa da Coleção Quarentena"
     },
-    c50: {
+    50: {
         img: "confidential_collection_case",
         eng: "Confidential Collection Case",
-        pol: "Skrzynia Kolekcji Poufne",
-        sch: "机密收藏品箱"
+        pol: "Skrzynia kolekcji poufne",
+        sch: "机密收藏品",
+        fre: "Caisse de la collection Confidentielle",
+        bra: "Caixa da Coleção Confidencial"
     },
-    c51: {
+    51: {
         img: "gargoyle_case",
         eng: "Gargoyle Case",
-        pol: "Skrzynia Gargulca",
-        sch: "石像鬼石匣"
+        pol: "Skrzynia gargulca",
+        sch: "石像鬼石匣",
+        fre: "Caisse gargouille",
+        bra: "Caixa da Gárgula"
     },
-    c52: {
+    52: {
         img: "pyroland_weapons_case",
         eng: "Pyroland Weapons Case",
         pol: "Skrzynia Pyrolandu",
-        sch: "火焰幻境武器箱"
+        sch: "火焰幻境武器箱",
+        fre: "Caisse d'armes Pyroland",
+        bra: "Caixa de Arma da Pyrolândia"
     },
-    c53: {
+    53: {
         img: "warbird_weapons_case",
         eng: "Warbird Weapons Case",
         pol: "Skrzynia Warbird",
-        sch: "战鸟武器箱"
+        sch: "战鸟武器箱",
+        fre: "Caisse d'armes Warbird",
+        bra: "Caixa de Arma da Ave de Guerra"
     },
-    c54: {
+    54: {
         img: "tough_break_cosmetic_case",
         eng: "Tough Break Cosmetic Case",
-        pol: "Skrzynia Ozdób Aktualizacji „Śniąteczne Fatum”",
-        sch: "艰难假日饰品箱"
+        pol: "Skrzynia ozdób aktualizacji „Śniąteczne fatum”",
+        sch: "艰难假日饰品箱",
+        fre: "Caisse cosmétique Tough Break",
+        bra: "Caixa de Cosméticos das Férias Frustradas"
     },
-    c55: {
+    55: {
         img: "mayflower_cosmetic_case",
         eng: "Mayflower Cosmetic Case",
-        pol: "Skrzynia Ozdób Kwiecia Majowego",
-        sch: "五月花饰品箱"
+        pol: "Skrzynia ozdób kwiecia majowego",
+        sch: "五月花饰品箱",
+        fre: "Caisse cosmétique Mayflower",
+        bra: "Caixa de Cosméticos da Flor de Maio"
     },
-    c56: {
+    56: {
         img: "creepy_crawly_case",
         eng: "Creepy Crawly Case",
-        pol: "Skrzynia Gęsiej Skórki",
-        sch: "恐怖蜘蛛石匣"
+        pol: "Skrzynia gęsiej skórki",
+        sch: "恐怖蜘蛛石匣",
+        fre: "Caisse arachnéenne",
+        bra: "Caixa da Aranha Arrepiante"
     },
-    c57: {
+    57: {
         img: "unlocked_winter_2016_cosmetic_case",
         eng: "Unlocked Winter 2016 Cosmetic Case",
-        pol: "Otwarta Zimowa Skrzynia Ozdób 2016 ",
-        sch: "2016 年无锁冬季饰品箱"
+        pol: "Otwarta zimowa skrzynia ozdób 2016",
+        sch: "2016 年无锁冬季饰品箱",
+        fre: "Caisse cosmétique d'hiver 2016 déverrouillée",
+        bra: "Caixa de Cosméticos Destrancada de Fim de Ano de 2016"
     },
-    c58: {
+    58: {
         img: "rainy_day_cosmetic_case",
         eng: "Rainy Day Cosmetic Case",
-        pol: "Skrzynia Ozdób Deszczowego Dnia",
-        sch: "雨季饰品箱"
+        pol: "Skrzynia ozdób deszczowego dnia",
+        sch: "雨季饰品箱",
+        fre: "Caisse cosmétique Rainy Day",
+        bra: "Caixa de Cosméticos do Dia Chuvoso"
     },
-    c59: {
+    59: {
         img: "abominable_cosmetic_case",
         eng: "Abominable Cosmetic Case",
-        pol: "Skrzynia Ozdób Okropieństwa",
-        sch: "憎恶之物饰品箱"
+        pol: "Skrzynia ozdób okropieństwa",
+        sch: "憎恶之物饰品箱",
+        fre: "Caisse de cosmétiques abominables",
+        bra: "Caixa de Cosméticos Abomináveis"
     },
-    c60: {
+    60: {
         img: "unleash_the_beast_cosmetic_case",
         eng: "Unleash the Beast Cosmetic Case",
-        pol: "Skrzynia Ozdób Uwolnionej Bestii",
-        sch: "释放野兽饰品箱"
+        pol: "Skrzynia ozdób uwolnionej bestii",
+        sch: "释放野兽饰品箱",
+        fre: "Caisse de cosmétiques Unleash the Beast",
+        bra: "Caixa de Cosméticos da Fera Libertada"
     },
-    c61: {
+    61: {
         img: "jungle_jackpot_war_paint_case",
         eng: "Jungle Jackpot War Paint Case",
-        pol: "Skrzynia Barw Wojennych Dżunglowej Nagrody",
-        sch: "丛林大奖战绘箱"
+        pol: "Skrzynia barw wojennych dżunglowej nagrody",
+        sch: "丛林大奖战绘箱",
+        fre: "Caisse de peintures Jungle Jackpot",
+        bra: "Caixa de Tintas de Guerra da Sorte Selvagem"
     },
-    c62: {
+    62: {
         img: "infernal_reward_war_paint_case",
         eng: "Infernal Reward War Paint Case",
-        pol: "Skrzynia Barw Wojennych Piekielnych Nagród",
-        sch: "炼狱之赐战绘箱"
+        pol: "Skrzynia barw wojennych piekielnych nagród",
+        sch: "炼狱之赐战绘箱",
+        fre: "Caisse de peintures Infernal Reward",
+        bra: "Caixa de Tintas de Guerra da Recompensa Infernal"
     },
-    c63: {
+    63: {
         img: "war_paint_civilian_grade_keyless_case",
-        eng: "'Decorated War Hero' War Paint Civilian Grade Keyless Case",
-        pol: "Barwy Wojenne Bohatera Wojennego Otwarta Skrzynia Stopnia Cywil",
-        sch: "功勋英雄民用级无锁战绘箱"
+        eng: "Decorated War Hero War Paint Civilian Grade Keyless Case",
+        pol: "Barwy wojenne bohatera wojennego - Otwarta skrzynia stopnia cywil",
+        sch: "功勋英雄 民用级无锁战绘箱",
+        fre: "Peinture de guerre Decorated War Hero Caisse ouverte de niveau Civil",
+        bra: "Tinta de Guerra \"Veterano Condecorado\" Caixa Destrancada Nv. Civil"
     },
-    c64: {
+    64: {
         img: "war_paint_civilian_grade_keyless_case",
-        eng: "'Contract Campaigner' War Paint Civilian Grade Keyless Case",
-        pol: "Barwy Wojenne Najemnika Kontraktowego Otwarta Skrzynia Stopnia Cywil",
-        sch: "合同履行者民用级无锁战绘箱"
+        eng: "Contract Campaigner War Paint Civilian Grade Keyless Case",
+        pol: "Barwy wojenne najemnika kontraktowego - Otwarta skrzynia stopnia cywil",
+        sch: "合同履行者 民用级无锁战绘箱",
+        fre: "Peinture de guerre « Contract Campaigner » Caisse ouverte de niveau Civil",
+        bra: "Tinta de Guerra \"Contratado da Campanha\" Caixa Destrancada Nv. Civil"
     },
-    c65: {
+    65: {
         img: "winter_2017_cosmetic_case",
         eng: "Winter 2017 Cosmetic Case",
-        pol: "Zimowa Skrzynia Ozdób 2017",
-        sch: "2017 冬季饰品箱"
+        pol: "Zimowa skrzynia ozdób 2017",
+        sch: "2017 冬季饰品箱",
+        fre: "Caisse de cosmétiques d'hiver 2017",
+        bra: "Caixa de Cosméticos de Fim de Ano de 2017"
     },
-    c66: {
+    66: {
         img: "winter_2017_war_paint_case",
         eng: "Winter 2017 War Paint Case",
-        pol: "Zimowa Skrzynia Barw Wojennych 2017",
-        sch: "2017 冬季战绘箱"
+        pol: "Zimowa skrzynia barw wojennych 2017",
+        sch: "2017 冬季战绘箱",
+        fre: "Caisse de peintures d'hiver 2017",
+        bra: "Caixa de Tintas de Guerra de Fim de Ano de 2017"
     },
-    c67: {
+    67: {
         img: "blue_moon_cosmetic_case",
         eng: "Blue Moon Cosmetic Case",
-        pol: "Skrzynia Ozdób Błękitnego Księżyca",
-        sch: "蓝月饰品箱"
+        pol: "Skrzynia ozdób błękitnego księżyca",
+        sch: "蓝月饰品箱",
+        fre: "Caisse de cosmétiques Blue Moon",
+        bra: "Caixa de Cosméticos da Lua Azul"
     },
-    c68: {
+    68: {
         img: "violet_vermin_case",
         eng: "Violet Vermin Case",
-        pol: "Skrzynia Purpurowego Pająka",
-        sch: "紫色害虫石匣"
+        pol: "Skrzynia purpurowego pająka",
+        sch: "紫色害虫石匣",
+        fre: "Caisse de cosmétiques veuve violette",
+        bra: "Caixa do Verme Violeta"
     },
-    c69: {
+    69: {
         img: "scream_fortress_x_war_paint_case",
         eng: "Scream Fortress X War Paint Case",
-        pol: "Skrzynia Barw Wojennych Scream Fortress X",
-        sch: "尖叫要塞 X 战绘箱"
+        pol: "Skrzynia barw wojennych Scream Fortress X",
+        sch: "尖叫要塞 X 战绘箱",
+        fre: "Caisse de peintures Scream Fortress X",
+        bra: "Caixa de Tintas de Guerra do Scream Fortress X"
     },
-    c70: {
+    70: {
         img: "winter_2018_cosmetic_case",
         eng: "Winter 2018 Cosmetic Case",
-        pol: "Zimowa Skrzynia Ozdób 2018",
-        sch: "2018 冬季饰品箱"
+        pol: "Zimowa skrzynia ozdób 2018",
+        sch: "2018 冬季饰品箱",
+        fre: "Caisse de cosmétiques d'hiver 2018",
+        bra: "Caixa de Cosméticos de Fim de Ano de 2018"
     },
-    c71: {
+    71: {
         img: "summer_2019_cosmetic_case",
         eng: "Summer 2019 Cosmetic Case",
-        pol: "Letnia Skrzynia Ozdób 2019",
-		sch: "Summer 2019 Cosmetic Case",
+        pol: "Letnia skrzynia ozdób 2019",
+        fre: "Caisse de cosmétiques d'été 2019",
+        sch: "2019 夏季饰品箱",
+        bra: "Caixa de Cosméticos das Férias de 2019"
     },
-    c72: {
+    72: {
         img: "unlocked_cosmetic_crate_scout",
         eng: "Unlocked Cosmetic Crate Scout",
-        pol: "Otwarta Skrzynia Ozdób Skauta",
-        sch: "无锁侦察兵饰品箱"
+        pol: "Otwarta skrzynka ozdób Skauta",
+        sch: "无锁侦察兵饰品箱",
+        fre: "Caisse cosmétique du Scout ouverte",
+        bra: "Caixa de Cosméticos Destrancada do Scout"
     },
-    c73: {
+    73: {
         img: "unlocked_cosmetic_crate_soldier",
         eng: "Unlocked Cosmetic Crate Soldier",
-        pol: "Otwarta Skrzynia Ozdób Żołnierza",
-        sch: "无锁士兵饰品箱"
+        pol: "Otwarta skrzynka ozdób Żołnierza",
+        sch: "无锁士兵饰品箱",
+        fre: "Caisse cosmétique du Soldier ouverte",
+        bra: "Caixa de Cosméticos Destrancada do Soldier"
     },
-    c74: {
+    74: {
         img: "unlocked_cosmetic_crate_pyro",
         eng: "Unlocked Cosmetic Crate Pyro",
-        pol: "Otwarta Skrzynia Ozdób Pyro",
-        sch: "无锁火焰兵饰品箱"
+        pol: "Otwarta skrzynka ozdób Pyro",
+        sch: "无锁火焰兵饰品箱",
+        fre: "Caisse cosmétique du Pyro ouverte",
+        bra: "Caixa de Cosméticos Destrancada de Pyro"
     },
-    c75: {
+    75: {
         img: "unlocked_cosmetic_crate_demo",
         eng: "Unlocked Cosmetic Crate Demo",
-        pol: "Otwarta Skrzynia Ozdób Demomana",
-        sch: "无锁爆破手饰品箱"
+        pol: "Otwarta skrzynka ozdób Demomana",
+        sch: "无锁爆破手饰品箱",
+        fre: "Caisse cosmétique du Demo ouverte",
+        bra: "Caixa de Cosméticos Destrancada do Demoman"
     },
-    c76: {
+    76: {
         img: "unlocked_cosmetic_crate_heavy",
         eng: "Unlocked Cosmetic Crate Heavy",
-        pol: "Otwarta Skrzynia Ozdób Grubego",
-        sch: "无锁机枪手饰品箱"
+        pol: "Otwarta skrzynka ozdób Grubego",
+        sch: "无锁机枪手饰品箱",
+        fre: "Caisse cosmétique du Heavy ouverte",
+        bra: "Caixa de Cosméticos Destrancada do Heavy"
     },
-    c77: {
+    77: {
         img: "unlocked_cosmetic_crate_engineer",
         eng: "Unlocked Cosmetic Crate Engineer",
-        pol: "Otwarta Skrzynia Ozdób Inżyniera",
-        sch: "无锁工程师饰品箱"
+        pol: "Otwarta skrzynka ozdób Inżyniera",
+        sch: "无锁工程师饰品箱",
+        fre: "Caisse cosmétique de l'Engineer ouverte",
+        bra: "Caixa de Cosméticos Destrancada do Engineer"
     },
-    c78: {
+    78: {
         img: "unlocked_cosmetic_crate_medic",
         eng: "Unlocked Cosmetic Crate Medic",
-        pol: "Otwarta Skrzynia Ozdób Medyka",
-        sch: "无锁医生饰品箱"
+        pol: "Otwarta skrzynka ozdób Medyka",
+        sch: "无锁医生饰品箱",
+        fre: "Caisse cosmétique du Medic ouverte",
+        bra: "Caixa de Cosméticos Destrancada do Medic"
     },
-    c79: {
+    79: {
         img: "unlocked_cosmetic_crate_sniper",
         eng: "Unlocked Cosmetic Crate Sniper",
-        pol: "Otwarta Skrzynia Ozdób Snajpera",
-        sch: "无锁狙击手饰品箱"
+        pol: "Otwarta skrzynka ozdób Snajpera",
+        sch: "无锁狙击手饰品箱",
+        fre: "Caisse cosmétique du Sniper ouverte",
+        bra: "Caixa de Cosméticos Destrancada do Sniper"
     },
-    c80: {
+    80: {
         img: "unlocked_cosmetic_crate_spy",
         eng: "Unlocked Cosmetic Crate Spy",
-        pol: "Otwarta Skrzynia Ozdób Szpiega",
-        sch: "无锁间谍饰品箱"
+        pol: "Otwarta skrzynka ozdób Szpiega",
+        sch: "无锁间谍饰品箱",
+        fre: "Caisse cosmétique du Spy ouverte",
+        bra: "Caixa de Cosméticos Destrancada do Spy"
     },
-    c81: {
+    81: {
         img: "unlocked_cosmetic_crate_multi_class",
         eng: "Unlocked Cosmetic Crate Multi-Class",
-        pol: "Otwarta Skrzynia Ozdób Wielu Klas",
-        sch: "无锁多职业饰品箱"
+        pol: "Otwarta skrzynka ozdób wielu klas",
+        sch: "无锁多职业饰品箱",
+        fre: "Caisse cosmétique Multi-classe ouverte",
+        bra: "Caixa de Cosméticos Destrancada Multiclasses"
     },
-    c82: {
+    82: {
         img: "spooky_spoils_case",
         eng: "Spooky Spoils Case",
-        pol: "Skrzynia Potwornych Łupów",
-        sch: "Spooky Spoils Case",
+        pol: "Skrzynia potwornych łupów",
+        fre: "Caisse des spoliations sinistres",
+        sch: "幽灵战利品石匣",
+        bra: "Caixa dos Espólios Assustadores"
     },
-    c83: {
+    83: {
         img: "winter_2019_cosmetic_case",
         eng: "Winter 2019 Cosmetic Case",
-        pol: "Zimowa Skrzynia Ozdób 2019",
-        sch: "Winter 2019 Cosmetic Case"
+        pol: "Zimowa skrzynia ozdób 2019",
+        fre: "Caisse de cosmétiques d'hiver 2019",
+        sch: "2019 冬季饰品箱",
+        bra: "Caixa de Cosméticos de Fim de Ano de 2019"
     },
-    c84: {
+    84: {
         img: "winter_2019_war_paint_case",
         eng: "Winter 2019 War Paint Case",
-        pol: "Zimowa Skrzynia Barw Wojennych 2019",
-        sch: "Winter 2019 War Paint Case"
+        pol: "Zimowa skrzynia barw wojennych 2019",
+        fre: "Caisse de peintures d'hiver 2019",
+        sch: "2019 冬季战绘箱",
+        bra: "Caixa de Tintas de Guerra de Fim de Ano de 2019"
     },
-    c85: {
+    85: {
         img: "summer_2020_cosmetic_case",
         eng: "Summer 2020 Cosmetic Case",
-        pol: "Letnia Skrzynia Ozdób 2020",
-		sch: "Summer 2020 Cosmetic Case",
+        pol: "Letnia skrzynia ozdób 2020",
+        fre: "Caisse de cosmétiques d'été 2020",
+        sch: "2020 夏季饰品箱",
+        bra: "Caixa de Cosméticos das Férias de 2020"
     },
-    c86: {
+    86: {
         img: "wicked_windfall_case",
         eng: "Wicked Windfall Case",
-        pol: "Wicked Windfall Case",
-        sch: "Wicked Windfall Case",
+        pol: "Skrzynia paskudnej jesieni",
+        fre: "Caisse Wicked Windfall",
+        sch: "飞来横祸石匣",
+        bra: "Caixa da Herança Sinistra"
     },
-    c87: {
+    87: {
         img: "scream_fortress_xii_war_paint_case",
         eng: "Scream Fortress XII War Paint Case",
-        pol: "Scream Fortress XII War Paint Case",
-        sch: "Scream Fortress XII War Paint Case",
+        pol: "Skrzynia barw wojennych Scream Fortress XII",
+        fre: "Caisse de peintures Scream Fortress XII",
+        sch: "尖叫要塞 XII 战绘箱",
+        bra: "Caixa de Tintas de Guerra do Scream Fortress XII"
     }
 }

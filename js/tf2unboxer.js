@@ -1,2315 +1,3422 @@
-console.log("Since you're snooping around, here are some cheats...");
-console.log("Set 'forceStranges' to true to always unbox a strange item whenever possible. Set to false to disable.");
-console.log("Set 'forceWear' to a value between 1 and 5 to unbox a skin with specific wear level. 1 is Factory New, 5 is Battle Scarred. Set to 0 to disable.");
-// Game variables
-var currentCrate = 145;
-var countdown = 5;
-var uncratingCountdown;
-var chanceNumber = 0;
-var forceUnusuals = false;
-var forceStranges = false;
-var forceWear = 0;
-var gameSave = {};
-var currentStatsCrate = 1;
-var unusualSave = [];
-var fastUnbox = false;
-var unboxDelay = false;
-var resetDelay = 0;
-var soundToPlay = "";
-var canUnbox = true;
-var canSwitchCrates = true;
-var stats = {
-  cratesOpened: 0,
-  moneyWasted: 0,
-  moneyWastedCents: 0,
-  shortestUnusualDrought: null,
-  currentDrought: 0,
-  longestUnusualDrought: null,
-  unluckiestStreak: 0,
-  uniqueUnboxed: 0,
-  strangeUnboxed: 0,
-  hauntedUnboxed: 0,
-  decoratedUnboxed: 0,
-  unusualUnboxed: 0
-};
-var gridSupport = "grid";
-var viewAllItems = false;
-var statsGenerated = false;
-var gradeTable = ["yo", "FN", "MW", "FT", "WW", "BS"];
-var gradeTable2 = [
-  "wow",
-  text.g1.eng,
-  text.g2.eng,
-  text.g3.eng,
-  text.g4.eng,
-  text.g5.eng
-];
-var gradeTable3 = [
-  "huzzah",
-  "civiliancolor",
-  "freelancecolor",
-  "mercenarycolor",
-  "commandocolor",
-  "assassincolor",
-  "elitecolor"
-];
-if (!Modernizr.pointerevents) {
-  var script = document.createElement("script");
-  script.src = "https://code.jquery.com/pep/0.4.3/pep.js";
-  document.head.appendChild(script);
+"use strict";
+// Register service worker
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+    });
 }
-if (!Modernizr.cssgrid) {
-  gridSupport = "block";
-  var link = document.createElement("link");
-  link.setAttribute("rel", "stylesheet");
-  link.setAttribute("type", "text/css");
-  link.setAttribute("href", "./grid.css");
-  document.head.appendChild(link);
+// Function for reporting errors to analytics
+function reportError(message) {
+    window.goatcounter.count({
+        path: `Error ${generateRandomString()}`, // Yes, this is stupid, but this is required to prevent GoatCounter from grouping bug reports together
+        title: message,
+        event: true,
+    })
 }
-// Check for WebP support
+// Compressed function for deep merging objects. a - target object, b - source object
+const mergeDeep = (a, b) => { for (const c of Object.keys(b)) b[c] instanceof Object && c in a && Object.assign(b[c], mergeDeep(a[c], b[c])); return Object.assign(a || {}, b), a };
 
-var imageSupport = ".webp";
-var webpTest = new Image();
-webpTest.onload = function () {
-  if (webpTest.height !== 2) {
-    imageSupport = ".png";
-  }
+// Swipe events - https://github.com/john-doherty/swiped-events
+! function(t, e) {
+    "use strict";
+    "function" != typeof t.CustomEvent && (t.CustomEvent = function(t, n) { n = n || { bubbles: !1, cancelable: !1, detail: void 0 }; var a = e.createEvent("CustomEvent"); return a.initCustomEvent(t, n.bubbles, n.cancelable, n.detail), a }, t.CustomEvent.prototype = t.Event.prototype), e.addEventListener("touchstart", function(t) {
+        if ("true" === t.target.getAttribute("data-swipe-ignore")) return;
+        s = t.target, r = Date.now(), n = t.touches[0].clientX, a = t.touches[0].clientY, u = 0, i = 0
+    }, !1), e.addEventListener("touchmove", function(t) {
+        if (!n || !a) return;
+        var e = t.touches[0].clientX,
+            r = t.touches[0].clientY;
+        u = n - e, i = a - r
+    }, !1), e.addEventListener("touchend", function(t) {
+        if (s !== t.target) return;
+        var e = parseInt(l(s, "data-swipe-threshold", "20"), 10),
+            o = parseInt(l(s, "data-swipe-timeout", "500"), 10),
+            c = Date.now() - r,
+            d = "",
+            p = t.changedTouches || t.touches || [];
+        Math.abs(u) > Math.abs(i) ? Math.abs(u) > e && c < o && (d = u > 0 ? "swiped-left" : "swiped-right") : Math.abs(i) > e && c < o && (d = i > 0 ? "swiped-up" : "swiped-down");
+        if ("" !== d) {
+            var b = { dir: d.replace(/swiped-/, ""), xStart: parseInt(n, 10), xEnd: parseInt((p[0] || {}).clientX || -1, 10), yStart: parseInt(a, 10), yEnd: parseInt((p[0] || {}).clientY || -1, 10) };
+            s.dispatchEvent(new CustomEvent("swiped", { bubbles: !0, cancelable: !0, detail: b })), s.dispatchEvent(new CustomEvent(d, { bubbles: !0, cancelable: !0, detail: b }))
+        }
+        n = null, a = null, r = null
+    }, !1);
+    var n = null,
+        a = null,
+        u = null,
+        i = null,
+        r = null,
+        s = null;
+
+    function l(t, n, a) {
+        for (; t && t !== e.documentElement;) {
+            var u = t.getAttribute(n);
+            if (u) return u;
+            t = t.parentNode
+        }
+        return a
+    }
+}(window, document);
+
+// Generate random 4-letter string
+const randomStringPool = "abcdefghijklmnopqrstuwxyz1234567890";
+function generateRandomString() {
+    let string = "";
+    for (let i=0; i < 5; i++) {
+        string += randomStringPool[Math.floor(Math.random() * randomStringPool.length)];
+    }
+    return string;
+}
+
+// Detect WebP support
+let imageSupport = ".webp";
+let webpTest = new Image();
+webpTest.onload = function() {
+    if (webpTest.height != 2) {
+        imageSupport = ".png";
+        console.log("WebP is unsupported - failed image height check");
+    }
 };
-webpTest.onerror = function () {
-  imageSupport = ".png";
+webpTest.onerror = function() {
+    imageSupport = ".png";
+    console.log("WebP is unsupported - failed to load image");
 };
 webpTest.src = 'data:image/webp;base64,UklGRi4AAABXRUJQVlA4TCEAAAAvAUAAEB8wAiMwAgSSNtse/cXjxyCCmrYNWPwmHRH9jwMA';
-// HTML DOM
-var pageCrateName = document.getElementById("cratename");
-var pageCrateSeries = document.getElementById("crateseries");
-var unboxBtn = document.getElementById("unboxbtn");
-var muteSoundBtn = document.getElementById("soundbtn");
-var muteSoundIcon = document.getElementById("soundicon");
-var crateSelectContainer = document.getElementById("crateselect");
-var countdownContainer = document.getElementById("countdowncontainer");
-var uncratingCountdownText = document.getElementById("uncratingcountdown");
-var uncratingDots = document.getElementById("uncratinganim");
-var crateResultContainer = document.getElementById("crateresult");
-var crateImg = document.getElementById("crateimg");
-var returnBtn = document.getElementById("returnbtn");
-var lootName = document.getElementById("lootname");
-var lootChance = document.getElementById("lootunboxpercent");
-var lootImg = document.getElementById("lootimg");
-var effectImg = document.getElementById("effectimg");
-var statsDiv = document.getElementById("stats");
-var statsReturnBtn = document.getElementById("statsreturnbtn");
-var statsBtn = document.getElementById("statsbtn");
-var cratesOpenedStat = document.getElementById("cratesopenedstat");
-var moneyWastedStat = document.getElementById("moneywastedstat");
-var moneyWastedCentsStat = document.getElementById("moneywastedcents");
-var moreContainer = document.getElementById("more");
-var moreBtn = document.getElementById("morebtn");
-var moreReturnBtn = document.getElementById("morereturnbtn");
-var crateInfoBtn = document.getElementById("crateinfobtn");
-var crateInfo = document.getElementById("crateinfo");
-var crateContainer = document.getElementById("cratemain");
-var crateView = document.getElementById("crateview");
-var crateSelectGrid = document.getElementById("crateselectgrid");
-var crateInfoReturnBtn = document.getElementById("crateinforeturnbtn");
-var statsGeneralBtn = document.getElementById("statsgeneralbtn");
-var statsUnusualsBtn = document.getElementById("statsunusualsbtn");
-var statsCratesBtn = document.getElementById("statscratesbtn");
-var statsGeneral = document.getElementById("statsgeneral");
-var statsUnusuals = document.getElementById("statsunusuals");
-var statsCrates = document.getElementById("statscrates");
-var moreOptionsBtn = document.getElementById("moreoptionsbtn");
-var moreChangelogBtn = document.getElementById("morechangelogbtn");
-var moreCreditsBtn = document.getElementById("morecreditsbtn");
-var moreOptions = document.getElementById("moreoptions");
-var moreChangelog = document.getElementById("morechangelog");
-var moreCredits = document.getElementById("morecredits");
-var lootList = document.getElementById("lootlist");
-var effectList = document.getElementById("effectlist");
-var effectText = document.getElementById("effecttext");
-var effectName = document.getElementById("effectname");
-var crateEffectsBtn = document.getElementById("crateinfoeffectsbtn");
-var crateLootBtn = document.getElementById("crateinfolootbtn");
-var crateInfoContent = document.getElementById("crateinfocontent");
-var crateInfoEffectsContent = document.getElementById("crateinfoeffectscontent");
-var statsContainer = document.getElementById("statscontainer");
-var statsHeader = document.getElementById("statsheader");
-var statsCratesDetails = document.getElementById("statscratesdetails");
-var statsCratesDetailsReturnBtn = document.getElementById("statscratesdetailsreturnbtn");
-var statsCratesDetailsName = document.getElementById("statscratesdetailsname");
-var statsCratesDetailsSeries = document.getElementById("statscratesdetailsseries");
-var statsCratesDetailsImage = document.getElementById("statscratesdetailsimage");
-var statsCratesDetailsUnbox = document.getElementById("statscratesdetailsunbox");
-var statsCratesDetailsContent = document.getElementById("statscratesdetailscontent");
-var statsCratesDetailsLeftBtn = document.getElementById("statscratesdetailsleftbtn");
-var statsCratesDetailsRightBtn = document.getElementById("statscratesdetailsrightbtn");
-var gridViewBtn = document.getElementById("gridviewbtn");
-var exitGridViewBtn = document.getElementById("exitgridviewbtn");
-var previousCrateBtn = document.getElementById("navleft");
-var nextCrateBtn = document.getElementById("navright");
-var randomCrateBtn = document.getElementById("randomcratebtn");
-var noUnusualsText = document.getElementById("nounusuals");
-var noItemsText = document.getElementById("noitems");
-var uniqueUnboxedStat = document.getElementById("uniqueunboxedstat");
-var strangeUnboxedStat = document.getElementById("strangeunboxedstat");
-var hauntedUnboxedStat = document.getElementById("hauntedunboxedstat");
-var decoratedUnboxedStat = document.getElementById("decoratedunboxedstat");
-var unusualUnboxedStat = document.getElementById("unusualunboxedstat");
-var shortestUnusualDroughtStat = document.getElementById("shortestdroughtstat");
-var longestUnusualDroughtStat = document.getElementById("longestdroughtstat");
-var sinceLastUnusualStat = document.getElementById("sincelastunusualstat");
-var resetSaveBtn = document.getElementById("resetbtn");
-var resetSaveBtnText = document.getElementById("resetbtntext");
-var fastUnboxOnBtn = document.getElementById("fastunboxonbtn");
-var fastUnboxOffBtn = document.getElementById("fastunboxoffbtn");
-var unboxAgainBtn = document.getElementById("unboxagainbtn");
-var timesUnboxedText = document.getElementById("lootunboxedtimestext");
-var timesUnboxedCount = document.getElementById("lootunboxcount");
-var crateNote = document.getElementById("cratenote");
-var unusualEffectsText = document.getElementById("unusualeffectstext");
-var showAllItemsOffBtn = document.getElementById("showallitemsoffbtn");
-var showAllItemsOnBtn = document.getElementById("showallitemsonbtn");
-var lootSinceLastUnusual = document.getElementById('lootsincelastunusualcount');
-var lootSinceLastUnusualDiv = document.getElementById('lootsincelastunusual');
-var langDropdown = document.getElementById('langdropdown');
-var unusualCheatOffBtn = document.getElementById('unusualcheatoffbtn');
-var unusualCheatOnBtn = document.getElementById('unusualcheatonbtn');
-// Text DOM
-var textMoreBtn = document.getElementById("morebtntext");
-var textStatsBtn = document.getElementById("statsbtntext");
-var textGridViewBtn = document.getElementById("gridviewbtntext");
-var textDetailsViewBtn = document.getElementById("exitgridviewbtntext");
-var textUnboxBtn = document.getElementById("unboxbtntext");
-var textRandomCrateBtn = document.getElementById("randomcratebtntext");
-var textCrateContains = document.getElementById("cratecontainstext");
-var textUnusualEffects = document.getElementById("unusualeffectstext");
-var textCrateDetailsReturn = document.getElementById("crateinforeturnbtntext");
-var textCrateDetailsLoot = document.getElementById("crateinfolootbtntext");
-var textCrateDetailsEffects = document.getElementById("crateinfoeffectsbtntext");
-var textCrateDetailsMoreInfo = document.getElementById("moreinfobtntext");
-var textUnboxingYourLoot = document.getElementById("uncratingtext");
-var textNewLootAcquired = document.getElementById("newlootacquired");
-var textYouUnboxed = document.getElementById("youtext");
-var textLootUnboxChance = document.getElementById("lootunboxchancetext");
-var textLootUnboxedTimes = document.getElementById("lootunboxedtimestext");
-var textLootSinceLastUnusual = document.getElementById("lootsincelastunusualtext");
-var textReturnBtn = document.getElementById("returnbtntext");
-var textUnboxAgainBtn = document.getElementById("unboxagaintext");
-var textEffect = document.getElementById("effecttext");
-var textStatsGeneral = document.getElementById("statsgeneralbtntext");
-var textStatsUnusuals = document.getElementById("statsunusualsbtntext");
-var textStatsCrates = document.getElementById("statscratesbtntext");
-var textStatsCratesOpened = document.getElementById("cratesopenedtext");
-var textStatsMoneyWasted = document.getElementById("moneywastedtext");
-var textStatsSinceLastUnusual = document.getElementById("sincelastunusualtext");
-var textStatsShortestDrought = document.getElementById("shortestdroughttext");
-var textStatsLongestDrought = document.getElementById("longestdroughttext");
-var textStatsUniqueUnboxed = document.getElementById("uniqueunboxed");
-var textStatsStrangeUnboxed = document.getElementById("strangeunboxed");
-var textStatsHauntedUnboxed = document.getElementById("hauntedunboxed");
-var textStatsDecoratedUnboxed = document.getElementById("decoratedunboxed");
-var textStatsUnusualUnboxed = document.getElementById("unusualunboxed");
-var textNoUnusuals = document.getElementById('nounusuals');
-var textStatsReturnBtn = document.getElementById('statsreturnbtntext');
-var textStatsListReturnBtn = document.getElementById('statscratesdetailsreturnbtntext');
-var textStatsCratesDetailsUnbox = document.getElementById('statscratesdetailsunboxtext');
-var textNoItems = document.getElementById('noitems');
-var textMoreOptionsBtn = document.getElementById('moreoptionsbtntext');
-var textMoreChangelogBtn = document.getElementById('morechangelogbtntext');
-var textMoreCreditsBtn = document.getElementById('morecreditsbtntext');
-var textLangOption = document.getElementById('langname');
-var textFastUnboxOption = document.getElementById('fastunboxname');
-var textFastUnboxOff = document.getElementById('fastunboxoffbtntext');
-var textFastUnboxOn = document.getElementById('fastunboxonbtntext');
-var textFastUnboxDesc = document.getElementById('fastunboxtext');
-var textAllItemsOption = document.getElementById('showallitemsname');
-var textAllItemsOff = document.getElementById('showallitemsoffbtntext');
-var textAllItemsOn = document.getElementById('showallitemsonbtntext');
-var textAllItemsDesc = document.getElementById('showallitemstext');
-var textResetOption = document.getElementById('resetname');
-var textResetBtn = document.getElementById('resetbtntext');
-var textResetDesc = document.getElementById('resettext');
-var textOptionsReturn = document.getElementById('morereturnbtntext');
-var textCredits1 = document.getElementById('credits1');
-var textCredits2 = document.getElementById('credits2');
-var textCredits3 = document.getElementById('credits3');
-var textCredits4 = document.getElementById('credits4');
-var textThankYou = document.getElementById('thankyou');
-var textSteamTooltip = document.getElementById('steamtooltip');
-var textSoundTooltip = document.getElementById('soundtooltip');
-var textUnusualCheat = document.getElementById('unusualcheatname');
-var textUnusualCheatOff = document.getElementById('unusualcheatoffbtntext');
-var textUnusualCheatOn = document.getElementById('unusualcheatonbtntext');
-var textUnusualCheatDesc = document.getElementById('unusualcheattext');
-var textTranslations = document.getElementById('credits5');
-var textSChTranslation = document.getElementById('credits6');
-langDropdown.addEventListener("change", function () {
-  loadLanguage(this.value);
-});
-var saveLang = "eng";
-// Load language
-function loadLanguage(lang) {
-  localStorage.setItem("saveLang", lang);
-  language = lang;
-  gradeTable2 = [
-    "wow",
-    text.g1[lang],
-    text.g2[lang],
-    text.g3[lang],
-    text.g4[lang],
-    text.g5[lang]
-  ];
-  pageCrateName.innerHTML = cratename["c" + cA[crateOrder[currentCrate]].id][language];
-  pageCrateSeries.innerHTML = getSeries(crateOrder[currentCrate]);
-  lootList.innerHTML = "";
-  effectList.innerHTML = "";
-  generateLootList();
-  generateEffectList();
-  generateStatsCrates(true);
-  generateGrid(true);
-  loadUnusuals();
-  textMoreBtn.innerHTML = text.b1[lang];
-  textStatsBtn.innerHTML = text.b2[lang];
-  textGridViewBtn.innerHTML = text.b3[lang];
-  textDetailsViewBtn.innerHTML = text.b4[lang];
-  textUnboxBtn.innerHTML = text.b5[lang];
-  textRandomCrateBtn.innerHTML = text.b6[lang];
-  textCrateContains.innerHTML = text.d1[lang];
-  textUnusualEffects.innerHTML = text.d2[lang];
-  textCrateDetailsEffects.innerHTML = text.b8[lang];
-  textCrateDetailsLoot.innerHTML = text.b9[lang];
-  textCrateDetailsMoreInfo.innerHTML = text.b10[lang];
-  textCrateDetailsReturn.innerHTML = text.b7[lang];
-  textUnboxingYourLoot.innerHTML = text.u1[lang];
-  textNewLootAcquired.innerHTML = text.u2[lang];
-  textYouUnboxed.innerHTML = text.u3[lang];
-  textLootUnboxChance.innerHTML = text.u6[lang];
-  textLootUnboxedTimes.innerHTML = text.u7[lang];
-  textLootSinceLastUnusual.innerHTML = text.u8[lang];
-  textReturnBtn.innerHTML = text.b7[lang];
-  textUnboxAgainBtn.innerHTML = text.b11[lang];
-  textEffect.innerHTML = text.u5[lang];
-  textStatsGeneral.innerHTML = text.b12[lang];
-  textStatsUnusuals.innerHTML = text.b13[lang];
-  textStatsCrates.innerHTML = text.b14[lang];
-  textStatsCratesOpened.innerHTML = text.s1[lang];
-  textStatsMoneyWasted.innerHTML = text.s2[lang];
-  textStatsSinceLastUnusual.innerHTML = text.u8[lang];
-  textStatsShortestDrought.innerHTML = text.s3[lang];
-  textStatsLongestDrought.innerHTML = text.s4[lang];
-  textStatsUniqueUnboxed.innerHTML = text.s5[lang];
-  textStatsStrangeUnboxed.innerHTML = text.s6[lang];
-  textStatsHauntedUnboxed.innerHTML = text.s7[lang];
-  textStatsDecoratedUnboxed.innerHTML = text.s8[lang];
-  textStatsUnusualUnboxed.innerHTML = text.s9[lang];
-  textNoUnusuals.innerHTML = text.s10[lang];
-  textStatsReturnBtn.innerHTML = text.b15[lang];
-  textStatsListReturnBtn.innerHTML = text.b16[lang];
-  textStatsCratesDetailsUnbox.innerHTML = text.s11[lang];
-  textNoItems.innerHTML = text.s12[lang];
-  textMoreOptionsBtn.innerHTML = text.b1[lang];
-  textMoreChangelogBtn.innerHTML = text.b17[lang];
-  textMoreCreditsBtn.innerHTML = text.b18[lang];
-  textLangOption.innerHTML = text.o1[lang];
-  textFastUnboxOption.innerHTML = text.o2[lang];
-  textFastUnboxDesc.innerHTML = text.o3[lang];
-  textFastUnboxOff.innerHTML = text.b19[lang];
-  textFastUnboxOn.innerHTML = text.b20[lang];
-  textAllItemsOption.innerHTML = text.o4[lang];
-  textAllItemsDesc.innerHTML = text.o5[lang];
-  textAllItemsOff.innerHTML = text.b19[lang];
-  textAllItemsOn.innerHTML = text.b20[lang];
-  textResetOption.innerHTML = text.o6[lang];
-  textResetBtn.innerHTML = text.b21[lang];
-  textResetDesc.innerHTML = text.o7[lang];
-  textOptionsReturn.innerHTML = text.b15[lang];
-  textCredits1.innerHTML = text.c1[lang];
-  textCredits2.innerHTML = text.c2[lang];
-  textCredits3.innerHTML = text.c3[lang];
-  textCredits4.innerHTML = text.c4[lang];
-  textTranslations.innerHTML = text.c6[lang];
-  textSChTranslation.innerHTML = text.c7[lang];
-  textThankYou.innerHTML = text.c5[lang];
-  textSteamTooltip.innerHTML = text.t1[lang];
-  textSoundTooltip.innerHTML = text.t2[lang];
-  textUnusualCheat.innerHTML = text.o8[lang];
-  textUnusualCheatOff.innerHTML = text.b19[lang];
-  textUnusualCheatOn.innerHTML = text.b20[lang];
-  textUnusualCheatDesc.innerHTML = text.o9[lang];
-  statsCratesDetailsUnbox = document.getElementById("statscratesdetailsunbox");
-}
-// Sounds
-var muteSound = false;
-var soundBtn = new Audio("./sound/btn.mp3");
-var soundBtnRelease = new Audio("./sound/btnrelease.mp3");
-var soundCrateOpen = new Audio("./sound/crateopen.mp3");
-var soundWrapOpen = new Audio("./sound/wrapopen.mp3");
-var soundRoboCrateOpen = new Audio("./sound/robocrateopen.mp3");
-var soundUnboxed = new Audio("./sound/unboxed.mp3");
-var soundUnusualUnboxed = new Audio("./sound/unusualunboxed.mp3");
 
-function playSound(id) {
-  if (muteSound) {
-    return;
-  }
-  switch (id) {
-    case "btn":
-      if (soundBtn.paused) {
-        soundBtn.play();
-      } else {
-        soundBtn.currentTime = 0;
-      }
-      break;
-    case "btnrelease":
-      if (soundBtnRelease.paused) {
-        soundBtnRelease.play();
-      } else {
-        soundBtnRelease.currentTime = 0;
-      }
-      break;
-    case "crateopen":
-      if (soundCrateOpen.paused) {
-        soundCrateOpen.play();
-      }
-      break;
-    case "robocrateopen":
-      if (soundRoboCrateOpen.paused) {
-        soundRoboCrateOpen.play();
-      }
-      break;
-    case "wrapopen":
-      if (soundWrapOpen.paused) {
-        soundWrapOpen.play();
-      }
-      break;
-    case "unboxed":
-      if (soundUnboxed.paused) {
-        soundUnboxed.play();
-      } else {
-        soundUnboxed.currentTime = 0;
-      }
-      soundUnusualUnboxed.pause();
-      soundUnusualUnboxed.currentTime = 0;
-      soundRoboCrateOpen.pause();
-      soundRoboCrateOpen.currentTime = 0;
-      break;
-    case "unusualunboxed":
-      if (soundUnusualUnboxed.paused) {
-        soundUnusualUnboxed.play();
-      } else {
-        soundUnusualUnboxed.currentTime = 0;
-      }
-      soundUnboxed.pause();
-      soundUnboxed.currentTime = 0;
-      soundRoboCrateOpen.pause();
-      soundRoboCrateOpen.currentTime = 0;
-      break;
-  }
-}
-// Mute sound button
-muteSoundBtn.addEventListener("click", function () {
-  if (!muteSound) {
-    muteSound = true;
-    muteSoundIcon.src = "./images/muteiconc.svg";
-    localStorage.setItem("muteSound", "true");
-  } else {
-    muteSound = false;
-    muteSoundIcon.src = "./images/speakericonc.svg";
-    localStorage.removeItem("muteSound");
-    playSound("btnrelease");
-  }
-});
-// Play sound on button click
-for (i = 0; i < document.getElementsByClassName("btn").length; i++) {
-  document.getElementsByClassName("btn")[i].addEventListener("pointerdown", function () {
-    playSound("btn");
-  });
-  document.getElementsByClassName("btn")[i].addEventListener("click", function () {
-    playSound("btnrelease");
-  });
-}
-// Generate loot list function
-function generateLootList() {
-  var temp = Object.keys(cA[crateOrder[currentCrate]].loot);
-  for (var i = 1; i <= temp.length; i++) {
-    var lootListAdd = document.createElement("li");
-    var input;
-    if (cA[crateOrder[currentCrate]].loot["i" + i].id == 0) {
-      if (cA[crateOrder[currentCrate]].loot["i" + i].quality == 0) {
-        input = text.z1[language];
-        lootListAdd.classList.add("unusualloot");
-      } else {
-        continue;
-      }
-    } else {
-      input = itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id][language];
-      if (cA[crateOrder[currentCrate]].loot["i" + i].grade != 0) {
-        lootListAdd.classList.add(gradeTable3[cA[crateOrder[currentCrate]].loot["i" + i].grade])
-      }
+// DOM elements
+HTMLDocument.prototype.eId = document.getElementById; // Use document.eID() as a shorthand for document.eId()
+const DOM = {
+    main: {
+        container: document.eId("crateselectscreen"),
+        optionsBtn: document.eId("optionsbtn"),
+        statsBtn: document.eId("statsbtn"),
+        gridViewBtn: document.eId("gridviewbtn"),
+        exitGridViewBtn: document.eId("exitgridviewbtn"),
+        unboxBtn: document.eId("unboxbtn"),
+        bulkUnboxBtn: document.eId("bulkunboxbtn"),
+        randomCrateBtn: document.eId("randomcratebtn"),
+        muteSoundBtn: document.eId("soundbtn"),
+        infoBtn: document.eId("infobtn"),
+        previousCrateBtn: document.eId("previouscratebtn"),
+        nextCrateBtn: document.eId("nextcratebtn"),
+        crateName: document.eId("cratename"),
+        crateInfoContainer: document.eId("crateinfo"),
+        series: document.eId("crateseries"),
+        imgContainer: document.eId("crateimagediv"),
+        img: document.eId("crateimage"),
+        detailsContainer: document.eId("cratedetails"),
+        lootContainer: document.eId("cratelootdiv"),
+        lootTitle: document.eId("crateloottitle"),
+        lootList: document.eId("cratelootlist"),
+        lootNote: document.eId("cratenote"),
+        lootBonus: document.eId("cratelootbonus"),
+        effectsContainer: document.eId("crateeffectsdiv"),
+        effectsTitle: document.eId("crateeffectstitle"),
+        effectsList: document.eId("crateeffectslist"),
+        infoReturnBtn: document.eId("crateinforeturnbtn"),
+        infoEffectsBtn: document.eId("crateinfoeffectsbtn"),
+        infoLootBtn: document.eId("crateinfolootbtn"),
+        moreInfoBtn: document.eId("crateinfobtn"),
+        crateGrid: document.eId("crategrid"),
+        crateWindow: document.eId("cratewindow")
+    },
+    bulkSelect: {
+        screen: document.eId("bulkunboxselect"),
+        container: document.eId("bulkunboxcontainer"),
+        num: document.eId("bulkselectnum"),
+        unboxBtn: document.eId("bulkunboxselectbtn"),
+        cancelBtn: document.eId("bulkunboxselectcancelbtn"),
+        warning: document.eId("bulkwarning"),
+        warningHuge: document.eId("bulkwarninghuge")
+    },
+    bulkProgress: {
+        container: document.eId("bulkunboxprogress"),
+        progress: document.eId("bulkunboxprogressbar"),
+        progressDone: document.eId("bulkunboxprogressdone"),
+        progressTotal: document.eId("bulkunboxprogresstotal"),
+        progressPercent: document.eId("bulkunboxprogresspercent")
+    },
+    bulkResults: {
+        container: document.eId("bulkunboxresults"),
+        title: document.eId("bulkresultstitle"),
+        prev: document.eId("bulkresultsprev"),
+        next: document.eId("bulkresultsnext"),
+        tabName: document.eId("bulkresultstabname"),
+        stats: document.eId("bulkresultsstats"),
+        return: document.eId("bulkresultsreturnbtn"),
+        unusuals: document.eId("bulkresultsunusuals"),
+        unusualsContent: document.eId("bulkresultsunusualscontent"),
+        unusualsPageDiv: document.eId("bulkunusualspage"),
+        unusualsPrev: document.eId("bulkunusualsprev"),
+        unusualsNext: document.eId("bulkunusualsnext"),
+        items: {
+            container: document.eId("bulkresultsitems"),
+            content: document.eId("bulkresultsitems")
+        },
+        bonusItems: {
+            container: document.eId("bulkresultsbonusitems"),
+            content: document.eId("bulkresultsbonusitems")
+        }
+    },
+    options: {
+        container: document.eId("optionsscreen"),
+        returnBtn: document.eId("optionsreturnbtn"),
+        debugSettings: document.eId("debugsettings"),
+        resetBtn: document.eId("resetbtn"),
+        langDropdown: document.eId("langdropdown")
+    },
+    stats: {
+        container: document.eId("statsscreen"),
+        returnBtn: document.eId("statsreturnbtn"),
+        statistics: {
+            container: document.eId("statscontainerinner"),
+            prev: document.eId("statsgeneralprev"),
+            tab: document.eId("statsgeneraltab"),
+            next: document.eId("statsgeneralnext"),
+            luck: {
+                container: document.eId("statsluckcontainer"),
+                notEnough: document.eId("statslucknotenough"),
+                unusual: document.eId("unusualluck"),
+                unusualDesc: document.eId("unusualluckdesc"),
+                strange: document.eId("strangeluck"),
+                strangeDesc: document.eId("strangeluckdesc"),
+            }
+        },
+        unusuals: {
+            container: document.eId("statsunusuals"),
+            content: document.eId("statsunusualscontent"),
+            pageDiv: document.eId("statsunusualspage"),
+            prev: document.eId("statsunusualsprev"),
+            next: document.eId("statsunusualsnext"),
+        },
+        crates: {
+            container: document.eId("statscrates"),
+            details: {
+                container: document.eId("statscratesdetails"),
+                returnBtn: document.eId("returnstatsdetailsbtn"),
+                content: document.eId("statscratesdetailscontent"),
+                image: document.eId("cratedetailsimage"),
+                title: document.eId("cratedetailstitle"),
+                crateStats: document.eId("cratedetailsstats")
+            }
+        }
+    },
+    about: {
+        container: document.eId("aboutscreen"),
+        creditsTitle: document.eId("creditstitle")
+    },
+    unboxing: {
+        container: document.eId("countdownscreen"),
+        countdown: document.eId("uncratingcountdown"),
+        dots: document.eId("uncratinganim")
+    },
+    results: {
+        container: document.eId("resultscreen"),
+        returnBtn: document.eId("returnbtn"),
+        unboxBtn: document.eId("unboxagainbtn"),
+        lootName: document.eId("lootname"),
+        lootChance: document.eId("lootunboxpercent"),
+        lootImg: document.eId("lootimg"),
+        effectImg: document.eId("effectimg"),
+        effectField: document.eId("effectfield"),
+        effectName: document.eId("effectname"),
+        kitImg: document.eId("kitimg"),
+        kitField: document.eId("kitfield"),
+        statsContainer: document.eId("lootstatscontainer"),
+        statTimesUnboxedDiv: document.eId("loottimesunboxeddiv"),
+        statTimesUnboxed: document.eId("loottimesunboxed"),
+        statUnusualsUnboxedDiv: document.eId("lootunusualsunboxeddiv"),
+        statUnusualsUnboxed: document.eId("lootunusualsunboxed"),
+        statSinceLastUnusual: document.eId("lootsincelastunu"),
+        bonusContainer: document.eId("lootbonusitems"),
+        bonusItemContainer: document.eId("lootbonusitemcontainer"),
+        steamMarketBtn: document.eId("lootsteammarketbtn"),
+        bptfBtn: document.eId("lootbptfbtn"),
+        mptfBtn: document.eId("lootmptfbtn")
     }
-    lootListAdd.appendChild(document.createTextNode(input));
-    lootList.appendChild(lootListAdd);
-  }
-  if (cA[crateOrder[currentCrate]].note > 0) {
-    crateNote.innerHTML = text["m" + cA[crateOrder[currentCrate]].note][language];
-  } else {
-    crateNote.innerHTML = "";
-  }
 }
 
-// Listen to keys
-document.addEventListener('keydown', function (event) {
-  if (canUnbox && (event.code == 'Enter' || event.code == 'Space')) {
-    playSound("btn");
-    canUnbox = false;
-    canSwitchCrates = false;
-    unbox();
-    return 0;
-  };
-  if (canSwitchCrates && (event.code == 'ArrowLeft' || event.code == 'KeyA')) {
-    playSound("btn");
-    previousCrate();
-    return 0;
-  };
-  if (canSwitchCrates && (event.code == 'ArrowRight' || event.code == 'KeyD')) {
-    playSound("btn");
-    nextCrate();
-    return 0;
-  };
+// Misc variables
+let currentCrate = 0;
+let currentCrateObj = cA[crateOrder[currentCrate]];
+let canUnbox = true;
+const emptyImage = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
+const wearTable = ["", "FN", "MW", "FT", "WW", "BS"];
+const wearTableNames = ["", 80, 81, 82, 83, 84];
+const gradeTable = ["", "colorcivilian", "colorfreelance", "colormercenary", "colorcommando", "colorassassin", "colorelite"];
+const sheenTable = ["", 128, 129, 130, 131, 132, 133, 134];
+const killstreakerTable = ["", 135, 136, 137, 138, 139, 140, 141];
+// Save object
+let save = {
+    stats: {
+        "crates-opened": 0,
+        "keys-money": 0.00,
+        "unboxes-since-last-unusual": 0,
+        "min-unusual-drought": "N/A",
+        "max-unusual-drought": 0,
+        "unusual-avg": "N/A",
+        "unusual-avg-array": [],
+        "unusual-avgprice": "N/A",
+        "unusual-avgprice-array": [],
+        "bonus-unboxed": 0,
+        "unusualifiers-unboxed": 0,
+        "single-bonus-unboxed": 0,
+        "double-bonus-unboxed": 0,
+        "triple-bonus-unboxed": 0,
+        "unique-unboxed": 0,
+        "strange-unboxed": 0,
+        "random-strange-unboxed": 0,
+        "haunted-unboxed": 0,
+        "strangehaunted-unboxed": 0,
+        "decorated-unboxed": 0,
+        "unusual-unboxed": 0,
+        "strangeunusual-unboxed": 0,
+        "grade-unboxed": 0,
+        "civilian-unboxed": 0,
+        "freelance-unboxed": 0,
+        "mercenary-unboxed": 0,
+        "commando-unboxed": 0,
+        "assassin-unboxed": 0,
+        "elite-unboxed": 0,
+        "factorynew-unboxed": 0,
+        "minimalwear-unboxed": 0,
+        "fieldtested-unboxed": 0,
+        "wellworn-unboxed": 0,
+        "battlescarred-unboxed": 0,
+        "unusual-chances": 0,
+        "strange-chances": 0
+    },
+    crates: {
+
+    },
+    crateStats: {
+
+    },
+    bonusItems: [],
+    unusuals: [],
+    options: {
+        language: "eng",
+        fastUnbox: false,
+        forceUnusual: false,
+        forceUnusualifier: false,
+        forceStrange: false,
+        forceGrade: false,
+        forceGradeNum: 3,
+        forceProKit: false,
+        forceBonusItem: false,
+        amoledTheme: false,
+        stopAtItem: ["unusual", "tauntunusualifier", "bonusitem", "gradeelite"],
+        halloweenMode: "none",
+        eotlGlitch: false,
+        muteSound: false
+    }
+}
+
+// Populate save.crates and save.crateStats
+for (let crate in cA) {
+    save.crates[crate] = [];
+    for (let item of cA[crate].loot) {
+        save.crates[crate].push({});
+        switch (item.quality) {
+            case 4:
+            case 8:
+            case 9:
+            case 10:
+                save.crates[crate][save.crates[crate].length - 1].n = 0;
+                save.crates[crate][save.crates[crate].length - 1].q = 0;
+                break;
+            case 5:
+                for (let i = 1; i < wearTable.length; i++) {
+                    save.crates[crate][save.crates[crate].length - 1][wearTable[i]] = 0;
+                }
+                break;
+            case 6:
+                for (let i = 1; i < wearTable.length; i++) {
+                    save.crates[crate][save.crates[crate].length - 1][wearTable[i]] = 0;
+                    save.crates[crate][save.crates[crate].length - 1][`${wearTable[i]}q`] = 0;
+                }
+                break;
+            case 11:
+                save.crates[crate][save.crates[crate].length - 1].n = 0;
+                save.crates[crate][save.crates[crate].length - 1].s = [];
+                save.crates[crate][save.crates[crate].length - 1].p = [];
+                break;
+            default:
+                save.crates[crate][save.crates[crate].length - 1].n = 0;
+        }
+    }
+    for (let bonusItem in cA[crate].exclusiveBonus.loot) {
+        save.crates[crate].push({
+            n: 0
+        });
+    }
+    if (cA[crate].creepyBonus) {
+        for (let bonusItem of creepyCrateBonusArray) {
+            save.crates[crate].push({
+                n: 0
+            });
+            if (bonusItem.quality == 11) {
+                save.crates[crate][save.crates[crate].length - 1].s = [];
+                save.crates[crate][save.crates[crate].length - 1].p = [];
+            }
+        }
+    }
+    save.crateStats[crate] = {
+        n: 0
+    };
+    if (cA[crate].unusual) {
+        save.crateStats[crate].u = 0;
+    }
+    if (cA[crate].bonus || cA[crate].exclusiveBonus || cA[crate].creepyBonus) {
+        save.crateStats[crate].b = 0;
+    }
+}
+
+const defaultSave = JSON.parse(JSON.stringify(save));
+
+/* ITEM SAVE SYSTEM
+
+n - Stores the amount of the item.
+    For items that can have a Strange or Strange Haunted variant, this will store the amount of non-Strange items.
+    For killstreak kits, this will store the amount of normal killstreak kits.
+q - For items that can have a Strange or Strange Haunted variant, this will store the amount of Strange items.
+FN/MW/FT/WW/BS - Stores the amount of the item with specific wear
+    For items that can have a Strange variant, this will store the amount of non-Strange items.
+FNq/MWq/FTq/WWq/BSq - Same as above, but for items that can have a Strange variant, this will store the amount of non-Strange items.
+s - For killstreak kits, this will store specialized killstreak kits.
+p - For killstreak kits, this will store professional killstreak kits.
+*/
+
+// Options code
+document.querySelectorAll("[data-option]").forEach(el => {
+    if (el.classList.contains("checkbox")) {
+        el.addEventListener("click", () => {
+            sound.play("btn");
+            el.classList.toggle("checked");
+            if (el.classList.contains("checked")) {
+                save.options[el.dataset.option] = true;
+            } else {
+                save.options[el.dataset.option] = false;
+            }
+            localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
+        });
+    } else if (el.tagName == "SELECT") {
+        el.addEventListener("input", () => {
+            sound.play("btn");
+            if (!isNaN(parseInt(el.value))) {
+                save.options[el.dataset.option] = parseInt(el.value);
+            } else {
+                save.options[el.dataset.option] = el.value;
+            }
+            triggerOption(el.dataset.option);
+            localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
+        })
+    } else {
+        el.addEventListener("click", () => {
+            el.parentNode.querySelector(".active").classList.remove("active");
+            el.classList.add("active");
+            if (el.dataset.optionvalue === 'true') {
+                save.options[el.dataset.option] = true;
+            } else if (el.dataset.optionvalue === 'false') {
+                save.options[el.dataset.option] = false;
+            } else {
+                save.options[el.dataset.option] = el.dataset.optionvalue
+            }
+            triggerOption(el.dataset.option);
+            localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
+        });
+    }
+})
+
+document.querySelectorAll("[data-optionarray]").forEach(el => {
+    el.querySelectorAll("[data-optionvalue]").forEach(val => {
+        val.addEventListener("click", () => {
+            sound.play("btn");
+            if (val.classList.contains("checked")) {
+                val.classList.remove("checked")
+                save.options[el.dataset.optionarray] = save.options[el.dataset.optionarray].filter(item => item !== val.dataset.optionvalue)
+            } else {
+                val.classList.add("checked")
+                save.options[el.dataset.optionarray].push(val.dataset.optionvalue)
+            }
+            localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
+        })
+    })
+})
+
+function triggerOption(option, load) {
+    if (load) {
+        let optionEl = document.querySelector(`[data-option="${option}"], [data-optionarray="${option}"]`);
+        if (save.options[option] === true || save.options[option] === false) {
+            if (optionEl != null && optionEl.classList.contains("checkbox")) {
+                if (save.options[option]) {
+                    optionEl.classList.add("checked");
+                } else {
+                    optionEl.classList.remove("checked");
+                }
+            } else if (option === "muteSound") {
+                if (save.options.muteSound) {
+                    DOM.main.muteSoundBtn.innerHTML = '<i class="icon-mute"></i>';
+                }
+            } else {
+                document.querySelector(`[data-option="${option}"].active`).classList.remove("active");
+                document.querySelector(`[data-option="${option}"][data-optionvalue="${save.options[option]}"]`).classList.add("active");
+            }
+        } else if (optionEl != null && optionEl.tagName === "SELECT") {
+            optionEl.value = save.options[option];
+        } else if (optionEl.dataset.optionarray) {
+            optionEl.querySelectorAll("[data-optionvalue]").forEach(el => {
+                if (save.options[optionEl.dataset.optionarray].includes(el.dataset.optionvalue)) {
+                    el.classList.add("checked");
+                } else {
+                    el.classList.remove("checked")
+                }
+            })
+        }
+    }
+    switch (option) {
+        case "amoledTheme":
+            if (save.options.amoledTheme) {
+                document.body.classList.add("amoledtheme");
+            } else {
+                document.body.classList.remove("amoledtheme");
+            }
+            break;
+        case "language":
+            if ((load && save.options.language != "eng") || !load) {
+                changeLanguage(save.options.language);
+            }
+            break;
+        case "halloweenMode":
+            generateEffectList();
+            break;
+    }
+}
+
+// Update stats function
+function updateStats() {
+    document.querySelectorAll("[data-stat]").forEach(el => {
+        el.innerHTML = save.stats[el.dataset.stat];
+    });
+    document.querySelectorAll('[data-stat="keys-money"], [data-stat="unusual-avgprice"]').forEach(el => {
+        el.innerHTML = "$" + el.innerHTML;
+    })
+
+    // Luck
+    if (save.stats["unusual-chances"] >= 100 && save.stats["strange-chances"] >= 10) {
+        // Unusual luck
+
+        let unusualPrediction = Math.floor(save.stats["unusual-chances"] / 150);
+        let msg = getString("ui", 118);
+        msg = msg.replace("#TOTALUNBOXES#", save.stats["unusual-chances"]);
+        msg = msg.replace("#UNUSUALSUNBOXED#", save.stats["unusual-unboxed"]);
+
+        DOM.stats.statistics.luck.unusual.removeAttribute("class");
+
+        if (unusualPrediction < save.stats["unusual-unboxed"]) {
+            // Lucky
+            DOM.stats.statistics.luck.unusual.classList.add("lucky");
+            DOM.stats.statistics.luck.unusual.innerHTML = getString("ui", 114);
+            msg += getString("ui", 119);
+            msg = msg.replace("#DIFF#", save.stats["unusual-unboxed"] - unusualPrediction);
+        } else if (unusualPrediction > save.stats["unusual-unboxed"]) {
+            // Unlucky
+            DOM.stats.statistics.luck.unusual.classList.add("unlucky");
+            DOM.stats.statistics.luck.unusual.innerHTML = getString("ui", 115);
+            msg += getString("ui", 120);
+            msg = msg.replace("#DIFF#", unusualPrediction - save.stats["unusual-unboxed"]);
+        } else {
+            // Neither lucky nor unlucky
+            DOM.stats.statistics.luck.unusual.classList.add("neither");
+            msg += getString("ui", 121);
+            DOM.stats.statistics.luck.unusual.innerHTML = getString("ui", 116);
+        }
+
+        msg = msg.replace("#PREDICTION#", unusualPrediction);
+        DOM.stats.statistics.luck.unusualDesc.innerHTML = msg;
+
+        // Strange luck
+
+        let strangePrediction = Math.floor(save.stats["strange-chances"] / 10);
+        msg = getString("ui", 122);
+        msg = msg.replace("#TOTALUNBOXES#", save.stats["strange-chances"]);
+        msg = msg.replace("#STRANGESUNBOXED#", save.stats["random-strange-unboxed"]);
+
+        DOM.stats.statistics.luck.strange.removeAttribute("class");
+
+        if (strangePrediction < save.stats["random-strange-unboxed"]) {
+            // Lucky
+            DOM.stats.statistics.luck.strange.classList.add("lucky");
+            DOM.stats.statistics.luck.strange.innerHTML = getString("ui", 114);
+            msg += getString("ui", 119);
+            msg = msg.replace("#DIFF#", save.stats["random-strange-unboxed"] - strangePrediction);
+        } else if (strangePrediction > save.stats["random-strange-unboxed"]) {
+            // Unlucky
+            DOM.stats.statistics.luck.strange.classList.add("unlucky");
+            DOM.stats.statistics.luck.strange.innerHTML = getString("ui", 115);
+            msg += getString("ui", 120);
+            msg = msg.replace("#DIFF#", strangePrediction - save.stats["random-strange-unboxed"]);
+        } else {
+            // Neither lucky nor unlucky
+            DOM.stats.statistics.luck.unusual.classList.add("neither");
+            msg += getString("ui", 121);
+            DOM.stats.statistics.luck.strange.innerHTML = getString("ui", 116);
+        }
+
+        msg = msg.replace("#PREDICTION#", strangePrediction);
+        DOM.stats.statistics.luck.strangeDesc.innerHTML = msg;
+
+        DOM.stats.statistics.luck.notEnough.style.display = "none";
+        DOM.stats.statistics.luck.container.style.display = "flex";
+    } else {
+        // Not enough data to show luck
+        DOM.stats.statistics.luck.container.style.display = "none";
+        DOM.stats.statistics.luck.notEnough.style.display = "flex";
+    }
+}
+
+// Populate unusual section in stats
+let unusualsGenerated = false;
+
+function generateUnusualStats() {
+    unusualsGenerated = true;
+    DOM.stats.unusuals.content.innerHTML = "";
+
+    if (save.unusuals.length > 0) {
+        DOM.stats.unusuals.pageDiv.dataset.unusualpage = "1";
+        DOM.stats.unusuals.pageDiv.dataset.unusualmaxpage = Math.ceil(save.unusuals.length / 200);
+        unusualPage({
+            el: DOM.stats.unusuals.pageDiv
+        })
+
+    } else {
+        DOM.stats.unusuals.content.innerHTML = `<p id="nounusuals" data-string="50">${getString("ui", 50)}</p>`;
+    }
+}
+
+function updateUnusualStats(array, upd) {
+    /*  array[0] - item ID
+        array[1] - effect ID (or taunt ID if item is an unusualifier)
+        array[2] - item quality
+        array[3] - item wear
+    */
+    let tempHtml = "";
+
+    let itemName = getString("item", array[0]);
+    let qualityName = getString("ui", 73);
+
+    if (strangeStringPosition === "right") {
+        qualityName = `(${qualityName})`;
+    }
+
+    let skinFolder = "";
+    if (array[3] != 0) {
+        skinFolder = `skins/${wearTable[array[3]]}`;
+        itemName += ` (${getString("ui", wearTableNames[array[3]])})`;
+    }
+    let img1, img2;
+
+    let effectText = "";
+    if (array[2] === 1 && array[3] === 0) {
+        let temp = `<span class="colorstrange">${getString("ui", 71)}</span>`;
+        if (strangeStringPosition === "right") {
+            temp = temp.replace('">', '">(').replace('</span>', ')</span>');
+        }
+        qualityName = `${temp} ${qualityName}`;
+    }
+
+    if (array[0] === 770) {
+        itemName = getString("item", 770).replace("#ITEM#", getString("item", array[1]))
+        img1 = `<img src="./images/item/${getImg("item", 770)}" alt="">`;
+        img2 = `<img class="unusualifierimg" src="./images/item/${getImg("item", array[1])}" alt="">`;
+    } else {
+        if (strangeStringPosition === "left") {
+            itemName = `${qualityName} ${itemName}`;
+        } else {
+            itemName = `${itemName} ${qualityName}`;
+        }
+        let statClockText = "";
+        if (array[2] === 1 && array[3] != 0) {
+            statClockText = `<span class="colorstrange statclock">${getString("ui", 157)}</span><br>`;
+        }
+        effectText = `<p class="statsunusualseffect">${statClockText}${getString("ui", 79)} ${getString("effect", array[1])}</p>`;
+
+        img1 = `<img src="./images/effect/${getImg("effect", array[1])}" alt="">`;
+        img2 = `<img src="./images/item/${skinFolder}${getImg("item", array[0])}" alt="">`;
+    }
+
+    let urlOptions = {
+        item: array[0],
+        wear: array[3]
+    }
+    if (array[0] === 770) {
+        urlOptions.kitItem = array[1];
+    } else {
+        urlOptions.effect = array[1];
+    }
+    if (array[2] === 1) {
+        urlOptions.quality = "strangeunusual";
+    } else {
+        urlOptions.quality = "unusual";
+    }
+
+    let steamMarketUrl = generateSteamMarketUrl(urlOptions);
+    let backpackUrl = generateBackpackTfUrl(urlOptions);
+    let marketplaceUrl = generateMarketplaceTfUrl(urlOptions);
+
+    tempHtml += `<div>
+    ${img1}
+    ${img2}
+    <p class="statsunuusalsname">${itemName}</p>
+    <div class="statsunusualsbottom">
+    ${effectText}
+    <div class="statsunusualsmarketbtns">
+    <a class="btn tooltiptop" data-tooltip="${getString("ui", 197)}" data-tooltipstring="197" target="_blank" rel="noopener" href="${steamMarketUrl}"><i class="icon-steam"></i></a><a class="btn tooltiptop" data-tooltip="${getString("ui", 198)}" data-tooltipstring="198" target="_blank" rel="noopener" href="${backpackUrl}"><i class="icon-backpacktf"></i></a><a class="btn tooltiptop" data-tooltip="${getString("ui", 199)}" data-tooltipstring="199" target="_blank" rel="noopener" href="${marketplaceUrl}"><i class="icon-marketplacetf"></i></a>
+    </div>
+    </div>
+    </div>`;
+
+    if (upd) {
+        let noUnusualsMsg = DOM.stats.unusuals.content.querySelector("#nounusuals");
+        if (noUnusualsMsg) {
+            noUnusualsMsg.remove();
+        }
+        DOM.stats.unusuals.content.innerHTML += tempHtml;
+    } else {
+        return tempHtml;
+    }
+
+}
+
+let crateStatsGenerated = false;
+
+// Populate list of crates in inventory
+function generateCrateStats() {
+    if (crateStatsGenerated) {
+        return 0;
+    }
+    crateStatsGenerated = true;
+    DOM.stats.crates.container.innerHTML = "";
+    let tempHtml = "";
+
+    tempHtml += `<div data-cratestats="bonus">
+    <img src="./images/item/${getImg("item", 24)}" alt="">
+    <p class="statscratesname">${getString("ui", 144)}</p>
+    </div>`;
+
+    for (let crateNum of crateOrder) {
+        let crate = cA[crateNum];
+        tempHtml += `<div data-cratestats="${crateNum}">
+    <img src="./images/crate/${getImg("crate", crate.id)}" alt="">
+    <p class="statscratesname">${getString("crate", crate.id)}</p>
+    <p class="statscratesseries">${getSeries(crate.series)}</p>
+    </div>`
+    }
+
+    DOM.stats.crates.container.innerHTML = tempHtml;
+    document.querySelectorAll("[data-cratestats]").forEach(el => {
+        el.addEventListener("pointerdown", () => {
+            sound.play("btn");
+        })
+        el.addEventListener("click", evt => {
+            sound.play("btnRelease");
+            DOM.stats.container.style.display = "none";
+            DOM.stats.crates.details.container.classList.add("visible");
+            generateCrateDetails(el.dataset.cratestats);
+        })
+    })
+}
+
+
+// Crate inventory
+let showAllItems = false; // Debug variable - if set to true, will show items that were never unboxed as well
+function generateCrateDetails(crate, el, saveObj, bonus) {
+    let gridWidth = 0;
+    let gridClass = "col0";
+    let gridArray = ["col0", "col1", "col2", "col3"];
+
+    let htmlEl = DOM.stats.crates.details;
+
+    if (el != undefined) {
+        htmlEl = el;
+    }
+
+    let saveObject = save;
+
+    if (saveObj != undefined) {
+        saveObject = saveObj;
+    }
+
+    htmlEl.content.innerHTML = "";
+
+    function setGridWidth(width) {
+        if (width > gridWidth) {
+            gridWidth = width;
+            gridClass = gridArray[width];
+        }
+    }
+    let tempHTML = "";
+    if (crate === "bonus" || bonus === true) {
+        if (el === undefined) {
+            htmlEl.image.src = `./images/item/${getImg("item", 24)}`;
+            htmlEl.title.innerHTML = `<p>${getString("ui", 144)}</p>`;
+            htmlEl.crateStats.innerHTML = `<p>${getString("ui", 143)} ${saveObject.stats["bonus-unboxed"]}</p>`;
+        }
+
+        for (let item of saveObject.bonusItems) {
+            let urlOptions = {
+                item: item.i,
+                quality: "unique",
+                wear: 0
+            }
+            let steamMarketUrl = generateSteamMarketUrl(urlOptions);
+            let backpackUrl = generateBackpackTfUrl(urlOptions);
+            let marketplaceUrl = generateMarketplaceTfUrl(urlOptions);
+            tempHTML += `<div class="bordercolor colorunique">
+                    <p class="cratedetailsitemname">${getString("item", item.i)}</p>
+                    <img class="cratedetailsitemimg" src="./images/item/${getImg("item", item.i)}">
+                    <div class="cratedetailsitembottom">
+                    <p class="cratedetailsitemunboxed">${getString("ui", 53)} ${item.n} ${getString("ui", 54)}</p>
+                    <div class="cratedetailsitemmarketbtns">
+                    <a class="btn tooltiptop" data-tooltip="${getString("ui", 197)}" data-tooltipstring="197" target="_blank" rel="noopener" href="${steamMarketUrl}"><i class="icon-steam"></i></a><a class="btn tooltiptop" data-tooltip="${getString("ui", 198)}" data-tooltipstring="198" target="_blank" rel="noopener" href="${backpackUrl}"><i class="icon-backpacktf"></i></a><a class="btn tooltiptop" data-tooltip="${getString("ui", 199)}" data-tooltipstring="199" target="_blank" rel="noopener" href="${marketplaceUrl}"><i class="icon-marketplacetf"></i></a>
+                    </div>
+                    </div>
+                    </div>`
+        }
+    } else {
+        let urlOptions;
+        let steamMarketUrl;
+        let backpackUrl;
+        let marketplaceUrl;
+        for (let [index, item] of cA[crate].loot.entries()) {
+            switch (item.quality) {
+                case 1:
+                case 2:
+                case 3:
+                case 7:
+                case 12:
+                    if (saveObject.crates[crate][index].n === 0 && !showAllItems) {
+                        continue;
+                    }
+
+                    let itemImg, kitImg, itemName;
+                    itemImg = kitImg = itemName = "";
+                    if (item.quality === 12) {
+                        itemImg = `<img class="cratedetailsitemimg" src="./images/item/${getImg("item", 452)}">`;
+                        kitImg = `<img class="cratedetailskitimg" src="./images/item/${getImg("item", item.id)}">`;
+                        itemName = getString("item", 452).replace("#ITEM#", getString("item", item.id));
+                    } else {
+                        itemImg = `<img class="cratedetailsitemimg" src="./images/item/${getImg("item", item.id)}">`;
+                        itemName = getString("item", item.id);
+                    }
+                    let borderColor = "bordercolor ";
+                    switch (item.quality) {
+                        case 2:
+                            borderColor += "colorstrange"
+                            break;
+                        case 3:
+                            borderColor = "colorhaunted"
+                            break;
+                        default:
+                            borderColor = "colorunique"
+                    }
+                    urlOptions = {
+                        item: item.id,
+                        wear: 0
+                    }
+                    switch (item.quality) {
+                        case 1:
+                        case 7:
+                            urlOptions.quality = "unique";
+                            break;
+                        case 2:
+                            urlOptions.quality = "strange";
+                            break;
+                        case 3:
+                            urlOptions.quality = "haunted";
+                            break;
+                        case 12:
+                            urlOptions.quality = "strangifier";
+                            break;
+                    }
+                    if (urlOptions.quality != "unique" ||
+                        globalBonusItemArray.includes(item.id) ||
+                        paintBonusArray.includes(item.id) ||
+                        strangePartBonusArray.includes(item.id) ||
+                        steamMarketWhitelist.includes(item.id)) {
+                        steamMarketUrl = `<a class="btn tooltiptop" data-tooltip="${getString("ui", 197)}" data-tooltipstring="197" target="_blank" rel="noopener" href="${generateSteamMarketUrl(urlOptions)}"><i class="icon-steam"></i></a>`
+                    } else {
+                        steamMarketUrl = `<a class="btn btndisabled"><i class="icon-steam"></i></a>`
+                    }
+                    backpackUrl = generateBackpackTfUrl(urlOptions);
+                    marketplaceUrl = generateMarketplaceTfUrl(urlOptions);
+                    tempHTML += `<div class="${borderColor}">
+                    <p class="cratedetailsitemname">${itemName}</p>
+                    ${itemImg}${kitImg}
+                    <div class="cratedetailsitembottom">
+                    <p class="cratedetailsitemunboxed">${getString("ui", 53)} ${saveObject.crates[crate][index].n} ${getString("ui", 54)}</p>
+                    <div class="cratedetailsitemmarketbtns">
+                    ${steamMarketUrl}<a class="btn tooltiptop" data-tooltip="${getString("ui", 198)}" data-tooltipstring="198" target="_blank" rel="noopener" href="${backpackUrl}"><i class="icon-backpacktf"></i></a><a class="btn tooltiptop" data-tooltip="${getString("ui", 199)}" data-tooltipstring="199" target="_blank" rel="noopener" href="${marketplaceUrl}"><i class="icon-marketplacetf"></i></a>
+                    </div>
+                    </div>
+                    </div>`
+                    break;
+                case 4:
+                case 8:
+                case 9:
+                case 10:
+                    if (saveObject.crates[crate][index].n === 0 && saveObject.crates[crate][index].q === 0 && !showAllItems) {
+                        continue;
+                    }
+                    setGridWidth(2);
+                    let qualityString, gradeClass;
+                    if (item.quality == 8) {
+                        qualityString = `<p class="colorstrange">${getString("ui", 71)} <span class="colorhaunted">${getString("ui", 72)}:</span></p>`;
+                    } else {
+                        qualityString = `<p class="colorstrange">${getString("ui", 71)}:</p>`;
+                    }
+                    if (item.grade != 0) {
+                        gradeClass = ` class="bordercolor ${gradeTable[item.grade]}"`
+                    } else {
+                        gradeClass = "";
+                    }
+                    urlOptions = {
+                        item: item.id,
+                        quality: "unique",
+                        wear: 0
+                    }
+                    if (item.grade != 0 || steamMarketWhitelist.includes(item.id)) {
+                        steamMarketUrl = `<a class="btn tooltiptop" data-tooltip="${getString("ui", 197)}" data-tooltipstring="197" target="_blank" rel="noopener" href="${generateSteamMarketUrl(urlOptions)}"><i class="icon-steam"></i></a>`
+                    } else {
+                        steamMarketUrl = `<a class="btn btndisabled"><i class="icon-steam"></i></a>`
+                    }
+                    backpackUrl = generateBackpackTfUrl(urlOptions);
+                    marketplaceUrl = generateMarketplaceTfUrl(urlOptions);
+                    tempHTML += `<div${gradeClass}>
+                    <p class="cratedetailsitemname">${getString("item", item.id)}</p>
+                    <div>
+                    <img class="cratedetailsitemimg" src="./images/item/${getImg("item", item.id)}">
+                        <div class="cratedetailsqualitylist">
+                            <p class="colorunique">${getString("ui", 146)}:</p>
+                            <p>${saveObject.crates[crate][index].n}</p>
+                            ${qualityString}
+                            <p>${saveObject.crates[crate][index].q}</p>
+                        </div>
+                    </div>
+                    <div class="cratedetailsitembottom">
+                    <p class="cratedetailsitemunboxed">${getString("ui", 53)} ${saveObject.crates[crate][index].n + saveObject.crates[crate][index].q} ${getString("ui", 54)}</p>
+                    <div class="cratedetailsitemmarketbtns">
+                    ${steamMarketUrl}<a class="btn tooltiptop" data-tooltip="${getString("ui", 198)}" data-tooltipstring="198" target="_blank" rel="noopener" href="${backpackUrl}"><i class="icon-backpacktf"></i></a><a class="btn tooltiptop" data-tooltip="${getString("ui", 199)}" data-tooltipstring="199" target="_blank" rel="noopener" href="${marketplaceUrl}"><i class="icon-marketplacetf"></i></a>
+                    </div>
+                    </div>
+                    </div>`
+                    break;
+                case 5:
+                case 6:
+                    let noItems = true;
+                    for (let variant in saveObject.crates[crate][index]) {
+                        if (saveObject.crates[crate][index][variant] != 0 || showAllItems) {
+                            noItems = false;
+                            break;
+                        }
+                    }
+                    if (noItems) {
+                        continue;
+                    }
+                    setGridWidth(3);
+                    let gradeClass2;
+                    if (item.grade != 0) {
+                        gradeClass2 = ` class="bordercolor ${gradeTable[item.grade]}"`
+                    } else {
+                        gradeClass2 = "";
+                    }
+                    let strangeList = "";
+                    let saveItem = saveObject.crates[crate][index];
+                    let itemTotal = saveItem.FN + saveItem.MW + saveItem.FT + saveItem.WW + saveItem.BS;
+                    if (item.quality === 6) {
+                        strangeList = `<div class="cratedetailsqualitylist">
+                        <p class="colorstrange">${getString("ui", 80)}:</p>
+                        <p>${saveObject.crates[crate][index].FNq}</p>
+                        <p class="colorstrange">${getString("ui", 81)}:</p>
+                        <p>${saveObject.crates[crate][index].MWq}</p>
+                        <p class="colorstrange">${getString("ui", 82)}:</p>
+                        <p>${saveObject.crates[crate][index].FTq}</p>
+                        <p class="colorstrange">${getString("ui", 83)}:</p>
+                        <p>${saveObject.crates[crate][index].WWq}</p>
+                        <p class="colorstrange">${getString("ui", 84)}:</p>
+                        <p>${saveObject.crates[crate][index].BSq}</p>
+                        </div>`;
+                        itemTotal += saveItem.FNq + saveItem.MWq + saveItem.FTq + saveItem.WWq + saveItem.BSq;
+                    }
+                    tempHTML += `<div${gradeClass2}>
+                    <p class="cratedetailsitemname">${getString("item", item.id)}</p>
+                    <div>
+                    <img class="cratedetailsitemimg" src="./images/item/skins/FN${getImg("item", item.id)}">
+                        <div class="cratedetailsqualitylist">
+                            <p class="colorunique">${getString("ui", 80)}:</p>
+                            <p>${saveObject.crates[crate][index].FN}</p>
+                            <p class="colorunique">${getString("ui", 81)}:</p>
+                            <p>${saveObject.crates[crate][index].MW}</p>
+                            <p class="colorunique">${getString("ui", 82)}:</p>
+                            <p>${saveObject.crates[crate][index].FT}</p>
+                            <p class="colorunique">${getString("ui", 83)}:</p>
+                            <p>${saveObject.crates[crate][index].WW}</p>
+                            <p class="colorunique">${getString("ui", 84)}:</p>
+                            <p>${saveObject.crates[crate][index].BS}</p>
+                        </div>
+                        ${strangeList}
+                    </div>
+                    <p class="cratedetailsitemunboxed cratedetailsitemnomarket">${getString("ui", 53)} ${itemTotal} ${getString("ui", 54)}</p>
+                    </div>`
+                    break;
+                case 11:
+                    if (saveObject.crates[crate][index].n === 0 && saveObject.crates[crate][index].s.length === 0 && saveObject.crates[crate][index].p.length === 0 && !showAllItems) {
+                        continue;
+                    }
+                    setGridWidth(1);
+
+                    if (saveObject.crates[crate][index].n != 0) {
+                        let itemName = getString("item", 764).replace("#ITEM#", getString("item", item.id));
+                        urlOptions = {
+                            item: item.id,
+                            quality: "unique",
+                            wear: 0,
+                            kit: 1
+                        }
+                        steamMarketUrl = `<a class="btn tooltiptop" data-tooltip="${getString("ui", 197)}" data-tooltipstring="197" target="_blank" rel="noopener" href="${generateSteamMarketUrl(urlOptions)}"><i class="icon-steam"></i></a>`
+                        backpackUrl = generateBackpackTfUrl(urlOptions);
+                        marketplaceUrl = generateMarketplaceTfUrl(urlOptions);
+                        tempHTML += `<div class="bordercolor colorunique">
+                    <p class="cratedetailsitemname">${itemName}</p>
+                    <img class="cratedetailsitemimg" src="./images/item/${getImg("item", 764)}">
+                    <img class="cratedetailskitimg" src="./images/item/${getImg("item", item.id)}">
+                    <div class="cratedetailsitembottom">
+                    <p class="cratedetailsitemunboxed">${getString("ui", 53)} ${saveObject.crates[crate][index].n} ${getString("ui", 54)}</p>
+                    <div class="cratedetailsitemmarketbtns">
+                    ${steamMarketUrl}<a class="btn tooltiptop" data-tooltip="${getString("ui", 198)}" data-tooltipstring="198" target="_blank" rel="noopener" href="${backpackUrl}"><i class="icon-backpacktf"></i></a><a class="btn tooltiptop" data-tooltip="${getString("ui", 199)}" data-tooltipstring="199" target="_blank" rel="noopener" href="${marketplaceUrl}"><i class="icon-marketplacetf"></i></a>
+                    </div>
+                    </div>
+                    </div>`;
+                    }
+
+                    for (let specKit of saveObject.crates[crate][index].s) {
+                        urlOptions = {
+                            item: item.id,
+                            quality: "unique",
+                            wear: 0,
+                            kit: 2
+                        }
+                        steamMarketUrl = `<a class="btn tooltiptop" data-tooltip="${getString("ui", 197)}" data-tooltipstring="197" target="_blank" rel="noopener" href="${generateSteamMarketUrl(urlOptions)}"><i class="icon-steam"></i></a>`
+                        backpackUrl = generateBackpackTfUrl(urlOptions);
+                        marketplaceUrl = generateMarketplaceTfUrl(urlOptions);
+                        let itemName = getString("item", 765).replace("#ITEM#", getString("item", item.id));
+                        tempHTML += `<div class="bordercolor colorunique">
+                    <p class="cratedetailsitemname">${itemName}<br>
+                    <span class="cratedetailskillstreak">${getString("ui", 126)} ${getString("ui", sheenTable[specKit.s])}</span></p>
+                    <img class="cratedetailsitemimg" src="./images/item/${getImg("item", 765)}">
+                    <img class="cratedetailskitimg" src="./images/item/${getImg("item", item.id)}">
+                    <div class="cratedetailsitembottom">
+                    <p class="cratedetailsitemunboxed">${getString("ui", 53)} ${specKit.n} ${getString("ui", 54)}</p>
+                    <div class="cratedetailsitemmarketbtns">
+                    ${steamMarketUrl}<a class="btn tooltiptop" data-tooltip="${getString("ui", 198)}" data-tooltipstring="198" target="_blank" rel="noopener" href="${backpackUrl}"><i class="icon-backpacktf"></i></a><a class="btn tooltiptop" data-tooltip="${getString("ui", 199)}" data-tooltipstring="199" target="_blank" rel="noopener" href="${marketplaceUrl}"><i class="icon-marketplacetf"></i></a>
+                    </div>
+                    </div>
+                    </div>`;
+                    }
+
+                    for (let proKit of saveObject.crates[crate][index].p) {
+                        urlOptions = {
+                            item: item.id,
+                            quality: "unique",
+                            wear: 0,
+                            kit: 3
+                        }
+                        steamMarketUrl = `<a class="btn tooltiptop" data-tooltip="${getString("ui", 197)}" data-tooltipstring="197" target="_blank" rel="noopener" href="${generateSteamMarketUrl(urlOptions)}"><i class="icon-steam"></i></a>`
+                        backpackUrl = generateBackpackTfUrl(urlOptions);
+                        marketplaceUrl = generateMarketplaceTfUrl(urlOptions);
+                        let itemName = getString("item", 766).replace("#ITEM#", getString("item", item.id));
+                        tempHTML += `<div class="bordercolor colorunique">
+                    <p class="cratedetailsitemname">${itemName}<br>
+                    <span class="cratedetailskillstreak">${getString("ui", 126)} ${getString("ui", sheenTable[proKit.s])}<br>
+                    ${getString("ui", 127)} ${getString("ui", killstreakerTable[proKit.k])}</span></p>
+                    <img class="cratedetailsitemimg" src="./images/item/${getImg("item", 766)}">
+                    <img class="cratedetailskitimg" src="./images/item/${getImg("item", item.id)}">
+                    <div class="cratedetailsitembottom">
+                    <p class="cratedetailsitemunboxed">${getString("ui", 53)} ${proKit.n} ${getString("ui", 54)}</p>
+                    <div class="cratedetailsitemmarketbtns">
+                    ${steamMarketUrl}<a class="btn tooltiptop" data-tooltip="${getString("ui", 198)}" data-tooltipstring="198" target="_blank" rel="noopener" href="${backpackUrl}"><i class="icon-backpacktf"></i></a><a class="btn tooltiptop" data-tooltip="${getString("ui", 199)}" data-tooltipstring="199" target="_blank" rel="noopener" href="${marketplaceUrl}"><i class="icon-marketplacetf"></i></a>
+                    </div>
+                    </div>
+                    </div>`;
+                    }
+                    break;
+            }
+        }
+        if (cA[crate].exclusiveBonus) {
+            for (let [index, item] of cA[crate].exclusiveBonus.loot.entries()) {
+                let bonusItemIndex = cA[crate].loot.length + index;
+                if (saveObject.crates[crate][bonusItemIndex].n === 0 && !showAllItems) {
+                    continue;
+                }
+                urlOptions = {
+                    item: item,
+                    quality: "unique",
+                    wear: 0
+                }
+                steamMarketUrl = `<a class="btn tooltiptop" data-tooltip="${getString("ui", 197)}" data-tooltipstring="197" target="_blank" rel="noopener" href="${generateSteamMarketUrl(urlOptions)}"><i class="icon-steam"></i></a>`
+                backpackUrl = generateBackpackTfUrl(urlOptions);
+                marketplaceUrl = generateMarketplaceTfUrl(urlOptions);
+                tempHTML += `<div class="bordercolor colorunique">
+                <p class="cratedetailsitemname">${getString("item", item)}</p>
+                <img class="cratedetailsitemimg" src="./images/item/${getImg("item", item)}">
+                <div class="cratedetailsitembottom">
+                <p class="cratedetailsitemunboxed">${getString("ui", 53)} ${saveObject.crates[crate][bonusItemIndex].n} ${getString("ui", 54)}</p>
+                <div class="cratedetailsitemmarketbtns">
+                    ${steamMarketUrl}<a class="btn tooltiptop" data-tooltip="${getString("ui", 198)}" data-tooltipstring="198" target="_blank" rel="noopener" href="${backpackUrl}"><i class="icon-backpacktf"></i></a><a class="btn tooltiptop" data-tooltip="${getString("ui", 199)}" data-tooltipstring="199" target="_blank" rel="noopener" href="${marketplaceUrl}"><i class="icon-marketplacetf"></i></a>
+                    </div>
+                    </div>
+                </div>`;
+            }
+        }
+        if (cA[crate].creepyBonus) {
+            for (let [index, item] of creepyCrateBonusArray.entries()) {
+                let bonusItemIndex = cA[crate].loot.length + index;
+                if (item.quality == 11) {
+                    if (saveObject.crates[crate][bonusItemIndex].n === 0 && saveObject.crates[crate][bonusItemIndex].s.length === 0 && saveObject.crates[crate][bonusItemIndex].p.length === 0 && !showAllItems) {
+                        continue;
+                    }
+                    setGridWidth(1);
+
+                    if (saveObject.crates[crate][bonusItemIndex].n != 0) {
+                        urlOptions = {
+                            item: item.id,
+                            quality: "unique",
+                            wear: 0,
+                            kit: 1
+                        }
+                        steamMarketUrl = `<a class="btn tooltiptop" data-tooltip="${getString("ui", 197)}" data-tooltipstring="197" target="_blank" rel="noopener" href="${generateSteamMarketUrl(urlOptions)}"><i class="icon-steam"></i></a>`
+                        backpackUrl = generateBackpackTfUrl(urlOptions);
+                        marketplaceUrl = generateMarketplaceTfUrl(urlOptions);
+                        let itemName = getString("item", 764).replace("#ITEM#", getString("item", item.id));
+                        tempHTML += `<div class="bordercolor colorunique">
+                    <p class="cratedetailsitemname">${itemName}</p>
+                    <img class="cratedetailsitemimg" src="./images/item/${getImg("item", 764)}">
+                    <img class="cratedetailskitimg" src="./images/item/${getImg("item", item.id)}">
+                    <div class="cratedetailsitembottom">
+                    <p class="cratedetailsitemunboxed">${getString("ui", 53)} ${saveObject.crates[crate][bonusItemIndex].n} ${getString("ui", 54)}</p>
+                    <div class="cratedetailsitemmarketbtns">
+                    ${steamMarketUrl}<a class="btn tooltiptop" data-tooltip="${getString("ui", 198)}" data-tooltipstring="198" target="_blank" rel="noopener" href="${backpackUrl}"><i class="icon-backpacktf"></i></a><a class="btn tooltiptop" data-tooltip="${getString("ui", 199)}" data-tooltipstring="199" target="_blank" rel="noopener" href="${marketplaceUrl}"><i class="icon-marketplacetf"></i></a>
+                    </div>
+                    </div>
+                    </div>`;
+                    }
+
+                    for (let specKit of saveObject.crates[crate][bonusItemIndex].s) {
+                        urlOptions = {
+                            item: item.id,
+                            quality: "unique",
+                            wear: 0,
+                            kit: 2
+                        }
+                        steamMarketUrl = `<a class="btn tooltiptop" data-tooltip="${getString("ui", 197)}" data-tooltipstring="197" target="_blank" rel="noopener" href="${generateSteamMarketUrl(urlOptions)}"><i class="icon-steam"></i></a>`
+                        backpackUrl = generateBackpackTfUrl(urlOptions);
+                        marketplaceUrl = generateMarketplaceTfUrl(urlOptions);
+                        let itemName = getString("item", 765).replace("#ITEM#", getString("item", item.id));
+                        tempHTML += `<div class="bordercolor colorunique">
+                    <p class="cratedetailsitemname">${itemName}<br>
+                    <span class="cratedetailskillstreak">${getString("ui", 126)} ${getString("ui", sheenTable[specKit.s])}</span></p>
+                    <img class="cratedetailsitemimg" src="./images/item/${getImg("item", 765)}">
+                    <img class="cratedetailskitimg" src="./images/item/${getImg("item", item.id)}">
+                    <div class="cratedetailsitembottom">
+                    <p class="cratedetailsitemunboxed">${getString("ui", 53)} ${specKit.n} ${getString("ui", 54)}</p>
+                    <div class="cratedetailsitemmarketbtns">
+                    ${steamMarketUrl}<a class="btn tooltiptop" data-tooltip="${getString("ui", 198)}" data-tooltipstring="198" target="_blank" rel="noopener" href="${backpackUrl}"><i class="icon-backpacktf"></i></a><a class="btn tooltiptop" data-tooltip="${getString("ui", 199)}" data-tooltipstring="199" target="_blank" rel="noopener" href="${marketplaceUrl}"><i class="icon-marketplacetf"></i></a>
+                    </div>
+                    </div>
+                    </div>`;
+                    }
+
+                    for (let proKit of saveObject.crates[crate][bonusItemIndex].p) {
+                        urlOptions = {
+                            item: item.id,
+                            quality: "unique",
+                            wear: 0,
+                            kit: 3
+                        }
+                        steamMarketUrl = `<a class="btn tooltiptop" data-tooltip="${getString("ui", 197)}" data-tooltipstring="197" target="_blank" rel="noopener" href="${generateSteamMarketUrl(urlOptions)}"><i class="icon-steam"></i></a>`
+                        backpackUrl = generateBackpackTfUrl(urlOptions);
+                        marketplaceUrl = generateMarketplaceTfUrl(urlOptions);
+                        let itemName = getString("item", 766).replace("#ITEM#", getString("item", item.id));
+                        tempHTML += `<div class="bordercolor colorunique">
+                    <p class="cratedetailsitemname">${itemName}<br>
+                    <span class="cratedetailskillstreak">${getString("ui", 126)} ${getString("ui", sheenTable[proKit.s])}<br>
+                    ${getString("ui", 127)} ${getString("ui", killstreakerTable[proKit.k])}</span></p>
+                    <img class="cratedetailsitemimg" src="./images/item/${getImg("item", 766)}">
+                    <img class="cratedetailskitimg" src="./images/item/${getImg("item", item.id)}">
+                    <div class="cratedetailsitembottom">
+                    <p class="cratedetailsitemunboxed">${getString("ui", 53)} ${proKit.n} ${getString("ui", 54)}</p>
+                    <div class="cratedetailsitemmarketbtns">
+                    ${steamMarketUrl}<a class="btn tooltiptop" data-tooltip="${getString("ui", 198)}" data-tooltipstring="198" target="_blank" rel="noopener" href="${backpackUrl}"><i class="icon-backpacktf"></i></a><a class="btn tooltiptop" data-tooltip="${getString("ui", 199)}" data-tooltipstring="199" target="_blank" rel="noopener" href="${marketplaceUrl}"><i class="icon-marketplacetf"></i></a>
+                    </div>
+                    </div>
+                    </div>`;
+                    }
+                } else {
+                    if (saveObject.crates[crate][bonusItemIndex].n === 0 && !showAllItems) {
+                        continue;
+                    }
+                    urlOptions = {
+                        item: item.id,
+                        quality: "strangifier",
+                        wear: 0
+                    }
+                    steamMarketUrl = `<a class="btn tooltiptop" data-tooltip="${getString("ui", 197)}" data-tooltipstring="197" target="_blank" rel="noopener" href="${generateSteamMarketUrl(urlOptions)}"><i class="icon-steam"></i></a>`
+                    backpackUrl = generateBackpackTfUrl(urlOptions);
+                    marketplaceUrl = generateMarketplaceTfUrl(urlOptions);
+                    let itemImg = `<img class="cratedetailsitemimg" src="./images/item/${getImg("item", 452)}">`;
+                    let kitImg = `<img class="cratedetailskitimg" src="./images/item/${getImg("item", item.id)}">`;
+                    let itemName = getString("item", 452).replace("#ITEM#", getString("item", item.id));
+                    tempHTML += `<div class="bordercolor colorunique">
+                    <p class="cratedetailsitemname">${itemName}</p>
+                    ${itemImg}${kitImg}
+                    <div class="cratedetailsitembottom">
+                    <p class="cratedetailsitemunboxed">${getString("ui", 53)} ${saveObject.crates[crate][bonusItemIndex].n} ${getString("ui", 54)}</p>
+                    <div class="cratedetailsitemmarketbtns">
+                    ${steamMarketUrl}<a class="btn tooltiptop" data-tooltip="${getString("ui", 198)}" data-tooltipstring="198" target="_blank" rel="noopener" href="${backpackUrl}"><i class="icon-backpacktf"></i></a><a class="btn tooltiptop" data-tooltip="${getString("ui", 199)}" data-tooltipstring="199" target="_blank" rel="noopener" href="${marketplaceUrl}"><i class="icon-marketplacetf"></i></a>
+                    </div>
+                    </div>
+                    </div>`;
+                }
+
+            }
+        }
+        if (el === undefined) {
+            htmlEl.image.src = `./images/crate/${getImg("crate", cA[crate].id)}`;
+            htmlEl.title.innerHTML = `<p>${getString("crate", cA[crate].id)}</p>
+        <p>${getSeries(cA[crate].series)}</p>`;
+            let stats = `<p>${getString("ui", 53)} ${saveObject.crateStats[crate].n} ${getString("ui", 54)}</p>`;
+            if (saveObject.crateStats[crate].u != undefined) {
+                stats += `<p>${getString("ui", 40)} ${saveObject.crateStats[crate].u}</p>`;
+            }
+            if (saveObject.crateStats[crate].b != undefined) {
+                stats += `<p>${getString("ui", 143)} ${saveObject.crateStats[crate].b}</p>`;
+            }
+            htmlEl.crateStats.innerHTML = stats;
+        }
+    }
+    htmlEl.content.removeAttribute("class");
+    htmlEl.content.classList.add(gridClass);
+    htmlEl.content.innerHTML = tempHTML;
+}
+
+// Unbox with spacebar and enter keys
+document.addEventListener('keydown', function(event) {
+    if (event.code == 'Enter' || event.code == 'Space') {
+        if (!unboxStop && canUnbox) {
+            sound.play("btn");
+            beginUnbox();
+        }
+        return 0;
+    };
 });
 
-// Generate effect list function
-function generateEffectList() {
-  for (var i = 0; i < cA[crateOrder[currentCrate]].effects.length; i++) {
-    var effectListAdd = document.createElement("li");
-    var input = unusualeffects["e" + cA[crateOrder[currentCrate]].effects[i]][language];
-    effectListAdd.appendChild(document.createTextNode(input));
-    effectList.appendChild(effectListAdd);
-  }
-  if (cA[crateOrder[currentCrate]].effects.length > 0) {
-    unusualEffectsText.innerHTML = text.d2[language];
-  } else {
-    unusualEffectsText.innerHTML = text.d3[language];
-  }
+// Languages
+let language = "eng";
+const dataObj = {
+    "item": dataItems,
+    "crate": dataCrates,
+    "effect": dataEffects,
+    "ui": dataUi
 }
+
+function getString(type, id) {
+    if (dataObj[type][id][language] == undefined) { // If the string does not exist in current language, return it in English instead
+        return dataObj[type][id].eng;
+    } else {
+        return dataObj[type][id][language];
+    }
+}
+
+function getEngString(type, id) {
+    return dataObj[type][id].eng;
+}
+
+function getImg(type, id) {
+    return dataObj[type][id].img + imageSupport;
+}
+
+function getSchema(type, id) {
+    return dataObj[type][id].schema;
+}
+
+function getSchema2(type, id) {
+    if (dataObj[type][id].schema2 != undefined) {
+        return dataObj[type][id].schema2;
+    } else {
+        return false;
+    }
+}
+
+let strangeStringPosition = "left"; // Whether the "Strange" string in item names should appear before or after the item name
+
+function changeLanguage(lang) {
+    language = lang;
+    localStorage.setItem("unboxertf-languagechanged", "true");
+    unusualsGenerated = false;
+    document.querySelectorAll("[data-string]").forEach(item => {
+        item.innerHTML = getString("ui", item.dataset.string)
+    });
+    document.querySelectorAll("[data-tooltipstring]").forEach(item => {
+        item.dataset.tooltip = getString("ui", item.dataset.tooltipstring)
+    });
+    DOM.stats.statistics.tab.innerHTML = getString("ui", DOM.stats.statistics.container.querySelector(".statvisible").dataset.statstring);
+    switch (lang) {
+        case "pol":
+            strangeStringPosition = "right";
+            break;
+        default:
+            strangeStringPosition = "left";
+    }
+
+    switch (lang) {
+        case "eng":
+            document.documentElement.lang = "en";
+            break;
+        case "pol":
+            document.documentElement.lang = "pl";
+            break;
+        case "fre":
+            document.documentElement.lang = "fr";
+            break;
+        case "sch":
+            document.documentElement.lang = "zh-Hans";
+            break;
+        case "bra":
+            document.documentElement.lang = "pt-BR";
+            break;
+    }
+    jumpToCrate(currentCrate);
+    generateGrid();
+    crateStatsGenerated = false;
+    generateCrateStats();
+}
+
+// Crate series
+function getSeries(id) {
+    if (id == 0) {
+        return getString("ui", 76);
+    } else {
+        return getString("ui", 75) + id;
+    }
+}
+
+// Sound
+const sound = {
+    btn: new Audio("./sound/btn.mp3"),
+    btnRelease: new Audio("./sound/btnrelease.mp3"),
+    crateOpen: new Audio("./sound/crateopen.mp3"),
+    wrapOpen: new Audio("./sound/wrapopen.mp3"),
+    roboCrateOpen: new Audio("./sound/robocrateopen.mp3"),
+    unboxed: new Audio("./sound/unboxed.mp3"),
+    unusualUnboxed: new Audio("./sound/unusualunboxed.mp3"),
+    play: id => {
+        if (save.options.muteSound) {
+            return;
+        }
+        if (sound[id].paused) {
+            sound[id].play();
+        } else {
+            sound[id].currentTime = 0;
+        }
+    }
+}
+DOM.main.muteSoundBtn.addEventListener("click", () => {
+    if (!save.options.muteSound) {
+        save.options.muteSound = true;
+        DOM.main.muteSoundBtn.innerHTML = '<i class="icon-mute"></i>';
+        localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
+    } else {
+        save.options.muteSound = false;
+        DOM.main.muteSoundBtn.innerHTML = '<i class="icon-speaker"></i>';
+        localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
+        sound.play("btnRelease");
+    }
+});
+
+for (let el of document.getElementsByClassName("btn")) {
+    el.addEventListener("pointerdown", () => {
+        if (!el.classList.contains("btndisabled")) {
+            sound.play("btn");
+        }
+    });
+    el.addEventListener("click", () => {
+        if (!el.classList.contains("btndisabled")) {
+            sound.play("btnRelease");
+        }
+    });
+}
+
 // Previous/next crate buttons
 
-function nextCrate() {
-  if (currentCrate == cA.length - 1) {
-    currentCrate = 1;
-  } else {
-    currentCrate += 1;
-  }
-  pageCrateName.innerHTML = cratename["c" + cA[crateOrder[currentCrate]].id][language];
-  pageCrateSeries.innerHTML = getSeries(crateOrder[currentCrate]);
-  crateImg.src = "./images/crate/" + cratename["c" + cA[crateOrder[currentCrate]].id].img + imageSupport;
-  lootList.innerHTML = "";
-  effectList.innerHTML = "";
-  generateLootList();
-  generateEffectList();
-}
-
-function previousCrate() {
-  if (currentCrate == 1) {
-    currentCrate = cA.length - 1;
-  } else {
-    currentCrate -= 1;
-  }
-  pageCrateName.innerHTML = cratename["c" + cA[crateOrder[currentCrate]].id][language];
-  pageCrateSeries.innerHTML = getSeries(crateOrder[currentCrate]);
-  crateImg.src = "./images/crate/" + cratename["c" + cA[crateOrder[currentCrate]].id].img + imageSupport;
-  lootList.innerHTML = "";
-  effectList.innerHTML = "";
-  generateLootList();
-  generateEffectList();
-}
-nextCrateBtn.addEventListener("click", function () {
-  nextCrate();
-});
-previousCrateBtn.addEventListener("click", function () {
-  previousCrate();
-});
-
-function jumpToCrate(id) {
-  currentCrate = id;
-  pageCrateName.innerHTML = cratename["c" + cA[crateOrder[currentCrate]].id][language];
-  pageCrateSeries.innerHTML = getSeries(crateOrder[currentCrate]);
-  crateImg.src = "./images/crate/" + cratename["c" + cA[crateOrder[currentCrate]].id].img + imageSupport;
-  lootList.innerHTML = "";
-  effectList.innerHTML = "";
-  generateLootList();
-  generateEffectList();
-  crateView.style.display = "block";
-  crateSelectGrid.style.display = "none";
-  previousCrateBtn.style.display = "flex";
-  nextCrateBtn.style.display = "flex";
-  gridViewBtn.style.display = "flex";
-  unboxBtn.style.display = "flex";
-  randomCrateBtn.style.display = "none";
-  exitGridViewBtn.style.display = "none";
-  canUnbox = true;
-  canSwitchCrates = true;
-}
-// Unbox my loot button
-unboxBtn.addEventListener("click", function () {
-  canUnbox = false;
-  canSwitchCrates = false;
-  unbox();
-});
-unboxAgainBtn.addEventListener("click", function () {
-  canUnbox = false;
-  unbox();
-});
-
-function effectFirst(fx) {
-  if (language == 'eng') {
-    switch (fx) {
-      case "Strange":
-        return text.q1[language] + " ";
-      case "StrangeSpan":
-        return '<span class="strangecolor">' + text.q1[language] + " </span>";
-      case "Haunted":
-        return text.q2[language] + " ";
-      case "StrangeHaunted":
-        return text.q1[language] + " " + text.q2[language] + " ";
-      case "Unusual":
-        return text.q3[language] + " ";
-      case "StrangeUnusual":
-        return text.q1[language] + " " + text.q3[language] + " ";
-      default:
-        return "";
+function jumpToCrate(param) {
+    switch (param) {
+        case "next":
+            if (currentCrate == crateOrder[crateOrder.length - 1]) {
+                currentCrate = 0;
+            } else {
+                currentCrate += 1;
+            }
+            break;
+        case "previous":
+            if (currentCrate == 0) {
+                currentCrate = crateOrder[crateOrder.length - 1];
+            } else {
+                currentCrate -= 1;
+            }
+            break;
+        case "random":
+            currentCrate = Math.floor(Math.random() * (crateOrder.length - 1)) + 1;
+            break;
+        default: // Jump to specific crate
+            currentCrate = param;
+            break;
     }
-  } else {
-    return "";
-  }
+    currentCrateObj = cA[crateOrder[currentCrate]];
+    DOM.main.crateName.innerHTML = getString("crate", currentCrateObj.id)
+    DOM.main.series.innerHTML = getSeries(currentCrateObj.series);
+    DOM.main.img.src = "./images/crate/" + getImg("crate", currentCrateObj.id);
+    DOM.main.lootList.innerHTML = "";
+    DOM.main.effectsList.innerHTML = "";
+    generateLootList();
+    generateEffectList();
 }
 
-function effectLast(fx) {
-  if (language == 'pol') {
-    switch (fx) {
-      case "Strange":
-        return " (" + text.q1[language] + ")";
-      case "StrangeSpan":
-        return '<span class="strangecolor"> (' + text.q1[language] + ") </span>";
-      case "Haunted":
-        return " (" + text.q2[language] + ")";
-      case "StrangeHaunted":
-        return " (" + text.q1[language] + " " + text.q2[language] + ")";
-      case "Unusual":
-        return " (" + text.q3[language] + ")";
-      case "StrangeUnusual":
-        return " (" + text.q1[language] + text.q3[language] + ")";
-      default:
-        return "";
-    }
-  } else {
-    return "";
-  }
-}
+DOM.main.nextCrateBtn.addEventListener("click", () => {
+    jumpToCrate("next");
+});
+DOM.main.previousCrateBtn.addEventListener("click", () => {
+    jumpToCrate("previous");
+});
 
-function unbox() {
-  if (unboxDelay) {
-    return 0;
-  }
-  if (fastUnbox) {
-    crateSelectContainer.style.display = "none";
-    crateResultContainer.style.display = "block";
-  } else {
-    switch (crateOrder[currentCrate]) {
-      case 58:
-        playSound("robocrateopen");
-        break;
-      case 115:
-      case 123:
-        playSound("wrapopen");
-        break;
-      default:
-        playSound("crateopen");
+// Generate loot list
+
+function generateLootList() {
+    let html = [];
+
+    for (let item of currentCrateObj.loot) {
+        let itemClass = "";
+        let itemName = "";
+
+        switch (item.quality) {
+            case 11:
+                itemName = getString("item", 764).replace("#ITEM#", getString("item", item.id));
+                break;
+            case 12:
+                itemName = getString("item", 452).replace("#ITEM#", getString("item", item.id));
+                break;
+            default:
+                itemName = getString("item", item.id);
+        }
+
+        if (gradeTable[item.grade] != 0) {
+            itemClass = ` class="${gradeTable[item.grade]}"`
+        }
+        html.push(`<li${itemClass}>${itemName}</li>`);
+    };
+
+    if (currentCrateObj.unusual === 1) {
+        html.push(`<li class="unusualloot">${getString("ui", 74)}</li>`);
     }
-    crateResultContainer.style.display = "none";
-    crateSelectContainer.style.display = "none";
-    countdownContainer.style.display = "block";
-    var dotAnimPos = 2;
-    var dotAnimation = setInterval(function () {
-      switch (dotAnimPos) {
-        case 0:
-          uncratingDots.innerHTML = "&nbsp;";
-          dotAnimPos += 1;
-          break;
-        case 1:
-          uncratingDots.innerHTML = ".";
-          dotAnimPos += 1;
-          break;
-        case 2:
-          uncratingDots.innerHTML = "..";
-          dotAnimPos += 1;
-          break;
-        case 3:
-          uncratingDots.innerHTML = "...";
-          dotAnimPos = 0;
-          break;
-      }
-    }, 500);
-    uncratingCountdown = setInterval(function () {
-      countdown -= 1;
-      uncratingCountdownText.innerHTML = countdown;
-      if (countdown == 0) {
-        countdownContainer.style.display = "none";
-        crateResultContainer.style.display = "block";
-        countdown = 5;
-        uncratingCountdownText.innerHTML = countdown;
-        clearInterval(uncratingCountdown);
-        clearInterval(dotAnimation);
-        dotAnimPos = 2;
-        uncratingDots.innerHTML = ".";
-        canUnbox = true;
-        playSound(soundToPlay);
-      }
-    }, 1000);
-  }
-  // Generate loot
-  var temp = Object.keys(cA[crateOrder[currentCrate]].loot);
-  if (forceUnusuals && cA[crateOrder[currentCrate]].loot["i" + temp.length].id == 0) {
-    var randomNumber = 9990;
-  } else {
-    var randomNumber = Math.floor((Math.random() * 10000) + 1);
-  }
-  for (var i = 1; i <= temp.length; i++) {
-    if (
-      randomNumber > chanceNumber &&
-      randomNumber <= chanceNumber + cA[crateOrder[currentCrate]].loot["i" + i].chance
-    ) {
-      var qualityName = "";
-      var qualityName2 = "";
-      if (cA[crateOrder[currentCrate]].loot["i" + i].id == 0) {
-        // Generate generic unusual
-        if (
-          (stats.currentDrought < stats.shortestUnusualDrought ||
-            stats.shortestUnusualDrought == null) && !forceUnusuals
-        ) {
-          stats.shortestUnusualDrought = stats.currentDrought;
+
+    DOM.main.lootList.innerHTML = html.join('');
+
+    let bonusHTML = [];
+    if (currentCrateObj.bonus) {
+        bonusHTML.push(`<p>${getString("ui", 147)}</p>`);
+    }
+    if (currentCrateObj.exclusiveBonus) {
+        bonusHTML.push(`<p>${getString("ui", 148)}</p><ul>`)
+
+        for (let bonusItem of currentCrateObj.exclusiveBonus.loot) {
+            bonusHTML.push(`<li>${getString("item", bonusItem)}</li>`);
         }
-        if (
-          (stats.currentDrought > stats.longestUnusualDrought ||
-            stats.longestUnusualDrought == null) && !forceUnusuals
-        ) {
-          stats.longestUnusualDrought = stats.currentDrought;
-        }
-        if (!forceUnusuals) {
-          lootSinceLastUnusual.innerHTML = stats.currentDrought + 1;
-          stats.unusualUnboxed += 1;
-          stats.currentDrought = 0;
-          noUnusualsText.style.display = "none";
-        }
-        var unusualPick;
-        if (cA[crateOrder[currentCrate]].loot["i" + i].quality == 1) {
-          var unusualArray = [];
-          var gradeRandom = Math.floor((Math.random() * 100) + 1);
-          if (gradeRandom == 100) {
-            gradeRandom = 6;
-          } else if (gradeRandom >= 95) {
-            gradeRandom = 5;
-          } else if (gradeRandom >= 80) {
-            gradeRandom = 4;
-          } else {
-            gradeRandom = 3;
-          }
-          for (var ii = 1; ii <= temp.length; ii++) {
-            if (cA[crateOrder[currentCrate]].loot["i" + ii].quality == 10 && cA[crateOrder[currentCrate]].loot["i" + ii].grade == gradeRandom) {
-              unusualArray.push(cA[crateOrder[currentCrate]].loot["i" + ii].id);
-            }
-          }
-          if (unusualArray.length == 0) {
-            gradeRandom--;
-            for (var ii = 1; ii <= temp.length; ii++) {
-              if (cA[crateOrder[currentCrate]].loot["i" + ii].quality == 10 && cA[crateOrder[currentCrate]].loot["i" + ii].grade == gradeRandom) {
-                unusualArray.push(cA[crateOrder[currentCrate]].loot["i" + ii].id);
-              }
-            }
-            if (unusualArray.length == 0) {
-              gradeRandom--;
-              for (var ii = 1; ii <= temp.length; ii++) {
-                if (cA[crateOrder[currentCrate]].loot["i" + ii].quality == 10 && cA[crateOrder[currentCrate]].loot["i" + ii].grade == gradeRandom) {
-                  unusualArray.push(cA[crateOrder[currentCrate]].loot["i" + ii].id);
-                }
-              }
-            }
-          }
-          randomNumber = Math.floor(Math.random() * unusualArray.length);
-          unusualPick = unusualArray;
-        } else if (cA[crateOrder[currentCrate]].loot["i" + i].quality == 2) {
-          var unusualArray = [];
-          for (var ii = 1; ii <= temp.length; ii++) {
-            if (cA[crateOrder[currentCrate]].loot["i" + ii].quality == 10) {
-              unusualArray.push(cA[crateOrder[currentCrate]].loot["i" + ii].id);
-            }
-          }
-          randomNumber = Math.floor(Math.random() * unusualArray.length);
-          unusualPick = unusualArray;
-        } else {
-          randomNumber = Math.floor(Math.random() * unusualPool.length);
-          unusualPick = unusualPool;
-        }
-        var randomNumber2;
-        if (JSON.stringify(cA[crateOrder[currentCrate]].effects) == JSON.stringify(invasionFX)) {
-          randomNumber2 = Math.floor(
-            (Math.random() * (cA[crateOrder[currentCrate]].effects.length) + 36)
-          );
-          if (randomNumber2 >= cA[crateOrder[currentCrate]].effects.length + 27) {
-            randomNumber2 -= 36;
-          } else if (randomNumber2 >= cA[crateOrder[currentCrate]].effects.length + 18) {
-            randomNumber2 -= 27;
-          } else if (randomNumber2 >= cA[crateOrder[currentCrate]].effects.length + 9) {
-            randomNumber2 -= 18;
-          } else if (randomNumber2 >= cA[crateOrder[currentCrate]].effects.length) {
-            randomNumber2 -= 9;
-          }
-        } else {
-          randomNumber2 = Math.floor(
-            Math.random() * cA[crateOrder[currentCrate]].effects.length
-          );
-        }
-        effectImg.src =
-          "./images/effect/" +
-          unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]].img + imageSupport;
-        effectName.innerHTML =
-          unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]][
-            language
-          ];
-        lootName.innerHTML =
-          '<span class="unusualcolor"> ' + effectFirst('Unusual') +
-          itemname["i" + unusualPick[randomNumber]][language] + effectLast('Unusual') +
-          "</span>";
-        lootChance.innerHTML =
-          Math.round(cA[crateOrder[currentCrate]].loot["i" + i].chance * 100) / 10000 + "%";
-        lootImg.src = "";
-        lootImg.src =
-          "./images/item/" + itemname["i" + unusualPick[randomNumber]].img + imageSupport;
-        effectText.style.display = "inline";
-        effectName.style.display = "inline";
-        if (cA[crateOrder[currentCrate]].loot["i" + i].quality == 1 && (Math.floor((Math.random() * 10) + 1) == 1 || forceStranges)) {
-          if (!forceUnusuals) { unusualSave.push({
-            id: unusualPick[randomNumber],
-            fx: cA[crateOrder[currentCrate]].effects[randomNumber2],
-            st: 1
-          })};
-          qualityName = effectFirst('StrangeSpan');
-          qualityName2 = effectLast('StrangeSpan');
-        } else if (!forceUnusuals) {
-          unusualSave.push({
-            id: unusualPick[randomNumber],
-            fx: cA[crateOrder[currentCrate]].effects[randomNumber2]
-          });
-        }
-        if (!forceUnusuals) {
-          localStorage.setItem("unusualSave", JSON.stringify(unusualSave));
-          var unusualAdd = document.createElement("div");
-          unusualAdd.classList.add("unusualitem");
-          unusualAdd.innerHTML =
-            '<img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/effect/' +
-            unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]].img + imageSupport +
-            '"><img onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" class="statsunusualsimg" src="./images/item/' +
-            itemname["i" + unusualPick[randomNumber]].img + imageSupport +
-            '"><p class="statsunusualsname">' + qualityName +
-            itemname["i" + unusualPick[randomNumber]][language] + qualityName2 +
-            '</p><p class="statsunusualseffect">' + text.z6[language] +
-            unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]][
-              language
-            ] +
-            "</p>";
-          statsUnusuals.appendChild(unusualAdd);
-          unboxDelay = true;
-          unboxAgainBtn.classList.remove("btn");
-          unboxAgainBtn.classList.add("btndisabled");
-          setTimeout(function () {
-            unboxDelay = false;
-            unboxAgainBtn.classList.remove("btndisabled");
-            unboxAgainBtn.classList.add("btn");
-            canUnbox = true;
-          }, 3000);
-        }
-        if (forceUnusuals) {
-          soundToPlay = "unboxed";
-        } else {
-          soundToPlay = "unusualunboxed";
-        }
-        timesUnboxedText.innerHTML = text.u9[language];
-        timesUnboxedCount.innerHTML = unusualSave.length;
-      } else {
-        // Normal loot code
-        lootName.classList = "";
-        effectImg.src = "";
-        effectText.style.display = "none";
-        effectName.style.display = "none";
-        lootName.innerHTML =
-          itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id][language];
-        lootChance.innerHTML =
-          Math.round(cA[crateOrder[currentCrate]].loot["i" + i].chance * 100) / 10000 + "%";
-        lootImg.src = "";
-        lootImg.src =
-          "./images/item/" +
-          itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img + imageSupport;
-        switch (cA[crateOrder[currentCrate]].loot["i" + i].quality) {
-          case 1: // 100% Unique
-            lootName.classList.add("uniquecolor");
-            gameSave["c" + crateOrder[currentCrate]]["i" + i] += 1;
-            timesUnboxedText.innerHTML = text.u7[language];
-            timesUnboxedCount.innerHTML = gameSave["c" + crateOrder[currentCrate]]["i" + i];
-            stats.uniqueUnboxed += 1;
-            stats.currentDrought += 1;
-            if (
-              stats.currentDrought > stats.longestUnusualDrought ||
-              stats.longestUnusualDrought == null
-            ) {
-              stats.longestUnusualDrought = stats.currentDrought;
-            }
-            soundToPlay = "unboxed";
-            break;
-          case 2: // 100% Strange
-            lootName.classList.add("strangecolor");
-            gameSave["c" + crateOrder[currentCrate]]["i" + i] += 1;
-            timesUnboxedText.innerHTML = text.u7[language];
-            timesUnboxedCount.innerHTML = gameSave["c" + crateOrder[currentCrate]]["i" + i];
-            qualityName = effectFirst('Strange');
-            qualityName2 = effectLast('Strange');
-            stats.strangeUnboxed += 1;
-            stats.currentDrought += 1;
-            if (
-              stats.currentDrought > stats.longestUnusualDrought ||
-              stats.longestUnusualDrought == null
-            ) {
-              stats.longestUnusualDrought = stats.currentDrought;
-            }
-            soundToPlay = "unboxed";
-            break;
-          case 3: // 100% Haunted
-            lootName.classList.add("hauntedcolor");
-            gameSave["c" + crateOrder[currentCrate]]["i" + i] += 1;
-            timesUnboxedText.innerHTML = text.u7[language];
-            timesUnboxedCount.innerHTML = gameSave["c" + crateOrder[currentCrate]]["i" + i];
-            qualityName = effectFirst('Haunted');
-            qualityName2 = effectLast('Haunted');
-            stats.hauntedUnboxed += 1;
-            stats.currentDrought += 1;
-            if (
-              stats.currentDrought > stats.longestUnusualDrought ||
-              stats.longestUnusualDrought == null
-            ) {
-              stats.longestUnusualDrought = stats.currentDrought;
-            }
-            soundToPlay = "unboxed";
-            break;
-          case 4:
-          case 10: // 90% Unique, 10% Strange
-            if (Math.floor((Math.random() * 10) + 1) == 1 || forceStranges) {
-              if (cA[crateOrder[currentCrate]].loot["i" + i].grade != 0) {
-                lootName.classList.add(
-                  gradeTable3[cA[crateOrder[currentCrate]].loot["i" + i].grade]
-                );
-                qualityName = effectFirst('StrangeSpan');
-                qualityName2 = effectLast('StrangeSpan');
-              } else {
-                lootName.classList.add("strangecolor");
-                qualityName = effectFirst('Strange');
-                qualityName2 = effectLast('Strange');
-              }
-              gameSave["c" + crateOrder[currentCrate]]["i" + i]["w2"] += 1;
-              timesUnboxedText.innerHTML = text.u7[language];
-              timesUnboxedCount.innerHTML =
-                gameSave["c" + crateOrder[currentCrate]]["i" + i]["w2"];
-              stats.strangeUnboxed += 1;
+
+        bonusHTML.push("</ul>")
+    }
+    if (currentCrateObj.creepyBonus) {
+        bonusHTML.push(`<p>${getString("ui", 148)}</p><ul>`);
+
+        for (let bonusItem of creepyCrateBonusArray) {
+            if (bonusItem.quality == 12) {
+                bonusHTML.push(`<li>${getString("item", 452).replace("#ITEM#", getString("item", bonusItem.id))}</li>`);
             } else {
-              if (cA[crateOrder[currentCrate]].loot["i" + i].grade != 0) {
-                lootName.classList.add(
-                  gradeTable3[cA[crateOrder[currentCrate]].loot["i" + i].grade]
-                );
-              } else {
-                lootName.classList.add("uniquecolor");
-              }
-              gameSave["c" + crateOrder[currentCrate]]["i" + i]["w1"] += 1;
-              timesUnboxedText.innerHTML = text.u7[language];
-              timesUnboxedCount.innerHTML =
-                gameSave["c" + crateOrder[currentCrate]]["i" + i]["w1"];
-              stats.uniqueUnboxed += 1;
+                bonusHTML.push(`<li>${getString("item", 764).replace("#ITEM#", getString("item", bonusItem.id))}</li>`);
             }
-            stats.currentDrought += 1;
-            if (
-              stats.currentDrought > stats.longestUnusualDrought ||
-              stats.longestUnusualDrought == null
-            ) {
-              stats.longestUnusualDrought = stats.currentDrought;
-            }
-            soundToPlay = "unboxed";
-            break;
-          case 5: // Decorated
-          case 6:
-            var itemWear;
-            stats.decoratedUnboxed += 1;
-            lootName.classList.add(
-              gradeTable3[cA[crateOrder[currentCrate]].loot["i" + i].grade]
-            );
-            if (forceWear != 0) {
-              var wearPick = forceWear;
-            } else {
-              var wearPick = Math.floor((Math.random() * 10) + 1);
-            }
-            switch (wearPick) {
-              case 1:
-                lootName.innerHTML += " (" + gradeTable2[1] + ")";
-                lootImg.src =
-                  "./images/item/skins/" +
-                  gradeTable[1] +
-                  itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img + imageSupport;
-                itemWear = 1;
-                break;
-              case 2:
-              case 3:
-                lootName.innerHTML += " (" + gradeTable2[2] + ")";
-                lootImg.src =
-                  "./images/item/skins/" +
-                  gradeTable[2] +
-                  itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img + imageSupport;
-                itemWear = 2;
-                break;
-              case 4:
-              case 5:
-              case 6:
-              case 7:
-                lootName.innerHTML += " (" + gradeTable2[3] + ")";
-                lootImg.src =
-                  "./images/item/skins/" +
-                  gradeTable[3] +
-                  itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img + imageSupport;
-                itemWear = 3;
-                break;
-              case 8:
-              case 9:
-                lootName.innerHTML += " (" + gradeTable2[4] + ")";
-                lootImg.src =
-                  "./images/item/skins/" +
-                  gradeTable[4] +
-                  itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img + imageSupport;
-                itemWear = 4;
-                break;
-              case 10:
-                lootName.innerHTML += " (" + gradeTable2[5] + ")";
-                lootImg.src =
-                  "./images/item/skins/" +
-                  gradeTable[5] +
-                  itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img + imageSupport;
-                itemWear = 5;
-                break;
-            }
-            if (cA[crateOrder[currentCrate]].loot["i" + i].quality == 6) {
-              if (Math.floor((Math.random() * 100) + 1) <= 10 || forceStranges) {
-                itemWear += 5;
-                qualityName = '<span class="strangecolor">' + effectFirst('Strange') + '</span>';
-                qualityName2 = '<span class="strangecolor">' + effectLast('Strange') + '</span>';
-                stats.strangeUnboxed += 1;
-              }
-              if (Math.floor((Math.random() * 100) + 1) == 1 || forceUnusuals) {
-                if (
-                  (stats.currentDrought < stats.shortestUnusualDrought ||
-                    stats.shortestUnusualDrought == null) && !forceUnusuals
-                ) {
-                  stats.shortestUnusualDrought = stats.currentDrought;
-                }
-                if (
-                  (stats.currentDrought > stats.longestUnusualDrought ||
-                    stats.longestUnusualDrought == null) && !forceUnusuals
-                ) {
-                  stats.longestUnusualDrought = stats.currentDrought;
-                }
-                if (!forceUnusuals) {
-                  lootSinceLastUnusual.innerHTML = stats.currentDrought + 1;
-                  stats.currentDrought = 0;
-                  noUnusualsText.style.display = "none";
-                  stats.unusualUnboxed += 1;
-                }
-                var randomNumber2 = Math.floor(
-                  Math.random() * cA[crateOrder[currentCrate]].effects.length
-                );
-                effectImg.src =
-                  "./images/effect/" +
-                  unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]]
-                  .img + imageSupport;
-                effectName.innerHTML =
-                  unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]][
-                    language
-                  ];
-                effectText.style.display = "inline";
-                effectName.style.display = "inline";
-                var unusualAdd = document.createElement("div");
-                unusualAdd.classList.add("unusualitem");
-                unusualAdd.innerHTML =
-                  '<img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/effect/' +
-                  unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]]
-                  .img + imageSupport +
-                  '"><img onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" class="statsunusualsimg" src="./images/item/skins/' +
-                  gradeTable[itemWear] +
-                  itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img + imageSupport +
-                  '"><p class="statsunusualsname">' +
-                  qualityName +
-                  itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id][language] + qualityName2 +
-                  " (" +
-                  gradeTable2[itemWear] +
-                  ")" +
-                  '</p><p class="statsunusualseffect">' + text.z6[language] +
-                  unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]][
-                    language
-                  ] +
-                  "</p>";
-                if (!forceUnusuals) {
-                  unusualSave.push({
-                    id: cA[crateOrder[currentCrate]].loot["i" + i].id,
-                    fx: cA[crateOrder[currentCrate]].effects[randomNumber2],
-                    wr: itemWear
-                  });
-                  statsUnusuals.appendChild(unusualAdd);
-                  unboxDelay = true;
-                  unboxAgainBtn.classList.remove("btn");
-                  unboxAgainBtn.classList.add("btndisabled");
-                  setTimeout(function () {
-                    unboxDelay = false;
-                    unboxAgainBtn.classList.remove("btndisabled");
-                    unboxAgainBtn.classList.add("btn");
-                    canUnbox = true;
-                  }, 3000);
-                }
-                if (itemWear > 5) {
-                  itemWear -= 5;
-                }
-                localStorage.setItem(
-                  "unusualSave",
-                  JSON.stringify(unusualSave)
-                );
-                if (forceUnusuals) {
-                  soundToPlay = "unboxed";
-                } else {
-                  soundToPlay = "unusualunboxed";
-                }
-                timesUnboxedText.innerHTML = text.u9[language];
-                timesUnboxedCount.innerHTML = unusualSave.length;
-              } else {
-                stats.currentDrought += 1;
-                if (
-                  stats.currentDrought > stats.longestUnusualDrought ||
-                  stats.longestUnusualDrought == null
-                ) {
-                  stats.longestUnusualDrought = stats.currentDrought;
-                }
-                gameSave["c" + crateOrder[currentCrate]]["i" + i]["w" + itemWear] += 1;
-                timesUnboxedText.innerHTML = text.u7[language];
-                timesUnboxedCount.innerHTML =
-                  gameSave["c" + crateOrder[currentCrate]]["i" + i]["w" + itemWear];
-                soundToPlay = "unboxed";
-              }
-            } else {
-              stats.currentDrought += 1;
-              if (
-                stats.currentDrought > stats.longestUnusualDrought ||
-                stats.longestUnusualDrought == null
-              ) {
-                stats.longestUnusualDrought = stats.currentDrought;
-              }
-              gameSave["c" + crateOrder[currentCrate]]["i" + i]["w" + itemWear] += 1;
-              timesUnboxedText.innerHTML = text.u7[language];
-              timesUnboxedCount.innerHTML =
-                gameSave["c" + crateOrder[currentCrate]]["i" + i]["w" + itemWear];
-              soundToPlay = "unboxed";
-            }
-            break;
-          case 7:
-            if (Math.floor((Math.random() * 100) + 1) == 1 || forceUnusuals) {
-              if (
-                (stats.currentDrought < stats.shortestUnusualDrought ||
-                  stats.shortestUnusualDrought == null) && !forceUnusuals
-              ) {
-                stats.shortestUnusualDrought = stats.currentDrought;
-              }
-              if (
-                (stats.currentDrought > stats.longestUnusualDrought ||
-                  stats.longestUnusualDrought == null) && !forceUnusuals
-              ) {
-                stats.longestUnusualDrought = stats.currentDrought;
-              }
-              if (!forceUnusuals) {
-                lootSinceLastUnusual.innerHTML = stats.currentDrought + 1;
-                stats.currentDrought = 0;
-                noUnusualsText.style.display = "none";
-                stats.unusualUnboxed += 1;
-              }
-              lootName.classList.add("unusualcolor");
-              qualityName = effectFirst('Unusual');
-              qualityName2 = effectLast('Unusual');
-              var randomNumber2 = Math.floor(
-                Math.random() * cA[crateOrder[currentCrate]].effects.length
-              );
-              effectImg.src =
-                "./images/effect/" +
-                unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]]
-                .img + imageSupport;
-              effectName.innerHTML =
-                unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]][
-                  language
-                ];
-              effectText.style.display = "inline";
-              effectName.style.display = "inline";
-              if (!forceUnusuals) {
-                unusualSave.push({
-                  id: cA[crateOrder[currentCrate]].loot["i" + i].id,
-                  fx: cA[crateOrder[currentCrate]].effects[randomNumber2]
-                });
-                var unusualAdd = document.createElement("div");
-                unusualAdd.classList.add("unusualitem");
-                unusualAdd.innerHTML =
-                  '<img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/effect/' +
-                  unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]]
-                  .img + imageSupport +
-                  '"><img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
-                  itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img + imageSupport +
-                  '"><p class="statsunusualsname">' +
-                  itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id][language] +
-                  '</p><p class="statsunusualseffect">' + text.z6[language] +
-                  unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]][
-                    language
-                  ] +
-                  "</p>";
-                localStorage.setItem("unusualSave", JSON.stringify(unusualSave));
-                statsUnusuals.appendChild(unusualAdd);
-                unboxDelay = true;
-                unboxAgainBtn.classList.remove("btn");
-                unboxAgainBtn.classList.add("btndisabled");
-                setTimeout(function () {
-                  unboxDelay = false;
-                  unboxAgainBtn.classList.remove("btndisabled");
-                  unboxAgainBtn.classList.add("btn");
-                  canUnbox = true;
-                }, 3000);
-              }
-              if (forceUnusuals) {
-                soundToPlay = "unboxed";
-              } else {
-                soundToPlay = "unusualunboxed";
-              }
-              timesUnboxedText.innerHTML = text.u9[language];
-              timesUnboxedCount.innerHTML = unusualSave.length;
-            } else {
-              lootName.classList.add("uniquecolor");
-              gameSave["c" + crateOrder[currentCrate]]["i" + i] += 1;
-              timesUnboxedText.innerHTML = text.u7[language];
-              timesUnboxedCount.innerHTML =
-                gameSave["c" + crateOrder[currentCrate]]["i" + i];
-              stats.uniqueUnboxed += 1;
-              stats.currentDrought += 1;
-              if (
-                stats.currentDrought > stats.longestUnusualDrought ||
-                stats.longestUnusualDrought == null
-              ) {
-                stats.longestUnusualDrought = stats.currentDrought;
-              }
-              soundToPlay = "unboxed";
-            }
-            break;
-          case 8:
-            var itemQuality = 1;
-            lootName.classList.add("uniquecolor");
-            if (Math.floor((Math.random() * 100) + 1) <= 10 || forceStranges) {
-              lootName.classList.remove("uniquecolor");
-              lootName.classList.add("hauntedcolor");
-              itemQuality = 4;
-              qualityName = effectFirst('StrangeHaunted');
-              qualityName2 = effectLast('StrangeHaunted');
-              stats.strangeUnboxed += 1;
-              stats.hauntedUnboxed += 1;
-            } else {
-              stats.uniqueUnboxed += 1;
-            }
-            stats.currentDrought += 1;
-            if (
-              stats.currentDrought > stats.longestUnusualDrought ||
-              stats.longestUnusualDrought == null
-            ) {
-              stats.longestUnusualDrought = stats.currentDrought;
-            }
-            gameSave["c" + crateOrder[currentCrate]]["i" + i]["w" + itemQuality] += 1;
-            timesUnboxedText.innerHTML = text.u7[language];
-            timesUnboxedCount.innerHTML =
-              gameSave["c" + crateOrder[currentCrate]]["i" + i]["w" + itemQuality];
-            soundToPlay = "unboxed";
-            break;
-          case 9:
-            var itemQuality = 1;
-            if (Math.floor((Math.random() * 100) + 1) == 1 || forceUnusuals) {
-              if (
-                (stats.currentDrought < stats.shortestUnusualDrought ||
-                  stats.shortestUnusualDrought == null) && !forceUnusuals
-              ) {
-                stats.shortestUnusualDrought = stats.currentDrought;
-              }
-              if (
-                (stats.currentDrought > stats.longestUnusualDrought ||
-                  stats.longestUnusualDrought == null) && !forceUnusuals
-              ) {
-                stats.longestUnusualDrought = stats.currentDrought;
-              }
-              if (!forceUnusuals) {
-                lootSinceLastUnusual.innerHTML = stats.currentDrought + 1;
-                stats.currentDrought = 0;
-                noUnusualsText.style.display = "none";
-                stats.unusualUnboxed += 1;
-              }
-              lootName.classList.add("unusualcolor");
-              var randomNumber2 = Math.floor(
-                Math.random() * cA[crateOrder[currentCrate]].effects.length
-              );
-              if (Math.floor((Math.random() * 10) + 1) == 1 || forceStranges) {
-                qualityName = effectFirst('StrangeUnusual');
-                qualityName2 = effectLast('StrangeUnusual');
-                if (!forceUnusuals) {
-                  unusualSave.push({
-                    id: cA[crateOrder[currentCrate]].loot["i" + i].id,
-                    fx: cA[crateOrder[currentCrate]].effects[randomNumber2],
-                    st: 1
-                  });
-                }
-              } else {
-                qualityName = effectFirst('Unusual');
-                qualityName2 = effectLast('Unusual');
-                if (!forceUnusuals) {
-                  unusualSave.push({
-                    id: cA[crateOrder[currentCrate]].loot["i" + i].id,
-                    fx: cA[crateOrder[currentCrate]].effects[randomNumber2]
-                  });
-                }
-              }
-              effectImg.src =
-                "./images/effect/" +
-                unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]]
-                .img + imageSupport;
-              effectName.innerHTML =
-                unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]][
-                  language
-                ];
-              effectText.style.display = "inline";
-              effectName.style.display = "inline";
-              if (forceUnusuals) {
-                soundToPlay = "unboxed";
-              } else {
-                localStorage.setItem("unusualSave", JSON.stringify(unusualSave));
-              var unusualAdd = document.createElement("div");
-              unusualAdd.classList.add("unusualitem");
-              unusualAdd.innerHTML =
-                '<img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/effect/' +
-                unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]]
-                .img + imageSupport +
-                '"><img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
-                itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id].img + imageSupport +
-                '"><p class="statsunusualsname">' +
-                qualityName +
-                itemname["i" + cA[crateOrder[currentCrate]].loot["i" + i].id][language] + qualityName2 +
-                '</p><p class="statsunusualseffect">' + text.z6[language] +
-                unusualeffects["e" + cA[crateOrder[currentCrate]].effects[randomNumber2]][
-                  language
-                ] +
-                "</p>";
-              statsUnusuals.appendChild(unusualAdd);
-                soundToPlay = "unusualunboxed";
-                unboxDelay = true;
-                unboxAgainBtn.classList.remove("btn");
-                unboxAgainBtn.classList.add("btndisabled");
-                setTimeout(function () {
-                  unboxDelay = false;
-                  unboxAgainBtn.classList.remove("btndisabled");
-                  unboxAgainBtn.classList.add("btn");
-                  canUnbox = true;
-                }, 3000);
-              }
-              timesUnboxedText.innerHTML = text.u9[language];
-              timesUnboxedCount.innerHTML = unusualSave.length;
-            } else {
-              stats.currentDrought += 1;
-              if (
-                stats.currentDrought > stats.longestUnusualDrought ||
-                stats.longestUnusualDrought == null
-              ) {
-                stats.longestUnusualDrought = stats.currentDrought;
-              }
-              soundToPlay = "unboxed";
-              if (Math.floor((Math.random() * 10) + 1) == 1 || forceStranges) {
-                lootName.classList.add("strangecolor");
-                qualityName = effectFirst('Strange');
-                qualityName2 = effectLast('Strange');
-                gameSave["c" + crateOrder[currentCrate]]["i" + i]["w2"] += 1;
-                timesUnboxedText.innerHTML = text.u7[language];
-                timesUnboxedCount.innerHTML =
-                  gameSave["c" + crateOrder[currentCrate]]["i" + i]["w2"];
-                stats.strangeUnboxed += 1;
-              } else {
-                lootName.classList.add("uniquecolor");
-                gameSave["c" + crateOrder[currentCrate]]["i" + i]["w1"] += 1;
-                timesUnboxedText.innerHTML = text.u7[language];
-                timesUnboxedCount.innerHTML =
-                  gameSave["c" + crateOrder[currentCrate]]["i" + i]["w1"];
-                stats.uniqueUnboxed += 1;
-              }
-            }
-            break;
+
         }
-      }
-      lootName.innerHTML = qualityName + lootName.innerHTML + qualityName2;
-      i = temp.length + 1;
-      chanceNumber = 0;
+
+        bonusHTML.push("</ul>")
+    }
+    DOM.main.lootBonus.innerHTML = bonusHTML.join('');
+
+    if (currentCrateObj.note > 0) {
+        DOM.main.lootNote.innerHTML = getString("ui", currentCrateObj.note);
     } else {
-      chanceNumber += cA[crateOrder[currentCrate]].loot["i" + i].chance;
+        DOM.main.lootNote.innerHTML = "";
     }
-  }
-  // Update stats
-  uniqueUnboxedStat.innerHTML = stats.uniqueUnboxed;
-  strangeUnboxedStat.innerHTML = stats.strangeUnboxed;
-  hauntedUnboxedStat.innerHTML = stats.hauntedUnboxed;
-  decoratedUnboxedStat.innerHTML = stats.decoratedUnboxed;
-  unusualUnboxedStat.innerHTML = stats.unusualUnboxed;
-  if (stats.shortestUnusualDrought == null) {
-    shortestUnusualDroughtStat.innerHTML = "N/A";
-  } else {
-    shortestUnusualDroughtStat.innerHTML = stats.shortestUnusualDrought;
-  }
-  if (soundToPlay != "unusualunboxed") {
-    lootSinceLastUnusual.innerHTML = stats.currentDrought;
-  }
-  longestUnusualDroughtStat.innerHTML = stats.longestUnusualDrought;
-  sinceLastUnusualStat.innerHTML = stats.currentDrought;
-  if (!forceUnusuals) {
-    gameSave["c" + crateOrder[currentCrate]].num += 1;
-    localStorage.setItem("gameSave", JSON.stringify(gameSave));
-    stats.cratesOpened += 1;
-    cratesOpenedStat.innerHTML = stats.cratesOpened;
-    stats.moneyWasted += 2;
-    stats.moneyWastedCents += 49;
-    if (stats.moneyWastedCents >= 100) {
-      stats.moneyWastedCents -= 100;
-      stats.moneyWasted += 1;
-    }
-    moneyWastedStat.innerHTML = stats.moneyWasted;
-    if (stats.moneyWastedCents <= 9) {
-      moneyWastedCentsStat.innerHTML = "0" + stats.moneyWastedCents;
+}
+
+// Generate effect list
+
+function generateEffectList() {
+    let html = [];
+    let effectsArray;
+    if (!["none", null, undefined].includes(save.options.halloweenMode) && halloweenModeCrateList[save.options.halloweenMode].includes(currentCrate)) {
+        switch (save.options.halloweenMode) {
+            case "hw11":
+                effectsArray = hw11FX;
+                break;
+            case "hw12":
+                effectsArray = hw12FX;
+                break;
+            case "hw13":
+                effectsArray = hw13FX;
+                break;
+            case "hw14":
+                effectsArray = hw14FX;
+                break;
+            case "hw16":
+                effectsArray = hw16FX;
+                break;
+            case "hw17":
+                effectsArray = hw17FX;
+                break;
+            case "hw18":
+                effectsArray = hw18FX;
+                break;
+            case "hw19":
+                effectsArray = hw19FX;
+                break;
+            case "hw20":
+                effectsArray = hw20FX;
+                break;
+        }
     } else {
-      moneyWastedCentsStat.innerHTML = stats.moneyWastedCents;
+        effectsArray = currentCrateObj.effects;
     }
-    localStorage.setItem("stats", JSON.stringify(stats));
-  }
-  if (fastUnbox) {
-    playSound(soundToPlay);
-    canUnbox = true;
-  }
-}
-// Return button
-returnBtn.addEventListener("click", function () {
-  crateSelectContainer.style.display = "block";
-  crateResultContainer.style.display = "none";
-  canSwitchCrates = true;
-});
-// Stats button
-statsBtn.addEventListener("click", function () {
-  crateSelectContainer.style.display = "none";
-  statsDiv.style.display = "block";
-  generateStatsCrates();
-  canUnbox = false;
-  canSwitchCrates = false;
-});
-// Stats return button
-statsReturnBtn.addEventListener("click", function () {
-  crateSelectContainer.style.display = "block";
-  statsDiv.style.display = "none";
-  statsGeneralBtn.classList.add("active");
-  statsUnusualsBtn.classList.remove("active");
-  statsCratesBtn.classList.remove("active");
-  statsGeneral.style.display = "block";
-  statsUnusuals.style.display = "none";
-  statsCrates.style.display = "none";
-  exitGridView();
-  canUnbox = true;
-  canSwitchCrates = true;
-});
-// More... button
-moreBtn.addEventListener("click", function () {
-  crateSelectContainer.style.display = "none";
-  moreContainer.style.display = "block";
-  exitGridView();
-  canUnbox = false;
-  canSwitchCrates = false;
-});
-// More... return button
-moreReturnBtn.addEventListener("click", function () {
-  moreOptions.scrollTop = 0;
-  moreChangelog.scrollTop = 0;
-  moreCredits.scrollTop = 0;
-  crateSelectContainer.style.display = "block";
-  moreContainer.style.display = "none";
-  moreOptionsBtn.classList.add("active");
-  moreChangelogBtn.classList.remove("active");
-  moreCreditsBtn.classList.remove("active");
-  moreOptions.style.display = "inline-block";
-  moreChangelog.style.display = "none";
-  moreCredits.style.display = "none";
-  canUnbox = true;
-  canSwitchCrates = true;
-});
-// Grid view button
-gridViewBtn.addEventListener("click", function () {
-  crateView.style.display = "none";
-  crateSelectGrid.style.display = gridSupport;
-  previousCrateBtn.style.display = "none";
-  nextCrateBtn.style.display = "none";
-  gridViewBtn.style.display = "none";
-  unboxBtn.style.display = "none";
-  randomCrateBtn.style.display = "flex";
-  exitGridViewBtn.style.display = "flex";
-  generateGrid();
-  canUnbox = false;
-  canSwitchCrates = false;
-});
-// Exit grid view button
-function exitGridView() {
-  crateView.style.display = "block";
-  crateSelectGrid.style.display = "none";
-  previousCrateBtn.style.display = "flex";
-  nextCrateBtn.style.display = "flex";
-  gridViewBtn.style.display = "flex";
-  unboxBtn.style.display = "flex";
-  randomCrateBtn.style.display = "none";
-  exitGridViewBtn.style.display = "none";
-}
-exitGridViewBtn.addEventListener("click", function () {
-  exitGridView();
-  canUnbox = true;
-  canSwitchCrates = true;
-});
-// More crate info button
-crateInfoBtn.addEventListener("click", function () {
-  crateInfo.style.display = "block";
-  crateInfoBtn.style.display = "none";
-  crateContainer.style.display = "none";
-});
-// More crate info return button
-crateInfoReturnBtn.addEventListener("click", function () {
-  crateInfo.style.display = "none";
-  crateInfoBtn.style.display = "flex";
-  crateContainer.style.display = "block";
-});
-// Crate effects button
-crateEffectsBtn.addEventListener("click", function () {
-  crateInfoContent.style.display = "none";
-  crateInfoEffectsContent.style.display = "block";
-  crateEffectsBtn.style.display = "none";
-  crateLootBtn.style.display = "flex";
-});
-// Crate loot button
-crateLootBtn.addEventListener("click", function () {
-  crateInfoContent.style.display = "block";
-  crateInfoEffectsContent.style.display = "none";
-  crateEffectsBtn.style.display = "flex";
-  crateLootBtn.style.display = "none";
-});
-// Stats general button
-statsGeneralBtn.addEventListener("click", function () {
-  statsGeneralBtn.classList.add("active");
-  statsUnusualsBtn.classList.remove("active");
-  statsCratesBtn.classList.remove("active");
-  statsGeneral.style.display = "block";
-  statsUnusuals.style.display = "none";
-  statsCrates.style.display = "none";
-});
-// Stats unusual button
-statsUnusualsBtn.addEventListener("click", function () {
-  statsGeneralBtn.classList.remove("active");
-  statsUnusualsBtn.classList.add("active");
-  statsCratesBtn.classList.remove("active");
-  statsGeneral.style.display = "none";
-  statsUnusuals.style.display = gridSupport;
-  statsCrates.style.display = "none";
-});
-// Stats crates button
-statsCratesBtn.addEventListener("click", function () {
-  statsGeneralBtn.classList.remove("active");
-  statsUnusualsBtn.classList.remove("active");
-  statsCratesBtn.classList.add("active");
-  statsGeneral.style.display = "none";
-  statsUnusuals.style.display = "none";
-  statsCrates.style.display = gridSupport;
-});
-// More options button
-moreOptionsBtn.addEventListener("click", function () {
-  moreOptionsBtn.classList.add("active");
-  moreChangelogBtn.classList.remove("active");
-  moreCreditsBtn.classList.remove("active");
-  moreOptions.style.display = "inline-block";
-  moreChangelog.style.display = "none";
-  moreCredits.style.display = "none";
-});
-// More changelog button
-moreChangelogBtn.addEventListener("click", function () {
-  moreOptionsBtn.classList.remove("active");
-  moreChangelogBtn.classList.add("active");
-  moreCreditsBtn.classList.remove("active");
-  moreOptions.style.display = "none";
-  moreChangelog.style.display = "block";
-  moreCredits.style.display = "none";
-});
-// More credits button
-moreCreditsBtn.addEventListener("click", function () {
-  moreOptionsBtn.classList.remove("active");
-  moreChangelogBtn.classList.remove("active");
-  moreCreditsBtn.classList.add("active");
-  moreOptions.style.display = "none";
-  moreChangelog.style.display = "none";
-  moreCredits.style.display = "block";
-});
-// Stats crates details return button
-statsCratesDetailsReturnBtn.addEventListener("click", function () {
-  statsContainer.style.display = "block";
-  statsHeader.style.display = "block";
-  statsCratesDetails.style.display = "none";
-  statsReturnBtn.style.display = "flex";
-  statsCratesDetailsReturnBtn.style.display = "none";
-});
-// Stats crates details left/right buttons
-statsCratesDetailsLeftBtn.addEventListener("click", function () {
-  if (currentStatsCrate == 1) {
-    currentStatsCrate = cA.length - 1;
-  } else {
-    currentStatsCrate -= 1;
-  }
-  generateCrateDetails(crateOrder[currentStatsCrate]);
-});
-statsCratesDetailsRightBtn.addEventListener("click", function () {
-  if (currentStatsCrate == cA.length - 1) {
-    currentStatsCrate = 1;
-  } else {
-    currentStatsCrate += 1;
-  }
-  generateCrateDetails(crateOrder[currentStatsCrate]);
-});
-// Fast unbox buttons
-fastUnboxOffBtn.addEventListener("click", function () {
-  fastUnbox = false;
-  fastUnboxOffBtn.classList.add("active");
-  fastUnboxOnBtn.classList.remove("active");
-  localStorage.setItem("fastUnbox", false);
-});
-fastUnboxOnBtn.addEventListener("click", function () {
-  fastUnbox = true;
-  fastUnboxOffBtn.classList.remove("active");
-  fastUnboxOnBtn.classList.add("active");
-  localStorage.setItem("fastUnbox", true);
-});
-// Pick random crate button
-randomCrateBtn.addEventListener("click", function () {
-  jumpToCrate(Math.floor((Math.random() * (cA.length - 1))) + 1);
-  canUnbox = true;
-  canSwitchCrates = true;
-});
-showAllItemsOffBtn.addEventListener("click", function () {
-  viewAllItems = false;
-  showAllItemsOffBtn.classList.add("active");
-  showAllItemsOnBtn.classList.remove("active");
-  localStorage.setItem("showallitems", "false");
-});
-showAllItemsOnBtn.addEventListener("click", function () {
-  viewAllItems = true;
-  showAllItemsOffBtn.classList.remove("active");
-  showAllItemsOnBtn.classList.add("active");
-  localStorage.setItem("showallitems", "true");
-});
-unusualCheatOffBtn.addEventListener("click", function () {
-  forceUnusuals = false;
-  unusualCheatOffBtn.classList.add("active");
-  unusualCheatOnBtn.classList.remove("active");
-  lootSinceLastUnusualDiv.style.display = "inline-block";
-  localStorage.setItem("forceUnusuals", "false");
-});
-unusualCheatOnBtn.addEventListener("click", function () {
-  forceUnusuals = true;
-  unusualCheatOffBtn.classList.remove("active");
-  unusualCheatOnBtn.classList.add("active");
-  lootSinceLastUnusualDiv.style.display = "none";
-  localStorage.setItem("forceUnusuals", "true");
-});
-
-function getSeries(id) {
-  if (cA[id].series == 0) {
-    return text.z3[language];
-  } else {
-    return text.z2[language] + cA[id].series;
-  }
-}
-
-function generateCrateDetails(id) {
-  statsCratesDetailsName.innerHTML = cratename["c" + cA[id].id][language];
-  statsCratesDetailsSeries.innerHTML = getSeries(id);
-  statsCratesDetailsImage.src =
-    "./images/crate/" + cratename["c" + cA[id].id].img + imageSupport;
-  statsCratesDetailsUnbox.innerHTML = gameSave["c" + id].num;
-  var cratesDetailsList = document.getElementsByClassName(
-    "statscratesdetailsitem"
-  );
-  while (cratesDetailsList.length > 0) {
-    cratesDetailsList[0].parentNode.removeChild(cratesDetailsList[0]);
-  }
-  noItemsText.style.display = "block";
-  var qualityName = "";
-  var qualityNameSpan = "";
-  var qualityClass = "";
-  for (var i = 1; i <= Object.keys(cA[id].loot).length; i++) {
-    // Skip generic unusuals
-    if (cA[id].loot["i" + i].id == 0) {
-      continue;
+    for (let i = 0; i < effectsArray.length; i++) {
+        html.push(`<li>${getString("effect", effectsArray[i])}</li>`);
     }
-    if (
-      cA[id].loot["i" + i].quality == 4 ||
-      cA[id].loot["i" + i].quality == 9 ||
-      cA[id].loot["i" + i].quality == 10
-    ) {
-      for (var ii = 1; ii <= 2; ii++) {
-        // Skip skins that weren't unboxed yet
-        if (!gameSave["c" + id]["i" + i]["w" + ii] && !viewAllItems) {
-          continue;
-        }
-        var itemAdd = document.createElement("div");
-        itemAdd.classList.add("statscratesdetailsitem");
-        if (ii == 2) {
-          qualityName = "Strange";
-          qualityNameSpan = 'StrangeSpan';
-          qualityClass = "strangecolor";
-        } else {
-          qualityName = "";
-          qualityNameSpan = "";
-          qualityClass = "";
-        }
-        if (cA[id].loot["i" + i].grade != 0) {
-          itemAdd.innerHTML =
-            '<img class="statscratesimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
-            itemname["i" + cA[id].loot["i" + i].id].img + imageSupport +
-            '"><p class="statsitemname ' +
-            gradeTable3[cA[id].loot["i" + i].grade] +
-            '">' +
-            effectFirst(qualityNameSpan) +
-            itemname["i" + cA[id].loot["i" + i].id][language] + effectLast(qualityNameSpan) +
-            '</p><p class="statsitemunbox">' + text.s13[language] + '<span class="unboxcount">' +
-            gameSave["c" + id]["i" + i]["w" + ii] +
-            "</span>" + text.s14[language] + "</p>";
-        } else {
-          itemAdd.innerHTML =
-            '<img class="statscratesimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
-            itemname["i" + cA[id].loot["i" + i].id].img + imageSupport +
-            '"><p class="statsitemname ' +
-            qualityClass +
-            '">' +
-            effectFirst(qualityName) +
-            itemname["i" + cA[id].loot["i" + i].id][language] + effectLast(qualityName) +
-            '</p><p class="statsitemunbox">' + text.s13[language] + '<span class="unboxcount">' +
-            gameSave["c" + id]["i" + i]["w" + ii] +
-            "</span>" + text.s14[language] + "</p>";
-        }
-
-        statsCratesDetailsContent.appendChild(itemAdd);
-      }
+    DOM.main.effectsList.innerHTML = html.join('');
+    if (effectsArray.length > 0) {
+        DOM.main.effectsTitle.innerHTML = getString("ui", 31);
     } else {
-      // Handle skins
-      if (
-        cA[id].loot["i" + i].quality == 5 ||
-        cA[id].loot["i" + i].quality == 6
-      ) {
-        for (var ii = 1; ii <= 5; ii++) {
-          // Skip skins that weren't unboxed yet
-          if (!gameSave["c" + id]["i" + i]["w" + ii] && !viewAllItems) {
-            continue;
-          }
-          var itemAdd = document.createElement("div");
-          itemAdd.classList.add("statscratesdetailsitem");
-          itemAdd.innerHTML =
-            '<img class="statscratesimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/skins/' +
-            gradeTable[ii] +
-            itemname["i" + cA[id].loot["i" + i].id].img + imageSupport +
-            '"><p class="statsitemname ' +
-            gradeTable3[cA[id].loot["i" + i].grade] +
-            '">' +
-            itemname["i" + cA[id].loot["i" + i].id][language] +
-            " (" +
-            gradeTable2[ii] +
-            ")" +
-            '</p><p class="statsitemunbox">' + text.s13[language] + '<span class="unboxcount">' +
-            gameSave["c" + id]["i" + i]["w" + ii] +
-            "</span>" + text.s14[language] + "</p>";
-          statsCratesDetailsContent.appendChild(itemAdd);
+        DOM.main.effectsTitle.innerHTML = getString("ui", 32);
+    }
+}
+
+function crateHasUnusual(crate) {
+    if (crate.loot[crate.loot.length - 1].id == 0) {
+        return true;
+    } else {
+        return false;
+    }
+};
+
+function crateHasRandomStranges(crate) {
+    let result = false;
+    for (let item of crate.loot) {
+        if ([4, 6, 8, 9, 10].includes(item.quality)) {
+            result = true;
+            break;
         }
-        if (cA[id].loot["i" + i].quality == 6) {
-          for (var ii = 6; ii <= 10; ii++) {
-            // Skip skins that weren't unboxed yet
-            if (!gameSave["c" + id]["i" + i]["w" + ii] && !viewAllItems) {
-              continue;
-            }
-            var itemAdd = document.createElement("div");
-            itemAdd.classList.add("statscratesdetailsitem");
-            itemAdd.innerHTML =
-              '<img class="statscratesimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/skins/' +
-              gradeTable[ii - 5] +
-              itemname["i" + cA[id].loot["i" + i].id].img + imageSupport +
-              '"><p class="statsitemname ' +
-              gradeTable3[cA[id].loot["i" + i].grade] +
-              '">' +
-              effectFirst("StrangeSpan") +
-              itemname["i" + cA[id].loot["i" + i].id][language] +
-              " (" +
-              gradeTable2[ii - 5] +
-              ")" + effectLast("StrangeSpan") +
-              '</p><p class="statsitemunbox">' + text.s13[language] + '<span class="unboxcount">' +
-              gameSave["c" + id]["i" + i]["w" + ii] +
-              "</span>" + text.s14[language] + "</p>";
-            statsCratesDetailsContent.appendChild(itemAdd);
-          }
-        }
-      } else {
-        if (!gameSave["c" + id]["i" + i] && !viewAllItems) {
-          continue;
-        }
-        if (cA[id].loot["i" + i].quality == 8) {
-          var itemAdd = document.createElement("div");
-          itemAdd.classList.add("statscratesdetailsitem");
-          itemAdd.innerHTML =
-            '<img class="statscratesimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
-            itemname["i" + cA[id].loot["i" + i].id].img + imageSupport +
-            '"><p class="statsitemname' +
-            '">' +
-            itemname["i" + cA[id].loot["i" + i].id][language] +
-            '</p><p class="statsitemunbox">' + text.s13[language] + '<span class="unboxcount">' +
-            gameSave["c" + id]["i" + i].w1 +
-            "</span>" + text.s14[language] + "</p>";
-          statsCratesDetailsContent.appendChild(itemAdd);
-          itemAdd = "";
-          itemAdd = document.createElement("div");
-          itemAdd.classList.add("statscratesdetailsitem");
-          itemAdd.innerHTML =
-            '<img class="statscratesimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
-            itemname["i" + cA[id].loot["i" + i].id].img + imageSupport +
-            '"><p class="statsitemname hauntedcolor' +
-            '">' + effectFirst("StrangeHaunted") +
-            itemname["i" + cA[id].loot["i" + i].id][language] + effectLast("StrangeHaunted") +
-            '</p><p class="statsitemunbox">' + text.s13[language] + '<span class="unboxcount">' +
-            gameSave["c" + id]["i" + i].w4 +
-            "</span>" + text.s14[language] + "</p>";
-          statsCratesDetailsContent.appendChild(itemAdd);
-        } else if (cA[id].loot["i" + i].quality == 9) {
-          if (cA[id].loot["i" + i].grade != 0) {
-            var itemAdd = document.createElement("div");
-            itemAdd.classList.add("statscratesdetailsitem");
-            itemAdd.innerHTML =
-              '<img class="statscratesimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
-              itemname["i" + cA[id].loot["i" + i].id].img + imageSupport +
-              '"><p class="statsitemname ' +
-              gradeTable3[cA[id].loot["i" + i].grade] +
-              '">' +
-              itemname["i" + cA[id].loot["i" + i].id][language] +
-              '</p><p class="statsitemunbox">' + text.s13[language] + '<span class="unboxcount">' +
-              gameSave["c" + id]["i" + i].w1 +
-              "</span>" + text.s14[language] + "</p>";
-            statsCratesDetailsContent.appendChild(itemAdd);
-            itemAdd = "";
-            itemAdd = document.createElement("div");
-            itemAdd.classList.add("statscratesdetailsitem");
-            itemAdd.innerHTML =
-              '<img class="statscratesimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
-              itemname["i" + cA[id].loot["i" + i].id].img + imageSupport +
-              '"><p class="statsitemname ' +
-              gradeTable3[cA[id].loot["i" + i].grade] +
-              '">' + effectFirst("StrangeSpan") +
-              itemname["i" + cA[id].loot["i" + i].id][language] + effectLast("StrangeSpan") +
-              '</p><p class="statsitemunbox">' + text.s13[language] + '<span class="unboxcount">' +
-              gameSave["c" + id]["i" + i].w2 +
-              "</span>" + text.s14[language] + "</p>";
-            statsCratesDetailsContent.appendChild(itemAdd);
-          } else {
-            var itemAdd = document.createElement("div");
-            itemAdd.classList.add("statscratesdetailsitem");
-            itemAdd.innerHTML =
-              '<img class="statscratesimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
-              itemname["i" + cA[id].loot["i" + i].id].img + imageSupport +
-              '"><p class="statsitemname">' +
-              itemname["i" + cA[id].loot["i" + i].id][language] +
-              '</p><p class="statsitemunbox">' + text.s13[language] + '<span class="unboxcount">' +
-              gameSave["c" + id]["i" + i].w1 +
-              "</span>" + text.s14[language] + "</p>";
-            statsCratesDetailsContent.appendChild(itemAdd);
-            itemAdd = "";
-            itemAdd = document.createElement("div");
-            itemAdd.classList.add("statscratesdetailsitem");
-            itemAdd.innerHTML =
-              '<img class="statscratesimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
-              itemname["i" + cA[id].loot["i" + i].id].img + imageSupport +
-              '"><p class="statsitemname strangecolor">' + effectFirst("Strange") +
-              itemname["i" + cA[id].loot["i" + i].id][language] + effectLast("Strange") +
-              '</p><p class="statsitemunbox">' + text.s13[language] + '<span class="unboxcount">' +
-              gameSave["c" + id]["i" + i].w2 +
-              "</span>" + text.s14[language] + "</p>";
-            statsCratesDetailsContent.appendChild(itemAdd);
-          }
-        } else {
-          var itemAdd = document.createElement("div");
-          itemAdd.classList.add("statscratesdetailsitem");
-          qualityName = "";
-          qualityNameSpan = "";
-          switch (cA[id].loot["i" + i].quality) {
+    }
+    return result;
+}
+
+/* Generate Steam Market / backpack.tf / marketplace.tf URLs for items
+Parameters:
+
+item - item id
+effect - unusual effect
+quality - item quality
+wear - item wear
+kit - killstreak kit level
+kitItem - item for strangifier/killstreak kit/unusualifier
+*/
+
+
+function generateSteamMarketUrl(arg) {
+    if (arg.quality == undefined) {
+        arg.quality = "";
+    }
+    let steamUrlItemName = `${getEngString("item", arg.item).replace("| ", "")}`;
+    if (arg.kit) {
+        switch (arg.kit) {
+            case 1:
+                steamUrlItemName = getEngString("item", 764).replace("#ITEM#", getEngString("item", arg.item));
+                break;
             case 2:
-              qualityName = effectFirst("Strange");
-              qualityNameSpan = effectLast("Strange");
-              itemAdd.classList.add("strangecolor");
-              break;
+                steamUrlItemName = getEngString("item", 765).replace("#ITEM#", getEngString("item", arg.item));
+                break;
             case 3:
-              qualityName = effectFirst("Haunted");
-              qualityNameSpan = effectLast("Haunted");
-              itemAdd.classList.add("hauntedcolor");
-              break;
-          }
-          itemAdd.innerHTML =
-            '<img class="statscratesimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
-            itemname["i" + cA[id].loot["i" + i].id].img + imageSupport +
-            '"><p class="statsitemname">' +
-            qualityName +
-            itemname["i" + cA[id].loot["i" + i].id][language] + qualityNameSpan +
-            '</p><p class="statsitemunbox">' + text.s13[language] + '<span class="unboxcount">' +
-            gameSave["c" + id]["i" + i] +
-            "</span>" + text.s14[language] + "</p>";
-          statsCratesDetailsContent.appendChild(itemAdd);
+                steamUrlItemName = getEngString("item", 766).replace("#ITEM#", getEngString("item", arg.item));
+                break;
         }
-      }
+    } else if (arg.quality == "strangifier") {
+        steamUrlItemName = getEngString("item", 452).replace("#ITEM#", getEngString("item", arg.item));
+    } else if (arg.item == 770) {
+        steamUrlItemName = steamUrlItemName.replace("#ITEM#", getEngString("item", arg.kitItem));
     }
-  }
-  statsCratesDetailsContent.scrollTop = 0;
-  cratesDetailsList = document.getElementsByClassName("statscratesdetailsitem");
-  if (cratesDetailsList.length > 0) {
-    noItemsText.style.display = "none";
-  }
+    if (arg.quality.includes("unusual")) {
+        steamUrlItemName = "Unusual " + steamUrlItemName;
+    }
+    if (arg.quality.includes("haunted")) {
+        steamUrlItemName = "Haunted " + steamUrlItemName;
+    }
+    if (arg.quality.includes("strange")) {
+        steamUrlItemName = "Strange " + steamUrlItemName;
+    }
+    if (arg.wear != 0) {
+        steamUrlItemName += ` (${getEngString("ui", wearTableNames[arg.wear])})`;
+    }
+    return encodeURI(`https://steamcommunity.com/market/listings/440/${steamUrlItemName}`);
 }
 
-function generateGameSave() {
-  for (var i = 1; i < cA.length; i++) {
-    gameSave["c" + i] = {};
-    gameSave["c" + i].num = 0;
-    for (var ii = 1; ii <= Object.keys(cA[i].loot).length; ii++) {
-      // Skip unusuals
-      if (cA[i].loot["i" + ii].id == 0) {
-        continue;
-      }
-      // Handle skins
-      switch (cA[i].loot["i" + ii].quality) {
-        case 4:
-          gameSave["c" + i]["i" + ii] = {
-            w1: 0,
-            w2: 0
-          };
-          break;
-        case 5:
-        case 6:
-          gameSave["c" + i]["i" + ii] = {
-            w1: 0,
-            w2: 0,
-            w3: 0,
-            w4: 0,
-            w5: 0,
-            w6: 0,
-            w7: 0,
-            w8: 0,
-            w9: 0,
-            w10: 0
-          };
-          break;
-        case 8:
-          gameSave["c" + i]["i" + ii] = {
-            w1: 0,
-            w2: 0,
-            w3: 0,
-            w4: 0
-          };
-          break;
-        case 9:
-        case 10:
-          gameSave["c" + i]["i" + ii] = {
-            w1: 0,
-            w2: 0
-          };
-          break;
+function generateBackpackTfUrl(arg) {
+    let bpItemName = getEngString("item", arg.item);
+    if (arg.item == 770) {
+        bpItemName = bpItemName.replace("#ITEM# ", "");
+    } else if (arg.wear != 0) {
+        bpItemName += ` (${getEngString("ui", wearTableNames[arg.wear])})`;
+    } else if (arg.quality == "strangifier") {
+        bpItemName = getEngString("item", 452).replace("#ITEM# ", "");
+    } else if (arg.kit) {
+        switch (arg.kit) {
+            case 1:
+                bpItemName = getEngString("item", 764).replace("#ITEM# ", "");
+                break;
+            case 2:
+                bpItemName = getEngString("item", 765).replace("#ITEM# ", "");
+                break;
+            case 3:
+                bpItemName = getEngString("item", 766).replace("#ITEM# ", "");
+                break;
+        }
+    }
+    bpItemName = bpItemName.replace("War Paint", "| War Paint");
+
+    let bpQuality = "";
+
+    switch (arg.quality) {
+        case "unusual":
+        case "unusualunique":
+            bpQuality = "Unusual";
+            break;
+        case "strangeunusual":
+        case "unusualstrange":
+            bpQuality = "Strange Unusual";
+            break;
+        case "strange":
+            bpQuality = "Strange";
+            break;
+        case "haunted":
+            bpQuality = "Haunted";
+            break;
+        case "strangehaunted":
+            bpQuality = "Strange Haunted";
+            break;
+        case "unique":
+        case "strangifier":
+            if (arg.wear != 0) {
+                bpQuality = "Decorated Weapon";
+            } else {
+                bpQuality = "Unique";
+            }
+            break;
         default:
-          gameSave["c" + i]["i" + ii] = 0;
-      }
+            if (arg.wear != 0) {
+                bpQuality = "Decorated Weapon";
+            } else {
+                console.warn(`Unknown Bptf quality: ${arg.quality}`);
+            }
+
     }
-  }
+
+    let bpCraftable = "Craftable";
+    if (arg.item == 770 || arg.kit) {
+        bpCraftable = "Non-Craftable";
+    }
+
+    let bpEffect;
+    if (arg.item == 770) {
+        bpEffect = getSchema("item", arg.kitItem);
+    } else if (arg.quality.includes("unusual")) {
+        bpEffect = getSchema("effect", arg.effect);
+    } else if (arg.quality == "strangifier") {
+        bpEffect = getSchema("item", arg.item);
+    } else {
+        bpEffect = "";
+    }
+
+    let bpKit;
+    if (arg.kit) {
+        bpKit = `${arg.kit}-${getSchema("item", arg.item)}`;
+    } else {
+        bpKit = "";
+    }
+
+    let bpUrl = `${bpQuality}/${bpItemName}/Tradable/${bpCraftable}/${bpEffect}${bpKit}`;
+
+    return encodeURI(`https://backpack.tf/stats/${bpUrl}`);
 }
 
-function loadSave() {
-  if (localStorage.getItem("fastUnbox") == "true") {
-    fastUnbox = true;
-    fastUnboxOffBtn.classList.remove("active");
-    fastUnboxOnBtn.classList.add("active");
-  }
-  if (localStorage.getItem("forceUnusuals") == "true") {
-    forceUnusuals = true;
-    unusualCheatOffBtn.classList.remove("active");
-    unusualCheatOnBtn.classList.add("active");
-    lootSinceLastUnusualDiv.style.display = "none";
-  }
-  if (localStorage.getItem("showallitems") == "true") {
-    viewAllItems = true;
-    showAllItemsOffBtn.classList.remove("active");
-    showAllItemsOnBtn.classList.add("active");
-  }
-  if (localStorage.getItem("muteSound") == "true") {
-    muteSound = true;
-    muteSoundIcon.src = "./images/muteiconc.svg";
-  }
-  if (localStorage.getItem("gameSave") === null) {
-    return 0;
-  } else {
-    gameSave = JSON.parse(localStorage.getItem("gameSave"));
-    // Fix saves from older versions
-    for (var i = Object.keys(gameSave).length + 1; i < cA.length; i++) {
-      gameSave["c" + i] = {};
-      gameSave["c" + i].num = 0;
-      for (var ii = 1; ii <= Object.keys(cA[i].loot).length; ii++) {
-        // Skip unusuals
-        if (cA[i].loot["i" + ii].id == 0) {
-          continue;
+// schema1 / quality / effect / uncraftable / kitlevel / kititem / wear / schema2
+
+function generateMarketplaceTfUrl(arg) {
+    let itemId;
+    if (arg.quality == "strangifier") {
+        itemId = getSchema2("item", arg.item);
+        if (itemId === false) {
+            itemId = getSchema("item", 452);
         }
-        // Handle skins
-        switch (cA[i].loot["i" + ii].quality) {
-          case 4:
-            gameSave["c" + i]["i" + ii] = {
-              w1: 0,
-              w2: 0
-            };
-            break;
-          case 5:
-          case 6:
-            gameSave["c" + i]["i" + ii] = {
-              w1: 0,
-              w2: 0,
-              w3: 0,
-              w4: 0,
-              w5: 0,
-              w6: 0,
-              w7: 0,
-              w8: 0,
-              w9: 0,
-              w10: 0
-            };
-            break;
-          case 8:
-            gameSave["c" + i]["i" + ii] = {
-              w1: 0,
-              w2: 0,
-              w3: 0,
-              w4: 0
-            };
-            break;
-          case 9:
-          case 10:
-            gameSave["c" + i]["i" + ii] = {
-              w1: 0,
-              w2: 0
-            };
-            break;
-          default:
-            gameSave["c" + i]["i" + ii] = 0;
+    } else if (arg.kit) {
+        switch (arg.kit) {
+            case 1:
+                itemId = getSchema("item", 764);
+                break;
+            case 2:
+                itemId = getSchema("item", 765);
+                break;
+            case 3:
+                itemId = getSchema("item", 766);
+                break;
         }
-      }
-    }
-  }
-  if (localStorage.getItem("stats") === null) {
-    return 0;
-  } else {
-    stats = JSON.parse(localStorage.getItem("stats"));
-    cratesOpenedStat.innerHTML = stats.cratesOpened;
-    moneyWastedStat.innerHTML = stats.moneyWasted;
-    uniqueUnboxedStat.innerHTML = stats.uniqueUnboxed;
-    strangeUnboxedStat.innerHTML = stats.strangeUnboxed;
-    hauntedUnboxedStat.innerHTML = stats.hauntedUnboxed;
-    decoratedUnboxedStat.innerHTML = stats.decoratedUnboxed;
-    unusualUnboxedStat.innerHTML = stats.unusualUnboxed;
-    sinceLastUnusualStat.innerHTML = stats.currentDrought;
-    if (stats.longestUnusualDrought == null) {
-      longestUnusualDroughtStat.innerHTML = "N/A";
     } else {
-      longestUnusualDroughtStat.innerHTML = stats.longestUnusualDrought;
+        itemId = getSchema("item", arg.item)
     }
-    if (stats.shortestUnusualDrought == null) {
-      shortestUnusualDroughtStat.innerHTML = "N/A";
-    } else {
-      shortestUnusualDroughtStat.innerHTML = stats.shortestUnusualDrought;
+
+    let quality;
+    switch (arg.quality) {
+        case "unusual":
+        case "strangeunusual":
+        case "unusualstrange":
+        case "unusualunique":
+            quality = 5;
+            break;
+        case "unique":
+        case "strangifier":
+            quality = 6;
+            break;
+        case "strange":
+            quality = 11;
+            break;
+        case "haunted":
+        case "strangehaunted":
+            quality = 13;
+            break;
+        default:
+            if (arg.wear != 0) {
+                quality = 15;
+            } else {
+                console.warn("Unknown Mptf quality: " + arg.quality);
+            }
     }
-    if (stats.moneyWastedCents <= 9) {
-      moneyWastedCentsStat.innerHTML = "0" + stats.moneyWastedCents;
-    } else {
-      moneyWastedCentsStat.innerHTML = stats.moneyWastedCents;
+
+    let effect = "";
+    if (arg.effect != undefined) {
+        effect = `u${getSchema("effect", arg.effect)};`;
     }
-  }
-  loadUnusuals();
+
+    let wear = "";
+    if (arg.wear != 0) {
+        wear = `w${arg.wear};`;
+    }
+
+    let extraQuality = "";
+    if ([5, 13, 15].includes(quality) && arg.quality.includes("strange")) {
+        extraQuality = "strange;"
+    }
+
+    let craftable = "";
+    if (arg.kit || arg.item == 770) {
+        craftable = "uncraftable;"
+    }
+
+    let kitLevel = "";
+    switch (arg.kit) {
+        case 1:
+            kitLevel = "kt-1;";
+            break;
+        case 2:
+            kitLevel = "kt-2;";
+            break;
+        case 3:
+            kitLevel = "kt-3;";
+            break;
+    }
+
+    let kitItem = "";
+    if (arg.kit || arg.quality == "strangifier") {
+        kitItem = `td-${getSchema("item", arg.item)};`
+    } else if (arg.kitItem) {
+        kitItem = `td-${getSchema("item", arg.kitItem)};`;
+    }
+
+    let wpId = "";
+    if (arg.wear != 0) {
+        wpId = getSchema2("item", arg.item);
+        if (wpId === false) {
+            wpId = `pk${getSchema("item", arg.item).toString().slice(-3)}`;
+        } else {
+            wpId = `pk${wpId}`
+        }
+    }
+
+    let link = `https://marketplace.tf/items/tf2/${itemId};${quality};${effect}${craftable}${wear}${wpId}${extraQuality}${kitLevel}${kitItem}`;
+
+    if (link[link.length - 1] == ";") {
+        link = link.slice(0, -1);
+    }
+
+    return encodeURI(link);
 }
 
-function loadUnusuals() {
-  if (localStorage.getItem("unusualSave") === null) {
-    return 0;
-  } else {
-    statsUnusuals.innerHTML = "";
-    noUnusualsText.style.display = "none";
-    unusualSave = JSON.parse(localStorage.getItem("unusualSave"));
-    for (var i = 0; i < unusualSave.length; i++) {
-      var unusualAdd = document.createElement("div");
-      unusualAdd.classList.add("unusualitem");
-      var wear = unusualSave[i].wr;
-      var strange = "";
-      if (unusualSave[i].hasOwnProperty("wr")) {
-        if (unusualSave[i].wr > 5) {
-          wear -= 5;
-          strange = "Strange ";
+// Unboxing code
+function unbox() { // This function handles the unboxing itself: which item is unboxed, what are its qualities, wear, effect etc.
+    let randomNumber, unusualRandomNumber, itemId, itemWear, itemEffect, itemKillstreak, bonusDrops, cratePos;
+    let itemQuality = [];
+    try {
+        const crate = currentCrateObj;
+        randomNumber = Math.floor((Math.random() * 10000) + 1); // Between 1 and 10000
+        unusualRandomNumber = Math.floor((Math.random() * 150) + 1) // Between 1 and 150
+        let tempNumber = 0;
+        // Select item from crate
+        let crateItem;
+        if (crate.unusual && ((unusualRandomNumber === 1) || save.options.forceUnusual)) { // 0.66% chance
+            // Item is a random unusual. Pick a random unusual, then assign Unusual (and Strange if applicable) qualities
+            let unusualArray = [];
+            switch (crate.unusual) {
+                case 1: // Pick a random unusual from the general unusual pool
+                    unusualArray = unusualPool;
+                    if (currentCrate === 96 && save.options.eotlGlitch) {
+                        unusualArray.push(cA[96].loot[18], cA[96].loot[19], cA[96].loot[20]);
+                    };
+                    itemId = unusualArray[Math.floor(Math.random() * unusualArray.length)];
+                    crateItem = {
+                        id: itemId,
+                        quality: null
+                    };
+                    break;
+                case 2: // Pick a random unusual from the same crate, which can have the Unusual quality. Items with higher grades have a smaller chance of being picked
+                    let gradeRandom;
+                    if (save.options.forceGrade) {
+                        gradeRandom = save.options.forceGradeNum;
+                    } else {
+                        gradeRandom = Math.floor((Math.random() * 1000) + 1); // Between 1 and 1000
+                        if (gradeRandom <= 8) { // Elite - 0.8%
+                            gradeRandom = 6;
+                        } else if (gradeRandom <= 40) { // Assassin - 3.2%
+                            gradeRandom = 5;
+                        } else if (gradeRandom <= 200) { // Commando - 16%
+                            gradeRandom = 4;
+                        } else { // Mercnary - 80%
+                            gradeRandom = 3;
+                        };
+                    }
+                    while (unusualArray.length === 0) {
+                        unusualArray = crate.loot.filter(item => {
+                            return [6, 7, 9, 10].includes(item.quality) && item.grade == gradeRandom;
+                        });
+                        if (gradeRandom <= 2) {
+                            throw new Error;
+                        }
+                        gradeRandom--;
+                    }
+                    crateItem = unusualArray[Math.floor(Math.random() * unusualArray.length)];
+                    itemId = crateItem.id;
+                    break;
+                case 3: // Same as case 1, but items have equal chance of being picked instead
+                    unusualArray = crate.loot.filter(item => {
+                        return [6, 7, 9, 10].includes(item.quality);
+                    });
+                    crateItem = unusualArray[Math.floor(Math.random() * unusualArray.length)];
+                    itemId = crateItem.id;
+                    break;
+            }
+            itemQuality.push("unusual");
+        } else {
+            // Unbox something else
+            switch (crate.autoChance) {
+                case 1:
+                    let gradeRandom;
+                    if (save.options.forceGrade) {
+                        gradeRandom = save.options.forceGradeNum;
+                    } else {
+                        gradeRandom = Math.floor((Math.random() * 1000) + 1); // Between 1 and 1000
+                        if (gradeRandom <= 8) { // Elite - 0.8%
+                            gradeRandom = 6;
+                        } else if (gradeRandom <= 40) { // Assassin - 3.2%
+                            gradeRandom = 5;
+                        } else if (gradeRandom <= 200) { // Commando - 16%
+                            gradeRandom = 4;
+                        } else { // Mercnary - 80%
+                            gradeRandom = 3;
+                        };
+
+                        if (crate.loot[0].grade === 1) gradeRandom -= 2;
+                    }
+                    let itemPool = [];
+                    while (itemPool.length === 0) {
+                        itemPool = crate.loot.filter(item => {
+                            return item.grade == gradeRandom;
+                        });
+                        if (gradeRandom <= 0) {
+                            throw new Error;
+                        }
+                        gradeRandom--;
+                    }
+
+                    let randomItemNumber = Math.floor(Math.random() * (itemPool.length)); // Between 0 and itemPool.length - 1
+                    crateItem = itemPool[randomItemNumber];
+                    cratePos = crate.loot.findIndex(it => {
+                        return it.id == crateItem.id;
+                    })
+                    break;
+
+                case 2:
+                    let randomItemNumber2 = Math.floor(Math.random() * (crate.loot.length)); // Between 0 and crate.loot.length - 1
+                    crateItem = crate.loot[randomItemNumber2];
+                    cratePos = randomItemNumber2;
+                    break;
+
+                default:
+                    randomNumber = Math.floor((Math.random() * 9900) + 1);
+                    for (const item in crate.loot) {
+                        if (randomNumber > tempNumber && randomNumber <= tempNumber + crate.loot[item].chance) {
+                            crateItem = crate.loot[item]; // Create a copy of the item we unboxed. Otherwise, we may end up modifying the item in the crate
+                            cratePos = item;
+                            break;
+                        } else {
+                            tempNumber += crate.loot[item].chance;
+                        }
+                    };
+            }
         }
-        unusualAdd.innerHTML =
-          '<img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/effect/' +
-          unusualeffects["e" + unusualSave[i].fx].img + imageSupport +
-          '"><img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/skins/' +
-          gradeTable[wear] +
-          itemname["i" + unusualSave[i].id].img + imageSupport +
-          '"><p class="statsunusualsname">' +
-          strange +
-          itemname["i" + unusualSave[i].id][language] +
-          " (" +
-          gradeTable2[wear] +
-          ")" +
-          '</p><p class="statsunusualseffect">' + text.z6[language] +
-          unusualeffects["e" + unusualSave[i].fx][language] +
-          "</p>";
-      } else if (unusualSave[i].hasOwnProperty("st")) {
-        unusualAdd.innerHTML =
-          '<img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/effect/' +
-          unusualeffects["e" + unusualSave[i].fx].img + imageSupport +
-          '"><img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
-          itemname["i" + unusualSave[i].id].img + imageSupport +
-          '"><p class="statsunusualsname">' + effectFirst("StrangeSpan") +
-          itemname["i" + unusualSave[i].id][language] + effectLast("StrangeSpan") +
-          '</p><p class="statsunusualseffect">' + text.z6[language] +
-          unusualeffects["e" + unusualSave[i].fx][language] +
-          "</p>";
-      } else {
-        unusualAdd.innerHTML =
-          '<img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/effect/' +
-          unusualeffects["e" + unusualSave[i].fx].img + imageSupport +
-          '"><img class="statsunusualsimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/item/' +
-          itemname["i" + unusualSave[i].id].img + imageSupport +
-          '"><p class="statsunusualsname">' +
-          itemname["i" + unusualSave[i].id][language] +
-          '</p><p class="statsunusualseffect">' + text.z6[language] +
-          unusualeffects["e" + unusualSave[i].fx][language] +
-          "</p>";
-      }
-      statsUnusuals.appendChild(unusualAdd);
+        itemId = crateItem.id;
+
+        // Handle random unusual items and item qualities
+        let generateWear = false;
+        if (crateItem.quality != null) {
+            // Item is not a random unusual. Assign quality
+            let qualityRandomNumber;
+            switch (crateItem.quality) {
+                case 0:
+                    itemQuality.push("unusual");
+                    break;
+                case 1:
+                case 7:
+                    itemQuality.push("unique");
+                    break;
+                case 2:
+                    itemQuality.push("strange");
+                    break;
+                case 3:
+                    itemQuality.push("haunted");
+                    break;
+                case 4:
+                case 9:
+                case 10:
+                    qualityRandomNumber = Math.floor((Math.random() * 10) + 1); // Between 1 and 10
+                    if (qualityRandomNumber == 10 || save.options.forceStrange) {
+                        itemQuality.push("strange");
+                    } else {
+                        itemQuality.push("unique");
+                    }
+                    break;
+                case 5:
+                    generateWear = true;
+                    break;
+                case 6:
+                    generateWear = true;
+                    qualityRandomNumber = Math.floor((Math.random() * 10) + 1); // Between 1 and 10
+                    if (qualityRandomNumber == 10 || save.options.forceStrange) {
+                        itemQuality.push("strange");
+                    };
+                    break;
+                case 8:
+                    qualityRandomNumber = Math.floor((Math.random() * 10) + 1); // Between 1 and 10
+                    if (qualityRandomNumber == 10 || save.options.forceStrange) {
+                        itemQuality.push("strange", "haunted");
+                    } else {
+                        itemQuality.push("unique");
+                    }
+                    break;
+                case 11:
+                    itemQuality.push("unique");
+                    itemKillstreak = {
+                        sheen: null,
+                        killstreaker: null
+                    }
+                    qualityRandomNumber = Math.floor((Math.random() * 100) + 1);
+                    if (qualityRandomNumber > 65 || save.options.forceProKit) {
+                        // Pick sheen
+                        itemKillstreak.sheen = Math.floor((Math.random() * (sheenTable.length - 1)) + 1);
+                    }
+                    if (qualityRandomNumber > 90 || save.options.forceProKit) {
+                        // Pick killstreaker
+                        itemKillstreak.killstreaker = Math.floor((Math.random() * (killstreakerTable.length - 1)) + 1);
+                    }
+                    break;
+                case 12:
+                    itemQuality.push("strangifier");
+                    break;
+            };
+        };
+        if (itemQuality.length === 1) {
+            itemQuality = itemQuality[0];
+        } else {
+            itemQuality = itemQuality.join("");
+        }
+
+        // Wear
+        itemWear = 0;
+        if (generateWear) {
+            let randomWear = Math.floor((Math.random() * 10) + 1);
+            switch (randomWear) {
+                case 1:
+                    itemWear = 1;
+                    break;
+                case 2:
+                case 3:
+                    itemWear = 2;
+                    break;
+                case 4:
+                case 5:
+                case 6:
+                case 7:
+                    itemWear = 3;
+                    break;
+                case 8:
+                case 9:
+                    itemWear = 4;
+                    break;
+                case 10:
+                    itemWear = 5;
+                    break;
+            }
+        }
+
+        // Unusual effect
+        itemEffect = 0;
+        if (itemQuality.includes("unusual")) {
+            let effectsArray;
+            if (!["none", null, undefined].includes(save.options.halloweenMode) && halloweenModeCrateList[save.options.halloweenMode].includes(currentCrate)) {
+                switch (save.options.halloweenMode) {
+                    case "hw11":
+                        effectsArray = hw11FX;
+                        break;
+                    case "hw12":
+                        effectsArray = hw12FX;
+                        break;
+                    case "hw13":
+                        effectsArray = hw13FX;
+                        break;
+                    case "hw14":
+                        effectsArray = hw14FX;
+                        break;
+                    case "hw16":
+                        effectsArray = hw16FX;
+                        break;
+                    case "hw17":
+                        effectsArray = hw17FX;
+                        break;
+                    case "hw18":
+                        effectsArray = hw18FX;
+                        break;
+                    case "hw19":
+                        effectsArray = hw19FX;
+                        break;
+                    case "hw20":
+                        effectsArray = hw20FX;
+                        break;
+                }
+            } else {
+                effectsArray = crate.effects;
+            }
+            itemEffect = effectsArray[Math.floor(Math.random() * effectsArray.length)];
+        };
+
+        // Bonus drops
+
+        bonusDrops = [];
+        if (crate.bonus) {
+            let bonusNum = 0;
+            if (save.options.forceBonusItem) {
+                bonusNum = 3;
+            } else {
+                bonusNum = 0;
+                let bonusChance = Math.floor((Math.random() * 5) + 1); // Between 1 and 5
+                if (bonusChance <= 2 || save.options.forceBonusItem) { // 40% chance to get bonus drop
+                    bonusNum++;
+                    bonusChance = Math.floor((Math.random() * 5) + 1) // Between 1 and 5
+                    if (bonusChance == 1) { // 20% chance to get another bonus drop 
+                        bonusNum++;
+                        bonusChance = Math.floor((Math.random() * 25) + 1) // Between 1 and 25
+                        if (bonusChance == 1) { // 4% chance
+                            bonusNum++;
+                        }
+                    }
+                }
+            }
+            for (; bonusNum > 0; bonusNum--) {
+                let unusualifierChance = Math.floor((Math.random() * 1000) + 1) // Between 1 and 1000
+                if (unusualifierChance <= 15 || save.options.forceUnusualifier) { // 1.5% chance
+                    // Unbox unusualifier
+                    let randomTaunt = Math.floor(Math.random() * unusualifierArray.length);
+                    bonusDrops.push({
+                        id: 770,
+                        taunt: unusualifierArray[randomTaunt]
+                    })
+                } else {
+                    let unboxExclusive = false;
+                    if (crate.exclusiveBonus) {
+                        let exclusiveBonusChance = Math.floor((Math.random() * 10000) + 1) // Between 1 and 10000
+                        if (exclusiveBonusChance <= crate.exclusiveBonus.chance) {
+                            unboxExclusive = true;
+                        }
+                    }
+
+                    if (unboxExclusive) {
+                        // Case exclusive bonus drop
+                        let randomBonus = Math.floor(Math.random() * crate.exclusiveBonus.loot.length);
+                        bonusDrops.push({
+                            id: crate.exclusiveBonus.loot[randomBonus]
+                        })
+                    } else {
+                        // Global bonus drop
+                        let randomBonus = Math.floor(Math.random() * globalBonusItemArray.length)
+                        switch (globalBonusItemArray[randomBonus]) {
+                            case "paint": // Pick random paint
+                                bonusDrops.push({
+                                    id: paintBonusArray[Math.floor(Math.random() * paintBonusArray.length)]
+                                });
+                                break;
+                            case "strangepart": // Pick random strange part
+                                bonusDrops.push({
+                                    id: strangePartBonusArray[Math.floor(Math.random() * strangePartBonusArray.length)]
+                                });
+                                break;
+                            default:
+                                bonusDrops.push({
+                                    id: globalBonusItemArray[randomBonus]
+                                })
+                                break;
+                        }
+                    }
+                }
+            }
+        } else if (crate.exclusiveBonus) {
+            let exclusiveBonusChance = Math.floor((Math.random() * 10000) + 1) // Between 1 and 10000
+            if (exclusiveBonusChance <= crate.exclusiveBonus.chance || save.options.forceBonusItem) {
+                let randomBonus = Math.floor(Math.random() * crate.exclusiveBonus.loot.length);
+                bonusDrops.push({
+                    id: crate.exclusiveBonus.loot[randomBonus]
+                })
+            }
+        }
+        if (crate.creepyBonus) {
+            let bonusChance = Math.floor((Math.random() * 50) + 1) // Between 1 and 50
+            if (bonusChance === 1 || save.options.forceBonusItem) { // 2% chance
+                let randomBonus = Math.floor(Math.random() * creepyCrateBonusArray.length);
+                let itemKillstreak;
+                if (creepyCrateBonusArray[randomBonus].quality === 11) {
+                    itemKillstreak = {
+                        sheen: null,
+                        killstreaker: null
+                    }
+                    let randomKillstreak = Math.floor((Math.random() * 100) + 1);
+                    if (randomKillstreak > 65 || save.options.forceProKit) {
+                        // Pick sheen
+                        itemKillstreak.sheen = Math.floor((Math.random() * (sheenTable.length - 1)) + 1);
+                    }
+                    if (randomKillstreak > 90 || save.options.forceProKit) {
+                        // Pick killstreaker
+                        itemKillstreak.killstreaker = Math.floor((Math.random() * (killstreakerTable.length - 1)) + 1);
+                    }
+
+                }
+                bonusDrops.push({
+                    id: creepyCrateBonusArray[randomBonus].id,
+                    quality: creepyCrateBonusArray[randomBonus].quality,
+                    killstreak: itemKillstreak
+                })
+            }
+        }
+
+        // Return item
+        return {
+            id: itemId,
+            cratePos: cratePos,
+            name: getString("item", itemId),
+            quality: itemQuality,
+            wear: itemWear,
+            grade: crateItem.grade,
+            effect: itemEffect,
+            killstreak: itemKillstreak,
+            bonus: bonusDrops
+        }
+    } catch (err) {
+        let errorMessage = `Something went wrong when executing unbox().
+    Error stack: ${err.stack}
+
+    currentCrate: ${currentCrate}
+    randomNumber: ${randomNumber}
+    unusualRandomNumber: ${unusualRandomNumber}
+    forceUnusual: ${save.options.forceUnusual}
+    itemId: ${itemId}
+    quality: ${itemQuality}
+    wear: ${itemWear}
+    effect: ${itemEffect}`;
+
+        console.error(errorMessage);
+        reportError(errorMessage);
     }
-  }
 }
-resetSaveBtn.addEventListener("click", function () {
-  if (resetDelay) {
-    resetDelay = 2;
-    generateGameSave();
-    unusualSave = [];
-    localStorage.removeItem("gameSave");
-    localStorage.removeItem("stats");
-    localStorage.removeItem("unusualSave");
-    stats = {
-      cratesOpened: 0,
-      moneyWasted: 0,
-      moneyWastedCents: 0,
-      shortestUnusualDrought: null,
-      currentDrought: 0,
-      longestUnusualDrought: null,
-      unluckiestStreak: 0,
-      uniqueUnboxed: 0,
-      strangeUnboxed: 0,
-      hauntedUnboxed: 0,
-      decoratedUnboxed: 0,
-      unusualUnboxed: 0
+
+let unboxStop = false;
+let pause = false;
+
+function beginUnbox() { // This function handles the unbox countdown and shows the results of the unboxing
+    if (unboxStop) {
+        return 0;
+    }
+    let unboxResult = unbox();
+    if (unboxResult === undefined) {
+        return 0; // Stop function here
+    }
+    let soundToPlay = "unboxed";
+
+    // Pause unboxing at certain items
+
+    function pauseUnboxing() {
+        pause = unboxStop = true;
+        DOM.results.returnBtn.classList.add("btndisabled");
+        DOM.results.unboxBtn.classList.add("btndisabled");
+        setTimeout(() => {
+            DOM.results.returnBtn.classList.remove("btndisabled");
+            DOM.results.unboxBtn.classList.remove("btndisabled");
+            unboxStop = false;
+        }, 3000);
+    }
+
+    pause = false;
+    for (let check of save.options.stopAtItem) {
+        switch (check) {
+            case "unusual":
+                if (unboxResult.quality.includes("unusual")) {
+                    pauseUnboxing();
+                }
+                break;
+            case "tauntunusualifier":
+                for (let bonusItem of unboxResult.bonus) {
+                    if (bonusItem.id === 770) {
+                        pauseUnboxing();
+                        break;
+                    }
+                }
+                break;
+            case "strange":
+                if (unboxResult.quality.includes("strange")) {
+                    pauseUnboxing();
+                }
+                break;
+            case "prokit":
+                if (unboxResult.killstreak && unboxResult.killstreak.killstreaker != null) {
+                    pauseUnboxing();
+                }
+                break;
+            case "bonusitem":
+                if (unboxResult.bonus.length === 3) {
+                    pauseUnboxing();
+                }
+                break;
+            case "grademercenary":
+                if (unboxResult.grade === 3) {
+                    pauseUnboxing();
+                }
+                break;
+            case "gradecommando":
+                if (unboxResult.grade === 4) {
+                    pauseUnboxing();
+                }
+                break;
+            case "gradeassassin":
+                if (unboxResult.grade === 5) {
+                    pauseUnboxing();
+                }
+                break;
+            case "gradeelite":
+                if (unboxResult.grade === 6) {
+                    pauseUnboxing();
+                }
+                break;
+        }
+        if (pause) {
+            break;
+        }
+    }
+    if (unboxResult.quality.includes("unusual")) {
+        soundToPlay = "unusualUnboxed";
+    } else {
+        for (let bonusItem of unboxResult.bonus) {
+            if (bonusItem.id === 770) {
+                soundToPlay = "unusualUnboxed";
+                break;
+            }
+        }
+    }
+    if (save.options.fastUnbox) {
+        // If fast unboxing is on, just show the result screen instantly
+        showResults();
+        DOM.main.container.style.display = "none";
+        DOM.results.container.style.display = "block";
+        sound.play(soundToPlay);
+    } else {
+        // Otherwise, play crate sound, display unbox animation, and when it's finished, show result screen
+        canUnbox = false;
+        switch (crateOrder[currentCrate]) {
+            case 57:
+                sound.play("roboCrateOpen");
+                break;
+            case 114:
+                sound.play("wrapOpen");
+                break;
+            default:
+                sound.play("crateOpen");
+        }
+        DOM.unboxing.container.style.display = "block";
+        // Dot animation
+        let dotAnimPos = 2;
+        DOM.unboxing.dots.innerHTML = ".";
+        let dotAnimation = setInterval(function() {
+            switch (dotAnimPos) {
+                case 0:
+                    DOM.unboxing.dots.innerHTML = "&nbsp;";
+                    dotAnimPos += 1;
+                    break;
+                case 1:
+                    DOM.unboxing.dots.innerHTML = ".";
+                    dotAnimPos += 1;
+                    break;
+                case 2:
+                    DOM.unboxing.dots.innerHTML = "..";
+                    dotAnimPos += 1;
+                    break;
+                case 3:
+                    DOM.unboxing.dots.innerHTML = "...";
+                    dotAnimPos = 0;
+                    break;
+            }
+        }, 500);
+        // Countdown
+        let secondsUntilUnbox = 5;
+        DOM.unboxing.countdown.innerHTML = secondsUntilUnbox;
+        let uncratingCountdown = setInterval(function() {
+            secondsUntilUnbox -= 1;
+            DOM.unboxing.countdown.innerHTML = secondsUntilUnbox;
+            if (secondsUntilUnbox == 0) {
+                showResults();
+                DOM.main.container.style.display = "none";
+                DOM.unboxing.container.style.display = "none";
+                DOM.results.container.style.display = "block";
+                clearInterval(dotAnimation);
+                clearInterval(uncratingCountdown);
+                canUnbox = true;
+                sound.play(soundToPlay);
+            }
+        }, 1000);
+    }
+
+    function showResults() {
+        try {
+            DOM.results.lootName.removeAttribute("class");
+            DOM.results.effectImg.src = emptyImage;
+            DOM.results.kitField.innerHTML = "";
+
+            let completeLootName = unboxResult.name;
+
+            if (unboxResult.wear) {
+                completeLootName += ` (${getString("ui", wearTableNames[unboxResult.wear])})`;
+                DOM.results.lootImg.src = `./images/item/skins/${wearTable[unboxResult.wear]}${getImg("item", unboxResult.id)}`;
+                DOM.results.kitImg.src = emptyImage;
+            } else if (unboxResult.killstreak) {
+
+                if (unboxResult.killstreak.killstreaker) {
+                    completeLootName = getString("item", 766).replace("#ITEM#", completeLootName);
+                    DOM.results.lootImg.src = `./images/item/${getImg("item", 766)}`;
+                    DOM.results.kitField.innerHTML = `${getString("ui", 127)} ${getString("ui", killstreakerTable[unboxResult.killstreak.killstreaker])}
+      <br>${getString("ui", 126)} ${getString("ui", sheenTable[unboxResult.killstreak.sheen])}`;
+
+                } else if (unboxResult.killstreak.sheen) {
+
+                    completeLootName = getString("item", 765).replace("#ITEM#", completeLootName);
+                    DOM.results.lootImg.src = `./images/item/${getImg("item", 765)}`;
+                    DOM.results.kitField.innerHTML = `${getString("ui", 126)} ${getString("ui", sheenTable[unboxResult.killstreak.sheen])}`;
+
+                } else {
+
+                    completeLootName = getString("item", 764).replace("#ITEM#", completeLootName);
+                    DOM.results.lootImg.src = `./images/item/${getImg("item", 764)}`;
+                }
+                DOM.results.kitImg.src = `./images/item/${getImg("item", unboxResult.id)}`;
+            } else if (unboxResult.quality == "strangifier") {
+                completeLootName = getString("item", 452).replace("#ITEM#", completeLootName);
+                DOM.results.lootImg.src = `./images/item/${getImg("item", 452)}`;
+                DOM.results.kitImg.src = `./images/item/${getImg("item", unboxResult.id)}`;
+            } else {
+                DOM.results.lootImg.src = `./images/item/${getImg("item", unboxResult.id)}`;
+                DOM.results.kitImg.src = emptyImage;
+            }
+
+            if (unboxResult.effect) {
+                DOM.results.effectImg.src = `./images/effect/${getImg("effect", unboxResult.effect)}`;
+                DOM.results.effectField.style.display = "block";
+                DOM.results.effectName.innerHTML = getString("effect", unboxResult.effect);
+            } else {
+                DOM.results.effectField.style.display = "none";
+            }
+
+            let tempQualityName = [];
+            if (unboxResult.grade) {
+                // Item has grade
+                DOM.results.lootName.classList.add(gradeTable[unboxResult.grade]);
+                if (unboxResult.quality.includes("strange")) {
+                    if (unboxResult.wear) {
+                        DOM.results.kitField.innerHTML = `<span class="colorstrange">${getString("ui", 157)}</span>`;
+                    } else {
+                        tempQualityName.push(`<span class="colorstrange">(${getString("ui", 71)})</span>`);
+                    }
+                }
+                if (unboxResult.quality.includes("unusual")) {
+                    tempQualityName.push(`<span class="colorunusual">(${getString("ui", 73)})</span>`);
+                }
+            } else {
+                // Item has no grade
+                if (unboxResult.quality.includes("unusual")) {
+                    // Item is unusual
+                    DOM.results.lootName.classList.add("colorunusual");
+                    if (unboxResult.quality.includes("strange")) {
+                        tempQualityName.push(`<span class="colorstrange">(${getString("ui", 71)})</span>`);
+                    }
+                    tempQualityName.push(`(${getString("ui", 73)})`);
+                } else {
+                    // Item is not unusual
+
+                    if (unboxResult.quality.includes("haunted")) {
+                        DOM.results.lootName.classList.add("colorhaunted");
+                        if (unboxResult.quality.includes("strange")) {
+                            tempQualityName.push(`(${getString("ui", 71)})`);
+                        }
+                        tempQualityName.push(`(${getString("ui", 72)})`);
+                    } else if (unboxResult.quality.includes("strange")) {
+                        DOM.results.lootName.classList.add("colorstrange");
+                        tempQualityName.push(`(${getString("ui", 71)})`);
+                    } else {
+                        // Item is not unusual or strange. So it must be unique
+                        DOM.results.lootName.classList.add("colorunique");
+                    }
+                }
+            }
+
+            if (strangeStringPosition === "left") {
+                for (let quality in tempQualityName) {
+                    tempQualityName[quality] = tempQualityName[quality].replace("(", "").replace(")", "");
+                }
+                DOM.results.lootName.innerHTML = `${tempQualityName.join(" ")} ${completeLootName}`;
+            } else {
+                DOM.results.lootName.innerHTML = `${completeLootName} ${tempQualityName.join(" ")}`;
+            }
+
+            // Show bonus items
+            DOM.results.bonusItemContainer.removeAttribute("class");
+            if (currentCrateObj.bonus || currentCrateObj.creepyBonus || currentCrateObj.exclusiveBonus) {
+                DOM.results.bonusContainer.style.display = "block";
+                if (unboxResult.bonus.length > 0) {
+                    let bonusHTML = "";
+                    for (let bonusItem of unboxResult.bonus) {
+                        if (bonusItem.taunt != undefined) {
+                            bonusHTML += `<div class="unusual"><img src="./images/item/${getImg("item", bonusItem.id)}">
+                    <img class="unusualifierimg" src="./images/item/${getImg("item", bonusItem.taunt)}">
+                <div class="bonustooltip colorunusual">${getString("item", bonusItem.id).replace("#ITEM#", getString("item", bonusItem.taunt))}</div>
+                </div>`;
+                        } else if (bonusItem.killstreak != undefined) {
+                            let killstreakImg;
+                            let itemName;
+                            if (bonusItem.killstreak.killstreaker != undefined) {
+                                killstreakImg = getImg("item", 766);
+                                itemName = getString("item", 766);
+                            } else if (bonusItem.killstreak.sheen != undefined) {
+                                killstreakImg = getImg("item", 765);
+                                itemName = getString("item", 765);
+                            } else {
+                                killstreakImg = getImg("item", 764);
+                                itemName = getString("item", 764);
+                            }
+                            itemName = itemName.replace("#ITEM#", getString("item", bonusItem.id))
+                            bonusHTML += `<div><img src="./images/item/${killstreakImg}">
+                    <img class="kitimg" src="./images/item/${getImg("item", bonusItem.id)}">
+                <div class="bonustooltip">${itemName}</div>
+                </div>`;
+                        } else if (bonusItem.quality === 12) {
+                            bonusHTML += `<div><img src="./images/item/${getImg("item", 452)}">
+                    <img class="kitimg" src="./images/item/${getImg("item", bonusItem.id)}">
+                <div class="bonustooltip">${getString("item", 452).replace("#ITEM#", getString("item", bonusItem.id))}</div>
+                </div>`;
+                        } else {
+                            bonusHTML += `<div><img src="./images/item/${getImg("item", bonusItem.id)}">
+                <div class="bonustooltip">${getString("item", bonusItem.id)}</div>
+                </div>`;
+                        }
+
+                    };
+                    DOM.results.bonusItemContainer.classList.add(`i${unboxResult.bonus.length}`);
+                    DOM.results.bonusItemContainer.innerHTML = bonusHTML;
+                    document.querySelectorAll(".bonustooltip").forEach(el => {
+                        ["pointerover", "click"].forEach(evt => {
+                            el.parentNode.addEventListener(evt, () => {
+                                let tooltipPos = el.getBoundingClientRect();
+                                if (tooltipPos.x < 0 || (tooltipPos.x + el.clientWidth) > window.innerWidth) {
+                                    el.style.whiteSpace = "initial";
+                                } else {
+                                    el.style.whiteSpace = "nowrap";
+                                    tooltipPos = el.getBoundingClientRect();
+                                    if (tooltipPos.x < 0 || tooltipPos.x + el.clientWidth > window.innerWidth) {
+                                        el.style.whiteSpace = "initial";
+                                    }
+                                }
+                            })
+                        });
+                    })
+                } else {
+                    DOM.results.bonusItemContainer.innerHTML = `<span id="lootbonusnone">${getString("ui", 145)}</span>`;
+                }
+            } else {
+                DOM.results.bonusContainer.style.display = "none";
+            }
+            // Update market links
+            let urlOptions = {
+                item: unboxResult.id,
+                quality: unboxResult.quality,
+                wear: unboxResult.wear,
+            }
+            if (unboxResult.quality.includes("unusual")) {
+                urlOptions.effect = unboxResult.effect;
+            }
+            if (unboxResult.killstreak) {
+                if (unboxResult.killstreak.killstreaker) {
+                    urlOptions.kit = 3;
+                } else if (unboxResult.killstreak.sheen) {
+                    urlOptions.kit = 2;
+                } else {
+                    urlOptions.kit = 1;
+                }
+            }
+            if ([764, 765, 766, 452].includes(unboxResult.id)) {
+                urlOptions.kitItem = unboxResult.effect;
+            }
+            if (unboxResult.quality != "unique" ||
+                unboxResult.grade != 0 ||
+                unboxResult.killstreak != null ||
+                globalBonusItemArray.includes(unboxResult.id) ||
+                paintBonusArray.includes(unboxResult.id) ||
+                strangePartBonusArray.includes(unboxResult.id) ||
+                steamMarketWhitelist.includes(unboxResult.id)) {
+                DOM.results.steamMarketBtn.href = generateSteamMarketUrl(urlOptions);
+                DOM.results.steamMarketBtn.classList.remove("btndisabled");
+            } else {
+                DOM.results.steamMarketBtn.removeAttribute("href");
+                DOM.results.steamMarketBtn.classList.add("btndisabled");
+            }
+
+            DOM.results.bptfBtn.href = generateBackpackTfUrl(urlOptions);
+            DOM.results.mptfBtn.href = generateMarketplaceTfUrl(urlOptions);
+
+            if (save.options.forceUnusual || save.options.forceUnusualifier || save.options.forceStrange || save.options.forceGrade || save.options.forceProKit || save.options.forceBonusItem) {
+                DOM.results.statsContainer.style.display = "none";
+            } else {
+                DOM.results.statsContainer.style.display = "flex";
+                // Add items to save
+                let itemNum = addToInventory(unboxResult, save, true);
+
+                if (["unusual", "unusualunique", "strangeunusual", "unusualstrange"].includes(unboxResult.quality)) {
+                    DOM.results.statSinceLastUnusual.innerHTML = save.stats["unboxes-since-last-unusual"] + 1;
+
+                    addToUnusuals(unboxResult, save, true);
+                    addToStats(unboxResult, save, true);
+
+                    DOM.results.statTimesUnboxedDiv.style.display = "none";
+                    DOM.results.statUnusualsUnboxed.innerHTML = save.stats["unusual-unboxed"];
+                    DOM.results.statUnusualsUnboxedDiv.style.display = "block";
+                } else {
+                    addToUnusuals(unboxResult, save, true);
+                    addToStats(unboxResult, save, true);
+                    if (currentCrateObj.unusual) {
+                        DOM.results.statSinceLastUnusual.innerHTML = save.stats["unboxes-since-last-unusual"];
+                    }
+                    DOM.results.statTimesUnboxed.innerHTML = itemNum;
+                    DOM.results.statTimesUnboxedDiv.style.display = "block";
+                    DOM.results.statUnusualsUnboxedDiv.style.display = "none";
+                }
+            }
+        } catch (err) {
+            let errorMessage = `Something went wrong when executing beginUnbox().
+    Error stack: ${err.stack}
+
+    currentCrate: ${currentCrate}
+    forceUnusual: ${save.options.forceUnusual}
+    itemId: ${unboxResult.id}
+    quality: ${unboxResult.quality}
+    wear: ${unboxResult.wear}
+    effect: ${unboxResult.effect}`;
+
+            console.error(errorMessage);
+            reportError(errorMessage);
+        }
+    }
+}
+
+function addToInventory(unboxResult, saveObj, saveToStorage) {
+    let itemNum;
+    if (unboxResult.cratePos != null) {
+        switch (currentCrateObj.loot[unboxResult.cratePos].quality) {
+            case 4:
+            case 8:
+            case 9:
+            case 10:
+                if (["strange", "strangehaunted"].includes(unboxResult.quality)) {
+                    itemNum = saveObj.crates[crateOrder[currentCrate]][unboxResult.cratePos].q += 1;
+                } else {
+                    itemNum = saveObj.crates[crateOrder[currentCrate]][unboxResult.cratePos].n += 1;
+                }
+                break;
+            case 5:
+                itemNum = saveObj.crates[crateOrder[currentCrate]][unboxResult.cratePos][wearTable[unboxResult.wear]] += 1;
+                break;
+            case 6:
+                if (unboxResult.quality === "strange") {
+                    itemNum = saveObj.crates[crateOrder[currentCrate]][unboxResult.cratePos][`${wearTable[unboxResult.wear]}q`] += 1;
+                } else {
+                    itemNum = saveObj.crates[crateOrder[currentCrate]][unboxResult.cratePos][wearTable[unboxResult.wear]] += 1;
+                }
+                break;
+            case 11:
+                let found = false;
+                if (unboxResult.killstreak.killstreaker) {
+                    for (let item of saveObj.crates[crateOrder[currentCrate]][unboxResult.cratePos].p) {
+                        if (item.s === unboxResult.killstreak.sheen && item.p === unboxResult.killstreak.killstreaker) {
+                            itemNum = item.n += 1;
+                            found = true;
+                            break;
+                        }
+                    }
+                    if (!found) {
+                        itemNum = 1;
+                        saveObj.crates[crateOrder[currentCrate]][unboxResult.cratePos].p.push({
+                            n: 1,
+                            s: unboxResult.killstreak.sheen,
+                            k: unboxResult.killstreak.killstreaker
+                        })
+                    }
+                } else if (unboxResult.killstreak.sheen) {
+                    for (let item of saveObj.crates[crateOrder[currentCrate]][unboxResult.cratePos].s) {
+                        if (item.s === unboxResult.killstreak.sheen) {
+                            itemNum = item.n += 1;
+                            found = true;
+                            break;
+                        }
+                    }
+                    if (!found) {
+                        itemNum = 1;
+                        saveObj.crates[crateOrder[currentCrate]][unboxResult.cratePos].s.push({
+                            n: 1,
+                            s: unboxResult.killstreak.sheen
+                        })
+                    }
+                } else {
+                    itemNum = saveObj.crates[crateOrder[currentCrate]][unboxResult.cratePos].n += 1;
+                }
+                break;
+            default:
+                itemNum = saveObj.crates[crateOrder[currentCrate]][unboxResult.cratePos].n += 1;
+        }
+    }
+    for (let bonusItem of unboxResult.bonus) {
+        if (currentCrateObj.exclusiveBonus.loot != undefined && currentCrateObj.exclusiveBonus.loot.includes(bonusItem.id)) {
+            saveObj.crates[crateOrder[currentCrate]][currentCrateObj.loot.length + currentCrateObj.exclusiveBonus.loot.findIndex(arrayItem => {
+                return arrayItem === bonusItem.id;
+            })].n++;
+        } else if (currentCrateObj.creepyBonus) {
+            let bonusItemPos = creepyCrateBonusArray.findIndex(arrayItem => {
+                return arrayItem.id === bonusItem.id && arrayItem.quality === bonusItem.quality;
+            });
+
+            if (bonusItem.quality == 12 || (bonusItem.killstreak != null && bonusItem.killstreak.sheen === null)) {
+                saveObj.crates[crateOrder[currentCrate]][currentCrateObj.loot.length + bonusItemPos].n++;
+            } else if (bonusItem.killstreak.killstreaker === null) {
+                let found = false;
+                for (let item of saveObj.crates[crateOrder[currentCrate]][currentCrateObj.loot.length + bonusItemPos].s) {
+                    if (item.s === bonusItem.killstreak.sheen) {
+                        item.n += 1;
+                        found = true;
+                        break;
+                    }
+                }
+                if (!found) {
+                    saveObj.crates[crateOrder[currentCrate]][currentCrateObj.loot.length + bonusItemPos].s.push({
+                        n: 1,
+                        s: bonusItem.killstreak.sheen
+                    })
+                }
+            } else {
+                let found = false;
+                for (let item of saveObj.crates[crateOrder[currentCrate]][currentCrateObj.loot.length + bonusItemPos].p) {
+                    if (item.s === bonusItem.killstreak.sheen && item.p === bonusItem.killstreak.killstreaker) {
+                        item.n += 1;
+                        found = true;
+                        break;
+                    }
+                }
+                if (!found) {
+                    saveObj.crates[crateOrder[currentCrate]][currentCrateObj.loot.length + bonusItemPos].p.push({
+                        n: 1,
+                        s: bonusItem.killstreak.sheen,
+                        k: bonusItem.killstreak.killstreaker
+                    })
+                }
+            }
+
+        } else if (bonusItem.id != 770) {
+            let found = false;
+            for (let saveItem of saveObj.bonusItems) {
+                if (saveItem.i === bonusItem.id) {
+                    saveItem.n++;
+                    found = true;
+                    break;
+                }
+            }
+            if (!found) {
+                saveObj.bonusItems.push({
+                    i: bonusItem.id,
+                    n: 1,
+                })
+            }
+        }
+    }
+    if (saveToStorage) {
+        localStorage.setItem("unboxertf-crates", JSON.stringify(save.crates));
+        localStorage.setItem("unboxertf-bonusitems", JSON.stringify(save.bonusItems));
+    }
+    return itemNum;
+}
+
+function addToUnusuals(unboxResult, saveObj, saveToStorage) {
+    if (unboxResult.quality.includes("unusual")) {
+        if (["strange", "strangeunusual", "unusualstrange"].includes(unboxResult.quality)) {
+            saveObj.unusuals.push([unboxResult.id, unboxResult.effect, 1, unboxResult.wear]);
+        } else {
+            saveObj.unusuals.push([unboxResult.id, unboxResult.effect, 0, unboxResult.wear]);
+        }
+
+        if (saveToStorage) {
+            updateUnusualStats(save.unusuals[save.unusuals.length - 1], true);
+        }
+    }
+
+    for (let bonusItem of unboxResult.bonus) {
+        if (bonusItem.id === 770) {
+            saveObj.unusuals.push([bonusItem.id, bonusItem.taunt, 0, 0]);
+            if (saveToStorage) {
+                updateUnusualStats(save.unusuals[save.unusuals.length - 1], true);
+            }
+        }
+    }
+
+    if (saveToStorage) {
+        localStorage.setItem("unboxertf-unusuals", JSON.stringify(save.unusuals));
+    }
+}
+
+function addToStats(unboxResult, saveObj, saveToStorage) {
+    // Update stats
+    saveObj.stats["crates-opened"] += 1;
+    saveObj.stats["keys-money"] = (parseFloat(saveObj.stats["keys-money"]) + 2.49).toFixed(2);
+    switch (unboxResult.quality) {
+        case "unique":
+            saveObj.stats["unique-unboxed"] += 1;
+            break;
+        case "strange":
+            saveObj.stats["strange-unboxed"] += 1;
+            break;
+        case "haunted":
+            saveObj.stats["haunted-unboxed"] += 1;
+            break;
+        case "unusual":
+        case "unusualunique":
+            saveObj.stats["unusual-unboxed"] += 1;
+            break;
+        case "strangehaunted":
+            saveObj.stats["strange-unboxed"] += 1;
+            saveObj.stats["haunted-unboxed"] += 1;
+            saveObj.stats["strangehaunted-unboxed"] += 1;
+            break;
+        case "strangeunusual":
+        case "unusualstrange":
+            saveObj.stats["strange-unboxed"] += 1;
+            saveObj.stats["unusual-unboxed"] += 1;
+            saveObj.stats["strangeunusual-unboxed"] += 1;
+            break;
+    }
+    if (unboxResult.wear) {
+        saveObj.stats["decorated-unboxed"] += 1;
     };
-    cratesOpenedStat.innerHTML = stats.cratesOpened;
-    moneyWastedStat.innerHTML = stats.moneyWasted;
-    uniqueUnboxedStat.innerHTML = stats.uniqueUnboxed;
-    strangeUnboxedStat.innerHTML = stats.strangeUnboxed;
-    hauntedUnboxedStat.innerHTML = stats.hauntedUnboxed;
-    decoratedUnboxedStat.innerHTML = stats.decoratedUnboxed;
-    unusualUnboxedStat.innerHTML = stats.unusualUnboxed;
-    longestUnusualDroughtStat.innerHTML = "N/A";
-    shortestUnusualDroughtStat.innerHTML = "N/A";
-    moneyWastedCentsStat.innerHTML = "00";
-    var unusuals = document.getElementsByClassName("unusualitem");
-    while (unusuals.length > 0) {
-      unusuals[0].parentNode.removeChild(unusuals[0]);
+
+    if (unboxResult.grade) {
+        saveObj.stats["grade-unboxed"] += 1;
     }
-    noUnusualsText.style.display = "block";
-    resetSaveBtnText.innerHTML = text.z4[language];
-    setTimeout(function () {
-      resetDelay = 0;
-      resetSaveBtnText.innerHTML = text.b21[language];
-    }, 3000);
-  } else {
-    resetSaveBtnText.innerHTML = text.z5[language];
-    resetDelay = 1;
-    setTimeout(function () {
-      if (resetDelay == 1) {
-        resetDelay = 0;
-        resetSaveBtnText.innerHTML = text.b21[language];
-      }
-    }, 3000);
-  }
-});
-var gridGenerated = false;
 
-function generateGrid(override) {
-  if (gridGenerated && !override) {
-    return 0;
-  } else {
-    gridGenerated = true;
-  }
-  crateSelectGrid.innerHTML = "";
-  for (var i = 1; i < cA.length; i++) {
-    var crateSelectGridAdd = document.createElement("div");
-    crateSelectGridAdd.setAttribute("cratenum", i);
-    crateSelectGridAdd.classList.add("crategriditem");
-    crateSelectGridAdd.innerHTML =
-      '<img class="statscratesimg" onerror="this.src=\'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\'" src="./images/crate/' +
-      cratename["c" + cA[crateOrder[i]].id].img + imageSupport +
-      '"><p class="statscratesname">' +
-      cratename["c" + cA[crateOrder[i]].id][language] +
-      '</p><p class="statscratesseries">' +
-      getSeries(crateOrder[i]) +
-      "</p>";
-    crateSelectGrid.appendChild(crateSelectGridAdd);
-    document
-      .getElementsByClassName("crategriditem")[i - 1].addEventListener("pointerdown", function () {
-        playSound("btn");
-      });
-    document
-      .getElementsByClassName("crategriditem")[i - 1].addEventListener("click", function () {
-        playSound("btnrelease");
-        jumpToCrate(parseInt(this.getAttribute("cratenum")));
-      });
-  }
-}
-
-function generateStatsCrates(override) {
-  if (statsGenerated && !override) {
-    return 0;
-  } else {
-    statsGenerated = true;
-  }
-  statsCrates.innerHTML = "";
-  for (var i = 1; i < cA.length; i++) {
-    var statsCratesListAdd = document.createElement("div");
-    statsCratesListAdd.setAttribute("cratenum", i);
-    statsCratesListAdd.classList.add("statscratesitem");
-    statsCratesListAdd.innerHTML =
-      '<img class="statscratesimg" src="./images/crate/' +
-      cratename["c" + cA[crateOrder[i]].id].img + imageSupport +
-      '"><p class="statscratesname">' +
-      cratename["c" + cA[crateOrder[i]].id][language] +
-      '</p><p class="statscratesseries">' +
-      getSeries(crateOrder[i]) +
-      "</p>";
-    statsCrates.appendChild(statsCratesListAdd);
-    document
-      .getElementsByClassName("statscratesitem")[i - 1].addEventListener("pointerdown", function () {
-        playSound("btn");
-      });
-    document
-      .getElementsByClassName("statscratesitem")[i - 1].addEventListener("click", function () {
-        playSound("btnrelease");
-        statsContainer.style.display = "none";
-        statsHeader.style.display = "none";
-        statsCratesDetails.style.display = "block";
-        statsReturnBtn.style.display = "none";
-        statsCratesDetailsReturnBtn.style.display = "flex";
-        generateCrateDetails(crateOrder[this.getAttribute("cratenum")]);
-        currentStatsCrate = parseInt(this.getAttribute("cratenum"));
-      });
-  };
-  document.querySelectorAll("img").forEach(function (img) {
-    img.onerror = function () {
-      this.src =
-        "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
+    switch (unboxResult.grade) {
+        case 1:
+            saveObj.stats["civilian-unboxed"] += 1;
+            break;
+        case 2:
+            saveObj.stats["freelance-unboxed"] += 1;
+            break;
+        case 3:
+            saveObj.stats["mercenary-unboxed"] += 1;
+            break;
+        case 4:
+            saveObj.stats["commando-unboxed"] += 1;
+            break;
+        case 5:
+            saveObj.stats["assassin-unboxed"] += 1;
+            break;
+        case 6:
+            saveObj.stats["elite-unboxed"] += 1;
+            break;
     };
-  });
+
+    switch (unboxResult.wear) {
+        case 1:
+            saveObj.stats["factorynew-unboxed"] += 1;
+            break;
+        case 2:
+            saveObj.stats["minimalwear-unboxed"] += 1;
+            break;
+        case 3:
+            saveObj.stats["fieldtested-unboxed"] += 1;
+            break;
+        case 4:
+            saveObj.stats["wellworn-unboxed"] += 1;
+            break;
+        case 5:
+            saveObj.stats["battlescarred-unboxed"] += 1;
+            break;
+    }
+
+    if (["unusual", "unusualunique", "strangeunusual", "unusualstrange"].includes(unboxResult.quality)) {
+        if (saveObj.stats["unboxes-since-last-unusual"] < saveObj.stats["min-unusual-drought"] || saveObj.stats["min-unusual-drought"] === "N/A") {
+            saveObj.stats["min-unusual-drought"] = saveObj.stats["unboxes-since-last-unusual"];
+        }
+        saveObj.crateStats[crateOrder[currentCrate]].u++;
+
+        saveObj.stats["unusual-avg-array"].push(saveObj.stats["unboxes-since-last-unusual"]);
+        let avg = 0;
+        for (let num of saveObj.stats["unusual-avg-array"]) {
+            avg += parseInt(num);
+        }
+        saveObj.stats["unusual-avg"] = Math.round(avg / saveObj.stats["unusual-avg-array"].length);
+
+        saveObj.stats["unusual-avgprice-array"].push((saveObj.stats["unboxes-since-last-unusual"] * 2.49).toFixed(2));
+        avg = 0;
+        for (let num of saveObj.stats["unusual-avgprice-array"]) {
+            avg += parseFloat(num);
+        }
+        saveObj.stats["unusual-avgprice"] = (avg / saveObj.stats["unusual-avg-array"].length).toFixed(2);
+        saveObj.stats["unboxes-since-last-unusual"] = 0;
+    } else {
+        if (currentCrateObj.unusual) {
+            saveObj.stats["unboxes-since-last-unusual"] += 1;
+            if (saveObj.stats["unboxes-since-last-unusual"] > saveObj.stats["max-unusual-drought"]) {
+                saveObj.stats["max-unusual-drought"] = saveObj.stats["unboxes-since-last-unusual"];
+            }
+        }
+    }
+
+    saveObj.stats["bonus-unboxed"] += unboxResult.bonus.length;
+
+    if (currentCrateObj.unusual) {
+        saveObj.stats["unusual-chances"] += 1;
+    }
+    if (crateHasRandomStranges(currentCrateObj)) {
+        saveObj.stats["strange-chances"] += 1;
+        if (unboxResult.quality.includes("strange")) {
+            saveObj.stats["random-strange-unboxed"] += 1;
+        }
+    };
+
+    saveObj.crateStats[crateOrder[currentCrate]].n++;
+    if (unboxResult.bonus.length > 0) {
+        saveObj.crateStats[crateOrder[currentCrate]].b += unboxResult.bonus.length;
+        switch (unboxResult.bonus.length) {
+            case 1:
+                saveObj.stats["single-bonus-unboxed"]++;
+                break;
+            case 2:
+                saveObj.stats["double-bonus-unboxed"]++;
+                break;
+            case 3:
+                saveObj.stats["triple-bonus-unboxed"]++;
+                break;
+        }
+    }
+
+    for (let bonusItem of unboxResult.bonus) {
+        if (bonusItem.id === 770) {
+            saveObj.crateStats[crateOrder[currentCrate]].u++;
+            saveObj.stats["unusualifiers-unboxed"]++;
+        }
+    }
+
+    if (saveToStorage) {
+        localStorage.setItem("unboxertf-cratestats", JSON.stringify(save.crateStats));
+        localStorage.setItem("unboxertf-stats", JSON.stringify(save.stats));
+    }
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-  pageCrateName.innerHTML = cratename["c" + cA[crateOrder[currentCrate]].id][language];
-  pageCrateSeries.innerHTML = getSeries(crateOrder[currentCrate]);
-  crateImg.src = "./images/crate/" + cratename["c" + cA[crateOrder[currentCrate]].id].img + imageSupport;
-  generateLootList();
-  generateEffectList();
-  generateGameSave();
-  loadSave();
-  switch (localStorage.getItem("saveLang")) {
-    case "pol":
-      loadLanguage("pol");
-      langDropdown.value = "pol";
-      break;
-    case "sch":
-      loadLanguage("sch");
-      langDropdown.value = "sch";
-      break;
-    case null: // For first time users, show TF2 Unboxer in user's most preferred language that is available.
-      for (var i = 0; i < navigator.languages.length; i++) {
-        switch (navigator.languages[i].slice(0, 2)) {
-          case "en":
-            localStorage.setItem("saveLang", "eng")
-            i = navigator.languages.length;
-            break;
-          case "pl":
-            loadLanguage("pol");
-            langDropdown.value = "pol";
-            localStorage.setItem("saveLang", "pol")
-            i = navigator.languages.length;
-            break;
-          case "zh":
-            loadLanguage("sch");
-            langDropdown.value = "sch";
-            localStorage.setItem("saveLang", "sch")
-            i = navigator.languages.length;
-            break;
-        }
-      }
-  }
+// Generate grid
+
+function generateGrid() {
+    DOM.main.crateGrid.innerHTML = "";
+    let html = [];
+    for (let i = 0; i < crateOrder.length; i++) {
+        html.push(`<div cratenum="${i}" series="${cA[crateOrder[i]].series}">
+    <img class="statscratesimg" src="./images/crate/${getImg("crate", cA[crateOrder[i]].id)}" alt="">
+    <p class="statscratesname">${getString("crate", cA[crateOrder[i]].id)}</p>
+    <p class="statscratesseries">${getSeries(cA[crateOrder[i]].series)}</p>
+    </div>`);
+    }
+    DOM.main.crateGrid.innerHTML = html.join('');
+    let gridDivs = DOM.main.crateGrid.querySelectorAll("div");
+    for (let i = 0; i < gridDivs.length; i++) {
+        gridDivs[i].addEventListener("pointerdown", function() {
+            sound.play("btn");
+        });
+        gridDivs[i].addEventListener("click", function() {
+            sound.play("btnRelease");
+            jumpToCrate(parseInt(this.getAttribute("cratenum")));
+            exitGridView();
+        });
+    }
+}
+
+function exitGridView() {
+    DOM.main.crateGrid.style.display = "none";
+    DOM.main.crateInfoContainer.style.display = "block";
+    DOM.main.gridViewBtn.style.display = "flex";
+    DOM.main.exitGridViewBtn.style.display = "none";
+    DOM.main.crateWindow.classList.remove("mobile-btns");
+}
+
+// Main screen bindings
+DOM.main.moreInfoBtn.addEventListener("click", () => {
+    DOM.main.imgContainer.style.display = "none";
+    DOM.main.detailsContainer.style.display = "block";
+});
+DOM.main.infoReturnBtn.addEventListener("click", () => {
+    DOM.main.imgContainer.style.display = "flex";
+    DOM.main.detailsContainer.style.display = "none";
+});
+DOM.main.infoEffectsBtn.addEventListener("click", () => {
+    DOM.main.effectsContainer.style.display = "block";
+    DOM.main.lootContainer.style.display = "none";
+    DOM.main.infoEffectsBtn.style.display = "none";
+    DOM.main.infoLootBtn.style.display = "flex";
+});
+DOM.main.infoLootBtn.addEventListener("click", () => {
+    DOM.main.effectsContainer.style.display = "none";
+    DOM.main.lootContainer.style.display = "block";
+    DOM.main.infoEffectsBtn.style.display = "flex";
+    DOM.main.infoLootBtn.style.display = "none";
+});
+DOM.main.gridViewBtn.addEventListener("click", () => {
+    DOM.main.crateGrid.style.display = "grid";
+    DOM.main.crateInfoContainer.style.display = "none";
+    DOM.main.gridViewBtn.style.display = "none";
+    DOM.main.exitGridViewBtn.style.display = "flex";
+    DOM.main.crateWindow.classList.add("mobile-btns");
+    if (DOM.main.crateGrid.innerHTML == "") {
+        generateGrid();
+    }
+});
+DOM.main.exitGridViewBtn.addEventListener("click", exitGridView);
+DOM.main.randomCrateBtn.addEventListener("click", () => {
+    jumpToCrate("random");
+    exitGridView();
+});
+DOM.main.unboxBtn.addEventListener("click", beginUnbox);
+DOM.main.bulkUnboxBtn.addEventListener("click", () => {
+    DOM.bulkSelect.screen.style.display = "flex";
+    canUnbox = false;
+});
+document.querySelector('[data-screen="#statsscreen"]').addEventListener("click", () => {
+    updateStats();
+    generateCrateStats();
+    if (!unusualsGenerated) {
+        generateUnusualStats();
+    }
 });
 
-var betaDismissed = localStorage.getItem("betadismissed");
-var betaBtn = document.querySelector("#steambtn");
-var betaContainer = document.querySelector("#betacontainer");
-var betaCloseBtn = document.querySelector("#betaclosebtn");
-var betaInterval;
+DOM.main.crateInfoContainer.addEventListener("swiped-left", () => {
+    jumpToCrate("previous");
+})
+DOM.main.crateInfoContainer.addEventListener("swiped-right", () => {
+    jumpToCrate("next");
+})
 
-if (betaDismissed != "true") {
-  betaInterval = setInterval(function() {
-    betaBtn.style.opacity = 0;
-    setTimeout(function() {
-      betaBtn.style.opacity = 1;
-    }, 200)
-  }, 1500)
-} else {
-  betaBtn.classList.remove("active");
+// Options screen bindings
+
+document.querySelectorAll(".tabreturnbtn").forEach(button => {
+    button.addEventListener("click", () => {
+        DOM.main.container.style.display = "block";
+        canUnbox = true;
+        button.closest("main").style.display = "none";
+    });
+});
+document.querySelectorAll("[data-screen]").forEach(button => {
+    button.addEventListener("click", () => {
+        canUnbox = false;
+        document.querySelector(button.dataset.screen).style.display = "block";
+        button.closest("main").style.display = "none";
+    });
+});
+document.querySelectorAll("[data-tab]").forEach(button => {
+    button.addEventListener("click", () => {
+        button.parentNode.querySelector("[data-tab].active").classList.remove("active");
+        button.classList.add("active");
+
+        button.closest("main").querySelector("div.visible").classList.remove("visible");
+        document.querySelector(button.dataset.tab).classList.add("visible");
+    });
+});
+
+let resetting = 0;
+DOM.options.resetBtn.addEventListener("click", () => {
+    if (resetting === 0) {
+        resetting = 1;
+        DOM.options.resetBtn.innerHTML = getString("ui", 78);
+        setTimeout(() => {
+            if (resetting === 1) {
+                resetting = 0;
+                DOM.options.resetBtn.innerHTML = getString("ui", 29);
+            }
+        }, 4000)
+    } else if (resetting === 1) {
+        resetting = 2;
+        DOM.options.resetBtn.innerHTML = getString("ui", 77);
+        save = JSON.parse(JSON.stringify(defaultSave));
+        localStorage.removeItem("unboxertf-stats");
+        localStorage.removeItem("unboxertf-unusuals");
+        localStorage.removeItem("unboxertf-bonusitems");
+        localStorage.removeItem("unboxertf-crates");
+        localStorage.removeItem("unboxertf-cratestats");
+
+        DOM.stats.unusuals.content.innerHTML = "";
+        unusualsGenerated = false;
+        let tempOptionsSave = localStorage.getItem("unboxertf-options");
+        if (tempOptionsSave != null) {
+            save.options = JSON.parse(tempOptionsSave);
+        }
+
+        setTimeout(() => {
+            resetting = 0;
+            DOM.options.resetBtn.innerHTML = getString("ui", 29);
+        }, 4000)
+    }
+})
+
+// Statistics screen bindings
+
+let lastTabNum = DOM.stats.statistics.container.querySelectorAll("[data-statstring]").length - 1;
+DOM.stats.statistics.container.querySelectorAll("[data-statstring]").forEach((tab, index) => {
+    tab.dataset.num = index;
+})
+
+DOM.stats.statistics.prev.addEventListener("click", () => {
+    let currentTab = DOM.stats.statistics.container.querySelector(".statvisible");
+    currentTab.classList.remove("statvisible");
+    let newTab;
+    if (currentTab.dataset.num == "0") {
+        newTab = DOM.stats.statistics.container.querySelector(`[data-num="${lastTabNum}"]`);
+    } else {
+        newTab = DOM.stats.statistics.container.querySelector(`[data-num="${parseInt(currentTab.dataset.num) - 1}"]`);
+    }
+    newTab.classList.add("statvisible");
+    DOM.stats.statistics.tab.innerHTML = getString("ui", newTab.dataset.statstring);
+})
+DOM.stats.statistics.next.addEventListener("click", () => {
+    let currentTab = DOM.stats.statistics.container.querySelector(".statvisible");
+    currentTab.classList.remove("statvisible");
+    let newTab;
+    if (currentTab.dataset.num == lastTabNum) {
+        newTab = DOM.stats.statistics.container.querySelector("[data-num='0']");
+    } else {
+        newTab = DOM.stats.statistics.container.querySelector(`[data-num="${parseInt(currentTab.dataset.num) + 1}"]`);
+    }
+    newTab.classList.add("statvisible");
+    DOM.stats.statistics.tab.innerHTML = getString("ui", newTab.dataset.statstring);
+})
+
+DOM.stats.crates.details.returnBtn.addEventListener("click", () => {
+    DOM.stats.container.style.display = "block";
+    DOM.stats.crates.details.container.classList.remove("visible");
+});
+
+DOM.stats.unusuals.prev.addEventListener("click", () => {
+    unusualPage({
+        el: DOM.stats.unusuals.pageDiv,
+        page: "prev"
+    })
+});
+DOM.stats.unusuals.next.addEventListener("click", () => {
+    unusualPage({
+        el: DOM.stats.unusuals.pageDiv,
+        page: "next"
+    })
+});
+
+
+// Results screen bindings
+
+DOM.results.returnBtn.addEventListener("click", () => {
+    if (!DOM.results.returnBtn.classList.contains("btndisabled")) {
+        DOM.main.container.style.display = "block";
+        DOM.results.container.style.display = "none";
+    }
+});
+DOM.results.unboxBtn.addEventListener("click", beginUnbox);
+let holdUnbox;
+DOM.results.unboxBtn.addEventListener("pointerdown", () => {
+    clearInterval(holdUnbox);
+    clearTimeout(holdUnbox);
+    holdUnbox = setTimeout(() => {
+        holdUnbox = setInterval(beginUnbox, 50)
+    }, 1000)
+});
+DOM.results.unboxBtn.addEventListener("pointerup", () => {
+    clearInterval(holdUnbox);
+    clearTimeout(holdUnbox);
+});
+DOM.results.unboxBtn.addEventListener("pointerleave", () => {
+    clearInterval(holdUnbox);
+    clearTimeout(holdUnbox);
+});
+
+// Bulk select bindings
+
+DOM.bulkSelect.num.addEventListener("input", () => {
+    let crateNum = parseInt(DOM.bulkSelect.num.value);
+    if ([0, NaN].includes(crateNum)) {
+        DOM.bulkSelect.unboxBtn.classList.add("btndisabled");
+    } else {
+        DOM.bulkSelect.unboxBtn.classList.remove("btndisabled");
+    }
+    if (!bulkUnlimited && crateNum > 1000000) {
+        DOM.bulkSelect.num.value = 1000000;
+    }
+    if (crateNum >= 500000) {
+        DOM.bulkSelect.warning.style.display = "none";
+        DOM.bulkSelect.warningHuge.style.display = "block";
+    } else if (crateNum >= 50000) {
+        DOM.bulkSelect.warning.style.display = "block";
+        DOM.bulkSelect.warningHuge.style.display = "none";
+    } else {
+        DOM.bulkSelect.warning.style.display = "none";
+        DOM.bulkSelect.warningHuge.style.display = "none";
+    }
+})
+DOM.bulkSelect.cancelBtn.addEventListener("click", () => {
+    DOM.bulkSelect.screen.style.display = "none";
+    canUnbox = true;
+})
+
+DOM.bulkSelect.unboxBtn.addEventListener("click", () => {
+    if (!DOM.bulkSelect.unboxBtn.classList.contains("btndisabled")) {
+        startBulkUnbox(parseInt(DOM.bulkSelect.num.value));
+    }
+})
+
+// Bulk results bindings
+let lastBulkNum = DOM.bulkResults.container.querySelectorAll("[data-statstring]").length - 1;
+DOM.bulkResults.container.querySelectorAll("[data-statstring]").forEach((tab, index) => {
+    tab.dataset.num = index;
+})
+
+
+DOM.bulkResults.prev.addEventListener("click", () => {
+    let currentTab = DOM.bulkResults.container.querySelector(".bulkvisible");
+    currentTab.classList.remove("bulkvisible");
+    let newTab;
+    if (currentTab.dataset.num == "0") {
+        newTab = DOM.bulkResults.container.querySelector(`[data-num="${lastBulkNum}"]`);
+    } else {
+        newTab = DOM.bulkResults.container.querySelector(`[data-num="${parseInt(currentTab.dataset.num) - 1}"]`);
+    }
+    newTab.classList.add("bulkvisible");
+    DOM.bulkResults.tabName.innerHTML = getString("ui", newTab.dataset.statstring);
+})
+DOM.bulkResults.next.addEventListener("click", () => {
+    let currentTab = DOM.bulkResults.container.querySelector(".bulkvisible");
+    currentTab.classList.remove("bulkvisible");
+    let newTab;
+    if (currentTab.dataset.num == lastBulkNum) {
+        newTab = DOM.bulkResults.container.querySelector("[data-num='0']");
+    } else {
+        newTab = DOM.bulkResults.container.querySelector(`[data-num="${parseInt(currentTab.dataset.num) + 1}"]`);
+    }
+    newTab.classList.add("bulkvisible");
+    DOM.bulkResults.tabName.innerHTML = getString("ui", newTab.dataset.statstring);
+})
+
+DOM.bulkResults.return.addEventListener("click", () => {
+    DOM.main.container.style.display = "block";
+    DOM.bulkResults.container.style.display = "none";
+    canUnbox = true;
+});
+
+DOM.bulkResults.unusualsPrev.addEventListener("click", () => {
+    unusualPage({
+        saveObj: bulkSave,
+        el: DOM.bulkResults.unusualsPageDiv,
+        page: "prev"
+    })
+});
+DOM.bulkResults.unusualsNext.addEventListener("click", () => {
+    unusualPage({
+        saveObj: bulkSave,
+        el: DOM.bulkResults.unusualsPageDiv,
+        page: "next"
+    })
+});
+
+// Load saves
+
+let tempStatSave = localStorage.getItem("unboxertf-stats");
+if (tempStatSave != null) {
+    Object.assign(save.stats, JSON.parse(tempStatSave));
+}
+let tempUnusualSave = localStorage.getItem("unboxertf-unusuals");
+if (tempUnusualSave != null) {
+    save.unusuals = JSON.parse(tempUnusualSave);
+}
+let tempBonusItemSave = localStorage.getItem("unboxertf-bonusitems");
+if (tempBonusItemSave != null) {
+    save.bonusItems = JSON.parse(tempBonusItemSave);
+}
+let tempCrateSave = localStorage.getItem("unboxertf-crates");
+if (tempCrateSave != null) {
+    mergeDeep(save.crates, JSON.parse(tempCrateSave));
+}
+let tempCrateStatsSave = localStorage.getItem("unboxertf-cratestats");
+if (tempCrateStatsSave != null) {
+    mergeDeep(save.crateStats, JSON.parse(tempCrateStatsSave));
+}
+let tempOptionsSave = localStorage.getItem("unboxertf-options");
+if (tempOptionsSave != null) {
+    Object.assign(save.options, JSON.parse(tempOptionsSave));
+    for (let key in save.options) {
+        triggerOption(key, true);
+    }
+}
+jumpToCrate(crateOrder[crateOrder.length - 1]); // Show most recent crate on load
+
+function unusualPage(arg) {
+    let saveObject = save;
+    let el = arg.el;
+    if (arg.saveObj != undefined) {
+        saveObject = arg.saveObj;
+    }
+    if (arg.page === "prev") {
+        if (el.dataset.unusualpage == "1") {
+            el.dataset.unusualpage = el.dataset.unusualmaxpage;
+        } else {
+            el.dataset.unusualpage = parseInt(el.dataset.unusualpage) - 1;
+        }
+    } else if (arg.page === "next") {
+        if (el.dataset.unusualpage == el.dataset.unusualmaxpage) {
+            el.dataset.unusualpage = "1"
+        } else {
+            el.dataset.unusualpage = parseInt(el.dataset.unusualpage) + 1;
+        }
+    }
+    let pageString = getString("ui", 152).replace("#PAGE#", el.dataset.unusualpage).replace("#TOTAL#", el.dataset.unusualmaxpage);
+    el.querySelector("[data-unusualpagecount]").innerHTML = pageString;
+
+    let startArray = 200 * (parseInt(el.dataset.unusualpage) - 1);
+    let endArray = 200 * parseInt(el.dataset.unusualpage);
+    let tempHtml = "";
+    for (let unusual of saveObject.unusuals.slice(startArray, endArray)) {
+        tempHtml += updateUnusualStats(unusual);
+    }
+    el.parentNode.querySelector("[data-unusualcontent]").innerHTML = tempHtml;
 }
 
-betaBtn.onclick = function() {
-  localStorage.setItem("betadismissed", "true");
-  clearInterval(betaInterval);
-  betaBtn.style.opacity = 1;
-  betaBtn.classList.remove("active");
-  betaContainer.style.display = "flex";
+// Bulk unboxing code
+
+let bulkWorker = new Worker('./js/bulkWorker.js');
+let bulkSave;
+bulkWorker.onmessage = function(e) {
+    if (e.data.item) {
+        if (!save.options.forceUnusual && !save.options.forceUnusualifier && !save.options.forceStrange && !save.options.forceGrade && !save.options.forceProKit && !save.options.forceBonusItem) {
+            addToInventory(e.data.item, save);
+            addToUnusuals(e.data.item, save);
+            addToStats(e.data.item, save);
+        }
+    } else if (e.data.progress) {
+        DOM.bulkProgress.progressDone.innerHTML = DOM.bulkProgress.progress.value = e.data.progress;
+        DOM.bulkProgress.progressPercent.innerHTML = `${Math.round(e.data.progress / DOM.bulkProgress.progress.max * 100)}%`
+    } else if (e.data.complete) {
+        bulkSave = JSON.parse(e.data.bulkSave);
+        localStorage.setItem("unboxertf-crates", JSON.stringify(save.crates));
+        localStorage.setItem("unboxertf-bonusitems", JSON.stringify(save.bonusItems));
+        localStorage.setItem("unboxertf-cratestats", JSON.stringify(save.crateStats));
+        localStorage.setItem("unboxertf-stats", JSON.stringify(save.stats));
+        localStorage.setItem("unboxertf-unusuals", JSON.stringify(save.unusuals));
+
+        // Display results
+        DOM.bulkResults.title.innerHTML = `${getString("crate", currentCrateObj.id)}<br>${getSeries(currentCrateObj.series)}`;
+        document.querySelectorAll("[data-bulkstat]").forEach(el => {
+            el.innerHTML = bulkSave.stats[el.dataset.bulkstat];
+        })
+        document.querySelectorAll('[data-bulkstat="keys-money"], [data-bulkstat="unusual-avgprice"]').forEach(el => {
+            el.innerHTML = "$" + el.innerHTML;
+        })
+
+        DOM.bulkResults.unusualsPageDiv.dataset.unusualpage = "1";
+        DOM.bulkResults.unusualsPageDiv.dataset.unusualmaxpage = Math.ceil(bulkSave.unusuals.length / 200);
+        unusualPage({
+            saveObj: bulkSave,
+            el: DOM.bulkResults.unusualsPageDiv
+        });
+
+
+        generateCrateDetails(crateOrder[currentCrate], DOM.bulkResults.items, bulkSave);
+        generateCrateDetails(crateOrder[currentCrate], DOM.bulkResults.bonusItems, bulkSave, true);
+
+        generateUnusualStats();
+
+        DOM.main.container.style.display = "none";
+        DOM.bulkSelect.screen.style.display = "none";
+        DOM.bulkSelect.container.style.display = "flex";
+        DOM.bulkProgress.container.style.display = "none";
+        if (DOM.bulkResults.container.querySelector(".bulkvisible")) {
+            DOM.bulkResults.container.querySelector(".bulkvisible").classList.remove("bulkvisible");
+        }
+        DOM.bulkResults.tabName.innerHTML = getString("ui", DOM.bulkResults.stats.dataset.statstring);
+        DOM.bulkResults.stats.classList.add("bulkvisible");
+        DOM.bulkResults.container.style.display = "block";
+    } else if (e.data.error) {
+        reportError(e.data.error);
+    }
 }
 
-betaCloseBtn.onclick = function () {
-  betaContainer.style.display = "none";
+function startBulkUnbox(num) {
+    bulkSave = JSON.parse(JSON.stringify(defaultSave));
+    let cheatsEnabled = false;
+    if (save.options.forceUnusual || save.options.forceUnusualifier || save.options.forceStrange || save.options.forceGrade || save.options.forceProKit || save.options.forceBonusItem) {
+        cheatsEnabled = true;
+    }
+    DOM.bulkSelect.container.style.display = "none";
+    DOM.bulkProgress.progress.value = "0";
+    DOM.bulkProgress.progressTotal.innerHTML = DOM.bulkProgress.progress.max = num;
+    DOM.bulkProgress.progressDone.innerHTML = "0";
+    DOM.bulkProgress.container.style.display = "flex";
+    bulkWorker.postMessage({
+        bulkSave: bulkSave,
+        options: JSON.stringify(save.options),
+        crate: currentCrate,
+        crateNum: num,
+        cheats: cheatsEnabled
+    });
+}
+
+// Disable bulk limit if site URL has a ?bulkunlimited parameter
+const urlParams = new URLSearchParams(window.location.search);
+let bulkUnlimited = false;
+if (urlParams.has('bulkunlimited')) {
+    bulkUnlimited = true;
+}
+
+// Debug function: Unbox each crate 50 times. THIS IS SLOW! Enable fast unboxing and disable the pause unboxing option before using, or this will not work.
+function testUnbox() {
+    try {
+        for (let crate in cA) {
+            console.log(`Testing crate ${crate}`);
+            jumpToCrate(crate);
+            let counter = 0;
+            while (counter <= 49) {
+                beginUnbox();
+                counter++;
+            }
+        }
+    } catch {
+        throw new Error(`Error at crate ${crate}`)
+    }
+
+}
+
+// On load, disable loading screen
+window.onload = () => {
+    if (localStorage.getItem("unboxertf-languagechanged") == undefined) {
+        for (let i = 0; i < navigator.languages.length; i++) {
+            switch (navigator.languages[i].slice(0, 2)) {
+                case "en":
+                    i = navigator.languages.length;
+                    break;
+                case "pl":
+                    changeLanguage("pol");
+                    save.options.language = "pol";
+                    DOM.options.langDropdown.value = "pol";
+                    localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
+                    i = navigator.languages.length;
+                    break;
+                case "fr":
+                    changeLanguage("fre");
+                    save.options.language = "fre";
+                    DOM.options.langDropdown.value = "fre";
+                    localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
+                    i = navigator.languages.length;
+                    break;
+                case "zh":
+                    changeLanguage("sch");
+                    save.options.language = "sch";
+                    DOM.options.langDropdown.value = "sch";
+                    localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
+                    i = navigator.languages.length;
+                    break;
+            }
+            switch (navigator.languages[i]) {
+                case "pt-BR":
+                    changeLanguage("bra");
+                    save.options.language = "bra";
+                    DOM.options.langDropdown.value = "bra";
+                    localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
+                    i = navigator.languages.length;
+                    break;
+            }
+        }
+    }
+
+    DOM.main.container.classList.remove("loading");
+    document.querySelector("#loadingscreen").style.display = "none";
 }

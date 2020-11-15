@@ -1,6 +1,4 @@
-# tf2unboxer
-A Team Fortress 2 crate simulator.
+# Unboxer.tf (formerly TF2 Unboxer)
+A Team Fortress 2 crate/case simulator.
 
-Currently working on a code rewrite for version 2.0.
-
-TF2 unboxer is hosted on Netlify at https://tf2unboxer.tk or https://tf2unboxer.netlify.app.
+Available at [https://unboxer.tf](https://unboxer.tf).

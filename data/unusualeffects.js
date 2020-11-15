@@ -1,901 +1,1352 @@
-var unusualeffects = {
-    e1: {
+let dataEffects = {
+    1: {
         img: "burning_flames",
         eng: "Burning Flames",
-        pol: "Palące płomienie",
-        sch: "熊熊烈焰"
+        schema: 13,
+        pol: "palące płomienie",
+        sch: "熊熊烈焰",
+        fre: "Flammes brûlantes",
+        bra: "Chamas ardentes"
     },
-    e2: {
+    2: {
         img: "circling_heart",
         eng: "Circling Heart",
-        pol: "Wirujące serce",
-        sch: "旋转之心"
+        schema: 19,
+        pol: "wirujące serce",
+        sch: "旋转之心",
+        fre: "Coeur tournant",
+        bra: "Coração circulante"
     },
-    e3: {
+    3: {
         img: "circling_peace_sign",
         eng: "Circling Peace Sign",
-        pol: "Wirujący znak pokoju",
-        sch: "旋转和平标志"
+        schema: 18,
+        pol: "wirujący znak pokoju",
+        sch: "旋转和平标志",
+        fre: "Symbole Peace tournant",
+        bra: "Símbolo de paz circulante"
     },
-    e4: {
+    4: {
         img: "circling_tf_logo",
         eng: "Circling TF Logo",
-        pol: "Wirujące logo TF",
-        sch: "旋转TF徽标"
+        schema: 11,
+        pol: "wirujące logo TF",
+        sch: "旋转TF徽标",
+        fre: "Logo TF tournant",
+        bra: "Logo do TF circulante"
     },
-    e5: {
+    5: {
         img: "green_confetti",
         eng: "Green Confetti",
-        pol: "Zielone konfetti",
-        sch: "绿色彩带"
+        schema: 6,
+        pol: "zielone konfetti",
+        sch: "绿色彩带",
+        fre: "Confetti verts",
+        bra: "Confete verde"
     },
-    e6: {
+    6: {
         img: "green_energy",
         eng: "Green Energy",
-        pol: "Zielona energia",
-        sch: "绿色能量"
+        schema: 9,
+        pol: "zielona energia",
+        sch: "绿色能量",
+        fre: "Énergie verte",
+        bra: "Energia verde"
     },
-    e7: {
+    7: {
         img: "haunted_ghosts",
         eng: "Haunted Ghosts",
-        pol: "Straszliwe duchy",
-        sch: "灵魂附体"
+        schema: 8,
+        pol: "straszliwe duchy",
+        sch: "灵魂附体",
+        fre: "Fantômes",
+        bra: "Fantasmas assombrados"
     },
-    e8: {
+    8: {
         img: "massed_flies",
         eng: "Massed Flies",
-        pol: "Chmara much",
-        sch: "苍蝇云集"
+        schema: 12,
+        pol: "chmara much",
+        sch: "苍蝇云集",
+        fre: "Cortège de mouches",
+        bra: "Moscas em massa"
     },
-    e9: {
+    9: {
         img: "purple_confetti",
         eng: "Purple Confetti",
-        pol: "Fioletowe konfetti",
-        sch: "紫色彩带"
+        schema: 7,
+        pol: "fioletowe konfetti",
+        sch: "紫色彩带",
+        fre: "Confetti violets",
+        bra: "Confete roxo"
     },
-    e10: {
+    10: {
         img: "purple_energy",
         eng: "Purple Energy",
-        pol: "Fioletowa energia",
-        sch: "紫色能量"
+        schema: 10,
+        pol: "fioletowa energia",
+        sch: "紫色能量",
+        fre: "Énergie violette",
+        bra: "Energia roxa"
     },
-    e11: {
+    11: {
         img: "scorching_flames",
         eng: "Scorching Flames",
-        pol: "Piekące płomienie",
-        sch: "炉火纯青"
+        schema: 14,
+        pol: "piekące płomienie",
+        sch: "炉火纯青",
+        fre: "Flammes écorcheuses",
+        bra: "Chamas escaldantes"
     },
-    e12: {
+    12: {
         img: "searing_plasma",
         eng: "Searing Plasma",
-        pol: "Paląca plazma",
-        sch: "剧烈离子体"
+        schema: 15,
+        pol: "paląca plazma",
+        sch: "剧烈离子体",
+        fre: "Plasma brûlant",
+        bra: "Plasma escaldante"
     },
-    e13: {
+    13: {
         img: "sunbeams",
         eng: "Sunbeams",
-        pol: "Promienie słońca",
-        sch: "太阳之光"
+        schema: 17,
+        pol: "promienie Słońca",
+        sch: "太阳之光",
+        fre: "Rayons de soleil",
+        bra: "Raios de sol"
     },
-    e14: {
+    14: {
         img: "vivid_plasma",
         eng: "Vivid Plasma",
-        pol: "Żywa plazma",
-        sch: "活泼离子体"
+        schema: 16,
+        pol: "żywa plazma",
+        sch: "活泼离子体",
+        fre: "Plasma éclatant",
+        bra: "Plasma vívido"
     },
-    e15: {
+    15: {
         img: "72",
         eng: "'72",
+        schema: 3004,
         pol: "1972",
-        sch: "炫目舞会"
+        sch: "炫目舞会",
+        fre: "'72",
+        bra: "1972"
     },
-    e16: {
+    16: {
         img: "fountain_of_delight",
         eng: "Fountain of Delight",
-        pol: "Fontanna rozkoszy",
-        sch: "快乐之源"
+        schema: 3005,
+        pol: "fontanna rozkoszy",
+        sch: "快乐之源",
+        fre: "Fontaine des Délices",
+        bra: "Fonte do deleite"
     },
-    e17: {
+    17: {
         img: "holy_grail",
         eng: "Holy Grail",
+        schema: 3003,
         pol: "Święty Graal",
-        sch: "圣杯之光"
+        sch: "圣杯之光",
+        fre: "Saint Graal",
+        bra: "Santo Graal"
     },
-    e18: {
+    18: {
         img: "mega_strike",
         eng: "Mega Strike",
-        pol: "Megapiorun",
-        sch: "超级闪电"
+        schema: 3010,
+        pol: "megapiorun",
+        sch: "超级闪电",
+        fre: "Frappe foudroyante",
+        bra: "Mega golpe"
     },
-    e19: {
+    19: {
         img: "midnight_whirlwind",
         eng: "Midnight Whirlwind",
-        pol: "Północne tornado",
-        sch: "午夜风暴"
+        schema: 3008,
+        pol: "północne tornado",
+        sch: "午夜风暴",
+        fre: "Tornade de minuit",
+        bra: "Redemoinho da meia-noite"
     },
-    e20: {
+    20: {
         img: "screaming_tiger",
         eng: "Screaming Tiger",
-        pol: "Ryczący tygrys",
-        sch: "火球环绕"
+        schema: 3006,
+        pol: "ryczący tygrys",
+        sch: "火球环绕",
+        fre: "Tigre hurlant",
+        bra: "Tigre rugidor"
     },
-    e21: {
+    21: {
         img: "showstopper",
         eng: "Showstopper",
-        pol: "Fajerwerki",
-        sch: "烟花表演"
+        schema: 3001,
+        pol: "fajerwerki",
+        sch: "烟花表演",
+        fre: "Clou du spectacle",
+        bra: "Fim de show"
     },
-    e22: {
+    22: {
         img: "silver_cyclone",
         eng: "Silver Cyclone",
-        pol: "Srebrny cyklon",
-        sch: "白银旋风"
+        schema: 3009,
+        pol: "srebrny cyklon",
+        sch: "白银旋风",
+        fre: "Tornade d'argent",
+        bra: "Ciclone prateado"
     },
-    e23: {
+    23: {
         img: "skill_gotten_gains",
         eng: "Skill Gotten Gains",
-        pol: "Umiejętnie wycwaniona forsa",
-        sch: "土豪光环"
+        schema: 3007,
+        pol: "umiejętnie wycwaniona forsa",
+        sch: "土豪光环",
+        fre: "Biens bien acquis",
+        bra: "Dinheiro sujo"
     },
-    e24: {
+    24: {
         img: "isotope",
         eng: "Isotope",
-        pol: "Izotop",
-        sch: "绿色辐射"
+        schema: 702,
+        pol: "izotop",
+        sch: "绿色辐射",
+        fre: "Isotope",
+        bra: "Isótopo"
     },
-    e25: {
+    25: {
         img: "hot",
         eng: "Hot",
-        pol: "Żar",
-        sch: "炽热发烟"
+        schema: 701,
+        pol: "żar",
+        sch: "炽热发烟",
+        fre: "Chaud",
+        bra: "Quente"
     },
-    e26: {
+    26: {
         img: "cool",
         eng: "Cool",
-        pol: "Chłód",
-        sch: "冷若冰霜"
+        schema: 703,
+        pol: "chłód",
+        sch: "冷若冰霜",
+        fre: "Frais",
+        bra: "Frio"
     },
-    e27: {
+    27: {
         img: "energy_orb",
         eng: "Energy Orb",
-        pol: "Kula energii",
-        sch: "能量光束"
+        schema: 704,
+        pol: "kula energii",
+        sch: "能量光束",
+        fre: "Orbe d'énergie",
+        bra: "Orbe de energia"
     },
-    e28: {
+    28: {
         img: "blizzardy_storm",
         eng: "Blizzardy Storm",
-        pol: "Śnieżna zamieć",
-        sch: "暴雪云"
+        schema: 30,
+        pol: "śnieżna zamieć",
+        sch: "暴雪云",
+        fre: "Tempête et Blizzard",
+        bra: "Tempestade de neve"
     },
-    e29: {
+    29: {
         img: "bubbling",
         eng: "Bubbling",
-        pol: "Bąbelki",
-        sch: "沤浮泡影"
+        schema: 34,
+        pol: "bąbelki",
+        sch: "沤浮泡影",
+        fre: "Bullant",
+        bra: "Borbulhando"
     },
-    e30: {
+    30: {
         img: "nuts_n_bolts",
         eng: "Nuts n' Bolts",
-        pol: "Śrubki i nakrętki",
-        sch: "螺栓和螺母"
+        schema: 31,
+        pol: "śrubki i nakrętki",
+        sch: "螺栓和螺母",
+        fre: "Écrous & Boulons",
+        bra: "Porcas e parafusos"
     },
-    e31: {
+    31: {
         img: "orbiting_fire",
         eng: "Orbiting Fire",
-        pol: "Błędny ognik",
-        sch: "火焰缠绕"
+        schema: 33,
+        pol: "błędny ognik",
+        sch: "火焰缠绕",
+        fre: "Flamme en Orbite",
+        bra: "Fogo orbitante"
     },
-    e32: {
+    32: {
         img: "orbiting_planets",
         eng: "Orbiting Planets",
-        pol: "Układ planetarny",
-        sch: "行星环绕"
+        schema: 32,
+        pol: "układ planetarny",
+        sch: "行星环绕",
+        fre: "Planètes en Orbite",
+        bra: "Planetas orbitantes"
     },
-    e33: {
+    33: {
         img: "smoking",
         eng: "Smoking",
-        pol: "Dym",
-        sch: "乌烟瘴气"
+        schema: 35,
+        pol: "dym",
+        sch: "乌烟瘴气",
+        fre: "Fumée",
+        bra: "Fumante"
     },
-    e34: {
+    34: {
         img: "steaming",
         eng: "Steaming",
-        pol: "Para",
-        sch: "蒸汽腾腾"
+        schema: 36,
+        pol: "para",
+        sch: "蒸汽腾腾",
+        fre: "Vapeur",
+        bra: "Soltando vapor"
     },
-    e35: {
+    35: {
         img: "stormy_storm",
         eng: "Stormy Storm",
-        pol: "Burzliwa burza",
-        sch: "暴雨云"
+        schema: 29,
+        pol: "burzliwa burza",
+        sch: "暴雨云",
+        fre: "Tempête et Éclairs",
+        bra: "Tempestade tempestuosa"
     },
-    e36: {
+    36: {
         img: "cauldron_bubbles",
         eng: "Cauldron Bubbles",
-        pol: "Bąbelki z kociołka",
-        sch: "魔埚气泡"
+        schema: 39,
+        pol: "bąbelki z kociołka",
+        sch: "魔埚气泡",
+        fre: "Bulles de Chaudron",
+        bra: "Bolhas de caldeirão"
     },
-    e37: {
+    37: {
         img: "cloudy_moon",
         eng: "Cloudy Moon",
-        pol: "Zachmurzony Księżyc",
-        sch: "乌云盖月"
+        schema: 38,
+        pol: "zachmurzony księżyc",
+        sch: "乌云盖月",
+        fre: "Lune voilée",
+        bra: "Lua nublada"
     },
-    e38: {
+    38: {
         img: "eerie_orbiting_fire",
         eng: "Eerie Orbiting Fire",
-        pol: "Straszliwy błędny ognik",
-        sch: "妖娆灵焰"
+        schema: 40,
+        pol: "straszliwy błędny ognik",
+        sch: "妖娆灵焰",
+        fre: "Sinistre flamme en orbite",
+        bra: "Fogo assustador orbitante"
     },
-    e39: {
+    39: {
         img: "flaming_lantern",
         eng: "Flaming Lantern",
-        pol: "Płonąca latarnia",
-        sch: "火焰南瓜"
+        schema: 37,
+        pol: "płonąca latarnia",
+        sch: "火焰南瓜",
+        fre: "Lanterne enflammée",
+        bra: "Lanterna flamejante"
     },
-    e40: {
+    40: {
         img: "harvest_moon",
         eng: "Harvest Moon",
-        pol: "Urodzajny księżyc",
-        sch: "牧场物语"
+        schema: 45,
+        pol: "urodzajny księżyc",
+        sch: "牧场物语",
+        fre: "Lune des moissons",
+        bra: "Lua de colheita"
     },
-    e41: {
+    41: {
         img: "its_a_secret_to_everybody",
         eng: "It's A Secret To Everybody",
-        pol: "Dla wszystkich jest to sekretem",
-        sch: "潜影骷髅"
+        schema: 46,
+        pol: "dla wszystkich jest to sekretem",
+        sch: "潜影骷髅",
+        fre: "C'est un secret pour tout le monde",
+        bra: "É um segredo para todos"
     },
-    e42: {
+    42: {
         img: "knifestorm",
         eng: "Knifestorm",
-        pol: "Ostra ulewa",
-        sch: "刀光剑影"
+        schema: 43,
+        pol: "ostra ulewa",
+        sch: "刀光剑影",
+        fre: "Couteaunnerre",
+        bra: "Tempestade de facas"
     },
-    e43: {
+    43: {
         img: "misty_skull",
         eng: "Misty Skull",
-        pol: "Tajemnicza czaszka",
-        sch: "迷雾骷髅"
+        schema: 44,
+        pol: "tajemnicza czaszka",
+        sch: "迷雾骷髅",
+        fre: "Crâne mystique",
+        bra: "Caveira nebulosa"
     },
-    e44: {
+    44: {
         img: "stormy_13th_hour",
         eng: "Stormy 13th Hour",
-        pol: "Trzynasta burzliwa godzina",
-        sch: "诅咒风暴"
+        schema: 47,
+        pol: "trzynasta burzliwa godzina",
+        sch: "诅咒风暴",
+        fre: "Orage de la 13ème heure",
+        bra: "13ª hora tempestuosa"
     },
-    e45: {
+    45: {
         img: "anti_freeze",
         eng: "Anti-Freeze",
-        pol: "Płyn chłodzący",
-        sch: "冰霜之抵"
+        schema: 69,
+        pol: "płyn chłodzący",
+        sch: "冰霜之抵",
+        fre: "Antigel",
+        bra: "Anticongelante"
     },
-    e46: {
+    46: {
         img: "electrostatic",
         eng: "Electrostatic",
-        pol: "Elektrostatyczność",
-        sch: "静电火花"
+        schema: 67,
+        pol: "elektrostatyczność",
+        sch: "静电火花",
+        fre: "Électrostatique",
+        bra: "Eletrostático"
     },
-    e47: {
+    47: {
         img: "green_black_hole",
         eng: "Green Black Hole",
-        pol: "Zielona czarna dziura",
-        sch: "绿色黑洞"
+        schema: 71,
+        pol: "zielona czarna dziura",
+        sch: "绿色黑洞",
+        fre: "Trou noir vert",
+        bra: "Buraco negro verde"
     },
-    e48: {
+    48: {
         img: "memory_leak",
         eng: "Memory Leak",
-        pol: "Wyciek pamięci",
-        sch: "内存溢出"
+        schema: 65,
+        pol: "wyciek pamięci",
+        sch: "内存溢出",
+        fre: "Fuite mémoire",
+        bra: "Vazamento de memória"
     },
-    e49: {
+    49: {
         img: "overclocked",
         eng: "Overclocked",
-        pol: "Podkręcanie",
-        sch: "超频过度"
+        schema: 66,
+        pol: "podkręcenie",
+        sch: "超频过度",
+        fre: "Overclocké",
+        bra: "Overclock"
     },
-    e50: {
+    50: {
         img: "phosphorous",
         eng: "Phosphorous",
-        pol: "Fosfor",
-        sch: "磷火"
+        schema: 63,
+        pol: "fosfor",
+        sch: "磷火",
+        fre: "Phosphorescent",
+        bra: "Fosforoso"
     },
-    e51: {
+    51: {
         img: "power_surge",
         eng: "Power Surge",
-        pol: "Przepięcie",
-        sch: "电弧放射"
+        schema: 68,
+        pol: "przepięcie",
+        sch: "电弧放射",
+        fre: "Surtension",
+        bra: "Surto de energia"
     },
-    e52: {
+    52: {
         img: "roboactive",
         eng: "Roboactive",
-        pol: "Roboaktywność",
-        sch: "机情紫露"
+        schema: 72,
+        pol: "roboaktywność",
+        sch: "机情紫露",
+        fre: "Roboactif",
+        bra: "Roboativo"
     },
-    e53: {
+    53: {
         img: "sulphurous",
         eng: "Sulphurous",
-        pol: "Siarka",
-        sch: "硫火"
+        schema: 64,
+        pol: "siarka",
+        sch: "硫火",
+        fre: "Sulfureux",
+        bra: "Sulfuroso"
     },
-    e54: {
+    54: {
         img: "time_warp",
         eng: "Time Warp",
-        pol: "Zakrzywienie czasu",
-        sch: "时间扭曲"
+        schema: 70,
+        pol: "zakrzywienie czasu",
+        sch: "时间扭曲",
+        fre: "Distorsion temporelle",
+        bra: "Viagem no tempo"
     },
-    e55: {
+    55: {
         img: "aces_high",
         eng: "Aces High",
-        pol: "Asy pik",
-        sch: "头牌高悬"
+        schema: 59,
+        pol: "asy pik",
+        sch: "头牌高悬",
+        fre: "As des As",
+        bra: "Ás de espadas"
     },
-    e56: {
+    56: {
         img: "cloud_9",
         eng: "Cloud 9",
-        pol: "Niczym w niebie",
-        sch: "魔心连环"
+        schema: 58,
+        pol: "niczym w niebie",
+        sch: "魔心连环",
+        fre: "Sur un petit nuage",
+        bra: "Nuvem 9"
     },
-    e57: {
+    57: {
         img: "dead_presidents",
         eng: "Dead Presidents",
-        pol: "Duży nominał",
-        sch: "总统之殇"
+        schema: 60,
+        pol: "duży nominał",
+        sch: "总统之殇",
+        fre: "Présidents morts",
+        bra: "Verdinhas"
     },
-    e58: {
+    58: {
         img: "disco_beat_down",
         eng: "Disco Beat Down",
-        pol: "W błysku disco",
-        sch: "疯狂迪斯科"
+        schema: 62,
+        pol: "w błysku disco",
+        sch: "疯狂迪斯科",
+        fre: "Fièvre du Disco",
+        bra: "Estouro bacana"
     },
-    e59: {
+    59: {
         img: "kill_a_watt",
         eng: "Kill-a-Watt",
-        pol: "Gigawat",
-        sch: "金色电流"
+        schema: 56,
+        pol: "gigawat",
+        sch: "金色电流",
+        fre: "Wattueur",
+        bra: "Eletromatador"
     },
-    e60: {
+    60: {
         img: "miami_nights",
         eng: "Miami Nights",
-        pol: "Noce Miami",
-        sch: "迈阿密之夜"
+        schema: 61,
+        pol: "noce Miami",
+        sch: "迈阿密之夜",
+        fre: "Miami Nights",
+        bra: "Noites de Miami"
     },
-    e61: {
+    61: {
         img: "terror_watt",
         eng: "Terror-Watt",
-        pol: "Megawat",
-        sch: "青色电流"
+        schema: 57,
+        pol: "megawat",
+        sch: "青色电流",
+        fre: "Terreur-Watt",
+        bra: "Eleterrorficado"
     },
-    e62: {
+    62: {
         img: "arcana",
         eng: "Arcana",
-        pol: "Arkana",
-        sch: "奥秘之髓"
+        schema: 73,
+        pol: "arkana",
+        sch: "奥秘之髓",
+        fre: "Arcane",
+        bra: "Arcano"
     },
-    e63: {
+    63: {
         img: "chiroptera_venenata",
         eng: "Chiroptera Venenata",
-        pol: "Chiroptera Venenata",
-        sch: "幽冥之火"
+        schema: 75,
+        pol: "chiroptera venenata",
+        sch: "幽冥之火",
+        fre: "Chiroptera Venenata",
+        bra: "Chiroptera venenata"
     },
-    e64: {
+    64: {
         img: "darkblaze",
         eng: "Darkblaze",
-        pol: "Ciemny płomień",
-        sch: "黑暗大火"
+        schema: 79,
+        pol: "ciemny płomień",
+        sch: "黑暗大火",
+        fre: "Flammes maléfiques",
+        bra: "Labareda sombria"
     },
-    e65: {
+    65: {
         img: "demonflame",
         eng: "Demonflame",
-        pol: "Demoniczny płomień",
-        sch: "恶魔之火"
+        schema: 80,
+        pol: "demoniczny płomień",
+        sch: "恶魔之火",
+        fre: "Flammes démoniaques",
+        bra: "Chama demoníaca"
     },
-    e66: {
+    66: {
         img: "hellfire",
         eng: "Hellfire",
-        pol: "Piekielny ogień",
-        sch: "地狱之焰"
+        schema: 78,
+        pol: "piekielny ogień",
+        sch: "地狱之焰",
+        fre: "Flammes infernales",
+        bra: "Fogo infernal"
     },
-    e67: {
+    67: {
         img: "poisoned_shadows",
         eng: "Poisoned Shadows",
-        pol: "Zatrute cienie",
-        sch: "毒蕈之影"
+        schema: 76,
+        pol: "zatrute cienie",
+        sch: "毒蕈之影",
+        fre: "Ombre empoisonnée",
+        bra: "Veneno sombrio"
     },
-    e68: {
+    68: {
         img: "something_burning_this_way_comes",
         eng: "Something Burning This Way Comes",
-        pol: "Jakiś płomień tu nadchodzi",
-        sch: "炼狱之路"
+        schema: 77,
+        pol: "jakiś płomień tu nadchodzi",
+        sch: "炼狱之路",
+        fre: "Ombre enflammée",
+        bra: "Arder ou não arder"
     },
-    e69: {
+    69: {
         img: "spellbound",
         eng: "Spellbound",
-        pol: "Urok",
-        sch: "混乱魔咒"
+        schema: 74,
+        pol: "urok",
+        sch: "混乱魔咒",
+        fre: "Envoutement",
+        bra: "Feitiço de artifício"
     },
-    e70: {
+    70: {
         img: "amaranthine",
         eng: "Amaranthine",
-        pol: "Amarant",
-        sch: "不朽之灵"
+        schema: 82,
+        pol: "amarant",
+        sch: "不朽之灵",
+        fre: "Amarante",
+        bra: "Amarantino"
     },
-    e71: {
+    71: {
         img: "bonzo_the_all_gnawing",
         eng: "Bonzo The All-Gnawing",
-        pol: "Wszechjedzący Bonzo",
-        sch: "地下巨口"
+        schema: 81,
+        pol: "wszechjedzący Bonzo",
+        sch: "地下巨口",
+        fre: "Bonzo The All-Gnawing",
+        bra: "Bonzo, o atormentador"
     },
-    e72: {
+    72: {
         img: "ghastly_ghosts_jr",
         eng: "Ghastly Ghosts Jr",
-        pol: "Małe upiorne upiory"
+        schema: 85,
+        pol: "młodsze upiorne upiory",
+        fre: "Horribles fantômes Jr",
+        sch: "紫色小鬼魂",
+        bra: "Fantasminhas fantasmagóricos"
     },
-    e73: {
+    73: {
         img: "haunted_phantasm_jr",
         eng: "Haunted Phantasm Jr",
-        pol: "Małe nawiedzone widziadło",
-        sch: "紫色鬼魂"
+        schema: 86,
+        pol: "małe nawiedzone widziadło",
+        sch: "青色小鬼魂",
+        fre: "Fantôme hanteur Jr.",
+        bra: "Fantasminha assombrado"
     },
-    e74: {
+    74: {
         img: "stare_from_beyond",
         eng: "Stare From Beyond",
-        pol: "Spojrzenie z zaświatów",
-        sch: "坟墓之眼"
+        schema: 83,
+        pol: "spojrzenie z zaświatów",
+        sch: "坟墓之眼",
+        fre: "Regards de l'au-delà",
+        bra: "Olhar do além"
     },
-    e75: {
+    75: {
         img: "ooze",
         eng: "Ooze",
-        pol: "Szlam",
-        sch: "泥中有眼"
+        schema: 84,
+        pol: "szlam",
+        sch: "泥中有眼",
+        fre: "La Bourbe",
+        bra: "O Pantanoso"
     },
-    e76: {
+    76: {
         img: "death_at_dusk",
         eng: "Death at Dusk",
-        pol: "Śmierć o zmroku",
-        sch: "落日"
+        schema: 90,
+        pol: "śmierć o zmroku",
+        sch: "落日",
+        fre: "Mort crépusculaire",
+        bra: "Morte ao anoitecer"
     },
-    e77: {
+    77: {
         img: "frostbite",
         eng: "Frostbite",
-        pol: "Odmrożenie",
-        sch: "寒霜"
+        schema: 87,
+        pol: "odmrożenie",
+        sch: "寒霜",
+        fre: "Engelure",
+        bra: "Congelamento"
     },
-    e78: {
+    78: {
         img: "molten_mallard",
         eng: "Molten Mallard",
-        pol: "Stopiona kaczka krzyżówka",
-        sch: "鸭子焰火"
+        schema: 88,
+        pol: "stopiona kaczka krzyżówka",
+        sch: "鸭子焰火",
+        fre: "Canartifice",
+        bra: "Gratinado"
     },
-    e79: {
+    79: {
         img: "morning_glory",
         eng: "Morning Glory",
-        pol: "Poranna chwała",
-        sch: "晨曦"
+        schema: 89,
+        pol: "poranna chwała",
+        sch: "晨曦",
+        fre: "Splendeur matinale",
+        bra: "Glória da manhã"
     },
-    e80: {
+    80: {
         img: "abduction",
         eng: "Abduction",
-        pol: "Porwanie",
-        sch: "吸收光束"
+        schema: 91,
+        pol: "porwanie",
+        sch: "吸收光束",
+        fre: "Enlèvement",
+        bra: "Abdução"
     },
-    e81: {
+    81: {
         img: "atomic",
         eng: "Atomic",
-        pol: "Atomy",
-        sch: "原子核"
+        schema: 92,
+        pol: "atomy",
+        sch: "原子核",
+        fre: "Atomique",
+        bra: "Atômico"
     },
-    e82: {
+    82: {
         img: "subatomic",
         eng: "Subatomic",
-        pol: "Subatomy",
-        sch: "亚原子粒子"
+        schema: 93,
+        pol: "subatomy",
+        sch: "亚原子粒子",
+        fre: "Subatomique",
+        bra: "Subatômico"
     },
-    e83: {
+    83: {
         img: "electric_hat_protector",
         eng: "Electric Hat Protector",
-        pol: "Elektryczna bariera ochronna",
-        sch: "电弧保护罩"
+        schema: 94,
+        pol: "elektryczna bariera ochronna",
+        sch: "电弧保护罩",
+        fre: "Protection électrique",
+        bra: "Protetor elétrico de chapéus"
     },
-    e84: {
+    84: {
         img: "magnetic_hat_protector",
         eng: "Magnetic Hat Protector",
-        pol: "Magnetyczna bariera ochronna",
-        sch: "磁能保护罩"
+        schema: 95,
+        pol: "magnetyczna bariera ochronna",
+        sch: "磁能保护罩",
+        fre: "Protection magnétique",
+        bra: "Protetor magnético de chapéus"
     },
-    e85: {
+    85: {
         img: "voltaic_hat_protector",
         eng: "Voltaic Hat Protector",
-        pol: "Galwaniczna bariera ochronna",
-        sch: "高压保护罩"
+        schema: 96,
+        pol: "galwaniczna bariera ochronna",
+        sch: "高压保护罩",
+        fre: "Protection voltaïque",
+        bra: "Protetor voltaico de chapéus"
     },
-    e86: {
+    86: {
         img: "galactic_codex",
         eng: "Galactic Codex",
-        pol: "Kodeks galaktyczny",
-        sch: "星际密码"
+        schema: 97,
+        pol: "kodeks galaktyczny",
+        sch: "星际密码",
+        fre: "Codex galactique",
+        bra: "Códice galático"
     },
-    e87: {
+    87: {
         img: "ancient_codex",
         eng: "Ancient Codex",
-        pol: "Kodeks starożytnych",
-        sch: "远古密码"
+        schema: 98,
+        pol: "kodeks starożytnych",
+        sch: "远古密码",
+        fre: "Codex ancien",
+        bra: "Códice ancestral"
     },
-    e88: {
+    88: {
         img: "nebula",
         eng: "Nebula",
-        pol: "Mgławica",
-        sch: "星云"
+        schema: 99,
+        pol: "mgławica",
+        sch: "星云",
+        fre: "Nébuleuse",
+        bra: "Nébula"
     },
-    e89: {
+    89: {
         img: "death_by_disco",
         eng: "Death by Disco",
-        pol: "Śmierć w rytmie disco",
-        sch: "骷髅蹦迪"
+        schema: 100,
+        pol: "śmierć w rytmie disco",
+        sch: "骷髅蹦迪",
+        fre: "Disco de la mort",
+        bra: "Requebrando o esqueleto"
     },
-    e90: {
+    90: {
         img: "its_a_mystery_to_everyone",
         eng: "It's a mystery to everyone",
-        pol: "Zagadka dla wszystkich",
-        sch: "紫色幽灵"
+        schema: 101,
+        pol: "zagadka dla wszystkich",
+        sch: "紫色幽灵",
+        fre: "C'est un mystère pour tout le monde",
+        bra: "É um mistério"
     },
-    e91: {
+    91: {
         img: "its_a_puzzle_to_me",
         eng: "It's a puzzle to me",
-        pol: "Zagadka dla mnie",
-        sch: "绿色幽灵"
+        schema: 102,
+        pol: "zagadka dla mnie",
+        sch: "绿色幽灵",
+        fre: "C'est une énigme pour moi ",
+        bra: "É uma charada"
     },
-    e92: {
+    92: {
         img: "ether_trail",
         eng: "Ether Trail",
-        pol: "Ślad eteru",
-        sch: "幽冥之痕"
+        schema: 103,
+        pol: "ślad eteru",
+        sch: "幽冥之痕",
+        fre: "Trainée céleste",
+        bra: "Rastro etéreo"
     },
-    e93: {
+    93: {
         img: "nether_trail",
         eng: "Nether Trail",
-        pol: "Ślad piekieł",
-        sch: "诡异之痕"
+        schema: 104,
+        pol: "ślad piekieł",
+        sch: "诡异之痕",
+        fre: "Trainée infernale",
+        bra: "Rastro sombrio"
     },
-    e94: {
+    94: {
         img: "ancient_eldritch",
         eng: "Ancient Eldritch",
-        pol: "Prastare dziwactwo",
-        sch: "远古邪灵"
+        schema: 105,
+        pol: "prastare dziwactwo",
+        sch: "远古邪灵",
+        fre: "Feu Eldritch",
+        bra: "Assombração ancestral"
     },
-    e95: {
+    95: {
         img: "eldritch_flame",
         eng: "Eldritch Flame",
-        pol: "Nadprzyrodzony płomień",
-        sch: "邪灵之焰"
+        schema: 106,
+        pol: "nadprzyrodzony płomień",
+        sch: "邪灵之焰",
+        fre: "Flamme d'Eldritch",
+        bra: "Chama ancestral"
     },
-    e96: {
+    96: {
         img: "neutron_star",
         eng: "Neutron Star",
-        pol: "Gwiazda neutronowa",
-        sch: "中子星"
+        schema: 107,
+        pol: "gwiazda neutronowa",
+        sch: "中子星",
+        fre: "Étoile à neutrons",
+        bra: "Estrela de nêutron"
     },
-    e97: {
+    97: {
         img: "starstorm_slumber",
         eng: "Starstorm Slumber",
-        pol: "Gwieździsty sen",
-        sch: "蓝色流星雨"
+        schema: 110,
+        pol: "gwieździsty sen",
+        sch: "蓝色流星雨",
+        fre: "Sommeil étoilé",
+        bra: "Sonolência estelar"
     },
-    e98: {
+    98: {
         img: "starstorm_insomnia",
         eng: "Starstorm Insomnia",
-        pol: "Gwiaździsta bezsenność",
-        sch: "绿色流星雨"
+        schema: 109,
+        pol: "gwiaździsta bezsenność",
+        sch: "绿色流星雨",
+        fre: "Insomnie étoilée",
+        bra: "Insônia estelar"
     },
-    e99: {
+    99: {
         img: "tesla_coil",
         eng: "Tesla Coil",
-        pol: "Transformator tesli",
-        sch: "磁暴线圈"
+        schema: 108,
+        pol: "transformator Tesli",
+        sch: "磁暴线圈",
+        fre: "Bobine Tesla",
+        bra: "Bobina de Tesla"
     },
-    e100: {
+    100: {
         img: "brain_drain",
         eng: "Brain Drain",
-        pol: "Drenaż mózgu",
-        sch: "脑浆外泄"
+        schema: 111,
+        pol: "drenaż mózgu",
+        sch: "脑浆外泄",
+        fre: "Fuite des cerveaux",
+        bra: "Vazão cerebral"
     },
-    e101: {
+    101: {
         img: "open_mind",
         eng: "Open Mind",
-        pol: "Otwarty umysł",
-        sch: "脑洞大开"
+        schema: 112,
+        pol: "otwarty umysł",
+        sch: "脑洞大开",
+        fre: "Esprit ouvert",
+        bra: "Mente aberta"
     },
-    e102: {
+    102: {
         img: "head_of_steam",
         eng: "Head of Steam",
-        pol: "Parująca głowa",
-        sch: "脑浆迸裂"
+        schema: 113,
+        pol: "parująca głowa",
+        sch: "脑浆迸裂",
+        fre: "À toute vapeur",
+        bra: "Cabeça fervente"
     },
-    e103: {
+    103: {
         img: "galactic_gateway",
         eng: "Galactic Gateway",
-        pol: "Galaktyczne przejście",
-        sch: "星界之门"
+        schema: 114,
+        pol: "galaktyczne przejście",
+        sch: "星界之门",
+        fre: "Portail intergalactique",
+        bra: "Noite nebulosa"
     },
-    e104: {
+    104: {
         img: "the_eldritch_opening",
-        eng: "The Eldritch Opening",
-        pol: "Nadprzyrodzone przejście",
-        sch: "神秘之门"
+        eng: "Eldritch Opening",
+        schema: 115,
+        pol: "nadprzyrodzone przejście",
+        sch: "神秘之门",
+        fre: "Passage funeste",
+        bra: "Limiar sobrenatural"
     },
-    e105: {
+    105: {
         img: "the_dark_doorway",
-        eng: "The Dark Doorway",
-        pol: "Mroczne przejście",
-        sch: "黑暗之门"
+        eng: "Dark Doorway",
+        schema: 116,
+        pol: "mroczne przejście",
+        sch: "黑暗之门",
+        fre: "Voie lugubre",
+        bra: "Portão da penumbra"
     },
-    e106: {
+    106: {
         img: "ring_of_fire",
         eng: "Ring of Fire",
-        pol: "Pierścień ognia",
-        sch: "烈焰之环"
+        schema: 117,
+        pol: "pierścień ognia",
+        sch: "烈焰之环",
+        fre: "Anneau de feu",
+        bra: "Círculo de fogo"
     },
-    e107: {
+    107: {
         img: "vicious_circle",
         eng: "Vicious Circle",
-        pol: "Błędne koło",
-        sch: "堕落邪环"
+        schema: 118,
+        pol: "błędne koło",
+        sch: "堕落邪环",
+        fre: "Cercle vicieux",
+        bra: "Círculo vicioso"
     },
-    e108: {
+    108: {
         img: "white_lightning",
         eng: "White Lightning",
-        pol: "Biała błyskawica",
-        sch: "白光之环"
+        schema: 119,
+        pol: "biała błyskawica",
+        sch: "白光之环",
+        fre: "Éclair étincelant",
+        bra: "Relâmpago reluzente"
     },
-    e109: {
+    109: {
         img: "omniscient_orb",
         eng: "Omniscient Orb",
-        pol: "Kryształowa kula",
-        sch: "全知之球"
+        schema: 120,
+        pol: "kryształowa kula",
+        sch: "全知之球",
+        fre: "Orbe de l'omniscience",
+        bra: "Orbe onisciente"
     },
-    e110: {
+    110: {
         img: "clairvoyance",
         eng: "Clairvoyance",
-        pol: "Jasnowidzenie",
-        sch: "全知之眼"
+        schema: 121,
+        pol: "jasnowidzenie",
+        sch: "全知之眼",
+        fre: "Clairvoyance",
+        bra: "Clarividência"
     },
-    e111: {
+    111: {
         img: "fifth_dimension",
         eng: "Fifth Dimension",
-        pol: "Piąty wymiar",
-        sch: "Fifth Dimension",
+        schema: 122,
+        pol: "piąty wymiar",
+        fre: "Cinquième dimension",
+        sch: "第五维度",
+        bra: "Quinta dimensão"
     },
-    e112: {
+    112: {
         img: "vicious_vortex",
         eng: "Vicious Vortex",
-        pol: "Występny wir",
-        sch: "Vicious Vortex",
+        schema: 123,
+        pol: "występny wir",
+        fre: "Vortex vicieux",
+        sch: "邪恶漩涡",
+        bra: "Turbilhão turbulento"
     },
-    e113: {
+    113: {
         img: "menacing_miasma",
         eng: "Menacing Miasma",
-        pol: "Makabryczny miazmat",
-        sch: "Menacing Miasma",
+        schema: 124,
+        pol: "makabryczny miazmat",
+        fre: "Miasme menaçant",
+        sch: "恶毒瘴气",
+        bra: "Miasma medonho"
     },
-    e114: {
+    114: {
         img: "abyssal_aura",
         eng: "Abyssal Aura",
-        pol: "Aura otchłani",
-        sch: "Abyssal Aura",
+        schema: 125,
+        pol: "aura otchłani",
+        fre: "Aura abyssale",
+        sch: "深渊光环",
+        bra: "Aura abissal"
     },
-    e115: {
+    115: {
         img: "wicked_wood",
         eng: "Wicked Wood",
-        pol: "Nikczemny las",
-        sch: "Wicked Wood",
+        schema: 126,
+        pol: "nikczemny las",
+        fre: "Forêt funeste",
+        sch: "暗影之林",
+        bra: "Madeira maligna"
     },
-    e116: {
+    116: {
         img: "ghastly_grove",
         eng: "Ghastly Grove",
-        pol: "Upiorny gaj",
-        sch: "Ghastly Grove",
+        schema: 127,
+        pol: "upiorny gaj",
+        fre: "Bosquet hanté",
+        sch: "恐怖之林",
+        bra: "Floresta fantasmagórica"
     },
-    e117: {
+    117: {
         img: "mystical_medley",
         eng: "Mystical Medley",
-        pol: "Mistyczna mieszanina",
-        sch: "Mystical Medley",
+        schema: 128,
+        pol: "mistyczna mieszanina",
+        fre: "Mélange mystique",
+        sch: "神秘之涌",
+        bra: "Misto místico"
     },
-    e118: {
+    118: {
         img: "ethereal_essence",
         eng: "Ethereal Essence",
-        pol: "Eteryczna esencja",
-        sch: "Ethereal Essence",
+        schema: 129,
+        pol: "eteryczna esencja",
+        fre: "Essence éthérée",
+        sch: "飘渺之华",
+        bra: "Essência etérea"
     },
-    e119: {
+    119: {
         img: "twisted_radiance",
         eng: "Twisted Radiance",
-        pol: "Pokrętne promieniowanie",
-        sch: "Twisted Radiance",
+        schema: 130,
+        pol: "pokrętne promieniowanie",
+        fre: "Rayonnement rocambolesque",
+        sch: "扭曲之辉",
+        bra: "Espiral do resplendor"
     },
-    e120: {
+    120: {
         img: "violet_vortex",
         eng: "Violet Vortex",
-        pol: "Wrzosowy wir",
-        sch: "Violet Vortex",
+        schema: 131,
+        pol: "wrzosowy wir",
+        fre: "Vortex violet",
+        sch: "紫色漩涡",
+        bra: "Vórtice violeta"
     },
-    e121: {
+    121: {
         img: "verdant_vortex",
         eng: "Verdant Vortex",
-        pol: "Zielenisty wir",
-        sch: "Verdant Vortex",
+        schema: 132,
+        pol: "zielenisty wir",
+        fre: "Vortex verdoyant",
+        sch: "翠绿漩涡",
+        bra: "Vórtice verdejante"
     },
-    e122: {
+    122: {
         img: "valiant_vortex",
         eng: "Valiant Vortex",
-        pol: "Wiśniowy wir",
-        sch: "Valiant Vortex",
+        schema: 133,
+        pol: "wiśniowy wir",
+        fre: "Vortex vaillant",
+        sch: "英勇漩涡",
+        bra: "Vórtice valoroso"
     },
-    e123: {
+    123: {
         img: "sparkling_lights",
         eng: "Sparkling Lights",
-        pol: "Migoczące światełka",
-        sch: "Sparkling Lights",
+        schema: 134,
+        pol: "migoczące światełka",
+        fre: "Lumières étincelantes",
+        sch: "浮游彩光",
+        bra: "Brilho cintilante"
     },
-    e124: {
+    124: {
         img: "frozen_icefall",
         eng: "Frozen Icefall",
-        pol: "Spadające sople",
-        sch: "Frozen Icefall",
+        schema: 135,
+        pol: "spadające sople",
+        fre: "Chute de neige",
+        sch: "冰瀑",
+        bra: "Cascata congelada"
     },
-    e125: {
+    125: {
         img: "fragmented_gluons",
         eng: "Fragmented Gluons",
-        pol: "Rozproszone gluony",
-        sch: "Fragmented Gluons",
+        schema: 136,
+        pol: "rozproszone gluony",
+        fre: "Gluons fragmentés",
+        sch: "胶子",
+        bra: "Glúons fragmentados"
     },
-    e126: {
+    126: {
         img: "fragmented_quarks",
         eng: "Fragmented Quarks",
-        pol: "Rozproszone kwarki",
-        sch: "Fragmented Quarks",
+        schema: 137,
+        pol: "rozproszone kwarki",
+        fre: "Quarks fragmentés",
+        sch: "夸克",
+        bra: "Quarks fragmentados"
     },
-    e127: {
+    127: {
         img: "fragmented_photons",
         eng: "Fragmented Photons",
-        pol: "Rozproszone fotony",
-        sch: "Fragmented Photons",
+        schema: 138,
+        pol: "rozproszone fotony",
+        fre: "Photons fragmentés",
+        sch: "光子",
+        bra: "Fótons fragmentados"
     },
-    e128: {
+    128: {
         img: "defragmenting_reality",
         eng: "Defragmenting Reality",
-        pol: "Defragmentacja rzeczywistości",
-        sch: "Defragmenting Reality",
+        schema: 139,
+        pol: "defragmentacja rzeczywistości",
+        fre: "Réalité défragmentée",
+        sch: "现实重构",
+        bra: "Desfragmentando a realidade"
     },
-    e129: {
+    129: {
         img: "fragmenting_reality",
         eng: "Fragmenting Reality",
-        pol: "Fragmentacja rzeczywistości",
-        sch: "Fragmenting Reality",
+        schema: 141,
+        pol: "fragmentacja rzeczywistości",
+        fre: "Réalité fragmentée",
+        sch: "现实解体",
+        bra: "Fragmentando a realidade"
     },
-    e130: {
+    130: {
         img: "refragmenting_reality",
         eng: "Refragmenting Reality",
-        pol: "Refragmentacja rzeczywistości",
-        sch: "Refragmenting Reality",
+        schema: 142,
+        pol: "refragmentacja rzeczywistości",
+        fre: "Réalité réfragmentée",
+        sch: "现实重组",
+        bra: "Realidade refragmentada"
     },
-    e131: {
-        img: "snowfallen",
+    131: {
+        img: "snowfalled",
         eng: "Snowfallen",
-        pol: "Spadający śnieg",
-        sch: "Snowfallen",
+        schema: 143,
+        pol: "spadający śnieg",
+        fre: "Neige tombée",
+        sch: "雪花飘落",
+        bra: "Nevasca"
     },
-    e132: {
+    132: {
         img: "snowblinded",
         eng: "Snowblinded",
-        pol: "Oślepiający śnieg",
-        sch: "Snowblinded",
+        schema: 144,
+        pol: "oślepiający śnieg",
+        fre: "Aveuglé par la neige",
+        sch: "茫茫大雪",
+        bra: "Cortina de neve"
     },
-    e133: {
+    133: {
         img: "pyroland_daydream",
         eng: "Pyroland Daydream",
-        pol: "Pyrolandowy sen na jawie",
-        sch: "Pyroland Daydream",
+        schema: 145,
+        pol: "pyrolandowy sen na jawie",
+        fre: "Rêve de Pyroland",
+        sch: "幻境迷梦",
+        bra: "Sonhos da Pyrolândia"
     },
-    e134: {
+    134: {
         img: "verdatica",
         eng: "Verdatica",
-        pol: "Werdatyka",
-        sch: "Verdatica",
+        schema: 147,
+        pol: "werdatyka",
+        fre: "Verdatica",
+        sch: "绿色流光",
+        bra: "Verdático"
     },
-    e135: {
+    135: {
         img: "aromatica",
         eng: "Aromatica",
-        pol: "Aromatyka",
-        sch: "Aromatica",
+        schema: 148,
+        pol: "aromatyka",
+        fre: "Aromatica",
+        sch: "橙色流光",
+        bra: "Aromático"
     },
-    e136: {
+    136: {
         img: "chromatica",
         eng: "Chromatica",
-        pol: "Chromatyka",
-        sch: "Chromatica",
+        schema: 149,
+        pol: "chromatyka",
+        fre: "Chromatica",
+        sch: "紫色流光",
+        bra: "Cromático"
     },
-    e137: {
+    137: {
         img: "prismatica",
         eng: "Prismatica",
-        pol: "Pryzmatyka",
-        sch: "Prismatica",
+        schema: 150,
+        pol: "pryzmatyka",
+        fre: "Prismatica",
+        sch: "蓝色流光",
+        bra: "Prismático"
     },
-    e138: {
+    138: {
         img: "bee_swarm",
         eng: "Bee Swarm",
-        pol: "Pszczeli rój",
-        sch: "Bee Swarm",
+        schema: 151,
+        pol: "pszczeli rój",
+        fre: "Essaim d'abeilles",
+        sch: "愤怒蜂群",
+        bra: "Enxame de abelhas"
     },
-    e139: {
+    139: {
         img: "frisky_fireflies",
         eng: "Frisky Fireflies",
-        pol: "Świetliste świetliki",
-        sch: "Frisky Fireflies",
+        schema: 152,
+        pol: "świetliste świetliki",
+        fre: "Lucioles lumineuses",
+        sch: "欢跃萤火",
+        bra: "Pirilampos pimpões"
     },
-    e140: {
+    140: {
         img: "smoldering_spirits",
         eng: "Smoldering Spirits",
-        pol: "Zapalone zjawy",
-        sch: "Smoldering Spirits",
+        schema: 153,
+        pol: "zapalone zjawy",
+        fre: "Esprits espiègles",
+        sch: "阴郁之灵",
+        bra: "Espíritos espirituosos"
     },
-    e141: {
+    141: {
         img: "wandering_wisps",
         eng: "Wandering Wisps",
-        pol: "Wędrujące ogniki",
-        sch: "Wandering Wisps",
+        schema: 154,
+        pol: "wędrujące ogniki",
+        fre: "Fées fêtardes",
+        sch: "漫游萤火",
+        bra: "Fogo-fátuo"
     },
-    e142: {
+    142: {
         img: "kaleidoscope",
         eng: "Kaleidoscope",
-        pol: "Kalejdoskop",
-        sch: "Kaleidoscope",
+        schema: 155,
+        pol: "kalejdoskop",
+        fre: "Kaléidoscope",
+        sch: "万花筒",
+        bra: "Caleidoscópio"
     },
-    e143: {
+    143: {
         img: "green_giggler",
         eng: "Green Giggler",
-        pol: "Green Giggler",
-        sch: "Green Giggler",
+        schema: 156,
+        pol: "zielony zgrywus",
+        fre: "Vert de peur",
+        sch: "憨笑绿瓜",
+        bra: "Verde de alegria"
     },
-    e144: {
+    144: {
         img: "laugh_o_lantern",
         eng: "Laugh-O-Lantern",
-        pol: "Laugh-O-Lantern",
-        sch: "Laugh-O-Lantern",
+        schema: 157,
+        pol: "śmiechobuzie",
+        fre: "Rire citrouille",
+        sch: "狂笑之瓜",
+        bra: "Abóboras animadas"
     },
-    e145: {
+    145: {
         img: "plum_prankster",
         eng: "Plum Prankster",
-        pol: "Plum Prankster",
-        sch: "Plum Prankster",
+        schema: 158,
+        pol: "śliwkowy śmieszek",
+        fre: "Raillerie violente",
+        sch: "嘲笑紫瓜",
+        bra: "Roxo de tanto rir"
     },
-    e146: {
+    146: {
         img: "pyroland_nightmare",
         eng: "Pyroland Nightmare",
-        pol: "Pyroland Nightmare",
-        sch: "Pyroland Nightmare",
+        schema: 159,
+        pol: "koszmar z Pyrolandu",
+        fre: "Cauchemar de Pyroland",
+        sch: "幻境梦魇",
+        bra: "Pesadelos da Pyrolândia"
     },
-    e147: {
+    147: {
         img: "gravelly_ghoul",
         eng: "Gravelly Ghoul",
-        pol: "Gravelly Ghoul",
-        sch: "Gravelly Ghoul",
+        schema: 160,
+        pol: "żwirowy ghul",
+        fre: "Goule pétrifiée",
+        sch: "庄严石像鬼",
+        bra: "Criatura de cascalho"
     },
-    e148: {
+    148: {
         img: "vexed_volcanics",
         eng: "Vexed Volcanics",
-        pol: "Vexed Volcanics",
-        sch: "Vexed Volcanics",
+        schema: 161,
+        pol: "wkurzający wulkanit",
+        fre: "Goule volcanique",
+        sch: "熔岩石像鬼",
+        bra: "Vulto vulcânico"
     },
-    e149: {
+    149: {
         img: "gourdian_angel",
         eng: "Gourdian Angel",
-        pol: "Gourdian Angel",
-        sch: "Gourdian Angel",
+        schema: 162,
+        pol: "dynioł stróż",
+        fre: "Citrouille flottante",
+        sch: "守护之瓜",
+        bra: "Abóbora angelical"
     },
-    e150: {
+    150: {
         img: "pumpkin_party",
         eng: "Pumpkin Party",
-        pol: "Pumpkin Party",
-        sch: "Pumpkin Party",
-    },
+        schema: 163,
+        pol: "dyniowa domówka",
+        fre: "Fête de la citrouille",
+        sch: "南瓜开会",
+        bra: "Festa das abóboras"
+    }
 }

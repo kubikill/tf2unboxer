@@ -1,0 +1,29 @@
+{
+    "dir": "ltr",
+    "lang": "English",
+    "name": "Unboxer.tf BETA",
+    "scope": "/",
+    "display": "standalone",
+    "start_url": "https://beta.unboxer.tf/",
+    "short_name": "Unboxer.tf BETA",
+    "theme_color": "#383530",
+    "description": "A Team Fortress 2 crate simulator.",
+    "orientation": "any",
+    "background_color": "#383530",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "./android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "./android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
