@@ -1,0 +1,5 @@
+ [[redirects]]
+  from = "https://tf2unboxer.tk"
+  to = "https://unboxer.tf"
+  status = 301
+  force = true
