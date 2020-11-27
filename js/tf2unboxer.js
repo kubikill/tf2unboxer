@@ -1231,7 +1231,11 @@ const dataObj = {
 
 function getString(type, id) {
     if (dataObj[type][id][language] == undefined) { // If the string does not exist in current language, return it in English instead
-        return dataObj[type][id].eng;
+        if (dataObj[type][id].eng != undefined) {
+            return dataObj[type][id].eng;
+        } else {
+            return "Invalid name! Please report this";
+        }
     } else {
         return dataObj[type][id][language];
     }
