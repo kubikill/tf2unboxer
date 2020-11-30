@@ -1804,7 +1804,7 @@ function unbox() { // This function handles the unboxing itself: which item is u
                 case 1: // Pick a random unusual from the general unusual pool
                     unusualArray = unusualPool;
                     if (currentCrate === 96 && save.options.eotlGlitch) {
-                        unusualArray.push(cA[96].loot[18], cA[96].loot[19], cA[96].loot[20]);
+                        unusualArray.push(916, 917, 918);
                     };
                     itemId = unusualArray[Math.floor(Math.random() * unusualArray.length)];
                     crateItem = {
