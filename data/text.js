@@ -1369,10 +1369,12 @@ let dataUi = {
         eng: "Enable Unusual Sniper vs. Spy update hats:",
         pol: "Włącz Nietypowe Okazy z aktualizacji Snajper kontra Szpieg:",
         bra: "Ativar efeitos incomuns em chapéus da atualização Sniper vs. Spy:",
+        sch: "启用“狙击手 vs. 间谍”更新的稀有帽子"
     },
     201: {
         eng: "Allows the hats added in the Sniper vs. Spy update to be unboxed as Unusuals from crates added before the TF2 January 25th 2013 update (crates #1 - #55).",
         pol: "Ta opcja pozwala na otrzymanie czapek z aktualizacji Snajper kontra Szpieg w jakości Nietypowy Okaz z skrzynek dodanych przed aktualizacją TF2 z 25 stycznia 2013 (skrzynki #1 - #55).",
         bra: "Isso permite que os chapéus adicionados na atualização do Sniper vs. Spy possam ser desencaixotados em qualidade Incomum por caixas adicionadas antes da atualização de TF2 em 25 de Janeiro de 2013 (caixas #1 - #55).",
+        sch: "此选项允许从 2013 年 1 月 25 日 TF2 更新之前的箱子（编号为 #1-#55）中开出稀有品质的、在“狙击手 vs. 间谍”更新中添加的帽子。"
     }
 }
