@@ -160,8 +160,10 @@ nav .nosoundbtn {
   border-right: 0.25vh solid #776B5F;
 }
 
-#optionsscreen section > div:last-of-type, #optionsscreen section > div:nth-last-of-type(2) {
+#optionsscreen section > div:last-of-type {
   border-bottom: none;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
 }
 
 #optionsscreen section > div > .optiontitle {

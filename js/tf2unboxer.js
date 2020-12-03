@@ -308,6 +308,7 @@ let save = {
         stopAtItem: ["unusual", "tauntunusualifier", "bonusitem", "gradeelite"],
         halloweenMode: "none",
         eotlGlitch: false,
+        sniperVsSpyUnusuals: false,
         muteSound: false
     }
 }
@@ -1802,10 +1803,13 @@ function unbox() { // This function handles the unboxing itself: which item is u
             let unusualArray = [];
             switch (crate.unusual) {
                 case 1: // Pick a random unusual from the general unusual pool
-                    unusualArray = unusualPool;
+                    unusualArray = unusualPool.slice();
                     if (currentCrate === 96 && save.options.eotlGlitch) {
                         unusualArray.push(916, 917, 918);
                     };
+                    if (currentCrateObj.series >= 1 && currentCrateObj.series <= 55 && save.options.sniperVsSpyUnusuals) {
+                        unusualArray.push(1354, 1359, 1370, 62, 158, 194, 124, 70, 178);
+                    }
                     itemId = unusualArray[Math.floor(Math.random() * unusualArray.length)];
                     crateItem = {
                         id: itemId,

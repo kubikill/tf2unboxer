@@ -186,14 +186,14 @@ let dataUi = {
         pol: "Wył.",
         sch: "关",
         bra: "Desativado",
-        fre: "Activé"
+        fre: "Désactivé"
     },
     28: {
         eng: "On",
         pol: "Wł.",
         sch: "开",
         bra: "Ativado",
-        fre: "Désactivé"
+        fre: "Activé"
     },
     29: {
         eng: "Reset",
@@ -382,7 +382,7 @@ let dataUi = {
         pol: "Język:",
         sch: "语言：",
         bra: "Idioma:",
-        fre: "Langue"
+        fre: "Langue:"
     },
     56: {
         eng: "Fast unboxing:",
@@ -401,7 +401,7 @@ let dataUi = {
     58: {
         eng: "Amoled theme:",
         pol: "Tryb Amoled:",
-        sch: "Amoled 主题",
+        sch: "Amoled 主题：",
         bra: "Tema escuro:",
         fre: "Thème Amoled:"
     },
@@ -1208,7 +1208,7 @@ let dataUi = {
         pol: "Włącz zglitchowane Nietypowe Okazy EOTL:",
         sch: "启用 EOTL 异常稀有物品：",
         bra: "Ativar itens Incomuns falhados do EOTL:",
-        fre: "Activer les Inhabituels buggés EOTL"
+        fre: "Activer les Inhabituels buggés EOTL:"
     },
     174: {
         eng: 'Allows the Hunter Heavy, Coldfront Curbstompers and Sleeveless in Siberia to be unboxed in Unusual quality from the End of the Line Community Crate.',
@@ -1364,5 +1364,15 @@ let dataUi = {
         sch: "在 Marketplace.tf 查看",
         bra: "Ver em Marketplace.tf",
         fre: "Voir sur Marketplace.tf"
+    },
+    200: {
+        eng: "Enable Unusual Sniper vs. Spy update hats:",
+        pol: "Włącz Nietypowe Okazy z aktualizacji Snajper kontra Szpieg:",
+        bra: "Ativar efeitos incomuns em chapéus da atualização Sniper vs. Spy:",
+    },
+    201: {
+        eng: "Allows the hats added in the Sniper vs. Spy update to be unboxed as Unusuals from crates added before the TF2 January 25th 2013 update (crates #1 - #55).",
+        pol: "Ta opcja pozwala na otrzymanie czapek z aktualizacji Snajper kontra Szpieg w jakości Nietypowy Okaz z skrzynek dodanych przed aktualizacją TF2 z 25 stycznia 2013 (skrzynki #1 - #55).",
+        bra: "Isso permite que os chapéus adicionados na atualização do Sniper vs. Spy possam ser desencaixotados em qualidade Incomum por caixas adicionadas antes da atualização de TF2 em 25 de Janeiro de 2013 (caixas #1 - #55).",
     }
 }

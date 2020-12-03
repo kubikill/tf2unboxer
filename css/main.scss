@@ -148,9 +148,9 @@ nav {
             border-right: 0.25vh solid #776B5F;
         }
 
-        &:last-of-type,
-        &:nth-last-of-type(2) {
+        &:last-of-type {
             border-bottom: none;
+            flex-basis: 100%;
         }
 
         > {
