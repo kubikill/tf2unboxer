@@ -694,5 +694,13 @@ let dataCrates = {
         fre: "Caisse de peintures Scream Fortress XII",
         sch: "尖叫要塞 XII 战绘箱",
         bra: "Caixa de Tintas de Guerra do Scream Fortress XII"
+    },
+    88: {
+        img: "winter_2020_cosmetic_case",
+        eng: "Winter 2020 Cosmetic Case"
+    },
+    89: {
+        img: "winter_2020_war_paint_case",
+        eng: "Winter 2020 War Paint Case"
     }
 }

@@ -126,10 +126,11 @@ const eotlFX = [76, 77, 78, 79];
 const invasionFX = allGensFX.concat([80, 81, 82, 83, 84, 85, 86, 87, 88]);
 const xmas19FX = [123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133];
 const summer20FX = allGensFX.concat([134, 135, 136, 137, 138, 139, 140, 141, 142]);
+const xmas20FX = [151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162];
 // Global bonus item list
 const globalBonusItemArray = [24, 7, 74, 762, 763, "paint", "strangepart", 15, 767, 768, 769];
 // List of taunts used for unusualifiers
-const unusualifierArray = [75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 149, 920, 973, 974, 1033, 1611, 1612, 1613, 1614, 1615, 1616, 1617, 1618, 1619, 1620, 1621, 1622, 1623, 1624, 1625, 1626, 1627, 1628, 1629, 1630, 1631, 1632, 1633, 1634, 1635, 1636, 1637, 1638, 1639, 1640, 1641, 1642, 1643, 1644, 1645, 1646];
+const unusualifierArray = [75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 149, 920, 973, 974, 1033, 1611, 1612, 1613, 1614, 1615, 1616, 1617, 1618, 1619, 1620, 1621, 1622, 1623, 1624, 1625, 1626, 1627, 1628, 1629, 1630, 1631, 1632, 1633, 1634, 1635, 1636, 1637, 1638, 1639, 1640, 1641, 1642, 1643, 1644, 1645, 1646, 1699, 1700, 1701, 1702, 1703, 1704, 1705, 1706];
 // List of paints used for bonus items
 const paintBonusArray = [8, 9, 16, 17, 37, 66, 105, 106, 107, 108, 109, 110, 112, 113, 114, 119, 125, 126, 127, 248, 249, 771, 820, 821, 822, 823, 824, 825, 826];
 // List of strange parts used for bonus items
@@ -159,12 +160,14 @@ let halloweenModeCrateList = {};
 halloweenModeCrateList.hw11 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
 halloweenModeCrateList.hw12 = halloweenModeCrateList.hw11.concat([32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48]);
 halloweenModeCrateList.hw13 = halloweenModeCrateList.hw12.concat([49, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71]);
-halloweenModeCrateList.hw14 = halloweenModeCrateList.hw13.concat([73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86]);
-halloweenModeCrateList.hw16 = halloweenModeCrateList.hw14.concat([96, 97, 98, 99, 100, 101, 104, 105, 106, 107, 110, 111, 112, 113, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138]);
-halloweenModeCrateList.hw17 = [104, 105, 106, 107, 110, 111, 112, 113, 114, 115, 116, 117];
-halloweenModeCrateList.hw18 = halloweenModeCrateList.hw17.concat([122, 124]);
-halloweenModeCrateList.hw19 = halloweenModeCrateList.hw18.concat([125, 127, 128]);
-halloweenModeCrateList.hw20 = halloweenModeCrateList.hw19.concat([139, 140, 142]);
+halloweenModeCrateList.hw14 = halloweenModeCrateList.hw13.concat([73, 74, 75, 76, 77, 78, 79, 80, 83, 84, 85, 86]);
+halloweenModeCrateList.hw16 = halloweenModeCrateList.hw14.concat([96, 97, 98, 99, 100, 101, 104, 105, 106, 107, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122]);
+halloweenModeCrateList.hw17 = [104, 105, 106, 107, 110, 111, 123, 124, 125, 126, 127];
+halloweenModeCrateList.hw18 = halloweenModeCrateList.hw17.concat([132, 134]);
+halloweenModeCrateList.hw19 = halloweenModeCrateList.hw18.concat([135, 137, 138]);
+halloweenModeCrateList.xmas19 = halloweenModeCrateList.hw19.concat([139]);
+halloweenModeCrateList.hw20 = halloweenModeCrateList.xmas19.concat([140, 142]);
+halloweenModeCrateList.xmas20 = halloweenModeCrateList.hw20.concat([143]);
 // Crate array
 let cA = [
     new Crate({ id: 1, series: 1, effects: gen1FX, unusual: 1, autoChance: 2}), /*  [0] */
@@ -312,9 +315,11 @@ let cA = [
     new Crate({ id: 85, series: 127, effects: summer20FX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
     new Crate({ id: 86, series: 128, effects: hw20FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [966, 967, 968, 969, 970, 971], chance: 5000}}),
     new Crate({ id: 87, series: 129, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
+    new Crate({ id: 88, series: 130, effects: xmas20FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [972], chance: 4000}}), /* [145] */
+    new Crate({ id: 89, series: 131, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true})
 ];
 // This is the order the crates will show up in the menu
-let crateOrder = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 139, 140, 141, 142, 143, 144];
+let crateOrder = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 139, 140, 141, 142, 143, 144, 145, 146];
 // Define loot for each crate
 cA[0].loot = [
     new Item({ id: 1, quality: 1 }),
@@ -2752,4 +2757,41 @@ cA[144].loot = [ // hw 2020 war paints
     new Item({ id: 1608, quality: 6, grade: 5 }),
     new Item({ id: 1609, quality: 6, grade: 5 }),
     new Item({ id: 1610, quality: 6, grade: 6 }),
+];
+cA[145].loot = [ // xmas 2020 cosmetics
+    new Item({ id: 1666, quality: 10, grade: 3 }),
+    new Item({ id: 1667, quality: 4, grade: 3 }),
+    new Item({ id: 1668, quality: 4, grade: 3 }),
+    new Item({ id: 1669, quality: 10, grade: 3 }),
+    new Item({ id: 1670, quality: 10, grade: 3 }),
+    new Item({ id: 1671, quality: 4, grade: 3 }),
+    new Item({ id: 1672, quality: 4, grade: 3 }),
+    new Item({ id: 1673, quality: 10, grade: 3 }),
+    new Item({ id: 1674, quality: 4, grade: 3 }),
+    new Item({ id: 1675, quality: 10, grade: 3 }),
+    new Item({ id: 1676, quality: 10, grade: 4 }),
+    new Item({ id: 1677, quality: 10, grade: 4 }),
+    new Item({ id: 1678, quality: 4, grade: 4 }),
+    new Item({ id: 1679, quality: 10, grade: 4 }),
+    new Item({ id: 1680, quality: 10, grade: 4 }),
+    new Item({ id: 1681, quality: 4, grade: 4 }),
+    new Item({ id: 1682, quality: 10, grade: 5 }),
+    new Item({ id: 1683, quality: 10, grade: 5 }),
+    new Item({ id: 1684, quality: 10, grade: 5 }),
+    new Item({ id: 1685, quality: 10, grade: 6 })
+];
+cA[146].loot = [ // xmas 2020 war paints
+    new Item({ id: 1686, quality: 6, grade: 3 }),
+    new Item({ id: 1687, quality: 6, grade: 3 }),
+    new Item({ id: 1688, quality: 6, grade: 3 }),
+    new Item({ id: 1689, quality: 6, grade: 3 }),
+    new Item({ id: 1690, quality: 6, grade: 3 }),
+    new Item({ id: 1691, quality: 6, grade: 3 }),
+    new Item({ id: 1692, quality: 6, grade: 4 }),
+    new Item({ id: 1693, quality: 6, grade: 4 }),
+    new Item({ id: 1694, quality: 6, grade: 4 }),
+    new Item({ id: 1695, quality: 6, grade: 4 }),
+    new Item({ id: 1696, quality: 6, grade: 5 }),
+    new Item({ id: 1697, quality: 6, grade: 5 }),
+    new Item({ id: 1698, quality: 6, grade: 6 })
 ];

@@ -139,7 +139,7 @@
     <script src="./data/cratenames.min.js" defer></script>
     <script src="./data/unusualeffects.min.js" defer></script>
     <script src="./data/crate.min.js" defer></script>
-    <script src="./js/tf2unboxer.min.js" defer></script>
+    <script src="./js/tf2unboxer.js" defer></script>
 </head>
 
 <body>
@@ -798,7 +798,7 @@
                 <p data-string="150">This will prevent you from accidentally unboxing an another crate after getting certain items.</p>
             </div>
             <div>
-                <p class="optiontitle" data-string="175">Halloween mode:</p>
+                <p class="optiontitle" data-string="175">Event mode:</p>
                 <div class="btngroup">
                     <select id="halloweendropdown" data-option="halloweenMode">
                         <option value="none" data-string="177" selected>Disabled</option>
@@ -810,10 +810,12 @@
                         <option value="hw17" data-string="183">Scream Fortress IX (2017)</option>
                         <option value="hw18" data-string="184">Scream Fortress X‬ (2018)</option>
                         <option value="hw19" data-string="185">Scream Fortress XI (2019)</option>
+                        <option value="xmas19" data-string="203">Smissmas 2019</option>
                         <option value="hw20" data-string="186">Scream Fortress XII (2020)‬</option>
+                        <option value="xmas20" data-string="202">Smissmas 2020</option>
                     </select>
                 </div>
-                <p data-string="176">This option lets you replace Unusual effects in certain crates with effects from the selected Halloween event.<br>
+                <p data-string="176">This option lets you replace Unusual effects in certain crates with effects from the selected event.<br>
                     Events from 2011 to 2016 affect only crates and cases released before the event.<br>Events from 2017 onwards affect only cases released before the event.
                 </p>
             </div>
@@ -861,7 +863,7 @@
         </nav>
         <div id="aboutcontainer">
             <div id="aboutcredits" class="visible">
-                <h1 id="creditstitle">Unboxer.tf v2.01</h1>
+                <h1 id="creditstitle">Unboxer.tf v2.02</h1>
                 <p data-string="64">Made by <a href="https://steamcommunity.com/id/kubikill" target="_blank" rel="noopener">kubikill</a>
                 </p>
                 <p data-string="65">Special thanks to <a href="https://steamcommunity.com/profiles/76561198117761965" target="_blank" rel="noopener">Gorno</a>
@@ -894,9 +896,17 @@
                 </ol>
             </div>
             <div id="aboutchangelog">
+                <h1>v2.02 - December 4th, 2020</h1>
+                <section>
+                    <p>- Added the Winter 2020 Cosmetic Case and the Winter 2020 War Paint Case</p>
+                    <p>- Renamed "Halloween mode" to "Event mode"</p>
+                    <p>- Added Smissmas 2019 and 2020 to event mode</p>
+                    <p>- Added unusualifiers for taunts added in the Smissmas 2020 update</p>
+                    <p>- Fixed Halloween events affecting the wrong crates/cases</p>
+                </section>
                 <h1>v2.01 - December 3rd, 2020</h1>
                 <section>
-                    <p>- Hats from the Sniper vs. Spy update are no longer unboxable in Unusual quality by default
+                    <p>- Hats from the Sniper vs. Spy update are no longer unboxable in Unusual quality by default</p>
                     <p>- Added option to reenable Unusual Sniper vs. Spy update hats in crates added before the TF2 January 25th 2013 update</p>
                     <p>- Fixed the EOTL glitched Unusuals option not working properly</p>
                 </section>

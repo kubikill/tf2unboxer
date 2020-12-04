@@ -803,7 +803,7 @@ let dataItems = {
         bra: "Red Rock Roscoe Pistola",
         fre: "Pistolet Roscoe rouge rouille",
         schema: 15013,
-        schema2: 0
+        "schema2": 0
     },
     91: {
         img: "sand_cannon",
@@ -813,7 +813,7 @@ let dataItems = {
         bra: "Canhão de Areia Lança-Foguetes",
         fre: "Lance-Roquettes Canon sablé",
         schema: 15014,
-        schema2: 1
+        "schema2": 1
     },
     92: {
         img: "sudden_flurry",
@@ -823,7 +823,7 @@ let dataItems = {
         bra: "Enxurrada Inesperada Lança-stickybombs",
         fre: "Lanceur de Bombes collantes Rafale surprise",
         schema: 15009,
-        schema2: 8
+        "schema2": 8
     },
     93: {
         img: "psychedelic_slugger",
@@ -833,7 +833,7 @@ let dataItems = {
         bra: "Batedor Psicodélico Revólver",
         fre: "Revolver psychédélique",
         schema: 15011,
-        schema2: 3
+        "schema2": 3
     },
     94: {
         img: "purple_range",
@@ -843,7 +843,7 @@ let dataItems = {
         bra: "Pontaria Púrpura Rifle de Sniper",
         fre: "Fusil de chasse violet",
         schema: 15007,
-        schema2: 7
+        "schema2": 7
     },
     95: {
         img: "night_terror",
@@ -853,7 +853,7 @@ let dataItems = {
         bra: "Terror da Meia-noite Espingarda",
         fre: "Fusil à dispersion Terreur nocturne",
         schema: 15002,
-        schema2: 11
+        "schema2": 11
     },
     96: {
         img: "carpet_bomber",
@@ -863,7 +863,7 @@ let dataItems = {
         bra: "Arrasa Quarteirão Lança-stickybombs",
         fre: "Lanceur de Bombes collantes Bombardier tapissé",
         schema: 15012,
-        schema2: 4
+        "schema2": 4
     },
     97: {
         img: "woodland_warrior",
@@ -873,7 +873,7 @@ let dataItems = {
         bra: "Matador do Matagal Lança-foguetes",
         fre: "Lance-Roquettes Guerrier des bois",
         schema: 15006,
-        schema2: 6
+        "schema2": 6
     },
     98: {
         img: "wrapped_reviver",
@@ -883,7 +883,7 @@ let dataItems = {
         bra: "Revivedor Embrulhado Arma Médica",
         fre: "Medigun Ressuscitateur emballé",
         schema: 15010,
-        schema2: 2
+        "schema2": 2
     },
     99: {
         img: "forest_fire",
@@ -893,7 +893,7 @@ let dataItems = {
         bra: "Fogo na Floresta Lança-chamas",
         fre: "Lance-flammes Feu de forêt",
         schema: 15005,
-        schema2: 9
+        "schema2": 9
     },
     100: {
         img: "night_owl",
@@ -903,7 +903,7 @@ let dataItems = {
         bra: "Coruja da Noite Rifle de Sniper",
         fre: "Fusil de sniper Oiseau de nuit",
         schema: 15000,
-        schema2: 14
+        "schema2": 14
     },
     101: {
         img: "woodsy_widowmaker",
@@ -913,7 +913,7 @@ let dataItems = {
         bra: "Viuvadora Verdejante Submetralhadora",
         fre: "Mitraillette Endeuilleur boisé",
         schema: 15001,
-        schema2: 13
+        "schema2": 13
     },
     102: {
         img: "backwoods_boomstick",
@@ -923,7 +923,7 @@ let dataItems = {
         bra: "Sertão Escopeta",
         fre: "Fusil à pompe Fusil de derrière les fagots",
         schema: 15003,
-        schema2: 12
+        "schema2": 12
     },
     103: {
         img: "king_of_the_jungle",
@@ -933,7 +933,7 @@ let dataItems = {
         bra: "Rei da Selva Metralhadora Giratória",
         fre: "Minigun Roi de la jungle",
         schema: 15004,
-        schema2: 10
+        "schema2": 10
     },
     104: {
         img: "masked_mender",
@@ -943,7 +943,7 @@ let dataItems = {
         bra: "Medicamento Mascarado Arma Médica",
         fre: "Medigun Réparateur masqué",
         schema: 15008,
-        schema2: 5
+        "schema2": 5
     },
     105: {
         img: "pink_as_hell",
@@ -1178,7 +1178,7 @@ let dataItems = {
         fre: "Le Grand Chef",
         bra: "O Grande Cacique",
         schema: 309,
-        schema2: 5725
+        "schema2": 5725
     },
     131: {
         img: "officers_ushanka",
@@ -1394,7 +1394,7 @@ let dataItems = {
         sch: "紧急逃跑手套",
         fre: "Gants de Retraite Urgente",
         bra: "As Geradoras de Rapidez Urgente",
-        schema: 239
+        schema: 1184
     },
     155: {
         img: "minigun",
@@ -1602,7 +1602,7 @@ let dataItems = {
         fre: "Détective Privé",
         bra: "Detetive Particular",
         schema: 388,
-        schema2: 5724
+        "schema2": 5724
     },
     178: {
         img: "fancy_fedora",
@@ -2269,7 +2269,7 @@ let dataItems = {
         fre: "Le Faiseur de Veuves",
         bra: "A Viuvadora",
         schema: 527,
-        schema2: 5757
+        "schema2": 5757
     },
     252: {
         img: "mantreads",
@@ -6824,7 +6824,7 @@ let dataItems = {
         fre: "Le Pistolet de Poche du Beau Gosse",
         bra: "A Pistola Portátil do Peralta",
         schema: 773,
-        schema2: 5721
+        "schema2": 5721
     },
     758: {
         img: "phlogistinator",
@@ -6834,7 +6834,7 @@ let dataItems = {
         fre: "Le Phlogistinateur",
         bra: "O Flogistinador",
         schema: 594,
-        schema2: 5722
+        "schema2": 5722
     },
     759: {
         img: "cleaners_carbine",
@@ -6844,7 +6844,7 @@ let dataItems = {
         fre: "La Carabine du Nettoyeur",
         bra: "A Carabina do Carrasco",
         schema: 751,
-        schema2: 5723
+        "schema2": 5723
     },
     760: {
         img: "strange_cosmetic_part_kills",
@@ -7484,7 +7484,7 @@ let dataItems = {
         fre: "Classique",
         bra: "Clássico",
         schema: 1098,
-        schema2: 5754
+        "schema2": 5754
     },
     831: {
         img: "manmelter",
@@ -7494,7 +7494,7 @@ let dataItems = {
         fre: "Le Fissionneur",
         bra: "A Derretedora de Homens",
         schema: 595,
-        schema2: 5755
+        "schema2": 5755
     },
     832: {
         img: "crocodile_mun_dee",
@@ -8638,7 +8638,7 @@ let dataItems = {
         fre: "Le Broyeur Bovin 5000",
         bra: "O Avacalhador 5000",
         schema: 441,
-        schema2: 5783
+        "schema2": 5783
     },
     959: {
         img: "third_degree",
@@ -8648,7 +8648,7 @@ let dataItems = {
         fre: "Le Troisième Degré",
         bra: "O Terceiro Grau",
         schema: 593,
-        schema2: 5784
+        "schema2": 5784
     },
     960: {
         img: "winger",
@@ -8855,7 +8855,7 @@ let dataItems = {
         fre: "Le Bison Vertueux",
         bra: "O Bisão Justiceiro",
         schema: 442,
-        schema2: 5804
+        "schema2": 5804
     },
     983: {
         img: "turbine_torcher",
@@ -8865,7 +8865,7 @@ let dataItems = {
         bra: "Tocha Turbinada Lança-chamas",
         fre: "Lance-flammes Torcheur à turbine",
         schema: 15054,
-        schema2: 54
+        "schema2": 54
     },
     984: {
         img: "low_profile",
@@ -8875,7 +8875,7 @@ let dataItems = {
         bra: "Disparador Discreto Submetralhadora",
         fre: "Mitraillette Profil bas",
         schema: 15058,
-        schema2: 58
+        "schema2": 58
     },
     985: {
         img: "aqua_marine",
@@ -8885,7 +8885,7 @@ let dataItems = {
         bra: "Matador Marinho Lança-foguetes",
         fre: "Lance-Roquettes Aigue-marine",
         schema: 15057,
-        schema2: 57
+        "schema2": 57
     },
     986: {
         img: "brick_house",
@@ -8895,7 +8895,7 @@ let dataItems = {
         bra: "Casa Muito Metralhada Metralhadora Giratória",
         fre: "Minigun Maison en brique",
         schema: 15055,
-        schema2: 55
+        "schema2": 55
     },
     987: {
         img: "lightning_rod",
@@ -8905,7 +8905,7 @@ let dataItems = {
         bra: "Para-raios Escopeta",
         fre: "Fusil à pompe Paratonnerre",
         schema: 15047,
-        schema2: 47
+        "schema2": 47
     },
     988: {
         img: "sandstone_special",
@@ -8915,7 +8915,7 @@ let dataItems = {
         bra: "Arsenal de Arenito Pistola",
         fre: "Pistolet Spéciale grès",
         schema: 15056,
-        schema2: 56
+        "schema2": 56
     },
     989: {
         img: "black_dahlia",
@@ -8925,7 +8925,7 @@ let dataItems = {
         bra: "Dália Negra Pistola",
         fre: "Pistolet Dahlia noir",
         schema: 15046,
-        schema2: 46
+        "schema2": 46
     },
     990: {
         img: "dead_reckoner",
@@ -8935,7 +8935,7 @@ let dataItems = {
         bra: "Cadáver Calculista Revólver",
         fre: "Revolver Cible de la mort",
         schema: 15051,
-        schema2: 51
+        "schema2": 51
     },
     991: {
         img: "spark_of_life",
@@ -8945,7 +8945,7 @@ let dataItems = {
         bra: "Sinal de Vida Arma Médica",
         fre: "Medigun Étincelle de vie",
         schema: 15050,
-        schema2: 50
+        "schema2": 50
     },
     992: {
         img: "flash_fryer",
@@ -8955,7 +8955,7 @@ let dataItems = {
         bra: "Flama Fulminante Lança-chamas",
         fre: "Lance-flammes Friteuse éclair",
         schema: 15049,
-        schema2: 49
+        "schema2": 49
     },
     993: {
         img: "pink_elephant",
@@ -8965,7 +8965,7 @@ let dataItems = {
         bra: "Elefante Rosa Lança-stickybombs",
         fre: "Lanceur de Bombes collantes Éléphant rose",
         schema: 15048,
-        schema2: 48
+        "schema2": 48
     },
     994: {
         img: "current_event",
@@ -8975,7 +8975,7 @@ let dataItems = {
         bra: "Acontecimento Chocante Espingarda",
         fre: "Fusil à dispersion Événement actuel",
         schema: 15053,
-        schema2: 53
+        "schema2": 53
     },
     995: {
         img: "shell_shocker",
@@ -8985,7 +8985,7 @@ let dataItems = {
         bra: "Ligadão Lança-foguetes",
         fre: "Lance-Roquettes Horrible obus",
         schema: 15052,
-        schema2: 52
+        "schema2": 52
     },
     996: {
         img: "liquid_asset",
@@ -8995,7 +8995,7 @@ let dataItems = {
         bra: "Lucro Líquido Lança-stickybombs",
         fre: "Lanceur de Bombes collantes Liquidateurs d'actifs",
         schema: 15045,
-        schema2: 45
+        "schema2": 45
     },
     997: {
         img: "thunderbolt",
@@ -9005,7 +9005,7 @@ let dataItems = {
         bra: "Relâmpago Rifle de Sniper",
         fre: "Fusil de sniper Coup de foudre",
         schema: 15059,
-        schema2: 59
+        "schema2": 59
     },
     998: {
         img: "commissars_coat",
@@ -9519,7 +9519,7 @@ let dataItems = {
         fre: "Le fusil à pompe Flower Power",
         bra: "Escopeta | Campo Florido",
         schema: 15109,
-        schema2: 72
+        "schema2": 72
     },
     1055: {
         img: "flower_power_scattergun",
@@ -9529,7 +9529,7 @@ let dataItems = {
         fre: "Le fusil à dispersion Flower Power",
         bra: "Espingarda | Campo Florido",
         schema: 15107,
-        schema2: 72
+        "schema2": 72
     },
     1056: {
         img: "flower_power_revolver",
@@ -9539,7 +9539,7 @@ let dataItems = {
         fre: "Le revolver Flower Power",
         bra: "Revólver | Campo Florido",
         schema: 15103,
-        schema2: 72
+        "schema2": 72
     },
     1057: {
         img: "flower_power_medi_gun",
@@ -9549,7 +9549,7 @@ let dataItems = {
         fre: "Le medigun Flower Power",
         bra: "Arma Médica | Campo Florido",
         schema: 15097,
-        schema2: 72
+        "schema2": 72
     },
     1058: {
         img: "brain_candy_rocket_launcher",
@@ -9559,7 +9559,7 @@ let dataItems = {
         fre: "Le lance-roquettes sucette",
         bra: "Lança-foguetes | Doce Mental",
         schema: 15105,
-        schema2: 70
+        "schema2": 70
     },
     1059: {
         img: "brain_candy_pistol",
@@ -9569,7 +9569,7 @@ let dataItems = {
         fre: "Le pistolet sucette",
         bra: "Pistola | Doce Mental",
         schema: 15101,
-        schema2: 70
+        "schema2": 70
     },
     1060: {
         img: "brain_candy_minigun",
@@ -9579,7 +9579,7 @@ let dataItems = {
         fre: "Le minigun sucette",
         bra: "Metralhadora Giratória | Doce Mental",
         schema: 15098,
-        schema2: 70
+        "schema2": 70
     },
     1061: {
         img: "brain_candy_knife",
@@ -9589,7 +9589,7 @@ let dataItems = {
         fre: "Le couteau sucette",
         bra: "Faca | Doce Mental",
         schema: 15095,
-        schema2: 70
+        "schema2": 70
     },
     1062: {
         img: "shot_to_hell_pistol",
@@ -9599,7 +9599,7 @@ let dataItems = {
         fre: "Le pistolet infernal",
         bra: "Pistola | Balas Infernais",
         schema: 15102,
-        schema2: 74
+        "schema2": 74
     },
     1063: {
         img: "stabbed_to_hell_knife",
@@ -9609,7 +9609,7 @@ let dataItems = {
         fre: "Le couteau infernal",
         bra: "Faca | Facadas Infernais",
         schema: 15096,
-        schema2: 71
+        "schema2": 71
     },
     1064: {
         img: "blue_mew_smg",
@@ -9619,7 +9619,7 @@ let dataItems = {
         fre: "La mitraillette miaou",
         bra: "Submetralhadora | Céu de Gatinhos",
         schema: 15110,
-        schema2: 69
+        "schema2": 69
     },
     1065: {
         img: "torqued_to_hell_wrench",
@@ -9629,7 +9629,7 @@ let dataItems = {
         fre: "La clé infernale",
         bra: "Chave Inglesa | Torcidas Infernais",
         schema: 15114,
-        schema2: 75
+        "schema2": 75
     },
     1066: {
         img: "shot_to_hell_scattergun",
@@ -9639,7 +9639,7 @@ let dataItems = {
         fre: "Le fusil à dispersion infernal",
         bra: "Espingarda | Balas Infernais",
         schema: 15108,
-        schema2: 74
+        "schema2": 74
     },
     1067: {
         img: "blue_mew_scattergun",
@@ -9649,7 +9649,7 @@ let dataItems = {
         fre: "Le fusil à dispersion miaou",
         bra: "Espingarda | Céu de Gatinhos",
         schema: 15106,
-        schema2: 69
+        "schema2": 69
     },
     1068: {
         img: "blue_mew_rocket_launcher",
@@ -9659,7 +9659,7 @@ let dataItems = {
         fre: "Le lance-roquettes miaou",
         bra: "Lança-foguetes | Céu de Gatinhos",
         schema: 15104,
-        schema2: 69
+        "schema2": 69
     },
     1069: {
         img: "blue_mew_pistol",
@@ -9669,7 +9669,7 @@ let dataItems = {
         fre: "Le pistolet miaou",
         bra: "Pistola | Céu de Gatinhos",
         schema: 15100,
-        schema2: 69
+        "schema2": 69
     },
     1070: {
         img: "blue_mew_knife",
@@ -9679,7 +9679,7 @@ let dataItems = {
         fre: "Le couteau miaou",
         bra: "Faca | Céu de Gatinhos",
         schema: 15094,
-        schema2: 69
+        "schema2": 69
     },
     1071: {
         img: "mister_cuddles_minigun",
@@ -9689,7 +9689,7 @@ let dataItems = {
         bra: "Senhor Fofinho Metralhadora Giratória",
         fre: "Le Minigun Monsieur Câlin",
         schema: 15099,
-        schema2: 73
+        "schema2": 73
     },
     1072: {
         img: "balloonicorn_flame_thrower",
@@ -9699,7 +9699,7 @@ let dataItems = {
         fre: "Le lance-flammes Ballicorne",
         bra: "Lança-chamas | Balãonicórnio",
         schema: 15089,
-        schema2: 66
+        "schema2": 66
     },
     1073: {
         img: "sweet_dreams_stickybomb_launcher",
@@ -9718,7 +9718,7 @@ let dataItems = {
         fre: "Le lance-grenades des beaux rêves",
         bra: "Lança-granadas | Bons Sonhos",
         schema: 15092,
-        schema2: 68
+        "schema2": 68
     },
     1075: {
         img: "balloonicorn_sniper_rifle",
@@ -9728,7 +9728,7 @@ let dataItems = {
         fre: "Le fusil de sniper Ballicorne",
         bra: "Rifle de Sniper | Balãonicórnio",
         schema: 15111,
-        schema2: 66
+        "schema2": 66
     },
     1076: {
         img: "rainbow_flame_thrower",
@@ -9738,7 +9738,7 @@ let dataItems = {
         fre: "Le lance-flammes arc-en-ciel",
         bra: "Lança-chamas | Arco-íris",
         schema: 15090,
-        schema2: 67
+        "schema2": 67
     },
     1077: {
         img: "rainbow_sniper_rifle",
@@ -9748,7 +9748,7 @@ let dataItems = {
         fre: "Le fusil de sniper arc-en-ciel",
         bra: "Rifle de Sniper | Arco-íris",
         schema: 15112,
-        schema2: 67
+        "schema2": 67
     },
     1078: {
         img: "rainbow_grenade_launcher",
@@ -9758,7 +9758,7 @@ let dataItems = {
         fre: "Le lance-grenades arc-en-ciel",
         bra: "Lança-granadas | Arco-íris",
         schema: 15091,
-        schema2: 67
+        "schema2": 67
     },
     1079: {
         img: "blitzkrieg_knife",
@@ -9768,7 +9768,7 @@ let dataItems = {
         fre: "Le couteau Blitzkrieg",
         bra: "Faca | Blitzkrieg",
         schema: 15143,
-        schema2: 81
+        "schema2": 81
     },
     1080: {
         img: "butcher_bird_grenade_launcher",
@@ -9778,7 +9778,7 @@ let dataItems = {
         fre: "Le lance-grenades rapace",
         bra: "Lança-granadas | Gralha",
         schema: 15158,
-        schema2: 84
+        "schema2": 84
     },
     1081: {
         img: "corsair_scattergun",
@@ -9788,7 +9788,7 @@ let dataItems = {
         fre: "Le fusil à dispersion pirate",
         bra: "Espingarda | Corsário",
         schema: 15157,
-        schema2: 83
+        "schema2": 83
     },
     1082: {
         img: "airwolf_wrench",
@@ -9798,7 +9798,7 @@ let dataItems = {
         fre: "La clé Airwolf",
         bra: "Chave Inglesa | Lobo dos Ares",
         schema: 15156,
-        schema2: 82
+        "schema2": 82
     },
     1083: {
         img: "blitzkrieg_smg",
@@ -9808,7 +9808,7 @@ let dataItems = {
         fre: "La mitraillette Blitzkrieg",
         bra: "Submetralhadora | Blitzkrieg",
         schema: 15153,
-        schema2: 81
+        "schema2": 81
     },
     1084: {
         img: "blitzkrieg_revolver",
@@ -9818,7 +9818,7 @@ let dataItems = {
         fre: "Le revolver Blitzkrieg",
         bra: "Revólver | Blitzkrieg",
         schema: 15149,
-        schema2: 81
+        "schema2": 81
     },
     1085: {
         img: "blitzkrieg_pistol",
@@ -9828,7 +9828,7 @@ let dataItems = {
         fre: "Le pistolet Blitzkrieg",
         bra: "Pistola | Blitzkrieg",
         schema: 15148,
-        schema2: 81
+        "schema2": 81
     },
     1086: {
         img: "blitzkrieg_medi_gun",
@@ -9838,7 +9838,7 @@ let dataItems = {
         fre: "Le medigun Blitzkrieg",
         bra: "Arma Médica | Blitzkrieg",
         schema: 15145,
-        schema2: 81
+        "schema2": 81
     },
     1087: {
         img: "airwolf_knife",
@@ -9848,7 +9848,7 @@ let dataItems = {
         fre: "Le couteau Airwolf",
         bra: "Faca | Lobo dos Ares",
         schema: 15144,
-        schema2: 82
+        "schema2": 82
     },
     1088: {
         img: "corsair_medi_gun",
@@ -9858,7 +9858,7 @@ let dataItems = {
         fre: "Le medigun pirate",
         bra: "Arma Médica | Corsário",
         schema: 15146,
-        schema2: 83
+        "schema2": 83
     },
     1089: {
         img: "blitzkrieg_stickybomb_launcher",
@@ -9868,7 +9868,7 @@ let dataItems = {
         fre: "Le lanceur de bombes collantes Blitzkrieg",
         bra: "Lança-stickybombs | Blitzkrieg",
         schema: 15155,
-        schema2: 81
+        "schema2": 81
     },
     1090: {
         img: "airwolf_sniper_rifle",
@@ -9878,7 +9878,7 @@ let dataItems = {
         fre: "Le fusil de sniper Airwolf",
         bra: "Rifle de Sniper | Lobo dos Ares",
         schema: 15154,
-        schema2: 82
+        "schema2": 82
     },
     1091: {
         img: "butcher_bird_minigun",
@@ -9888,7 +9888,7 @@ let dataItems = {
         fre: "Le minigun rapace",
         bra: "Metralhadora Giratória | Gralha",
         schema: 15147,
-        schema2: 84
+        "schema2": 84
     },
     1092: {
         img: "warhawk_flame_thrower",
@@ -9898,7 +9898,7 @@ let dataItems = {
         fre: "Le lance-flammes du faucon guerrier",
         bra: "Lança-chamas | Gavião de Guerra",
         schema: 15141,
-        schema2: 80
+        "schema2": 80
     },
     1093: {
         img: "red_bear_shotgun",
@@ -9908,7 +9908,7 @@ let dataItems = {
         fre: "Le fusil à pompe de l'ours rouge",
         bra: "Escopeta | Ursoviético",
         schema: 15152,
-        schema2: 86
+        "schema2": 86
     },
     1094: {
         img: "warhawk_grenade_launcher",
@@ -9918,7 +9918,7 @@ let dataItems = {
         fre: "Le lance-grenades du faucon guerrier",
         bra: "Lança-granadas | Gavião de Guerra",
         schema: 15142,
-        schema2: 80
+        "schema2": 80
     },
     1095: {
         img: "warhawk_rocket_launcher",
@@ -9928,7 +9928,7 @@ let dataItems = {
         fre: "Le lance-roquettes du faucon guerrier",
         bra: "Lança-foguetes | Gavião de Guerra",
         schema: 15150,
-        schema2: 80
+        "schema2": 80
     },
     1096: {
         img: "killer_bee_scattergun",
@@ -9938,7 +9938,7 @@ let dataItems = {
         fre: "Le fusil à dispersion ruche",
         bra: "Espingarda | Abelha Assassina",
         schema: 15151,
-        schema2: 85
+        "schema2": 85
     },
     1097: {
         img: "patriot_peak",
@@ -12711,7 +12711,7 @@ let dataItems = {
         fre: "Le rageux",
         bra: "Raiva",
         schema: 518,
-        schema2: 5758
+        "schema2": 5758
     },
     1405: {
         img: "your_worst_nightmare",
@@ -13270,7 +13270,7 @@ let dataItems = {
         fre: "L'aspect de l'apparition",
         bra: "Aspecto da Aparição",
         schema: 571,
-        schema2: 5759
+        "schema2": 5759
     },
     1467: {
         img: "burning_bongos",
@@ -14198,7 +14198,7 @@ let dataItems = {
         sch: "疫苗接种枪",
         bra: "Vacinadora",
         schema: 998,
-        schema2: 5756
+        "schema2": 5756
     },
     1572: {
         img: "air_strike",
@@ -14208,7 +14208,7 @@ let dataItems = {
         sch: "空袭火箭筒",
         bra: "O Ataque Aéreo",
         schema: 1104,
-        schema2: 5753
+        "schema2": 5753
     },
     1573: {
         img: "pomson_6000",
@@ -14218,7 +14218,7 @@ let dataItems = {
         sch: "歼灭者 6000",
         bra: "O Pomson 6000",
         schema: 588,
-        schema2: 5661
+        "schema2": 5661
     },
     1574: {
         img: "the_seared_sorcerer",
@@ -15041,5 +15041,209 @@ let dataItems = {
         sch: "成堆的补给箱",
         bra: "Palete de Caixas",
         schema: 1037
-    }
+    },
+    1666: {
+        img: "elf_care_provider",
+        eng: "Elf Care Provider",
+        schema: 31176
+    },
+    1667: {
+        img: "bear_walker",
+        eng: "Bear Walker",
+        schema: 31180
+    },
+    1668: {
+        img: "festive_flip_thwomps",
+        eng: "Festive Flip-thwomps",
+        schema: 31167
+    },
+    1669: {
+        img: "shoestring_santa",
+        eng: "Shoestring Santa",
+        schema: 31169
+    },
+    1670: {
+        img: "jolly_jingler",
+        eng: "Jolly Jingler",
+        schema: 31165
+    },
+    1671: {
+        img: "candy_cantlers",
+        eng: "Candy Cantlers",
+        schema: 31164
+    },
+    1672: {
+        img: "festive_fascinator",
+        eng: "Festive Fascinator",
+        schema: 31172
+    },
+    1673: {
+        img: "reindoonibeanie",
+        eng: "Reindoonibeanie",
+        schema: 31171
+    },
+    1674: {
+        img: "particulate_protector",
+        eng: "Particulate Protector",
+        schema: 31163
+    },
+    1675: {
+        img: "the_killing_tree",
+        eng: "The Killing Tree",
+        schema: 31181
+    },
+    1676: {
+        img: "the_smissmass_sorcerer",
+        eng: "Smissmass Sorcerer",
+        schema: 31166
+    },
+    1677: {
+        img: "sandmanns_brush",
+        eng: "SandMann's Brush",
+        schema: 31178
+    },
+    1678: {
+        img: "bedbug_protection",
+        eng: "BedBug Protection",
+        schema: 31179
+    },
+    1679: {
+        img: "professionals_pom_pom",
+        eng: "Professional's Pom Pom",
+        schema: 31170
+    },
+    1680: {
+        img: "blitzen_bowl",
+        eng: "Blitzen Bowl",
+        schema: 31175
+    },
+    1681: {
+        img: "night_ward",
+        eng: "Night Ward",
+        schema: 31177
+    },
+    1682: {
+        img: "helm_helm",
+        eng: "Helm Helm",
+        schema: 31182
+    },
+    1683: {
+        img: "towering_pillar_of_beanies",
+        eng: "Towering Pillar of Beanies",
+        schema: 31168
+    },
+    1684: {
+        img: "the_round_a_bout",
+        eng: "The Round-A-Bout",
+        schema: 31174
+    },
+    1685: {
+        img: "towering_pile_of_presents",
+        eng: "Towering Pile Of Presents"
+    },
+    1686: {
+        img: "snowflake_swirled_war_paint",
+        eng: "Snowflake Swirled War Paint",
+        schema: 17277
+    },
+    1687: {
+        img: "snow_globalization_war_paint",
+        eng: "Snow Globalization War Paint",
+        schema: 17275
+    },
+    1688: {
+        img: "glacial_glazed_war_paint",
+        eng: "Glacial Glazed War Paint",
+        schema: 17282
+    },
+    1689: {
+        img: "gifting_manns_wrapping_paper_war_paint",
+        eng: "Gifting Mann's Wrapping Paper War Paint",
+        schema: 17276
+    },
+    1690: {
+        img: "peppermint_swirl_war_paint",
+        eng: "Peppermint Swirl War Paint",
+        schema: 17273
+    },
+    1691: {
+        img: "gingerbread_winner_war_paint",
+        eng: "Gingerbread Winner War Paint",
+        schema: 17270
+    },
+    1692: {
+        img: "smissmas_spycrabs_war_paint",
+        eng: "Smissmas Spycrabs War Paint",
+        schema: 17278
+    },
+    1693: {
+        img: "elfin_enamel_war_paint",
+        eng: "Elfin Enamel War Paint",
+        schema: 17272
+    },
+    1694: {
+        img: "frozen_aurora_war_paint",
+        eng: "Frozen Aurora War Paint",
+        schema: 17279
+    },
+    1695: {
+        img: "cookie_fortress_war_paint",
+        eng: "Cookie Fortress War Paint",
+        schema: 17283
+    },
+    1696: {
+        img: "frosty_delivery_war_paint",
+        eng: "Frosty Delivery War Paint",
+        schema: 17281
+    },
+    1697: {
+        img: "saccharine_striped_war_paint",
+        eng: "Saccharine Striped War Paint",
+        schema: 17271
+    },
+    1698: {
+        img: "starlight_serenity_war_paint",
+        eng: "Starlight Serenity War Paint",
+        schema: 17280
+    },
+    1699: {
+        img: "taunt_the_pooped_deck",
+        eng: "Taunt: The Pooped Deck",
+        schema: 31153
+    },
+    1700: {
+        img: "taunt_time_out_therapy",
+        eng: "Taunt: Time Out Therapy",
+        schema: 31154
+    },
+    1701: {
+        img: "taunt_rocket_jockey",
+        eng: "Taunt: Rocket Jockey",
+        schema: 31155
+    },
+    1702: {
+        img: "taunt_the_boston_boarder",
+        eng: "Taunt: The Boston Boarder",
+        schema: 31156
+    },
+    1703: {
+        img: "taunt_schorchers_solo",
+        eng: "Taunt: Schorcher's Solo",
+        schema: 31157
+    },
+    1704: {
+        img: "taunt_texas_truckin",
+        eng: "Taunt: Texas Truckin'",
+        schema: 31160
+    },
+    1705: {
+        img: "taunt_spin_to_win",
+        eng: "Taunt: Spin-to-Win",
+        schema: 31161
+    },
+    1706: {
+        img: "taunt_the_fist_bump",
+        eng: "Taunt: The Fist Bump",
+        schema: 31162
+    },
 }

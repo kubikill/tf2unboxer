@@ -1348,5 +1348,65 @@ let dataEffects = {
         fre: "Fête de la citrouille",
         sch: "南瓜开会",
         bra: "Festa das abóboras"
-    }
+    },
+    151: {
+        img: "blighted_snowstorm",
+        eng: "Blighted Snowstorm",
+        schema: 170
+    },
+    152: {
+        img: "distant_dream",
+        eng: "Distant Dream",
+        schema: 168
+    },
+    153: {
+        img: "divine_desire",
+        eng: "Divine Desire",
+        schema: 167
+    },
+    154: {
+        img: "frozen_fractals",
+        eng: "Frozen Fractals",
+        schema: 164
+    },
+    155: {
+        img: "genus_plasmos",
+        eng: "Genus Plasmos",
+        schema: 172
+    },
+    156: {
+        img: "lavender_landfall",
+        eng: "Lavender Landfall",
+        schema: 165
+    },
+    157: {
+        img: "mirthful_mistletoe",
+        eng: "Mirthful Mistletoe",
+        schema: 175
+    },
+    158: {
+        img: "pale_nimbus",
+        eng: "Pale Nimbus",
+        schema: 171
+    },
+    159: {
+        img: "serenus_lumen",
+        eng: "Serenus Lumen",
+        schema: 173
+    },
+    160: {
+        img: "special_snowfall",
+        eng: "Special Snowfall",
+        schema: 166
+    },
+    161: {
+        img: "ventum_maris",
+        eng: "Ventum Maris",
+        schema: 174
+    },
+    162: {
+        img: "violent_wintertide",
+        eng: "Violent Wintertide",
+        schema: 169
+    },
 }

@@ -60,9 +60,10 @@ const mergeDeep = (a, b) => { for (const c of Object.keys(b)) b[c] instanceof Ob
 
 // Generate random 4-letter string
 const randomStringPool = "abcdefghijklmnopqrstuwxyz1234567890";
+
 function generateRandomString() {
     let string = "";
-    for (let i=0; i < 5; i++) {
+    for (let i = 0; i < 5; i++) {
         string += randomStringPool[Math.floor(Math.random() * randomStringPool.length)];
     }
     return string;
@@ -1505,6 +1506,12 @@ function generateEffectList() {
             case "hw20":
                 effectsArray = hw20FX;
                 break;
+            case "xmas19":
+                effectsArray = xmas19FX;
+                break;
+            case "xmas20":
+                effectsArray = xmas20FX;
+                break;
         }
     } else {
         effectsArray = currentCrateObj.effects;
@@ -2047,6 +2054,12 @@ function unbox() { // This function handles the unboxing itself: which item is u
                         break;
                     case "hw20":
                         effectsArray = hw20FX;
+                        break;
+                    case "xmas19":
+                        effectsArray = xmas19FX;
+                        break;
+                    case "xmas20":
+                        effectsArray = xmas20FX;
                         break;
                 }
             } else {

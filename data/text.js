@@ -29,7 +29,7 @@ let dataUi = {
     },
     5: {
         eng: "Items obtained from this case may have Strange and/or Unusual quality.",
-        pol: "Przedmioty otrzymane z tej skrzyni mogą posiadać jakość Kuriozum i/lub Nietypowy Okaz.",
+        pol: "Przedmioty otrzymane z tej skrzynki mogą posiadać jakość Kuriozum i/lub Nietypowy Okaz.",
         sch: "从这个箱子中获得的物品可能具有奇异和/或稀有品质。",
         bra: "Itens obtidos por essa caixa podem ter a qualidade Estranha e/ou Incomum.",
         fre: "Les objets obtenus de cette caisse peuvent être de qualité Étrange et/ou Inhabituelle."
@@ -43,7 +43,7 @@ let dataUi = {
     },
     7: {
         eng: "Items obtained from this crate may have Unusual quality.",
-        pol: "Przedmioty otrzymane z tej skrzyni mogą posiadać jakość Nietypowy Okaz.",
+        pol: "Przedmioty otrzymane z tej skrzynki mogą posiadać jakość Nietypowy Okaz.",
         sch: "从这个箱子中获得的物品可能具有稀有品质。",
         bra: "Itens obtidos por essa caixa podem ter qualidade Incomum.",
         fre: "Les objets obtenus de cette caisse peuvent être de qualité Inhabituelle."
@@ -281,7 +281,7 @@ let dataUi = {
     },
     41: {
         eng: "Total crates/cases opened:",
-        pol: "Otwarte skrzynki/skrzynie:",
+        pol: "Otwarte skrzynki:",
         sch: "已开箱：",
         bra: "Total de caixas abertas:",
         fre: "Total des caisses déballées:"
@@ -470,7 +470,7 @@ let dataUi = {
     },
     68: {
         eng: "How many crates/cases do you want to open?",
-        pol: "Ile skrzynek/skrzyń chcesz otworzyć?",
+        pol: "Ile skrzynek chcesz otworzyć?",
         sch: "您想要开启几个箱子？",
         bra: "Quantas caixas você deseja abrir?",
         fre: "Combien de caisses voulez-vous déballer?"
@@ -813,7 +813,7 @@ let dataUi = {
     },
     117: {
         eng: "Not enough data to calculate luck.<br>Come back later once you unbox more crates/cases.",
-        pol: "Za mało danych do obliczenia szczęścia.<br>Wróć później jak otworzysz więcej skrzynek/skrzyń.",
+        pol: "Za mało danych do obliczenia szczęścia.<br>Wróć później jak otworzysz więcej skrzynek.",
         sch: "暂无足够数据来计算幸运。<br>开启更多箱子后再来查看。",
         bra: "Não temos muita data para calcular a sua sorte.<br>Volte quando você tiver aberto mais caixas.",
         fre: "Pas assez de données pour calculer la chance.<br>Revenez lorsque vous aurez déballé plus de caisses."
@@ -1023,14 +1023,14 @@ let dataUi = {
     },
     147: {
         eng: "This case may contain bonus items.",
-        pol: "Ta skrzynia może zawierać dodatkowe przedmioty.",
+        pol: "Ta skrzynka może zawierać dodatkowe przedmioty.",
         sch: "这个箱子可能包含奖励物品。",
         bra: "Essa caixa pode conter itens de bônus.",
         fre: "Cette caisse peut contenir des objets bonis."
     },
     148: {
         eng: "Crate/case-exclusive bonus items:",
-        pol: "Dodatkowe przedmioty ekskluzywne dla tej skrzyni:",
+        pol: "Dodatkowe przedmioty ekskluzywne dla tej skrzynki:",
         sch: "箱子特有奖励物品：",
         bra: "Itens exclusivos para essa caixa:",
         fre: "Objets exclusifs de cette caisse:"
@@ -1218,15 +1218,15 @@ let dataUi = {
         fre: 'Autoriser le Heavy Chasseur, les Mange-trottoir de Coldfront ainsi que le Débardeur Sibérien à être déballé en qualité Inhabituelles de la caisse End of the Line.'
     },
     175: {
-        eng: "Halloween mode:",
-        pol: "Tryb Halloween:",
+        eng: "Event mode:",
+        pol: "Tryb wydarzenia:",
         sch: "万圣节模式：",
         bra: "Modo Halloween:",
         fre: "Mode Halloween:"
     },
     176: {
-        eng: "This option replaces Unusual effects in certain crates/cases with effects from the selected Halloween event.<br>Events from 2011 to 2016 affect only crates and cases released before the event.<br>Events from 2017 onwards affect only cases released before the event.",
-        pol: "Ta opcja zmienia efekty Nietypowych Okazów w niektórych skrzynkach/skrzyniach na efekty z wybranego wydarzenia Halloween.<br>Wydarzenia z 2011 do 2016 roku obejmują tylko skrzynki i skrzynie wydane przed wydarzeniem.<br>Wydarzenia z 2017 i następnych lat obejmują tylko skrzynie wydane przed wydarzeniem.",
+        eng: "This option replaces Unusual effects in certain crates/cases with effects from the selected event.<br>Events from 2011 to 2016 affect only crates and cases released before the event.<br>Events from 2017 onwards affect only cases released before the event.",
+        pol: "Ta opcja zmienia efekty Nietypowych Okazów w niektórych skrzynkach na efekty z wybranego wydarzenia.<br>Wydarzenia z 2011 do 2016 roku obejmują tylko skrzynki wydane przed wydarzeniem.<br>Wydarzenia z 2017 i następnych lat obejmują tylko skrzynki wydane przed wydarzeniem i po aktualizacji Siła charakteru.",
         sch: "此选项将特定箱子的稀有效果替换为指定万圣节活动的效果。<br>2011 至 2016 年的活动只会影响活动之前发布的箱子。<br>2017 年起的活动只会影响活动之前与枪魂更新之后发布的箱子。",
         bra: "Essa opção substitui efeitos Incomuns em certas caixas com efeitos do evento de Halloween selecionado.<br>Eventos de 2011 para 2016 só afetam caixas lançadas antes do evento.<br>Eventos de 2017 e avante só afetam as caixas lançadas antes do evento e as caixas lançadas depois da atualização Arsenal Artístico.",
         fre: "Cette option remplace les effets Inhabituels pour certaines caisses selon l'événement d'Halloween choisi.<br>Les Événements de 2011 jusqu'à 2016 n'affectent que les caisses sorties avant l'update Gun Mettle. Les Événements à partir de 2017 n'affectent que les caisses sorties avant l'événement and celles sorties depuis l'update Gun Mettle."
@@ -1369,12 +1369,22 @@ let dataUi = {
         eng: "Enable Unusual Sniper vs. Spy update hats:",
         pol: "Włącz Nietypowe Okazy z aktualizacji Snajper kontra Szpieg:",
         bra: "Ativar efeitos incomuns em chapéus da atualização Sniper vs. Spy:",
-        sch: "启用“狙击手 vs. 间谍”更新的稀有帽子"
+        sch: "启用“狙击手 vs. 间谍”更新的稀有帽子",
+        fre: "Activer les Inhabituels de l'update Sniper vs. Spy:"
     },
     201: {
         eng: "Allows the hats added in the Sniper vs. Spy update to be unboxed as Unusuals from crates added before the TF2 January 25th 2013 update (crates #1 - #55).",
         pol: "Ta opcja pozwala na otrzymanie czapek z aktualizacji Snajper kontra Szpieg w jakości Nietypowy Okaz z skrzynek dodanych przed aktualizacją TF2 z 25 stycznia 2013 (skrzynki #1 - #55).",
         bra: "Isso permite que os chapéus adicionados na atualização do Sniper vs. Spy possam ser desencaixotados em qualidade Incomum por caixas adicionadas antes da atualização de TF2 em 25 de Janeiro de 2013 (caixas #1 - #55).",
-        sch: "此选项允许从 2013 年 1 月 25 日 TF2 更新之前的箱子（编号为 #1-#55）中开出稀有品质的、在“狙击手 vs. 间谍”更新中添加的帽子。"
+        sch: "此选项允许从 2013 年 1 月 25 日 TF2 更新之前的箱子（编号为 #1-#55）中开出稀有品质的、在“狙击手 vs. 间谍”更新中添加的帽子。",
+        fre: "Cette option permet aux chapeaux ajoutés avec l'update Sniper vs. Spy d'être déballé en qualité Inhabituelle dans les caisses ajoutée avant l'update TF2 du 25 Janvier 2013 (caisses #1 à #55)."
+    },
+    202: {
+        eng: "Smissmas 2020",
+        pol: "Śnięta 2020"
+    },
+    203: {
+        eng: "Smissmas 2019",
+        pol: "Śnięta 2019"
     }
 }
