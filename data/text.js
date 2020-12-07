@@ -1220,16 +1220,16 @@ let dataUi = {
     175: {
         eng: "Event mode:",
         pol: "Tryb wydarzenia:",
-        sch: "万圣节模式：",
-        bra: "Modo Halloween:",
-        fre: "Mode Halloween:"
+        sch: "活动模式：",
+        bra: "Modo de Evento:",
+        fre: "Mode événement:"
     },
     176: {
         eng: "This option replaces Unusual effects in certain crates/cases with effects from the selected event.<br>Events from 2011 to 2016 affect only crates and cases released before the event.<br>Events from 2017 onwards affect only cases released before the event.",
         pol: "Ta opcja zmienia efekty Nietypowych Okazów w niektórych skrzynkach na efekty z wybranego wydarzenia.<br>Wydarzenia z 2011 do 2016 roku obejmują tylko skrzynki wydane przed wydarzeniem.<br>Wydarzenia z 2017 i następnych lat obejmują tylko skrzynki wydane przed wydarzeniem i po aktualizacji Siła charakteru.",
-        sch: "此选项将特定箱子的稀有效果替换为指定万圣节活动的效果。<br>2011 至 2016 年的活动只会影响活动之前发布的箱子。<br>2017 年起的活动只会影响活动之前与枪魂更新之后发布的箱子。",
-        bra: "Essa opção substitui efeitos Incomuns em certas caixas com efeitos do evento de Halloween selecionado.<br>Eventos de 2011 para 2016 só afetam caixas lançadas antes do evento.<br>Eventos de 2017 e avante só afetam as caixas lançadas antes do evento e as caixas lançadas depois da atualização Arsenal Artístico.",
-        fre: "Cette option remplace les effets Inhabituels pour certaines caisses selon l'événement d'Halloween choisi.<br>Les Événements de 2011 jusqu'à 2016 n'affectent que les caisses sorties avant l'update Gun Mettle. Les Événements à partir de 2017 n'affectent que les caisses sorties avant l'événement and celles sorties depuis l'update Gun Mettle."
+        sch: "此选项将特定箱子的稀有效果替换为指定活动的效果。<br>2011 至 2016 年的活动只会影响活动之前发布的箱子。<br>2017 年起的活动只会影响活动之前与枪魂更新之后发布的箱子。",
+        bra: "Essa opção substitui efeitos Incomuns em certas caixas com efeitos do evento selecionado.<br>Eventos de 2011 para 2016 só afetam caixas lançadas antes do evento.<br>Eventos de 2017 e avante só afetam as caixas lançadas antes do evento e as caixas lançadas depois da atualização Arsenal Artístico.",
+        fre: "Cette option remplace les effets Inhabituels pour certaines caisses selon l'événement choisi.<br>Les Événements de 2011 jusqu'à 2016 n'affectent que les caisses sorties avant l'update Gun Mettle. Les Événements à partir de 2017 n'affectent que les caisses sorties avant l'événement and celles sorties depuis l'update Gun Mettle."
     },
     177: {
         eng: "Disabled",
@@ -1381,10 +1381,14 @@ let dataUi = {
     },
     202: {
         eng: "Smissmas 2020",
-        pol: "Śnięta 2020"
+        pol: "Śnięta 2020",
+        sch: "圣诞节 2020",
+        bra: "Natal de 2020"
     },
     203: {
         eng: "Smissmas 2019",
-        pol: "Śnięta 2019"
+        pol: "Śnięta 2019",
+        sch: "圣诞节 2019",
+        bra: "Natal de 2019"
     }
 }
