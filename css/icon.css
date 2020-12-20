@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'icons';
   src:
-    url('../font/icons.ttf?mzmcf0') format('truetype'),
-    url('../font/icons.woff?mzmcf0') format('woff'),
-    url('../font/icons.svg?mzmcf0#icons') format('svg');
+    url('../font/icons.ttf?jqgza0') format('truetype'),
+    url('../font/icons.woff?jqgza0') format('woff'),
+    url('../font/icons.svg?jqgza0#icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -56,6 +56,9 @@
 }
 .icon-grid:before {
   content: "\e906";
+}
+.icon-search:before {
+  content: "\e90d";
 }
 .icon-list:before {
   content: "\e90b";

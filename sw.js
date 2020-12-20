@@ -23,7 +23,9 @@ self.addEventListener('fetch', event => {
                         return fetch(event.request)
                             .then(response => {
                                 if (response.ok) {
-                                    cache.put(event.request, response.clone());
+                                    if (response.status != 206) {
+                                        cache.put(event.request, response.clone());
+                                    }
                                     return response;
                                 } else {
                                     throw new Error(`${response.url} - Resource is not in cache and can't reach resource from network`);

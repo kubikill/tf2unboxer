@@ -57,6 +57,11 @@ class Crate {
         } else {
             this.exclusiveBonus = op.exclusiveBonus;
         }
+        if (typeof op.oneExclusiveBonus === "undefined") {
+            this.oneExclusiveBonus = false;
+        } else {
+            this.oneExclusiveBonus = op.oneExclusiveBonus;
+        }
         if (typeof op.creepyBonus === "undefined") {
             this.creepyBonus = false;
         } else {
@@ -282,9 +287,9 @@ let cA = [
     new Crate({ id: 53, series: 100, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
     new Crate({ id: 54, series: 101, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true}), /*  [110] */
     new Crate({ id: 55, series: 102, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
-    new Crate({ id: 31, series: 103, effects: allGensFX, note: 1, unusual: 1, autoChance: 2}),
+    new Crate({ id: 31, series: 103, effects: allGensFX, note: 1, unusual: 1}),
     new Crate({ id: 56, series: 104, effects: hw16FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [827, 828, 829], chance: 5000}}),
-    new Crate({ id: 57, series: 105, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [972], chance: 4000}}),
+    new Crate({ id: 57, series: 105, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [972], chance: 4000}, oneExclusiveBonus: true}),
     new Crate({ id: 58, series: 106, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true}), /* [115] */
     new Crate({ id: 59, series: 107, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
     new Crate({ id: 60, series: 108, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
@@ -292,12 +297,12 @@ let cA = [
     new Crate({ id: 62, series: 110, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
     new Crate({ id: 63, series: 111, autoChance: 1}), /*  [120] */
     new Crate({ id: 64, series: 114, autoChance: 1}),
-    new Crate({ id: 65, series: 117, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [972], chance: 4000}}),
+    new Crate({ id: 65, series: 117, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [972], chance: 4000}, oneExclusiveBonus: true}),
     new Crate({ id: 66, series: 118, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
     new Crate({ id: 67, series: 119, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
     new Crate({ id: 68, series: 120, effects: hw18FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [832, 835, 836, 837], chance: 5000}}), /* [125] */
     new Crate({ id: 69, series: 121, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
-    new Crate({ id: 70, series: 122, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [972], chance: 4000}}),
+    new Crate({ id: 70, series: 122, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [972], chance: 4000}, oneExclusiveBonus: true}),
     new Crate({ id: 71, series: 123, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
     new Crate({ id: 72, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2}),
     new Crate({ id: 73, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2}), /*  [130] */
@@ -310,12 +315,12 @@ let cA = [
     new Crate({ id: 80, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2}),
     new Crate({ id: 81, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2}),
     new Crate({ id: 82, series: 124, effects: hw19FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [1647, 1648, 1649, 1650, 1651], chance: 5000}}),
-    new Crate({ id: 83, series: 125, effects: xmas19FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [972], chance: 4000}}), /*  [140] */
+    new Crate({ id: 83, series: 125, effects: xmas19FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [972], chance: 4000}, oneExclusiveBonus: true}), /*  [140] */
     new Crate({ id: 84, series: 126, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
     new Crate({ id: 85, series: 127, effects: summer20FX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
     new Crate({ id: 86, series: 128, effects: hw20FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [966, 967, 968, 969, 970, 971], chance: 5000}}),
     new Crate({ id: 87, series: 129, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
-    new Crate({ id: 88, series: 130, effects: xmas20FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [972], chance: 4000}}), /* [145] */
+    new Crate({ id: 88, series: 130, effects: xmas20FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [972], chance: 4000}, oneExclusiveBonus: true}), /* [145] */
     new Crate({ id: 89, series: 131, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true})
 ];
 // This is the order the crates will show up in the menu
@@ -1805,21 +1810,21 @@ cA[111].loot = [
     new Item({ id: 1125, quality: 10, grade: 6 }),
 ];
 cA[112].loot = [
-    new Item({ id: 258, quality: 1 }),
-    new Item({ id: 373, quality: 1 }),
-    new Item({ id: 272, quality: 1 }),
-    new Item({ id: 670, quality: 1 }),
-    new Item({ id: 665, quality: 1 }),
-    new Item({ id: 1126, quality: 2 }),
-    new Item({ id: 156, quality: 2 }),
-    new Item({ id: 31, quality: 2 }),
-    new Item({ id: 139, quality: 2 }),
-    new Item({ id: 208, quality: 2 }),
-    new Item({ id: 173, quality: 2 }),
-    new Item({ id: 1127, quality: 2 }),
-    new Item({ id: 1128, quality: 2 }),
-    new Item({ id: 1129, quality: 2 }),
-    new Item({ id: 1130, quality: 2 })
+    new Item({ id: 258, chance: 700, quality: 1 }),
+    new Item({ id: 373, chance: 700, quality: 1 }),
+    new Item({ id: 272, chance: 700, quality: 1 }),
+    new Item({ id: 670, chance: 700, quality: 1 }),
+    new Item({ id: 665, chance: 700, quality: 1 }),
+    new Item({ id: 1126, chance: 100, quality: 2 }),
+    new Item({ id: 156, chance: 700, quality: 2 }),
+    new Item({ id: 31, chance: 700, quality: 2 }),
+    new Item({ id: 139, chance: 700, quality: 2 }),
+    new Item({ id: 208, chance: 700, quality: 2 }),
+    new Item({ id: 173, chance: 700, quality: 2 }),
+    new Item({ id: 1127, chance: 700, quality: 2 }),
+    new Item({ id: 1128, chance: 700, quality: 2 }),
+    new Item({ id: 1129, chance: 700, quality: 2 }),
+    new Item({ id: 1130, chance: 700, quality: 2 })
 ];
 cA[113].loot = [
     new Item({ id: 1131, quality: 4, grade: 3 }),

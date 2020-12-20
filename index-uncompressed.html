@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="minimal-ui, width=device-width" />
+    <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1.0" />
+    <meta content='width=device-width, , maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="mobile-web-app-capable" content="yes">
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
@@ -134,12 +135,12 @@
     </script>
     <script data-goatcounter="https://unboxertf2.goatcounter.com/count" defer src="https://gc.zgo.at/count.js"></script>
     <!-- Load TF2 Unboxer scripts-->
-    <script src="./data/text.min.js" defer></script>
-    <script src="./data/itemnames.min.js" defer></script>
-    <script src="./data/cratenames.min.js" defer></script>
-    <script src="./data/unusualeffects.min.js" defer></script>
-    <script src="./data/crate.min.js" defer></script>
-    <script src="./js/tf2unboxer.js" defer></script>
+    <script src="./data/text.prod.js" defer></script>
+    <script src="./data/itemnames.prod.js" defer></script>
+    <script src="./data/cratenames.prod.js" defer></script>
+    <script src="./data/unusualeffects.prod.js" defer></script>
+    <script src="./data/crate.prod.js" defer></script>
+    <script src="./js/tf2unboxer.prod.js" defer></script>
 </head>
 
 <body>
@@ -175,6 +176,7 @@
             <div class="btn tooltipleft tooltipmobiletopright" id="gridviewbtn" data-tooltip="Grid view" data-tooltipstring="11"><i class="icon-grid"></i></div>
             <div class="btn tooltipleft tooltipmobiletop" id="exitgridviewbtn" data-tooltip="Details view" data-tooltipstring="12" style="display: none;"><i class="icon-list"></i></div>
             <div class="btn tooltipleft tooltipmobiletopleft tooltipmobilegridtop" id="randomcratebtn" data-tooltip="Random crate" data-tooltipstring="14"><i class="icon-dice"></i></div>
+            <div class="btn tooltipleft tooltipmobiletop" id="searchbtn" data-tooltip="Search" data-tooltipstring="204" style="display: none;"><i class="icon-search"></i></div>
             <div id="crateinfo" data-swipe-threshold="50">
                 <p id="cratename">Winter 2020 War Paint Case</p>
                 <p id="crateseries">Series #131</p>
@@ -220,6 +222,10 @@
                 </div>
                 <div class="btn navbtn" id="previouscratebtn">&lt;</div>
                 <div class="btn navbtn" id="nextcratebtn">&gt;</div>
+            </div>
+            <div id="crategridsearch">
+                <div class="crategridsearchicon"><i class="icon-search"></i></div>
+                <input id="crategridsearchinput" type="text" autocomplete="off" placeholder="Type to search" data-placeholderstring="205">
             </div>
             <div id="crategrid" style="display: none;"></div>
         </div>
@@ -862,7 +868,7 @@
         </nav>
         <div id="aboutcontainer">
             <div id="aboutcredits" class="visible">
-                <h1 id="creditstitle">Unboxer.tf v2.02</h1>
+                <h1 id="creditstitle">Unboxer.tf v2.03</h1>
                 <p data-string="64">Made by <a href="https://steamcommunity.com/id/kubikill" target="_blank" rel="noopener">kubikill</a>
                 </p>
                 <p data-string="65">Special thanks to <a href="https://steamcommunity.com/profiles/76561198117761965" target="_blank" rel="noopener">Gorno</a>
@@ -895,6 +901,16 @@
                 </ol>
             </div>
             <div id="aboutchangelog">
+                <h1>v2.03 - December 20th, 2020</h1>
+                <section>
+                    <p>- Added search function to grid view. Press Enter during search to select the first crate from the results.</p>
+                    <p>- Reimplemented keyboard shortcuts for switching crates in details mode (use Left/Right arrow keys or A/D keys)</p>
+                    <p>- Strange Sandviches from crate #103 are much more rare now</p>
+                    <p>- Winter cases can no longer contain more than 1 Festivizer</p>
+                    <p>- Updated translations</p>
+                    <p>- Fixed bug that allowed you to rapid-unbox when fast unboxing is turned off</p>
+                    <p>- Fixed image and typo for Taunt: Scorcher's Solo</p>
+                </section>
                 <h1>v2.02 - December 4th, 2020</h1>
                 <section>
                     <p>- Added the Winter 2020 Cosmetic Case and the Winter 2020 War Paint Case</p>

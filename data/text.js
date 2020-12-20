@@ -1390,5 +1390,13 @@ let dataUi = {
         pol: "Śnięta 2019",
         sch: "圣诞节 2019",
         bra: "Natal de 2019"
+    },
+    204: {
+        eng: "Search",
+        pol: "Szukaj"
+    },
+    205: {
+        eng: "Type to search",
+        pol: "Pisz, aby wyszukać"
     }
 }

@@ -6,7 +6,7 @@ let dataItems = {
         sch: "维塔锯",
         fre: "La Vita-Scie",
         bra: "A Vitasserra",
-        schema: 173
+        "schema": 173
     },
     2: {
         img: "gunslinger",
@@ -15,7 +15,7 @@ let dataItems = {
         sch: "枪炮工之臂",
         fre: "Le Flingueur",
         bra: "O Pistoleiro",
-        schema: 142
+        "schema": 142
     },
     3: {
         img: "equalizer",
@@ -24,7 +24,7 @@ let dataItems = {
         sch: "十字镐",
         fre: "L'Equalizer",
         bra: "O Compensador",
-        schema: 128
+        "schema": 128
     },
     4: {
         img: "scottish_resistance",
@@ -33,7 +33,7 @@ let dataItems = {
         sch: "苏格兰防御者",
         fre: "La Scottish Resistance",
         bra: "A Resistência Escocesa",
-        schema: 130
+        "schema": 130
     },
     5: {
         img: "old_guadalajara",
@@ -42,7 +42,7 @@ let dataItems = {
         sch: "古老的瓜达拉哈拉草帽",
         fre: "Guadalajara d'antan",
         bra: "Velha Guadalajara",
-        schema: 247
+        "schema": 247
     },
     6: {
         img: "nappers_respite",
@@ -51,7 +51,7 @@ let dataItems = {
         sch: "小偷的喘息",
         fre: "Neurones au repos",
         bra: "Gorro do Dorminhoco",
-        schema: 248
+        "schema": 248
     },
     7: {
         img: "name_tag",
@@ -60,7 +60,7 @@ let dataItems = {
         sch: "名称标签",
         fre: "Étiquette",
         bra: "Etiqueta de Nome",
-        schema: 5020
+        "schema": 5020
     },
     8: {
         img: "an_extraordinary_abundance_of_tinge",
@@ -69,7 +69,7 @@ let dataItems = {
         sch: "独特满桶白",
         fre: "Une Touche d'Abondance Extraordinaire",
         bra: "Uma Extraordinária Abundância de Matiz",
-        schema: 5039
+        "schema": 5039
     },
     9: {
         img: "a_distinctive_lack_of_hue",
@@ -78,7 +78,7 @@ let dataItems = {
         sch: "特别无色黑",
         fre: "Un Manque de Camaïeux",
         bra: "Uma Distinta Falta de Coloração",
-        schema: 5040
+        "schema": 5040
     },
     10: {
         img: "black_box",
@@ -87,7 +87,7 @@ let dataItems = {
         sch: "黑匣子",
         fre: "La Boîte Noire",
         bra: "A Caixa Preta",
-        schema: 228
+        "schema": 228
     },
     11: {
         img: "shortstop",
@@ -96,7 +96,7 @@ let dataItems = {
         sch: "游击手",
         fre: "L'Arrêt-court",
         bra: "A Interbases",
-        schema: 220
+        "schema": 220
     },
     12: {
         img: "letranger",
@@ -105,7 +105,7 @@ let dataItems = {
         sch: "陌生人",
         fre: "L'Étranger",
         bra: "L'Etranger",
-        schema: 224
+        "schema": 224
     },
     13: {
         img: "sober_stuntman",
@@ -114,7 +114,7 @@ let dataItems = {
         sch: "冷静的特技演员",
         fre: "Cascadeur sobre",
         bra: "Dublê Sóbrio",
-        schema: 255
+        "schema": 255
     },
     14: {
         img: "chieftains_challenge",
@@ -123,7 +123,7 @@ let dataItems = {
         sch: "印第安酋长帽",
         fre: "Défi du chef",
         bra: "Cacife do Cacique",
-        schema: 250
+        "schema": 250
     },
     15: {
         img: "dueling_minigame",
@@ -132,7 +132,7 @@ let dataItems = {
         sch: "迷你游戏:决斗!",
         fre: "Mini-jeu de duel",
         bra: "Minigame de Duelo",
-        schema: 241
+        "schema": 241
     },
     16: {
         img: "a_deep_commitment_to_purple",
@@ -141,7 +141,7 @@ let dataItems = {
         sch: "誓约之紫",
         fre: "Une Pourpre Imposante",
         bra: "Um Profundo Compromisso com Roxo",
-        schema: 5031
+        "schema": 5031
     },
     17: {
         img: "australium_gold",
@@ -150,7 +150,7 @@ let dataItems = {
         sch: "澳元素金",
         fre: "Or Australium",
         bra: "Ouro Austrálio",
-        schema: 5037
+        "schema": 5037
     },
     18: {
         img: "bushwacka",
@@ -159,7 +159,7 @@ let dataItems = {
         sch: "灌木丛",
         fre: "Le Bushwacka",
         bra: "O Facão do Desbravador",
-        schema: 232
+        "schema": 232
     },
     19: {
         img: "critacola",
@@ -168,7 +168,7 @@ let dataItems = {
         sch: "爆击可乐",
         fre: "Crit-a-Cola",
         bra: "Criti-cola",
-        schema: 163
+        "schema": 163
     },
     20: {
         img: "homewrecker",
@@ -177,7 +177,7 @@ let dataItems = {
         sch: "拆迁者",
         fre: "Le Briseur de Ménages",
         bra: "A Quebra-casas",
-        schema: 153
+        "schema": 153
     },
     21: {
         img: "troublemakers_tossle_cap",
@@ -186,7 +186,7 @@ let dataItems = {
         sch: "麻烦制造者的防寒帽",
         fre: "Bonnet de Fauteur de troubles",
         bra: "Touca do Trombadinha",
-        schema: 150
+        "schema": 150
     },
     22: {
         img: "bombing_run",
@@ -195,7 +195,7 @@ let dataItems = {
         sch: "轰炸航路",
         fre: "Frappe aérienne",
         bra: "Bombardeiro",
-        schema: 249
+        "schema": 249
     },
     23: {
         img: "stout_shako",
@@ -204,7 +204,7 @@ let dataItems = {
         sch: "斯托特军帽",
         fre: "Fier shako",
         bra: "Shako Robusto",
-        schema: 251
+        "schema": 251
     },
     24: {
         img: "description_tag",
@@ -213,7 +213,7 @@ let dataItems = {
         sch: "描述标签",
         fre: "Étiquette de Description",
         bra: "Etiqueta de Descrição",
-        schema: 5044
+        "schema": 5044
     },
     25: {
         img: "battalions_backup",
@@ -222,7 +222,7 @@ let dataItems = {
         sch: "军队的支援",
         fre: "Le Soutien du Bataillon",
         bra: "O Reforço do Batalhão",
-        schema: 226
+        "schema": 226
     },
     26: {
         img: "pain_train",
@@ -231,7 +231,7 @@ let dataItems = {
         sch: "钉棍",
         fre: "Le Pain Train",
         bra: "É Pau, É Prego",
-        schema: 154
+        "schema": 154
     },
     27: {
         img: "your_eternal_reward",
@@ -240,7 +240,7 @@ let dataItems = {
         sch: "永生的回报",
         fre: "Ton Éternelle Récompense",
         bra: "Sua Eterna Recompensa",
-        schema: 225
+        "schema": 225
     },
     28: {
         img: "whoopee_cap",
@@ -249,7 +249,7 @@ let dataItems = {
         sch: "狂欢之冠",
         fre: "Toque de Fanfaron",
         bra: "Chapéu Whoopee",
-        schema: 174
+        "schema": 174
     },
     29: {
         img: "heavy_duty_rag",
@@ -258,7 +258,7 @@ let dataItems = {
         sch: "结实的头巾",
         fre: "Bandeau des lourdes obligations",
         bra: "Bandana do Encrenqueiro",
-        schema: 185
+        "schema": 185
     },
     30: {
         img: "handymans_handle",
@@ -267,7 +267,7 @@ let dataItems = {
         sch: "能工巧匠的把手",
         fre: "Poignée multifonction",
         bra: "Desentupidor do Ajudante",
-        schema: 253
+        "schema": 253
     },
     31: {
         img: "powerjack",
@@ -276,7 +276,7 @@ let dataItems = {
         sch: "强力千斤顶",
         fre: "Le Powerjack",
         bra: "A Ligação Direta",
-        schema: 214
+        "schema": 214
     },
     32: {
         img: "gunboats",
@@ -285,7 +285,7 @@ let dataItems = {
         sch: "炮艇",
         fre: "Les Bottes de sûreté",
         bra: "As Canhoneiras",
-        schema: 133
+        "schema": 133
     },
     33: {
         img: "southern_hospitality",
@@ -294,7 +294,7 @@ let dataItems = {
         sch: "南部的款待",
         fre: "L'Hospitalité Sudiste",
         bra: "A Hospitalidade do Sul",
-        schema: 155
+        "schema": 155
     },
     34: {
         img: "blokes_bucket_hat",
@@ -303,7 +303,7 @@ let dataItems = {
         sch: "渔夫的水桶帽",
         fre: "Bob de Mec",
         bra: "Chapéu de Pesca",
-        schema: 181
+        "schema": 181
     },
     35: {
         img: "safensound",
@@ -312,7 +312,7 @@ let dataItems = {
         sch: "安全耳套",
         fre: "Son et Sauf",
         bra: "Som e Salvo",
-        schema: 178
+        "schema": 178
     },
     36: {
         img: "ze_goggles",
@@ -321,7 +321,7 @@ let dataItems = {
         sch: "护目镜",
         fre: "Les Bézicles",
         bra: "As Ókulos",
-        schema: 177
+        "schema": 177
     },
     37: {
         img: "colorno216190216",
@@ -330,7 +330,7 @@ let dataItems = {
         sch: "颜色编号 216-190-216",
         fre: "Couleur N° 216-190-216",
         bra: "Cor 216-190-216",
-        schema: 5030
+        "schema": 5030
     },
     38: {
         img: "jag",
@@ -339,7 +339,7 @@ let dataItems = {
         sch: "尖齿扳手",
         fre: "Le Crochet",
         bra: "A Dentadura",
-        schema: 329
+        "schema": 329
     },
     39: {
         img: "candy_cane",
@@ -348,7 +348,7 @@ let dataItems = {
         sch: "糖果手杖",
         fre: "Le Sucre d'Orge",
         bra: "A Bengala Doce",
-        schema: 317
+        "schema": 317
     },
     40: {
         img: "fists_of_steel",
@@ -357,7 +357,7 @@ let dataItems = {
         sch: "钢铁手套",
         fre: "Les Poings d'Acier",
         bra: "Os Punhos de Ferro",
-        schema: 331
+        "schema": 331
     },
     41: {
         img: "back_scratcher",
@@ -366,7 +366,7 @@ let dataItems = {
         sch: "不求人",
         fre: "Le Gratte-dos",
         bra: "O Coçador de Costas",
-        schema: 326
+        "schema": 326
     },
     42: {
         img: "claidheamh_mor",
@@ -375,7 +375,7 @@ let dataItems = {
         sch: "摩尔巨剑",
         fre: "La Claidheamh Mòr",
         bra: "A Claidheamh Mòr",
-        schema: 327
+        "schema": 327
     },
     43: {
         img: "defiant_spartan",
@@ -384,7 +384,7 @@ let dataItems = {
         sch: "斯巴达战士头盔",
         fre: "Spartiate Provocateur",
         bra: "Espartano Desafiador",
-        schema: 340
+        "schema": 340
     },
     44: {
         img: "detective_noir",
@@ -393,7 +393,7 @@ let dataItems = {
         sch: "深色侦探帽",
         fre: "Détective Noir",
         bra: "Détective Noir",
-        schema: 319
+        "schema": 319
     },
     45: {
         img: "a_rather_festive_tree",
@@ -402,7 +402,7 @@ let dataItems = {
         sch: "精美的圣诞树",
         fre: "Un Sapin Assez Festif",
         bra: "Uma Árvore Um Tanto Festiva",
-        schema: 341
+        "schema": 341
     },
     46: {
         img: "exquisite_rack",
@@ -411,7 +411,7 @@ let dataItems = {
         sch: "精美的鹿角",
         fre: "Support Exquis",
         bra: "Galhada Requintada",
-        schema: 339
+        "schema": 339
     },
     47: {
         img: "buckaroos_hat",
@@ -420,7 +420,7 @@ let dataItems = {
         sch: "西班牙牛仔帽",
         fre: "Chapeau Buckaroos",
         bra: "Chapéu do Peão",
-        schema: 322
+        "schema": 322
     },
     48: {
         img: "prince_tavishs_crown",
@@ -429,7 +429,7 @@ let dataItems = {
         sch: "塔维什王子的皇冠",
         fre: "Couronne du Prince Tavish",
         bra: "Coroa do Príncipe Tavish",
-        schema: 342
+        "schema": 342
     },
     49: {
         img: "coupe_disaster",
@@ -438,7 +438,7 @@ let dataItems = {
         sch: "修剪过的假发",
         fre: "Coupe D'Ésastre",
         bra: "Coupe D'isastre",
-        schema: 330
+        "schema": 330
     },
     50: {
         img: "blighted_beak",
@@ -447,7 +447,7 @@ let dataItems = {
         sch: "勾嘴大夫的面具",
         fre: "Bec Bubonique",
         bra: "Bico Infectado",
-        schema: 315
+        "schema": 315
     },
     51: {
         img: "madame_dixie",
@@ -456,7 +456,7 @@ let dataItems = {
         sch: "迪克西夫人的花礼帽",
         fre: "Madame Dixie",
         bra: "Madame Dixie",
-        schema: 321
+        "schema": 321
     },
     52: {
         img: "german_gonzila",
@@ -465,7 +465,7 @@ let dataItems = {
         sch: "提洛尔圆帽",
         fre: "Gonzila Allemand",
         bra: "Gonzila Alemão",
-        schema: 323
+        "schema": 323
     },
     53: {
         img: "pyromancers_mask",
@@ -474,7 +474,7 @@ let dataItems = {
         sch: "火焰术士的面具",
         fre: "Masque de Pyromancien",
         bra: "Máscara do Piromante",
-        schema: 316
+        "schema": 316
     },
     54: {
         img: "le_party_phantom",
@@ -483,7 +483,7 @@ let dataItems = {
         sch: "舞会面具",
         fre: "Le Fantôme de la Fête",
         bra: "Le Fantasma da Festa",
-        schema: 337
+        "schema": 337
     },
     55: {
         img: "industrial_festivizer",
@@ -492,7 +492,7 @@ let dataItems = {
         sch: "圣诞彩灯",
         fre: "Festivités Industrielles",
         bra: "Festivizante Industrial",
-        schema: 338
+        "schema": 338
     },
     56: {
         img: "larrikin_robin",
@@ -501,7 +501,7 @@ let dataItems = {
         sch: "绿林好汉之帽",
         fre: "Robin Brigand",
         bra: "Não Robin o meu Chapéu",
-        schema: 314
+        "schema": 314
     },
     57: {
         img: "flipped_trillby",
@@ -510,7 +510,7 @@ let dataItems = {
         sch: "翻转的圆毡帽",
         fre: "Chapeau de Feutre Retourné",
         bra: "Trilby Invertido",
-        schema: 324
+        "schema": 324
     },
     58: {
         img: "magnificent_mongolian",
@@ -519,7 +519,7 @@ let dataItems = {
         sch: "宏伟的蒙古帽",
         fre: "Magnifique Mongol",
         bra: "Mongol Magnífico",
-        schema: 313
+        "schema": 313
     },
     59: {
         img: "chargin_targe",
@@ -528,7 +528,7 @@ let dataItems = {
         sch: "冲锋盾",
         fre: "Le Bouclier bélier",
         bra: "A Tarja de Investida",
-        schema: 131
+        "schema": 131
     },
     60: {
         img: "direct_hit",
@@ -537,7 +537,7 @@ let dataItems = {
         sch: "精确打击者",
         fre: "Le Direct Hit",
         bra: "O Tiro Certo",
-        schema: 127
+        "schema": 127
     },
     61: {
         img: "DUMMY",
@@ -550,7 +550,7 @@ let dataItems = {
         sch: "爆破手的埃弗罗发型",
         fre: "Coupe afro du Demoman",
         bra: "Afro do Demoman",
-        schema: 47
+        "schema": 47
     },
     63: {
         img: "drs_dapper_topper",
@@ -559,7 +559,7 @@ let dataItems = {
         sch: "博士的达珀礼帽",
         fre: "Haut-de-forme du docteur",
         bra: "Cartola Listrada do Dr.",
-        schema: 252
+        "schema": 252
     },
     64: {
         img: "rimmed_raincatcher",
@@ -568,7 +568,7 @@ let dataItems = {
         sch: "凸缘遮雨帽",
         fre: "Lampion bordé",
         bra: "Tricórnio Cata-chuva",
-        schema: 216
+        "schema": 216
     },
     65: {
         img: "milkman",
@@ -577,7 +577,7 @@ let dataItems = {
         sch: "牛奶商",
         fre: "Le Laitier",
         bra: "O Leiteiro",
-        schema: 219
+        "schema": 219
     },
     66: {
         img: "team_spirit",
@@ -586,7 +586,7 @@ let dataItems = {
         sch: "团队精神",
         fre: "Esprit d'Équipe",
         bra: "Espírito de Equipe",
-        schema: 5046
+        "schema": 5046
     },
     67: {
         img: "force_a_nature",
@@ -595,7 +595,7 @@ let dataItems = {
         sch: "自然之力",
         fre: "La Force-de-la-Nature",
         bra: "A Força da Natureza",
-        schema: 45
+        "schema": 45
     },
     68: {
         img: "bonk_atomic_punch",
@@ -604,7 +604,7 @@ let dataItems = {
         sch: "原子能饮料",
         fre: "Bonk! Atomic Punch",
         bra: "Bonk! Pancada Atômica",
-        schema: 46
+        "schema": 46
     },
     69: {
         img: "huntsman",
@@ -613,7 +613,7 @@ let dataItems = {
         sch: "猎人短弓",
         fre: "Le Huntsman",
         bra: "O Caçador",
-        schema: 56
+        "schema": 56
     },
     70: {
         img: "trophy_belt",
@@ -622,7 +622,7 @@ let dataItems = {
         sch: "战利品帽带",
         fre: "Ceinture trophée",
         bra: "Troféus do Caçador",
-        schema: 53
+        "schema": 53
     },
     71: {
         img: "horrific_headsplitter",
@@ -631,7 +631,7 @@ let dataItems = {
         sch: "可怕的劈头者",
         fre: "Épouvantable Hachoir",
         bra: "Abre-crânios Horripilante",
-        schema: 291
+        "schema": 291
     },
     72: {
         img: "cadavers_cranium",
@@ -640,7 +640,7 @@ let dataItems = {
         sch: "死尸的头盖骨",
         fre: "Boite crânienne d'un cadavre",
         bra: "Crânio do Cadáver",
-        schema: 290
+        "schema": 290
     },
     73: {
         img: "familiar_fez",
@@ -649,7 +649,7 @@ let dataItems = {
         sch: "熟悉的非斯帽",
         fre: "Fez et gestes",
         bra: "Fez Familiar",
-        schema: 223
+        "schema": 223
     },
     74: {
         img: "gift_wrap",
@@ -658,12 +658,12 @@ let dataItems = {
         sch: "礼物包装",
         fre: "Papier Cadeau",
         bra: "Embrulho para Presente",
-        schema: 5042
+        "schema": 5042
     },
     75: {
         img: "i_see_you",
         eng: "Taunt: I See You",
-        schema: 1116,
+        "schema": 1116,
         pol: "Drwina: Widzę cię",
         sch: "嘲讽：看见你了",
         fre: "Raillerie : Je te vois",
@@ -672,7 +672,7 @@ let dataItems = {
     76: {
         img: "buy_a_life",
         eng: "Taunt: Buy A Life",
-        schema: 1108,
+        "schema": 1108,
         pol: "Drwina: Kup sobie życie",
         sch: "嘲讽：强者的施舍",
         fre: "Raillerie : Achète-toi une Vie",
@@ -681,7 +681,7 @@ let dataItems = {
     77: {
         img: "results_are_in",
         eng: "Taunt: Results Are In",
-        schema: 1109,
+        "schema": 1109,
         pol: "Drwina: Mam twoje wyniki",
         sch: "嘲讽：检查报告",
         fre: "Raillerie : Rien d'anormal",
@@ -690,7 +690,7 @@ let dataItems = {
     78: {
         img: "party_trick",
         eng: "Taunt: Party Trick",
-        schema: 1112,
+        "schema": 1112,
         pol: "Drwina: Sztuczka imprezowa",
         sch: "嘲讽：派对礼物",
         fre: "Raillerie : Le petit tour",
@@ -699,7 +699,7 @@ let dataItems = {
     79: {
         img: "fresh_brewed_victory",
         eng: "Taunt: Fresh Brewed Victory",
-        schema: 1113,
+        "schema": 1113,
         pol: "Drwina: Świeżo zaparzone zwycięstwo",
         sch: "嘲讽：先干为敬",
         fre: "Raillerie : Victoire encore chaude",
@@ -708,7 +708,7 @@ let dataItems = {
     80: {
         img: "spent_well_spirits",
         eng: "Taunt: Spent Well Spirits",
-        schema: 1114,
+        "schema": 1114,
         pol: "Drwina: Połykacz ognia",
         sch: "嘲讽：烈酒上头",
         fre: "Raillerie : Cocktail explosif",
@@ -717,7 +717,7 @@ let dataItems = {
     81: {
         img: "rancho_relaxo",
         eng: "Taunt: Rancho Relaxo",
-        schema: 1115,
+        "schema": 1115,
         pol: "Drwina: Relaks na ranczo",
         sch: "嘲讽：悠闲度假",
         fre: "Raillerie : Rancho Relaxo",
@@ -726,7 +726,7 @@ let dataItems = {
     82: {
         img: "battin_a_thousand",
         eng: "Taunt: Battin' a Thousand",
-        schema: 1117,
+        "schema": 1117,
         pol: "Drwina: Perfekcyjny pałkarz",
         sch: "嘲讽：以一敌千",
         fre: "Raillerie : J'dois en être à mille",
@@ -735,7 +735,7 @@ let dataItems = {
     83: {
         img: "oblooterated",
         eng: "Taunt: Oblooterated",
-        schema: 1120,
+        "schema": 1120,
         pol: "Drwina: Upojony",
         sch: "嘲讽：有酒不给喝",
         fre: "Raillerie : Oblooterated",
@@ -744,7 +744,7 @@ let dataItems = {
     84: {
         img: "deep_fried_desire",
         eng: "Taunt: Deep Fried Desire",
-        schema: 1119,
+        "schema": 1119,
         pol: "Drwina: Głęboko smażone pożądanie",
         sch: "嘲讽：有肉不给吃",
         fre: "Raillerie : Le désir consommé",
@@ -753,7 +753,7 @@ let dataItems = {
     85: {
         img: "square_dance",
         eng: "Taunt: Square Dance",
-        schema: 1106,
+        "schema": 1106,
         pol: "Drwina: Oberek",
         sch: "嘲讽：方块舞",
         fre: "Raillerie : Square Dance",
@@ -762,7 +762,7 @@ let dataItems = {
     86: {
         img: "flippin_awesome",
         eng: "Taunt: Flippin' Awesome",
-        schema: 1107,
+        "schema": 1107,
         pol: "Drwina: Wypasiony fikołek",
         sch: "嘲讽：牛逼闪闪的翻跟头",
         fre: "Raillerie : Absolument renversant",
@@ -771,7 +771,7 @@ let dataItems = {
     87: {
         img: "rock_paper_scissors",
         eng: "Taunt: Rock, Paper, Scissors",
-        schema: 1110,
+        "schema": 1110,
         pol: "Drwina: Kamień, papier, nożyce",
         sch: "嘲讽：石头剪刀布",
         fre: "Raillerie : Pierre, Papier, Ciseaux",
@@ -780,7 +780,7 @@ let dataItems = {
     88: {
         img: "conga",
         eng: "Taunt: Conga",
-        schema: 1118,
+        "schema": 1118,
         pol: "Drwina: Konga",
         sch: "嘲讽：康茄舞",
         fre: "Raillerie : Conga",
@@ -789,7 +789,7 @@ let dataItems = {
     89: {
         img: "skullcracker",
         eng: "Taunt: Skullcracker",
-        schema: 1111,
+        "schema": 1111,
         pol: "Drwina: Kruszenie czaszek",
         sch: "嘲讽：砸烂狗头",
         fre: "Raillerie : Briseur de Crânes",
@@ -802,7 +802,7 @@ let dataItems = {
         sch: "红石 手枪",
         bra: "Red Rock Roscoe Pistola",
         fre: "Pistolet Roscoe rouge rouille",
-        schema: 15013,
+        "schema": 15013,
         "schema2": 0
     },
     91: {
@@ -812,7 +812,7 @@ let dataItems = {
         sch: "沙漠巨炮 火箭发射器",
         bra: "Canhão de Areia Lança-Foguetes",
         fre: "Lance-Roquettes Canon sablé",
-        schema: 15014,
+        "schema": 15014,
         "schema2": 1
     },
     92: {
@@ -822,7 +822,7 @@ let dataItems = {
         sch: "瞬间爆发 黏性炸弹发射器",
         bra: "Enxurrada Inesperada Lança-stickybombs",
         fre: "Lanceur de Bombes collantes Rafale surprise",
-        schema: 15009,
+        "schema": 15009,
         "schema2": 8
     },
     93: {
@@ -832,7 +832,7 @@ let dataItems = {
         sch: "幻彩 左轮手枪",
         bra: "Batedor Psicodélico Revólver",
         fre: "Revolver psychédélique",
-        schema: 15011,
+        "schema": 15011,
         "schema2": 3
     },
     94: {
@@ -842,7 +842,7 @@ let dataItems = {
         sch: "紫光十射 狙击步枪",
         bra: "Pontaria Púrpura Rifle de Sniper",
         fre: "Fusil de chasse violet",
-        schema: 15007,
+        "schema": 15007,
         "schema2": 7
     },
     95: {
@@ -852,7 +852,7 @@ let dataItems = {
         sch: "夜之恐惧 猎枪",
         bra: "Terror da Meia-noite Espingarda",
         fre: "Fusil à dispersion Terreur nocturne",
-        schema: 15002,
+        "schema": 15002,
         "schema2": 11
     },
     96: {
@@ -862,7 +862,7 @@ let dataItems = {
         sch: "地毯式轰炸 黏性炸弹发射器",
         bra: "Arrasa Quarteirão Lança-stickybombs",
         fre: "Lanceur de Bombes collantes Bombardier tapissé",
-        schema: 15012,
+        "schema": 15012,
         "schema2": 4
     },
     97: {
@@ -872,7 +872,7 @@ let dataItems = {
         sch: "林地战士 火箭发射器",
         bra: "Matador do Matagal Lança-foguetes",
         fre: "Lance-Roquettes Guerrier des bois",
-        schema: 15006,
+        "schema": 15006,
         "schema2": 6
     },
     98: {
@@ -882,7 +882,7 @@ let dataItems = {
         sch: "迷彩救援者 医疗枪",
         bra: "Revivedor Embrulhado Arma Médica",
         fre: "Medigun Ressuscitateur emballé",
-        schema: 15010,
+        "schema": 15010,
         "schema2": 2
     },
     99: {
@@ -892,7 +892,7 @@ let dataItems = {
         sch: "森林之火 火焰喷射器",
         bra: "Fogo na Floresta Lança-chamas",
         fre: "Lance-flammes Feu de forêt",
-        schema: 15005,
+        "schema": 15005,
         "schema2": 9
     },
     100: {
@@ -902,7 +902,7 @@ let dataItems = {
         sch: "夜枭 狙击步枪",
         bra: "Coruja da Noite Rifle de Sniper",
         fre: "Fusil de sniper Oiseau de nuit",
-        schema: 15000,
+        "schema": 15000,
         "schema2": 14
     },
     101: {
@@ -912,7 +912,7 @@ let dataItems = {
         sch: "绝后之木 SMG",
         bra: "Viuvadora Verdejante Submetralhadora",
         fre: "Mitraillette Endeuilleur boisé",
-        schema: 15001,
+        "schema": 15001,
         "schema2": 13
     },
     102: {
@@ -922,7 +922,7 @@ let dataItems = {
         sch: "荒野神兵 霰弹枪",
         bra: "Sertão Escopeta",
         fre: "Fusil à pompe Fusil de derrière les fagots",
-        schema: 15003,
+        "schema": 15003,
         "schema2": 12
     },
     103: {
@@ -932,7 +932,7 @@ let dataItems = {
         sch: "丛林之王 医疗枪",
         bra: "Rei da Selva Metralhadora Giratória",
         fre: "Minigun Roi de la jungle",
-        schema: 15004,
+        "schema": 15004,
         "schema2": 10
     },
     104: {
@@ -942,7 +942,7 @@ let dataItems = {
         sch: "蒙面者 医疗枪",
         bra: "Medicamento Mascarado Arma Médica",
         fre: "Medigun Réparateur masqué",
-        schema: 15008,
+        "schema": 15008,
         "schema2": 5
     },
     105: {
@@ -952,7 +952,7 @@ let dataItems = {
         sch: "闪亮的粉红色",
         fre: "Un Rose d'Enfer",
         bra: "Rosa pra Caramba",
-        schema: 5051
+        "schema": 5051
     },
     106: {
         img: "a_color_similar_to_slate",
@@ -961,7 +961,7 @@ let dataItems = {
         sch: "石板似的颜色",
         fre: "Une Couleur Similaire à l'Ardoise",
         bra: "Uma Cor Similar à Ardósia",
-        schema: 5052
+        "schema": 5052
     },
     107: {
         img: "drably_olive",
@@ -970,7 +970,7 @@ let dataItems = {
         sch: "平淡榄色",
         fre: "Vert Olive",
         bra: "Oliva Monótono",
-        schema: 5053
+        "schema": 5053
     },
     108: {
         img: "the_bitter_taste_of_defeat_and_lime",
@@ -979,7 +979,7 @@ let dataItems = {
         sch: "苦涩的青柠绿",
         fre: "Le Goût Amer de la Défaite et du Citron Vert",
         bra: "O Amargo Sabor de Derrota e Limão",
-        schema: 5054
+        "schema": 5054
     },
     109: {
         img: "the_color_of_a_gentlemanns_business_pants",
@@ -988,7 +988,7 @@ let dataItems = {
         sch: "绅士商务裤的颜色",
         fre: "La Couleur du Pantalon d'Affaires d'un Gentlemann",
         bra: "A Cor das Calças de Negócios de um Cavalheiro",
-        schema: 5055
+        "schema": 5055
     },
     110: {
         img: "dark_salmon_injustice",
@@ -997,7 +997,7 @@ let dataItems = {
         sch: "不公正的深橙红",
         fre: "Injustice Saumon Foncé",
         bra: "Injustiça Salmão Escuro",
-        schema: 5056
+        "schema": 5056
     },
     111: {
         img: "grenadiers_softcap",
@@ -1006,7 +1006,7 @@ let dataItems = {
         sch: "投弹兵的软帽",
         fre: "Casquette de grenadier",
         bra: "Quepe do Granadeiro",
-        schema: 227
+        "schema": 227
     },
     112: {
         img: "indubitably_green",
@@ -1015,7 +1015,7 @@ let dataItems = {
         sch: "不容置疑的绿色",
         fre: "Indubitablement Vert",
         bra: "Indiscutivelmente Verde",
-        schema: 5027
+        "schema": 5027
     },
     113: {
         img: "zepheniahs_greed",
@@ -1024,7 +1024,7 @@ let dataItems = {
         sch: "贪欲黑暗绿色",
         fre: "L'Avarice de Zepheniah",
         bra: "Ganância do Zepheniah",
-        schema: 5028
+        "schema": 5028
     },
     114: {
         img: "noble_hatters_violet",
@@ -1033,7 +1033,7 @@ let dataItems = {
         sch: "贵族帽商紫色",
         fre: "Violet de l'Aristocrate Chapeauté",
         bra: "Violeta do Nobre Chapeleiro",
-        schema: 5029
+        "schema": 5029
     },
     115: {
         img: "ullapool_caber",
@@ -1042,7 +1042,7 @@ let dataItems = {
         sch: "木柄手榴弹",
         fre: "Le Caber d'Ullapool",
         bra: "A Tora de Ullapool",
-        schema: 307
+        "schema": 307
     },
     116: {
         img: "lochnload",
@@ -1051,7 +1051,7 @@ let dataItems = {
         sch: "双管榴弹发射器",
         fre: "Le Loch-n-Load",
         bra: "A Bomba do Lago Ness",
-        schema: 308
+        "schema": 308
     },
     117: {
         img: "scotch_bonnet",
@@ -1060,7 +1060,7 @@ let dataItems = {
         sch: "破损的防暴头盔",
         fre: "Casque Écossais",
         bra: "Capacete Escocês",
-        schema: 306
+        "schema": 306
     },
     118: {
         img: "glengarry_bonnet",
@@ -1069,7 +1069,7 @@ let dataItems = {
         sch: "苏格兰软帽",
         fre: "Bonnet Glengarry",
         bra: "Boina Glengarry",
-        schema: 100
+        "schema": 100
     },
     119: {
         img: "mann_co_orange",
@@ -1078,7 +1078,7 @@ let dataItems = {
         sch: "曼恩企业橙",
         fre: "Orange Mann Co.",
         bra: "Laranja Mann Co.",
-        schema: 5032
+        "schema": 5032
     },
     120: {
         img: "crusaders_crossbow",
@@ -1087,7 +1087,7 @@ let dataItems = {
         sch: "十字军之弩",
         fre: "L'Arbalète du Croisé",
         bra: "A Besta do Cruzado",
-        schema: 305
+        "schema": 305
     },
     121: {
         img: "amputator",
@@ -1096,7 +1096,7 @@ let dataItems = {
         sch: "器官切割器",
         fre: "L'Amputateur",
         bra: "A Amputadora",
-        schema: 304
+        "schema": 304
     },
     122: {
         img: "berliners_bucket_helm",
@@ -1105,7 +1105,7 @@ let dataItems = {
         sch: "柏林的桶式头盔",
         fre: "Seau Berlinois",
         bra: "Elmo do Berlinense",
-        schema: 303
+        "schema": 303
     },
     123: {
         img: "vintage_tyrolean",
@@ -1114,7 +1114,7 @@ let dataItems = {
         sch: "传统提洛帽",
         fre: "Chapeau tyrolien",
         bra: "Tirolês Clássico",
-        schema: 101
+        "schema": 101
     },
     124: {
         img: "prussian_pickelhaube",
@@ -1123,7 +1123,7 @@ let dataItems = {
         sch: "普鲁士头盔",
         fre: "Casque à pointe prussien",
         bra: "Pickelhaube Prussiano",
-        schema: 50
+        "schema": 50
     },
     125: {
         img: "muskelmannbraun",
@@ -1132,7 +1132,7 @@ let dataItems = {
         sch: "肌肉男的肤色",
         fre: "Marronmuskelmann",
         bra: "Muskelmannbraun",
-        schema: 5033
+        "schema": 5033
     },
     126: {
         img: "peculiarly_drab_tincture",
@@ -1141,7 +1141,7 @@ let dataItems = {
         sch: "沉闷乏味赭",
         fre: "Teinture Mate Particulière",
         bra: "Tintura Peculiarmente Amarronzada",
-        schema: 5034
+        "schema": 5034
     },
     127: {
         img: "radigan_conagher_brown",
@@ -1150,7 +1150,7 @@ let dataItems = {
         sch: "褐色",
         fre: "Brun Radigan Conagher",
         bra: "Marrom Radigan Conagher",
-        schema: 5035
+        "schema": 5035
     },
     128: {
         img: "brass_beast",
@@ -1159,7 +1159,7 @@ let dataItems = {
         sch: "黄铜猛兽",
         fre: "La Bête de Bronze",
         bra: "A Fera de Bronze",
-        schema: 312
+        "schema": 312
     },
     129: {
         img: "buffalo_steak_sandvich",
@@ -1168,7 +1168,7 @@ let dataItems = {
         sch: "水牛排三明治",
         fre: "Le Sandvich au Steak de Bison",
         bra: "O Sandviche de Bife de Búfalo",
-        schema: 311
+        "schema": 311
     },
     130: {
         img: "big_chief",
@@ -1177,7 +1177,7 @@ let dataItems = {
         sch: "大酋长",
         fre: "Le Grand Chef",
         bra: "O Grande Cacique",
-        schema: 309,
+        "schema": 309,
         "schema2": 5725
     },
     131: {
@@ -1187,7 +1187,7 @@ let dataItems = {
         sch: "官员的红军帽",
         fre: "Ouchanka d'officier",
         bra: "Ushanka do Oficial",
-        schema: 96
+        "schema": 96
     },
     132: {
         img: "sydney_sleeper",
@@ -1196,7 +1196,7 @@ let dataItems = {
         sch: "悉尼沉睡者",
         fre: "La Sarbacane de Sydney",
         bra: "O Anestesiador de Sydney",
-        schema: 230
+        "schema": 230
     },
     133: {
         img: "ol_snaggletooth",
@@ -1205,7 +1205,7 @@ let dataItems = {
         sch: "老鳄鱼的龅牙",
         fre: "Sacré dentier",
         bra: "Velho Dente-torto",
-        schema: 229
+        "schema": 229
     },
     134: {
         img: "professionals_panama",
@@ -1214,7 +1214,7 @@ let dataItems = {
         sch: "专业人士的巴拿马草帽",
         fre: "Panama du professionnel",
         bra: "Panamá do Profissional",
-        schema: 109
+        "schema": 109
     },
     135: {
         img: "shooters_sola_topi",
@@ -1223,7 +1223,7 @@ let dataItems = {
         sch: "猎手的索拉托皮",
         fre: "Tireur Colonial",
         bra: "Chapéu de Safári",
-        schema: 158
+        "schema": 158
     },
     136: {
         img: "backbiters_billycock",
@@ -1232,7 +1232,7 @@ let dataItems = {
         sch: "背后诽谤者的小礼帽",
         fre: "Chapeau melon",
         bra: "Chapéu-coco do Caluniador",
-        schema: 108
+        "schema": 108
     },
     137: {
         img: "tyrants_helm",
@@ -1241,7 +1241,7 @@ let dataItems = {
         sch: "暴君头盔",
         fre: "Casque de viking",
         bra: "Elmo do Tirano",
-        schema: 99
+        "schema": 99
     },
     138: {
         img: "mad_milk",
@@ -1250,7 +1250,7 @@ let dataItems = {
         sch: "疯狂的牛奶",
         fre: "Lait frelaté",
         bra: "Leite Louco",
-        schema: 222
+        "schema": 222
     },
     139: {
         img: "degreaser",
@@ -1259,7 +1259,7 @@ let dataItems = {
         sch: "脱油剂",
         fre: "Le Dégraisseur",
         bra: "O Desengraxante",
-        schema: 215
+        "schema": 215
     },
     140: {
         img: "attendant",
@@ -1268,7 +1268,7 @@ let dataItems = {
         sch: "服务员之帽",
         fre: "Le Préposé",
         bra: "Frentista",
-        schema: 213
+        "schema": 213
     },
     141: {
         img: "wrangler",
@@ -1277,7 +1277,7 @@ let dataItems = {
         sch: "遥控手柄",
         fre: "Le Dompteur",
         bra: "O Peão",
-        schema: 140
+        "schema": 140
     },
     142: {
         img: "hotrod",
@@ -1286,7 +1286,7 @@ let dataItems = {
         sch: "电焊面罩",
         fre: "Hotrod",
         bra: "Hotrod",
-        schema: 148
+        "schema": 148
     },
     143: {
         img: "professors_peculiarity",
@@ -1295,7 +1295,7 @@ let dataItems = {
         sch: "教授的蓬乱白发",
         fre: "Particularité Professorale",
         bra: "Peculiaridade do Professor",
-        schema: 384
+        "schema": 384
     },
     144: {
         img: "grenade_launcher",
@@ -1304,7 +1304,7 @@ let dataItems = {
         sch: "榴弹发射器",
         fre: "Lance-grenades",
         bra: "Lança-granadas",
-        schema: 206
+        "schema": 206
     },
     145: {
         img: "stickybomb_launcher",
@@ -1313,7 +1313,7 @@ let dataItems = {
         sch: "黏性炸弹发射器",
         fre: "Lanceur de bombes collantes",
         bra: "Lança-stickybombs",
-        schema: 207
+        "schema": 207
     },
     146: {
         img: "eyelander",
@@ -1322,7 +1322,7 @@ let dataItems = {
         sch: "苏格兰长剑",
         fre: "L'Eyelander",
         bra: "A Eyelander",
-        schema: 132
+        "schema": 132
     },
     147: {
         img: "hustlers_hallmark",
@@ -1331,7 +1331,7 @@ let dataItems = {
         sch: "皮条客的标志帽",
         fre: "Marque du Débrouillard",
         bra: "Chapéu do Malandro",
-        schema: 146
+        "schema": 146
     },
     148: {
         img: "tipplers_tricorne",
@@ -1340,12 +1340,12 @@ let dataItems = {
         sch: "醉汉的三角帽",
         fre: "Tricorne de l'ivrogne",
         bra: "Tricórnio do Bêbado",
-        schema: 179
+        "schema": 179
     },
     149: {
         img: "schadenfreude",
         eng: "Taunt: The Schadenfreude",
-        schema: 463,
+        "schema": 463,
         pol: "Drwina: Schadenfreude",
         sch: "嘲讽：幸灾乐祸",
         fre: "Raillerie : La Schadenfreude",
@@ -1358,7 +1358,7 @@ let dataItems = {
         sch: "火箭发射器",
         fre: "Lance-roquettes",
         bra: "Lança-foguetes",
-        schema: 205
+        "schema": 205
     },
     151: {
         img: "shotgun",
@@ -1367,7 +1367,7 @@ let dataItems = {
         sch: "霰弹枪",
         fre: "Fusil à pompe",
         bra: "Escopeta",
-        schema: 199
+        "schema": 199
     },
     152: {
         img: "killers_kabuto",
@@ -1376,7 +1376,7 @@ let dataItems = {
         sch: "杀手的武士之胄",
         fre: "Kabuto de tueur",
         bra: "Kabuto do Assassino",
-        schema: 152
+        "schema": 152
     },
     153: {
         img: "sergeants_drill_hat",
@@ -1385,7 +1385,7 @@ let dataItems = {
         sch: "士官的操练帽",
         fre: "Chapeau d'Entraînement du Sergent",
         bra: "Chapelão do Sargento",
-        schema: 183
+        "schema": 183
     },
     154: {
         img: "gloves_of_running_urgently",
@@ -1394,7 +1394,7 @@ let dataItems = {
         sch: "紧急逃跑手套",
         fre: "Gants de Retraite Urgente",
         bra: "As Geradoras de Rapidez Urgente",
-        schema: 1184
+        "schema": 1184
     },
     155: {
         img: "minigun",
@@ -1403,7 +1403,7 @@ let dataItems = {
         sch: "转轮机枪",
         fre: "Minigun",
         bra: "Metralhadora Giratória",
-        schema: 202
+        "schema": 202
     },
     156: {
         img: "natascha",
@@ -1412,7 +1412,7 @@ let dataItems = {
         sch: "娜塔莎转轮机枪",
         fre: "Natascha",
         bra: "Natascha",
-        schema: 41
+        "schema": 41
     },
     157: {
         img: "hound_dog",
@@ -1421,7 +1421,7 @@ let dataItems = {
         sch: "猎犬",
         fre: "Hound Dog",
         bra: "Cão de Caça",
-        schema: 145
+        "schema": 145
     },
     158: {
         img: "football_helmet",
@@ -1430,7 +1430,7 @@ let dataItems = {
         sch: "橄榄球头盔",
         fre: "Casque de football",
         bra: "Capacete de Futebol Americano",
-        schema: 49
+        "schema": 49
     },
     159: {
         img: "big_steel_jaw_of_summer_fun",
@@ -1439,7 +1439,7 @@ let dataItems = {
         sch: "夏日狂欢大钢颚",
         fre: "Mâchoire en Acier d'Amusement Estivale",
         bra: "Grande Mandíbula de Aço de Diversão de Verão",
-        schema: 485
+        "schema": 485
     },
     160: {
         img: "coppers_hard_top",
@@ -1448,7 +1448,7 @@ let dataItems = {
         sch: "警用机车头盔",
         fre: "Casque de Policier",
         bra: "Capacete do Tira",
-        schema: 478
+        "schema": 478
     },
     161: {
         img: "nessies_nine_iron",
@@ -1457,7 +1457,7 @@ let dataItems = {
         sch: "尼斯的九号铁杆",
         fre: "Fer N°9 de Nessie",
         bra: "Ferro Nove do Nessie",
-        schema: 482
+        "schema": 482
     },
     162: {
         img: "postal_pummeler",
@@ -1466,7 +1466,7 @@ let dataItems = {
         sch: "明信片打手",
         fre: "Le Poutreur Postal",
         bra: "A Pancada Postal",
-        schema: 457
+        "schema": 457
     },
     163: {
         img: "prairie_heel_biters",
@@ -1475,7 +1475,7 @@ let dataItems = {
         sch: "草原钉刺马靴",
         fre: "Éperons des Plaines",
         bra: "Esporas da Pradaria",
-        schema: 484
+        "schema": 484
     },
     164: {
         img: "rogues_col_roule",
@@ -1484,7 +1484,7 @@ let dataItems = {
         sch: "盗贼的高领毛衣",
         fre: "Col Roulé du Voleur",
         bra: "Cou Roule do Malandro",
-        schema: 483
+        "schema": 483
     },
     165: {
         img: "security_shades",
@@ -1493,7 +1493,7 @@ let dataItems = {
         sch: "保安墨镜",
         fre: "Lunettes Sécuritaires",
         bra: "Óculos do Segurança",
-        schema: 479
+        "schema": 479
     },
     166: {
         img: "stately_steel_toe",
@@ -1502,7 +1502,7 @@ let dataItems = {
         sch: "高贵的铁皮鞋",
         fre: "Noble Chaussure de Sécurité",
         bra: "Pontapé Imponente",
-        schema: 481
+        "schema": 481
     },
     167: {
         img: "tam_o_shanter",
@@ -1511,7 +1511,7 @@ let dataItems = {
         sch: "苏格兰式便帽",
         fre: "Béret Écossais",
         bra: "Tam O' Shanter",
-        schema: 480
+        "schema": 480
     },
     168: {
         img: "sandman",
@@ -1520,7 +1520,7 @@ let dataItems = {
         sch: "睡魔",
         fre: "Le marchand de sable",
         bra: "O João Pestana",
-        schema: 44
+        "schema": 44
     },
     169: {
         img: "pistol",
@@ -1529,7 +1529,7 @@ let dataItems = {
         sch: "手枪",
         fre: "Pistolet",
         bra: "Pistola",
-        schema: 23
+        "schema": 23
     },
     170: {
         img: "scattergun",
@@ -1538,7 +1538,7 @@ let dataItems = {
         sch: "猎枪",
         fre: "Fusil à dispersion",
         bra: "Espingarda",
-        schema: 200
+        "schema": 200
     },
     171: {
         img: "boston_basher",
@@ -1547,7 +1547,7 @@ let dataItems = {
         sch: "波士顿狼牙棒",
         fre: "Le Bastonneur Bostonien",
         bra: "O Batedor de Boston",
-        schema: 325
+        "schema": 325
     },
     172: {
         img: "ye_olde_baker_boy",
@@ -1556,7 +1556,7 @@ let dataItems = {
         sch: "老式报童帽",
         fre: "Casquette de gavroche",
         bra: "Padeirinho, ô pá!",
-        schema: 107
+        "schema": 107
     },
     173: {
         img: "ambassador",
@@ -1565,7 +1565,7 @@ let dataItems = {
         sch: "大使手枪",
         fre: "L'Ambassadeur",
         bra: "O Embaixador",
-        schema: 61
+        "schema": 61
     },
     174: {
         img: "connivers_kunai",
@@ -1574,7 +1574,7 @@ let dataItems = {
         sch: "密谋者的苦无",
         fre: "Kunaï du Conspirateur",
         bra: "Kunai do Conspirador",
-        schema: 356
+        "schema": 356
     },
     175: {
         img: "knife",
@@ -1583,7 +1583,7 @@ let dataItems = {
         sch: "刀子",
         fre: "Couteau",
         bra: "Faca",
-        schema: 194
+        "schema": 194
     },
     176: {
         img: "revolver",
@@ -1592,7 +1592,7 @@ let dataItems = {
         sch: "左轮手枪",
         fre: "Revolver",
         bra: "Revólver",
-        schema: 24
+        "schema": 24
     },
     177: {
         img: "private_eye",
@@ -1601,7 +1601,7 @@ let dataItems = {
         sch: "私家侦探帽",
         fre: "Détective Privé",
         bra: "Detetive Particular",
-        schema: 388,
+        "schema": 388,
         "schema2": 5724
     },
     178: {
@@ -1611,7 +1611,7 @@ let dataItems = {
         sch: "花哨软呢帽",
         fre: "Fedora élégant",
         bra: "Fedora Fabuloso",
-        schema: 55
+        "schema": 55
     },
     179: {
         img: "flame_thrower",
@@ -1620,7 +1620,7 @@ let dataItems = {
         sch: "火焰喷射器",
         fre: "Lance-flammes",
         bra: "Lança-chamas",
-        schema: 208
+        "schema": 208
     },
     180: {
         img: "flare_gun",
@@ -1629,7 +1629,7 @@ let dataItems = {
         sch: "信号枪",
         fre: "Pistolet de détresse",
         bra: "Arma Sinalizadora",
-        schema: 39
+        "schema": 39
     },
     181: {
         img: "backburner",
@@ -1638,7 +1638,7 @@ let dataItems = {
         sch: "偷袭烈焰喷射器",
         fre: "Le brûleur arrière",
         bra: "O Queima-costas",
-        schema: 40
+        "schema": 40
     },
     182: {
         img: "prancers_pride",
@@ -1647,7 +1647,7 @@ let dataItems = {
         sch: "驯鹿欢腾的角",
         fre: "Fierté de Prancer",
         bra: "Orgulho da Rena",
-        schema: 318
+        "schema": 318
     },
     183: {
         img: "respectless_rubber_glove",
@@ -1656,7 +1656,7 @@ let dataItems = {
         sch: "邋遢的橡胶手套",
         fre: "Gant en caoutchouc ridicule",
         bra: "Luva de Borracha Patética",
-        schema: 102
+        "schema": 102
     },
     184: {
         img: "syringe_gun",
@@ -1665,7 +1665,7 @@ let dataItems = {
         sch: "注射枪",
         fre: "Pistolet à seringues",
         bra: "Arma de Seringas",
-        schema: 204
+        "schema": 204
     },
     185: {
         img: "bonesaw",
@@ -1674,7 +1674,7 @@ let dataItems = {
         sch: "骨锯",
         fre: "Scie à amputation",
         bra: "Serra de Ossos",
-        schema: 198
+        "schema": 198
     },
     186: {
         img: "medi_gun",
@@ -1683,7 +1683,7 @@ let dataItems = {
         sch: "医疗枪",
         fre: "Medigun",
         bra: "Arma Médica",
-        schema: 211
+        "schema": 211
     },
     187: {
         img: "gentlemans_gatsby",
@@ -1692,7 +1692,7 @@ let dataItems = {
         sch: "绅士的盖茨比帽",
         fre: "Gatsby du Gentleman",
         bra: "Boina do Cavalheiro",
-        schema: 184
+        "schema": 184
     },
     188: {
         img: "otolaryngologists_mirror",
@@ -1701,7 +1701,7 @@ let dataItems = {
         sch: "耳鼻喉科医师的诊疗镜",
         fre: "Miroir d'oto-rhino-laryngologiste",
         bra: "Espelho do Otorrinolaringologista",
-        schema: 104
+        "schema": 104
     },
     189: {
         img: "sniper_rifle",
@@ -1710,7 +1710,7 @@ let dataItems = {
         sch: "狙击步枪",
         fre: "Fusil de sniper",
         bra: "Rifle de Sniper",
-        schema: 201
+        "schema": 201
     },
     190: {
         img: "jarate",
@@ -1719,7 +1719,7 @@ let dataItems = {
         sch: "瓶手道",
         fre: "Jaraté",
         bra: "Jarratê",
-        schema: 58
+        "schema": 58
     },
     191: {
         img: "villains_veil",
@@ -1728,7 +1728,7 @@ let dataItems = {
         sch: "恶棍的面罩",
         fre: "Voile du Vaurien",
         bra: "Véu do Vilão",
-        schema: 393
+        "schema": 393
     },
     192: {
         img: "frontier_justice",
@@ -1737,7 +1737,7 @@ let dataItems = {
         sch: "边境审判",
         fre: "Que justice soit faite",
         bra: "Justiça com a Própria Sentinela",
-        schema: 141
+        "schema": 141
     },
     193: {
         img: "wrench",
@@ -1746,7 +1746,7 @@ let dataItems = {
         sch: "扳手",
         fre: "Clé",
         bra: "Chave Inglesa",
-        schema: 197
+        "schema": 197
     },
     194: {
         img: "mining_light",
@@ -1755,7 +1755,7 @@ let dataItems = {
         sch: "矿灯",
         fre: "Lampe de mineur",
         bra: "Luz de Mineração",
-        schema: 48
+        "schema": 48
     },
     195: {
         img: "axtinguisher",
@@ -1764,7 +1764,7 @@ let dataItems = {
         sch: "火焰战斧",
         fre: "L'Hachtincteur",
         bra: "O Queimachado",
-        schema: 38
+        "schema": 38
     },
     196: {
         img: "razorback",
@@ -1773,7 +1773,7 @@ let dataItems = {
         sch: "电击背脊盾",
         fre: "Le Razorback",
         bra: "O Escudo Antinavalha",
-        schema: 57
+        "schema": 57
     },
     197: {
         img: "tough_guys_toque",
@@ -1782,7 +1782,7 @@ let dataItems = {
         sch: "硬汉的无边帽",
         fre: "Tuque de gros dur",
         bra: "Touca do Valentão",
-        schema: 97
+        "schema": 97
     },
     198: {
         img: "frenchmans_beret",
@@ -1791,7 +1791,7 @@ let dataItems = {
         sch: "法式贝雷帽",
         fre: "Béret du Français",
         bra: "Boina do Francês",
-        schema: 180
+        "schema": 180
     },
     199: {
         img: "kritzkrieg",
@@ -1800,7 +1800,7 @@ let dataItems = {
         sch: "闪电战医疗枪",
         fre: "Le Kritzkrieg",
         bra: "A Kritzkrieg",
-        schema: 35
+        "schema": 35
     },
     200: {
         img: "holy_mackerel",
@@ -1809,7 +1809,7 @@ let dataItems = {
         sch: "圣灵鲭鱼",
         fre: "Le maquereau sacré",
         bra: "O Santo Carapau",
-        schema: 221
+        "schema": 221
     },
     201: {
         img: "machina",
@@ -1818,7 +1818,7 @@ let dataItems = {
         sch: "鬼械神狙",
         fre: "La Machina",
         bra: "A Machina",
-        schema: 526
+        "schema": 526
     },
     202: {
         img: "half_zatoichi",
@@ -1827,7 +1827,7 @@ let dataItems = {
         sch: "座头市之刀",
         fre: "Demi-Zatoichi",
         bra: "Quase-Zatoichi",
-        schema: 357
+        "schema": 357
     },
     203: {
         img: "fists",
@@ -1836,7 +1836,7 @@ let dataItems = {
         sch: "拳头",
         fre: "Poings",
         bra: "Punhos",
-        schema: 195
+        "schema": 195
     },
     204: {
         img: "grimm_hatte",
@@ -1845,7 +1845,7 @@ let dataItems = {
         sch: "黑死病医帽",
         fre: "Sinistre Haine",
         bra: "Schapel dos Grimm",
-        schema: 383
+        "schema": 383
     },
     205: {
         img: "ubersaw",
@@ -1854,7 +1854,7 @@ let dataItems = {
         sch: "过载充能锯",
         fre: "L'Überscie",
         bra: "A Überserra",
-        schema: 37
+        "schema": 37
     },
     206: {
         img: "soda_popper",
@@ -1863,7 +1863,7 @@ let dataItems = {
         sch: "苏打炮手",
         fre: "Le Rafraîchisseur",
         bra: "A Refrispingarda",
-        schema: 448
+        "schema": 448
     },
     207: {
         img: "family_business",
@@ -1872,7 +1872,7 @@ let dataItems = {
         sch: "家族运营枪",
         fre: "L'Entreprise Familiale",
         bra: "Os Negócios de Família",
-        schema: 425
+        "schema": 425
     },
     208: {
         img: "reserve_shooter",
@@ -1881,7 +1881,7 @@ let dataItems = {
         sch: "预备役射手",
         fre: "Le Tireur Réserviste",
         bra: "O Atirador Reserva",
-        schema: 415
+        "schema": 415
     },
     209: {
         img: "atomizer",
@@ -1890,7 +1890,7 @@ let dataItems = {
         sch: "原子能球棒",
         fre: "L'Atomiseur",
         bra: "O Atomizador",
-        schema: 450
+        "schema": 450
     },
     210: {
         img: "hard_counter",
@@ -1899,7 +1899,7 @@ let dataItems = {
         sch: "坚固的雨伞帽子",
         fre: "Grands moyens",
         bra: "Para-chuva",
-        schema: 254
+        "schema": 254
     },
     211: {
         img: "western_wear",
@@ -1908,7 +1908,7 @@ let dataItems = {
         sch: "西部圆顶礼帽",
         fre: "Usure de l'Ouest",
         bra: "Veste do Oeste",
-        schema: 379
+        "schema": 379
     },
     212: {
         img: "festive_scattergun",
@@ -1917,7 +1917,7 @@ let dataItems = {
         sch: "节日猎枪",
         fre: "Fusil à dispersion festif",
         bra: "Espingarda Festiva",
-        schema: 669
+        "schema": 669
     },
     213: {
         img: "festive_bat",
@@ -1926,7 +1926,7 @@ let dataItems = {
         sch: "节日球棒",
         fre: "Batte festive",
         bra: "Taco Festivo",
-        schema: 660
+        "schema": 660
     },
     214: {
         img: "festive_rocket_launcher",
@@ -1935,7 +1935,7 @@ let dataItems = {
         sch: "节日火箭发射器",
         fre: "Lance-roquettes festif",
         bra: "Lança-foguetes Festivo",
-        schema: 658
+        "schema": 658
     },
     215: {
         img: "festive_flame_thrower",
@@ -1944,7 +1944,7 @@ let dataItems = {
         sch: "节日火焰喷射器",
         fre: "Lance-flammes festif",
         bra: "Lança-chamas Festivo",
-        schema: 659
+        "schema": 659
     },
     216: {
         img: "festive_stickybomb_launcher",
@@ -1953,7 +1953,7 @@ let dataItems = {
         sch: "节日黏性炸弹发射器",
         fre: "Lanceur de bombes collantes festif",
         bra: "Lança-stickybombs Festivo",
-        schema: 661
+        "schema": 661
     },
     217: {
         img: "festive_minigun",
@@ -1962,7 +1962,7 @@ let dataItems = {
         sch: "节日转轮机枪",
         fre: "Minigun festif",
         bra: "Metralhadora Giratória Festiva",
-        schema: 654
+        "schema": 654
     },
     218: {
         img: "festive_wrench",
@@ -1971,7 +1971,7 @@ let dataItems = {
         sch: "节日扳手",
         fre: "Clé festive",
         bra: "Chave Inglesa Festiva",
-        schema: 662
+        "schema": 662
     },
     219: {
         img: "festive_medi_gun",
@@ -1980,7 +1980,7 @@ let dataItems = {
         sch: "节日医疗枪",
         fre: "Medigun festif",
         bra: "Arma Médica Festiva",
-        schema: 663
+        "schema": 663
     },
     220: {
         img: "festive_sniper_rifle",
@@ -1989,7 +1989,7 @@ let dataItems = {
         sch: "节日狙击步枪",
         fre: "Fusil de sniper festif",
         bra: "Rifle de Sniper Festivo",
-        schema: 664
+        "schema": 664
     },
     221: {
         img: "festive_knife",
@@ -1998,7 +1998,7 @@ let dataItems = {
         sch: "节日刀子",
         fre: "Couteau festif",
         bra: "Faca Festiva",
-        schema: 665
+        "schema": 665
     },
     222: {
         img: "wrap_assassin",
@@ -2007,7 +2007,7 @@ let dataItems = {
         sch: "包装纸杀手",
         fre: "L'assassin emballé",
         bra: "O Assassino do Embrulho",
-        schema: 648
+        "schema": 648
     },
     223: {
         img: "holiday_punch",
@@ -2016,7 +2016,7 @@ let dataItems = {
         sch: "欢乐拳套",
         fre: "Le Punch des Vacances",
         bra: "O Soco Festivo",
-        schema: 656
+        "schema": 656
     },
     224: {
         img: "spy_cicle",
@@ -2025,7 +2025,7 @@ let dataItems = {
         sch: "神奇的冰柱",
         fre: "La Spy-lactite",
         bra: "O Spy-lactite",
-        schema: 649
+        "schema": 649
     },
     225: {
         img: "big_elfin_deal",
@@ -2034,7 +2034,7 @@ let dataItems = {
         sch: "欢乐小精灵的帽子",
         fre: "Une Affaire elftraordinaire",
         bra: "Baita Duen-de Uma Barganha",
-        schema: 652
+        "schema": 652
     },
     226: {
         img: "bootie_time",
@@ -2043,7 +2043,7 @@ let dataItems = {
         sch: "欢乐小精灵的鞋子",
         fre: "Le Temps des Bottines",
         bra: "As Botinhas da Hora",
-        schema: 653
+        "schema": 653
     },
     227: {
         img: "all_father",
@@ -2052,7 +2052,7 @@ let dataItems = {
         sch: "雪白的大胡子",
         fre: "Le Père de Tout",
         bra: "Pai de Todos",
-        schema: 647
+        "schema": 647
     },
     228: {
         img: "ornament_armament",
@@ -2061,7 +2061,7 @@ let dataItems = {
         sch: "闪亮的装饰炸弹",
         fre: "L'Armement Ornemental",
         bra: "O Armamento de Ornamento",
-        schema: 641
+        "schema": 641
     },
     229: {
         img: "kringle_collection",
@@ -2070,7 +2070,7 @@ let dataItems = {
         sch: "暖和的雪绒外套",
         fre: "La Collection de Kringle",
         bra: "A Coleção do Noel",
-        schema: 650
+        "schema": 650
     },
     230: {
         img: "head_warmer",
@@ -2079,7 +2079,7 @@ let dataItems = {
         sch: "冬季雪绒帽",
         fre: "La Tête Brulée",
         bra: "O Aquecedor de Cabeça",
-        schema: 644
+        "schema": 644
     },
     231: {
         img: "jingle_belt",
@@ -2088,7 +2088,7 @@ let dataItems = {
         sch: "雪橇响铃",
         fre: "La ceinture de clochettes",
         bra: "Toca o Cinto Pequenino",
-        schema: 651
+        "schema": 651
     },
     232: {
         img: "sandvich_safe",
@@ -2097,7 +2097,7 @@ let dataItems = {
         sch: "午餐盒",
         fre: "Le Coffre à Sandvich",
         bra: "O Cofre de Sandviches",
-        schema: 643
+        "schema": 643
     },
     233: {
         img: "stocking_stuffer",
@@ -2106,7 +2106,7 @@ let dataItems = {
         sch: "鲜红的圣诞袜子",
         fre: "La Chaussette de Noël",
         bra: "A Meia de Natal",
-        schema: 670
+        "schema": 670
     },
     234: {
         img: "outback_intellectual",
@@ -2115,7 +2115,7 @@ let dataItems = {
         sch: "鲜艳的格子毛绒衫",
         fre: "L'intellectuel de l'arrière-pays",
         bra: "O Intelectual do Interior",
-        schema: 645
+        "schema": 645
     },
     235: {
         img: "brown_bomber",
@@ -2124,7 +2124,7 @@ let dataItems = {
         sch: "棕色雪地帽",
         fre: "La Bombe Brune",
         bra: "O Bombardeiro Marrom",
-        schema: 671
+        "schema": 671
     },
     236: {
         img: "bazaar_bargain",
@@ -2133,7 +2133,7 @@ let dataItems = {
         sch: "市场还价者",
         fre: "La Pétoire du bazar",
         bra: "A Barganha do Bazar",
-        schema: 402
+        "schema": 402
     },
     237: {
         img: "big_earner",
@@ -2142,7 +2142,7 @@ let dataItems = {
         sch: "暴利杀手",
         fre: "Le Grand Gagnant",
         bra: "O Grande Ganhador",
-        schema: 461
+        "schema": 461
     },
     238: {
         img: "blutsauger",
@@ -2151,7 +2151,7 @@ let dataItems = {
         sch: "吸血鬼针筒枪",
         fre: "Le Blutsauger",
         bra: "A Blutsauger",
-        schema: 36
+        "schema": 36
     },
     239: {
         img: "liberty_launcher",
@@ -2160,7 +2160,7 @@ let dataItems = {
         sch: "自由推进炮",
         fre: "Le Libérateur",
         bra: "O Lançador da Liberdade",
-        schema: 414
+        "schema": 414
     },
     240: {
         img: "cosa_nostra_cap",
@@ -2169,7 +2169,7 @@ let dataItems = {
         sch: "我们的事业之帽",
         fre: "Chapeau de la Cosa Nostra",
         bra: "Chapéu da Cosa Nostra",
-        schema: 459
+        "schema": 459
     },
     241: {
         img: "dead_ringer",
@@ -2178,7 +2178,7 @@ let dataItems = {
         sch: "死亡之铃",
         fre: "La Dead Ringer",
         bra: "A Cópia Mortal",
-        schema: 59
+        "schema": 59
     },
     242: {
         img: "submachine_gun",
@@ -2187,7 +2187,7 @@ let dataItems = {
         sch: "SMG",
         fre: "Mitraillette",
         bra: "Submetralhadora",
-        schema: 16
+        "schema": 16
     },
     243: {
         img: "quick_fix",
@@ -2196,7 +2196,7 @@ let dataItems = {
         sch: "快速医疗枪",
         fre: "Le Secou'rapide",
         bra: "A Quebra-galho",
-        schema: 411
+        "schema": 411
     },
     244: {
         img: "killing_gloves_of_boxing",
@@ -2205,7 +2205,7 @@ let dataItems = {
         sch: "杀戮拳击手套",
         fre: "Les Kamarades Gants de Boxe",
         bra: "Os Kríticos Garantidos no Boxe",
-        schema: 43
+        "schema": 43
     },
     245: {
         img: "flamboyant_flamenco",
@@ -2214,7 +2214,7 @@ let dataItems = {
         sch: "华丽的弗拉门戈帽",
         fre: "Le Flamenco Flamboyant",
         bra: "O Flamenco Extravagante",
-        schema: 627
+        "schema": 627
     },
     246: {
         img: "reggaelator",
@@ -2223,7 +2223,7 @@ let dataItems = {
         sch: "雷鬼发型",
         fre: "Reggaelateur",
         bra: "Reggaeador",
-        schema: 390
+        "schema": 390
     },
     247: {
         img: "overdose",
@@ -2232,7 +2232,7 @@ let dataItems = {
         sch: "过载注射枪",
         fre: "L'Overdose",
         bra: "A Overdose",
-        schema: 412
+        "schema": 412
     },
     248: {
         img: "a_manns_mint",
@@ -2241,7 +2241,7 @@ let dataItems = {
         sch: "曼恩公司薄荷色",
         fre: "Une menthe Mann",
         bra: "Menta de Macho",
-        schema: 5076
+        "schema": 5076
     },
     249: {
         img: "after_eight",
@@ -2250,7 +2250,7 @@ let dataItems = {
         sch: "晚八点",
         fre: "After Eight",
         bra: "Depois das Oito",
-        schema: 5077
+        "schema": 5077
     },
     250: {
         img: "salty_dog",
@@ -2259,7 +2259,7 @@ let dataItems = {
         sch: "水手老兵的帽子",
         fre: "Le Loup de Mer",
         bra: "O Lobo do Mar",
-        schema: 611
+        "schema": 611
     },
     251: {
         img: "widowmaker",
@@ -2268,7 +2268,7 @@ let dataItems = {
         sch: "寡妇制造者",
         fre: "Le Faiseur de Veuves",
         bra: "A Viuvadora",
-        schema: 527,
+        "schema": 527,
         "schema2": 5757
     },
     252: {
@@ -2278,7 +2278,7 @@ let dataItems = {
         sch: "踏步靴",
         fre: "Les Bottes de Combat",
         bra: "Os Coturnos de Macho",
-        schema: 444
+        "schema": 444
     },
     253: {
         img: "sapper",
@@ -2287,7 +2287,7 @@ let dataItems = {
         sch: "电子工兵",
         fre: "Saboteur",
         bra: "Sabotador",
-        schema: 736
+        "schema": 736
     },
     254: {
         img: "bat",
@@ -2296,7 +2296,7 @@ let dataItems = {
         sch: "短棍",
         fre: "Batte",
         bra: "Taco",
-        schema: 190
+        "schema": 190
     },
     255: {
         img: "diamondback",
@@ -2305,7 +2305,7 @@ let dataItems = {
         sch: "菱背响尾蛇",
         fre: "Le Diamondback",
         bra: "O Diamante Bruto",
-        schema: 525
+        "schema": 525
     },
     256: {
         img: "strange_part_gib_kills",
@@ -2314,7 +2314,7 @@ let dataItems = {
         sch: "奇异武器升级部件：炸碎敌人数",
         fre: "Pièce étrange : Mises en pièce",
         bra: "Peça Estranha: Explosões Fatais",
-        schema: 6013
+        "schema": 6013
     },
     257: {
         img: "strange_part_airborne_enemies_killed",
@@ -2323,7 +2323,7 @@ let dataItems = {
         sch: "奇异武器升级部件：空中敌人击杀数",
         fre: "Pièce étrange : Ennemis dans les airs tués",
         bra: "Peça Estranha: Inimigos Mortos no Ar",
-        schema: 6012
+        "schema": 6012
     },
     258: {
         img: "strange_part_heavies_killed",
@@ -2332,7 +2332,7 @@ let dataItems = {
         sch: "奇异武器升级部件：机枪手消灭数",
         fre: "Pièce étrange : Heavies tués",
         bra: "Peça Estranha: Heavies Mortos",
-        schema: 6000
+        "schema": 6000
     },
     259: {
         img: "crocodile_smile",
@@ -2341,7 +2341,7 @@ let dataItems = {
         sch: "鳄鱼牙项链",
         fre: "Le Sourire du Crocodile",
         bra: "As Lágrimas de Crocodilo",
-        schema: 618
+        "schema": 618
     },
     260: {
         img: "large_luchadore",
@@ -2350,7 +2350,7 @@ let dataItems = {
         sch: "摔角手面具",
         fre: "Masque de Luchador",
         bra: "Grande Luchadore",
-        schema: 380
+        "schema": 380
     },
     261: {
         img: "bottle",
@@ -2359,7 +2359,7 @@ let dataItems = {
         sch: "瓶子",
         fre: "Bouteille",
         bra: "Garrafa",
-        schema: 191
+        "schema": 191
     },
     262: {
         img: "strange_part_buildings_destroyed",
@@ -2368,7 +2368,7 @@ let dataItems = {
         sch: "奇异武器升级部件：建筑摧毁数",
         fre: "Pièce étrange : Bâtiments détruits",
         bra: "Peça Estranha: Construções Destruídas",
-        schema: 6009
+        "schema": 6009
     },
     263: {
         img: "strange_part_projectiles_reflected",
@@ -2377,7 +2377,7 @@ let dataItems = {
         sch: "奇异武器升级部件：反弹次数",
         fre: "Pièce étrange : Projectiles renvoyés",
         bra: "Peça Estranha: Projéteis Refletidos",
-        schema: 6010
+        "schema": 6010
     },
     264: {
         img: "strange_part_headshot_kills",
@@ -2386,7 +2386,7 @@ let dataItems = {
         sch: "奇异武器升级部件：爆头数",
         fre: "Pièce étrange : Frags par tir en pleine tête",
         bra: "Peça Estranha: Tiros na Cabeça Fatais",
-        schema: 6011
+        "schema": 6011
     },
     265: {
         img: "outdoorsman",
@@ -2395,7 +2395,7 @@ let dataItems = {
         sch: "伐木工帽子",
         fre: "L'homme d'extérieur",
         bra: "O Lenhador",
-        schema: 603
+        "schema": 603
     },
     266: {
         img: "ol_geezer",
@@ -2404,7 +2404,7 @@ let dataItems = {
         sch: "老式牛仔帽",
         fre: "Vieu' Schnock",
         bra: "Ol' Geezer",
-        schema: 399
+        "schema": 399
     },
     267: {
         img: "tribalmans_shiv",
@@ -2413,7 +2413,7 @@ let dataItems = {
         sch: "部落者刮刀",
         fre: "Le Couteau Aborigène",
         bra: "O Estoque Tribal",
-        schema: 171
+        "schema": 171
     },
     268: {
         img: "detonator",
@@ -2422,7 +2422,7 @@ let dataItems = {
         sch: "起爆者",
         fre: "Le Détonateur",
         bra: "A Detonadora",
-        schema: 351
+        "schema": 351
     },
     269: {
         img: "strange_part_allies_extinguished",
@@ -2431,7 +2431,7 @@ let dataItems = {
         sch: "奇异武器升级部件：队友灭火数",
         fre: "Pièce étrange : coéquipiers en feu éteints",
         bra: "Peça Estranha: Aliados em Chamas Apagados",
-        schema: 6020
+        "schema": 6020
     },
     270: {
         img: "strange_part_posthumous_kills",
@@ -2440,7 +2440,7 @@ let dataItems = {
         sch: "奇异武器升级部件：死后杀敌数",
         fre: "Pièce étrange : Victimes posthumes",
         bra: "Peça Estranha: Vítimas Póstumas",
-        schema: 6019
+        "schema": 6019
     },
     271: {
         img: "market_gardener",
@@ -2449,7 +2449,7 @@ let dataItems = {
         sch: "市场花园铁锹",
         fre: "Le Jardinier",
         bra: "O Pá-raquedista",
-        schema: 416
+        "schema": 416
     },
     272: {
         img: "strange_part_critical_kills",
@@ -2458,7 +2458,7 @@ let dataItems = {
         sch: "奇异武器升级部件：爆击杀敌数",
         fre: "Pièce étrange : Victimes par coup critique",
         bra: "Peça Estranha: Críticos Fatais",
-        schema: 6021
+        "schema": 6021
     },
     273: {
         img: "strange_part_demomen_killed",
@@ -2467,7 +2467,7 @@ let dataItems = {
         sch: "奇异武器升级部件：爆破手消灭数",
         fre: "Pièce étrange : Demomen tués",
         bra: "Peça Estranha: Demomen Mortos",
-        schema: 6001
+        "schema": 6001
     },
     274: {
         img: "strange_part_revenge_kills",
@@ -2476,7 +2476,7 @@ let dataItems = {
         sch: "奇异武器升级部件：复仇数",
         fre: "Pièce étrange : Victimes par vengeance",
         bra: "Peça Estranha: Mortes Vingadoras",
-        schema: 6018
+        "schema": 6018
     },
     275: {
         img: "hat_with_no_name",
@@ -2485,7 +2485,7 @@ let dataItems = {
         sch: "无名之帽",
         fre: "Le Chapeau Sans Nom",
         bra: "O Chapéu Sem Nome",
-        schema: 631
+        "schema": 631
     },
     276: {
         img: "scotsmans_skullcutter",
@@ -2494,7 +2494,7 @@ let dataItems = {
         sch: "苏格兰颅骨切割者",
         fre: "La Guillotine Écossaise",
         bra: "O Corta-crânios Escocês",
-        schema: 172
+        "schema": 172
     },
     277: {
         img: "persian_persuader",
@@ -2503,7 +2503,7 @@ let dataItems = {
         sch: "波斯弯刀",
         fre: "La persuasion persane",
         bra: "O Persuasor Persa",
-        schema: 404
+        "schema": 404
     },
     278: {
         img: "strange_part_soldiers_killed",
@@ -2512,7 +2512,7 @@ let dataItems = {
         sch: "奇异武器升级部件：士兵消灭数",
         fre: "Pièce étrange : Soldiers tués",
         bra: "Peça Estranha: Soldiers Mortos",
-        schema: 6002
+        "schema": 6002
     },
     279: {
         img: "strange_part_domination_kills",
@@ -2521,7 +2521,7 @@ let dataItems = {
         sch: "奇异武器升级部件：控制数",
         fre: "Pièce étrange : Victimes dominées",
         bra: "Peça Estranha: Mortes Dominadoras",
-        schema: 6016
+        "schema": 6016
     },
     280: {
         img: "strange_part_kills_while_explosive_jumping",
@@ -2530,7 +2530,7 @@ let dataItems = {
         sch: "奇异武器升级部件：爆炸起跳空中杀敌数",
         fre: "Pièce étrange : Victimes lors de sauts propulsés",
         bra: "Peça Estranha: Saltos Explosivos Fatais",
-        schema: 6022
+        "schema": 6022
     },
     281: {
         img: "tavish_degroot_experience",
@@ -2539,7 +2539,7 @@ let dataItems = {
         sch: "塔维什德格罗特的宽边帽",
         fre: "L'expérience Tavish DeGroot",
         bra: "A Experiência do Tavish DeGroot",
-        schema: 604
+        "schema": 604
     },
     282: {
         img: "lollichop",
@@ -2548,7 +2548,7 @@ let dataItems = {
         sch: "锋利的波板糖",
         fre: "La Sussache",
         bra: "O Pyrolito",
-        schema: 739
+        "schema": 739
     },
     283: {
         img: "rainblower",
@@ -2557,7 +2557,7 @@ let dataItems = {
         sch: "彩虹喷灯",
         fre: "Le Chasse-nuages",
         bra: "O Lançarco-íris",
-        schema: 741
+        "schema": 741
     },
     284: {
         img: "apparatchiks_apparel",
@@ -2566,7 +2566,7 @@ let dataItems = {
         sch: "党僚的服饰",
         fre: "Les Vêtements d'Apparatchik",
         bra: "A Vestimenta do Vereador",
-        schema: 777
+        "schema": 777
     },
     285: {
         img: "bird_man_of_aberdeen",
@@ -2575,7 +2575,7 @@ let dataItems = {
         sch: "阿伯丁的鸟人",
         fre: "L'Homme-Oiseau d'Aberdeen",
         bra: "O Homem de Aberdeen",
-        schema: 776
+        "schema": 776
     },
     286: {
         img: "business_casual",
@@ -2584,7 +2584,7 @@ let dataItems = {
         sch: "商务休闲衫",
         fre: "Le Businessman Détendu",
         bra: "O Traje Casual",
-        schema: 782
+        "schema": 782
     },
     287: {
         img: "captains_cocktails",
@@ -2593,7 +2593,7 @@ let dataItems = {
         sch: "丐帮头头的罐头盒",
         fre: "Les Cocktails du Capitaine",
         bra: "Os Coquetéis do Capitão",
-        schema: 731
+        "schema": 731
     },
     288: {
         img: "dillingers_duffel",
@@ -2602,7 +2602,7 @@ let dataItems = {
         sch: "狄林杰的粗花呢布袋",
         fre: "Sac de Dillinger",
         bra: "A Mala do Marginal",
-        schema: 781
+        "schema": 781
     },
     289: {
         img: "fed_fightin_fedora",
@@ -2611,7 +2611,7 @@ let dataItems = {
         sch: "联邦探员打败者",
         fre: "Le Fedora du Combat des Fédéraux",
         bra: "O Fedora Furado",
-        schema: 780
+        "schema": 780
     },
     290: {
         img: "gentlemans_ushanka",
@@ -2620,7 +2620,7 @@ let dataItems = {
         sch: "绅士的红军帽",
         fre: "L'Ushanka du Gentilhomme",
         bra: "A Ushanka do Cavalheiro",
-        schema: 778
+        "schema": 778
     },
     291: {
         img: "hazmat_headcase",
@@ -2629,7 +2629,7 @@ let dataItems = {
         sch: "危爆品处理面罩",
         fre: "Le casque Hazmat",
         bra: "O Capacete Contra Coisas Corrosivas",
-        schema: 783
+        "schema": 783
     },
     292: {
         img: "helmet_without_a_home",
@@ -2638,7 +2638,7 @@ let dataItems = {
         sch: "无家可盔",
         fre: "Le Casque Sans Foyer",
         bra: "O Capacete sem Lar",
-        schema: 732
+        "schema": 732
     },
     293: {
         img: "idea_tube",
@@ -2647,7 +2647,7 @@ let dataItems = {
         sch: "思想管",
         fre: "Le Tube à idées",
         bra: "O Porta-ideias",
-        schema: 784
+        "schema": 784
     },
     294: {
         img: "liquidators_lid",
@@ -2656,7 +2656,7 @@ let dataItems = {
         sch: "清算人的帽子",
         fre: "Le Galurin du Liquidateur",
         bra: "O Exterminador Estiloso",
-        schema: 779
+        "schema": 779
     },
     295: {
         img: "balloonicorn",
@@ -2665,7 +2665,7 @@ let dataItems = {
         sch: "气球独角兽",
         fre: "La Ballicorne",
         bra: "O Balãonicórnio",
-        schema: 738
+        "schema": 738
     },
     296: {
         img: "infernal_orchestrina",
@@ -2674,7 +2674,7 @@ let dataItems = {
         sch: "炼狱管弦乐",
         fre: "Orgue de Barbarie",
         bra: "Orquestrina Infernal",
-        schema: 745
+        "schema": 745
     },
     297: {
         img: "tomislav",
@@ -2683,7 +2683,7 @@ let dataItems = {
         sch: "汤姆斯拉夫",
         fre: "Tomislav",
         bra: "Tomislav",
-        schema: 424
+        "schema": 424
     },
     298: {
         img: "strange_part_scouts_killed",
@@ -2692,7 +2692,7 @@ let dataItems = {
         sch: "奇异武器升级部件：侦察兵消灭数",
         fre: "Pièce étrange : Scouts tués",
         bra: "Peça Estranha: Scouts Mortos",
-        schema: 6003
+        "schema": 6003
     },
     299: {
         img: "strange_part_sappers_destroyed",
@@ -2701,7 +2701,7 @@ let dataItems = {
         sch: "奇异武器升级部件：电子工兵摧毁数",
         fre: "Pièce étrange : Saboteurs détruits",
         bra: "Peça Estranha: Sabotadores Removidos",
-        schema: 6025
+        "schema": 6025
     },
     300: {
         img: "strange_part_cloaked_spies_killed",
@@ -2710,7 +2710,7 @@ let dataItems = {
         sch: "奇异武器升级部件：隐形间谍消灭数",
         fre: "Pièce étrange : Spies invisibles tués",
         bra: "Peça Estranha: Spies Camuflados Mortos",
-        schema: 6024
+        "schema": 6024
     },
     301: {
         img: "backwards_ballcap",
@@ -2719,7 +2719,7 @@ let dataItems = {
         sch: "反戴的棒球帽",
         fre: "La casquette à l'envers",
         bra: "O Boné pra Trás",
-        schema: 617
+        "schema": 617
     },
     302: {
         img: "koala_compact",
@@ -2728,7 +2728,7 @@ let dataItems = {
         sch: "口袋考拉",
         fre: "Le Koala Compact",
         bra: "O Coala Compacto",
-        schema: 824
+        "schema": 824
     },
     303: {
         img: "soviet_gentleman",
@@ -2737,7 +2737,7 @@ let dataItems = {
         sch: "苏维埃绅士",
         fre: "Le Gentleman Soviétique",
         bra: "O Cavalheiro Soviético",
-        schema: 821
+        "schema": 821
     },
     304: {
         img: "pocket_purrer",
@@ -2746,7 +2746,7 @@ let dataItems = {
         sch: "口袋猫猫",
         fre: "Le Ronronneur de Poche",
         bra: "O Felino Fofinho",
-        schema: 823
+        "schema": 823
     },
     305: {
         img: "hat_of_cards",
@@ -2755,7 +2755,7 @@ let dataItems = {
         sch: "纸牌骗术师",
         fre: "Chapeau de Cartes",
         bra: "Chapéu de Cartas",
-        schema: 825
+        "schema": 825
     },
     306: {
         img: "medi_mask",
@@ -2764,7 +2764,7 @@ let dataItems = {
         sch: "防毒面具",
         fre: "Medi-Masque",
         bra: "Medi-máscara",
-        schema: 826
+        "schema": 826
     },
     307: {
         img: "track_terrorizer",
@@ -2773,7 +2773,7 @@ let dataItems = {
         sch: "跟踪狂",
         fre: "La Terreur des Pistes",
         bra: "O Terror das Pistas",
-        schema: 827
+        "schema": 827
     },
     308: {
         img: "war_pig",
@@ -2782,7 +2782,7 @@ let dataItems = {
         sch: "战场豪猪",
         fre: "Le Porc de Guerre",
         bra: "O Porco de Guerra",
-        schema: 829
+        "schema": 829
     },
     309: {
         img: "bearded_bombardier",
@@ -2791,7 +2791,7 @@ let dataItems = {
         sch: "炸弹兵的花白胡须",
         fre: "Le Bombardier Barbu",
         bra: "O Bombardeiro Barbudo",
-        schema: 830
+        "schema": 830
     },
     310: {
         img: "pyrotechnic_tote",
@@ -2800,7 +2800,7 @@ let dataItems = {
         sch: "烟火背包",
         fre: "Le Fourre-tout Pyrotechnique",
         bra: "A Sacola Pirotécnica",
-        schema: 856
+        "schema": 856
     },
     311: {
         img: "robro_3000",
@@ -2809,7 +2809,7 @@ let dataItems = {
         sch: "机器伙伴 3000",
         fre: "Le RoBro 3000",
         bra: "O RoBróder 3000",
-        schema: 733
+        "schema": 733
     },
     312: {
         img: "shovel",
@@ -2818,7 +2818,7 @@ let dataItems = {
         sch: "铁锹",
         fre: "Pelle",
         bra: "Pá",
-        schema: 196
+        "schema": 196
     },
     313: {
         img: "strange_part_engineers_killed",
@@ -2827,7 +2827,7 @@ let dataItems = {
         sch: "奇异武器升级部件：工程师消灭数",
         fre: "Pièce étrange : Engineers tués",
         bra: "Peça Estranha: Engineers Mortos",
-        schema: 6004
+        "schema": 6004
     },
     314: {
         img: "strange_part_robots_destroyed",
@@ -2836,7 +2836,7 @@ let dataItems = {
         sch: "奇异武器升级部件：机器人消灭数",
         fre: "Pièce étrange : Robots détruits",
         bra: "Peça Estranha: Robôs Destruídos",
-        schema: 6026
+        "schema": 6026
     },
     315: {
         img: "strange_part_low_health_kills",
@@ -2845,7 +2845,7 @@ let dataItems = {
         sch: "奇异武器升级部件：残血状态杀敌数",
         fre: "Pièce étrange : Nombre de victimes en ayant une santé faible",
         bra: "Peça Estranha: Vítimas Enquanto com Pouca Vida",
-        schema: 6032
+        "schema": 6032
     },
     316: {
         img: "surgeons_stahlhelm",
@@ -2854,7 +2854,7 @@ let dataItems = {
         sch: "外科医生的钢盔",
         fre: "Le Stahlhelm de Chirurgien",
         bra: "Stahlhelm do Cirurgião",
-        schema: 616
+        "schema": 616
     },
     317: {
         img: "furious_fukaamigasa",
@@ -2863,7 +2863,7 @@ let dataItems = {
         sch: "愤怒者的斗笠",
         fre: "Furieux Fukaamigasa",
         bra: "Fukaamigasa Furioso",
-        schema: 395
+        "schema": 395
     },
     318: {
         img: "strange_bacon_grease",
@@ -2872,7 +2872,7 @@ let dataItems = {
         sch: "奇异猪油",
         fre: "Graisse de bacon étrange",
         bra: "Banha Estranha",
-        schema: 5633
+        "schema": 5633
     },
     319: {
         img: "construction_pda",
@@ -2881,16 +2881,16 @@ let dataItems = {
         sch: "建造工具",
         fre: "PDA de Construction",
         bra: "PDA de Construção",
-        schema: 737
+        "schema": 737
     },
     320: {
         img: "original",
         eng: "Original",
-        pol: "Oryginalna",
+        pol: "Pierwowzór",
         sch: "正宗雷神之锤火箭发射器",
         fre: "L'Original",
         bra: "O Original",
-        schema: 513
+        "schema": 513
     },
     321: {
         img: "invis_watch",
@@ -2899,7 +2899,7 @@ let dataItems = {
         sch: "隐形手表",
         fre: "Montre d'invisibilité",
         bra: "Relógio de Invisibilidade",
-        schema: 212
+        "schema": 212
     },
     322: {
         img: "splendid_screen",
@@ -2908,7 +2908,7 @@ let dataItems = {
         sch: "辉煌护盾",
         fre: "Le Mirage Éblouissant",
         bra: "O Escudo Esplêndido",
-        schema: 406
+        "schema": 406
     },
     323: {
         img: "sir_hootsalot",
@@ -2917,7 +2917,7 @@ let dataItems = {
         sch: "夜行者爵士",
         fre: "Sire Hululalot",
         bra: "Sr. Corujão",
-        schema: 917
+        "schema": 917
     },
     324: {
         img: "master_mind",
@@ -2926,7 +2926,7 @@ let dataItems = {
         sch: "超级大脑",
         fre: "L'esprit du maître",
         bra: "A Mente Mestra",
-        schema: 918
+        "schema": 918
     },
     325: {
         img: "rump_o_lantern",
@@ -2935,7 +2935,7 @@ let dataItems = {
         sch: "遮臀南瓜灯",
         fre: "La Lantern-o-croupion",
         bra: "O Lampião Traseiro",
-        schema: 869
+        "schema": 869
     },
     326: {
         img: "scarecrow",
@@ -2944,7 +2944,7 @@ let dataItems = {
         sch: "稻草人",
         fre: "L'Épouvantail",
         bra: "O Espantalho",
-        schema: 919
+        "schema": 919
     },
     327: {
         img: "crones_dome",
@@ -2953,7 +2953,7 @@ let dataItems = {
         sch: "巫婆的尖帽",
         fre: "Le Chapeau de sorcière",
         bra: "O Chapéu do Mausoléu",
-        schema: 920
+        "schema": 920
     },
     328: {
         img: "executioner",
@@ -2962,7 +2962,7 @@ let dataItems = {
         sch: "蒙面刽子手",
         fre: "Le Bourreau",
         bra: "O Carrasco",
-        schema: 921
+        "schema": 921
     },
     329: {
         img: "bonedolier",
@@ -2971,7 +2971,7 @@ let dataItems = {
         sch: "骨弹带",
         fre: "L'Osselière",
         bra: "A Cranioleira",
-        schema: 922
+        "schema": 922
     },
     330: {
         img: "plutonidome",
@@ -2980,7 +2980,7 @@ let dataItems = {
         sch: "诡异脑袋",
         fre: "Le Plutoniheaume",
         bra: "O Plutonidomo",
-        schema: 923
+        "schema": 923
     },
     331: {
         img: "spooky_shoes",
@@ -2989,7 +2989,7 @@ let dataItems = {
         sch: "骷髅长靴",
         fre: "Les sinistres chaussures",
         bra: "As Meias Macabras",
-        schema: 924
+        "schema": 924
     },
     332: {
         img: "spooky_sleeves",
@@ -2998,7 +2998,7 @@ let dataItems = {
         sch: "骷髅夹克",
         fre: "Les sinistres manchettes",
         bra: "As Mangas Macabras",
-        schema: 925
+        "schema": 925
     },
     333: {
         img: "zipperface",
@@ -3007,7 +3007,7 @@ let dataItems = {
         sch: "去骨拉链",
         fre: "Le Crâneur",
         bra: "O Cara de Zíper",
-        schema: 926
+        "schema": 926
     },
     334: {
         img: "boo_balloon",
@@ -3016,7 +3016,7 @@ let dataItems = {
         sch: "幽灵气球",
         fre: "Le ballon de boo-druche",
         bra: "O Abobalão",
-        schema: 927
+        "schema": 927
     },
     335: {
         img: "unknown_monkeynaut",
@@ -3025,7 +3025,7 @@ let dataItems = {
         sch: "无名的宇航猴",
         fre: "Le singenaute inconnu",
         bra: "O Macaconauta Desconhecido",
-        schema: 929
+        "schema": 929
     },
     336: {
         img: "grand_duchess_tutu",
@@ -3034,7 +3034,7 @@ let dataItems = {
         sch: "大公夫人的芭蕾舞短裙",
         fre: "Le tutu de la Grande Duchesse",
         bra: "O Tutu da Grã-duquesa",
-        schema: 930
+        "schema": 930
     },
     337: {
         img: "grand_duchess_fairy_wings",
@@ -3043,7 +3043,7 @@ let dataItems = {
         sch: "大公夫人的小仙女翅膀",
         fre: "Les ailes féeriques de la Grande Duchesse",
         bra: "As Asas de Fada da Grã-duquesa",
-        schema: 931
+        "schema": 931
     },
     338: {
         img: "grand_duchess_tiara",
@@ -3052,7 +3052,7 @@ let dataItems = {
         sch: "大公夫人的宝冠",
         fre: "Le diadème de la Grande Duchesse",
         bra: "A Tiara da Grã-duquesa",
-        schema: 932
+        "schema": 932
     },
     339: {
         img: "dead_little_buddy",
@@ -3061,7 +3061,7 @@ let dataItems = {
         sch: "玩伴小幽灵",
         fre: "Le petit pote mort",
         bra: "O Fantasminha Camarada",
-        schema: 934
+        "schema": 934
     },
     340: {
         img: "exorcizor",
@@ -3070,7 +3070,7 @@ let dataItems = {
         sch: "驱魔人",
         fre: "L'Exorciseur",
         bra: "O Exorcista",
-        schema: 936
+        "schema": 936
     },
     341: {
         img: "voodoo_juju_slight_return",
@@ -3079,7 +3079,7 @@ let dataItems = {
         sch: "巫毒符咒（微小的回报）",
         fre: "Le JuJu vaudou (petit retour)",
         bra: "O Vudu Juju (O Retorno)",
-        schema: 935
+        "schema": 935
     },
     342: {
         img: "wraith_wrap",
@@ -3088,7 +3088,7 @@ let dataItems = {
         sch: "幽灵兜帽",
         fre: "Le Châle Spectral",
         bra: "O Capuz do Espectro",
-        schema: 937
+        "schema": 937
     },
     343: {
         img: "coffin_kit",
@@ -3097,7 +3097,7 @@ let dataItems = {
         sch: "求死背包",
         fre: "Le Cercueil à dos",
         bra: "O Zé do Caixão",
-        schema: 938
+        "schema": 938
     },
     344: {
         img: "bat_outta_hell",
@@ -3106,7 +3106,7 @@ let dataItems = {
         sch: "恐怖骸骨",
         fre: "La Batte des Enfers",
         bra: "O Tacom Demônio",
-        schema: 939
+        "schema": 939
     },
     345: {
         img: "festive_holy_mackerel",
@@ -3115,7 +3115,7 @@ let dataItems = {
         sch: "节日圣灵鲭鱼",
         fre: "Maquereau Sacré festif",
         bra: "Santo Carapau Festivo",
-        schema: 999
+        "schema": 999
     },
     346: {
         img: "festive_axtinguisher",
@@ -3124,7 +3124,7 @@ let dataItems = {
         sch: "节日火焰战斧",
         fre: "Hachtincteur festif",
         bra: "Queimachado Festivo",
-        schema: 1000
+        "schema": 1000
     },
     347: {
         img: "festive_buff_banner",
@@ -3133,7 +3133,7 @@ let dataItems = {
         sch: "节日战旗",
         fre: "Drapeau Buff festif",
         bra: "Estandarte de Encorajamento Festivo",
-        schema: 1001
+        "schema": 1001
     },
     348: {
         img: "festive_sandvich",
@@ -3142,7 +3142,7 @@ let dataItems = {
         sch: "节日三明治",
         fre: "Sandvich festif",
         bra: "Sandviche Festivo",
-        schema: 1002
+        "schema": 1002
     },
     349: {
         img: "festive_ubersaw",
@@ -3151,7 +3151,7 @@ let dataItems = {
         sch: "节日过载充能锯",
         fre: "Überscie festive",
         bra: "Überserra Festiva",
-        schema: 1003
+        "schema": 1003
     },
     350: {
         img: "festive_frontier_justice",
@@ -3160,7 +3160,7 @@ let dataItems = {
         sch: "节日边境裁决者",
         fre: "Justice Frontalière festive",
         bra: "Justiça Vingadora Festiva",
-        schema: 1004
+        "schema": 1004
     },
     351: {
         img: "festive_huntsman",
@@ -3169,7 +3169,7 @@ let dataItems = {
         sch: "节日猎人短弓",
         fre: "Huntsman festif",
         bra: "Caçador Festivo",
-        schema: 1005
+        "schema": 1005
     },
     352: {
         img: "festive_ambassador",
@@ -3178,7 +3178,7 @@ let dataItems = {
         sch: "节日大使左轮手枪",
         fre: "Ambassadeur festif",
         bra: "Embaixador Festivo",
-        schema: 1006
+        "schema": 1006
     },
     353: {
         img: "festive_grenade_launcher",
@@ -3187,7 +3187,7 @@ let dataItems = {
         sch: "节日榴弹发射器",
         fre: "Lance-grenades festif",
         bra: "Lança-granadas Festivo",
-        schema: 1007
+        "schema": 1007
     },
     354: {
         img: "winter_wonderland_wrap",
@@ -3196,7 +3196,7 @@ let dataItems = {
         sch: "奇幻冬日面罩",
         fre: "L'écharpe du rêve hivernal",
         bra: "O Esquiador Esquentado",
-        schema: 976
+        "schema": 976
     },
     355: {
         img: "cut_throat_concierge",
@@ -3205,7 +3205,7 @@ let dataItems = {
         sch: "割喉看门人",
         fre: "Le groom assassin",
         bra: "O Porteiro Degolador",
-        schema: 977
+        "schema": 977
     },
     356: {
         img: "der_wintermantel",
@@ -3214,7 +3214,7 @@ let dataItems = {
         sch: "冬季大衣",
         fre: "Der Wintermantel",
         bra: "Der Wintermantel",
-        schema: 978
+        "schema": 978
     },
     357: {
         img: "cool_breeze",
@@ -3223,7 +3223,7 @@ let dataItems = {
         sch: "冷风",
         fre: "La bise",
         bra: "A Brisa Fresca",
-        schema: 979
+        "schema": 979
     },
     358: {
         img: "soldiers_slope_scopers",
@@ -3232,7 +3232,7 @@ let dataItems = {
         sch: "士兵的滑雪风镜",
         fre: "Lunettes de ski du Soldier",
         bra: "O Esquiador Estiloso",
-        schema: 980
+        "schema": 980
     },
     359: {
         img: "cold_killer",
@@ -3241,7 +3241,7 @@ let dataItems = {
         sch: "冷面死神",
         fre: "Le tueur de sang froid",
         bra: "O Sangue Frio",
-        schema: 981
+        "schema": 981
     },
     360: {
         img: "docs_holiday",
@@ -3250,7 +3250,7 @@ let dataItems = {
         sch: "医生的假日",
         fre: "Doc Holiday",
         bra: "Doc's Holiday",
-        schema: 982
+        "schema": 982
     },
     361: {
         img: "digit_divulger",
@@ -3259,7 +3259,7 @@ let dataItems = {
         sch: "无指手套",
         fre: "Mitaines révélatrices",
         bra: "O Divulgador de Digitais",
-        schema: 983
+        "schema": 983
     },
     362: {
         img: "tough_stuff_muffs",
@@ -3268,7 +3268,7 @@ let dataItems = {
         sch: "高强度耳罩",
         fre: "Cache-oreilles de dur",
         bra: "Ouvidos Aquecidos",
-        schema: 984
+        "schema": 984
     },
     363: {
         img: "heavys_hockey_hair",
@@ -3277,7 +3277,7 @@ let dataItems = {
         sch: "机枪手的冰球头",
         fre: "La nuque longue du Heavy hockeyeur",
         bra: "O Mullet do Marrento",
-        schema: 985
+        "schema": 985
     },
     364: {
         img: "mutton_mann",
@@ -3286,7 +3286,7 @@ let dataItems = {
         sch: "曼恩式美鬓",
         fre: "Rouflaquettes Mann",
         bra: "As Costeletas do Cavalheiro",
-        schema: 986
+        "schema": 986
     },
     365: {
         img: "mercs_muffler",
@@ -3295,7 +3295,7 @@ let dataItems = {
         sch: "佣兵的花围巾",
         fre: "Le cache-nez du mercenaire",
         bra: "O Cachecol do Mercenário",
-        schema: 987
+        "schema": 987
     },
     366: {
         img: "barnstormer",
@@ -3304,7 +3304,7 @@ let dataItems = {
         sch: "马戏飞行员",
         fre: "Les lunettes d'aviateur",
         bra: "O Circense Voador",
-        schema: 988
+        "schema": 988
     },
     367: {
         img: "strange_part_snipers_killed",
@@ -3313,7 +3313,7 @@ let dataItems = {
         sch: "奇异武器升级部件：狙击手消灭数",
         fre: "Pièce étrange : Snipers tués",
         bra: "Peça Estranha: Snipers Mortos",
-        schema: 6005
+        "schema": 6005
     },
     368: {
         img: "strange_part_kills_while_ubercharged",
@@ -3322,7 +3322,7 @@ let dataItems = {
         sch: "奇异武器升级部件：Ubercharge 中击杀数",
         fre: "Pièce étrange : Victimes pendant une Übercharge",
         bra: "Peça Estranha: Vítimas Durante ÜberCargas",
-        schema: 6037
+        "schema": 6037
     },
     369: {
         img: "strange_part_underwater_kills",
@@ -3331,7 +3331,7 @@ let dataItems = {
         sch: "奇异武器升级部件：水下杀人数",
         fre: "Pièce étrange : Victimes se trouvant sous l'eau",
         bra: "Peça Estranha: Inimigos Submersos Mortos",
-        schema: 6036
+        "schema": 6036
     },
     370: {
         img: "hotties_hoodie",
@@ -3340,7 +3340,7 @@ let dataItems = {
         sch: "火辣的兜帽",
         fre: "Sweat du Canon",
         bra: "Cabeça Quente",
-        schema: 377
+        "schema": 377
     },
     371: {
         img: "surgeons_side_satchel",
@@ -3349,7 +3349,7 @@ let dataItems = {
         sch: "外科医生的随身小包",
         fre: "La Sacoche du Chirurgien",
         bra: "A Pochete do Patologista",
-        schema: 770
+        "schema": 770
     },
     372: {
         img: "baby_faces_blaster",
@@ -3358,7 +3358,7 @@ let dataItems = {
         sch: "娃娃脸的冲击波",
         fre: "L'Exploseur de Tête d'Ange",
         bra: "A Destruidora do Degenerado",
-        schema: 772
+        "schema": 772
     },
     373: {
         img: "strange_part_pyros_killed",
@@ -3367,7 +3367,7 @@ let dataItems = {
         sch: "奇异武器升级部件：火焰兵消灭数",
         fre: "Pièce étrange : Pyros tués",
         bra: "Peça Estranha: Pyros Mortos",
-        schema: 6006
+        "schema": 6006
     },
     374: {
         img: "strange_part_defender_kills",
@@ -3376,7 +3376,7 @@ let dataItems = {
         sch: "奇异武器升级部件：防守击杀数",
         fre: "Pièce étrange : Victimes en tant que défenseur",
         bra: "Peça Estranha: Vítimas para Defesa",
-        schema: 6035
+        "schema": 6035
     },
     375: {
         img: "counterfeit_billycock",
@@ -3385,7 +3385,7 @@ let dataItems = {
         sch: "仿冒的小礼帽",
         fre: "Le chapeau melon contrefait",
         bra: "O Chapéu-coco Disfarçado",
-        schema: 602
+        "schema": 602
     },
     376: {
         img: "desert_marauder",
@@ -3394,7 +3394,7 @@ let dataItems = {
         sch: "阿拉伯头巾",
         fre: "Le Maraudeur du Désert",
         bra: "Saqueador do Deserto",
-        schema: 400
+        "schema": 400
     },
     377: {
         img: "fire_axe",
@@ -3403,7 +3403,7 @@ let dataItems = {
         sch: "消防斧",
         fre: "Hache",
         bra: "Machado de Incêndio",
-        schema: 192
+        "schema": 192
     },
     378: {
         img: "flying_guillotine",
@@ -3412,7 +3412,7 @@ let dataItems = {
         sch: "混混的菜刀",
         fre: "La guillotine volante",
         bra: "A Guilhotina Voadora",
-        schema: 812
+        "schema": 812
     },
     379: {
         img: "beggars_bazooka",
@@ -3421,7 +3421,7 @@ let dataItems = {
         sch: "乞丐的火箭筒",
         fre: "Bazooka du mendiant",
         bra: "O Lança-foguetes do Lamentável",
-        schema: 730
+        "schema": 730
     },
     380: {
         img: "strange_part_medics_killed",
@@ -3430,7 +3430,7 @@ let dataItems = {
         sch: "奇异武器升级部件：医生消灭数",
         fre: "Pièce étrange : Medics tués",
         bra: "Peça Estranha: Medics Mortos",
-        schema: 6007
+        "schema": 6007
     },
     381: {
         img: "strange_part_tanks_destroyed",
@@ -3439,7 +3439,7 @@ let dataItems = {
         sch: "奇异武器升级部件：坦克摧毁数",
         fre: "Pièce étrange : Tanks détruits",
         bra: "Peça Estranha: Tanques Destruídos",
-        schema: 6038
+        "schema": 6038
     },
     382: {
         img: "strange_part_long_distance_kills",
@@ -3448,7 +3448,7 @@ let dataItems = {
         sch: "奇异武器升级部件：远距离击杀",
         fre: "Pièce étrange : Victimes à longue distance",
         bra: "Peça Estranha: Mortes a Longa Distância",
-        schema: 6039
+        "schema": 6039
     },
     383: {
         img: "modest_pile_of_hat",
@@ -3457,7 +3457,7 @@ let dataItems = {
         sch: "朴素的桩柱帽",
         fre: "Modeste pile de chapeaux",
         bra: "Pilha Modesta de Chapéu",
-        schema: 139
+        "schema": 139
     },
     384: {
         img: "neon_annihilator",
@@ -3466,7 +3466,7 @@ let dataItems = {
         sch: "霓虹杀手",
         fre: "Le Néonhilateur",
         bra: "O Aniquilador Neônico",
-        schema: 813
+        "schema": 813
     },
     385: {
         img: "mann_co_painting_set",
@@ -3475,7 +3475,7 @@ let dataItems = {
         sch: "曼恩公司油漆套装",
         fre: "Coffret de peinture Mann Co.",
         bra: "Kit de Pintura da Mann Co.",
-        schema: 1027
+        "schema": 1027
     },
     386: {
         img: "bolt_boy",
@@ -3484,7 +3484,7 @@ let dataItems = {
         sch: "螺栓小子",
         fre: "Le Bolt Boy",
         bra: "O Garoto Robonk",
-        schema: 30027
+        "schema": 30027
     },
     387: {
         img: "bonk_leadwear",
@@ -3493,7 +3493,7 @@ let dataItems = {
         sch: "饮料铅盔",
         fre: "Casque Bonk en Plomb",
         bra: "Energético Bonk",
-        schema: 30030
+        "schema": 30030
     },
     388: {
         img: "bot_dogger",
@@ -3502,7 +3502,7 @@ let dataItems = {
         sch: "机器热狗帽",
         fre: "Le Bot Dog",
         bra: "O Circuitão Quente",
-        schema: 30018
+        "schema": 30018
     },
     389: {
         img: "ye_oiled_baker_boy",
@@ -3511,7 +3511,7 @@ let dataItems = {
         sch: "涂满机油的老式报童帽",
         fre: "Le Mécha-Gavroche Huilé",
         bra: "Padeirinho, bip bop!",
-        schema: 30019
+        "schema": 30019
     },
     390: {
         img: "full_metal_drill_hat",
@@ -3520,7 +3520,7 @@ let dataItems = {
         sch: "全金属操练帽",
         fre: "Le Sergent Instructeur 2.0",
         bra: "O Chapelão de Chumbo",
-        schema: 30026
+        "schema": 30026
     },
     391: {
         img: "soldiers_sparkplug",
@@ -3529,7 +3529,7 @@ let dataItems = {
         sch: "士兵的火花塞",
         fre: "Bougie d'allumage du Soldier",
         bra: "Plugue do Soldier",
-        schema: 30033
+        "schema": 30033
     },
     392: {
         img: "steel_shako",
@@ -3538,7 +3538,7 @@ let dataItems = {
         sch: "钢制斯托特军帽",
         fre: "Fer shako",
         bra: "Shako Robótico",
-        schema: 30017
+        "schema": 30017
     },
     393: {
         img: "tyrantium_helmet",
@@ -3547,7 +3547,7 @@ let dataItems = {
         sch: "暴元素头盔",
         fre: "Casque de tyrantium",
         bra: "O Elmo de Tirânio",
-        schema: 30014
+        "schema": 30014
     },
     394: {
         img: "bolted_birdcage",
@@ -3556,7 +3556,7 @@ let dataItems = {
         sch: "金属鸟笼",
         fre: "La volière boulonnée",
         bra: "A Gaiola Parafusada",
-        schema: 30057
+        "schema": 30057
     },
     395: {
         img: "electric_escorter",
@@ -3565,7 +3565,7 @@ let dataItems = {
         sch: "指路的灯泡头",
         fre: "L'escorte électrique",
         bra: "A Luz no Fio do Túnel",
-        schema: 30025
+        "schema": 30025
     },
     396: {
         img: "filamental",
@@ -3574,7 +3574,7 @@ let dataItems = {
         sch: "灯泡面罩",
         fre: "Le Filamental",
         bra: "Filamental",
-        schema: 30036
+        "schema": 30036
     },
     397: {
         img: "firewall_helmet",
@@ -3583,7 +3583,7 @@ let dataItems = {
         sch: "防火墙头盔",
         fre: "Casque pare-feu",
         bra: "O Capacete de Firewall",
-        schema: 30038
+        "schema": 30038
     },
     398: {
         img: "googol_glass_eyes",
@@ -3592,7 +3592,7 @@ let dataItems = {
         sch: "谷鸽眼镜",
         fre: "Prothèse pour Vue pixellisée",
         bra: "Cadê?",
-        schema: 30053
+        "schema": 30053
     },
     399: {
         img: "metal_slug",
@@ -3601,7 +3601,7 @@ let dataItems = {
         sch: "合金鼻涕虫",
         fre: "L'Envahisseur Encéphale",
         bra: "A Lesma de Metal",
-        schema: 30028
+        "schema": 30028
     },
     400: {
         img: "plumbers_pipe",
@@ -3610,7 +3610,7 @@ let dataItems = {
         sch: "管道工的管子",
         fre: "Tuyau du Plombier",
         bra: "Ofício do Encanador",
-        schema: 30022
+        "schema": 30022
     },
     401: {
         img: "pyros_boron_beanie",
@@ -3619,7 +3619,7 @@ let dataItems = {
         sch: "火焰兵的硼制童帽",
         fre: "Bonnet en Bore du Pyro",
         bra: "O Pyrocóptero de Boro",
-        schema: 30040
+        "schema": 30040
     },
     402: {
         img: "respectless_robo_glove",
@@ -3628,7 +3628,7 @@ let dataItems = {
         sch: "邋遢的机器手套",
         fre: "Gant robotique ridicule",
         bra: "Mão Robótica Patética",
-        schema: 30039
+        "schema": 30039
     },
     403: {
         img: "rusty_reaper",
@@ -3637,7 +3637,7 @@ let dataItems = {
         sch: "铁锈收割者",
         fre: "Le Faucheur Rouillé",
         bra: "O Ceifador Enferrujado",
-        schema: 30032
+        "schema": 30032
     },
     404: {
         img: "scrap_sack",
@@ -3646,7 +3646,7 @@ let dataItems = {
         sch: "废铁包",
         fre: "Le Sac de Ferraille",
         bra: "A Mochila de Sucata",
-        schema: 30020
+        "schema": 30020
     },
     405: {
         img: "bolted_bicorne",
@@ -3655,7 +3655,7 @@ let dataItems = {
         sch: "螺栓海盗的双角帽",
         fre: "Le bicorne boulonné",
         bra: "O Bicórnio Parafusado",
-        schema: 30034
+        "schema": 30034
     },
     406: {
         img: "bolted_bombardier",
@@ -3664,7 +3664,7 @@ let dataItems = {
         sch: "炸弹兵的螺栓花白胡须",
         fre: "Le Bombardier Boulonné",
         bra: "O Bombardeiro Brilhante",
-        schema: 30011
+        "schema": 30011
     },
     407: {
         img: "broadband_bonnet",
@@ -3673,7 +3673,7 @@ let dataItems = {
         sch: "无线宽带软帽",
         fre: "Le Bonnet à Haut Débit",
         bra: "A Boina Parabólica",
-        schema: 30029
+        "schema": 30029
     },
     408: {
         img: "cyborg_stunt_helmet",
@@ -3682,7 +3682,7 @@ let dataItems = {
         sch: "机器人特技头盔",
         fre: "Le Casqu-adeur cyborg",
         bra: "O Capacete do Dublê Ciborgue",
-        schema: 30024
+        "schema": 30024
     },
     409: {
         img: "fr_0",
@@ -3691,7 +3691,7 @@ let dataItems = {
         sch: "0式爆炸头",
         fre: "La FR-0",
         bra: "O AFR-0",
-        schema: 30016
+        "schema": 30016
     },
     410: {
         img: "hdmi_patch",
@@ -3700,7 +3700,7 @@ let dataItems = {
         sch: "高画质独眼照",
         fre: "Le cache HDMI",
         bra: "O Tapa-olho HDMI",
-        schema: 30010
+        "schema": 30010
     },
     411: {
         img: "pure_tin_capotain",
@@ -3709,7 +3709,7 @@ let dataItems = {
         sch: "纯锡猎巫帽",
         fre: "L'Inquisiteur en aluminium pur",
         bra: "A Cartola de Latão",
-        schema: 30021
+        "schema": 30021
     },
     412: {
         img: "scrumpy_strongbox",
@@ -3718,7 +3718,7 @@ let dataItems = {
         sch: "苹果烈酒保险箱",
         fre: "Le Coffre-fort de Scrumpy",
         bra: "A Caixa-forte de Cidra",
-        schema: 30055
+        "schema": 30055
     },
     413: {
         img: "strontium_stove_pipe",
@@ -3727,7 +3727,7 @@ let dataItems = {
         sch: "锶元素大礼帽",
         fre: "Le Haut-de-forme en Strontium",
         bra: "A Cartola de Estrôncio",
-        schema: 30037
+        "schema": 30037
     },
     414: {
         img: "bunsen_brave",
@@ -3736,7 +3736,7 @@ let dataItems = {
         sch: "火焰大酋长",
         fre: "Le brave Bunsen",
         bra: "O Cacique das Chamas",
-        schema: 30054
+        "schema": 30054
     },
     415: {
         img: "gridiron_guardian",
@@ -3745,7 +3745,7 @@ let dataItems = {
         sch: "球场保卫者",
         fre: "Le Gardien du Stade",
         bra: "O Zagueiro de Ferro",
-        schema: 30013
+        "schema": 30013
     },
     416: {
         img: "titanium_towel",
@@ -3754,7 +3754,7 @@ let dataItems = {
         sch: "钛制毛巾",
         fre: "La Serviette en Titane",
         bra: "A Toalha Antioxidante",
-        schema: 30012
+        "schema": 30012
     },
     417: {
         img: "tungsten_toque",
@@ -3763,7 +3763,7 @@ let dataItems = {
         sch: "钨制无边帽",
         fre: "La tuque de tungstène",
         bra: "A Touca de Tungstênio",
-        schema: 30049
+        "schema": 30049
     },
     418: {
         img: "data_mining_light",
@@ -3772,7 +3772,7 @@ let dataItems = {
         sch: "数据挖掘灯",
         fre: "La Lampe d'explorateur de Données",
         bra: "A Luz de Mineração de Dados",
-        schema: 30051
+        "schema": 30051
     },
     419: {
         img: "dual_core_devil_doll",
@@ -3781,7 +3781,7 @@ let dataItems = {
         sch: "双核恶魔娃娃",
         fre: "La Poupée Double-cœur Démoniaque",
         bra: "O Boneco Demoníaco Dual-Core",
-        schema: 30056
+        "schema": 30056
     },
     420: {
         img: "plug_in_prospector",
@@ -3790,7 +3790,7 @@ let dataItems = {
         sch: "插件式牛仔帽",
         fre: "Le prospecteur connecté",
         bra: "O Garimpeiro de Gadgets",
-        schema: 30031
+        "schema": 30031
     },
     421: {
         img: "teddy_robobelt",
@@ -3799,7 +3799,7 @@ let dataItems = {
         sch: "泰迪机器熊",
         fre: "Enginounours robotique",
         bra: "Ursinho de Plutônio",
-        schema: 30023
+        "schema": 30023
     },
     422: {
         img: "texas_tin_gallon",
@@ -3808,7 +3808,7 @@ let dataItems = {
         sch: "德州锡制牛仔帽",
         fre: "Chapeau de cowboy en étain",
         bra: "O Caubói de Latão",
-        schema: 30044
+        "schema": 30044
     },
     423: {
         img: "timeless_topper",
@@ -3817,7 +3817,7 @@ let dataItems = {
         sch: "永恒的礼帽",
         fre: "Le Haut-de-forme Intemporel",
         bra: "A Cartola Atemporal",
-        schema: 30035
+        "schema": 30035
     },
     424: {
         img: "byted_beak",
@@ -3826,7 +3826,7 @@ let dataItems = {
         sch: "字节大夫的面具",
         fre: "Le Bec à Octet",
         bra: "O Bico Booleano",
-        schema: 30052
+        "schema": 30052
     },
     425: {
         img: "halogen_head_lamp",
@@ -3835,7 +3835,7 @@ let dataItems = {
         sch: "头戴式卤素灯",
         fre: "Lampe Halogène Frontale",
         bra: "Lâmpada de Halogênio",
-        schema: 30041
+        "schema": 30041
     },
     426: {
         img: "mecha_medes",
@@ -3844,7 +3844,7 @@ let dataItems = {
         sch: "阿机米德",
         fre: "Archi-Mech",
         bra: "Meca-medes",
-        schema: 30048
+        "schema": 30048
     },
     427: {
         img: "platinum_pickelhaube",
@@ -3853,7 +3853,7 @@ let dataItems = {
         sch: "铂金尖顶盔",
         fre: "Casque à pointe en platine",
         bra: "O Pickelhaube Platinado",
-        schema: 30042
+        "schema": 30042
     },
     428: {
         img: "practitioners_processing_mask",
@@ -3862,7 +3862,7 @@ let dataItems = {
         sch: "医生的数据调控口罩",
         fre: "Masque de traitement du praticien",
         bra: "Máscara de Processamento do Médico",
-        schema: 30046
+        "schema": 30046
     },
     429: {
         img: "steam_pipe",
@@ -3871,7 +3871,7 @@ let dataItems = {
         sch: "蒸汽管的大问题",
         fre: "La pipe à vapeur",
         bra: "A Engenhoca de Nove Tragadas",
-        schema: 30050
+        "schema": 30050
     },
     430: {
         img: "titanium_tyrolean",
@@ -3880,7 +3880,7 @@ let dataItems = {
         sch: "钛制提洛帽",
         fre: "Chapeau tyrolien en titane",
         bra: "Tirolês de Titânio",
-        schema: 30045
+        "schema": 30045
     },
     431: {
         img: "virus_doctor",
@@ -3889,7 +3889,7 @@ let dataItems = {
         sch: "病毒医帽",
         fre: "Le Docteur Viral",
         bra: "O Doutor Antivírus",
-        schema: 30043
+        "schema": 30043
     },
     432: {
         img: "letchs_led",
@@ -3898,7 +3898,7 @@ let dataItems = {
         sch: "好色之徒的 LED 眼镜",
         fre: "Galurin à LED licencieuses",
         bra: "O Exterminador Elétrico",
-        schema: 30002
+        "schema": 30002
     },
     433: {
         img: "shooters_tin_topi",
@@ -3907,7 +3907,7 @@ let dataItems = {
         sch: "射手的锡制遮阳帽",
         fre: "Tireur Colonial d'Étain",
         bra: "Chapéu de Safari Laminado",
-        schema: 30005
+        "schema": 30005
     },
     434: {
         img: "soldered_sensei",
@@ -3916,7 +3916,7 @@ let dataItems = {
         sch: "大师的铁带",
         fre: "Sensei soudé",
         bra: "O Sensei da Solda",
-        schema: 30004
+        "schema": 30004
     },
     435: {
         img: "base_metal_billycock",
@@ -3925,7 +3925,7 @@ let dataItems = {
         sch: "碱金属小圆礼帽",
         fre: "Chapeau Boulon",
         bra: "Chapéu-coco de Cobre",
-        schema: 30007
+        "schema": 30007
     },
     436: {
         img: "bootleg_base_metal_billycock",
@@ -3934,7 +3934,7 @@ let dataItems = {
         sch: "仿冒的金属小礼帽",
         fre: "Chapeau Boulon de contrebande",
         bra: "Chapéu-coco de Contrabanda Metálica",
-        schema: 30047
+        "schema": 30047
     },
     437: {
         img: "megapixel_beard",
@@ -3943,7 +3943,7 @@ let dataItems = {
         sch: "千万像素级大胡子相机",
         fre: "La Barbe Mégapixel",
         bra: "A Barba Megapixel",
-        schema: 30009
+        "schema": 30009
     },
     438: {
         img: "galvanized_gibus",
@@ -3952,7 +3952,7 @@ let dataItems = {
         sch: "镀锌折叠礼帽",
         fre: "Le Gibus Galvanisé",
         bra: "A Cartola Metálica",
-        schema: 30003
+        "schema": 30003
     },
     439: {
         img: "modest_metal_pile_of_scrap",
@@ -3961,7 +3961,7 @@ let dataItems = {
         sch: "朴素的废铁桩柱帽",
         fre: "Modeste pile de ferraille",
         bra: "Bateria Modesta de Chapéus",
-        schema: 30001
+        "schema": 30001
     },
     440: {
         img: "noble_nickel_amassment_of_hats",
@@ -3970,7 +3970,7 @@ let dataItems = {
         sch: "高贵的镍制层叠帽",
         fre: "Pile nobiliaire de couvre-chefs en nickel",
         bra: "Conjunto Niquelado de Chapéus",
-        schema: 30006
+        "schema": 30006
     },
     441: {
         img: "towering_titanium_pillar_of_hats",
@@ -3979,7 +3979,7 @@ let dataItems = {
         sch: "高耸的钛制塔柱帽",
         fre: "Imposante pile de chapeaux en titane",
         bra: "Pilar Monumental de Chapéus de Titânio",
-        schema: 30008
+        "schema": 30008
     },
     442: {
         img: "battery_canteens",
@@ -3988,7 +3988,7 @@ let dataItems = {
         sch: "机器水壶",
         fre: "Gourdes Acides",
         bra: "Cantil de Baterias",
-        schema: 30015
+        "schema": 30015
     },
     443: {
         img: "kukri",
@@ -3997,7 +3997,7 @@ let dataItems = {
         sch: "反曲刀",
         fre: "Kukri",
         bra: "Kukri",
-        schema: 193
+        "schema": 193
     },
     444: {
         img: "huo_long_heater",
@@ -4006,7 +4006,7 @@ let dataItems = {
         sch: "火龙转轮机枪",
         fre: "Le Radiateur de Huo Long",
         bra: "As Chamas de Huo Long",
-        schema: 811
+        "schema": 811
     },
     445: {
         img: "enforcer",
@@ -4015,7 +4015,7 @@ let dataItems = {
         sch: "执法者",
         fre: "L'Exécutant",
         bra: "O Capanga",
-        schema: 460
+        "schema": 460
     },
     446: {
         img: "strange_part_medics_killed_that_have_full_ubercharge",
@@ -4024,7 +4024,7 @@ let dataItems = {
         sch: "奇异武器升级部件：满 Ubercharge 医生消灭数",
         fre: "Pièce étrange : Medics tués ayant une Übercharge complète",
         bra: "Peça Estranha: Medics com ÜberCarga Pronta Mortos",
-        schema: 6023
+        "schema": 6023
     },
     447: {
         img: "strange_part_giant_robots_destroyed",
@@ -4033,7 +4033,7 @@ let dataItems = {
         sch: "奇异武器升级部件：巨型机器人摧毁数",
         fre: "Pièce étrange : Robots géants détruits",
         bra: "Peça Estranha: Robôs Gigantes Destruídos",
-        schema: 6028
+        "schema": 6028
     },
     448: {
         img: "fast_learner",
@@ -4042,7 +4042,7 @@ let dataItems = {
         sch: "速学者",
         fre: "L'éclair de génie",
         bra: "O Aluno Veloz",
-        schema: 722
+        "schema": 722
     },
     449: {
         img: "disciplinary_action",
@@ -4051,7 +4051,7 @@ let dataItems = {
         sch: "指挥官的军鞭",
         fre: "L'Action Disciplinaire",
         bra: "A Ação Disciplinar",
-        schema: 447
+        "schema": 447
     },
     450: {
         img: "loose_cannon",
@@ -4060,7 +4060,7 @@ let dataItems = {
         sch: "脱缰巨炮",
         fre: "Danger public",
         bra: "Pavio Curto",
-        schema: 996
+        "schema": 996
     },
     451: {
         img: "fan_o_war",
@@ -4069,7 +4069,7 @@ let dataItems = {
         sch: "军配扇",
         fre: "L'évent-taille",
         bra: "Leque d'Guerra",
-        schema: 355
+        "schema": 355
     },
     452: {
         img: "strangifier",
@@ -4077,8 +4077,8 @@ let dataItems = {
         pol: "Kuriozonator: #ITEM#",
         sch: "#ITEM# 奇异转化药剂",
         fre: "Étrangifiant: #ITEM#",
-        bra: "Estrangificador para #ITEM#",
-        schema: 6522
+        bra: "Estranhificador",
+        "schema": 6522
     },
     453: {
         img: "strange_part_kills_with_a_taunt_attack",
@@ -4087,7 +4087,7 @@ let dataItems = {
         sch: "奇异武器升级部件：嘲讽杀敌数",
         fre: "Pièce étrange : Victimes d'attaques par raillerie",
         bra: "Peça Estranha: Vítimas de Provocação",
-        schema: 6051
+        "schema": 6051
     },
     454: {
         img: "brotherhood_of_arms",
@@ -4096,7 +4096,7 @@ let dataItems = {
         sch: "兄弟会兜帽",
         fre: "Le frère d'armes",
         bra: "A Fraternidade das Ruas",
-        schema: 30066
+        "schema": 30066
     },
     455: {
         img: "well_rounded_rifleman",
@@ -4105,7 +4105,7 @@ let dataItems = {
         sch: "狙击手圆帽",
         fre: "Le fusilier accompli",
         bra: "O Atirador Completo",
-        schema: 30067
+        "schema": 30067
     },
     456: {
         img: "breakneck_baggies",
@@ -4114,7 +4114,7 @@ let dataItems = {
         sch: "巡逻者长裤",
         fre: "Les baggies à grande vitesse",
         bra: "O Esportista Expresso",
-        schema: 30068
+        "schema": 30068
     },
     457: {
         img: "powdered_practitioner",
@@ -4123,7 +4123,7 @@ let dataItems = {
         sch: "绣花三角帽",
         fre: "Le Praticien Emperruqué",
         bra: "O Médico Empoado",
-        schema: 30069
+        "schema": 30069
     },
     458: {
         img: "pocket_pyro",
@@ -4132,7 +4132,7 @@ let dataItems = {
         sch: "口袋火焰兵",
         fre: "Le Pyro de poche",
         bra: "Pyro de Bolso",
-        schema: 30070
+        "schema": 30070
     },
     459: {
         img: "cloud_crasher",
@@ -4141,7 +4141,7 @@ let dataItems = {
         sch: "裂云头盔",
         fre: "Le fendeur de nuages",
         bra: "O Arranhador de Céus",
-        schema: 30071
+        "schema": 30071
     },
     460: {
         img: "pom_pommed_provocateur",
@@ -4150,7 +4150,7 @@ let dataItems = {
         sch: "绒球特工",
         fre: "Le provocateur à pompon",
         bra: "O Pompom Provocador",
-        schema: 30072
+        "schema": 30072
     },
     461: {
         img: "dark_age_defender",
@@ -4159,7 +4159,7 @@ let dataItems = {
         sch: "暗黑护甲",
         fre: "Le Défenseur des Temps Obscurs",
         bra: "O Protetor da Idade das Trevas",
-        schema: 30073
+        "schema": 30073
     },
     462: {
         img: "tyurtlenek",
@@ -4168,7 +4168,7 @@ let dataItems = {
         sch: "高领毛衣",
         fre: "Le Kol Roulé",
         bra: "A Golya Alta",
-        schema: 30074
+        "schema": 30074
     },
     463: {
         img: "mair_mask",
@@ -4177,7 +4177,7 @@ let dataItems = {
         sch: "曼尔面具",
         fre: "Le Masque à Mair",
         bra: "A Máscara de SAM",
-        schema: 30075
+        "schema": 30075
     },
     464: {
         img: "stormin_norman",
@@ -4186,7 +4186,7 @@ let dataItems = {
         sch: "进击的诺曼人",
         fre: "L'Assaillant Normand",
         bra: "O Comando Normando",
-        schema: 30112
+        "schema": 30112
     },
     465: {
         img: "das_gutenkutteharen",
@@ -4195,7 +4195,7 @@ let dataItems = {
         sch: "佼佼者",
         fre: "Das Gutenkutteharen",
         bra: "Das Toppetchen",
-        schema: 30127
+        "schema": 30127
     },
     466: {
         img: "blood_banker",
@@ -4204,7 +4204,7 @@ let dataItems = {
         sch: "嗜血银行家",
         fre: "Le Banquier Sanglant",
         bra: "O Banqueiro de Sangue",
-        schema: 30132
+        "schema": 30132
     },
     467: {
         img: "pardners_pompadour",
@@ -4213,7 +4213,7 @@ let dataItems = {
         sch: "搭档的庞帕多发型",
         fre: "Le Pompadour du Compagnon",
         bra: "A Peruca do Parceiro",
-        schema: 30099
+        "schema": 30099
     },
     468: {
         img: "heavy_weight_champ",
@@ -4222,7 +4222,7 @@ let dataItems = {
         sch: "重量级拳击冠军",
         fre: "Le Champion Poids Lourd",
         bra: "O Campeão Peso-pesado",
-        schema: 30080
+        "schema": 30080
     },
     469: {
         img: "backpack_broiler",
@@ -4231,7 +4231,7 @@ let dataItems = {
         sch: "烤肉背包",
         fre: "Le Sac à Dos Grill",
         bra: "O Churrasco de Lombo",
-        schema: 30090
+        "schema": 30090
     },
     470: {
         img: "virtual_viewfinder",
@@ -4240,7 +4240,7 @@ let dataItems = {
         sch: "虚拟现实取景器",
         fre: "Le Viseur Virtuel",
         bra: "O Visor Virtual",
-        schema: 30140
+        "schema": 30140
     },
     471: {
         img: "federal_casemaker",
@@ -4249,7 +4249,7 @@ let dataItems = {
         sch: "联邦闹事者",
         fre: "L'inspecteur Fédéral",
         bra: "O Investigador Federal",
-        schema: 30119
+        "schema": 30119
     },
     472: {
         img: "wet_works",
@@ -4258,7 +4258,7 @@ let dataItems = {
         sch: "暗杀雨帽",
         fre: "Oeuvres Sanglantes",
         bra: "O Golpe Sujo",
-        schema: 30135
+        "schema": 30135
     },
     473: {
         img: "dry_gulch_gulp",
@@ -4267,7 +4267,7 @@ let dataItems = {
         sch: "快餐店饮料杯",
         fre: "La Gorge Sèche",
         bra: "O Mata-sede",
-        schema: 30087
+        "schema": 30087
     },
     474: {
         img: "borscht_belt",
@@ -4276,7 +4276,7 @@ let dataItems = {
         sch: "罗宋腰带",
         fre: "Gros plein de bortch",
         bra: "Cinturão de Borscht",
-        schema: 30108
+        "schema": 30108
     },
     475: {
         img: "valley_forge",
@@ -4285,7 +4285,7 @@ let dataItems = {
         sch: "福吉谷总统帽",
         fre: "Le Tricorne de Valley Forge",
         bra: "O Vale Forge",
-        schema: 30114
+        "schema": 30114
     },
     476: {
         img: "shoguns_shoulder_guard",
@@ -4294,7 +4294,7 @@ let dataItems = {
         sch: "幕府将军的肩甲",
         fre: "L'Épaulière du Shogun",
         bra: "A Ombreira do Xogum",
-        schema: 30126
+        "schema": 30126
     },
     477: {
         img: "gaelic_golf_bag",
@@ -4303,7 +4303,7 @@ let dataItems = {
         sch: "盖尔人的高尔夫球袋",
         fre: "Le Sac de Golf Gaélique",
         bra: "A Mochila de Golfe Galesa",
-        schema: 30107
+        "schema": 30107
     },
     478: {
         img: "das_feelinbeterbager",
@@ -4312,7 +4312,7 @@ let dataItems = {
         sch: "感觉良好背包",
         fre: "Das Feelinbeterbager",
         bra: "Das Poschetedecurativos",
-        schema: 30096
+        "schema": 30096
     },
     479: {
         img: "belgian_detective",
@@ -4321,7 +4321,7 @@ let dataItems = {
         sch: "比利时侦探",
         fre: "Le détective belge",
         bra: "Hercule Traidot",
-        schema: 30128
+        "schema": 30128
     },
     480: {
         img: "caribbean_conqueror",
@@ -4330,7 +4330,7 @@ let dataItems = {
         sch: "加勒比征服者",
         fre: "Le conquérant des Caraïbes",
         bra: "O Conquistador do Caribe",
-        schema: 30116
+        "schema": 30116
     },
     481: {
         img: "katyusha",
@@ -4339,7 +4339,7 @@ let dataItems = {
         sch: "喀秋莎",
         fre: "Le Katyusha",
         bra: "A Katyusha",
-        schema: 30094
+        "schema": 30094
     },
     482: {
         img: "das_hazmattenhatten",
@@ -4348,7 +4348,7 @@ let dataItems = {
         sch: "镜面防护帽",
         fre: "Das Hazmattenhatten",
         bra: "Das Schapelantihadioatividaden",
-        schema: 30095
+        "schema": 30095
     },
     483: {
         img: "pampered_pyro",
@@ -4357,7 +4357,7 @@ let dataItems = {
         sch: "骄奢火焰兵头巾",
         fre: "Le Pyro Pomponné",
         bra: "O Pyro Privilegiado",
-        schema: 30139
+        "schema": 30139
     },
     484: {
         img: "rogues_brogues",
@@ -4366,7 +4366,7 @@ let dataItems = {
         sch: "恶棍的粗革皮鞋",
         fre: "Les Claquettes du Coquin",
         bra: "O Mocassim do Assassim",
-        schema: 30125
+        "schema": 30125
     },
     485: {
         img: "hornblower",
@@ -4375,7 +4375,7 @@ let dataItems = {
         sch: "霍恩布洛尔的海军服",
         fre: "Le Hornblower",
         bra: "O Napoleônico Naval",
-        schema: 30129
+        "schema": 30129
     },
     486: {
         img: "delinquents_down_vest",
@@ -4384,7 +4384,7 @@ let dataItems = {
         sch: "少年犯的羽绒背心",
         fre: "La Doudoune de Délinquant",
         bra: "O Colete do Criminoso",
-        schema: 30134
+        "schema": 30134
     },
     487: {
         img: "glasgow_great_helm",
@@ -4393,7 +4393,7 @@ let dataItems = {
         sch: "格拉斯哥卓越头盔",
         fre: "Le Grand Heaume de Glasgow",
         bra: "O Grande Elmo de Glasgow",
-        schema: 30082
+        "schema": 30082
     },
     488: {
         img: "rebel_rouser",
@@ -4402,7 +4402,7 @@ let dataItems = {
         sch: "叛乱煽动者",
         fre: "L'agitateur rebelle",
         bra: "O Agitador Adornado",
-        schema: 30120
+        "schema": 30120
     },
     489: {
         img: "el_muchacho",
@@ -4411,7 +4411,7 @@ let dataItems = {
         sch: "少年的羊毛斗篷",
         fre: "El Muchacho",
         bra: "El Muchacho",
-        schema: 30089
+        "schema": 30089
     },
     490: {
         img: "das_ubersternmann",
@@ -4420,7 +4420,7 @@ let dataItems = {
         sch: "名医帽",
         fre: "Das Ubersternmann",
         bra: "Das Überausteromann",
-        schema: 30097
+        "schema": 30097
     },
     491: {
         img: "bolshevik_biker",
@@ -4429,7 +4429,7 @@ let dataItems = {
         sch: "布尔什维克骑手",
         fre: "Le Biker Bolchevik",
         bra: "O Motoqueiro Marxista",
-        schema: 30138
+        "schema": 30138
     },
     492: {
         img: "tartan_spartan",
@@ -4438,7 +4438,7 @@ let dataItems = {
         sch: "炸弹专家",
         fre: "Spartiate Écossais",
         bra: "Tartan Espartano",
-        schema: 30106
+        "schema": 30106
     },
     493: {
         img: "cobber_chameleon",
@@ -4447,7 +4447,7 @@ let dataItems = {
         sch: "宠物变色龙",
         fre: "Le Pote Caméléon",
         bra: "O Colega Camaleão",
-        schema: 30101
+        "schema": 30101
     },
     494: {
         img: "graybanns",
@@ -4456,7 +4456,7 @@ let dataItems = {
         sch: "灰朋太阳镜",
         fre: "Graybanns",
         bra: "Graybanns",
-        schema: 30104
+        "schema": 30104
     },
     495: {
         img: "after_dark",
@@ -4465,7 +4465,7 @@ let dataItems = {
         sch: "夜生活",
         fre: "La Fin de Soirée",
         bra: "Altas Horas",
-        schema: 30133
+        "schema": 30133
     },
     496: {
         img: "hive_minder",
@@ -4474,7 +4474,7 @@ let dataItems = {
         sch: "养蜂人之帽",
         fre: "L'apiculteur",
         bra: "O Abelhudo",
-        schema: 30093
+        "schema": 30093
     },
     497: {
         img: "das_metalmeatencasen",
@@ -4483,7 +4483,7 @@ let dataItems = {
         sch: "金属裹肉甲",
         fre: "Das Metalmeatencasen",
         bra: "Das Protettordepeittodemetalen",
-        schema: 30098
+        "schema": 30098
     },
     498: {
         img: "gaelic_garb",
@@ -4492,7 +4492,7 @@ let dataItems = {
         sch: "高卢式外套",
         fre: "Les Habits Gaéliques",
         bra: "O Galês Gabado",
-        schema: 30124
+        "schema": 30124
     },
     499: {
         img: "half_pipe_hurdler",
@@ -4501,7 +4501,7 @@ let dataItems = {
         sch: "邦克滑板",
         fre: "Le Coureur des Rampes",
         bra: "O Rapaz do Rolê",
-        schema: 30084
+        "schema": 30084
     },
     500: {
         img: "birdman_of_australiacatraz",
@@ -4510,7 +4510,7 @@ let dataItems = {
         sch: "澳魔岛驯鸟者",
         fre: "Homme-Oiseau d'Australcatraz",
         bra: "O Homem de Australiacatraz",
-        schema: 30100
+        "schema": 30100
     },
     501: {
         img: "tsarboosh",
@@ -4519,7 +4519,7 @@ let dataItems = {
         sch: "沙皇毡帽",
         fre: "Le Tsarboosh",
         bra: "O Tsarboosh",
-        schema: 30081
+        "schema": 30081
     },
     502: {
         img: "macho_mann",
@@ -4528,7 +4528,7 @@ let dataItems = {
         sch: "猛男曼恩",
         fre: "Le Macho Mann",
         bra: "O Macho Mann",
-        schema: 30085
+        "schema": 30085
     },
     503: {
         img: "harmburg",
@@ -4537,7 +4537,7 @@ let dataItems = {
         sch: "邪恶汉堡帽",
         fre: "Le Harmburg",
         bra: "O Assassinomburg",
-        schema: 30123
+        "schema": 30123
     },
     504: {
         img: "das_maddendoktor",
@@ -4546,7 +4546,7 @@ let dataItems = {
         sch: "疯狂的医生",
         fre: "Das Maddendoktor",
         bra: "Das Doktormaluco",
-        schema: 30121
+        "schema": 30121
     },
     505: {
         img: "red_army_robin",
@@ -4555,7 +4555,7 @@ let dataItems = {
         sch: "红军战士的知更鸟",
         fre: "Le Rouge-gorge de l'Armée Rouge",
         bra: "O Pisco do Exército Vermelho",
-        schema: 30079
+        "schema": 30079
     },
     506: {
         img: "greased_lightning",
@@ -4564,7 +4564,7 @@ let dataItems = {
         sch: "风驰电掣",
         fre: "Éclair Gominé",
         bra: "Tempo da Brilhantina",
-        schema: 30078
+        "schema": 30078
     },
     507: {
         img: "whiskey_bib",
@@ -4573,7 +4573,7 @@ let dataItems = {
         sch: "威士忌餐巾布",
         fre: "Le Bavoir à Whisky",
         bra: "Os Babadores de Uísque",
-        schema: 30110
+        "schema": 30110
     },
     508: {
         img: "cool_cat_cardigan",
@@ -4582,7 +4582,7 @@ let dataItems = {
         sch: "酷猫羊毛衫",
         fre: "Le Cardigan du Mec Cool",
         bra: "O Cardigã do Carismático",
-        schema: 30077
+        "schema": 30077
     },
     509: {
         img: "colonial_clogs",
@@ -4591,7 +4591,7 @@ let dataItems = {
         sch: "殖民木屐",
         fre: "Les Sabots Coloniaux",
         bra: "Os Calçados Coloniais",
-        schema: 30117
+        "schema": 30117
     },
     510: {
         img: "burning_bandana",
@@ -4600,7 +4600,7 @@ let dataItems = {
         sch: "烈焰头巾",
         fre: "Le Bandana Ardent",
         bra: "A Bandana em Brasas",
-        schema: 30091
+        "schema": 30091
     },
     511: {
         img: "falconer",
@@ -4609,7 +4609,7 @@ let dataItems = {
         sch: "驯鹰手套",
         fre: "Le Fauconnier",
         bra: "O Falcoeiro",
-        schema: 30103
+        "schema": 30103
     },
     512: {
         img: "black_watch",
@@ -4618,7 +4618,7 @@ let dataItems = {
         sch: "黑卫部队军帽",
         fre: "La Sentinelle Noire",
         bra: "A Guarda Negra",
-        schema: 30105
+        "schema": 30105
     },
     513: {
         img: "flared_frontiersman",
@@ -4627,7 +4627,7 @@ let dataItems = {
         sch: "拓荒者的喇叭裤",
         fre: "Les Pattes d'eph du Pionnier",
         bra: "A Boca de Sino do Arraiano",
-        schema: 30113
+        "schema": 30113
     },
     514: {
         img: "compatriot",
@@ -4636,7 +4636,7 @@ let dataItems = {
         sch: "同胞",
         fre: "Le compatriote",
         bra: "A Compatriota",
-        schema: 30115
+        "schema": 30115
     },
     515: {
         img: "das_fantzipantzen",
@@ -4645,7 +4645,7 @@ let dataItems = {
         sch: "花哨衬衫",
         fre: "Das Fantzipantzen",
         bra: "Das Calssaschiczen",
-        schema: 30137
+        "schema": 30137
     },
     516: {
         img: "bear_necessities",
@@ -4654,7 +4654,7 @@ let dataItems = {
         sch: "巨熊必需品",
         fre: "Il en faut peu pour être un Ours",
         bra: "O Abraço de Urso",
-        schema: 30122
+        "schema": 30122
     },
     517: {
         img: "bigg_mann_on_campus",
@@ -4663,7 +4663,7 @@ let dataItems = {
         sch: "校园大咖",
         fre: "La Star du Campus",
         bra: "O Dono do Pedaço",
-        schema: 30076
+        "schema": 30076
     },
     518: {
         img: "lieutenant_bites",
@@ -4672,7 +4672,7 @@ let dataItems = {
         sch: "咬咬中尉",
         fre: "Lieutenant Mordant",
         bra: "Tenente Mordida",
-        schema: 30130
+        "schema": 30130
     },
     519: {
         img: "brawling_buccaneer",
@@ -4681,7 +4681,7 @@ let dataItems = {
         sch: "喧闹海盗外套",
         fre: "Le Boucanier Bagarreur",
         bra: "O Bucaneiro Briguento",
-        schema: 30131
+        "schema": 30131
     },
     520: {
         img: "founding_father",
@@ -4690,7 +4690,7 @@ let dataItems = {
         sch: "开国元勋",
         fre: "Le père fondateur",
         bra: "O Pai Fundador",
-        schema: 30142
+        "schema": 30142
     },
     521: {
         img: "caffeine_cooler",
@@ -4699,7 +4699,7 @@ let dataItems = {
         sch: "原子饮料冰镇箱",
         fre: "La glacière à caféine",
         bra: "O Refrigerador de Refrescos",
-        schema: 30083
+        "schema": 30083
     },
     522: {
         img: "gabe_glasses",
@@ -4708,7 +4708,7 @@ let dataItems = {
         sch: "Gabe 式眼镜",
         fre: "Les lunettes de Gabe",
         bra: "Os Óculos do Gabe",
-        schema: 30141
+        "schema": 30141
     },
     523: {
         img: "trash_toter",
@@ -4717,7 +4717,7 @@ let dataItems = {
         sch: "废物挎包",
         fre: "La Sacoche à Déchets",
         bra: "A Sacola Reciclável",
-        schema: 30086
+        "schema": 30086
     },
     524: {
         img: "baron_von_havenaplane",
@@ -4726,7 +4726,7 @@ let dataItems = {
         sch: "天堂战机男爵",
         fre: "Baron von Havenaplane",
         bra: "Barão von Tonoavião",
-        schema: 30136
+        "schema": 30136
     },
     525: {
         img: "whirly_warrior",
@@ -4735,7 +4735,7 @@ let dataItems = {
         sch: "旋翼战士",
         fre: "L'Hélico-Guerrier",
         bra: "O Voador Violento",
-        schema: 30118
+        "schema": 30118
     },
     526: {
         img: "das_naggenvatcher",
@@ -4744,7 +4744,7 @@ let dataItems = {
         sch: "兄弟钢盔",
         fre: "Das Naggenvatcher",
         bra: "Das Antirraschakucka",
-        schema: 30109
+        "schema": 30109
     },
     527: {
         img: "soot_suit",
@@ -4753,7 +4753,7 @@ let dataItems = {
         sch: "烟尘西装",
         fre: "La Tenue de Sooter",
         bra: "O Zoot Suit do Zombador",
-        schema: 30092
+        "schema": 30092
     },
     528: {
         img: "hitmans_heatmaker",
@@ -4762,7 +4762,7 @@ let dataItems = {
         sch: "职业杀手的手感",
         fre: "Le Brûleur à Gages",
         bra: "O Assassino de Aluguel",
-        schema: 752
+        "schema": 752
     },
     529: {
         img: "strange_part_kills_during_victory_time",
@@ -4771,7 +4771,7 @@ let dataItems = {
         sch: "奇异武器升级部件：胜利后逃兵追杀数",
         fre: "Pièce étrange : Victimes après victoire d'un round",
         bra: "Peça Estranha: Vítimas Após Vencer a Rodada",
-        schema: 6041
+        "schema": 6041
     },
     530: {
         img: "strange_part_robot_spies_destroyed",
@@ -4780,7 +4780,7 @@ let dataItems = {
         sch: "奇异武器升级部件：机器间谍摧毁数",
         fre: "Pièce étrange : Spies Robots détruits",
         bra: "Peça Estranha: Spies Robôs Destruídos",
-        schema: 6048
+        "schema": 6048
     },
     531: {
         img: "viking_braider",
@@ -4789,7 +4789,7 @@ let dataItems = {
         sch: "维京孖辫胡",
         fre: "Les tresses vikings",
         bra: "As Tranças Vikings",
-        schema: 30164
+        "schema": 30164
     },
     532: {
         img: "flapjack",
@@ -4798,7 +4798,7 @@ let dataItems = {
         sch: "东京奔跑者",
         fre: "Le Flapjack",
         bra: "A Jaquetsuo",
-        schema: 30185
+        "schema": 30185
     },
     533: {
         img: "gold_digger",
@@ -4807,7 +4807,7 @@ let dataItems = {
         sch: "淘金者",
         fre: "Le Chercheur d'or",
         bra: "O Garimpeiro",
-        schema: 30172
+        "schema": 30172
     },
     534: {
         img: "weight_room_warmer",
@@ -4816,7 +4816,7 @@ let dataItems = {
         sch: "健身房棉袄",
         fre: "Chauffeur de salle de sport",
         bra: "Blusão de Musculação",
-        schema: 30178
+        "schema": 30178
     },
     535: {
         img: "special_eyes",
@@ -4825,7 +4825,7 @@ let dataItems = {
         sch: "独特之眼",
         fre: "Le Regard spécial",
         bra: "Os Olhos Especiais",
-        schema: 30168
+        "schema": 30168
     },
     536: {
         img: "chronomancer",
@@ -4834,7 +4834,7 @@ let dataItems = {
         sch: "时空之主",
         fre: "Le Chronomancien",
         bra: "O Cronomante",
-        schema: 30170
+        "schema": 30170
     },
     537: {
         img: "pirate_bandana",
@@ -4843,7 +4843,7 @@ let dataItems = {
         sch: "海盗头巾",
         fre: "Bandana de pirate",
         bra: "Bandana de Pirata",
-        schema: 30180
+        "schema": 30180
     },
     538: {
         img: "brim_full_of_bullets",
@@ -4852,7 +4852,7 @@ let dataItems = {
         sch: "大嫖客的牛仔帽",
         fre: "Pour une poignée de balles",
         bra: "Por um Punhado de Balas",
-        schema: 30173
+        "schema": 30173
     },
     539: {
         img: "lil_snaggletooth",
@@ -4861,7 +4861,7 @@ let dataItems = {
         sch: "小鳄鱼的龅牙",
         fre: "Le P'tit Snaggletooth",
         bra: "Filhote Dente-torto",
-        schema: 30181
+        "schema": 30181
     },
     540: {
         img: "escapist",
@@ -4870,7 +4870,7 @@ let dataItems = {
         sch: "逃犯",
         fre: "L'évadé",
         bra: "Fugitivo",
-        schema: 30183
+        "schema": 30183
     },
     541: {
         img: "lhomme_burglerre",
@@ -4879,7 +4879,7 @@ let dataItems = {
         sch: "古堡神偷",
         fre: "L'homme Burglerre",
         bra: "Le Papa Burglerre",
-        schema: 30182
+        "schema": 30182
     },
     542: {
         img: "ward",
@@ -4888,7 +4888,7 @@ let dataItems = {
         sch: "病房大衣",
         fre: "Le Dispensaire",
         bra: "O Oficial",
-        schema: 30190
+        "schema": 30190
     },
     543: {
         img: "beep_boy",
@@ -4897,7 +4897,7 @@ let dataItems = {
         sch: "BB 游戏机",
         fre: "La Beep Boy",
         bra: "O Bip Boy",
-        schema: 30167
+        "schema": 30167
     },
     544: {
         img: "cuban_bristle_crisis",
@@ -4906,7 +4906,7 @@ let dataItems = {
         sch: "古巴大胡子危机",
         fre: "La Barbe de crise cubaine",
         bra: "A Crise de Charutos de Cuba",
-        schema: 30165
+        "schema": 30165
     },
     545: {
         img: "a_brush_with_death",
@@ -4915,7 +4915,7 @@ let dataItems = {
         sch: "致死胡髭",
         fre: "En brosse avec la Mort",
         bra: "Por um Fio",
-        schema: 30186
+        "schema": 30186
     },
     546: {
         img: "tricksters_turnout_gear",
@@ -4924,7 +4924,7 @@ let dataItems = {
         sch: "欺诈大师的消防战斗服",
         fre: "Le faux pompier",
         bra: "Casaco Antifogo do Vigarista",
-        schema: 30169
+        "schema": 30169
     },
     547: {
         img: "hong_kong_cone",
@@ -4933,7 +4933,7 @@ let dataItems = {
         sch: "港式斗笠",
         fre: "Cône de Hong Kong",
         bra: "Cone de Hong Kong",
-        schema: 30177
+        "schema": 30177
     },
     548: {
         img: "hurt_locher",
@@ -4942,7 +4942,7 @@ let dataItems = {
         sch: "拆弹部队",
         fre: "Le Démineur",
         bra: "A Guerra ao Pudor",
-        schema: 30179
+        "schema": 30179
     },
     549: {
         img: "bone_dome",
@@ -4951,7 +4951,7 @@ let dataItems = {
         sch: "去骨圆帽",
         fre: "Le Casque crânien",
         bra: "A Proteção de Cabeção",
-        schema: 30162
+        "schema": 30162
     },
     550: {
         img: "air_raider",
@@ -4960,7 +4960,7 @@ let dataItems = {
         sch: "空袭者",
         fre: "Le Pilleur d'air",
         bra: "O Combatente Aéreo",
-        schema: 30163
+        "schema": 30163
     },
     551: {
         img: "medical_mystery",
@@ -4969,7 +4969,7 @@ let dataItems = {
         sch: "医学之谜",
         fre: "Le Mystère médical",
         bra: "O Mistério Médico",
-        schema: 30171
+        "schema": 30171
     },
     552: {
         img: "cotton_head",
@@ -4978,7 +4978,7 @@ let dataItems = {
         sch: "棉制顶帽",
         fre: "Le Cotton Head",
         bra: "A Cabeça de Algodão",
-        schema: 30175
+        "schema": 30175
     },
     553: {
         img: "slick_cut",
@@ -4987,7 +4987,7 @@ let dataItems = {
         sch: "手术头巾",
         fre: "La Coupe futée",
         bra: "O Corte Malandro",
-        schema: 30187
+        "schema": 30187
     },
     554: {
         img: "frenchmans_formals",
@@ -4996,7 +4996,7 @@ let dataItems = {
         sch: "法式礼服",
         fre: "Le Français classique",
         bra: "As Formalidades do Francês",
-        schema: 30189
+        "schema": 30189
     },
     555: {
         img: "halloweiner",
@@ -5005,7 +5005,7 @@ let dataItems = {
         sch: "万圣热狗",
         fre: "Le Hante-dog",
         bra: "O Malsichão",
-        schema: 30248
+        "schema": 30248
     },
     556: {
         img: "horrific_head_of_hare",
@@ -5014,7 +5014,7 @@ let dataItems = {
         sch: "野兔的惊惧头套",
         fre: "L'affreuse tête de lièvre",
         bra: "A Cabeça de Coelho do Capeta",
-        schema: 30211
+        "schema": 30211
     },
     557: {
         img: "hounds_hood",
@@ -5023,7 +5023,7 @@ let dataItems = {
         sch: "猎犬头套",
         fre: "La Capuche du Chien",
         bra: "O Gorro de Cachorro",
-        schema: 30207
+        "schema": 30207
     },
     558: {
         img: "face_plante",
@@ -5032,7 +5032,7 @@ let dataItems = {
         sch: "普兰特面具",
         fre: "La Face de Plante",
         bra: "A Máscara de Hóquei",
-        schema: 30231
+        "schema": 30231
     },
     559: {
         img: "faun_feet",
@@ -5041,7 +5041,7 @@ let dataItems = {
         sch: "地狱信差",
         fre: "Pattes du faune",
         bra: "Pés de Fauno",
-        schema: 30247
+        "schema": 30247
     },
     560: {
         img: "sprinting_cephalopod",
@@ -5050,7 +5050,7 @@ let dataItems = {
         sch: "疾跑的触须",
         fre: "Les Céphalopodes de course",
         bra: "O Corredor Cefalópode",
-        schema: 30253
+        "schema": 30253
     },
     561: {
         img: "terrier_trousers",
@@ -5059,7 +5059,7 @@ let dataItems = {
         sch: "梗犬长裤",
         fre: "Le pantalon pattes de terrier",
         bra: "As Calças Caninas",
-        schema: 30208
+        "schema": 30208
     },
     562: {
         img: "cadavers_capper",
@@ -5068,7 +5068,7 @@ let dataItems = {
         sch: "僵尸的符咒帽",
         fre: "La Toque du vampire",
         bra: "A Marca do Morto-vivo",
-        schema: 30251
+        "schema": 30251
     },
     563: {
         img: "freedom_feathers",
@@ -5077,7 +5077,7 @@ let dataItems = {
         sch: "自由之羽",
         fre: "L'Aigle de la liberté",
         bra: "As Asas da Liberdade",
-        schema: 30239
+        "schema": 30239
     },
     564: {
         img: "hardium_helm",
@@ -5086,7 +5086,7 @@ let dataItems = {
         sch: "硬派头盔",
         fre: "Le Casque de hardium",
         bra: "O Capacete de Coisadúrio",
-        schema: 30264
+        "schema": 30264
     },
     565: {
         img: "hidden_dragon",
@@ -5095,7 +5095,7 @@ let dataItems = {
         sch: "藏龙",
         fre: "Le Dragon tigré",
         bra: "O Dragão Oculto",
-        schema: 30228
+        "schema": 30228
     },
     566: {
         img: "larval_lid",
@@ -5104,7 +5104,7 @@ let dataItems = {
         sch: "威蛆先生",
         fre: "Le Casque ver",
         bra: "A Minhoca dos Miolos",
-        schema: 30294
+        "schema": 30294
     },
     567: {
         img: "spellbinders_bonnet",
@@ -5113,7 +5113,7 @@ let dataItems = {
         sch: "巫师的软帽",
         fre: "Le Chapeau de sorcier",
         bra: "A Fantasia de Feiticeiro",
-        schema: 30268
+        "schema": 30268
     },
     568: {
         img: "faux_manchu",
@@ -5122,7 +5122,7 @@ let dataItems = {
         sch: "人造满洲胡",
         fre: "Le Faux Manchu",
         bra: "O Faux Manchu",
-        schema: 30227
+        "schema": 30227
     },
     569: {
         img: "grub_grenades",
@@ -5131,7 +5131,7 @@ let dataItems = {
         sch: "蛆形手雷",
         fre: "Larves explosives",
         bra: "Granadas Gosmentas",
-        schema: 30221
+        "schema": 30221
     },
     570: {
         img: "jupiter_jumpers",
@@ -5140,7 +5140,7 @@ let dataItems = {
         sch: "木星飞跃军靴",
         fre: "Les Bottes de Jupiter",
         bra: "Os Propulsores de Plutão",
-        schema: 30265
+        "schema": 30265
     },
     571: {
         img: "lieutenant_bites_the_dust",
@@ -5149,7 +5149,7 @@ let dataItems = {
         sch: "暴毙的咬咬中尉",
         fre: "Lieutenant Mord-la-poussière",
         bra: "Tenente Mortinho da Silva",
-        schema: 30276
+        "schema": 30276
     },
     572: {
         img: "shaolin_sash",
@@ -5158,7 +5158,7 @@ let dataItems = {
         sch: "少林腰带",
         fre: "L'Écharpe shaolin",
         bra: "A Faixa de Shaolin",
-        schema: 30281
+        "schema": 30281
     },
     573: {
         img: "space_bracers",
@@ -5167,7 +5167,7 @@ let dataItems = {
         sch: "太空护腕",
         fre: "Les Brassards spatiaux",
         bra: "As Braçadeiras Espaciais",
-        schema: 30266
+        "schema": 30266
     },
     574: {
         img: "bozos_bouffant",
@@ -5176,7 +5176,7 @@ let dataItems = {
         sch: "笨蛋的蓬松发型",
         fre: "Tronche de clown",
         bra: "O Cabelo do Comediante",
-        schema: 30245
+        "schema": 30245
     },
     575: {
         img: "burnys_boney_bonnet",
@@ -5185,7 +5185,7 @@ let dataItems = {
         sch: "硝博士的邦尼帽",
         fre: "Le Bonnet cornu de Burny",
         bra: "O Capuz de Chifres Chamuscados",
-        schema: 30203
+        "schema": 30203
     },
     576: {
         img: "corpsemopolitan",
@@ -5194,7 +5194,7 @@ let dataItems = {
         sch: "大都会果汁",
         fre: "Le Corpsmopolite",
         bra: "O Dry Mortini",
-        schema: 30285
+        "schema": 30285
     },
     577: {
         img: "crispy_golden_locks",
@@ -5203,7 +5203,7 @@ let dataItems = {
         sch: "易碎的金假发",
         fre: "Les Boucles d'or frites",
         bra: "Os Cachinhos Bem Dourados",
-        schema: 30204
+        "schema": 30204
     },
     578: {
         img: "gothic_guise",
@@ -5212,7 +5212,7 @@ let dataItems = {
         sch: "哥特式伪装",
         fre: "La Gargouille gothique",
         bra: "A Gárgula Gótica",
-        schema: 30222
+        "schema": 30222
     },
     579: {
         img: "macabre_mask",
@@ -5221,7 +5221,7 @@ let dataItems = {
         sch: "骇人面具",
         fre: "Le masque macabre",
         bra: "A Máscara Macabra",
-        schema: 30269
+        "schema": 30269
     },
     580: {
         img: "mucous_membrain",
@@ -5230,7 +5230,7 @@ let dataItems = {
         sch: "粘膜脑浆",
         fre: "Le Mucus de la membrane crânienne",
         bra: "O Miolo Mucoso",
-        schema: 30235
+        "schema": 30235
     },
     581: {
         img: "ravens_visage",
@@ -5239,7 +5239,7 @@ let dataItems = {
         sch: "巨大的乌鸦头骨",
         fre: "Le Crâne du corbeau",
         bra: "O Crânio de Corvo",
-        schema: 30298
+        "schema": 30298
     },
     582: {
         img: "spectralnaut",
@@ -5248,7 +5248,7 @@ let dataItems = {
         sch: "古怪的宇航头盔",
         fre: "L'Explorateur spectral",
         bra: "O Espectronauta",
-        schema: 30194
+        "schema": 30194
     },
     583: {
         img: "abhorrent_appendages",
@@ -5257,7 +5257,7 @@ let dataItems = {
         sch: "可憎的四肢",
         fre: "Les Appendices répugnants",
         bra: "Os Membros do Monstro",
-        schema: 30303
+        "schema": 30303
     },
     584: {
         img: "beast_from_below",
@@ -5266,7 +5266,7 @@ let dataItems = {
         sch: "下界恶兽",
         fre: "La Bête des profondeurs",
         bra: "A Criatura das Profundezas",
-        schema: 30191
+        "schema": 30191
     },
     585: {
         img: "carrion_companion",
@@ -5275,7 +5275,7 @@ let dataItems = {
         sch: "腐肉同伴",
         fre: "La Charogne de compagnie",
         bra: "A Carniça Companheira",
-        schema: 30288
+        "schema": 30288
     },
     586: {
         img: "cauterizers_caudal_appendage",
@@ -5284,7 +5284,7 @@ let dataItems = {
         sch: "烧灼之尾",
         fre: "L’Appendice caudal cautérisé",
         bra: "O Complemento Caudal do Cauterizador",
-        schema: 30225
+        "schema": 30225
     },
     587: {
         img: "creature_from_the_heap",
@@ -5293,7 +5293,7 @@ let dataItems = {
         sch: "隐藏在垃圾桶内的生物",
         fre: "La Créature des poubelles",
         bra: "A Criatura das Impurezas",
-        schema: 30296
+        "schema": 30296
     },
     588: {
         img: "death_support_pack",
@@ -5302,7 +5302,7 @@ let dataItems = {
         sch: "死亡补给包",
         fre: "Le Pack de survie",
         bra: "O Protetor do Psicopata",
-        schema: 30257
+        "schema": 30257
     },
     589: {
         img: "external_organ",
@@ -5311,7 +5311,7 @@ let dataItems = {
         sch: "黑色管弦乐",
         fre: "L'Orgue externe",
         bra: "O Órgão Externo",
-        schema: 30216
+        "schema": 30216
     },
     590: {
         img: "glob",
@@ -5320,7 +5320,7 @@ let dataItems = {
         sch: "幽浮小精灵",
         fre: "Le Glob",
         bra: "A Gosma",
-        schema: 30286
+        "schema": 30286
     },
     591: {
         img: "grisly_gumbo",
@@ -5329,7 +5329,7 @@ let dataItems = {
         sch: "恐怖的浓汤",
         fre: "Le Gombo humain",
         bra: "A Sopa Misantropa",
-        schema: 30277
+        "schema": 30277
     },
     592: {
         img: "handhunter",
@@ -5338,7 +5338,7 @@ let dataItems = {
         sch: "斩手铡刀",
         fre: "La Guillotine à mains",
         bra: "A Decepadora de Mãos",
-        schema: 30267
+        "schema": 30267
     },
     593: {
         img: "hard_headed_hardware",
@@ -5347,7 +5347,7 @@ let dataItems = {
         sch: "硬头硬脑",
         fre: "Tête de pioche infernale",
         bra: "A Máscara de Metal Maquiavélica",
-        schema: 30192
+        "schema": 30192
     },
     594: {
         img: "hollowhead",
@@ -5356,7 +5356,7 @@ let dataItems = {
         sch: "万圣罩",
         fre: "La tête vide",
         bra: "A Cabeça de Vento",
-        schema: 30220
+        "schema": 30220
     },
     595: {
         img: "maniacs_manacles",
@@ -5365,7 +5365,7 @@ let dataItems = {
         sch: "疯子的手铐",
         fre: "Les Menottes du maniaque",
         bra: "As Algemas do Alucinado",
-        schema: 30196
+        "schema": 30196
     },
     596: {
         img: "monsters_stompers",
@@ -5374,7 +5374,7 @@ let dataItems = {
         sch: "怪兽的践踏爪靴",
         fre: "Les Pattes de monstre",
         bra: "As Patas Paleontológicas",
-        schema: 30259
+        "schema": 30259
     },
     597: {
         img: "py_40_incinibot",
@@ -5383,7 +5383,7 @@ let dataItems = {
         sch: "火焰机器人 40 号",
         fre: "Incinérobot PY-40",
         bra: "Incinerabô PY-40",
-        schema: 30290
+        "schema": 30290
     },
     598: {
         img: "rugged_respirator",
@@ -5392,7 +5392,7 @@ let dataItems = {
         sch: "坚固耐用的呼吸器",
         fre: "Le respirateur robuste",
         bra: "O Respirador Rústico",
-        schema: 30218
+        "schema": 30218
     },
     599: {
         img: "scorched_skirt",
@@ -5401,7 +5401,7 @@ let dataItems = {
         sch: "烧焦的围裙",
         fre: "La Jupe carbonisée",
         bra: "A Saia Chamuscada",
-        schema: 30205
+        "schema": 30205
     },
     600: {
         img: "up_pyroscopes",
@@ -5410,7 +5410,7 @@ let dataItems = {
         sch: "火焰兵的蛙人之魂",
         fre: "Les Pyroscopes",
         bra: "Pyroscópios à Vista",
-        schema: 30213
+        "schema": 30213
     },
     601: {
         img: "vicious_visage",
@@ -5419,7 +5419,7 @@ let dataItems = {
         sch: "恶毒面罩",
         fre: "Le Visage vicieux",
         bra: "A Máscara do Monstro",
-        schema: 30273
+        "schema": 30273
     },
     602: {
         img: "headtakers_hood",
@@ -5428,7 +5428,7 @@ let dataItems = {
         sch: "行刑者的面罩",
         fre: "La Cagoule du décapiteur",
         bra: "O Gorro da Guilhotina",
-        schema: 30240
+        "schema": 30240
     },
     603: {
         img: "mann_bird_of_aberdeen",
@@ -5437,7 +5437,7 @@ let dataItems = {
         sch: "阿伯丁的鸟头人",
         fre: "L'Oiseau d'Aberdeen",
         bra: "O Pássaro de Aberdeen",
-        schema: 30282
+        "schema": 30282
     },
     604: {
         img: "squids_lid",
@@ -5446,7 +5446,7 @@ let dataItems = {
         sch: "独眼乌贼",
         fre: "Le Chapeau de la Méduse",
         bra: "O Pirata Es-tentacular",
-        schema: 30219
+        "schema": 30219
     },
     605: {
         img: "transylvania_top",
@@ -5455,7 +5455,7 @@ let dataItems = {
         sch: "吸血鬼之祖",
         fre: "La Coupe de Transylvanie",
         bra: "O Topete da Transilvânia",
-        schema: 30241
+        "schema": 30241
     },
     606: {
         img: "capn_calamari",
@@ -5464,7 +5464,7 @@ let dataItems = {
         sch: "鱿鱼船长",
         fre: "Cap'taine Calamar",
         bra: "Capitão Calamari",
-        schema: 30193
+        "schema": 30193
     },
     607: {
         img: "horsemanns_hand_me_down",
@@ -5473,7 +5473,7 @@ let dataItems = {
         sch: "无头骑士的传家之宝",
         fre: "La Guenille du Cavalier sans Tête",
         bra: "A Capa do Cavaleiro Carente de Cavalo e Cabeça",
-        schema: 30243
+        "schema": 30243
     },
     608: {
         img: "lordly_lapels",
@@ -5482,7 +5482,7 @@ let dataItems = {
         sch: "贵族衣领",
         fre: "Le Col comtois",
         bra: "As Lapelas do Lorde",
-        schema: 30249
+        "schema": 30249
     },
     609: {
         img: "parasight",
@@ -5491,7 +5491,7 @@ let dataItems = {
         sch: "寄生之眼",
         fre: "L'oeil indésirable",
         bra: "O Paravista",
-        schema: 30292
+        "schema": 30292
     },
     610: {
         img: "polly_putrid",
@@ -5500,7 +5500,7 @@ let dataItems = {
         sch: "腐烂的鹦鹉",
         fre: "Perroquet putride",
         bra: "Papagaio Putrefato",
-        schema: 30226
+        "schema": 30226
     },
     611: {
         img: "chicken_kiev",
@@ -5509,7 +5509,7 @@ let dataItems = {
         sch: "鸡辅猛禽",
         fre: "Le Poulet à la Kiev",
         bra: "O Frango à Kiev",
-        schema: 30238
+        "schema": 30238
     },
     612: {
         img: "horned_honcho",
@@ -5518,7 +5518,7 @@ let dataItems = {
         sch: "双角队长",
         fre: "Le Honcho à cornes",
         bra: "O Chefão dos Chifres",
-        schema: 30275
+        "schema": 30275
     },
     613: {
         img: "ivan_the_inedible",
@@ -5527,7 +5527,7 @@ let dataItems = {
         sch: "恐怖的伊凡三明治",
         fre: "Ivan l'immangeable",
         bra: "Ivan, o Incomestível",
-        schema: 30217
+        "schema": 30217
     },
     614: {
         img: "last_bite",
@@ -5536,7 +5536,7 @@ let dataItems = {
         sch: "最后一口",
         fre: "L'Ultime bouchée",
         bra: "A Última Mordida",
-        schema: 30199
+        "schema": 30199
     },
     615: {
         img: "monstrous_mandible",
@@ -5545,7 +5545,7 @@ let dataItems = {
         sch: "巨大的下颚",
         fre: "La mandibule monstrueuse",
         bra: "A Mandíbula Monstruosa",
-        schema: 30280
+        "schema": 30280
     },
     616: {
         img: "grease_monkey",
@@ -5554,7 +5554,7 @@ let dataItems = {
         sch: "油猢狲",
         fre: "Le Mécanosinge",
         bra: "O Macaco de Oficina",
-        schema: 30223
+        "schema": 30223
     },
     617: {
         img: "alternative_medicine_mann",
@@ -5563,7 +5563,7 @@ let dataItems = {
         sch: "非传统医学医师",
         fre: "Le Médecin alternatif",
         bra: "O Homem da Medicina Alternativa",
-        schema: 30224
+        "schema": 30224
     },
     618: {
         img: "das_blutliebhaber",
@@ -5572,7 +5572,7 @@ let dataItems = {
         sch: "嗜血狂魔",
         fre: "Das Blutliebhaber",
         bra: "Das Blutliebhaber",
-        schema: 30232
+        "schema": 30232
     },
     619: {
         img: "medimedes",
@@ -5581,7 +5581,7 @@ let dataItems = {
         sch: "麦基米德",
         fre: "Medimède",
         bra: "Medimedes",
-        schema: 30237
+        "schema": 30237
     },
     620: {
         img: "shamans_skull",
@@ -5590,7 +5590,7 @@ let dataItems = {
         sch: "萨满的头骨",
         fre: "Le Crâne pour shaman",
         bra: "O Crânio do Xamã",
-        schema: 30270
+        "schema": 30270
     },
     621: {
         img: "teutonkahmun",
@@ -5599,7 +5599,7 @@ let dataItems = {
         sch: "图坦卡蒙的诅咒",
         fre: "Teutonkahmon",
         bra: "Teutocâmon",
-        schema: 30293
+        "schema": 30293
     },
     622: {
         img: "trepanabotomizer",
@@ -5608,7 +5608,7 @@ let dataItems = {
         sch: "滥医充数",
         fre: "Le trépanolobotomiseur",
         bra: "O Trepanalobotomizador",
-        schema: 30233
+        "schema": 30233
     },
     623: {
         img: "archimedes_the_undying",
@@ -5617,7 +5617,7 @@ let dataItems = {
         sch: "阿僵米德",
         fre: "Archimède zombie",
         bra: "Arquimedes, o Imortal",
-        schema: 30279
+        "schema": 30279
     },
     624: {
         img: "lo_grav_loafers",
@@ -5626,7 +5626,7 @@ let dataItems = {
         sch: "低重力懒汉鞋",
         fre: "Les Bottes anti-gravité",
         bra: "As Botas de Baixa Gravidade",
-        schema: 30229
+        "schema": 30229
     },
     625: {
         img: "ramses_regalia",
@@ -5635,7 +5635,7 @@ let dataItems = {
         sch: "拉美西斯的皇家遗物",
         fre: "Le Costume de Ramsès",
         bra: "Regalias de Ramsés",
-        schema: 30299
+        "schema": 30299
     },
     626: {
         img: "second_opinion",
@@ -5644,7 +5644,7 @@ let dataItems = {
         sch: "第二选择",
         fre: "Second diagnostic",
         bra: "Segunda Opinião",
-        schema: 30197
+        "schema": 30197
     },
     627: {
         img: "surgeons_space_suit",
@@ -5653,7 +5653,7 @@ let dataItems = {
         sch: "外科医生的太空服",
         fre: "La combinaison d'astro-chirurgien",
         bra: "O Traje Espacial do Cirurgião",
-        schema: 30230
+        "schema": 30230
     },
     628: {
         img: "vicars_vestments",
@@ -5662,7 +5662,7 @@ let dataItems = {
         sch: "教堂牧师的圣衣",
         fre: "Les Vêtements du vicaire",
         bra: "As Vestimentas do Vigário",
-        schema: 30263
+        "schema": 30263
     },
     629: {
         img: "hallowed_headcase",
@@ -5671,7 +5671,7 @@ let dataItems = {
         sch: "万圣狂人",
         fre: "Le Saint masque",
         bra: "A Máscara Mística",
-        schema: 30287
+        "schema": 30287
     },
     630: {
         img: "sir_shootsalot",
@@ -5680,7 +5680,7 @@ let dataItems = {
         sch: "夜行者爵士帽",
         fre: "Sire Tirealot",
         bra: "Olho de Coruja",
-        schema: 30284
+        "schema": 30284
     },
     631: {
         img: "carious_chameleon",
@@ -5689,7 +5689,7 @@ let dataItems = {
         sch: "腐烂的变色龙",
         fre: "Le Caméléon décharné",
         bra: "O Camaleão Cariado",
-        schema: 30258
+        "schema": 30258
     },
     632: {
         img: "hyperbaric_bowler",
@@ -5698,7 +5698,7 @@ let dataItems = {
         sch: "高压式硬顶圆礼帽",
         fre: "Le mental sous pression",
         bra: "O Chapéu-coco Cerebral",
-        schema: 30256
+        "schema": 30256
     },
     633: {
         img: "candymans_cap",
@@ -5707,7 +5707,7 @@ let dataItems = {
         sch: "甜心宝贝的帽子",
         fre: "Le Chapeau de Candyman",
         bra: "A Cartola do Confeiteiro",
-        schema: 30261
+        "schema": 30261
     },
     634: {
         img: "bountiful_bow",
@@ -5716,7 +5716,7 @@ let dataItems = {
         sch: "慷慨的蝴蝶结",
         fre: "Le Costume du prodigue",
         bra: "A Gravata Generosa",
-        schema: 30260
+        "schema": 30260
     },
     635: {
         img: "bozos_brogues",
@@ -5725,7 +5725,7 @@ let dataItems = {
         sch: "笨蛋的土皮鞋",
         fre: "Croquenots du nigaud",
         bra: "Os Calçados do Comediante",
-        schema: 30301
+        "schema": 30301
     },
     636: {
         img: "foul_cowl",
@@ -5734,7 +5734,7 @@ let dataItems = {
         sch: "污秽的斗篷",
         fre: "La Cape du vampire",
         bra: "O Conde von Piro",
-        schema: 30283
+        "schema": 30283
     },
     637: {
         img: "baphomet_trotters",
@@ -5743,7 +5743,7 @@ let dataItems = {
         sch: "巴风特羊蹄",
         fre: "Les Baphomet trotteurs",
         bra: "Os Pés de Bafomé",
-        schema: 30200
+        "schema": 30200
     },
     638: {
         img: "candleer",
@@ -5752,7 +5752,7 @@ let dataItems = {
         sch: "蜡烛手雷",
         fre: "La Bandoulière de bougies",
         bra: "O Candeeiro Humano",
-        schema: 30242
+        "schema": 30242
     },
     639: {
         img: "pin_pals",
@@ -5761,7 +5761,7 @@ let dataItems = {
         sch: "针友",
         fre: "Potes épinglés",
         bra: "Amigos do Peito",
-        schema: 30236
+        "schema": 30236
     },
     640: {
         img: "snaggletoothed_stetson",
@@ -5770,7 +5770,7 @@ let dataItems = {
         sch: "牙齿不齐的斯泰森毡帽",
         fre: "Le Stetson denté",
         bra: "O Chapéu de Caubói Carnívoro",
-        schema: 30212
+        "schema": 30212
     },
     641: {
         img: "ethereal_hood",
@@ -5779,7 +5779,7 @@ let dataItems = {
         sch: "空灵风帽",
         fre: "Capuche éthérée",
         bra: "O Capuz Espectral",
-        schema: 30195
+        "schema": 30195
     },
     642: {
         img: "birdie_bonnet",
@@ -5788,7 +5788,7 @@ let dataItems = {
         sch: "小鸟邦尼特",
         fre: "Le Bonnet de poulet",
         bra: "O Gorro Galináceo",
-        schema: 30215
+        "schema": 30215
     },
     643: {
         img: "dark_helm",
@@ -5797,7 +5797,7 @@ let dataItems = {
         sch: "黑暗头盔",
         fre: "Le Heaume noir",
         bra: "O Elmo Sombrio",
-        schema: 30278
+        "schema": 30278
     },
     644: {
         img: "haunted_hat",
@@ -5806,7 +5806,7 @@ let dataItems = {
         sch: "闹鬼的折叠礼帽",
         fre: "Le Chapeau Hanté",
         bra: "O Chapéu Assombrado",
-        schema: 30300
+        "schema": 30300
     },
     645: {
         img: "magical_mercenary",
@@ -5815,7 +5815,7 @@ let dataItems = {
         sch: "魔法佣兵",
         fre: "Le Mercenaire magique",
         bra: "O Mercenário Mágico",
-        schema: 30297
+        "schema": 30297
     },
     646: {
         img: "manneater",
@@ -5824,7 +5824,7 @@ let dataItems = {
         sch: "曼恩头骨",
         fre: "Le Crannibale",
         bra: "O Manntropófago",
-        schema: 30295
+        "schema": 30295
     },
     647: {
         img: "one_way_ticket",
@@ -5833,7 +5833,7 @@ let dataItems = {
         sch: "死朋友",
         fre: "L'Aller simple",
         bra: "O Bilhete Só de Ida",
-        schema: 30214
+        "schema": 30214
     },
     648: {
         img: "tuque_or_treat",
@@ -5842,7 +5842,7 @@ let dataItems = {
         sch: "不给南瓜就捣蛋",
         fre: "La Tuque citrouille",
         bra: "Touca ou Travessuras",
-        schema: 30274
+        "schema": 30274
     },
     649: {
         img: "accursed_apparition",
@@ -5851,7 +5851,7 @@ let dataItems = {
         sch: "受诅咒的亡魂",
         fre: "L'Apparition maudite",
         bra: "A Aparição Amaldiçoada",
-        schema: 30206
+        "schema": 30206
     },
     650: {
         img: "beacon_from_beyond",
@@ -5860,7 +5860,7 @@ let dataItems = {
         sch: "启蒙之灯",
         fre: "La Lanterne de l'au-delà",
         bra: "A Lanterna do Além",
-        schema: 30255
+        "schema": 30255
     },
     651: {
         img: "cryptic_keepsake",
@@ -5869,7 +5869,7 @@ let dataItems = {
         sch: "神秘的骨链",
         fre: "La Relique cryptique",
         bra: "A Lembrancinha da Lápide",
-        schema: 30302
+        "schema": 30302
     },
     652: {
         img: "guano",
@@ -5878,7 +5878,7 @@ let dataItems = {
         sch: "火蝠",
         fre: "Guano",
         bra: "Guano",
-        schema: 30252
+        "schema": 30252
     },
     653: {
         img: "pocket_horsemann",
@@ -5887,7 +5887,7 @@ let dataItems = {
         sch: "口袋骑士",
         fre: "Le Cavalier sans Tête de poche",
         bra: "O Cavaleiro de Bolso",
-        schema: 30198
+        "schema": 30198
     },
     654: {
         img: "quoth",
@@ -5896,7 +5896,7 @@ let dataItems = {
         sch: "乌鸦",
         fre: "Quoth",
         bra: "Quoth",
-        schema: 30289
+        "schema": 30289
     },
     655: {
         img: "sackcloth_spook",
@@ -5905,7 +5905,7 @@ let dataItems = {
         sch: "麻布幽灵",
         fre: "Le Sac de toile hanté",
         bra: "O Espantalho de Estimação",
-        schema: 30234
+        "schema": 30234
     },
     656: {
         img: "unidentified_following_object",
@@ -5914,7 +5914,7 @@ let dataItems = {
         sch: "不明跟踪物",
         fre: "Objet Visqueux Non Identifié",
         bra: "Observador Voador Não Identificado",
-        schema: 30254
+        "schema": 30254
     },
     657: {
         img: "solemn_vow",
@@ -5923,7 +5923,7 @@ let dataItems = {
         sch: "希波克拉底的塑像",
         fre: "Le Voeu Solennel",
         bra: "O Voto Solene",
-        schema: 413
+        "schema": 413
     },
     658: {
         img: "strange_part_unusual_wearing_player_kills",
@@ -5932,7 +5932,7 @@ let dataItems = {
         sch: "奇异武器升级部件：佩戴稀有装饰玩家消灭数",
         fre: "Pièce étrange : Victimes portant un objet inhabituel",
         bra: "Peça Estranha: Vítimas com Itens Incomuns",
-        schema: 6052
+        "schema": 6052
     },
     659: {
         img: "strange_part_spies_killed",
@@ -5941,7 +5941,7 @@ let dataItems = {
         sch: "奇异武器升级部件：间谍消灭数",
         fre: "Pièce étrange : Spies tués",
         bra: "Peça Estranha: Spies Mortos",
-        schema: 6008
+        "schema": 6008
     },
     660: {
         img: "strange_part_burning_enemy_kills",
@@ -5950,7 +5950,7 @@ let dataItems = {
         sch: "奇异武器升级部件：着火敌人消灭数",
         fre: "Pièce étrange : Victimes enflammée",
         bra: "Peça Estranha: Vítimas em Chamas",
-        schema: 6053
+        "schema": 6053
     },
     661: {
         img: "concheror",
@@ -5959,7 +5959,7 @@ let dataItems = {
         sch: "征服者战旗",
         fre: "Conque-érant",
         bra: "Conchistador",
-        schema: 354
+        "schema": 354
     },
     662: {
         img: "eviction_notice",
@@ -5968,7 +5968,7 @@ let dataItems = {
         sch: "驱逐警告",
         fre: "L'Avis d'Expulsion",
         bra: "O Aviso de Despejo",
-        schema: 426
+        "schema": 426
     },
     663: {
         img: "strange_part_killstreaks_ended",
@@ -5977,7 +5977,7 @@ let dataItems = {
         sch: "奇异武器升级部件：连杀终结数",
         fre: "Pièce étrange : Fin d'un killstreak",
         bra: "Peça Estranha: Combos Interrompidos",
-        schema: 6054
+        "schema": 6054
     },
     664: {
         img: "strange_cosmetic_part_freezecam_taunt_appearances",
@@ -5986,7 +5986,7 @@ let dataItems = {
         sch: "奇异部件：杀敌后嘲讽数",
         fre: "Pièce cosmétique étrange : Apparition en faisant une raillerie pendant un arrêt sur image",
         bra: "Peça Estranha para Cosméticos: Provocações na Câmera de Morte",
-        schema: 6055
+        "schema": 6055
     },
     665: {
         img: "strange_part_damage_dealt",
@@ -5995,7 +5995,7 @@ let dataItems = {
         sch: "奇异武器升级部件：伤害输出量",
         fre: "Pièce étrange : Dégâts infligés",
         bra: "Peça Estranha: Dano Causado",
-        schema: 6056
+        "schema": 6056
     },
     666: {
         img: "front_runner",
@@ -6004,7 +6004,7 @@ let dataItems = {
         sch: "领跑者",
         fre: "Le Coureur Frontal",
         bra: "A Ação Silvestre",
-        schema: 760
+        "schema": 760
     },
     667: {
         img: "rescue_ranger",
@@ -6013,7 +6013,7 @@ let dataItems = {
         sch: "火线救兵",
         fre: "Ranger du risque",
         bra: "Telescopeta",
-        schema: 997
+        "schema": 997
     },
     668: {
         img: "scorch_shot",
@@ -6022,7 +6022,7 @@ let dataItems = {
         sch: "焦化枪",
         fre: "La Torche rousse",
         bra: "A Queima-roupa",
-        schema: 740
+        "schema": 740
     },
     669: {
         img: "strange_cosmetic_part_fires_survived",
@@ -6031,7 +6031,7 @@ let dataItems = {
         sch: "奇异部件：被点燃后存活次数",
         fre: "Pièce de cosmétique étrange : Incendies survécus",
         bra: "Peça Estranha para Cosméticos: Fogos Sobrevividos",
-        schema: 6057
+        "schema": 6057
     },
     670: {
         img: "strange_part_allied_healing_done",
@@ -6040,7 +6040,7 @@ let dataItems = {
         sch: "奇异武器升级部件：队友生命值回复量",
         fre: "Pièce étrange : Soins apportés aux alliés",
         bra: "Peça Estranha: Vida de Aliados Curada",
-        schema: 6058
+        "schema": 6058
     },
     671: {
         img: "strange_part_point_blank_kills",
@@ -6049,7 +6049,7 @@ let dataItems = {
         sch: "奇异武器升级部件：超近距离击杀数",
         fre: "Pièce étrange : Victimes à bout portant",
         bra: "Peça Estranha: Vítimas à Queima-roupa",
-        schema: 6059
+        "schema": 6059
     },
     672: {
         img: "builders_blueprints",
@@ -6058,7 +6058,7 @@ let dataItems = {
         sch: "建筑师的蓝图",
         fre: "Les Plans du Constructeur",
         bra: "Os Projetos do Construtor",
-        schema: 606
+        "schema": 606
     },
     673: {
         img: "festive_force_a_nature",
@@ -6067,7 +6067,7 @@ let dataItems = {
         sch: "节日自然之力",
         fre: "Force-de-la-Nature festive",
         bra: "Força da Natureza Festiva",
-        schema: 1078
+        "schema": 1078
     },
     674: {
         img: "festive_sapper",
@@ -6076,7 +6076,7 @@ let dataItems = {
         sch: "节日电子工兵",
         fre: "Saboteur festif",
         bra: "Sabotador Festivo",
-        schema: 1080
+        "schema": 1080
     },
     675: {
         img: "festive_crusaders_crossbow",
@@ -6085,7 +6085,7 @@ let dataItems = {
         sch: "节日十字军之弩",
         fre: "Arbalète du Croisé festive",
         bra: "Besta do Cruzado Festiva",
-        schema: 1079
+        "schema": 1079
     },
     676: {
         img: "festive_flare_gun",
@@ -6094,7 +6094,7 @@ let dataItems = {
         sch: "节日信号枪",
         fre: "Pistolet de détresse festif",
         bra: "Arma Sinalizadora Festiva",
-        schema: 1081
+        "schema": 1081
     },
     677: {
         img: "festive_eyelander",
@@ -6103,7 +6103,7 @@ let dataItems = {
         sch: "节日苏格兰长剑",
         fre: "Eyelander festif",
         bra: "Eyelander Festiva",
-        schema: 1082
+        "schema": 1082
     },
     678: {
         img: "festive_jarate",
@@ -6112,7 +6112,7 @@ let dataItems = {
         sch: "节日瓶手道",
         fre: "Jaraté festif",
         bra: "Jarratê Festivo",
-        schema: 1083
+        "schema": 1083
     },
     679: {
         img: "festive_gloves_of_running_urgently",
@@ -6121,7 +6121,7 @@ let dataItems = {
         sch: "节日紧急逃跑手套",
         fre: "Gants de Retraite Urgente festifs",
         bra: "Geradoras de Rapidez Urgente Festivas",
-        schema: 1084
+        "schema": 1084
     },
     680: {
         img: "festive_black_box",
@@ -6130,7 +6130,7 @@ let dataItems = {
         sch: "节日黑匣子",
         fre: "Boîte Noire festive",
         bra: "Caixa Preta Festiva",
-        schema: 1085
+        "schema": 1085
     },
     681: {
         img: "festive_wrangler",
@@ -6139,7 +6139,7 @@ let dataItems = {
         sch: "节日遥控手柄",
         fre: "Dompteur festif",
         bra: "Peão Festivo",
-        schema: 1086
+        "schema": 1086
     },
     682: {
         img: "blizzard_breather",
@@ -6148,7 +6148,7 @@ let dataItems = {
         sch: "暴风雪呼吸面具",
         fre: "Le respirateur du blizzard",
         bra: "O Respirador Resfriado",
-        schema: 30304
+        "schema": 30304
     },
     683: {
         img: "sub_zero_suit",
@@ -6157,7 +6157,7 @@ let dataItems = {
         sch: "极地防寒服",
         fre: "La combinaison polaire",
         bra: "O Traje Abaixo de Zero",
-        schema: 30305
+        "schema": 30305
     },
     684: {
         img: "dictator",
@@ -6166,7 +6166,7 @@ let dataItems = {
         sch: "独裁者之须",
         fre: "Dictateur",
         bra: "O Ditador",
-        schema: 30306
+        "schema": 30306
     },
     685: {
         img: "neckwear_headwear",
@@ -6175,7 +6175,7 @@ let dataItems = {
         sch: "戴围巾的帽子",
         fre: "L'écharpe de chapeau",
         bra: "A Cartola com Cachecol",
-        schema: 30307
+        "schema": 30307
     },
     686: {
         img: "trail_blazer",
@@ -6184,7 +6184,7 @@ let dataItems = {
         sch: "开路先锋",
         fre: "Le pionnier des pistes",
         bra: "O Trenó Flamejante",
-        schema: 30308
+        "schema": 30308
     },
     687: {
         img: "dead_of_night",
@@ -6193,7 +6193,7 @@ let dataItems = {
         sch: "冬夜夹克",
         fre: "Cœur de la nuit",
         bra: "Noite Infeliz",
-        schema: 30309
+        "schema": 30309
     },
     688: {
         img: "snow_scoper",
@@ -6202,7 +6202,7 @@ let dataItems = {
         sch: "雪地瞭望者",
         fre: "Le Snow Scoper",
         bra: "O Agasalho do Atirador",
-        schema: 30310
+        "schema": 30310
     },
     689: {
         img: "nunhood",
@@ -6211,7 +6211,7 @@ let dataItems = {
         sch: "修女披风",
         fre: "La capuche de l'ordre",
         bra: "A Santa Paciência",
-        schema: 30311
+        "schema": 30311
     },
     690: {
         img: "angel_of_death",
@@ -6220,7 +6220,7 @@ let dataItems = {
         sch: "死亡天使的长袍",
         fre: "L'ange de la mort",
         bra: "O Anjo da Morte",
-        schema: 30312
+        "schema": 30312
     },
     691: {
         img: "kiss_king",
@@ -6229,7 +6229,7 @@ let dataItems = {
         sch: "亲吻之王",
         fre: "Le roi du baiser",
         bra: "O Barão dos Beijos",
-        schema: 30313
+        "schema": 30313
     },
     692: {
         img: "slo_poke",
@@ -6238,7 +6238,7 @@ let dataItems = {
         sch: "警长的牛仔帽",
         fre: "Le Par-Essieux",
         bra: "O Marechal Mandriado",
-        schema: 30314
+        "schema": 30314
     },
     693: {
         img: "minnesota_slick",
@@ -6247,7 +6247,7 @@ let dataItems = {
         sch: "明州的老练杀手",
         fre: "L'assassin du Minnesota",
         bra: "Mauricinho de Minnesota",
-        schema: 30315
+        "schema": 30315
     },
     694: {
         img: "toy_soldier",
@@ -6256,7 +6256,7 @@ let dataItems = {
         sch: "锡兵的军帽",
         fre: "Le soldat de plomb",
         bra: "O Soldadinho de Chumbo",
-        schema: 30316
+        "schema": 30316
     },
     695: {
         img: "five_month_shadow",
@@ -6265,7 +6265,7 @@ let dataItems = {
         sch: "怪形客胡子",
         fre: "La barbe de cinq mois",
         bra: "A Barba de Cinco Meses",
-        schema: 30317
+        "schema": 30317
     },
     696: {
         img: "mann_of_reason",
@@ -6274,7 +6274,7 @@ let dataItems = {
         sch: "随从之帽",
         fre: "L'homme de raison",
         bra: "O Servo Germânnico",
-        schema: 30318
+        "schema": 30318
     },
     697: {
         img: "mann_of_the_house",
@@ -6283,7 +6283,7 @@ let dataItems = {
         sch: "一家之主",
         fre: "L'Homme de la Maison",
         bra: "O Homann da Casa",
-        schema: 30319
+        "schema": 30319
     },
     698: {
         img: "chucklenuts",
@@ -6292,7 +6292,7 @@ let dataItems = {
         sch: "宝来鼠",
         fre: "Chucklenuts",
         bra: "Bochechudo",
-        schema: 30320
+        "schema": 30320
     },
     699: {
         img: "tiny_timber",
@@ -6301,7 +6301,7 @@ let dataItems = {
         sch: "小小柴火堆",
         fre: "Petit bois",
         bra: "O Rei de Paus",
-        schema: 30321
+        "schema": 30321
     },
     700: {
         img: "face_full_of_festive",
@@ -6310,7 +6310,7 @@ let dataItems = {
         sch: "满带节日气息的大胡子",
         fre: "Barbe festive",
         bra: "Rosto Festivo",
-        schema: 30322
+        "schema": 30322
     },
     701: {
         img: "ruffled_ruprecht",
@@ -6319,7 +6319,7 @@ let dataItems = {
         sch: "随从之胡",
         fre: "Le père froissé",
         bra: "O Ruprecht Ruço",
-        schema: 30323
+        "schema": 30323
     },
     702: {
         img: "golden_garment",
@@ -6328,7 +6328,7 @@ let dataItems = {
         sch: "金丝大衣",
         fre: "L'habit doré",
         bra: "As Dragonas Douradas",
-        schema: 30324
+        "schema": 30324
     },
     703: {
         img: "little_drummer_mann",
@@ -6337,7 +6337,7 @@ let dataItems = {
         sch: "小小鼓手",
         fre: "Le petit homme au tambour",
         bra: "O Pequeno Percussionista",
-        schema: 30325
+        "schema": 30325
     },
     704: {
         img: "scout_shako",
@@ -6346,7 +6346,7 @@ let dataItems = {
         sch: "小兵的斯托特军帽",
         fre: "Le frêle shako",
         bra: "O Shako do Scout",
-        schema: 30326
+        "schema": 30326
     },
     705: {
         img: "toy_tailor",
@@ -6355,7 +6355,7 @@ let dataItems = {
         sch: "玩具裁缝",
         fre: "Le lutin des jouets",
         bra: "O Elfaiate de Brinquedos",
-        schema: 30327
+        "schema": 30327
     },
     706: {
         img: "extra_layer",
@@ -6364,7 +6364,7 @@ let dataItems = {
         sch: "厚实的夹克",
         fre: "La couche de plus",
         bra: "A Camada Extra",
-        schema: 30328
+        "schema": 30328
     },
     707: {
         img: "polar_pullover",
@@ -6373,7 +6373,7 @@ let dataItems = {
         sch: "极地头套",
         fre: "Le pullover polaire",
         bra: "O Pulôver Polar",
-        schema: 30329
+        "schema": 30329
     },
     708: {
         img: "dogfighter",
@@ -6382,7 +6382,7 @@ let dataItems = {
         sch: "飞行员的夹克衫",
         fre: "Le baroudeur",
         bra: "O Piloto Pelejador",
-        schema: 30330
+        "schema": 30330
     },
     709: {
         img: "antarctic_parka",
@@ -6391,7 +6391,7 @@ let dataItems = {
         sch: "南极御寒大衣",
         fre: "Parka antarctique",
         bra: "Parka Antártica",
-        schema: 30331
+        "schema": 30331
     },
     710: {
         img: "runners_warm_up",
@@ -6400,7 +6400,7 @@ let dataItems = {
         sch: "跑垒者的护耳帽",
         fre: "Réchauffement du coureur",
         bra: "Aquecedor do Corredor",
-        schema: 30332
+        "schema": 30332
     },
     711: {
         img: "highland_high_heels",
@@ -6409,7 +6409,7 @@ let dataItems = {
         sch: "高地人的高跟靴",
         fre: "Talons des Highlands",
         bra: "Botas Altas das Terras Altas",
-        schema: 30333
+        "schema": 30333
     },
     712: {
         img: "tartan_tyrolean",
@@ -6418,7 +6418,7 @@ let dataItems = {
         sch: "苏格兰方格花纹提洛帽",
         fre: "Tyrolien écossais",
         bra: "Tirolês Tartan",
-        schema: 30334
+        "schema": 30334
     },
     713: {
         img: "marshalls_mutton_chops",
@@ -6427,7 +6427,7 @@ let dataItems = {
         sch: "警长的白花胡子",
         fre: "Favoris du Marshall",
         bra: "Costeletas do Comandante",
-        schema: 30335
+        "schema": 30335
     },
     714: {
         img: "ticket_boy",
@@ -6436,7 +6436,7 @@ let dataItems = {
         sch: "查票小哥",
         fre: "Le Tickettier",
         bra: "O Bilheteiro",
-        schema: 30376
+        "schema": 30376
     },
     715: {
         img: "ground_control",
@@ -6445,7 +6445,7 @@ let dataItems = {
         sch: "地面控制",
         fre: "Contrôleur terrestre",
         bra: "Controlador Terrestre",
-        schema: 30338
+        "schema": 30338
     },
     716: {
         img: "killers_kit",
@@ -6454,7 +6454,7 @@ let dataItems = {
         sch: "杀手的工具包",
         fre: "Le kit du tueur",
         bra: "Os Aparatos do Assassino",
-        schema: 30339
+        "schema": 30339
     },
     717: {
         img: "cute_suit",
@@ -6463,7 +6463,7 @@ let dataItems = {
         sch: "超萌外套",
         fre: "La jolie combi",
         bra: "O Traje Tímido",
-        schema: 30367
+        "schema": 30367
     },
     718: {
         img: "sole_mate",
@@ -6472,7 +6472,7 @@ let dataItems = {
         sch: "大嘴情侣",
         fre: "Sole partenaire",
         bra: "Bacalhalma Gêmea",
-        schema: 30355
+        "schema": 30355
     },
     719: {
         img: "bushi_dou",
@@ -6481,7 +6481,7 @@ let dataItems = {
         sch: "武士道",
         fre: "Bushi-Dou",
         bra: "Bushi-Dou",
-        schema: 30348
+        "schema": 30348
     },
     720: {
         img: "dark_falkirk_helm",
@@ -6490,7 +6490,7 @@ let dataItems = {
         sch: "黑暗的福尔柯克头盔",
         fre: "Le sombre casque de Falkirk",
         bra: "O Elmo Sombrio de Falkirk",
-        schema: 30357
+        "schema": 30357
     },
     721: {
         img: "juggernaut_jacket",
@@ -6499,7 +6499,7 @@ let dataItems = {
         sch: "霸王夹克衫",
         fre: "Tenue anti-explosifs",
         bra: "O Colete Colossal",
-        schema: 30363
+        "schema": 30363
     },
     722: {
         img: "sangu_sleeves",
@@ -6508,7 +6508,7 @@ let dataItems = {
         sch: "甲胄护腕",
         fre: "Les brassards Sangu",
         bra: "A Kobertura Kote",
-        schema: 30366
+        "schema": 30366
     },
     723: {
         img: "sole_saviors",
@@ -6517,7 +6517,7 @@ let dataItems = {
         sch: "脚丫救世主",
         fre: "Le Sauveur de semelles",
         bra: "As Solas do Salvador",
-        schema: 30358
+        "schema": 30358
     },
     724: {
         img: "stylish_degroot",
@@ -6526,7 +6526,7 @@ let dataItems = {
         sch: "时髦的头带",
         fre: "Élégant DeGroot",
         bra: "DeGroot Descolado",
-        schema: 30340
+        "schema": 30340
     },
     725: {
         img: "bullet_buzz",
@@ -6535,7 +6535,7 @@ let dataItems = {
         sch: "子弹配平头",
         fre: "Balle règlementaire",
         bra: "Corte Comando",
-        schema: 30344
+        "schema": 30344
     },
     726: {
         img: "combat_slacks",
@@ -6544,7 +6544,7 @@ let dataItems = {
         sch: "格斗便裤",
         fre: "Tenue de combat",
         bra: "As Calças de Combate",
-        schema: 30372
+        "schema": 30372
     },
     727: {
         img: "eliminators_safeguard",
@@ -6553,7 +6553,7 @@ let dataItems = {
         sch: "歼灭者的防暴头盔",
         fre: "La protection du destructeur",
         bra: "A Proteção do Eliminador",
-        schema: 30369
+        "schema": 30369
     },
     728: {
         img: "gone_commando",
@@ -6562,7 +6562,7 @@ let dataItems = {
         sch: "剥光的突击兵",
         fre: "Passé commando",
         bra: "As Calças de Combate",
-        schema: 30343
+        "schema": 30343
     },
     729: {
         img: "heavy_lifter",
@@ -6571,7 +6571,7 @@ let dataItems = {
         sch: "健硕的举重运动员",
         fre: "L'haltérophile",
         bra: "O Heavy Halterofilista",
-        schema: 30342
+        "schema": 30342
     },
     730: {
         img: "leftover_trap",
@@ -6580,7 +6580,7 @@ let dataItems = {
         sch: "大胡子陷阱",
         fre: "Le piège à miettes",
         bra: "A Sujeira das Sobras",
-        schema: 30345
+        "schema": 30345
     },
     731: {
         img: "rat_stompers",
@@ -6589,7 +6589,7 @@ let dataItems = {
         sch: "耗子践踏者",
         fre: "Les Bottes Anti-rat",
         bra: "As Botas Mata-ratos",
-        schema: 30354
+        "schema": 30354
     },
     732: {
         img: "sammy_cap",
@@ -6598,7 +6598,7 @@ let dataItems = {
         sch: "三明治之帽",
         fre: "L'attrape Sammy",
         bra: "A Vara de 'Viche",
-        schema: 30374
+        "schema": 30374
     },
     733: {
         img: "trash_man",
@@ -6607,7 +6607,7 @@ let dataItems = {
         sch: "拾荒者之帽",
         fre: "Éboueur Man",
         bra: "O Homem do Lixo",
-        schema: 30346
+        "schema": 30346
     },
     734: {
         img: "war_goggles",
@@ -6616,7 +6616,7 @@ let dataItems = {
         sch: "战争护目镜",
         fre: "Les lunettes de guerre",
         bra: "Os Óculos de Guerra",
-        schema: 30368
+        "schema": 30368
     },
     735: {
         img: "warmth_preserver",
@@ -6625,7 +6625,7 @@ let dataItems = {
         sch: "保暖的无袖羽绒",
         fre: "Le Conservateur de chaleur",
         bra: "O Conservador de Calor",
-        schema: 30364
+        "schema": 30364
     },
     736: {
         img: "antarctic_researcher",
@@ -6634,7 +6634,7 @@ let dataItems = {
         sch: "南极研究员",
         fre: "Le chercheur polaire",
         bra: "O Pesquisador Antártico",
-        schema: 30377
+        "schema": 30377
     },
     737: {
         img: "ein",
@@ -6643,7 +6643,7 @@ let dataItems = {
         sch: "矿工的金丝雀",
         fre: "Ein",
         bra: "Ein",
-        schema: 30341
+        "schema": 30341
     },
     738: {
         img: "scotch_saver",
@@ -6652,7 +6652,7 @@ let dataItems = {
         sch: "苏格兰节俭者",
         fre: "Le sauveur de scotch",
         bra: "A Barba Bêbada",
-        schema: 30347
+        "schema": 30347
     },
     739: {
         img: "trenchers_topper",
@@ -6661,7 +6661,7 @@ let dataItems = {
         sch: "战壕兵的礼帽",
         fre: "Le couvre-chef des tranchées",
         bra: "A Tranqueira da Trincheira",
-        schema: 30336
+        "schema": 30336
     },
     740: {
         img: "trenchers_tunic",
@@ -6670,7 +6670,7 @@ let dataItems = {
         sch: "战壕兵的束腰外衣",
         fre: "La tunique des tranchées",
         bra: "A Túnica das Trincheiras",
-        schema: 30337
+        "schema": 30337
     },
     741: {
         img: "colonels_coat",
@@ -6679,7 +6679,7 @@ let dataItems = {
         sch: "陆军上校的大衣",
         fre: "La veste du colonel",
         bra: "O Casaco do Coronel",
-        schema: 30361
+        "schema": 30361
     },
     742: {
         img: "dough_puncher",
@@ -6688,7 +6688,7 @@ let dataItems = {
         sch: "揉面大厨的工作服",
         fre: "Le batteur de pâte",
         bra: "O Amassador de Massas",
-        schema: 30350
+        "schema": 30350
     },
     743: {
         img: "fashionable_megalomaniac",
@@ -6697,7 +6697,7 @@ let dataItems = {
         sch: "时髦的自大狂",
         fre: "La mode du mégalomane",
         bra: "O Megalomaníaco Magnífico",
-        schema: 30349
+        "schema": 30349
     },
     744: {
         img: "gaiter_guards",
@@ -6706,7 +6706,7 @@ let dataItems = {
         sch: "绑腿守卫",
         fre: "Le protecteur des guêtres",
         bra: "As Galochas do Galeno",
-        schema: 30379
+        "schema": 30379
     },
     745: {
         img: "heat_of_winter",
@@ -6715,7 +6715,7 @@ let dataItems = {
         sch: "冬天里的一把热",
         fre: "La Chaleur de l'hiver",
         bra: "O Calor do Inverno",
-        schema: 30356
+        "schema": 30356
     },
     746: {
         img: "heers_helmet",
@@ -6724,7 +6724,7 @@ let dataItems = {
         sch: "德国陆军的头盔",
         fre: "Le Casque de la Heer",
         bra: "Stahlhelm da Heer",
-        schema: 30378
+        "schema": 30378
     },
     747: {
         img: "mustachioed_mann",
@@ -6733,7 +6733,7 @@ let dataItems = {
         sch: "长胡子曼恩",
         fre: "Le moustachu",
         bra: "O Semblante do Surrealista",
-        schema: 30352
+        "schema": 30352
     },
     748: {
         img: "smock_surgeon",
@@ -6742,7 +6742,7 @@ let dataItems = {
         sch: "外科医生的工作服",
         fre: "Le tablier de chirurgien",
         bra: "A Bata de Biópsia",
-        schema: 30365
+        "schema": 30365
     },
     749: {
         img: "teutonic_toque",
@@ -6751,7 +6751,7 @@ let dataItems = {
         sch: "日耳曼大厨帽",
         fre: "La toque teutonique",
         bra: "O Toque Teutônico",
-        schema: 30351
+        "schema": 30351
     },
     750: {
         img: "archers_groudings",
@@ -6760,7 +6760,7 @@ let dataItems = {
         sch: "射手之靴",
         fre: "Bottines de l'archer",
         bra: "Os Apoios do Arqueiro",
-        schema: 30371
+        "schema": 30371
     },
     751: {
         img: "huntsmans_essentials",
@@ -6769,7 +6769,7 @@ let dataItems = {
         sch: "猎手的必需品",
         fre: "Les indispensables du Huntsman",
         bra: "O Equipamento do Caçador",
-        schema: 30359
+        "schema": 30359
     },
     752: {
         img: "toowoomba_tunic",
@@ -6778,7 +6778,7 @@ let dataItems = {
         sch: "图文巴束腰外衣",
         fre: "La Tunique de Toowoomba",
         bra: "A Túnica de Toowoomba",
-        schema: 30373
+        "schema": 30373
     },
     753: {
         img: "backstabbers_boomslang",
@@ -6787,7 +6787,7 @@ let dataItems = {
         sch: "背刺者之蛇",
         fre: "Le Boomslang du poignardage",
         bra: "A Peçonha do Pérfido",
-        schema: 30353
+        "schema": 30353
     },
     754: {
         img: "napoleon_complex",
@@ -6796,7 +6796,7 @@ let dataItems = {
         sch: "拿破仑情结",
         fre: "Le Complexe de Napoléon",
         bra: "O Complexo de Napoleão",
-        schema: 30360
+        "schema": 30360
     },
     755: {
         img: "deep_cover_operator",
@@ -6805,7 +6805,7 @@ let dataItems = {
         sch: "潜行大师",
         fre: "L'agent sous couverture",
         bra: "A Faixa Furtiva",
-        schema: 30375
+        "schema": 30375
     },
     756: {
         img: "law",
@@ -6814,7 +6814,7 @@ let dataItems = {
         sch: "警官大檐帽",
         fre: "La loi",
         bra: "A Lei",
-        schema: 30362
+        "schema": 30362
     },
     757: {
         img: "pretty_boys_pocket_pistol",
@@ -6823,7 +6823,7 @@ let dataItems = {
         sch: "帅气男孩的袖珍手枪",
         fre: "Le Pistolet de Poche du Beau Gosse",
         bra: "A Pistola Portátil do Peralta",
-        schema: 773,
+        "schema": 773,
         "schema2": 5721
     },
     758: {
@@ -6833,7 +6833,7 @@ let dataItems = {
         sch: "燃素喷射器",
         fre: "Le Phlogistinateur",
         bra: "O Flogistinador",
-        schema: 594,
+        "schema": 594,
         "schema2": 5722
     },
     759: {
@@ -6843,7 +6843,7 @@ let dataItems = {
         sch: "扫荡者卡宾",
         fre: "La Carabine du Nettoyeur",
         bra: "A Carabina do Carrasco",
-        schema: 751,
+        "schema": 751,
         "schema2": 5723
     },
     760: {
@@ -6853,7 +6853,7 @@ let dataItems = {
         sch: "奇异饰品部件：杀敌数",
         fre: "Pièce cosmétique étrange : Victimes",
         bra: "Peça Estranha para Cosméticos: Vítimas",
-        schema: 6060
+        "schema": 6060
     },
     761: {
         img: "strange_part_full_health_kills",
@@ -6862,7 +6862,7 @@ let dataItems = {
         sch: "奇异武器升级部件：满血杀敌数",
         fre: "Victimes lorsque santé est au maximum",
         bra: "Peça Estranha: Vítimas Enquanto com Vida Cheia",
-        schema: 6061
+        "schema": 6061
     },
     762: {
         img: "giftapult",
@@ -6871,7 +6871,7 @@ let dataItems = {
         fre: "Cadeaupulte",
         sch: "礼物发射器",
         bra: "Presentapulta",
-        schema: 5083
+        "schema": 5083
     },
     763: {
         img: "strange_count_transfer_tool",
@@ -6880,7 +6880,7 @@ let dataItems = {
         fre: "Outil de transfert de compteur étrange",
         sch: "奇异计数转移工具",
         bra: "Ferramenta de Transferência de Contagens Estranhas",
-        schema: 5818
+        "schema": 5818
     },
     764: {
         img: "killstreak_kit",
@@ -6889,7 +6889,7 @@ let dataItems = {
         fre: "Kit: #ITEM# Killstreak",
         sch: "连杀记录式 #ITEM# 工具包",
         bra: "Kit de Combo para #ITEM#",
-        schema: 6527
+        "schema": 6527
     },
     765: {
         img: "specialized_killstreak_kit",
@@ -6898,7 +6898,7 @@ let dataItems = {
         fre: "Kit: #ITEM# Killstreak spécialisé",
         sch: "高级连杀记录式 #ITEM# 工具包",
         bra: "Kit de Combo Especializado para #ITEM#",
-        schema: 6523
+        "schema": 6523
     },
     766: {
         img: "professional_killstreak_kit",
@@ -6907,7 +6907,7 @@ let dataItems = {
         fre: "Kit: #ITEM# Killstreak professionnel",
         sch: "职业连杀记录式 #ITEM# 工具包",
         bra: "Kit de Combo Profissional para #ITEM#",
-        schema: 6526
+        "schema": 6526
     },
     767: {
         img: "tour_of_duty_ticket",
@@ -6916,7 +6916,7 @@ let dataItems = {
         fre: "Ticket de Tour of Duty",
         sch: "使命之旅入场券",
         bra: "Ingresso da Campanha",
-        schema: 725
+        "schema": 725
     },
     768: {
         img: "backpack_expander",
@@ -6925,7 +6925,7 @@ let dataItems = {
         fre: "Agrandisseur d'Inventaire",
         sch: "背包扩充工具",
         bra: "Expansor de Mochila",
-        schema: 5050
+        "schema": 5050
     },
     769: {
         img: "decal_tool",
@@ -6934,7 +6934,7 @@ let dataItems = {
         fre: "Outil de décalcomanie",
         sch: "贴纸工具",
         bra: "Ferramenta de Decalque",
-        schema: 5026
+        "schema": 5026
     },
     770: {
         img: "unusualifier",
@@ -6942,8 +6942,8 @@ let dataItems = {
         pol: "Uniezwyklacz: #ITEM#",
         fre: "Inhabituellisateur: #ITEM#",
         sch: "#ITEM# 稀有转化魔法",
-        bra: "Incomunizador para #ITEM#",
-        schema: 9258
+        bra: "Incomunizador",
+        "schema": 9258
     },
     771: {
         img: "aged_moustache_grey",
@@ -6952,7 +6952,7 @@ let dataItems = {
         fre: "Gris Moustache Grisonnante",
         sch: "老年胡须灰",
         bra: "Cinza Bigode Envelhecido",
-        schema: 5038
+        "schema": 5038
     },
     772: {
         img: "mutated_milk",
@@ -6961,7 +6961,7 @@ let dataItems = {
         sch: "突变牛奶",
         fre: "Lait mutant",
         bra: "A Larva do Leite",
-        schema: 1121
+        "schema": 1121
     },
     773: {
         img: "bread_bite",
@@ -6970,7 +6970,7 @@ let dataItems = {
         sch: "咬人的面包",
         fre: "La Morsure du pain",
         bra: "O Pão de Munição",
-        schema: 1100
+        "schema": 1100
     },
     774: {
         img: "self_aware_beauty_mark",
@@ -6979,7 +6979,7 @@ let dataItems = {
         sch: "迷人的生命体",
         fre: "Le grain de beauté conscient",
         bra: "A Bolota Senciente",
-        schema: 1105
+        "schema": 1105
     },
     775: {
         img: "snack_attack",
@@ -6988,7 +6988,7 @@ let dataItems = {
         sch: "进击的零食",
         fre: "L'Attaque du snack",
         bra: "A Revanche do Lanche",
-        schema: 1102
+        "schema": 1102
     },
     776: {
         img: "argyle_ace",
@@ -6997,7 +6997,7 @@ let dataItems = {
         sch: "时髦鞋袜",
         fre: "Les Chaussettes à carreaux",
         bra: "A Meia de Meia-idade",
-        schema: 30427
+        "schema": 30427
     },
     777: {
         img: "frickin_sweet_ninja_hood",
@@ -7006,7 +7006,7 @@ let dataItems = {
         sch: "忍者小斗篷",
         fre: "La Capuche ninja carrément cool",
         bra: "O Capuz do Ninja Maloqueiro",
-        schema: 30394
+        "schema": 30394
     },
     778: {
         img: "paisley_pro",
@@ -7015,7 +7015,7 @@ let dataItems = {
         sch: "佩斯利花边衬衫",
         fre: "Le Paisley du pro",
         bra: "O Profissional de Paisley",
-        schema: 30426
+        "schema": 30426
     },
     779: {
         img: "pomade_prince",
@@ -7024,7 +7024,7 @@ let dataItems = {
         sch: "王子的发油头",
         fre: "Le Prince du gel",
         bra: "A Pomada do Príncipe",
-        schema: 30428
+        "schema": 30428
     },
     780: {
         img: "red_socks",
@@ -7033,7 +7033,7 @@ let dataItems = {
         sch: "红袜子",
         fre: "Les Chaussettes Rouges",
         bra: "As Meias Vermelhas",
-        schema: 30396
+        "schema": 30396
     },
     781: {
         img: "southie_shinobi",
@@ -7042,7 +7042,7 @@ let dataItems = {
         sch: "南方小忍者",
         fre: "Le Shinobi de Boston",
         bra: "O Shinobi do Sul",
-        schema: 30395
+        "schema": 30395
     },
     782: {
         img: "classified_coif",
@@ -7051,7 +7051,7 @@ let dataItems = {
         sch: "公务员的风衣",
         fre: "Le Col Blanc",
         bra: "O Casaco Confidencial",
-        schema: 30388
+        "schema": 30388
     },
     783: {
         img: "man_in_slacks",
@@ -7060,7 +7060,7 @@ let dataItems = {
         sch: "黑裤人",
         fre: "L'Homme de Goût",
         bra: "A Calça que Sabia Demais",
-        schema: 30392
+        "schema": 30392
     },
     784: {
         img: "spook_specs",
@@ -7069,7 +7069,7 @@ let dataItems = {
         sch: "秘密探员墨镜",
         fre: "Les Lunettes Secrètes",
         bra: "O Detetive Destemido",
-        schema: 30390
+        "schema": 30390
     },
     785: {
         img: "combustible_kabuto",
@@ -7078,7 +7078,7 @@ let dataItems = {
         sch: "易燃武士盔",
         fre: "Le Kabuto Inflammable",
         bra: "O Kabuto Kombustível",
-        schema: 30418
+        "schema": 30418
     },
     786: {
         img: "employee_of_the_mmmph",
@@ -7087,7 +7087,7 @@ let dataItems = {
         sch: "麦呜唔快餐员工",
         fre: "Employé du Mmmph",
         bra: "Empregado do Mmmph",
-        schema: 30416
+        "schema": 30416
     },
     787: {
         img: "frymaster",
@@ -7096,7 +7096,7 @@ let dataItems = {
         sch: "油炸活人",
         fre: "Le Maître ès Frites",
         bra: "O Mestre da Fritura",
-        schema: 30417
+        "schema": 30417
     },
     788: {
         img: "gas_guzzler",
@@ -7105,7 +7105,7 @@ let dataItems = {
         sch: "跑车排气管",
         fre: "L'Usine à Gaz",
         bra: "O Gasólotra",
-        schema: 30398
+        "schema": 30398
     },
     789: {
         img: "lunatics_leathers",
@@ -7114,7 +7114,7 @@ let dataItems = {
         sch: "疯狂车手的皮衣",
         fre: "Le Cuir du Dérangé",
         bra: "Couro Chamuscado",
-        schema: 30400
+        "schema": 30400
     },
     790: {
         img: "sengoku_scorcher",
@@ -7123,7 +7123,7 @@ let dataItems = {
         sch: "本能寺纵火者",
         fre: "Fougue Sengoku",
         bra: "Xogum Chamuscado",
-        schema: 30391
+        "schema": 30391
     },
     791: {
         img: "smoking_skid_lid",
@@ -7132,7 +7132,7 @@ let dataItems = {
         sch: "冒烟尖顶盔",
         fre: "Le Casque à pointe du flambeur",
         bra: "O Capacete de Fumaça",
-        schema: 30399
+        "schema": 30399
     },
     792: {
         img: "allbrero",
@@ -7141,7 +7141,7 @@ let dataItems = {
         sch: "墨西哥草帽",
         fre: "Le sombre héros",
         bra: "O Solbrero",
-        schema: 30429
+        "schema": 30429
     },
     793: {
         img: "frontier_djustice",
@@ -7150,7 +7150,7 @@ let dataItems = {
         sch: "墨西哥边疆正义",
         fre: "La Djustice Frontalière",
         bra: "O Djusticeiro",
-        schema: 30421
+        "schema": 30421
     },
     794: {
         img: "razor_cut",
@@ -7159,7 +7159,7 @@ let dataItems = {
         sch: "剃刀发型",
         fre: "La Coupe au rasoir",
         bra: "O Corte à Navalha",
-        schema: 30393
+        "schema": 30393
     },
     795: {
         img: "seeing_double",
@@ -7168,7 +7168,7 @@ let dataItems = {
         sch: "醉汉太阳镜",
         fre: "Double vision",
         bra: "Visão Dobrada",
-        schema: 30430
+        "schema": 30430
     },
     796: {
         img: "six_pack_abs",
@@ -7177,7 +7177,7 @@ let dataItems = {
         sch: "六瓶装啤酒",
         fre: "Les tablettes de chocolat",
         bra: "O Abdome Alcoólico",
-        schema: 30431
+        "schema": 30431
     },
     797: {
         img: "yuris_revenge",
@@ -7186,7 +7186,7 @@ let dataItems = {
         sch: "尤里的复仇",
         fre: "Revanche de Yuri",
         bra: "A Vingança do Yuri",
-        schema: 30401
+        "schema": 30401
     },
     798: {
         img: "danger",
@@ -7195,7 +7195,7 @@ let dataItems = {
         sch: "绝命毒工",
         fre: "Le Danger",
         bra: "O Perigo",
-        schema: 30420
+        "schema": 30420
     },
     799: {
         img: "eggheads_overalls",
@@ -7204,7 +7204,7 @@ let dataItems = {
         sch: "书呆子衬衫",
         fre: "La blouse de l'intello",
         bra: "O Barrigão do Cabeção",
-        schema: 30408
+        "schema": 30408
     },
     800: {
         img: "endothermic_exowear",
@@ -7213,7 +7213,7 @@ let dataItems = {
         sch: "吸热外套",
         fre: "L'Exo-combi Endothermique",
         bra: "A Exovestimenta Endotérmica",
-        schema: 30412
+        "schema": 30412
     },
     801: {
         img: "joe_on_the_go",
@@ -7222,7 +7222,7 @@ let dataItems = {
         sch: "偷运宇航猴",
         fre: "Le Joe-Sac-à-Dos",
         bra: "Macaco pra Toda Obra",
-        schema: 30403
+        "schema": 30403
     },
     802: {
         img: "level_three_chin",
@@ -7231,7 +7231,7 @@ let dataItems = {
         sch: "肉肉的下巴",
         fre: "Le Triple Menton",
         bra: "O Queixo Nível Três",
-        schema: 30407
+        "schema": 30407
     },
     803: {
         img: "lonesome_loafers",
@@ -7240,7 +7240,7 @@ let dataItems = {
         sch: "孤独一生的凉鞋",
         fre: "Les Mocassins du solitaire",
         bra: "As Meias Melancólicas",
-        schema: 30409
+        "schema": 30409
     },
     804: {
         img: "peaceniks_ponytail",
@@ -7249,7 +7249,7 @@ let dataItems = {
         sch: "反战分子的马尾头",
         fre: "La Queue de Cheval du Pacifiste",
         bra: "O Rabo de Cavalo do Revolucionário",
-        schema: 30406
+        "schema": 30406
     },
     805: {
         img: "tools_of_the_trade",
@@ -7258,7 +7258,7 @@ let dataItems = {
         sch: "工具背心",
         fre: "Les Bons Outils",
         bra: "Os Ossos do Ofício",
-        schema: 30402
+        "schema": 30402
     },
     806: {
         img: "chronoscarf",
@@ -7267,7 +7267,7 @@ let dataItems = {
         sch: "时空围巾",
         fre: "L'Écharpe temporelle",
         bra: "O Cronocachecol",
-        schema: 30419
+        "schema": 30419
     },
     807: {
         img: "medicine_manpurse",
@@ -7276,7 +7276,7 @@ let dataItems = {
         sch: "装药的男式手袋",
         fre: "La sacoche médicinale",
         bra: "A Mala Médica",
-        schema: 30415
+        "schema": 30415
     },
     808: {
         img: "ze_ubermensch",
@@ -7285,7 +7285,7 @@ let dataItems = {
         sch: "尼采的超人胡子",
         fre: "Ze Übermensch",
         bra: "Ze Übermensch",
-        schema: 30410
+        "schema": 30410
     },
     809: {
         img: "scopers_smoke",
@@ -7294,7 +7294,7 @@ let dataItems = {
         sch: "烟枪狙击手",
         fre: "La Cigarette du Scoper",
         bra: "O Fumo do Franco-atirador",
-        schema: 30423
+        "schema": 30423
     },
     810: {
         img: "triggermans_tacticals",
@@ -7303,7 +7303,7 @@ let dataItems = {
         sch: "射手的战术长裤",
         fre: "Le Bouffant du braqueur",
         bra: "As Calças do Carabineiro",
-        schema: 30424
+        "schema": 30424
     },
     811: {
         img: "au_courant_assassin",
@@ -7312,7 +7312,7 @@ let dataItems = {
         sch: "熟练杀手",
         fre: "L'assassin au courant",
         bra: "O Assassino Antenado",
-        schema: 30411
+        "schema": 30411
     },
     812: {
         img: "aviator_assassin",
@@ -7321,7 +7321,7 @@ let dataItems = {
         sch: "空中刺客",
         fre: "L'Aviateur Malfaiteur",
         bra: "O Assassino Aviador",
-        schema: 30404
+        "schema": 30404
     },
     813: {
         img: "rogues_robe",
@@ -7330,7 +7330,7 @@ let dataItems = {
         sch: "盗贼长袍",
         fre: "Le Kimono du voyou",
         bra: "A Bata do Bandido",
-        schema: 30389
+        "schema": 30389
     },
     814: {
         img: "sky_captain",
@@ -7339,7 +7339,7 @@ let dataItems = {
         sch: "机长制服",
         fre: "Le Commandant de bord",
         bra: "O Capitão dos Céus",
-        schema: 30405
+        "schema": 30405
     },
     815: {
         img: "mercs_mohawk",
@@ -7348,7 +7348,7 @@ let dataItems = {
         sch: "佣兵的莫西干发型",
         fre: "Le Mohawk de mercenaire",
         bra: "O Moicano do Mercenário",
-        schema: 30413
+        "schema": 30413
     },
     816: {
         img: "bruisers_bandanna",
@@ -7357,7 +7357,7 @@ let dataItems = {
         sch: "彪形大汉面罩",
         fre: "Le Bandana du Bandito",
         bra: "A Bandana do Brutamontes",
-        schema: 30397
+        "schema": 30397
     },
     817: {
         img: "eye_catcher",
@@ -7366,7 +7366,7 @@ let dataItems = {
         sch: "独眼龙",
         fre: "Le Tape-à-l'Oeil",
         bra: "O Papa-olho",
-        schema: 30414
+        "schema": 30414
     },
     818: {
         img: "tipped_lid",
@@ -7375,7 +7375,7 @@ let dataItems = {
         sch: "卷边小礼帽",
         fre: "Le Chapeau bas",
         bra: "Chapéu-coco Caridoso",
-        schema: 30425
+        "schema": 30425
     },
     819: {
         img: "vive_la_france",
@@ -7384,7 +7384,7 @@ let dataItems = {
         sch: "法兰西万岁",
         fre: "Vive La France",
         bra: "Vive La France",
-        schema: 30422
+        "schema": 30422
     },
     820: {
         img: "ye_olde_rustic_colour",
@@ -7393,7 +7393,7 @@ let dataItems = {
         fre: "La Bonne Vieille Couleur des Familles",
         sch: "老式乡村啡色",
         bra: "Vossa Velha Cor Rústica",
-        schema: 5036
+        "schema": 5036
     },
     821: {
         img: "an_air_of_debonair",
@@ -7402,7 +7402,7 @@ let dataItems = {
         fre: "Un Air de Débonnaire",
         sch: "优雅的姿态",
         bra: "Um Ar de Debochar",
-        schema: 5063
+        "schema": 5063
     },
     822: {
         img: "balaclavas_are_forever",
@@ -7411,7 +7411,7 @@ let dataItems = {
         fre: "Les Cagoules Sont Éternelles",
         sch: "不朽的巴拉克拉瓦",
         bra: "As Balaclavas são Eternas",
-        schema: 5062
+        "schema": 5062
     },
     823: {
         img: "cream_spirit",
@@ -7420,7 +7420,7 @@ let dataItems = {
         fre: "Esprit Crème",
         sch: "奶油精神",
         bra: "Cremespírito de Equipe",
-        schema: 5065
+        "schema": 5065
     },
     824: {
         img: "operators_overalls",
@@ -7429,7 +7429,7 @@ let dataItems = {
         fre: "Salopette de l'Engineer",
         sch: "技工的工作服",
         bra: "Macacão do Operário",
-        schema: 5060
+        "schema": 5060
     },
     825: {
         img: "the_value_of_teamwork",
@@ -7438,7 +7438,7 @@ let dataItems = {
         fre: "L'Importance du Travail d'Équipe",
         sch: "团队之力",
         bra: "O Valor do Trabalho em Equipe",
-        schema: 5064
+        "schema": 5064
     },
     826: {
         img: "waterlogged_lab_coat",
@@ -7447,7 +7447,7 @@ let dataItems = {
         fre: "Blouse de Labo Détrempée",
         sch: "浸满水的实验工作服",
         bra: "Jaleco Encharcado",
-        schema: 5061
+        "schema": 5061
     },
     827: {
         img: "aerobatics_demonstrator",
@@ -7456,7 +7456,7 @@ let dataItems = {
         fre: "Démonstrateur de voltige aérienne",
         sch: "醉酒驾机",
         bra: "Demonstrador de Acrobacias Aéreas",
-        schema: 30793
+        "schema": 30793
     },
     828: {
         img: "final_frontier_freighter",
@@ -7465,7 +7465,7 @@ let dataItems = {
         fre: "Transporteur de l'ultime frontière",
         sch: "航地飞机",
         bra: "Cargueiro da Fronteira Final",
-        schema: 30794
+        "schema": 30794
     },
     829: {
         img: "hovering_hotshot",
@@ -7474,16 +7474,16 @@ let dataItems = {
         fre: "Super hélice",
         sch: "人肉直升机",
         bra: "Ares Ardentes",
-        schema: 30795
+        "schema": 30795
     },
     830: {
         img: "classic",
         eng: "Classic",
-        pol: "Klasyk",
+        pol: "Klasyczny",
         sch: "经典",
         fre: "Classique",
         bra: "Clássico",
-        schema: 1098,
+        "schema": 1098,
         "schema2": 5754
     },
     831: {
@@ -7493,7 +7493,7 @@ let dataItems = {
         sch: "熔人枪",
         fre: "Le Fissionneur",
         bra: "A Derretedora de Homens",
-        schema: 595,
+        "schema": 595,
         "schema2": 5755
     },
     832: {
@@ -7503,7 +7503,7 @@ let dataItems = {
         fre: "Crocodile Mun-Dee",
         sch: "全员鳄人",
         bra: "Crocodilo Mun-Dee",
-        schema: 31009
+        "schema": 31009
     },
     833: {
         img: "strange_part_robot_scouts_destroyed",
@@ -7512,7 +7512,7 @@ let dataItems = {
         sch: "奇异武器升级部件：机器人侦察兵消灭数",
         fre: "Pièce étrange : Scouts Robots détruits",
         bra: "Peça Estranha: Scouts Robôs Destruídos",
-        schema: 6042
+        "schema": 6042
     },
     834: {
         img: "strange_part_taunting_player_kills",
@@ -7521,7 +7521,7 @@ let dataItems = {
         sch: "奇异武器升级部件：消灭正在嘲讽玩家数",
         fre: "Pièce étrange : Victimes effectuant une raillerie",
         bra: "Peça Estranha: Vítimas Provocadoras",
-        schema: 6062
+        "schema": 6062
     },
     835: {
         img: "scopers_scales",
@@ -7530,7 +7530,7 @@ let dataItems = {
         fre: "Reptile réputé",
         sch: "鳄人鳞甲",
         bra: "Escamas do Franco-atirador",
-        schema: 31005
+        "schema": 31005
     },
     836: {
         img: "dell_in_the_shell",
@@ -7539,7 +7539,7 @@ let dataItems = {
         fre: "Dell sous Carapace",
         sch: "龟工",
         bra: "Conagher no Casco",
-        schema: 30995
+        "schema": 30995
     },
     837: {
         img: "a_shell_of_a_mann",
@@ -7548,7 +7548,7 @@ let dataItems = {
         fre: "La Carapace d'un Homme",
         sch: "曼恩鳖甲",
         bra: "O Casco de um Homem",
-        schema: 30994
+        "schema": 30994
     },
     838: {
         img: "nugget_noggin",
@@ -7557,7 +7557,7 @@ let dataItems = {
         sch: "鸡块大王",
         fre: "La Tronche d'Escalope Panée",
         bra: "O Galo Galante",
-        schema: 30491
+        "schema": 30491
     },
     839: {
         img: "fowl_fists",
@@ -7566,7 +7566,7 @@ let dataItems = {
         sch: "小鸡快跑",
         fre: "Les Poings Volatiles",
         bra: "Os Punhos Penosos",
-        schema: 30492
+        "schema": 30492
     },
     840: {
         img: "talon_trotters",
@@ -7575,7 +7575,7 @@ let dataItems = {
         sch: "劲脆鸡爪",
         fre: "Les Serres Trotteuses",
         bra: "As Garras Galináceas",
-        schema: 30493
+        "schema": 30493
     },
     841: {
         img: "head_hunter",
@@ -7584,7 +7584,7 @@ let dataItems = {
         sch: "Hunter 的头",
         fre: "Le Chasseur de Têtes",
         bra: "O Caçador de Cabeças",
-        schema: 30494
+        "schema": 30494
     },
     842: {
         img: "claws_and_infect",
@@ -7593,7 +7593,7 @@ let dataItems = {
         sch: "感染之爪",
         fre: "Les Griffes Infectées",
         bra: "Os Dedos Doentios",
-        schema: 30495
+        "schema": 30495
     },
     843: {
         img: "crazy_legs",
@@ -7602,7 +7602,7 @@ let dataItems = {
         sch: "腐烂之足",
         fre: "Les Crazy Legs",
         bra: "As Pernas Loucas",
-        schema: 30496
+        "schema": 30496
     },
     844: {
         img: "battle_bird",
@@ -7611,7 +7611,7 @@ let dataItems = {
         sch: "天鹰战士",
         fre: "L'Oiseau de bataille",
         bra: "O Bicador de Batalha",
-        schema: 30524
+        "schema": 30524
     },
     845: {
         img: "ghoul_gibbin_gear",
@@ -7620,7 +7620,7 @@ let dataItems = {
         sch: "尖头十字架",
         fre: "L'Équipement du Massacreur de Goules",
         bra: "O Equipamento Explode-espíritos",
-        schema: 30520
+        "schema": 30520
     },
     846: {
         img: "hellhunters_headpiece",
@@ -7629,7 +7629,7 @@ let dataItems = {
         sch: "地狱猎手",
         fre: "Le Chapeau du Purificateur",
         bra: "O Chapéu do Caçador Infernal",
-        schema: 30521
+        "schema": 30521
     },
     847: {
         img: "supernatural_stalker",
@@ -7638,7 +7638,7 @@ let dataItems = {
         sch: "超自然行者",
         fre: "Le Traqueur Surnaturel",
         bra: "O Perseguidor Paranormal",
-        schema: 30522
+        "schema": 30522
     },
     848: {
         img: "kritz_or_treat_canteen",
@@ -7647,7 +7647,7 @@ let dataItems = {
         sch: "“不放爆击就捣蛋”水壶",
         fre: "Gourde Kritz ou Friandises",
         bra: "Cantil de Doces e Travessuras",
-        schema: 30535
+        "schema": 30535
     },
     849: {
         img: "creatures_grin",
@@ -7656,7 +7656,7 @@ let dataItems = {
         sch: "裂面者",
         fre: "Le Sourire Monstrueux",
         bra: "A Boca Bem Aberta",
-        schema: 30525
+        "schema": 30525
     },
     850: {
         img: "arsonist_apparatus",
@@ -7665,7 +7665,7 @@ let dataItems = {
         sch: "纵火者之臂",
         fre: "L'Appareil Incendiaire",
         bra: "A Prótese Piromaníaca",
-        schema: 30526
+        "schema": 30526
     },
     851: {
         img: "moccasin_machinery",
@@ -7674,7 +7674,7 @@ let dataItems = {
         sch: "莫卡辛机器足",
         fre: "Le Mocassin Mécanique",
         bra: "O Mocassim Mecatrônico",
-        schema: 30527
+        "schema": 30527
     },
     852: {
         img: "lollichop_licker",
@@ -7683,7 +7683,7 @@ let dataItems = {
         sch: "糖上舔血",
         fre: "Le Sussache Lover",
         bra: "O Lambedor de Pyrolito",
-        schema: 30528
+        "schema": 30528
     },
     853: {
         img: "mr_juice",
@@ -7692,7 +7692,7 @@ let dataItems = {
         sch: "果汁先生",
         fre: "M. Juteux",
         bra: "Sr. Suco",
-        schema: 30529
+        "schema": 30529
     },
     854: {
         img: "vampyro",
@@ -7701,7 +7701,7 @@ let dataItems = {
         sch: "火焰吸血鬼",
         fre: "Le Vampyro",
         bra: "Vampyro",
-        schema: 30530
+        "schema": 30530
     },
     855: {
         img: "forgotten_kings_restless_head",
@@ -7710,7 +7710,7 @@ let dataItems = {
         sch: "鬼王的脑袋",
         fre: "La Tête Délétère du Roi Oublié",
         bra: "O Crânio Inquieto do Rei Esquecido",
-        schema: 30516
+        "schema": 30516
     },
     856: {
         img: "forgotten_kings_pauldrons",
@@ -7719,7 +7719,7 @@ let dataItems = {
         sch: "鬼王的肩甲",
         fre: "Les Épaulières du Roi Oublié",
         bra: "As Ombreiras do Rei Esquecido",
-        schema: 30517
+        "schema": 30517
     },
     857: {
         img: "eyeborg",
@@ -7728,7 +7728,7 @@ let dataItems = {
         sch: "机器义眼",
         fre: "L'Oeilborg",
         bra: "O Ciclopeborgue",
-        schema: 30518
+        "schema": 30518
     },
     858: {
         img: "mannhattan_project",
@@ -7737,7 +7737,7 @@ let dataItems = {
         sch: "头戴式蘑菇云",
         fre: "Le Projet Manhattan",
         bra: "O Projeto Mannhattan",
-        schema: 30519
+        "schema": 30519
     },
     859: {
         img: "lil_dutchman",
@@ -7746,7 +7746,7 @@ let dataItems = {
         sch: "诅咒之舟",
         fre: "Le P'tit Hollandais",
         bra: "O Pequeno Holandês Voador",
-        schema: 30536
+        "schema": 30536
     },
     860: {
         img: "bone_cut_belt",
@@ -7755,7 +7755,7 @@ let dataItems = {
         sch: "剔骨护肩",
         fre: "La Ceinture Coupe-Os",
         bra: "O Cinto Chifrudo",
-        schema: 30531
+        "schema": 30531
     },
     861: {
         img: "bull_locks",
@@ -7764,7 +7764,7 @@ let dataItems = {
         sch: "公牛毛发",
         fre: "Les Dreadlocks de Taureau",
         bra: "A Barba de Touro",
-        schema: 30532
+        "schema": 30532
     },
     862: {
         img: "minsk_beef",
@@ -7773,7 +7773,7 @@ let dataItems = {
         sch: "明斯克公牛",
         fre: "L' É-Minsk-é de Bœuf",
         bra: "O Bife de Minsk",
-        schema: 30533
+        "schema": 30533
     },
     863: {
         img: "immobile_suit",
@@ -7782,7 +7782,7 @@ let dataItems = {
         sch: "重型胸甲",
         fre: "La Combi-mmobile",
         bra: "O Traje Imóvel",
-        schema: 30534
+        "schema": 30534
     },
     864: {
         img: "hooded_haunter",
@@ -7791,7 +7791,7 @@ let dataItems = {
         sch: "披风幽灵",
         fre: "L'Esprit Capuchonné",
         bra: "O Espectro Encapuzado",
-        schema: 30498
+        "schema": 30498
     },
     865: {
         img: "iron_fist",
@@ -7800,7 +7800,7 @@ let dataItems = {
         sch: "铁臂",
         fre: "Le Poing de Fer",
         bra: "O Punho de Ferro",
-        schema: 30508
+        "schema": 30508
     },
     866: {
         img: "beep_man",
@@ -7809,7 +7809,7 @@ let dataItems = {
         sch: "巨型游戏机",
         fre: "Le Beep Man",
         bra: "O Bip Man",
-        schema: 30509
+        "schema": 30509
     },
     867: {
         img: "soul_of_spensers_past",
@@ -7818,7 +7818,7 @@ let dataItems = {
         sch: "布.基齐先生的灵魂",
         fre: "Le Fantôme des Distributeurs Défunts",
         bra: "O Fantasma de Fornecedores Falecidos",
-        schema: 30510
+        "schema": 30510
     },
     868: {
         img: "garden_bristles",
@@ -7827,7 +7827,7 @@ let dataItems = {
         sch: "花园矮人须",
         fre: "La Barbe de Jardin",
         bra: "A Barba de Jardim",
-        schema: 30523
+        "schema": 30523
     },
     869: {
         img: "tiny_texan",
@@ -7836,7 +7836,7 @@ let dataItems = {
         sch: "微型德州人",
         fre: "Le Petit Texan",
         bra: "A Cabeça Controladora",
-        schema: 30511
+        "schema": 30511
     },
     870: {
         img: "herzensbrecher",
@@ -7845,7 +7845,7 @@ let dataItems = {
         sch: "医界良心",
         fre: "Le Herzensbrecher",
         bra: "O Herzensbrecher",
-        schema: 30486
+        "schema": 30486
     },
     871: {
         img: "hundkopf",
@@ -7854,7 +7854,7 @@ let dataItems = {
         sch: "死狗头",
         fre: "Le Hundkopf",
         bra: "O Hundkopf",
-        schema: 30487
+        "schema": 30487
     },
     872: {
         img: "kriegsmaschine_9000",
@@ -7863,7 +7863,7 @@ let dataItems = {
         sch: "爆击机器人 9000 型",
         fre: "La Kriegsmaschine-9000",
         bra: "A Kriegsmaschine-9000",
-        schema: 30488
+        "schema": 30488
     },
     873: {
         img: "vampire_makeover",
@@ -7872,7 +7872,7 @@ let dataItems = {
         sch: "血站总管的面容",
         fre: "Le Relooking Transylvanien",
         bra: "A Maquiagem Vampiresca",
-        schema: 30489
+        "schema": 30489
     },
     874: {
         img: "vampiric_vesture",
@@ -7881,7 +7881,7 @@ let dataItems = {
         sch: "血站总管的大衣",
         fre: "L'Habit Vampirique",
         bra: "As Vestimentas Vampíricas",
-        schema: 30490
+        "schema": 30490
     },
     875: {
         img: "templars_spirit",
@@ -7890,7 +7890,7 @@ let dataItems = {
         sch: "圣殿骑士之灵",
         fre: "L’Âme du Templier",
         bra: "O Espírito do Templário",
-        schema: 30514
+        "schema": 30514
     },
     876: {
         img: "wings_of_purity",
@@ -7899,7 +7899,7 @@ let dataItems = {
         sch: "净化之翼",
         fre: "Les Ailes de Pureté",
         bra: "As Asas da Pureza",
-        schema: 30515
+        "schema": 30515
     },
     877: {
         img: "cranial_conspiracy",
@@ -7908,7 +7908,7 @@ let dataItems = {
         sch: "蜥蜴脑袋",
         fre: "La Conspiration Crânienne",
         bra: "A Conspiração Craniana",
-        schema: 30499
+        "schema": 30499
     },
     878: {
         img: "scaly_scrapers",
@@ -7917,7 +7917,7 @@ let dataItems = {
         sch: "蜥蜴爪子",
         fre: "La Démangeaison d’Écailles",
         bra: "O Esfolador Escamoso",
-        schema: 30500
+        "schema": 30500
     },
     879: {
         img: "mr_mundees_wild_ride",
@@ -7926,7 +7926,7 @@ let dataItems = {
         sch: "穆迪先生的狂野座驾",
         fre: "La Chevauchée Sauvage de M. Mundee",
         bra: "As Aventuras do Mundee Animal",
-        schema: 30513
+        "schema": 30513
     },
     880: {
         img: "marsupial_man",
@@ -7935,7 +7935,7 @@ let dataItems = {
         sch: "袋鼠耳朵",
         fre: "L'Homme Marsupial",
         bra: "O Marsupial Maluco",
-        schema: 30501
+        "schema": 30501
     },
     881: {
         img: "kanga_kickers",
@@ -7944,7 +7944,7 @@ let dataItems = {
         sch: "袋鼠尾巴",
         fre: "Les Kangous Kickers",
         bra: "Os Cangu-calçados",
-        schema: 30502
+        "schema": 30502
     },
     882: {
         img: "roo_rippers",
@@ -7953,7 +7953,7 @@ let dataItems = {
         sch: "袋鼠爪子",
         fre: "Le Kangourou Éventreur",
         bra: "Garras de 'Guru",
-        schema: 30503
+        "schema": 30503
     },
     883: {
         img: "marsupial_muzzle",
@@ -7962,7 +7962,7 @@ let dataItems = {
         sch: "袋鼠脑袋",
         fre: "Le Museau Marsupial",
         bra: "O Focinho Marsupial",
-        schema: 30504
+        "schema": 30504
     },
     884: {
         img: "shadowmans_shade",
@@ -7971,7 +7971,7 @@ let dataItems = {
         sch: "暗影之人的礼帽",
         fre: "L'Ombre du Shadowman",
         bra: "O Visual do Outro Lado",
-        schema: 30505
+        "schema": 30505
     },
     885: {
         img: "nightmare_hunter",
@@ -7980,7 +7980,7 @@ let dataItems = {
         sch: "梦魇猎手",
         fre: "Le Chasseur Cauchemardesque",
         bra: "O Caçador da Meia-noite",
-        schema: 30506
+        "schema": 30506
     },
     886: {
         img: "rogues_rabbit",
@@ -7989,7 +7989,7 @@ let dataItems = {
         sch: "魔术师的兔子帽",
         fre: "Le Lapin du Voyou",
         bra: "O Truque do Trapaceiro",
-        schema: 30507
+        "schema": 30507
     },
     887: {
         img: "facepeeler",
@@ -7998,7 +7998,7 @@ let dataItems = {
         sch: "画皮",
         fre: "L’Éplucheur de Visages",
         bra: "O Descarado",
-        schema: 30512
+        "schema": 30512
     },
     888: {
         img: "ghost_of_spies_checked_past",
@@ -8007,7 +8007,7 @@ let dataItems = {
         sch: "死不瞑目的间谍鬼魂",
         fre: "Le Fantôme des Défunts Spies Repérés",
         bra: "O Fantasma de Spies Passados",
-        schema: 30497
+        "schema": 30497
     },
     889: {
         img: "mishap_mercenary",
@@ -8016,7 +8016,7 @@ let dataItems = {
         sch: "倒霉的雇佣兵",
         fre: "Le Mercenaire malchanceux",
         bra: "O Mercenário Azarado",
-        schema: 30475
+        "schema": 30475
     },
     890: {
         img: "lady_killer",
@@ -8025,7 +8025,7 @@ let dataItems = {
         sch: "少妇杀手",
         fre: "Le Tombeur de ces Dames",
         bra: "O Espião Estripador",
-        schema: 30476
+        "schema": 30476
     },
     891: {
         img: "lone_survivor",
@@ -8034,7 +8034,7 @@ let dataItems = {
         sch: "孤独的幸存者",
         fre: "Le Survivant Solitaire",
         bra: "O Sobrevivente",
-        schema: 30477
+        "schema": 30477
     },
     892: {
         img: "poachers_safari_jacket",
@@ -8043,7 +8043,7 @@ let dataItems = {
         sch: "偷猎者的夹克",
         fre: "Veste safari du braconnier",
         bra: "A Jaqueta do Larápio de Cabeças",
-        schema: 30478
+        "schema": 30478
     },
     893: {
         img: "thirst_blood",
@@ -8052,7 +8052,7 @@ let dataItems = {
         sch: "嗜血头带",
         fre: "Pas ma Guerre",
         bra: "Sede de Sangue",
-        schema: 30479
+        "schema": 30479
     },
     894: {
         img: "mann_of_the_seven_sees",
@@ -8061,7 +8061,7 @@ let dataItems = {
         sch: "纵横七海",
         fre: "Le Conquérant des Sept Mers",
         bra: "O Demolidor dos Sete Mares",
-        schema: 30480
+        "schema": 30480
     },
     895: {
         img: "hillbilly_speed_bump",
@@ -8070,7 +8070,7 @@ let dataItems = {
         sch: "口袋犰狳",
         fre: "Bosse de péquenaud",
         bra: "Tatu do Ben",
-        schema: 30481
+        "schema": 30481
     },
     896: {
         img: "unshaved_bear",
@@ -8079,7 +8079,7 @@ let dataItems = {
         sch: "长毛熊怪",
         fre: "L'Ours mal rasé",
         bra: "O Urso Barbudo",
-        schema: 30482
+        "schema": 30482
     },
     897: {
         img: "pocket_heavy",
@@ -8088,7 +8088,7 @@ let dataItems = {
         sch: "口袋机枪手",
         fre: "Heavy de poche",
         bra: "Heavy de Bolso",
-        schema: 30483
+        "schema": 30483
     },
     898: {
         img: "wartime_warmth",
@@ -8097,7 +8097,7 @@ let dataItems = {
         sch: "战时保暖面罩",
         fre: "Cagoule de guerre",
         bra: "Calor do Combate",
-        schema: 30538
+        "schema": 30538
     },
     899: {
         img: "insulated_inventor",
@@ -8106,7 +8106,7 @@ let dataItems = {
         sch: "保暖发明家",
         fre: "Inventeur isolé",
         bra: "Inventor Insulado",
-        schema: 30539
+        "schema": 30539
     },
     900: {
         img: "brooklyn_booties",
@@ -8115,7 +8115,7 @@ let dataItems = {
         sch: "布鲁克林短靴",
         fre: "Bottines de Brooklyn",
         bra: "Botinas de Brooklyn",
-        schema: 30540
+        "schema": 30540
     },
     901: {
         img: "double_dynamite",
@@ -8124,7 +8124,7 @@ let dataItems = {
         sch: "两捆炸药",
         fre: "Double Dynamite",
         bra: "Dupla Dinamite",
-        schema: 30541
+        "schema": 30541
     },
     902: {
         img: "coldsnap_cap",
@@ -8133,7 +8133,7 @@ let dataItems = {
         sch: "寒潮针织帽",
         fre: "Bonnet de vague de froid",
         bra: "Forro de Frente Fria",
-        schema: 30542
+        "schema": 30542
     },
     903: {
         img: "snow_stompers",
@@ -8142,7 +8142,7 @@ let dataItems = {
         sch: "雪地践踏者",
         fre: "Grosses bottes de neige",
         bra: "Galochas de Gelo",
-        schema: 30543
+        "schema": 30543
     },
     904: {
         img: "north_polar_fleece",
@@ -8151,7 +8151,7 @@ let dataItems = {
         sch: "北极羊毛衣",
         fre: "Toison polaire",
         bra: "Pulôver do Polo Norte",
-        schema: 30544
+        "schema": 30544
     },
     905: {
         img: "fur_lined_fighter",
@@ -8160,7 +8160,7 @@ let dataItems = {
         sch: "毛皮战士帽",
         fre: "Guerrier de fourrure",
         bra: "Protetores Peludos",
-        schema: 30545
+        "schema": 30545
     },
     906: {
         img: "boxcar_bomber",
@@ -8169,7 +8169,7 @@ let dataItems = {
         sch: "棚车轰炸员",
         fre: "Fourvoyeur de fourgon",
         bra: "Vigilante do Vagão",
-        schema: 30546
+        "schema": 30546
     },
     907: {
         img: "bombers_bucket_hat",
@@ -8178,7 +8178,7 @@ let dataItems = {
         sch: "轰炸员的礼帽",
         fre: "Bob du bombardier",
         bra: "Barrete do Bombardeiro",
-        schema: 30547
+        "schema": 30547
     },
     908: {
         img: "screamin_eagle",
@@ -8187,7 +8187,7 @@ let dataItems = {
         sch: "呼啸雄鹰",
         fre: "Piqué du faucon",
         bra: "Esquadrão Gavião",
-        schema: 30548
+        "schema": 30548
     },
     909: {
         img: "winter_woodsman",
@@ -8196,7 +8196,7 @@ let dataItems = {
         sch: "冬季伐木人",
         fre: "Bûcheron boréal",
         bra: "Lenhador de Lisburne",
-        schema: 30549
+        "schema": 30549
     },
     910: {
         img: "snow_sleeves",
@@ -8205,7 +8205,7 @@ let dataItems = {
         sch: "雪地防寒袖",
         fre: "Manches hivernales",
         bra: "Abomináveis Mangas da Neve",
-        schema: 30550
+        "schema": 30550
     },
     911: {
         img: "flashdance_footies",
@@ -8214,7 +8214,7 @@ let dataItems = {
         sch: "闪舞冬靴",
         fre: "Façon Flashdance",
         bra: "Polaina do Polo",
-        schema: 30551
+        "schema": 30551
     },
     912: {
         img: "thermal_tracker",
@@ -8223,7 +8223,7 @@ let dataItems = {
         sch: "热能追踪者",
         fre: "Traqueur thermique",
         bra: "Camisa Térmica do Corredor",
-        schema: 30552
+        "schema": 30552
     },
     913: {
         img: "condor_cap",
@@ -8232,7 +8232,7 @@ let dataItems = {
         sch: "秃鹰之帽",
         fre: "Bonnet de condor",
         bra: "Chapéu de Condor",
-        schema: 30553
+        "schema": 30553
     },
     914: {
         img: "mistaken_movember",
@@ -8241,7 +8241,7 @@ let dataItems = {
         sch: "胡子节的谬误",
         fre: "Mauvais Movember",
         bra: "Barbudo sem Bigode",
-        schema: 30554
+        "schema": 30554
     },
     915: {
         img: "double_dog_dare_demo_pants",
@@ -8250,7 +8250,7 @@ let dataItems = {
         sch: "无惧之爆破手冬裤",
         fre: "Pantalon à double défi du Demoman",
         bra: "Calças de Carga do Ciclope",
-        schema: 30555
+        "schema": 30555
     },
     916: {
         img: "sleeveless_in_siberia",
@@ -8259,7 +8259,7 @@ let dataItems = {
         sch: "西伯利亚无袖衣",
         fre: "Débardeur sibérien",
         bra: "Jaqueta de Geada",
-        schema: 30556
+        "schema": 30556
     },
     917: {
         img: "hunter_heavy",
@@ -8268,7 +8268,7 @@ let dataItems = {
         sch: "机枪猎手",
         fre: "Heavy chasseur",
         bra: "Caçador Camuflado",
-        schema: 30557
+        "schema": 30557
     },
     918: {
         img: "coldfront_curbstompers",
@@ -8277,7 +8277,7 @@ let dataItems = {
         sch: "冷锋践踏者",
         fre: "Mange-trottoir de Coldfront",
         bra: "Frente Quente",
-        schema: 30558
+        "schema": 30558
     },
     919: {
         img: "crossing_guard",
@@ -8286,12 +8286,12 @@ let dataItems = {
         sch: "铁轨管制员",
         fre: "Le Passage à niveau",
         bra: "A Cruz de Santo André",
-        schema: 1127
+        "schema": 1127
     },
     920: {
         img: "pool_party",
         eng: "Taunt: Pool Party",
-        schema: 30570,
+        "schema": 30570,
         pol: "Drwina: Impreza na basenie",
         sch: "嘲讽：泳池派对",
         fre: "Raillerie : Piscine festive",
@@ -8304,7 +8304,7 @@ let dataItems = {
         sch: "寒潮外套",
         fre: "Blouson Coupe Vent",
         bra: "Casaco Cala-frio",
-        schema: 30601
+        "schema": 30601
     },
     922: {
         img: "festive_bonk_atomic_punch",
@@ -8313,7 +8313,7 @@ let dataItems = {
         sch: "节日原子能饮料",
         fre: "Bonk! Atomic Punch festif",
         bra: "Bonk! Pancada Atômica Festiva",
-        schema: 1145
+        "schema": 1145
     },
     923: {
         img: "festive_backburner",
@@ -8322,7 +8322,7 @@ let dataItems = {
         sch: "节日偷袭烈焰喷射器",
         fre: "Brûleur arrière festif",
         bra: "Queima-costas Festivo",
-        schema: 1146
+        "schema": 1146
     },
     924: {
         img: "festive_chargin_targe",
@@ -8331,7 +8331,7 @@ let dataItems = {
         sch: "节日冲锋盾",
         fre: "Bouclier bélier festif",
         bra: "Tarja de Investida Festiva",
-        schema: 1144
+        "schema": 1144
     },
     925: {
         img: "festive_bonesaw",
@@ -8340,7 +8340,7 @@ let dataItems = {
         sch: "节日骨锯",
         fre: "Scie à amputation festive",
         bra: "Serra de Ossos Festiva",
-        schema: 1143
+        "schema": 1143
     },
     926: {
         img: "festive_smg",
@@ -8349,7 +8349,7 @@ let dataItems = {
         sch: "节日 SMG",
         fre: "Mitraillette festive",
         bra: "Submetralhadora Festiva",
-        schema: 1149
+        "schema": 1149
     },
     927: {
         img: "festive_revolver",
@@ -8358,7 +8358,7 @@ let dataItems = {
         sch: "节日左轮手枪",
         fre: "Revolver festif",
         bra: "Revólver Festivo",
-        schema: 1142
+        "schema": 1142
     },
     928: {
         img: "festive_shotgun",
@@ -8367,7 +8367,7 @@ let dataItems = {
         sch: "节日霰弹枪",
         fre: "Fusil à pompe festif",
         bra: "Escopeta Festiva",
-        schema: 1141
+        "schema": 1141
     },
     929: {
         img: "co_pilot",
@@ -8376,7 +8376,7 @@ let dataItems = {
         sch: "副驾驶头盔",
         fre: "Co-Pilote",
         bra: "Copiloto",
-        schema: 30576
+        "schema": 30576
     },
     930: {
         img: "courtiers_collar",
@@ -8385,7 +8385,7 @@ let dataItems = {
         sch: "谄媚者的衣领",
         fre: "Col du Courtisan",
         bra: "Colarinho do Cortesão",
-        schema: 30574
+        "schema": 30574
     },
     931: {
         img: "harlequins_hooves",
@@ -8394,7 +8394,7 @@ let dataItems = {
         sch: "小丑靴子",
         fre: "Souliers d'Arlequin",
         bra: "Andar do Arlequim",
-        schema: 30575
+        "schema": 30575
     },
     932: {
         img: "mountebanks_masque",
@@ -8403,7 +8403,7 @@ let dataItems = {
         sch: "行骗者的面具",
         fre: "Masque de Charlatant",
         bra: "Símbolo do Saltimbanco",
-        schema: 30573
+        "schema": 30573
     },
     933: {
         img: "skullcap",
@@ -8412,7 +8412,7 @@ let dataItems = {
         sch: "骷髅贝雷帽",
         fre: "Le Béret d'Outre-Tombe",
         bra: "Comando Caveira",
-        schema: 30578
+        "schema": 30578
     },
     934: {
         img: "black_knights_bascinet",
@@ -8421,7 +8421,7 @@ let dataItems = {
         sch: "黑骑士面罩头盔",
         fre: "Bassinet du chevalier noir",
         bra: "Bacinete da Baixa Idade Média",
-        schema: 30582
+        "schema": 30582
     },
     935: {
         img: "charred_chainmail",
@@ -8430,7 +8430,7 @@ let dataItems = {
         sch: "焦黑鳞甲",
         fre: "Cotte de maille carbonisée",
         bra: "Cota de Malha Chamuscada",
-        schema: 30584
+        "schema": 30584
     },
     936: {
         img: "pyromancers_hood",
@@ -8439,7 +8439,7 @@ let dataItems = {
         sch: "火焰术士的兜帽",
         fre: "Capuche de Pyromancien",
         bra: "Capuz de Piromante",
-        schema: 30580
+        "schema": 30580
     },
     937: {
         img: "pyromancers_raiments",
@@ -8448,7 +8448,7 @@ let dataItems = {
         sch: "纵火者的制服",
         fre: "Robe de Pyromancien",
         bra: "Vestes de Piromante",
-        schema: 30581
+        "schema": 30581
     },
     938: {
         img: "torchers_tabard",
@@ -8457,7 +8457,7 @@ let dataItems = {
         sch: "火炬手的战袍",
         fre: "Tabard de l'incendiaire",
         bra: "Tabardo do Toca-fogo",
-        schema: 30583
+        "schema": 30583
     },
     939: {
         img: "scot_bonnet",
@@ -8466,7 +8466,7 @@ let dataItems = {
         sch: "苏格兰毛线帽",
         fre: "Bonnet du Scot",
         bra: "Boina Escocesa",
-        schema: 30604
+        "schema": 30604
     },
     940: {
         img: "storm_stompers",
@@ -8475,7 +8475,7 @@ let dataItems = {
         sch: "风暴战靴",
         fre: "L'Ecraseur de Flaques",
         bra: "Galochas Germânicas",
-        schema: 30587
+        "schema": 30587
     },
     941: {
         img: "valhalla_helm",
@@ -8484,7 +8484,7 @@ let dataItems = {
         sch: "瓦尔哈拉头盔",
         fre: "Casque du Valhalla",
         bra: "Elmo dos Einherjar",
-        schema: 30586
+        "schema": 30586
     },
     942: {
         img: "old_man_frost",
@@ -8493,7 +8493,7 @@ let dataItems = {
         sch: "森林爷爷",
         fre: "Le vieil homme de Noël",
         bra: "A Malha de Morozko",
-        schema: 30589
+        "schema": 30589
     },
     943: {
         img: "siberian_facehugger",
@@ -8502,7 +8502,7 @@ let dataItems = {
         sch: "西伯利亚裹脸帽",
         fre: "Face-Hugger de Sibérie",
         bra: "Capuz Calorento",
-        schema: 30588
+        "schema": 30588
     },
     944: {
         img: "clubsy_the_seal",
@@ -8511,7 +8511,7 @@ let dataItems = {
         sch: "海豹棒棒",
         fre: "Clubsy le Phoque",
         bra: "Parceiro Polar",
-        schema: 30593
+        "schema": 30593
     },
     945: {
         img: "conaghers_combover",
@@ -8520,7 +8520,7 @@ let dataItems = {
         sch: "秃顶牛仔的装束",
         fre: "Conagher Dégarni",
         bra: "Calvície Coberta do Conagher",
-        schema: 30592
+        "schema": 30592
     },
     946: {
         img: "cop_caller",
@@ -8529,7 +8529,7 @@ let dataItems = {
         sch: "报警员",
         fre: "Demande de Renforts",
         bra: "Transceptor do Tira",
-        schema: 30591
+        "schema": 30591
     },
     947: {
         img: "holstered_heaters",
@@ -8538,7 +8538,7 @@ let dataItems = {
         sch: "检测者的保暖大衣",
         fre: "Étuis Chauffants",
         bra: "Aquecedores Armados",
-        schema: 30590
+        "schema": 30590
     },
     948: {
         img: "thermal_insulation_layer",
@@ -8547,7 +8547,7 @@ let dataItems = {
         sch: "绝热层",
         fre: "Couche d'isolation thermique",
         bra: "Camada de Isolante Térmico",
-        schema: 30605
+        "schema": 30605
     },
     949: {
         img: "surgeons_shako",
@@ -8556,7 +8556,7 @@ let dataItems = {
         sch: "外科医师的行军帽",
         fre: "Shako du chirurgien",
         bra: "Shako do Cirurgião",
-        schema: 30596
+        "schema": 30596
     },
     950: {
         img: "unknown_mann",
@@ -8565,7 +8565,7 @@ let dataItems = {
         sch: "无名之人",
         fre: "Mann Inconnu",
         bra: "Mann Não Identificado",
-        schema: 30595
+        "schema": 30595
     },
     951: {
         img: "bushmans_bristles",
@@ -8574,7 +8574,7 @@ let dataItems = {
         sch: "丛林一族的长须",
         fre: "Bacchantes du Bushman",
         bra: "Barba do Australiano",
-        schema: 30597
+        "schema": 30597
     },
     952: {
         img: "marksmans_mohair",
@@ -8583,7 +8583,7 @@ let dataItems = {
         sch: "神射手的马海毛大衣",
         fre: "Petite Laine du Tireur d'Élite",
         bra: "Agasalho do Atirador",
-        schema: 30599
+        "schema": 30599
     },
     953: {
         img: "professionals_ushanka",
@@ -8592,7 +8592,7 @@ let dataItems = {
         sch: "职业杀手的俄国军帽",
         fre: "Ouchanka du professionnel",
         bra: "Ushanka do Profissional",
-        schema: 30598
+        "schema": 30598
     },
     954: {
         img: "wally_pocket",
@@ -8601,7 +8601,7 @@ let dataItems = {
         sch: "可爱的袋鼠袋",
         fre: "Wally de poche",
         bra: "Bolsa de Canguru",
-        schema: 30600
+        "schema": 30600
     },
     955: {
         img: "pocket_momma",
@@ -8610,7 +8610,7 @@ let dataItems = {
         sch: "袖珍妈妈",
         fre: "Momma de poche",
         bra: "Mamãe de Bolso",
-        schema: 30606
+        "schema": 30606
     },
     956: {
         img: "puffy_provocateur",
@@ -8619,7 +8619,7 @@ let dataItems = {
         sch: "蓬蓬密探",
         fre: "Le Provocateur matelassé",
         bra: "A Parka Provocateur",
-        schema: 30602
+        "schema": 30602
     },
     957: {
         img: "stealthy_scarf",
@@ -8628,7 +8628,7 @@ let dataItems = {
         sch: "隐秘围巾",
         fre: "Écharpe énigmatique",
         bra: "Cachecol Camuflado",
-        schema: 30603
+        "schema": 30603
     },
     958: {
         img: "cow_mangler_5000",
@@ -8637,7 +8637,7 @@ let dataItems = {
         sch: "绞牛机 5000",
         fre: "Le Broyeur Bovin 5000",
         bra: "O Avacalhador 5000",
-        schema: 441,
+        "schema": 441,
         "schema2": 5783
     },
     959: {
@@ -8647,7 +8647,7 @@ let dataItems = {
         sch: "三度烧伤",
         fre: "Le Troisième Degré",
         bra: "O Terceiro Grau",
-        schema: 593,
+        "schema": 593,
         "schema2": 5784
     },
     960: {
@@ -8657,7 +8657,7 @@ let dataItems = {
         sch: "边锋球员",
         fre: "L'Ailier",
         bra: "Ala",
-        schema: 449
+        "schema": 449
     },
     961: {
         img: "strange_part_not_crit_nor_minicrit_kills",
@@ -8666,7 +8666,7 @@ let dataItems = {
         sch: "奇异武器升级部件：非爆击/迷你爆击杀敌数",
         fre: "Pièce étrange : Victimes sans coup critique ou mini-crit",
         bra: "Peça Estranha: Vítimas sem Críticos ou Minicrits",
-        schema: 6063
+        "schema": 6063
     },
     962: {
         img: "strange_part_player_hits",
@@ -8675,7 +8675,7 @@ let dataItems = {
         sch: "奇异武器升级部件：击中玩家数",
         fre: "Pièce étrange : Joueurs touchés",
         bra: "Peça Estranha: Jogadores Acertados",
-        schema: 6064
+        "schema": 6064
     },
     963: {
         img: "strange_cosmetic_part_assists",
@@ -8684,7 +8684,7 @@ let dataItems = {
         sch: "奇异饰品部件：助攻数",
         fre: "Pièce de cosmétique étrange : Coopérations",
         bra: "Peça Estranha para Cosméticos: Assistências",
-        schema: 6065
+        "schema": 6065
     },
     964: {
         img: "texas_ten_gallon",
@@ -8693,7 +8693,7 @@ let dataItems = {
         sch: "德州牛仔帽",
         fre: "Chapeau de cowboy",
         bra: "Caubói Texano",
-        schema: 94
+        "schema": 94
     },
     965: {
         img: "awper_hand",
@@ -8702,7 +8702,7 @@ let dataItems = {
         sch: "高手的 AWP",
         fre: "L'AWPantage",
         bra: "A AWPer Capita",
-        schema: 851
+        "schema": 851
     },
     966: {
         img: "war_blunder",
@@ -8711,7 +8711,7 @@ let dataItems = {
         fre: "Bavure de guerre",
         sch: "战争挺累",
         bra: "Esquadrilha da Desgraça",
-        schema: 31137
+        "schema": 31137
     },
     967: {
         img: "grounded_flyboy",
@@ -8720,7 +8720,7 @@ let dataItems = {
         fre: "Pilote terrestre",
         sch: "禁止升空",
         bra: "Olha o Aviãozinho",
-        schema: 31138
+        "schema": 31138
     },
     968: {
         img: "rolfe_copter",
@@ -8729,7 +8729,7 @@ let dataItems = {
         fre: "Médicoptère",
         sch: "医疗直升机",
         bra: "Rolfe-cóptero",
-        schema: 31139
+        "schema": 31139
     },
     969: {
         img: "pug_mug",
@@ -8737,7 +8737,8 @@ let dataItems = {
         pol: "Mopsowa mordka",
         fre: "Bouille de bouledogue",
         sch: "哈巴工",
-        schema: 31140
+        "schema": 31140,
+        bra: "Pugenheiro"
     },
     970: {
         img: "treehugger",
@@ -8746,7 +8747,7 @@ let dataItems = {
         fre: "Souche sèche",
         sch: "抱树狂人",
         bra: "Cara de Pau",
-        schema: 31141
+        "schema": 31141
     },
     971: {
         img: "mannvich",
@@ -8755,7 +8756,7 @@ let dataItems = {
         fre: "Mannvich",
         sch: "巨型三明治",
         bra: "Mannviche",
-        schema: 31142
+        "schema": 31142
     },
     972: {
         img: "festivizer",
@@ -8764,12 +8765,12 @@ let dataItems = {
         fre: "Enguirlandeur",
         sch: "彩灯工具",
         bra: "Festivizador",
-        schema: 5839
+        "schema": 5839
     },
     973: {
         img: "taunt_boston_breakdance",
         eng: "Taunt: The Boston Breakdance",
-        schema: 30572,
+        "schema": 30572,
         pol: "Drwina: Bostoński breakdance",
         fre: "Raillerie : La breakdance de Boston",
         sch: "嘲讽：波士顿霹雳舞",
@@ -8778,7 +8779,7 @@ let dataItems = {
     974: {
         img: "taunt_bunnyhopper",
         eng: "Taunt: The Bunnyhopper",
-        schema: 30920,
+        "schema": 30920,
         pol: "Drwina: Pogoskoczek",
         fre: "Raillerie : Le coup du lapin",
         sch: "嘲讽：跳跳兔",
@@ -8791,7 +8792,7 @@ let dataItems = {
         sch: "达勒克斯巧克力块",
         fre: "La Barre de Dalokohs",
         bra: "A Barra de Dalokohs",
-        schema: 159
+        "schema": 159
     },
     976: {
         img: "warriors_spirit",
@@ -8800,7 +8801,7 @@ let dataItems = {
         sch: "勇士之魂",
         fre: "L'Esprit du Guerrier",
         bra: "O Espírito do Guerreiro",
-        schema: 310
+        "schema": 310
     },
     977: {
         img: "apoco_fists",
@@ -8809,7 +8810,7 @@ let dataItems = {
         sch: "天灾之拳",
         fre: "A-poing-calypses",
         bra: "O Punhocalipse",
-        schema: 587
+        "schema": 587
     },
     978: {
         img: "red_tape_recorder",
@@ -8818,7 +8819,7 @@ let dataItems = {
         sch: "官僚式录音机",
         fre: "L'enregistreur de formalités",
         bra: "O Rebobinador",
-        schema: 810
+        "schema": 810
     },
     979: {
         img: "shahanshah",
@@ -8827,7 +8828,7 @@ let dataItems = {
         sch: "诸王之王",
         fre: "Le Shahanshah",
         bra: "A Shahanshah",
-        schema: 401
+        "schema": 401
     },
     980: {
         img: "cloak_and_dagger",
@@ -8836,7 +8837,7 @@ let dataItems = {
         sch: "隐形刺客",
         fre: "La Cloak and Dagger",
         bra: "O Manto e Adaga",
-        schema: 60
+        "schema": 60
     },
     981: {
         img: "buff_banner",
@@ -8845,7 +8846,7 @@ let dataItems = {
         sch: "战旗",
         fre: "Le Drapeau Buff",
         bra: "O Estandarte de Encorajamento",
-        schema: 129
+        "schema": 129
     },
     982: {
         img: "righteous_bison",
@@ -8854,7 +8855,7 @@ let dataItems = {
         sch: "正义野牛",
         fre: "Le Bison Vertueux",
         bra: "O Bisão Justiceiro",
-        schema: 442,
+        "schema": 442,
         "schema2": 5804
     },
     983: {
@@ -8864,7 +8865,7 @@ let dataItems = {
         sch: "涡轮喷灯 火焰喷射器",
         bra: "Tocha Turbinada Lança-chamas",
         fre: "Lance-flammes Torcheur à turbine",
-        schema: 15054,
+        "schema": 15054,
         "schema2": 54
     },
     984: {
@@ -8874,7 +8875,7 @@ let dataItems = {
         sch: "不露圭角 SMG",
         bra: "Disparador Discreto Submetralhadora",
         fre: "Mitraillette Profil bas",
-        schema: 15058,
+        "schema": 15058,
         "schema2": 58
     },
     985: {
@@ -8884,7 +8885,7 @@ let dataItems = {
         sch: "海军陆战队 火箭发射器",
         bra: "Matador Marinho Lança-foguetes",
         fre: "Lance-Roquettes Aigue-marine",
-        schema: 15057,
+        "schema": 15057,
         "schema2": 57
     },
     986: {
@@ -8894,7 +8895,7 @@ let dataItems = {
         sch: "砖墙 转轮机枪",
         bra: "Casa Muito Metralhada Metralhadora Giratória",
         fre: "Minigun Maison en brique",
-        schema: 15055,
+        "schema": 15055,
         "schema2": 55
     },
     987: {
@@ -8904,7 +8905,7 @@ let dataItems = {
         sch: "引雷针 霰弹枪",
         bra: "Para-raios Escopeta",
         fre: "Fusil à pompe Paratonnerre",
-        schema: 15047,
+        "schema": 15047,
         "schema2": 47
     },
     988: {
@@ -8914,7 +8915,7 @@ let dataItems = {
         sch: "砂岩特制 手枪",
         bra: "Arsenal de Arenito Pistola",
         fre: "Pistolet Spéciale grès",
-        schema: 15056,
+        "schema": 15056,
         "schema2": 56
     },
     989: {
@@ -8924,7 +8925,7 @@ let dataItems = {
         sch: "黑色大丽花 手枪",
         bra: "Dália Negra Pistola",
         fre: "Pistolet Dahlia noir",
-        schema: 15046,
+        "schema": 15046,
         "schema2": 46
     },
     990: {
@@ -8934,7 +8935,7 @@ let dataItems = {
         sch: "死亡判官 左轮手枪",
         bra: "Cadáver Calculista Revólver",
         fre: "Revolver Cible de la mort",
-        schema: 15051,
+        "schema": 15051,
         "schema2": 51
     },
     991: {
@@ -8944,7 +8945,7 @@ let dataItems = {
         sch: "生命之光 医疗枪",
         bra: "Sinal de Vida Arma Médica",
         fre: "Medigun Étincelle de vie",
-        schema: 15050,
+        "schema": 15050,
         "schema2": 50
     },
     992: {
@@ -8954,7 +8955,7 @@ let dataItems = {
         sch: "闪电烧烤 火焰喷射器",
         bra: "Flama Fulminante Lança-chamas",
         fre: "Lance-flammes Friteuse éclair",
-        schema: 15049,
+        "schema": 15049,
         "schema2": 49
     },
     993: {
@@ -8964,7 +8965,7 @@ let dataItems = {
         sch: "粉红象 黏性炸弹发射器",
         bra: "Elefante Rosa Lança-stickybombs",
         fre: "Lanceur de Bombes collantes Éléphant rose",
-        schema: 15048,
+        "schema": 15048,
         "schema2": 48
     },
     994: {
@@ -8974,7 +8975,7 @@ let dataItems = {
         sch: "紫电 猎枪",
         bra: "Acontecimento Chocante Espingarda",
         fre: "Fusil à dispersion Événement actuel",
-        schema: 15053,
+        "schema": 15053,
         "schema2": 53
     },
     995: {
@@ -8984,7 +8985,7 @@ let dataItems = {
         sch: "震荡弹 火箭发射器",
         bra: "Ligadão Lança-foguetes",
         fre: "Lance-Roquettes Horrible obus",
-        schema: 15052,
+        "schema": 15052,
         "schema2": 52
     },
     996: {
@@ -8994,7 +8995,7 @@ let dataItems = {
         sch: "液态炸药 黏性炸弹发射器",
         bra: "Lucro Líquido Lança-stickybombs",
         fre: "Lanceur de Bombes collantes Liquidateurs d'actifs",
-        schema: 15045,
+        "schema": 15045,
         "schema2": 45
     },
     997: {
@@ -9004,7 +9005,7 @@ let dataItems = {
         sch: "雷霆打击 狙击步枪",
         bra: "Relâmpago Rifle de Sniper",
         fre: "Fusil de sniper Coup de foudre",
-        schema: 15059,
+        "schema": 15059,
         "schema2": 59
     },
     998: {
@@ -9014,7 +9015,7 @@ let dataItems = {
         sch: "人民委员大衣",
         fre: "Manteau du commissaire",
         bra: "Casaco do Comissário",
-        schema: 30633
+        "schema": 30633
     },
     999: {
         img: "flak_jack",
@@ -9023,7 +9024,7 @@ let dataItems = {
         sch: "防弹背心",
         fre: "Flak Jack",
         bra: "Colete do Corredor",
-        schema: 30637
+        "schema": 30637
     },
     1000: {
         img: "lurkers_leathers",
@@ -9032,7 +9033,7 @@ let dataItems = {
         sch: "潜行者的皮衣裤",
         fre: "Le cuir du limier",
         bra: "A Jaqueta Secreta",
-        schema: 30631
+        "schema": 30631
     },
     1001: {
         img: "rotation_sensation",
@@ -9041,7 +9042,7 @@ let dataItems = {
         sch: "旋转感应帽",
         fre: "La rotation sensass",
         bra: "A Sensação da Rotação",
-        schema: 30623
+        "schema": 30623
     },
     1002: {
         img: "support_spurs",
@@ -9050,7 +9051,7 @@ let dataItems = {
         sch: "马刺靴",
         fre: "Supporte-éperons",
         bra: "Esporas de Suporte",
-        schema: 30629
+        "schema": 30629
     },
     1003: {
         img: "vascular_vestment",
@@ -9059,7 +9060,7 @@ let dataItems = {
         sch: "医生的经典胸甲",
         fre: "Le gilet vasculaire",
         bra: "A Vestimenta Vascular",
-        schema: 30626
+        "schema": 30626
     },
     1004: {
         img: "wild_west_waistcoat",
@@ -9068,7 +9069,7 @@ let dataItems = {
         sch: "西部狂野马甲",
         fre: "Manteau du shérif de l'ouest",
         bra: "O Colete do Caubói",
-        schema: 30635
+        "schema": 30635
     },
     1005: {
         img: "fortunate_son",
@@ -9077,7 +9078,7 @@ let dataItems = {
         sch: "走运的新兵",
         fre: "Fils chanceux",
         bra: "Filho Afortunado",
-        schema: 30636
+        "schema": 30636
     },
     1006: {
         img: "outta_sight",
@@ -9086,7 +9087,7 @@ let dataItems = {
         sch: "眼不见心不烦",
         fre: "Hyper loin",
         bra: "Visual Vistoso",
-        schema: 30628
+        "schema": 30628
     },
     1007: {
         img: "physicians_protector",
@@ -9095,7 +9096,7 @@ let dataItems = {
         sch: "内科医生的钢盔",
         fre: "La protection du physicien",
         bra: "O Protetor do Doutor",
-        schema: 30625
+        "schema": 30625
     },
     1008: {
         img: "white_russian",
@@ -9104,7 +9105,7 @@ let dataItems = {
         sch: "白色俄罗斯",
         fre: "Le Caucasien",
         bra: "Russo Branco",
-        schema: 30644
+        "schema": 30644
     },
     1009: {
         img: "bruces_bonnet",
@@ -9113,7 +9114,7 @@ let dataItems = {
         sch: "苏格兰王布鲁斯之盔",
         fre: "Cagoule de maille",
         bra: "Malha do Monarca",
-        schema: 30627
+        "schema": 30627
     },
     1010: {
         img: "el_duderino",
@@ -9122,7 +9123,7 @@ let dataItems = {
         sch: "大佬勒布斯基",
         fre: "Le Duc",
         bra: "El Duderino",
-        schema: 30645
+        "schema": 30645
     },
     1011: {
         img: "sheriffs_stetson",
@@ -9131,7 +9132,7 @@ let dataItems = {
         sch: "警长的宽檐帽",
         fre: "Chapeau de shérif",
         bra: "Chapéu do Xerife",
-        schema: 30634
+        "schema": 30634
     },
     1012: {
         img: "captain_cardbeard_cutthroat",
@@ -9140,7 +9141,7 @@ let dataItems = {
         sch: "纸板海盗帽",
         fre: "Capitaine Barbenkarton",
         bra: "Pirata de Barbelão",
-        schema: 30640
+        "schema": 30640
     },
     1013: {
         img: "potassium_bonnett",
@@ -9149,7 +9150,7 @@ let dataItems = {
         sch: "获元钾",
         fre: "Cagoule au potassium",
         bra: "A Banana do Banana",
-        schema: 30643
+        "schema": 30643
     },
     1014: {
         img: "universal_translator",
@@ -9158,7 +9159,7 @@ let dataItems = {
         sch: "星际翻译官",
         fre: "Traducteur universel",
         bra: "Tradutor Universal",
-        schema: 30658
+        "schema": 30658
     },
     1015: {
         img: "phobos_filter",
@@ -9167,7 +9168,7 @@ let dataItems = {
         sch: "火卫一过滤面罩",
         fre: "Filtre de Phobos",
         bra: "Filtro de Fobus",
-        schema: 30652
+        "schema": 30652
     },
     1016: {
         img: "final_frontiersman",
@@ -9176,7 +9177,7 @@ let dataItems = {
         sch: "最后的拓荒者",
         fre: "L'habitant de la frontière finale",
         bra: "O Homem da Última Fronteira",
-        schema: 30649
+        "schema": 30649
     },
     1017: {
         img: "life_support_system",
@@ -9185,7 +9186,7 @@ let dataItems = {
         sch: "生命支持系统",
         fre: "Système de support vital",
         bra: "Sistema de Suporte Vital",
-        schema: 30654
+        "schema": 30654
     },
     1018: {
         img: "rocket_operator",
@@ -9194,7 +9195,7 @@ let dataItems = {
         sch: "火箭操作员",
         fre: "Opérateur de roquettes",
         bra: "Operador de Foguetes",
-        schema: 30655
+        "schema": 30655
     },
     1019: {
         img: "captain_space_mann",
@@ -9203,7 +9204,7 @@ let dataItems = {
         sch: "太空队长曼恩",
         fre: "Capitaine Space Mann",
         bra: "Capitão Cosmannauta",
-        schema: 30646
+        "schema": 30646
     },
     1020: {
         img: "shooting_star",
@@ -9212,7 +9213,7 @@ let dataItems = {
         sch: "流星狙击者",
         fre: "Étoile filante",
         bra: "Estrela Cadente",
-        schema: 30665
+        "schema": 30665
     },
     1021: {
         img: "giger_counter",
@@ -9221,7 +9222,7 @@ let dataItems = {
         sch: "异形计数器",
         fre: "Le compteur geiger",
         bra: "O Contador Giger",
-        schema: 30668
+        "schema": 30668
     },
     1022: {
         img: "starduster",
@@ -9230,7 +9231,7 @@ let dataItems = {
         sch: "星尘披风",
         fre: "Nébuleuse",
         bra: "Espanador das Estrelas",
-        schema: 30650
+        "schema": 30650
     },
     1023: {
         img: "corona_australis",
@@ -9239,7 +9240,7 @@ let dataItems = {
         sch: "澳冕",
         fre: "Couronne australe",
         bra: "Corona Australis",
-        schema: 30648
+        "schema": 30648
     },
     1024: {
         img: "sucker_slug",
@@ -9248,7 +9249,7 @@ let dataItems = {
         sch: "吸脑鼻涕虫",
         fre: "Limace suceuse",
         bra: "Sanguessuga Sideral",
-        schema: 30653
+        "schema": 30653
     },
     1025: {
         img: "graylien",
@@ -9257,7 +9258,7 @@ let dataItems = {
         sch: "小灰人",
         fre: "Le Petit-Gris",
         bra: "O Alienígena Apunhalador",
-        schema: 30651
+        "schema": 30651
     },
     1026: {
         img: "cadet_visor",
@@ -9266,7 +9267,7 @@ let dataItems = {
         sch: "学院护目镜",
         fre: "Visière du cadet",
         bra: "Visor do Cadete",
-        schema: 30661
+        "schema": 30661
     },
     1027: {
         img: "space_diver",
@@ -9275,7 +9276,7 @@ let dataItems = {
         sch: "太空跳伞员",
         fre: "Plongée spatiale",
         bra: "O Mergulhador Espacial",
-        schema: 30664
+        "schema": 30664
     },
     1028: {
         img: "a_head_full_of_hot_air",
@@ -9284,7 +9285,7 @@ let dataItems = {
         sch: "热气头盔",
         fre: "Une tête pleine d'air chaud",
         bra: "Cabeça de Ar Quente",
-        schema: 30662
+        "schema": 30662
     },
     1029: {
         img: "capper",
@@ -9293,7 +9294,7 @@ let dataItems = {
         sch: "高能电磁脉冲粒子枪",
         fre: "Le C.A.P.P.E.R",
         bra: "O C.A.U.B.O.I.",
-        schema: 30666
+        "schema": 30666
     },
     1030: {
         img: "phononaut",
@@ -9302,7 +9303,7 @@ let dataItems = {
         sch: "太空头盔",
         fre: "Casque astronomique",
         bra: "Fononauta",
-        schema: 30647
+        "schema": 30647
     },
     1031: {
         img: "jupiter_jetpack",
@@ -9311,7 +9312,7 @@ let dataItems = {
         sch: "木星飞行背包",
         fre: "Jetpack jupitérien",
         bra: "Mochila a Jato de Júpiter",
-        schema: 30663
+        "schema": 30663
     },
     1032: {
         img: "space_hamster_hammy",
@@ -9320,12 +9321,12 @@ let dataItems = {
         sch: "太空仓鼠哈米",
         fre: "Hamster de l'espace au goût de jambon",
         bra: "Hammy, o Hamster Espacial",
-        schema: 30669
+        "schema": 30669
     },
     1033: {
         img: "burstchester",
         eng: "Taunt: Burstchester",
-        schema: 30621,
+        "schema": 30621,
         pol: "Drwina: Burstchester",
         sch: "嘲讽：裂胸者",
         fre: "Raillerie : Ami de cœur",
@@ -9338,7 +9339,7 @@ let dataItems = {
         sch: "光剑球棒",
         fre: "Batsabre",
         bra: "Taco de Luz",
-        schema: 30667
+        "schema": 30667
     },
     1035: {
         img: "face_of_mercy",
@@ -9347,7 +9348,7 @@ let dataItems = {
         sch: "仁慈者的面具",
         fre: "Visage de la miséricorde",
         bra: "A Face da Misericórdia",
-        schema: 30676
+        "schema": 30676
     },
     1036: {
         img: "el_patron",
@@ -9356,7 +9357,7 @@ let dataItems = {
         sch: "大老板",
         fre: "El Patron",
         bra: "El Patrón",
-        schema: 30681
+        "schema": 30681
     },
     1037: {
         img: "smokey_sombrero",
@@ -9365,7 +9366,7 @@ let dataItems = {
         sch: "烟熏墨西哥帽",
         fre: "Sombrero fumé",
         bra: "Chapéu de Charuto",
-        schema: 30682
+        "schema": 30682
     },
     1038: {
         img: "thrilling_tracksuit",
@@ -9374,7 +9375,7 @@ let dataItems = {
         sch: "赛车手外套",
         fre: "Survêtement phénoménal",
         bra: "Agasalho Assustador",
-        schema: 30685
+        "schema": 30685
     },
     1039: {
         img: "baaarrgh_n_britches",
@@ -9383,7 +9384,7 @@ let dataItems = {
         sch: "廉价海盗裤",
         fre: "Haaauts-de-chaaausses",
         bra: "Calças da Pechincha Pirata",
-        schema: 30719
+        "schema": 30719
     },
     1040: {
         img: "prehistoric_pullover",
@@ -9392,7 +9393,7 @@ let dataItems = {
         sch: "史前爬行动物兜帽",
         fre: "Pullover Préhistorique",
         bra: "Capuz Pré-histórico",
-        schema: 30704
+        "schema": 30704
     },
     1041: {
         img: "roboot",
@@ -9401,7 +9402,7 @@ let dataItems = {
         sch: "枪炮工之足",
         fre: "Robotte",
         bra: "Robota",
-        schema: 30675
+        "schema": 30675
     },
     1042: {
         img: "duck_billed_hatypus",
@@ -9410,7 +9411,7 @@ let dataItems = {
         sch: "真.鸭舌帽",
         fre: "Coincoinsquette",
         bra: "Boné-torrinco",
-        schema: 30700
+        "schema": 30700
     },
     1043: {
         img: "iron_lung",
@@ -9419,7 +9420,7 @@ let dataItems = {
         sch: "铁肺",
         fre: "Poumon d'acier",
         bra: "Pulmão de Ferro",
-        schema: 30698
+        "schema": 30698
     },
     1044: {
         img: "neptunes_nightmare",
@@ -9428,7 +9429,7 @@ let dataItems = {
         sch: "海王之魇",
         fre: "Cauchemar de Neptune",
         bra: "Pesadelo de Netuno",
-        schema: 30684
+        "schema": 30684
     },
     1045: {
         img: "el_caballero",
@@ -9437,7 +9438,7 @@ let dataItems = {
         sch: "西班牙绅士",
         fre: "El Caballero",
         bra: "El Caballero",
-        schema: 30680
+        "schema": 30680
     },
     1046: {
         img: "baaarrgh_n_bicorne",
@@ -9446,7 +9447,7 @@ let dataItems = {
         sch: "廉价海盗帽",
         fre: "Bicorrrne",
         bra: "Bicórnio da Pechincha Pirata",
-        schema: 30718
+        "schema": 30718
     },
     1047: {
         img: "death_racers_helmet",
@@ -9455,7 +9456,7 @@ let dataItems = {
         sch: "绝命赛车手",
         fre: "Casque du pilote de la mort",
         bra: "Capacete do Corredor da Morte",
-        schema: 30686
+        "schema": 30686
     },
     1048: {
         img: "grim_tweeter",
@@ -9464,7 +9465,7 @@ let dataItems = {
         sch: "报亡之雀",
         fre: "Le titi faucheur",
         bra: "Ceifador Depenado",
-        schema: 30693
+        "schema": 30693
     },
     1049: {
         img: "crusaders_getup",
@@ -9473,7 +9474,7 @@ let dataItems = {
         sch: "十字军战服",
         fre: "Combinaison du défenseur",
         bra: "Uniforme do Cruzado",
-        schema: 30716
+        "schema": 30716
     },
     1050: {
         img: "deader_alive",
@@ -9482,7 +9483,7 @@ let dataItems = {
         sch: "要塞威龙",
         fre: "Engicop",
         bra: "Vivo ou Morto",
-        schema: 30707
+        "schema": 30707
     },
     1051: {
         img: "arthropods_aspect",
@@ -9491,7 +9492,7 @@ let dataItems = {
         sch: "纵火狂蚁",
         fre: "Le look arthropode",
         bra: "Aspecto do Artrópode",
-        schema: 30717
+        "schema": 30717
     },
     1052: {
         img: "catastrophic_companions",
@@ -9500,7 +9501,7 @@ let dataItems = {
         sch: "大规模杀伤性小伙伴",
         fre: "Compagnons catastrophiques",
         bra: "Companheiros Gatastróficos",
-        schema: 30706
+        "schema": 30706
     },
     1053: {
         img: "hellmet",
@@ -9509,7 +9510,7 @@ let dataItems = {
         sch: "地狱骨盔",
         fre: "Le Purgacasque",
         bra: "O Capacete Infernal",
-        schema: 30708
+        "schema": 30708
     },
     1054: {
         img: "flower_power_shotgun",
@@ -9518,7 +9519,7 @@ let dataItems = {
         sch: "鲜花之力霰弹枪",
         fre: "Le fusil à pompe Flower Power",
         bra: "Escopeta | Campo Florido",
-        schema: 15109,
+        "schema": 15109,
         "schema2": 72
     },
     1055: {
@@ -9528,7 +9529,7 @@ let dataItems = {
         sch: "鲜花之力猎枪",
         fre: "Le fusil à dispersion Flower Power",
         bra: "Espingarda | Campo Florido",
-        schema: 15107,
+        "schema": 15107,
         "schema2": 72
     },
     1056: {
@@ -9538,7 +9539,7 @@ let dataItems = {
         sch: "鲜花之力左轮手枪",
         fre: "Le revolver Flower Power",
         bra: "Revólver | Campo Florido",
-        schema: 15103,
+        "schema": 15103,
         "schema2": 72
     },
     1057: {
@@ -9548,7 +9549,7 @@ let dataItems = {
         sch: "鲜花之力医疗枪",
         fre: "Le medigun Flower Power",
         bra: "Arma Médica | Campo Florido",
-        schema: 15097,
+        "schema": 15097,
         "schema2": 72
     },
     1058: {
@@ -9558,7 +9559,7 @@ let dataItems = {
         sch: "脑浆糖果火箭发射器",
         fre: "Le lance-roquettes sucette",
         bra: "Lança-foguetes | Doce Mental",
-        schema: 15105,
+        "schema": 15105,
         "schema2": 70
     },
     1059: {
@@ -9568,7 +9569,7 @@ let dataItems = {
         sch: "脑浆糖果手枪",
         fre: "Le pistolet sucette",
         bra: "Pistola | Doce Mental",
-        schema: 15101,
+        "schema": 15101,
         "schema2": 70
     },
     1060: {
@@ -9578,7 +9579,7 @@ let dataItems = {
         sch: "脑浆糖果转轮机枪",
         fre: "Le minigun sucette",
         bra: "Metralhadora Giratória | Doce Mental",
-        schema: 15098,
+        "schema": 15098,
         "schema2": 70
     },
     1061: {
@@ -9588,7 +9589,7 @@ let dataItems = {
         sch: "脑浆糖果刀子",
         fre: "Le couteau sucette",
         bra: "Faca | Doce Mental",
-        schema: 15095,
+        "schema": 15095,
         "schema2": 70
     },
     1062: {
@@ -9598,7 +9599,7 @@ let dataItems = {
         sch: "射到死手枪",
         fre: "Le pistolet infernal",
         bra: "Pistola | Balas Infernais",
-        schema: 15102,
+        "schema": 15102,
         "schema2": 74
     },
     1063: {
@@ -9608,7 +9609,7 @@ let dataItems = {
         sch: "背刺到死刀子",
         fre: "Le couteau infernal",
         bra: "Faca | Facadas Infernais",
-        schema: 15096,
+        "schema": 15096,
         "schema2": 71
     },
     1064: {
@@ -9618,7 +9619,7 @@ let dataItems = {
         sch: "蓝喵 SMG",
         fre: "La mitraillette miaou",
         bra: "Submetralhadora | Céu de Gatinhos",
-        schema: 15110,
+        "schema": 15110,
         "schema2": 69
     },
     1065: {
@@ -9628,7 +9629,7 @@ let dataItems = {
         sch: "扭曲到死扳手",
         fre: "La clé infernale",
         bra: "Chave Inglesa | Torcidas Infernais",
-        schema: 15114,
+        "schema": 15114,
         "schema2": 75
     },
     1066: {
@@ -9638,7 +9639,7 @@ let dataItems = {
         sch: "射到死猎枪",
         fre: "Le fusil à dispersion infernal",
         bra: "Espingarda | Balas Infernais",
-        schema: 15108,
+        "schema": 15108,
         "schema2": 74
     },
     1067: {
@@ -9648,7 +9649,7 @@ let dataItems = {
         sch: "蓝喵猎枪",
         fre: "Le fusil à dispersion miaou",
         bra: "Espingarda | Céu de Gatinhos",
-        schema: 15106,
+        "schema": 15106,
         "schema2": 69
     },
     1068: {
@@ -9658,7 +9659,7 @@ let dataItems = {
         sch: "蓝喵火箭发射器",
         fre: "Le lance-roquettes miaou",
         bra: "Lança-foguetes | Céu de Gatinhos",
-        schema: 15104,
+        "schema": 15104,
         "schema2": 69
     },
     1069: {
@@ -9668,7 +9669,7 @@ let dataItems = {
         sch: "蓝喵手枪",
         fre: "Le pistolet miaou",
         bra: "Pistola | Céu de Gatinhos",
-        schema: 15100,
+        "schema": 15100,
         "schema2": 69
     },
     1070: {
@@ -9678,7 +9679,7 @@ let dataItems = {
         sch: "蓝喵刀子",
         fre: "Le couteau miaou",
         bra: "Faca | Céu de Gatinhos",
-        schema: 15094,
+        "schema": 15094,
         "schema2": 69
     },
     1071: {
@@ -9688,7 +9689,7 @@ let dataItems = {
         sch: "抱抱先生 转轮机枪",
         bra: "Senhor Fofinho Metralhadora Giratória",
         fre: "Le Minigun Monsieur Câlin",
-        schema: 15099,
+        "schema": 15099,
         "schema2": 73
     },
     1072: {
@@ -9698,7 +9699,7 @@ let dataItems = {
         sch: "气球独角兽火焰喷射器",
         fre: "Le lance-flammes Ballicorne",
         bra: "Lança-chamas | Balãonicórnio",
-        schema: 15089,
+        "schema": 15089,
         "schema2": 66
     },
     1073: {
@@ -9708,7 +9709,7 @@ let dataItems = {
         sch: "甜蜜梦境黏性炸弹发射器",
         fre: "Le lanceur de bombes collantes des beaux rêves",
         bra: "Lança-stickybombs | Bons Sonhos",
-        schema: 15113
+        "schema": 15113
     },
     1074: {
         img: "sweet_dreams_grenade_launcher",
@@ -9717,7 +9718,7 @@ let dataItems = {
         sch: "甜蜜梦境榴弹发射器",
         fre: "Le lance-grenades des beaux rêves",
         bra: "Lança-granadas | Bons Sonhos",
-        schema: 15092,
+        "schema": 15092,
         "schema2": 68
     },
     1075: {
@@ -9727,7 +9728,7 @@ let dataItems = {
         sch: "气球独角兽狙击步枪",
         fre: "Le fusil de sniper Ballicorne",
         bra: "Rifle de Sniper | Balãonicórnio",
-        schema: 15111,
+        "schema": 15111,
         "schema2": 66
     },
     1076: {
@@ -9737,7 +9738,7 @@ let dataItems = {
         sch: "彩虹火焰喷射器",
         fre: "Le lance-flammes arc-en-ciel",
         bra: "Lança-chamas | Arco-íris",
-        schema: 15090,
+        "schema": 15090,
         "schema2": 67
     },
     1077: {
@@ -9747,7 +9748,7 @@ let dataItems = {
         sch: "彩虹狙击步枪",
         fre: "Le fusil de sniper arc-en-ciel",
         bra: "Rifle de Sniper | Arco-íris",
-        schema: 15112,
+        "schema": 15112,
         "schema2": 67
     },
     1078: {
@@ -9757,7 +9758,7 @@ let dataItems = {
         sch: "彩虹榴弹发射器",
         fre: "Le lance-grenades arc-en-ciel",
         bra: "Lança-granadas | Arco-íris",
-        schema: 15091,
+        "schema": 15091,
         "schema2": 67
     },
     1079: {
@@ -9767,7 +9768,7 @@ let dataItems = {
         sch: "雷霆闪击刀子",
         fre: "Le couteau Blitzkrieg",
         bra: "Faca | Blitzkrieg",
-        schema: 15143,
+        "schema": 15143,
         "schema2": 81
     },
     1080: {
@@ -9777,7 +9778,7 @@ let dataItems = {
         sch: "伯劳鸟榴弹发射器",
         fre: "Le lance-grenades rapace",
         bra: "Lança-granadas | Gralha",
-        schema: 15158,
+        "schema": 15158,
         "schema2": 84
     },
     1081: {
@@ -9787,7 +9788,7 @@ let dataItems = {
         sch: "海盗猎枪",
         fre: "Le fusil à dispersion pirate",
         bra: "Espingarda | Corsário",
-        schema: 15157,
+        "schema": 15157,
         "schema2": 83
     },
     1082: {
@@ -9797,7 +9798,7 @@ let dataItems = {
         sch: "飞狼扳手",
         fre: "La clé Airwolf",
         bra: "Chave Inglesa | Lobo dos Ares",
-        schema: 15156,
+        "schema": 15156,
         "schema2": 82
     },
     1083: {
@@ -9807,7 +9808,7 @@ let dataItems = {
         sch: "雷霆闪击 SMG",
         fre: "La mitraillette Blitzkrieg",
         bra: "Submetralhadora | Blitzkrieg",
-        schema: 15153,
+        "schema": 15153,
         "schema2": 81
     },
     1084: {
@@ -9817,7 +9818,7 @@ let dataItems = {
         sch: "雷霆闪击左轮手枪",
         fre: "Le revolver Blitzkrieg",
         bra: "Revólver | Blitzkrieg",
-        schema: 15149,
+        "schema": 15149,
         "schema2": 81
     },
     1085: {
@@ -9827,7 +9828,7 @@ let dataItems = {
         sch: "雷霆闪击手枪",
         fre: "Le pistolet Blitzkrieg",
         bra: "Pistola | Blitzkrieg",
-        schema: 15148,
+        "schema": 15148,
         "schema2": 81
     },
     1086: {
@@ -9837,7 +9838,7 @@ let dataItems = {
         sch: "雷霆闪击医疗枪",
         fre: "Le medigun Blitzkrieg",
         bra: "Arma Médica | Blitzkrieg",
-        schema: 15145,
+        "schema": 15145,
         "schema2": 81
     },
     1087: {
@@ -9847,7 +9848,7 @@ let dataItems = {
         sch: "飞狼刀子",
         fre: "Le couteau Airwolf",
         bra: "Faca | Lobo dos Ares",
-        schema: 15144,
+        "schema": 15144,
         "schema2": 82
     },
     1088: {
@@ -9857,7 +9858,7 @@ let dataItems = {
         sch: "海盗医疗枪",
         fre: "Le medigun pirate",
         bra: "Arma Médica | Corsário",
-        schema: 15146,
+        "schema": 15146,
         "schema2": 83
     },
     1089: {
@@ -9867,7 +9868,7 @@ let dataItems = {
         sch: "雷霆闪击黏性炸弹发射器",
         fre: "Le lanceur de bombes collantes Blitzkrieg",
         bra: "Lança-stickybombs | Blitzkrieg",
-        schema: 15155,
+        "schema": 15155,
         "schema2": 81
     },
     1090: {
@@ -9877,7 +9878,7 @@ let dataItems = {
         sch: "飞狼狙击步枪",
         fre: "Le fusil de sniper Airwolf",
         bra: "Rifle de Sniper | Lobo dos Ares",
-        schema: 15154,
+        "schema": 15154,
         "schema2": 82
     },
     1091: {
@@ -9887,7 +9888,7 @@ let dataItems = {
         sch: "伯劳鸟转轮机枪",
         fre: "Le minigun rapace",
         bra: "Metralhadora Giratória | Gralha",
-        schema: 15147,
+        "schema": 15147,
         "schema2": 84
     },
     1092: {
@@ -9897,7 +9898,7 @@ let dataItems = {
         sch: "鹰派火焰喷射器",
         fre: "Le lance-flammes du faucon guerrier",
         bra: "Lança-chamas | Gavião de Guerra",
-        schema: 15141,
+        "schema": 15141,
         "schema2": 80
     },
     1093: {
@@ -9907,7 +9908,7 @@ let dataItems = {
         sch: "赤红之熊霰弹枪",
         fre: "Le fusil à pompe de l'ours rouge",
         bra: "Escopeta | Ursoviético",
-        schema: 15152,
+        "schema": 15152,
         "schema2": 86
     },
     1094: {
@@ -9917,7 +9918,7 @@ let dataItems = {
         sch: "鹰派榴弹发射器",
         fre: "Le lance-grenades du faucon guerrier",
         bra: "Lança-granadas | Gavião de Guerra",
-        schema: 15142,
+        "schema": 15142,
         "schema2": 80
     },
     1095: {
@@ -9927,7 +9928,7 @@ let dataItems = {
         sch: "鹰派火箭发射器",
         fre: "Le lance-roquettes du faucon guerrier",
         bra: "Lança-foguetes | Gavião de Guerra",
-        schema: 15150,
+        "schema": 15150,
         "schema2": 80
     },
     1096: {
@@ -9937,7 +9938,7 @@ let dataItems = {
         sch: "杀人蜂猎枪",
         fre: "Le fusil à dispersion ruche",
         bra: "Espingarda | Abelha Assassina",
-        schema: 15151,
+        "schema": 15151,
         "schema2": 85
     },
     1097: {
@@ -9947,7 +9948,7 @@ let dataItems = {
         sch: "爱国之鹰",
         fre: "L'apogée patriotique",
         bra: "O Pico Patriota",
-        schema: 30743
+        "schema": 30743
     },
     1098: {
         img: "berlin_brain_bowl",
@@ -9956,7 +9957,7 @@ let dataItems = {
         sch: "柏林脑盔",
         fre: "Protection berlinoise",
         bra: "Batalhador de Berlim",
-        schema: 30755
+        "schema": 30755
     },
     1099: {
         img: "hot_heels",
@@ -9965,7 +9966,7 @@ let dataItems = {
         sch: "热力跑鞋",
         fre: "Talons chauts",
         bra: "Calçados Chama-tivos",
-        schema: 30754
+        "schema": 30754
     },
     1100: {
         img: "a_hat_to_kill_for",
@@ -9974,7 +9975,7 @@ let dataItems = {
         sch: "谋帽害命",
         fre: "Un chapeau à en mourir",
         bra: "Um Chapéu de Matar",
-        schema: 30753
+        "schema": 30753
     },
     1101: {
         img: "shin_shredders",
@@ -9983,7 +9984,7 @@ let dataItems = {
         sch: "武士钢甲",
         fre: "Protège-tibias du conquérant",
         bra: "Caneleiras do Conquistador",
-        schema: 30742
+        "schema": 30742
     },
     1102: {
         img: "medical_monarch",
@@ -9992,7 +9993,7 @@ let dataItems = {
         sch: "医疗之王",
         fre: "Monarque médical",
         bra: "Monarca da Medicina",
-        schema: 30750
+        "schema": 30750
     },
     1103: {
         img: "siberian_sweater",
@@ -10001,7 +10002,7 @@ let dataItems = {
         sch: "西伯利亚小毛衣",
         fre: "Pull sibérien",
         bra: "Suéter Siberiano",
-        schema: 30745
+        "schema": 30745
     },
     1104: {
         img: "chicago_overcoat",
@@ -10010,7 +10011,7 @@ let dataItems = {
         sch: "芝加哥外套",
         fre: "Pardessus de Chicago",
         bra: "O Casacão de Chicago",
-        schema: 30752
+        "schema": 30752
     },
     1105: {
         img: "diplomat",
@@ -10019,7 +10020,7 @@ let dataItems = {
         sch: "驻外武官",
         fre: "Le diplomate",
         bra: "O Diplomata",
-        schema: 30744
+        "schema": 30744
     },
     1106: {
         img: "bunnyhoppers_ballistics_vest",
@@ -10028,7 +10029,7 @@ let dataItems = {
         sch: "跳跳兔的弹道学背心",
         fre: "Pare-balle du Bunnyhopper",
         bra: "Veste Balística",
-        schema: 30756
+        "schema": 30756
     },
     1107: {
         img: "winter_backup",
@@ -10037,7 +10038,7 @@ let dataItems = {
         sch: "冬日背包",
         fre: "Provisions hivernales",
         bra: "Ferramentas do Frio",
-        schema: 30749
+        "schema": 30749
     },
     1108: {
         img: "bonk_batters_backup",
@@ -10046,7 +10047,7 @@ let dataItems = {
         sch: "原子能棒球手的必备物品",
         fre: "Sac de baseball de Bonk",
         bra: "A Bolsa do Batedor Bonk",
-        schema: 30751
+        "schema": 30751
     },
     1109: {
         img: "gift_bringer",
@@ -10055,7 +10056,7 @@ let dataItems = {
         sch: "圣诞老人外套",
         fre: "Le père Soldier",
         bra: "O Papai dos Presentes",
-        schema: 30747
+        "schema": 30747
     },
     1110: {
         img: "chill_chullo",
@@ -10064,7 +10065,7 @@ let dataItems = {
         sch: "御寒毛绒帽",
         fre: "Chill Chullo",
         bra: "O Gorro Glacial",
-        schema: 30748
+        "schema": 30748
     },
     1111: {
         img: "a_well_wrapped_hat",
@@ -10073,7 +10074,7 @@ let dataItems = {
         sch: "精美礼物包装帽",
         fre: "Un chapeau bien emballé",
         bra: "Um Chapéu Bem Embrulhado",
-        schema: 30746
+        "schema": 30746
     },
     1112: {
         img: "courtly_cuirass",
@@ -10082,7 +10083,7 @@ let dataItems = {
         sch: "典雅的臂甲",
         fre: "Protège-bras moyenâgeux",
         bra: "A Proteção Platinada",
-        schema: 30770
+        "schema": 30770
     },
     1113: {
         img: "demos_dustcatcher",
@@ -10091,7 +10092,7 @@ let dataItems = {
         sch: "爆破手的遮风围巾",
         fre: "Plumeau du Demo",
         bra: "O Poncho do Demolidor",
-        schema: 30788
+        "schema": 30788
     },
     1114: {
         img: "surgical_survivalist",
@@ -10100,7 +10101,7 @@ let dataItems = {
         sch: "外科学护膝",
         fre: "Chirurgien survivaliste",
         bra: "O Sobrevivencialista Cirúrgico",
-        schema: 30773
+        "schema": 30773
     },
     1115: {
         img: "squires_sabatons",
@@ -10109,7 +10110,7 @@ let dataItems = {
         sch: "侍从的铠靴",
         fre: "Soleret de l'écuyer",
         bra: "Os Calcantes do Cavaleiro",
-        schema: 30771
+        "schema": 30771
     },
     1116: {
         img: "airdog",
@@ -10118,7 +10119,7 @@ let dataItems = {
         sch: "天狗滑雪盔",
         fre: "Pro de la glisse",
         bra: "O Esqui-ardor",
-        schema: 30767
+        "schema": 30767
     },
     1117: {
         img: "scoped_spartan",
@@ -10127,7 +10128,7 @@ let dataItems = {
         sch: "斯巴达披风",
         fre: "Cape spartiate",
         bra: "A Capa do Espartano",
-        schema: 30789
+        "schema": 30789
     },
     1118: {
         img: "heralds_helm",
@@ -10136,7 +10137,7 @@ let dataItems = {
         sch: "先锋之盔",
         fre: "Casque de héraut",
         bra: "O Elmo do Mensageiro",
-        schema: 30769
+        "schema": 30769
     },
     1119: {
         img: "gauzed_gaze",
@@ -10145,7 +10146,7 @@ let dataItems = {
         sch: "蒙面神医",
         fre: "Masque chirurgical",
         bra: "O Olhar do Cirurgião",
-        schema: 30786
+        "schema": 30786
     },
     1120: {
         img: "lurking_legionnaire",
@@ -10154,7 +10155,7 @@ let dataItems = {
         sch: "外籍军团的军装",
         fre: "Tenue du légionnaire",
         bra: "O Legionário Ladino",
-        schema: 30777
+        "schema": 30777
     },
     1121: {
         img: "patriots_pouches",
@@ -10163,7 +10164,7 @@ let dataItems = {
         sch: "爱国者的弹药袋",
         fre: "Équipement du patriote",
         bra: "Os Bolsos do Patriota",
-        schema: 30780
+        "schema": 30780
     },
     1122: {
         img: "dad_duds",
@@ -10172,7 +10173,7 @@ let dataItems = {
         sch: "工程老爹的格纹衬衫",
         fre: "Chemise à carreaux",
         bra: "A Camisa do Paizão",
-        schema: 30785
+        "schema": 30785
     },
     1123: {
         img: "dayjogger",
@@ -10181,7 +10182,7 @@ let dataItems = {
         sch: "日行者",
         fre: "Dayjogger",
         bra: "O Caçador de Cabeças",
-        schema: 30779
+        "schema": 30779
     },
     1124: {
         img: "dead_head",
@@ -10190,7 +10191,7 @@ let dataItems = {
         sch: "无面之人",
         fre: "Masque de mort",
         bra: "A Cabeça Cadavérica",
-        schema: 30775
+        "schema": 30775
     },
     1125: {
         img: "bedouin_bandana",
@@ -10199,7 +10200,7 @@ let dataItems = {
         sch: "贝督因蒙面头巾",
         fre: "Bandana bédouin",
         bra: "A Bandana do Beduíno",
-        schema: 30768
+        "schema": 30768
     },
     1126: {
         img: "sandvich",
@@ -10208,7 +10209,7 @@ let dataItems = {
         sch: "三明治",
         fre: "Le Sandvich",
         bra: "O Sandviche",
-        schema: 42
+        "schema": 42
     },
     1127: {
         img: "quickiebomb_launcher",
@@ -10217,7 +10218,7 @@ let dataItems = {
         sch: "快速黏弹发射器",
         fre: "Le Lanceur de Bombes rapides",
         bra: "O Lança-rápibombs",
-        schema: 1150
+        "schema": 1150
     },
     1128: {
         img: "back_scatter",
@@ -10226,7 +10227,7 @@ let dataItems = {
         sch: "偷袭之力",
         fre: "Le Back Scatter",
         bra: "A Fuziladora de Costas",
-        schema: 1103
+        "schema": 1103
     },
     1129: {
         img: "panic_attack",
@@ -10235,7 +10236,7 @@ let dataItems = {
         sch: "恐慌打击",
         fre: "La Crise de Panique",
         bra: "O Ataque de Pânico",
-        schema: 1153
+        "schema": 1153
     },
     1130: {
         img: "iron_bomber",
@@ -10244,7 +10245,7 @@ let dataItems = {
         sch: "铁弹发射器",
         fre: "Le Canonneur",
         bra: "O Bombardeiro de Ferro",
-        schema: 1151
+        "schema": 1151
     },
     1131: {
         img: "showstopper",
@@ -10253,7 +10254,7 @@ let dataItems = {
         sch: "烟花表演",
         fre: "Clou du spectacle",
         bra: "Fim de show",
-        schema: 30797
+        "schema": 30797
     },
     1132: {
         img: "mad_mask",
@@ -10262,7 +10263,7 @@ let dataItems = {
         sch: "疯狂面具",
         fre: "Mad Mask",
         bra: "Máscara da Loucura",
-        schema: 30815
+        "schema": 30815
     },
     1133: {
         img: "surgeons_sidearms",
@@ -10271,7 +10272,7 @@ let dataItems = {
         sch: "外科医生的小工具",
         fre: "Armes de poing du chirurgien",
         bra: "As Ferramentas do Cirurgião",
-        schema: 30813
+        "schema": 30813
     },
     1134: {
         img: "nasty_norsemann",
@@ -10280,7 +10281,7 @@ let dataItems = {
         sch: "北欧牛角盔",
         fre: "Vil viking",
         bra: "Nórdico Nefasto",
-        schema: 30810
+        "schema": 30810
     },
     1135: {
         img: "colossal_cranium",
@@ -10289,7 +10290,7 @@ let dataItems = {
         sch: "巨型光头",
         fre: "Boîte crânienne colossale",
         bra: "Crânio Colossal",
-        schema: 30792
+        "schema": 30792
     },
     1136: {
         img: "el_paso_poncho",
@@ -10298,7 +10299,7 @@ let dataItems = {
         sch: "帕索的毛衣",
         fre: "Le El Paso Poncho",
         bra: "El Paso Poncho",
-        schema: 30804
+        "schema": 30804
     },
     1137: {
         img: "spooktacles",
@@ -10307,7 +10308,7 @@ let dataItems = {
         sch: "骷髅墨镜",
         fre: "Luneffrayantes",
         bra: "Horripilóculos",
-        schema: 30801
+        "schema": 30801
     },
     1138: {
         img: "wide_brimmed_bandito",
@@ -10316,7 +10317,7 @@ let dataItems = {
         sch: "宽边墨西哥帽",
         fre: "Le Bandito à larges bords",
         bra: "O Bandido de Aba Larga",
-        schema: 30805
+        "schema": 30805
     },
     1139: {
         img: "cranial_carcharodon",
@@ -10325,7 +10326,7 @@ let dataItems = {
         sch: "鲨鱼头套",
         fre: "Le carcharodon crânien",
         bra: "O Carcharodon Craniano",
-        schema: 30800
+        "schema": 30800
     },
     1140: {
         img: "wing_mann",
@@ -10334,7 +10335,7 @@ let dataItems = {
         sch: "鸡翅大侠",
         fre: "Le Mann ailé",
         bra: "A Asinha de Frango",
-        schema: 30809
+        "schema": 30809
     },
     1141: {
         img: "toadstool_topper",
@@ -10343,7 +10344,7 @@ let dataItems = {
         sch: "小佣兵采蘑菇",
         fre: "Chapignon",
         bra: "O Chapéu de Cogumelo",
-        schema: 30796
+        "schema": 30796
     },
     1142: {
         img: "spirit_of_the_bombing_past",
@@ -10352,7 +10353,7 @@ let dataItems = {
         sch: "爆破狂魔",
         fre: "Esprit des anciennes explosions",
         bra: "Espirito das Explosões Passadas",
-        schema: 30807
+        "schema": 30807
     },
     1143: {
         img: "corpus_christi_cranium",
@@ -10361,7 +10362,7 @@ let dataItems = {
         sch: "圣体之颅",
         fre: "Le crâne de Corpus Christi",
         bra: "O Crânio de Corpus Christi",
-        schema: 30806
+        "schema": 30806
     },
     1144: {
         img: "heavy_tourism",
@@ -10370,7 +10371,7 @@ let dataItems = {
         sch: "超重型游客",
         fre: "Chemise à fleurs",
         bra: "Turismo Pesado",
-        schema: 30803
+        "schema": 30803
     },
     1145: {
         img: "big_topper",
@@ -10379,7 +10380,7 @@ let dataItems = {
         sch: "魔术师的高帽子",
         fre: "Haut-de-plume",
         bra: "Cartolão Circense",
-        schema: 30798
+        "schema": 30798
     },
     1146: {
         img: "lil_bitey",
@@ -10388,7 +10389,7 @@ let dataItems = {
         sch: "吸血蝙蝠帽",
         fre: "P'tite morsure",
         bra: "Mordidinha",
-        schema: 30814
+        "schema": 30814
     },
     1147: {
         img: "mohorn",
@@ -10397,7 +10398,7 @@ let dataItems = {
         sch: "火焰发型",
         fre: "Mo'Horn",
         bra: "Moi'chifre",
-        schema: 30812
+        "schema": 30812
     },
     1148: {
         img: "pestering_jester",
@@ -10406,7 +10407,7 @@ let dataItems = {
         sch: "弄臣之帽",
         fre: "Bouffon badin",
         bra: "Bobo da Corte Importuno",
-        schema: 30811
+        "schema": 30811
     },
     1149: {
         img: "burly_beast",
@@ -10415,7 +10416,7 @@ let dataItems = {
         sch: "胸毛怪兽",
         fre: "Brute baraquée",
         bra: "Besta Corpulenta",
-        schema: 30817
+        "schema": 30817
     },
     1150: {
         img: "class_crown",
@@ -10424,7 +10425,7 @@ let dataItems = {
         sch: "佣兵之冠",
         fre: "Couronne royale",
         bra: "Coroa de Classe",
-        schema: 30808
+        "schema": 30808
     },
     1151: {
         img: "combustible_cutie",
@@ -10433,7 +10434,7 @@ let dataItems = {
         sch: "火爆萌物",
         fre: "Beauté combustible",
         bra: "Fofura Combustível",
-        schema: 30799
+        "schema": 30799
     },
     1152: {
         img: "handy_canes",
@@ -10442,7 +10443,7 @@ let dataItems = {
         sch: "拐杖糖",
         fre: "Canne à bombe",
         bra: "Doces Explosivos",
-        schema: 30822
+        "schema": 30822
     },
     1153: {
         img: "readers_choice",
@@ -10451,7 +10452,7 @@ let dataItems = {
         sch: "睹者之选",
         fre: "Choix des lecteurs",
         bra: "Escolha do Leitor",
-        schema: 30831
+        "schema": 30831
     },
     1154: {
         img: "brain_warming_wear",
@@ -10460,7 +10461,7 @@ let dataItems = {
         sch: "暖脑毛绒帽",
         fre: "Couvre-cerveau",
         bra: "O Aquecedor de Cérebros",
-        schema: 30827
+        "schema": 30827
     },
     1155: {
         img: "packable_provisions",
@@ -10469,7 +10470,7 @@ let dataItems = {
         sch: "随身补给器",
         fre: "Provisions de Noël",
         bra: "Provisões Portáteis",
-        schema: 30821
+        "schema": 30821
     },
     1156: {
         img: "elf_esteem",
@@ -10478,7 +10479,7 @@ let dataItems = {
         sch: "黏弹小精灵",
         fre: "L'elfet de Noël",
         bra: "Elfoestima",
-        schema: 30836
+        "schema": 30836
     },
     1157: {
         img: "sweet_smissmas_sweater",
@@ -10487,7 +10488,7 @@ let dataItems = {
         sch: "甜蜜的圣诞毛衣",
         fre: "Doux tricot de Smissmas",
         bra: "Suave Suéter de Natal",
-        schema: 30826
+        "schema": 30826
     },
     1158: {
         img: "santarchimedes",
@@ -10496,7 +10497,7 @@ let dataItems = {
         sch: "圣基米德",
         fre: "Paparchimède",
         bra: "Arquinoeldes",
-        schema: 30825
+        "schema": 30825
     },
     1159: {
         img: "socked_and_loaded",
@@ -10505,7 +10506,7 @@ let dataItems = {
         sch: "武装之袜",
         fre: "Enchaussé, c'est pesé",
         bra: "Meia Munida",
-        schema: 30818
+        "schema": 30818
     },
     1160: {
         img: "flammable_favor",
@@ -10514,7 +10515,7 @@ let dataItems = {
         sch: "易燃之礼",
         fre: "Faveur inflammable",
         bra: "Favor Inflamável",
-        schema: 30819
+        "schema": 30819
     },
     1161: {
         img: "bomb_beanie",
@@ -10523,7 +10524,7 @@ let dataItems = {
         sch: "黏弹头套",
         fre: "Boonnet",
         bra: "Touca Bombástica",
-        schema: 30823
+        "schema": 30823
     },
     1162: {
         img: "electric_twanger",
@@ -10532,7 +10533,7 @@ let dataItems = {
         sch: "三昧电弦",
         fre: "La vibration électrique",
         bra: "O Suingue Elétrico",
-        schema: 30824
+        "schema": 30824
     },
     1163: {
         img: "woolen_warmer",
@@ -10541,7 +10542,7 @@ let dataItems = {
         sch: "羊毛针织帽",
         fre: "Bonnet de laine",
         bra: "Gorro de Lã",
-        schema: 30833
+        "schema": 30833
     },
     1164: {
         img: "snowwing",
@@ -10550,7 +10551,7 @@ let dataItems = {
         sch: "雪翼滑板",
         fre: "Ailes des neiges",
         bra: "Pranchasa",
-        schema: 30820
+        "schema": 30820
     },
     1165: {
         img: "pyro_the_flamedeer",
@@ -10559,7 +10560,7 @@ let dataItems = {
         sch: "火焰驯鹿",
         fre: "Pyro le cerflamboyant",
         bra: "Pyro, a Rena das Chamas",
-        schema: 30835
+        "schema": 30835
     },
     1166: {
         img: "head_prize",
@@ -10568,7 +10569,7 @@ let dataItems = {
         sch: "头等大奖",
         fre: "Renard empaillé",
         bra: "Gorro de Raposa",
-        schema: 30838
+        "schema": 30838
     },
     1167: {
         img: "bomber_knight",
@@ -10577,7 +10578,7 @@ let dataItems = {
         sch: "炸弹骑士头盔",
         fre: "Le chevalier boum",
         bra: "O Cavaleiro Bombardeiro",
-        schema: 30830
+        "schema": 30830
     },
     1168: {
         img: "snowmann",
@@ -10586,7 +10587,7 @@ let dataItems = {
         sch: "曼恩雪人帽",
         fre: "Le Mann de neige",
         bra: "O Mann de Neve",
-        schema: 30829
+        "schema": 30829
     },
     1169: {
         img: "airtight_arsonist",
@@ -10595,7 +10596,7 @@ let dataItems = {
         sch: "气密式纵火狂面罩",
         fre: "Masque à oxygène de l'incendiaire",
         bra: "Incendiário Impenetrável",
-        schema: 30859
+        "schema": 30859
     },
     1170: {
         img: "flakcatcher",
@@ -10604,7 +10605,7 @@ let dataItems = {
         sch: "弹药背心",
         fre: "Gilet attrape-balles",
         bra: "Para-Flak",
-        schema: 30853
+        "schema": 30853
     },
     1171: {
         img: "airborne_attire",
@@ -10613,7 +10614,7 @@ let dataItems = {
         sch: "飞行员夹克",
         fre: "Veste d'aviateur",
         bra: "Adornos do Aviador",
-        schema: 30873
+        "schema": 30873
     },
     1172: {
         img: "warhood",
@@ -10622,7 +10623,7 @@ let dataItems = {
         sch: "蒙面兜帽",
         fre: "Chèche de guerre",
         bra: "Capuz de Guerra",
-        schema: 30866
+        "schema": 30866
     },
     1173: {
         img: "field_practice",
@@ -10631,7 +10632,7 @@ let dataItems = {
         sch: "战地医生贝雷帽",
         fre: "Médecin de terrain",
         bra: "Médico Militar",
-        schema: 30862
+        "schema": 30862
     },
     1174: {
         img: "head_mounted_double_observatory",
@@ -10640,7 +10641,7 @@ let dataItems = {
         sch: "头戴式双筒观测器",
         fre: "Visiolunettes",
         bra: "Biobservatório Cranial",
-        schema: 30872
+        "schema": 30872
     },
     1175: {
         img: "blast_defense",
@@ -10649,7 +10650,7 @@ let dataItems = {
         sch: "钢铁防爆盔",
         fre: "Protection du forgeron",
         bra: "Defesa Explosiva",
-        schema: 30863
+        "schema": 30863
     },
     1176: {
         img: "upgrade",
@@ -10658,7 +10659,7 @@ let dataItems = {
         sch: "高科技间谍",
         fre: "Cerveau mécanique",
         bra: "Visor de Visão",
-        schema: 30848
+        "schema": 30848
     },
     1177: {
         img: "speedsters_spandex",
@@ -10667,7 +10668,7 @@ let dataItems = {
         sch: "疾跑者的肩带",
         fre: "Veste du pistard prompt",
         bra: "Tecido Expansível",
-        schema: 30875
+        "schema": 30875
     },
     1178: {
         img: "down_under_duster",
@@ -10676,7 +10677,7 @@ let dataItems = {
         sch: "遮尘风衣",
         fre: "Manteau antipodal",
         bra: "Espanador Australiano",
-        schema: 30856
+        "schema": 30856
     },
     1179: {
         img: "hawk_eyed_hunter",
@@ -10685,7 +10686,7 @@ let dataItems = {
         sch: "鹰眼猎手",
         fre: "Œil de lynx",
         bra: "Olho do Predador",
-        schema: 30858
+        "schema": 30858
     },
     1180: {
         img: "messengers_mail_bag",
@@ -10694,7 +10695,7 @@ let dataItems = {
         sch: "信使邮包",
         fre: "Sacoche du facteur",
         bra: "Mochila do Mensageiro",
-        schema: 30869
+        "schema": 30869
     },
     1181: {
         img: "pocket_pauling",
@@ -10703,7 +10704,7 @@ let dataItems = {
         sch: "宝琳玩偶",
         fre: "Pauling de poche",
         bra: "Pauling de Bolso",
-        schema: 30849
+        "schema": 30849
     },
     1182: {
         img: "archers_sterling",
@@ -10712,7 +10713,7 @@ let dataItems = {
         sch: "弓手的护鼻头盔",
         fre: "Archer australien",
         bra: "Arqueiro Certeiro",
-        schema: 30874
+        "schema": 30874
     },
     1183: {
         img: "guilden_guardian",
@@ -10721,7 +10722,7 @@ let dataItems = {
         sch: "皇家卫队",
         fre: "Gardien médiéval",
         bra: "Guardião da Guilda",
-        schema: 30857
+        "schema": 30857
     },
     1184: {
         img: "legendary_lid",
@@ -10730,7 +10731,7 @@ let dataItems = {
         sch: "传奇武士的斗笠",
         fre: "Casque légendaire",
         bra: "O Disco da Dinastia",
-        schema: 30868
+        "schema": 30868
     },
     1185: {
         img: "plumbers_cap",
@@ -10739,7 +10740,7 @@ let dataItems = {
         sch: "水管工之帽",
         fre: "Casquette du plombier",
         bra: "Boina di Encanadore",
-        schema: 30846
+        "schema": 30846
     },
     1186: {
         img: "lightning_lid",
@@ -10748,7 +10749,7 @@ let dataItems = {
         sch: "闪电之盔",
         fre: "Casque à éclairs",
         bra: "O Capacete Cinético",
-        schema: 30867
+        "schema": 30867
     },
     1187: {
         img: "flash_of_inspiration",
@@ -10757,7 +10758,7 @@ let dataItems = {
         sch: "灵光一闪",
         fre: "Tonnerre de Zeus",
         bra: "Faísca da Inspiração",
-        schema: 30871
+        "schema": 30871
     },
     1188: {
         img: "firemans_essentials",
@@ -10766,7 +10767,7 @@ let dataItems = {
         sch: "消防员的必备品",
         fre: "Les essentiels du pompier",
         bra: "Ferramentas para Fogo",
-        schema: 30900
+        "schema": 30900
     },
     1189: {
         img: "conaghers_utility_idol",
@@ -10775,7 +10776,7 @@ let dataItems = {
         sch: "工程之神的塑像",
         fre: "Idole de Conagher",
         bra: "Ídolo de Utilidades dos Conaghers",
-        schema: 30908
+        "schema": 30908
     },
     1190: {
         img: "pithy_professional",
@@ -10784,7 +10785,7 @@ let dataItems = {
         sch: "精干的专业佣兵",
         fre: "Salacot",
         bra: "O Profissional de Poucas Palavras",
-        schema: 30915
+        "schema": 30915
     },
     1191: {
         img: "classy_capper",
@@ -10793,7 +10794,7 @@ let dataItems = {
         sch: "气派的骑士帽",
         fre: "Le couvre-chef élégant",
         bra: "O Caçador de Classe",
-        schema: 30893
+        "schema": 30893
     },
     1192: {
         img: "most_dangerous_mane",
@@ -10802,7 +10803,7 @@ let dataItems = {
         sch: "超级危险的胡须",
         fre: "La crinière la plus dangereuse",
         bra: "A Perigosíssima Juba",
-        schema: 30894
+        "schema": 30894
     },
     1193: {
         img: "forest_footwear",
@@ -10811,7 +10812,7 @@ let dataItems = {
         sch: "丛林之靴",
         fre: "Chaussures forestières",
         bra: "Botas Selvagens",
-        schema: 30890
+        "schema": 30890
     },
     1194: {
         img: "shellmet",
@@ -10820,7 +10821,7 @@ let dataItems = {
         sch: "丛林老兵的头盔",
         fre: "Le cascrapace",
         bra: "O Cartuchete",
-        schema: 30897
+        "schema": 30897
     },
     1195: {
         img: "attack_packs",
@@ -10829,7 +10830,7 @@ let dataItems = {
         sch: "作战装具",
         fre: "Réserves militaires",
         bra: "Colete de Combate",
-        schema: 30896
+        "schema": 30896
     },
     1196: {
         img: "nuke",
@@ -10838,7 +10839,7 @@ let dataItems = {
         sch: "公爵发型",
         fre: "Le Duke",
         bra: "O Corte sem Chiclete",
-        schema: 30885
+        "schema": 30885
     },
     1197: {
         img: "bait_and_bite",
@@ -10847,7 +10848,7 @@ let dataItems = {
         sch: "钓鱼工具包",
         fre: "Appâts et hameçons",
         bra: "Peixinho Pescado",
-        schema: 30916
+        "schema": 30916
     },
     1198: {
         img: "riflemans_regalia",
@@ -10856,7 +10857,7 @@ let dataItems = {
         sch: "步枪手军装",
         fre: "Tenue du fusilleur",
         bra: "Farda do Franco-atirador",
-        schema: 30895
+        "schema": 30895
     },
     1199: {
         img: "croaking_hazard",
@@ -10865,7 +10866,7 @@ let dataItems = {
         sch: "危险的呱呱",
         fre: "Le danger coassant",
         bra: "O Sapo Solidário",
-        schema: 30881
+        "schema": 30881
     },
     1200: {
         img: "transparent_trousers",
@@ -10874,7 +10875,7 @@ let dataItems = {
         sch: "显而易见的裤子",
         fre: "Pantalons transparents",
         bra: "Calças Camufladas",
-        schema: 30889
+        "schema": 30889
     },
     1201: {
         img: "d_eye_monds",
@@ -10883,7 +10884,7 @@ let dataItems = {
         sch: "宝石之眼",
         fre: "D-yeux-mants",
         bra: "Olhos Diamantes",
-        schema: 30901
+        "schema": 30901
     },
     1202: {
         img: "hunter_in_darkness",
@@ -10892,7 +10893,7 @@ let dataItems = {
         sch: "暗夜猎手",
         fre: "Chasseur de nuit",
         bra: "O Caçador Noturno",
-        schema: 30877
+        "schema": 30877
     },
     1203: {
         img: "tropical_toad",
@@ -10901,7 +10902,7 @@ let dataItems = {
         sch: "热带蟾蜍",
         fre: "Crapaud tropical",
         bra: "Sapo Tropical",
-        schema: 30909
+        "schema": 30909
     },
     1204: {
         img: "jungle_jersey",
@@ -10910,7 +10911,7 @@ let dataItems = {
         sch: "丛林毛线衫",
         fre: "Veste forestière",
         bra: "Colete Selvagem",
-        schema: 30888
+        "schema": 30888
     },
     1205: {
         img: "aztec_aggressor",
@@ -10919,7 +10920,7 @@ let dataItems = {
         sch: "阿兹特克狂战士",
         fre: "L'agresseur aztèque",
         bra: "O Agressor Asteca",
-        schema: 30914
+        "schema": 30914
     },
     1206: {
         img: "war_eagle",
@@ -10928,7 +10929,7 @@ let dataItems = {
         sch: "战鹰图腾面具",
         fre: "Aigle tiki",
         bra: "A Águia de Guerra",
-        schema: 30887
+        "schema": 30887
     },
     1207: {
         img: "quizzical_quetzal",
@@ -10937,7 +10938,7 @@ let dataItems = {
         sch: "古怪的格查尔鸟",
         fre: "Quizzalcoalt",
         bra: "Quetzal Questionador",
-        schema: 30878
+        "schema": 30878
     },
     1208: {
         img: "aloha_apparel",
@@ -10946,7 +10947,7 @@ let dataItems = {
         sch: "夏威夷衬衫",
         fre: "Chemise hawaïenne",
         bra: "Colarinho Calorento",
-        schema: 30884
+        "schema": 30884
     },
     1209: {
         img: "commando_elite",
@@ -10955,7 +10956,7 @@ let dataItems = {
         sch: "精英特种兵",
         fre: "Commando d'élite",
         bra: "Capacete do Comando",
-        schema: 30912
+        "schema": 30912
     },
     1210: {
         img: "siberian_tigerstripe",
@@ -10964,7 +10965,7 @@ let dataItems = {
         sch: "西伯利亚之虎",
         fre: "Uniforme militaire sibérien",
         bra: "Soldado da Sibéria",
-        schema: 30913
+        "schema": 30913
     },
     1211: {
         img: "cammy_jammies",
@@ -10973,7 +10974,7 @@ let dataItems = {
         sch: "迷彩之裤",
         fre: "Le pyj' de camouflage",
         bra: "A Farda Parda",
-        schema: 30891
+        "schema": 30891
     },
     1212: {
         img: "deitys_dress",
@@ -10982,7 +10983,7 @@ let dataItems = {
         sch: "羽蛇神祭服",
         fre: "Tenue du Quetzalcoatl",
         bra: "A Serpente Incendiada",
-        schema: 30902
+        "schema": 30902
     },
     1213: {
         img: "sharp_chest_pain",
@@ -10991,7 +10992,7 @@ let dataItems = {
         sch: "胸口插大刀",
         fre: "Douleur aiguë à la poitrine",
         bra: "Dor Afiada no Peito",
-        schema: 30898
+        "schema": 30898
     },
     1214: {
         img: "vitals_vest",
@@ -11000,7 +11001,7 @@ let dataItems = {
         sch: "医疗必备品背心",
         fre: "Veste du toubib",
         bra: "Colete Médico",
-        schema: 30906
+        "schema": 30906
     },
     1215: {
         img: "battle_boonie",
@@ -11009,7 +11010,7 @@ let dataItems = {
         sch: "军医布尼帽",
         fre: "Couvre-chef médical",
         bra: "Chapéu de Selva",
-        schema: 30907
+        "schema": 30907
     },
     1216: {
         img: "heavy_harness",
@@ -11018,7 +11019,7 @@ let dataItems = {
         sch: "重型背带",
         fre: "Harnais du Heavy",
         bra: "Arnês do Heavy",
-        schema: 30910
+        "schema": 30910
     },
     1217: {
         img: "fat_mans_field_cap",
@@ -11027,7 +11028,7 @@ let dataItems = {
         sch: "肥佬的野战帽",
         fre: "Chapeau du replet",
         bra: "Quepe de Campo",
-        schema: 30911
+        "schema": 30911
     },
     1218: {
         img: "conspicuous_camouflage",
@@ -11036,7 +11037,7 @@ let dataItems = {
         sch: "引人注目的伪装服",
         fre: "Camouflage remarquable",
         bra: "A Camuflagem Chamativa",
-        schema: 30892
+        "schema": 30892
     },
     1219: {
         img: "feathered_fiend",
@@ -11045,7 +11046,7 @@ let dataItems = {
         sch: "羽蛇神面具",
         fre: "Heaume du Quetzalcoatl",
         bra: "Espírito Emplumado",
-        schema: 30903
+        "schema": 30903
     },
     1220: {
         img: "hot_huaraches",
@@ -11054,7 +11055,7 @@ let dataItems = {
         sch: "灼热人字拖",
         fre: "Huaraches embrasées",
         bra: "O Chinelo Abrasado",
-        schema: 30905
+        "schema": 30905
     },
     1221: {
         img: "pocket_saxton",
@@ -11063,7 +11064,7 @@ let dataItems = {
         sch: "口袋萨克斯顿",
         fre: "Saxton de poche",
         bra: "Saxton de Bolso",
-        schema: 30880
+        "schema": 30880
     },
     1222: {
         img: "crit_cloak",
@@ -11072,7 +11073,7 @@ let dataItems = {
         sch: "爆击火箭神教徒",
         fre: "Voile maya",
         bra: "O Capuz Crítico",
-        schema: 30899
+        "schema": 30899
     },
     1223: {
         img: "sacrificial_stone",
@@ -11081,7 +11082,7 @@ let dataItems = {
         sch: "献祭之石",
         fre: "Pierre sacrificielle",
         bra: "Pedra Sacrificial",
-        schema: 30904
+        "schema": 30904
     },
     1224: {
         img: "bananades",
@@ -11090,7 +11091,7 @@ let dataItems = {
         sch: "香蕉炸弹",
         fre: "Bananades",
         bra: "Bananadas",
-        schema: 30886
+        "schema": 30886
     },
     1225: {
         img: "jungle_wreath",
@@ -11099,7 +11100,7 @@ let dataItems = {
         sch: "丛林里的花环",
         fre: "Couronne de fleurs",
         bra: "Coroa Florestal",
-        schema: 30882
+        "schema": 30882
     },
     1226: {
         img: "aztec_warrior",
@@ -11108,7 +11109,7 @@ let dataItems = {
         sch: "阿兹特克战盔",
         fre: "Le guerrier aztèque",
         bra: "O Guerreiro Asteca",
-        schema: 30879
+        "schema": 30879
     },
     1227: {
         img: "slithering_scarf",
@@ -11117,7 +11118,7 @@ let dataItems = {
         sch: "嘶嘶作响的围巾",
         fre: "L'essarpe",
         bra: "O Cachecol Rastejante",
-        schema: 30883
+        "schema": 30883
     },
     1228: {
         img: "mannana_peeled_war_paint",
@@ -11126,7 +11127,7 @@ let dataItems = {
         sch: "曼恩香蕉 战绘",
         fre: "Mannanas | Peinture de guerre",
         bra: "Mannana Descascada Tinta de Guerra",
-        schema: 16302
+        "schema": 16302
     },
     1229: {
         img: "leopard_printed_war_paint",
@@ -11135,7 +11136,7 @@ let dataItems = {
         sch: "斑点豹纹 战绘",
         fre: "Léopard | Peinture de guerre",
         bra: "Pele de Leopardo Tinta de Guerra",
-        schema: 16310
+        "schema": 16310
     },
     1230: {
         img: "tiger_buffed_war_paint",
@@ -11144,7 +11145,7 @@ let dataItems = {
         sch: "老虎条纹 战绘",
         fre: "Tigre | Peinture de guerre",
         bra: "Pele de Tigre Tinta de Guerra",
-        schema: 16307
+        "schema": 16307
     },
     1231: {
         img: "bamboo_brushed_war_paint",
@@ -11153,7 +11154,7 @@ let dataItems = {
         sch: "势如破竹 战绘",
         fre: "Bambou | Peinture de guerre",
         bra: "Pintura de Bambu Tinta de Guerra",
-        schema: 16306
+        "schema": 16306
     },
     1232: {
         img: "anodized_aloha_war_paint",
@@ -11162,7 +11163,7 @@ let dataItems = {
         sch: "椰林风光 战绘",
         fre: "Aloha | Peinture de guerre",
         bra: "Aloha-dização Tinta de Guerra",
-        schema: 16305
+        "schema": 16305
     },
     1233: {
         img: "pina_polished_war_paint",
@@ -11171,7 +11172,7 @@ let dataItems = {
         sch: "菠萝图案 战绘",
         fre: "Piña | Peinture de guerre",
         bra: "Aroma de Abacaxi Tinta de Guerra",
-        schema: 16309
+        "schema": 16309
     },
     1234: {
         img: "croc_dusted_war_paint",
@@ -11180,7 +11181,7 @@ let dataItems = {
         sch: "鳄鱼池塘 战绘",
         fre: "Croco Peinture de guerre",
         bra: "Crocodilos Cromados Tinta de Guerra",
-        schema: 16308
+        "schema": 16308
     },
     1235: {
         img: "macaw_masked_war_paint",
@@ -11189,7 +11190,7 @@ let dataItems = {
         sch: "金刚鹦鹉 战绘",
         fre: "Ara macao | Peinture de guerre",
         bra: "Disfarce de Arara Tinta de Guerra",
-        schema: 16303
+        "schema": 16303
     },
     1236: {
         img: "yeti_coated_war_paint",
@@ -11198,7 +11199,7 @@ let dataItems = {
         sch: "雪人之眼 战绘",
         fre: "Yéti | Peinture de guerre",
         bra: "Revestimento Abominável Tinta de Guerra",
-        schema: 16300
+        "schema": 16300
     },
     1237: {
         img: "sax_waxed_war_paint",
@@ -11207,7 +11208,7 @@ let dataItems = {
         sch: "萨克斯顿 战绘",
         fre: "Saxton | Peinture de guerre",
         bra: "Saxton à Cera Tinta de Guerra",
-        schema: 16304
+        "schema": 16304
     },
     1238: {
         img: "park_pigmented_war_paint",
@@ -11216,7 +11217,7 @@ let dataItems = {
         sch: "公园海报 战绘",
         fre: "Yeti Park | Peinture de guerre",
         bra: "Passeio no Parque Tinta de Guerra",
-        schema: 16301
+        "schema": 16301
     },
     1239: {
         img: "bloom_buffed_war_paint",
@@ -11225,7 +11226,7 @@ let dataItems = {
         sch: "鲜花盛开 战绘",
         fre: "Floraison | Peinture de guerre",
         bra: "Forro Florido Tinta de Guerra",
-        schema: 17200
+        "schema": 17200
     },
     1240: {
         img: "cardboard_boxed_war_paint",
@@ -11234,7 +11235,7 @@ let dataItems = {
         sch: "纸盒包裹 战绘",
         fre: "Emboîté | Peinture de guerre",
         bra: "Papelão Tinta de Guerra",
-        schema: 17211
+        "schema": 17211
     },
     1241: {
         img: "star_crossed_war_paint",
@@ -11243,7 +11244,7 @@ let dataItems = {
         sch: "璀璨星空 战绘",
         fre: "Stellaire | Peinture de guerre",
         bra: "Estrelado Tinta de Guerra",
-        schema: 17208
+        "schema": 17208
     },
     1242: {
         img: "merc_stained_war_paint",
@@ -11252,7 +11253,7 @@ let dataItems = {
         sch: "佣兵之印 战绘",
         fre: "Mercenaire | Peinture de guerre",
         bra: "Mercenário Cúbico Tinta de Guerra",
-        schema: 17203
+        "schema": 17203
     },
     1243: {
         img: "quack_canvassed_war_paint",
@@ -11261,7 +11262,7 @@ let dataItems = {
         sch: "致命之鸭 战绘",
         fre: "Coincoin | Peinture de guerre",
         bra: "Patos Estam-patos Tinta de Guerra",
-        schema: 17201
+        "schema": 17201
     },
     1244: {
         img: "clover_camod_war_paint",
@@ -11270,7 +11271,7 @@ let dataItems = {
         sch: "四叶草纹 战绘",
         fre: "Porte-bonheur | Peinture de guerre",
         bra: "Camuflagem de Trevos Tinta de Guerra",
-        schema: 17209
+        "schema": 17209
     },
     1245: {
         img: "pizza_polished_war_paint",
@@ -11279,7 +11280,7 @@ let dataItems = {
         sch: "食欲大振 战绘",
         fre: "Pizza | Peinture de guerre",
         bra: "Polimento de Pizza Tinta de Guerra",
-        schema: 17206
+        "schema": 17206
     },
     1246: {
         img: "kill_covered_war_paint",
@@ -11288,7 +11289,7 @@ let dataItems = {
         sch: "杀戮刻痕 战绘",
         fre: "Dénombrement | Peinture de guerre",
         bra: "Contando Vítimas Tinta de Guerra",
-        schema: 17204
+        "schema": 17204
     },
     1247: {
         img: "bank_rolled_war_paint",
@@ -11297,7 +11298,7 @@ let dataItems = {
         sch: "为所欲为 战绘",
         fre: "Billets de banque | Peinture de guerre",
         bra: "Cobertura de Cédulas Tinta de Guerra",
-        schema: 17202
+        "schema": 17202
     },
     1248: {
         img: "bonk_varnished_war_paint",
@@ -11306,7 +11307,7 @@ let dataItems = {
         sch: "辐射超标 战绘",
         fre: "Bonk | Peinture de guerre",
         bra: "Verniz Bonk Tinta de Guerra",
-        schema: 17207
+        "schema": 17207
     },
     1249: {
         img: "dream_piped_war_paint",
@@ -11315,7 +11316,7 @@ let dataItems = {
         sch: "幻境之物 战绘",
         fre: "Rose bonbon | Peinture de guerre",
         bra: "Animais Fofinhos Tinta de Guerra",
-        schema: 17212
+        "schema": 17212
     },
     1250: {
         img: "freedom_wrapped_war_paint",
@@ -11324,7 +11325,7 @@ let dataItems = {
         sch: "星条花纹 战绘",
         fre: "Libertaire | Peinture de guerre",
         bra: "Padrão Patriota Tinta de Guerra",
-        schema: 17210
+        "schema": 17210
     },
     1251: {
         img: "fire_glazed_war_paint",
@@ -11333,7 +11334,7 @@ let dataItems = {
         sch: "烈焰之纹 战绘",
         fre: "Brasier | Peinture de guerre",
         bra: "Chama Esmaltada Tinta de Guerra",
-        schema: 17205
+        "schema": 17205
     },
     1252: {
         img: "civic_duty_mk_ii_war_paint",
@@ -11342,7 +11343,7 @@ let dataItems = {
         sch: "公民义务 Mk.II 战绘",
         fre: "Devoir civique Mk.II | Peinture de guerre",
         bra: "Dever Civil Mk.II Tinta de Guerra",
-        schema: 16144
+        "schema": 16144
     },
     1253: {
         img: "civil_servant_mk_ii_war_paint",
@@ -11351,7 +11352,7 @@ let dataItems = {
         sch: "公仆 Mk.II 战绘",
         fre: "Fonctionnaire Mk.II | Peinture de guerre",
         bra: "Servidor Público Mk.II Tinta de Guerra",
-        schema: 16139
+        "schema": 16139
     },
     1254: {
         img: "autumn_mk_ii_war_paint",
@@ -11360,7 +11361,7 @@ let dataItems = {
         sch: "秋日 Mk.II 战绘",
         fre: "Automne Mk.II | Peinture de guerre",
         bra: "Outono Mk.II Tinta de Guerra",
-        schema: 16160
+        "schema": 16160
     },
     1255: {
         img: "plaid_potshotter_mk_ii_war_paint",
@@ -11369,7 +11370,7 @@ let dataItems = {
         sch: "格纹猛击者 Mk.II 战绘",
         fre: "Tireur à carreau Mk.II | Peinture de guerre",
         bra: "Saia Mk.II Tinta de Guerra",
-        schema: 16122
+        "schema": 16122
     },
     1256: {
         img: "night_owl_mk_ii_war_paint",
@@ -11378,7 +11379,7 @@ let dataItems = {
         sch: "夜枭 Mk.II 战绘",
         fre: "Oiseau de nuit Mk.II | Peinture de guerre",
         bra: "Coruja da Noite Mk.II Tinta de Guerra",
-        schema: 16114
+        "schema": 16114
     },
     1257: {
         img: "woodsy_widowmaker_mk_ii_war_paint",
@@ -11387,7 +11388,7 @@ let dataItems = {
         sch: "绝后之木 Mk.II 战绘",
         fre: "Endeuilleur boisé Mk.II | Peinture de guerre",
         bra: "Viuvadora Verdejante Mk.II Tinta de Guerra",
-        schema: 16113
+        "schema": 16113
     },
     1258: {
         img: "forest_fire_mk_ii_war_paint",
@@ -11396,7 +11397,7 @@ let dataItems = {
         sch: "森林之火 Mk.II 战绘",
         fre: "Feu de forêt Mk.II | Peinture de guerre",
         bra: "Fogo na Floresta Mk.II Tinta de Guerra",
-        schema: 16109
+        "schema": 16109
     },
     1259: {
         img: "woodland_warrior_mk_ii_war_paint",
@@ -11405,7 +11406,7 @@ let dataItems = {
         sch: "林地战士 Mk.II 战绘",
         fre: "Guerrier des bois Mk.II | Peinture de guerre",
         bra: "Matador do Matagal Mk.II Tinta de Guerra",
-        schema: 16106
+        "schema": 16106
     },
     1260: {
         img: "carpet_bomber_mk_ii_war_paint",
@@ -11414,7 +11415,7 @@ let dataItems = {
         sch: "地毯式轰炸 Mk.II 战绘",
         fre: "Bombardier tapissé Mk.II | Peinture de guerre",
         bra: "Arrasa Quarteirão Mk.II Tinta de Guerra",
-        schema: 16104
+        "schema": 16104
     },
     1261: {
         img: "wrapped_reviver_mk_ii_war_paint",
@@ -11423,7 +11424,7 @@ let dataItems = {
         sch: "迷彩救援者 Mk.II 战绘",
         fre: "Ressuscitateur emballé Mk.II | Peinture de guerre",
         bra: "Revivedor Embrulhado Mk.II Tinta de Guerra",
-        schema: 16102
+        "schema": 16102
     },
     1262: {
         img: "nutcracker_mk_ii_war_paint",
@@ -11432,7 +11433,7 @@ let dataItems = {
         sch: "胡桃夹子 Mk.II 战绘",
         fre: "Casse-noix Mk.II | Peinture de guerre",
         bra: "Quebra-nozes Mk.II Tinta de Guerra",
-        schema: 16161
+        "schema": 16161
     },
     1263: {
         img: "smalltown_bringdown_mk_ii_war_paint",
@@ -11441,7 +11442,7 @@ let dataItems = {
         sch: "夷平小镇 Mk.II 战绘",
         fre: "Ratatineur de village Mk.II | Peinture de guerre",
         bra: "Vilão do Vilarejo Mk.II Tinta de Guerra",
-        schema: 16143
+        "schema": 16143
     },
     1264: {
         img: "macabre_web_mk_ii_war_paint",
@@ -11450,7 +11451,7 @@ let dataItems = {
         sch: "亡者之网 Mk.II 战绘",
         fre: "Toiles macabres Mk.II | Peinture de guerre",
         bra: "Teia Macabra Mk.II Tinta de Guerra",
-        schema: 16163
+        "schema": 16163
     },
     1265: {
         img: "iron_wood_mk_ii_war_paint",
@@ -11459,7 +11460,7 @@ let dataItems = {
         sch: "铁木 Mk.II 战绘",
         fre: "Bois métallique Mk.II | Peinture de guerre",
         bra: "Madeira de Ferro Mk.II Tinta de Guerra",
-        schema: 16120
+        "schema": 16120
     },
     1266: {
         img: "backwoods_boomstick_mk_ii_war_paint",
@@ -11468,7 +11469,7 @@ let dataItems = {
         sch: "荒野神兵 Mk.II 战绘",
         fre: "Fusil de derrière les fagots Mk.II | Peinture de guerre",
         bra: "Sertão Mk.II Tinta de Guerra",
-        schema: 16112
+        "schema": 16112
     },
     1267: {
         img: "masked_mender_mk_ii_war_paint",
@@ -11477,7 +11478,7 @@ let dataItems = {
         sch: "蒙面者 Mk.II 战绘",
         fre: "Réparateur masqué Mk.II | Peinture de guerre",
         bra: "Medicamento Mascarado Mk.II Tinta de Guerra",
-        schema: 16105
+        "schema": 16105
     },
     1268: {
         img: "dead_reckoner_mk_ii_war_paint",
@@ -11486,7 +11487,7 @@ let dataItems = {
         sch: "死亡判官 Mk.II 战绘",
         fre: "Cible de la mort Mk.II | Peinture de guerre",
         bra: "Cadáver Calculista Mk.II Tinta de Guerra",
-        schema: 16151
+        "schema": 16151
     },
     1269: {
         img: "bovine_blazemaker_mk_ii_war_paint",
@@ -11495,7 +11496,7 @@ let dataItems = {
         sch: "奶牛花纹 Mk.II 战绘",
         fre: "Bovin Mk.II | Peinture de guerre",
         bra: "Bovino na Brasa Mk.II Tinta de Guerra",
-        schema: 16130
+        "schema": 16130
     },
     1270: {
         img: "blast_blocker",
@@ -11504,7 +11505,7 @@ let dataItems = {
         sch: "防爆背心",
         fre: "Gilet pare-bombes",
         bra: "Exploqueio",
-        schema: 30945
+        "schema": 30945
     },
     1271: {
         img: "caribou_companion",
@@ -11513,7 +11514,7 @@ let dataItems = {
         sch: "驯鹿防寒帽",
         fre: "Caribonnet",
         bra: "O Caribu Companheiro",
-        schema: 30974
+        "schema": 30974
     },
     1272: {
         img: "pocket_santa",
@@ -11522,7 +11523,7 @@ let dataItems = {
         sch: "口袋圣诞老人",
         fre: "Père Noël de poche",
         bra: "Noel de Bolso",
-        schema: 30972
+        "schema": 30972
     },
     1273: {
         img: "down_tundra_coat",
@@ -11531,7 +11532,7 @@ let dataItems = {
         sch: "冻原防寒大衣",
         fre: "Veste du sniper de la toundra",
         bra: "Casaco da Tundra",
-        schema: 30971
+        "schema": 30971
     },
     1274: {
         img: "puffy_polar_cap",
@@ -11540,7 +11541,7 @@ let dataItems = {
         sch: "极地毛绒帽",
         fre: "Casquette rembourrée",
         bra: "Boné Polar Acolchoado",
-        schema: 30958
+        "schema": 30958
     },
     1275: {
         img: "polar_bear",
@@ -11549,7 +11550,7 @@ let dataItems = {
         sch: "北极巨熊",
         fre: "Ours polaire",
         bra: "Urso Polar",
-        schema: 30964
+        "schema": 30964
     },
     1276: {
         img: "sinners_shade",
@@ -11558,7 +11559,7 @@ let dataItems = {
         sch: "罪者之镜",
         fre: "Duelliste au soleil",
         bra: "Sombra do Pecador",
-        schema: 30959
+        "schema": 30959
     },
     1277: {
         img: "brass_bucket",
@@ -11567,7 +11568,7 @@ let dataItems = {
         sch: "火箭十字盔",
         fre: "Heaume du suzerain",
         bra: "O Balde de Bronze",
-        schema: 30969
+        "schema": 30969
     },
     1278: {
         img: "pocket_yeti",
@@ -11576,7 +11577,7 @@ let dataItems = {
         sch: "口袋雪人",
         fre: "Yéti de poche",
         bra: "Yeti de Bolso",
-        schema: 30929
+        "schema": 30929
     },
     1279: {
         img: "truckers_topper",
@@ -11585,7 +11586,7 @@ let dataItems = {
         sch: "卡车司机帽",
         fre: "Casquette du routier",
         bra: "Boné do Caminhoneiro",
-        schema: 30930
+        "schema": 30930
     },
     1280: {
         img: "sledders_sidekick",
@@ -11594,7 +11595,7 @@ let dataItems = {
         sch: "雪橇小伙伴",
         fre: "Copain canin",
         bra: "O Amigo do Ombro",
-        schema: 30923
+        "schema": 30923
     },
     1281: {
         img: "wild_west_whiskers",
@@ -11603,7 +11604,7 @@ let dataItems = {
         sch: "狂野西部胡须",
         fre: "Moustache du Far West",
         bra: "Bigode do Velho Oeste",
-        schema: 30960
+        "schema": 30960
     },
     1282: {
         img: "coldfront_commander",
@@ -11612,7 +11613,7 @@ let dataItems = {
         sch: "严寒战线指挥官",
         fre: "Visière du front froid",
         bra: "Comandante Frente Fria",
-        schema: 30939
+        "schema": 30939
     },
     1283: {
         img: "burning_beanie",
@@ -11621,7 +11622,7 @@ let dataItems = {
         sch: "烈焰造型无边帽",
         fre: "Bonnet chauffant",
         bra: "Gorro Flamejante",
-        schema: 30936
+        "schema": 30936
     },
     1284: {
         img: "melody_of_misery",
@@ -11630,7 +11631,7 @@ let dataItems = {
         sch: "悲惨之声",
         fre: "Mélodie de misère",
         bra: "Melodia da Miséria",
-        schema: 30973
+        "schema": 30973
     },
     1285: {
         img: "handsome_hitman",
@@ -11639,7 +11640,7 @@ let dataItems = {
         sch: "风流杀手",
         fre: "Séducteur à gages",
         bra: "Assassino Bonitão",
-        schema: 30955
+        "schema": 30955
     },
     1286: {
         img: "cats_pajamas",
@@ -11648,7 +11649,7 @@ let dataItems = {
         sch: "猫耳睡衣",
         fre: "Pychama",
         bra: "Pijama de Gatinho",
-        schema: 30937
+        "schema": 30937
     },
     1287: {
         img: "coldfront_carapace",
@@ -11657,7 +11658,7 @@ let dataItems = {
         sch: "严寒战线防护衣",
         fre: "Attirail du front froid",
         bra: "Carapaça Frente Fria",
-        schema: 30940
+        "schema": 30940
     },
     1288: {
         img: "hungover_hero",
@@ -11666,7 +11667,7 @@ let dataItems = {
         sch: "宿醉英雄",
         fre: "Gueule de bois",
         bra: "Herói de Ressaca",
-        schema: 30954
+        "schema": 30954
     },
     1289: {
         img: "balloonihoodie",
@@ -11675,7 +11676,7 @@ let dataItems = {
         sch: "气球独角兽兜帽",
         fre: "Ballicapuche",
         bra: "Capuznicórnio",
-        schema: 30928
+        "schema": 30928
     },
     1290: {
         img: "geometrical_teams_war_paint",
@@ -11684,7 +11685,7 @@ let dataItems = {
         sch: "几何图案 战绘",
         fre: "Géométrie | Peinture de guerre",
         bra: "Formas Geométricas Tinta de Guerra",
-        schema: 17215
+        "schema": 17215
     },
     1291: {
         img: "bomber_soul_war_paint",
@@ -11693,7 +11694,7 @@ let dataItems = {
         sch: "高空轰炸 战绘",
         fre: "Militaire | Peinture de guerre",
         bra: "Alma do Bombardeiro Tinta de Guerra",
-        schema: 17217
+        "schema": 17217
     },
     1292: {
         img: "polar_surprise_war_paint",
@@ -11702,7 +11703,7 @@ let dataItems = {
         sch: "圣诞萌物 战绘",
         fre: "Ours polaire | Peinture de guerre",
         bra: "Surpresa Polar Tinta de Guerra",
-        schema: 17221
+        "schema": 17221
     },
     1293: {
         img: "cabin_fevered_war_paint",
@@ -11711,7 +11712,7 @@ let dataItems = {
         sch: "幽闭恐惧 战绘",
         fre: "Hexagone | Peinture de guerre",
         bra: "Claustrofobia Tinta de Guerra",
-        schema: 17220
+        "schema": 17220
     },
     1294: {
         img: "alien_tech_war_paint",
@@ -11720,7 +11721,7 @@ let dataItems = {
         sch: "外星科技 战绘",
         fre: "Extraterrestre | Peinture de guerre",
         bra: "Tecnologia Alienígena Tinta de Guerra",
-        schema: 17232
+        "schema": 17232
     },
     1295: {
         img: "dovetailed_war_paint",
@@ -11729,7 +11730,7 @@ let dataItems = {
         sch: "阿基米德 战绘",
         fre: "Plumes d'Archimède | Peinture de guerre",
         bra: "Pombos Tinta de Guerra",
-        schema: 17224
+        "schema": 17224
     },
     1296: {
         img: "damascus_and_mahogany_war_paint",
@@ -11738,7 +11739,7 @@ let dataItems = {
         sch: "大马士革 战绘",
         fre: "Damascus et Mahogany | Peinture de guerre",
         bra: "Damasco e Mogno Tinta de Guerra",
-        schema: 17234
+        "schema": 17234
     },
     1297: {
         img: "hazard_warning_war_paint",
@@ -11747,7 +11748,7 @@ let dataItems = {
         sch: "危险警告 战绘",
         fre: "Danger | Peinture de guerre",
         bra: "Aviso de Perigo Tinta de Guerra",
-        schema: 17226
+        "schema": 17226
     },
     1298: {
         img: "neo_tokyo_war_paint",
@@ -11756,7 +11757,7 @@ let dataItems = {
         sch: "新东京都 战绘",
         fre: "Neo Tokyo | Peinture de guerre",
         bra: "Neo Tokyo Tinta de Guerra",
-        schema: 17214
+        "schema": 17214
     },
     1299: {
         img: "uranium_war_paint",
@@ -11765,7 +11766,7 @@ let dataItems = {
         sch: "核子动力 战绘",
         fre: "Uranium | Peinture de guerre",
         bra: "Urânio Tinta de Guerra",
-        schema: 17218
+        "schema": 17218
     },
     1300: {
         img: "hana_war_paint",
@@ -11774,7 +11775,7 @@ let dataItems = {
         sch: "寒梅盛开 战绘",
         fre: "Hana | Peinture de guerre",
         bra: "Hana Tinta de Guerra",
-        schema: 17223
+        "schema": 17223
     },
     1301: {
         img: "cosmic_calamity_war_paint",
@@ -11783,7 +11784,7 @@ let dataItems = {
         sch: "宇宙灾难 战绘",
         fre: "Cosmos | Peinture de guerre",
         bra: "Calamidade Cósmica Tinta de Guerra",
-        schema: 17225
+        "schema": 17225
     },
     1302: {
         img: "mosaic_war_paint",
@@ -11792,7 +11793,7 @@ let dataItems = {
         sch: "古典工艺 战绘",
         fre: "Mosaïque | Peinture de guerre",
         bra: "Mosaico Tinta de Guerra",
-        schema: 17228
+        "schema": 17228
     },
     1303: {
         img: "jazzy_war_paint",
@@ -11801,7 +11802,7 @@ let dataItems = {
         sch: "变幻之色 战绘",
         fre: "Jazzy | Peinture de guerre",
         bra: "Jazz Tinta de Guerra",
-        schema: 17230
+        "schema": 17230
     },
     1304: {
         img: "miami_element_war_paint",
@@ -11810,7 +11811,7 @@ let dataItems = {
         sch: "五彩像素 战绘",
         fre: "Miami | Peinture de guerre",
         bra: "Elemento Miami Tinta de Guerra",
-        schema: 17213
+        "schema": 17213
     },
     1305: {
         img: "antarctic_eyewear",
@@ -11819,7 +11820,7 @@ let dataItems = {
         sch: "南极护目镜",
         fre: "Lunettes de l'Antarctique",
         bra: "Visual Invernal",
-        schema: 30977
+        "schema": 30977
     },
     1306: {
         img: "assassins_attire",
@@ -11828,7 +11829,7 @@ let dataItems = {
         sch: "刺杀者西装",
         fre: "Gentleman assassin",
         bra: "Assassino Aprumado",
-        schema: 30989
+        "schema": 30989
     },
     1307: {
         img: "hot_case",
@@ -11837,7 +11838,7 @@ let dataItems = {
         sch: "烫手神探",
         fre: "Inspecteur rouget",
         bra: "Gabardina do Gatuno",
-        schema: 30986
+        "schema": 30986
     },
     1308: {
         img: "sky_high_fly_guy",
@@ -11846,7 +11847,7 @@ let dataItems = {
         sch: "火箭飞人",
         fre: "L'aviateur",
         bra: "Ás dos Ares",
-        schema: 30984
+        "schema": 30984
     },
     1309: {
         img: "tsar_platinum",
@@ -11855,7 +11856,7 @@ let dataItems = {
         sch: "白金沙皇",
         fre: "Tsar platinum",
         bra: "Czar Platinado",
-        schema: 30980
+        "schema": 30980
     },
     1310: {
         img: "head_hedge",
@@ -11864,7 +11865,7 @@ let dataItems = {
         sch: "丛林伪装盔",
         fre: "Haie-de-forme",
         bra: "Arbusto Astuto",
-        schema: 30978
+        "schema": 30978
     },
     1311: {
         img: "tundra_top",
@@ -11873,7 +11874,7 @@ let dataItems = {
         sch: "极地毛线帽",
         fre: "Bonnet de la toundra",
         bra: "Touca de Tundra",
-        schema: 30976
+        "schema": 30976
     },
     1312: {
         img: "wipe_out_wraps",
@@ -11882,7 +11883,7 @@ let dataItems = {
         sch: "滑雪新手",
         fre: "Bandages essuie-tout",
         bra: "Agasalho Arrasador",
-        schema: 30990
+        "schema": 30990
     },
     1313: {
         img: "punks_pomp",
@@ -11891,7 +11892,7 @@ let dataItems = {
         sch: "浮夸的朋克发型",
         fre: "Pompadour punk",
         bra: "Cabeleira do Cafajeste",
-        schema: 30993
+        "schema": 30993
     },
     1314: {
         img: "starboard_crusader",
@@ -11900,7 +11901,7 @@ let dataItems = {
         sch: "右舷斗士",
         fre: "Héritage du futur",
         bra: "O Capitão Dito-Kujo",
-        schema: 30981
+        "schema": 30981
     },
     1315: {
         img: "aristotle",
@@ -11909,7 +11910,7 @@ let dataItems = {
         sch: "鸦里士多德",
         fre: "Aristote",
         bra: "Aristóteles",
-        schema: 30988
+        "schema": 30988
     },
     1316: {
         img: "burning_question",
@@ -11918,7 +11919,7 @@ let dataItems = {
         sch: "灼人奇案",
         fre: "Question brûlante",
         bra: "Interrogação Incendiária",
-        schema: 30987
+        "schema": 30987
     },
     1317: {
         img: "veterans_attire",
@@ -11927,7 +11928,7 @@ let dataItems = {
         sch: "老兵的军服",
         fre: "La vestéran",
         bra: "Vestes do Veterano",
-        schema: 30983
+        "schema": 30983
     },
     1318: {
         img: "scourge_of_the_sky",
@@ -11936,7 +11937,7 @@ let dataItems = {
         sch: "空中浩劫",
         fre: "Appui aérien",
         bra: "Flagelo dos Céus",
-        schema: 30982
+        "schema": 30982
     },
     1319: {
         img: "blizzard_britches",
@@ -11945,7 +11946,7 @@ let dataItems = {
         sch: "暴风滑雪裤",
         fre: "Le fute à peuf",
         bra: "Calçados Congelantes",
-        schema: 30991
+        "schema": 30991
     },
     1320: {
         img: "cold_case",
@@ -11954,7 +11955,7 @@ let dataItems = {
         sch: "便携式啤酒冷却装置",
         fre: "Réfrigérateur portatif",
         bra: "Frigobolsa",
-        schema: 30992
+        "schema": 30992
     },
     1321: {
         img: "private_maggot_muncher",
@@ -11963,7 +11964,7 @@ let dataItems = {
         sch: "蛆虫毁灭者",
         fre: "Dévermineur personnel",
         bra: "Águia Aspira",
-        schema: 30985
+        "schema": 30985
     },
     1322: {
         img: "frag_proof_fragger",
@@ -11972,7 +11973,7 @@ let dataItems = {
         sch: "防破片头盔",
         fre: "Casque résolument sécurisé",
         bra: "Bombardeador Antibomba",
-        schema: 30979
+        "schema": 30979
     },
     1323: {
         img: "robin_walkers",
@@ -11981,7 +11982,7 @@ let dataItems = {
         fre: "Charentaises de Robin",
         sch: "Robin Walkers",
         bra: "Pantufas do Robin",
-        schema: 30975
+        "schema": 30975
     },
     1324: {
         img: "deadbeats",
@@ -11990,7 +11991,7 @@ let dataItems = {
         sch: "低音至死",
         fre: "Sono mortelle",
         bra: "Fones de Morrido",
-        schema: 30997
+        "schema": 30997
     },
     1325: {
         img: "murderers_motif",
@@ -11999,7 +12000,7 @@ let dataItems = {
         sch: "杀手面具",
         fre: "Masque de zéro",
         bra: "Aspecto do Assassino",
-        schema: 31016
+        "schema": 31016
     },
     1326: {
         img: "bandits_boots",
@@ -12008,7 +12009,7 @@ let dataItems = {
         sch: "恶棍之靴",
         fre: "Bottes de bandit",
         bra: "Botas do Bandido",
-        schema: 31015
+        "schema": 31015
     },
     1327: {
         img: "highway_star",
@@ -12017,7 +12018,7 @@ let dataItems = {
         sch: "公路之星",
         fre: "Biker de l'outback",
         bra: "Estrela da Estrada",
-        schema: 31010
+        "schema": 31010
     },
     1328: {
         img: "mann_o_war",
@@ -12026,7 +12027,7 @@ let dataItems = {
         sch: "重型海盗",
         fre: "Corsaire de l'Arctique",
         bra: "Capitão Mann",
-        schema: 31008
+        "schema": 31008
     },
     1329: {
         img: "olympic_leapers",
@@ -12035,7 +12036,7 @@ let dataItems = {
         sch: "奥林匹亚信使",
         fre: "Sandales d'Hermès",
         bra: "Saltador Olímpico",
-        schema: 30999
+        "schema": 30999
     },
     1330: {
         img: "hephaistos_handcraft",
@@ -12044,7 +12045,7 @@ let dataItems = {
         sch: "火神之盔",
         fre: "Hoplite bondissant",
         bra: "Elmo de Hefesto",
-        schema: 31000
+        "schema": 31000
     },
     1331: {
         img: "vampire_vanquisher",
@@ -12053,7 +12054,7 @@ let dataItems = {
         sch: "吸血鬼猎人",
         fre: "Terreur des vampires",
         bra: "Carrasco do Conde",
-        schema: 31003
+        "schema": 31003
     },
     1332: {
         img: "mini_engy",
@@ -12062,7 +12063,7 @@ let dataItems = {
         sch: "迷你工程师",
         fre: "Enjouetneer",
         bra: "Engizinho",
-        schema: 31013
+        "schema": 31013
     },
     1333: {
         img: "arachno_arsonist",
@@ -12071,7 +12072,7 @@ let dataItems = {
         sch: "蛛形纵火狂",
         fre: "Cracheur de venin",
         bra: "Piracnofobia",
-        schema: 31007
+        "schema": 31007
     },
     1334: {
         img: "gaelic_glutton",
@@ -12080,7 +12081,7 @@ let dataItems = {
         sch: "苏格兰大胃王",
         fre: "Glouton gaélique",
         bra: "Gula Gaélica",
-        schema: 31017
+        "schema": 31017
     },
     1335: {
         img: "dressperado",
@@ -12089,7 +12090,7 @@ let dataItems = {
         sch: "暴徒型男",
         fre: "Renard rusé",
         bra: "Farda do Forasteiro",
-        schema: 31014
+        "schema": 31014
     },
     1336: {
         img: "pyro_in_chinatown",
@@ -12098,7 +12099,7 @@ let dataItems = {
         sch: "霓虹灯饰",
         fre: "Incendiaire de Chinatown",
         bra: "Pyro em Chinatown",
-        schema: 31004
+        "schema": 31004
     },
     1337: {
         img: "athenian_attire",
@@ -12107,7 +12108,7 @@ let dataItems = {
         sch: "雅典战袍",
         fre: "Habit d'Athénien",
         bra: "Adornos Atenienses",
-        schema: 31001
+        "schema": 31001
     },
     1338: {
         img: "tank_top",
@@ -12116,7 +12117,7 @@ let dataItems = {
         sch: "装甲之帽",
         fre: "Chauve d'assaut",
         bra: "Guerra Psicológica",
-        schema: 31002
+        "schema": 31002
     },
     1339: {
         img: "aim_assistant",
@@ -12125,7 +12126,7 @@ let dataItems = {
         sch: "步哨助理",
         fre: "Aide à la visée",
         bra: "Senhor Sentinela",
-        schema: 31012
+        "schema": 31012
     },
     1340: {
         img: "defragmenting_hard_hat_17",
@@ -12134,7 +12135,7 @@ let dataItems = {
         sch: "碎片清理帽",
         fre: "Casque défragmenté à 17 %",
         bra: "Desfragmentando Capacete 17%",
-        schema: 31011
+        "schema": 31011
     },
     1341: {
         img: "terror_antula",
@@ -12143,7 +12144,7 @@ let dataItems = {
         sch: "恐怖大蜘蛛",
         fre: "Terreur-tula",
         bra: "Terror-ântula",
-        schema: 30996
+        "schema": 30996
     },
     1342: {
         img: "mr_quackers",
@@ -12152,7 +12153,7 @@ let dataItems = {
         sch: "鸭嘴面具",
         fre: "Canard déchaîné",
         bra: "Patrão Patão",
-        schema: 31006
+        "schema": 31006
     },
     1343: {
         img: "lucky_cat_hat",
@@ -12161,7 +12162,7 @@ let dataItems = {
         sch: "好运招财猫",
         fre: "Chat-peau porte-bonheur",
         bra: "Gorro do Gato da Sorte",
-        schema: 30998
+        "schema": 30998
     },
     1344: {
         img: "haunted_ghosts_war_paint",
@@ -12170,7 +12171,7 @@ let dataItems = {
         sch: "恐怖鬼魂 战绘",
         fre: "Vert de peur | Peinture de guerre",
         bra: "Fantasmas Assombrados Tinta de Guerra",
-        schema: 17236
+        "schema": 17236
     },
     1345: {
         img: "totally_boned_war_paint",
@@ -12179,7 +12180,7 @@ let dataItems = {
         sch: "白骨累累 战绘",
         fre: "Paquet d'os | Peinture de guerre",
         bra: "Puro Osso Tinta de Guerra",
-        schema: 17240
+        "schema": 17240
     },
     1346: {
         img: "horror_holiday_war_paint",
@@ -12188,7 +12189,7 @@ let dataItems = {
         sch: "恐怖假日 战绘",
         fre: "Vacances mortelles | Peinture de guerre",
         bra: "Passeio Pavoroso Tinta de Guerra",
-        schema: 17239
+        "schema": 17239
     },
     1347: {
         img: "spirit_of_halloween_war_paint",
@@ -12197,7 +12198,7 @@ let dataItems = {
         sch: "万圣之魂 战绘",
         fre: "Esprit d'Halloween | Peinture de guerre",
         bra: "Espírito de Dia das Bruxas Tinta de Guerra",
-        schema: 17238
+        "schema": 17238
     },
     1348: {
         img: "calavera_canvas_war_paint",
@@ -12206,7 +12207,7 @@ let dataItems = {
         sch: "亡灵狂欢 战绘",
         fre: "Calaveras | Peinture de guerre",
         bra: "Caveiras Coloridas Tinta de Guerra",
-        schema: 17244
+        "schema": 17244
     },
     1349: {
         img: "spectral_shimmered_war_paint",
@@ -12215,7 +12216,7 @@ let dataItems = {
         sch: "幽灵缠身 战绘",
         fre: "Fantôluminescence | Peinture de guerre",
         bra: "Brilho Espectral Tinta de Guerra",
-        schema: 17237
+        "schema": 17237
     },
     1350: {
         img: "skull_study_war_paint",
@@ -12224,7 +12225,7 @@ let dataItems = {
         sch: "暗色骷髅 战绘",
         fre: "Étude de crânes | Peinture de guerre",
         bra: "Estudo Esquelético Tinta de Guerra",
-        schema: 17235
+        "schema": 17235
     },
     1351: {
         img: "ghost_town_war_paint",
@@ -12233,7 +12234,7 @@ let dataItems = {
         sch: "阴森之城 战绘",
         fre: "Ville fantôme | Peinture de guerre",
         bra: "Cidade Fantasma Tinta de Guerra",
-        schema: 17242
+        "schema": 17242
     },
     1352: {
         img: "tumor_toasted_war_paint",
@@ -12242,7 +12243,7 @@ let dataItems = {
         sch: "肿瘤附体 战绘",
         fre: "Tu meurs | Peinture de guerre",
         bra: "Torrada com Tumor Tinta de Guerra",
-        schema: 17243
+        "schema": 17243
     },
     1353: {
         img: "electroshocked_war_paint",
@@ -12251,7 +12252,7 @@ let dataItems = {
         sch: "电刑处决 战绘",
         fre: "Électrochocs | Peinture de guerre",
         bra: "Eletrochoque Tinta de Guerra",
-        schema: 17241
+        "schema": 17241
     },
     1354: {
         img: "batters_helmet",
@@ -12260,7 +12261,7 @@ let dataItems = {
         sch: "击球手头盔",
         fre: "Casque de batteur",
         bra: "Capacete do Rebatedor",
-        schema: 52
+        "schema": 52
     },
     1355: {
         img: "bonk_helm",
@@ -12269,7 +12270,7 @@ let dataItems = {
         sch: "饮料头盔",
         fre: "Casque Bonk",
         bra: "Capacete Bonk",
-        schema: 106
+        "schema": 106
     },
     1356: {
         img: "bonk_boy",
@@ -12278,7 +12279,7 @@ let dataItems = {
         sch: "原子小子",
         fre: "Bonk Boy",
         bra: "Garoto Bonk",
-        schema: 451
+        "schema": 451
     },
     1357: {
         img: "el_jefe",
@@ -12287,7 +12288,7 @@ let dataItems = {
         sch: "革命家之帽",
         fre: "El Jefe",
         bra: "El Jefe",
-        schema: 539
+        "schema": 539
     },
     1358: {
         img: "hermes",
@@ -12296,7 +12297,7 @@ let dataItems = {
         sch: "赫耳墨斯之帽",
         fre: "L'Hermès",
         bra: "O Hermes",
-        schema: 633
+        "schema": 633
     },
     1359: {
         img: "soldiers_stash",
@@ -12305,7 +12306,7 @@ let dataItems = {
         sch: "士兵的猫眼带",
         fre: "Planque du Soldier",
         bra: "Suprimentos do Soldier",
-        schema: 54
+        "schema": 54
     },
     1360: {
         img: "stainless_pot",
@@ -12314,7 +12315,7 @@ let dataItems = {
         sch: "不锈锅",
         fre: "Casserole en acier",
         bra: "Panela Inoxidável",
-        schema: 98
+        "schema": 98
     },
     1361: {
         img: "honchos_headgear",
@@ -12323,7 +12324,7 @@ let dataItems = {
         sch: "领导者的军帽",
         fre: "La Casquette du Honcho",
         bra: "Acessórios do Honcho",
-        schema: 391
+        "schema": 391
     },
     1362: {
         img: "brain_bucket",
@@ -12332,7 +12333,7 @@ let dataItems = {
         sch: "僵尸的铁桶",
         fre: "Seau de Cerveau",
         bra: "Balde de Cérebros",
-        schema: 434
+        "schema": 434
     },
     1363: {
         img: "team_captain",
@@ -12341,7 +12342,7 @@ let dataItems = {
         sch: "团队领袖之帽",
         fre: "Le Capitaine d'Équipe",
         bra: "O Capitão da Equipe",
-        schema: 378
+        "schema": 378
     },
     1364: {
         img: "armored_authority",
@@ -12350,7 +12351,7 @@ let dataItems = {
         sch: "将军的军盔",
         fre: "Autorité Blindée",
         bra: "Autoridade Blindada",
-        schema: 445
+        "schema": 445
     },
     1365: {
         img: "jumpers_jeepcap",
@@ -12359,7 +12360,7 @@ let dataItems = {
         sch: "伞兵的羊毛帽",
         fre: "Casquette de parachutiste",
         bra: "Boina do Paraquedista",
-        schema: 417
+        "schema": 417
     },
     1366: {
         img: "lord_cockswains_pith_helmet",
@@ -12368,7 +12369,7 @@ let dataItems = {
         sch: "考克斯文公爵的神气头盔",
         fre: "Casque Colonial de Lord Cockswain",
         bra: "Chapéu de Safari do Lorde Cockswain",
-        schema: 439
+        "schema": 439
     },
     1367: {
         img: "lucky_shot",
@@ -12377,7 +12378,7 @@ let dataItems = {
         sch: "幸运一击",
         fre: "Le Coup de Chance",
         bra: "O Tiro de Sorte",
-        schema: 701
+        "schema": 701
     },
     1368: {
         img: "conquistador",
@@ -12386,7 +12387,7 @@ let dataItems = {
         sch: "西班牙征服者",
         fre: "Le Conquistador",
         bra: "El Conquistador",
-        schema: 721
+        "schema": 721
     },
     1369: {
         img: "infernal_impaler",
@@ -12395,7 +12396,7 @@ let dataItems = {
         sch: "凶残的恶魔头",
         fre: "L'Empaleur Infernal",
         bra: "O Empalador Infernal",
-        schema: 575
+        "schema": 575
     },
     1370: {
         img: "pyros_beanie",
@@ -12404,7 +12405,7 @@ let dataItems = {
         sch: "火焰兵的无边帽",
         fre: "Bonnet du Pyro",
         bra: "Pyrocóptero",
-        schema: 51
+        "schema": 51
     },
     1371: {
         img: "brigade_helm",
@@ -12413,7 +12414,7 @@ let dataItems = {
         sch: "军用消防头盔",
         fre: "Casque de pompier",
         bra: "Capacete da Brigada",
-        schema: 105
+        "schema": 105
     },
     1372: {
         img: "triboniophorus_tyrannus",
@@ -12422,7 +12423,7 @@ let dataItems = {
         sch: "懒惰的鼻涕虫",
         fre: "Triboniophorus Tyrannus",
         bra: "Triboniophorus Tyrannus",
-        schema: 151
+        "schema": 151
     },
     1373: {
         img: "vintage_merryweather",
@@ -12431,7 +12432,7 @@ let dataItems = {
         sch: "老式消防头盔",
         fre: "Casque Millésimé",
         bra: "Capacete Clássico de Bombeiro",
-        schema: 182
+        "schema": 182
     },
     1374: {
         img: "dead_cone",
@@ -12440,7 +12441,7 @@ let dataItems = {
         sch: "僵尸的路障",
         fre: "Cône du Mort",
         bra: "Cone Morto",
-        schema: 435
+        "schema": 435
     },
     1375: {
         img: "connoisseurs_cap",
@@ -12449,7 +12450,7 @@ let dataItems = {
         sch: "行家的厨师帽",
         fre: "Toque du Connaisseur",
         bra: "Chapéu do Chef",
-        schema: 394
+        "schema": 394
     },
     1376: {
         img: "birdcage",
@@ -12458,7 +12459,7 @@ let dataItems = {
         sch: "鸟笼",
         fre: "La Volière",
         bra: "A Gaiola",
-        schema: 615
+        "schema": 615
     },
     1377: {
         img: "little_buddy",
@@ -12467,7 +12468,7 @@ let dataItems = {
         sch: "水手帽",
         fre: "Le Petit Moussaillon",
         bra: "O Tesouro",
-        schema: 612
+        "schema": 612
     },
     1378: {
         img: "bubble_pipe",
@@ -12476,7 +12477,7 @@ let dataItems = {
         sch: "带烟斗的氧气罩",
         fre: "La Bulle à Pipe",
         bra: "A Bolha de Fumo",
-        schema: 597
+        "schema": 597
     },
     1379: {
         img: "waxy_wayfinder",
@@ -12485,7 +12486,7 @@ let dataItems = {
         sch: "寻路的蜡烛头",
         fre: "La Bougie à Tête Chercheuse",
         bra: "A Luz no Fim do Túnel",
-        schema: 753
+        "schema": 753
     },
     1380: {
         img: "scotsmans_stove_pipe",
@@ -12494,7 +12495,7 @@ let dataItems = {
         sch: "苏格兰大礼帽",
         fre: "Chapeau haut de forme",
         bra: "Cartola do Escocês",
-        schema: 120
+        "schema": 120
     },
     1381: {
         img: "carousers_capotain",
@@ -12503,7 +12504,7 @@ let dataItems = {
         sch: "闹事者头目之冠",
         fre: "Chapeau de beuverie",
         bra: "Cartola do Inquisidor",
-        schema: 259
+        "schema": 259
     },
     1382: {
         img: "samur_eye",
@@ -12512,7 +12513,7 @@ let dataItems = {
         sch: "武士之眼",
         fre: "Samour-Oeil",
         bra: "Samur-ai",
-        schema: 359
+        "schema": 359
     },
     1383: {
         img: "conjurers_cowl",
@@ -12521,7 +12522,7 @@ let dataItems = {
         sch: "魔术师的兜帽",
         fre: "Le Capuchon du Magicien",
         bra: "O Capuz do Mágicko",
-        schema: 465
+        "schema": 465
     },
     1384: {
         img: "sultans_ceremonial",
@@ -12530,7 +12531,7 @@ let dataItems = {
         sch: "苏丹的羽毛头巾",
         fre: "Turban Cérémonial du Sultan",
         bra: "Cerimonial do Sultão",
-        schema: 403
+        "schema": 403
     },
     1385: {
         img: "mask_of_the_shaman",
@@ -12539,7 +12540,7 @@ let dataItems = {
         sch: "萨满面具",
         fre: "Le Masque du Chaman",
         bra: "A Máscara do Xamã",
-        schema: 514
+        "schema": 514
     },
     1386: {
         img: "buccaneers_bicorne",
@@ -12548,7 +12549,7 @@ let dataItems = {
         sch: "海盗的双角帽",
         fre: "Le bicorne de flibustier",
         bra: "O Bicórnio do Bucaneiro",
-        schema: 607
+        "schema": 607
     },
     1387: {
         img: "pugilists_protector",
@@ -12557,7 +12558,7 @@ let dataItems = {
         sch: "拳击手头套",
         fre: "Protecteur du pugiliste",
         bra: "Protetor do Pugilista",
-        schema: 246
+        "schema": 246
     },
     1388: {
         img: "dread_knot",
@@ -12566,7 +12567,7 @@ let dataItems = {
         sch: "无畏者的唐轮头",
         fre: "Cuir Assez Chevelu",
         bra: "Nó Pavoroso",
-        schema: 358
+        "schema": 358
     },
     1389: {
         img: "capos_capper",
@@ -12575,7 +12576,7 @@ let dataItems = {
         sch: "凯波尼的软呢帽",
         fre: "Feutre du Capo",
         bra: "Chapéu do Capo",
-        schema: 427
+        "schema": 427
     },
     1390: {
         img: "dragonborn_helmet",
@@ -12584,7 +12585,7 @@ let dataItems = {
         sch: "龙裔头盔",
         fre: "Casque du Dovahkiin",
         bra: "Capacete do Dragonborn",
-        schema: 517
+        "schema": 517
     },
     1391: {
         img: "gym_rat",
@@ -12593,7 +12594,7 @@ let dataItems = {
         sch: "运动头带",
         fre: "Le Rat de la Salle de Gym",
         bra: "O Rato de Academia",
-        schema: 613
+        "schema": 613
     },
     1392: {
         img: "one_man_army",
@@ -12602,7 +12603,7 @@ let dataItems = {
         sch: "兰博的头带",
         fre: "L'Armée Fatale",
         bra: "O Exército de um Homem Só",
-        schema: 601
+        "schema": 601
     },
     1393: {
         img: "engineers_cap",
@@ -12611,7 +12612,7 @@ let dataItems = {
         sch: "工程师的鸭舌帽",
         fre: "Casquette de l'Engineer",
         bra: "Boné do Maquinista",
-        schema: 95
+        "schema": 95
     },
     1394: {
         img: "big_country",
@@ -12620,7 +12621,7 @@ let dataItems = {
         sch: "帅气的马莱发型",
         fre: "Grand pays",
         bra: "Da Cabeça Nasce o Cabelo",
-        schema: 382
+        "schema": 382
     },
     1395: {
         img: "hetmans_headpiece",
@@ -12629,7 +12630,7 @@ let dataItems = {
         sch: "哥萨克酋长的羽毛帽",
         fre: "Chapeau de Hetman",
         bra: "Chapéu do Hetman",
-        schema: 436
+        "schema": 436
     },
     1396: {
         img: "pencil_pusher",
@@ -12638,7 +12639,7 @@ let dataItems = {
         sch: "会计师的铅笔",
         fre: "Le Gratte-papier",
         bra: "O Faz-tudo",
-        schema: 605
+        "schema": 605
     },
     1397: {
         img: "virtual_reality_headset",
@@ -12647,7 +12648,7 @@ let dataItems = {
         sch: "虚拟现实头戴式显示器",
         fre: "Le Casque de Réalité Virtuelle",
         bra: "O Headset de Realidade Virtual",
-        schema: 628
+        "schema": 628
     },
     1398: {
         img: "brainiac_hairpiece",
@@ -12656,7 +12657,7 @@ let dataItems = {
         sch: "发明家的白发",
         fre: "La Coiffure du Brainiac",
         bra: "O Cabelo Neural",
-        schema: 590
+        "schema": 590
     },
     1399: {
         img: "geisha_boy",
@@ -12665,7 +12666,7 @@ let dataItems = {
         sch: "男艺妓头饰",
         fre: "Geisha Boy",
         bra: "Garoto Gueixa",
-        schema: 363
+        "schema": 363
     },
     1400: {
         img: "medics_mountain_cap",
@@ -12674,7 +12675,7 @@ let dataItems = {
         sch: "医生的野战帽",
         fre: "Casquette de Montagnard du Medic",
         bra: "Quepe Montanhês do Médico",
-        schema: 381
+        "schema": 381
     },
     1401: {
         img: "doctors_sack",
@@ -12683,7 +12684,7 @@ let dataItems = {
         sch: "医生的冰袋",
         fre: "Bouillotte du Docteur",
         bra: "Bolsa do Doutor",
-        schema: 398
+        "schema": 398
     },
     1402: {
         img: "masters_yellow_belt",
@@ -12692,7 +12693,7 @@ let dataItems = {
         sch: "大师的黄带",
         fre: "Ceinture jaune du maître",
         bra: "Faixa Amarela do Mestre",
-        schema: 110
+        "schema": 110
     },
     1403: {
         img: "crocleather_slouch",
@@ -12701,7 +12702,7 @@ let dataItems = {
         sch: "鳄鱼皮宽边软帽",
         fre: "Chapeau Mou en Cuir de Croco",
         bra: "Crocourodilo Preguiçoso",
-        schema: 344
+        "schema": 344
     },
     1404: {
         img: "anger",
@@ -12710,7 +12711,7 @@ let dataItems = {
         sch: "暴怒兜帽",
         fre: "Le rageux",
         bra: "Raiva",
-        schema: 518,
+        "schema": 518,
         "schema2": 5758
     },
     1405: {
@@ -12720,7 +12721,7 @@ let dataItems = {
         sch: "让你做恶梦的头巾",
         fre: "Votre pire cauchemar",
         bra: "Seu Pior Pesadelo",
-        schema: 600
+        "schema": 600
     },
     1406: {
         img: "swagmans_swatter",
@@ -12729,7 +12730,7 @@ let dataItems = {
         sch: "流浪者的软木帽",
         fre: "Le chasse-mouche de vagabond",
         bra: "O Esmaga-moscas do Moiteiro",
-        schema: 626
+        "schema": 626
     },
     1407: {
         img: "fruit_shoot",
@@ -12738,7 +12739,7 @@ let dataItems = {
         sch: "苹果射击帽",
         fre: "Tir fruité",
         bra: "O Chapéu do Tell",
-        schema: 759
+        "schema": 759
     },
     1408: {
         img: "magistrates_mullet",
@@ -12747,7 +12748,7 @@ let dataItems = {
         sch: "裁判官的假发",
         fre: "Perruque de Magistrat",
         bra: "Mullet do Magistrado",
-        schema: 147
+        "schema": 147
     },
     1409: {
         img: "noh_mercy",
@@ -12756,7 +12757,7 @@ let dataItems = {
         sch: "般若能面",
         fre: "Nô Merci",
         bra: "Noh Terei Misericórdia",
-        schema: 361
+        "schema": 361
     },
     1410: {
         img: "charmers_chapeau",
@@ -12765,7 +12766,7 @@ let dataItems = {
         sch: "引人注目的骑士帽",
         fre: "Chapeau du Charmeur",
         bra: "Chapeau Charmoso",
-        schema: 397
+        "schema": 397
     },
     1411: {
         img: "janissary_ketche",
@@ -12774,7 +12775,7 @@ let dataItems = {
         sch: "土耳其禁卫军头冠",
         fre: "Ketche du Janissaire",
         bra: "Ketche do Janízaro",
-        schema: 437
+        "schema": 437
     },
     1412: {
         img: "nanobalaclava",
@@ -12783,7 +12784,7 @@ let dataItems = {
         sch: "纳米科技面罩",
         fre: "La Nanocagoule",
         bra: "O Nanobalaclava",
-        schema: 521
+        "schema": 521
     },
     1413: {
         img: "linspecteur",
@@ -12792,7 +12793,7 @@ let dataItems = {
         sch: "法国警督",
         fre: "L'inspecteur",
         bra: "L'Inspecteur",
-        schema: 622
+        "schema": 622
     },
     1414: {
         img: "noble_amassment_of_hats",
@@ -12801,7 +12802,7 @@ let dataItems = {
         sch: "高贵的层叠帽",
         fre: "Pile nobiliaire de couvre-chefs",
         bra: "Conjunto Nobre de Chapéus",
-        schema: 137
+        "schema": 137
     },
     1415: {
         img: "towering_pillar_of_hats",
@@ -12810,7 +12811,7 @@ let dataItems = {
         sch: "高耸的塔柱帽",
         fre: "Imposante pile de chapeaux",
         bra: "Pilar Monumental de Chapéus",
-        schema: 135
+        "schema": 135
     },
     1416: {
         img: "company_man",
@@ -12819,7 +12820,7 @@ let dataItems = {
         sch: "萨里夫工业公司员工帽",
         fre: "Casquette de l'Employé",
         bra: "O Homem da Empresa",
-        schema: 523
+        "schema": 523
     },
     1417: {
         img: "killer_exclusive",
@@ -12828,7 +12829,7 @@ let dataItems = {
         sch: "独家杀手",
         fre: "Le Scoop Meurtrier",
         bra: "O Furo de Reportagem",
-        schema: 538
+        "schema": 538
     },
     1418: {
         img: "hot_dogger",
@@ -12837,7 +12838,7 @@ let dataItems = {
         sch: "热狗摊售货员帽子",
         fre: "Le vendeur de hot dogs",
         bra: "O Cachorrão Quente",
-        schema: 614
+        "schema": 614
     },
     1419: {
         img: "human_cannonball",
@@ -12846,7 +12847,7 @@ let dataItems = {
         sch: "人肉炮弹",
         fre: "L'Homme-canon",
         bra: "A Bala de Canhão Humana",
-        schema: 817
+        "schema": 817
     },
     1420: {
         img: "antlers",
@@ -12855,7 +12856,7 @@ let dataItems = {
         sch: "驯鹿鹿角",
         fre: "Bois",
         bra: "Galhadas",
-        schema: 993
+        "schema": 993
     },
     1421: {
         img: "dread_hiding_hood",
@@ -12864,7 +12865,7 @@ let dataItems = {
         sch: "惊惧隐蔽兜帽",
         fre: "Le redoutable petit chaperon",
         bra: "Chapeuzinho Voraz",
-        schema: 1095
+        "schema": 1095
     },
     1422: {
         img: "pocket_pardner",
@@ -12873,7 +12874,7 @@ let dataItems = {
         sch: "口袋工程师",
         fre: "Partenaire de poche",
         bra: "Parceiro de Bolso",
-        schema: 31026
+        "schema": 31026
     },
     1423: {
         img: "wise_whiskers",
@@ -12882,7 +12883,7 @@ let dataItems = {
         sch: "仙人之须",
         fre: "Moustache de sage",
         bra: "Barba do Velho Sábio",
-        schema: 31031
+        "schema": 31031
     },
     1424: {
         img: "snowcapped",
@@ -12891,7 +12892,7 @@ let dataItems = {
         sch: "护耳军帽",
         fre: "Guerre froide",
         bra: "Ushanka de Inverno",
-        schema: 31028
+        "schema": 31028
     },
     1425: {
         img: "paka_parka",
@@ -12900,7 +12901,7 @@ let dataItems = {
         sch: "因纽特大衣",
         fre: "Parka de l'Alaska",
         bra: "Parca Paka",
-        schema: 31030
+        "schema": 31030
     },
     1426: {
         img: "catchers_companion",
@@ -12909,7 +12910,7 @@ let dataItems = {
         sch: "棒球小鸟",
         fre: "Bec non cloué",
         bra: "Ajudante do Arremessador",
-        schema: 31021
+        "schema": 31021
     },
     1427: {
         img: "juveniles_jumper",
@@ -12918,7 +12919,7 @@ let dataItems = {
         sch: "少年的毛衣",
         fre: "Classique de Noël",
         bra: "Malha do Mancebo",
-        schema: 31022
+        "schema": 31022
     },
     1428: {
         img: "crack_pot",
@@ -12927,7 +12928,7 @@ let dataItems = {
         sch: "脑袋开花",
         fre: "Fine fleur",
         bra: "Vaso Capilar",
-        schema: 31024
+        "schema": 31024
     },
     1429: {
         img: "climbing_commander",
@@ -12936,7 +12937,7 @@ let dataItems = {
         sch: "登山指挥官",
         fre: "Grimpeur des Rocheuses",
         bra: "Comandante do Cume",
-        schema: 31025
+        "schema": 31025
     },
     1430: {
         img: "mighty_mitre",
@@ -12945,7 +12946,7 @@ let dataItems = {
         sch: "主教之冠",
         fre: "Miracle de la médecine",
         bra: "Mitra Majestosa",
-        schema: 31034
+        "schema": 31034
     },
     1431: {
         img: "puggyback",
@@ -12954,7 +12955,7 @@ let dataItems = {
         sch: "巴哥背包",
         fre: "Sac à dogue",
         bra: "Cão de Retaguarda",
-        schema: 31032
+        "schema": 31032
     },
     1432: {
         img: "cool_capuchon",
@@ -12963,7 +12964,7 @@ let dataItems = {
         sch: "冷风兜帽",
         fre: "Capuche stylée",
         bra: "Capuz Caloroso",
-        schema: 31029
+        "schema": 31029
     },
     1433: {
         img: "pocket_admin",
@@ -12972,7 +12973,7 @@ let dataItems = {
         sch: "口袋管理员",
         fre: "Admin de poche",
         bra: "Administradora de Bolso",
-        schema: 31019
+        "schema": 31019
     },
     1434: {
         img: "harry",
@@ -12981,7 +12982,7 @@ let dataItems = {
         sch: "懒猫哈里",
         fre: "Harry",
         bra: "Harry",
-        schema: 31033
+        "schema": 31033
     },
     1435: {
         img: "misers_muttonchops",
@@ -12990,7 +12991,7 @@ let dataItems = {
         sch: "吝啬鬼络腮胡",
         fre: "Rouflaquettes",
         bra: "Patilhas do Pão-duro",
-        schema: 31027
+        "schema": 31027
     },
     1436: {
         img: "polar_pal",
@@ -12999,7 +13000,7 @@ let dataItems = {
         sch: "极地伴侣",
         fre: "Pote du pôle",
         bra: "Amigo Polar",
-        schema: 31018
+        "schema": 31018
     },
     1437: {
         img: "dumb_bell",
@@ -13008,7 +13009,7 @@ let dataItems = {
         sch: "不哑的铃",
         fre: "Sonneur de cloche",
         bra: "Sino do Asinino",
-        schema: 31035
+        "schema": 31035
     },
     1438: {
         img: "millennial_mercenary",
@@ -13017,7 +13018,7 @@ let dataItems = {
         sch: "00后佣兵",
         fre: "Mercenaire de la génération Y",
         bra: "Mercenário Moderninho",
-        schema: 31023
+        "schema": 31023
     },
     1439: {
         img: "bread_heads",
@@ -13026,7 +13027,7 @@ let dataItems = {
         sch: "面包怪兽",
         fre: "Mangeur de pain",
         bra: "Cabeça de Pão",
-        schema: 31020
+        "schema": 31020
     },
     1440: {
         img: "melted_mop",
@@ -13035,7 +13036,7 @@ let dataItems = {
         fre: "Fonte des glaces",
         sch: "融化的冰淇淋",
         bra: "Congelador de Cérebro",
-        schema: 31041
+        "schema": 31041
     },
     1441: {
         img: "staplers_specs",
@@ -13044,7 +13045,7 @@ let dataItems = {
         fre: "Officier de bureau",
         sch: "订书机英雄",
         bra: "O Estressado do Escritório",
-        schema: 31036
+        "schema": 31036
     },
     1442: {
         img: "shutterbug",
@@ -13053,7 +13054,7 @@ let dataItems = {
         fre: "Caméra cachée",
         sch: "相机礼帽",
         bra: "Chapéu Espião",
-        schema: 31048
+        "schema": 31048
     },
     1443: {
         img: "backbreakers_guards",
@@ -13062,7 +13063,7 @@ let dataItems = {
         fre: "Protections du footballeur américain",
         sch: "黏弹橄榄球护肩",
         bra: "Ombreiras do Quebra-costas",
-        schema: 31039
+        "schema": 31039
     },
     1444: {
         img: "mediterranean_mercenary",
@@ -13071,7 +13072,7 @@ let dataItems = {
         fre: "Mercenaire méditerranéen",
         sch: "地中海佣兵",
         bra: "Mercenário Mediterrâneo",
-        schema: 31052
+        "schema": 31052
     },
     1445: {
         img: "dancing_doe",
@@ -13080,7 +13081,7 @@ let dataItems = {
         fre: "Bandana exaltant",
         sch: "箭迟但到",
         bra: "Doe Dançante",
-        schema: 31045
+        "schema": 31045
     },
     1446: {
         img: "pompous_privateer",
@@ -13089,7 +13090,7 @@ let dataItems = {
         fre: "Corsaire cabotin",
         sch: "自大的海盗",
         bra: "Corsário Convencido",
-        schema: 31043
+        "schema": 31043
     },
     1447: {
         img: "bottle_cap",
@@ -13098,7 +13099,7 @@ let dataItems = {
         fre: "Casquette anti-soif",
         sch: "原子能饮料帽",
         bra: "Boné Atômico",
-        schema: 31042
+        "schema": 31042
     },
     1448: {
         img: "brain_interface",
@@ -13107,7 +13108,7 @@ let dataItems = {
         fre: "Interface neuronale",
         sch: "脑机接口头盔",
         bra: "Interface Cerebral",
-        schema: 31049
+        "schema": 31049
     },
     1449: {
         img: "wanderers_wear",
@@ -13116,7 +13117,7 @@ let dataItems = {
         fre: "Tenue de rando",
         sch: "旅行者的大衣",
         bra: "Casaco do Viajante",
-        schema: 31051
+        "schema": 31051
     },
     1450: {
         img: "spawn_camper",
@@ -13125,7 +13126,7 @@ let dataItems = {
         fre: "Campeur en feu",
         sch: "出生点看守者",
         bra: "Campista da Base",
-        schema: 31050
+        "schema": 31050
     },
     1451: {
         img: "backbreakers_skullcracker",
@@ -13134,7 +13135,7 @@ let dataItems = {
         fre: "Brise-crânes du footballeur américain",
         sch: "黏弹橄榄球头盔",
         bra: "Quebra-crânios do Quebra-costas",
-        schema: 31038
+        "schema": 31038
     },
     1452: {
         img: "kapitans_kaftan",
@@ -13143,7 +13144,7 @@ let dataItems = {
         fre: "Caftan du capitaine",
         sch: "队长的长袍",
         bra: "Cafetã do Capitão",
-        schema: 31053
+        "schema": 31053
     },
     1453: {
         img: "wagga_wagga_wear",
@@ -13152,7 +13153,7 @@ let dataItems = {
         fre: "Manteau de Wagga Wagga",
         sch: "瓦加瓦加外套",
         bra: "Veste de Wagga Wagga",
-        schema: 31055
+        "schema": 31055
     },
     1454: {
         img: "speedy_scoundrel",
@@ -13161,7 +13162,7 @@ let dataItems = {
         fre: "Moussaillon magnanime",
         sch: "神速流氓",
         bra: "Pirata Perspicaz",
-        schema: 31056
+        "schema": 31056
     },
     1455: {
         img: "dynamite_abs",
@@ -13170,7 +13171,7 @@ let dataItems = {
         fre: "Abdynamites",
         sch: "炸药腹肌",
         bra: "Tanquinho Turbinado",
-        schema: 31037
+        "schema": 31037
     },
     1456: {
         img: "unforgiven_glory",
@@ -13179,7 +13180,7 @@ let dataItems = {
         fre: "Glorieux borgne",
         sch: "无可饶恕之荣耀",
         bra: "Glória Imperdoável",
-        schema: 31040
+        "schema": 31040
     },
     1457: {
         img: "bobby_bonnet",
@@ -13188,7 +13189,7 @@ let dataItems = {
         fre: "Policier de Sa Majesté",
         sch: "英式警察头盔",
         bra: "Boina Britânica",
-        schema: 31057
+        "schema": 31057
     },
     1458: {
         img: "bare_necessities",
@@ -13197,7 +13198,7 @@ let dataItems = {
         fre: "Le minimum vital",
         sch: "基本必需品",
         bra: "Necessidades Básicas",
-        schema: 31054
+        "schema": 31054
     },
     1459: {
         img: "fiery_phoenix",
@@ -13206,7 +13207,7 @@ let dataItems = {
         fre: "Phénix flamboyant",
         sch: "不死之鸟",
         bra: "Fênix Flamejante",
-        schema: 31047
+        "schema": 31047
     },
     1460: {
         img: "peacebreaker",
@@ -13215,7 +13216,7 @@ let dataItems = {
         fre: "Tête chercheuse",
         sch: "和平破坏者",
         bra: "Provocador",
-        schema: 31044
+        "schema": 31044
     },
     1461: {
         img: "texas_toast",
@@ -13224,7 +13225,7 @@ let dataItems = {
         fre: "Pain gagné",
         sch: "德州面包机",
         bra: "Torradeira Texana",
-        schema: 31046
+        "schema": 31046
     },
     1462: {
         img: "baseball_bills_sports_shine",
@@ -13233,7 +13234,7 @@ let dataItems = {
         sch: "棒球比尔的发蜡头",
         fre: "Cheveux gominés",
         bra: "Bill, Estrela Esportiva do Beisebol",
-        schema: 111
+        "schema": 111
     },
     1463: {
         img: "boston_boom_bringer",
@@ -13242,7 +13243,7 @@ let dataItems = {
         sch: "波士顿噪音制造者",
         fre: "Le Bon Son de Boston",
         bra: "O Pancadão da Periferia",
-        schema: 707
+        "schema": 707
     },
     1464: {
         img: "stereoscopic_shades",
@@ -13251,7 +13252,7 @@ let dataItems = {
         sch: "3D 立体眼镜",
         fre: "Les Lunettes Stéréoscopiques",
         bra: "Os Óculos Estereoscópicos",
-        schema: 630
+        "schema": 630
     },
     1465: {
         img: "soldiers_stogie",
@@ -13260,7 +13261,7 @@ let dataItems = {
         sch: "士兵的廉价雪茄",
         fre: "Le cigare du Soldier",
         bra: "O Fumo do Soldier",
-        schema: 852
+        "schema": 852
     },
     1466: {
         img: "apparitions_aspect",
@@ -13269,7 +13270,7 @@ let dataItems = {
         sch: "幽灵面罩",
         fre: "L'aspect de l'apparition",
         bra: "Aspecto da Aparição",
-        schema: 571,
+        "schema": 571,
         "schema2": 5759
     },
     1467: {
@@ -13279,7 +13280,7 @@ let dataItems = {
         sch: "纵火狂的小鼓",
         fre: "Les Bongos Ardents",
         bra: "Os Bongôs em Brasas",
-        schema: 746
+        "schema": 746
     },
     1468: {
         img: "cremators_conscience",
@@ -13288,7 +13289,7 @@ let dataItems = {
         sch: "焚尸者的良心",
         fre: "La Conscience du Crémateur",
         bra: "A Consciência do Cremador",
-        schema: 632
+        "schema": 632
     },
     1469: {
         img: "last_breath",
@@ -13297,7 +13298,7 @@ let dataItems = {
         sch: "骷髅头骨",
         fre: "Le Dernier Souffle",
         bra: "O Último Suspiro",
-        schema: 570
+        "schema": 570
     },
     1470: {
         img: "popeyes",
@@ -13306,7 +13307,7 @@ let dataItems = {
         sch: "弹簧眼",
         fre: "Pop-eyes",
         bra: "Olhos Zarolhos",
-        schema: 30176
+        "schema": 30176
     },
     1471: {
         img: "a_whiff_of_the_old_brimstone",
@@ -13315,7 +13316,7 @@ let dataItems = {
         sch: "一丝古老的硫磺气息",
         fre: "Une bouffée de soufre à l'ancienne",
         bra: "Uma Baforada de Enxofre",
-        schema: 610
+        "schema": 610
     },
     1472: {
         img: "aladdins_private_reserve",
@@ -13324,7 +13325,7 @@ let dataItems = {
         sch: "阿拉丁的私人藏品",
         fre: "La réserve privée d'Aladdin",
         bra: "Reserva Especial do Aladim",
-        schema: 708
+        "schema": 708
     },
     1473: {
         img: "liquor_locker",
@@ -13333,7 +13334,7 @@ let dataItems = {
         sch: "烈酒储存箱",
         fre: "Le Coffre à liqueurs",
         bra: "O Baú de Bebidas",
-        schema: 771
+        "schema": 771
     },
     1474: {
         img: "snapped_pupil",
@@ -13342,7 +13343,7 @@ let dataItems = {
         sch: "独眼快照",
         fre: "La Photo de la pupille",
         bra: "A Pupila Dilatada",
-        schema: 709
+        "schema": 709
     },
     1475: {
         img: "little_bear",
@@ -13351,7 +13352,7 @@ let dataItems = {
         sch: "育熊袋",
         fre: "Petit Ours Robot",
         bra: "O Ursinho",
-        schema: 1097
+        "schema": 1097
     },
     1476: {
         img: "toss_proof_towel",
@@ -13360,7 +13361,7 @@ let dataItems = {
         sch: "扔不掉的毛巾",
         fre: "Serviette du vainqueur",
         bra: "Toalha Antidesistência",
-        schema: 757
+        "schema": 757
     },
     1477: {
         img: "texas_half_pants",
@@ -13369,7 +13370,7 @@ let dataItems = {
         sch: "德州五分裤",
         fre: "Le Demi-Pantalon du Texas",
         bra: "Meia-calça Texana",
-        schema: 755
+        "schema": 755
     },
     1478: {
         img: "texas_slims_dome_shine",
@@ -13378,7 +13379,7 @@ let dataItems = {
         sch: "德州瘦子三分头",
         fre: "Crâne chauve et luisant",
         bra: "Cúpula Brilhante do Texas Slim",
-        schema: 118
+        "schema": 118
     },
     1479: {
         img: "archimedes",
@@ -13387,7 +13388,7 @@ let dataItems = {
         sch: "阿基米德",
         fre: "Archimède",
         bra: "Arquimedes",
-        schema: 828
+        "schema": 828
     },
     1480: {
         img: "couvre_corner",
@@ -13396,7 +13397,7 @@ let dataItems = {
         sch: "整洁的手帕",
         fre: "Mouchoir en coin",
         bra: "Canto Encouvrerto",
-        schema: 620
+        "schema": 620
     },
     1481: {
         img: "nine_pipe_problem",
@@ -13405,7 +13406,7 @@ let dataItems = {
         sch: "九口烟的大问题",
         fre: "Le problème pour neuf pipes",
         bra: "O Enigma de Nove Tragadas",
-        schema: 657
+        "schema": 657
     },
     1482: {
         img: "surgeons_stethoscope",
@@ -13414,7 +13415,7 @@ let dataItems = {
         sch: "外科医生的听诊器",
         fre: "Le Stéthoscope de Chirurgien",
         bra: "O Estetoscópio do Cirurgião",
-        schema: 621
+        "schema": 621
     },
     1483: {
         img: "ritzy_ricks_hair_fixative",
@@ -13423,7 +13424,7 @@ let dataItems = {
         sch: "时髦瑞克的后梳头",
         fre: "Coupe parfaite, fixation extrême",
         bra: "Gel de Cabelo do Ritzy Rick",
-        schema: 117
+        "schema": 117
     },
     1484: {
         img: "camera_beard",
@@ -13432,7 +13433,7 @@ let dataItems = {
         sch: "相机胡子",
         fre: "Barbe-appareil photo",
         bra: "Barba Câmera",
-        schema: 103
+        "schema": 103
     },
     1485: {
         img: "sneaky_spats_of_sneaking",
@@ -13441,7 +13442,7 @@ let dataItems = {
         sch: "潜入者的潜入专用鞋",
         fre: "Les Guêtres furtives de furetage",
         bra: "Os Sapatos Sorrateiros de Sorrateiridade",
-        schema: 763
+        "schema": 763
     },
     1486: {
         img: "spectres_spectacles",
@@ -13450,7 +13451,7 @@ let dataItems = {
         sch: "幽灵的眼镜",
         fre: "Les Lunettes de spectre",
         bra: "O Espetáculo do Espectro",
-        schema: 629
+        "schema": 629
     },
     1487: {
         img: "champ_stamp",
@@ -13459,7 +13460,7 @@ let dataItems = {
         sch: "佣兵的龙刺青",
         fre: "Le Tampon du Champion",
         bra: "A Marca do Campeão",
-        schema: 815
+        "schema": 815
     },
     1488: {
         img: "clan_pride",
@@ -13468,7 +13469,7 @@ let dataItems = {
         sch: "家族徽章",
         fre: "Fierté de l'Équipe",
         bra: "Orgulho do Clã",
-        schema: 625
+        "schema": 625
     },
     1489: {
         img: "dr_whoa",
@@ -13477,7 +13478,7 @@ let dataItems = {
         sch: "绅士的蝴蝶结",
         fre: "Dr. Whoa",
         bra: "TARDIS Demais",
-        schema: 639
+        "schema": 639
     },
     1490: {
         img: "flair",
@@ -13486,7 +13487,7 @@ let dataItems = {
         sch: "漂亮的小徽章",
         fre: "Flair !",
         bra: "Broches(!)",
-        schema: 619
+        "schema": 619
     },
     1491: {
         img: "itsy_bitsy_spyer",
@@ -13495,7 +13496,7 @@ let dataItems = {
         sch: "小不点间谍",
         fre: "Le Itsy Bitsy Spyer",
         bra: "O Espiãozinho",
-        schema: 646
+        "schema": 646
     },
     1492: {
         img: "marxman",
@@ -13504,7 +13505,7 @@ let dataItems = {
         sch: "马列主义者",
         fre: "Marx la Menace",
         bra: "Marxa para a Morte",
-        schema: 816
+        "schema": 816
     },
     1493: {
         img: "photo_badge",
@@ -13513,7 +13514,7 @@ let dataItems = {
         sch: "照片徽章",
         fre: "Badge Photo",
         bra: "Crachá com Foto",
-        schema: 623
+        "schema": 623
     },
     1494: {
         img: "reindoonicorn",
@@ -13522,7 +13523,7 @@ let dataItems = {
         sch: "气球驯鹿独角兽",
         fre: "Le Rennicorne",
         bra: "O Renacórnio",
-        schema: 995
+        "schema": 995
     },
     1495: {
         img: "teufort_tooth_kicker",
@@ -13531,7 +13532,7 @@ let dataItems = {
         sch: "双城碎齿者",
         fre: "Le botteur de dents de Teufort",
         bra: "O Tira Dentes de Teufort",
-        schema: 734
+        "schema": 734
     },
     1496: {
         img: "triad_trinket",
@@ -13540,7 +13541,7 @@ let dataItems = {
         sch: "三合会饰衣",
         fre: "Le Colifichet de la Triade",
         bra: "O Talismã da Tríade",
-        schema: 814
+        "schema": 814
     },
     1497: {
         img: "tuxxy",
@@ -13549,7 +13550,7 @@ let dataItems = {
         sch: "萨氏燕尾服",
         fre: "Le Tuxxy",
         bra: "O Tuxxy",
-        schema: 955
+        "schema": 955
     },
     1498: {
         img: "DUMMY",
@@ -13562,7 +13563,7 @@ let dataItems = {
         fre: "Camisole de sadiste",
         sch: "狂人约束衣",
         bra: "Indulto do Maluco",
-        schema: 31078
+        "schema": 31078
     },
     1500: {
         img: "fuel_injector",
@@ -13571,7 +13572,7 @@ let dataItems = {
         fre: "Pompe à démence",
         sch: "燃料喷射器",
         bra: "Injetor de Combustível",
-        schema: 31081
+        "schema": 31081
     },
     1501: {
         img: "party_poncho",
@@ -13580,7 +13581,7 @@ let dataItems = {
         fre: "Poncho de fiesta",
         sch: "派对斗篷",
         bra: "Poncho Pitoresco",
-        schema: 31070
+        "schema": 31070
     },
     1502: {
         img: "pocket_halloween_boss",
@@ -13589,7 +13590,7 @@ let dataItems = {
         fre: "Boss d'Halloween de poche",
         sch: "口袋妖怪",
         bra: "Chefão de Bolso",
-        schema: 31061
+        "schema": 31061
     },
     1503: {
         img: "binoculus",
@@ -13598,7 +13599,7 @@ let dataItems = {
         fre: "BINOCULUS !",
         sch: "魔眼（镜）",
         bra: "BINÓCULUS!",
-        schema: 31060
+        "schema": 31060
     },
     1504: {
         img: "candy_cranium",
@@ -13607,7 +13608,7 @@ let dataItems = {
         fre: "Pochette surprise",
         sch: "糖果脑袋",
         bra: "Crânio Confeitado",
-        schema: 31067
+        "schema": 31067
     },
     1505: {
         img: "el_mostacho",
@@ -13616,7 +13617,7 @@ let dataItems = {
         fre: "El Mostacho",
         sch: "长须神工",
         bra: "El Bigodón",
-        schema: 31074
+        "schema": 31074
     },
     1506: {
         img: "bat_hat",
@@ -13625,7 +13626,7 @@ let dataItems = {
         fre: "Chauve souriant",
         sch: "卡通蝙蝠帽",
         bra: "Capelo Morcego",
-        schema: 31058
+        "schema": 31058
     },
     1507: {
         img: "convict_cap",
@@ -13634,7 +13635,7 @@ let dataItems = {
         fre: "Bonnet de bagnard",
         sch: "囚犯之帽",
         bra: "Chapéu do Condenado",
-        schema: 31080
+        "schema": 31080
     },
     1508: {
         img: "bread_biter",
@@ -13643,7 +13644,7 @@ let dataItems = {
         fre: "Un pain c'est tout",
         sch: "面包口罩",
         bra: "Dentada Mofada",
-        schema: 31062
+        "schema": 31062
     },
     1509: {
         img: "el_zapateador",
@@ -13652,7 +13653,7 @@ let dataItems = {
         fre: "El Zapateador",
         sch: "革命领袖",
         bra: "El Zapateador",
-        schema: 31069
+        "schema": 31069
     },
     1510: {
         img: "voodoo_vizier",
@@ -13661,7 +13662,7 @@ let dataItems = {
         fre: "Vizir vaudou",
         sch: "巫毒面具",
         bra: "Vizir Vudu",
-        schema: 31072
+        "schema": 31072
     },
     1511: {
         img: "soviet_strongmann",
@@ -13670,7 +13671,7 @@ let dataItems = {
         fre: "Force soviétique",
         sch: "苏维埃猛男",
         bra: "Musculatura Márxima",
-        schema: 31079
+        "schema": 31079
     },
     1512: {
         img: "skullbrero",
@@ -13679,7 +13680,7 @@ let dataItems = {
         fre: "Sombrero sinistre",
         sch: "亡者之帽",
         bra: "Cavero",
-        schema: 31066
+        "schema": 31066
     },
     1513: {
         img: "horrible_horns",
@@ -13688,7 +13689,7 @@ let dataItems = {
         fre: "Cornes horribles",
         sch: "恐怖魔角",
         bra: "Chifres Cabulosos",
-        schema: 31063
+        "schema": 31063
     },
     1514: {
         img: "madmanns_muzzle",
@@ -13697,7 +13698,7 @@ let dataItems = {
         fre: "Muselière meurtrière",
         sch: "狂人面罩",
         bra: "Mordaça do Maluco",
-        schema: 31077
+        "schema": 31077
     },
     1515: {
         img: "trick_stabber",
@@ -13706,7 +13707,7 @@ let dataItems = {
         fre: "Poignardeur",
         sch: "面刺专家",
         bra: "Apanhador de Costas",
-        schema: 31064
+        "schema": 31064
     },
     1516: {
         img: "elizabeth_the_third",
@@ -13715,7 +13716,7 @@ let dataItems = {
         fre: "Élisabeth III",
         sch: "伊丽莎白三世",
         bra: "Elizabeth III",
-        schema: 31084
+        "schema": 31084
     },
     1517: {
         img: "head_of_the_dead",
@@ -13724,7 +13725,7 @@ let dataItems = {
         fre: "Tête de mort",
         sch: "亡者之王",
         bra: "Cabeça dos Mortos",
-        schema: 31065
+        "schema": 31065
     },
     1518: {
         img: "racc_mann",
@@ -13733,7 +13734,7 @@ let dataItems = {
         fre: "Raton tueur",
         sch: "浣熊侠",
         bra: "Guaxe-Mann",
-        schema: 31071
+        "schema": 31071
     },
     1519: {
         img: "pyro_lantern",
@@ -13742,7 +13743,7 @@ let dataItems = {
         fre: "Citrouille lanterne",
         sch: "火焰南瓜灯",
         bra: "Pyro Sem Cabeça",
-        schema: 31076
+        "schema": 31076
     },
     1520: {
         img: "mister_bones",
@@ -13751,7 +13752,7 @@ let dataItems = {
         fre: "Monsieur Bones",
         sch: "骷髅先生",
         bra: "Senhor Ossos",
-        schema: 31059
+        "schema": 31059
     },
     1521: {
         img: "pebbles_the_penguin",
@@ -13760,7 +13761,7 @@ let dataItems = {
         fre: "Manchot l'empereur",
         sch: "小企鹅卵石",
         bra: "Pedro, o Pinguim",
-        schema: 31086
+        "schema": 31086
     },
     1522: {
         img: "citizen_cane",
@@ -13769,7 +13770,7 @@ let dataItems = {
         fre: "Chapeau d'orge",
         sch: "公民糖杖",
         bra: "Cidadão Açucarado",
-        schema: 31091
+        "schema": 31091
     },
     1523: {
         img: "missing_piece",
@@ -13778,7 +13779,7 @@ let dataItems = {
         fre: "Bonnet introuvable",
         sch: "失踪人口",
         bra: "Peça Perdida",
-        schema: 31101
+        "schema": 31101
     },
     1524: {
         img: "glittering_garland",
@@ -13787,7 +13788,7 @@ let dataItems = {
         fre: "Guirlande enguirlandée",
         sch: "炫目花环",
         bra: "Guirlanda Brilhante",
-        schema: 31093
+        "schema": 31093
     },
     1525: {
         img: "yule_hog",
@@ -13796,7 +13797,7 @@ let dataItems = {
         fre: "Jambon de Noël",
         sch: "圣诞火腿",
         bra: "Presunto Presunçoso",
-        schema: 31087
+        "schema": 31087
     },
     1526: {
         img: "gingerbread_mann",
@@ -13805,7 +13806,7 @@ let dataItems = {
         fre: "Mercenaire d'épice",
         sch: "姜饼曼恩",
         bra: "Mann-Biscoito",
-        schema: 31088
+        "schema": 31088
     },
     1527: {
         img: "bumble_beenie",
@@ -13814,7 +13815,7 @@ let dataItems = {
         fre: "Roi de la ruche",
         sch: "蜜蜂之帽",
         bra: "Gorrobelha",
-        schema: 31085
+        "schema": 31085
     },
     1528: {
         img: "spiky_viking",
@@ -13823,7 +13824,7 @@ let dataItems = {
         fre: "Casque à pointes",
         sch: "维京刺盔",
         bra: "Espinhos Escandinavos",
-        schema: 31100
+        "schema": 31100
     },
     1529: {
         img: "pocket_medes",
@@ -13832,7 +13833,7 @@ let dataItems = {
         fre: "Archimède de poche",
         sch: "袋基米德",
         bra: "Arquimedes de Bolso",
-        schema: 31099
+        "schema": 31099
     },
     1530: {
         img: "discovision",
@@ -13841,7 +13842,7 @@ let dataItems = {
         fre: "Discovision",
         sch: "迪斯科之眼",
         bra: "Discotécnico",
-        schema: 31096
+        "schema": 31096
     },
     1531: {
         img: "telefragger_toque",
@@ -13850,7 +13851,7 @@ let dataItems = {
         fre: "Toque téléportatrice",
         sch: "传送绞肉机",
         bra: "Touca da Teletransmorte",
-        schema: 31098
+        "schema": 31098
     },
     1532: {
         img: "globetrotter",
@@ -13859,7 +13860,7 @@ let dataItems = {
         fre: "Souvenir de 2fort",
         sch: "雪景之帽",
         bra: "Lembrancinha de 2Fort",
-        schema: 31090
+        "schema": 31090
     },
     1533: {
         img: "winter_wrap_up",
@@ -13868,7 +13869,7 @@ let dataItems = {
         fre: "Emmitouflage",
         sch: "冬日套装",
         bra: "Agasalho Álgido",
-        schema: 31094
+        "schema": 31094
     },
     1534: {
         img: "mislaid_sweater",
@@ -13877,7 +13878,7 @@ let dataItems = {
         fre: "Pull introuvable",
         sch: "迷失毛衣",
         bra: "Suéter do Sorrateiro",
-        schema: 31102
+        "schema": 31102
     },
     1535: {
         img: "public_speaker",
@@ -13886,7 +13887,7 @@ let dataItems = {
         fre: "Annonceur",
         sch: "高音喇叭",
         bra: "Palestrinha",
-        schema: 31095
+        "schema": 31095
     },
     1536: {
         img: "smissmas_saxton",
@@ -13895,7 +13896,7 @@ let dataItems = {
         fre: "Père Saxton",
         sch: "萨克斯顿圣诞帽",
         bra: "Saxton Noel",
-        schema: 31089
+        "schema": 31089
     },
     1537: {
         img: "provisions_cap",
@@ -13904,7 +13905,7 @@ let dataItems = {
         fre: "Casquette Provisions",
         sch: "补给帽",
         bra: "Patrocínio do Fornecedor",
-        schema: 31097
+        "schema": 31097
     },
     1538: {
         img: "candy_crown",
@@ -13913,7 +13914,7 @@ let dataItems = {
         fre: "Monsieur Tartine",
         sch: "糖果之冠",
         bra: "Adorno Açucarado",
-        schema: 31092
+        "schema": 31092
     },
     1539: {
         img: "alpine_war_paint",
@@ -13922,7 +13923,7 @@ let dataItems = {
         fre: "Alpin | Peinture de guerre",
         sch: "阿尔卑斯 战绘",
         bra: "Alpina Tinta de Guerra",
-        schema: 17252
+        "schema": 17252
     },
     1540: {
         img: "gift_wrapped_war_paint",
@@ -13931,7 +13932,7 @@ let dataItems = {
         fre: "Cadeau emballé | Peinture de guerre",
         sch: "圣诞礼盒 战绘",
         bra: "Embrulho de Presente Tinta de Guerra",
-        schema: 17253
+        "schema": 17253
     },
     1541: {
         img: "seriously_snowed_war_paint",
@@ -13940,7 +13941,7 @@ let dataItems = {
         fre: "Neige abondante | Peinture de guerre",
         sch: "雪人佣兵 战绘",
         bra: "Mercenáriozinhos de Neve Tinta de Guerra",
-        schema: 17249
+        "schema": 17249
     },
     1542: {
         img: "igloo_war_paint",
@@ -13949,7 +13950,7 @@ let dataItems = {
         fre: "Igloo | Peinture de guerre",
         sch: "冰砖小屋 战绘",
         bra: "Iglu Tinta de Guerra",
-        schema: 17248
+        "schema": 17248
     },
     1543: {
         img: "sleighin_style_war_paint",
@@ -13958,7 +13959,7 @@ let dataItems = {
         fre: "Traîneau stylé | Peinture de guerre",
         sch: "雪橇彩带 战绘",
         bra: "Trenó Tinta de Guerra",
-        schema: 17251
+        "schema": 17251
     },
     1544: {
         img: "snow_covered_war_paint",
@@ -13967,7 +13968,7 @@ let dataItems = {
         fre: "Couvert de neige | Peinture de guerre",
         sch: "雪花覆盖 战绘",
         bra: "Flocos de Neve Tinta de Guerra",
-        schema: 17245
+        "schema": 17245
     },
     1545: {
         img: "frost_ornamented_war_paint",
@@ -13976,7 +13977,7 @@ let dataItems = {
         fre: "Décorations givrées | Peinture de guerre",
         sch: "冰霜之饰 战绘",
         bra: "Ornamento Congelado Tinta de Guerra",
-        schema: 17246
+        "schema": 17246
     },
     1546: {
         img: "smissmas_camo_war_paint",
@@ -13985,7 +13986,7 @@ let dataItems = {
         fre: "Camouflage Smissmas | Peinture de guerre",
         sch: "圣诞迷彩 战绘",
         bra: "Camuflagem Festiva Tinta de Guerra",
-        schema: 17250
+        "schema": 17250
     },
     1547: {
         img: "smissmas_village_war_paint",
@@ -13994,7 +13995,7 @@ let dataItems = {
         fre: "Village Smissmas | Peinture de guerre",
         sch: "圣诞村庄 战绘",
         bra: "Vila do Polo Norte Tinta de Guerra",
-        schema: 17247
+        "schema": 17247
     },
     1548: {
         img: "winterland_wrapped_war_paint",
@@ -14003,7 +14004,7 @@ let dataItems = {
         fre: "Emballage hivernal | Peinture de guerre",
         sch: "冬日条纹 战绘",
         bra: "Embrulho de Natal Tinta de Guerra",
-        schema: 17254
+        "schema": 17254
     },
     1549: {
         img: "self_care",
@@ -14011,7 +14012,7 @@ let dataItems = {
         pol: "Samoopieka",
         sch: "医者自医",
         bra: "Autoajuda",
-        schema: 31122
+        "schema": 31122
     },
     1550: {
         img: "the_jarmaments",
@@ -14019,7 +14020,7 @@ let dataItems = {
         pol: "Sikwondowe słoiki",
         sch: "瓶手道武装",
         bra: "Jarmamentos",
-        schema: 31120
+        "schema": 31120
     },
     1551: {
         img: "sophisticated_smoker",
@@ -14028,7 +14029,7 @@ let dataItems = {
         fre: "Fumeur fumeux",
         sch: "雪茄大佬",
         bra: "Charuto Charmoso",
-        schema: 31106
+        "schema": 31106
     },
     1552: {
         img: "soda_specs",
@@ -14036,7 +14037,7 @@ let dataItems = {
         pol: "Sodowe szkła",
         sch: "原子能眼镜",
         bra: "Olhar Refrescante",
-        schema: 31116
+        "schema": 31116
     },
     1553: {
         img: "fire_fighter",
@@ -14045,7 +14046,7 @@ let dataItems = {
         fre: "Combattant enflammé",
         sch: "街头火霸王",
         bra: "Lutador em Chamas",
-        schema: 31108
+        "schema": 31108
     },
     1554: {
         img: "poolside_polo",
@@ -14053,7 +14054,7 @@ let dataItems = {
         pol: "Plażowe polo",
         sch: "池边衬衫",
         bra: "Polo do Praieiro",
-        schema: 31118
+        "schema": 31118
     },
     1555: {
         img: "crabe_de_chapeau",
@@ -14062,7 +14063,7 @@ let dataItems = {
         fre: "Crabe de chapeau",
         sch: "蟹蟹之帽",
         bra: "Chapeau de Karranguejo",
-        schema: 31109
+        "schema": 31109
     },
     1556: {
         img: "california_cap",
@@ -14070,7 +14071,7 @@ let dataItems = {
         pol: "Kalifornijska czapka",
         sch: "加州棒球帽",
         bra: "Boné Californiano",
-        schema: 31117
+        "schema": 31117
     },
     1557: {
         img: "bazaar_bauble",
@@ -14078,7 +14079,7 @@ let dataItems = {
         pol: "Bazarowe bawidełko",
         sch: "惊喜小兵",
         bra: "Bugiganga do Bazar",
-        schema: 31112
+        "schema": 31112
     },
     1558: {
         img: "head_of_defense",
@@ -14086,7 +14087,7 @@ let dataItems = {
         pol: "Czołowy obrońca",
         sch: "步哨头盔",
         bra: "Mini-stro da Defesa",
-        schema: 31114
+        "schema": 31114
     },
     1559: {
         img: "flatliner",
@@ -14094,7 +14095,7 @@ let dataItems = {
         pol: "Pulsowizjer",
         sch: "平线庸医",
         bra: "Visão Vascular",
-        schema: 31121
+        "schema": 31121
     },
     1560: {
         img: "tools_of_the_tourist",
@@ -14102,7 +14103,7 @@ let dataItems = {
         pol: "Torba turysty",
         sch: "游客的挎包",
         bra: "Ferramentas do Farofeiro",
-        schema: 31119
+        "schema": 31119
     },
     1561: {
         img: "hazard_headgear",
@@ -14110,7 +14111,7 @@ let dataItems = {
         pol: "Niezabezpieczone nakrycie",
         sch: "危爆之盔",
         bra: "Equipamento de Proteção Parcial",
-        schema: 31115
+        "schema": 31115
     },
     1562: {
         img: "birds_eye_viewer",
@@ -14119,7 +14120,7 @@ let dataItems = {
         fre: "Espigeon",
         sch: "间谍鸽",
         bra: "Pombo de Vista",
-        schema: 31110
+        "schema": 31110
     },
     1563: {
         img: "breach_and_bomb",
@@ -14127,7 +14128,7 @@ let dataItems = {
         pol: "Wyważyć i wysadzić",
         sch: "以爆制暴",
         bra: "Infiltrar e Detonar",
-        schema: 31113
+        "schema": 31113
     },
     1564: {
         img: "momma_kiev",
@@ -14135,7 +14136,7 @@ let dataItems = {
         pol: "Kijowska kwoka",
         sch: "基辅老母鸡",
         bra: "Mamãe Kiev",
-        schema: 31123
+        "schema": 31123
     },
     1565: {
         img: "flamehawk",
@@ -14144,7 +14145,7 @@ let dataItems = {
         fre: "Pyroquois",
         sch: "莫火克发型",
         bra: "Flamoicano",
-        schema: 31107
+        "schema": 31107
     },
     1566: {
         img: "loaf_loafers",
@@ -14153,7 +14154,7 @@ let dataItems = {
         fre: "Paintoufles",
         sch: "面包大脚",
         bra: "Pãotufas",
-        schema: 31105
+        "schema": 31105
     },
     1567: {
         img: "smoking_jacket",
@@ -14161,7 +14162,7 @@ let dataItems = {
         pol: "Bonżurka palacza",
         sch: "烟鬼夹克",
         bra: "Traje de Tabaco",
-        schema: 31124
+        "schema": 31124
     },
     1568: {
         img: "hawk_warrior",
@@ -14170,7 +14171,7 @@ let dataItems = {
         fre: "Faucon de guerre",
         sch: "白头鹰战士",
         bra: "Guerreiro Águia",
-        schema: 31111
+        "schema": 31111
     },
     1569: {
         img: "breadcrab",
@@ -14179,7 +14180,7 @@ let dataItems = {
         fre: "Pain de tête",
         sch: "面包头蟹",
         bra: "Pãorasita",
-        schema: 31104
+        "schema": 31104
     },
     1570: {
         img: "hypno_eyes",
@@ -14188,7 +14189,7 @@ let dataItems = {
         fre: "Yeuxpnotiseurs",
         sch: "催眠之眼",
         bra: "Hipnolhos",
-        schema: 31103
+        "schema": 31103
     },
     1571: {
         img: "vaccinator",
@@ -14197,7 +14198,7 @@ let dataItems = {
         fre: "Vaccinateur",
         sch: "疫苗接种枪",
         bra: "Vacinadora",
-        schema: 998,
+        "schema": 998,
         "schema2": 5756
     },
     1572: {
@@ -14207,7 +14208,7 @@ let dataItems = {
         fre: "La Frappe aérienne",
         sch: "空袭火箭筒",
         bra: "O Ataque Aéreo",
-        schema: 1104,
+        "schema": 1104,
         "schema2": 5753
     },
     1573: {
@@ -14217,7 +14218,7 @@ let dataItems = {
         fre: "Le Pomson 6000",
         sch: "歼灭者 6000",
         bra: "O Pomson 6000",
-        schema: 588,
+        "schema": 588,
         "schema2": 5661
     },
     1574: {
@@ -14227,7 +14228,7 @@ let dataItems = {
         fre: "Pyromage",
         sch: "焦灼炎术师",
         bra: "Bruxo das Brasas",
-        schema: 31143
+        "schema": 31143
     },
     1575: {
         img: "the_boom_boxers",
@@ -14235,7 +14236,7 @@ let dataItems = {
         pol: "Bumbokserki",
         fre: "Box-cœurs",
         sch: "甜心内裤",
-        schema: 31133
+        "schema": 31133
     },
     1576: {
         img: "king_cardbeard",
@@ -14244,7 +14245,7 @@ let dataItems = {
         fre: "Monarque en carton",
         sch: "纸板皇冠",
         bra: "Rei Barbelão",
-        schema: 31130
+        "schema": 31130
     },
     1577: {
         img: "flavorful_baggies",
@@ -14252,7 +14253,8 @@ let dataItems = {
         pol: "Pstrokate pumpy",
         fre: "Pantalon de bon gout",
         sch: "小丑波点裤",
-        schema: 31145
+        "schema": 31145,
+        bra: "Calças da Palhaçada"
     },
     1578: {
         img: "calamitous_cauldron",
@@ -14261,7 +14263,7 @@ let dataItems = {
         fre: "Chaudron calamiteux",
         sch: "倾覆之釜",
         bra: "Caldeirão Calamitoso",
-        schema: 31146
+        "schema": 31146
     },
     1579: {
         img: "a_handsome_handy_thing",
@@ -14270,7 +14272,7 @@ let dataItems = {
         fre: "Tête paumée",
         sch: "留了一手",
         bra: "Uma Mão Vai Na Cabeça",
-        schema: 31129
+        "schema": 31129
     },
     1580: {
         img: "handsome_devil",
@@ -14279,7 +14281,7 @@ let dataItems = {
         fre: "Diable distingué",
         sch: "潇洒魔男",
         bra: "Demônio Elegante",
-        schema: 31135
+        "schema": 31135
     },
     1581: {
         img: "hollowed_helm",
@@ -14288,7 +14290,7 @@ let dataItems = {
         fre: "Cascourge",
         sch: "空心南瓜盔",
         bra: "Elmo Espantador",
-        schema: 31128
+        "schema": 31128
     },
     1582: {
         img: "goblineer",
@@ -14297,7 +14299,7 @@ let dataItems = {
         fre: "Goblineer",
         sch: "工布林",
         bra: "Goblinheiro",
-        schema: 31150
+        "schema": 31150
     },
     1583: {
         img: "the_ghoul_box",
@@ -14306,7 +14308,7 @@ let dataItems = {
         fre: "Goule à outils",
         sch: "怪物工具箱",
         bra: "Mal-eta de Ferramentas",
-        schema: 31151
+        "schema": 31151
     },
     1584: {
         img: "glow_from_below",
@@ -14315,7 +14317,7 @@ let dataItems = {
         fre: "Baudroie luminescente",
         sch: "深海之光",
         bra: "Brilho das Profundezas",
-        schema: 31149
+        "schema": 31149
     },
     1585: {
         img: "eye_see_you",
@@ -14324,7 +14326,7 @@ let dataItems = {
         fre: "Yeux-te-vois",
         sch: "别具慧眼",
         bra: "Olho-por-Olho",
-        schema: 31134
+        "schema": 31134
     },
     1586: {
         img: "impish_ears",
@@ -14332,7 +14334,8 @@ let dataItems = {
         pol: "Chochlikowe uszy",
         fre: "Oreilles de farfadet",
         sch: "小鬼耳朵",
-        schema: 31125
+        "schema": 31125,
+        bra: "Orelhas Pontiagudas"
     },
     1587: {
         img: "sir_pumpkinton",
@@ -14341,7 +14344,7 @@ let dataItems = {
         fre: "Sieur citrouille",
         sch: "南瓜爵士礼帽",
         bra: "Senhor Cabeça-de-abóbora",
-        schema: 31131
+        "schema": 31131
     },
     1588: {
         img: "gourd_grin",
@@ -14350,7 +14353,7 @@ let dataItems = {
         fre: "Rictus sardonique",
         sch: "裂口南瓜巾",
         bra: "Cara de Cabaço",
-        schema: 31127
+        "schema": 31127
     },
     1589: {
         img: "semi_tame_trappers_hat",
@@ -14358,7 +14361,8 @@ let dataItems = {
         pol: "Półoswojona czapka trapera",
         fre: "Raton laveur empaillé",
         sch: "菜鸟猎人",
-        schema: 31147
+        "schema": 31147,
+        bra: "Guaxi-ni-mim"
     },
     1590: {
         img: "the_fire_tooth",
@@ -14366,7 +14370,8 @@ let dataItems = {
         pol: "Ognisty ząb",
         fre: "Clown incendiaire",
         sch: "大牙小丑",
-        schema: 31144
+        "schema": 31144,
+        bra: "Sorveteiro Sinistro"
     },
     1591: {
         img: "wavefinder",
@@ -14375,7 +14380,7 @@ let dataItems = {
         fre: "Ondoscope",
         sch: "寻波装置",
         bra: "Sente a Sintonia",
-        schema: 31148
+        "schema": 31148
     },
     1592: {
         img: "misfortune_fedora",
@@ -14384,7 +14389,7 @@ let dataItems = {
         fre: "Feutre maudit",
         sch: "厄运迷雾礼帽",
         bra: "Fedora Futurista",
-        schema: 31136
+        "schema": 31136
     },
     1593: {
         img: "wrap_a_khamon",
@@ -14393,7 +14398,7 @@ let dataItems = {
         fre: "Momie-cyclope",
         sch: "法老的折叠礼帽",
         bra: "Tutâncamúmia",
-        schema: 31132
+        "schema": 31132
     },
     1594: {
         img: "balloonicorpse",
@@ -14402,7 +14407,7 @@ let dataItems = {
         fre: "Ballicorps",
         sch: "气球独角尸",
         bra: "Balãonecrórnio",
-        schema: 31126
+        "schema": 31126
     },
     1595: {
         img: "all_hallows_hatte",
@@ -14411,7 +14416,7 @@ let dataItems = {
         fre: "Toussorcier",
         sch: "万灵彩灯之帽",
         bra: "Bruxo Básico",
-        schema: 31152
+        "schema": 31152
     },
     1596: {
         img: "organically_hellraised_war_paint",
@@ -14419,7 +14424,7 @@ let dataItems = {
         pol: "Organiczny pomiot | Barwy wojenne",
         sch: "原生狱火 战绘",
         bra: "Terror Orgânico Tinta de Guerra",
-        schema: 17256,
+        "schema": 17256,
         fre: "Incinération infernale | Peinture de guerre"
     },
     1597: {
@@ -14428,7 +14433,7 @@ let dataItems = {
         pol: "Pajęcza pora | Barwy wojenne",
         sch: "蜘蛛之季 战绘",
         bra: "Temporada de Aranhas Tinta de Guerra",
-        schema: 17269,
+        "schema": 17269,
         fre: "Araignées géantes | Peinture de guerre"
     },
     1598: {
@@ -14437,7 +14442,7 @@ let dataItems = {
         pol: "Dyniowa zieleń | Barwy wojenne",
         sch: "南瓜迷彩 战绘",
         bra: "Horta de Abóboras Tinta de Guerra",
-        schema: 17267,
+        "schema": 17267,
         fre: "Gazon maudit | Peinture de guerre"
     },
     1599: {
@@ -14445,8 +14450,9 @@ let dataItems = {
         eng: "Eyestalker War Paint",
         pol: "Podglądaczka | Barwy wojenne",
         sch: "眼球果实 战绘",
-        schema: 17265,
-        fre: "Phytœil | Peinture de guerre"
+        "schema": 17265,
+        fre: "Phytœil | Peinture de guerre",
+        bra: "Guaran-ahhhhh Tinta de Guerra"
     },
     1600: {
         img: "death_deluxe_war_paint",
@@ -14454,7 +14460,7 @@ let dataItems = {
         pol: "Luksusowa śmierć | Barwy wojenne",
         sch: "死亡玫瑰 战绘",
         bra: "Morte de Luxo Tinta de Guerra",
-        schema: 17263,
+        "schema": 17263,
         fre: "Cercueil | Peinture de guerre"
     },
     1601: {
@@ -14463,7 +14469,7 @@ let dataItems = {
         pol: "Portalowa tapeta | Barwy wojenne",
         sch: "冥界之门 战绘",
         bra: "Pintura de Portal Tinta de Guerra",
-        schema: 17262,
+        "schema": 17262,
         fre: "Portail magique | Peinture de guerre"
     },
     1602: {
@@ -14472,7 +14478,7 @@ let dataItems = {
         pol: "Cukierek | Barwy wojenne",
         sch: "万圣糖果 战绘",
         bra: "Revestimento Doce Tinta de Guerra",
-        schema: 17258,
+        "schema": 17258,
         fre: "Friandise | Peinture de guerre"
     },
     1603: {
@@ -14481,7 +14487,7 @@ let dataItems = {
         pol: "Sieć pająka | Barwy wojenne",
         sch: "毒巢蛛网 战绘",
         bra: "Aglomerado de Aranhas Tinta de Guerra",
-        schema: 17266,
+        "schema": 17266,
         fre: "Toiles d'araignée | Peinture de guerre"
     },
     1604: {
@@ -14490,7 +14496,7 @@ let dataItems = {
         pol: "Tańczący umarli | Barwy wojenne",
         sch: "亡者狂言 战绘",
         bra: "Mortos Muito Loucos Tinta de Guerra",
-        schema: 17264,
+        "schema": 17264,
         fre: "Squelette | Peinture de guerre"
     },
     1605: {
@@ -14499,7 +14505,7 @@ let dataItems = {
         pol: "Piwniczne pełzacze | Barwy wojenne",
         sch: "狭缝生物 战绘",
         bra: "Criaturinhas Escondidas Tinta de Guerra",
-        schema: 17261,
+        "schema": 17261,
         fre: "Galetas | Peinture de guerre"
     },
     1606: {
@@ -14508,7 +14514,7 @@ let dataItems = {
         pol: "Łakomczuch | Barwy wojenne",
         sch: "嗜甜成瘾 战绘",
         bra: "Dentinhos Doces Tinta de Guerra",
-        schema: 17260,
+        "schema": 17260,
         fre: "Bec sucré | Peinture de guerre"
     },
     1607: {
@@ -14517,7 +14523,7 @@ let dataItems = {
         pol: "Piekielnik | Barwy wojenne",
         sch: "地狱追逐 战绘",
         bra: "Helldriver Tinta de Guerra",
-        schema: 17255,
+        "schema": 17255,
         fre: "Chlorophylle | Peinture de guerre"
     },
     1608: {
@@ -14526,7 +14532,7 @@ let dataItems = {
         pol: "Mumifikowany mimik | Barwy wojenne",
         sch: "狞笑干尸 战绘",
         bra: "Mímico Mumificado Tinta de Guerra",
-        schema: 17268,
+        "schema": 17268,
         fre: "Momification | Peinture de guerre"
     },
     1609: {
@@ -14535,7 +14541,7 @@ let dataItems = {
         pol: "Dyniowe ciasto | Barwy wojenne",
         sch: "南瓜甜点 战绘",
         bra: "Torta de Abóbora Tinta de Guerra",
-        schema: 17259,
+        "schema": 17259,
         fre: "Tarte aux citrouilles | Peinture de guerre"
     },
     1610: {
@@ -14544,13 +14550,13 @@ let dataItems = {
         pol: "Rozbryzgany duch | Barwy wojenne",
         sch: "魔血泼溅 战绘",
         bra: "Gotas Cromáticas Tinta de Guerra",
-        schema: 17257,
+        "schema": 17257,
         fre: "Spectre | Peinture de guerre"
     },
     1611: {
         img: "taunt_carlton",
         eng: "Taunt: The Carlton",
-        schema: 1168,
+        "schema": 1168,
         pol: "Drwina: Carlton",
         fre: "Raillerie : Le Carlton",
         sch: "嘲讽：卡尔顿之舞",
@@ -14559,7 +14565,7 @@ let dataItems = {
     1612: {
         img: "taunt_runners_rhythm",
         eng: "Taunt: Runner's Rhythm",
-        schema: 30921,
+        "schema": 30921,
         pol: "Drwina: Bębny biegacza",
         fre: "Raillerie : Garde le rythme",
         sch: "嘲讽：敲小鼓",
@@ -14568,7 +14574,7 @@ let dataItems = {
     1613: {
         img: "taunt_scooty_scoot",
         eng: "Taunt: The Scooty Scoot",
-        schema: 1197,
+        "schema": 1197,
         pol: "Drwina: Skauci skuter",
         fre: "Raillerie : Le Scouteur",
         sch: "嘲讽：宝琳的摩托",
@@ -14577,7 +14583,7 @@ let dataItems = {
     1614: {
         img: "taunt_trackmans_touchdown",
         eng: "Taunt: The Trackman's Touchdown",
-        schema: 30917,
+        "schema": 30917,
         pol: "Drwina: Pierwszorzędne przyłożenie",
         fre: "Raillerie : Le footballeur américain",
         sch: "嘲讽：触地得分",
@@ -14586,7 +14592,7 @@ let dataItems = {
     1615: {
         img: "taunt_fubar_fanfare",
         eng: "Taunt: The Fubar Fanfare",
-        schema: 30761,
+        "schema": 30761,
         pol: "Drwina: Fanfara defetysty",
         fre: "Raillerie : La fanfare Fubar",
         sch: "嘲讽：坑爹的长号",
@@ -14595,7 +14601,7 @@ let dataItems = {
     1616: {
         img: "taunt_panzer_pants",
         eng: "Taunt: Panzer Pants",
-        schema: 1196,
+        "schema": 1196,
         pol: "Drwina: Pancerne pantalony",
         fre: "Raillerie : Le sot d'assaut",
         sch: "嘲讽：装甲之裤",
@@ -14604,7 +14610,7 @@ let dataItems = {
     1617: {
         img: "taunt_soldiers_requiem",
         eng: "Taunt: Soldier's Requiem",
-        schema: 30673,
+        "schema": 30673,
         pol: "Drwina: Requiem Żołnierza",
         fre: "Raillerie : Requiem du Soldier",
         sch: "嘲讽：士兵的安魂曲",
@@ -14613,7 +14619,7 @@ let dataItems = {
     1618: {
         img: "taunt_balloonibouncer",
         eng: "Taunt: The Balloonibouncer",
-        schema: 30763,
+        "schema": 30763,
         pol: "Drwina: Balonohuśtawka",
         fre: "Raillerie : La Ballicorne à ressort",
         sch: "嘲讽：摇摇独角兽",
@@ -14622,7 +14628,7 @@ let dataItems = {
     1619: {
         img: "taunt_headcase",
         eng: "Taunt: The Headcase",
-        schema: 30876,
+        "schema": 30876,
         pol: "Drwina: Danie głowne",
         fre: "Raillerie : Le plat de résistance",
         sch: "嘲讽：头等大餐",
@@ -14631,7 +14637,7 @@ let dataItems = {
     1620: {
         img: "taunt_skating_scorcher",
         eng: "Taunt: The Skating Scorcher",
-        schema: 30919,
+        "schema": 30919,
         pol: "Drwina: Spopielający sportowiec",
         fre: "Raillerie : Le patineur arsoniste",
         sch: "嘲讽：溜冰健将",
@@ -14640,7 +14646,7 @@ let dataItems = {
     1621: {
         img: "taunt_bad_pipes",
         eng: "Taunt: Bad Pipes",
-        schema: 30671,
+        "schema": 30671,
         pol: "Drwina: Kiepskie dudy",
         fre: "Raillerie : Corne'amuse",
         sch: "嘲讽：差劲的风笛手",
@@ -14649,7 +14655,7 @@ let dataItems = {
     1622: {
         img: "taunt_scotsmanns_stagger",
         eng: "Taunt: Scotsmann's Stagger",
-        schema: 30840,
+        "schema": 30840,
         pol: "Drwina: Szkocki spacer",
         fre: "Raillerie : L'écossais pompette",
         sch: "嘲讽：东倒西歪",
@@ -14658,7 +14664,7 @@ let dataItems = {
     1623: {
         img: "taunt_table_tantrum",
         eng: "Taunt: The Table Tantrum",
-        schema: 1174,
+        "schema": 1174,
         pol: "Drwina: Rozróba przy stole",
         fre: "Raillerie : Le lancer de table",
         sch: "嘲讽：圣诞大餐",
@@ -14667,7 +14673,7 @@ let dataItems = {
     1624: {
         img: "taunt_proletariat_posedown",
         eng: "Taunt: The Proletariat Posedown",
-        schema: 30616,
+        "schema": 30616,
         pol: "Drwina: Proletariacka poza",
         fre: "Raillerie : La pose prolétaire",
         sch: "嘲讽：工人阶级之怒",
@@ -14676,7 +14682,7 @@ let dataItems = {
     1625: {
         img: "taunt_russian_arms_race",
         eng: "Taunt: The Russian Arms Race",
-        schema: 30843,
+        "schema": 30843,
         pol: "Drwina: Rosyjski wyścig zbrojeń",
         fre: "Raillerie : Les grandes pompes",
         sch: "嘲讽：独臂俯卧撑",
@@ -14685,7 +14691,7 @@ let dataItems = {
     1626: {
         img: "taunt_soviet_strongarm",
         eng: "Taunt: The Soviet Strongarm",
-        schema: 30844,
+        "schema": 30844,
         pol: "Drwina: Sowiecki siłacz",
         fre: "Raillerie : Halte aux haltères",
         sch: "嘲讽：苏维埃大力士",
@@ -14694,7 +14700,7 @@ let dataItems = {
     1627: {
         img: "taunt_bucking_bronco",
         eng: "Taunt: Bucking Bronco",
-        schema: 30618,
+        "schema": 30618,
         pol: "Drwina: Dziki jeździec",
         fre: "Raillerie : Rodéo sauvage",
         sch: "嘲讽：驯服野马",
@@ -14703,7 +14709,7 @@ let dataItems = {
     1628: {
         img: "taunt_dueling_banjo",
         eng: "Taunt: The Dueling Banjo",
-        schema: 30842,
+        "schema": 30842,
         pol: "Drwina: Bajeranckie banjo",
         fre: "Raillerie : Le pro du banjo",
         sch: "嘲讽：斗琴",
@@ -14712,7 +14718,7 @@ let dataItems = {
     1629: {
         img: "taunt_jumping_jack",
         eng: "Taunt: The Jumping Jack",
-        schema: 30845,
+        "schema": 30845,
         pol: "Drwina: Pneumoskoczek",
         fre: "Raillerie : Marteau piqueur",
         sch: "嘲讽：跳跳钻",
@@ -14721,7 +14727,7 @@ let dataItems = {
     1630: {
         img: "taunt_meet_the_medic",
         eng: "Taunt: The Meet the Medic",
-        schema: 477,
+        "schema": 477,
         pol: "Drwina: Poznajcie Medyka",
         fre: "Raillerie : À la Rencontre du Medic",
         sch: "嘲讽：医生的英姿",
@@ -14730,7 +14736,7 @@ let dataItems = {
     1631: {
         img: "taunt_surgeons_squeezebox",
         eng: "Taunt: Surgeon's Squeezebox",
-        schema: 30918,
+        "schema": 30918,
         pol: "Drwina: Arteterapia akordeonowa",
         fre: "Raillerie : La mélodie du docteur",
         sch: "嘲讽：手风琴独奏",
@@ -14739,7 +14745,7 @@ let dataItems = {
     1632: {
         img: "taunt_didgeridrongo",
         eng: "Taunt: Didgeridrongo",
-        schema: 30839,
+        "schema": 30839,
         pol: "Drwina: Didgeridureń",
         fre: "Raillerie : Didgeridrongo",
         sch: "嘲讽：迪吉里杜管",
@@ -14748,7 +14754,7 @@ let dataItems = {
     1633: {
         img: "taunt_killer_solo",
         eng: "Taunt: The Killer Solo",
-        schema: 30609,
+        "schema": 30609,
         pol: "Drwina: Zabójcze solo",
         fre: "Raillerie : Le solo de la mort",
         sch: "嘲讽：孤胆杀手",
@@ -14757,7 +14763,7 @@ let dataItems = {
     1634: {
         img: "taunt_most_wanted",
         eng: "Taunt: Most Wanted",
-        schema: 30614,
+        "schema": 30614,
         pol: "Drwina: Najbardziej poszukiwany",
         fre: "Raillerie : Recherché",
         sch: "嘲讽：最高通缉",
@@ -14766,7 +14772,7 @@ let dataItems = {
     1635: {
         img: "taunt_box_trot",
         eng: "Taunt: The Box Trot",
-        schema: 30615,
+        "schema": 30615,
         pol: "Drwina: Kartonowe szpiegostwo",
         fre: "Raillerie : La Box Trot",
         sch: "嘲讽：盒子戏法",
@@ -14775,7 +14781,7 @@ let dataItems = {
     1636: {
         img: "taunt_disco_fever",
         eng: "Taunt: Disco Fever",
-        schema: 30762,
+        "schema": 30762,
         pol: "Drwina: Gorączka disco",
         fre: "Raillerie : La fièvre du disco",
         sch: "嘲讽：狂热迪斯科",
@@ -14784,7 +14790,7 @@ let dataItems = {
     1637: {
         img: "taunt_luxury_lounge",
         eng: "Taunt: Luxury Lounge",
-        schema: 30922,
+        "schema": 30922,
         pol: "Drwina: Wykwintny wypoczynek",
         fre: "Raillerie : Le fauteuil d'argent",
         sch: "嘲讽：头等之座",
@@ -14793,7 +14799,7 @@ let dataItems = {
     1638: {
         img: "taunt_directors_vision",
         eng: "Taunt: The Director's Vision",
-        schema: 438,
+        "schema": 438,
         pol: "Drwina: Wizja reżysera",
         fre: "Raillerie : La vue du Réalisateur",
         sch: "嘲讽：导演的视角",
@@ -14802,7 +14808,7 @@ let dataItems = {
     1639: {
         img: "taunt_kazotsky_kick",
         eng: "Taunt: Kazotsky Kick",
-        schema: 1157,
+        "schema": 1157,
         pol: "Drwina: Kozacki kop",
         fre: "Raillerie : La danse Kazotsky",
         sch: "嘲讽：俄罗斯踢踏舞",
@@ -14811,7 +14817,7 @@ let dataItems = {
     1640: {
         img: "taunt_mannrobics",
         eng: "Taunt: Mannrobics",
-        schema: 1162,
+        "schema": 1162,
         pol: "Drwina: Mannorobik",
         fre: "Raillerie : Mannrobic",
         sch: "嘲讽：曼恩团体操",
@@ -14820,7 +14826,7 @@ let dataItems = {
     1641: {
         img: "taunt_second_rate_sorcery",
         eng: "Taunt: Second Rate Sorcery",
-        schema: 30816,
+        "schema": 30816,
         pol: "Drwina: Czary z drugiej ręki",
         fre: "Raillerie : Sorcellerie de seconde classe",
         sch: "嘲讽：二流魔法师",
@@ -14829,7 +14835,7 @@ let dataItems = {
     1642: {
         img: "taunt_shred_alert",
         eng: "Taunt: The Shred Alert",
-        schema: 1015,
+        "schema": 1015,
         pol: "Szyderstwo szarpidruta",
         fre: "La Shred Alert",
         sch: "吉他警报",
@@ -14838,7 +14844,7 @@ let dataItems = {
     1643: {
         img: "taunt_victory_lap",
         eng: "Taunt: The Victory Lap",
-        schema: 1172,
+        "schema": 1172,
         pol: "Drwina: Zwycięskie okrążenie",
         fre: "Raillerie : Tour d'honneur",
         sch: "嘲讽：我是老司机",
@@ -14847,7 +14853,7 @@ let dataItems = {
     1644: {
         img: "taunt_yeti_punch",
         eng: "Taunt: Yeti Punch",
-        schema: 1182,
+        "schema": 1182,
         pol: "Drwina: Uderzenie yeti",
         fre: "Raillerie : En plein dans le migou",
         sch: "嘲讽：拳打雪人",
@@ -14856,7 +14862,7 @@ let dataItems = {
     1645: {
         img: "taunt_yeti_smash",
         eng: "Taunt: Yeti Smash",
-        schema: 1183,
+        "schema": 1183,
         pol: "Drwina: Zniszczenie yeti",
         fre: "Raillerie : L'abominable mercenaire des neiges",
         sch: "嘲讽：变身雪人",
@@ -14865,7 +14871,7 @@ let dataItems = {
     1646: {
         img: "taunt_zoomin_broom",
         eng: "Taunt: Zoomin' Broom",
-        schema: 30672,
+        "schema": 30672,
         pol: "Drwina: Lot na miotle",
         fre: "Raillerie : Le balais filant",
         sch: "嘲讽：扫帚飞行术",
@@ -14878,7 +14884,7 @@ let dataItems = {
         fre: "Pyrequin",
         sch: "怒火狂鲨",
         bra: "Tuba-Pyro",
-        schema: 31068
+        "schema": 31068
     },
     1648: {
         img: "avian_amante",
@@ -14887,7 +14893,7 @@ let dataItems = {
         fre: "Corbeau mégot",
         sch: "鸦人面具",
         bra: "Amante Aviário",
-        schema: 31073
+        "schema": 31073
     },
     1649: {
         img: "eingineer",
@@ -14896,7 +14902,7 @@ let dataItems = {
         fre: "Eingineer",
         sch: "金丝雀矿工",
         bra: "Eingineer",
-        schema: 31075
+        "schema": 31075
     },
     1650: {
         img: "remorseless_raptor",
@@ -14905,7 +14911,7 @@ let dataItems = {
         fre: "Raptor sans remords",
         sch: "无情迅猛龙",
         bra: "Predador Perverso",
-        schema: 31082
+        "schema": 31082
     },
     1651: {
         img: "wild_whip",
@@ -14914,7 +14920,7 @@ let dataItems = {
         fre: "Reliquat d'évolution",
         sch: "狂野尾鞭",
         bra: "Cauda Cretácea",
-        schema: 31083
+        "schema": 31083
     },
     1652: {
         img: "horseless_headless_horsemanns_headtaker",
@@ -14923,7 +14929,7 @@ let dataItems = {
         fre: "Le Décapiteur du Cavalier sans Tête et sans Cheval",
         sch: "脱缰无头骑士的斩首斧",
         bra: "O Corta-cabeças do Cavaleiro Carente de Cavalo e Cabeça",
-        schema: 266
+        "schema": 266
     },
     1653: {
         img: "necro_smasher",
@@ -14932,7 +14938,7 @@ let dataItems = {
         fre: "Necro Smasher",
         sch: "大力碎尸锤",
         bra: "Necroesmagador",
-        schema: 1123
+        "schema": 1123
     },
     1654: {
         img: "ghastly_gibus",
@@ -14941,7 +14947,7 @@ let dataItems = {
         fre: "Horrible Gibus",
         sch: "可怕的折叠礼帽",
         bra: "Cartola Medonha",
-        schema: 116
+        "schema": 116
     },
     1655: {
         img: "mildly_disturbing_halloween_mask",
@@ -14950,7 +14956,7 @@ let dataItems = {
         fre: "Masque d'Halloween un peu dérangeant",
         sch: "令人不安的万圣节面具",
         bra: "Máscara Levemente Perturbadora de Dia das Bruxas",
-        schema: 115
+        "schema": 115
     },
     1656: {
         img: "ghastlier_gibus",
@@ -14959,7 +14965,7 @@ let dataItems = {
         fre: "Infâme Gibus",
         sch: "更可怕的摺叠礼帽",
         bra: "Cartola Mais Medonha",
-        schema: 279
+        "schema": 279
     },
     1657: {
         img: "horseless_headless_horsemanns_head",
@@ -14968,7 +14974,7 @@ let dataItems = {
         fre: "Tête du Cavalier sans Tête et sans Cheval",
         sch: "脱缰的无头骑士南瓜头",
         bra: "Cabeça do Cavaleiro Carente de Cavalo e Cabeça",
-        schema: 278
+        "schema": 278
     },
     1658: {
         img: "spine_chilling_skull",
@@ -14977,7 +14983,7 @@ let dataItems = {
         fre: "Crâne qui vous glace le sang",
         sch: "毛骨悚然的骷髅头",
         bra: "Crânio Arrepiante",
-        schema: 287
+        "schema": 287
     },
     1659: {
         img: "voodoo_juju",
@@ -14986,7 +14992,7 @@ let dataItems = {
         fre: "Juju Vaudou",
         sch: "巫毒护符",
         bra: "Vudu Juju",
-        schema: 289
+        "schema": 289
     },
     1660: {
         img: "ghastlierest_gibus",
@@ -14995,7 +15001,7 @@ let dataItems = {
         fre: "Épouvantable Gibus",
         sch: "最可怕的折叠礼帽",
         bra: "Cartola Muito Mais Medonha",
-        schema: 116
+        "schema": 116
     },
     1661: {
         img: "monoculus",
@@ -15004,7 +15010,7 @@ let dataItems = {
         fre: "Le MONOCULUS !",
         sch: "独眼怪胎！",
         bra: "O MONOCULUS!",
-        schema: 581
+        "schema": 581
     },
     1662: {
         img: "spine_chilling_skull_2011",
@@ -15013,7 +15019,7 @@ let dataItems = {
         fre: "Le Crâne qui vous glace le sang 2011",
         sch: "毛骨悚然的骷髅头 2011 年版",
         bra: "O Crânio Arrepiante de 2011",
-        schema: 576
+        "schema": 576
     },
     1663: {
         img: "ghostly_gibus",
@@ -15022,7 +15028,7 @@ let dataItems = {
         fre: "Fantomatique Gibus",
         sch: "幽灵折叠礼帽",
         bra: "Cartola Fantasmedonha",
-        schema: 940
+        "schema": 940
     },
     1664: {
         img: "skull_island_topper",
@@ -15031,7 +15037,7 @@ let dataItems = {
         fre: "Le couvre-chef de l'Île au crâne",
         sch: "骷髅岛主",
         bra: "O Crânio da Ilha da Caveira",
-        schema: 941
+        "schema": 941
     },
     1665: {
         img: "pallet_of_crates",
@@ -15040,210 +15046,292 @@ let dataItems = {
         fre: "Palette de caisses",
         sch: "成堆的补给箱",
         bra: "Palete de Caixas",
-        schema: 1037
+        "schema": 1037
     },
     1666: {
         img: "elf_care_provider",
         eng: "Elf Care Provider",
-        schema: 31176
+        "schema": 31176,
+        pol: "Elfia służba zdrowia",
+        bra: "Cuidado Pré-Natal"
     },
     1667: {
         img: "bear_walker",
         eng: "Bear Walker",
-        schema: 31180
+        "schema": 31180,
+        pol: "Syberyjskie spanko",
+        bra: "Passo do Ursinho"
     },
     1668: {
         img: "festive_flip_thwomps",
         eng: "Festive Flip-thwomps",
-        schema: 31167
+        "schema": 31167,
+        pol: "Prezentowe płaskostopie",
+        bra: "Embrulho de Pé-sente"
     },
     1669: {
         img: "shoestring_santa",
         eng: "Shoestring Santa",
-        schema: 31169
+        "schema": 31169,
+        pol: "Mikołaj z przeceny",
+        bra: "Noel de Araque"
     },
     1670: {
         img: "jolly_jingler",
         eng: "Jolly Jingler",
-        schema: 31165
+        "schema": 31165,
+        pol: "Rozdzwoniony wesołek",
+        bra: "Guizo Natalino"
     },
     1671: {
         img: "candy_cantlers",
         eng: "Candy Cantlers",
-        schema: 31164
+        "schema": 31164,
+        pol: "Cukierkowe poroże",
+        bra: "Galhada Adocicada"
     },
     1672: {
         img: "festive_fascinator",
         eng: "Festive Fascinator",
-        schema: 31172
+        "schema": 31172,
+        pol: "Fikuśny fascynator",
+        bra: "Fascinador Festivo"
     },
     1673: {
         img: "reindoonibeanie",
         eng: "Reindoonibeanie",
-        schema: 31171
+        "schema": 31171,
+        pol: "Reniferożcowe beanie",
+        bra: "Renagorro"
     },
     1674: {
         img: "particulate_protector",
         eng: "Particulate Protector",
-        schema: 31163
+        "schema": 31163,
+        pol: "Przeciwcząsteczkowa protekcja",
+        bra: "Protetor Particular"
     },
     1675: {
         img: "the_killing_tree",
         eng: "The Killing Tree",
-        schema: 31181
+        "schema": 31181,
+        pol: "Śmiercionośny starodrzew",
+        bra: "Pinheiro Certeiro"
     },
     1676: {
         img: "the_smissmass_sorcerer",
         eng: "Smissmass Sorcerer",
-        schema: 31166
+        "schema": 31166,
+        pol: "Śniąteczny czarodziej",
+        bra: "Feiticeiro Festivo"
     },
     1677: {
         img: "sandmanns_brush",
         eng: "SandMann's Brush",
-        schema: 31178
+        "schema": 31178,
+        pol: "Muśnięcie Piaskuna",
+        bra: "Gorrinho do Soninho"
     },
     1678: {
         img: "bedbug_protection",
         eng: "BedBug Protection",
-        schema: 31179
+        "schema": 31179,
+        pol: "Piżamka proletariusza",
+        bra: "Proteção Anti-Papão"
     },
     1679: {
         img: "professionals_pom_pom",
         eng: "Professional's Pom Pom",
-        schema: 31170
+        "schema": 31170,
+        pol: "Pompon profesjonalisty",
+        bra: "Pompom do Profissional"
     },
     1680: {
         img: "blitzen_bowl",
         eng: "Blitzen Bowl",
-        schema: 31175
+        "schema": 31175,
+        pol: "Błyskawiczny kask",
+        bra: "Engenharia Renal"
     },
     1681: {
         img: "night_ward",
         eng: "Night Ward",
-        schema: 31177
+        "schema": 31177,
+        pol: "Nocny dyżur",
+        bra: "Plantão Noturno"
     },
     1682: {
         img: "helm_helm",
         eng: "Helm Helm",
-        schema: 31182
+        "schema": 31182,
+        pol: "Ster u steru",
+        bra: "O Estrondoso Timão"
     },
     1683: {
         img: "towering_pillar_of_beanies",
         eng: "Towering Pillar of Beanies",
-        schema: 31168
+        "schema": 31168,
+        pol: "Niebotyczny słup beanie",
+        bra: "Pilar Monumental de Gorros"
     },
     1684: {
         img: "the_round_a_bout",
         eng: "The Round-A-Bout",
-        schema: 31174
+        "schema": 31174,
+        pol: "Karnawałowa karuzela",
+        bra: "Pyrossel"
     },
     1685: {
         img: "towering_pile_of_presents",
-        eng: "Towering Pile Of Presents"
+        eng: "Towering Pile Of Presents",
+        pol: "Niebotyczny słup prezentów",
+        bra: "Pilha Monumental de Presentes"
     },
     1686: {
         img: "snowflake_swirled_war_paint",
         eng: "Snowflake Swirled War Paint",
-        schema: 17277
+        "schema": 17277,
+        pol: "Wir z płatkami śniegu | Barwy wojenne",
+        bra: "Espiral Flocada Tinta de Guerra"
     },
     1687: {
         img: "snow_globalization_war_paint",
         eng: "Snow Globalization War Paint",
-        schema: 17275
+        "schema": 17275,
+        pol: "Śnieżna globalizacja | Barwy wojenne",
+        bra: "Globalização de Neve Tinta de Guerra"
     },
     1688: {
         img: "glacial_glazed_war_paint",
         eng: "Glacial Glazed War Paint",
-        schema: 17282
+        "schema": 17282,
+        pol: "Zimowe zeszklenie | Barwy wojenne",
+        bra: "Azulejos Glaciais Tinta de Guerra"
     },
     1689: {
         img: "gifting_manns_wrapping_paper_war_paint",
         eng: "Gifting Mann's Wrapping Paper War Paint",
-        schema: 17276
+        "schema": 17276,
+        pol: "Prezentowy papier do pakowania | Barwy wojenne",
+        bra: "Papel de Presente do Mann Presente Tinta de Guerra"
     },
     1690: {
         img: "peppermint_swirl_war_paint",
         eng: "Peppermint Swirl War Paint",
-        schema: 17273
+        "schema": 17273,
+        pol: "Cukierkowy wir | Barwy wojenne",
+        bra: "Espiral de Hortelã-pimenta Tinta de Guerra"
     },
     1691: {
         img: "gingerbread_winner_war_paint",
         eng: "Gingerbread Winner War Paint",
-        schema: 17270
+        "schema": 17270,
+        pol: "Piernikowy zwycięzca | Barwy wojenne",
+        bra: "Ganha-Pão de Mel Tinta de Guerra"
     },
     1692: {
         img: "smissmas_spycrabs_war_paint",
         eng: "Smissmas Spycrabs War Paint",
-        schema: 17278
+        "schema": 17278,
+        pol: "Śniąteczne szpiegokraby | Barwy wojenne",
+        bra: "Spyranguejos de Natal Tinta de Guerra"
     },
     1693: {
         img: "elfin_enamel_war_paint",
         eng: "Elfin Enamel War Paint",
-        schema: 17272
+        "schema": 17272,
+        pol: "Elfia emalia | Barwy wojenne",
+        bra: "Esmalte Élfico Tinta de Guerra"
     },
     1694: {
         img: "frozen_aurora_war_paint",
         eng: "Frozen Aurora War Paint",
-        schema: 17279
+        "schema": 17279,
+        pol: "Mroźna zorza | Barwy wojenne",
+        bra: "Aurora Congelada Tinta de Guerra"
     },
     1695: {
         img: "cookie_fortress_war_paint",
         eng: "Cookie Fortress War Paint",
-        schema: 17283
+        "schema": 17283,
+        pol: "Ciasteczkowa forteca | Barwy wojenne",
+        bra: "Fortaleza de Biscolachas Tinta de Guerra"
     },
     1696: {
         img: "frosty_delivery_war_paint",
         eng: "Frosty Delivery War Paint",
-        schema: 17281
+        "schema": 17281,
+        pol: "Mroźna dostawa | Barwy wojenne",
+        bra: "Entrega Gélida Tinta de Guerra"
     },
     1697: {
         img: "saccharine_striped_war_paint",
         eng: "Saccharine Striped War Paint",
-        schema: 17271
+        "schema": 17271,
+        pol: "Przesłodkie pasy | Barwy wojenne",
+        bra: "Listras Adocicadas Tinta de Guerra"
     },
     1698: {
         img: "starlight_serenity_war_paint",
         eng: "Starlight Serenity War Paint",
-        schema: 17280
+        "schema": 17280,
+        pol: "Gwiezdne ukojenie | Barwy wojenne",
+        bra: "Serenidade Estrelada Tinta de Guerra"
     },
     1699: {
         img: "taunt_the_pooped_deck",
         eng: "Taunt: The Pooped Deck",
-        schema: 31153
+        "schema": 31153,
+        pol: "Drwina: Pijacki pokład",
+        bra: "Provocação: Escocês Exausto"
     },
     1700: {
         img: "taunt_time_out_therapy",
         eng: "Taunt: Time Out Therapy",
-        schema: 31154
+        "schema": 31154,
+        pol: "Drwina: Teufordzki terapeuta",
+        bra: "Provocação: Pausa Fora de Hora"
     },
     1701: {
         img: "taunt_rocket_jockey",
         eng: "Taunt: Rocket Jockey",
-        schema: 31155
+        "schema": 31155,
+        pol: "Drwina: Rakietowy dżokej",
+        bra: "Provocação: Fogueteiro Fantástico"
     },
     1702: {
         img: "taunt_the_boston_boarder",
         eng: "Taunt: The Boston Boarder",
-        schema: 31156
+        "schema": 31156,
+        pol: "Drwina: Bostoński skejter",
+        bra: "Provocação: Charlie Bonk Jr."
     },
     1703: {
-        img: "taunt_schorchers_solo",
-        eng: "Taunt: Schorcher's Solo",
-        schema: 31157
+        img: "taunt_scorchers_solo",
+        eng: "Taunt: Scorcher's Solo",
+        "schema": 31157,
+        pol: "Drwina: Solówka spopielacza",
+        bra: "Provocação: Fique Pianinho"
     },
     1704: {
         img: "taunt_texas_truckin",
         eng: "Taunt: Texas Truckin'",
-        schema: 31160
+        "schema": 31160,
+        pol: "Drwina: Teksański traktorzysta",
+        bra: "Provocação: Tratorzinho do Texas"
     },
     1705: {
         img: "taunt_spin_to_win",
         eng: "Taunt: Spin-to-Win",
-        schema: 31161
+        "schema": 31161,
+        pol: "Drwina: Znak zwycięstwa",
+        bra: "Provocação: Dando a Seta"
     },
     1706: {
         img: "taunt_the_fist_bump",
         eng: "Taunt: The Fist Bump",
-        schema: 31162
-    },
+        "schema": 31162,
+        pol: "Drwina: Żółwik",
+        bra: "Provocação: Soquinho"
+    }
 }

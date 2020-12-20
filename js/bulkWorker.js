@@ -326,6 +326,7 @@ function unbox() { // This function handles the unboxing itself: which item is u
                     }
                 }
             }
+            let oneExclusiveBonusUnboxed = false;
             for (; bonusNum > 0; bonusNum--) {
                 let unusualifierChance = Math.floor((Math.random() * 1000) + 1) // Between 1 and 1000
                 if (unusualifierChance <= 15 || save.options.forceUnusualifier) { // 1.5% chance
@@ -337,10 +338,13 @@ function unbox() { // This function handles the unboxing itself: which item is u
                     })
                 } else {
                     let unboxExclusive = false;
-                    if (crate.exclusiveBonus) {
+                    if (crate.exclusiveBonus && !oneExclusiveBonusUnboxed) {
                         let exclusiveBonusChance = Math.floor((Math.random() * 10000) + 1) // Between 1 and 10000
                         if (exclusiveBonusChance <= crate.exclusiveBonus.chance) {
                             unboxExclusive = true;
+                            if (crate.oneExclusiveBonus) {
+                                oneExclusiveBonusUnboxed = true;
+                            }
                         }
                     }
 

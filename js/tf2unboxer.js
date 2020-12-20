@@ -119,6 +119,9 @@ const DOM = {
         infoLootBtn: document.eId("crateinfolootbtn"),
         moreInfoBtn: document.eId("crateinfobtn"),
         crateGrid: document.eId("crategrid"),
+        crateGridSearch: document.eId("crategridsearchinput"),
+        crateGridSearchBtn: document.eId("searchbtn"),
+        crateGridSearchDiv: document.eId("crategridsearch"),
         crateWindow: document.eId("cratewindow")
     },
     bulkSelect: {
@@ -241,6 +244,7 @@ const DOM = {
 let currentCrate = 0;
 let currentCrateObj = cA[crateOrder[currentCrate]];
 let canUnbox = true;
+let inDetailsMode = true;
 const emptyImage = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
 const wearTable = ["", "FN", "MW", "FT", "WW", "BS"];
 const wearTableNames = ["", 80, 81, 82, 83, 84];
@@ -1211,14 +1215,27 @@ function generateCrateDetails(crate, el, saveObj, bonus) {
     htmlEl.content.innerHTML = tempHTML;
 }
 
-// Unbox with spacebar and enter keys
+// Keyboard events
 document.addEventListener('keydown', function(event) {
-    if (event.code == 'Enter' || event.code == 'Space') {
-        if (!unboxStop && canUnbox) {
+    if (DOM.main.crateWindow.classList.contains("showsearch") && event.code == 'Enter') {
+        selectFirstCrateFromSearch();
+    } else if (event.code == 'Enter' || event.code == 'Space') {
+        if (!unboxStop && canUnbox && inDetailsMode) {
             sound.play("btn");
+            exitGridView();
             beginUnbox();
         }
         return 0;
+    } else if (event.code == "ArrowLeft" || event.code == "KeyA") {
+        if (!unboxStop && canUnbox && inDetailsMode) {
+            sound.play("btn");
+            jumpToCrate("previous");
+        }
+    } else if (event.code == "ArrowRight" || event.code == "KeyD") {
+        if (!unboxStop && canUnbox && inDetailsMode) {
+            sound.play("btn");
+            jumpToCrate("next");
+        }
     };
 });
 
@@ -1274,6 +1291,9 @@ function changeLanguage(lang) {
     });
     document.querySelectorAll("[data-tooltipstring]").forEach(item => {
         item.dataset.tooltip = getString("ui", item.dataset.tooltipstring)
+    });
+    document.querySelectorAll("[data-placeholderstring]").forEach(item => {
+        item.placeholder = getString("ui", item.dataset.placeholderstring)
     });
     DOM.stats.statistics.tab.innerHTML = getString("ui", DOM.stats.statistics.container.querySelector(".statvisible").dataset.statstring);
     switch (lang) {
@@ -2090,6 +2110,7 @@ function unbox() { // This function handles the unboxing itself: which item is u
                     }
                 }
             }
+            let oneExclusiveBonusUnboxed = false;
             for (; bonusNum > 0; bonusNum--) {
                 let unusualifierChance = Math.floor((Math.random() * 1000) + 1) // Between 1 and 1000
                 if (unusualifierChance <= 15 || save.options.forceUnusualifier) { // 1.5% chance
@@ -2101,10 +2122,13 @@ function unbox() { // This function handles the unboxing itself: which item is u
                     })
                 } else {
                     let unboxExclusive = false;
-                    if (crate.exclusiveBonus) {
+                    if (crate.exclusiveBonus && !oneExclusiveBonusUnboxed) {
                         let exclusiveBonusChance = Math.floor((Math.random() * 10000) + 1) // Between 1 and 10000
                         if (exclusiveBonusChance <= crate.exclusiveBonus.chance) {
                             unboxExclusive = true;
+                            if (crate.oneExclusiveBonus) {
+                                oneExclusiveBonusUnboxed = true;
+                            }
                         }
                     }
 
@@ -2917,6 +2941,9 @@ function addToStats(unboxResult, saveObj, saveToStorage) {
 
 // Generate grid
 
+let gridDivs;
+let gridNames = [];
+
 function generateGrid() {
     DOM.main.crateGrid.innerHTML = "";
     let html = [];
@@ -2928,7 +2955,8 @@ function generateGrid() {
     </div>`);
     }
     DOM.main.crateGrid.innerHTML = html.join('');
-    let gridDivs = DOM.main.crateGrid.querySelectorAll("div");
+    gridDivs = DOM.main.crateGrid.querySelectorAll("div");
+    gridNames = [];
     for (let i = 0; i < gridDivs.length; i++) {
         gridDivs[i].addEventListener("pointerdown", function() {
             sound.play("btn");
@@ -2938,6 +2966,7 @@ function generateGrid() {
             jumpToCrate(parseInt(this.getAttribute("cratenum")));
             exitGridView();
         });
+        gridNames.push(`${gridDivs[i].querySelector(".statscratesname").textContent} ${gridDivs[i].querySelector(".statscratesseries").textContent}`.toLowerCase())
     }
 }
 
@@ -2946,7 +2975,40 @@ function exitGridView() {
     DOM.main.crateInfoContainer.style.display = "block";
     DOM.main.gridViewBtn.style.display = "flex";
     DOM.main.exitGridViewBtn.style.display = "none";
-    DOM.main.crateWindow.classList.remove("mobile-btns");
+    DOM.main.crateGridSearchBtn.style.display = "none";
+    DOM.main.crateWindow.classList.remove("gridactive");
+    DOM.main.crateWindow.classList.remove("showsearch");
+    DOM.main.crateGridSearch.value = "";
+    inDetailsMode = true;
+    searchGrid("");
+}
+
+function searchGrid(input) {
+    let searchName = input.toLowerCase();
+    if (searchName.length > 0) {
+        for (let i = 0; i < gridDivs.length; i++) {
+            if (gridNames[i].includes(searchName)) {
+                gridDivs[i].style.display = "block";
+            } else {
+                gridDivs[i].style.display = "none";
+            }
+        }
+    } else {
+        for (let crate of gridDivs) {
+            crate.style.display = "block";
+        }
+    }
+}
+
+function selectFirstCrateFromSearch() {
+    for (let crate of gridDivs) {
+        if (crate.style.display == "block") {
+            sound.play("btn");
+            jumpToCrate(parseInt(crate.getAttribute("cratenum")));
+            exitGridView();
+            return;
+        }
+    }
 }
 
 // Main screen bindings
@@ -2975,7 +3037,9 @@ DOM.main.gridViewBtn.addEventListener("click", () => {
     DOM.main.crateInfoContainer.style.display = "none";
     DOM.main.gridViewBtn.style.display = "none";
     DOM.main.exitGridViewBtn.style.display = "flex";
-    DOM.main.crateWindow.classList.add("mobile-btns");
+    DOM.main.crateGridSearchBtn.style.display = "flex";
+    DOM.main.crateWindow.classList.add("gridactive");
+    inDetailsMode = false;
     if (DOM.main.crateGrid.innerHTML == "") {
         generateGrid();
     }
@@ -2985,7 +3049,19 @@ DOM.main.randomCrateBtn.addEventListener("click", () => {
     jumpToCrate("random");
     exitGridView();
 });
-DOM.main.unboxBtn.addEventListener("click", beginUnbox);
+DOM.main.crateGridSearchBtn.addEventListener("click", () => {
+    DOM.main.crateWindow.classList.toggle("showsearch");
+    if (DOM.main.crateWindow.classList.contains("showsearch")) {
+        DOM.main.crateGridSearch.focus();
+    } else {
+        DOM.main.crateGridSearch.value = "";
+        searchGrid("");
+    }
+});
+DOM.main.unboxBtn.addEventListener("click", () => {
+    exitGridView();
+    beginUnbox();
+});
 DOM.main.bulkUnboxBtn.addEventListener("click", () => {
     DOM.bulkSelect.screen.style.display = "flex";
     canUnbox = false;
@@ -3003,6 +3079,10 @@ DOM.main.crateInfoContainer.addEventListener("swiped-left", () => {
 })
 DOM.main.crateInfoContainer.addEventListener("swiped-right", () => {
     jumpToCrate("next");
+})
+
+DOM.main.crateGridSearch.addEventListener("input", () => {
+    searchGrid(DOM.main.crateGridSearch.value);
 })
 
 // Options screen bindings
@@ -3125,14 +3205,19 @@ DOM.results.returnBtn.addEventListener("click", () => {
         DOM.results.container.style.display = "none";
     }
 });
-DOM.results.unboxBtn.addEventListener("click", beginUnbox);
+DOM.results.unboxBtn.addEventListener("click", () => {
+    exitGridView();
+    beginUnbox();
+});
 let holdUnbox;
 DOM.results.unboxBtn.addEventListener("pointerdown", () => {
     clearInterval(holdUnbox);
     clearTimeout(holdUnbox);
-    holdUnbox = setTimeout(() => {
-        holdUnbox = setInterval(beginUnbox, 50)
-    }, 1000)
+    if (save.options.fastUnbox) {
+        holdUnbox = setTimeout(() => {
+            holdUnbox = setInterval(beginUnbox, 50)
+        }, 1000)
+    }
 });
 DOM.results.unboxBtn.addEventListener("pointerup", () => {
     clearInterval(holdUnbox);
@@ -3294,7 +3379,7 @@ function unusualPage(arg) {
 
 // Bulk unboxing code
 
-let bulkWorker = new Worker('./js/bulkWorker.js');
+let bulkWorker = new Worker('./js/bulkWorker.prod.js');
 let bulkSave;
 bulkWorker.onmessage = function(e) {
     if (e.data.item) {

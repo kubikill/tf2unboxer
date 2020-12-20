@@ -39,6 +39,7 @@ nav {
         .btn {
             max-width: 50%;
             flex-grow: 1;
+            flex-basis: 50%;
         }
     }
 
@@ -502,6 +503,9 @@ a.btn {
 #randomcratebtn {
     top: 18%;
 }
+#searchbtn {
+    top: 30%;
+}
 
 #previouscratebtn {
     left: -2.75vh;
@@ -612,6 +616,33 @@ a.btn {
     max-height: 70%;
 }
 
+#crategridsearch {
+    display: none;
+    height: 6%;
+    flex-wrap: none;
+    border-bottom: 0.5vh solid #554D4A;
+    .crategridsearchicon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-right: 0.5vh solid #554D4A;
+        width: 6vh;
+        .icon-search {
+            font-size: 2.8vh;
+        }
+    }
+}
+#crategridsearchinput {
+    background: none;
+    border: none;
+    flex-grow: 1;
+    flex-basis: 10%;
+    color: #EBE2CA;
+    font-family: "TF2 Build";
+    font-size: 2.5vh;
+    padding: 0 1vh;
+}
+
 #cratewindow {
     background-color: #292526;
     border: 0.5vh solid #554D4A;
@@ -621,6 +652,18 @@ a.btn {
     left: 3vh;
     top: 8%;
     height: 84%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &.showsearch.gridactive {
+        #crategrid {
+            flex-basis: 93%;
+        }
+        #crategridsearch {
+            display: flex;
+        }
+    }
 }
 
 #crateview {
@@ -638,6 +681,7 @@ a.btn {
     grid-gap: 1% 1%;
     overflow-x: hidden;
     overflow-y: auto;
+    margin-right: 7vh;
 }
 
 #cratemain {
@@ -1600,10 +1644,6 @@ div.visible {
     color: #7ea9d1;
 }
 
-#crategrid {
-    margin-right: 7vh;
-}
-
 #exitgridviewbtn {
     top: 6%;
 }
@@ -1827,7 +1867,7 @@ div.visible {
             }
         }
 
-        .mobile-btns [data-tooltip].tooltipmobilegridtop::after {
+        .gridactive [data-tooltip].tooltipmobilegridtop::after {
             top: initial;
             right: initial;
             bottom: 100%;
@@ -1878,7 +1918,7 @@ div.visible {
             height: 5vh;
         }
 
-        #cratewindow:not(.mobile-btns) {
+        #cratewindow:not(.gridactive) {
             #gridviewbtn {
                 top: initial;
                 bottom: 1%;
@@ -1889,6 +1929,15 @@ div.visible {
             }
 
             #randomcratebtn {
+                top: initial;
+                bottom: 1%;
+                left: initial;
+                right: 1vh;
+                height: 5vh;
+                width: 8vh;
+            }
+
+            #searchbtn {
                 top: initial;
                 bottom: 1%;
                 left: initial;
@@ -1916,7 +1965,7 @@ div.visible {
             }
         }
 
-        #cratewindow.mobile-btns {
+        #cratewindow.gridactive {
             padding-bottom: 6.5vh;
 
             >.btn {
@@ -1927,15 +1976,22 @@ div.visible {
             #exitgridviewbtn {
                 top: initial;
                 bottom: 0.75vh;
-                left: 33.3%;
-                transform: translateX(-50%);
+                left: 5%;
+                width: 26.66%;
             }
 
             #randomcratebtn {
                 top: initial;
                 bottom: 0.75vh;
-                right: 33.3%;
-                transform: translateX(50%);
+                left: 36.66%;
+                width: 26.66%;
+            }
+
+            #searchbtn {
+                top: initial;
+                bottom: 0.75vh;
+                right: 5%;
+                width: 26.66%;
             }
         }
 

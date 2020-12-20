@@ -380,7 +380,7 @@ let dataCrates = {
         eng: "Gun Mettle Cosmetic Case",
         pol: "Skrzynia ozdób aktualizacji „Siła charakteru”",
         sch: "枪魂饰品箱",
-        fre: "Caisse cosmétique Gun Mettle",
+        fre: "Caisse de cosmétiques Gun Mettle",
         bra: "Caixa de Cosméticos do Arsenal Artístico"
     },
     49: {
@@ -428,7 +428,7 @@ let dataCrates = {
         eng: "Tough Break Cosmetic Case",
         pol: "Skrzynia ozdób aktualizacji „Śniąteczne fatum”",
         sch: "艰难假日饰品箱",
-        fre: "Caisse cosmétique Tough Break",
+        fre: "Caisse de cosmétiques Tough Break",
         bra: "Caixa de Cosméticos das Férias Frustradas"
     },
     55: {
@@ -436,7 +436,7 @@ let dataCrates = {
         eng: "Mayflower Cosmetic Case",
         pol: "Skrzynia ozdób kwiecia majowego",
         sch: "五月花饰品箱",
-        fre: "Caisse cosmétique Mayflower",
+        fre: "Caisse de cosmétiques Mayflower",
         bra: "Caixa de Cosméticos da Flor de Maio"
     },
     56: {
@@ -460,7 +460,7 @@ let dataCrates = {
         eng: "Rainy Day Cosmetic Case",
         pol: "Skrzynia ozdób deszczowego dnia",
         sch: "雨季饰品箱",
-        fre: "Caisse cosmétique Rainy Day",
+        fre: "Caisse de cosmétiques Rainy Day",
         bra: "Caixa de Cosméticos do Dia Chuvoso"
     },
     59: {
@@ -498,7 +498,7 @@ let dataCrates = {
     63: {
         img: "war_paint_civilian_grade_keyless_case",
         eng: "Decorated War Hero War Paint Civilian Grade Keyless Case",
-        pol: "Barwy wojenne bohatera wojennego - Otwarta skrzynia stopnia cywil",
+        pol: "Barwy wojenne bohatera wojennego Otwarta skrzynia stopnia cywil",
         sch: "功勋英雄 民用级无锁战绘箱",
         fre: "Peinture de guerre Decorated War Hero Caisse ouverte de niveau Civil",
         bra: "Tinta de Guerra \"Veterano Condecorado\" Caixa Destrancada Nv. Civil"
@@ -506,7 +506,7 @@ let dataCrates = {
     64: {
         img: "war_paint_civilian_grade_keyless_case",
         eng: "Contract Campaigner War Paint Civilian Grade Keyless Case",
-        pol: "Barwy wojenne najemnika kontraktowego - Otwarta skrzynia stopnia cywil",
+        pol: "Barwy wojenne najemnika kontraktowego Otwarta skrzynia stopnia cywil",
         sch: "合同履行者 民用级无锁战绘箱",
         fre: "Peinture de guerre « Contract Campaigner » Caisse ouverte de niveau Civil",
         bra: "Tinta de Guerra \"Contratado da Campanha\" Caixa Destrancada Nv. Civil"
@@ -697,10 +697,16 @@ let dataCrates = {
     },
     88: {
         img: "winter_2020_cosmetic_case",
-        eng: "Winter 2020 Cosmetic Case"
+        eng: "Winter 2020 Cosmetic Case",
+        pol: "Zimowa skrzynia ozdób 2020",
+        bra: "Caixa de Cosméticos de Fim de Ano de 2020",
+        fre: "Caisse de cosmétiques d'hiver 2020"
     },
     89: {
         img: "winter_2020_war_paint_case",
-        eng: "Winter 2020 War Paint Case"
+        eng: "Winter 2020 War Paint Case",
+        pol: "Zimowa skrzynia barw wojennych 2020",
+        bra: "Caixa de Tintas de Guerra de Fim de Ano de 2020",
+        fre: "Caisse de peintures d'hiver 2020"
     }
 }
