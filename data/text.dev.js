@@ -193,7 +193,7 @@ var dataUi = {
     sch: "返回列表",
     bra: "Retornar à lista",
     fre: "Retour à la liste",
-    cze: "Zpátky do seznamu"
+    cze: "Zpátky do Inventáře"
   },
   25: {
     eng: "Changelog",
