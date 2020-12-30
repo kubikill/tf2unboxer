@@ -14,20 +14,31 @@ function reportError(message) {
     })
 }
 // Compressed function for deep merging objects. a - target object, b - source object
-const mergeDeep = (a, b) => { for (const c of Object.keys(b)) b[c] instanceof Object && c in a && Object.assign(b[c], mergeDeep(a[c], b[c])); return Object.assign(a || {}, b), a };
+const mergeDeep = (a, b) => {
+    for (const c of Object.keys(b)) b[c] instanceof Object && c in a && Object.assign(b[c], mergeDeep(a[c], b[c]));
+    return Object.assign(a || {}, b), a
+};
 
 // Swipe events - https://github.com/john-doherty/swiped-events
-! function(t, e) {
+! function (t, e) {
     "use strict";
-    "function" != typeof t.CustomEvent && (t.CustomEvent = function(t, n) { n = n || { bubbles: !1, cancelable: !1, detail: void 0 }; var a = e.createEvent("CustomEvent"); return a.initCustomEvent(t, n.bubbles, n.cancelable, n.detail), a }, t.CustomEvent.prototype = t.Event.prototype), e.addEventListener("touchstart", function(t) {
+    "function" != typeof t.CustomEvent && (t.CustomEvent = function (t, n) {
+        n = n || {
+            bubbles: !1,
+            cancelable: !1,
+            detail: void 0
+        };
+        var a = e.createEvent("CustomEvent");
+        return a.initCustomEvent(t, n.bubbles, n.cancelable, n.detail), a
+    }, t.CustomEvent.prototype = t.Event.prototype), e.addEventListener("touchstart", function (t) {
         if ("true" === t.target.getAttribute("data-swipe-ignore")) return;
         s = t.target, r = Date.now(), n = t.touches[0].clientX, a = t.touches[0].clientY, u = 0, i = 0
-    }, !1), e.addEventListener("touchmove", function(t) {
+    }, !1), e.addEventListener("touchmove", function (t) {
         if (!n || !a) return;
         var e = t.touches[0].clientX,
             r = t.touches[0].clientY;
         u = n - e, i = a - r
-    }, !1), e.addEventListener("touchend", function(t) {
+    }, !1), e.addEventListener("touchend", function (t) {
         if (s !== t.target) return;
         var e = parseInt(l(s, "data-swipe-threshold", "20"), 10),
             o = parseInt(l(s, "data-swipe-timeout", "500"), 10),
@@ -36,8 +47,22 @@ const mergeDeep = (a, b) => { for (const c of Object.keys(b)) b[c] instanceof Ob
             p = t.changedTouches || t.touches || [];
         Math.abs(u) > Math.abs(i) ? Math.abs(u) > e && c < o && (d = u > 0 ? "swiped-left" : "swiped-right") : Math.abs(i) > e && c < o && (d = i > 0 ? "swiped-up" : "swiped-down");
         if ("" !== d) {
-            var b = { dir: d.replace(/swiped-/, ""), xStart: parseInt(n, 10), xEnd: parseInt((p[0] || {}).clientX || -1, 10), yStart: parseInt(a, 10), yEnd: parseInt((p[0] || {}).clientY || -1, 10) };
-            s.dispatchEvent(new CustomEvent("swiped", { bubbles: !0, cancelable: !0, detail: b })), s.dispatchEvent(new CustomEvent(d, { bubbles: !0, cancelable: !0, detail: b }))
+            var b = {
+                dir: d.replace(/swiped-/, ""),
+                xStart: parseInt(n, 10),
+                xEnd: parseInt((p[0] || {}).clientX || -1, 10),
+                yStart: parseInt(a, 10),
+                yEnd: parseInt((p[0] || {}).clientY || -1, 10)
+            };
+            s.dispatchEvent(new CustomEvent("swiped", {
+                bubbles: !0,
+                cancelable: !0,
+                detail: b
+            })), s.dispatchEvent(new CustomEvent(d, {
+                bubbles: !0,
+                cancelable: !0,
+                detail: b
+            }))
         }
         n = null, a = null, r = null
     }, !1);
@@ -72,13 +97,13 @@ function generateRandomString() {
 // Detect WebP support
 let imageSupport = ".webp";
 let webpTest = new Image();
-webpTest.onload = function() {
+webpTest.onload = function () {
     if (webpTest.height != 2) {
         imageSupport = ".png";
         console.log("WebP is unsupported - failed image height check");
     }
 };
-webpTest.onerror = function() {
+webpTest.onerror = function () {
     imageSupport = ".png";
     console.log("WebP is unsupported - failed to load image");
 };
@@ -1216,7 +1241,7 @@ function generateCrateDetails(crate, el, saveObj, bonus) {
 }
 
 // Keyboard events
-document.addEventListener('keydown', function(event) {
+document.addEventListener('keydown', function (event) {
     if (DOM.main.crateWindow.classList.contains("showsearch") && event.code == 'Enter') {
         selectFirstCrateFromSearch();
     } else if (event.code == 'Enter' || event.code == 'Space') {
@@ -1319,6 +1344,9 @@ function changeLanguage(lang) {
             break;
         case "bra":
             document.documentElement.lang = "pt-BR";
+            break;
+        case "cze":
+            document.documentElement.lang = "cs";
             break;
     }
     jumpToCrate(currentCrate);
@@ -2344,7 +2372,7 @@ function beginUnbox() { // This function handles the unbox countdown and shows t
         // Dot animation
         let dotAnimPos = 2;
         DOM.unboxing.dots.innerHTML = ".";
-        let dotAnimation = setInterval(function() {
+        let dotAnimation = setInterval(function () {
             switch (dotAnimPos) {
                 case 0:
                     DOM.unboxing.dots.innerHTML = "&nbsp;";
@@ -2367,7 +2395,7 @@ function beginUnbox() { // This function handles the unbox countdown and shows t
         // Countdown
         let secondsUntilUnbox = 5;
         DOM.unboxing.countdown.innerHTML = secondsUntilUnbox;
-        let uncratingCountdown = setInterval(function() {
+        let uncratingCountdown = setInterval(function () {
             secondsUntilUnbox -= 1;
             DOM.unboxing.countdown.innerHTML = secondsUntilUnbox;
             if (secondsUntilUnbox == 0) {
@@ -2958,10 +2986,10 @@ function generateGrid() {
     gridDivs = DOM.main.crateGrid.querySelectorAll("div");
     gridNames = [];
     for (let i = 0; i < gridDivs.length; i++) {
-        gridDivs[i].addEventListener("pointerdown", function() {
+        gridDivs[i].addEventListener("pointerdown", function () {
             sound.play("btn");
         });
-        gridDivs[i].addEventListener("click", function() {
+        gridDivs[i].addEventListener("click", function () {
             sound.play("btnRelease");
             jumpToCrate(parseInt(this.getAttribute("cratenum")));
             exitGridView();
@@ -3381,7 +3409,7 @@ function unusualPage(arg) {
 
 let bulkWorker = new Worker('./js/bulkWorker.prod.js');
 let bulkSave;
-bulkWorker.onmessage = function(e) {
+bulkWorker.onmessage = function (e) {
     if (e.data.item) {
         if (!save.options.forceUnusual && !save.options.forceUnusualifier && !save.options.forceStrange && !save.options.forceGrade && !save.options.forceProKit && !save.options.forceBonusItem) {
             addToInventory(e.data.item, save);
@@ -3507,6 +3535,13 @@ window.onload = () => {
                     changeLanguage("sch");
                     save.options.language = "sch";
                     DOM.options.langDropdown.value = "sch";
+                    localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
+                    i = navigator.languages.length;
+                    break;
+                case "cs":
+                    changeLanguage("cze");
+                    save.options.language = "cze";
+                    DOM.options.langDropdown.value = "cze";
                     localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
                     i = navigator.languages.length;
                     break;

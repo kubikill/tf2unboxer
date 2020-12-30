@@ -1516,6 +1516,10 @@ function changeLanguage(lang) {
     case "bra":
       document.documentElement.lang = "pt-BR";
       break;
+
+    case "cze":
+      document.documentElement.lang = "cs";
+      break;
   }
 
   jumpToCrate(currentCrate);
@@ -4420,6 +4424,14 @@ window.onload = function () {
           changeLanguage("sch");
           save.options.language = "sch";
           DOM.options.langDropdown.value = "sch";
+          localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
+          _i7 = navigator.languages.length;
+          break;
+
+        case "cs":
+          changeLanguage("cze");
+          save.options.language = "cze";
+          DOM.options.langDropdown.value = "cze";
           localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
           _i7 = navigator.languages.length;
           break;
