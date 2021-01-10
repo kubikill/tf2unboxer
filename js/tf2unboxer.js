@@ -2969,7 +2969,7 @@ function addToStats(unboxResult, saveObj, saveToStorage) {
 
 // Generate grid
 
-let gridDivs;
+let gridDivs = null;
 let gridNames = [];
 
 function generateGrid() {
@@ -3012,6 +3012,9 @@ function exitGridView() {
 }
 
 function searchGrid(input) {
+    if (gridDivs === null) {
+        return 0;
+    }
     let searchName = input.toLowerCase();
     if (searchName.length > 0) {
         for (let i = 0; i < gridDivs.length; i++) {

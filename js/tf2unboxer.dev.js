@@ -3785,7 +3785,7 @@ function addToStats(unboxResult, saveObj, saveToStorage) {
 } // Generate grid
 
 
-var gridDivs;
+var gridDivs = null;
 var gridNames = [];
 
 function generateGrid() {
@@ -3829,6 +3829,10 @@ function exitGridView() {
 }
 
 function searchGrid(input) {
+  if (gridDivs === null) {
+    return 0;
+  }
+
   var searchName = input.toLowerCase();
 
   if (searchName.length > 0) {
