@@ -10,7 +10,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function () {
-    navigator.serviceWorker.register('./sw.js');
+    navigator.serviceWorker.register('./sw.prod.js');
   });
 } // Function for reporting errors to analytics
 
