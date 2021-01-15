@@ -577,13 +577,8 @@ new Crate({
   id: 14,
   series: 58,
   effects: roboFX,
-  note: 7,
-  unusual: 3,
-  autoChance: 2,
-  exclusiveBonus: {
-    loot: [1665],
-    chance: 1000
-  }
+  unusual: 1,
+  autoChance: 2
 }), new Crate({
   id: 1,
   series: 59,
@@ -3166,52 +3161,52 @@ cA[57].loot = [new Item({
   quality: 1
 }), new Item({
   id: 387,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 388,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 389,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 390,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 391,
   quality: 1
 }), new Item({
   id: 392,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 393,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 394,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 395,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 396,
   quality: 1
 }), new Item({
   id: 397,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 398,
   quality: 1
 }), new Item({
   id: 399,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 400,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 401,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 402,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 403,
   quality: 1
@@ -3220,73 +3215,73 @@ cA[57].loot = [new Item({
   quality: 1
 }), new Item({
   id: 405,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 406,
   quality: 1
 }), new Item({
   id: 407,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 408,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 409,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 410,
   quality: 1
 }), new Item({
   id: 411,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 412,
   quality: 1
 }), new Item({
   id: 413,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 414,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 415,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 416,
   quality: 1
 }), new Item({
   id: 417,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 418,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 419,
   quality: 1
 }), new Item({
   id: 420,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 421,
   quality: 1
 }), new Item({
   id: 422,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 423,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 424,
   quality: 1
 }), new Item({
   id: 425,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 426,
   quality: 1
 }), new Item({
   id: 427,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 428,
   quality: 1
@@ -3295,40 +3290,40 @@ cA[57].loot = [new Item({
   quality: 1
 }), new Item({
   id: 430,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 431,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 432,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 433,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 434,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 435,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 436,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 437,
   quality: 1
 }), new Item({
   id: 438,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 439,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 440,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 441,
-  quality: 7
+  quality: 1
 }), new Item({
   id: 442,
   quality: 1
