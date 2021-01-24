@@ -1288,7 +1288,7 @@ new Crate({
 }), new Crate({
   id: 88,
   series: 130,
-  effects: xmas20FX,
+  effects: xmas20FX.concat(allGensFX),
   note: 5,
   unusual: 2,
   autoChance: 1,

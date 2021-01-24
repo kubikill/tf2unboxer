@@ -320,7 +320,7 @@ let cA = [
     new Crate({ id: 85, series: 127, effects: summer20FX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
     new Crate({ id: 86, series: 128, effects: hw20FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [966, 967, 968, 969, 970, 971], chance: 5000}}),
     new Crate({ id: 87, series: 129, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
-    new Crate({ id: 88, series: 130, effects: xmas20FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [972], chance: 4000}, oneExclusiveBonus: true}), /* [145] */
+    new Crate({ id: 88, series: 130, effects: xmas20FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [972], chance: 4000}, oneExclusiveBonus: true}), /* [145] */
     new Crate({ id: 89, series: 131, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true})
 ];
 // This is the order the crates will show up in the menu
