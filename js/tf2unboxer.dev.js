@@ -1520,6 +1520,10 @@ function changeLanguage(lang) {
     case "cze":
       document.documentElement.lang = "cs";
       break;
+
+    case "hun":
+      document.documentElement.lang = "hu";
+      break;
   }
 
   jumpToCrate(currentCrate);
@@ -1533,7 +1537,7 @@ function getSeries(id) {
   if (id == 0) {
     return getString("ui", 76);
   } else {
-    return getString("ui", 75) + id;
+    return getString("ui", 75).replace("(NUM)", id);
   }
 } // Sound
 
@@ -4436,6 +4440,14 @@ window.onload = function () {
           changeLanguage("cze");
           save.options.language = "cze";
           DOM.options.langDropdown.value = "cze";
+          localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
+          _i7 = navigator.languages.length;
+          break;
+
+        case "hu":
+          changeLanguage("hun");
+          save.options.language = "hun";
+          DOM.options.langDropdown.value = "hun";
           localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
           _i7 = navigator.languages.length;
           break;
