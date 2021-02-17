@@ -591,7 +591,7 @@ let dataUi = {
         sch: '稀有效果图像由 <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a> 制作',
         bra: 'Imagens de efeitos incomuns feito por <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a>',
         fre: "Images d'effets Inhabituels faites par <a href='https://backpack.tf'>backpack.tf</a>",
-        eng: 'Obrázky Unusual efektů ze stránky <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a>',
+        cze: 'Obrázky Unusual efektů ze stránky <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a>',
         hun: 'Rendkívüli effekt képeket készítette: <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a>'
     },
     67: {
@@ -622,13 +622,13 @@ let dataUi = {
         hun: "Fordítók:"
     },
     70: {
-        eng: 'Simplified Chinese - <a href="https://steamcommunity.com/id/deluxghost/" target="_blank" rel="noopener">deluxghost</a>',
-        pol: 'Chiński (uproszczony) - <a href="https://steamcommunity.com/id/deluxghost/" target="_blank" rel="noopener">deluxghost</a>',
-        sch: '‪中文（简体） - <a href="https://steamcommunity.com/id/deluxghost/" target="_blank" rel="noopener">deluxghost</a>',
-        bra: 'Chinês Simplificado - <a href="https://steamcommunity.com/id/deluxghost/" target="_blank" rel="noopener">deluxghost</a>',
-        fre: 'Chinois simplifié - <a href="https://steamcommunity.com/id/deluxghost/" target="_blank" rel="noopener">deluxghost</a>',
-        cze: 'Zjednodušená Čínština - <a href="https://steamcommunity.com/id/deluxghost/" target="_blank" rel="noopener">deluxghost</a>',
-        hun: 'Egyszerűsített kínai - <a href="https://steamcommunity.com/id/deluxghost/" target="_blank" rel="noopener">deluxghost</a>'
+        eng: 'Simplified Chinese',
+        pol: 'Chiński (uproszczony)',
+        sch: '‪中文（简体）',
+        bra: 'Chinês Simplificado',
+        fre: 'Chinois simplifié',
+        cze: 'Zjednodušená Čínština',
+        hun: 'Egyszerűsített kínai'
     },
     71: {
         eng: "Strange",

@@ -1,6 +1,6 @@
 "use strict";
 
-var _, _2, _3;
+var _, _2;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -588,13 +588,15 @@ var dataUi = {
     cze: 'Speciální poděkování <a href="https://steamcommunity.com/profiles/76561198117761965" target="_blank" rel="noopener">Gornovi</a>',
     hun: 'Külön köszönet <a href="https://steamcommunity.com/profiles/76561198117761965" target="_blank" rel="noopener">Gornonak</a>'
   },
-  66: (_2 = {
+  66: {
     eng: 'Unusual effect images made by <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a>',
     pol: 'Obrazki efektów Nietypowych Okazów stworzone przez <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a>',
     sch: '稀有效果图像由 <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a> 制作',
     bra: 'Imagens de efeitos incomuns feito por <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a>',
-    fre: "Images d'effets Inhabituels faites par <a href='https://backpack.tf'>backpack.tf</a>"
-  }, _defineProperty(_2, "eng", 'Obrázky Unusual efektů ze stránky <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a>'), _defineProperty(_2, "hun", 'Rendkívüli effekt képeket készítette: <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a>'), _2),
+    fre: "Images d'effets Inhabituels faites par <a href='https://backpack.tf'>backpack.tf</a>",
+    cze: 'Obrázky Unusual efektů ze stránky <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a>',
+    hun: 'Rendkívüli effekt képeket készítette: <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a>'
+  },
   67: {
     eng: "Bulk unboxing",
     pol: "Otwórz wiele skrzynek",
@@ -623,13 +625,13 @@ var dataUi = {
     hun: "Fordítók:"
   },
   70: {
-    eng: 'Simplified Chinese - <a href="https://steamcommunity.com/id/deluxghost/" target="_blank" rel="noopener">deluxghost</a>',
-    pol: 'Chiński (uproszczony) - <a href="https://steamcommunity.com/id/deluxghost/" target="_blank" rel="noopener">deluxghost</a>',
-    sch: '‪中文（简体） - <a href="https://steamcommunity.com/id/deluxghost/" target="_blank" rel="noopener">deluxghost</a>',
-    bra: 'Chinês Simplificado - <a href="https://steamcommunity.com/id/deluxghost/" target="_blank" rel="noopener">deluxghost</a>',
-    fre: 'Chinois simplifié - <a href="https://steamcommunity.com/id/deluxghost/" target="_blank" rel="noopener">deluxghost</a>',
-    cze: 'Zjednodušená Čínština - <a href="https://steamcommunity.com/id/deluxghost/" target="_blank" rel="noopener">deluxghost</a>',
-    hun: 'Egyszerűsített kínai - <a href="https://steamcommunity.com/id/deluxghost/" target="_blank" rel="noopener">deluxghost</a>'
+    eng: 'Simplified Chinese',
+    pol: 'Chiński (uproszczony)',
+    sch: '‪中文（简体）',
+    bra: 'Chinês Simplificado',
+    fre: 'Chinois simplifié',
+    cze: 'Zjednodušená Čínština',
+    hun: 'Egyszerűsített kínai'
   },
   71: {
     eng: "Strange",
@@ -1677,13 +1679,13 @@ var dataUi = {
   191: {
     eng: ""
   },
-  192: (_3 = {
+  192: (_2 = {
     eng: 'You can donate with <a href="https://paypal.me/kubikill" target="_blank" rel="noopener">PayPal</a> or <a href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo" target="_blank" rel="noopener">TF2/Steam items</a>.<br>Brave Browser users can donate using BAT from within the browser.',
     pol: 'Możesz przekazać darowiznę przez <a href="https://paypal.me/kubikill" target="_blank" rel="noopener">PayPal</a> lub <a href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo" target="_blank" rel="noopener">przedmioty TF2/Steam</a>.<br>Użytkownicy przeglądarki Brave Browser mogą przekazać darowiznę w BAT z poziomu przeglądarki.',
     sch: '您可以通过 <a href="https://paypal.me/kubikill" target="_blank" rel="noopener">PayPal</a> 捐赠现金或向我发送 <a href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo" target="_blank" rel="noopener">TF2/Steam 物品</a>。<br>Brave 浏览器的用户还可以捐赠浏览器内的 BAT 代币。',
     bra: 'Você pode doar com <a href="https://paypal.me/kubikill" target="_blank" rel="noopener">PayPal</a> ou <a href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo" target="_blank" rel="noopener">itens da Steam/TF2</a>.<br>Usuários de Brave Browser podem doar usando BAT pelo navegador deles.',
     fre: 'Vous pouvez faire un don via <a href="https://paypal.me/kubikill">PayPal</a> ou avec des <a href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo">TF2/objets Steam</a>.<br>Brave Browser les usagers peuvent donner en utilisant BAT dans leur fureteur'
-  }, _defineProperty(_3, "eng", 'Můžete přispět skrze <a href="https://paypal.me/kubikill" target="_blank" rel="noopener">PayPal</a> nebo <a href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo" target="_blank" rel="noopener">TF2/Steam předměty</a>.<br>Odvážní uživatelé prohlížeče mohou darovat pomocí BAT přímo z prohlížeče.'), _defineProperty(_3, "hun", 'Adományozni tudsz itt: <a href="https://paypal.me/kubikill" target="_blank" rel="noopener">PayPal</a> vagy itt: <a href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo" target="_blank" rel="noopener">TF2/Steam items</a>.<br>Brave Browser felhasználók tudnak adományozni BAT felhasználásával a böngészőn belül.'), _3),
+  }, _defineProperty(_2, "eng", 'Můžete přispět skrze <a href="https://paypal.me/kubikill" target="_blank" rel="noopener">PayPal</a> nebo <a href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo" target="_blank" rel="noopener">TF2/Steam předměty</a>.<br>Odvážní uživatelé prohlížeče mohou darovat pomocí BAT přímo z prohlížeče.'), _defineProperty(_2, "hun", 'Adományozni tudsz itt: <a href="https://paypal.me/kubikill" target="_blank" rel="noopener">PayPal</a> vagy itt: <a href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo" target="_blank" rel="noopener">TF2/Steam items</a>.<br>Brave Browser felhasználók tudnak adományozni BAT felhasználásával a böngészőn belül.'), _2),
   193: {
     eng: 'French',
     pol: 'Francuski',
