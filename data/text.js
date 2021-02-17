@@ -564,7 +564,7 @@ let dataUi = {
         sch: "用您自己的方式摧毁游戏内经济！此选项可以让您总是开出稀有、奇异、职业连杀记录式或者指定等级的物品，以及额外奖励物品。<br>启用此处任何选项都会禁用统计与存档！",
         bra: "Destrua a economia no seu estilo! Essa opção te deixa sempre desencaixotar itens Incomuns, Estranhos, Kits de Combo Profissionais, itens de bônus ou itens de nível especifico.<br>Ativando qualquer uma dessas opções vai desativar estatísticas e a habilidade de salvar a sua data!",
         fre: "Ruinez l'économie à votre façon! Cette option vous laisse ouvrir que des Inhabituels, Étranges, kits de killstreak professionels, objets bonis ou objets d'un grade spécifique.<br>Activer une ce des options désactive les statistiques et la sauvegarde!",
-        eng: "Znič ekonomiku ve svém vlastním stylu! Tato možnost ti umožňí pokaždé získat Unusual nebo Strange předmět, případně prof. killstreak kit, bonusové předměty, nebo předmět určité kvality.<br>Povolením této funkce se pozastaví ukládání statistiky a historie otevření!",
+        cze: "Znič ekonomiku ve svém vlastním stylu! Tato možnost ti umožňí pokaždé získat Unusual nebo Strange předmět, případně prof. killstreak kit, bonusové předměty, nebo předmět určité kvality.<br>Povolením této funkce se pozastaví ukládání statistiky a historie otevření!",
         hun: "Tedd tönkre a gazdaságot a saját stílusodban! Ezekkel a beállításokkal elérheted, hogy mindig Rendkívüliket, Furákat, Hivatásos ámokfutás készleteket, bónusz tárgyakat vagy tárgyakat bizonyos fokozatba nyiss ki. Bármelyik bekapcsolása esetén nem számítanak bele a statisztikákba és nem lesz elmentve sem!"
     },
     64: {
@@ -1682,7 +1682,7 @@ let dataUi = {
         sch: '您可以通过 <a href="https://paypal.me/kubikill" target="_blank" rel="noopener">PayPal</a> 捐赠现金或向我发送 <a href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo" target="_blank" rel="noopener">TF2/Steam 物品</a>。<br>Brave 浏览器的用户还可以捐赠浏览器内的 BAT 代币。',
         bra: 'Você pode doar com <a href="https://paypal.me/kubikill" target="_blank" rel="noopener">PayPal</a> ou <a href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo" target="_blank" rel="noopener">itens da Steam/TF2</a>.<br>Usuários de Brave Browser podem doar usando BAT pelo navegador deles.',
         fre: 'Vous pouvez faire un don via <a href="https://paypal.me/kubikill">PayPal</a> ou avec des <a href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo">TF2/objets Steam</a>.<br>Brave Browser les usagers peuvent donner en utilisant BAT dans leur fureteur',
-        eng: 'Můžete přispět skrze <a href="https://paypal.me/kubikill" target="_blank" rel="noopener">PayPal</a> nebo <a href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo" target="_blank" rel="noopener">TF2/Steam předměty</a>.<br>Odvážní uživatelé prohlížeče mohou darovat pomocí BAT přímo z prohlížeče.',
+        cze: 'Můžete přispět skrze <a href="https://paypal.me/kubikill" target="_blank" rel="noopener">PayPal</a> nebo <a href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo" target="_blank" rel="noopener">TF2/Steam předměty</a>.<br>Odvážní uživatelé prohlížeče mohou darovat pomocí BAT přímo z prohlížeče.',
         hun: 'Adományozni tudsz itt: <a href="https://paypal.me/kubikill" target="_blank" rel="noopener">PayPal</a> vagy itt: <a href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo" target="_blank" rel="noopener">TF2/Steam items</a>.<br>Brave Browser felhasználók tudnak adományozni BAT felhasználásával a böngészőn belül.'
     },
     193: {
