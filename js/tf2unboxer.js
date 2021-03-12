@@ -2506,8 +2506,18 @@ function beginUnbox() { // This function handles the unbox countdown and shows t
             }
 
             if (strangeStringPosition === "left") {
-                for (let quality in tempQualityName) {
-                    tempQualityName[quality] = tempQualityName[quality].replace("(", "").replace(")", "");
+                try {
+                    for (let quality in tempQualityName) {
+                        tempQualityName[quality] = tempQualityName[quality].replace("(", "").replace(")", "");
+                    }
+                } catch {
+                    let errMsg = "Error in strangeStringPosition! tempQualityName dump: \n ["
+                    for (let item of tempQualityName) {
+                        errMsg += `${item}, `;
+                    }
+                    errMsg += "]";
+                    console.error(errMsg);
+                    reportError(errMsg);
                 }
                 DOM.results.lootName.innerHTML = `${tempQualityName.join(" ")} ${completeLootName}`;
             } else {
