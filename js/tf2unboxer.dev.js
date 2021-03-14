@@ -2765,13 +2765,13 @@ function beginUnbox() {
           break;
 
         case "tauntunusualifier":
-          var _iteratorNormalCompletion21 = true;
-          var _didIteratorError21 = false;
-          var _iteratorError21 = undefined;
+          var _iteratorNormalCompletion20 = true;
+          var _didIteratorError20 = false;
+          var _iteratorError20 = undefined;
 
           try {
-            for (var _iterator21 = unboxResult.bonus[Symbol.iterator](), _step21; !(_iteratorNormalCompletion21 = (_step21 = _iterator21.next()).done); _iteratorNormalCompletion21 = true) {
-              var _bonusItem6 = _step21.value;
+            for (var _iterator20 = unboxResult.bonus[Symbol.iterator](), _step20; !(_iteratorNormalCompletion20 = (_step20 = _iterator20.next()).done); _iteratorNormalCompletion20 = true) {
+              var _bonusItem6 = _step20.value;
 
               if (_bonusItem6.id === 770) {
                 pauseUnboxing();
@@ -2779,16 +2779,16 @@ function beginUnbox() {
               }
             }
           } catch (err) {
-            _didIteratorError21 = true;
-            _iteratorError21 = err;
+            _didIteratorError20 = true;
+            _iteratorError20 = err;
           } finally {
             try {
-              if (!_iteratorNormalCompletion21 && _iterator21["return"] != null) {
-                _iterator21["return"]();
+              if (!_iteratorNormalCompletion20 && _iterator20["return"] != null) {
+                _iterator20["return"]();
               }
             } finally {
-              if (_didIteratorError21) {
-                throw _iteratorError21;
+              if (_didIteratorError20) {
+                throw _iteratorError20;
               }
             }
           }
@@ -3058,39 +3058,10 @@ function beginUnbox() {
       }
 
       if (strangeStringPosition === "left") {
-        try {
-          for (var quality in tempQualityName) {
+        for (var quality in tempQualityName) {
+          if (typeof tempQualityName[quality] === 'string' || tempQualityName[quality] instanceof String) {
             tempQualityName[quality] = tempQualityName[quality].replace("(", "").replace(")", "");
           }
-        } catch (_unused) {
-          var errMsg = "Error in strangeStringPosition! tempQualityName dump: \n [";
-          var _iteratorNormalCompletion19 = true;
-          var _didIteratorError19 = false;
-          var _iteratorError19 = undefined;
-
-          try {
-            for (var _iterator19 = tempQualityName[Symbol.iterator](), _step19; !(_iteratorNormalCompletion19 = (_step19 = _iterator19.next()).done); _iteratorNormalCompletion19 = true) {
-              var _item8 = _step19.value;
-              errMsg += "".concat(_item8, ", ");
-            }
-          } catch (err) {
-            _didIteratorError19 = true;
-            _iteratorError19 = err;
-          } finally {
-            try {
-              if (!_iteratorNormalCompletion19 && _iterator19["return"] != null) {
-                _iterator19["return"]();
-              }
-            } finally {
-              if (_didIteratorError19) {
-                throw _iteratorError19;
-              }
-            }
-          }
-
-          errMsg += "]";
-          console.error(errMsg);
-          reportError(errMsg);
         }
 
         DOM.results.lootName.innerHTML = "".concat(tempQualityName.join(" "), " ").concat(completeLootName);
@@ -3106,13 +3077,13 @@ function beginUnbox() {
 
         if (unboxResult.bonus.length > 0) {
           var bonusHTML = "";
-          var _iteratorNormalCompletion20 = true;
-          var _didIteratorError20 = false;
-          var _iteratorError20 = undefined;
+          var _iteratorNormalCompletion19 = true;
+          var _didIteratorError19 = false;
+          var _iteratorError19 = undefined;
 
           try {
-            for (var _iterator20 = unboxResult.bonus[Symbol.iterator](), _step20; !(_iteratorNormalCompletion20 = (_step20 = _iterator20.next()).done); _iteratorNormalCompletion20 = true) {
-              var _bonusItem5 = _step20.value;
+            for (var _iterator19 = unboxResult.bonus[Symbol.iterator](), _step19; !(_iteratorNormalCompletion19 = (_step19 = _iterator19.next()).done); _iteratorNormalCompletion19 = true) {
+              var _bonusItem5 = _step19.value;
 
               if (_bonusItem5.taunt != undefined) {
                 bonusHTML += "<div class=\"unusual\"><img src=\"./images/item/".concat(getImg("item", _bonusItem5.id), "\">\n                    <img class=\"unusualifierimg\" src=\"./images/item/").concat(getImg("item", _bonusItem5.taunt), "\">\n                <div class=\"bonustooltip colorunusual\">").concat(getString("item", _bonusItem5.id).replace("#ITEM#", getString("item", _bonusItem5.taunt)), "</div>\n                </div>");
@@ -3140,16 +3111,16 @@ function beginUnbox() {
               }
             }
           } catch (err) {
-            _didIteratorError20 = true;
-            _iteratorError20 = err;
+            _didIteratorError19 = true;
+            _iteratorError19 = err;
           } finally {
             try {
-              if (!_iteratorNormalCompletion20 && _iterator20["return"] != null) {
-                _iterator20["return"]();
+              if (!_iteratorNormalCompletion19 && _iterator19["return"] != null) {
+                _iterator19["return"]();
               }
             } finally {
-              if (_didIteratorError20) {
-                throw _iteratorError20;
+              if (_didIteratorError19) {
+                throw _iteratorError19;
               }
             }
           }
@@ -3287,15 +3258,53 @@ function addToInventory(unboxResult, saveObj, saveToStorage) {
         var found = false;
 
         if (unboxResult.killstreak.killstreaker) {
+          var _iteratorNormalCompletion21 = true;
+          var _didIteratorError21 = false;
+          var _iteratorError21 = undefined;
+
+          try {
+            for (var _iterator21 = saveObj.crates[crateOrder[currentCrate]][unboxResult.cratePos].p[Symbol.iterator](), _step21; !(_iteratorNormalCompletion21 = (_step21 = _iterator21.next()).done); _iteratorNormalCompletion21 = true) {
+              var _item8 = _step21.value;
+
+              if (_item8.s === unboxResult.killstreak.sheen && _item8.p === unboxResult.killstreak.killstreaker) {
+                itemNum = _item8.n += 1;
+                found = true;
+                break;
+              }
+            }
+          } catch (err) {
+            _didIteratorError21 = true;
+            _iteratorError21 = err;
+          } finally {
+            try {
+              if (!_iteratorNormalCompletion21 && _iterator21["return"] != null) {
+                _iterator21["return"]();
+              }
+            } finally {
+              if (_didIteratorError21) {
+                throw _iteratorError21;
+              }
+            }
+          }
+
+          if (!found) {
+            itemNum = 1;
+            saveObj.crates[crateOrder[currentCrate]][unboxResult.cratePos].p.push({
+              n: 1,
+              s: unboxResult.killstreak.sheen,
+              k: unboxResult.killstreak.killstreaker
+            });
+          }
+        } else if (unboxResult.killstreak.sheen) {
           var _iteratorNormalCompletion22 = true;
           var _didIteratorError22 = false;
           var _iteratorError22 = undefined;
 
           try {
-            for (var _iterator22 = saveObj.crates[crateOrder[currentCrate]][unboxResult.cratePos].p[Symbol.iterator](), _step22; !(_iteratorNormalCompletion22 = (_step22 = _iterator22.next()).done); _iteratorNormalCompletion22 = true) {
+            for (var _iterator22 = saveObj.crates[crateOrder[currentCrate]][unboxResult.cratePos].s[Symbol.iterator](), _step22; !(_iteratorNormalCompletion22 = (_step22 = _iterator22.next()).done); _iteratorNormalCompletion22 = true) {
               var _item9 = _step22.value;
 
-              if (_item9.s === unboxResult.killstreak.sheen && _item9.p === unboxResult.killstreak.killstreaker) {
+              if (_item9.s === unboxResult.killstreak.sheen) {
                 itemNum = _item9.n += 1;
                 found = true;
                 break;
@@ -3318,44 +3327,6 @@ function addToInventory(unboxResult, saveObj, saveToStorage) {
 
           if (!found) {
             itemNum = 1;
-            saveObj.crates[crateOrder[currentCrate]][unboxResult.cratePos].p.push({
-              n: 1,
-              s: unboxResult.killstreak.sheen,
-              k: unboxResult.killstreak.killstreaker
-            });
-          }
-        } else if (unboxResult.killstreak.sheen) {
-          var _iteratorNormalCompletion23 = true;
-          var _didIteratorError23 = false;
-          var _iteratorError23 = undefined;
-
-          try {
-            for (var _iterator23 = saveObj.crates[crateOrder[currentCrate]][unboxResult.cratePos].s[Symbol.iterator](), _step23; !(_iteratorNormalCompletion23 = (_step23 = _iterator23.next()).done); _iteratorNormalCompletion23 = true) {
-              var _item10 = _step23.value;
-
-              if (_item10.s === unboxResult.killstreak.sheen) {
-                itemNum = _item10.n += 1;
-                found = true;
-                break;
-              }
-            }
-          } catch (err) {
-            _didIteratorError23 = true;
-            _iteratorError23 = err;
-          } finally {
-            try {
-              if (!_iteratorNormalCompletion23 && _iterator23["return"] != null) {
-                _iterator23["return"]();
-              }
-            } finally {
-              if (_didIteratorError23) {
-                throw _iteratorError23;
-              }
-            }
-          }
-
-          if (!found) {
-            itemNum = 1;
             saveObj.crates[crateOrder[currentCrate]][unboxResult.cratePos].s.push({
               n: 1,
               s: unboxResult.killstreak.sheen
@@ -3372,13 +3343,13 @@ function addToInventory(unboxResult, saveObj, saveToStorage) {
     }
   }
 
-  var _iteratorNormalCompletion24 = true;
-  var _didIteratorError24 = false;
-  var _iteratorError24 = undefined;
+  var _iteratorNormalCompletion23 = true;
+  var _didIteratorError23 = false;
+  var _iteratorError23 = undefined;
 
   try {
     var _loop = function _loop() {
-      var bonusItem = _step24.value;
+      var bonusItem = _step23.value;
 
       if (currentCrateObj.exclusiveBonus.loot != undefined && currentCrateObj.exclusiveBonus.loot.includes(bonusItem.id)) {
         saveObj.crates[crateOrder[currentCrate]][currentCrateObj.loot.length + currentCrateObj.exclusiveBonus.loot.findIndex(function (arrayItem) {
@@ -3393,17 +3364,54 @@ function addToInventory(unboxResult, saveObj, saveToStorage) {
           saveObj.crates[crateOrder[currentCrate]][currentCrateObj.loot.length + bonusItemPos].n++;
         } else if (bonusItem.killstreak.killstreaker === null) {
           var _found = false;
+          var _iteratorNormalCompletion24 = true;
+          var _didIteratorError24 = false;
+          var _iteratorError24 = undefined;
+
+          try {
+            for (var _iterator24 = saveObj.crates[crateOrder[currentCrate]][currentCrateObj.loot.length + bonusItemPos].s[Symbol.iterator](), _step24; !(_iteratorNormalCompletion24 = (_step24 = _iterator24.next()).done); _iteratorNormalCompletion24 = true) {
+              var _item10 = _step24.value;
+
+              if (_item10.s === bonusItem.killstreak.sheen) {
+                _item10.n += 1;
+                _found = true;
+                break;
+              }
+            }
+          } catch (err) {
+            _didIteratorError24 = true;
+            _iteratorError24 = err;
+          } finally {
+            try {
+              if (!_iteratorNormalCompletion24 && _iterator24["return"] != null) {
+                _iterator24["return"]();
+              }
+            } finally {
+              if (_didIteratorError24) {
+                throw _iteratorError24;
+              }
+            }
+          }
+
+          if (!_found) {
+            saveObj.crates[crateOrder[currentCrate]][currentCrateObj.loot.length + bonusItemPos].s.push({
+              n: 1,
+              s: bonusItem.killstreak.sheen
+            });
+          }
+        } else {
+          var _found2 = false;
           var _iteratorNormalCompletion25 = true;
           var _didIteratorError25 = false;
           var _iteratorError25 = undefined;
 
           try {
-            for (var _iterator25 = saveObj.crates[crateOrder[currentCrate]][currentCrateObj.loot.length + bonusItemPos].s[Symbol.iterator](), _step25; !(_iteratorNormalCompletion25 = (_step25 = _iterator25.next()).done); _iteratorNormalCompletion25 = true) {
+            for (var _iterator25 = saveObj.crates[crateOrder[currentCrate]][currentCrateObj.loot.length + bonusItemPos].p[Symbol.iterator](), _step25; !(_iteratorNormalCompletion25 = (_step25 = _iterator25.next()).done); _iteratorNormalCompletion25 = true) {
               var _item11 = _step25.value;
 
-              if (_item11.s === bonusItem.killstreak.sheen) {
+              if (_item11.s === bonusItem.killstreak.sheen && _item11.p === bonusItem.killstreak.killstreaker) {
                 _item11.n += 1;
-                _found = true;
+                _found2 = true;
                 break;
               }
             }
@@ -3422,43 +3430,6 @@ function addToInventory(unboxResult, saveObj, saveToStorage) {
             }
           }
 
-          if (!_found) {
-            saveObj.crates[crateOrder[currentCrate]][currentCrateObj.loot.length + bonusItemPos].s.push({
-              n: 1,
-              s: bonusItem.killstreak.sheen
-            });
-          }
-        } else {
-          var _found2 = false;
-          var _iteratorNormalCompletion26 = true;
-          var _didIteratorError26 = false;
-          var _iteratorError26 = undefined;
-
-          try {
-            for (var _iterator26 = saveObj.crates[crateOrder[currentCrate]][currentCrateObj.loot.length + bonusItemPos].p[Symbol.iterator](), _step26; !(_iteratorNormalCompletion26 = (_step26 = _iterator26.next()).done); _iteratorNormalCompletion26 = true) {
-              var _item12 = _step26.value;
-
-              if (_item12.s === bonusItem.killstreak.sheen && _item12.p === bonusItem.killstreak.killstreaker) {
-                _item12.n += 1;
-                _found2 = true;
-                break;
-              }
-            }
-          } catch (err) {
-            _didIteratorError26 = true;
-            _iteratorError26 = err;
-          } finally {
-            try {
-              if (!_iteratorNormalCompletion26 && _iterator26["return"] != null) {
-                _iterator26["return"]();
-              }
-            } finally {
-              if (_didIteratorError26) {
-                throw _iteratorError26;
-              }
-            }
-          }
-
           if (!_found2) {
             saveObj.crates[crateOrder[currentCrate]][currentCrateObj.loot.length + bonusItemPos].p.push({
               n: 1,
@@ -3469,13 +3440,13 @@ function addToInventory(unboxResult, saveObj, saveToStorage) {
         }
       } else if (bonusItem.id != 770) {
         var _found3 = false;
-        var _iteratorNormalCompletion27 = true;
-        var _didIteratorError27 = false;
-        var _iteratorError27 = undefined;
+        var _iteratorNormalCompletion26 = true;
+        var _didIteratorError26 = false;
+        var _iteratorError26 = undefined;
 
         try {
-          for (var _iterator27 = saveObj.bonusItems[Symbol.iterator](), _step27; !(_iteratorNormalCompletion27 = (_step27 = _iterator27.next()).done); _iteratorNormalCompletion27 = true) {
-            var saveItem = _step27.value;
+          for (var _iterator26 = saveObj.bonusItems[Symbol.iterator](), _step26; !(_iteratorNormalCompletion26 = (_step26 = _iterator26.next()).done); _iteratorNormalCompletion26 = true) {
+            var saveItem = _step26.value;
 
             if (saveItem.i === bonusItem.id) {
               saveItem.n++;
@@ -3484,16 +3455,16 @@ function addToInventory(unboxResult, saveObj, saveToStorage) {
             }
           }
         } catch (err) {
-          _didIteratorError27 = true;
-          _iteratorError27 = err;
+          _didIteratorError26 = true;
+          _iteratorError26 = err;
         } finally {
           try {
-            if (!_iteratorNormalCompletion27 && _iterator27["return"] != null) {
-              _iterator27["return"]();
+            if (!_iteratorNormalCompletion26 && _iterator26["return"] != null) {
+              _iterator26["return"]();
             }
           } finally {
-            if (_didIteratorError27) {
-              throw _iteratorError27;
+            if (_didIteratorError26) {
+              throw _iteratorError26;
             }
           }
         }
@@ -3507,20 +3478,20 @@ function addToInventory(unboxResult, saveObj, saveToStorage) {
       }
     };
 
-    for (var _iterator24 = unboxResult.bonus[Symbol.iterator](), _step24; !(_iteratorNormalCompletion24 = (_step24 = _iterator24.next()).done); _iteratorNormalCompletion24 = true) {
+    for (var _iterator23 = unboxResult.bonus[Symbol.iterator](), _step23; !(_iteratorNormalCompletion23 = (_step23 = _iterator23.next()).done); _iteratorNormalCompletion23 = true) {
       _loop();
     }
   } catch (err) {
-    _didIteratorError24 = true;
-    _iteratorError24 = err;
+    _didIteratorError23 = true;
+    _iteratorError23 = err;
   } finally {
     try {
-      if (!_iteratorNormalCompletion24 && _iterator24["return"] != null) {
-        _iterator24["return"]();
+      if (!_iteratorNormalCompletion23 && _iterator23["return"] != null) {
+        _iterator23["return"]();
       }
     } finally {
-      if (_didIteratorError24) {
-        throw _iteratorError24;
+      if (_didIteratorError23) {
+        throw _iteratorError23;
       }
     }
   }
@@ -3546,13 +3517,13 @@ function addToUnusuals(unboxResult, saveObj, saveToStorage) {
     }
   }
 
-  var _iteratorNormalCompletion28 = true;
-  var _didIteratorError28 = false;
-  var _iteratorError28 = undefined;
+  var _iteratorNormalCompletion27 = true;
+  var _didIteratorError27 = false;
+  var _iteratorError27 = undefined;
 
   try {
-    for (var _iterator28 = unboxResult.bonus[Symbol.iterator](), _step28; !(_iteratorNormalCompletion28 = (_step28 = _iterator28.next()).done); _iteratorNormalCompletion28 = true) {
-      var _bonusItem7 = _step28.value;
+    for (var _iterator27 = unboxResult.bonus[Symbol.iterator](), _step27; !(_iteratorNormalCompletion27 = (_step27 = _iterator27.next()).done); _iteratorNormalCompletion27 = true) {
+      var _bonusItem7 = _step27.value;
 
       if (_bonusItem7.id === 770) {
         saveObj.unusuals.push([_bonusItem7.id, _bonusItem7.taunt, 0, 0]);
@@ -3563,16 +3534,16 @@ function addToUnusuals(unboxResult, saveObj, saveToStorage) {
       }
     }
   } catch (err) {
-    _didIteratorError28 = true;
-    _iteratorError28 = err;
+    _didIteratorError27 = true;
+    _iteratorError27 = err;
   } finally {
     try {
-      if (!_iteratorNormalCompletion28 && _iterator28["return"] != null) {
-        _iterator28["return"]();
+      if (!_iteratorNormalCompletion27 && _iterator27["return"] != null) {
+        _iterator27["return"]();
       }
     } finally {
-      if (_didIteratorError28) {
-        throw _iteratorError28;
+      if (_didIteratorError27) {
+        throw _iteratorError27;
       }
     }
   }
@@ -3687,14 +3658,41 @@ function addToStats(unboxResult, saveObj, saveToStorage) {
     saveObj.crateStats[crateOrder[currentCrate]].u++;
     saveObj.stats["unusual-avg-array"].push(saveObj.stats["unboxes-since-last-unusual"]);
     var avg = 0;
+    var _iteratorNormalCompletion28 = true;
+    var _didIteratorError28 = false;
+    var _iteratorError28 = undefined;
+
+    try {
+      for (var _iterator28 = saveObj.stats["unusual-avg-array"][Symbol.iterator](), _step28; !(_iteratorNormalCompletion28 = (_step28 = _iterator28.next()).done); _iteratorNormalCompletion28 = true) {
+        var num = _step28.value;
+        avg += parseInt(num);
+      }
+    } catch (err) {
+      _didIteratorError28 = true;
+      _iteratorError28 = err;
+    } finally {
+      try {
+        if (!_iteratorNormalCompletion28 && _iterator28["return"] != null) {
+          _iterator28["return"]();
+        }
+      } finally {
+        if (_didIteratorError28) {
+          throw _iteratorError28;
+        }
+      }
+    }
+
+    saveObj.stats["unusual-avg"] = Math.round(avg / saveObj.stats["unusual-avg-array"].length);
+    saveObj.stats["unusual-avgprice-array"].push((saveObj.stats["unboxes-since-last-unusual"] * 2.49).toFixed(2));
+    avg = 0;
     var _iteratorNormalCompletion29 = true;
     var _didIteratorError29 = false;
     var _iteratorError29 = undefined;
 
     try {
-      for (var _iterator29 = saveObj.stats["unusual-avg-array"][Symbol.iterator](), _step29; !(_iteratorNormalCompletion29 = (_step29 = _iterator29.next()).done); _iteratorNormalCompletion29 = true) {
-        var num = _step29.value;
-        avg += parseInt(num);
+      for (var _iterator29 = saveObj.stats["unusual-avgprice-array"][Symbol.iterator](), _step29; !(_iteratorNormalCompletion29 = (_step29 = _iterator29.next()).done); _iteratorNormalCompletion29 = true) {
+        var _num = _step29.value;
+        avg += parseFloat(_num);
       }
     } catch (err) {
       _didIteratorError29 = true;
@@ -3707,33 +3705,6 @@ function addToStats(unboxResult, saveObj, saveToStorage) {
       } finally {
         if (_didIteratorError29) {
           throw _iteratorError29;
-        }
-      }
-    }
-
-    saveObj.stats["unusual-avg"] = Math.round(avg / saveObj.stats["unusual-avg-array"].length);
-    saveObj.stats["unusual-avgprice-array"].push((saveObj.stats["unboxes-since-last-unusual"] * 2.49).toFixed(2));
-    avg = 0;
-    var _iteratorNormalCompletion30 = true;
-    var _didIteratorError30 = false;
-    var _iteratorError30 = undefined;
-
-    try {
-      for (var _iterator30 = saveObj.stats["unusual-avgprice-array"][Symbol.iterator](), _step30; !(_iteratorNormalCompletion30 = (_step30 = _iterator30.next()).done); _iteratorNormalCompletion30 = true) {
-        var _num = _step30.value;
-        avg += parseFloat(_num);
-      }
-    } catch (err) {
-      _didIteratorError30 = true;
-      _iteratorError30 = err;
-    } finally {
-      try {
-        if (!_iteratorNormalCompletion30 && _iterator30["return"] != null) {
-          _iterator30["return"]();
-        }
-      } finally {
-        if (_didIteratorError30) {
-          throw _iteratorError30;
         }
       }
     }
@@ -3785,13 +3756,13 @@ function addToStats(unboxResult, saveObj, saveToStorage) {
     }
   }
 
-  var _iteratorNormalCompletion31 = true;
-  var _didIteratorError31 = false;
-  var _iteratorError31 = undefined;
+  var _iteratorNormalCompletion30 = true;
+  var _didIteratorError30 = false;
+  var _iteratorError30 = undefined;
 
   try {
-    for (var _iterator31 = unboxResult.bonus[Symbol.iterator](), _step31; !(_iteratorNormalCompletion31 = (_step31 = _iterator31.next()).done); _iteratorNormalCompletion31 = true) {
-      var _bonusItem8 = _step31.value;
+    for (var _iterator30 = unboxResult.bonus[Symbol.iterator](), _step30; !(_iteratorNormalCompletion30 = (_step30 = _iterator30.next()).done); _iteratorNormalCompletion30 = true) {
+      var _bonusItem8 = _step30.value;
 
       if (_bonusItem8.id === 770) {
         saveObj.crateStats[crateOrder[currentCrate]].u++;
@@ -3799,16 +3770,16 @@ function addToStats(unboxResult, saveObj, saveToStorage) {
       }
     }
   } catch (err) {
-    _didIteratorError31 = true;
-    _iteratorError31 = err;
+    _didIteratorError30 = true;
+    _iteratorError30 = err;
   } finally {
     try {
-      if (!_iteratorNormalCompletion31 && _iterator31["return"] != null) {
-        _iterator31["return"]();
+      if (!_iteratorNormalCompletion30 && _iterator30["return"] != null) {
+        _iterator30["return"]();
       }
     } finally {
-      if (_didIteratorError31) {
-        throw _iteratorError31;
+      if (_didIteratorError30) {
+        throw _iteratorError30;
       }
     }
   }
@@ -3879,26 +3850,26 @@ function searchGrid(input) {
       }
     }
   } else {
-    var _iteratorNormalCompletion32 = true;
-    var _didIteratorError32 = false;
-    var _iteratorError32 = undefined;
+    var _iteratorNormalCompletion31 = true;
+    var _didIteratorError31 = false;
+    var _iteratorError31 = undefined;
 
     try {
-      for (var _iterator32 = gridDivs[Symbol.iterator](), _step32; !(_iteratorNormalCompletion32 = (_step32 = _iterator32.next()).done); _iteratorNormalCompletion32 = true) {
-        var _crate4 = _step32.value;
+      for (var _iterator31 = gridDivs[Symbol.iterator](), _step31; !(_iteratorNormalCompletion31 = (_step31 = _iterator31.next()).done); _iteratorNormalCompletion31 = true) {
+        var _crate4 = _step31.value;
         _crate4.style.display = "block";
       }
     } catch (err) {
-      _didIteratorError32 = true;
-      _iteratorError32 = err;
+      _didIteratorError31 = true;
+      _iteratorError31 = err;
     } finally {
       try {
-        if (!_iteratorNormalCompletion32 && _iterator32["return"] != null) {
-          _iterator32["return"]();
+        if (!_iteratorNormalCompletion31 && _iterator31["return"] != null) {
+          _iterator31["return"]();
         }
       } finally {
-        if (_didIteratorError32) {
-          throw _iteratorError32;
+        if (_didIteratorError31) {
+          throw _iteratorError31;
         }
       }
     }
@@ -3906,13 +3877,13 @@ function searchGrid(input) {
 }
 
 function selectFirstCrateFromSearch() {
-  var _iteratorNormalCompletion33 = true;
-  var _didIteratorError33 = false;
-  var _iteratorError33 = undefined;
+  var _iteratorNormalCompletion32 = true;
+  var _didIteratorError32 = false;
+  var _iteratorError32 = undefined;
 
   try {
-    for (var _iterator33 = gridDivs[Symbol.iterator](), _step33; !(_iteratorNormalCompletion33 = (_step33 = _iterator33.next()).done); _iteratorNormalCompletion33 = true) {
-      var _crate5 = _step33.value;
+    for (var _iterator32 = gridDivs[Symbol.iterator](), _step32; !(_iteratorNormalCompletion32 = (_step32 = _iterator32.next()).done); _iteratorNormalCompletion32 = true) {
+      var _crate5 = _step32.value;
 
       if (_crate5.style.display == "block") {
         sound.play("btn");
@@ -3922,16 +3893,16 @@ function selectFirstCrateFromSearch() {
       }
     }
   } catch (err) {
-    _didIteratorError33 = true;
-    _iteratorError33 = err;
+    _didIteratorError32 = true;
+    _iteratorError32 = err;
   } finally {
     try {
-      if (!_iteratorNormalCompletion33 && _iterator33["return"] != null) {
-        _iterator33["return"]();
+      if (!_iteratorNormalCompletion32 && _iterator32["return"] != null) {
+        _iterator32["return"]();
       }
     } finally {
-      if (_didIteratorError33) {
-        throw _iteratorError33;
+      if (_didIteratorError32) {
+        throw _iteratorError32;
       }
     }
   }
@@ -4304,26 +4275,26 @@ function unusualPage(arg) {
   var startArray = 200 * (parseInt(el.dataset.unusualpage) - 1);
   var endArray = 200 * parseInt(el.dataset.unusualpage);
   var tempHtml = "";
-  var _iteratorNormalCompletion34 = true;
-  var _didIteratorError34 = false;
-  var _iteratorError34 = undefined;
+  var _iteratorNormalCompletion33 = true;
+  var _didIteratorError33 = false;
+  var _iteratorError33 = undefined;
 
   try {
-    for (var _iterator34 = saveObject.unusuals.slice(startArray, endArray)[Symbol.iterator](), _step34; !(_iteratorNormalCompletion34 = (_step34 = _iterator34.next()).done); _iteratorNormalCompletion34 = true) {
-      var unusual = _step34.value;
+    for (var _iterator33 = saveObject.unusuals.slice(startArray, endArray)[Symbol.iterator](), _step33; !(_iteratorNormalCompletion33 = (_step33 = _iterator33.next()).done); _iteratorNormalCompletion33 = true) {
+      var unusual = _step33.value;
       tempHtml += updateUnusualStats(unusual);
     }
   } catch (err) {
-    _didIteratorError34 = true;
-    _iteratorError34 = err;
+    _didIteratorError33 = true;
+    _iteratorError33 = err;
   } finally {
     try {
-      if (!_iteratorNormalCompletion34 && _iterator34["return"] != null) {
-        _iterator34["return"]();
+      if (!_iteratorNormalCompletion33 && _iterator33["return"] != null) {
+        _iterator33["return"]();
       }
     } finally {
-      if (_didIteratorError34) {
-        throw _iteratorError34;
+      if (_didIteratorError33) {
+        throw _iteratorError33;
       }
     }
   }
@@ -4429,7 +4400,7 @@ function testUnbox() {
         counter++;
       }
     }
-  } catch (_unused2) {
+  } catch (_unused) {
     throw new Error("Error at crate ".concat(crate));
   }
 } // On load, disable loading screen
