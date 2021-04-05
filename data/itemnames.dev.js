@@ -731,7 +731,8 @@ var dataItems = {
     fre: "Papier Cadeau",
     bra: "Embrulho para Presente",
     schema: 5042,
-    hun: "Csomagolópapír"
+    hun: "Csomagolópapír",
+    rom: "Ambalaj de Cadou"
   },
   75: {
     img: "i_see_you",
@@ -3416,7 +3417,8 @@ var dataItems = {
     fre: "Le JuJu vaudou (petit retour)",
     bra: "O Vudu Juju (O Retorno)",
     schema: 935,
-    hun: "A Vudu JuJu (Kis visszatérés)"
+    hun: "A Vudu JuJu (Kis visszatérés)",
+    rom: "The Voodoo JuJu (Întoarcere aproximativă)"
   },
   342: {
     img: "wraith_wrap",
@@ -4743,7 +4745,8 @@ var dataItems = {
     fre: "Gros plein de bortch",
     bra: "Cinturão de Borscht",
     schema: 30108,
-    hun: "Ólomsúly"
+    hun: "Ólomsúly",
+    rom: "Cureaua de Borş"
   },
   475: {
     img: "valley_forge",
@@ -4921,7 +4924,8 @@ var dataItems = {
     fre: "Spartiate Écossais",
     bra: "Tartan Espartano",
     schema: 30106,
-    hun: "Skótkockás spártai"
+    hun: "Skótkockás spártai",
+    rom: "Spartan Tartan"
   },
   493: {
     img: "cobber_chameleon",
@@ -6257,7 +6261,8 @@ var dataItems = {
     fre: "Second diagnostic",
     bra: "Segunda Opinião",
     schema: 30197,
-    hun: "Másodvélemény"
+    hun: "Másodvélemény",
+    rom: "O a Doua Opinie"
   },
   627: {
     img: "surgeons_space_suit",
@@ -9078,7 +9083,8 @@ var dataItems = {
     fre: "Piqué du faucon",
     bra: "Esquadrão Gavião",
     schema: 30548,
-    hun: "A sas lecsap"
+    hun: "A sas lecsap",
+    rom: "Strigătul Vulturului"
   },
   909: {
     img: "winter_woodsman",
@@ -11643,7 +11649,8 @@ var dataItems = {
     fre: "Enchaussé, c'est pesé",
     bra: "Meia Munida",
     schema: 30818,
-    hun: "Zokniba Töltve"
+    hun: "Zokniba Töltve",
+    rom: "Înșosetat și încărcat"
   },
   1160: {
     img: "flammable_favor",
@@ -12333,7 +12340,8 @@ var dataItems = {
     fre: "Mannanas | Peinture de guerre",
     bra: "Mannana Descascada Tinta de Guerra",
     schema: 16302,
-    hun: "Hámozott Mannános Harci festés"
+    hun: "Hámozott Mannános Harci festés",
+    rom: "Mannana Peeled Vopsea de război"
   },
   1229: {
     img: "leopard_printed_war_paint",
@@ -12343,7 +12351,8 @@ var dataItems = {
     fre: "Léopard | Peinture de guerre",
     bra: "Pele de Leopardo Tinta de Guerra",
     schema: 16310,
-    hun: "Leopárdmintás Harci festés"
+    hun: "Leopárdmintás Harci festés",
+    rom: "Leopard Printed Vopsea de război"
   },
   1230: {
     img: "tiger_buffed_war_paint",
@@ -12353,7 +12362,8 @@ var dataItems = {
     fre: "Tigre | Peinture de guerre",
     bra: "Pele de Tigre Tinta de Guerra",
     schema: 16307,
-    hun: "Tigriscsíkozott Harci festés"
+    hun: "Tigriscsíkozott Harci festés",
+    rom: "Tiger Buffed Vopsea de război"
   },
   1231: {
     img: "bamboo_brushed_war_paint",
@@ -12363,7 +12373,8 @@ var dataItems = {
     fre: "Bambou | Peinture de guerre",
     bra: "Pintura de Bambu Tinta de Guerra",
     schema: 16306,
-    hun: "Bambusszal Borított Harci festés"
+    hun: "Bambusszal Borított Harci festés",
+    rom: "Bamboo Brushed Vopsea de război"
   },
   1232: {
     img: "anodized_aloha_war_paint",
@@ -12373,7 +12384,8 @@ var dataItems = {
     fre: "Aloha | Peinture de guerre",
     bra: "Aloha-dização Tinta de Guerra",
     schema: 16305,
-    hun: "Alohásan Eloxált Harci festés"
+    hun: "Alohásan Eloxált Harci festés",
+    rom: "Anodized Aloha Vopsea de război"
   },
   1233: {
     img: "pina_polished_war_paint",
@@ -12383,7 +12395,8 @@ var dataItems = {
     fre: "Piña | Peinture de guerre",
     bra: "Aroma de Abacaxi Tinta de Guerra",
     schema: 16309,
-    hun: "Ananászos Harci festés"
+    hun: "Ananászos Harci festés",
+    rom: "Piña Polished Vopsea de război"
   },
   1234: {
     img: "croc_dusted_war_paint",
@@ -12393,7 +12406,8 @@ var dataItems = {
     fre: "Croco Peinture de guerre",
     bra: "Crocodilos Cromados Tinta de Guerra",
     schema: 16308,
-    hun: "Krokodilos Harci festés"
+    hun: "Krokodilos Harci festés",
+    rom: "Croc Dusted Vopsea de război"
   },
   1235: {
     img: "macaw_masked_war_paint",
@@ -12403,7 +12417,8 @@ var dataItems = {
     fre: "Ara macao | Peinture de guerre",
     bra: "Disfarce de Arara Tinta de Guerra",
     schema: 16303,
-    hun: "Papagájborítású Harci festés"
+    hun: "Papagájborítású Harci festés",
+    rom: "Macaw Masked Vopsea de război"
   },
   1236: {
     img: "yeti_coated_war_paint",
@@ -12413,7 +12428,8 @@ var dataItems = {
     fre: "Yéti | Peinture de guerre",
     bra: "Revestimento Abominável Tinta de Guerra",
     schema: 16300,
-    hun: "Jetiborítású Harci festés"
+    hun: "Jetiborítású Harci festés",
+    rom: "Yeti Coated Vopsea de război"
   },
   1237: {
     img: "sax_waxed_war_paint",
@@ -12423,7 +12439,8 @@ var dataItems = {
     fre: "Saxton | Peinture de guerre",
     bra: "Saxton à Cera Tinta de Guerra",
     schema: 16304,
-    hun: "Saxin Sima Harci festés"
+    hun: "Saxin Sima Harci festés",
+    rom: "Sax Waxed Vopsea de război"
   },
   1238: {
     img: "park_pigmented_war_paint",
@@ -12433,7 +12450,8 @@ var dataItems = {
     fre: "Yeti Park | Peinture de guerre",
     bra: "Passeio no Parque Tinta de Guerra",
     schema: 16301,
-    hun: "Parkstílusú Harci festés"
+    hun: "Parkstílusú Harci festés",
+    rom: "Park Pigmented Vopsea de război"
   },
   1239: {
     img: "bloom_buffed_war_paint",
@@ -12443,7 +12461,8 @@ var dataItems = {
     fre: "Floraison | Peinture de guerre",
     bra: "Forro Florido Tinta de Guerra",
     schema: 17200,
-    hun: "Virágba Borult Harci festés"
+    hun: "Virágba Borult Harci festés",
+    rom: "Bloom Buffed Vopsea de război"
   },
   1240: {
     img: "cardboard_boxed_war_paint",
@@ -12453,7 +12472,8 @@ var dataItems = {
     fre: "Emboîté | Peinture de guerre",
     bra: "Papelão Tinta de Guerra",
     schema: 17211,
-    hun: "Kartondobozolt Harci festés"
+    hun: "Kartondobozolt Harci festés",
+    rom: "Cardboard Boxed Vopsea de război"
   },
   1241: {
     img: "star_crossed_war_paint",
@@ -12463,7 +12483,8 @@ var dataItems = {
     fre: "Stellaire | Peinture de guerre",
     bra: "Estrelado Tinta de Guerra",
     schema: 17208,
-    hun: "Rossz Csillagzatú Harci festés"
+    hun: "Rossz Csillagzatú Harci festés",
+    rom: "Star Crossed Vopsea de război"
   },
   1242: {
     img: "merc_stained_war_paint",
@@ -12473,7 +12494,8 @@ var dataItems = {
     fre: "Mercenaire | Peinture de guerre",
     bra: "Mercenário Cúbico Tinta de Guerra",
     schema: 17203,
-    hun: "Zsoldfoltos Harci festés"
+    hun: "Zsoldfoltos Harci festés",
+    rom: "Merc Stained Vopsea de război"
   },
   1243: {
     img: "quack_canvassed_war_paint",
@@ -12483,7 +12505,8 @@ var dataItems = {
     fre: "Coincoin | Peinture de guerre",
     bra: "Patos Estam-patos Tinta de Guerra",
     schema: 17201,
-    hun: "Kacsákkal Tarkított Harci festés"
+    hun: "Kacsákkal Tarkított Harci festés",
+    rom: "Quack Canvassed Vopsea de război"
   },
   1244: {
     img: "clover_camod_war_paint",
@@ -12493,7 +12516,8 @@ var dataItems = {
     fre: "Porte-bonheur | Peinture de guerre",
     bra: "Camuflagem de Trevos Tinta de Guerra",
     schema: 17209,
-    hun: "Lóherékkel Álcázott Harci festés"
+    hun: "Lóherékkel Álcázott Harci festés",
+    rom: "Clover Camo'd Vopsea de război"
   },
   1245: {
     img: "pizza_polished_war_paint",
@@ -12503,7 +12527,8 @@ var dataItems = {
     fre: "Pizza | Peinture de guerre",
     bra: "Polimento de Pizza Tinta de Guerra",
     schema: 17206,
-    hun: "Pizzával Polírozott Harci festés"
+    hun: "Pizzával Polírozott Harci festés",
+    rom: "Pizza Polished Vopsea de război"
   },
   1246: {
     img: "kill_covered_war_paint",
@@ -12513,7 +12538,8 @@ var dataItems = {
     fre: "Dénombrement | Peinture de guerre",
     bra: "Contando Vítimas Tinta de Guerra",
     schema: 17204,
-    hun: "Gyilokrovott Harci festés"
+    hun: "Gyilokrovott Harci festés",
+    rom: "Kill Covered Vopsea de război"
   },
   1247: {
     img: "bank_rolled_war_paint",
@@ -12523,7 +12549,8 @@ var dataItems = {
     fre: "Billets de banque | Peinture de guerre",
     bra: "Cobertura de Cédulas Tinta de Guerra",
     schema: 17202,
-    hun: "Pénzelt Harci festés"
+    hun: "Pénzelt Harci festés",
+    rom: "Bank Rolled Vopsea de război"
   },
   1248: {
     img: "bonk_varnished_war_paint",
@@ -12533,7 +12560,8 @@ var dataItems = {
     fre: "Bonk | Peinture de guerre",
     bra: "Verniz Bonk Tinta de Guerra",
     schema: 17207,
-    hun: "Poffra Fényezett Harci festés"
+    hun: "Poffra Fényezett Harci festés",
+    rom: "Bonk Varnished Vopsea de război"
   },
   1249: {
     img: "dream_piped_war_paint",
@@ -12543,7 +12571,8 @@ var dataItems = {
     fre: "Rose bonbon | Peinture de guerre",
     bra: "Animais Fofinhos Tinta de Guerra",
     schema: 17212,
-    hun: "Vágyálmodott Harci festés"
+    hun: "Vágyálmodott Harci festés",
+    rom: "Dream Piped Vopsea de război"
   },
   1250: {
     img: "freedom_wrapped_war_paint",
@@ -12553,7 +12582,8 @@ var dataItems = {
     fre: "Libertaire | Peinture de guerre",
     bra: "Padrão Patriota Tinta de Guerra",
     schema: 17210,
-    hun: "Szabadságba Csomagolt Harci festés"
+    hun: "Szabadságba Csomagolt Harci festés",
+    rom: "Freedom Wrapped Vopsea de război"
   },
   1251: {
     img: "fire_glazed_war_paint",
@@ -12563,7 +12593,8 @@ var dataItems = {
     fre: "Brasier | Peinture de guerre",
     bra: "Chama Esmaltada Tinta de Guerra",
     schema: 17205,
-    hun: "Tűznyalta Harci festés"
+    hun: "Tűznyalta Harci festés",
+    rom: "Fire Glazed Vopsea de război"
   },
   1252: {
     img: "civic_duty_mk_ii_war_paint",
@@ -12573,7 +12604,8 @@ var dataItems = {
     fre: "Devoir civique Mk.II | Peinture de guerre",
     bra: "Dever Civil Mk.II Tinta de Guerra",
     schema: 16144,
-    hun: "Állampolgári Kötelesség, II. széria Harci festés"
+    hun: "Állampolgári Kötelesség, II. széria Harci festés",
+    rom: "Civic Duty Mk.II Vopsea de război"
   },
   1253: {
     img: "civil_servant_mk_ii_war_paint",
@@ -12583,7 +12615,8 @@ var dataItems = {
     fre: "Fonctionnaire Mk.II | Peinture de guerre",
     bra: "Servidor Público Mk.II Tinta de Guerra",
     schema: 16139,
-    hun: "Köztisztviselő, II. széria Harci festés"
+    hun: "Köztisztviselő, II. széria Harci festés",
+    rom: "Civil Servant Mk.II Vopsea de război"
   },
   1254: {
     img: "autumn_mk_ii_war_paint",
@@ -12593,7 +12626,8 @@ var dataItems = {
     fre: "Automne Mk.II | Peinture de guerre",
     bra: "Outono Mk.II Tinta de Guerra",
     schema: 16160,
-    hun: "Őszi, II. széria Harci festés"
+    hun: "Őszi, II. széria Harci festés",
+    rom: "Autumn Mk.II Vopsea de război"
   },
   1255: {
     img: "plaid_potshotter_mk_ii_war_paint",
@@ -12603,7 +12637,8 @@ var dataItems = {
     fre: "Tireur à carreau Mk.II | Peinture de guerre",
     bra: "Saia Mk.II Tinta de Guerra",
     schema: 16122,
-    hun: "Kockás Kocalövész, II. széria Harci festés"
+    hun: "Kockás Kocalövész, II. széria Harci festés",
+    rom: "Plaid Potshotter Mk.II Vopsea de război"
   },
   1256: {
     img: "night_owl_mk_ii_war_paint",
@@ -12613,7 +12648,8 @@ var dataItems = {
     fre: "Oiseau de nuit Mk.II | Peinture de guerre",
     bra: "Coruja da Noite Mk.II Tinta de Guerra",
     schema: 16114,
-    hun: "Éjjeli Bagoly, II. széria Harci festés"
+    hun: "Éjjeli Bagoly, II. széria Harci festés",
+    rom: "Night Owl Mk.II Vopsea de război"
   },
   1257: {
     img: "woodsy_widowmaker_mk_ii_war_paint",
@@ -12623,7 +12659,8 @@ var dataItems = {
     fre: "Endeuilleur boisé Mk.II | Peinture de guerre",
     bra: "Viuvadora Verdejante Mk.II Tinta de Guerra",
     schema: 16113,
-    hun: "Erdei Özvegycsináló, II. széria Harci festés"
+    hun: "Erdei Özvegycsináló, II. széria Harci festés",
+    rom: "Woodsy Widowmaker Mk.II Vopsea de război"
   },
   1258: {
     img: "forest_fire_mk_ii_war_paint",
@@ -12633,7 +12670,8 @@ var dataItems = {
     fre: "Feu de forêt Mk.II | Peinture de guerre",
     bra: "Fogo na Floresta Mk.II Tinta de Guerra",
     schema: 16109,
-    hun: "Erdőtűz, II. széria Harci festés"
+    hun: "Erdőtűz, II. széria Harci festés",
+    rom: "Forest Fire Mk.II Vopsea de război"
   },
   1259: {
     img: "woodland_warrior_mk_ii_war_paint",
@@ -12643,7 +12681,8 @@ var dataItems = {
     fre: "Guerrier des bois Mk.II | Peinture de guerre",
     bra: "Matador do Matagal Mk.II Tinta de Guerra",
     schema: 16106,
-    hun: "Erdei Harcos, II. széria Harci festés"
+    hun: "Erdei Harcos, II. széria Harci festés",
+    rom: "Woodland Warrior Mk.II Vopsea de război"
   },
   1260: {
     img: "carpet_bomber_mk_ii_war_paint",
@@ -12653,7 +12692,8 @@ var dataItems = {
     fre: "Bombardier tapissé Mk.II | Peinture de guerre",
     bra: "Arrasa Quarteirão Mk.II Tinta de Guerra",
     schema: 16104,
-    hun: "Szőnyegbombázó, II. széria Harci festés"
+    hun: "Szőnyegbombázó, II. széria Harci festés",
+    rom: "Carpet Bomber Mk.II Vopsea de război"
   },
   1261: {
     img: "wrapped_reviver_mk_ii_war_paint",
@@ -12663,7 +12703,8 @@ var dataItems = {
     fre: "Ressuscitateur emballé Mk.II | Peinture de guerre",
     bra: "Revivedor Embrulhado Mk.II Tinta de Guerra",
     schema: 16102,
-    hun: "Becsomagolt Felélesztő, II. széria Harci festés"
+    hun: "Becsomagolt Felélesztő, II. széria Harci festés",
+    rom: "Wrapped Reviver Mk.II Vopsea de război"
   },
   1262: {
     img: "nutcracker_mk_ii_war_paint",
@@ -12673,7 +12714,8 @@ var dataItems = {
     fre: "Casse-noix Mk.II | Peinture de guerre",
     bra: "Quebra-nozes Mk.II Tinta de Guerra",
     schema: 16161,
-    hun: "Diótörő, II. széria Harci festés"
+    hun: "Diótörő, II. széria Harci festés",
+    rom: "Nutcracker Mk.II Vopsea de război"
   },
   1263: {
     img: "smalltown_bringdown_mk_ii_war_paint",
@@ -12683,7 +12725,8 @@ var dataItems = {
     fre: "Ratatineur de village Mk.II | Peinture de guerre",
     bra: "Vilão do Vilarejo Mk.II Tinta de Guerra",
     schema: 16143,
-    hun: "Kisvárosi Kedélyrontó, II. széria Harci festés"
+    hun: "Kisvárosi Kedélyrontó, II. széria Harci festés",
+    rom: "Smalltown Bringdown Mk.II Vopsea de război"
   },
   1264: {
     img: "macabre_web_mk_ii_war_paint",
@@ -12693,7 +12736,8 @@ var dataItems = {
     fre: "Toiles macabres Mk.II | Peinture de guerre",
     bra: "Teia Macabra Mk.II Tinta de Guerra",
     schema: 16163,
-    hun: "Kísértethálós, II. széria Harci festés"
+    hun: "Kísértethálós, II. széria Harci festés",
+    rom: "Macabre Web Mk.II Vopsea de război"
   },
   1265: {
     img: "iron_wood_mk_ii_war_paint",
@@ -12703,7 +12747,8 @@ var dataItems = {
     fre: "Bois métallique Mk.II | Peinture de guerre",
     bra: "Madeira de Ferro Mk.II Tinta de Guerra",
     schema: 16120,
-    hun: "Vasfa, II. széria Harci festés"
+    hun: "Vasfa, II. széria Harci festés",
+    rom: "Iron Wood Mk.II Vopsea de război"
   },
   1266: {
     img: "backwoods_boomstick_mk_ii_war_paint",
@@ -12713,7 +12758,8 @@ var dataItems = {
     fre: "Fusil de derrière les fagots Mk.II | Peinture de guerre",
     bra: "Sertão Mk.II Tinta de Guerra",
     schema: 16112,
-    hun: "Susnyás-sörétes, II. széria Harci festés"
+    hun: "Susnyás-sörétes, II. széria Harci festés",
+    rom: "Backwoods Boomstick Mk.II Vopsea de război"
   },
   1267: {
     img: "masked_mender_mk_ii_war_paint",
@@ -12723,7 +12769,8 @@ var dataItems = {
     fre: "Réparateur masqué Mk.II | Peinture de guerre",
     bra: "Medicamento Mascarado Mk.II Tinta de Guerra",
     schema: 16105,
-    hun: "Maszkos Befoltozó, II. széria Harci festés"
+    hun: "Maszkos Befoltozó, II. széria Harci festés",
+    rom: "Masked Mender Mk.II Vopsea de război"
   },
   1268: {
     img: "dead_reckoner_mk_ii_war_paint",
@@ -12733,7 +12780,8 @@ var dataItems = {
     fre: "Cible de la mort Mk.II | Peinture de guerre",
     bra: "Cadáver Calculista Mk.II Tinta de Guerra",
     schema: 16151,
-    hun: "Halálos Leszámoló, II. széria Harci festés"
+    hun: "Halálos Leszámoló, II. széria Harci festés",
+    rom: "Dead Reckoner Mk.II Vopsea de război"
   },
   1269: {
     img: "bovine_blazemaker_mk_ii_war_paint",
@@ -12743,7 +12791,8 @@ var dataItems = {
     fre: "Bovin Mk.II | Peinture de guerre",
     bra: "Bovino na Brasa Mk.II Tinta de Guerra",
     schema: 16130,
-    hun: "Tüzes Tehén, II. széria Harci festés"
+    hun: "Tüzes Tehén, II. széria Harci festés",
+    rom: "Bovine Blazemaker Mk.II Vopsea de război"
   },
   1270: {
     img: "blast_blocker",
@@ -12953,7 +13002,8 @@ var dataItems = {
     fre: "Géométrie | Peinture de guerre",
     bra: "Formas Geométricas Tinta de Guerra",
     schema: 17215,
-    hun: "Geometriai csapatok Harci festés"
+    hun: "Geometriai csapatok Harci festés",
+    rom: "Geometrical Teams Vopsea de război"
   },
   1291: {
     img: "bomber_soul_war_paint",
@@ -12963,7 +13013,8 @@ var dataItems = {
     fre: "Militaire | Peinture de guerre",
     bra: "Alma do Bombardeiro Tinta de Guerra",
     schema: 17217,
-    hun: "Bombázó lélek Harci festés"
+    hun: "Bombázó lélek Harci festés",
+    rom: "Bomber Soul Vopsea de război"
   },
   1292: {
     img: "polar_surprise_war_paint",
@@ -12973,7 +13024,8 @@ var dataItems = {
     fre: "Ours polaire | Peinture de guerre",
     bra: "Surpresa Polar Tinta de Guerra",
     schema: 17221,
-    hun: "Sarkvidéki meglepetés Harci festés"
+    hun: "Sarkvidéki meglepetés Harci festés",
+    rom: "Polar Surprise Vopsea de război"
   },
   1293: {
     img: "cabin_fevered_war_paint",
@@ -12983,7 +13035,8 @@ var dataItems = {
     fre: "Hexagone | Peinture de guerre",
     bra: "Claustrofobia Tinta de Guerra",
     schema: 17220,
-    hun: "Bezártság Harci festés"
+    hun: "Bezártság Harci festés",
+    rom: "Cabin Fevered Vopsea de război"
   },
   1294: {
     img: "alien_tech_war_paint",
@@ -12993,7 +13046,8 @@ var dataItems = {
     fre: "Extraterrestre | Peinture de guerre",
     bra: "Tecnologia Alienígena Tinta de Guerra",
     schema: 17232,
-    hun: "Földönkívüli technológia Harci festés"
+    hun: "Földönkívüli technológia Harci festés",
+    rom: "Alien Tech Vopsea de război"
   },
   1295: {
     img: "dovetailed_war_paint",
@@ -13003,7 +13057,8 @@ var dataItems = {
     fre: "Plumes d'Archimède | Peinture de guerre",
     bra: "Pombos Tinta de Guerra",
     schema: 17224,
-    hun: "Fecskefarkas Harci festés"
+    hun: "Fecskefarkas Harci festés",
+    rom: "Dovetailed Vopsea de război"
   },
   1296: {
     img: "damascus_and_mahogany_war_paint",
@@ -13013,7 +13068,8 @@ var dataItems = {
     fre: "Damascus et Mahogany | Peinture de guerre",
     bra: "Damasco e Mogno Tinta de Guerra",
     schema: 17234,
-    hun: "Damaszkusz és mahagóni Harci festés"
+    hun: "Damaszkusz és mahagóni Harci festés",
+    rom: "Damascus & Mahogany Vopsea de război"
   },
   1297: {
     img: "hazard_warning_war_paint",
@@ -13023,7 +13079,8 @@ var dataItems = {
     fre: "Danger | Peinture de guerre",
     bra: "Aviso de Perigo Tinta de Guerra",
     schema: 17226,
-    hun: "Veszélyjelzés Harci festés"
+    hun: "Veszélyjelzés Harci festés",
+    rom: "Hazard Warning Vopsea de război"
   },
   1298: {
     img: "neo_tokyo_war_paint",
@@ -13033,7 +13090,8 @@ var dataItems = {
     fre: "Neo Tokyo | Peinture de guerre",
     bra: "Neo Tokyo Tinta de Guerra",
     schema: 17214,
-    hun: "Neo Tokyo Harci festés"
+    hun: "Neo Tokyo Harci festés",
+    rom: "Neo Tokyo Vopsea de război"
   },
   1299: {
     img: "uranium_war_paint",
@@ -13043,7 +13101,8 @@ var dataItems = {
     fre: "Uranium | Peinture de guerre",
     bra: "Urânio Tinta de Guerra",
     schema: 17218,
-    hun: "Urán Harci festés"
+    hun: "Urán Harci festés",
+    rom: "Uranium Vopsea de război"
   },
   1300: {
     img: "hana_war_paint",
@@ -13053,7 +13112,8 @@ var dataItems = {
     fre: "Hana | Peinture de guerre",
     bra: "Hana Tinta de Guerra",
     schema: 17223,
-    hun: "Hana Harci festés"
+    hun: "Hana Harci festés",
+    rom: "Hana Vopsea de război"
   },
   1301: {
     img: "cosmic_calamity_war_paint",
@@ -13063,7 +13123,8 @@ var dataItems = {
     fre: "Cosmos | Peinture de guerre",
     bra: "Calamidade Cósmica Tinta de Guerra",
     schema: 17225,
-    hun: "Kozmikus felfordulás Harci festés"
+    hun: "Kozmikus felfordulás Harci festés",
+    rom: "Cosmic Calamity Vopsea de război"
   },
   1302: {
     img: "mosaic_war_paint",
@@ -13073,7 +13134,8 @@ var dataItems = {
     fre: "Mosaïque | Peinture de guerre",
     bra: "Mosaico Tinta de Guerra",
     schema: 17228,
-    hun: "Mozaik Harci festés"
+    hun: "Mozaik Harci festés",
+    rom: "Mosaic Vopsea de război"
   },
   1303: {
     img: "jazzy_war_paint",
@@ -13083,7 +13145,8 @@ var dataItems = {
     fre: "Jazzy | Peinture de guerre",
     bra: "Jazz Tinta de Guerra",
     schema: 17230,
-    hun: "Dzsesszes Harci festés"
+    hun: "Dzsesszes Harci festés",
+    rom: "Jazzy Vopsea de război"
   },
   1304: {
     img: "miami_element_war_paint",
@@ -13093,7 +13156,8 @@ var dataItems = {
     fre: "Miami | Peinture de guerre",
     bra: "Elemento Miami Tinta de Guerra",
     schema: 17213,
-    hun: "A Miami-tényező Harci festés"
+    hun: "A Miami-tényező Harci festés",
+    rom: "Miami Element Vopsea de război"
   },
   1305: {
     img: "antarctic_eyewear",
@@ -13491,7 +13555,8 @@ var dataItems = {
     fre: "Vert de peur | Peinture de guerre",
     bra: "Fantasmas Assombrados Tinta de Guerra",
     schema: 17236,
-    hun: "Kísérteties szellemek Harci festés"
+    hun: "Kísérteties szellemek Harci festés",
+    rom: "Haunted Ghosts Vopsea de război"
   },
   1345: {
     img: "totally_boned_war_paint",
@@ -13501,7 +13566,8 @@ var dataItems = {
     fre: "Paquet d'os | Peinture de guerre",
     bra: "Puro Osso Tinta de Guerra",
     schema: 17240,
-    hun: "Kicsontozva Harci festés"
+    hun: "Kicsontozva Harci festés",
+    rom: "Totally Boned Vopsea de război"
   },
   1346: {
     img: "horror_holiday_war_paint",
@@ -13511,7 +13577,8 @@ var dataItems = {
     fre: "Vacances mortelles | Peinture de guerre",
     bra: "Passeio Pavoroso Tinta de Guerra",
     schema: 17239,
-    hun: "Rémünnep Harci festés"
+    hun: "Rémünnep Harci festés",
+    rom: "Horror Holiday Vopsea de război"
   },
   1347: {
     img: "spirit_of_halloween_war_paint",
@@ -13521,7 +13588,8 @@ var dataItems = {
     fre: "Esprit d'Halloween | Peinture de guerre",
     bra: "Espírito de Dia das Bruxas Tinta de Guerra",
     schema: 17238,
-    hun: "Halloweeni hangulat Harci festés"
+    hun: "Halloweeni hangulat Harci festés",
+    rom: "Spirit of Halloween Vopsea de război"
   },
   1348: {
     img: "calavera_canvas_war_paint",
@@ -13531,7 +13599,8 @@ var dataItems = {
     fre: "Calaveras | Peinture de guerre",
     bra: "Caveiras Coloridas Tinta de Guerra",
     schema: 17244,
-    hun: "Calavera vászon Harci festés"
+    hun: "Calavera vászon Harci festés",
+    rom: "Calavera Canvas Vopsea de război"
   },
   1349: {
     img: "spectral_shimmered_war_paint",
@@ -13541,7 +13610,8 @@ var dataItems = {
     fre: "Fantôluminescence | Peinture de guerre",
     bra: "Brilho Espectral Tinta de Guerra",
     schema: 17237,
-    hun: "Szellemesen sziporkázó Harci festés"
+    hun: "Szellemesen sziporkázó Harci festés",
+    rom: "Spectral Shimmered Vopsea de război"
   },
   1350: {
     img: "skull_study_war_paint",
@@ -13551,7 +13621,8 @@ var dataItems = {
     fre: "Étude de crânes | Peinture de guerre",
     bra: "Estudo Esquelético Tinta de Guerra",
     schema: 17235,
-    hun: "Koponyatanulmány Harci festés"
+    hun: "Koponyatanulmány Harci festés",
+    rom: "Skull Study Vopsea de război"
   },
   1351: {
     img: "ghost_town_war_paint",
@@ -13561,7 +13632,8 @@ var dataItems = {
     fre: "Ville fantôme | Peinture de guerre",
     bra: "Cidade Fantasma Tinta de Guerra",
     schema: 17242,
-    hun: "Szellemlakta Harci festés"
+    hun: "Szellemlakta Harci festés",
+    rom: "Ghost Town Vopsea de război"
   },
   1352: {
     img: "tumor_toasted_war_paint",
@@ -13571,7 +13643,8 @@ var dataItems = {
     fre: "Tu meurs | Peinture de guerre",
     bra: "Torrada com Tumor Tinta de Guerra",
     schema: 17243,
-    hun: "Tumoros Harci festés"
+    hun: "Tumoros Harci festés",
+    rom: "Tumor Toasted Vopsea de război"
   },
   1353: {
     img: "electroshocked_war_paint",
@@ -13581,7 +13654,8 @@ var dataItems = {
     fre: "Électrochocs | Peinture de guerre",
     bra: "Eletrochoque Tinta de Guerra",
     schema: 17241,
-    hun: "Delejes Harci festés"
+    hun: "Delejes Harci festés",
+    rom: "Electroshocked Vopsea de război"
   },
   1354: {
     img: "batters_helmet",
@@ -14090,7 +14164,8 @@ var dataItems = {
     bra: "Raiva",
     schema: 518,
     schema2: 5758,
-    hun: "Düh"
+    hun: "Düh",
+    rom: "Furie"
   },
   1405: {
     img: "your_worst_nightmare",
@@ -14838,7 +14913,8 @@ var dataItems = {
     fre: "Archimède",
     bra: "Arquimedes",
     schema: 828,
-    hun: "Arkhimédész"
+    hun: "Arkhimédész",
+    rom: "Arhimede"
   },
   1480: {
     img: "couvre_corner",
@@ -14968,7 +15044,8 @@ var dataItems = {
     fre: "Marx la Menace",
     bra: "Marxa para a Morte",
     schema: 816,
-    hun: "Enyhe célzÁsz"
+    hun: "Enyhe célzÁsz",
+    rom: "Ţintă Fixă"
   },
   1493: {
     img: "photo_badge",
@@ -15430,7 +15507,8 @@ var dataItems = {
     sch: "阿尔卑斯 战绘",
     bra: "Alpina Tinta de Guerra",
     schema: 17252,
-    hun: "Alpesi Harci festés"
+    hun: "Alpesi Harci festés",
+    rom: "Alpine Vopsea de război"
   },
   1540: {
     img: "gift_wrapped_war_paint",
@@ -15440,7 +15518,8 @@ var dataItems = {
     sch: "圣诞礼盒 战绘",
     bra: "Embrulho de Presente Tinta de Guerra",
     schema: 17253,
-    hun: "Becsomagolt Harci festés"
+    hun: "Becsomagolt Harci festés",
+    rom: "Gift Wrapped Vopsea de război"
   },
   1541: {
     img: "seriously_snowed_war_paint",
@@ -15450,7 +15529,8 @@ var dataItems = {
     sch: "雪人佣兵 战绘",
     bra: "Mercenáriozinhos de Neve Tinta de Guerra",
     schema: 17249,
-    hun: "Súlyosan behavazott Harci festés"
+    hun: "Súlyosan behavazott Harci festés",
+    rom: "Seriously Snowed Vopsea de război"
   },
   1542: {
     img: "igloo_war_paint",
@@ -15460,7 +15540,8 @@ var dataItems = {
     sch: "冰砖小屋 战绘",
     bra: "Iglu Tinta de Guerra",
     schema: 17248,
-    hun: "Jégkunyhó Harci festés"
+    hun: "Jégkunyhó Harci festés",
+    rom: "Igloo Vopsea de război"
   },
   1543: {
     img: "sleighin_style_war_paint",
@@ -15470,7 +15551,8 @@ var dataItems = {
     sch: "雪橇彩带 战绘",
     bra: "Trenó Tinta de Guerra",
     schema: 17251,
-    hun: "Szánkózós stílusú Harci festés"
+    hun: "Szánkózós stílusú Harci festés",
+    rom: "Sleighin' Style Vopsea de război"
   },
   1544: {
     img: "snow_covered_war_paint",
@@ -15480,7 +15562,8 @@ var dataItems = {
     sch: "雪花覆盖 战绘",
     bra: "Flocos de Neve Tinta de Guerra",
     schema: 17245,
-    hun: "Hófedte Harci festés"
+    hun: "Hófedte Harci festés",
+    rom: "Snow Covered Vopsea de război"
   },
   1545: {
     img: "frost_ornamented_war_paint",
@@ -15490,7 +15573,8 @@ var dataItems = {
     sch: "冰霜之饰 战绘",
     bra: "Ornamento Congelado Tinta de Guerra",
     schema: 17246,
-    hun: "Fagy díszítette Harci festés"
+    hun: "Fagy díszítette Harci festés",
+    rom: "Frost Ornamented Vopsea de război"
   },
   1546: {
     img: "smissmas_camo_war_paint",
@@ -15500,7 +15584,8 @@ var dataItems = {
     sch: "圣诞迷彩 战绘",
     bra: "Camuflagem Festiva Tinta de Guerra",
     schema: 17250,
-    hun: "Galácsonyi álca Harci festés"
+    hun: "Galácsonyi álca Harci festés",
+    rom: "Smissmas Camo Vopsea de război"
   },
   1547: {
     img: "smissmas_village_war_paint",
@@ -15510,7 +15595,8 @@ var dataItems = {
     sch: "圣诞村庄 战绘",
     bra: "Vila do Polo Norte Tinta de Guerra",
     schema: 17247,
-    hun: "Galácsonyi falu Harci festés"
+    hun: "Galácsonyi falu Harci festés",
+    rom: "Smissmas Village Vopsea de război"
   },
   1548: {
     img: "winterland_wrapped_war_paint",
@@ -15520,7 +15606,8 @@ var dataItems = {
     sch: "冬日条纹 战绘",
     bra: "Embrulho de Natal Tinta de Guerra",
     schema: 17254,
-    hun: "Galácsonyra csomagolt Harci festés"
+    hun: "Galácsonyra csomagolt Harci festés",
+    rom: "Winterland Wrapped Vopsea de război"
   },
   1549: {
     img: "self_care",
@@ -15988,7 +16075,8 @@ var dataItems = {
     bra: "Terror Orgânico Tinta de Guerra",
     schema: 17256,
     fre: "Incinération infernale | Peinture de guerre",
-    hun: "Szerv-esen pokolbantermesztett Harci festés"
+    hun: "Szerv-esen pokolbantermesztett Harci festés",
+    rom: "Organ-ically Hellraised Vopsea de război"
   },
   1597: {
     img: "spider_season_war_paint",
@@ -15998,7 +16086,8 @@ var dataItems = {
     bra: "Temporada de Aranhas Tinta de Guerra",
     schema: 17269,
     fre: "Araignées géantes | Peinture de guerre",
-    hun: "Pókszezon Harci festés"
+    hun: "Pókszezon Harci festés",
+    rom: "Spider Season Vopsea de război"
   },
   1598: {
     img: "gourdy_green_war_paint",
@@ -16008,7 +16097,8 @@ var dataItems = {
     bra: "Horta de Abóboras Tinta de Guerra",
     schema: 17267,
     fre: "Gazon maudit | Peinture de guerre",
-    hun: "Tökös zöld Harci festés"
+    hun: "Tökös zöld Harci festés",
+    rom: "Gourdy Green Vopsea de război"
   },
   1599: {
     img: "eyestalker_war_paint",
@@ -16018,7 +16108,8 @@ var dataItems = {
     schema: 17265,
     fre: "Phytœil | Peinture de guerre",
     bra: "Guaran-ahhhhh Tinta de Guerra",
-    hun: "Szemkocsányos Harci festés"
+    hun: "Szemkocsányos Harci festés",
+    rom: "Eyestalker Vopsea de război"
   },
   1600: {
     img: "death_deluxe_war_paint",
@@ -16028,7 +16119,8 @@ var dataItems = {
     bra: "Morte de Luxo Tinta de Guerra",
     schema: 17263,
     fre: "Cercueil | Peinture de guerre",
-    hun: "Díszes halál Harci festés"
+    hun: "Díszes halál Harci festés",
+    rom: "Death Deluxe Vopsea de război"
   },
   1601: {
     img: "portal_plastered_war_paint",
@@ -16038,7 +16130,8 @@ var dataItems = {
     bra: "Pintura de Portal Tinta de Guerra",
     schema: 17262,
     fre: "Portail magique | Peinture de guerre",
-    hun: "Portáltapaszos Harci festés"
+    hun: "Portáltapaszos Harci festés",
+    rom: "Portal Plastered Vopsea de război"
   },
   1602: {
     img: "candy_coated_war_paint",
@@ -16048,7 +16141,8 @@ var dataItems = {
     bra: "Revestimento Doce Tinta de Guerra",
     schema: 17258,
     fre: "Friandise | Peinture de guerre",
-    hun: "Cukorkapapíros Harci festés"
+    hun: "Cukorkapapíros Harci festés",
+    rom: "Candy Coated Vopsea de război"
   },
   1603: {
     img: "spiders_cluster_war_paint",
@@ -16058,7 +16152,8 @@ var dataItems = {
     bra: "Aglomerado de Aranhas Tinta de Guerra",
     schema: 17266,
     fre: "Toiles d'araignée | Peinture de guerre",
-    hun: "Pókfürtös Harci festés"
+    hun: "Pókfürtös Harci festés",
+    rom: "Spider's Cluster Vopsea de război"
   },
   1604: {
     img: "raving_dead_war_paint",
@@ -16068,7 +16163,8 @@ var dataItems = {
     bra: "Mortos Muito Loucos Tinta de Guerra",
     schema: 17264,
     fre: "Squelette | Peinture de guerre",
-    hun: "Haláli buli Harci festés"
+    hun: "Haláli buli Harci festés",
+    rom: "Raving Dead Vopsea de război"
   },
   1605: {
     img: "crawlspace_critters_war_paint",
@@ -16078,7 +16174,8 @@ var dataItems = {
     bra: "Criaturinhas Escondidas Tinta de Guerra",
     schema: 17261,
     fre: "Galetas | Peinture de guerre",
-    hun: "Falban motoszkálós Harci festés"
+    hun: "Falban motoszkálós Harci festés",
+    rom: "Crawlspace Critters Vopsea de război"
   },
   1606: {
     img: "sweet_toothed_war_paint",
@@ -16088,7 +16185,8 @@ var dataItems = {
     bra: "Dentinhos Doces Tinta de Guerra",
     schema: 17260,
     fre: "Bec sucré | Peinture de guerre",
-    hun: "Édesszájú Harci festés"
+    hun: "Édesszájú Harci festés",
+    rom: "Sweet Toothed Vopsea de război"
   },
   1607: {
     img: "helldriver_war_paint",
@@ -16098,7 +16196,8 @@ var dataItems = {
     bra: "Helldriver Tinta de Guerra",
     schema: 17255,
     fre: "Chlorophylle | Peinture de guerre",
-    hun: "Pokolhajtó Harci festés"
+    hun: "Pokolhajtó Harci festés",
+    rom: "Helldriver Vopsea de război"
   },
   1608: {
     img: "mummified_mimic_war_paint",
@@ -16108,7 +16207,8 @@ var dataItems = {
     bra: "Mímico Mumificado Tinta de Guerra",
     schema: 17268,
     fre: "Momification | Peinture de guerre",
-    hun: "Múmia-mimikri Harci festés"
+    hun: "Múmia-mimikri Harci festés",
+    rom: "Mummified Mimic Vopsea de război"
   },
   1609: {
     img: "pumpkin_pied_war_paint",
@@ -16118,7 +16218,8 @@ var dataItems = {
     bra: "Torta de Abóbora Tinta de Guerra",
     schema: 17259,
     fre: "Tarte aux citrouilles | Peinture de guerre",
-    hun: "Tökös-pités Harci festés"
+    hun: "Tökös-pités Harci festés",
+    rom: "Pumpkin Pied Vopsea de război"
   },
   1610: {
     img: "spectrum_splattered_war_paint",
@@ -16128,7 +16229,8 @@ var dataItems = {
     bra: "Gotas Cromáticas Tinta de Guerra",
     schema: 17257,
     fre: "Spectre | Peinture de guerre",
-    hun: "Spektrálpacás Harci festés"
+    hun: "Spektrálpacás Harci festés",
+    rom: "Spectrum Splattered Vopsea de război"
   },
   1611: {
     img: "taunt_carlton",
@@ -16844,7 +16946,8 @@ var dataItems = {
     schema: 17277,
     pol: "Wir z płatkami śniegu | Barwy wojenne",
     bra: "Espiral Flocada Tinta de Guerra",
-    hun: "Kavargós-hópihés Harci festés"
+    hun: "Kavargós-hópihés Harci festés",
+    rom: "Snowflake Swirled Vopsea de război"
   },
   1687: {
     img: "snow_globalization_war_paint",
@@ -16852,7 +16955,8 @@ var dataItems = {
     schema: 17275,
     pol: "Śnieżna globalizacja | Barwy wojenne",
     bra: "Globalização de Neve Tinta de Guerra",
-    hun: "Hócsatározás Harci festés"
+    hun: "Hócsatározás Harci festés",
+    rom: "Snow Globalization Vopsea de război"
   },
   1688: {
     img: "glacial_glazed_war_paint",
@@ -16860,7 +16964,8 @@ var dataItems = {
     schema: 17282,
     pol: "Zimowe zeszklenie | Barwy wojenne",
     bra: "Azulejos Glaciais Tinta de Guerra",
-    hun: "Gleccserbevonatú Harci festés"
+    hun: "Gleccserbevonatú Harci festés",
+    rom: "Glacial Glazed Vopsea de război"
   },
   1689: {
     img: "gifting_manns_wrapping_paper_war_paint",
@@ -16868,7 +16973,8 @@ var dataItems = {
     schema: 17276,
     pol: "Prezentowy papier do pakowania | Barwy wojenne",
     bra: "Papel de Presente do Mann Presente Tinta de Guerra",
-    hun: "Manntasztikus csomagolópapír Harci festés"
+    hun: "Manntasztikus csomagolópapír Harci festés",
+    rom: "Gifting Mann's Wrapping Paper Vopsea de război"
   },
   1690: {
     img: "peppermint_swirl_war_paint",
@@ -16876,7 +16982,8 @@ var dataItems = {
     schema: 17273,
     pol: "Cukierkowy wir | Barwy wojenne",
     bra: "Espiral de Hortelã-pimenta Tinta de Guerra",
-    hun: "Borsmenta forgatag Harci festés"
+    hun: "Borsmenta forgatag Harci festés",
+    rom: "Peppermint Swirl Vopsea de război"
   },
   1691: {
     img: "gingerbread_winner_war_paint",
@@ -16884,7 +16991,8 @@ var dataItems = {
     schema: 17270,
     pol: "Piernikowy zwycięzca | Barwy wojenne",
     bra: "Ganha-Pão de Mel Tinta de Guerra",
-    hun: "Nyerő mézeskalács Harci festés"
+    hun: "Nyerő mézeskalács Harci festés",
+    rom: "Gingerbread Winner Vopsea de război"
   },
   1692: {
     img: "smissmas_spycrabs_war_paint",
@@ -16892,7 +17000,8 @@ var dataItems = {
     schema: 17278,
     pol: "Śniąteczne szpiegokraby | Barwy wojenne",
     bra: "Spyranguejos de Natal Tinta de Guerra",
-    hun: "Galácsonyi kémrákok Harci festés"
+    hun: "Galácsonyi kémrákok Harci festés",
+    rom: "Smissmas Spycrabs Vopsea de război"
   },
   1693: {
     img: "elfin_enamel_war_paint",
@@ -16900,7 +17009,8 @@ var dataItems = {
     schema: 17272,
     pol: "Elfia emalia | Barwy wojenne",
     bra: "Esmalte Élfico Tinta de Guerra",
-    hun: "Manós máz Harci festés"
+    hun: "Manós máz Harci festés",
+    rom: "Elfin Enamel Vopsea de război"
   },
   1694: {
     img: "frozen_aurora_war_paint",
@@ -16908,7 +17018,8 @@ var dataItems = {
     schema: 17279,
     pol: "Mroźna zorza | Barwy wojenne",
     bra: "Aurora Congelada Tinta de Guerra",
-    hun: "Fagyott sarki fény Harci festés"
+    hun: "Fagyott sarki fény Harci festés",
+    rom: "Frozen Aurora Vopsea de război"
   },
   1695: {
     img: "cookie_fortress_war_paint",
@@ -16916,7 +17027,8 @@ var dataItems = {
     schema: 17283,
     pol: "Ciasteczkowa forteca | Barwy wojenne",
     bra: "Fortaleza de Biscolachas Tinta de Guerra",
-    hun: "Sütierőd Harci festés"
+    hun: "Sütierőd Harci festés",
+    rom: "Cookie Fortress Vopsea de război"
   },
   1696: {
     img: "frosty_delivery_war_paint",
@@ -16924,7 +17036,8 @@ var dataItems = {
     schema: 17281,
     pol: "Mroźna dostawa | Barwy wojenne",
     bra: "Entrega Gélida Tinta de Guerra",
-    hun: "Deres szállítmány Harci festés"
+    hun: "Deres szállítmány Harci festés",
+    rom: "Frosty Delivery Vopsea de război"
   },
   1697: {
     img: "saccharine_striped_war_paint",
@@ -16932,7 +17045,8 @@ var dataItems = {
     schema: 17271,
     pol: "Przesłodkie pasy | Barwy wojenne",
     bra: "Listras Adocicadas Tinta de Guerra",
-    hun: "Cukorkacsíkos Harci festés"
+    hun: "Cukorkacsíkos Harci festés",
+    rom: "Saccharine Striped Vopsea de război"
   },
   1698: {
     img: "starlight_serenity_war_paint",
@@ -16940,7 +17054,8 @@ var dataItems = {
     schema: 17280,
     pol: "Gwiezdne ukojenie | Barwy wojenne",
     bra: "Serenidade Estrelada Tinta de Guerra",
-    hun: "Csillagfényes csendesség Harci festés"
+    hun: "Csillagfényes csendesség Harci festés",
+    rom: "Starlight Serenity Vopsea de război"
   },
   1699: {
     img: "taunt_the_pooped_deck",

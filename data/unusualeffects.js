@@ -137,7 +137,8 @@ let dataEffects = {
         sch: "活泼离子体",
         fre: "Plasma éclatant",
         bra: "Plasma vívido",
-        hun: "Élénk plazma"
+        hun: "Élénk plazma",
+        rom: "Plasmă Strălucitoare"
     },
     15: {
         img: "72",
@@ -166,7 +167,8 @@ let dataEffects = {
         sch: "圣杯之光",
         fre: "Saint Graal",
         bra: "Santo Graal",
-        hun: "Szent Grál"
+        hun: "Szent Grál",
+        rom: "Sfântul Graal"
     },
     18: {
         img: "mega_strike",
@@ -476,7 +478,8 @@ let dataEffects = {
         sch: "内存溢出",
         fre: "Fuite mémoire",
         bra: "Vazamento de memória",
-        hun: "Memóriaszivárgás"
+        hun: "Memóriaszivárgás",
+        rom: "Scurgere de memorie"
     },
     49: {
         img: "overclocked",
@@ -526,7 +529,8 @@ let dataEffects = {
         sch: "硫火",
         fre: "Sulfureux",
         bra: "Sulfuroso",
-        hun: "Kénes"
+        hun: "Kénes",
+        rom: "Sulfuros"
     },
     54: {
         img: "time_warp",

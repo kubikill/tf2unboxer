@@ -1351,6 +1351,9 @@ function changeLanguage(lang) {
         case "hun":
             document.documentElement.lang = "hu";
             break;
+        case "rom":
+            document.documentElement.lang = "ro";
+            break;
     }
     jumpToCrate(currentCrate);
     generateGrid();
@@ -3557,6 +3560,13 @@ window.onload = () => {
                     changeLanguage("hun");
                     save.options.language = "hun";
                     DOM.options.langDropdown.value = "hun";
+                    localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
+                    i = navigator.languages.length;
+                    break;
+                case "ro":
+                    changeLanguage("rom");
+                    save.options.language = "rom";
+                    DOM.options.langDropdown.value = "rom";
                     localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
                     i = navigator.languages.length;
                     break;

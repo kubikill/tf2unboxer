@@ -8,7 +8,8 @@ var dataUi = {
     bra: "Armas obtidas por essa caixa terão a qualidade Estranha.",
     fre: "Les armes obtenues de cette caisse seront de qualité Étrange.",
     cze: "Zbraně uvnitř mají Strange kvalitu.",
-    hun: "Ebben a ládában található fegyverek Fura minőségűek lesznek."
+    hun: "Ebben a ládában található fegyverek Fura minőségűek lesznek.",
+    rom: "Armele obtinute din aceasta cutie vor avea o calitate Stranie."
   },
   2: {
     eng: "Items obtained from this crate might have the Strange quality.",
@@ -17,7 +18,8 @@ var dataUi = {
     bra: "Itens obtidos por essa caixa podem ter a qualidade Estranha.",
     fre: "Les objets obtenus de cette caisse peuvent être de qualité Étrange.",
     cze: "Předměty získané z této krabice mohou mít Strange kvalitu.",
-    hun: "Ebben a ládában található tárgyak Fura minőségűek lehetnek."
+    hun: "Ebben a ládában található tárgyak Fura minőségűek lehetnek.",
+    rom: "Obiectele obtinute din aceasta cutie pot avea o calitate Stranie."
   },
   3: {
     eng: "Items obtained from this crate will have the Haunted quality.",
@@ -26,7 +28,8 @@ var dataUi = {
     bra: "Itens obtidos por essa caixa terão a qualidade Assombrada.",
     fre: "Les objets obtenus de cette caisse seront de qualité Hantée.",
     cze: "Předměty uvnitř mají Haunted kvalitu.",
-    hun: "Ebben a ládában található tárgyak Kísértetjárta minőségűek lesznek."
+    hun: "Ebben a ládában található tárgyak Kísértetjárta minőségűek lesznek.",
+    rom: "Obiectele obtinute din aceasta cutie vor avea o calitate Bantuita."
   },
   4: {
     eng: "Items obtained from this crate may have Strange and/or Unusual quality.",
@@ -35,7 +38,8 @@ var dataUi = {
     bra: "Itens obtidos por essa caixa podem ter a qualidade Estranha e/ou Incomum.",
     fre: "Les objets obtenus de cette caisse peuvent être de qualité Étrange et/ou Inhabituelle.",
     cze: "Předměty získané z této krabice můžou mít Strange a/nebo Unusual kvalitu.",
-    hun: "Ebben a ládában található tárgyak Fura és/vagy Rendkívüli minőségűek lehetnek."
+    hun: "Ebben a ládában található tárgyak Fura és/vagy Rendkívüli minőségűek lehetnek.",
+    rom: "Obiectele obtinute din aceasta cutie pot avea calitate Stranie si/sau calitate Neobisnuita."
   },
   5: {
     eng: "Items obtained from this case may have Strange and/or Unusual quality.",
@@ -44,7 +48,8 @@ var dataUi = {
     bra: "Itens obtidos por essa caixa podem ter a qualidade Estranha e/ou Incomum.",
     fre: "Les objets obtenus de cette caisse peuvent être de qualité Étrange et/ou Inhabituelle.",
     cze: "Předměty získané z této krabice můžou mít Strange a/nebo Unusual kvalitu.",
-    hun: "Ebben a táskában található tárgyak Fura és/vagy Rendkívüli minőségűek lehetnek."
+    hun: "Ebben a táskában található tárgyak Fura és/vagy Rendkívüli minőségűek lehetnek.",
+    rom: "Obiectele obtinuite din aceasta cutie pot avea calitate Stranie si/sau calitate Neobisnuita."
   },
   6: {
     eng: "Weapons obtained from this crate will have the Strange quality and cosmetics might have the Strange quality.",
@@ -53,7 +58,8 @@ var dataUi = {
     bra: "Armas obtidas por essa caixa terão a qualidade Estranha e cosméticos obtidos por essa caixa podem ter a qualidade Estranha.",
     fre: "Les armes obtenues de cette caisse seront de qualité Étrange et les cosmétiques peuvent être de qualité Étrange.",
     cze: "Zbraně získané z této krabice budou mít Strange kvalitu a kosmetické předměty můžou mít Strange kvalitu.",
-    hun: "Ebben a ládában található fegyverek Fura minőségűek lesznek és a díszítők Fura minőségűek lehetnek."
+    hun: "Ebben a ládában található fegyverek Fura minőségűek lesznek és a díszítők Fura minőségűek lehetnek.",
+    rom: "Armele obtinute din aceasta cutie vor avea o calitate Stranie iar cosmeticele pot avea o calitate Stranie."
   },
   7: {
     eng: "Items obtained from this crate may have Unusual quality.",
@@ -62,7 +68,8 @@ var dataUi = {
     bra: "Itens obtidos por essa caixa podem ter qualidade Incomum.",
     fre: "Les objets obtenus de cette caisse peuvent être de qualité Inhabituelle.",
     cze: "Předměty získané z této krabice mohou mít Unusual kvalitu.",
-    hun: "Ebben a ládában található tárgyak Rendkívüli minőségűek lehetnek."
+    hun: "Ebben a ládában található tárgyak Rendkívüli minőségűek lehetnek.",
+    rom: "Obiectele obtinute din aceasta cutie pot avea calitate Neobisnuita."
   },
   8: {
     eng: "Items obtained from this crate may have Strange and Haunted quality.",
@@ -71,7 +78,8 @@ var dataUi = {
     bra: "Itens obtidos por essa caixa podem ter qualidade Estranha e Assombrada.",
     fre: "Les objets obtenus de cette caisse peuvent être de qualité Étrange et Hantée.",
     cze: "Předměty získané z této krabice mohou mít Strange a Haunted kvalitu.",
-    hun: "Ebben a ládában található tárgyak Fura és Kísértetjárta minőségűek lehetnek."
+    hun: "Ebben a ládában található tárgyak Fura és Kísértetjárta minőségűek lehetnek.",
+    rom: "Obiectele obtinute din aceasta cutie pot avea calitate Stranie si calitate Bantuita."
   },
   9: {
     eng: "Options",
@@ -80,7 +88,8 @@ var dataUi = {
     bra: "Opções",
     fre: "Paramètres",
     cze: "Nastavení",
-    hun: "Beállítások"
+    hun: "Beállítások",
+    rom: "Optiuni"
   },
   10: {
     eng: "Statistics",
@@ -89,7 +98,8 @@ var dataUi = {
     bra: "Estatisticas",
     fre: "Statistiques",
     cze: "Statistiky",
-    hun: "Statisztikák"
+    hun: "Statisztikák",
+    rom: "Statistici"
   },
   11: {
     eng: "Grid view",
@@ -98,7 +108,8 @@ var dataUi = {
     bra: "Visualização à grade",
     fre: "Vue en grille",
     cze: "Mřížkovaný pohled",
-    hun: "Táblázat"
+    hun: "Táblázat",
+    rom: "Vizualizare grila"
   },
   12: {
     eng: "Details view",
@@ -107,7 +118,8 @@ var dataUi = {
     bra: "Visualização de detalhes",
     fre: "Vue détaillée",
     cze: "Detailní pohled",
-    hun: "Részletes nézet"
+    hun: "Részletes nézet",
+    rom: "Vizualizare detalii"
   },
   13: {
     eng: "Unbox my loot!",
@@ -116,7 +128,8 @@ var dataUi = {
     bra: "Desencaixotar a minha recompensa!",
     fre: "Déballer mon butin!",
     cze: "Otevřít!",
-    hun: "Zsákmány kibontása!"
+    hun: "Zsákmány kibontása!",
+    rom: "Deschidemi bunurile!"
   },
   14: {
     eng: "Random crate",
@@ -125,7 +138,8 @@ var dataUi = {
     bra: "Caixa aleatória",
     fre: "Caisse aléatoire",
     cze: "Náhodná bedna",
-    hun: "Véletlenszerű láda"
+    hun: "Véletlenszerű láda",
+    rom: "Cutie aleatorie"
   },
   15: {
     eng: "Return",
@@ -134,7 +148,8 @@ var dataUi = {
     bra: "Retornar",
     fre: "Retour",
     cze: "Zpátky",
-    hun: "Vissza"
+    hun: "Vissza",
+    rom: "Intoarce"
   },
   16: {
     eng: "Effects",
@@ -143,7 +158,8 @@ var dataUi = {
     bra: "Efeitos",
     fre: "Effets",
     cze: "Efekty",
-    hun: "Effektek"
+    hun: "Effektek",
+    rom: "Efecte"
   },
   17: {
     eng: "Loot",
@@ -152,7 +168,8 @@ var dataUi = {
     bra: "Recompensas",
     fre: "Butin",
     cze: "Předměty",
-    hun: "Zsákmány"
+    hun: "Zsákmány",
+    rom: "Bunuri"
   },
   18: {
     eng: "More info",
@@ -161,7 +178,8 @@ var dataUi = {
     bra: "Mais informações",
     fre: "Plus d'informations",
     cze: "Více informací",
-    hun: "További információk"
+    hun: "További információk",
+    rom: "Mai multe informatii"
   },
   19: {
     eng: "Unbox again",
@@ -170,7 +188,8 @@ var dataUi = {
     bra: "Desencaixotar novamente",
     fre: "Déballer à nouveau",
     cze: "Otevřít znova",
-    hun: "Kinyitás újból"
+    hun: "Kinyitás újból",
+    rom: "Deschide iar"
   },
   20: {
     eng: "General",
@@ -179,7 +198,8 @@ var dataUi = {
     bra: "Geral",
     fre: "Général",
     cze: "Přehled",
-    hun: "Általános"
+    hun: "Általános",
+    rom: "General"
   },
   21: {
     eng: "Unusuals",
@@ -188,7 +208,8 @@ var dataUi = {
     bra: "Incomuns",
     fre: "Inhabituels",
     cze: "Unusual předměty",
-    hun: "Rendkívüliek"
+    hun: "Rendkívüliek",
+    rom: "Obiecte neobisnuite"
   },
   22: {
     eng: "Inventory",
@@ -197,7 +218,8 @@ var dataUi = {
     bra: "Inventário",
     fre: "Inventaire",
     cze: "Inventář",
-    hun: "Leltár"
+    hun: "Leltár",
+    rom: "Inventar"
   },
   23: {
     eng: "Return to main menu",
@@ -206,7 +228,8 @@ var dataUi = {
     bra: "Retornar ao menu principal",
     fre: "Retour au menu principal",
     cze: "Zpět na hlavní menu",
-    hun: "Vissza a főmenübe"
+    hun: "Vissza a főmenübe",
+    rom: "Intoarce-te la meniu"
   },
   24: {
     eng: "Return to list",
@@ -215,7 +238,8 @@ var dataUi = {
     bra: "Retornar à lista",
     fre: "Retour à la liste",
     cze: "Zpátky do Inventáře",
-    hun: "Vissza a listához"
+    hun: "Vissza a listához",
+    rom: "Intoarce-te la lista"
   },
   25: {
     eng: "Changelog",
@@ -224,7 +248,8 @@ var dataUi = {
     bra: "Histórico de mudanças",
     fre: "Changements récents",
     cze: "Přehled změn",
-    hun: "Változási napló"
+    hun: "Változási napló",
+    rom: "Actualizari"
   },
   26: {
     eng: "Credits",
@@ -233,7 +258,8 @@ var dataUi = {
     bra: "Créditos",
     fre: "Crédits",
     cze: "Poděkování",
-    hun: "Készítők"
+    hun: "Készítők",
+    rom: "Credite"
   },
   27: {
     eng: "Off",
@@ -242,7 +268,8 @@ var dataUi = {
     bra: "Desativado",
     fre: "Désactivé",
     cze: "Vyp",
-    hun: "Ki"
+    hun: "Ki",
+    rom: "Oprit"
   },
   28: {
     eng: "On",
@@ -251,7 +278,8 @@ var dataUi = {
     bra: "Ativado",
     fre: "Activé",
     cze: "Zap",
-    hun: "Be"
+    hun: "Be",
+    rom: "Deschis"
   },
   29: {
     eng: "Reset",
@@ -260,7 +288,8 @@ var dataUi = {
     bra: "Resetar",
     fre: "Réinitialiser",
     cze: "Reset",
-    hun: "Visszaállítás"
+    hun: "Visszaállítás",
+    rom: "Resetare"
   },
   30: {
     eng: "This crate contains one of the following items:",
@@ -269,7 +298,8 @@ var dataUi = {
     bra: "Essa caixa contém um dos itens a seguir:",
     fre: "Cette caisse contient un des objets suivant:",
     cze: "Tato krabice obsahuje jeden z následujících předmětů:",
-    hun: "Ez a láda az alábbiak egyikét tartalmazza:"
+    hun: "Ez a láda az alábbiak egyikét tartalmazza:",
+    rom: "Aceasta cutie contine unul dintre urmatoarele obiecte:"
   },
   31: {
     eng: "Unusuals may have one of the following effects:",
@@ -278,7 +308,8 @@ var dataUi = {
     bra: "Itens incomuns poderão ter um dos efeitos a seguir:",
     fre: "Les objets Inhabituels peuvent être parmis les effets suivant:",
     cze: "Unusual předměty budou mohou mít jeden z následujících efektů:",
-    hun: "A Rendkívüli effektek az alábbiak egyike lehet:"
+    hun: "A Rendkívüli effektek az alábbiak egyike lehet:",
+    rom: "Obiectele Neobisnuite pot avea unul dintre urmatoarele efecte:"
   },
   32: {
     eng: "Unusuals cannot be unboxed from this crate.",
@@ -287,7 +318,8 @@ var dataUi = {
     bra: "Itens incomuns não poderão ser obtidos por essa caixa.",
     fre: "Les objets Inhabituels ne peuvent pas être déballés de cette caisse.",
     cze: "Unusual předměty nemůžou být získány z této krabice.",
-    hun: "Ebből a ládából nem nyithatók Rendkívüliek"
+    hun: "Ebből a ládából nem nyithatók Rendkívüliek",
+    rom: "Nu se pot deschide obiecte Neobisnuite din aceasta cutie."
   },
   33: {
     eng: "Unboxing your loot",
@@ -296,7 +328,8 @@ var dataUi = {
     bra: "Desencaixotando a sua recompensa",
     fre: "Déballement du butin",
     cze: "Rozbalování obsahu",
-    hun: "Zsákmányod kinyitása"
+    hun: "Zsákmányod kinyitása",
+    rom: "Deschizanduti bunurile"
   },
   34: {
     eng: "New item acquired!",
@@ -305,7 +338,8 @@ var dataUi = {
     bra: "Novo item adquirido!",
     fre: "Nouvel objet acquis!",
     cze: "Získal jsi nový předmět!",
-    hun: "Új tárgyat kaptál!"
+    hun: "Új tárgyat kaptál!",
+    rom: "Obiect nou dobandit!"
   },
   35: {
     eng: 'You <span id="unboxedtext">unboxed</span>:',
@@ -314,7 +348,8 @@ var dataUi = {
     bra: 'Você <span id="unboxedtext">desencaixotou</span>:',
     fre: 'Vous <span id="unboxedtext">avez ouvert</span>:',
     cze: '<span id="unboxedtext">Otevřel jsi</span>:',
-    hun: '<span id="unboxedtext">Kibontottad</span>:'
+    hun: '<span id="unboxedtext">Kibontottad</span>:',
+    rom: 'Tu <span id="unboxedtext">deschis</span>:'
   },
   36: {
     eng: "★ Unusual Effect: ",
@@ -323,7 +358,8 @@ var dataUi = {
     bra: "★ Efeito Incomum: ",
     fre: "★ Effet Inhabituel: ",
     cze: "★ Unusual Efekt:",
-    hun: "★ Rendkívüli effekt:"
+    hun: "★ Rendkívüli effekt:",
+    rom: "★ Efect Neobisnuit: "
   },
   37: {
     eng: "Chance to unbox:",
@@ -332,7 +368,8 @@ var dataUi = {
     bra: "Chance de desencaixotar:",
     fre: "Chances de déballer:",
     cze: "Šance na otevření:",
-    hun: "Esély a kibontásra:"
+    hun: "Esély a kibontásra:",
+    rom: "Sansa de a deschide:"
   },
   38: {
     eng: "Times unboxed:",
@@ -341,7 +378,8 @@ var dataUi = {
     bra: "Vezes desencaixotadas:",
     fre: "Nombres de fois déballé:",
     cze: "Otevřeno tolikrát:",
-    hun: "Kibontva ennyiszer:"
+    hun: "Kibontva ennyiszer:",
+    rom: "Numarul deschiderilor:"
   },
   39: {
     eng: "Unboxes since last Unusual:",
@@ -350,7 +388,8 @@ var dataUi = {
     bra: "Desencaixotes desde o último item Incomum:",
     fre: "Caisses déballées depuis le dernier Inhabituel:",
     cze: "Otevření od posledního Unusual předmětu:",
-    hun: "Kibontások az utolsó Rendkívüli óta:"
+    hun: "Kibontások az utolsó Rendkívüli óta:",
+    rom: "Deschideri de la ultimul obiect Neobisnuit:"
   },
   40: {
     eng: "Unusuals unboxed:",
@@ -359,7 +398,8 @@ var dataUi = {
     bra: "Itens Incomuns desencaixotados:",
     fre: "Inhabituels déballés:",
     cze: "Získáno Unusual předmětů:",
-    hun: "Rendkívüliek kibontva:"
+    hun: "Rendkívüliek kibontva:",
+    rom: "Obiecte Neobisnuite deschise:"
   },
   41: {
     eng: "Total crates/cases opened:",
@@ -368,7 +408,8 @@ var dataUi = {
     bra: "Total de caixas abertas:",
     fre: "Total des caisses déballées:",
     cze: "Rozbalené krabice/bedny:",
-    hun: "Kibontott ládák/táskák száma összesen:"
+    hun: "Kibontott ládák/táskák száma összesen:",
+    rom: "Totalitatea cutiilor deschise:"
   },
   42: {
     eng: "Money wasted on keys:",
@@ -377,7 +418,8 @@ var dataUi = {
     bra: "Dinheiro gastado em chaves:",
     fre: "Argent gaspillée sur les clées:",
     cze: "Peníze utracené za klíče:",
-    hun: "Kulcsokra elpazarolt pénz:"
+    hun: "Kulcsokra elpazarolt pénz:",
+    rom: "Bani folositi pe chei:"
   },
   43: {
     eng: "Shortest Unusual drought:",
@@ -386,7 +428,8 @@ var dataUi = {
     bra: "A menor seca de itens Incomuns:",
     fre: "Suite à sec d'Inhabituel la plus courte:",
     cze: "Nejkratší prodleva mezi Unusual předměty:",
-    hun: "Két Rendkívüli között kinyitott legkevesebb láda/táska:"
+    hun: "Két Rendkívüli között kinyitott legkevesebb láda/táska:",
+    rom: "Cele mai putine cutii deschise fara a deschide un obiect Neobisnuit:"
   },
   44: {
     eng: "Longest Unusual drought:",
@@ -395,7 +438,8 @@ var dataUi = {
     bra: "A maior seca de itens Incomuns:",
     fre: "Suite à sec d 'Inhabituel la plus longue:",
     cze: "Nejdelší prodleva mezi Unusual předměty:",
-    hun: "Két Rendkívüli között kinyitott legtöbb láda/táska:"
+    hun: "Két Rendkívüli között kinyitott legtöbb láda/táska:",
+    rom: "Cele mai multe cutii deschise fara a deschide un obiect Neobisnuit:"
   },
   45: {
     eng: '<span class="colorunique">Unique</span> items unboxed:',
@@ -404,7 +448,8 @@ var dataUi = {
     bra: 'Itens <span class="colorunique">Únicos</span> desencaixotados:',
     fre: 'Objet déballé<span class="colorunique">Unique</span>:',
     cze: '<span class="colorunique">Unique</span> předmětů získáno:',
-    hun: '<span class="colorunique">Egyedi</span> tárgyak kibontva:'
+    hun: '<span class="colorunique">Egyedi</span> tárgyak kibontva:',
+    rom: '<span class="colorunique">unic</span> obiecte deschise:'
   },
   46: {
     eng: '<span class="colorstrange">Strange</span> items unboxed:',
@@ -413,7 +458,8 @@ var dataUi = {
     bra: 'Itens <span class="colorstrange">Estranhos</span> desencaixotados:',
     fre: 'Objet déballé<span class="colorstrange">Étrange</span>:',
     cze: '<span class="colorstrange">Strange</span> předmětů získáno:',
-    hun: '<span class="colorstrange">Fura</span> tárgyak kibontva:'
+    hun: '<span class="colorstrange">Fura</span> tárgyak kibontva:',
+    rom: '<span class="colorstrange">Straniu</span> obiecte deschise:'
   },
   47: {
     eng: '<span class="colorhaunted">Haunted</span> items unboxed:',
@@ -422,7 +468,8 @@ var dataUi = {
     bra: 'Itens <span class="colorhaunted">Assombrados</span> desencaixotados:',
     fre: 'Objet déballé<span class="colorhaunted">Hanté</span>:',
     cze: '<span class="colorhaunted">Haunted</span> předmětů získáno:',
-    hun: '<span class="colorhaunted">Kísértetjárta</span> tárgyak kibontva:'
+    hun: '<span class="colorhaunted">Kísértetjárta</span> tárgyak kibontva:',
+    rom: '<span class="colorhaunted">Bantuit</span> obiecte deschise:'
   },
   48: {
     eng: '<span class="colordecorated">Decorated</span> items unboxed:',
@@ -431,7 +478,8 @@ var dataUi = {
     bra: 'Itens <span class="colordecorated">Decorados</span> desencaixotados:',
     fre: 'Objet déballé<span class="colordecorated">Décoré</span>:',
     cze: '<span class="colordecorated">Decorated</span> předmětů získáno:',
-    hun: '<span class="colordecorated">Díszített fegyverek</span> kibontva:'
+    hun: '<span class="colordecorated">Díszített fegyverek</span> kibontva:',
+    rom: '<span class="colordecorated">Decorat</span> obiecte deschise:'
   },
   49: {
     eng: '<span class="colorunusual">Unusuals</span> unboxed:',
@@ -440,7 +488,8 @@ var dataUi = {
     bra: 'Itens <span class="colorunusual">Incomuns</span> desencaixotados:',
     fre: 'Objet déballé<span class="colordecorated">Inhabituel</span>:',
     cze: '<span class="colorunusual">Unusual</span> předmětů získáno:',
-    hun: '<span class="colorunusual">Rendkívüliek</span> kibontva:'
+    hun: '<span class="colorunusual">Rendkívüliek</span> kibontva:',
+    rom: '<span class="colorunusual">Neobisnuite</span> deschis:'
   },
   50: {
     eng: "No unusuals... yet.",
@@ -449,7 +498,8 @@ var dataUi = {
     bra: "Nenhum item Incomum... por enquanto.",
     fre: "Pas d'inhabituels...pour l 'instant.",
     cze: "Zatím žádné Unusual předměty... zatím.",
-    hun: "Nincsenek Rendkívüliek... még."
+    hun: "Nincsenek Rendkívüliek... még.",
+    rom: "Niciun obiect Neobisnuit... inca."
   },
   51: {
     eng: 'Unboxed <span id="statscratesdetailsunbox">0</span> times',
@@ -458,7 +508,8 @@ var dataUi = {
     bra: 'Desencaixotado <span id="statscratesdetailsunbox">0</span> vezes',
     fre: 'Débalé <span id="statscratesdetailsunbox">0</span> fois',
     cze: 'Otevřeno <span id="statscratesdetailsunbox">0</span> krát',
-    hun: 'Kibontva ennyiszer: <span id="statscratesdetailsunbox">0</span>'
+    hun: 'Kibontva ennyiszer: <span id="statscratesdetailsunbox">0</span>',
+    rom: 'Deschis <span id="statscratesdetailsunbox">0</span> timpuri'
   },
   52: {
     eng: "No items... yet.<br>Go open some crates!",
@@ -467,7 +518,8 @@ var dataUi = {
     bra: "Sem itens... por enquanto.<br>Vai abrir algumas caixas!",
     fre: "Pas d'objets... pour l 'instant.<br>Allez déballer des caisses!",
     cze: "Zatím žádné předměty.. zatím.<br>Běž otevřít nějaké bedny!",
-    hun: "Nincsenek tárgyak... még.<br>Nyiss ki pár ládát!"
+    hun: "Nincsenek tárgyak... még.<br>Nyiss ki pár ládát!",
+    rom: "Niciun obict... inca.<br>Deschide niste cutii!"
   },
   53: {
     eng: "Unboxed ",
@@ -476,7 +528,8 @@ var dataUi = {
     bra: "Desencaixotou ",
     fre: "Déballé ",
     cze: "Otevřeno ",
-    hun: "Kibontva"
+    hun: "Kibontva",
+    rom: "Deschis "
   },
   54: {
     eng: " times",
@@ -485,7 +538,8 @@ var dataUi = {
     bra: " vezes",
     fre: " fois",
     cze: " krát",
-    hun: " alkalommal"
+    hun: " alkalommal",
+    rom: " timpuri"
   },
   55: {
     eng: "Language:",
@@ -494,7 +548,8 @@ var dataUi = {
     bra: "Idioma:",
     fre: "Langue:",
     cze: "Jazyk:",
-    hun: "Nyelv:"
+    hun: "Nyelv:",
+    rom: "Limba:"
   },
   56: {
     eng: "Fast unboxing:",
@@ -503,7 +558,8 @@ var dataUi = {
     bra: "Desencaixotamento rápido:",
     fre: "Déballage rapide:",
     cze: "Rychlé otevírání:",
-    hun: "Gyors kibontás:"
+    hun: "Gyors kibontás:",
+    rom: "Deschidere rapida:"
   },
   57: {
     eng: 'Skips the unboxing countdown.<br>Also allows you to unbox rapidly by holding Space or the "Unbox again" button on the crate results screen.',
@@ -512,7 +568,8 @@ var dataUi = {
     bra: 'Desativa a contagem regressiva.<br>Também permite que você desencaixote rapidamente segurando a tecla Espaço ou o botão "Desencaixotar novamente" nos resultados do seu desencaixotamento.',
     fre: 'Saute le compte-à-rebours du déballage.',
     cze: 'Přeskakuje rozbalovací odpočet.<br>Taktéž umožňuje rychlé otevírání držením mezerníku nebo "Otevřít znova" tlačítka na obrazovce výsledků.',
-    hun: 'Kihagyja a visszaszámlálást kibontáskor.<br>Így tudsz gyorsabban kibontani a Space gomb lenyomva tartásával vagy a "Kinyitás újból" gomb lenyomásával a kibontott zsákmány képernyőn.'
+    hun: 'Kihagyja a visszaszámlálást kibontáskor.<br>Így tudsz gyorsabban kibontani a Space gomb lenyomva tartásával vagy a "Kinyitás újból" gomb lenyomásával a kibontott zsákmány képernyőn.',
+    rom: 'Treci peste timpul pentru deschiderea cutiei.<br>Deasemenea iti permite sa deschizi rapid tinand apasat Space sau butonul "Deschide iar" afisat pe ecranul rezultatului cutiei.'
   },
   58: {
     eng: "Amoled theme:",
@@ -521,7 +578,8 @@ var dataUi = {
     bra: "Tema escuro:",
     fre: "Thème Amoled:",
     cze: "Amoled pozadí:",
-    hun: "Amoled téma:"
+    hun: "Amoled téma:",
+    rom: "Tema amoled:"
   },
   59: {
     eng: "Change background color to black.",
@@ -530,7 +588,8 @@ var dataUi = {
     bra: "Altera a cor do fundo para preto.",
     fre: "Change la couleur de fond au noir.",
     cze: "Změní barvu pozadí na černou.",
-    hun: "Fekete háttér beállítása."
+    hun: "Fekete háttér beállítása.",
+    rom: "Schimba culoarea fundalului ca negru."
   },
   60: {
     eng: "Reset save:",
@@ -539,7 +598,8 @@ var dataUi = {
     bra: "Resetar a sua data:",
     fre: "Réinitialiser la sauvegarde:",
     cze: "Resetovat historii:",
-    hun: "Mentések törlése:"
+    hun: "Mentések törlése:",
+    rom: "Reseteaza salvarea:"
   },
   61: {
     eng: "Reset stats and all unboxed items, including unusuals.<br>Will ask for confirmation only once.",
@@ -548,7 +608,8 @@ var dataUi = {
     bra: "Reseta as suas estatísticas e todos itens desencaixotados, incluindo itens Incomuns.<br>Só vai pedir confirmação uma vez.",
     fre: "Réinitialise les statistiques ainsi que les objets déballés, incluants les Inhabituels.<br>Ne demande la confirmation qu'une fois.",
     cze: "Resetuje statistiky a historii všech rozbalených předmětů, včetně Unusual.<br>Na potvrzení se zeptám pouze jednou.",
-    hun: "Lenullázza a statisztikákat és az összes kibontott tárgyat eltünteti, a Rendkívülieket is.<br>Megnyomás után még egyszer jóvá kell hagyni."
+    hun: "Lenullázza a statisztikákat és az összes kibontott tárgyat eltünteti, a Rendkívülieket is.<br>Megnyomás után még egyszer jóvá kell hagyni.",
+    rom: "Reseteaza statisticile si toate obiectele deschise, incluzand obiectele Neobisnuite.<br>Se va intreba decat o singura data pentru confirmare."
   },
   62: {
     eng: "Custom Crate Depression Mode:",
@@ -557,7 +618,8 @@ var dataUi = {
     bra: "Modo Personalizado da Grande Depressão de Caixas:",
     fre: "Mode Custom Caisse Dépression:",
     cze: "Vlastní Crate Depression mód:",
-    hun: "Egyedi ládanyitási mód:"
+    hun: "Egyedi ládanyitási mód:",
+    rom: "Cutie Personalizata Modul Depresie:"
   },
   63: {
     eng: "Crash the economy in your own style! This option lets you always unbox Unusuals, Stranges, professional killstreak kits, bonus items or items of specific grade.<br>Enabling any of those options will disable stats and saving!",
@@ -566,7 +628,8 @@ var dataUi = {
     bra: "Destrua a economia no seu estilo! Essa opção te deixa sempre desencaixotar itens Incomuns, Estranhos, Kits de Combo Profissionais, itens de bônus ou itens de nível especifico.<br>Ativando qualquer uma dessas opções vai desativar estatísticas e a habilidade de salvar a sua data!",
     fre: "Ruinez l'économie à votre façon! Cette option vous laisse ouvrir que des Inhabituels, Étranges, kits de killstreak professionels, objets bonis ou objets d'un grade spécifique.<br>Activer une ce des options désactive les statistiques et la sauvegarde!",
     cze: "Znič ekonomiku ve svém vlastním stylu! Tato možnost ti umožňí pokaždé získat Unusual nebo Strange předmět, případně prof. killstreak kit, bonusové předměty, nebo předmět určité kvality.<br>Povolením této funkce se pozastaví ukládání statistiky a historie otevření!",
-    hun: "Tedd tönkre a gazdaságot a saját stílusodban! Ezekkel a beállításokkal elérheted, hogy mindig Rendkívüliket, Furákat, Hivatásos ámokfutás készleteket, bónusz tárgyakat vagy tárgyakat bizonyos fokozatba nyiss ki. Bármelyik bekapcsolása esetén nem számítanak bele a statisztikákba és nem lesz elmentve sem!"
+    hun: "Tedd tönkre a gazdaságot a saját stílusodban! Ezekkel a beállításokkal elérheted, hogy mindig Rendkívüliket, Furákat, Hivatásos ámokfutás készleteket, bónusz tárgyakat vagy tárgyakat bizonyos fokozatba nyiss ki. Bármelyik bekapcsolása esetén nem számítanak bele a statisztikákba és nem lesz elmentve sem!",
+    rom: "Distruge economia in propriul stil! Aceasta optiune te va lasa intotdeauna sa deschizi obiecte Neobisnuite, obiecte Stranii, Truse Profesionale de Omoruri Consecutive, obiecte bonus sau obiecte de un grad specific.<br>Pornirea oricarui optiune dintre acestea va dezactiva statisticile si salvarile!"
   },
   64: {
     eng: 'Made by <a href="https://steamcommunity.com/id/kubikill" target="_blank" rel="noopener">kubikill</a>',
@@ -575,7 +638,8 @@ var dataUi = {
     bra: 'Feito por <a href="https://steamcommunity.com/id/kubikill" target="_blank" rel="noopener">kubikill</a>',
     fre: 'Créé par <a href="https://steamcommunity.com/id/kubikill" target="_blank" rel="noopener">kubikill</a>',
     cze: 'Vytvořeno <a href="https://steamcommunity.com/id/kubikill" target="_blank" rel="noopener">kubikillem</a>',
-    hun: 'Készítette: <a href="https://steamcommunity.com/id/kubikill" target="_blank" rel="noopener">kubikill</a>'
+    hun: 'Készítette: <a href="https://steamcommunity.com/id/kubikill" target="_blank" rel="noopener">kubikill</a>',
+    rom: 'Creata de <a href="https://steamcommunity.com/id/kubikill" target="_blank" rel="noopener">kubikill</a>'
   },
   65: {
     eng: 'Special thanks to <a href="https://steamcommunity.com/profiles/76561198117761965" target="_blank" rel="noopener">Gorno</a>',
@@ -584,7 +648,8 @@ var dataUi = {
     bra: 'Agradecimentos especiais para <a href="https://steamcommunity.com/profiles/76561198117761965" target="_blank" rel="noopener">Gorno</a>',
     fre: 'Remerciments spéciaux à <a href="https://steamcommunity.com/profiles/76561198117761965">Gorno</a>',
     cze: 'Speciální poděkování <a href="https://steamcommunity.com/profiles/76561198117761965" target="_blank" rel="noopener">Gornovi</a>',
-    hun: 'Külön köszönet <a href="https://steamcommunity.com/profiles/76561198117761965" target="_blank" rel="noopener">Gornonak</a>'
+    hun: 'Külön köszönet <a href="https://steamcommunity.com/profiles/76561198117761965" target="_blank" rel="noopener">Gornonak</a>',
+    rom: 'Multumiri multe lui <a href="https://steamcommunity.com/profiles/76561198117761965" target="_blank" rel="noopener">Gorno</a>'
   },
   66: {
     eng: 'Unusual effect images made by <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a>',
@@ -593,7 +658,8 @@ var dataUi = {
     bra: 'Imagens de efeitos incomuns feito por <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a>',
     fre: "Images d'effets Inhabituels faites par <a href='https://backpack.tf'>backpack.tf</a>",
     cze: 'Obrázky Unusual efektů ze stránky <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a>',
-    hun: 'Rendkívüli effekt képeket készítette: <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a>'
+    hun: 'Rendkívüli effekt képeket készítette: <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a>',
+    rom: 'Pozele cu efectele Neobisnuite facute de <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a>'
   },
   67: {
     eng: "Bulk unboxing",
@@ -602,7 +668,8 @@ var dataUi = {
     bra: "Desencaixotamento em massa",
     fre: "Déballage de masse",
     cze: "Hromadné otevírání",
-    hun: "Kinyitás nagy tételben"
+    hun: "Kinyitás nagy tételben",
+    rom: "Deschidere in masa"
   },
   68: {
     eng: "How many crates/cases do you want to open?",
@@ -611,7 +678,8 @@ var dataUi = {
     bra: "Quantas caixas você deseja abrir?",
     fre: "Combien de caisses voulez-vous déballer?",
     cze: "Kolik krabic/beden si přeješ otevřít?",
-    hun: "Mennyi ládát/táskát szeretnél kinyitni?"
+    hun: "Mennyi ládát/táskát szeretnél kinyitni?",
+    rom: "Cate cutii vrei sa deschizi?"
   },
   69: {
     eng: "Translators:",
@@ -620,7 +688,8 @@ var dataUi = {
     bra: "Tradutores:",
     fre: "Traducteurs:",
     cze: "Překladatelé:",
-    hun: "Fordítók:"
+    hun: "Fordítók:",
+    rom: "Traducatori:"
   },
   70: {
     eng: 'Simplified Chinese',
@@ -629,7 +698,8 @@ var dataUi = {
     bra: 'Chinês Simplificado',
     fre: 'Chinois simplifié',
     cze: 'Zjednodušená Čínština',
-    hun: 'Egyszerűsített kínai'
+    hun: 'Egyszerűsített kínai',
+    rom: 'Chineaza simplificata'
   },
   71: {
     eng: "Strange",
@@ -638,7 +708,8 @@ var dataUi = {
     bra: "Estranho",
     fre: "Étrange",
     cze: "Strange",
-    hun: "Fura"
+    hun: "Fura",
+    rom: "Straniu"
   },
   72: {
     eng: "Haunted",
@@ -647,7 +718,8 @@ var dataUi = {
     bra: "Assombrado",
     fre: "Hanté",
     cze: "Haunted",
-    hun: "Kísértetjárta"
+    hun: "Kísértetjárta",
+    rom: "Bantuit"
   },
   73: {
     eng: "Unusual",
@@ -656,7 +728,8 @@ var dataUi = {
     bra: "Incomum",
     fre: "Inhabituel",
     cze: "Unusual",
-    hun: "Rendkívüli"
+    hun: "Rendkívüli",
+    rom: "Neobisnuit"
   },
   74: {
     eng: "or a random Unusual hat!",
@@ -665,7 +738,8 @@ var dataUi = {
     bra: "ou um item Incomum aleatório!",
     fre: "ou encore un chapeau Inhabituel aléatoire!",
     cze: "nebo speciální extrémně vzácný předmět!",
-    hun: "vagy egy véletlenszerű Rendkívüli sapka!"
+    hun: "vagy egy véletlenszerű Rendkívüli sapka!",
+    rom: "sau o palarie Neobisnuita aleatorie!"
   },
   75: {
     eng: "Series #(NUM)",
@@ -674,7 +748,8 @@ var dataUi = {
     bra: "Série #(NUM)",
     fre: "Séries #(NUM)",
     cze: "Série #(NUM)",
-    hun: "(NUM). sorozatú"
+    hun: "(NUM). sorozatú",
+    rom: "Seria #(NUM)"
   },
   76: {
     eng: "Seriesless",
@@ -683,7 +758,8 @@ var dataUi = {
     bra: "Sem séries",
     fre: "Sans série",
     cze: "Bez série",
-    hun: "Sorozat nélküli"
+    hun: "Sorozat nélküli",
+    rom: "Fara serie"
   },
   77: {
     eng: "Save reset!",
@@ -692,7 +768,8 @@ var dataUi = {
     bra: "Resetar a sua data",
     fre: "Sauvegarde réinitialisée!",
     cze: "Uložit reset!",
-    hun: "Mentések törölve!"
+    hun: "Mentések törölve!",
+    rom: "Salveaza resetarea!"
   },
   78: {
     eng: "Are you sure?",
@@ -701,7 +778,8 @@ var dataUi = {
     bra: "Você tem certeza?",
     fre: "Êtes-vous certain?",
     cze: "Opravdu?",
-    hun: "Biztos vagy benne?"
+    hun: "Biztos vagy benne?",
+    rom: "Esti sigur?"
   },
   79: {
     eng: "Effect:",
@@ -710,7 +788,8 @@ var dataUi = {
     bra: "Efeito:",
     fre: "Effet:",
     cze: "Efekt:",
-    hun: "Effekt:"
+    hun: "Effekt:",
+    rom: "Efect:"
   },
   80: {
     eng: "Factory New",
@@ -719,7 +798,8 @@ var dataUi = {
     bra: "Nova de Fábrica",
     fre: "Neuve",
     cze: "Zbrusu nový",
-    hun: "Gyári új"
+    hun: "Gyári új",
+    rom: "Nou din fabrica"
   },
   81: {
     eng: "Minimal Wear",
@@ -728,7 +808,8 @@ var dataUi = {
     bra: "Pouco Usada",
     fre: "Très peu usée",
     cze: "Lehce opotřebený",
-    hun: "Kevéssé használt"
+    hun: "Kevéssé használt",
+    rom: "Uzura minima"
   },
   82: {
     eng: "Field-Tested",
@@ -737,7 +818,8 @@ var dataUi = {
     bra: "Testada em Campo",
     fre: "Testée sur le terrain",
     cze: "Opotřebený",
-    hun: "Harctéren tesztelt"
+    hun: "Harctéren tesztelt",
+    rom: "Testat pe teren"
   },
   83: {
     eng: "Well-Worn",
@@ -746,7 +828,8 @@ var dataUi = {
     bra: "Bem Desgastada",
     fre: "Usée",
     cze: "Silně opotřebený",
-    hun: "Viseltes"
+    hun: "Viseltes",
+    rom: "Bine folosit"
   },
   84: {
     eng: "Battle Scarred",
@@ -755,7 +838,8 @@ var dataUi = {
     bra: "Veterana de Guerra",
     fre: "Marquées par les combats",
     cze: "Poničený bojem",
-    hun: "Háború tépázta"
+    hun: "Háború tépázta",
+    rom: "Zgariat in lupta"
   },
   85: {
     eng: "Steam Group",
@@ -764,7 +848,8 @@ var dataUi = {
     bra: "Grupo da Steam",
     fre: "Groupe Steam",
     cze: "Steam skupina",
-    hun: "Steam csoport"
+    hun: "Steam csoport",
+    rom: "Grup de steam"
   },
   86: {
     eng: "Mute sound",
@@ -773,7 +858,8 @@ var dataUi = {
     bra: "Silenciar sons",
     fre: "Mettre en sourdine",
     cze: "Ztlumit zvuky",
-    hun: "Némítás"
+    hun: "Némítás",
+    rom: "Opreste sunetul"
   },
   87: {
     eng: "Settings",
@@ -782,7 +868,8 @@ var dataUi = {
     bra: "Definições",
     fre: "Paramètres",
     cze: "Nastavení",
-    hun: "Beállítások"
+    hun: "Beállítások",
+    rom: "Setari"
   },
   88: {
     eng: "About/Donate",
@@ -791,7 +878,8 @@ var dataUi = {
     bra: "Sobre/Doar",
     fre: "Infos/Faire un don",
     cze: "Info/Příspěvky",
-    hun: "Rólunk/adomány"
+    hun: "Rólunk/adomány",
+    rom: "Despre/Doneaza"
   },
   89: {
     eng: "Donations",
@@ -800,7 +888,8 @@ var dataUi = {
     bra: "Doações",
     fre: "Dons",
     cze: "Příspěvky",
-    hun: "Adományok"
+    hun: "Adományok",
+    rom: "Donatii"
   },
   90: {
     eng: '<span class="colorstrange">Strange</span> <span class="colorunusual">Unusuals</span> unboxed:',
@@ -809,7 +898,8 @@ var dataUi = {
     bra: 'Itens <span class="colorstrange">Estranhos</span> <span class="colorunusual">Incomuns</span> desencaixotados:',
     fre: 'Objets<span class="colorstrange">Étranges</span> <span class="colorunusual">Inhabituels</span> déballés:',
     cze: '<span class="colorstrange">Strange</span> <span class="colorunusual">Unusual</span> předmětů získáno:',
-    hun: '<span class="colorstrange">Fura</span> <span class="colorunusual">Rendkívüliek</span> kibontva:'
+    hun: '<span class="colorstrange">Fura</span> <span class="colorunusual">Rendkívüliek</span> kibontva:',
+    rom: '<span class="colorstrange">Straniu</span> <span class="colorunusual">Neobisnuite</span> unboxed:'
   },
   91: {
     eng: "Graded items unboxed:",
@@ -818,7 +908,8 @@ var dataUi = {
     bra: "Itens com nível desencaixotados:",
     fre: "Objets gradés déballés:",
     cze: "Získáno předmětů dané třídy:",
-    hun: "Tárgyak fokozattal kibontva:"
+    hun: "Tárgyak fokozattal kibontva:",
+    rom: "Obiecte gradate deschise:"
   },
   92: {
     eng: '<span class="colorcivilian">Civilian</span> items unboxed:',
@@ -827,7 +918,8 @@ var dataUi = {
     bra: 'Itens de nível <span class="colorcivilian">Civil</span> desencaixotados:',
     fre: 'Objets de grade <span class="colorcivilian">Civil</span>déballés:',
     cze: '<span class="colorcivilian">Civilian</span> předmětů získáno:',
-    hun: '<span class="colorcivilian">Civil</span> tárgyak kibontva:'
+    hun: '<span class="colorcivilian">Civil</span> tárgyak kibontva:',
+    rom: '<span class="colorcivilian">Civil</span> obiecte deschise:'
   },
   93: {
     eng: '<span class="colorfreelance">Freelance</span> items unboxed:',
@@ -836,7 +928,8 @@ var dataUi = {
     bra: 'Itens de nível <span class="colorfreelance">Autônomo</span> desencaixotados:',
     fre: 'Objets de grade <span class="colorfreelance">Freelance</span>déballés:',
     cze: '<span class="colorfreelance">Freelance</span> předmětů získáno:',
-    hun: '<span class="colorfreelance">Szabadúszó</span> tárgyak kibontva:'
+    hun: '<span class="colorfreelance">Szabadúszó</span> tárgyak kibontva:',
+    rom: '<span class="colorfreelance">Independent</span> obiecte deschise:'
   },
   94: {
     eng: '<span class="colormercenary">Mercenary</span> items unboxed:',
@@ -845,7 +938,8 @@ var dataUi = {
     bra: 'Itens de nível <span class="colormercenary">Mercenário</span> desencaixotados:',
     fre: 'Objets de grade <span class="colormercenary">Mercenaire</span>déballés:',
     cze: '<span class="colorfreelance">Mercenary</span> předmětů získáno:',
-    hun: '<span class="colormercenary">Zsoldos</span> tárgyak kibontva:'
+    hun: '<span class="colormercenary">Zsoldos</span> tárgyak kibontva:',
+    rom: '<span class="colormercenary">Mercenar</span> obiecte deschise:'
   },
   95: {
     eng: '<span class="colorcommando">Commando</span> items unboxed:',
@@ -854,7 +948,8 @@ var dataUi = {
     bra: 'Itens de nível <span class="colorcommando">Comando</span> desencaixotados:',
     fre: 'Objets de grade <span class="colorcommando">Commando</span>déballés:',
     cze: '<span class="colorcommando">Commando</span> předmětů získáno:',
-    hun: '<span class="colorcommando">Kommandós</span> tárgyak kibontva:'
+    hun: '<span class="colorcommando">Kommandós</span> tárgyak kibontva:',
+    rom: '<span class="colorcommando">Comando</span> obiecte deschise:'
   },
   96: {
     eng: '<span class="colorassassin">Assassin</span> items unboxed:',
@@ -863,7 +958,8 @@ var dataUi = {
     bra: 'Itens de nível <span class="colorassassin">Assassino</span> desencaixotados:',
     fre: 'Objets de grade <span class="colorassassin">Assassin</span>déballés:',
     cze: '<span class="colorassassin">Assassin</span> předmětů získáno:',
-    hun: '<span class="colorassassin">Orgyilkos</span> tárgyak kibontva:'
+    hun: '<span class="colorassassin">Orgyilkos</span> tárgyak kibontva:',
+    rom: '<span class="colorassassin">Asasin</span> obiecte deschide:'
   },
   97: {
     eng: '<span class="colorelite">Elite</span> items unboxed:',
@@ -872,7 +968,8 @@ var dataUi = {
     bra: 'Itens de nível <span class="colorelite">Elite</span> desencaixotados:',
     fre: 'Objets de grade <span class="colorelite">Élite</span>déballés:',
     cze: '<span class="colorelite">Elite</span> předmětů získáno:',
-    hun: '<span class="colorelite">Elit</span> tárgyak kibontva:'
+    hun: '<span class="colorelite">Elit</span> tárgyak kibontva:',
+    rom: '<span class="colorelite>Elită</span> obiecte deschise:'
   },
   98: {
     eng: "Items with wear unboxed:",
@@ -881,7 +978,8 @@ var dataUi = {
     bra: "Itens com desgaste desencaixotados:",
     fre: "Apparence extérieur des objets déballés:",
     cze: "Předmětů se skinem získáno:",
-    hun: "Viseletekkel rendelkező tárgyak kibontva:"
+    hun: "Viseletekkel rendelkező tárgyak kibontva:",
+    rom: "Obiecte folosite deschise:"
   },
   99: {
     eng: "Factory New items unboxed:",
@@ -890,7 +988,8 @@ var dataUi = {
     bra: "Itens Novos de Fábrica desencaixotados:",
     fre: "Objets d'extérieur Neuve déballés:",
     cze: "Zbrusu nových předmětů získáno:",
-    hun: "Gyári új tárgyak kibontva:"
+    hun: "Gyári új tárgyak kibontva:",
+    rom: "Obiecte noi din fabrica deschise:"
   },
   100: {
     eng: "Minimal Wear items unboxed:",
@@ -899,7 +998,8 @@ var dataUi = {
     bra: "Itens Pouco Usados desencaixotados:",
     fre: "Objets d'extérieur Peu Usée déballés",
     cze: "Lehce opotřebených předmětů získáno:",
-    hun: "Kevéssé használt tárgyak kibontva:"
+    hun: "Kevéssé használt tárgyak kibontva:",
+    rom: "Obiecte cu uzura minima deschise:"
   },
   101: {
     eng: "Field-Tested items unboxed:",
@@ -908,7 +1008,8 @@ var dataUi = {
     bra: "Itens Testados em Campo desencaixotados:",
     fre: "Objets d'extérieur Testée sur le Terrain déballés:",
     cze: "Opotřebených předmětů získáno:",
-    hun: "Harctéren tesztelt tárgyak kibontva:"
+    hun: "Harctéren tesztelt tárgyak kibontva:",
+    rom: "Obiecte testate pe teren deschise:"
   },
   102: {
     eng: "Well-Worn items unboxed:",
@@ -917,7 +1018,8 @@ var dataUi = {
     bra: "Itens Bem Desgastados desencaixotados:",
     fre: "Objets d'extérieur Usée déballés:",
     cze: "Silně opotřebených předměů získáno:",
-    hun: "Viseltes tárgyak kibontva:"
+    hun: "Viseltes tárgyak kibontva:",
+    rom: "Obiecte bine folosite deschise:"
   },
   103: {
     eng: "Battle Scarred items unboxed:",
@@ -926,7 +1028,8 @@ var dataUi = {
     bra: "Itens Veteranas de Guerra desencaixotados:",
     fre: "Objets d'extérieurs Marquée par les Combats déballés:",
     cze: "Předmětů poničených bojem získáno:",
-    hun: "Háború tépázta tárgyak kibontva:"
+    hun: "Háború tépázta tárgyak kibontva:",
+    rom: "Obiecte zgariate in lupta deschise:"
   },
   104: {
     eng: "General",
@@ -935,7 +1038,8 @@ var dataUi = {
     bra: "Geral",
     fre: "Général",
     cze: "Přehled",
-    hun: "Általános"
+    hun: "Általános",
+    rom: "General"
   },
   105: {
     eng: "Quality",
@@ -944,7 +1048,8 @@ var dataUi = {
     bra: "Qualidade",
     fre: "Qualité",
     cze: "Kvalita",
-    hun: "Minőség"
+    hun: "Minőség",
+    rom: "Calitate"
   },
   106: {
     eng: "Grades",
@@ -953,7 +1058,8 @@ var dataUi = {
     bra: "Níveis",
     fre: "Grades",
     cze: "Třídy",
-    hun: "Fokozatok"
+    hun: "Fokozatok",
+    rom: "Graduri"
   },
   107: {
     eng: "Wears",
@@ -962,7 +1068,8 @@ var dataUi = {
     bra: "Desgastes",
     fre: "Extérieur",
     cze: "Skiny",
-    hun: "Külső"
+    hun: "Külső",
+    rom: "Folosire"
   },
   108: {
     eng: "Average unboxes per Unusual:",
@@ -971,7 +1078,8 @@ var dataUi = {
     bra: "Média de desencaixotamento por item Incomum:",
     fre: "Déballage moyen par Inhabituel:",
     cze: "Průměr počtu otevření za Unusual předmět:",
-    hun: "Átlag kibontások száma két Rendkívüli között:"
+    hun: "Átlag kibontások száma két Rendkívüli között:",
+    rom: "Deschidere in medie per obiecte Neobisnuit:"
   },
   109: {
     eng: '<span class="colorstrange">Strange</span> <span class="colorhaunted">Haunted</span> items unboxed:',
@@ -980,7 +1088,8 @@ var dataUi = {
     bra: 'Itens <span class="colorstrange">Estranhos</span> <span class="colorhaunted">Assombrados</span> desencaixotados:',
     fre: 'Objets de qualité<span class="colorstrange">Strange</span> <span class="colorhaunted">Hantée</span> déballés:',
     cze: '<span class="colorstrange">Strange</span> <span class="colorhaunted">Haunted</span> předmětů získáno:',
-    hun: '<span class="colorstrange">Fura</span> <span class="colorhaunted">Kísértetjárta</span> tárgyak kibontva:'
+    hun: '<span class="colorstrange">Fura</span> <span class="colorhaunted">Kísértetjárta</span> tárgyak kibontva:',
+    rom: '<span class="colorstrange">Straniu</span> <span class="colorhaunted">Bantuit</span> obiecte deschise:'
   },
   110: {
     eng: "Average price of an Unusual:",
@@ -989,7 +1098,8 @@ var dataUi = {
     bra: "Preço médio de um item Incomum",
     fre: "Prix moyen d'un Inhabituel:",
     cze: "Průměrná cena Unusual předmětu:",
-    hun: "Rendkívüliek átlagos értéke:"
+    hun: "Rendkívüliek átlagos értéke:",
+    rom: "Pret in medie al unui obiect Neobisnuit:"
   },
   111: {
     eng: "Luck",
@@ -998,7 +1108,8 @@ var dataUi = {
     bra: "Sorte",
     fre: "Chance",
     cze: "Štěstí",
-    hun: "Szerencse"
+    hun: "Szerencse",
+    rom: "Noroc"
   },
   112: {
     eng: "When it comes to Unusuals, you've been:",
@@ -1007,7 +1118,8 @@ var dataUi = {
     bra: "Quando chega à itens Incomuns, você esteve:",
     fre: "Quant aux Inhabituels, vous avez été:",
     cze: "Ohledně Unusual předmětů jsi měl:",
-    hun: "Rendkívüliket tekintve te:"
+    hun: "Rendkívüliket tekintve te:",
+    rom: "Cand vine vorba de obiecte Neobisnuite, tu ai fost:"
   },
   113: {
     eng: "When it comes to Stranges, you've been:",
@@ -1016,7 +1128,8 @@ var dataUi = {
     bra: "Quando chega à itens Estranhos, você esteve:",
     fre: "Quant aux Étranges, vous avez été:",
     cze: "Ohledně Strange předmětů jsi měl:",
-    hun: "Furákat tekintve te:"
+    hun: "Furákat tekintve te:",
+    rom: "Cand vine vorba de obiecte Stranii, tu ai fost:"
   },
   114: {
     eng: "Lucky",
@@ -1025,7 +1138,8 @@ var dataUi = {
     bra: "Sortudo",
     fre: "Chanceux",
     cze: "Štěstí",
-    hun: "Szerencsés vagy"
+    hun: "Szerencsés vagy",
+    rom: "Norocos"
   },
   115: {
     eng: "Unlucky",
@@ -1034,7 +1148,8 @@ var dataUi = {
     bra: "Azarado",
     fre: "Malchanceux",
     cze: "Smůlu",
-    hun: "Balszerencsés vagy"
+    hun: "Balszerencsés vagy",
+    rom: "Ghinionist"
   },
   116: {
     eng: "Neither lucky nor unlucky",
@@ -1043,7 +1158,8 @@ var dataUi = {
     bra: "Nem sortudo, nem azarado",
     fre: "Ni chanceux, ni malchanceux",
     cze: "Ani štěstí, ani smůlu",
-    hun: "Se nem szerencsés se nem balszerencsés"
+    hun: "Se nem szerencsés se nem balszerencsés",
+    rom: "Nici norocos, nici ghinionist"
   },
   117: {
     eng: "Not enough data to calculate luck.<br>Come back later once you unbox more crates/cases.",
@@ -1052,7 +1168,8 @@ var dataUi = {
     bra: "Não temos muita data para calcular a sua sorte.<br>Volte quando você tiver aberto mais caixas.",
     fre: "Pas assez de données pour calculer la chance.<br>Revenez lorsque vous aurez déballé plus de caisses.",
     cze: "Nedostatek dat pro výpočet štěstí.<br>Stav se později jakmile otevřeš víc krabic/beden.",
-    hun: "Nincs elég adat a szerencse kiszámításához.<br>Gyere vissza később, amikor már több ládát/táskát nyitottál ki."
+    hun: "Nincs elég adat a szerencse kiszámításához.<br>Gyere vissza később, amikor már több ládát/táskát nyitottál ki.",
+    rom: "Nu exista destula data pentru calcularea norocului.<br>Intoarce-te cand ai deschis mai multe cutii."
   },
   118: {
     eng: "Out of #TOTALUNBOXES# unboxes that could have an Unusual,<br>you unboxed #UNUSUALSUNBOXED#, ",
@@ -1061,7 +1178,8 @@ var dataUi = {
     bra: "De #TOTALUNBOXES# de caixas que você abriu que poderiam ter um item Incomum,<br>você abriu #UNUSUALSUNBOXED#, ",
     fre: "Sur les #TOTALUNBOXES# caisses qui auraient pu être Inhabituelles,<br>vous avez déballé #UNUSUALSUNBOXED#, ",
     cze: "Z celkových #TOTALUNBOXES# otevření, co mohly být Unusual kvality,<br>jsi otevřel #UNUSUALSUNBOXED#, ",
-    hun: "A #TOTALUNBOXES# kibontásból ami lehetett Rendkívüli,<br> kinyitottál #UNUSUALSUNBOXED#-t, "
+    hun: "A #TOTALUNBOXES# kibontásból ami lehetett Rendkívüli,<br> kinyitottál #UNUSUALSUNBOXED#-t, ",
+    rom: "Din atatea #TOTALUNBOXES# deschideri care au fi putut fi un obiect Neobisnuit,<br>tu ai deschis #UNUSUALSUNBOXED#, "
   },
   119: {
     eng: "which is #DIFF# more than we predicted (#PREDICTION#).",
@@ -1070,7 +1188,8 @@ var dataUi = {
     bra: "que é #DIFF# mais do que a nossa predição (#PREDICTION#).",
     fre: "ce qui est #DIFF# plus que nous avons prédit (#PREDICTION#).",
     cze: "což je o #DIFF# víc, než jsme předpokládali (#PREDICTION#).",
-    hun: "ami #DIFF#-al/el több, mint amennyire számítani lehetett (#PREDICTION#)."
+    hun: "ami #DIFF#-al/el több, mint amennyire számítani lehetett (#PREDICTION#).",
+    rom: "ceea ce este #DIFF# mai mult decat am prezis (#PREDICTION#)."
   },
   120: {
     eng: "which is #DIFF# less than we predicted (#PREDICTION#).",
@@ -1079,7 +1198,8 @@ var dataUi = {
     bra: "que é #DIFF# menos do que a nossa predição (#PREDICTION#).",
     fre: "ce qui est #DIFF# moins que nous avons prédit (#PREDICTION#).",
     cze: "což je o #DIFF# méně, než jsme předpokládali (#PREDICTION#).",
-    hun: "ami #DIFF#-al/el kevesebb, mint amennyire számítani lehetett (#PREDICTION#)."
+    hun: "ami #DIFF#-al/el kevesebb, mint amennyire számítani lehetett (#PREDICTION#).",
+    rom: "ceea ce este #DIFF# mai putin decat am prezis (#PREDICTION#)."
   },
   121: {
     eng: "same amount as our prediction.",
@@ -1088,7 +1208,8 @@ var dataUi = {
     bra: "mesmo valor que a nossa predição.",
     fre: "le même montant que nous avons prédit.",
     cze: "stejná hodnota jako naše predikce.",
-    hun: "pontosan annyi, amennyire számítani lehetett."
+    hun: "pontosan annyi, amennyire számítani lehetett.",
+    rom: "ceea ce este aceeasi suma pe care am prezis-o."
   },
   122: {
     eng: "Out of #TOTALUNBOXES# unboxes that could have a Strange item,<br>you unboxed #STRANGESUNBOXED#, ",
@@ -1097,7 +1218,8 @@ var dataUi = {
     bra: "De #TOTALUNBOXES# de caixas que você abriu que poderiam ter um item Estranho,<br>você abriu #STRANGESUNBOXED#, ",
     fre: "Sur les #TOTALUNBOXES# caisses qui auraient pu être Étranges,<br>vous avez déballé #STRANGESUNBOXED#,",
     cze: "Z celkových #TOTALUNBOXES# otevření, co mohly být Strange kvality,<br>jsi otevřel #STRANGESUNBOXED#, ",
-    hun: "A #TOTALUNBOXES# kibontásból ami lehetett Fura tárgy,<br> kinyitottál #STRANGESUNBOXED#-t, "
+    hun: "A #TOTALUNBOXES# kibontásból ami lehetett Fura tárgy,<br> kinyitottál #STRANGESUNBOXED#-t, ",
+    rom: "Din atatea #TOTALUNBOXES# deschideri care au fi putut fi un obiect Straniu,<br>tu ai deschis #STRANGESUNBOXED#, "
   },
   123: {
     eng: "Cancel",
@@ -1106,7 +1228,8 @@ var dataUi = {
     bra: "Cancelar",
     fre: "Annuler",
     cze: "Zrušit",
-    hun: "Mégse"
+    hun: "Mégse",
+    rom: "Anulare"
   },
   124: {
     eng: "This may take a few seconds.<br>Please be patient.",
@@ -1115,7 +1238,8 @@ var dataUi = {
     bra: "Isso pode demorar alguns segundos.<br>Por favor tenha paciência.",
     fre: "Ceci pourrait prendre quelques secondes.<br>Veuillez patienter.",
     cze: "Tohle chvilku potrvá.<br>Prosím, počkej.",
-    hun: "Ez eltarthat pár másodpercig.<br>Kérlek légy türelmes."
+    hun: "Ez eltarthat pár másodpercig.<br>Kérlek légy türelmes.",
+    rom: "Asta va dura cateva secunda.<br>Va rugam sa aveti rabdare."
   },
   125: {
     eng: "This will take a minute or two to process.<br>Please be patient.",
@@ -1124,7 +1248,8 @@ var dataUi = {
     bra: "Isso pode demorar um minuto ou dois para processar.<br>Por favor tenha paciência.",
     fre: "Ceci prendra une minute ou deux à procéder.<br>Veuillez patienter.",
     cze: "Tohle zabere chvilku na zpracování.<br>Prosím, buď trpělivý.",
-    hun: "Ez eltarthat pár percig.<br>Kérlek légy türelmes."
+    hun: "Ez eltarthat pár percig.<br>Kérlek légy türelmes.",
+    rom: "Asta va dura un minut sau doua pentru a se procesa.<br>Va rugam sa aveti rabdare."
   },
   126: {
     eng: "Sheen:",
@@ -1133,7 +1258,8 @@ var dataUi = {
     bra: "Brilho:",
     fre: "Éclat:",
     cze: "Lesk:",
-    hun: "Ragyogás:"
+    hun: "Ragyogás:",
+    rom: "Luciu:"
   },
   127: {
     eng: "Killstreaker:",
@@ -1142,7 +1268,8 @@ var dataUi = {
     bra: "Efeito de combo:",
     fre: "Killstreak:",
     cze: "Efekt při sérii zabití:",
-    hun: "Ámokfutó:"
+    hun: "Ámokfutó:",
+    rom: "Omor Consecutiv:"
   },
   128: {
     eng: "Team Shine",
@@ -1151,7 +1278,8 @@ var dataUi = {
     bra: "Brilho da equipe",
     fre: "Éclat d'équipe",
     cze: "Team Shine",
-    hun: "Csapat-ragyogás"
+    hun: "Csapat-ragyogás",
+    rom: "Luciu de Echipa"
   },
   129: {
     eng: "Hot Rod",
@@ -1160,7 +1288,8 @@ var dataUi = {
     bra: "Rajada de roxo",
     fre: "Éclat de chaleur",
     cze: "Hot Rod",
-    hun: "Ívadó"
+    hun: "Ívadó",
+    rom: "Tija Fierbinte"
   },
   130: {
     eng: "Manndarin",
@@ -1169,7 +1298,8 @@ var dataUi = {
     bra: "Manndarin",
     fre: "Manndarine",
     cze: "Manndarin",
-    hun: "Manndarin"
+    hun: "Manndarin",
+    rom: "Mandarina"
   },
   131: {
     eng: "Deadly Daffodil",
@@ -1178,7 +1308,8 @@ var dataUi = {
     bra: "Narciso nefasto",
     fre: "Jonquille mortelle",
     cze: "Deadly Daffodil",
-    hun: "Halálos Nárcisz"
+    hun: "Halálos Nárcisz",
+    rom: "Narcisa Mortala"
   },
   132: {
     eng: "Agonizing Emerald",
@@ -1187,7 +1318,8 @@ var dataUi = {
     bra: "Esmeralda agonizante",
     fre: "Émeraude agonisant",
     cze: "Agonizing Emerald",
-    hun: "Gyötrelmes Smaragd"
+    hun: "Gyötrelmes Smaragd",
+    rom: "Emerald Agonizant"
   },
   133: {
     eng: "Mean Green",
@@ -1196,7 +1328,8 @@ var dataUi = {
     bra: "Lima maligna",
     fre: "Méchamment vert",
     cze: "Mean Green",
-    hun: "Durva Zöld"
+    hun: "Durva Zöld",
+    rom: "Verde Rautacios"
   },
   134: {
     eng: "Villainous Violet",
@@ -1205,7 +1338,8 @@ var dataUi = {
     bra: "Violeta vil",
     fre: "Vil violet",
     cze: "Villainous Violet",
-    hun: "Aljas Lila"
+    hun: "Aljas Lila",
+    rom: "Violet Raufacator"
   },
   135: {
     eng: "Cerebral Discharge",
@@ -1214,7 +1348,8 @@ var dataUi = {
     bra: "Descarga cerebral",
     fre: "Décharge cérébrale",
     cze: "Cerebral Discharge",
-    hun: "Agyi Kisülés"
+    hun: "Agyi Kisülés",
+    rom: "Descarcare Cerebrala"
   },
   136: {
     eng: "Fire Horns",
@@ -1223,7 +1358,8 @@ var dataUi = {
     bra: "Chifres ardentes",
     fre: "Cornes de feu",
     cze: "Fire Horns",
-    hun: "Tüzes Szarvak"
+    hun: "Tüzes Szarvak",
+    rom: "Coarne de Foc"
   },
   137: {
     eng: "Flames",
@@ -1232,7 +1368,8 @@ var dataUi = {
     bra: "Chamas",
     fre: "Flammes",
     cze: "Flames",
-    hun: "Lángok"
+    hun: "Lángok",
+    rom: "Flacari"
   },
   138: {
     eng: "Hypno-Beam",
@@ -1241,7 +1378,8 @@ var dataUi = {
     bra: "Raio hipnotizante",
     fre: "Rayon hypnotique",
     cze: "Hypno-Beam",
-    hun: "Hipno-nyaláb"
+    hun: "Hipno-nyaláb",
+    rom: "Raza-Hipnotica"
   },
   139: {
     eng: "Incinerator",
@@ -1250,7 +1388,8 @@ var dataUi = {
     bra: "Incinerador",
     fre: "Incinérateur",
     cze: "Incinerator",
-    hun: "Krematórium"
+    hun: "Krematórium",
+    rom: "Incinerator"
   },
   140: {
     eng: "Singularity",
@@ -1259,7 +1398,8 @@ var dataUi = {
     bra: "Singularidade",
     fre: "Singularité",
     cze: "Singularity",
-    hun: "Szingularitás"
+    hun: "Szingularitás",
+    rom: "Singularitate"
   },
   141: {
     eng: "Tornado",
@@ -1268,7 +1408,8 @@ var dataUi = {
     bra: "Tornado",
     fre: "Tornade",
     cze: "Tornado",
-    hun: "Tornádó"
+    hun: "Tornádó",
+    rom: "Tornada"
   },
   142: {
     eng: "Killstreak Kits obtained from this crate may be unboxed as Specialized or Professional Killstreak Kits instead.",
@@ -1277,7 +1418,8 @@ var dataUi = {
     bra: "Kits de Combo obtidos por essa caixa podem ser desencaixotados como Kits de Combo Especializados ou Kits de Combo Profissionais.",
     fre: "Les kits Killstreak obtenus de cette caisse peuvent être Spécialisés ou Professionels plutôt qu'Unique.",
     cze: "Kity z této krabice mohou být verze Specialized nebo Professional.",
-    hun: "Az Ámokfutás készletek ebből a ládából lehetnek Specializált vagy Hivatásos Ámokfutás Készleteket."
+    hun: "Az Ámokfutás készletek ebből a ládából lehetnek Specializált vagy Hivatásos Ámokfutás Készleteket.",
+    rom: "Trusele de Omoruri Consecutive obtinute din aceasta cutie pot fi deschise ca de Specialitate sau Truse Profesionale de Omor Consecutiv."
   },
   143: {
     eng: "Bonus items unboxed:",
@@ -1286,7 +1428,8 @@ var dataUi = {
     bra: "Itens de bônus desencaixotados:",
     fre: "Objets bonis déballés:",
     cze: "Získáno bonusových předmětů:",
-    hun: "Bónusztárgyak kibontva:"
+    hun: "Bónusztárgyak kibontva:",
+    rom: "Obiecte bonus deschise:"
   },
   144: {
     eng: "Bonus items",
@@ -1295,7 +1438,8 @@ var dataUi = {
     bra: "Itens de bônus",
     fre: "Objets bonis",
     cze: "Bonusové předměty",
-    hun: "Bónusztárgy"
+    hun: "Bónusztárgy",
+    rom: "Obiecte bonus deschise"
   },
   145: {
     eng: "None",
@@ -1304,7 +1448,8 @@ var dataUi = {
     bra: "Nenhum",
     fre: "Rien",
     cze: "Žádné",
-    hun: "Semmi"
+    hun: "Semmi",
+    rom: "Niciunul"
   },
   146: {
     eng: "Unique",
@@ -1313,7 +1458,8 @@ var dataUi = {
     bra: "Único",
     fre: "Unique",
     cze: "Unique",
-    hun: "Egyedi"
+    hun: "Egyedi",
+    rom: "Unic"
   },
   147: {
     eng: "This case may contain bonus items.",
@@ -1322,7 +1468,8 @@ var dataUi = {
     bra: "Essa caixa pode conter itens de bônus.",
     fre: "Cette caisse peut contenir des objets bonis.",
     cze: "Tato bedna může obsahovat bonusové předměty.",
-    hun: "Ebben a táskában bónusztárgyak lehetnek."
+    hun: "Ebben a táskában bónusztárgyak lehetnek.",
+    rom: "Aceasta cutie poate contine obiecte bonus."
   },
   148: {
     eng: "Crate/case-exclusive bonus items:",
@@ -1331,7 +1478,8 @@ var dataUi = {
     bra: "Itens exclusivos para essa caixa:",
     fre: "Objets exclusifs de cette caisse:",
     cze: "Bonusové předměty exkluzivně dle krabice/bedny",
-    hun: "Láda/táska-exkluzív bónusztárgyak:"
+    hun: "Láda/táska-exkluzív bónusztárgyak:",
+    rom: "Obiect bonus exclusiv cutiei:"
   },
   149: {
     eng: "Stop unboxing at certain items:",
@@ -1340,7 +1488,8 @@ var dataUi = {
     bra: "Pare de desencaixotar em certos itens:",
     fre: "Arrêter de déballer à certains objets:",
     cze: "Pozastavit rozbalování na určitých předmětech:",
-    hun: "Kibontás megállítása bizonyos tárgyaknál:"
+    hun: "Kibontás megállítása bizonyos tárgyaknál:",
+    rom: "Nu mai deschide la anumite obiecte:"
   },
   150: {
     eng: "This will prevent you from accidentally unboxing an another crate/case after getting certain items.",
@@ -1349,7 +1498,8 @@ var dataUi = {
     bra: "Isso vai prevenir você de acidentalmente desencaixotar outra caixa depois de obter certos itens.",
     fre: "Ceci vous empêche d'accidentellement déballer une autre caisse après l'obtention de certains objets.",
     cze: "Tato možnost na moment pozastaví otevírání beden po obdržení určitých předmětů.",
-    hun: "Ez megakadályozza, hogy véletlenül kibonts egy újabb ládát/táskát egy bizonyos tárgy kibontása után."
+    hun: "Ez megakadályozza, hogy véletlenül kibonts egy újabb ládát/táskát egy bizonyos tárgy kibontása után.",
+    rom: "Aceasta te va opri din a deschide din greseala o cutie dupa ce ai primit anumite obiecte."
   },
   151: {
     eng: "Items",
@@ -1358,7 +1508,8 @@ var dataUi = {
     bra: "Itens",
     fre: "Objets",
     cze: "Předměty",
-    hun: "Tárgyak"
+    hun: "Tárgyak",
+    rom: "Obiecte"
   },
   152: {
     eng: "Page #PAGE# of #TOTAL#",
@@ -1367,7 +1518,8 @@ var dataUi = {
     bra: "Página #PAGE# de #TOTAL#",
     fre: "Page #PAGE# de #TOTAL#",
     cze: "Strana #PAGE# z #TOTAL#",
-    hun: "Oldal #PAGE# a #TOTAL#-ból/ből"
+    hun: "Oldal #PAGE# a #TOTAL#-ból/ből",
+    rom: "Pagina #PAGE# din #TOTAL#"
   },
   153: {
     eng: "Single bonus items unboxed:",
@@ -1376,7 +1528,8 @@ var dataUi = {
     bra: "Singelos itens de bônus desencaixotados:",
     fre: "Objets bonis singuliers déballés:",
     cze: "Rozbaleno jednotlivých bonusových předmětů:",
-    hun: "Szimpla bónusztárgyak kibontva:"
+    hun: "Szimpla bónusztárgyak kibontva:",
+    rom: "Singurele obiecte bonus deschise:"
   },
   154: {
     eng: "Double bonus items unboxed:",
@@ -1385,7 +1538,8 @@ var dataUi = {
     bra: "Duplos itens de bônus desencaixotados:",
     fre: "Objets bonis doubles déballés:",
     cze: "Rozbaleno dvojnásobných bonusových předmětů:",
-    hun: "Dupla bónusztárgyak kibontva:"
+    hun: "Dupla bónusztárgyak kibontva:",
+    rom: "Obiecte bonus duble deschise:"
   },
   155: {
     eng: "Triple bonus items unboxed:",
@@ -1394,7 +1548,8 @@ var dataUi = {
     bra: "Triplos itens de bônus desencaixotados:",
     fre: "Objets bonis triples déballés:",
     cze: "Rozbaleno trojnásobných bonusových předmětů:",
-    hun: "Tripla bónusztárgyak kibontva:"
+    hun: "Tripla bónusztárgyak kibontva:",
+    rom: "Obiecte bonus triple deschise:"
   },
   156: {
     eng: "Unusualifiers unboxed:",
@@ -1403,7 +1558,8 @@ var dataUi = {
     bra: "Incomunizadores desencaixotados:",
     fre: "Inhabituellisateurs déballés:",
     cze: "Rozbaleno Unusualifierů:",
-    hun: "Rendkívüliesítők kibontva:"
+    hun: "Rendkívüliesítők kibontva:",
+    rom: "Neobisnuitoare deschise:"
   },
   157: {
     eng: "Strange Stat Clock Attached",
@@ -1412,7 +1568,8 @@ var dataUi = {
     bra: "Contador Estranho de estatísticas anexado",
     fre: "Compeur de statistiques Étrange attaché",
     cze: "Má přidělaný modul pro záznam (Strange)",
-    hun: "Fura statisztikaszámláló csatlakoztatva"
+    hun: "Fura statisztikaszámláló csatlakoztatva",
+    rom: "Ceas Straniu de Statistici atasat"
   },
   158: {
     eng: "Unusualifiers",
@@ -1421,7 +1578,8 @@ var dataUi = {
     bra: "Incomunizadores",
     fre: "Inhabituellisateurs",
     cze: "Unusualifiery",
-    hun: "Rendkívüliesítők"
+    hun: "Rendkívüliesítők",
+    rom: "Neobisnuitoare"
   },
   159: {
     eng: "Stranges",
@@ -1430,7 +1588,8 @@ var dataUi = {
     bra: "Estranhos",
     fre: "Étranges",
     cze: "Strange předměty",
-    hun: "Furák"
+    hun: "Furák",
+    rom: "Obiecte stranii"
   },
   160: {
     eng: "Grade",
@@ -1439,7 +1598,8 @@ var dataUi = {
     bra: "Nível",
     fre: "Grade",
     cze: "Třída",
-    hun: "Fokozat"
+    hun: "Fokozat",
+    rom: "Grad"
   },
   161: {
     eng: "Prof. killstreak kits",
@@ -1448,7 +1608,8 @@ var dataUi = {
     bra: "Kits de Combo Profissionais",
     fre: "Kits killstreak pro.",
     cze: "Prof. killstreak kity",
-    hun: "Hiv. ámokfutás készlet"
+    hun: "Hiv. ámokfutás készlet",
+    rom: "Truse Profesionale de Omoruri Consecutive"
   },
   162: {
     eng: "Triple bonus items",
@@ -1457,7 +1618,8 @@ var dataUi = {
     bra: "Triplos itens de bônus",
     fre: "Objets bonis triples",
     cze: "Trojnásobný bonusový předmět",
-    hun: "Tripla bónusztárgyak"
+    hun: "Tripla bónusztárgyak",
+    rom: "Obiecte bonus triple"
   },
   163: {
     eng: "Grade Mercenary",
@@ -1466,7 +1628,8 @@ var dataUi = {
     bra: "Nível Mercenário",
     fre: "Grade Mercenaire",
     cze: "Třída Mercenary",
-    hun: "Zsoldos Fokozat"
+    hun: "Zsoldos Fokozat",
+    rom: "Grad de Mercenar"
   },
   164: {
     eng: "Grade Commando",
@@ -1475,7 +1638,8 @@ var dataUi = {
     bra: "Nível Comando",
     fre: "Grade Commando",
     cze: "Třída Commando",
-    hun: "Kommandós Fokozat"
+    hun: "Kommandós Fokozat",
+    rom: "Grad de Comando"
   },
   165: {
     eng: "Grade Assassin",
@@ -1484,7 +1648,8 @@ var dataUi = {
     bra: "Nível Assassino",
     fre: "Grade Assassin",
     cze: "Třída Assassin",
-    hun: "Orgyilkos Fokozat"
+    hun: "Orgyilkos Fokozat",
+    rom: "Grad de Asasain"
   },
   166: {
     eng: "Grade Elite",
@@ -1493,7 +1658,8 @@ var dataUi = {
     bra: "Nível Elite",
     fre: "Grade Élite",
     cze: "Třída Elite",
-    hun: "Elit Fokozat"
+    hun: "Elit Fokozat",
+    rom: "Grad de Elită"
   },
   167: {
     eng: "Mercenary",
@@ -1502,7 +1668,8 @@ var dataUi = {
     bra: "Mercenário",
     fre: "Mercenaire",
     cze: "Mercenary",
-    hun: "Zsoldos"
+    hun: "Zsoldos",
+    rom: "Mercenar"
   },
   168: {
     eng: "Commando",
@@ -1511,7 +1678,8 @@ var dataUi = {
     bra: "Comando",
     fre: "Commando",
     cze: "Commando",
-    hun: "Kommandós"
+    hun: "Kommandós",
+    rom: "Comando"
   },
   169: {
     eng: "Assassin",
@@ -1520,7 +1688,8 @@ var dataUi = {
     bra: "Assassino",
     fre: "Assassin",
     cze: "Assassin",
-    hun: "Orgyilkos"
+    hun: "Orgyilkos",
+    rom: "Asasin"
   },
   170: {
     eng: "Elite",
@@ -1529,7 +1698,8 @@ var dataUi = {
     bra: "Elite",
     fre: "Élite",
     cze: "Elite",
-    hun: "Elit"
+    hun: "Elit",
+    rom: "Elită"
   },
   171: {
     eng: "Bulk unboxing in progress...",
@@ -1538,7 +1708,8 @@ var dataUi = {
     bra: "Desencaixotamento em massa em andamento...",
     fre: "Déballage de masse en cours...",
     cze: "Rozbalování hromadného obsahu...",
-    hun: "Nagytételű kibontás folyamatban..."
+    hun: "Nagytételű kibontás folyamatban...",
+    rom: "Deschidere in masa in progres..."
   },
   172: {
     eng: "Bulk unboxing results",
@@ -1547,7 +1718,8 @@ var dataUi = {
     bra: "Resultados de desencaixotamento em massa",
     fre: "Résultats du déballage de masse",
     cze: "Výsledky hromadného rozbalování",
-    hun: "Nagytételű kibontás eredményei"
+    hun: "Nagytételű kibontás eredményei",
+    rom: "Deschidere in masa rezultate"
   },
   173: {
     eng: "Enable EOTL glitched Unusuals:",
@@ -1556,7 +1728,8 @@ var dataUi = {
     bra: "Ativar itens Incomuns falhados do EOTL:",
     fre: "Activer les Inhabituels buggés EOTL:",
     cze: "Povoluje EOTL glitchnuté Unusual předměty:",
-    hun: "Végállomás Frissítés hibás Rendkívüliek engedélyezése:"
+    hun: "Végállomás Frissítés hibás Rendkívüliek engedélyezése:",
+    rom: "Porneste EOTL obiecte Neobisnuite buguite"
   },
   174: {
     eng: 'Allows the Hunter Heavy, Coldfront Curbstompers and Sleeveless in Siberia to be unboxed in Unusual quality from the End of the Line Community Crate.',
@@ -1565,7 +1738,8 @@ var dataUi = {
     bra: 'Permite que os cosméticos "Caçador Camuflado", "Frente Quente" e "Jaqueta de Geada" sejam desencaixotados em qualidade Incomum por a caixa do End of the Line.',
     fre: 'Autoriser le Heavy Chasseur, les Mange-trottoir de Coldfront ainsi que le Débardeur Sibérien à être déballé en qualité Inhabituelles de la caisse End of the Line.',
     cze: 'Umožňuje předměty the Hunter Heavy, Coldfront Curbstompers a Sleeveless in Siberia rozbalit v Unusual kvalitě z krabice z aktualizace End of the Line.',
-    hun: 'Engedélyezi a Nehéz Vadászt, Hidegfront-harcost és a Szibériai Ujjatlant kibontani Rendkívüli fokozatban a Végállomás Közösségi Ládából.'
+    hun: 'Engedélyezi a Nehéz Vadászt, Hidegfront-harcost és a Szibériai Ujjatlant kibontani Rendkívüli fokozatban a Végállomás Közösségi Ládából.',
+    rom: 'Permite pe vantatorul Heavy, Coldfront Curbstompers si Fara Maneci in Siberia sa fie deschis in calitate Neobisnuita din cutia de comunitate Sfarsitul Liniei.'
   },
   175: {
     eng: "Event mode:",
@@ -1574,7 +1748,8 @@ var dataUi = {
     bra: "Modo de Evento:",
     fre: "Mode événement:",
     cze: "Režim událostí:",
-    hun: "Esemény mód:"
+    hun: "Esemény mód:",
+    rom: "Mod de Eveniment:"
   },
   176: {
     eng: "This option replaces Unusual effects in certain crates/cases with effects from the selected event.<br>Events from 2011 to 2016 affect only crates and cases released before the event.<br>Events from 2017 onwards affect only cases released before the event.",
@@ -1583,7 +1758,8 @@ var dataUi = {
     bra: "Essa opção substitui efeitos Incomuns em certas caixas com efeitos do evento selecionado.<br>Eventos de 2011 para 2016 só afetam caixas lançadas antes do evento.<br>Eventos de 2017 e avante só afetam as caixas lançadas antes do evento e as caixas lançadas depois da atualização Arsenal Artístico.",
     fre: "Cette option remplace les effets Inhabituels pour certaines caisses selon l'événement choisi.<br>Les Événements de 2011 jusqu'à 2016 n'affectent que les caisses sorties avant l'update Gun Mettle. Les Événements à partir de 2017 n'affectent que les caisses sorties avant l'événement and celles sorties depuis l'update Gun Mettle.",
     cze: "Toto nastavení vám umožňuje nahradit Unusual efekty u některých beden z vybraných událostí.<br>Události z roku 2011-2016 mají vliv pouze na bedny vydané před aktualizací Gun Mettle.<br>Události od roku 2017 ovlivňují pouze krabice a bedny vydané před událostí a ty, které byly vydány z aktualizace Gun Mettle.",
-    hun: "Ez az opció kiváltja a Rendkívüli effekteket bizonyos ládákba/táskákban a kiválasztott eseményről.<br>A 2011 és 2016 közötti események csak az azt megelőző években megjelent ládákat és táskákat befolyásolja.<br>A 2017 és utáni események csak az adott eseményt megelőző táskákat befolyásolja."
+    hun: "Ez az opció kiváltja a Rendkívüli effekteket bizonyos ládákba/táskákban a kiválasztott eseményről.<br>A 2011 és 2016 közötti események csak az azt megelőző években megjelent ládákat és táskákat befolyásolja.<br>A 2017 és utáni események csak az adott eseményt megelőző táskákat befolyásolja.",
+    rom: "Aceasta optiune inlocuieste efectele neobisnuite in anumite cutii cu efecte din evenimentul selectat.<br>Evenimentele din 2011 pana in 2016 afecteaza doar cutiile lansate inainte de eveniment.<br>Evenimente din 2017 in sus afecteaza doar cutiile lansate dupa eveniment."
   },
   177: {
     eng: "Disabled",
@@ -1592,7 +1768,8 @@ var dataUi = {
     bra: "Desativado",
     fre: "Désactivé",
     cze: "Vypnuto",
-    hun: "Kikapcsolva"
+    hun: "Kikapcsolva",
+    rom: "Dezactivat"
   },
   178: {
     eng: "Very Scary Halloween Special (2011)",
@@ -1600,7 +1777,8 @@ var dataUi = {
     sch: "非常恐怖的万圣节特约（2011）",
     bra: "Especial Bem Assustador de Dia das Bruxas (2011)",
     fre: "Spécial Very Scary Halloween (2011)",
-    hun: "Nagyon Ijesztő Halloween Különkiadás (2011)"
+    hun: "Nagyon Ijesztő Halloween Különkiadás (2011)",
+    rom: "Special de Infricosatorul Halloween (2011)"
   },
   179: {
     eng: "Spectral Halloween Special (2012)",
@@ -1608,35 +1786,43 @@ var dataUi = {
     sch: "幽灵万圣节特约（2012）",
     bra: "Especial Espectral de Dia das Bruxas (2012)",
     fre: "Spécial Halloween Spectral (2012)",
-    hun: "Kísérteties Halloween Különkiadás (2012)"
+    hun: "Kísérteties Halloween Különkiadás (2012)",
+    rom: "Special de Halloween Fantomatic (2012)"
   },
   180: {
     eng: "Scream Fortress V (2013)",
-    sch: "尖叫要塞 V（2013）"
+    sch: "尖叫要塞 V（2013）",
+    rom: "Fortareata Urlatoarea V (2013)"
   },
   181: {
     eng: "Scream Fortress VI (2014)",
-    sch: "尖叫要塞 VI（2014）"
+    sch: "尖叫要塞 VI（2014）",
+    rom: "Fortareata Urlatoare VI (2014)"
   },
   182: {
     eng: "Scream Fortress VIII (2016)",
-    sch: "尖叫要塞 VIII（2016）"
+    sch: "尖叫要塞 VIII（2016）",
+    rom: "Fortareata Urlatoare VIII (2016)"
   },
   183: {
     eng: "Scream Fortress IX (2017)",
-    sch: "尖叫要塞 IX（2017）"
+    sch: "尖叫要塞 IX（2017）",
+    rom: "Fortareata Urlatoare IX (2017)"
   },
   184: {
     eng: "Scream Fortress X (2018)",
-    sch: "尖叫要塞 X（2018）"
+    sch: "尖叫要塞 X（2018）",
+    rom: "Fortareata Urlatoare X (2018)"
   },
   185: {
     eng: "Scream Fortress XI (2019)",
-    sch: "尖叫要塞 XI（2019）"
+    sch: "尖叫要塞 XI（2019）",
+    rom: "Fortareata Urlatoare XI (2019)"
   },
   186: {
     eng: "Scream Fortress XII (2020)",
-    sch: "尖叫要塞 XII（2020）"
+    sch: "尖叫要塞 XII（2020）",
+    rom: "Fortareata Urlatoare XII (2020)"
   },
   187: {
     eng: "Support Unboxer.tf by donating",
@@ -1645,7 +1831,8 @@ var dataUi = {
     bra: "Apoie Unboxer.tf doando",
     fre: "Supportez Unboxer.tf en faisant un don",
     cze: "Podpoř Unboxer.tf příspěvkem",
-    hun: "Támogasd az Unboxer.tf oldalt adományokkal"
+    hun: "Támogasd az Unboxer.tf oldalt adományokkal",
+    rom: "Sustine Unboxer.tf prin a dona"
   },
   188: {
     eng: "Unboxer.tf was made almost entirely by a single person in his spare time. If you like the website, please consider donating.<br>Even a small donation will encourage me to continue working on Unboxer.tf. Thank you!",
@@ -1654,7 +1841,8 @@ var dataUi = {
     bra: "Unboxer.tf foi feito quase inteiramente por uma só pessoa em seu tempo livre. Se você gostou do website, por favor considere doar.<br>Até uma doação pequena me incentiva a continuar trabalhando no Unboxer.tf. Obrigado!",
     fre: "Unboxer.tf n'a été fabriqué que par une seule personne dans ses temps libre. Si vous aimez ce site, veuillez considérer un don.<br>Même les petit montants m'encouragent à continuer de travailler sur Unboxer.tf. Merci!",
     cze: "Unboxer.tf byl skoro celý vytvořen pouze jedním člověkem během jeho volného času. Pokud se vám stránka líbí, zvažte případný příspěvěk.<br>I malý dar mě povzbudí k další práci na Unboxer.tf. Děkuji!",
-    hun: "Az Unboxer.tf-et teljes egészében egy ember készítette a szabadidejében. Ha tetszik az oldal, kérlek fontold meg, hogy adományozz.<br>Minden kicsi adomány is ösztönöz arra, hogy továbbra is dolgozzak az Unboxer.tf-en. Köszönöm!"
+    hun: "Az Unboxer.tf-et teljes egészében egy ember készítette a szabadidejében. Ha tetszik az oldal, kérlek fontold meg, hogy adományozz.<br>Minden kicsi adomány is ösztönöz arra, hogy továbbra is dolgozzak az Unboxer.tf-en. Köszönöm!",
+    rom: "Unboxer.tf a fost facut aproape complet de o singura persoana in propriul timp liber. Daca iti place acest site, te rog sa consideri a dona.<br>Chiar si cea mai mica donatie ma va incuraja sa continui a munci pe Unboxer.tf. Multumesc!"
   },
   189: {
     eng: "If you choose to donate, your name, Steam profile link and donation amount will appear in the list of donators.<br><b>In your donation message, please include that the donation is for unboxer.tf, as well as your name and Steam profile link.</b><br> You can choose to stay anonymous. Item donations will be displayed as their value in USD.",
@@ -1663,7 +1851,8 @@ var dataUi = {
     bra: "Se você escolher doar, o seu nome, link do perfil na Steam e o valor da sua doação vão aparecer na lista de doadores. <br><b>Na sua mensagem de doação, por favor inclua que a doação é para unboxer.tf, também inclua o seu nome e link de perfil na Steam.</b><br>Você pode escolher para ficar anônimo. Doações de itens vão ser exibidas em seu preço em dólares americanos.",
     fre: "Si vous choisissez de faire un don, votre nom, profil Steam et le montant apparaitront dans la liste des donneurs.<br><b>Dans le message de votre don, S'il-vous-plaît inclure que le don est pour unboxer.tf, ainsi qu'inclure votre lien de profil Steam.</b><br>Vous pouvez choisir de rester anonyme. Les dons en items seront affichés selon leur valeur en USD.",
     cze: "Pokud se rozhodnete přispět, vaše jméno, odkaz na Steam profil a výše přípěvku budou zobrazeny v seznamu přispěvatelů.<br><b>Ve zprávě příspěvku prosím uvěďte, že příspěvek je pro unboxer.tf, společně s tím uveďtě vaše Steam jméno a odkaz na Steam profil.</b><br> Můžete se rozhodnout zůstat anonymní. Předmětné příspěvky budou zobrazeny spolu s jejich hodnotou v USD.",
-    hun: "Ha úgy döntesz adományozol, akkor a neved, Steam profilod linkje és az adomány mennyisége láthatóvá válik az adományozók listáján.<br><b>Kérlek az adományod mellé üzenetben tüntesd fel, hogy az adományt az Unboxer.tf-nek szánod, a nevedet és a Steam profilod linkjét.</b><br>Ha úgy döntesz, maradhatsz anonim is. A tárgyi adományok USD-ben fognak megjelenni az értékük alapján."
+    hun: "Ha úgy döntesz adományozol, akkor a neved, Steam profilod linkje és az adomány mennyisége láthatóvá válik az adományozók listáján.<br><b>Kérlek az adományod mellé üzenetben tüntesd fel, hogy az adományt az Unboxer.tf-nek szánod, a nevedet és a Steam profilod linkjét.</b><br>Ha úgy döntesz, maradhatsz anonim is. A tárgyi adományok USD-ben fognak megjelenni az értékük alapján.",
+    rom: "Daca alegi sa donezi, numele tau, Link-ul de la contul tau de Steam si suma donatiei va aparea pe lista donatorilor.<br><b>In mesajul donatiei tale, te rog sa incluzi ca donatia este pentru unboxer.tf, deasemenea si numele tau si linkul de la profilul de Steam.</b><br> Poti sa alegi sa ramai necunoscut. Donatiile de obiecte vor avea valoarea aratata in USD."
   },
   190: {
     eng: "Donator List",
@@ -1672,7 +1861,8 @@ var dataUi = {
     bra: "Lista de doadores",
     fre: "Liste des donneurs",
     cze: "Seznam přispěvatelů",
-    hun: "Adományozók listája"
+    hun: "Adományozók listája",
+    rom: "Lista donatorilor"
   },
   191: {
     eng: ""
@@ -1684,7 +1874,8 @@ var dataUi = {
     bra: 'Você pode doar com <a href="https://paypal.me/kubikill" target="_blank" rel="noopener">PayPal</a> ou <a href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo" target="_blank" rel="noopener">itens da Steam/TF2</a>.<br>Usuários de Brave Browser podem doar usando BAT pelo navegador deles.',
     fre: 'Vous pouvez faire un don via <a href="https://paypal.me/kubikill">PayPal</a> ou avec des <a href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo">TF2/objets Steam</a>.<br>Brave Browser les usagers peuvent donner en utilisant BAT dans leur fureteur',
     cze: 'Můžete přispět skrze <a href="https://paypal.me/kubikill" target="_blank" rel="noopener">PayPal</a> nebo <a href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo" target="_blank" rel="noopener">TF2/Steam předměty</a>.<br>Odvážní uživatelé prohlížeče mohou darovat pomocí BAT přímo z prohlížeče.',
-    hun: 'Adományozni tudsz itt: <a href="https://paypal.me/kubikill" target="_blank" rel="noopener">PayPal</a> vagy itt: <a href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo" target="_blank" rel="noopener">TF2/Steam items</a>.<br>Brave Browser felhasználók tudnak adományozni BAT felhasználásával a böngészőn belül.'
+    hun: 'Adományozni tudsz itt: <a href="https://paypal.me/kubikill" target="_blank" rel="noopener">PayPal</a> vagy itt: <a href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo" target="_blank" rel="noopener">TF2/Steam items</a>.<br>Brave Browser felhasználók tudnak adományozni BAT felhasználásával a böngészőn belül.',
+    rom: 'Poti dona cu <a href="https://paypal.me/kubikill" target="_blank" rel="noopener">PayPal</a> or <a href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo" target="_blank" rel="noopener">TF2/Steam items</a>.<br>Utilizatorii extensiei Brave Browser pot dona utilizand BAT din browser.'
   },
   193: {
     eng: 'French',
@@ -1693,7 +1884,8 @@ var dataUi = {
     bra: 'Francês',
     fre: 'Français',
     cze: 'Francouzština',
-    hun: 'Francia'
+    hun: 'Francia',
+    rom: 'Franceza'
   },
   194: {
     eng: 'Spanish',
@@ -1701,7 +1893,8 @@ var dataUi = {
     sch: '西班牙语',
     bra: 'Espanhol',
     cze: 'Španělština',
-    hun: 'Spanyol'
+    hun: 'Spanyol',
+    rom: 'Spaniola'
   },
   195: {
     eng: 'German',
@@ -1709,7 +1902,8 @@ var dataUi = {
     sch: '德语',
     bra: 'Alemão',
     cze: 'Němčina',
-    hun: 'Német'
+    hun: 'Német',
+    rom: 'Germana'
   },
   196: {
     eng: 'Brazilian Portuguese',
@@ -1718,7 +1912,8 @@ var dataUi = {
     bra: 'Português do Brasil',
     fre: 'Portugais brésilien',
     cze: 'Brazilská portugalština',
-    hun: 'Brazil portugál'
+    hun: 'Brazil portugál',
+    rom: 'Portugheza Braziliana'
   },
   197: {
     eng: "View on Steam Market",
@@ -1727,7 +1922,8 @@ var dataUi = {
     bra: "Ver na Steam Market",
     fre: "Voir sur le marché Steam",
     cze: "Více na Steam marketu",
-    hun: "Megnézés a Steam Piacon"
+    hun: "Megnézés a Steam Piacon",
+    rom: "Vezi pe Steam Market"
   },
   198: {
     eng: "View on Backpack.tf",
@@ -1736,7 +1932,8 @@ var dataUi = {
     bra: "Ver em Backpack.tf",
     fre: "Voir sur Backpack.tf",
     cze: "Více na Backpack.tf",
-    hun: "Megnézés Backpack.tf-en"
+    hun: "Megnézés Backpack.tf-en",
+    rom: "Vezi pe Backpack.tf"
   },
   199: {
     eng: "View on Marketplace.tf",
@@ -1745,7 +1942,8 @@ var dataUi = {
     bra: "Ver em Marketplace.tf",
     fre: "Voir sur Marketplace.tf",
     cze: "Více na Marketplace.tf",
-    hun: "Megnézés Marketplace.tf-en"
+    hun: "Megnézés Marketplace.tf-en",
+    rom: "Vezi pe Marketplace.tf"
   },
   200: {
     eng: "Enable Unusual Sniper vs. Spy update hats:",
@@ -1754,7 +1952,8 @@ var dataUi = {
     sch: "启用“狙击手 vs. 间谍”更新的稀有帽子",
     fre: "Activer les Inhabituels de l'update Sniper vs. Spy:",
     cze: "Povoluje Unusual předměty ze Sniper vs. Spy updatu:",
-    hun: "Mesterlövész kontra Kém Frissítés sapkák engedélyezése:"
+    hun: "Mesterlövész kontra Kém Frissítés sapkák engedélyezése:",
+    rom: "Porneste Sniper Neobisnuit vs. Spy palarie de actualizare:"
   },
   201: {
     eng: "Allows the hats added in the Sniper vs. Spy update to be unboxed as Unusuals from crates added before the TF2 January 25th 2013 update (crates #1 - #55).",
@@ -1763,7 +1962,8 @@ var dataUi = {
     sch: "此选项允许从 2013 年 1 月 25 日 TF2 更新之前的箱子（编号为 #1-#55）中开出稀有品质的、在“狙击手 vs. 间谍”更新中添加的帽子。",
     fre: "Cette option permet aux chapeaux ajoutés avec l'update Sniper vs. Spy d'être déballé en qualité Inhabituelle dans les caisses ajoutée avant l'update TF2 du 25 Janvier 2013 (caisses #1 à #55).",
     cze: "Umožňuje rozbalení klobouků přidaných ve Sniper vs. Spy updatu Unusual kvality z krabic přidaných před aktualizací 25. ledna 2013 (krabice #1 - #55)",
-    hun: "Engedélyezi, hogy a Mesterlövész kontra Kém Frissítés során hozzáadott sapkákat Rendkívüli minőségbe kibonthasd olyan ládákból, amik a 2013. január 25.-i frissítés előtt lettek hozzáadva (#1-#55-ös szériák)"
+    hun: "Engedélyezi, hogy a Mesterlövész kontra Kém Frissítés során hozzáadott sapkákat Rendkívüli minőségbe kibonthasd olyan ládákból, amik a 2013. január 25.-i frissítés előtt lettek hozzáadva (#1-#55-ös szériák)",
+    rom: "Permite ca palariile sa fie adaugate in actualizarea Sniper vs Spy pentru a fi deschise ca obiecte Neobisnuite din cutii adaugate inainte de actualizarea TF2 25 Ianuarie 2013 (Cutiile #1 - #55)."
   },
   202: {
     eng: "Smissmas 2020",
@@ -1771,7 +1971,8 @@ var dataUi = {
     sch: "圣诞节 2020",
     bra: "Natal de 2020",
     cze: "Vánoce 2020",
-    hun: "Galácsony 2020"
+    hun: "Galácsony 2020",
+    rom: "Craciun 2020"
   },
   203: {
     eng: "Smissmas 2019",
@@ -1779,29 +1980,39 @@ var dataUi = {
     sch: "圣诞节 2019",
     bra: "Natal de 2019",
     cze: "Vánoce 2019",
-    hun: "Galácsony 2019"
+    hun: "Galácsony 2019",
+    rom: "Craciun 2019"
   },
   204: {
     eng: "Search",
     pol: "Szukaj",
     cze: "Vyhledávání",
-    hun: "Keresés"
+    hun: "Keresés",
+    rom: "Cauta"
   },
   205: {
     eng: "Type to search",
     pol: "Pisz, aby wyszukać",
     cze: "Piš pro vyhledávání",
-    hun: "Kezdj el gépelni a kereséshez"
+    hun: "Kezdj el gépelni a kereséshez",
+    rom: "Scrie ca sa cauti"
   },
   206: {
     eng: 'Czech',
     pol: 'Czeski',
     cze: 'Čeština',
-    hun: 'Cseh'
+    hun: 'Cseh',
+    rom: 'Ceha'
   },
   207: {
     eng: 'Hungarian',
     pol: "Węgierski",
-    hun: 'Magyar'
+    hun: 'Magyar',
+    rom: 'Maghiara'
+  },
+  208: {
+    eng: 'Romanian',
+    pol: "Rumuński",
+    rom: 'Romana'
   }
 };

@@ -134,7 +134,8 @@ var dataCrates = {
     sch: "曼恩公司特选保存补给箱",
     fre: "Caisse de sélection Mann Co.",
     bra: "Caixa Seleta de Suprimentos da Mann Co.",
-    hun: "Prémium Tartalék Mann Co. Ellátmányláda"
+    hun: "Prémium Tartalék Mann Co. Ellátmányláda",
+    rom: "Selectează Reserve Mann Co. Supply Crate"
   },
   16: {
     img: "summer_appetizer_crate",
@@ -251,7 +252,8 @@ var dataCrates = {
     sch: "邋遢的欢冬供应箱 2013",
     fre: "Caisse d'hiver vilaine 2013",
     bra: "Caixa Malcomportada de Fim de Ano de 2013",
-    hun: "Rosszcsont Téli Láda 2013"
+    hun: "Rosszcsont Téli Láda 2013",
+    rom: "Cutie de Iarnă Naughty 2013"
   },
   29: {
     img: "nice_winter_crate_2013",
@@ -395,7 +397,8 @@ var dataCrates = {
     sch: "End of the Line 社区补给箱",
     fre: "Caisse communautaire End of the Line",
     bra: "Caixa do End of the Line",
-    hun: "Végállomás Közösségi Láda"
+    hun: "Végállomás Közösségi Láda",
+    rom: "Cutie Comunitară „End of the Line”"
   },
   45: {
     img: "naughty_winter_crate_2014",
@@ -512,7 +515,8 @@ var dataCrates = {
     sch: "2016 年无锁冬季饰品箱",
     fre: "Caisse cosmétique d'hiver 2016 déverrouillée",
     bra: "Caixa de Cosméticos Destrancada de Fim de Ano de 2016",
-    hun: "Kinyitott 2016 Téli Díszítő Táska"
+    hun: "Kinyitott 2016 Téli Díszítő Táska",
+    rom: "Winter 2016 Cosmetic Case deblocat"
   },
   58: {
     img: "rainy_day_cosmetic_case",
@@ -539,7 +543,8 @@ var dataCrates = {
     sch: "释放野兽饰品箱",
     fre: "Caisse de cosmétiques Unleash the Beast",
     bra: "Caixa de Cosméticos da Fera Libertada",
-    hun: "Szabadon a Fenevaddal Díszítő Táska"
+    hun: "Szabadon a Fenevaddal Díszítő Táska",
+    rom: "Cutie cu accesorii Unleash the Beast"
   },
   61: {
     img: "jungle_jackpot_war_paint_case",
@@ -566,7 +571,8 @@ var dataCrates = {
     sch: "功勋英雄 民用级无锁战绘箱",
     fre: "Peinture de guerre Decorated War Hero Caisse ouverte de niveau Civil",
     bra: "Tinta de Guerra \"Veterano Condecorado\" Caixa Destrancada Nv. Civil",
-    hun: "„Kitüntetett Háborús Hős” harci festés Civil fokozatú kulcs nélküli táska"
+    hun: "„Kitüntetett Háborús Hős” harci festés Civil fokozatú kulcs nélküli táska",
+    rom: "Vopsea de război „Decorated War Hero” Cutie neîncuiată de ordin civil"
   },
   64: {
     img: "war_paint_civilian_grade_keyless_case",
@@ -575,7 +581,8 @@ var dataCrates = {
     sch: "合同履行者 民用级无锁战绘箱",
     fre: "Peinture de guerre « Contract Campaigner » Caisse ouverte de niveau Civil",
     bra: "Tinta de Guerra \"Contratado da Campanha\" Caixa Destrancada Nv. Civil",
-    hun: "„Szerződéses Hadjáratozó” harci festés Civil fokozatú kulcs nélküli táska"
+    hun: "„Szerződéses Hadjáratozó” harci festés Civil fokozatú kulcs nélküli táska",
+    rom: "Vopsea de război „Contract Campaigner” Cutie neîncuiată de ordin civil"
   },
   65: {
     img: "winter_2017_cosmetic_case",

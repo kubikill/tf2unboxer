@@ -614,6 +614,8 @@ a.btn {
 #crateimagediv img {
     max-width: 100vw;
     max-height: 70%;
+    height: 70%;
+    object-fit: contain;
 }
 
 #crategridsearch {
