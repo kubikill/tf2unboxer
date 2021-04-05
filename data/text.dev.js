@@ -1079,7 +1079,7 @@ var dataUi = {
     fre: "Déballage moyen par Inhabituel:",
     cze: "Průměr počtu otevření za Unusual předmět:",
     hun: "Átlag kibontások száma két Rendkívüli között:",
-    rom: "Deschidere in medie per obiecte Neobisnuit:"
+    rom: "Deschidere in medie per obiecte Neobisnuite:"
   },
   109: {
     eng: '<span class="colorstrange">Strange</span> <span class="colorhaunted">Haunted</span> items unboxed:',
