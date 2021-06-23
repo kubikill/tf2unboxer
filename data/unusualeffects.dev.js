@@ -1589,5 +1589,60 @@ var dataEffects = {
     schema: 169,
     pol: "gwałtowna fala zimy",
     hun: "Heves hófergeteg"
+  },
+  163: {
+    img: "resonation",
+    eng: "Resonation",
+    schema: 177
+  },
+  164: {
+    img: "aggradation",
+    eng: "Aggradation",
+    schema: 178
+  },
+  165: {
+    img: "lucidation",
+    eng: "Lucidation",
+    schema: 179
+  },
+  166: {
+    img: "stunning",
+    eng: "Stunning",
+    schema: 180
+  },
+  167: {
+    img: "ardentum_saturnalis",
+    eng: "Ardentum Saturnalis",
+    schema: 181
+  },
+  168: {
+    img: "fragrancium_elementalis",
+    eng: "Fragrancium Elementalis",
+    schema: 182
+  },
+  169: {
+    img: "reverium_irregularis",
+    eng: "Reverium Irregularis",
+    schema: 183
+  },
+  170: {
+    img: "perennial_petals",
+    eng: "Perennial Petals",
+    schema: 185
+  },
+  171: {
+    img: "flavorsome_sunset",
+    eng: "Flavorsome Sunset",
+    schema: 186
+  },
+  172: {
+    img: "raspberry_bloom",
+    eng: "Raspberry Bloom",
+    schema: 187
+  },
+  173: {
+    img: "iridescence",
+    eng: "Iridescence",
+    schema: 188
   }
 };

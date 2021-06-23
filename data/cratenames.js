@@ -804,5 +804,14 @@ let dataCrates = {
         bra: "Caixa de Tintas de Guerra de Fim de Ano de 2020",
         fre: "Caisse de peintures d'hiver 2020",
         hun: "Tél 2020 Harci Festés Táska"
+    },
+    90: {
+        img: "summer_2021_cosmetic_case",
+        eng: "Summer 2021 Cosmetic Case",
+        pol: "Letnia skrzynia ozdób 2021",
+        fre: "Caisse de cosmétiques d'été 2021",
+        sch: "2021 夏季饰品箱",
+        bra: "Caixa de Cosméticos das Férias de 2021",
+        hun: "Nyár 2021 Díszítő Táska"
     }
 }

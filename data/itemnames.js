@@ -17118,5 +17118,95 @@ let dataItems = {
         pol: "Drwina: Żółwik",
         bra: "Provocação: Soquinho",
         hun: "Beszólás: Ökölpacsi"
+    },
+    1707: {
+        img: "manndatory_attire",
+        eng: "Manndatory Attire",
+        schema: 31184
+    },
+    1708: {
+        img: "roaming_roman",
+        eng: "Roaming Roman",
+        schema: 31198
+    },
+    1709: {
+        img: "brim_of_fire",
+        eng: "Brim of Fire",
+        schema: 31185
+    },
+    1710: {
+        img: "wild_brim_slouch",
+        eng: "Wild Brim Slouch",
+        schema: 31192
+    },
+    1711: {
+        img: "fried_batter",
+        eng: "Fried Batter",
+        schema: 31197
+    },
+    1712: {
+        img: "reel_fly_hat",
+        eng: "Reel Fly Hat",
+        schema: 31186
+    },
+    1713: {
+        img: "two_punch_mann",
+        eng: "Two Punch Mann",
+        schema: 31191
+    },
+    1714: {
+        img: "hook_line_and_cinder",
+        eng: "Hook, Line, and Cinder",
+        schema: 31187
+    },
+    1715: {
+        img: "thousand_yard_stare",
+        eng: "Thousand-Yard Stare",
+        schema: 31200
+    },
+    1716: {
+        img: "snack_stack",
+        eng: "Snack Stack",
+        schema: 31190
+    },
+    1717: {
+        img: "crocodile_dandy",
+        eng: "Crocodile Dandy",
+        schema: 31193
+    },
+    1718: {
+        img: "meal_dealer",
+        eng: "Meal Dealer",
+        schema: 31196
+    },
+    1719: {
+        img: "water_waders",
+        eng: "Water Waders",
+        schema: 31188
+    },
+    1720: {
+        img: "the_sightliner",
+        eng: "The Sightliner",
+        schema: 31189
+    },
+    1721: {
+        img: "the_panisher",
+        eng: "The Panisher",
+        schema: 31199
+    },
+    1722: {
+        img: "fast_food",
+        eng: "Fast Food",
+        schema: 31195
+    },
+    1723: {
+        img: "crustaceous_cowl",
+        eng: "Crustaceous Cowl",
+        schema: 31194
+    },
+    1724: {
+        img: "ballooniphones",
+        eng: "Ballooniphones",
+        schema: 31183
     }
 }

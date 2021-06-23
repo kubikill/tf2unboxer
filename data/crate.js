@@ -132,6 +132,7 @@ const invasionFX = allGensFX.concat([80, 81, 82, 83, 84, 85, 86, 87, 88]);
 const xmas19FX = [123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133];
 const summer20FX = allGensFX.concat([134, 135, 136, 137, 138, 139, 140, 141, 142]);
 const xmas20FX = [151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162];
+const summer21FX = allGensFX.concat([163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173]);
 // Global bonus item list
 const globalBonusItemArray = [24, 7, 74, 762, 763, "paint", "strangepart", 15, 767, 768, 769];
 // List of taunts used for unusualifiers
@@ -321,10 +322,11 @@ let cA = [
     new Crate({ id: 86, series: 128, effects: hw20FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [966, 967, 968, 969, 970, 971], chance: 5000}}),
     new Crate({ id: 87, series: 129, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
     new Crate({ id: 88, series: 130, effects: xmas20FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [972], chance: 4000}, oneExclusiveBonus: true}), /* [145] */
-    new Crate({ id: 89, series: 131, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true})
+    new Crate({ id: 89, series: 131, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
+    new Crate({ id: 90, series: 133, effects: summer21FX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
 ];
 // This is the order the crates will show up in the menu
-let crateOrder = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 139, 140, 141, 142, 143, 144, 145, 146];
+let crateOrder = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 139, 140, 141, 142, 143, 144, 145, 146, 147];
 // Define loot for each crate
 cA[0].loot = [
     new Item({ id: 1, quality: 1 }),
@@ -2799,4 +2801,24 @@ cA[146].loot = [ // xmas 2020 war paints
     new Item({ id: 1696, quality: 6, grade: 5 }),
     new Item({ id: 1697, quality: 6, grade: 5 }),
     new Item({ id: 1698, quality: 6, grade: 6 })
+];
+cA[147].loot = [ // summer 2021 cosmetic case
+    new Item({ id: 1707, quality: 4, grade: 3 }),
+    new Item({ id: 1708, quality: 10, grade: 3 }),
+    new Item({ id: 1709, quality: 10, grade: 3 }),
+    new Item({ id: 1710, quality: 10, grade: 3 }),
+    new Item({ id: 1711, quality: 10, grade: 3 }),
+    new Item({ id: 1712, quality: 10, grade: 3 }),
+    new Item({ id: 1713, quality: 4, grade: 3 }),
+    new Item({ id: 1714, quality: 4, grade: 3 }),
+    new Item({ id: 1715, quality: 10, grade: 3 }),
+    new Item({ id: 1716, quality: 10, grade: 4 }),
+    new Item({ id: 1717, quality: 4, grade: 4 }),
+    new Item({ id: 1718, quality: 4, grade: 4 }),
+    new Item({ id: 1719, quality: 4, grade: 4 }),
+    new Item({ id: 1720, quality: 4, grade: 4 }),
+    new Item({ id: 1721, quality: 10, grade: 5 }),
+    new Item({ id: 1722, quality: 4, grade: 5 }),
+    new Item({ id: 1723, quality: 10, grade: 5 }),
+    new Item({ id: 1724, quality: 10, grade: 6 }),
 ];
