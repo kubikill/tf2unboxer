@@ -1935,7 +1935,7 @@ var dataUi = {
     cze: "Toto nastavení vám umožňuje nahradit Unusual efekty u některých beden z vybraných událostí.<br>Události z roku 2011-2016 mají vliv pouze na bedny vydané před aktualizací Gun Mettle.<br>Události od roku 2017 ovlivňují pouze krabice a bedny vydané před událostí a ty, které byly vydány z aktualizace Gun Mettle.",
     hun: "Ez az opció kiváltja a Rendkívüli effekteket bizonyos ládákba/táskákban a kiválasztott eseményről.<br>A 2011 és 2016 közötti események csak az azt megelőző években megjelent ládákat és táskákat befolyásolja.<br>A 2017 és utáni események csak az adott eseményt megelőző táskákat befolyásolja.",
     rom: "Aceasta optiune inlocuieste efectele neobisnuite in anumite cutii cu efecte din evenimentul selectat.<br>Evenimentele din 2011 pana in 2016 afecteaza doar cutiile lansate inainte de eveniment.<br>Evenimente din 2017 in sus afecteaza doar cutiile lansate dupa eveniment.",
-    swe: "Detta alternativ ersätter Ovanliga effekter i vissa lådor med effekter från den valda händelsen.<br>Händelser från 2011 till 2016 påverkar endast lådor som släppts före händelsen.<br>Händelser från och med 2017 påverkar endast lådor som släppts före händelsen."
+    swe: "Detta alternativ ersätter Ovanliga effekter i vissa lådor med effekter från den valda händelsen.<br>Händelser från 2011 till 2016 påverkar endast lådor som släppts före händelsen.<br>Events från och med 2017 påverkar endast fodral som släppts före eventet och efter Gun Mettle-uppdateringen."
   },
   177: {
     eng: "Disabled",
