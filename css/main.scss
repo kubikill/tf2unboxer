@@ -10,7 +10,7 @@ body {
     position: fixed;
     height: 100%;
     width: 100%;
-    color: #EBE2CA;
+    color: #fbf1d7;
     font-family: 'TF2 Secondary';
 }
 
@@ -255,7 +255,7 @@ nav {
         border-style: solid;
         text-align: center;
         text-align-last: center;
-        color: #EBE2CA;
+        color: #fbf1d7;
     }
 }
 
@@ -321,14 +321,14 @@ nav {
 #bulkunboxprogress {
     height: auto;
     padding: 1vh;
-    color: #EBE2CA;
+    color: #fbf1d7;
 
     input {
         margin-bottom: 2vh;
         padding: 0.75vh 0;
         font-size: 2.5vh;
         background-color: #211e1e;
-        color: #EBE2CA;
+        color: #fbf1d7;
         border-color: #776B5F;
         border-style: solid;
         font-family: "TF2 Build";
@@ -355,7 +355,7 @@ nav {
         }
 
         &::-webkit-progress-value {
-            background-color: #EBE2CA;
+            background-color: #fbf1d7;
         }
     }
 }
@@ -378,7 +378,7 @@ nav {
         border-radius: 0.5vh;
         background-image: linear-gradient(to bottom, #534a42, #373128);
         padding: 1vh 2vh;
-        color: #EBE2CA;
+        color: #fbf1d7;
         font-weight: normal;
         white-space: nowrap;
         pointer-events: none;
@@ -454,7 +454,7 @@ nav {
 }
 
 a.btn {
-    color: #EBE2CA;
+    color: #fbf1d7;
     text-decoration: none;
     font-weight: normal;
 }
@@ -550,7 +550,7 @@ a.btn {
 #soundbtn {
     width: 8vh;
     height: 100%;
-    color: #EBE2CA;
+    color: #fbf1d7;
 }
 
 #crateimagediv {
@@ -639,7 +639,7 @@ a.btn {
     border: none;
     flex-grow: 1;
     flex-basis: 10%;
-    color: #EBE2CA;
+    color: #fbf1d7;
     font-family: "TF2 Build";
     font-size: 2.5vh;
     padding: 0 1vh;
@@ -1422,7 +1422,7 @@ div.visible {
         }
 
         .cratedetailsqualitylist {
-            color: #EBE2CA;
+            color: #fbf1d7;
         }
 
         .cratedetailsitemunboxed {

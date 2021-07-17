@@ -1354,6 +1354,9 @@ function changeLanguage(lang) {
         case "rom":
             document.documentElement.lang = "ro";
             break;
+        case "swe":
+            document.documentElement.lang = "sv";
+            break;
     }
     jumpToCrate(currentCrate);
     generateGrid();
@@ -2985,7 +2988,7 @@ function generateGrid() {
     let html = [];
     for (let i = 0; i < crateOrder.length; i++) {
         html.push(`<div cratenum="${i}" series="${cA[crateOrder[i]].series}">
-    <img class="statscratesimg" src="./images/crate/${getImg("crate", cA[crateOrder[i]].id)}" alt="">
+    <img class="statscratesimg" src="./images/crate/${getImg("crate", cA[crateOrder[i]].id)}" alt="" loading="lazy">
     <p class="statscratesname">${getString("crate", cA[crateOrder[i]].id)}</p>
     <p class="statscratesseries">${getSeries(cA[crateOrder[i]].series)}</p>
     </div>`);
@@ -3521,68 +3524,73 @@ function testUnbox() {
 }
 
 // On load, disable loading screen
-window.onload = () => {
-    if (localStorage.getItem("unboxertf-languagechanged") == undefined) {
-        for (let i = 0; i < navigator.languages.length; i++) {
-            switch (navigator.languages[i].slice(0, 2)) {
-                case "en":
-                    i = navigator.languages.length;
-                    break;
-                case "pl":
-                    changeLanguage("pol");
-                    save.options.language = "pol";
-                    DOM.options.langDropdown.value = "pol";
-                    localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
-                    i = navigator.languages.length;
-                    break;
-                case "fr":
-                    changeLanguage("fre");
-                    save.options.language = "fre";
-                    DOM.options.langDropdown.value = "fre";
-                    localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
-                    i = navigator.languages.length;
-                    break;
-                case "zh":
-                    changeLanguage("sch");
-                    save.options.language = "sch";
-                    DOM.options.langDropdown.value = "sch";
-                    localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
-                    i = navigator.languages.length;
-                    break;
-                case "cs":
-                    changeLanguage("cze");
-                    save.options.language = "cze";
-                    DOM.options.langDropdown.value = "cze";
-                    localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
-                    i = navigator.languages.length;
-                    break;
-                case "hu":
-                    changeLanguage("hun");
-                    save.options.language = "hun";
-                    DOM.options.langDropdown.value = "hun";
-                    localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
-                    i = navigator.languages.length;
-                    break;
-                case "ro":
-                    changeLanguage("rom");
-                    save.options.language = "rom";
-                    DOM.options.langDropdown.value = "rom";
-                    localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
-                    i = navigator.languages.length;
-                    break;
-            }
-            switch (navigator.languages[i]) {
-                case "pt-BR":
-                    changeLanguage("bra");
-                    save.options.language = "bra";
-                    DOM.options.langDropdown.value = "bra";
-                    localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
-                    i = navigator.languages.length;
-                    break;
-            }
+if (localStorage.getItem("unboxertf-languagechanged") == undefined) {
+    for (let i = 0; i < navigator.languages.length; i++) {
+        switch (navigator.languages[i].slice(0, 2)) {
+            case "en":
+                i = navigator.languages.length;
+                break;
+            case "pl":
+                changeLanguage("pol");
+                save.options.language = "pol";
+                DOM.options.langDropdown.value = "pol";
+                localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
+                i = navigator.languages.length;
+                break;
+            case "fr":
+                changeLanguage("fre");
+                save.options.language = "fre";
+                DOM.options.langDropdown.value = "fre";
+                localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
+                i = navigator.languages.length;
+                break;
+            case "zh":
+                changeLanguage("sch");
+                save.options.language = "sch";
+                DOM.options.langDropdown.value = "sch";
+                localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
+                i = navigator.languages.length;
+                break;
+            case "cs":
+                changeLanguage("cze");
+                save.options.language = "cze";
+                DOM.options.langDropdown.value = "cze";
+                localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
+                i = navigator.languages.length;
+                break;
+            case "hu":
+                changeLanguage("hun");
+                save.options.language = "hun";
+                DOM.options.langDropdown.value = "hun";
+                localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
+                i = navigator.languages.length;
+                break;
+            case "ro":
+                changeLanguage("rom");
+                save.options.language = "rom";
+                DOM.options.langDropdown.value = "rom";
+                localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
+                i = navigator.languages.length;
+                break;
+            case "sv":
+                changeLanguage("swe");
+                save.options.language = "swe";
+                DOM.options.langDropdown.value = "swe";
+                localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
+                i = navigator.languages.length;
+                break;
+        }
+        switch (navigator.languages[i]) {
+            case "pt-BR":
+                changeLanguage("bra");
+                save.options.language = "bra";
+                DOM.options.langDropdown.value = "bra";
+                localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
+                i = navigator.languages.length;
+                break;
         }
     }
-
-    DOM.main.container.classList.remove("loading");
-    document.querySelector("#loadingscreen").style.display = "none";
 }
+
+DOM.main.container.classList.remove("loading");
+document.querySelector("#loadingscreen").style.display = "none";
