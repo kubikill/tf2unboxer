@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="viewport"
+        content="minimal-ui, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <meta name="mobile-web-app-capable" content="yes">
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
@@ -15,16 +16,19 @@
     <meta name="application-name" content="Unboxer.tf">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#383530">
-    <meta name="Description" content="A free Team Fortress 2 crate/case simulator. Try your luck at opening one of over 140 TF2 crates/cases! Now with the new Summer 2021 Cosmetic Case!" />
-    <meta name="robots" content="noarchive, noimageindex"/>
+    <meta name="Description"
+        content="A free Team Fortress 2 crate/case simulator. Try your luck at opening one of over 140 TF2 crates/cases! Now with the new Summer 2021 Cosmetic Case!" />
+    <meta name="robots" content="noarchive, noimageindex" />
     <meta property="og:title" content="Unboxer.tf - a TF2 crate/case simulator">
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://unboxer.tf/thumbnail.png">
     <meta property="og:url" content="https://unboxer.tf">
-    <meta property="og:description" content="A free Team Fortress 2 crate/case simulator. Try your luck at opening one of over 140 TF2 crates/cases! Now with the new Summer 2021 Cosmetic Case!">
+    <meta property="og:description"
+        content="A free Team Fortress 2 crate/case simulator. Try your luck at opening one of over 140 TF2 crates/cases! Now with the new Summer 2021 Cosmetic Case!">
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Unboxer.tf - a TF2 crate/case simulator" />
-    <meta name="twitter:description" content="A free Team Fortress 2 crate/case simulator. Try your luck at opening one of over 140 TF2 crates/cases!" />
+    <meta name="twitter:description"
+        content="A free Team Fortress 2 crate/case simulator. Try your luck at opening one of over 140 TF2 crates/cases!" />
     <meta name="twitter:image" content="https://unboxer.tf/squarelogo.png" />
     <title>Unboxer.tf - a TF2 crate/case simulator</title>
     <link rel="preconnect" href="https://unboxertf2.goatcounter.com">
@@ -132,7 +136,7 @@
     <!-- Load analytics-->
     <script>
         window.goatcounter = {
-            referrer: function() {
+            referrer: function () {
                 return goatcounter.get_query('ref') ||
                     goatcounter.get_query('utm_campaign') ||
                     goatcounter.get_query('utm_source') ||
@@ -156,21 +160,28 @@
     <main id="loadingscreen">
         <div id="loadingcontainer">
             <p>Loading<span id="loadingdots"></span></p>
-            <p id="loadingtoolong">This is taking longer than usual. Check your internet connection.<br>If this still persists, contact us on our <a href="https://steamcommunity.com/groups/tf2unboxer" target="_blank" rel="noopener">Steam group</a>.</p>
+            <p id="loadingtoolong">This is taking longer than usual. Check your internet connection.<br>If this still
+                persists, contact us on our <a href="https://steamcommunity.com/groups/tf2unboxer" target="_blank"
+                    rel="noopener">Steam group</a>.</p>
         </div>
     </main>
     <!--Crate select screen-->
 
     <main id="crateselectscreen" class="loading">
         <nav class="top">
-            <a href="https://steamcommunity.com/groups/tf2unboxer" id="steama" class="tooltipbottomright" target="_blank" rel="noopener" aria-label="Steam group" data-tooltip="Steam group" data-tooltipstring="85">
+            <a href="https://steamcommunity.com/groups/tf2unboxer" id="steama" class="tooltipbottomright"
+                target="_blank" rel="noopener" aria-label="Steam group" data-tooltip="Steam group"
+                data-tooltipstring="85">
                 <div class="btn" id="steambtn">
                     <i class="icon-steam"></i>
                 </div>
             </a>
-            <div class="btn" data-screen="#statsscreen"><i class="icon-chart"></i><span data-string="10">Statistics</span></div>
-            <div class="btn" data-screen="#optionsscreen"><i class="icon-options"></i><span data-string="9">Options</span></div>
-            <div class="btn" data-screen="#aboutscreen"><i class="icon-info"></i><span data-string="88">About/Donate</span></div>
+            <div class="btn" data-screen="#statsscreen"><i class="icon-chart"></i><span
+                    data-string="10">Statistics</span></div>
+            <div class="btn" data-screen="#optionsscreen"><i class="icon-options"></i><span
+                    data-string="9">Options</span></div>
+            <div class="btn" data-screen="#aboutscreen"><i class="icon-info"></i><span
+                    data-string="88">About/Donate</span></div>
             <div class="nosoundbtn tooltipbottomleft" id="soundbtn" data-tooltip="Mute sound" data-tooltipstring="86">
                 <i class="icon-speaker"></i>
             </div>
@@ -180,13 +191,17 @@
             <div class="btn" id="unboxbtn" data-string="13">Unbox my loot!</div>
         </nav>
         <div id="cratewindow">
-            <div class="btn tooltipleft tooltipmobiletopright" id="gridviewbtn" data-tooltip="Grid view" data-tooltipstring="11"><i class="icon-grid"></i></div>
-            <div class="btn tooltipleft tooltipmobiletop" id="exitgridviewbtn" data-tooltip="Details view" data-tooltipstring="12" style="display: none;"><i class="icon-list"></i></div>
-            <div class="btn tooltipleft tooltipmobiletopleft tooltipmobilegridtop" id="randomcratebtn" data-tooltip="Random crate" data-tooltipstring="14"><i class="icon-dice"></i></div>
-            <div class="btn tooltipleft tooltipmobiletop" id="searchbtn" data-tooltip="Search" data-tooltipstring="204" style="display: none;"><i class="icon-search"></i></div>
+            <div class="btn tooltipleft tooltipmobiletopright" id="gridviewbtn" data-tooltip="Grid view"
+                data-tooltipstring="11"><i class="icon-grid"></i></div>
+            <div class="btn tooltipleft tooltipmobiletop" id="exitgridviewbtn" data-tooltip="Details view"
+                data-tooltipstring="12" style="display: none;"><i class="icon-list"></i></div>
+            <div class="btn tooltipleft tooltipmobiletopleft tooltipmobilegridtop" id="randomcratebtn"
+                data-tooltip="Random crate" data-tooltipstring="14"><i class="icon-dice"></i></div>
+            <div class="btn tooltipleft tooltipmobiletop" id="searchbtn" data-tooltip="Search" data-tooltipstring="204"
+                style="display: none;"><i class="icon-search"></i></div>
             <div id="crateinfo" data-swipe-threshold="50">
-                <p id="cratename">Winter 2020 War Paint Case</p>
-                <p id="crateseries">Series #131</p>
+                <p id="cratename">Summer 2021 Cosmetic Case</p>
+                <p id="crateseries">Series #133</p>
                 <div id="crateimagediv">
                     <img id="crateimage" src="" draggable="false" onmousedown="return false" alt="">
                     <div class="btn" id="crateinfobtn" data-string="18">More info</div>
@@ -196,19 +211,24 @@
                         <div>
                             <p id="crateloottitle" data-string="30">This crate contains one of the following items:</p>
                             <ul id="cratelootlist">
-                                <li class="colormercenary">Snowflake Swirled War Paint</li>
-                                <li class="colormercenary">Snow Globalization War Paint</li>
-                                <li class="colormercenary">Glacial Glazed War Paint</li>
-                                <li class="colormercenary">Gifting Mann's Wrapping Paper War Paint</li>
-                                <li class="colormercenary">Peppermint Swirl War Paint</li>
-                                <li class="colormercenary">Gingerbread Winner War Paint</li>
-                                <li class="colorcommando">Smissmas Spycrabs War Paint</li>
-                                <li class="colorcommando">Elfin Enamel War Paint</li>
-                                <li class="colorcommando">Frozen Aurora War Paint</li>
-                                <li class="colorcommando">Cookie Fortress War Paint</li>
-                                <li class="colorassassin">Frosty Delivery War Paint</li>
-                                <li class="colorassassin">Saccharine Striped War Paint</li>
-                                <li class="colorelite">Starlight Serenity War Paint</li>
+                                <li class="colormercenary">Manndatory Attire</li>
+                                <li class="colormercenary">Roaming Roman</li>
+                                <li class="colormercenary">Brim of Fire</li>
+                                <li class="colormercenary">Wild Brim Slouch</li>
+                                <li class="colormercenary">Fried Batter</li>
+                                <li class="colormercenary">Reel Fly Hat</li>
+                                <li class="colormercenary">Two Punch Mann</li>
+                                <li class="colormercenary">Hook, Line, and Cinder</li>
+                                <li class="colormercenary">Thousand-Yard Stare</li>
+                                <li class="colorcommando">Snack Stack</li>
+                                <li class="colorcommando">Crocodile Dandy</li>
+                                <li class="colorcommando">Meal Dealer</li>
+                                <li class="colorcommando">Water Waders</li>
+                                <li class="colorcommando">The Sightliner</li>
+                                <li class="colorassassin">The Panisher</li>
+                                <li class="colorassassin">Fast Food</li>
+                                <li class="colorassassin">Crustaceous Cowl</li>
+                                <li class="colorelite">Ballooniphones</li>
                             </ul> <span id="cratelootbonus">
                                 <p>This case may contain bonus items.</p>
                             </span>
@@ -218,9 +238,46 @@
                     <div id="crateeffectsdiv" style="display: none;">
                         <p id="crateeffectstitle">Unusuals may have one of the following effects:</p>
                         <ul id="crateeffectslist">
-                            <li>Isotope</li>
-                            <li>Hot</li>
-                            <li>Cool</li>
+                            <li>Burning Flames</li>
+                            <li>Circling Heart</li>
+                            <li>Circling Peace Sign</li>
+                            <li>Circling TF Logo</li>
+                            <li>Green Confetti</li>
+                            <li>Green Energy</li>
+                            <li>Haunted Ghosts</li>
+                            <li>Massed Flies</li>
+                            <li>Purple Confetti</li>
+                            <li>Purple Energy</li>
+                            <li>Scorching Flames</li>
+                            <li>Searing Plasma</li>
+                            <li>Sunbeams</li>
+                            <li>Vivid Plasma</li>
+                            <li>Blizzardy Storm</li>
+                            <li>Bubbling</li>
+                            <li>Nuts n' Bolts</li>
+                            <li>Orbiting Fire</li>
+                            <li>Orbiting Planets</li>
+                            <li>Smoking</li>
+                            <li>Steaming</li>
+                            <li>Stormy Storm</li>
+                            <li>Aces High</li>
+                            <li>Cloud 9</li>
+                            <li>Dead Presidents</li>
+                            <li>Disco Beat Down</li>
+                            <li>Kill-a-Watt</li>
+                            <li>Miami Nights</li>
+                            <li>Terror-Watt</li>
+                            <li>Resonation</li>
+                            <li>Aggradation</li>
+                            <li>Lucidation</li>
+                            <li>Stunning</li>
+                            <li>Ardentum Saturnalis</li>
+                            <li>Fragrancium Elementalis</li>
+                            <li>Reverium Irregularis</li>
+                            <li>Perennial Petals</li>
+                            <li>Flavorsome Sunset</li>
+                            <li>Raspberry Bloom</li>
+                            <li>Iridescence</li>
                         </ul>
                     </div>
                     <div class="btn" id="crateinforeturnbtn" data-string="15">Return</div>
@@ -232,7 +289,8 @@
             </div>
             <div id="crategridsearch">
                 <div class="crategridsearchicon"><i class="icon-search"></i></div>
-                <input id="crategridsearchinput" type="text" autocomplete="off" placeholder="Type to search" data-placeholderstring="205">
+                <input id="crategridsearchinput" type="text" autocomplete="off" placeholder="Type to search"
+                    data-placeholderstring="205">
             </div>
             <div id="crategrid" style="display: none;"></div>
         </div>
@@ -352,7 +410,8 @@
                         <td data-bulkstat="haunted-unboxed">0</td>
                     </tr>
                     <tr>
-                        <td data-string="109"><span class="colorstrange">Strange</span> <span class="colorhaunted">Haunted</span> items unboxed:</td>
+                        <td data-string="109"><span class="colorstrange">Strange</span> <span
+                                class="colorhaunted">Haunted</span> items unboxed:</td>
                         <td data-bulkstat="strangehaunted-unboxed">0</td>
                     </tr>
                     <tr>
@@ -364,7 +423,8 @@
                         <td data-bulkstat="unusual-unboxed">0</td>
                     </tr>
                     <tr>
-                        <td data-string="90"><span class="colorstrange">Strange</span> <span class="colorunusual">Unusuals</span> unboxed:</td>
+                        <td data-string="90"><span class="colorstrange">Strange</span> <span
+                                class="colorunusual">Unusuals</span> unboxed:</td>
                         <td data-bulkstat="strangeunusual-unboxed">0</td>
                     </tr>
                     <tr>
@@ -464,7 +524,8 @@
             <div id="loottextdiv">
                 <div id="lootnamediv">
                     <span id="lootname"></span>
-                    <span id="effectfield" style="display: none;"><span id="effecttext" data-string="36">★ Unusual Effect: </span><span id="effectname"></span></span>
+                    <span id="effectfield" style="display: none;"><span id="effecttext" data-string="36">★ Unusual
+                            Effect: </span><span id="effectname"></span></span>
                     <span id="kitfield"></span>
                 </div>
                 <div id="lootbonusandstats">
@@ -494,9 +555,14 @@
                     </div>
                 </div>
                 <div id="lootmarketbtns">
-                    <a href="" target="_blank" rel="noopener" class="btn tooltipleft" data-tooltip="View on Steam Market" data-tooltipstring="197" id="lootsteammarketbtn"><i class="icon-steam"></i></a>
-                    <a href="" target="_blank" rel="noopener" class="btn tooltipleft" data-tooltip="View on Backpack.tf" data-tooltipstring="198" id="lootbptfbtn"><i class="icon-backpacktf"></i></a>
-                    <a href="" target="_blank" rel="noopener" class="btn tooltipleft" data-tooltip="View on Marketplace.tf" data-tooltipstring="199" id="lootmptfbtn"><i class="icon-marketplacetf"></i></a>
+                    <a href="" target="_blank" rel="noopener" class="btn tooltipleft"
+                        data-tooltip="View on Steam Market" data-tooltipstring="197" id="lootsteammarketbtn"><i
+                            class="icon-steam"></i></a>
+                    <a href="" target="_blank" rel="noopener" class="btn tooltipleft" data-tooltip="View on Backpack.tf"
+                        data-tooltipstring="198" id="lootbptfbtn"><i class="icon-backpacktf"></i></a>
+                    <a href="" target="_blank" rel="noopener" class="btn tooltipleft"
+                        data-tooltip="View on Marketplace.tf" data-tooltipstring="199" id="lootmptfbtn"><i
+                            class="icon-marketplacetf"></i></a>
                 </div>
             </div>
         </div>
@@ -586,7 +652,8 @@
                                 <td data-stat="haunted-unboxed">0</td>
                             </tr>
                             <tr>
-                                <td data-string="109"><span class="colorstrange">Strange</span> <span class="colorhaunted">Haunted</span> items unboxed:</td>
+                                <td data-string="109"><span class="colorstrange">Strange</span> <span
+                                        class="colorhaunted">Haunted</span> items unboxed:</td>
                                 <td data-stat="strangehaunted-unboxed">0</td>
                             </tr>
                             <tr>
@@ -598,7 +665,8 @@
                                 <td data-stat="unusual-unboxed">0</td>
                             </tr>
                             <tr>
-                                <td data-string="90"><span class="colorstrange">Strange</span> <span class="colorunusual">Unusuals</span> unboxed:</td>
+                                <td data-string="90"><span class="colorstrange">Strange</span> <span
+                                        class="colorunusual">Unusuals</span> unboxed:</td>
                                 <td data-stat="strangeunusual-unboxed">0</td>
                             </tr>
                         </table>
@@ -752,7 +820,9 @@
                         <option value="sch">中文(简体)‬</option>
                     </select>
                 </div>
-                <p>unboxer.tf is looking for translators! You can <a href="https://steamcommunity.com/groups/tf2unboxer/discussions/1/1743355067121147992/" target="_blank" rel="noopener">apply here</a>.</p>
+                <p>unboxer.tf is looking for translators! You can <a
+                        href="https://steamcommunity.com/groups/tf2unboxer/discussions/1/1743355067121147992/"
+                        target="_blank" rel="noopener">apply here</a>.</p>
             </div>
             <div>
                 <p class="optiontitle" data-string="56">Fast unboxing:</p>
@@ -760,7 +830,8 @@
                     <div class="btn active" data-string="27" data-option="fastUnbox" data-optionValue="false">Off</div>
                     <div class="btn" data-string="28" data-option="fastUnbox" data-optionValue="true">On</div>
                 </div>
-                <p data-string="57">Skips the unboxing countdown.<br>Also allows you to unbox rapidly by holding Space or the "Unbox again" button on the crate results screen.</p>
+                <p data-string="57">Skips the unboxing countdown.<br>Also allows you to unbox rapidly by holding Space
+                    or the "Unbox again" button on the crate results screen.</p>
             </div>
             <div>
                 <p class="optiontitle" data-string="62">Custom Crate Depression Mode:</p>
@@ -786,7 +857,8 @@
                     <p data-string="144">Bonus items</p>
                 </div>
                 <p data-string="63">Crash the economy in your own style!
-                    This lets you always unbox Unusuals, Stranges, professional killstreak kits, bonus items or items of specific grade.<br>
+                    This lets you always unbox Unusuals, Stranges, professional killstreak kits, bonus items or items of
+                    specific grade.<br>
                     Enabling any of those options will disable stats and saving!</p>
             </div>
             <div>
@@ -796,7 +868,8 @@
                     <p data-string="21">Unusuals</p>
                     <div class="checkbox" data-optionvalue="grademercenary"><i class="icon-checkmark"></i></div>
                     <p data-string="163">Grade mercenary</p>
-                    <div class="checkbox checked" data-optionvalue="tauntunusualifier"><i class="icon-checkmark"></i></div>
+                    <div class="checkbox checked" data-optionvalue="tauntunusualifier"><i class="icon-checkmark"></i>
+                    </div>
                     <p data-string="158">Unusualifiers</p>
                     <div class="checkbox" data-optionvalue="gradecommando"><i class="icon-checkmark"></i></div>
                     <p data-string="164">Grade commando</p>
@@ -811,7 +884,8 @@
                     <div class="checkbox checked" data-optionvalue="bonusitem"><i class="icon-checkmark"></i></div>
                     <p data-string="162">Triple bonus items</p>
                 </div>
-                <p data-string="150">This will prevent you from accidentally unboxing an another crate/case after getting certain items.</p>
+                <p data-string="150">This will prevent you from accidentally unboxing an another crate/case after
+                    getting certain items.</p>
             </div>
             <div>
                 <p class="optiontitle" data-string="175">Event mode:</p>
@@ -831,8 +905,10 @@
                         <option value="xmas20" data-string="202">Smissmas 2020</option>
                     </select>
                 </div>
-                <p data-string="176">This option lets you replace Unusual effects in certain crates/cases with effects from the selected event.<br>
-                    Events from 2011 to 2016 affect only crates and cases released before the event.<br>Events from 2017 onwards affect only cases released before the event.
+                <p data-string="176">This option lets you replace Unusual effects in certain crates/cases with effects
+                    from the selected event.<br>
+                    Events from 2011 to 2016 affect only crates and cases released before the event.<br>Events from 2017
+                    onwards affect only cases released before the event.
                 </p>
             </div>
             <div>
@@ -841,20 +917,24 @@
                     <div class="btn active" data-string="27" data-option="eotlGlitch" data-optionvalue="false">Off</div>
                     <div class="btn" data-string="28" data-option="eotlGlitch" data-optionvalue="true">On</div>
                 </div>
-                <p data-string="174">Allows the Hunter Heavy, Coldfront Curbstompers and Sleeveless in Siberia to be unboxed in Unusual quality from the End of the Line Community Crate.</p>
+                <p data-string="174">Allows the Hunter Heavy, Coldfront Curbstompers and Sleeveless in Siberia to be
+                    unboxed in Unusual quality from the End of the Line Community Crate.</p>
             </div>
             <div>
                 <p class="optiontitle" data-string="200">Enable Unusual Sniper vs. Spy update hats:</p>
                 <div class="btngroup">
-                    <div class="btn active" data-string="27" data-option="sniperVsSpyUnusuals" data-optionvalue="false">Off</div>
+                    <div class="btn active" data-string="27" data-option="sniperVsSpyUnusuals" data-optionvalue="false">
+                        Off</div>
                     <div class="btn" data-string="28" data-option="sniperVsSpyUnusuals" data-optionvalue="true">On</div>
                 </div>
-                <p data-string="201">Allows the hats added in the Sniper vs. Spy update to be unboxed as Unusuals from crates added before the TF2 January 25th 2013 update (crates #1 - #55).</p>
+                <p data-string="201">Allows the hats added in the Sniper vs. Spy update to be unboxed as Unusuals from
+                    crates added before the TF2 January 25th 2013 update (crates #1 - #55).</p>
             </div>
             <div>
                 <p class="optiontitle" data-string="58">Amoled theme:</p>
                 <div class="btngroup">
-                    <div class="btn active" data-string="27" data-option="amoledTheme" data-optionvalue="false">Off</div>
+                    <div class="btn active" data-string="27" data-option="amoledTheme" data-optionvalue="false">Off
+                    </div>
                     <div class="btn" data-string="28" data-option="amoledTheme" data-optionvalue="true">On</div>
                 </div>
                 <p data-string="59">Change background color to black.</p>
@@ -864,7 +944,8 @@
                 <div class="btngroup">
                     <div class="btn" id="resetbtn" data-string="29">Reset</div>
                 </div>
-                <p data-string="61">Reset stats and all unboxed items, including unusuals.<br>Will ask for confirmation only once.</p>
+                <p data-string="61">Reset stats and all unboxed items, including unusuals.<br>Will ask for confirmation
+                    only once.</p>
             </div>
         </section>
         <nav class="btn tabreturnbtn" data-string="23">Return to main menu</nav>
@@ -880,54 +961,86 @@
         <div id="aboutcontainer">
             <div id="aboutcredits" class="visible">
                 <h1 id="creditstitle">Unboxer.tf v2.04</h1>
-                <p data-string="64">Made by <a href="https://steamcommunity.com/id/kubikill" target="_blank" rel="noopener">kubikill</a>
+                <p data-string="64">Made by <a href="https://steamcommunity.com/id/kubikill" target="_blank"
+                        rel="noopener">kubikill</a>
                 </p>
-                <p data-string="65">Special thanks to <a href="https://steamcommunity.com/profiles/76561198117761965" target="_blank" rel="noopener">Gorno</a>
+                <p data-string="65">Special thanks to <a href="https://steamcommunity.com/profiles/76561198117761965"
+                        target="_blank" rel="noopener">Gorno</a>
                 </p>
-                <p data-string="66">Unusual effect images made by <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a></p>
+                <p data-string="66">Unusual effect images made by <a href="https://backpack.tf" target="_blank"
+                        rel="noopener">backpack.tf</a></p>
                 <br>
                 <p data-string="69">Translators:</p>
                 <p></p>
-                <p><span data-string="196">Brazilian Portuguese</span> - <a href="https://steamcommunity.com/id/HELLNICKELL/" target="_blank" rel="noopener">HELLNICKELL</a></p>
-                <p><span data-string="206">Czech</span> - <a href="https://steamcommunity.com/profiles/76561198397143311/" target="_blank" rel="noopener">[CZ]Đanieł</a></p>
-                <p><span data-string="193">French</span> - <a href="https://steamcommunity.com/profiles/76561198041999904/" target="_blank" rel="noopener">rocket</a></p>
-                <p><span data-string="207">Hungarian</span> - <a href="https://steamcommunity.com/id/dowinator/" target="_blank" rel="noopener">DaWe</a></p>
-                <p><span data-string="208">Romanian</span> - <a href="https://steamcommunity.com/profiles/76561198204747327/" target="_blank" rel="noopener">Retro</a></p>
-                <p><span data-string="70">Simplified Chinese</span> - <a href="https://steamcommunity.com/id/deluxghost/" target="_blank" rel="noopener">deluxghost</a></p>
-                <p><span data-string="209">Swedish</span> - <a href="https://steamcommunity.com/profiles/76561198195415525/" target="_blank" rel="noopener">Spakwi</a></p>
+                <p><span data-string="196">Brazilian Portuguese</span> - <a
+                        href="https://steamcommunity.com/id/HELLNICKELL/" target="_blank" rel="noopener">HELLNICKELL</a>
+                </p>
+                <p><span data-string="206">Czech</span> - <a
+                        href="https://steamcommunity.com/profiles/76561198397143311/" target="_blank"
+                        rel="noopener">[CZ]Đanieł</a></p>
+                <p><span data-string="193">French</span> - <a
+                        href="https://steamcommunity.com/profiles/76561198041999904/" target="_blank"
+                        rel="noopener">rocket</a></p>
+                <p><span data-string="207">Hungarian</span> - <a href="https://steamcommunity.com/id/dowinator/"
+                        target="_blank" rel="noopener">DaWe</a></p>
+                <p><span data-string="208">Romanian</span> - <a
+                        href="https://steamcommunity.com/profiles/76561198204747327/" target="_blank"
+                        rel="noopener">Retro</a></p>
+                <p><span data-string="70">Simplified Chinese</span> - <a
+                        href="https://steamcommunity.com/id/deluxghost/" target="_blank" rel="noopener">deluxghost</a>
+                </p>
+                <p><span data-string="209">Swedish</span> - <a
+                        href="https://steamcommunity.com/profiles/76561198195415525/" target="_blank"
+                        rel="noopener">Spakwi</a></p>
                 <br>
                 <p>Team Fortress is a trademark and/or registered trademark of Valve Corporation.</p>
             </div>
             <div id="aboutdonations">
                 <h2 data-string="187">Support Unboxer.tf by donating</h2>
-                <p data-string="188">Unboxer.tf was made almost entirely by a single person in his spare time. If you like the website,
-                    please consider donating.<br>Even a small amount will encourage me to continue working on Unboxer.tf. Thank you!</p>
-                <p data-string="189">If you choose to donate, your name, Steam profile link and donation amount will appear in the list of
+                <p data-string="188">Unboxer.tf was made almost entirely by a single person in his spare time. If you
+                    like the website,
+                    please consider donating.<br>Even a small amount will encourage me to continue working on
+                    Unboxer.tf. Thank you!</p>
+                <p data-string="189">If you choose to donate, your name, Steam profile link and donation amount will
+                    appear in the list of
                     donators.<br>
-                    <b>In your donation message, please include that the donation is for unboxer.tf, as well as your name and Steam profile link.</b><br> You can choose to stay
+                    <b>In your donation message, please include that the donation is for unboxer.tf, as well as your
+                        name and Steam profile link.</b><br> You can choose to stay
                     anonymous. Item donations will be displayed as their value in USD.</p>
-                <p data-string="192">You can donate with <a href="https://paypal.me/kubikill" target="_blank" rel="noopener">PayPal</a> or <a href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo" target="_blank" rel="noopener">TF2/Steam items</a>.<br>
+                <p data-string="192">You can donate with <a href="https://paypal.me/kubikill" target="_blank"
+                        rel="noopener">PayPal</a> or <a
+                        href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo"
+                        target="_blank" rel="noopener">TF2/Steam items</a>.<br>
                     Brave Browser users can donate using BAT from within the browser.</p>
                 <h3 data-string="190">Donator List</h3>
                 <ol>
-                    <li><a href="https://steamcommunity.com/id/drummingfish/" target="_blank" rel="noopener">DrummingFish</a> - $6.19</li>
-                    <li><a href="https://steamcommunity.com/id/DUCHYOFNORMANDY/" target="_blank" rel="noopener">Republisk</a> - $0.63</li>
-                    <li><a href="https://steamcommunity.com/id/sovietsoupcan/" target="_blank" rel="noopener">soup :)</a> - $0.25</li>
-                    <li><a href="https://steamcommunity.com/id/whatamisupposedtoputheremate" target="_blank" rel="noopener">Kubizko</a> - $0.17</li>
-                    <li><a href="https://steamcommunity.com/profiles/76561198808836462/" target="_blank" rel="noopener">接吻</a> - $0.09</li>
-                    <li><a href="https://steamcommunity.com/id/i_simpforEllieroseHenrystickmin" target="_blank" rel="noopener">seansatake</a> - $0.08</li>
+                    <li><a href="https://steamcommunity.com/id/drummingfish/" target="_blank"
+                            rel="noopener">DrummingFish</a> - $6.19</li>
+                    <li><a href="https://steamcommunity.com/id/DUCHYOFNORMANDY/" target="_blank"
+                            rel="noopener">Republisk</a> - $0.63</li>
+                    <li><a href="https://steamcommunity.com/id/sovietsoupcan/" target="_blank" rel="noopener">soup
+                            :)</a> - $0.25</li>
+                    <li><a href="https://steamcommunity.com/id/whatamisupposedtoputheremate" target="_blank"
+                            rel="noopener">Kubizko</a> - $0.17</li>
+                    <li><a href="https://steamcommunity.com/profiles/76561198808836462/" target="_blank"
+                            rel="noopener">接吻</a> - $0.09</li>
+                    <li><a href="https://steamcommunity.com/id/i_simpforEllieroseHenrystickmin" target="_blank"
+                            rel="noopener">seansatake</a> - $0.08</li>
                 </ol>
             </div>
             <div id="aboutchangelog">
                 <h1>v2.04 - June 23th, 2021</h1>
                 <section>
                     <p>- Added the Summer 2021 Cosmetic Case</p>
-                    <p>- In-between v2.03 and v2.04: Added Czech, Hungarian and Romanian translations. Thank you [CZ]Đanieł, DaWe and Retro!</p>
+                    <p>- In-between v2.03 and v2.04: Added Czech, Hungarian and Romanian translations. Thank you
+                        [CZ]Đanieł, DaWe and Retro!</p>
                 </section>
                 <h1>v2.03 - December 20th, 2020</h1>
                 <section>
-                    <p>- Added search function to grid view. Press Enter during search to select the first crate from the results.</p>
-                    <p>- Reimplemented keyboard shortcuts for switching crates in details mode (use Left/Right arrow keys or A/D keys)</p>
+                    <p>- Added search function to grid view. Press Enter during search to select the first crate from
+                        the results.</p>
+                    <p>- Reimplemented keyboard shortcuts for switching crates in details mode (use Left/Right arrow
+                        keys or A/D keys)</p>
                     <p>- Strange Sandviches from crate #103 are much more rare now</p>
                     <p>- Winter cases can no longer contain more than 1 Festivizer</p>
                     <p>- Updated translations</p>
@@ -945,14 +1058,16 @@
                 <h1>v2.01 - December 3rd, 2020</h1>
                 <section>
                     <p>- Hats from the Sniper vs. Spy update are no longer unboxable in Unusual quality by default</p>
-                    <p>- Added option to reenable Unusual Sniper vs. Spy update hats in crates added before the TF2 January 25th 2013 update</p>
+                    <p>- Added option to reenable Unusual Sniper vs. Spy update hats in crates added before the TF2
+                        January 25th 2013 update</p>
                     <p>- Fixed the EOTL glitched Unusuals option not working properly</p>
                 </section>
                 <h1>v2.0 - November 13th, 2020</h1>
                 <section>
                     <p>- Added bonus drops and case-exclusive bonus drops in eligible crates/cases</p>
                     <p>- Added more general statistics</p>
-                    <p>- Added new options for Extreme Crate Depression mode (always unbox Stranges, items of specified grade, pro killstreak kits, bonus items)</p>
+                    <p>- Added new options for Extreme Crate Depression mode (always unbox Stranges, items of specified
+                        grade, pro killstreak kits, bonus items)</p>
                     <p>- Added "Pause unboxing after getting certain items" option</p>
                     <p>- Added AMOLED theme</p>
                     <p>- Added bulk unboxing</p>
@@ -961,23 +1076,28 @@
                     <p>- Added Halloween mode option</p>
                     <p>- Added option to reenable glitched Unusuals in the End of the Line Community Crate</p>
                     <p>- Added item links to Steam Market, Backpack.tf and Marketplace.tf</p>
-                    <p>- Added rapid unboxing for mouse and touch (hold the "unbox again" button in the crate results screen)</p>
+                    <p>- Added rapid unboxing for mouse and touch (hold the "unbox again" button in the crate results
+                        screen)</p>
                     <p>- Added loading screen</p>
                     <p>- Added Brazilian Portuguese translation. Thanks, HELLNICKELL!</p>
                     <p>- Added French translation. Thanks, rocket!</p>
                     <p>- Updated existing translations. Thanks, deluxghost!</p>
-                    <p>- Killstreak Kits can now also be unboxed in Specialized and Professional qualities (25% and 10% chance respectively)</p>
+                    <p>- Killstreak Kits can now also be unboxed in Specialized and Professional qualities (25% and 10%
+                        chance respectively)</p>
                     <p>- Unusuals now have a 0.66% chance of being unboxed (instead of 1%)</p>
                     <p>- Crates now track the amount of unusuals and bonus items unboxed from them</p>
                     <p>- Strange skins/war paint now display as items with strange stat clocks attached</p>
-                    <p>- Adjusted unbox rates for graded items (Mercenary: from 79% to 80%, Commando - from 15% to 16%, Assassin - from 4% to 3.2%, Elite - from 1% to 0.8%)</p>
+                    <p>- Adjusted unbox rates for graded items (Mercenary: from 79% to 80%, Commando - from 15% to 16%,
+                        Assassin - from 4% to 3.2%, Elite - from 1% to 0.8%)</p>
                     <p>- The unusuals tab in statistics now displays only 200 unusuals at a time</p>
                     <p>- Redesigned interface</p>
                     <p>- Almost all code has been rewritten</p>
                     <p>- Improved performance</p>
-                    <p>- Removed Hunter Heavy, Coldfront Curbstompers and Sleeveless in Siberia from the shared Unusual item pool</p>
+                    <p>- Removed Hunter Heavy, Coldfront Curbstompers and Sleeveless in Siberia from the shared Unusual
+                        item pool</p>
                     <p>- Removed item chance stat on results screen</p>
-                    <p>- Removed "show all items in stats" option (can be reenabled by setting showAllItems to true in browser console)</p>
+                    <p>- Removed "show all items in stats" option (can be reenabled by setting showAllItems to true in
+                        browser console)</p>
                     <p>- Many other small tweaks, improvements and changes</p>
                 </section>
                 <h1>v1.17 - October 3rd, 2020</h1>
@@ -1071,8 +1191,10 @@
     <noscript>
         <p>Unboxer.tf requires JavaScript to run.<br>
             Your browser has disabled JavaScript.</p>
-        <p><a href="https://www.enable-javascript.com/" target="_blank" rel="noopener">Please enable JavaScript in your browser to use Unboxer.tf.</a></p>
-        <p>If you still need help, reach us in our <a href="https://steamcommunity.com/groups/tf2unboxer" target="_blank" rel="noopener">Steam group</a>.</p>
+        <p><a href="https://www.enable-javascript.com/" target="_blank" rel="noopener">Please enable JavaScript in your
+                browser to use Unboxer.tf.</a></p>
+        <p>If you still need help, reach us in our <a href="https://steamcommunity.com/groups/tf2unboxer"
+                target="_blank" rel="noopener">Steam group</a>.</p>
     </noscript>
 </body>
 
