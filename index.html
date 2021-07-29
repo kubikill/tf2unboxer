@@ -33,6 +33,9 @@
     <title>Unboxer.tf - a TF2 crate/case simulator</title>
     <link rel="preconnect" href="https://unboxertf2.goatcounter.com">
     <link rel="preload" as="image" href="./images/crate/summer_2021_cosmetic_case.webp" />
+    <link rel="preload" as="font" href="./font/tf2build.woff2" crossorigin="anonymous"/>
+    <link rel="preload" as="font" href="./font/tf2secondary.woff2" crossorigin="anonymous"/>
+    <link rel="prefetch" href="./js/bulkWorker.prod.js">
     <link rel="preload" href="./css/icon.min.css" as="style">
     <link rel="preload" href="./css/main.min.css" as="style">
     <link rel="stylesheet" href="./css/icon.min.css" media="print" onload='this.media="all"'>
@@ -41,13 +44,13 @@
     <style>
         @font-face {
             font-family: 'TF2 Build';
-            src: url('../font/tf2build.woff2') format("woff2"), url('../font/tf2build.woff') format("woff");
+            src: url('./font/tf2build.woff2') format("woff2"), url('./font/tf2build.woff') format("woff");
             font-display: swap;
         }
 
         @font-face {
             font-family: 'TF2 Secondary';
-            src: url('../font/tf2secondary.woff2') format("woff2"), url('../font/tf2secondary.woff') format("woff");
+            src: url('./font/tf2secondary.woff2') format("woff2"), url('./font/tf2secondary.woff') format("woff");
             font-display: swap;
         }
 

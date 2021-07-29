@@ -1359,9 +1359,13 @@ function changeLanguage(lang) {
             break;
     }
     jumpToCrate(currentCrate);
-    generateGrid();
-    crateStatsGenerated = false;
-    generateCrateStats();
+    if (DOM.main.crateGrid.innerHTML != "") {
+        generateGrid();
+    }
+    if (crateStatsGenerated) {
+        crateStatsGenerated = false;
+        generateCrateStats();
+    }
 }
 
 // Crate series
