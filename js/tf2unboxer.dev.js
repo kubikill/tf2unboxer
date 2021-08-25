@@ -1532,6 +1532,10 @@ function changeLanguage(lang) {
     case "swe":
       document.documentElement.lang = "sv";
       break;
+
+    case "fil":
+      document.documentElement.lang = "fil";
+      break;
   }
 
   jumpToCrate(currentCrate);
@@ -4485,6 +4489,14 @@ if (localStorage.getItem("unboxertf-languagechanged") == undefined) {
     }
 
     switch (navigator.languages[_i7]) {
+      case "fil":
+        changeLanguage("fil");
+        save.options.language = "fil";
+        DOM.options.langDropdown.value = "fil";
+        localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
+        _i7 = navigator.languages.length;
+        break;
+
       case "pt-BR":
         changeLanguage("bra");
         save.options.language = "bra";
