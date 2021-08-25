@@ -33,7 +33,7 @@ self.addEventListener('fetch', event => {
                 return fetch(event.request)
                     .then(response => {
                         if (response.type == "opaque" || response.ok) {
-                            if (event.request.method != "POST" && response.type != "opaque") {
+                            if (event.request.method != "POST" && response.type != "opaque" && event.request.url.includes("http")) {
                                 cache.put(event.request, response.clone());
                             }
                             return response;
