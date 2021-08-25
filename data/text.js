@@ -321,7 +321,7 @@ let dataUi = {
         hun: "Ki",
         rom: "Oprit",
 		swe: "Av",
-		fil: "Patay"
+		fil: "Ipatay"
     },
     28: {
         eng: "On",
@@ -333,7 +333,7 @@ let dataUi = {
         hun: "Be",
         rom: "Deschis",
 		swe: "På",
-		fil: "Bukas"
+		fil: "Ibukas"
     },
     29: {
         eng: "Reset",
@@ -790,7 +790,7 @@ let dataUi = {
         hun: 'Rendkívüli effekt képeket készítette: <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a>',
         rom: 'Pozele cu efectele Neobisnuite facute de <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a>',
 		swe: 'Ovanliga effektbilder gjorda av <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a>',
-		fil: 'Ang mga imahe ng epekto ng Unusual ay gawa ni <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a>'
+		fil: 'Ang mga imahe ng epekto ng Unusual ay gawa ng <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a>'
     },
     67: {
         eng: "Bulk unboxing",
@@ -2383,7 +2383,6 @@ let dataUi = {
 	},
 	210: {
 		eng: "Filipino",
-		pol: "Filipiński",
-		fil: "Pilipino"
+		pol: "Filipiński"
 	}
 }
