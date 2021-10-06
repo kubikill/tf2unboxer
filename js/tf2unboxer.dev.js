@@ -15,13 +15,21 @@ if ('serviceWorker' in navigator) {
 } // Function for reporting errors to analytics
 
 
+var errorTimeout = false;
+
 function reportError(message) {
-  window.goatcounter.count({
-    path: "Error ".concat(generateRandomString()),
-    // Yes, this is stupid, but this is required to prevent GoatCounter from grouping bug reports together
-    title: message,
-    event: true
-  });
+  if (!errorTimeout) {
+    window.goatcounter.count({
+      path: "Error ".concat(generateRandomString()),
+      // Yes, this is stupid, but this is required to prevent GoatCounter from grouping bug reports together
+      title: message,
+      event: true
+    });
+    errorTimeout = true;
+    setTimeout(function () {
+      errorTimeout = false;
+    }, 10000);
+  }
 } // Compressed function for deep merging objects. a - target object, b - source object
 
 
@@ -100,7 +108,7 @@ var mergeDeep = function mergeDeep(a, b) {
 
     return a;
   }
-}(window, document); // Generate random 4-letter string
+}(window, document); // Generate random 5-letter string
 
 var randomStringPool = "abcdefghijklmnopqrstuwxyz1234567890";
 
