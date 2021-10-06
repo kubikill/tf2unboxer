@@ -4,7 +4,7 @@ let save = {options: {
 
 }};
 
-importScripts('../data/crate.prod.js');
+importScripts('../data/crate.prod.js?v=1');
 
 const wearTable = ["", "FN", "MW", "FT", "WW", "BS"];
 const wearTableNames = ["", 80, 81, 82, 83, 84];

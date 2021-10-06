@@ -5,7 +5,7 @@ var currentCrateObj;
 var save = {
   options: {}
 };
-importScripts('../data/crate.prod.js');
+importScripts('../data/crate.prod.js?v=1');
 var wearTable = ["", "FN", "MW", "FT", "WW", "BS"];
 var wearTableNames = ["", 80, 81, 82, 83, 84];
 var gradeTable = ["", "colorcivilian", "colorfreelance", "colormercenary", "colorcommando", "colorassassin", "colorelite"];
