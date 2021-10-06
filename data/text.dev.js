@@ -2157,8 +2157,8 @@ var dataUi = {
     fil: "I-support Unboxer.tf sa pamimigitan ng donating"
   },
   188: {
-    eng: "Unboxer.tf was made almost entirely by a single person in his spare time. If you like the website, please consider donating.<br>Even a small donation will encourage me to continue working on Unboxer.tf. Thank you!",
-    pol: "Unboxer.tf zostało stworzone prawie całkowicie przez jedną osobę w jego wolnym czasie. Jeśli spodobała ci się ta strona, proszę o przekazanie darowizny.<br>Nawet mała darowizna zmotywuje mnie do dalszej pracy nad Unboxer.tf. Dziękuję!",
+    eng: "Unboxer.tf was made almost entirely by a single person in his spare time. If you like the website, please consider donating.<br>For your convenience, I do not and never will run any ads on this site.<br>Even a small donation will encourage me to continue working on Unboxer.tf. Thank you!",
+    pol: "Unboxer.tf zostało stworzone prawie całkowicie przez jedną osobę w jego wolnym czasie. Jeśli spodobała ci się ta strona, proszę o przekazanie darowizny.<br>Dla Twojej wygody, nie ma i nie będzie żadnych reklam na stronie.<br>Nawet mała darowizna zmotywuje mnie do dalszej pracy nad Unboxer.tf. Dziękuję!",
     sch: "Unboxer.tf 仅由一名开发者在空闲时间开发而成。如果您喜欢此网站，请考虑捐赠。<br>即使是一点点赠予也会鼓励我继续开发 Unboxer.tf。谢谢！",
     bra: "Unboxer.tf foi feito quase inteiramente por uma só pessoa em seu tempo livre. Se você gostou do website, por favor considere doar.<br>Até uma doação pequena me incentiva a continuar trabalhando no Unboxer.tf. Obrigado!",
     fre: "Unboxer.tf n'a été fabriqué que par une seule personne dans ses temps libre. Si vous aimez ce site, veuillez considérer un don.<br>Même les petit montants m'encouragent à continuer de travailler sur Unboxer.tf. Merci!",
@@ -2383,5 +2383,11 @@ var dataUi = {
   210: {
     eng: "Filipino",
     pol: "Filipiński"
+  },
+  211: {
+    eng: "Scream Fortress XIII (2021)",
+    sch: "尖叫要塞 XIII（2021）",
+    rom: "Fortareata Urlatoare XIII (2021)",
+    swe: "Skrik Fortress XIII (2021)"
   }
 };

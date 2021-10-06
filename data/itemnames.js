@@ -506,7 +506,7 @@ let dataItems = {
     },
     47: {
         img: "buckaroos_hat",
-        eng: "Buckaroos Hat",
+        eng: "Buckaroo's Hat",
         pol: "Kowbojski kapelusz",
         sch: "西班牙牛仔帽",
         fre: "Chapeau de Buckaroo",
@@ -1682,7 +1682,7 @@ let dataItems = {
         fre: "Gants de Retraite Urgente",
         bra: "As Geradoras de Rapidez Urgente",
         schema: 1184,
-        hun: "A Sürgős Sprintelés Bokszkesztyűi",
+        hun: "A Fürge Sprintelés Bokszkesztyűi",
         swe: "Gorbatjovs Rushande Uppercut"
     },
     155: {
@@ -2665,7 +2665,7 @@ let dataItems = {
         fre: "Les Kamarades Gants de Boxe",
         bra: "Os Kríticos Garantidos no Boxe",
         schema: 43,
-        hun: "A Gyilkos Bokszkesztyűk",
+        hun: "A Kimondottan Galád Bokszkesztyűk",
         swe: "Kalinins Grymma Boxningshandskar"
     },
     245: {
@@ -7426,7 +7426,7 @@ let dataItems = {
         fre: "Gants de Retraite Urgente festifs",
         bra: "Geradoras de Rapidez Urgente Festivas",
         schema: 1084,
-        hun: "Ünnepi Sürgős Sprintelés Bokszkesztyűi",
+        hun: "Ünnepi Fürge Sprintelés Bokszkesztyűi",
         swe: "Festlig Gorbatjovs Rushande Uppercut"
     },
     680: {
@@ -18563,7 +18563,8 @@ let dataItems = {
         bra: "Pilha Monumental de Presentes",
         hun: "Magasan Tornyosuló Ajándékhalom",
         fre: "Imposante pile de cadeaux",
-        ger: "Hochragender Geschenkehaufen"
+        ger: "Hochragender Geschenkehaufen",
+        schema: 31173
     },
     1686: {
         img: "snowflake_swirled_war_paint",
@@ -18791,91 +18792,358 @@ let dataItems = {
     1707: {
         img: "manndatory_attire",
         eng: "Manndatory Attire",
-        schema: 31184
+        schema: 31184,
+        pol: "Pod krawatem",
+        hun: "Kötelező Viselet"
     },
     1708: {
         img: "roaming_roman",
         eng: "Roaming Roman",
-        schema: 31198
+        schema: 31198,
+        pol: "Żwawy Rzymianin",
+        bra: "Centurião Errante",
+        hun: "Romboló Római"
     },
     1709: {
         img: "brim_of_fire",
         eng: "Brim of Fire",
-        schema: 31185
+        schema: 31185,
+        pol: "Ogniste rondo",
+        bra: "Aba Labareda",
+        hun: "Tüzes Karima"
     },
     1710: {
         img: "wild_brim_slouch",
         eng: "Wild Brim Slouch",
-        schema: 31192
+        schema: 31192,
+        pol: "Zębata zdobycz",
+        bra: "Couro do Pântano",
+        hun: "Vadonkalap"
     },
     1711: {
         img: "fried_batter",
         eng: "Fried Batter",
-        schema: 31197
+        schema: 31197,
+        pol: "Smażony sprinter",
+        bra: "Corredor do Caixa",
+        hun: "Ütős Sütő"
     },
     1712: {
         img: "reel_fly_hat",
         eng: "Reel Fly Hat",
-        schema: 31186
+        schema: 31186,
+        pol: "Kapelusz fanatyka",
+        bra: "Isca Cocuruta",
+        hun: "Pecáskalap"
     },
     1713: {
         img: "two_punch_mann",
         eng: "Two Punch Mann",
-        schema: 31191
+        schema: 31191,
+        pol: "Dwubij",
+        bra: "Porta-Luvas de Boxe",
+        hun: "Duplán Ütős"
     },
     1714: {
         img: "hook_line_and_cinder",
         eng: "Hook, Line, and Cinder",
-        schema: 31187
+        schema: 31187,
+        pol: "Haczyk, żyłka i popiół",
+        bra: "Vai Pescá",
+        hun: "Kifogta, Hazavitte, Megsütötte"
     },
     1715: {
         img: "thousand_yard_stare",
         eng: "Thousand-Yard Stare",
-        schema: 31200
+        schema: 31200,
+        pol: "Wojenny wytrzeszcz",
+        bra: "Olho no Olho",
+        hun: "Tágra Nyílt Szemek"
     },
     1716: {
         img: "snack_stack",
         eng: "Snack Stack",
-        schema: 31190
+        schema: 31190,
+        pol: "Sterta smakołyków",
+        bra: "Pilha de Sandviches",
+        hun: "Harapnivaló Halom"
     },
     1717: {
         img: "crocodile_dandy",
         eng: "Crocodile Dandy",
-        schema: 31193
+        schema: 31193,
+        pol: "Krokodyl dandys",
+        bra: "Crocodilo Dândi",
+        hun: "Krokodilos Piperkőc"
     },
     1718: {
         img: "meal_dealer",
         eng: "Meal Dealer",
-        schema: 31196
+        schema: 31196,
+        pol: "Sprzedawca smakowitości",
+        bra: "Atendente de Lanchonete",
+        hun: "Ételfutár"
     },
     1719: {
         img: "water_waders",
         eng: "Water Waders",
-        schema: 31188
+        schema: 31188,
+        pol: "Wodne wdzianko",
+        bra: "Pesca à Prova d'Água",
+        hun: "Gázlónadrág"
     },
     1720: {
         img: "the_sightliner",
         eng: "The Sightliner",
-        schema: 31189
+        schema: 31189,
+        pol: "Działkowizor",
+        hun: "Célbamérő"
     },
     1721: {
         img: "the_panisher",
         eng: "The Panisher",
-        schema: 31199
+        schema: 31199,
+        pol: "Patelniowy pogromca",
+        bra: "O Frigideiro",
+        hun: "A Serpenyítő"
     },
     1722: {
         img: "fast_food",
         eng: "Fast Food",
-        schema: 31195
+        schema: 31195,
+        pol: "Szybka szama",
+        bra: "Entrega Rápida",
+        hun: "Gyorskaja"
     },
     1723: {
         img: "crustaceous_cowl",
         eng: "Crustaceous Cowl",
-        schema: 31194
+        schema: 31194,
+        pol: "Krabowy kaptur",
+        bra: "Capuz Crustáceo",
+        hun: "Rákámzsa"
     },
     1724: {
         img: "ballooniphones",
         eng: "Ballooniphones",
-        schema: 31183
+        schema: 31183,
+        pol: "Balonofonia",
+        bra: "Balãonifones",
+        hun: "Lufifüles"
+    },
+    1725: {
+        img: "beanie_the_all_gnawing",
+        eng: "Beanie The All-Gnawing",
+        schema: 31212
+    },
+    1726: {
+        img: "death_stare",
+        eng: "Death Stare",
+        schema: 31225
+    },
+    1727: {
+        img: "hat_outta_hell",
+        eng: "Hat Outta Hell",
+        schema: 31216
+    },
+    1728: {
+        img: "the_scariest_mask_ever",
+        eng: "The Scariest Mask EVER",
+        schema: 31219
+    },
+    1729: {
+        img: "twisted_topper",
+        eng: "Twisted Topper",
+        schema: 31211
+    },
+    1730: {
+        img: "creepy_crawlers",
+        eng: "Creepy Crawlers",
+        schema: 31208
+    },
+    1731: {
+        img: "spooky_head_bouncers",
+        eng: "Spooky Head-Bouncers",
+        schema: 31209
+    },
+    1732: {
+        img: "tricksters_treats",
+        eng: "Trickster's Treats",
+        schema: 31220
+    },
+    1733: {
+        img: "the_corpse_carrier",
+        eng: "The Corpse Carrier",
+        schema: 31226
+    },
+    1734: {
+        img: "smiling_somen",
+        eng: "Smiling Somen",
+        schema: 31222
+    },
+    1735: {
+        img: "second_head_headwear",
+        eng: "Second-head Headwear",
+        schema: 31214
+    },
+    1736: {
+        img: "eyequarium",
+        eng: "Eyequarium",
+        schema: 31213
+    },
+    1737: {
+        img: "goalkeeper",
+        eng: "Goalkeeper",
+        schema: 31217
+    },
+    1738: {
+        img: "alakablamicon",
+        eng: "Alakablamicon",
+        schema: 31215
+    },
+    1739: {
+        img: "the_hook_line_and_thinker",
+        eng: "The Hook, Line, and Thinker",
+        schema: 31223
+    },
+    1740: {
+        img: "optic_nerve",
+        eng: "Optic Nerve",
+        schema: 31224
+    },
+    1741: {
+        img: "gruesome_gourd",
+        eng: "Gruesome Gourd",
+        schema: 31227
+    },
+    1742: {
+        img: "the_bone_cone",
+        eng: "The Bone Cone",
+        schema: 31218
+    },
+    1743: {
+        img: "wandering_wraith",
+        eng: "Wandering Wraith",
+        schema: 31221
+    },
+    1744: {
+        img: "towering_patch_of_pumpkins",
+        eng: "Towering Patch of Pumpkins",
+        schema: 31210
+    },
+    1745: {
+        img: "poopy_doe",
+        eng: "Poopy Doe",
+        schema: 31228
+    },
+    1746: {
+        img: "batters_beak",
+        eng: "Batter's Beak",
+        schema: 31229
+    },
+    1747: {
+        img: "war_dog",
+        eng: "War Dog",
+        schema: 31230
+    },
+    1748: {
+        img: "miami_rooster",
+        eng: "The Miami Rooster",
+        schema: 31231
+    },
+    1749: {
+        img: "computron_5000",
+        eng: "Computron 5000",
+        schema: 31232
+    },
+    1750: {
+        img: "sarsparilla_sprayed_war_paint",
+        eng: "Sarsparilla Sprayed War Paint",
+        schema: 17284
+    },
+    1751: {
+        img: "kiln_conquer_war_paint",
+        eng: "Kiln & Conquer War Paint",
+        schema: 17296
+    },
+    1752: {
+        img: "searing_souls_war_paint",
+        eng: "Searing Souls War Paint",
+        schema: 17293
+    },
+    1753: {
+        img: "potent_poison_war_paint",
+        eng: "Potent Poison War Paint",
+        schema: 17292
+    },
+    1754: {
+        img: "simple_spirits_war_paint",
+        eng: "Simple Spirits War Paint",
+        schema: 17290
+    },
+    1755: {
+        img: "skull_cracked_war_paint",
+        eng: "Skull Cracked War Paint",
+        schema: 17286
+    },
+    1756: {
+        img: "necromanced_war_paint",
+        eng: "Necromanced War Paint",
+        schema: 17297
+    },
+    1757: {
+        img: "polter_guised_war_paint",
+        eng: "Polter-Guised War Paint",
+        schema: 17295
+    },
+    1758: {
+        img: "neon_ween_war_paint",
+        eng: "Neon-ween War Paint",
+        schema: 17289
+    },
+    1759: {
+        img: "swashbuckled_war_paint",
+        eng: "Swashbuckled War Paint",
+        schema: 17285
+    },
+    1760: {
+        img: "broken_bones_war_paint",
+        eng: "Broken Bones War Paint",
+        schema: 17291
+    },
+    1761: {
+        img: "party_phantoms_war_paint",
+        eng: "Party Phantoms War Paint",
+        schema: 17294
+    },
+    1762: {
+        img: "misfortunate_war_paint",
+        eng: "Misfortunate War Paint",
+        schema: 17287
+    },
+    1763: {
+        img: "taunt_the_drunken_sailor",
+        eng: "Taunt: The Drunken Sailor",
+        schema: 31201
+    },
+    1764: {
+        img: "taunt_the_profane_puppeteer",
+        eng: "Taunt: The Profane Puppeteer",
+        schema: 31202
+    },
+    1765: {
+        img: "taunt_the_mannbulance",
+        eng: "Taunt: The Mannbulance!",
+        schema: 31203
+    },
+    1766: {
+        img: "taunt_bare_knuckle_beatdown",
+        eng: "Taunt: Bare Knuckle Beatdown",
+        schema: 31207
+    },
+    1767: {
+        img: "taunt_the_homerunners_hobby",
+        eng: "Taunt: The Homerunner's Hobby",
+        schema: 31233
     }
 }

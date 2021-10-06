@@ -847,7 +847,7 @@ let dataCrates = {
         sch: "2019 冬季战绘箱",
         bra: "Caixa de Tintas de Guerra de Fim de Ano de 2019",
         hun: "Tél 2019 Harci Festés Táska",
-		swe: "Vinter 2019-krigsfärgslåda"
+        swe: "Vinter 2019-krigsfärgslåda"
     },
     85: {
         img: "summer_2020_cosmetic_case",
@@ -895,7 +895,7 @@ let dataCrates = {
         bra: "Caixa de Tintas de Guerra de Fim de Ano de 2020",
         fre: "Caisse de peintures d'hiver 2020",
         hun: "Tél 2020 Harci Festés Táska",
-		swe: "Vinter 2020-krigsfärgslåda"
+        swe: "Vinter 2020-krigsfärgslåda"
     },
     90: {
         img: "summer_2021_cosmetic_case",
@@ -906,5 +906,13 @@ let dataCrates = {
         bra: "Caixa de Cosméticos das Férias de 2021",
         hun: "Nyár 2021 Díszítő Táska",
         swe: "Sommar 2021-kosmetiklåda"
+    },
+    91: {
+        img: "crimson_cache_case",
+        eng: "Crimson Cache Case"
+    },
+    92: {
+        img: "scream_fortress_xiii_war_paint_case",
+        eng: "Scream Fortress XIII War Paint Case"
     }
 }

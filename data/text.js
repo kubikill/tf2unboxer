@@ -2158,8 +2158,8 @@ let dataUi = {
 		fil: "I-support Unboxer.tf sa pamimigitan ng donating"
     },
     188: {
-        eng: "Unboxer.tf was made almost entirely by a single person in his spare time. If you like the website, please consider donating.<br>Even a small donation will encourage me to continue working on Unboxer.tf. Thank you!",
-        pol: "Unboxer.tf zostało stworzone prawie całkowicie przez jedną osobę w jego wolnym czasie. Jeśli spodobała ci się ta strona, proszę o przekazanie darowizny.<br>Nawet mała darowizna zmotywuje mnie do dalszej pracy nad Unboxer.tf. Dziękuję!",
+        eng: "Unboxer.tf was made almost entirely by a single person in his spare time. If you like the website, please consider donating.<br>For your convenience, I do not and never will run any ads on this site.<br>Even a small donation will encourage me to continue working on Unboxer.tf. Thank you!",
+        pol: "Unboxer.tf zostało stworzone prawie całkowicie przez jedną osobę w jego wolnym czasie. Jeśli spodobała ci się ta strona, proszę o przekazanie darowizny.<br>Dla Twojej wygody, nie ma i nie będzie żadnych reklam na stronie.<br>Nawet mała darowizna zmotywuje mnie do dalszej pracy nad Unboxer.tf. Dziękuję!",
         sch: "Unboxer.tf 仅由一名开发者在空闲时间开发而成。如果您喜欢此网站，请考虑捐赠。<br>即使是一点点赠予也会鼓励我继续开发 Unboxer.tf。谢谢！",
         bra: "Unboxer.tf foi feito quase inteiramente por uma só pessoa em seu tempo livre. Se você gostou do website, por favor considere doar.<br>Até uma doação pequena me incentiva a continuar trabalhando no Unboxer.tf. Obrigado!",
         fre: "Unboxer.tf n'a été fabriqué que par une seule personne dans ses temps libre. Si vous aimez ce site, veuillez considérer un don.<br>Même les petit montants m'encouragent à continuer de travailler sur Unboxer.tf. Merci!",
@@ -2179,7 +2179,7 @@ let dataUi = {
         hun: "Ha úgy döntesz adományozol, akkor a neved, Steam profilod linkje és az adomány mennyisége láthatóvá válik az adományozók listáján.<br><b>Kérlek az adományod mellé üzenetben tüntesd fel, hogy az adományt az Unboxer.tf-nek szánod, a nevedet és a Steam profilod linkjét.</b><br>Ha úgy döntesz, maradhatsz anonim is. A tárgyi adományok USD-ben fognak megjelenni az értékük alapján.",
         rom: "Daca alegi sa donezi, numele tau, Link-ul de la contul tau de Steam si suma donatiei va aparea pe lista donatorilor.<br><b>In mesajul donatiei tale, te rog sa incluzi ca donatia este pentru unboxer.tf, deasemenea si numele tau si linkul de la profilul de Steam.</b><br> Poti sa alegi sa ramai necunoscut. Donatiile de obiecte vor avea valoarea aratata in USD.",
 		swe: "Om du väljer att donera kommer ditt namn, Steam-profillänk och donationsbelopp att visas i donatorlistan.<br><b>I ditt donationsmeddelande, ange att donationen är för unboxer.tf, liksom din namn och Steam-profillänk.</b><br>Du kan välja att vara anonym. Varudonationer visas som deras värde i USD.",
-	    fil: "Ipag napili mong magdonate, ang name mo, Steam profile link at halaga ng donasyon ay lilitaw sa listahan ng mga donators.<br><b>Sa iyong donasyon mensahe, please ilagay ang donasyon ay para kay unboxer.tf, at ang iyong name at Steam profile link.</b><br> maari kang pumili na maging anonymous. Aytem donasyon ay ipapakita na halaga nila sa USD."
+        fil: "Ipag napili mong magdonate, ang name mo, Steam profile link at halaga ng donasyon ay lilitaw sa listahan ng mga donators.<br><b>Sa iyong donasyon mensahe, please ilagay ang donasyon ay para kay unboxer.tf, at ang iyong name at Steam profile link.</b><br> maari kang pumili na maging anonymous. Aytem donasyon ay ipapakita na halaga nila sa USD."
     },
     190: {
         eng: "Donator List",
@@ -2384,5 +2384,11 @@ let dataUi = {
 	210: {
 		eng: "Filipino",
 		pol: "Filipiński"
-	}
+	},
+    211: {
+        eng: "Scream Fortress XIII (2021)",
+        sch: "尖叫要塞 XIII（2021）",
+        rom: "Fortareata Urlatoare XIII (2021)",
+		swe: "Skrik Fortress XIII (2021)"
+    },
 }

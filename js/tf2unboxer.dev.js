@@ -1851,6 +1851,10 @@ function generateEffectList() {
         effectsArray = hw20FX;
         break;
 
+      case "hw21":
+        effectsArray = hw21FX;
+        break;
+
       case "xmas19":
         effectsArray = xmas19FX;
         break;
@@ -2559,6 +2563,10 @@ function unbox() {
 
           case "hw20":
             effectsArray = hw20FX;
+            break;
+
+          case "hw21":
+            effectsArray = hw21FX;
             break;
 
           case "xmas19":
@@ -4264,8 +4272,6 @@ if (tempOptionsSave != null) {
   }
 }
 
-jumpToCrate(crateOrder[crateOrder.length - 1]); // Show most recent crate on load
-
 function unusualPage(arg) {
   var saveObject = save;
   var el = arg.el;
@@ -4508,5 +4514,6 @@ if (localStorage.getItem("unboxertf-languagechanged") == undefined) {
   }
 }
 
+jumpToCrate(crateOrder[crateOrder.length - 2]);
 DOM.main.container.classList.remove("loading");
 document.querySelector("#loadingscreen").classList.add("loaded");

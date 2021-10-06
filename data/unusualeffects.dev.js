@@ -1769,22 +1769,34 @@ var dataEffects = {
   163: {
     img: "resonation",
     eng: "Resonation",
-    schema: 177
+    schema: 177,
+    pol: "rezonowanie",
+    bra: "Ressonância",
+    hun: "Rezonancia"
   },
   164: {
     img: "aggradation",
     eng: "Aggradation",
-    schema: 178
+    schema: 178,
+    pol: "agradacja",
+    bra: "Agradação",
+    hun: "Ingerencia"
   },
   165: {
     img: "lucidation",
     eng: "Lucidation",
-    schema: 179
+    schema: 179,
+    pol: "naświetlenie",
+    bra: "Elucidação",
+    hun: "Luminencia"
   },
   166: {
     img: "stunning",
     eng: "Stunning",
-    schema: 180
+    schema: 180,
+    pol: "ogłuszenie",
+    bra: "Estonteante",
+    hun: "Kábulatos"
   },
   167: {
     img: "ardentum_saturnalis",
@@ -1804,21 +1816,109 @@ var dataEffects = {
   170: {
     img: "perennial_petals",
     eng: "Perennial Petals",
-    schema: 185
+    schema: 185,
+    pol: "okwiaty",
+    bra: "Pétalas perenes",
+    hun: "Örökszép szirmok"
   },
   171: {
     img: "flavorsome_sunset",
     eng: "Flavorsome Sunset",
-    schema: 186
+    schema: 186,
+    pol: "bogaty zachód Słońca",
+    bra: "Ocaso saboroso",
+    hun: "Ízléses Naplemente"
   },
   172: {
     img: "raspberry_bloom",
     eng: "Raspberry Bloom",
-    schema: 187
+    schema: 187,
+    pol: "malinowy rozkwit",
+    bra: "Explosão de framboesa",
+    hun: "Málnavirág"
   },
   173: {
     img: "iridescence",
     eng: "Iridescence",
-    schema: 188
+    schema: 188,
+    pol: "iryzacja",
+    bra: "Iridescência",
+    hun: "Színjátszás"
+  },
+  174: {
+    img: "tempered_thorns",
+    eng: "Tempered Thorns",
+    schema: 189
+  },
+  175: {
+    img: "devilish_diablo",
+    eng: "Devilish Diablo",
+    schema: 190
+  },
+  176: {
+    img: "severed_serration",
+    eng: "Severed Serration",
+    schema: 191
+  },
+  177: {
+    img: "shrieking_shades",
+    eng: "Shrieking Shades",
+    schema: 192
+  },
+  178: {
+    img: "restless_wraiths",
+    eng: "Restless Wraiths",
+    schema: 193
+  },
+  179: {
+    //
+    img: "infernal_wraith",
+    eng: "Infernal Wraith",
+    schema: 195
+  },
+  180: {
+    img: "phantom_crown",
+    eng: "Phantom Crown",
+    schema: 196
+  },
+  181: {
+    img: "ancient_specter",
+    eng: "Ancient Specter",
+    schema: 197
+  },
+  182: {
+    img: "viridescent_peeper",
+    eng: "Viridescent Peeper",
+    schema: 198
+  },
+  183: {
+    img: "eyes_of_molten",
+    eng: "Eyes of Molten",
+    schema: 199
+  },
+  184: {
+    img: "ominous_stare",
+    eng: "Ominous Stare",
+    schema: 200
+  },
+  185: {
+    img: "pumpkin_moon",
+    eng: "Pumpkin Moon",
+    schema: 201
+  },
+  186: {
+    img: "frantic_spooker",
+    eng: "Frantic Spooker",
+    schema: 202
+  },
+  187: {
+    img: "frightened_poltergeist",
+    eng: "Frightened Poltergeist",
+    schema: 203
+  },
+  188: {
+    img: "energetic_haunter",
+    eng: "Energetic Haunter",
+    schema: 204
   }
 };

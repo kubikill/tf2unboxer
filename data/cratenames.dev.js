@@ -908,5 +908,13 @@ var dataCrates = {
     bra: "Caixa de Cosméticos das Férias de 2021",
     hun: "Nyár 2021 Díszítő Táska",
     swe: "Sommar 2021-kosmetiklåda"
+  },
+  91: {
+    img: "crimson_cache_case",
+    eng: "Crimson Cache Case"
+  },
+  92: {
+    img: "scream_fortress_xiii_war_paint_case",
+    eng: "Scream Fortress XIII War Paint Case"
   }
 };
