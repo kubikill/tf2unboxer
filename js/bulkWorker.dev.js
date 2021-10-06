@@ -409,6 +409,10 @@ function unbox() {
             effectsArray = hw20FX;
             break;
 
+          case "hw21":
+            effectsArray = hw21FX;
+            break;
+
           case "xmas19":
             effectsArray = xmas19FX;
             break;
