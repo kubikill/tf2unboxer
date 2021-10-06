@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+#loadingscreen.loaded {
+    display: none !important;
+}
+
 body {
     background-color: #383530;
     margin: 0;

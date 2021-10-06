@@ -3607,4 +3607,4 @@ if (localStorage.getItem("unboxertf-languagechanged") == undefined) {
 }
 
 DOM.main.container.classList.remove("loading");
-document.querySelector("#loadingscreen").style.display = "none";
+document.querySelector("#loadingscreen").classList.add("loaded");
