@@ -33,12 +33,12 @@
     <link rel="preload" as="image" href="./images/crate/crimson_cache_case.webp" />
     <link rel="preload" as="font" href="./font/tf2build.woff2" crossorigin="anonymous" />
     <link rel="preload" as="font" href="./font/tf2secondary.woff2" crossorigin="anonymous" />
-    <link rel="prefetch" href="./js/bulkWorker.prod.js" crossorigin="anonymous" />
+    <link rel="prefetch" href="./js/bulkWorker.js" crossorigin="anonymous" />
     <link rel="prefetch" href="./font/icons.ttf?jqgza0" crossorigin="anonymous" />
-    <link rel="preload" href="./css/icon.min.css" as="style">
-    <link rel="preload" href="./css/main.min.css" as="style">
-    <link rel="stylesheet" href="./css/icon.min.css" media="print" onload='this.media="all"'>
-    <link rel="stylesheet" href="./css/main.min.css" media="print" onload='this.media="all"'>
+    <link rel="preload" href="./css/icon.css" as="style">
+    <link rel="preload" href="./css/main.scss" as="style">
+    <link rel="stylesheet" href="./css/icon.css" media="print" onload='this.media="all"'>
+    <link rel="stylesheet" href="./css/main.scss" media="print" onload='this.media="all"'>
 
     <style>
         @font-face {
@@ -133,7 +133,7 @@
         }
     </style>
     <noscript>
-        <link rel="stylesheet" href="./css/noscript.min.css">
+        <link rel="stylesheet" href="./css/noscript.css">
     </noscript>
 
     <!-- Load analytics-->
@@ -149,12 +149,12 @@
     </script>
     <script data-goatcounter="https://unboxertf2.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
     <!-- Load TF2 Unboxer scripts-->
-    <script src="./data/text.prod.js?v=1" defer></script>
-    <script src="./data/itemnames.prod.js?v=1" defer></script>
-    <script src="./data/cratenames.prod.js?v=1" defer></script>
-    <script src="./data/unusualeffects.prod.js?v=1" defer></script>
-    <script src="./data/crate.prod.js?v=1" defer></script>
-    <script src="./js/tf2unboxer.prod.js?v=1" defer></script>
+    <script src="./data/text.js?v=1" defer></script>
+    <script src="./data/itemnames.js?v=1" defer></script>
+    <script src="./data/cratenames.js?v=1" defer></script>
+    <script src="./data/unusualeffects.js?v=1" defer></script>
+    <script src="./data/crate.js?v=1" defer></script>
+    <script src="./js/tf2unboxer.js?v=1" defer type="module"></script>
 </head>
 
 <body>
@@ -493,9 +493,9 @@
             <span id="unboxedtext">unboxed</span>:</p>
         <div id="unboxeditem">
             <div id="lootimgdiv">
-                <img id="lootimg" src="" alt="">
-                <img id="effectimg" src="" alt="">
-                <img id="kitimg" src="" alt="">
+                <img id="lootimg" alt="">
+                <img id="effectimg" alt="">
+                <img id="kitimg" alt="">
             </div>
             <div id="loottextdiv">
                 <div id="lootnamediv">
@@ -753,7 +753,7 @@
     <main id="statscratesdetails">
         <div>
             <div id="cratedetailsheader">
-                <img id="cratedetailsimage" src="" alt="">
+                <img id="cratedetailsimage" alt="">
                 <div id="cratedetailstitle">
 
                 </div>

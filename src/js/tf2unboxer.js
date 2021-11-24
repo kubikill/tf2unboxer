@@ -1,8 +1,9 @@
 "use strict";
+import images from "../images/crate/*.*";
 // Register service worker
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.prod.js')
+        navigator.serviceWorker.register(new URL('../sw.prod.js', import.meta.url))
     });
 }
 // Function for reporting errors to analytics
@@ -3440,7 +3441,7 @@ function unusualPage(arg) {
 
 // Bulk unboxing code
 
-let bulkWorker = new Worker('./js/bulkWorker.prod.js');
+let bulkWorker = new Worker(new URL('./bulkWorker.js', import.meta.url), {type: 'module'});
 let bulkSave;
 bulkWorker.onmessage = function (e) {
     if (e.data.item) {
@@ -3547,57 +3548,49 @@ if (localStorage.getItem("unboxertf-languagechanged") == undefined) {
     for (let i = 0; i < navigator.languages.length; i++) {
         switch (navigator.languages[i].slice(0, 2)) {
             case "en":
-                i = navigator.languages.length;
-                break;
+                return;
             case "pl":
                 changeLanguage("pol");
                 save.options.language = "pol";
                 DOM.options.langDropdown.value = "pol";
                 localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
-                i = navigator.languages.length;
-                break;
+                return;
             case "fr":
                 changeLanguage("fre");
                 save.options.language = "fre";
                 DOM.options.langDropdown.value = "fre";
                 localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
-                i = navigator.languages.length;
-                break;
+                return;
             case "zh":
                 changeLanguage("sch");
                 save.options.language = "sch";
                 DOM.options.langDropdown.value = "sch";
                 localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
-                i = navigator.languages.length;
-                break;
+                return;
             case "cs":
                 changeLanguage("cze");
                 save.options.language = "cze";
                 DOM.options.langDropdown.value = "cze";
                 localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
-                i = navigator.languages.length;
-                break;
+                return;
             case "hu":
                 changeLanguage("hun");
                 save.options.language = "hun";
                 DOM.options.langDropdown.value = "hun";
                 localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
-                i = navigator.languages.length;
-                break;
+                return;
             case "ro":
                 changeLanguage("rom");
                 save.options.language = "rom";
                 DOM.options.langDropdown.value = "rom";
                 localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
-                i = navigator.languages.length;
-                break;
+                return;
             case "sv":
                 changeLanguage("swe");
                 save.options.language = "swe";
                 DOM.options.langDropdown.value = "swe";
                 localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
-                i = navigator.languages.length;
-                break;
+                return;
         }
         switch (navigator.languages[i]) {
             case "fil":
@@ -3605,15 +3598,13 @@ if (localStorage.getItem("unboxertf-languagechanged") == undefined) {
                 save.options.language = "fil";
                 DOM.options.langDropdown.value = "fil";
                 localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
-                i = navigator.languages.length;
-                break;
+                return;
             case "pt-BR":
                 changeLanguage("bra");
                 save.options.language = "bra";
                 DOM.options.langDropdown.value = "bra";
                 localStorage.setItem("unboxertf-options", JSON.stringify(save.options));
-                i = navigator.languages.length;
-                break;
+                return;
         }
     }
 }

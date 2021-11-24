@@ -20,3 +20,5 @@ bin-release/
 
 .jsbeautifyrc
 node_modules
+dist
+.parcel-cache
