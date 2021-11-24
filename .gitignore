@@ -19,3 +19,4 @@ bin-release/
 # information for Eclipse / Flash Builder.
 
 .jsbeautifyrc
+node_modules
