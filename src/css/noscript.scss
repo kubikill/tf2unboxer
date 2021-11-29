@@ -6,16 +6,19 @@
 body {
     background-color: #383530;
 }
+
 main,
 aside,
 #loadingscreen {
     display: none;
 }
+
 a {
     font-weight: bold;
     color: #5E98D9;
     text-decoration: none;
 }
+
 noscript {
     position: absolute;
     top: 50%;

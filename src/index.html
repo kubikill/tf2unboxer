@@ -35,105 +35,16 @@
     <link rel="preload" as="font" href="./font/tf2secondary.woff2" crossorigin="anonymous" />
     <link rel="prefetch" href="./js/bulkWorker.js" crossorigin="anonymous" />
     <link rel="prefetch" href="./font/icons.ttf?jqgza0" crossorigin="anonymous" />
-    <link rel="preload" href="./css/icon.css" as="style">
+    <link rel="preload" href="./css/_icons.scss" as="style">
     <link rel="preload" href="./css/main.scss" as="style">
-    <link rel="stylesheet" href="./css/icon.css" media="print" onload='this.media="all"'>
+    <link rel="stylesheet" href="./css/_icons.scss" media="print" onload='this.media="all"'>
     <link rel="stylesheet" href="./css/main.scss" media="print" onload='this.media="all"'>
 
     <style>
-        @font-face {
-            font-family: 'TF2 Build';
-            src: url('./font/tf2build.woff2') format("woff2"), url('./font/tf2build.woff') format("woff");
-            font-display: swap;
-        }
-
-        @font-face {
-            font-family: 'TF2 Secondary';
-            src: url('./font/tf2secondary.woff2') format("woff2"), url('./font/tf2secondary.woff') format("woff");
-            font-display: swap;
-        }
-
-        #loadingscreen {
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 100%;
-            width: 100%;
-            background-color: #383530;
-            color: #fbf1d7;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        #loadingcontainer {
-            box-sizing: border-box;
-            height: 35vh;
-            width: 40vh;
-            padding: 1vh;
-            max-width: 90vw;
-            font-family: "TF2 Build", sans-serif;
-            font-display: swap;
-            background-color: #292526;
-            border: 0.5vh solid #554D4A;
-            border-radius: 2.5vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            font-size: 3vh;
-        }
-
-        #loadingtoolong {
-            margin-top: 3vh;
-            font-size: 2vh;
-            font-family: "TF2 Secondary", sans-serif;
-            visibility: hidden;
-            text-align: center;
-            position: absolute;
-            animation: loadingTooLong 0.01s 7s linear forwards;
-        }
-
-        #loadingcontainer p {
-            margin: 0;
-        }
-
-        #loadingdots::before {
-            animation: dots 1s infinite;
-            content: ".";
-        }
-
-        .loading {
-            display: none;
-        }
-
-        @keyframes loadingTooLong {
-            100% {
-                visibility: visible;
-                position: static;
-            }
-        }
-
-        @keyframes dots {
-            25% {
-                content: ".";
-            }
-
-            50% {
-                content: "..";
-            }
-
-            75% {
-                content: "...";
-            }
-
-            100% {
-                content: "...";
-            }
-        }
+        @import "./css/inline.scss";
     </style>
     <noscript>
-        <link rel="stylesheet" href="./css/noscript.css">
+        <link rel="stylesheet" href="./css/noscript.scss">
     </noscript>
 
     <!-- Load analytics-->
