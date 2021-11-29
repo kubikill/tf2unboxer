@@ -1389,13 +1389,13 @@ function getSeries(id) {
 
 // Sound
 const sound = {
-    btn: new Audio("./sound/btn.mp3"),
-    btnRelease: new Audio("./sound/btnrelease.mp3"),
-    crateOpen: new Audio("./sound/crateopen.mp3"),
-    wrapOpen: new Audio("./sound/wrapopen.mp3"),
-    roboCrateOpen: new Audio("./sound/robocrateopen.mp3"),
-    unboxed: new Audio("./sound/unboxed.mp3"),
-    unusualUnboxed: new Audio("./sound/unusualunboxed.mp3"),
+    btn: new Audio(new URL('../sound/btn.mp3', import.meta.url)),
+    btnRelease: new Audio(new URL('../sound/btnrelease.mp3', import.meta.url)),
+    crateOpen: new Audio(new URL('../sound/crateopen.mp3', import.meta.url)),
+    wrapOpen: new Audio(new URL('../sound/wrapopen.mp3', import.meta.url)),
+    roboCrateOpen: new Audio(new URL('../sound/robocrateopen.mp3', import.meta.url)),
+    unboxed: new Audio(new URL('../sound/unboxed.mp3', import.meta.url)),
+    unusualUnboxed: new Audio(new URL('../sound/unusualunboxed.mp3', import.meta.url)),
     play: id => {
         if (save.options.muteSound) {
             return;
