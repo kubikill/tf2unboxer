@@ -1,5 +1,4 @@
 "use strict";
-import images from "../images/crate/*.*";
 // Register service worker
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
