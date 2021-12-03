@@ -1,8 +1,8 @@
 "use strict";
 
-import { 
+import {
     unusualPool,
-    cA, 
+    cA,
     crateOrder,
     globalBonusItemArray,
     unusualifierArray,
@@ -11,9 +11,9 @@ import {
     creepyCrateBonusArray,
     steamMarketWhiteList,
     halloweenModeCrateList,
-    hw11FX, 
-    hw12FX, 
-    hw13FX, 
+    hw11FX,
+    hw12FX,
+    hw13FX,
     hw14FX,
     hw15FX,
     hw16FX,
@@ -25,7 +25,7 @@ import {
     xmas19FX,
     xmas20FX,
     xmas21FX,
-    } from "./crate.js";
+} from "./crate.js";
 
 // Function for reporting errors to analytics
 let errorTimeout = false;
@@ -1465,7 +1465,7 @@ for (let el of document.getElementsByClassName("btn")) {
 
 // Previous/next crate buttons
 
-function jumpToCrate(param) {
+function jumpToCrate(param, firstLoad = false) {
     switch (param) {
         case "next":
             if (currentCrate == crateOrder[crateOrder.length - 1]) {
@@ -1489,13 +1489,15 @@ function jumpToCrate(param) {
             break;
     }
     currentCrateObj = cA[crateOrder[currentCrate]];
-    DOM.main.crateName.innerHTML = getString("crate", currentCrateObj.id)
-    DOM.main.series.innerHTML = getSeries(currentCrateObj.series);
-    DOM.main.img.src = "./images/crate/" + getImg("crate", currentCrateObj.id);
-    DOM.main.lootList.innerHTML = "";
-    DOM.main.effectsList.innerHTML = "";
-    generateLootList();
-    generateEffectList();
+    if (!firstLoad) {
+        DOM.main.crateName.innerHTML = getString("crate", currentCrateObj.id)
+        DOM.main.series.innerHTML = getSeries(currentCrateObj.series);
+        DOM.main.img.src = "./images/crate/" + getImg("crate", currentCrateObj.id);
+        DOM.main.lootList.innerHTML = "";
+        DOM.main.effectsList.innerHTML = "";
+        generateLootList();
+        generateEffectList();
+    }
 }
 
 DOM.main.nextCrateBtn.addEventListener("click", () => {
@@ -3471,7 +3473,9 @@ function unusualPage(arg) {
 // Bulk unboxing code
 
 let bulkWorker = new Worker(new URL('./bulkWorker.js',
-    import.meta.url), {type: "module"});
+    import.meta.url), {
+    type: "module"
+});
 let bulkSave;
 bulkWorker.onmessage = function (e) {
     if (e.data.item) {
@@ -3575,8 +3579,7 @@ function testUnbox() {
 
 // On load, disable loading screen
 if (localStorage.getItem("unboxertf-languagechanged") == undefined) {
-    langLoop: 
-    for (let i = 0; i < navigator.languages.length; i++) {
+    langLoop: for (let i = 0; i < navigator.languages.length; i++) {
         switch (navigator.languages[i].slice(0, 2)) {
             case "en":
                 break langLoop;
@@ -3640,6 +3643,6 @@ if (localStorage.getItem("unboxertf-languagechanged") == undefined) {
     }
 }
 
-jumpToCrate(crateOrder[crateOrder.length - 1]);
+jumpToCrate(crateOrder[crateOrder.length - 1], true);
 DOM.main.container.classList.remove("loading");
 document.querySelector("#loadingscreen").classList.add("loaded");
