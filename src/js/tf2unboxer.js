@@ -9,7 +9,7 @@ import {
     paintBonusArray,
     strangePartBonusArray,
     creepyCrateBonusArray,
-    steamMarketWhiteList,
+    steamMarketWhitelist,
     halloweenModeCrateList,
     hw11FX,
     hw12FX,
