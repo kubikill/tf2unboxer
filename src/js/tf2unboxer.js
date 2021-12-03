@@ -2173,6 +2173,9 @@ function unbox() { // This function handles the unboxing itself: which item is u
                     case "xmas20":
                         effectsArray = xmas20FX;
                         break;
+                    case "xmas21":
+                        effectsArray = xmas21FX;
+                        break;
                 }
             } else {
                 effectsArray = crate.effects;
@@ -3580,6 +3583,8 @@ function testUnbox() {
 
 }
 
+jumpToCrate(crateOrder[crateOrder.length - 1], true);
+
 // On load, disable loading screen
 if (localStorage.getItem("unboxertf-languagechanged") == undefined) {
     langLoop: for (let i = 0; i < navigator.languages.length; i++) {
@@ -3646,6 +3651,5 @@ if (localStorage.getItem("unboxertf-languagechanged") == undefined) {
     }
 }
 
-jumpToCrate(crateOrder[crateOrder.length - 1], true);
 DOM.main.container.classList.remove("loading");
 document.querySelector("#loadingscreen").classList.add("loaded");
