@@ -1618,6 +1618,9 @@ function generateEffectList() {
             case "xmas20":
                 effectsArray = xmas20FX;
                 break;
+            case "xmas21":
+                effectsArray = xmas21FX;
+                break;
         }
     } else {
         effectsArray = currentCrateObj.effects;
