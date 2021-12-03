@@ -2391,4 +2391,14 @@ let dataUi = {
         rom: "Fortareata Urlatoare XIII (2021)",
 		swe: "Skrik Fortress XIII (2021)"
     },
+    212: {
+        eng: "Smissmas 2021",
+        pol: "Śnięta 2021",
+        sch: "圣诞节 2021",
+        bra: "Natal de 2021",
+        cze: "Vánoce 2021",
+        hun: "Galácsony 2021",
+        rom: "Craciun 2021",
+		swe: "Smissmas 2021"
+    },
 }
