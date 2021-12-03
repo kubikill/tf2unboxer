@@ -296,7 +296,7 @@ const DOM = {
 }
 
 // Misc variables
-let currentCrate = 0;
+let currentCrate = crateOrder[crateOrder.length - 1];
 let currentCrateObj = cA[crateOrder[currentCrate]];
 let canUnbox = true;
 let inDetailsMode = true;
@@ -3582,8 +3582,6 @@ function testUnbox() {
     }
 
 }
-
-jumpToCrate(crateOrder[crateOrder.length - 1], true);
 
 // On load, disable loading screen
 if (localStorage.getItem("unboxertf-languagechanged") == undefined) {
