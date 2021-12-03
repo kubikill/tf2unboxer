@@ -18897,7 +18897,8 @@ let dataItems = {
         eng: "The Sightliner",
         schema: 31189,
         pol: "Działkowizor",
-        hun: "Célbamérő"
+        hun: "Célbamérő",
+        bra: "Os Sentinolhos"
     },
     1721: {
         img: "the_panisher",
@@ -18934,102 +18935,165 @@ let dataItems = {
     1725: {
         img: "beanie_the_all_gnawing",
         eng: "Beanie The All-Gnawing",
-        schema: 31212
+        schema: 31212,
+        pol: "Wszechjedzące beanie",
+        hun: "Mindentrágó Sapi",
+        swe: "Beanie, den evigt gnagande"
     },
     1726: {
         img: "death_stare",
         eng: "Death Stare",
-        schema: 31225
+        schema: 31225,
+        pol: "Śmiertelne spojrzenie",
+        bra: "Olho Gordo",
+        hun: "Halálos Pillantás",
+        swe: "Dödens blick"
     },
     1727: {
         img: "hat_outta_hell",
         eng: "Hat Outta Hell",
-        schema: 31216
+        schema: 31216,
+        pol: "Czorcia czapka",
+        hun: "Pokolsityak",
+        swe: "Djävulskepa"
     },
     1728: {
         img: "the_scariest_mask_ever",
         eng: "The Scariest Mask EVER",
-        schema: 31219
+        schema: 31219,
+        pol: "Najstraszniejsza maska JAKA ISTNIEJE",
+        hun: "A LEGESlegfélelmetesebb Álarc",
+        swe: "Läskigaste masken NÅGONSIN"
     },
     1729: {
         img: "twisted_topper",
         eng: "Twisted Topper",
-        schema: 31211
+        schema: 31211,
+        pol: "Pokręcony cylinder",
+        hun: "Csíkos Cilinder",
+        swe: "Tjusig tigerhatt"
     },
     1730: {
         img: "creepy_crawlers",
         eng: "Creepy Crawlers",
-        schema: 31208
+        schema: 31208,
+        pol: "Przerażające pełzaki",
+        hun: "Rémséges Pókok",
+        swe: "Krälande kryp"
     },
     1731: {
         img: "spooky_head_bouncers",
         eng: "Spooky Head-Bouncers",
-        schema: 31209
+        schema: 31209,
+        pol: "Przerażające podskakiwacze",
+        hun: "Ijesztő Fejenrezgők",
+        swe: "Läskiga antenner"
     },
     1732: {
         img: "tricksters_treats",
         eng: "Trickster's Treats",
-        schema: 31220
+        schema: 31220,
+        pol: "Słodkości szachraja",
+        bra: "Gostosuras do Travesso",
+        hun: "A Rosszcsont Édessége",
+        swe: "Busens godis"
     },
     1733: {
         img: "the_corpse_carrier",
         eng: "The Corpse Carrier",
-        schema: 31226
+        schema: 31226,
+        pol: "Tragarz zwłok",
+        bra: "Carregador de Corpos",
+        hun: "Hullahordozó",
+        swe: "Likbud"
     },
     1734: {
         img: "smiling_somen",
         eng: "Smiling Somen",
-        schema: 31222
+        schema: 31222,
+        pol: "Śmieszkujący sōmen",
+        hun: "Vigyorgó Somen",
+        swe: "Grymolle"
     },
     1735: {
         img: "second_head_headwear",
         eng: "Second-head Headwear",
-        schema: 31214
+        schema: 31214,
+        pol: "Co dwie głowy, to nie jedna",
+        bra: "Chapéu em Segunda Cabeça",
+        hun: "Fejfedő Másodfejtől",
+        swe: "Andrahuvuds huvudbonad"
     },
     1736: {
         img: "eyequarium",
         eng: "Eyequarium",
-        schema: 31213
+        schema: 31213,
+        pol: "Okwarium",
+        hun: "Szemnedvesítő",
+        swe: "Ögonfuktare"
     },
     1737: {
         img: "goalkeeper",
         eng: "Goalkeeper",
-        schema: 31217
+        schema: 31217,
+        pol: "Bramkarz",
+        hun: "Kapus",
+        swe: "Målvakt"
     },
     1738: {
         img: "alakablamicon",
         eng: "Alakablamicon",
-        schema: 31215
+        schema: 31215,
+        pol: "Abrakabumicon",
+        hun: "Bummbanomicon"
     },
     1739: {
         img: "the_hook_line_and_thinker",
         eng: "The Hook, Line, and Thinker",
-        schema: 31223
+        schema: 31223,
+        pol: "Pomysłowy połów",
+        hun: "Megakasztott Agyalás",
+        swe: "Fiskarens olycka"
     },
     1740: {
         img: "optic_nerve",
         eng: "Optic Nerve",
-        schema: 31224
+        schema: 31224,
+        pol: "Nerw wzrokowy",
+        hun: "Látóideg",
+        swe: "Synnerv"
     },
     1741: {
         img: "gruesome_gourd",
         eng: "Gruesome Gourd",
-        schema: 31227
+        schema: 31227,
+        pol: "Gustowna gurda",
+        hun: "Irtózatos Tökfej",
+        swe: "Pampig pumpamask"
     },
     1742: {
         img: "the_bone_cone",
         eng: "The Bone Cone",
-        schema: 31218
+        schema: 31218,
+        pol: "Stożek kości",
+        hun: "Csontkúp",
+        swe: "Benstrut"
     },
     1743: {
         img: "wandering_wraith",
         eng: "Wandering Wraith",
-        schema: 31221
+        schema: 31221,
+        pol: "Wędrujące widmo",
+        hun: "Lángoló Lidérc",
+        swe: "Vandrande vålnad"
     },
     1744: {
         img: "towering_patch_of_pumpkins",
         eng: "Towering Patch of Pumpkins",
-        schema: 31210
+        schema: 31210,
+        pol: "Niebotyczny słup dyń",
+        hun: "Magasan Tornyosuló Tökök",
+        swe: "Reslig pumpapelare"
     },
     1745: {
         img: "poopy_doe",
@@ -19039,12 +19103,18 @@ let dataItems = {
     1746: {
         img: "batters_beak",
         eng: "Batter's Beak",
-        schema: 31229
+        schema: 31229,
+        pol: "Pierzasty pałkarz",
+        hun: "Csőrös Ütős",
+        swe: "Flink fink"
     },
     1747: {
         img: "war_dog",
         eng: "War Dog",
-        schema: 31230
+        schema: 31230,
+        pol: "Pies wojny",
+        hun: "Harci Kutya",
+        swe: "Stridshund"
     },
     1748: {
         img: "miami_rooster",
@@ -19054,96 +19124,250 @@ let dataItems = {
     1749: {
         img: "computron_5000",
         eng: "Computron 5000",
-        schema: 31232
+        schema: 31232,
+        pol: "Komputron 5000"
     },
     1750: {
         img: "sarsparilla_sprayed_war_paint",
         eng: "Sarsparilla Sprayed War Paint",
-        schema: 17284
+        schema: 17284,
+        pol: "Śmiechu warte | Barwy wojenne",
+        hun: "Sarsaparilla-mintás Harci festés",
+        swe: "Sarsaparillasprejad Krigsfärg"
     },
     1751: {
         img: "kiln_conquer_war_paint",
         eng: "Kiln & Conquer War Paint",
-        schema: 17296
+        schema: 17296,
+        pol: "Palić i podbijać | Barwy wojenne",
+        hun: "Ölj és hódíts Harci festés"
     },
     1752: {
         img: "searing_souls_war_paint",
         eng: "Searing Souls War Paint",
-        schema: 17293
+        schema: 17293,
+        pol: "Płonące dusze | Barwy wojenne",
+        hun: "Lángoló Lelkek Harci festés"
     },
     1753: {
         img: "potent_poison_war_paint",
         eng: "Potent Poison War Paint",
-        schema: 17292
+        schema: 17292,
+        pol: "Silna trucizna | Barwy wojenne",
+        hun: "Hatásos méreg Harci festés"
     },
     1754: {
         img: "simple_spirits_war_paint",
         eng: "Simple Spirits War Paint",
-        schema: 17290
+        schema: 17290,
+        pol: "Drobne duszki | Barwy wojenne",
+        hun: "Egyszerűen szellemes Harci festés"
     },
     1755: {
         img: "skull_cracked_war_paint",
         eng: "Skull Cracked War Paint",
-        schema: 17286
+        schema: 17286,
+        pol: "Spękane czaszki | Barwy wojenne",
+        hun: "Koponyarepesztő Harci festés"
     },
     1756: {
         img: "necromanced_war_paint",
         eng: "Necromanced War Paint",
-        schema: 17297
+        schema: 17297,
+        pol: "Nekromancja | Barwy wojenne",
+        hun: "Felélesztve Harci festés"
     },
     1757: {
         img: "polter_guised_war_paint",
         eng: "Polter-Guised War Paint",
-        schema: 17295
+        schema: 17295,
+        pol: "Cierpiące dusze | Barwy wojenne",
+        hun: "Kísérteties külső Harci festés"
     },
     1758: {
         img: "neon_ween_war_paint",
         eng: "Neon-ween War Paint",
-        schema: 17289
+        schema: 17289,
+        pol: "Neonween | Barwy wojenne",
+        hun: "Neon-ween Harci festés"
     },
     1759: {
         img: "swashbuckled_war_paint",
         eng: "Swashbuckled War Paint",
-        schema: 17285
+        schema: 17285,
+        pol: "Pirat | Barwy wojenne",
+        hun: "Kalózos Harci festés"
     },
     1760: {
         img: "broken_bones_war_paint",
         eng: "Broken Bones War Paint",
-        schema: 17291
+        schema: 17291,
+        pol: "Połamane kości | Barwy wojenne",
+        hun: "Törött csontok Harci festés"
     },
     1761: {
         img: "party_phantoms_war_paint",
         eng: "Party Phantoms War Paint",
-        schema: 17294
+        schema: 17294,
+        pol: "Imprezowe upiory | Barwy wojenne",
+        hun: "Bulifantomok Harci festés"
     },
     1762: {
         img: "misfortunate_war_paint",
         eng: "Misfortunate War Paint",
-        schema: 17287
+        schema: 17287,
+        pol: "Nieszczęście | Barwy wojenne",
+        hun: "Szerencsétlen Harci festés"
     },
     1763: {
         img: "taunt_the_drunken_sailor",
         eng: "Taunt: The Drunken Sailor",
-        schema: 31201
+        schema: 31201,
+        pol: "Drwina: Pijany żeglarz",
+        hun: "Beszólás: A részeg tengerész",
+        swe: "Hån: Den berusade matrosen"
     },
     1764: {
         img: "taunt_the_profane_puppeteer",
         eng: "Taunt: The Profane Puppeteer",
-        schema: 31202
+        schema: 31202,
+        pol: "Drwina: Pyskaty pacynkarz",
+        hun: "Beszólás: A borzasztó bábos"
     },
     1765: {
         img: "taunt_the_mannbulance",
         eng: "Taunt: The Mannbulance!",
-        schema: 31203
+        schema: 31203,
+        pol: "Drwina: Mannbulans!",
+        hun: "Beszólás: A Manntőautó!"
     },
     1766: {
         img: "taunt_bare_knuckle_beatdown",
         eng: "Taunt: Bare Knuckle Beatdown",
-        schema: 31207
+        schema: 31207,
+        pol: "Drwina: Srogi łomot",
+        hun: "Beszlás: Pusztakezes lezúzás"
     },
     1767: {
         img: "taunt_the_homerunners_hobby",
         eng: "Taunt: The Homerunner's Hobby",
-        schema: 31233
+        schema: 31233,
+        pol: "Drwina: Hobby chłystka",
+        hun: "Beszólás: A hazafutó hobbija"
+    },
+    1768: {
+        img: "festive_cover_up",
+        eng: "Festive Cover-Up",
+        schema: 31257
+    },
+    1769: {
+        img: "el_fiestibrero",
+        eng: "El Fiestibrero",
+        schema: 31241
+    },
+    1770: {
+        img: "ominous_offering",
+        eng: "Ominous Offering",
+        schema: 31251
+    },
+    1771: {
+        img: "brain_cane",
+        eng: "Brain Cane",
+        schema: 31248
+    },
+    1772: {
+        img: "cozy_catchers",
+        eng: "Cozy Catchers",
+        schema: 31250
+    },
+    1773: {
+        img: "the_giftcrafter",
+        eng: "The Giftcrafter",
+        schema: 31246
+    },
+    1774: {
+        img: "festive_frames",
+        eng: "Festive Frames",
+        schema: 31252
+    },
+    1775: {
+        img: "mooshanka",
+        eng: "Mooshanka",
+        schema: 31255
+    },
+    1776: {
+        img: "elf_defense",
+        eng: "Elf Defense",
+        schema: 31256
+    },
+    1777: {
+        img: "gnome_dome",
+        eng: "Gnome Dome",
+        schema: 31242
+    },
+    1778: {
+        img: "elf_made_bandanna",
+        eng: "Elf-Made Bandanna",
+        schema: 31260
+    },
+    1779: {
+        img: "seasonal_spring",
+        eng: "Seasonal Spring",
+        schema: 31244
+    },
+    1780: {
+        img: "elf_ignition",
+        eng: "Elf Ignition",
+        schema: 31253
+    },
+    1781: {
+        img: "train_of_thought",
+        eng: "Train Of Thought",
+        schema: 31254
+    },
+    1782: {
+        img: "seasonal_employee",
+        eng: "Seasonal Employee",
+        schema: 31258
+    },
+    1783: {
+        img: "reindoonihorns",
+        eng: "Reindoonihorns",
+        schema: 31249
+    },
+    1784: {
+        img: "jolly_jester",
+        eng: "Jolly Jester",
+        schema: 31243
+    },
+    1785: {
+        img: "merry_cone",
+        eng: "Merry Cone",
+        schema: 31247
+    },
+    1786: {
+        img: "hat_chocolate",
+        eng: "Hat Chocolate",
+        schema: 31259
+    },
+    1787: {
+        img: "oh_deer",
+        eng: "Oh Deer!",
+        schema: 31245
+    },
+    1788: {
+        img: "taunt_doctors_defibrillators",
+        eng: "Taunt: Doctor's Defibrillators",
+        schema: 31236
+    },
+    1789: {
+        img: "taunt_shooters_stakeout",
+        eng: "Taunt: Shooter's Stakeout",
+        schema: 31237
+    },
+    1790: {
+        img: "taunt_the_hot_wheeler",
+        eng: "Taunt: The Hot Wheeler",
+        schema: 31239
     }
 }

@@ -4,11 +4,33 @@ let save = {options: {
 
 }};
 
-import './crate.js?v=1';
+import { 
+    unusualPool,
+    cA, 
+    crateOrder,
+    globalBonusItemArray,
+    unusualifierArray,
+    paintBonusArray,
+    strangePartBonusArray,
+    creepyCrateBonusArray,
+    halloweenModeCrateList,
+    hw11FX, 
+    hw12FX, 
+    hw13FX, 
+    hw14FX,
+    hw15FX,
+    hw16FX,
+    hw17FX,
+    hw18FX,
+    hw19FX,
+    hw20FX,
+    hw21FX,
+    xmas19FX,
+    xmas20FX,
+    xmas21FX,
+    } from "./crate.js";
 
 const wearTable = ["", "FN", "MW", "FT", "WW", "BS"];
-const wearTableNames = ["", 80, 81, 82, 83, 84];
-const gradeTable = ["", "colorcivilian", "colorfreelance", "colormercenary", "colorcommando", "colorassassin", "colorelite"];
 const sheenTable = ["", 128, 129, 130, 131, 132, 133, 134];
 const killstreakerTable = ["", 135, 136, 137, 138, 139, 140, 141];
 

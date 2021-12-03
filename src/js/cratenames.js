@@ -613,7 +613,7 @@ let dataCrates = {
         fre: "Caisse de peintures Jungle Jackpot",
         bra: "Caixa de Tintas de Guerra da Sorte Selvagem",
         hun: "Dzsungelfőnyeremény Harci Festés Táska",
-        swe: "Jungle Jackpot-färgväska"
+        swe: "Jungle Jackpot-krigsfärgväska"
     },
     62: {
         img: "infernal_reward_war_paint_case",
@@ -623,7 +623,7 @@ let dataCrates = {
         fre: "Caisse de peintures Infernal Reward",
         bra: "Caixa de Tintas de Guerra da Recompensa Infernal",
         hun: "Pokoli Jutalom Harci Festés Táska",
-        swe: "Infernal Reward-färgväska"
+        swe: "Infernal Reward-krigsfärgväska"
     },
     63: {
         img: "war_paint_civilian_grade_keyless_case",
@@ -631,7 +631,7 @@ let dataCrates = {
         pol: "Barwy wojenne bohatera wojennego Otwarta skrzynia stopnia cywil",
         sch: "功勋英雄 民用级无锁战绘箱",
         fre: "Peinture de guerre Decorated War Hero Caisse ouverte de niveau Civil",
-        bra: "Tinta de Guerra \\\"Veterano Condecorado\\\" Caixa Destrancada Nv. Civil",
+        bra: "Tinta de Guerra \"Veterano Condecorado\" Caixa Destrancada Nv. Civil",
         hun: "„Kitüntetett Háborús Hős” harci festés Civil fokozatú kulcs nélküli táska",
         rom: "Vopsea de război „Decorated War Hero” Cutie neîncuiată de ordin civil",
         cze: "Decorated War Hero Civilian Grade Keyless Case",
@@ -643,7 +643,7 @@ let dataCrates = {
         pol: "Barwy wojenne najemnika kontraktowego Otwarta skrzynia stopnia cywil",
         sch: "合同履行者 民用级无锁战绘箱",
         fre: "Peinture de guerre « Contract Campaigner » Caisse ouverte de niveau Civil",
-        bra: "Tinta de Guerra \\\"Contratado da Campanha\\\" Caixa Destrancada Nv. Civil",
+        bra: "Tinta de Guerra \"Contratado da Campanha\" Caixa Destrancada Nv. Civil",
         hun: "„Szerződéses Hadjáratozó” harci festés Civil fokozatú kulcs nélküli táska",
         rom: "Vopsea de război „Contract Campaigner” Cutie neîncuiată de ordin civil",
         cze: "Contract Campaigner Civilian Grade Keyless Case",
@@ -667,7 +667,7 @@ let dataCrates = {
         fre: "Caisse de peintures d'hiver 2017",
         bra: "Caixa de Tintas de Guerra de Fim de Ano de 2017",
         hun: "Tél 2017 Harci Festés Táska",
-        swe: "Vinter 2017-krigsfärgslåda"
+        swe: "Vinter 2017-krigsfärgväska"
     },
     67: {
         img: "blue_moon_cosmetic_case",
@@ -697,7 +697,7 @@ let dataCrates = {
         fre: "Caisse de peintures Scream Fortress X",
         bra: "Caixa de Tintas de Guerra do Scream Fortress X",
         hun: "Scream Fortress X Harci Festés Táska",
-        swe: "Krigsmålningslåda (Scream Fortress X)"
+        swe: "Scream Fortress X-krigsfärgväska"
     },
     70: {
         img: "winter_2018_cosmetic_case",
@@ -827,7 +827,7 @@ let dataCrates = {
         sch: "幽灵战利品石匣",
         bra: "Caixa dos Espólios Assustadores",
         hun: "Kísérteties Kincsek Táska",
-        swe: "Spöklik skattlåda"
+        swe: "Spöklik skattväska"
     },
     83: {
         img: "winter_2019_cosmetic_case",
@@ -847,7 +847,7 @@ let dataCrates = {
         sch: "2019 冬季战绘箱",
         bra: "Caixa de Tintas de Guerra de Fim de Ano de 2019",
         hun: "Tél 2019 Harci Festés Táska",
-        swe: "Vinter 2019-krigsfärgslåda"
+        swe: "Vinter 2019-krigsfärgväska"
     },
     85: {
         img: "summer_2020_cosmetic_case",
@@ -877,7 +877,7 @@ let dataCrates = {
         sch: "尖叫要塞 XII 战绘箱",
         bra: "Caixa de Tintas de Guerra do Scream Fortress XII",
         hun: "Scream Fortress XII Harci Festés Táska",
-        swe: "Krigsfärgslåda: Scream Fortress XII"
+        swe: "Scream Fortress XII-krigsfärgväska"
     },
     88: {
         img: "winter_2020_cosmetic_case",
@@ -895,7 +895,7 @@ let dataCrates = {
         bra: "Caixa de Tintas de Guerra de Fim de Ano de 2020",
         fre: "Caisse de peintures d'hiver 2020",
         hun: "Tél 2020 Harci Festés Táska",
-        swe: "Vinter 2020-krigsfärgslåda"
+        swe: "Vinter 2020-krigsfärgväska"
     },
     90: {
         img: "summer_2021_cosmetic_case",
@@ -909,10 +909,20 @@ let dataCrates = {
     },
     91: {
         img: "crimson_cache_case",
-        eng: "Crimson Cache Case"
+        eng: "Crimson Cache Case",
+        pol: "Skrzynia szkarłatnej skrytki",
+        hun: "Karmazsin Készlet Táska",
+        swe: "Crimson Cache-väska"
     },
     92: {
         img: "scream_fortress_xiii_war_paint_case",
-        eng: "Scream Fortress XIII War Paint Case"
+        eng: "Scream Fortress XIII War Paint Case",
+        pol: "Skrzynia barw wojennych Scream Fortress XIII",
+        hun: "Scream Fortress XIII Harci Festés Táska",
+        swe: "Scream Fortress XIII-krigsfärgväska"
+    },
+    93: {
+        img: "winter_2021_cosmetic_case",
+        eng: "Winter 2021 Cosmetic Case"
     }
 }

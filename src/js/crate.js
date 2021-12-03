@@ -1,4 +1,4 @@
-class Crate {
+function Crate(op) {
     /* Options:
     id - Determines crate name and icon, which are pulled from cratenames.js.
     series - Crate series number
@@ -23,54 +23,52 @@ class Crate {
         loot - List of case exclusive bonus items
         chance - Chance of getting a case exclusive bonus item instead of a global bonus item. 1 = 0.01%, 10000 = 100%
     */
-    constructor(op) {
-        this.id = op.id;
-        this.series = op.series;
-        this.loot = null;
-        if (typeof op.effects === "undefined") {
-            this.effects = [];
-        } else {
-            this.effects = op.effects;
-        }
-        if (typeof op.unusual === "undefined") {
-            this.unusual = 0;
-        } else {
-            this.unusual = op.unusual;
-        }
-        if (typeof op.note === "undefined") {
-            this.note = 0;
-        } else {
-            this.note = op.note
-        }
-        if (typeof op.autoChance === "undefined") {
-            this.autoChance = 0;
-        } else {
-            this.autoChance = op.autoChance;
-        }
-        if (typeof op.bonus === "undefined") {
-            this.bonus = false;
-        } else {
-            this.bonus = true;
-        }
-        if (typeof op.exclusiveBonus === "undefined") {
-            this.exclusiveBonus = false;
-        } else {
-            this.exclusiveBonus = op.exclusiveBonus;
-        }
-        if (typeof op.oneExclusiveBonus === "undefined") {
-            this.oneExclusiveBonus = false;
-        } else {
-            this.oneExclusiveBonus = op.oneExclusiveBonus;
-        }
-        if (typeof op.creepyBonus === "undefined") {
-            this.creepyBonus = false;
-        } else {
-            this.creepyBonus = op.creepyBonus;
-        }
+    this.id = op.id;
+    this.series = op.series;
+    this.loot = null;
+    if (typeof op.effects === "undefined") {
+        this.effects = [];
+    } else {
+        this.effects = op.effects;
+    }
+    if (typeof op.unusual === "undefined") {
+        this.unusual = 0;
+    } else {
+        this.unusual = op.unusual;
+    }
+    if (typeof op.note === "undefined") {
+        this.note = 0;
+    } else {
+        this.note = op.note
+    }
+    if (typeof op.autoChance === "undefined") {
+        this.autoChance = 0;
+    } else {
+        this.autoChance = op.autoChance;
+    }
+    if (typeof op.bonus === "undefined") {
+        this.bonus = false;
+    } else {
+        this.bonus = true;
+    }
+    if (typeof op.exclusiveBonus === "undefined") {
+        this.exclusiveBonus = false;
+    } else {
+        this.exclusiveBonus = op.exclusiveBonus;
+    }
+    if (typeof op.oneExclusiveBonus === "undefined") {
+        this.oneExclusiveBonus = false;
+    } else {
+        this.oneExclusiveBonus = op.oneExclusiveBonus;
+    }
+    if (typeof op.creepyBonus === "undefined") {
+        this.creepyBonus = false;
+    } else {
+        this.creepyBonus = op.creepyBonus;
     }
 }
 
-class Item {
+function Item(op) {
     /* Options:
         id - Determines item name and icon, which are pulled from itemnames.js
         chance - Chance of getting that item. 1 = 0.01%, 10000 = 100%. Can be left blank if crate autoChance is set to true.
@@ -90,80 +88,79 @@ class Item {
             12 - Strangifier
         grade - Item grade.
     */
-    constructor(op) {
-        this.id = op.id;
-        if (typeof op.chance === "undefined" && typeof this.chance === "undefined") {
-            this.chance = 0;
-        } else {
-            this.chance = op.chance;
-        }
-        this.quality = op.quality;
-        if (typeof op.grade === 'undefined') { // Skin grade. 0 means it has no grade
-            this.grade = 0;
-        } else {
-            this.grade = op.grade;
-        }
+    this.id = op.id;
+    if (typeof op.chance === "undefined" && typeof this.chance === "undefined") {
+        this.chance = 0;
+    } else {
+        this.chance = op.chance;
+    }
+    this.quality = op.quality;
+    if (typeof op.grade === 'undefined') { // Skin grade. 0 means it has no grade
+        this.grade = 0;
+    } else {
+        this.grade = op.grade;
     }
 }
 
 // Unusual cosmetics pool
-const unusualPool = [5, 6, 13, 14, 21, 22, 23, 28, 29, 30, 34, 35, 36, 43, 44, 45, 46, 47, 48, 49, 51, 52, 54, 55, 56, 57, 58, 63, 64, 65, 71, 72, 73, 111, 117, 118, 122, 123, 130, 131, 133, 134, 135, 136, 137, 140, 142, 143, 147, 148, 152, 153, 157, 160, 166, 167, 172, 177, 182, 183, 187, 188, 197, 198, 204, 210, 211, 225, 230, 235, 240, 245, 246, 250, 260, 265, 266, 275, 281, 289, 290, 291, 292, 294, 301, 303, 305, 308, 316, 317, 327, 341, 342, 343, 358, 359, 362, 366, 370, 375, 376, 383, 387, 388, 389, 390, 392, 393, 394, 395, 397, 399, 400, 401, 402, 405, 407, 408, 409, 411, 413, 414, 415, 417, 418, 420, 422, 423, 425, 427, 430, 431, 432, 433, 434, 435, 436, 438, 439, 440, 441, 454, 455, 457, 459, 460, 464, 465, 467, 470, 471, 472, 475, 479, 480, 481, 482, 483, 487, 488, 490, 492, 496, 501, 503, 504, 506, 510, 512, 516, 524, 525, 526, 537, 538, 541, 547, 549, 552, 553, 666, 685, 689, 691, 692, 693, 694, 696, 704, 705, 710, 712, 715, 718, 720, 725, 727, 732, 733, 739, 746, 749, 754, 755, 756, 777, 779, 784, 785, 786, 791, 792, 793, 794, 798, 804, 812, 815, 818, 893, 902, 905, 906, 907, 908, 909, 913, 929, 932, 933, 936, 939, 941, 942, 943, 945, 949, 953, 964, 1355, 1357, 1358, 1360, 1361, 1362, 1363, 1364, 1365, 1366, 1367, 1368, 1369, 1371, 1372, 1373, 1374, 1375, 1376, 1377, 1378, 1379, 1380, 1381, 1382, 1383, 1384, 1385, 1386, 1387, 1388, 1389, 1390, 1391, 1392, 1393, 1394, 1395, 1397, 1398, 1399, 1400, 1401, 1402, 1403, 1404, 1405, 1406, 1407, 1408, 1409, 1410, 1411, 1412, 1413, 1414, 1415, 1416, 1417, 1418, 1419, 1420, 1421];
+export const unusualPool = [5, 6, 13, 14, 21, 22, 23, 28, 29, 30, 34, 35, 36, 43, 44, 45, 46, 47, 48, 49, 51, 52, 54, 55, 56, 57, 58, 63, 64, 65, 71, 72, 73, 111, 117, 118, 122, 123, 130, 131, 133, 134, 135, 136, 137, 140, 142, 143, 147, 148, 152, 153, 157, 160, 166, 167, 172, 177, 182, 183, 187, 188, 197, 198, 204, 210, 211, 225, 230, 235, 240, 245, 246, 250, 260, 265, 266, 275, 281, 289, 290, 291, 292, 294, 301, 303, 305, 308, 316, 317, 327, 341, 342, 343, 358, 359, 362, 366, 370, 375, 376, 383, 387, 388, 389, 390, 392, 393, 394, 395, 397, 399, 400, 401, 402, 405, 407, 408, 409, 411, 413, 414, 415, 417, 418, 420, 422, 423, 425, 427, 430, 431, 432, 433, 434, 435, 436, 438, 439, 440, 441, 454, 455, 457, 459, 460, 464, 465, 467, 470, 471, 472, 475, 479, 480, 481, 482, 483, 487, 488, 490, 492, 496, 501, 503, 504, 506, 510, 512, 516, 524, 525, 526, 537, 538, 541, 547, 549, 552, 553, 666, 685, 689, 691, 692, 693, 694, 696, 704, 705, 710, 712, 715, 718, 720, 725, 727, 732, 733, 739, 746, 749, 754, 755, 756, 777, 779, 784, 785, 786, 791, 792, 793, 794, 798, 804, 812, 815, 818, 893, 902, 905, 906, 907, 908, 909, 913, 929, 932, 933, 936, 939, 941, 942, 943, 945, 949, 953, 964, 1355, 1357, 1358, 1360, 1361, 1362, 1363, 1364, 1365, 1366, 1367, 1368, 1369, 1371, 1372, 1373, 1374, 1375, 1376, 1377, 1378, 1379, 1380, 1381, 1382, 1383, 1384, 1385, 1386, 1387, 1388, 1389, 1390, 1391, 1392, 1393, 1394, 1395, 1397, 1398, 1399, 1400, 1401, 1402, 1403, 1404, 1405, 1406, 1407, 1408, 1409, 1410, 1411, 1412, 1413, 1414, 1415, 1416, 1417, 1418, 1419, 1420, 1421];
 // Unusual effect containers
 const gen1FX = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
 const gen2FX = [28, 29, 30, 31, 32, 33, 34, 35];
 const gen3FX = [55, 56, 57, 58, 59, 60, 61];
 const allGensFX = gen1FX.concat(gen2FX, gen3FX);
-const hw11FX = [36, 37, 38, 39]
-const hw12FX = [40, 41, 42, 43, 44];
-const hw13FX = [62, 63, 64, 65, 66, 67, 68, 69];
-const hw14FX = [70, 71, 72, 73, 74, 75];
-const hw15FX = [89, 90, 91, 92, 93, 94, 95];
-const hw16FX = [96, 97, 98, 99];
-const hw17FX = hw11FX.concat(hw12FX, hw13FX, hw14FX, hw15FX, hw16FX);
-const hw18FX = [100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110];
-const hw19FX = [111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122];
-const hw20FX = [143, 144, 145, 146, 147, 148, 149, 150];
-const hw21FX = [174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188];
+export const hw11FX = [36, 37, 38, 39]
+export const hw12FX = [40, 41, 42, 43, 44];
+export const hw13FX = [62, 63, 64, 65, 66, 67, 68, 69];
+export const hw14FX = [70, 71, 72, 73, 74, 75];
+export const hw15FX = [89, 90, 91, 92, 93, 94, 95];
+export const hw16FX = [96, 97, 98, 99];
+export const hw17FX = hw11FX.concat(hw12FX, hw13FX, hw14FX, hw15FX, hw16FX);
+export const hw18FX = [100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110];
+export const hw19FX = [111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122];
+export const hw20FX = [143, 144, 145, 146, 147, 148, 149, 150];
+export const hw21FX = [174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188];
 const tauntFX = [15, 16, 17, 18, 19, 20, 21, 22, 23];
 const oldWeaponFX = [24, 25, 26, 27];
 const weaponFX = [24, 25, 26];
 const roboFX = [45, 46, 47, 48, 49, 50, 51, 52, 53, 54];
 const eotlFX = [76, 77, 78, 79];
 const invasionFX = allGensFX.concat([80, 81, 82, 83, 84, 85, 86, 87, 88]);
-const xmas19FX = [123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133];
-const xmas20FX = [151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162];
+export const xmas19FX = [123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133];
+export const xmas20FX = [151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162];
+export const xmas21FX = [189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204];
 const summer20FX = allGensFX.concat([134, 135, 136, 137, 138, 139, 140, 141, 142]);
 const summer21FX = allGensFX.concat([163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173]);
 // Global bonus item list
-const globalBonusItemArray = [24, 7, 74, 762, 763, "paint", "strangepart", 15, 767, 768, 769];
+export const globalBonusItemArray = [24, 7, 74, 762, 763, "paint", "strangepart", 15, 767, 768, 769];
 // List of taunts used for unusualifiers
-const unusualifierArray = [75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 149, 920, 973, 974, 1033, 1611, 1612, 1613, 1614, 1615, 1616, 1617, 1618, 1619, 1620, 1621, 1622, 1623, 1624, 1625, 1626, 1627, 1628, 1629, 1630, 1631, 1632, 1633, 1634, 1635, 1636, 1637, 1638, 1639, 1640, 1641, 1642, 1643, 1644, 1645, 1646, 1699, 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1763, 1764, 1765, 1766, 1767];
+export const unusualifierArray = [75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 149, 920, 973, 974, 1033, 1611, 1612, 1613, 1614, 1615, 1616, 1617, 1618, 1619, 1620, 1621, 1622, 1623, 1624, 1625, 1626, 1627, 1628, 1629, 1630, 1631, 1632, 1633, 1634, 1635, 1636, 1637, 1638, 1639, 1640, 1641, 1642, 1643, 1644, 1645, 1646, 1699, 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1763, 1764, 1765, 1766, 1767];
 // List of paints used for bonus items
-const paintBonusArray = [8, 9, 16, 17, 37, 66, 105, 106, 107, 108, 109, 110, 112, 113, 114, 119, 125, 126, 127, 248, 249, 771, 820, 821, 822, 823, 824, 825, 826];
+export const paintBonusArray = [8, 9, 16, 17, 37, 66, 105, 106, 107, 108, 109, 110, 112, 113, 114, 119, 125, 126, 127, 248, 249, 771, 820, 821, 822, 823, 824, 825, 826];
 // List of strange parts used for bonus items
-const strangePartBonusArray = [256, 257, 258, 262, 263, 264, 269, 270, 272, 273, 274, 278, 279, 280, 298, 299, 300, 313, 314, 315, 367, 368, 369, 373, 374, 380, 381, 382, 446, 447, 453, 529, 530, 658, 659, 660, 663, 664, 665, 669, 670, 671, 760, 761, 833, 834, 961, 962, 963];
+export const strangePartBonusArray = [256, 257, 258, 262, 263, 264, 269, 270, 272, 273, 274, 278, 279, 280, 298, 299, 300, 313, 314, 315, 367, 368, 369, 373, 374, 380, 381, 382, 446, 447, 453, 529, 530, 658, 659, 660, 663, 664, 665, 669, 670, 671, 760, 761, 833, 834, 961, 962, 963];
 // List of Unlocked Creepy Crate bonus items
-const creepyCrateBonusArray = [
-    {id: 1652, quality: 12},
-    {id: 1653, quality: 12},
-    {id: 1654, quality: 12},
-    {id: 1655, quality: 12},
-    {id: 1656, quality: 12},
-    {id: 1657, quality: 12},
-    {id: 1658, quality: 12},
-    {id: 1659, quality: 12},
-    {id: 1660, quality: 12},
-    {id: 1661, quality: 12},
-    {id: 1662, quality: 12},
-    {id: 1663, quality: 12},
-    {id: 1664, quality: 12},
-    {id: 1652, quality: 11},
-    {id: 1653, quality: 11},
+export const creepyCrateBonusArray = [
+    { id: 1652, quality: 12 },
+    { id: 1653, quality: 12 },
+    { id: 1654, quality: 12 },
+    { id: 1655, quality: 12 },
+    { id: 1656, quality: 12 },
+    { id: 1657, quality: 12 },
+    { id: 1658, quality: 12 },
+    { id: 1659, quality: 12 },
+    { id: 1660, quality: 12 },
+    { id: 1661, quality: 12 },
+    { id: 1662, quality: 12 },
+    { id: 1663, quality: 12 },
+    { id: 1664, quality: 12 },
+    { id: 1652, quality: 11 },
+    { id: 1653, quality: 11 },
 ]
 // Steam Market item whitelist
-const steamMarketWhitelist = [772, 773, 774, 775, 318, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 345, 346, 347, 348, 349, 350, 351, 352, 353, 673, 674, 675, 676, 677, 678, 679, 680, 681, 922, 923, 924, 925, 926, 927, 928];
+export const steamMarketWhitelist = [772, 773, 774, 775, 318, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 345, 346, 347, 348, 349, 350, 351, 352, 353, 673, 674, 675, 676, 677, 678, 679, 680, 681, 922, 923, 924, 925, 926, 927, 928];
 // List of crates affected by specific Halloween events
-let halloweenModeCrateList = {};
+export let halloweenModeCrateList = {};
 halloweenModeCrateList.hw11 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
 halloweenModeCrateList.hw12 = halloweenModeCrateList.hw11.concat([32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48]);
 halloweenModeCrateList.hw13 = halloweenModeCrateList.hw12.concat([49, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71]);
@@ -176,9 +173,10 @@ halloweenModeCrateList.xmas19 = halloweenModeCrateList.hw19.concat([139]);
 halloweenModeCrateList.hw20 = halloweenModeCrateList.xmas19.concat([140, 142]);
 halloweenModeCrateList.xmas20 = halloweenModeCrateList.hw20.concat([143]);
 halloweenModeCrateList.hw21 = halloweenModeCrateList.xmas20.concat([145, 147]);
+halloweenModeCrateList.xmas21 = halloweenModeCrateList.hw21.concat([148]);
 // Crate array
-let cA = [
-    new Crate({ id: 1, series: 1, effects: gen1FX, unusual: 1, autoChance: 2}), /*  [0] */
+export let cA = [
+    new Crate({ id: 1, series: 1, effects: gen1FX, unusual: 1, autoChance: 2 }), /*  [0] */
     new Crate({ id: 1, series: 2, effects: gen1FX, unusual: 1 }),
     new Crate({ id: 1, series: 3, effects: gen1FX, unusual: 1 }),
     new Crate({ id: 1, series: 4, effects: gen1FX, unusual: 1 }),
@@ -199,7 +197,7 @@ let cA = [
     new Crate({ id: 1, series: 19, effects: gen1FX, note: 1, unusual: 1 }),
     new Crate({ id: 1, series: 20, effects: gen1FX, note: 1, unusual: 1 }),
     new Crate({ id: 1, series: 21, effects: gen1FX, note: 1, unusual: 1 }), /*  [20] */
-    new Crate({ id: 5, series: 22, effects: gen1FX, unusual: 1, autoChance: 2}),
+    new Crate({ id: 5, series: 22, effects: gen1FX, unusual: 1, autoChance: 2 }),
     new Crate({ id: 1, series: 23, effects: gen1FX, note: 1, unusual: 1 }),
     new Crate({ id: 1, series: 24, effects: gen1FX, note: 1, unusual: 1 }),
     new Crate({ id: 1, series: 25, effects: gen1FX, note: 1, unusual: 1 }),
@@ -207,7 +205,7 @@ let cA = [
     new Crate({ id: 1, series: 27, effects: gen2FX, note: 1, unusual: 1 }),
     new Crate({ id: 1, series: 28, effects: gen2FX, note: 1, unusual: 1 }),
     new Crate({ id: 1, series: 29, effects: gen2FX, note: 1, unusual: 1 }),
-    new Crate({ id: 6, series: 30, effects: gen2FX, note: 1, unusual: 1, autoChance: 2}),
+    new Crate({ id: 6, series: 30, effects: gen2FX, note: 1, unusual: 1, autoChance: 2 }),
     new Crate({ id: 1, series: 31, effects: gen2FX, note: 1, unusual: 1 }), /*  [30] */
     new Crate({ id: 1, series: 32, effects: gen2FX, note: 1, unusual: 1 }),
     new Crate({ id: 1, series: 33, effects: gen2FX, note: 1, unusual: 1 }),
@@ -217,7 +215,7 @@ let cA = [
     new Crate({ id: 1, series: 37, effects: gen2FX, note: 1, unusual: 1 }),
     new Crate({ id: 1, series: 38, effects: gen2FX, note: 1, unusual: 1 }),
     new Crate({ id: 1, series: 39, effects: gen2FX, note: 1, unusual: 1 }),
-    new Crate({ id: 6, series: 40, effects: gen2FX, note: 1, unusual: 1, autoChance: 2}),
+    new Crate({ id: 6, series: 40, effects: gen2FX, note: 1, unusual: 1, autoChance: 2 }),
     new Crate({ id: 1, series: 41, effects: gen2FX, note: 1, unusual: 1 }), /*  [40] */
     new Crate({ id: 1, series: 42, effects: gen2FX, note: 1, unusual: 1 }),
     new Crate({ id: 1, series: 43, effects: gen2FX, note: 1, unusual: 1 }),
@@ -227,111 +225,111 @@ let cA = [
     new Crate({ id: 1, series: 47, effects: gen2FX, note: 1, unusual: 1 }),
     new Crate({ id: 10, series: 48, effects: gen2FX, unusual: 1 }),
     new Crate({ id: 1, series: 49, effects: gen2FX, note: 1, unusual: 1 }),
-    new Crate({ id: 6, series: 50, effects: gen2FX, note: 1, unusual: 1, autoChance: 2}),
-    new Crate({ id: 11, series: 51, effects: hw12FX, note: 3, unusual: 1, autoChance: 2}), /*  [50] */
-    new Crate({ id: 12, series: 52, effects: gen2FX, note: 2, unusual: 1, autoChance: 2}),
-    new Crate({ id: 13, series: 53, effects: gen2FX, unusual: 1, autoChance: 2}),
+    new Crate({ id: 6, series: 50, effects: gen2FX, note: 1, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 11, series: 51, effects: hw12FX, note: 3, unusual: 1, autoChance: 2 }), /*  [50] */
+    new Crate({ id: 12, series: 52, effects: gen2FX, note: 2, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 13, series: 53, effects: gen2FX, unusual: 1, autoChance: 2 }),
     new Crate({ id: 1, series: 54, effects: gen2FX, note: 1, unusual: 1 }),
     new Crate({ id: 1, series: 55, effects: gen2FX, note: 1, unusual: 1 }),
     new Crate({ id: 1, series: 56, effects: gen2FX, note: 1, unusual: 1 }), /* [55] */
     new Crate({ id: 1, series: 57, effects: gen2FX, note: 1, unusual: 1 }),
-    new Crate({ id: 14, series: 58, effects: roboFX, unusual: 1, autoChance: 2}),
+    new Crate({ id: 14, series: 58, effects: roboFX, unusual: 1, autoChance: 2 }),
     new Crate({ id: 1, series: 59, effects: gen3FX, note: 1, unusual: 1 }),
-    new Crate({ id: 15, series: 60, effects: gen3FX, note: 1, unusual: 1, autoChance: 2}),
-    new Crate({ id: 16, series: 61, effects: gen3FX, unusual: 1, autoChance: 2}), /*  [60] */
-    new Crate({ id: 17, series: 62, effects: gen3FX, unusual: 1, autoChance: 2}),
-    new Crate({ id: 18, series: 63, effects: gen3FX, unusual: 1, autoChance: 2}),
-    new Crate({ id: 19, series: 64, effects: gen3FX, unusual: 1, autoChance: 2}),
-    new Crate({ id: 20, series: 65, effects: gen3FX, unusual: 1, autoChance: 2}),
-    new Crate({ id: 21, series: 66, effects: gen3FX, unusual: 1, autoChance: 2}), /* [65] */
-    new Crate({ id: 22, series: 67, effects: gen3FX, unusual: 1, autoChance: 2}),
-    new Crate({ id: 23, series: 68, effects: gen3FX, unusual: 1, autoChance: 2}),
-    new Crate({ id: 24, series: 69, effects: gen3FX, unusual: 1, autoChance: 2}),
+    new Crate({ id: 15, series: 60, effects: gen3FX, note: 1, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 16, series: 61, effects: gen3FX, unusual: 1, autoChance: 2 }), /*  [60] */
+    new Crate({ id: 17, series: 62, effects: gen3FX, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 18, series: 63, effects: gen3FX, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 19, series: 64, effects: gen3FX, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 20, series: 65, effects: gen3FX, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 21, series: 66, effects: gen3FX, unusual: 1, autoChance: 2 }), /* [65] */
+    new Crate({ id: 22, series: 67, effects: gen3FX, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 23, series: 68, effects: gen3FX, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 24, series: 69, effects: gen3FX, unusual: 1, autoChance: 2 }),
     new Crate({ id: 1, series: 71, effects: gen3FX, note: 1, unusual: 1 }),
-    new Crate({ id: 25, series: 72, effects: gen3FX, unusual: 1, autoChance: 2}), /*  [70] */
-    new Crate({ id: 26, series: 73, effects: gen3FX, unusual: 1, autoChance: 2}),
-    new Crate({ id: 27, series: 74, effects: hw13FX, unusual: 1, autoChance: 2}),
+    new Crate({ id: 25, series: 72, effects: gen3FX, unusual: 1, autoChance: 2 }), /*  [70] */
+    new Crate({ id: 26, series: 73, effects: gen3FX, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 27, series: 74, effects: hw13FX, unusual: 1, autoChance: 2 }),
     new Crate({ id: 1, series: 75, effects: gen3FX, note: 1, unusual: 1 }),
     new Crate({ id: 1, series: 76, effects: gen3FX, note: 1, unusual: 1 }),
     new Crate({ id: 1, series: 77, effects: gen3FX, note: 1, unusual: 1 }), /* [75] */
-    new Crate({ id: 28, series: 78, effects: gen3FX, note: 2, unusual: 1, autoChance: 2}),
-    new Crate({ id: 29, series: 79, effects: gen3FX, unusual: 1, autoChance: 2}),
-    new Crate({ id: 30, series: 81, effects: gen3FX, unusual: 1, autoChance: 2}),
-    new Crate({ id: 31, series: 82, effects: gen3FX, unusual: 1, autoChance: 2}),
-    new Crate({ id: 31, series: 83, effects: gen3FX, note: 142, unusual: 1, autoChance: 2}), /*  [80] */
-    new Crate({ id: 3, series: 0, effects: tauntFX, note: 7, unusual: 3, autoChance: 2}), /*  Mann Co. Audition Reel */ 
-    new Crate({ id: 32, series: 0, note: 2, autoChance: 2}), /*  Bread Box */
-    new Crate({ id: 33, series: 0, effects: gen3FX, unusual: 1, autoChance: 2}), /*  Mann Co. Stockpile Crate */
-    new Crate({ id: 31, series: 84, effects: gen3FX, note: 142, unusual: 1, autoChance: 2}),
-    new Crate({ id: 31, series: 85, effects: gen3FX, unusual: 1, autoChance: 2}), /* [85] */
-    new Crate({ id: 43, series: 86, effects: gen3FX, unusual: 1, autoChance: 2}),
-    new Crate({ id: 34, series: 0, effects: hw14FX, note: 8, unusual: 1, autoChance: 2, creepyBonus: true}), /*  Unlocked Creepy Scout Crate */ 
-    new Crate({ id: 35, series: 0, effects: hw14FX, note: 8, unusual: 1, autoChance: 2, creepyBonus: true}), /*  Unlocked Creepy Soldier Crate */ 
-    new Crate({ id: 36, series: 0, effects: hw14FX, note: 8, unusual: 1, autoChance: 2, creepyBonus: true}), /*  Unlocked Creepy Pyro Crate */ 
-    new Crate({ id: 37, series: 0, effects: hw14FX, note: 8, unusual: 1, autoChance: 2, creepyBonus: true}), /*  Unlocked Creepy Demo Crate [90] */ 
-    new Crate({ id: 38, series: 0, effects: hw14FX, note: 8, unusual: 1, autoChance: 2, creepyBonus: true}), /*  Unlocked Creepy Heavy Crate */ 
-    new Crate({ id: 39, series: 0, effects: hw14FX, note: 8, unusual: 1, autoChance: 2, creepyBonus: true}), /*  Unlocked Creepy Engineer Crate */ 
-    new Crate({ id: 40, series: 0, effects: hw14FX, note: 8, unusual: 1, autoChance: 2, creepyBonus: true}), /*  Unlocked Creepy Medic Crate */ 
-    new Crate({ id: 41, series: 0, effects: hw14FX, note: 8, unusual: 1, autoChance: 2, creepyBonus: true}), /*  Unlocked Creepy Sniper Crate */ 
-    new Crate({ id: 42, series: 0, effects: hw14FX, note: 8, unusual: 1, autoChance: 2, creepyBonus: true}), /*  Unlocked Creepy Spy Crate [95] */ 
-    new Crate({ id: 44, series: 87, effects: eotlFX, note: 2, unusual: 1, autoChance: 2}),
-    new Crate({ id: 45, series: 88, effects: allGensFX, note: 2, unusual: 1, autoChance: 2}),
-    new Crate({ id: 46, series: 89, effects: allGensFX, note: 4, unusual: 1, autoChance: 2}),
+    new Crate({ id: 28, series: 78, effects: gen3FX, note: 2, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 29, series: 79, effects: gen3FX, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 30, series: 81, effects: gen3FX, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 31, series: 82, effects: gen3FX, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 31, series: 83, effects: gen3FX, note: 142, unusual: 1, autoChance: 2 }), /*  [80] */
+    new Crate({ id: 3, series: 0, effects: tauntFX, note: 7, unusual: 3, autoChance: 2 }), /*  Mann Co. Audition Reel */
+    new Crate({ id: 32, series: 0, note: 2, autoChance: 2 }), /*  Bread Box */
+    new Crate({ id: 33, series: 0, effects: gen3FX, unusual: 1, autoChance: 2 }), /*  Mann Co. Stockpile Crate */
+    new Crate({ id: 31, series: 84, effects: gen3FX, note: 142, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 31, series: 85, effects: gen3FX, unusual: 1, autoChance: 2 }), /* [85] */
+    new Crate({ id: 43, series: 86, effects: gen3FX, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 34, series: 0, effects: hw14FX, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Scout Crate */
+    new Crate({ id: 35, series: 0, effects: hw14FX, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Soldier Crate */
+    new Crate({ id: 36, series: 0, effects: hw14FX, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Pyro Crate */
+    new Crate({ id: 37, series: 0, effects: hw14FX, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Demo Crate [90] */
+    new Crate({ id: 38, series: 0, effects: hw14FX, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Heavy Crate */
+    new Crate({ id: 39, series: 0, effects: hw14FX, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Engineer Crate */
+    new Crate({ id: 40, series: 0, effects: hw14FX, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Medic Crate */
+    new Crate({ id: 41, series: 0, effects: hw14FX, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Sniper Crate */
+    new Crate({ id: 42, series: 0, effects: hw14FX, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Spy Crate [95] */
+    new Crate({ id: 44, series: 87, effects: eotlFX, note: 2, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 45, series: 88, effects: allGensFX, note: 2, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 46, series: 89, effects: allGensFX, note: 4, unusual: 1, autoChance: 2 }),
     new Crate({ id: 31, series: 90, effects: allGensFX, note: 6, unusual: 1 }),
-    new Crate({ id: 31, series: 91, effects: allGensFX, note: 142, unusual: 1, autoChance: 2}), /*  [100] */
-    new Crate({ id: 31, series: 92, effects: allGensFX, note: 1, unusual: 1}),
-    new Crate({ id: 4, series: 93, effects: oldWeaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true}), /*  Concealed Killer Weapons Case */ 
-    new Crate({ id: 47, series: 94, effects: oldWeaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
-    new Crate({ id: 48, series: 95, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
-    new Crate({ id: 49, series: 96, effects: invasionFX, note: 5, unusual: 2, autoChance: 1, bonus: true}), /* [105] */
-    new Crate({ id: 50, series: 97, effects: invasionFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
-    new Crate({ id: 51, series: 98, effects: hw15FX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
-    new Crate({ id: 52, series: 99, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
-    new Crate({ id: 53, series: 100, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
-    new Crate({ id: 54, series: 101, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true}), /*  [110] */
-    new Crate({ id: 55, series: 102, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
-    new Crate({ id: 31, series: 103, effects: allGensFX, note: 1, unusual: 1}),
-    new Crate({ id: 56, series: 104, effects: hw16FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [827, 828, 829], chance: 5000}}),
-    new Crate({ id: 57, series: 105, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [972], chance: 4000}, oneExclusiveBonus: true}),
-    new Crate({ id: 58, series: 106, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true}), /* [115] */
-    new Crate({ id: 59, series: 107, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
-    new Crate({ id: 60, series: 108, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
-    new Crate({ id: 61, series: 109, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
-    new Crate({ id: 62, series: 110, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
-    new Crate({ id: 63, series: 111, autoChance: 1}), /*  [120] */
-    new Crate({ id: 64, series: 114, autoChance: 1}),
-    new Crate({ id: 65, series: 117, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [972], chance: 4000}, oneExclusiveBonus: true}),
-    new Crate({ id: 66, series: 118, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
-    new Crate({ id: 67, series: 119, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
-    new Crate({ id: 68, series: 120, effects: hw18FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [832, 835, 836, 837], chance: 5000}}), /* [125] */
-    new Crate({ id: 69, series: 121, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
-    new Crate({ id: 70, series: 122, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [972], chance: 4000}, oneExclusiveBonus: true}),
-    new Crate({ id: 71, series: 123, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
-    new Crate({ id: 72, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2}),
-    new Crate({ id: 73, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2}), /*  [130] */
-    new Crate({ id: 74, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2}),
-    new Crate({ id: 75, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2}),
-    new Crate({ id: 76, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2}),
-    new Crate({ id: 77, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2}),
-    new Crate({ id: 78, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2}), /* [135] */
-    new Crate({ id: 79, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2}),
-    new Crate({ id: 80, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2}),
-    new Crate({ id: 81, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2}),
-    new Crate({ id: 82, series: 124, effects: hw19FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [1647, 1648, 1649, 1650, 1651], chance: 5000}}),
-    new Crate({ id: 83, series: 125, effects: xmas19FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [972], chance: 4000}, oneExclusiveBonus: true}), /*  [140] */
-    new Crate({ id: 84, series: 126, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
-    new Crate({ id: 85, series: 127, effects: summer20FX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
-    new Crate({ id: 86, series: 128, effects: hw20FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [966, 967, 968, 969, 970, 971], chance: 5000}}),
-    new Crate({ id: 87, series: 129, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
-    new Crate({ id: 88, series: 130, effects: xmas20FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [972], chance: 4000}, oneExclusiveBonus: true}), /* [145] */
-    new Crate({ id: 89, series: 131, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
-    new Crate({ id: 90, series: 132, effects: summer21FX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
-    new Crate({ id: 91, series: 133, effects: hw21FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: {loot: [1745, 1746, 1747, 1748, 1749], chance: 5000}}),
-    new Crate({ id: 92, series: 134, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
-
+    new Crate({ id: 31, series: 91, effects: allGensFX, note: 142, unusual: 1, autoChance: 2 }), /*  [100] */
+    new Crate({ id: 31, series: 92, effects: allGensFX, note: 1, unusual: 1 }),
+    new Crate({ id: 4, series: 93, effects: oldWeaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }), /*  Concealed Killer Weapons Case */
+    new Crate({ id: 47, series: 94, effects: oldWeaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 48, series: 95, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 49, series: 96, effects: invasionFX, note: 5, unusual: 2, autoChance: 1, bonus: true }), /* [105] */
+    new Crate({ id: 50, series: 97, effects: invasionFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 51, series: 98, effects: hw15FX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 52, series: 99, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 53, series: 100, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 54, series: 101, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true }), /*  [110] */
+    new Crate({ id: 55, series: 102, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 31, series: 103, effects: allGensFX, note: 1, unusual: 1 }),
+    new Crate({ id: 56, series: 104, effects: hw16FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [827, 828, 829], chance: 5000 } }),
+    new Crate({ id: 57, series: 105, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }),
+    new Crate({ id: 58, series: 106, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true }), /* [115] */
+    new Crate({ id: 59, series: 107, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 60, series: 108, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 61, series: 109, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 62, series: 110, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 63, series: 111, autoChance: 1 }), /*  [120] */
+    new Crate({ id: 64, series: 114, autoChance: 1 }),
+    new Crate({ id: 65, series: 117, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }),
+    new Crate({ id: 66, series: 118, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 67, series: 119, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 68, series: 120, effects: hw18FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [832, 835, 836, 837], chance: 5000 } }), /* [125] */
+    new Crate({ id: 69, series: 121, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 70, series: 122, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }),
+    new Crate({ id: 71, series: 123, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 72, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }),
+    new Crate({ id: 73, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }), /*  [130] */
+    new Crate({ id: 74, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }),
+    new Crate({ id: 75, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }),
+    new Crate({ id: 76, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }),
+    new Crate({ id: 77, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }),
+    new Crate({ id: 78, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }), /* [135] */
+    new Crate({ id: 79, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }),
+    new Crate({ id: 80, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }),
+    new Crate({ id: 81, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }),
+    new Crate({ id: 82, series: 124, effects: hw19FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [1647, 1648, 1649, 1650, 1651], chance: 5000 } }),
+    new Crate({ id: 83, series: 125, effects: xmas19FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }), /*  [140] */
+    new Crate({ id: 84, series: 126, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 85, series: 127, effects: summer20FX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 86, series: 128, effects: hw20FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [966, 967, 968, 969, 970, 971], chance: 5000 } }),
+    new Crate({ id: 87, series: 129, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 88, series: 130, effects: xmas20FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }), /* [145] */
+    new Crate({ id: 89, series: 131, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 90, series: 132, effects: summer21FX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 91, series: 133, effects: hw21FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [1745, 1746, 1747, 1748, 1749], chance: 5000 } }),
+    new Crate({ id: 92, series: 134, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 93, series: 135, effects: xmas21FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }), /* [150] */
 ];
 // This is the order the crates will show up in the menu
-let crateOrder = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149];
+export let crateOrder = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150];
 // Define loot for each crate
 cA[0].loot = [
     new Item({ id: 1, quality: 1 }),
@@ -2096,10 +2094,10 @@ cA[127].loot = [
     new Item({ id: 1430, quality: 10, grade: 3 }),
     new Item({ id: 1431, quality: 4, grade: 4 }),
     new Item({ id: 1432, quality: 10, grade: 4 }),
-    new Item({ id: 1433, quality: 4, grade: 4 }), 
-    new Item({ id: 1434, quality: 4, grade: 4 }), 
-    new Item({ id: 1435, quality: 4, grade: 4 }), 
-    new Item({ id: 1436, quality: 4, grade: 5 }), 
+    new Item({ id: 1433, quality: 4, grade: 4 }),
+    new Item({ id: 1434, quality: 4, grade: 4 }),
+    new Item({ id: 1435, quality: 4, grade: 4 }),
+    new Item({ id: 1436, quality: 4, grade: 5 }),
     new Item({ id: 1437, quality: 10, grade: 5 }),
     new Item({ id: 1438, quality: 10, grade: 5 }),
     new Item({ id: 1439, quality: 10, grade: 6 }),
@@ -2863,4 +2861,26 @@ cA[149].loot = [ // hw 2021 war paints
     new Item({ id: 1760, quality: 6, grade: 5 }),
     new Item({ id: 1761, quality: 6, grade: 5 }),
     new Item({ id: 1762, quality: 6, grade: 6 })
+];
+cA[150].loot = [ // winter 2021 cosmetic case
+    new Item({ id: 1768, quality: 10, grade: 3 }),
+    new Item({ id: 1769, quality: 10, grade: 3 }),
+    new Item({ id: 1770, quality: 4, grade: 3 }),
+    new Item({ id: 1771, quality: 4, grade: 3 }),
+    new Item({ id: 1772, quality: 10, grade: 3 }),
+    new Item({ id: 1773, quality: 10, grade: 3 }),
+    new Item({ id: 1774, quality: 4, grade: 3 }),
+    new Item({ id: 1775, quality: 10, grade: 3 }),
+    new Item({ id: 1776, quality: 10, grade: 3 }),
+    new Item({ id: 1777, quality: 10, grade: 3 }),
+    new Item({ id: 1778, quality: 4, grade: 4 }),
+    new Item({ id: 1779, quality: 10, grade: 4 }),
+    new Item({ id: 1780, quality: 10, grade: 4 }),
+    new Item({ id: 1781, quality: 10, grade: 4 }),
+    new Item({ id: 1782, quality: 4, grade: 4 }),
+    new Item({ id: 1783, quality: 10, grade: 4 }),
+    new Item({ id: 1784, quality: 10, grade: 5 }),
+    new Item({ id: 1785, quality: 10, grade: 5 }),
+    new Item({ id: 1786, quality: 10, grade: 5 }),
+    new Item({ id: 1787, quality: 4, grade: 6 }),
 ];

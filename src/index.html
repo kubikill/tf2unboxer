@@ -15,13 +15,13 @@
     <meta name="application-name" content="Unboxer.tf">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#383530">
-    <meta name="Description" content="A free Team Fortress 2 crate/case simulator. Try your luck at opening one of over 150 TF2 crates/cases! Now with the new Scream Fortress XIII cases!" />
+    <meta name="Description" content="A free Team Fortress 2 crate/case simulator. Try your luck at opening one of over 150 TF2 crates/cases! Now with the new Winter 2021 Cosmetic Case!" />
     <meta name="robots" content="noarchive, noimageindex" />
     <meta property="og:title" content="Unboxer.tf - a TF2 crate/case simulator">
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://unboxer.tf/thumbnail.png">
     <meta property="og:url" content="https://unboxer.tf">
-    <meta property="og:description" content="A free Team Fortress 2 crate/case simulator. Try your luck at opening one of over 150 TF2 crates/cases! Now with the new Scream Fortress XIII cases!">
+    <meta property="og:description" content="A free Team Fortress 2 crate/case simulator. Try your luck at opening one of over 150 TF2 crates/cases! Now with the new Winter 2021 Cosmetic Case!">
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Unboxer.tf - a TF2 crate/case simulator" />
     <meta name="twitter:description" content="A free Team Fortress 2 crate/case simulator. Try your luck at opening one of over 150 TF2 crates/cases!" />
@@ -30,14 +30,12 @@
 
     <link rel="preconnect" href="https://unboxertf2.goatcounter.com">
     <link rel="preconnect" href="https://gc.zgo.at">
-    <link rel="preload" as="image" href="./images/crate/crimson_cache_case.webp" />
+    <link rel="preload" as="image" href="./images/crate/winter_2021_cosmetic_case.webp" />
     <link rel="preload" as="font" href="./font/tf2build.woff2" crossorigin="anonymous" />
     <link rel="preload" as="font" href="./font/tf2secondary.woff2" crossorigin="anonymous" />
     <link rel="prefetch" href="./js/bulkWorker.js" crossorigin="anonymous" />
     <link rel="prefetch" href="./font/icons.ttf?jqgza0" crossorigin="anonymous" />
-    <link rel="preload" href="./css/_icons.scss" as="style">
     <link rel="preload" href="./css/main.scss" as="style">
-    <link rel="stylesheet" href="./css/_icons.scss" media="print" onload='this.media="all"'>
     <link rel="stylesheet" href="./css/main.scss" media="print" onload='this.media="all"'>
 
     <style>
@@ -58,14 +56,21 @@
             },
         }
     </script>
+    <script type="module">
+        // Register service worker
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register(new URL('./sw.js', import.meta.url))
+            });
+        }
+    </script>
     <script data-goatcounter="https://unboxertf2.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
     <!-- Load TF2 Unboxer scripts-->
-    <script src="./js/text.js?v=1" defer></script>
-    <script src="./js/itemnames.js?v=1" defer></script>
-    <script src="./js/cratenames.js?v=1" defer></script>
-    <script src="./js/unusualeffects.js?v=1" defer></script>
-    <script src="./js/crate.js?v=1" defer></script>
-    <script src="./js/tf2unboxer.js?v=1" defer type="module"></script>
+    <script src="./js/text.js" defer></script>
+    <script src="./js/itemnames.js" defer></script>
+    <script src="./js/cratenames.js" defer></script>
+    <script src="./js/unusualeffects.js" defer></script>
+    <script src="./js/tf2unboxer.js" defer type="module"></script>
 </head>
 
 <body>
@@ -135,7 +140,7 @@
                                 <li class="colorassassin">The Bone Cone</li>
                                 <li class="colorassassin">Wandering Wraith</li>
                                 <li class="colorelite">Towering Patch of Pumpkins</li>
-                            </ul> 
+                            </ul>
                             <span id="cratelootbonus">
                                 <p>This case may contain bonus items.</p>
                                 <p>Crate/case-exclusive bonus items:</p>
@@ -698,7 +703,7 @@
                         <option value="bra">Português do Brasil</option>
                         <option value="rom">Romana</option>
                         <option value="swe">Svenska</option>
-                        <option value="sch">中文(简体)‬</option>
+                        <option value="sch">中文(简体)</option>
                     </select>
                 </div>
                 <p>unboxer.tf is looking for translators! You can <a href="https://steamcommunity.com/groups/tf2unboxer/discussions/1/1743355067121147992/" target="_blank" rel="noopener">apply here</a>.</p>
@@ -773,16 +778,16 @@
                         <option value="none" data-string="177" selected>Disabled</option>
                         <option value="hw11" data-string="178">Very Scary Halloween Special (2011)</option>
                         <option value="hw12" data-string="179">Spectral Halloween Special (2012)</option>
-                        <option value="hw13" data-string="180">Scream Fortress V (2013)‬</option>
-                        <option value="hw14" data-string="181">Scream Fortress V‬I (2014)</option>
+                        <option value="hw13" data-string="180">Scream Fortress V (2013)</option>
+                        <option value="hw14" data-string="181">Scream Fortress VI (2014)</option>
                         <option value="hw16" data-string="182">Scream Fortress VIII (2016)</option>
                         <option value="hw17" data-string="183">Scream Fortress IX (2017)</option>
-                        <option value="hw18" data-string="184">Scream Fortress X‬ (2018)</option>
+                        <option value="hw18" data-string="184">Scream Fortress X (2018)</option>
                         <option value="hw19" data-string="185">Scream Fortress XI (2019)</option>
                         <option value="xmas19" data-string="203">Smissmas 2019</option>
-                        <option value="hw20" data-string="186">Scream Fortress XII (2020)‬</option>
+                        <option value="hw20" data-string="186">Scream Fortress XII (2020)</option>
                         <option value="xmas20" data-string="202">Smissmas 2020</option>
-                        <option value="hw21" data-string="211">Scream Fortress XIII (2021)‬</option>
+                        <option value="hw21" data-string="211">Scream Fortress XIII (2021)</option>
                     </select>
                 </div>
                 <p data-string="176">This option lets you replace Unusual effects in certain crates/cases with effects
@@ -840,7 +845,7 @@
         </nav>
         <div id="aboutcontainer">
             <div id="aboutcredits" class="visible">
-                <h1 id="creditstitle">Unboxer.tf v2.05</h1>
+                <h1 id="creditstitle">Unboxer.tf v2.06</h1>
                 <p data-string="64">Made by <a href="https://steamcommunity.com/id/kubikill" target="_blank" rel="noopener">kubikill</a>
                 </p>
                 <p data-string="65">Special thanks to <a href="https://steamcommunity.com/profiles/76561198117761965" target="_blank" rel="noopener">Gorno</a>
@@ -889,6 +894,14 @@
                 </ol>
             </div>
             <div id="aboutchangelog">
+                <h1>v2.06 - December 3rd, 2021</h1>
+                <section>
+                    <p>- Added the Winter 2021 Cosmetic Case</p>
+                    <p>- Added new unusualifiers for the 3 taunts added in TF2's Smissmas 2021 update</p>
+                    <p>- Added Smissmas 2021 to event mode</p>
+                    <p>- Updated translations</p>
+                    <p>- Migrated code to Parcel v2 for faster performance, shorter loading speeds and easier development</p>
+                </section>
                 <h1>v2.05 - October 6th, 2021</h1>
                 <section>
                     <p>- Added the Crimson Cache Case and the Scream Fortress XIII War Paint Case</p>

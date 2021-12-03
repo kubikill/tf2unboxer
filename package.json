@@ -8,6 +8,7 @@
     "start": "parcel --no-source-maps",
     "build": "parcel build"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kubikill/tf2unboxer.git"

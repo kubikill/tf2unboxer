@@ -1825,7 +1825,7 @@ let dataEffects = {
         schema: 186,
         pol: "bogaty zachód Słońca",
         bra: "Ocaso saboroso",
-        hun: "Ízléses Naplemente"
+        hun: "Ízléses naplemente"
     },
     172: {
         img: "raspberry_bloom",
@@ -1846,76 +1846,203 @@ let dataEffects = {
     174: {
         img: "tempered_thorns",
         eng: "Tempered Thorns",
-        schema: 189
+        schema: 189,
+        pol: "zahartowane ciernie",
+        hun: "Szolid szarvak",
+        swe: "Härdade horn"
     },
     175: {
         img: "devilish_diablo",
         eng: "Devilish Diablo",
-        schema: 190
+        schema: 190,
+        pol: "diabelski pomiot",
+        bra: "Diabo diabólico",
+        hun: "Ördögi ördög",
+        swe: "Diabolisk djävul"
     },
     176: {
         img: "severed_serration",
         eng: "Severed Serration",
-        schema: 191
+        schema: 191,
+        pol: "wyostrzone zmysły",
+        hun: "Heves hegyesség",
+        swe: "Tjusiga taggar"
     },
     177: {
         img: "shrieking_shades",
         eng: "Shrieking Shades",
-        schema: 192
+        schema: 192,
+        pol: "wrzeszczące cienie",
+        hun: "Sikoltó árnyak",
+        swe: "Gapande gastar"
     },
     178: {
         img: "restless_wraiths",
         eng: "Restless Wraiths",
-        schema: 193
+        schema: 193,
+        pol: "niespokojne upiory",
+        hun: "Nyugtalan lidércek",
+        swe: "Osaliga andar"
     },
-    179: { //
+    179: {
         img: "infernal_wraith",
         eng: "Infernal Wraith",
-        schema: 195
+        schema: 195,
+        pol: "piekielne upiory",
+        hun: "Pokoli lidérc",
+        swe: "Infernaliska vålnader"
     },
     180: {
         img: "phantom_crown",
         eng: "Phantom Crown",
-        schema: 196
+        schema: 196,
+        pol: "widmowa korona",
+        hun: "Fantomkorona",
+        swe: "Fantomkrona"
     },
     181: {
         img: "ancient_specter",
         eng: "Ancient Specter",
-        schema: 197
+        schema: 197,
+        pol: "starożytne widmo",
+        hun: "Ősi jelenés",
+        swe: "Forntida spöke"
     },
     182: {
         img: "viridescent_peeper",
         eng: "Viridescent Peeper",
-        schema: 198
+        schema: 198,
+        pol: "zielonkawy podglądacz",
+        hun: "Zöld kémlelő",
+        swe: "Kusliga korpgluggar"
     },
     183: {
         img: "eyes_of_molten",
         eng: "Eyes of Molten",
-        schema: 199
+        schema: 199,
+        pol: "oczy stopionego",
+        hun: "Izzó szemek",
+        swe: "Brännande blick"
     },
     184: {
         img: "ominous_stare",
         eng: "Ominous Stare",
-        schema: 200
+        schema: 200,
+        pol: "złowieszcze spojrzenie",
+        hun: "Baljós tekintet",
+        swe: "Olycksbådande blick"
     },
     185: {
         img: "pumpkin_moon",
         eng: "Pumpkin Moon",
-        schema: 201
+        schema: 201,
+        pol: "dyniowy Księżyc",
+        hun: "Tökhold",
+        swe: "Pumpamåne"
     },
     186: {
         img: "frantic_spooker",
         eng: "Frantic Spooker",
-        schema: 202
+        schema: 202,
+        pol: "szalony straszak",
+        hun: "Kétségbeesett kísértet",
+        swe: "Frenetiskt spöke"
     },
     187: {
         img: "frightened_poltergeist",
         eng: "Frightened Poltergeist",
-        schema: 203
+        schema: 203,
+        pol: "przestraszony duch",
+        bra: "Poltergeist pávido",
+        hun: "Rémült kísértet",
+        swe: "Skrämd poltergeist"
     },
     188: {
         img: "energetic_haunter",
         eng: "Energetic Haunter",
-        schema: 204
+        schema: 204,
+        pol: "energetyczna zjawa",
+        hun: "Energikus kísértő",
+        swe: "Energisk gast"
+    },
+    189: {
+        img: "smissmas_tree",
+        eng: "Smissmas Tree",
+        schema: 205
+    },
+    190: {
+        img: "hospitable_festivity",
+        eng: "Hospitable Festivity",
+        schema: 206
+    },
+    191: {
+        img: "condescending_embrace",
+        eng: "Condescending Embrace",
+        schema: 207
+    },
+    192: {
+        img: "sparkling_spruce",
+        eng: "Sparkling Spruce",
+        schema: 209
+    },
+    193: {
+        img: "glittering_juniper",
+        eng: "Glittering Juniper",
+        schema: 210
+    },
+    194: {
+        img: "prismatic_pine",
+        eng: "Prismatic Pine",
+        schema: 211
+    },
+    195: {
+        img: "smissmas_swirl",
+        eng: "Smissmas Swirl",
+        schema: 212
+    },
+    196: {
+        img: "twisting_lights",
+        eng: "Twisting Lights",
+        schema: 213
+    },
+    197: {
+        img: "stardust_pathway",
+        eng: "Stardust Pathway",
+        schema: 214
+    },
+    198: {
+        img: "flurry_rush",
+        eng: "Flurry Rush",
+        schema: 215
+    },
+    199: {
+        img: "spark_of_smissmas",
+        eng: "Spark of Smissmas",
+        schema: 216
+    },
+    200: {
+        img: "polar_forecast",
+        eng: "Polar Forecast",
+        schema: 218
+    },
+    201: {
+        img: "shining_stag",
+        eng: "Shining Stag",
+        schema: 219
+    },
+    202: {
+        img: "holiday_horns",
+        eng: "Holiday Horns",
+        schema: 220
+    },
+    203: {
+        img: "ardent_antlers",
+        eng: "Ardent Antlers",
+        schema: 221
+    },
+    204: {
+        img: "festive_lights",
+        eng: "Festive Lights",
+        schema: 223
     }
 }
