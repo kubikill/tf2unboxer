@@ -1849,7 +1849,8 @@ let dataEffects = {
         schema: 189,
         pol: "zahartowane ciernie",
         hun: "Szolid szarvak",
-        swe: "Härdade horn"
+        swe: "Härdade horn",
+        bra: "Chifres temperados"
     },
     175: {
         img: "devilish_diablo",
@@ -1866,7 +1867,8 @@ let dataEffects = {
         schema: 191,
         pol: "wyostrzone zmysły",
         hun: "Heves hegyesség",
-        swe: "Tjusiga taggar"
+        swe: "Tjusiga taggar",
+        bra: "Saliência serrilhada"
     },
     177: {
         img: "shrieking_shades",
@@ -1874,7 +1876,8 @@ let dataEffects = {
         schema: 192,
         pol: "wrzeszczące cienie",
         hun: "Sikoltó árnyak",
-        swe: "Gapande gastar"
+        swe: "Gapande gastar",
+        bra: "Aparição aflita"
     },
     178: {
         img: "restless_wraiths",
@@ -1882,7 +1885,8 @@ let dataEffects = {
         schema: 193,
         pol: "niespokojne upiory",
         hun: "Nyugtalan lidércek",
-        swe: "Osaliga andar"
+        swe: "Osaliga andar",
+        bra: "Assombro agitado"
     },
     179: {
         img: "infernal_wraith",
@@ -1890,7 +1894,8 @@ let dataEffects = {
         schema: 195,
         pol: "piekielne upiory",
         hun: "Pokoli lidérc",
-        swe: "Infernaliska vålnader"
+        swe: "Infernaliska vålnader",
+        bra: "Espíritos infernais"
     },
     180: {
         img: "phantom_crown",
@@ -1898,7 +1903,8 @@ let dataEffects = {
         schema: 196,
         pol: "widmowa korona",
         hun: "Fantomkorona",
-        swe: "Fantomkrona"
+        swe: "Fantomkrona",
+        bra: "Coroa fantasmagórica"
     },
     181: {
         img: "ancient_specter",
@@ -1906,7 +1912,8 @@ let dataEffects = {
         schema: 197,
         pol: "starożytne widmo",
         hun: "Ősi jelenés",
-        swe: "Forntida spöke"
+        swe: "Forntida spöke",
+        bra: "Espectro ancestral"
     },
     182: {
         img: "viridescent_peeper",
@@ -1914,7 +1921,8 @@ let dataEffects = {
         schema: 198,
         pol: "zielonkawy podglądacz",
         hun: "Zöld kémlelő",
-        swe: "Kusliga korpgluggar"
+        swe: "Kusliga korpgluggar",
+        bra: "Visão viridescente"
     },
     183: {
         img: "eyes_of_molten",
@@ -1922,7 +1930,8 @@ let dataEffects = {
         schema: 199,
         pol: "oczy stopionego",
         hun: "Izzó szemek",
-        swe: "Brännande blick"
+        swe: "Brännande blick",
+        bra: "Testemunha das chamas"
     },
     184: {
         img: "ominous_stare",
@@ -1930,7 +1939,8 @@ let dataEffects = {
         schema: 200,
         pol: "złowieszcze spojrzenie",
         hun: "Baljós tekintet",
-        swe: "Olycksbådande blick"
+        swe: "Olycksbådande blick",
+        bra: "Olhar odioso"
     },
     185: {
         img: "pumpkin_moon",
@@ -1938,7 +1948,8 @@ let dataEffects = {
         schema: 201,
         pol: "dyniowy Księżyc",
         hun: "Tökhold",
-        swe: "Pumpamåne"
+        swe: "Pumpamåne",
+        bra: "Lua de abóbora"
     },
     186: {
         img: "frantic_spooker",
@@ -1946,7 +1957,8 @@ let dataEffects = {
         schema: 202,
         pol: "szalony straszak",
         hun: "Kétségbeesett kísértet",
-        swe: "Frenetiskt spöke"
+        swe: "Frenetiskt spöke",
+        bra: "Camarada ansioso"
     },
     187: {
         img: "frightened_poltergeist",
@@ -1963,86 +1975,128 @@ let dataEffects = {
         schema: 204,
         pol: "energetyczna zjawa",
         hun: "Energikus kísértő",
-        swe: "Energisk gast"
+        swe: "Energisk gast",
+        bra: "Espectro energético"
     },
     189: {
         img: "smissmas_tree",
         eng: "Smissmas Tree",
-        schema: 205
+        schema: 205,
+        pol: "śniąteczne drzewko",
+        bra: "Árvore de Natal",
+        hun: "Galácsonyfa"
     },
     190: {
         img: "hospitable_festivity",
         eng: "Hospitable Festivity",
-        schema: 206
+        schema: 206,
+        pol: "w gości na Święta",
+        bra: "Festividade hospitaleira",
+        hun: "Vendégszerető ünnepiesség"
     },
     191: {
         img: "condescending_embrace",
         eng: "Condescending Embrace",
-        schema: 207
+        schema: 207,
+        pol: "wzgardliwe objęcie",
+        hun: "Leereszkedő ölelés"
     },
     192: {
         img: "sparkling_spruce",
         eng: "Sparkling Spruce",
-        schema: 209
+        schema: 209,
+        pol: "iskrzący świerk",
+        hun: "Sziporkázó luc"
     },
     193: {
         img: "glittering_juniper",
         eng: "Glittering Juniper",
-        schema: 210
+        schema: 210,
+        pol: "lśniący jałowiec",
+        hun: "Csillogó boróka"
     },
     194: {
         img: "prismatic_pine",
         eng: "Prismatic Pine",
-        schema: 211
+        schema: 211,
+        pol: "pryzmatyczna sosna",
+        bra: "Pinheiro prismático",
+        hun: "Színjátszó fenyő"
     },
     195: {
         img: "smissmas_swirl",
-        eng: "Smissmas Swirl",
-        schema: 212
+        eng: "Spiraling Lights",
+        schema: 212,
+        pol: "spiralne światełka",
+        hun: "Forgó fények",
+        swe: "Spiralljus"
     },
     196: {
         img: "twisting_lights",
         eng: "Twisting Lights",
-        schema: 213
+        schema: 213,
+        pol: "pokręcone światełka",
+        hun: "Táncoló fények"
     },
     197: {
         img: "stardust_pathway",
         eng: "Stardust Pathway",
-        schema: 214
+        schema: 214,
+        pol: "gwiezdna ścieżka",
+        bra: "Estrada estrelada",
+        hun: "Csillagporösvény"
     },
     198: {
         img: "flurry_rush",
         eng: "Flurry Rush",
-        schema: 215
+        schema: 215,
+        pol: "śnieżna gorączka",
+        hun: "Pelyhes pukkanás"
     },
     199: {
         img: "spark_of_smissmas",
         eng: "Spark of Smissmas",
-        schema: 216
+        schema: 216,
+        pol: "iskra Śniąt",
+        bra: "Chama do Natal",
+        hun: "Galácsonyi szikra"
     },
     200: {
         img: "polar_forecast",
         eng: "Polar Forecast",
-        schema: 218
+        schema: 218,
+        pol: "polarna prognoza",
+        bra: "Previsão polar",
+        hun: "Sarkvidéki előrejelzés"
     },
     201: {
         img: "shining_stag",
         eng: "Shining Stag",
-        schema: 219
+        schema: 219,
+        pol: "lśniący jeleń",
+        hun: "Ragyogó rénszarvas"
     },
     202: {
         img: "holiday_horns",
         eng: "Holiday Horns",
-        schema: 220
+        schema: 220,
+        pol: "świąteczne rogi",
+        bra: "Galhada galharda",
+        hun: "Ünnepi szarvak"
     },
     203: {
         img: "ardent_antlers",
         eng: "Ardent Antlers",
-        schema: 221
+        schema: 221,
+        pol: "płomienne poroże",
+        hun: "Lángagancsok"
     },
     204: {
         img: "festive_lights",
         eng: "Festive Lights",
-        schema: 223
+        schema: 223,
+        pol: "świąteczne światełka",
+        bra: "Luzes festivas",
+        hun: "Ünnepi fények"
     }
 }

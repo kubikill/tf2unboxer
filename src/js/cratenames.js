@@ -912,17 +912,22 @@ let dataCrates = {
         eng: "Crimson Cache Case",
         pol: "Skrzynia szkarłatnej skrytki",
         hun: "Karmazsin Készlet Táska",
-        swe: "Crimson Cache-väska"
+        swe: "Crimson Cache-väska",
+        bra: "Caixa da Lembrança Carmesim"
     },
     92: {
         img: "scream_fortress_xiii_war_paint_case",
         eng: "Scream Fortress XIII War Paint Case",
         pol: "Skrzynia barw wojennych Scream Fortress XIII",
         hun: "Scream Fortress XIII Harci Festés Táska",
-        swe: "Scream Fortress XIII-krigsfärgväska"
+        swe: "Scream Fortress XIII-krigsfärgväska",
+        bra: "Caixa de Tintas de Guerra do Scream Fortress XIII"
     },
     93: {
         img: "winter_2021_cosmetic_case",
-        eng: "Winter 2021 Cosmetic Case"
+        eng: "Winter 2021 Cosmetic Case",
+        pol: "Zimowa skrzynia ozdób 2021",
+        bra: "Caixa de Cosméticos de Fim de Ano de 2021",
+        hun: "Tél 2021 Díszítő Táska"
     }
 }

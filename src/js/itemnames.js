@@ -18794,7 +18794,8 @@ let dataItems = {
         eng: "Manndatory Attire",
         schema: 31184,
         pol: "Pod krawatem",
-        hun: "Kötelező Viselet"
+        hun: "Kötelező Viselet",
+        bra: "Gravata Mannífica"
     },
     1708: {
         img: "roaming_roman",
@@ -18938,7 +18939,8 @@ let dataItems = {
         schema: 31212,
         pol: "Wszechjedzące beanie",
         hun: "Mindentrágó Sapi",
-        swe: "Beanie, den evigt gnagande"
+        swe: "Beanie, den evigt gnagande",
+        bra: "Gorronzo, o Atormentador"
     },
     1726: {
         img: "death_stare",
@@ -18963,7 +18965,8 @@ let dataItems = {
         schema: 31219,
         pol: "Najstraszniejsza maska JAKA ISTNIEJE",
         hun: "A LEGESlegfélelmetesebb Álarc",
-        swe: "Läskigaste masken NÅGONSIN"
+        swe: "Läskigaste masken NÅGONSIN",
+        bra: "A Máscara Mais Assustadora de TODAS"
     },
     1729: {
         img: "twisted_topper",
@@ -18979,7 +18982,8 @@ let dataItems = {
         schema: 31208,
         pol: "Przerażające pełzaki",
         hun: "Rémséges Pókok",
-        swe: "Krälande kryp"
+        swe: "Krälande kryp",
+        bra: "Aranhas Arrepiantes"
     },
     1731: {
         img: "spooky_head_bouncers",
@@ -18987,7 +18991,8 @@ let dataItems = {
         schema: 31209,
         pol: "Przerażające podskakiwacze",
         hun: "Ijesztő Fejenrezgők",
-        swe: "Läskiga antenner"
+        swe: "Läskiga antenner",
+        bra: "Tiara Tenebrosa"
     },
     1732: {
         img: "tricksters_treats",
@@ -19013,7 +19018,8 @@ let dataItems = {
         schema: 31222,
         pol: "Śmieszkujący sōmen",
         hun: "Vigyorgó Somen",
-        swe: "Grymolle"
+        swe: "Grymolle",
+        bra: "Somen Sorridente"
     },
     1735: {
         img: "second_head_headwear",
@@ -19030,7 +19036,8 @@ let dataItems = {
         schema: 31213,
         pol: "Okwarium",
         hun: "Szemnedvesítő",
-        swe: "Ögonfuktare"
+        swe: "Ögonfuktare",
+        bra: "Aquarolho"
     },
     1737: {
         img: "goalkeeper",
@@ -19038,7 +19045,8 @@ let dataItems = {
         schema: 31217,
         pol: "Bramkarz",
         hun: "Kapus",
-        swe: "Målvakt"
+        swe: "Målvakt",
+        bra: "Goleiro do Gelo"
     },
     1738: {
         img: "alakablamicon",
@@ -19053,7 +19061,8 @@ let dataItems = {
         schema: 31223,
         pol: "Pomysłowy połów",
         hun: "Megakasztott Agyalás",
-        swe: "Fiskarens olycka"
+        swe: "Fiskarens olycka",
+        bra: "Pesque e Pense"
     },
     1740: {
         img: "optic_nerve",
@@ -19061,7 +19070,8 @@ let dataItems = {
         schema: 31224,
         pol: "Nerw wzrokowy",
         hun: "Látóideg",
-        swe: "Synnerv"
+        swe: "Synnerv",
+        bra: "Nervo Óptico"
     },
     1741: {
         img: "gruesome_gourd",
@@ -19069,7 +19079,8 @@ let dataItems = {
         schema: 31227,
         pol: "Gustowna gurda",
         hun: "Irtózatos Tökfej",
-        swe: "Pampig pumpamask"
+        swe: "Pampig pumpamask",
+        bra: "Cabaça do Carrasco"
     },
     1742: {
         img: "the_bone_cone",
@@ -19077,7 +19088,8 @@ let dataItems = {
         schema: 31218,
         pol: "Stożek kości",
         hun: "Csontkúp",
-        swe: "Benstrut"
+        swe: "Benstrut",
+        bra: "Cone Ósseo"
     },
     1743: {
         img: "wandering_wraith",
@@ -19085,7 +19097,8 @@ let dataItems = {
         schema: 31221,
         pol: "Wędrujące widmo",
         hun: "Lángoló Lidérc",
-        swe: "Vandrande vålnad"
+        swe: "Vandrande vålnad",
+        bra: "Aparição Ardente"
     },
     1744: {
         img: "towering_patch_of_pumpkins",
@@ -19093,7 +19106,8 @@ let dataItems = {
         schema: 31210,
         pol: "Niebotyczny słup dyń",
         hun: "Magasan Tornyosuló Tökök",
-        swe: "Reslig pumpapelare"
+        swe: "Reslig pumpapelare",
+        bra: "Pilha Monumental de Abóboras"
     },
     1745: {
         img: "poopy_doe",
@@ -19106,7 +19120,8 @@ let dataItems = {
         schema: 31229,
         pol: "Pierzasty pałkarz",
         hun: "Csőrös Ütős",
-        swe: "Flink fink"
+        swe: "Flink fink",
+        bra: "Bico de Atleta"
     },
     1747: {
         img: "war_dog",
@@ -19114,7 +19129,8 @@ let dataItems = {
         schema: 31230,
         pol: "Pies wojny",
         hun: "Harci Kutya",
-        swe: "Stridshund"
+        swe: "Stridshund",
+        bra: "Cão de Guerra"
     },
     1748: {
         img: "miami_rooster",
@@ -19225,21 +19241,24 @@ let dataItems = {
         schema: 31201,
         pol: "Drwina: Pijany żeglarz",
         hun: "Beszólás: A részeg tengerész",
-        swe: "Hån: Den berusade matrosen"
+        swe: "Hån: Den berusade matrosen",
+        bra: "Provocação: O Marinheiro Bêbado"
     },
     1764: {
         img: "taunt_the_profane_puppeteer",
         eng: "Taunt: The Profane Puppeteer",
         schema: 31202,
         pol: "Drwina: Pyskaty pacynkarz",
-        hun: "Beszólás: A borzasztó bábos"
+        hun: "Beszólás: A borzasztó bábos",
+        bra: "Provocação: O General de Pano"
     },
     1765: {
         img: "taunt_the_mannbulance",
         eng: "Taunt: The Mannbulance!",
         schema: 31203,
         pol: "Drwina: Mannbulans!",
-        hun: "Beszólás: A Manntőautó!"
+        hun: "Beszólás: A Manntőautó!",
+        bra: "Provocação: A Mannbulância!"
     },
     1766: {
         img: "taunt_bare_knuckle_beatdown",
@@ -19253,12 +19272,15 @@ let dataItems = {
         eng: "Taunt: The Homerunner's Hobby",
         schema: 31233,
         pol: "Drwina: Hobby chłystka",
-        hun: "Beszólás: A hazafutó hobbija"
+        hun: "Beszólás: A hazafutó hobbija",
+        bra: "Provocação: Passatempo do Batedor"
     },
     1768: {
         img: "festive_cover_up",
         eng: "Festive Cover-Up",
-        schema: 31257
+        schema: 31257,
+        pol: "Świąteczna przykrywka",
+        hun: "Ünnepi Fedés"
     },
     1769: {
         img: "el_fiestibrero",
@@ -19268,106 +19290,153 @@ let dataItems = {
     1770: {
         img: "ominous_offering",
         eng: "Ominous Offering",
-        schema: 31251
+        schema: 31251,
+        pol: "Podejrzany prezent",
+        bra: "Oferenda Obscura",
+        hun: "Aljas Ajándék"
     },
     1771: {
         img: "brain_cane",
         eng: "Brain Cane",
-        schema: 31248
+        schema: 31248,
+        pol: "Laska mózgowa",
+        hun: "Agyszúrás"
     },
     1772: {
         img: "cozy_catchers",
         eng: "Cozy Catchers",
-        schema: 31250
+        schema: 31250,
+        pol: "Lodowate łapacze",
+        hun: "Hógolyófogó"
     },
     1773: {
         img: "the_giftcrafter",
         eng: "The Giftcrafter",
-        schema: 31246
+        schema: 31246,
+        pol: "Pakowacz prezentów",
+        hun: "Ajándékcsináló"
     },
     1774: {
         img: "festive_frames",
         eng: "Festive Frames",
-        schema: 31252
+        schema: 31252,
+        pol: "Bożonarodzeniowe bryle",
+        bra: "Óculos Ornamentais",
+        hun: "Karácsonyi Keret"
     },
     1775: {
         img: "mooshanka",
         eng: "Mooshanka",
-        schema: 31255
+        schema: 31255,
+        pol: "Karibuszanka",
+        hun: "Holdsánka"
     },
     1776: {
         img: "elf_defense",
         eng: "Elf Defense",
-        schema: 31256
+        schema: 31256,
+        pol: "Elfia obrona",
+        hun: "Manóvédelem"
     },
     1777: {
         img: "gnome_dome",
         eng: "Gnome Dome",
-        schema: 31242
+        schema: 31242,
+        pol: "Kartonowy krasnal",
+        bra: "Natal Artesanal",
+        hun: "Törpefedél"
     },
     1778: {
         img: "elf_made_bandanna",
         eng: "Elf-Made Bandanna",
-        schema: 31260
+        schema: 31260,
+        pol: "Wyelfiona bandana",
+        hun: "Manó Kendő"
     },
     1779: {
         img: "seasonal_spring",
         eng: "Seasonal Spring",
-        schema: 31244
+        schema: 31244,
+        pol: "Sezonowy skoczek",
+        hun: "Feltekert Fejfenyő"
     },
     1780: {
         img: "elf_ignition",
         eng: "Elf Ignition",
-        schema: 31253
+        schema: 31253,
+        pol: "Elfia pożoga",
+        hun: "Manógyújtás"
     },
     1781: {
         img: "train_of_thought",
         eng: "Train Of Thought",
-        schema: 31254
+        schema: 31254,
+        pol: "Tor myślenia",
+        hun: "Mozdonygépész"
     },
     1782: {
         img: "seasonal_employee",
         eng: "Seasonal Employee",
-        schema: 31258
+        schema: 31258,
+        pol: "Pracownik sezonowy",
+        hun: "Szezonális Alkalmazott"
     },
     1783: {
         img: "reindoonihorns",
         eng: "Reindoonihorns",
-        schema: 31249
+        schema: 31249,
+        pol: "Reniferożcowe poroże",
+        hun: "Rénkornissszarv"
     },
     1784: {
         img: "jolly_jester",
         eng: "Jolly Jester",
-        schema: 31243
+        schema: 31243,
+        pol: "Świąteczny śmieszek",
+        bra: "Bobo do Norte",
+        hun: "Boldog Bolondozó"
     },
     1785: {
         img: "merry_cone",
         eng: "Merry Cone",
-        schema: 31247
+        schema: 31247,
+        pol: "Świąteczny stożek",
+        hun: "Vidám Csúcsdísz"
     },
     1786: {
         img: "hat_chocolate",
         eng: "Hat Chocolate",
-        schema: 31259
+        schema: 31259,
+        pol: "Czapka na ciepło",
+        hun: "Fejcsokoládé"
     },
     1787: {
         img: "oh_deer",
         eng: "Oh Deer!",
-        schema: 31245
+        schema: 31245,
+        pol: "Ale jeleń!",
+        hun: "Szarvamra!"
     },
     1788: {
         img: "taunt_doctors_defibrillators",
         eng: "Taunt: Doctor's Defibrillators",
-        schema: 31236
+        schema: 31236,
+        pol: "Drwina: Defibrylatory doktora",
+        bra: "Provocação: Desfibrilador do Doutor",
+        hun: "Beszólás: Orvosi defibrillátor"
     },
     1789: {
         img: "taunt_shooters_stakeout",
         eng: "Taunt: Shooter's Stakeout",
-        schema: 31237
+        schema: 31237,
+        pol: "Drwina: Obcykany obserwator",
+        hun: "Beszólás: Lövészállás"
     },
     1790: {
         img: "taunt_the_hot_wheeler",
         eng: "Taunt: The Hot Wheeler",
-        schema: 31239
+        schema: 31239,
+        pol: "Drwina: Spalacz gum",
+        hun: "Beszólás: Tüzes járgány"
     }
 }
