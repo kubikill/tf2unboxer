@@ -1960,7 +1960,7 @@ function unbox() { // This function handles the unboxing itself: which item is u
                     crateItem = unusualArray[Math.floor(Math.random() * unusualArray.length)];
                     itemId = crateItem.id;
                     break;
-                case 3: // Same as case 1, but items have equal chance of being picked instead
+                case 3: // Same as case 2, but items have equal chance of being picked instead
                     unusualArray = crate.loot.filter(item => {
                         return [6, 7, 9, 10].includes(item.quality);
                     });
@@ -2108,24 +2108,24 @@ function unbox() { // This function handles the unboxing itself: which item is u
         if (generateWear) {
             let randomWear = Math.floor((Math.random() * 10) + 1);
             switch (randomWear) {
-                case 1:
+                case 1: // 10% - Battle Scarred
                     itemWear = 1;
                     break;
                 case 2:
-                case 3:
+                case 3: // 20% - Well-Worn
                     itemWear = 2;
                     break;
                 case 4:
                 case 5:
                 case 6:
-                case 7:
+                case 7: // 40% - Field-Tested
                     itemWear = 3;
                     break;
                 case 8:
-                case 9:
+                case 9: // 20% - Minimal Wear
                     itemWear = 4;
                     break;
-                case 10:
+                case 10: // 10% - Factory New
                     itemWear = 5;
                     break;
             }
@@ -2196,10 +2196,10 @@ function unbox() { // This function handles the unboxing itself: which item is u
                 if (bonusChance <= 2 || save.options.forceBonusItem) { // 40% chance to get bonus drop
                     bonusNum++;
                     bonusChance = Math.floor((Math.random() * 5) + 1) // Between 1 and 5
-                    if (bonusChance == 1) { // 20% chance to get another bonus drop 
+                    if (bonusChance == 1) { // 20% chance to get another bonus drop (8%)
                         bonusNum++;
                         bonusChance = Math.floor((Math.random() * 25) + 1) // Between 1 and 25
-                        if (bonusChance == 1) { // 4% chance
+                        if (bonusChance == 1) { // 4% chance to get third bonus drop (0.32%)
                             bonusNum++;
                         }
                     }
