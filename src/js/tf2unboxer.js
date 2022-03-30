@@ -135,6 +135,7 @@ webpTest.onload = function () {
 };
 webpTest.onerror = function () {
     imageSupport = ".png";
+    DOM.main.img.src = "./images/crate/" + getImg("crate", currentCrateObj.id);
     console.log("WebP is unsupported - failed to load image");
 };
 webpTest.src = 'data:image/webp;base64,UklGRi4AAABXRUJQVlA4TCEAAAAvAUAAEB8wAiMwAgSSNtse/cXjxyCCmrYNWPwmHRH9jwMA';

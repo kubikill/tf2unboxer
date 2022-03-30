@@ -90,20 +90,7 @@ nav {
 }
 
 ::-webkit-scrollbar-button {
-    &:single-button {
-        display: block;
-        border-style: solid;
-        height: 1vh;
-        width: 1vw;
-    }
-
-    &:vertical {
-        height: 0;
-    }
-
-    &:horizontal {
-        height: 0;
-    }
+    display: none;
 }
 
 #aboutchangelog {
