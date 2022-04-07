@@ -255,13 +255,13 @@ export let cA = [
     new Crate({ id: 28, series: 78, effects: gen3FX, note: 2, unusual: 1, autoChance: 2 }),
     new Crate({ id: 29, series: 79, effects: gen3FX, unusual: 1, autoChance: 2 }),
     new Crate({ id: 30, series: 81, effects: gen3FX, unusual: 1, autoChance: 2 }),
-    new Crate({ id: 31, series: 82, effects: gen3FX, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 31, series: 82, effects: gen3FX, unusual: 1 }),
     new Crate({ id: 31, series: 83, effects: gen3FX, note: 142, unusual: 1, autoChance: 2 }), /*  [80] */
     new Crate({ id: 3, series: 0, effects: tauntFX, note: 7, unusual: 3, autoChance: 2 }), /*  Mann Co. Audition Reel */
     new Crate({ id: 32, series: 0, note: 2, autoChance: 2 }), /*  Bread Box */
     new Crate({ id: 33, series: 0, effects: gen3FX, unusual: 1, autoChance: 2 }), /*  Mann Co. Stockpile Crate */
     new Crate({ id: 31, series: 84, effects: gen3FX, note: 142, unusual: 1, autoChance: 2 }),
-    new Crate({ id: 31, series: 85, effects: gen3FX, unusual: 1, autoChance: 2 }), /* [85] */
+    new Crate({ id: 31, series: 85, effects: gen3FX, unusual: 1 }), /* [85] */
     new Crate({ id: 43, series: 86, effects: gen3FX, unusual: 1, autoChance: 2 }),
     new Crate({ id: 34, series: 0, effects: hw14FX, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Scout Crate */
     new Crate({ id: 35, series: 0, effects: hw14FX, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Soldier Crate */
@@ -1342,14 +1342,14 @@ cA[78].loot = [
     new Item({ id: 756, quality: 1 })
 ];
 cA[79].loot = [
-    new Item({ id: 757, quality: 12 }),
-    new Item({ id: 758, quality: 12 }),
-    new Item({ id: 759, quality: 12 }),
-    new Item({ id: 760, quality: 1 }),
-    new Item({ id: 761, quality: 1 }),
-    new Item({ id: 264, quality: 1 }),
-    new Item({ id: 177, quality: 12 }),
-    new Item({ id: 130, quality: 12 })
+    new Item({ id: 757, chance: 2000, quality: 12 }),
+    new Item({ id: 758, chance: 2000, quality: 12 }),
+    new Item({ id: 759, chance: 2000, quality: 12 }),
+    new Item({ id: 760, chance: 1000, quality: 1 }),
+    new Item({ id: 761, chance: 1000, quality: 1 }),
+    new Item({ id: 264, chance: 1000, quality: 1 }),
+    new Item({ id: 177, chance: 500, quality: 12 }),
+    new Item({ id: 130, chance: 500, quality: 12 })
 ];
 cA[80].loot = [
     new Item({ id: 150, quality: 11 }),
@@ -1442,16 +1442,16 @@ cA[84].loot = [
     new Item({ id: 192, quality: 11 })
 ];
 cA[85].loot = [
-    new Item({ id: 1572, quality: 12 }),
-    new Item({ id: 830, quality: 12 }),
-    new Item({ id: 831, quality: 12 }),
-    new Item({ id: 1571, quality: 12 }),
-    new Item({ id: 833, quality: 1 }),
-    new Item({ id: 834, quality: 1 }),
-    new Item({ id: 262, quality: 1 }),
-    new Item({ id: 1404, quality: 12 }),
-    new Item({ id: 1466, quality: 12 }),
-    new Item({ id: 251, quality: 12 })
+    new Item({ id: 1572, chance: 1500, quality: 12 }),
+    new Item({ id: 830, chance: 1500, quality: 12 }),
+    new Item({ id: 831, chance: 1500, quality: 12 }),
+    new Item({ id: 1571, chance: 1500, quality: 12 }),
+    new Item({ id: 833, chance: 1000, quality: 1 }),
+    new Item({ id: 834, chance: 1000, quality: 1 }),
+    new Item({ id: 262, chance: 1000, quality: 1 }),
+    new Item({ id: 1404, chance: 334, quality: 12 }),
+    new Item({ id: 1466, chance: 333, quality: 12 }),
+    new Item({ id: 251, chance: 333, quality: 12 })
 ];
 cA[86].loot = [
     new Item({ id: 889, quality: 1 }),
