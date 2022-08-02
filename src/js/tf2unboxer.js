@@ -1692,12 +1692,15 @@ function generateSteamMarketUrl(arg) {
     }
     if (arg.quality.includes("unusual")) {
         steamUrlItemName = "Unusual " + steamUrlItemName;
+        steamUrlItemName = steamUrlItemName.replace('The ', '');
     }
     if (arg.quality.includes("haunted")) {
         steamUrlItemName = "Haunted " + steamUrlItemName;
+        steamUrlItemName = steamUrlItemName.replace('The ', '');
     }
     if (arg.quality.includes("strange")) {
         steamUrlItemName = "Strange " + steamUrlItemName;
+        steamUrlItemName = steamUrlItemName.replace('The ', '');
     }
     if (arg.wear != 0) {
         steamUrlItemName += ` (${getEngString("ui", wearTableNames[arg.wear])})`;
@@ -1706,7 +1709,7 @@ function generateSteamMarketUrl(arg) {
 }
 
 function generateBackpackTfUrl(arg) {
-    let bpItemName = getEngString("item", arg.item);
+    let bpItemName = getEngString("item", arg.item).replace('The ', '');
     if (arg.item == 770) {
         bpItemName = bpItemName.replace("#ITEM# ", "");
     } else if (arg.wear != 0) {

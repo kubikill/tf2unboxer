@@ -921,7 +921,8 @@ let dataCrates = {
         pol: "Skrzynia barw wojennych Scream Fortress XIII",
         hun: "Scream Fortress XIII Harci Festés Táska",
         swe: "Scream Fortress XIII-krigsfärgväska",
-        bra: "Caixa de Tintas de Guerra do Scream Fortress XIII"
+        bra: "Caixa de Tintas de Guerra do Scream Fortress XIII",
+        fre: "Caisse de peintures Scream Fortress XIII"
     },
     93: {
         img: "winter_2021_cosmetic_case",
@@ -929,5 +930,9 @@ let dataCrates = {
         pol: "Zimowa skrzynia ozdób 2021",
         bra: "Caixa de Cosméticos de Fim de Ano de 2021",
         hun: "Tél 2021 Díszítő Táska"
+    },
+    94: {
+        img: "summer_2022_cosmetic_case",
+        eng: "Summer 2022 Cosmetic Case"
     }
 }
