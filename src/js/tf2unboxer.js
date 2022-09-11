@@ -25,6 +25,9 @@ import {
     xmas19FX,
     xmas20FX,
     xmas21FX,
+    nice2014UnusualPool,
+    allGensFX,
+    limitedLateSummerUnusualPool,
 } from "./crate.js";
 
 // Function for reporting errors to analytics
@@ -688,7 +691,7 @@ function updateUnusualStats(array, upd) {
     }
 
     if (array[0] === 770) {
-        itemName = getString("item", 770).replace("#ITEM#", getString("item", array[1]))
+        itemName = getString("item", 770).replace("#ITEM#", getString("item", array[1])).replace('The ', '');
         img1 = `<img src="./images/item/${getImg("item", 770)}" alt="">`;
         img2 = `<img class="unusualifierimg" src="./images/item/${getImg("item", array[1])}" alt="">`;
     } else {
@@ -866,7 +869,7 @@ function generateCrateDetails(crate, el, saveObj, bonus) {
                     if (item.quality === 12) {
                         itemImg = `<img class="cratedetailsitemimg" src="./images/item/${getImg("item", 452)}">`;
                         kitImg = `<img class="cratedetailskitimg" src="./images/item/${getImg("item", item.id)}">`;
-                        itemName = getString("item", 452).replace("#ITEM#", getString("item", item.id));
+                        itemName = getString("item", 452).replace("#ITEM#", getString("item", item.id)).replace('The ', '');
                     } else {
                         itemImg = `<img class="cratedetailsitemimg" src="./images/item/${getImg("item", item.id)}">`;
                         itemName = getString("item", item.id);
@@ -1038,7 +1041,7 @@ function generateCrateDetails(crate, el, saveObj, bonus) {
                     setGridWidth(1);
 
                     if (saveObject.crates[crate][index].n != 0) {
-                        let itemName = getString("item", 764).replace("#ITEM#", getString("item", item.id));
+                        let itemName = getString("item", 764).replace("#ITEM#", getString("item", item.id)).replace('The ', '');
                         urlOptions = {
                             item: item.id,
                             quality: "unique",
@@ -1071,7 +1074,7 @@ function generateCrateDetails(crate, el, saveObj, bonus) {
                         steamMarketUrl = `<a class="btn tooltiptop" data-tooltip="${getString("ui", 197)}" data-tooltipstring="197" target="_blank" rel="noopener" href="${generateSteamMarketUrl(urlOptions)}"><i class="icon-steam"></i></a>`
                         backpackUrl = generateBackpackTfUrl(urlOptions);
                         marketplaceUrl = generateMarketplaceTfUrl(urlOptions);
-                        let itemName = getString("item", 765).replace("#ITEM#", getString("item", item.id));
+                        let itemName = getString("item", 765).replace("#ITEM#", getString("item", item.id)).replace('The ', '');
                         tempHTML += `<div class="bordercolor colorunique">
                     <p class="cratedetailsitemname">${itemName}<br>
                     <span class="cratedetailskillstreak">${getString("ui", 126)} ${getString("ui", sheenTable[specKit.s])}</span></p>
@@ -1096,7 +1099,7 @@ function generateCrateDetails(crate, el, saveObj, bonus) {
                         steamMarketUrl = `<a class="btn tooltiptop" data-tooltip="${getString("ui", 197)}" data-tooltipstring="197" target="_blank" rel="noopener" href="${generateSteamMarketUrl(urlOptions)}"><i class="icon-steam"></i></a>`
                         backpackUrl = generateBackpackTfUrl(urlOptions);
                         marketplaceUrl = generateMarketplaceTfUrl(urlOptions);
-                        let itemName = getString("item", 766).replace("#ITEM#", getString("item", item.id));
+                        let itemName = getString("item", 766).replace("#ITEM#", getString("item", item.id)).replace('The ', '');
                         tempHTML += `<div class="bordercolor colorunique">
                     <p class="cratedetailsitemname">${itemName}<br>
                     <span class="cratedetailskillstreak">${getString("ui", 126)} ${getString("ui", sheenTable[proKit.s])}<br>
@@ -1159,7 +1162,7 @@ function generateCrateDetails(crate, el, saveObj, bonus) {
                         steamMarketUrl = `<a class="btn tooltiptop" data-tooltip="${getString("ui", 197)}" data-tooltipstring="197" target="_blank" rel="noopener" href="${generateSteamMarketUrl(urlOptions)}"><i class="icon-steam"></i></a>`
                         backpackUrl = generateBackpackTfUrl(urlOptions);
                         marketplaceUrl = generateMarketplaceTfUrl(urlOptions);
-                        let itemName = getString("item", 764).replace("#ITEM#", getString("item", item.id));
+                        let itemName = getString("item", 764).replace("#ITEM#", getString("item", item.id)).replace('The ', '');
                         tempHTML += `<div class="bordercolor colorunique">
                     <p class="cratedetailsitemname">${itemName}</p>
                     <img class="cratedetailsitemimg" src="./images/item/${getImg("item", 764)}">
@@ -1183,7 +1186,7 @@ function generateCrateDetails(crate, el, saveObj, bonus) {
                         steamMarketUrl = `<a class="btn tooltiptop" data-tooltip="${getString("ui", 197)}" data-tooltipstring="197" target="_blank" rel="noopener" href="${generateSteamMarketUrl(urlOptions)}"><i class="icon-steam"></i></a>`
                         backpackUrl = generateBackpackTfUrl(urlOptions);
                         marketplaceUrl = generateMarketplaceTfUrl(urlOptions);
-                        let itemName = getString("item", 765).replace("#ITEM#", getString("item", item.id));
+                        let itemName = getString("item", 765).replace("#ITEM#", getString("item", item.id)).replace('The ', '');
                         tempHTML += `<div class="bordercolor colorunique">
                     <p class="cratedetailsitemname">${itemName}<br>
                     <span class="cratedetailskillstreak">${getString("ui", 126)} ${getString("ui", sheenTable[specKit.s])}</span></p>
@@ -1208,7 +1211,7 @@ function generateCrateDetails(crate, el, saveObj, bonus) {
                         steamMarketUrl = `<a class="btn tooltiptop" data-tooltip="${getString("ui", 197)}" data-tooltipstring="197" target="_blank" rel="noopener" href="${generateSteamMarketUrl(urlOptions)}"><i class="icon-steam"></i></a>`
                         backpackUrl = generateBackpackTfUrl(urlOptions);
                         marketplaceUrl = generateMarketplaceTfUrl(urlOptions);
-                        let itemName = getString("item", 766).replace("#ITEM#", getString("item", item.id));
+                        let itemName = getString("item", 766).replace("#ITEM#", getString("item", item.id)).replace('The ', '');
                         tempHTML += `<div class="bordercolor colorunique">
                     <p class="cratedetailsitemname">${itemName}<br>
                     <span class="cratedetailskillstreak">${getString("ui", 126)} ${getString("ui", sheenTable[proKit.s])}<br>
@@ -1237,7 +1240,7 @@ function generateCrateDetails(crate, el, saveObj, bonus) {
                     marketplaceUrl = generateMarketplaceTfUrl(urlOptions);
                     let itemImg = `<img class="cratedetailsitemimg" src="./images/item/${getImg("item", 452)}">`;
                     let kitImg = `<img class="cratedetailskitimg" src="./images/item/${getImg("item", item.id)}">`;
-                    let itemName = getString("item", 452).replace("#ITEM#", getString("item", item.id));
+                    let itemName = getString("item", 452).replace("#ITEM#", getString("item", item.id)).replace('The ', '');
                     tempHTML += `<div class="bordercolor colorunique">
                     <p class="cratedetailsitemname">${itemName}</p>
                     ${itemImg}${kitImg}
@@ -1520,9 +1523,11 @@ function generateLootList() {
         switch (item.quality) {
             case 11:
                 itemName = getString("item", 764).replace("#ITEM#", getString("item", item.id));
+                itemName = itemName.replace('The ', '');
                 break;
             case 12:
                 itemName = getString("item", 452).replace("#ITEM#", getString("item", item.id));
+                itemName = itemName.replace('The ', '');
                 break;
             default:
                 itemName = getString("item", item.id);
@@ -1558,9 +1563,9 @@ function generateLootList() {
 
         for (let bonusItem of creepyCrateBonusArray) {
             if (bonusItem.quality == 12) {
-                bonusHTML.push(`<li>${getString("item", 452).replace("#ITEM#", getString("item", bonusItem.id))}</li>`);
+                bonusHTML.push(`<li>${getString("item", 452).replace("#ITEM#", getString("item", bonusItem.id)).replace('The ', '')}</li>`);
             } else {
-                bonusHTML.push(`<li>${getString("item", 764).replace("#ITEM#", getString("item", bonusItem.id))}</li>`);
+                bonusHTML.push(`<li>${getString("item", 764).replace("#ITEM#", getString("item", bonusItem.id)).replace('The ', '')}</li>`);
             }
 
         }
@@ -1685,10 +1690,13 @@ function generateSteamMarketUrl(arg) {
                 steamUrlItemName = getEngString("item", 766).replace("#ITEM#", getEngString("item", arg.item));
                 break;
         }
+        steamUrlItemName = steamUrlItemName.replace('The ', '');
     } else if (arg.quality == "strangifier") {
         steamUrlItemName = getEngString("item", 452).replace("#ITEM#", getEngString("item", arg.item));
+        steamUrlItemName = steamUrlItemName.replace('The ', '');
     } else if (arg.item == 770) {
         steamUrlItemName = steamUrlItemName.replace("#ITEM#", getEngString("item", arg.kitItem));
+        steamUrlItemName = steamUrlItemName.replace('The ', '');
     }
     if (arg.quality.includes("unusual")) {
         steamUrlItemName = "Unusual " + steamUrlItemName;
@@ -1930,7 +1938,20 @@ function unbox() { // This function handles the unboxing itself: which item is u
                     if (currentCrateObj.series >= 1 && currentCrateObj.series <= 55 && save.options.sniperVsSpyUnusuals) {
                         unusualArray.push(1354, 1359, 1370, 62, 158, 194, 124, 70, 178);
                     }
+                    if (currentCrateObj.series === 89) {
+                        unusualArray = unusualArray.concat(nice2014UnusualPool);
+                    } else if (currentCrateObj.series === 86) {
+                        unusualArray = unusualArray.concat(limitedLateSummerUnusualPool);
+                    }
                     itemId = unusualArray[Math.floor(Math.random() * unusualArray.length)];
+
+                    if (nice2014UnusualPool.includes(itemId)) {
+                        qualityRandomNumber = Math.floor((Math.random() * 10) + 1); // Between 1 and 10
+                        if (qualityRandomNumber == 10 || save.options.forceStrange) {
+                            itemQuality.push("strange");
+                        }
+                    }
+
                     crateItem = {
                         id: itemId,
                         quality: null
@@ -2183,6 +2204,15 @@ function unbox() { // This function handles the unboxing itself: which item is u
                 }
             } else {
                 effectsArray = crate.effects;
+
+                // If unboxing an Unusual robohat from the Robo Community Crate, add 1st, 2nd and 3rd gen effects to effect pool
+                if (currentCrateObj.series === 58) {
+                    for (let item of currentCrateObj.loot) {
+                        if (itemId === item.id) {
+                            effectsArray = effectsArray.concat(allGensFX);
+                        }
+                    }
+                }
             }
             itemEffect = effectsArray[Math.floor(Math.random() * effectsArray.length)];
         };
@@ -2495,7 +2525,6 @@ function beginUnbox() { // This function handles the unbox countdown and shows t
                 DOM.results.lootImg.src = `./images/item/skins/${wearTable[unboxResult.wear]}${getImg("item", unboxResult.id)}`;
                 DOM.results.kitImg.src = emptyImage;
             } else if (unboxResult.killstreak) {
-
                 if (unboxResult.killstreak.killstreaker) {
                     completeLootName = getString("item", 766).replace("#ITEM#", completeLootName);
                     DOM.results.lootImg.src = `./images/item/${getImg("item", 766)}`;
@@ -2513,9 +2542,11 @@ function beginUnbox() { // This function handles the unbox countdown and shows t
                     completeLootName = getString("item", 764).replace("#ITEM#", completeLootName);
                     DOM.results.lootImg.src = `./images/item/${getImg("item", 764)}`;
                 }
+                completeLootName = completeLootName.replace('The ', '');
                 DOM.results.kitImg.src = `./images/item/${getImg("item", unboxResult.id)}`;
             } else if (unboxResult.quality == "strangifier") {
                 completeLootName = getString("item", 452).replace("#ITEM#", completeLootName);
+                completeLootName = completeLootName.replace('The ', '');
                 DOM.results.lootImg.src = `./images/item/${getImg("item", 452)}`;
                 DOM.results.kitImg.src = `./images/item/${getImg("item", unboxResult.id)}`;
             } else {
@@ -2550,6 +2581,7 @@ function beginUnbox() { // This function handles the unbox countdown and shows t
                 if (unboxResult.quality.includes("unusual")) {
                     // Item is unusual
                     DOM.results.lootName.classList.add("colorunusual");
+                    completeLootName = completeLootName.replace('The ', '');
                     if (unboxResult.quality.includes("strange")) {
                         tempQualityName.push(`<span class="colorstrange">(${getString("ui", 71)})</span>`);
                     }
@@ -2559,12 +2591,14 @@ function beginUnbox() { // This function handles the unbox countdown and shows t
 
                     if (unboxResult.quality.includes("haunted")) {
                         DOM.results.lootName.classList.add("colorhaunted");
+                        completeLootName = completeLootName.replace('The ', '');
                         if (unboxResult.quality.includes("strange")) {
                             tempQualityName.push(`(${getString("ui", 71)})`);
                         }
                         tempQualityName.push(`(${getString("ui", 72)})`);
                     } else if (unboxResult.quality.includes("strange")) {
                         DOM.results.lootName.classList.add("colorstrange");
+                        completeLootName = completeLootName.replace('The ', '');
                         tempQualityName.push(`(${getString("ui", 71)})`);
                     } else {
                         // Item is not unusual or strange. So it must be unique
@@ -2609,7 +2643,7 @@ function beginUnbox() { // This function handles the unbox countdown and shows t
                                 killstreakImg = getImg("item", 764);
                                 itemName = getString("item", 764);
                             }
-                            itemName = itemName.replace("#ITEM#", getString("item", bonusItem.id))
+                            itemName = itemName.replace("#ITEM#", getString("item", bonusItem.id)).replace('The ', '');
                             bonusHTML += `<div><img src="./images/item/${killstreakImg}">
                     <img class="kitimg" src="./images/item/${getImg("item", bonusItem.id)}">
                 <div class="bonustooltip">${itemName}</div>
@@ -2617,7 +2651,7 @@ function beginUnbox() { // This function handles the unbox countdown and shows t
                         } else if (bonusItem.quality === 12) {
                             bonusHTML += `<div><img src="./images/item/${getImg("item", 452)}">
                     <img class="kitimg" src="./images/item/${getImg("item", bonusItem.id)}">
-                <div class="bonustooltip">${getString("item", 452).replace("#ITEM#", getString("item", bonusItem.id))}</div>
+                <div class="bonustooltip">${getString("item", 452).replace("#ITEM#", getString("item", bonusItem.id)).replace('The ', '')}</div>
                 </div>`;
                         } else {
                             bonusHTML += `<div><img src="./images/item/${getImg("item", bonusItem.id)}">

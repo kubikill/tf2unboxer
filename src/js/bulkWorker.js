@@ -28,6 +28,9 @@ import {
     xmas19FX,
     xmas20FX,
     xmas21FX,
+    nice2014UnusualPool,
+    allGensFX,
+    limitedLateSummerUnusualPool,
     } from "./crate.js";
 
 const wearTable = ["", "FN", "MW", "FT", "WW", "BS"];
@@ -75,7 +78,20 @@ function unbox() { // This function handles the unboxing itself: which item is u
                     if (currentCrateObj.series >= 1 && currentCrateObj.series <= 55 && save.options.sniperVsSpyUnusuals) {
                         unusualArray.push(1354, 1359, 1370, 62, 158, 194, 124, 70, 178);
                     }
+                    if (currentCrateObj.series === 89) {
+                        unusualArray = unusualArray.concat(nice2014UnusualPool);
+                    } else if (currentCrateObj.series === 86) {
+                        unusualArray = unusualArray.concat(limitedLateSummerUnusualPool);
+                    }
                     itemId = unusualArray[Math.floor(Math.random() * unusualArray.length)];
+
+                    if (nice2014UnusualPool.includes(itemId)) {
+                        qualityRandomNumber = Math.floor((Math.random() * 10) + 1); // Between 1 and 10
+                        if (qualityRandomNumber == 10 || save.options.forceStrange) {
+                            itemQuality.push("strange");
+                        }
+                    }
+
                     crateItem = {
                         id: itemId,
                         quality: null
@@ -109,7 +125,7 @@ function unbox() { // This function handles the unboxing itself: which item is u
                     crateItem = unusualArray[Math.floor(Math.random() * unusualArray.length)];
                     itemId = crateItem.id;
                     break;
-                case 3: // Same as case 1, but items have equal chance of being picked instead
+                case 3: // Same as case 2, but items have equal chance of being picked instead
                     unusualArray = crate.loot.filter(item => {
                         return [6, 7, 9, 10].includes(item.quality);
                     });
@@ -257,24 +273,24 @@ function unbox() { // This function handles the unboxing itself: which item is u
         if (generateWear) {
             let randomWear = Math.floor((Math.random() * 10) + 1);
             switch (randomWear) {
-                case 1:
+                case 1: // 10% - Battle Scarred
                     itemWear = 1;
                     break;
                 case 2:
-                case 3:
+                case 3: // 20% - Well-Worn
                     itemWear = 2;
                     break;
                 case 4:
                 case 5:
                 case 6:
-                case 7:
+                case 7: // 40% - Field-Tested
                     itemWear = 3;
                     break;
                 case 8:
-                case 9:
+                case 9: // 20% - Minimal Wear
                     itemWear = 4;
                     break;
-                case 10:
+                case 10: // 10% - Factory New
                     itemWear = 5;
                     break;
             }
@@ -328,6 +344,15 @@ function unbox() { // This function handles the unboxing itself: which item is u
                 }
             } else {
                 effectsArray = crate.effects;
+
+                // If unboxing an Unusual robohat from the Robo Community Crate, add 1st, 2nd and 3rd gen effects to effect pool
+                if (currentCrateObj.series === 58) {
+                    for (let item of currentCrateObj.loot) {
+                        if (itemId === item.id) {
+                            effectsArray = effectsArray.concat(allGensFX);
+                        }
+                    }
+                }
             }
             itemEffect = effectsArray[Math.floor(Math.random() * effectsArray.length)];
         };
@@ -345,10 +370,10 @@ function unbox() { // This function handles the unboxing itself: which item is u
                 if (bonusChance <= 2 || save.options.forceBonusItem) { // 40% chance to get bonus drop
                     bonusNum++;
                     bonusChance = Math.floor((Math.random() * 5) + 1) // Between 1 and 5
-                    if (bonusChance == 1) { // 20% chance to get another bonus drop 
+                    if (bonusChance == 1) { // 20% chance to get another bonus drop (8%)
                         bonusNum++;
                         bonusChance = Math.floor((Math.random() * 25) + 1) // Between 1 and 25
-                        if (bonusChance == 1) { // 4% chance
+                        if (bonusChance == 1) { // 4% chance to get third bonus drop (0.32%)
                             bonusNum++;
                         }
                     }

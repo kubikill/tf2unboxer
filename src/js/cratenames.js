@@ -913,7 +913,8 @@ let dataCrates = {
         pol: "Skrzynia szkarłatnej skrytki",
         hun: "Karmazsin Készlet Táska",
         swe: "Crimson Cache-väska",
-        bra: "Caixa da Lembrança Carmesim"
+        bra: "Caixa da Lembrança Carmesim",
+        fre: "Caisse du magot cramoisi"
     },
     92: {
         img: "scream_fortress_xiii_war_paint_case",
@@ -929,10 +930,14 @@ let dataCrates = {
         eng: "Winter 2021 Cosmetic Case",
         pol: "Zimowa skrzynia ozdób 2021",
         bra: "Caixa de Cosméticos de Fim de Ano de 2021",
-        hun: "Tél 2021 Díszítő Táska"
+        hun: "Tél 2021 Díszítő Táska",
+        fre: "Caisse de cosmétiques d'hiver 2021"
     },
     94: {
         img: "summer_2022_cosmetic_case",
-        eng: "Summer 2022 Cosmetic Case"
+        eng: "Summer 2022 Cosmetic Case",
+        pol: "Letnia skrzynia ozdób 2022",
+        bra: "Caixa de Cosméticos das Férias de 2022",
+        hun: "Nyár 2022 Díszítő Táska"
     }
 }
