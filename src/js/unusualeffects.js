@@ -2005,7 +2005,8 @@ let dataEffects = {
         schema: 205,
         pol: "śniąteczne drzewko",
         bra: "Árvore de Natal",
-        hun: "Galácsonyfa"
+        hun: "Galácsonyfa",
+        fre: "Arbre de Smissmas"
     },
     190: {
         img: "hospitable_festivity",
@@ -2149,7 +2150,8 @@ let dataEffects = {
         schema: 224,
         pol: "sensacyjne skorupiaki",
         bra: "Sensação crustácea",
-        hun: "Tengerparti érzés"
+        hun: "Tengerparti érzés",
+        fre: "Instant crustacé"
     },
     206: {
         img: "frosted_decadence",
@@ -2157,7 +2159,8 @@ let dataEffects = {
         schema: 226,
         pol: "mroźna dekadencja",
         bra: "Decadência glacê",
-        hun: "Deres dekadencia"
+        hun: "Deres dekadencia",
+        fre: "Glaçage décadent"
     },
     207: {
         img: "sprinkled_delights",
@@ -2165,7 +2168,8 @@ let dataEffects = {
         schema: 228,
         pol: "posypkowe przysmaki",
         bra: "Prazeres granulados",
-        hun: "Szórt finomság"
+        hun: "Szórt finomság",
+        fre: "Sucreries saupoudrées"
     },
     208: {
         img: "terrestrial_favor",
@@ -2173,7 +2177,8 @@ let dataEffects = {
         schema: 229,
         pol: "ziemska życzliwość",
         bra: "Benevolência terrestre",
-        hun: "Földi kegy"
+        hun: "Földi kegy",
+        fre: "Faveur terrestre"
     },
     209: {
         img: "tropical_thrill",
@@ -2181,7 +2186,8 @@ let dataEffects = {
         schema: 230,
         pol: "tropikalny dreszcz",
         bra: "Agitação tropical",
-        hun: "Trópusi izgalom"
+        hun: "Trópusi izgalom",
+        fre: "Frisson tropical"
     },
     210: {
         img: "flourishing_passion",
@@ -2189,7 +2195,8 @@ let dataEffects = {
         schema: 231,
         pol: "kwitnąca pasja",
         bra: "Paixão florescente",
-        hun: "Virágzó szenvedély"
+        hun: "Virágzó szenvedély",
+        fre: "Passion florissante"
     },
     211: {
         img: "dazzling_fireworks",
@@ -2197,7 +2204,8 @@ let dataEffects = {
         schema: 232,
         pol: "olśniewające fajerwerki",
         bra: "Pirotecnia deslumbrante",
-        hun: "Káprázatos tűzijáték"
+        hun: "Káprázatos tűzijáték",
+        fre: "Feux d'artifice éblouissants"
     },
     212: {
         img: "blazing_fireworks",
@@ -2205,7 +2213,8 @@ let dataEffects = {
         schema: 233,
         pol: "ogniste fajerwerki",
         bra: "Pirotecnia ardente",
-        hun: "Lángoló tűzijáték"
+        hun: "Lángoló tűzijáték",
+        fre: "Feux d'artifice explosifs"
     },
     213: {
         img: "shimmering_fireworks",
@@ -2213,7 +2222,8 @@ let dataEffects = {
         schema: 234,
         pol: "lśniące fajerwerki",
         bra: "Pirotecnia lustrosa",
-        hun: "Sziporkázó tűzijáték"
+        hun: "Sziporkázó tűzijáték",
+        fre: "Feux d'artifice scintillants"
     },
     214: {
         img: "twinkling_fireworks",
@@ -2221,7 +2231,8 @@ let dataEffects = {
         schema: 235,
         pol: "migoczące fajerwerki",
         bra: "Pirotecnia reluzente",
-        hun: "Pislákoló tűzijáték"
+        hun: "Pislákoló tűzijáték",
+        fre: "Feux d'artifice rutilants"
     },
     215: {
         img: "sparkling_fireworks",
@@ -2229,7 +2240,8 @@ let dataEffects = {
         schema: 236,
         pol: "iskrzące fajerwerki",
         bra: "Pirotecnia resplandecente",
-        hun: "Szikrázó tűzijáték"
+        hun: "Szikrázó tűzijáték",
+        fre: "Feux d'artifice étincelants"
     },
     216: {
         img: "glowing_fireworks",
@@ -2237,7 +2249,8 @@ let dataEffects = {
         schema: 237,
         pol: "jaskrawe fajerwerki",
         bra: "Pirotecnia luminosa",
-        hun: "Parázsló tűzijáték"
+        hun: "Parázsló tűzijáték",
+        fre: "Feux d'artifice rayonnants"
     },
     217: {
         img: "glimmering_fireworks",
@@ -2245,14 +2258,17 @@ let dataEffects = {
         schema: 238,
         pol: "błyszczące fajerwerki",
         bra: "Pirotecnia cintilante",
-        hun: "Fénylő tűzijáték"
+        hun: "Fénylő tűzijáték",
+        fre: "Feux d'artifice miroitants"
     },
     218: {
         img: "flying_lights",
         eng: "Flying Lights",
         schema: 239,
         pol: "latające latarnie",
-        hun: "Repülő fények"
+        hun: "Repülő fények",
+        bra: "Lanternas voadoras",
+        fre: "Lanternes volantes"
     },
     219: {
         img: "limelight",
@@ -2260,7 +2276,8 @@ let dataEffects = {
         schema: 241,
         pol: "limonkowe latarnie",
         bra: "Holofotes",
-        hun: "Reflektorfény"
+        hun: "Reflektorfény",
+        fre: "Lampions citron vert"
     },
     220: {
         img: "shining_star",
@@ -2268,14 +2285,17 @@ let dataEffects = {
         schema: 242,
         pol: "lśniąca gwiazda",
         bra: "Estrela cintilante",
-        hun: "Ragyogó csillag"
+        hun: "Ragyogó csillag",
+        fre: "Lumières orange"
     },
     221: {
         img: "cold_cosmos",
         eng: "Cold Cosmos",
         schema: 243,
         pol: "zimny kosmos",
-        hun: "Hideg kozmosz"
+        hun: "Hideg kozmosz",
+        bra: "Cosmo gélido",
+        fre: "Cosmos glacial"
     },
     222: {
         img: "refracting_fractals",
@@ -2283,42 +2303,53 @@ let dataEffects = {
         schema: 244,
         pol: "fraktalne załamanie",
         bra: "Fractais refratores",
-        hun: "Töredező fraktálok"
+        hun: "Töredező fraktálok",
+        fre: "Fractales réfractantes"
     },
     223: {
         img: "startrance",
         eng: "Startrance",
         schema: 245,
         pol: "gwiezdny trans",
-        hun: "Csillagtransz"
+        hun: "Csillagtransz",
+        bra: "Transe astral",
+        fre: "Transe stellaire"
     },
     224: {
         img: "starlush",
         eng: "Starlush",
         schema: 247,
         pol: "gwiezdny gaj",
-        hun: "Csillagfény"
+        hun: "Csillagfény",
+        bra: "Verdor espacial",
+        fre: "Vert luisant"
     },
     225: {
         img: "stardust",
         eng: "Stardust",
         schema: 249,
         pol: "gwiezdny pył",
-        hun: "Csillagpor"
+        hun: "Csillagpor",
+        bra: "Poeira cósmica",
+        fre: "Poussière d'étoile"
     },
     226: {
         img: "contagious_eruption",
         eng: "Contagious Eruption",
         schema: 250,
         pol: "zaraźliwa erupcja",
-        hun: "Fertőző kitörés"
+        hun: "Fertőző kitörés",
+        bra: "Erupção epidêmica",
+        fre: "Éruption contagieuse"
     },
     227: {
         img: "daydream_eruption",
         eng: "Daydream Eruption",
         schema: 251,
         pol: "senna erupcja",
-        hun: "Álmodozó kitörés"
+        hun: "Álmodozó kitörés",
+        bra: "Erupção estelar",
+        fre: "Éruption onirique"
     },
     228: {
         img: "volcanic_eruption",
@@ -2326,7 +2357,8 @@ let dataEffects = {
         schema: 252,
         pol: "wulkaniczna erupcja",
         bra: "Erupção vulcânica",
-        hun: "Vulkánkitörés"
+        hun: "Vulkánkitörés",
+        fre: "Éruption volcanique"
     },
     229: {
         img: "divine_sunlight",
@@ -2334,7 +2366,8 @@ let dataEffects = {
         schema: 253,
         pol: "boskie światło",
         bra: "Alvorada divina",
-        hun: "Isteni napfény"
+        hun: "Isteni napfény",
+        fre: "Soleil divin"
     },
     230: {
         img: "audiophile",
@@ -2350,7 +2383,8 @@ let dataEffects = {
         schema: 255,
         pol: "fala dźwiękowa",
         bra: "Onda sonora",
-        hun: "Hanghullám"
+        hun: "Hanghullám",
+        fre: "Fréquence sonore"
     },
     232: {
         img: "synesthesia",
@@ -2358,6 +2392,67 @@ let dataEffects = {
         schema: 256,
         pol: "synestezja",
         bra: "Sinestesia",
-        hun: "Szinesztézia"
+        hun: "Szinesztézia",
+        fre: "Synesthésie"
+    },
+    233: {
+        img: "haunted_kraken",
+        eng: "Haunted Kraken",
+        schema: 257
+    },
+    234: {
+        img: "eerie_kraken",
+        eng: "Eerie Kraken",
+        schema: 258
+    },
+    235: {
+        img: "soulful_slice",
+        eng: "Soulful Slice",
+        schema: 259
+    },
+    236: {
+        img: "horsemanns_hack",
+        eng: "Horsemann's Hack",
+        schema: 260
+    },
+    237: {
+        img: "haunted_forever",
+        eng: "Haunted Forever!",
+        schema: 261
+    },
+    238: {
+        img: "forever_and_forever",
+        eng: "Forever And Forever!",
+        schema: 263
+    },
+    239: {
+        img: "cursed_forever",
+        eng: "Cursed Forever!",
+        schema: 264
+    },
+    240: {
+        img: "moth_plague",
+        eng: "Moth Plague",
+        schema: 265
+    },
+    241: {
+        img: "malevolent_monoculi",
+        eng: "Malevolent Monoculi",
+        schema: 266
+    },
+    242: {
+        img: "haunted_wick",
+        eng: "Haunted Wick",
+        schema: 267
+    },
+    243: {
+        img: "wicked_wick",
+        eng: "Wicked Wick",
+        schema: 269
+    },
+    244: {
+        img: "spectral_wick",
+        eng: "Spectral Wick",
+        schema: 270
     }
 }

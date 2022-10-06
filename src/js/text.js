@@ -2401,4 +2401,10 @@ let dataUi = {
         rom: "Craciun 2021",
 		swe: "Smissmas 2021"
     },
+    213: {
+        eng: "Scream Fortress XIV (2022)",
+        sch: "尖叫要塞 XIV（2022）",
+        rom: "Fortareata Urlatoare XIV (2022)",
+		swe: "Skrik Fortress XIV (2022)"
+    },
 }

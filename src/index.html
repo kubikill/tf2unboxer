@@ -15,13 +15,13 @@
     <meta name="application-name" content="Unboxer.tf">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#383530">
-    <meta name="Description" content="A free Team Fortress 2 crate/case simulator. Try your luck at opening one of over 150 TF2 crates/cases! Now with the new Summer 2022 Cosmetic Case!" />
+    <meta name="Description" content="A free Team Fortress 2 crate/case simulator. Try your luck at opening one of over 150 TF2 crates/cases! Now with the new Halloween 2022 cases!" />
     <meta name="robots" content="noarchive, noimageindex" />
     <meta property="og:title" content="Unboxer.tf - a TF2 crate/case simulator">
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://unboxer.tf/thumbnail.png">
     <meta property="og:url" content="https://unboxer.tf">
-    <meta property="og:description" content="A free Team Fortress 2 crate/case simulator. Try your luck at opening one of over 150 TF2 crates/cases! Now with the new Summer 2022 Cosmetic Case!">
+    <meta property="og:description" content="A free Team Fortress 2 crate/case simulator. Try your luck at opening one of over 150 TF2 crates/cases! Now with the new Halloween 2022 cases!">
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Unboxer.tf - a TF2 crate/case simulator" />
     <meta name="twitter:description" content="A free Team Fortress 2 crate/case simulator. Try your luck at opening one of over 150 TF2 crates/cases!" />
@@ -30,7 +30,7 @@
 
     <link rel="preconnect" href="https://unboxertf2.goatcounter.com">
     <link rel="preconnect" href="https://gc.zgo.at">
-    <link rel="preload" as="image" href="./images/crate/summer_2022_cosmetic_case.webp" />
+    <link rel="preload" as="image" href="./images/crate/scream_fortress_xiv_war_paint_case.webp" />
     <link rel="preload" as="font" href="./font/tf2build.woff2" crossorigin="anonymous" />
     <link rel="preload" as="font" href="./font/tf2secondary.woff2" crossorigin="anonymous" />
     <link rel="prefetch" href="./js/bulkWorker.js" crossorigin="anonymous" />
@@ -109,10 +109,10 @@
             <div class="btn tooltipleft tooltipmobiletopleft tooltipmobilegridtop" id="randomcratebtn" data-tooltip="Random crate" data-tooltipstring="14"><i class="icon-dice"></i></div>
             <div class="btn tooltipleft tooltipmobiletop" id="searchbtn" data-tooltip="Search" data-tooltipstring="204" style="display: none;"><i class="icon-search"></i></div>
             <div id="crateinfo" data-swipe-threshold="50">
-                <p id="cratename">Summer 2022 Cosmetic Case</p>
-                <p id="crateseries">Series #136</p>
+                <p id="cratename">Scream Fortress XIV War Paint Case</p>
+                <p id="crateseries">Series #138</p>
                 <div id="crateimagediv">
-                    <img id="crateimage" src="./images/crate/summer_2022_cosmetic_case.webp" draggable="false" onmousedown="return false" alt="">
+                    <img id="crateimage" src="./images/crate/scream_fortress_xiv_war_paint_case.webp" draggable="false" onmousedown="return false" alt="">
                     <div class="btn" id="crateinfobtn" data-string="18">More info</div>
                 </div>
                 <div id="cratedetails" style="display: none;">
@@ -120,31 +120,17 @@
                         <div>
                             <p id="crateloottitle" data-string="30">This crate contains one of the following items:</p>
                             <ul id="cratelootlist">
-                                <li class="colormercenary">Undercover Brolly</li>
-                                <li class="colormercenary">Team Player</li>
-                                <li class="colormercenary">Throttlehead</li>
-                                <li class="colormercenary">Tactical Turtleneck</li>
-                                <li class="colormercenary">Combat Casual</li>
-                                <li class="colormercenary">Barefoot Brawler</li>
-                                <li class="colormercenary">Hawaiian Hunter</li>
-                                <li class="colormercenary">The Chaser</li>
-                                <li class="colormercenary">Western Wraps</li>
-                                <li class="colormercenary">Pest's Pads</li>
-                                <li class="colorcommando">Boston Brain Bucket</li>
-                                <li class="colorcommando">Ripped Rider</li>
-                                <li class="colorcommando">Fizzy Pharmacist</li>
-                                <li class="colorcommando">Detective</li>
-                                <li class="colorcommando">Hawaiian Hangover</li>
-                                <li class="colorcommando">Tropical Camo</li>
-                                <li class="colorcommando">Squatter's Right</li>
-                                <li class="colorcommando">Lawnmaker</li>
-                                <li class="colorassassin">Night Vision Gawkers</li>
-                                <li class="colorassassin">Head Banger</li>
-                                <li class="colorassassin">Monsieur Grenouille</li>
-                                <li class="colorassassin">Soda Cap</li>
-                                <li class="colorassassin">Kazan Karategi</li>
-                                <li class="colorelite">Rocko</li>
-                                <li class="colorelite">Decorated Veteran</li>
+                                <li class="colormercenary">Cream Corned War Paint</li>
+                                <li class="colormercenary">Hypergon War Paint</li>
+                                <li class="colormercenary">Health and Hell (Green) War Paint</li>
+                                <li class="colormercenary">Health and Hell War Paint</li>
+                                <li class="colormercenary">Sunriser War Paint</li>
+                                <li class="colorcommando">Chilly Autumn War Paint</li>
+                                <li class="colorcommando">Pumpkin Plastered War Paint</li>
+                                <li class="colorcommando">Metalized Soul War Paint</li>
+                                <li class="colorassassin">Ghoul Blaster War Paint</li>
+                                <li class="colorassassin">Bonzo Gnawed War Paint</li>
+                                <li class="colorelite">Sacred Slayer War Paint</li>
                             </ul>
                             <span id="cratelootbonus">
                                 <p>This case may contain bonus items.</p>
@@ -154,65 +140,7 @@
                     </div>
                     <div id="crateeffectsdiv" style="display: none;">
                         <p id="crateeffectstitle">Unusuals may have one of the following effects:</p>
-                        <ul id="crateeffectslist">
-                            <li>Burning Flames</li>
-                            <li>Circling Heart</li>
-                            <li>Circling Peace Sign</li>
-                            <li>Circling TF Logo</li>
-                            <li>Green Confetti</li>
-                            <li>Green Energy</li>
-                            <li>Haunted Ghosts</li>
-                            <li>Massed Flies</li>
-                            <li>Purple Confetti</li>
-                            <li>Purple Energy</li>
-                            <li>Scorching Flames</li>
-                            <li>Searing Plasma</li>
-                            <li>Sunbeams</li>
-                            <li>Vivid Plasma</li>
-                            <li>Blizzardy Storm</li>
-                            <li>Bubbling</li>
-                            <li>Nuts n' Bolts</li>
-                            <li>Orbiting Fire</li>
-                            <li>Orbiting Planets</li>
-                            <li>Smoking</li>
-                            <li>Steaming</li>
-                            <li>Stormy Storm</li>
-                            <li>Aces High</li>
-                            <li>Cloud 9</li>
-                            <li>Dead Presidents</li>
-                            <li>Disco Beat Down</li>
-                            <li>Kill-a-Watt</li>
-                            <li>Miami Nights</li>
-                            <li>Terror-Watt</li>
-                            <li>Crustacean Sensation</li>
-                            <li>Frosted Decadence</li>
-                            <li>Sprinkled Delights</li>
-                            <li>Terrestrial Favor</li>
-                            <li>Tropical Thrill</li>
-                            <li>Flourishing Passion</li>
-                            <li>Dazzling Fireworks</li>
-                            <li>Blazing Fireworks</li>
-                            <li>Shimmering Fireworks</li>
-                            <li>Twinkling Fireworks</li>
-                            <li>Sparkling Fireworks</li>
-                            <li>Glowing Fireworks</li>
-                            <li>Glimmering Fireworks</li>
-                            <li>Flying Lights</li>
-                            <li>Limelight</li>
-                            <li>Shining Star</li>
-                            <li>Cold Cosmos</li>
-                            <li>Refracting Fractals</li>
-                            <li>Startrance</li>
-                            <li>Starlush</li>
-                            <li>Stardust</li>
-                            <li>Contagious Eruption</li>
-                            <li>Daydream Eruption</li>
-                            <li>Volcanic Eruption</li>
-                            <li>Divine Sunlight</li>
-                            <li>Audiophile</li>
-                            <li>Soundwave</li>
-                            <li>Synesthesia</li>
-                        </ul>
+                        <ul id="crateeffectslist"><li>Isotope</li><li>Hot</li><li>Cool</li></ul>
                     </div>
                     <div class="btn" id="crateinforeturnbtn" data-string="15">Return</div>
                     <div class="btn" id="crateinfoeffectsbtn" data-string="16">Effects</div>
@@ -828,6 +756,7 @@
                         <option value="xmas20" data-string="202">Smissmas 2020</option>
                         <option value="hw21" data-string="211">Scream Fortress XIII (2021)</option>
                         <option value="xmas21" data-string="212">Smissmas 2021</option>
+                        <option value="hw22" data-string="213">Scream Fortress XIV (2022)</option>
                     </select>
                 </div>
                 <p data-string="176">This option lets you replace Unusual effects in certain crates/cases with effects
@@ -885,7 +814,7 @@
         </nav>
         <div id="aboutcontainer">
             <div id="aboutcredits" class="visible">
-                <h1 id="creditstitle">Unboxer.tf v2.07</h1>
+                <h1 id="creditstitle">Unboxer.tf v2.09</h1>
                 <p data-string="64">Made by <a href="https://steamcommunity.com/id/kubikill" target="_blank" rel="noopener">kubikill</a>
                 </p>
                 <p data-string="65">Special thanks to <a href="https://steamcommunity.com/profiles/76561198117761965" target="_blank" rel="noopener">Gorno</a>
@@ -938,6 +867,16 @@
                 </ol>
             </div>
             <div id="aboutchangelog">
+                <h1>v2.09 - October 6th, 2022</h1>
+                <section>
+                    <p>- Added the Ghoulish Gains Case and the Scream Fortress XIV War Paint Case</p>
+                    <p>- Added new unusualifiers for the 5 taunts added in TF2's Scream Fortress XIV update</p>
+                    <p>- Added Scream Fortress XIV to event mode</p>
+                    <p>- Added 1st, 2nd and 3rd generation Unusual effects to the Creepy Crawl, Violet Vermin, Spooky Spoils, Wicked Windfall, Crimson Cache and Winter 2021 cases. Thanks, Fr3unen!</p>
+                    <p>- Fixed being unable to unbox Strange Unusuals exclusive to the Nice Winter 2014 Crate</p>
+                    <p>- Updated translations</p>
+                    <p>- Updated project dependencies</p>
+                </section>
                 <h1>v2.08 - September 11th, 2022</h1>
                 <section>
                     <p>- Items from the Nice Winter Crate 2014 can no longer be unboxed in Unusual quality in other crates</p>

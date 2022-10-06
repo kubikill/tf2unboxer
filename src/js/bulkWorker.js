@@ -86,7 +86,7 @@ function unbox() { // This function handles the unboxing itself: which item is u
                     itemId = unusualArray[Math.floor(Math.random() * unusualArray.length)];
 
                     if (nice2014UnusualPool.includes(itemId)) {
-                        qualityRandomNumber = Math.floor((Math.random() * 10) + 1); // Between 1 and 10
+                        let qualityRandomNumber = Math.floor((Math.random() * 10) + 1); // Between 1 and 10
                         if (qualityRandomNumber == 10 || save.options.forceStrange) {
                             itemQuality.push("strange");
                         }
@@ -331,6 +331,9 @@ function unbox() { // This function handles the unboxing itself: which item is u
                         break;
                     case "hw21":
                         effectsArray = hw21FX;
+                        break;
+                    case "hw22":
+                        effectsArray = hw22FX;
                         break;
                     case "xmas19":
                         effectsArray = xmas19FX;

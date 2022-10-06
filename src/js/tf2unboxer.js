@@ -15,13 +15,13 @@ import {
     hw12FX,
     hw13FX,
     hw14FX,
-    hw15FX,
     hw16FX,
     hw17FX,
     hw18FX,
     hw19FX,
     hw20FX,
     hw21FX,
+    hw22FX,
     xmas19FX,
     xmas20FX,
     xmas21FX,
@@ -1618,6 +1618,9 @@ function generateEffectList() {
             case "hw21":
                 effectsArray = hw21FX;
                 break;
+            case "hw22":
+                effectsArray = hw22FX;
+                break;
             case "xmas19":
                 effectsArray = xmas19FX;
                 break;
@@ -1946,7 +1949,7 @@ function unbox() { // This function handles the unboxing itself: which item is u
                     itemId = unusualArray[Math.floor(Math.random() * unusualArray.length)];
 
                     if (nice2014UnusualPool.includes(itemId)) {
-                        qualityRandomNumber = Math.floor((Math.random() * 10) + 1); // Between 1 and 10
+                        let qualityRandomNumber = Math.floor((Math.random() * 10) + 1); // Between 1 and 10
                         if (qualityRandomNumber == 10 || save.options.forceStrange) {
                             itemQuality.push("strange");
                         }
@@ -2191,6 +2194,9 @@ function unbox() { // This function handles the unboxing itself: which item is u
                         break;
                     case "hw21":
                         effectsArray = hw21FX;
+                        break;
+                    case "hw22":
+                        effectsArray = hw22FX;
                         break;
                     case "xmas19":
                         effectsArray = xmas19FX;

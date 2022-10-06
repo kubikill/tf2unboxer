@@ -689,7 +689,7 @@ let dataItems = {
         pol: "Piracki pieróg",
         sch: "凸缘遮雨帽",
         fre: "Lampion bordé",
-        bra: "Tricórnio Cata-chuva",
+        bra: "Tricórnio Cata-Chuva",
         schema: 216,
         hun: "Karimás Kalózkalap",
         swe: "Kaptenens Keps"
@@ -1449,7 +1449,7 @@ let dataItems = {
         pol: "Głowa Forfitera",
         sch: "老鳄鱼的龅牙",
         fre: "Sacré dentier",
-        bra: "Velho Dente-torto",
+        bra: "Velho Dente-Torto",
         schema: 229,
         hun: "Vén Csorbafog",
         swe: "Gamle Gadden"
@@ -3200,7 +3200,7 @@ let dataItems = {
         pol: "Pomysłowy tubus",
         sch: "思想管",
         fre: "Le Tube à idées",
-        bra: "O Porta-ideias",
+        bra: "O Porta-Ideias",
         schema: 784,
         hun: "Az Ötletcső",
         swe: "Idéröret"
@@ -3671,7 +3671,7 @@ let dataItems = {
         pol: "Tutu wielkiej księżnej",
         sch: "大公夫人的芭蕾舞短裙",
         fre: "Le tutu de la Grande Duchesse",
-        bra: "O Tutu da Grã-duquesa",
+        bra: "O Tutu da Grã-Duquesa",
         schema: 930,
         hun: "A Nagyhercegnői Tütü",
         swe: "Storhertiginnans Balettkjol"
@@ -3682,7 +3682,7 @@ let dataItems = {
         pol: "Baśniowe skrzydła wielkiej księżnej",
         sch: "大公夫人的小仙女翅膀",
         fre: "Les ailes féeriques de la Grande Duchesse",
-        bra: "As Asas de Fada da Grã-duquesa",
+        bra: "As Asas de Fada da Grã-Duquesa",
         schema: 931,
         hun: "A Nagyhercegnői Tündérszárnyak",
         swe: "Storhertiginnans Fevingar"
@@ -3693,7 +3693,7 @@ let dataItems = {
         pol: "Diadem wielkiej księżnej",
         sch: "大公夫人的宝冠",
         fre: "Le diadème de la Grande Duchesse",
-        bra: "A Tiara da Grã-duquesa",
+        bra: "A Tiara da Grã-Duquesa",
         schema: 932,
         hun: "A Nagyhercegnői Diadém",
         swe: "Storhertiginnans Tiara"
@@ -4077,7 +4077,7 @@ let dataItems = {
         pol: "Kuriozalna część: Zabici Pyro",
         sch: "奇异武器升级部件：火焰兵消灭数",
         fre: "Pièce étrange : Pyros tués",
-        bra: "Peça Estranha: Pyros Mortos",
+        bra: "Peça Estranha: Pyros Que Você Matou",
         schema: 6006,
         hun: "Fura Alkatrész: Megölt Pirók",
         swe: "Märklig Del: Pyros dödade"
@@ -7336,7 +7336,7 @@ let dataItems = {
         pol: "Kuriozalna część: Zabójstwa z bliska",
         sch: "奇异武器升级部件：超近距离击杀数",
         fre: "Pièce étrange : Victimes à bout portant",
-        bra: "Peça Estranha: Vítimas à Queima-roupa",
+        bra: "Peça Estranha: Vítimas à Queima-Roupa",
         schema: 6059,
         hun: "Fura Alkatrész: Közvetlen közeli ölések",
         swe: "Märklig Del: Dödade på nära håll"
@@ -8490,7 +8490,7 @@ let dataItems = {
         pol: "Kraciasty krok",
         sch: "时髦鞋袜",
         fre: "Les Chaussettes à carreaux",
-        bra: "A Meia de Meia-idade",
+        bra: "A Meia de Meia-Idade",
         schema: 30427,
         hun: "A Kockás Király",
         swe: "Argyleässet"
@@ -10108,7 +10108,7 @@ let dataItems = {
         pol: "Świąteczny Dupalacz",
         sch: "节日偷袭烈焰喷射器",
         fre: "Brûleur arrière festif",
-        bra: "Queima-costas Festivo",
+        bra: "Queima-Costas Festivo",
         schema: 1146,
         hun: "Ünnepi Beégető",
         swe: "Festlig Ryggbrännare"
@@ -13672,7 +13672,7 @@ let dataItems = {
         pol: "Kwacze opowieści | Barwy wojenne",
         sch: "致命之鸭 战绘",
         fre: "Coincoin | Peinture de guerre",
-        bra: "Patos Estam-patos Tinta de Guerra",
+        bra: "Patos Estam-Patos Tinta de Guerra",
         schema: 17201,
         hun: "Kacsákkal Tarkított Harci festés",
         rom: "Quack Canvassed Vopsea de război",
@@ -15396,7 +15396,7 @@ let dataItems = {
         pol: "Ufryzowany urzędas",
         sch: "会计师的铅笔",
         fre: "Le Gratte-papier",
-        bra: "O Faz-tudo",
+        bra: "O Faz-Tudo",
         schema: 605,
         hun: "Az Irodista",
         swe: "Kontorsnissen"
@@ -15508,7 +15508,7 @@ let dataItems = {
         pol: "Zasłona swagmana",
         sch: "流浪者的软木帽",
         fre: "Le chasse-mouche de vagabond",
-        bra: "O Esmaga-moscas do Moiteiro",
+        bra: "O Esmaga-Moscas do Moiteiro",
         schema: 626,
         hun: "A Fényűző Légyűző",
         swe: "Strykarens Smälla"
@@ -18615,7 +18615,7 @@ let dataItems = {
         eng: "Peppermint Swirl War Paint",
         schema: 17273,
         pol: "Cukierkowy wir | Barwy wojenne",
-        bra: "Espiral de Hortelã-pimenta Tinta de Guerra",
+        bra: "Espiral de Hortelã-Pimenta Tinta de Guerra",
         hun: "Borsmenta forgatag Harci festés",
         rom: "Peppermint Swirl Vopsea de război",
         fre: "Berlingot | Peinture de guerre",
@@ -19557,7 +19557,8 @@ let dataItems = {
         eng: "Undercover Brolly",
         schema: 31262,
         pol: "Przeciwsłoneczna przykrywka",
-        hun: "Napernyőfedett Ügynök"
+        hun: "Napernyőfedett Ügynök",
+        fre: "Ombrelle incognito"
     },
     1792: {
         img: "team_player",
@@ -19580,7 +19581,8 @@ let dataItems = {
         schema: 31278,
         pol: "Taktyczny golf",
         bra: "Traje Tático",
-        hun: "Taktikai Garbó"
+        hun: "Taktikai Garbó",
+        fre: "Col roulé tactique"
     },
     1795: {
         img: "combat_casual",
@@ -19588,7 +19590,8 @@ let dataItems = {
         schema: 31268,
         pol: "Luźny wojak",
         bra: "Combatente Casual",
-        hun: "Laza Harciasság"
+        hun: "Laza Harciasság",
+        fre: "Mercenaire décontracté"
     },
     1796: {
         img: "barefoot_brawler",
@@ -19596,7 +19599,8 @@ let dataItems = {
         schema: 31275,
         pol: "Bosy buntownik",
         bra: "Pugnador Praiano",
-        hun: "Mezítlábas Bunyós"
+        hun: "Mezítlábas Bunyós",
+        fre: "Baroudeur en claquettes"
     },
     1797: {
         img: "hawaiian_hunter",
@@ -19604,7 +19608,8 @@ let dataItems = {
         schema: 31271,
         pol: "Hawajski łowca",
         bra: "Atirador Havaiano",
-        hun: "Hawaii Vadász"
+        hun: "Hawaii Vadász",
+        fre: "Chasseur hawaïen"
     },
     1798: {
         img: "chaser",
@@ -19628,7 +19633,8 @@ let dataItems = {
         schema: 31285,
         pol: "Ochraniacze zawadiaki",
         bra: "Proteções do Pestinha",
-        hun: "Pancservédők"
+        hun: "Pancservédők",
+        fre: "Genouillères du casse-pieds"
     },
     1801: {
         img: "boston_brain_bucket",
@@ -19636,7 +19642,8 @@ let dataItems = {
         schema: 31284,
         pol: "Mózgonosz z Massachusetts",
         bra: "Balde de Miolos de Boston",
-        hun: "Bostoni Agyvödör"
+        hun: "Bostoni Agyvödör",
+        fre: "Protège-caboche"
     },
     1802: {
         img: "ripped_rider",
@@ -19651,7 +19658,9 @@ let dataItems = {
         eng: "Fizzy Pharmacist",
         schema: 31266,
         pol: "Gazowany farmaceuta",
-        hun: "Pezsgő Patikus"
+        hun: "Pezsgő Patikus",
+        bra: "Farmacêutico Gasoso",
+        fre: "Pharmacien pétillant"
     },
     1804: {
         img: "detective",
@@ -19675,7 +19684,8 @@ let dataItems = {
         schema: 31270,
         pol: "Tropikalny kamuflaż",
         bra: "Camuflagem Tropical",
-        hun: "Trópusi Álca"
+        hun: "Trópusi Álca",
+        fre: "Camouflage Tropical"
     },
     1807: {
         img: "squatters_right",
@@ -19683,14 +19693,16 @@ let dataItems = {
         schema: 31267,
         pol: "Prawo blokersa",
         bra: "O Estilo Eslavo",
-        hun: "A Házfoglaló Jogán"
+        hun: "A Házfoglaló Jogán",
+        fre: "Squatteur récalcitrant"
     },
     1808: {
         img: "lawnmaker",
         eng: "Lawnmaker",
         schema: 31272,
         pol: "Trawodawca",
-        hun: "Fűmérnök"
+        hun: "Fűmérnök",
+        fre: "Paysagiste"
     },
     1809: {
         img: "night_vision_gawkers",
@@ -19698,7 +19710,8 @@ let dataItems = {
         schema: 31279,
         pol: "Noktowizyjny wytrzeszcz",
         bra: "Óculos de Terceiro Escalão",
-        hun: "Éjjellátó Kukker"
+        hun: "Éjjellátó Kukker",
+        fre: "Binocles de vision nocturne"
     },
     1810: {
         img: "head_banger",
@@ -19706,7 +19719,8 @@ let dataItems = {
         schema: 31273,
         pol: "Bombowa impreza",
         bra: "Cabeça Explosiva",
-        hun: "Agydurrantó"
+        hun: "Agydurrantó",
+        fre: "Casque explosif"
     },
     1811: {
         img: "monsieur_grenouille",
@@ -19718,13 +19732,15 @@ let dataItems = {
         eng: "Soda Cap",
         schema: 31265,
         pol: "Sprzedawca sodówki",
-        hun: "Büfés Csákó"
+        hun: "Büfés Csákó",
+        fre: "Calot du vendeur de soda"
     },
     1813: {
         img: "kazan_karategi",
         eng: "Kazan Karategi",
         schema: 31263,
-        pol: "Wulkaniczny wojownik"
+        pol: "Wulkaniczny wojownik",
+        fre: "Kimono flamboyant"
     },
     1814: {
         img: "rocko",
@@ -19739,6 +19755,222 @@ let dataItems = {
         schema: 31261,
         pol: "Udekorowany weteran",
         bra: "Veterano Decorado",
-        hun: "Kitüntetett Veterán"
+        hun: "Kitüntetett Veterán",
+        fre: "Vétéran décoré"
+    },
+    1816: {
+        img: "nightbane_brim",
+        eng: "Nightbane Brim",
+        schema: 31308
+    },
+    1817: {
+        img: "more_gun_marshal",
+        eng: "More Gun Marshal",
+        schema: 31298
+    },
+    1818: {
+        img: "hunting_cloak",
+        eng: "Hunting Cloak",
+        schema: 31314
+    },
+    1819: {
+        img: "the_imps_imprint",
+        eng: "The Imp's Imprint",
+        schema: 31302
+    },
+    1820: {
+        img: "starlight_sorcerer",
+        eng: "Starlight Sorcerer",
+        schema: 31294
+    },
+    1821: {
+        img: "beaten_and_bruised",
+        eng: "Beaten and Bruised",
+        schema: 31293
+    },
+    1822: {
+        img: "bombard_brigadier",
+        eng: "Bombard Brigadier",
+        schema: 31309
+    },
+    1823: {
+        img: "firearm_protector",
+        eng: "Firearm Protector",
+        schema: 31310
+    },
+    1824: {
+        img: "horror_shawl",
+        eng: "Horror Shawl",
+        schema: 31304
+    },
+    1825: {
+        img: "the_turncoat",
+        eng: "The Turncoat",
+        schema: 31301
+    },
+    1826: {
+        img: "dustbowl_devil",
+        eng: "Dustbowl Devil",
+        schema: 31297
+    },
+    1827: {
+        img: "the_masked_fiend",
+        eng: "The Masked Fiend",
+        schema: 31303
+    },
+    1828: {
+        img: "safety_stripes",
+        eng: "Safety Stripes",
+        schema: 31311
+    },
+    1829: {
+        img: "road_block",
+        eng: "Road Block",
+        schema: 31306
+    },
+    1830: {
+        img: "the_lavish_labwear",
+        eng: "The Lavish Labwear",
+        schema: 31299
+    },
+    1831: {
+        img: "headhunters_brim",
+        eng: "Headhunter's Brim",
+        schema: 31313
+    },
+    1832: {
+        img: "cranial_cowl",
+        eng: "Cranial Cowl",
+        schema: 31312
+    },
+    1833: {
+        img: "alcoholic_automaton",
+        eng: "Alcoholic Automaton",
+        schema: 31307
+    },
+    1834: {
+        img: "road_rage",
+        eng: "Road Rage",
+        schema: 31305
+    },
+    1835: {
+        img: "victorian_villainy",
+        eng: "Victorian Villainy",
+        schema: 31300
+    },
+    1836: {
+        img: "propaniac",
+        eng: "Propaniac",
+        schema: 31296
+    },
+    1837: {
+        img: "the_onimann",
+        eng: "The Onimann",
+        schema: 31295
+    },
+    1838: {
+        img: "mishas_maw",
+        eng: "Misha's Maw",
+        schema: 31315
+    },
+    1839: {
+        img: "cabinet_mann",
+        eng: "Cabinet Mann",
+        schema: 31316
+    },
+    1840: {
+        img: "fire_breather",
+        eng: "Fire Breather",
+        schema: 31317
+    },
+    1841: {
+        img: "magical_mount",
+        eng: "Magical Mount",
+        schema: 31318
+    },
+    1842: {
+        img: "pony_express",
+        eng: "Pony Express",
+        schema: 31319
+    },
+    1843: {
+        img: "cream_corned_war_paint",
+        eng: "Cream Corned War Paint",
+        schema: 17401
+    },
+    1844: {
+        img: "hypergon_war_paint",
+        eng: "Hypergon War Paint",
+        schema: 17408
+    },
+    1845: {
+        img: "health_and_hell_green_war_paint",
+        eng: "Health and Hell (Green) War Paint",
+        schema: 17407
+    },
+    1846: {
+        img: "health_and_hell_war_paint",
+        eng: "Health and Hell War Paint",
+        schema: 17406
+    },
+    1847: {
+        img: "sunriser_war_paint",
+        eng: "Sunriser War Paint",
+        schema: 17402
+    },
+    1848: {
+        img: "chilly_autumn_war_paint",
+        eng: "Chilly Autumn War Paint",
+        schema: 17410
+    },
+    1849: {
+        img: "pumpkin_plastered_war_paint",
+        eng: "Pumpkin Plastered War Paint",
+        schema: 17409
+    },
+    1850: {
+        img: "metalized_soul_war_paint",
+        eng: "Metalized Soul War Paint",
+        schema: 17404
+    },
+    1851: {
+        img: "ghoul_blaster_war_paint",
+        eng: "Ghoul Blaster War Paint",
+        schema: 17400
+    },
+    1852: {
+        img: "bonzo_gnawed_war_paint",
+        eng: "Bonzo Gnawed War Paint",
+        schema: 17405
+    },
+    1853: {
+        img: "sacred_slayer_war_paint",
+        eng: "Sacred Slayer War Paint",
+        schema: 17403
+    },
+    1854: {
+        img: "taunt_drunk_manns_cannon",
+        eng: "Taunt: Drunk Mann's Cannon",
+        schema: 31291
+    },
+    1855: {
+        img: "taunt_shanty_shipmate",
+        eng: "Taunt: Shanty Shipmate",
+        schema: 31292
+    },
+    1856: {
+        img: "taunt_texas_twirl_em",
+        eng: "Taunt: Texas Twirl 'Em",
+        schema: 31286
+    },
+    1857: {
+        img: "taunt_the_travel_agent",
+        eng: "Taunt: The Travel Agent",
+        schema: 31290
+    },
+    1858: {
+        img: "taunt_the_scaredycat",
+        eng: "Taunt: The Scaredy-cat!",
+        schema: 31288
     }
 }

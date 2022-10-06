@@ -76,7 +76,7 @@ let dataCrates = {
         pol: "Grzeczna zimowa skrzynka",
         sch: "精美的欢冬供应箱",
         fre: "Caisse d'hiver bien sage",
-        bra: "Caixa Bem-comportada de Fim de Ano",
+        bra: "Caixa Bem-Comportada de Fim de Ano",
         hun: "Rendes Téli Láda",
         swe: "Snäll Vinterlåda"
     },
@@ -126,7 +126,7 @@ let dataCrates = {
         pol: "Grzeczna zimowa skrzynka 2012",
         sch: "精美欢冬供应箱 2012",
         fre: "Caisse d'hiver bien sage 2012",
-        bra: "Caixa Bem-comportada de Fim de Ano de 2012",
+        bra: "Caixa Bem-Comportada de Fim de Ano de 2012",
         hun: "Rendes Téli Láda 2012",
         swe: "Snäll Vinterlåda 2012"
     },
@@ -288,7 +288,7 @@ let dataCrates = {
         pol: "Grzeczna zimowa skrzynka 2013",
         sch: "精美的欢冬供应箱 2013",
         fre: "Caisse d'hiver bien sage 2013",
-        bra: "Caixa Bem-comportada de Fim de Ano de 2013",
+        bra: "Caixa Bem-Comportada de Fim de Ano de 2013",
         hun: "Rendes Téli Láda 2013",
         swe: "Snäll Vinterlåda 2013"
     },
@@ -488,20 +488,22 @@ let dataCrates = {
         eng: "Quarantined Collection Case",
         pol: "Skrzynia kolekcji kwarantanny",
         sch: "隔离收藏品",
-        fre: "Caisse de la collection Quarantaine",
-        bra: "Caixa da Coleção Quarentena",
-        hun: "Elkülönített Gyűjtemény Táska",
-        swe: "Isolerad-kollektionslåda"
+        fre: "Collection Quarantaine",
+        bra: "Coleção Quarentena",
+        hun: "Elkülönített Gyűjtemény",
+        swe: "Isolerad-kollektionslåda",
+        cze: "Kolekce Quarantined"
     },
     50: {
         img: "confidential_collection_case",
         eng: "Confidential Collection Case",
         pol: "Skrzynia kolekcji poufne",
         sch: "机密收藏品",
-        fre: "Caisse de la collection Confidentielle",
-        bra: "Caixa da Coleção Confidencial",
-        hun: "Bizalmas Gyűjtemény Táska",
-        swe: "Konfidentiell-kollektionslåda"
+        fre: "Collection Confidentielle",
+        bra: "Coleção Confidencial",
+        hun: "Bizalmas Gyűjtemény",
+        swe: "Konfidentiell-kollektionslåda",
+        cze: "Kolekce Confidential"
     },
     51: {
         img: "gargoyle_case",
@@ -938,6 +940,15 @@ let dataCrates = {
         eng: "Summer 2022 Cosmetic Case",
         pol: "Letnia skrzynia ozdób 2022",
         bra: "Caixa de Cosméticos das Férias de 2022",
-        hun: "Nyár 2022 Díszítő Táska"
+        hun: "Nyár 2022 Díszítő Táska",
+        fre: "Caisse de cosmétiques d'été 2022"
+    },
+    95: {
+        img: "ghoulish_gains_case",
+        eng: "Ghoulish Gains Case"
+    },
+    96: {
+        img: "scream_fortress_xiv_war_paint_case",
+        eng: "Scream Fortress XIV War Paint Case"
     }
 }
