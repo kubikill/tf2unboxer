@@ -25,6 +25,7 @@ import {
     hw19FX,
     hw20FX,
     hw21FX,
+    hw22FX,
     xmas19FX,
     xmas20FX,
     xmas21FX,
