@@ -37,7 +37,7 @@ let dataCrates = {
         fre: "Caisse d'armes de la Collection du Tueur Dissimulé",
         bra: "Caixa de Arma do Assassino Furtivo",
         hun: "A Rejtett Gyilkos Fegyvertáska",
-        rom: "The Concealed Killer Weapons Case",
+        rom: "Cutie cu arme Concealed Killer",
         swe: "Maskerade mördaren-vapenväska"
     },
     5: {
@@ -207,7 +207,7 @@ let dataCrates = {
         pol: "Turkusowa letnia lodówka 2013",
         sch: "2013 水绿夏日冷藏箱",
         fre: "Glacière Estivale Aquatique 2013",
-        bra: "Cooler Azul-piscina das Férias de 2013",
+        bra: "Cooler Azul-Piscina das Férias de 2013",
         hun: "2013-as Vízkék Nyári Hűtőtáska",
         swe: "Turkos Sommarlåda (2013)"
     },
@@ -298,7 +298,7 @@ let dataCrates = {
         pol: "Wzmocniona skrzynka Mann Co.",
         sch: "曼恩公司保险箱",
         fre: "Coffre-fort Mann Co.",
-        bra: "Caixa-forte da Mann Co.",
+        bra: "Caixa-Forte da Mann Co.",
         hun: "Mann Co. Páncélkazetta",
         swe: "Mann Co. Kassaskåp"
     },
@@ -459,7 +459,7 @@ let dataCrates = {
         pol: "Grzeczna zimowa skrzynka 2014",
         sch: "精美欢冬补给箱 2014",
         fre: "Caisse d'hiver bien sage 2014",
-        bra: "Caixa Bem-comportada de Fim de Ano de 2014",
+        bra: "Caixa Bem-Comportada de Fim de Ano de 2014",
         hun: "Rendes Téli Láda 2014",
         swe: "Snäll Vinterlåda 2014"
     },
@@ -471,7 +471,8 @@ let dataCrates = {
         fre: "La caisse d'armes Powerhouse",
         bra: "Caixa de Arma da Coleção Powerhouse",
         hun: "Powerhouse Fegyvertáska",
-        swe: "Powerhouse-vapenväska"
+        swe: "Powerhouse-vapenväska",
+        rom: "Cutie cu arme Powerhouse"
     },
     48: {
         img: "gun_mettle_cosmetic_case",
@@ -481,18 +482,20 @@ let dataCrates = {
         fre: "Caisse de cosmétiques Gun Mettle",
         bra: "Caixa de Cosméticos do Arsenal Artístico",
         hun: "Fegyverre Termett Díszítő Táska",
-        swe: "Gun Mettle-kosmetiklåda"
+        swe: "Gun Mettle-kosmetiklåda",
+        rom: "Cutie cu accesorii Gun Mettle"
     },
     49: {
         img: "quarantined_collection_case",
         eng: "Quarantined Collection Case",
-        pol: "Skrzynia kolekcji kwarantanny",
+        pol: "Kolekcja kwarantanny",
         sch: "隔离收藏品",
         fre: "Collection Quarantaine",
         bra: "Coleção Quarentena",
         hun: "Elkülönített Gyűjtemény",
         swe: "Isolerad-kollektionslåda",
-        cze: "Kolekce Quarantined"
+        cze: "Kolekce Quarantined",
+        rom: "Colecția Quarantined"
     },
     50: {
         img: "confidential_collection_case",
@@ -503,7 +506,8 @@ let dataCrates = {
         bra: "Coleção Confidencial",
         hun: "Bizalmas Gyűjtemény",
         swe: "Konfidentiell-kollektionslåda",
-        cze: "Kolekce Confidential"
+        cze: "Kolekce Confidential",
+        rom: "Colecția Confidential"
     },
     51: {
         img: "gargoyle_case",
@@ -513,7 +517,8 @@ let dataCrates = {
         fre: "Caisse gargouille",
         bra: "Caixa da Gárgula",
         hun: "Vízköpő Táska",
-        swe: "Gargoyle-låda"
+        swe: "Gargoyle-låda",
+        rom: "Cutie Gargoyle"
     },
     52: {
         img: "pyroland_weapons_case",
@@ -523,7 +528,8 @@ let dataCrates = {
         fre: "Caisse d'armes Pyroland",
         bra: "Caixa de Arma da Pyrolândia",
         hun: "Pirófölde Fegyvertáska",
-        swe: "Pyroland-vapenlåda"
+        swe: "Pyroland-vapenlåda",
+        rom: "Cutie cu arme Pyroland"
     },
     53: {
         img: "warbird_weapons_case",
@@ -533,7 +539,8 @@ let dataCrates = {
         fre: "Caisse d'armes Warbird",
         bra: "Caixa de Arma da Ave de Guerra",
         hun: "Viharmadár Fegyvertáska",
-        swe: "Warbird-vapenlåda"
+        swe: "Warbird-vapenlåda",
+        rom: "Cutie cu arme Warbird"
     },
     54: {
         img: "tough_break_cosmetic_case",
@@ -543,7 +550,8 @@ let dataCrates = {
         fre: "Caisse de cosmétiques Tough Break",
         bra: "Caixa de Cosméticos das Férias Frustradas",
         hun: "Balszerencse Díszítő Táska",
-        swe: "Tough Break-kosmetiklåda"
+        swe: "Tough Break-kosmetiklåda",
+        rom: "Cutie cu accesorii Tough Break"
     },
     55: {
         img: "mayflower_cosmetic_case",
@@ -553,7 +561,8 @@ let dataCrates = {
         fre: "Caisse de cosmétiques Mayflower",
         bra: "Caixa de Cosméticos da Flor de Maio",
         hun: "Galagonya Díszítő Táska",
-        swe: "Mayflower-kosmetiklåda"
+        swe: "Mayflower-kosmetiklåda",
+        rom: "Cutie cu accesorii Mayflower"
     },
     56: {
         img: "creepy_crawly_case",
@@ -563,7 +572,8 @@ let dataCrates = {
         fre: "Caisse arachnéenne",
         bra: "Caixa da Aranha Arrepiante",
         hun: "Csúszómászó Táska",
-        swe: "Kusliga kryp-låda"
+        swe: "Kusliga kryp-låda",
+        rom: "Cutie Creepy Crawly"
     },
     57: {
         img: "unlocked_winter_2016_cosmetic_case",
@@ -573,7 +583,7 @@ let dataCrates = {
         fre: "Caisse cosmétique d'hiver 2016 déverrouillée",
         bra: "Caixa de Cosméticos Destrancada de Fim de Ano de 2016",
         hun: "Kinyitott 2016 Téli Díszítő Táska",
-        rom: "Winter 2016 Cosmetic Case deblocat",
+        rom: "Cutie cu accesorii Winter 2016 deblocată",
         swe: "Upplåst Vinter 2016-kosmetiklåda"
     },
     58: {
@@ -584,7 +594,8 @@ let dataCrates = {
         fre: "Caisse de cosmétiques Rainy Day",
         bra: "Caixa de Cosméticos do Dia Chuvoso",
         hun: "Esős Napi Díszítő Táska",
-        swe: "Rainy Day-kosmetiklåda"
+        swe: "Rainy Day-kosmetiklåda",
+        rom: "Cutie cu accesorii Rainy Day"
     },
     59: {
         img: "abominable_cosmetic_case",
@@ -594,7 +605,8 @@ let dataCrates = {
         fre: "Caisse de cosmétiques abominables",
         bra: "Caixa de Cosméticos Abomináveis",
         hun: "Förtelmes Díszítő Táska",
-        swe: "Abominable Cosmetic-väska"
+        swe: "Abominable Cosmetic-väska",
+        rom: "Cutie cu accesorii Abominable"
     },
     60: {
         img: "unleash_the_beast_cosmetic_case",
@@ -615,7 +627,8 @@ let dataCrates = {
         fre: "Caisse de peintures Jungle Jackpot",
         bra: "Caixa de Tintas de Guerra da Sorte Selvagem",
         hun: "Dzsungelfőnyeremény Harci Festés Táska",
-        swe: "Jungle Jackpot-krigsfärgväska"
+        swe: "Jungle Jackpot-krigsfärgväska",
+        rom: "Cutie cu vopsea de război Jungle Jackpot"
     },
     62: {
         img: "infernal_reward_war_paint_case",
@@ -625,7 +638,8 @@ let dataCrates = {
         fre: "Caisse de peintures Infernal Reward",
         bra: "Caixa de Tintas de Guerra da Recompensa Infernal",
         hun: "Pokoli Jutalom Harci Festés Táska",
-        swe: "Infernal Reward-krigsfärgväska"
+        swe: "Infernal Reward-krigsfärgväska",
+        rom: "Cutie cu vopsea de război Infernal Reward"
     },
     63: {
         img: "war_paint_civilian_grade_keyless_case",
@@ -633,7 +647,7 @@ let dataCrates = {
         pol: "Barwy wojenne bohatera wojennego Otwarta skrzynia stopnia cywil",
         sch: "功勋英雄 民用级无锁战绘箱",
         fre: "Peinture de guerre Decorated War Hero Caisse ouverte de niveau Civil",
-        bra: "Tinta de Guerra \"Veterano Condecorado\" Caixa Destrancada Nv. Civil",
+        bra: "Tinta de Guerra \\\"Veterano Condecorado\\\" Caixa Destrancada Nv. Civil",
         hun: "„Kitüntetett Háborús Hős” harci festés Civil fokozatú kulcs nélküli táska",
         rom: "Vopsea de război „Decorated War Hero” Cutie neîncuiată de ordin civil",
         cze: "Decorated War Hero Civilian Grade Keyless Case",
@@ -645,7 +659,7 @@ let dataCrates = {
         pol: "Barwy wojenne najemnika kontraktowego Otwarta skrzynia stopnia cywil",
         sch: "合同履行者 民用级无锁战绘箱",
         fre: "Peinture de guerre « Contract Campaigner » Caisse ouverte de niveau Civil",
-        bra: "Tinta de Guerra \"Contratado da Campanha\" Caixa Destrancada Nv. Civil",
+        bra: "Tinta de Guerra \\\"Contratado da Campanha\\\" Caixa Destrancada Nv. Civil",
         hun: "„Szerződéses Hadjáratozó” harci festés Civil fokozatú kulcs nélküli táska",
         rom: "Vopsea de război „Contract Campaigner” Cutie neîncuiată de ordin civil",
         cze: "Contract Campaigner Civilian Grade Keyless Case",
@@ -659,7 +673,8 @@ let dataCrates = {
         fre: "Caisse de cosmétiques d'hiver 2017",
         bra: "Caixa de Cosméticos de Fim de Ano de 2017",
         hun: "Tél 2017 Díszítő Táska",
-        swe: "Vinter 2017-låda"
+        swe: "Vinter 2017-låda",
+        rom: "Cutie cu accesorii Winter 2017"
     },
     66: {
         img: "winter_2017_war_paint_case",
@@ -669,7 +684,8 @@ let dataCrates = {
         fre: "Caisse de peintures d'hiver 2017",
         bra: "Caixa de Tintas de Guerra de Fim de Ano de 2017",
         hun: "Tél 2017 Harci Festés Táska",
-        swe: "Vinter 2017-krigsfärgväska"
+        swe: "Vinter 2017-krigsfärgväska",
+        rom: "Cutie cu vopsea de război Winter 2017"
     },
     67: {
         img: "blue_moon_cosmetic_case",
@@ -679,7 +695,8 @@ let dataCrates = {
         fre: "Caisse de cosmétiques Blue Moon",
         bra: "Caixa de Cosméticos da Lua Azul",
         hun: "Kék Hold Díszítő Táska",
-        swe: "Blue Moon-låda"
+        swe: "Blue Moon-låda",
+        rom: "Cutie cu accesorii Blue Moon"
     },
     68: {
         img: "violet_vermin_case",
@@ -689,7 +706,8 @@ let dataCrates = {
         fre: "Caisse de cosmétiques veuve violette",
         bra: "Caixa do Verme Violeta",
         hun: "Ibolyaszín Ízeltlábúak Táska",
-        swe: "Violet Vermin-låda"
+        swe: "Violet Vermin-låda",
+        rom: "Cutie Violet Vermin"
     },
     69: {
         img: "scream_fortress_x_war_paint_case",
@@ -699,7 +717,8 @@ let dataCrates = {
         fre: "Caisse de peintures Scream Fortress X",
         bra: "Caixa de Tintas de Guerra do Scream Fortress X",
         hun: "Scream Fortress X Harci Festés Táska",
-        swe: "Scream Fortress X-krigsfärgväska"
+        swe: "Scream Fortress X-krigsfärgväska",
+        rom: "Cutie cu vopsea de război Scream Fortress X"
     },
     70: {
         img: "winter_2018_cosmetic_case",
@@ -709,7 +728,8 @@ let dataCrates = {
         fre: "Caisse de cosmétiques d'hiver 2018",
         bra: "Caixa de Cosméticos de Fim de Ano de 2018",
         hun: "Tél 2018 Díszítő Táska",
-        swe: "Vinter 2018-låda"
+        swe: "Vinter 2018-låda",
+        rom: "Cutie cu accesorii Winter 2018"
     },
     71: {
         img: "summer_2019_cosmetic_case",
@@ -719,7 +739,8 @@ let dataCrates = {
         sch: "2019 夏季饰品箱",
         bra: "Caixa de Cosméticos das Férias de 2019",
         hun: "Nyár 2019 Díszítő Táska",
-        swe: "Sommar 2019-låda"
+        swe: "Sommar 2019-låda",
+        rom: "Cutie cu accesorii Summer 2019"
     },
     72: {
         img: "unlocked_cosmetic_crate_scout",
@@ -829,7 +850,8 @@ let dataCrates = {
         sch: "幽灵战利品石匣",
         bra: "Caixa dos Espólios Assustadores",
         hun: "Kísérteties Kincsek Táska",
-        swe: "Spöklik skattväska"
+        swe: "Spöklik skattväska",
+        rom: "Cutie Spooky Spoils"
     },
     83: {
         img: "winter_2019_cosmetic_case",
@@ -839,7 +861,8 @@ let dataCrates = {
         sch: "2019 冬季饰品箱",
         bra: "Caixa de Cosméticos de Fim de Ano de 2019",
         hun: "Tél 2019 Díszítő Táska",
-        swe: "Vinter 2019-kosmetiklåda"
+        swe: "Vinter 2019-kosmetiklåda",
+        rom: "Cutie cu accesorii Winter 2019"
     },
     84: {
         img: "winter_2019_war_paint_case",
@@ -849,7 +872,8 @@ let dataCrates = {
         sch: "2019 冬季战绘箱",
         bra: "Caixa de Tintas de Guerra de Fim de Ano de 2019",
         hun: "Tél 2019 Harci Festés Táska",
-        swe: "Vinter 2019-krigsfärgväska"
+        swe: "Vinter 2019-krigsfärgväska",
+        rom: "Cutie cu vopsea de război Winter 2019"
     },
     85: {
         img: "summer_2020_cosmetic_case",
@@ -859,7 +883,8 @@ let dataCrates = {
         sch: "2020 夏季饰品箱",
         bra: "Caixa de Cosméticos das Férias de 2020",
         hun: "Nyár 2020 Díszítő Táska",
-        swe: "Sommar 2020-kosmetiklåda"
+        swe: "Sommar 2020-kosmetiklåda",
+        rom: "Cutie cu accesorii Summer 2020"
     },
     86: {
         img: "wicked_windfall_case",
@@ -869,7 +894,8 @@ let dataCrates = {
         sch: "飞来横祸石匣",
         bra: "Caixa da Herança Sinistra",
         hun: "Szörnyű Szerencse Táska",
-        swe: "Giftig fallfrukt-låda"
+        swe: "Giftig fallfrukt-låda",
+        rom: "Cutie Wicked Windfall"
     },
     87: {
         img: "scream_fortress_xii_war_paint_case",
@@ -879,7 +905,8 @@ let dataCrates = {
         sch: "尖叫要塞 XII 战绘箱",
         bra: "Caixa de Tintas de Guerra do Scream Fortress XII",
         hun: "Scream Fortress XII Harci Festés Táska",
-        swe: "Scream Fortress XII-krigsfärgväska"
+        swe: "Scream Fortress XII-krigsfärgväska",
+        rom: "Cutie cu vopsea de război Scream Fortress XII"
     },
     88: {
         img: "winter_2020_cosmetic_case",
@@ -888,7 +915,8 @@ let dataCrates = {
         bra: "Caixa de Cosméticos de Fim de Ano de 2020",
         fre: "Caisse de cosmétiques d'hiver 2020",
         hun: "Tél 2020 Díszítő Táska",
-        swe: "Vinter 2020-kosmetiklåda"
+        swe: "Vinter 2020-kosmetiklåda",
+        rom: "Cutie cu accesorii Winter 2020"
     },
     89: {
         img: "winter_2020_war_paint_case",
@@ -897,7 +925,8 @@ let dataCrates = {
         bra: "Caixa de Tintas de Guerra de Fim de Ano de 2020",
         fre: "Caisse de peintures d'hiver 2020",
         hun: "Tél 2020 Harci Festés Táska",
-        swe: "Vinter 2020-krigsfärgväska"
+        swe: "Vinter 2020-krigsfärgväska",
+        rom: "Cutie cu vopsea de război Winter 2020"
     },
     90: {
         img: "summer_2021_cosmetic_case",
@@ -907,7 +936,8 @@ let dataCrates = {
         sch: "2021 夏季饰品箱",
         bra: "Caixa de Cosméticos das Férias de 2021",
         hun: "Nyár 2021 Díszítő Táska",
-        swe: "Sommar 2021-kosmetiklåda"
+        swe: "Sommar 2021-kosmetiklåda",
+        rom: "Cutie cu accesorii Summer 2021"
     },
     91: {
         img: "crimson_cache_case",
@@ -916,7 +946,8 @@ let dataCrates = {
         hun: "Karmazsin Készlet Táska",
         swe: "Crimson Cache-väska",
         bra: "Caixa da Lembrança Carmesim",
-        fre: "Caisse du magot cramoisi"
+        fre: "Caisse du magot cramoisi",
+        rom: "Cutie Crimson Cache"
     },
     92: {
         img: "scream_fortress_xiii_war_paint_case",
@@ -925,7 +956,8 @@ let dataCrates = {
         hun: "Scream Fortress XIII Harci Festés Táska",
         swe: "Scream Fortress XIII-krigsfärgväska",
         bra: "Caixa de Tintas de Guerra do Scream Fortress XIII",
-        fre: "Caisse de peintures Scream Fortress XIII"
+        fre: "Caisse de peintures Scream Fortress XIII",
+        rom: "Cutie cu vopsea de război Scream Fortress XIII"
     },
     93: {
         img: "winter_2021_cosmetic_case",
@@ -933,7 +965,8 @@ let dataCrates = {
         pol: "Zimowa skrzynia ozdób 2021",
         bra: "Caixa de Cosméticos de Fim de Ano de 2021",
         hun: "Tél 2021 Díszítő Táska",
-        fre: "Caisse de cosmétiques d'hiver 2021"
+        fre: "Caisse de cosmétiques d'hiver 2021",
+        rom: "Cutie cu accesorii Winter 2021"
     },
     94: {
         img: "summer_2022_cosmetic_case",
@@ -941,14 +974,29 @@ let dataCrates = {
         pol: "Letnia skrzynia ozdób 2022",
         bra: "Caixa de Cosméticos das Férias de 2022",
         hun: "Nyár 2022 Díszítő Táska",
-        fre: "Caisse de cosmétiques d'été 2022"
+        fre: "Caisse de cosmétiques d'été 2022",
+        rom: "Cutie cu accesorii Summer 2022"
     },
     95: {
         img: "ghoulish_gains_case",
-        eng: "Ghoulish Gains Case"
+        eng: "Ghoulish Gains Case",
+        pol: "Skrzynia upiornych zdobyczy",
+        bra: "Caixa do Ghoul",
+        fre: "Caisse du butin des goules",
+        hun: "Hátborzongató Haszon Táska",
+        rom: "Cutie Ghoulish Gains"
     },
     96: {
         img: "scream_fortress_xiv_war_paint_case",
-        eng: "Scream Fortress XIV War Paint Case"
+        eng: "Scream Fortress XIV War Paint Case",
+        pol: "Skrzynia barw wojennych Scream Fortress XIV",
+        bra: "Caixa de Tintas de Guerra do Scream Fortress XIV",
+        fre: "Caisse de peintures Scream Fortress XIV",
+        hun: "Scream Fortress XIV Harci Festés Táska",
+        rom: "Cutie cu vopsea de război Scream Fortress XIV"
+    },
+    97: {
+        img: "winter_2022_cosmetic_case",
+        eng: "Winter 2022 Cosmetic Case"
     }
 }

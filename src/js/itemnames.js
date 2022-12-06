@@ -203,7 +203,7 @@ let dataItems = {
         pol: "Kryt-o-Cola",
         sch: "爆击可乐",
         fre: "Crit-a-Cola",
-        bra: "Criti-cola",
+        bra: "Criti-Cola",
         schema: 163,
         hun: "Krit-a-Kóla",
         ger: "Krit-a-Cola"
@@ -966,7 +966,7 @@ let dataItems = {
         pol: "Drwina: Kruszenie czaszek",
         sch: "嘲讽：砸烂狗头",
         fre: "Raillerie : Briseur de Crânes",
-        bra: "Provocação: Quebra-cuca",
+        bra: "Provocação: Quebra-Cuca",
         hun: "Beszólás: Fejtörő",
         swe: "Hån: Skallknäckare"
     },
@@ -1570,7 +1570,7 @@ let dataItems = {
         pol: "Granatnik",
         sch: "榴弹发射器",
         fre: "Lance-grenades",
-        bra: "Lança-granadas",
+        bra: "Lança-Granadas",
         schema: 206,
         hun: "gránátvető",
         swe: "Granatkastare"
@@ -1581,7 +1581,7 @@ let dataItems = {
         pol: "Wyrzutnia bomb samoprzylepnych",
         sch: "黏性炸弹发射器",
         fre: "Lanceur de bombes collantes",
-        bra: "Lança-stickybombs",
+        bra: "Lança-Stickybombs",
         schema: 207,
         hun: "tapadóbomba-vető",
         swe: "Klisterbombskastare"
@@ -1636,7 +1636,7 @@ let dataItems = {
         pol: "Wyrzutnia rakiet",
         sch: "火箭发射器",
         fre: "Lance-roquettes",
-        bra: "Lança-foguetes",
+        bra: "Lança-Foguetes",
         schema: 205,
         hun: "rakétavető",
         swe: "Raketgevär"
@@ -1949,7 +1949,7 @@ let dataItems = {
         pol: "Miotacz ognia",
         sch: "火焰喷射器",
         fre: "Lance-flammes",
-        bra: "Lança-chamas",
+        bra: "Lança-Chamas",
         schema: 208,
         hun: "lángszóró",
         swe: "Eldkastare"
@@ -2059,7 +2059,7 @@ let dataItems = {
         pol: "Karabin snajperski",
         sch: "狙击步枪",
         fre: "Fusil de sniper",
-        bra: "Rifle de Sniper",
+        bra: "Rifle de Precisão",
         schema: 201,
         hun: "mesterlövész puska",
         swe: "Krypskyttegevär"
@@ -2333,7 +2333,7 @@ let dataItems = {
         pol: "Świąteczna wyrzutnia rakiet",
         sch: "节日火箭发射器",
         fre: "Lance-roquettes festif",
-        bra: "Lança-foguetes Festivo",
+        bra: "Lança-Foguetes Festivo",
         schema: 658,
         hun: "Ünnepi Rakétavető",
         swe: "Festligt Raketgevär"
@@ -2344,7 +2344,7 @@ let dataItems = {
         pol: "Świąteczny miotacz ognia",
         sch: "节日火焰喷射器",
         fre: "Lance-flammes festif",
-        bra: "Lança-chamas Festivo",
+        bra: "Lança-Chamas Festivo",
         schema: 659,
         hun: "Ünnepi Lángszóró",
         swe: "Festlig Eldkastare"
@@ -2355,7 +2355,7 @@ let dataItems = {
         pol: "Świąteczna wyrzutnia bomb samoprzylepnych",
         sch: "节日黏性炸弹发射器",
         fre: "Lanceur de bombes collantes festif",
-        bra: "Lança-stickybombs Festivo",
+        bra: "Lança-Stickybombs Festivo",
         schema: 661,
         hun: "Ünnepi Tapadóbomba-vető",
         swe: "Festlig Klisterbombskastare"
@@ -2399,7 +2399,7 @@ let dataItems = {
         pol: "Świąteczny karabin snajperski",
         sch: "节日狙击步枪",
         fre: "Fusil de sniper festif",
-        bra: "Rifle de Sniper Festivo",
+        bra: "Rifle de Precisão Festivo",
         schema: 664,
         hun: "Ünnepi Mesterlövész Puska",
         swe: "Festligt Krypskyttegevär"
@@ -3771,7 +3771,7 @@ let dataItems = {
         pol: "Świąteczna Święta makrela",
         sch: "节日圣灵鲭鱼",
         fre: "Maquereau Sacré festif",
-        bra: "Santo Carapau Festivo",
+        bra: "O Santo Carapau Festivo",
         schema: 999,
         hun: "Ünnepi Magasságos Makréla",
         swe: "Festliga Fina Fisken"
@@ -3782,7 +3782,7 @@ let dataItems = {
         pol: "Świąteczny Poskramiacz płomieni",
         sch: "节日火焰战斧",
         fre: "Hachtincteur festif",
-        bra: "Queimachado Festivo",
+        bra: "O Queimachado Festivo",
         schema: 1000,
         hun: "Ünnepi Fejhasogató",
         swe: "Festliga Brandslaktaren"
@@ -3793,7 +3793,7 @@ let dataItems = {
         pol: "Świąteczny Sztandar chwały",
         sch: "节日战旗",
         fre: "Drapeau Buff festif",
-        bra: "Estandarte de Encorajamento Festivo",
+        bra: "O Estandarte de Encorajamento Festivo",
         schema: 1001,
         hun: "Ünnepi Lázító Lobogó",
         swe: "Festliga Buffbaneret"
@@ -3804,7 +3804,7 @@ let dataItems = {
         pol: "Świąteczna kanapka",
         sch: "节日三明治",
         fre: "Sandvich festif",
-        bra: "Sandviche Festivo",
+        bra: "O Sandviche Festivo",
         schema: 1002,
         hun: "Ünnepi Szendvics",
         swe: "Festliga Smörgosen"
@@ -3815,7 +3815,7 @@ let dataItems = {
         pol: "Świąteczna Überpiła",
         sch: "节日过载充能锯",
         fre: "Überscie festive",
-        bra: "Überserra Festiva",
+        bra: "A Überserra Festiva",
         schema: 1003,
         hun: "Ünnepi Agyonfűrész",
         swe: "Festliga Übersågen"
@@ -3826,7 +3826,7 @@ let dataItems = {
         pol: "Świąteczny Samosąd",
         sch: "节日边境裁决者",
         fre: "Justice Frontalière festive",
-        bra: "Justiça Vingadora Festiva",
+        bra: "A Justiça Vingadora Festiva",
         schema: 1004,
         hun: "Ünnepi Önbíráskodó",
         swe: "Festlig Västernrättvisa"
@@ -3837,7 +3837,7 @@ let dataItems = {
         pol: "Świąteczny Łowca",
         sch: "节日猎人短弓",
         fre: "Huntsman festif",
-        bra: "Caçador Festivo",
+        bra: "O Caçador Festivo",
         schema: 1005,
         hun: "Ünnepi Levadász",
         swe: "Festliga Jägaren"
@@ -3848,7 +3848,7 @@ let dataItems = {
         pol: "Świąteczny Ambasador",
         sch: "节日大使左轮手枪",
         fre: "Ambassadeur festif",
-        bra: "Embaixador Festivo",
+        bra: "O Embaixador Festivo",
         schema: 1006,
         hun: "Ünnepi Nagykövet",
         swe: "Festliga Ambassadören"
@@ -3859,7 +3859,7 @@ let dataItems = {
         pol: "Świąteczny granatnik",
         sch: "节日榴弹发射器",
         fre: "Lance-grenades festif",
-        bra: "Lança-granadas Festivo",
+        bra: "Lança-Granadas Festivo",
         schema: 1007,
         hun: "Ünnepi Gránátvető",
         swe: "Festliga Granatkastaren"
@@ -4077,7 +4077,7 @@ let dataItems = {
         pol: "Kuriozalna część: Zabici Pyro",
         sch: "奇异武器升级部件：火焰兵消灭数",
         fre: "Pièce étrange : Pyros tués",
-        bra: "Peça Estranha: Pyros Que Você Matou",
+        bra: "Peça Estranha: Pyros que Você Matou",
         schema: 6006,
         hun: "Fura Alkatrész: Megölt Pirók",
         swe: "Märklig Del: Pyros dödade"
@@ -4484,7 +4484,7 @@ let dataItems = {
         pol: "Przepaska HDMI",
         sch: "高画质独眼照",
         fre: "Le cache HDMI",
-        bra: "O Tapa-olho HDMI",
+        bra: "O Tapa-Olho HDMI",
         schema: 30010,
         hun: "A HDMI Szemkötő",
         swe: "HDMI-uppdateringen"
@@ -4506,7 +4506,7 @@ let dataItems = {
         pol: "Sejf pełen szkockiej",
         sch: "苹果烈酒保险箱",
         fre: "Le Coffre-fort de Scrumpy",
-        bra: "A Caixa-forte de Cidra",
+        bra: "A Caixa-Forte de Cidra",
         schema: 30055,
         hun: "A Kódolt Kincsesláda",
         swe: "Spritkassaskåpet"
@@ -5117,7 +5117,7 @@ let dataItems = {
         pol: "Mistrz wagi ciężkiej",
         sch: "重量级拳击冠军",
         fre: "Le Champion Poids Lourd",
-        bra: "O Campeão Peso-pesado",
+        bra: "O Campeão Peso-Pesado",
         schema: 30080,
         hun: "A Nehézsúlyú Bajnok",
         swe: "Tungviktsmästaren"
@@ -5172,7 +5172,7 @@ let dataItems = {
         pol: "Haust z suchego kanionu",
         sch: "快餐店饮料杯",
         fre: "La Gorge Sèche",
-        bra: "O Mata-sede",
+        bra: "O Mata-Sede",
         schema: 30087,
         hun: "A Szárazsági Szomjoltó",
         swe: "Törstsläckaren"
@@ -5891,7 +5891,7 @@ let dataItems = {
         pol: "Mały Forfiter",
         sch: "小鳄鱼的龅牙",
         fre: "Le P'tit Snaggletooth",
-        bra: "Filhote Dente-torto",
+        bra: "Filhote Dente-Torto",
         schema: 30181,
         hun: "Kis Csorbafog",
         swe: "Lille Gadden"
@@ -6143,7 +6143,7 @@ let dataItems = {
         pol: "Mycka martwiaka",
         sch: "僵尸的符咒帽",
         fre: "La Toque du vampire",
-        bra: "A Marca do Morto-vivo",
+        bra: "A Marca do Morto-Vivo",
         schema: 30251,
         hun: "A Kínai Kísértő",
         swe: "Kadavrets keps"
@@ -6909,7 +6909,7 @@ let dataItems = {
         pol: "Melonik mózgowca",
         sch: "高压式硬顶圆礼帽",
         fre: "Le mental sous pression",
-        bra: "O Chapéu-coco Cerebral",
+        bra: "O Chapéu-Coco Cerebral",
         schema: 30256,
         hun: "A Túlnyomásos Tökfödő",
         swe: "Hyperbariska hatten"
@@ -7358,7 +7358,7 @@ let dataItems = {
         pol: "Świąteczna Siła natury",
         sch: "节日自然之力",
         fre: "Force-de-la-Nature festive",
-        bra: "Força da Natureza Festiva",
+        bra: "A Força da Natureza Festiva",
         schema: 1078,
         hun: "Ünnepi Elsöprögető",
         swe: "Festlig Hagel-Med-Kraft"
@@ -7380,7 +7380,7 @@ let dataItems = {
         pol: "Świąteczna Kusza krzyżowca",
         sch: "节日十字军之弩",
         fre: "Arbalète du Croisé festive",
-        bra: "Besta do Cruzado Festiva",
+        bra: "A Besta do Cruzado Festiva",
         schema: 1079,
         hun: "Ünnepi Szamaritánus Számszeríja",
         swe: "Festlig Korsriddarens Armborst"
@@ -7402,7 +7402,7 @@ let dataItems = {
         pol: "Świąteczny Wyszczerbiec",
         sch: "节日苏格兰长剑",
         fre: "Eyelander festif",
-        bra: "Eyelander Festiva",
+        bra: "A Eyelander Festiva",
         schema: 1082,
         hun: "Ünnepi Egyetlen",
         swe: "Festlig Ögländaren"
@@ -7424,7 +7424,7 @@ let dataItems = {
         pol: "Świąteczne Gorące rękawice uciekiniera",
         sch: "节日紧急逃跑手套",
         fre: "Gants de Retraite Urgente festifs",
-        bra: "Geradoras de Rapidez Urgente Festivas",
+        bra: "As Geradoras de Rapidez Urgente Festivas",
         schema: 1084,
         hun: "Ünnepi Fürge Sprintelés Bokszkesztyűi",
         swe: "Festlig Gorbatjovs Rushande Uppercut"
@@ -7435,7 +7435,7 @@ let dataItems = {
         pol: "Świąteczna Czarna skrzynka",
         sch: "节日黑匣子",
         fre: "Boîte Noire festive",
-        bra: "Caixa Preta Festiva",
+        bra: "A Caixa Preta Festiva",
         schema: 1085,
         hun: "Ünnepi Fekete Doboz",
         swe: "Festlig Svarta Lådan"
@@ -7446,7 +7446,7 @@ let dataItems = {
         pol: "Świąteczny Poskramiacz",
         sch: "节日遥控手柄",
         fre: "Dompteur festif",
-        bra: "Peão Festivo",
+        bra: "O Peão Festivo",
         schema: 1086,
         hun: "Ünnepi Idomító",
         swe: "Festlig Grälmakare"
@@ -7994,7 +7994,7 @@ let dataItems = {
         pol: "Kamasze kloszarda",
         sch: "耗子践踏者",
         fre: "Les Bottes Anti-rat",
-        bra: "As Botas Mata-ratos",
+        bra: "As Botas Mata-Ratos",
         schema: 30354,
         hun: "A Patkánytaposó",
         swe: "Råttstamparna"
@@ -8853,7 +8853,7 @@ let dataItems = {
         pol: "Fajka teleskopowa",
         sch: "烟枪狙击手",
         fre: "La Cigarette du Scoper",
-        bra: "O Fumo do Franco-atirador",
+        bra: "O Fumo do Franco-Atirador",
         schema: 30423,
         hun: "A Távcsöves Füstje",
         swe: "Siktarens Rök"
@@ -8941,7 +8941,7 @@ let dataItems = {
         pol: "Oczko w głowie",
         sch: "独眼龙",
         fre: "Le Tape-à-l'Oeil",
-        bra: "O Papa-olho",
+        bra: "O Papa-Olho",
         schema: 30414,
         hun: "A Szembeötlő",
         swe: "Blickfångaren"
@@ -9139,7 +9139,7 @@ let dataItems = {
         pol: "Łuskowate łapska",
         fre: "Reptile réputé",
         sch: "鳄人鳞甲",
-        bra: "Escamas do Franco-atirador",
+        bra: "Escamas do Franco-Atirador",
         schema: 31005,
         hun: "Hidegvérű Mesterlövész",
         swe: "Skyttens Skinn"
@@ -10086,7 +10086,7 @@ let dataItems = {
         pol: "Polarna parka",
         sch: "寒潮外套",
         fre: "Blouson Coupe Vent",
-        bra: "Casaco Cala-frio",
+        bra: "Casaco Cala-Frio",
         schema: 30601,
         hun: "Hidegroham-kabát",
         swe: "Köldknäppskappa"
@@ -10108,7 +10108,7 @@ let dataItems = {
         pol: "Świąteczny Dupalacz",
         sch: "节日偷袭烈焰喷射器",
         fre: "Brûleur arrière festif",
-        bra: "Queima-Costas Festivo",
+        bra: "O Queima-Costas Festivo",
         schema: 1146,
         hun: "Ünnepi Beégető",
         swe: "Festlig Ryggbrännare"
@@ -10119,7 +10119,7 @@ let dataItems = {
         pol: "Świąteczna Tarcza szarży",
         sch: "节日冲锋盾",
         fre: "Bouclier bélier festif",
-        bra: "Tarja de Investida Festiva",
+        bra: "A Tarja de Investida Festiva",
         schema: 1144,
         hun: "Ünnepi Rohamozó Paizs",
         swe: "Festlig Anfallssköld"
@@ -10273,7 +10273,7 @@ let dataItems = {
         pol: "Odzienie giermka",
         sch: "火炬手的战袍",
         fre: "Tabard de l'incendiaire",
-        bra: "Tabardo do Toca-fogo",
+        bra: "Tabardo do Toca-Fogo",
         schema: 30583,
         hun: "A Gyújtogató Tunikája",
         swe: "Brännarens Tabert"
@@ -11386,7 +11386,7 @@ let dataItems = {
         pol: "Prehistoryczny pulower",
         sch: "史前爬行动物兜帽",
         fre: "Pullover Préhistorique",
-        bra: "Capuz Pré-histórico",
+        bra: "Capuz Pré-Histórico",
         schema: 30704,
         hun: "Őskori Pulóver",
         swe: "Dinohuva"
@@ -13162,7 +13162,7 @@ let dataItems = {
         pol: "Insygnia strzelca",
         sch: "步枪手军装",
         fre: "Tenue du fusilleur",
-        bra: "Farda do Franco-atirador",
+        bra: "Farda do Franco-Atirador",
         schema: 30895,
         hun: "A Karabélyos Ékessége",
         swe: "Fältjägarens Finkläder"
@@ -13492,7 +13492,7 @@ let dataItems = {
         pol: "Obrany banan | Barwy wojenne",
         sch: "曼恩香蕉 战绘",
         fre: "Mannanas | Peinture de guerre",
-        bra: "Mannana Descascada Tinta de Guerra",
+        bra: "| Mannana Descascada | Tinta de Guerra",
         schema: 16302,
         hun: "Hámozott Mannános Harci festés",
         rom: "Mannana Peeled Vopsea de război",
@@ -13504,7 +13504,7 @@ let dataItems = {
         pol: "Panterka | Barwy wojenne",
         sch: "斑点豹纹 战绘",
         fre: "Léopard | Peinture de guerre",
-        bra: "Pele de Leopardo Tinta de Guerra",
+        bra: "| Pele de Leopardo | Tinta de Guerra",
         schema: 16310,
         hun: "Leopárdmintás Harci festés",
         rom: "Leopard Printed Vopsea de război",
@@ -13516,7 +13516,7 @@ let dataItems = {
         pol: "Tygrysi pazur | Barwy wojenne",
         sch: "老虎条纹 战绘",
         fre: "Tigre | Peinture de guerre",
-        bra: "Pele de Tigre Tinta de Guerra",
+        bra: "| Pele de Tigre | Tinta de Guerra",
         schema: 16307,
         hun: "Tigriscsíkozott Harci festés",
         rom: "Tiger Buffed Vopsea de război",
@@ -13528,7 +13528,7 @@ let dataItems = {
         pol: "Bambusowe krycie | Barwy wojenne",
         sch: "势如破竹 战绘",
         fre: "Bambou | Peinture de guerre",
-        bra: "Pintura de Bambu Tinta de Guerra",
+        bra: "| Pintura de Bambu | Tinta de Guerra",
         schema: 16306,
         hun: "Bambusszal Borított Harci festés",
         rom: "Bamboo Brushed Vopsea de război",
@@ -13540,7 +13540,7 @@ let dataItems = {
         pol: "Anodowane aloha | Barwy wojenne",
         sch: "椰林风光 战绘",
         fre: "Aloha | Peinture de guerre",
-        bra: "Aloha-dização Tinta de Guerra",
+        bra: "| Aloha-dização | Tinta de Guerra",
         schema: 16305,
         hun: "Alohásan Eloxált Harci festés",
         rom: "Anodized Aloha Vopsea de război",
@@ -13552,7 +13552,7 @@ let dataItems = {
         pol: "Piña colada | Barwy wojenne",
         sch: "菠萝图案 战绘",
         fre: "Piña | Peinture de guerre",
-        bra: "Aroma de Abacaxi Tinta de Guerra",
+        bra: "| Aroma de Abacaxi | Tinta de Guerra",
         schema: 16309,
         hun: "Ananászos Harci festés",
         rom: "Piña Polished Vopsea de război",
@@ -13564,7 +13564,7 @@ let dataItems = {
         pol: "Siła krokodyla | Barwy wojenne",
         sch: "鳄鱼池塘 战绘",
         fre: "Croco | Peinture de guerre",
-        bra: "Crocodilos Cromados Tinta de Guerra",
+        bra: "| Crocodilos Cromados | Tinta de Guerra",
         schema: 16308,
         hun: "Krokodilos Harci festés",
         rom: "Croc Dusted Vopsea de război",
@@ -13576,7 +13576,7 @@ let dataItems = {
         pol: "Papuzi kamuflaż | Barwy wojenne",
         sch: "金刚鹦鹉 战绘",
         fre: "Ara macao | Peinture de guerre",
-        bra: "Disfarce de Arara Tinta de Guerra",
+        bra: "| Disfarce de Arara | Tinta de Guerra",
         schema: 16303,
         hun: "Papagájborítású Harci festés",
         rom: "Macaw Masked Vopsea de război",
@@ -13588,7 +13588,7 @@ let dataItems = {
         pol: "Skóra z yeti | Barwy wojenne",
         sch: "雪人之眼 战绘",
         fre: "Yéti | Peinture de guerre",
-        bra: "Revestimento Abominável Tinta de Guerra",
+        bra: "| Revestimento Abominável | Tinta de Guerra",
         schema: 16300,
         hun: "Jetiborítású Harci festés",
         rom: "Yeti Coated Vopsea de război",
@@ -13600,7 +13600,7 @@ let dataItems = {
         pol: "Złoty mat | Barwy wojenne",
         sch: "萨克斯顿 战绘",
         fre: "Saxton | Peinture de guerre",
-        bra: "Saxton à Cera Tinta de Guerra",
+        bra: "| Saxton à Cera | Tinta de Guerra",
         schema: 16304,
         hun: "Saxin Sima Harci festés",
         rom: "Sax Waxed Vopsea de război",
@@ -13612,7 +13612,7 @@ let dataItems = {
         pol: "Nastrój parku | Barwy wojenne",
         sch: "公园海报 战绘",
         fre: "Yeti Park | Peinture de guerre",
-        bra: "Passeio no Parque Tinta de Guerra",
+        bra: "| Passeio no Parque | Tinta de Guerra",
         schema: 16301,
         hun: "Parkstílusú Harci festés",
         rom: "Park Pigmented Vopsea de război",
@@ -13624,7 +13624,7 @@ let dataItems = {
         pol: "Kwiecisty rozkwit | Barwy wojenne",
         sch: "鲜花盛开 战绘",
         fre: "Floraison | Peinture de guerre",
-        bra: "Forro Florido Tinta de Guerra",
+        bra: "| Forro Florido | Tinta de Guerra",
         schema: 17200,
         hun: "Virágba Borult Harci festés",
         rom: "Bloom Buffed Vopsea de război",
@@ -13636,7 +13636,7 @@ let dataItems = {
         pol: "Kartonowe opakowanie | Barwy wojenne",
         sch: "纸盒包裹 战绘",
         fre: "Emboité | Peinture de guerre",
-        bra: "Papelão Tinta de Guerra",
+        bra: "| Papelão | Tinta de Guerra",
         schema: 17211,
         hun: "Kartondobozolt Harci festés",
         rom: "Cardboard Boxed Vopsea de război",
@@ -13648,7 +13648,7 @@ let dataItems = {
         pol: "Gwiezdna podróż | Barwy wojenne",
         sch: "璀璨星空 战绘",
         fre: "Stellaire | Peinture de guerre",
-        bra: "Estrelado Tinta de Guerra",
+        bra: "| Estrelado | Tinta de Guerra",
         schema: 17208,
         hun: "Rossz Csillagzatú Harci festés",
         rom: "Star Crossed Vopsea de război",
@@ -13660,7 +13660,7 @@ let dataItems = {
         pol: "Symbol najemnika | Barwy wojenne",
         sch: "佣兵之印 战绘",
         fre: "Mercenaire | Peinture de guerre",
-        bra: "Mercenário Cúbico Tinta de Guerra",
+        bra: "| Mercenário Cúbico | Tinta de Guerra",
         schema: 17203,
         hun: "Zsoldfoltos Harci festés",
         rom: "Merc Stained Vopsea de război",
@@ -13672,7 +13672,7 @@ let dataItems = {
         pol: "Kwacze opowieści | Barwy wojenne",
         sch: "致命之鸭 战绘",
         fre: "Coincoin | Peinture de guerre",
-        bra: "Patos Estam-Patos Tinta de Guerra",
+        bra: "| Patos Estam-patos | Tinta de Guerra",
         schema: 17201,
         hun: "Kacsákkal Tarkított Harci festés",
         rom: "Quack Canvassed Vopsea de război",
@@ -13684,7 +13684,7 @@ let dataItems = {
         pol: "Irlandzkie szczęście | Barwy wojenne",
         sch: "四叶草纹 战绘",
         fre: "Porte-bonheur | Peinture de guerre",
-        bra: "Camuflagem de Trevos Tinta de Guerra",
+        bra: "| Camuflagem de Trevos | Tinta de Guerra",
         schema: 17209,
         hun: "Lóherékkel Álcázott Harci festés",
         rom: "Clover Camo'd Vopsea de război",
@@ -13696,7 +13696,7 @@ let dataItems = {
         pol: "Palce lizać | Barwy wojenne",
         sch: "食欲大振 战绘",
         fre: "Pizza | Peinture de guerre",
-        bra: "Polimento de Pizza Tinta de Guerra",
+        bra: "| Polimento de Pizza | Tinta de Guerra",
         schema: 17206,
         hun: "Pizzával Polírozott Harci festés",
         rom: "Pizza Polished Vopsea de război",
@@ -13708,7 +13708,7 @@ let dataItems = {
         pol: "Zabójstwo potwierdzone | Barwy wojenne",
         sch: "杀戮刻痕 战绘",
         fre: "Dénombrement | Peinture de guerre",
-        bra: "Contando Vítimas Tinta de Guerra",
+        bra: "| Contando Vítimas | Tinta de Guerra",
         schema: 17204,
         hun: "Gyilokrovott Harci festés",
         rom: "Kill Covered Vopsea de război",
@@ -13720,7 +13720,7 @@ let dataItems = {
         pol: "Na bogato | Barwy wojenne",
         sch: "为所欲为 战绘",
         fre: "Billets de banque | Peinture de guerre",
-        bra: "Cobertura de Cédulas Tinta de Guerra",
+        bra: "| Cobertura de Cédulas | Tinta de Guerra",
         schema: 17202,
         hun: "Pénzelt Harci festés",
         rom: "Bank Rolled Vopsea de război",
@@ -13732,7 +13732,7 @@ let dataItems = {
         pol: "Bonkowo | Barwy wojenne",
         sch: "辐射超标 战绘",
         fre: "Bonk | Peinture de guerre",
-        bra: "Verniz Bonk Tinta de Guerra",
+        bra: "| Verniz Bonk | Tinta de Guerra",
         schema: 17207,
         hun: "Poffra Fényezett Harci festés",
         rom: "Bonk Varnished Vopsea de război",
@@ -13744,7 +13744,7 @@ let dataItems = {
         pol: "Słodziaśne sny | Barwy wojenne",
         sch: "幻境之物 战绘",
         fre: "Rose bonbon | Peinture de guerre",
-        bra: "Animais Fofinhos Tinta de Guerra",
+        bra: "| Animais Fofinhos | Tinta de Guerra",
         schema: 17212,
         hun: "Vágyálmodott Harci festés",
         rom: "Dream Piped Vopsea de război",
@@ -13756,7 +13756,7 @@ let dataItems = {
         pol: "Waleczna wolność | Barwy wojenne",
         sch: "星条花纹 战绘",
         fre: "Libertaire | Peinture de guerre",
-        bra: "Padrão Patriota Tinta de Guerra",
+        bra: "| Padrão Patriota | Tinta de Guerra",
         schema: 17210,
         hun: "Szabadságba Csomagolt Harci festés",
         rom: "Freedom Wrapped Vopsea de război",
@@ -13768,7 +13768,7 @@ let dataItems = {
         pol: "Glazurowany ogień | Barwy wojenne",
         sch: "烈焰之纹 战绘",
         fre: "Brasier | Peinture de guerre",
-        bra: "Chama Esmaltada Tinta de Guerra",
+        bra: "| Chama Esmaltada | Tinta de Guerra",
         schema: 17205,
         hun: "Tűznyalta Harci festés",
         rom: "Fire Glazed Vopsea de război",
@@ -13780,7 +13780,7 @@ let dataItems = {
         pol: "Obywatelski obowiązek wz. II | Barwy wojenne",
         sch: "公民义务 Mk.II 战绘",
         fre: "Devoir civique Mk.II | Peinture de guerre",
-        bra: "Dever Civil Mk.II Tinta de Guerra",
+        bra: "| Dever Civil Mk.II | Tinta de Guerra",
         schema: 16144,
         hun: "Állampolgári Kötelesség, II. széria Harci festés",
         rom: "Civic Duty Mk.II Vopsea de război",
@@ -13792,7 +13792,7 @@ let dataItems = {
         pol: "Służba cywilna wz. II | Barwy wojenne",
         sch: "公仆 Mk.II 战绘",
         fre: "Fonctionnaire Mk.II | Peinture de guerre",
-        bra: "Servidor Público Mk.II Tinta de Guerra",
+        bra: "| Servidor Público Mk.II | Tinta de Guerra",
         schema: 16139,
         hun: "Köztisztviselő, II. széria Harci festés",
         rom: "Civil Servant Mk.II Vopsea de război",
@@ -13804,7 +13804,7 @@ let dataItems = {
         pol: "Jesień wz. II | Barwy wojenne",
         sch: "秋日 Mk.II 战绘",
         fre: "Automne Mk.II | Peinture de guerre",
-        bra: "Outono Mk.II Tinta de Guerra",
+        bra: "| Outono Mk.II | Tinta de Guerra",
         schema: 16160,
         hun: "Őszi, II. széria Harci festés",
         rom: "Autumn Mk.II Vopsea de război",
@@ -13816,7 +13816,7 @@ let dataItems = {
         pol: "Strzelec w kratę wz. II | Barwy wojenne",
         sch: "格纹猛击者 Mk.II 战绘",
         fre: "Tir à carreau Mk.II | Peinture de guerre",
-        bra: "Saia Mk.II Tinta de Guerra",
+        bra: "| Saia Mk.II | Tinta de Guerra",
         schema: 16122,
         hun: "Kockás Kocalövész, II. széria Harci festés",
         rom: "Plaid Potshotter Mk.II Vopsea de război",
@@ -13828,7 +13828,7 @@ let dataItems = {
         pol: "Nocna sowa wz. II | Barwy wojenne",
         sch: "夜枭 Mk.II 战绘",
         fre: "Oiseau de nuit Mk.II | Peinture de guerre",
-        bra: "Coruja da Noite Mk.II Tinta de Guerra",
+        bra: "| Coruja da Noite Mk.II | Tinta de Guerra",
         schema: 16114,
         hun: "Éjjeli Bagoly, II. széria Harci festés",
         rom: "Night Owl Mk.II Vopsea de război",
@@ -13840,7 +13840,7 @@ let dataItems = {
         pol: "Lesisty owdawiacz wz. II | Barwy wojenne",
         sch: "绝后之木 Mk.II 战绘",
         fre: "Endeuilleur boisé Mk.II | Peinture de guerre",
-        bra: "Viuvadora Verdejante Mk.II Tinta de Guerra",
+        bra: "| Viuvadora Verdejante Mk.II | Tinta de Guerra",
         schema: 16113,
         hun: "Erdei Özvegycsináló, II. széria Harci festés",
         rom: "Woodsy Widowmaker Mk.II Vopsea de război",
@@ -13852,7 +13852,7 @@ let dataItems = {
         pol: "Leśny ogień wz. II | Barwy wojenne",
         sch: "森林之火 Mk.II 战绘",
         fre: "Feu de forêt Mk.II | Peinture de guerre",
-        bra: "Fogo na Floresta Mk.II Tinta de Guerra",
+        bra: "| Fogo na Floresta Mk.II | Tinta de Guerra",
         schema: 16109,
         hun: "Erdőtűz, II. széria Harci festés",
         rom: "Forest Fire Mk.II Vopsea de război",
@@ -13864,7 +13864,7 @@ let dataItems = {
         pol: "Leśny wojownik wz. II | Barwy wojenne",
         sch: "林地战士 Mk.II 战绘",
         fre: "Va-t-en-guerre des bois Mk.II | Peinture de guerre",
-        bra: "Matador do Matagal Mk.II Tinta de Guerra",
+        bra: "| Matador do Matagal Mk.II | Tinta de Guerra",
         schema: 16106,
         hun: "Erdei Harcos, II. széria Harci festés",
         rom: "Woodland Warrior Mk.II Vopsea de război",
@@ -13876,7 +13876,7 @@ let dataItems = {
         pol: "Nalot dywanowy wz. II | Barwy wojenne",
         sch: "地毯式轰炸 Mk.II 战绘",
         fre: "Bombardier tapissé Mk.II | Peinture de guerre",
-        bra: "Arrasa Quarteirão Mk.II Tinta de Guerra",
+        bra: "| Arrasa Quarteirão Mk.II | Tinta de Guerra",
         schema: 16104,
         hun: "Szőnyegbombázó, II. széria Harci festés",
         rom: "Carpet Bomber Mk.II Vopsea de război",
@@ -13888,7 +13888,7 @@ let dataItems = {
         pol: "Spakowany ożywiciel wz. II | Barwy wojenne",
         sch: "迷彩救援者 Mk.II 战绘",
         fre: "Résurrection emballée Mk.II | Peinture de guerre",
-        bra: "Revivedor Embrulhado Mk.II Tinta de Guerra",
+        bra: "| Revivedor Embrulhado Mk.II | Tinta de Guerra",
         schema: 16102,
         hun: "Becsomagolt Felélesztő, II. széria Harci festés",
         rom: "Wrapped Reviver Mk.II Vopsea de război",
@@ -13900,7 +13900,7 @@ let dataItems = {
         pol: "Dziadek do orzechów wz. II | Barwy wojenne",
         sch: "胡桃夹子 Mk.II 战绘",
         fre: "Casse-noix Mk.II | Peinture de guerre",
-        bra: "Quebra-nozes Mk.II Tinta de Guerra",
+        bra: "| Quebra-Nozes Mk.II | Tinta de Guerra",
         schema: 16161,
         hun: "Diótörő, II. széria Harci festés",
         rom: "Nutcracker Mk.II Vopsea de război",
@@ -13912,7 +13912,7 @@ let dataItems = {
         pol: "Miasteczkowy łomot wz. II | Barwy wojenne",
         sch: "夷平小镇 Mk.II 战绘",
         fre: "Casse-village Mk.II | Peinture de guerre",
-        bra: "Vilão do Vilarejo Mk.II Tinta de Guerra",
+        bra: "| Vilão do Vilarejo Mk.II | Tinta de Guerra",
         schema: 16143,
         hun: "Kisvárosi Kedélyrontó, II. széria Harci festés",
         rom: "Smalltown Bringdown Mk.II Vopsea de război",
@@ -13924,7 +13924,7 @@ let dataItems = {
         pol: "Makabryczna sieć wz. II | Barwy wojenne",
         sch: "亡者之网 Mk.II 战绘",
         fre: "Toiles macabres Mk.II | Peinture de guerre",
-        bra: "Teia Macabra Mk.II Tinta de Guerra",
+        bra: "| Teia Macabra Mk.II | Tinta de Guerra",
         schema: 16163,
         hun: "Kísértethálós, II. széria Harci festés",
         rom: "Macabre Web Mk.II Vopsea de război",
@@ -13936,7 +13936,7 @@ let dataItems = {
         pol: "Drzewo żelazne wz. II | Barwy wojenne",
         sch: "铁木 Mk.II 战绘",
         fre: "Bois métallique Mk.II | Peinture de guerre",
-        bra: "Madeira de Ferro Mk.II Tinta de Guerra",
+        bra: "| Madeira de Ferro Mk.II | Tinta de Guerra",
         schema: 16120,
         hun: "Vasfa, II. széria Harci festés",
         rom: "Iron Wood Mk.II Vopsea de război",
@@ -13948,7 +13948,7 @@ let dataItems = {
         pol: "Grzmiący kij z puszczy wz. II | Barwy wojenne",
         sch: "荒野神兵 Mk.II 战绘",
         fre: "Fusil de derrière les fagots Mk.II | Peinture de guerre",
-        bra: "Sertão Mk.II Tinta de Guerra",
+        bra: "| Sertão Mk.II | Tinta de Guerra",
         schema: 16112,
         hun: "Susnyás-sörétes, II. széria Harci festés",
         rom: "Backwoods Boomstick Mk.II Vopsea de război",
@@ -13960,7 +13960,7 @@ let dataItems = {
         pol: "Zakamuflowany uzdrowiciel wz. II | Barwy wojenne",
         sch: "蒙面者 Mk.II 战绘",
         fre: "Dépannage masqué Mk.II | Peinture de guerre",
-        bra: "Medicamento Mascarado Mk.II Tinta de Guerra",
+        bra: "| Medicamento Mascarado Mk.II | Tinta de Guerra",
         schema: 16105,
         hun: "Maszkos Befoltozó, II. széria Harci festés",
         rom: "Masked Mender Mk.II Vopsea de război",
@@ -13972,7 +13972,7 @@ let dataItems = {
         pol: "Trupi zwiad wz. II | Barwy wojenne",
         sch: "死亡判官 Mk.II 战绘",
         fre: "Cible de la mort Mk.II | Peinture de guerre",
-        bra: "Cadáver Calculista Mk.II Tinta de Guerra",
+        bra: "| Cadáver Calculista Mk.II | Tinta de Guerra",
         schema: 16151,
         hun: "Halálos Leszámoló, II. széria Harci festés",
         rom: "Dead Reckoner Mk.II Vopsea de război",
@@ -13984,7 +13984,7 @@ let dataItems = {
         pol: "Bawoli podpalacz wz. II | Barwy wojenne",
         sch: "奶牛花纹 Mk.II 战绘",
         fre: "Bovin Mk.II | Peinture de guerre",
-        bra: "Bovino na Brasa Mk.II Tinta de Guerra",
+        bra: "| Bovino na Brasa Mk.II | Tinta de Guerra",
         schema: 16130,
         hun: "Tüzes Tehén, II. széria Harci festés",
         rom: "Bovine Blazemaker Mk.II Vopsea de război",
@@ -14216,7 +14216,7 @@ let dataItems = {
         pol: "Geometria | Barwy wojenne",
         sch: "几何图案 战绘",
         fre: "Géométrie | Peinture de guerre",
-        bra: "Formas Geométricas Tinta de Guerra",
+        bra: "| Formas Geométricas | Tinta de Guerra",
         schema: 17215,
         hun: "Geometriai csapatok Harci festés",
         rom: "Geometrical Teams Vopsea de război",
@@ -14228,7 +14228,7 @@ let dataItems = {
         pol: "Dusza bombardiera | Barwy wojenne",
         sch: "高空轰炸 战绘",
         fre: "Militaire | Peinture de guerre",
-        bra: "Alma do Bombardeiro Tinta de Guerra",
+        bra: "| Alma do Bombardeiro | Tinta de Guerra",
         schema: 17217,
         hun: "Bombázó lélek Harci festés",
         rom: "Bomber Soul Vopsea de război",
@@ -14240,7 +14240,7 @@ let dataItems = {
         pol: "Polarna niespodzianka | Barwy wojenne",
         sch: "圣诞萌物 战绘",
         fre: "Ours polaire | Peinture de guerre",
-        bra: "Surpresa Polar Tinta de Guerra",
+        bra: "| Surpresa Polar | Tinta de Guerra",
         schema: 17221,
         hun: "Sarkvidéki meglepetés Harci festés",
         rom: "Polar Surprise Vopsea de război",
@@ -14252,7 +14252,7 @@ let dataItems = {
         pol: "Lśnienie | Barwy wojenne",
         sch: "幽闭恐惧 战绘",
         fre: "Hexagone | Peinture de guerre",
-        bra: "Claustrofobia Tinta de Guerra",
+        bra: "| Claustrofobia | Tinta de Guerra",
         schema: 17220,
         hun: "Bezártság Harci festés",
         rom: "Cabin Fevered Vopsea de război",
@@ -14264,7 +14264,7 @@ let dataItems = {
         pol: "Technologia obcych | Barwy wojenne",
         sch: "外星科技 战绘",
         fre: "Extraterrestre | Peinture de guerre",
-        bra: "Tecnologia Alienígena Tinta de Guerra",
+        bra: "| Tecnologia Alienígena | Tinta de Guerra",
         schema: 17232,
         hun: "Földönkívüli technológia Harci festés",
         rom: "Alien Tech Vopsea de război",
@@ -14276,7 +14276,7 @@ let dataItems = {
         pol: "Gołębie serce | Barwy wojenne",
         sch: "阿基米德 战绘",
         fre: "Plumes d'Archimède | Peinture de guerre",
-        bra: "Pombos Tinta de Guerra",
+        bra: "| Pombos | Tinta de Guerra",
         schema: 17224,
         hun: "Fecskefarkas Harci festés",
         rom: "Dovetailed Vopsea de război",
@@ -14288,7 +14288,7 @@ let dataItems = {
         pol: "Stal damasceńska i mahoń | Barwy wojenne",
         sch: "大马士革 战绘",
         fre: "Damascus et Mahogany | Peinture de guerre",
-        bra: "Damasco e Mogno Tinta de Guerra",
+        bra: "| Damasco e Mogno | Tinta de Guerra",
         schema: 17234,
         hun: "Damaszkusz és mahagóni Harci festés",
         rom: "Damascus & Mahogany Vopsea de război",
@@ -14300,7 +14300,7 @@ let dataItems = {
         pol: "Zagrożenie środowiskowe | Barwy wojenne",
         sch: "危险警告 战绘",
         fre: "Danger | Peinture de guerre",
-        bra: "Aviso de Perigo Tinta de Guerra",
+        bra: "| Aviso de Perigo | Tinta de Guerra",
         schema: 17226,
         hun: "Veszélyjelzés Harci festés",
         rom: "Hazard Warning Vopsea de război",
@@ -14312,7 +14312,7 @@ let dataItems = {
         pol: "Neo Tokio | Barwy wojenne",
         sch: "新东京都 战绘",
         fre: "Neo Tokyo | Peinture de guerre",
-        bra: "Neo Tokyo Tinta de Guerra",
+        bra: "| Neo Tokyo | Tinta de Guerra",
         schema: 17214,
         hun: "Neo Tokyo Harci festés",
         rom: "Neo Tokyo Vopsea de război",
@@ -14324,7 +14324,7 @@ let dataItems = {
         pol: "Uran | Barwy wojenne",
         sch: "核子动力 战绘",
         fre: "Uranium | Peinture de guerre",
-        bra: "Urânio Tinta de Guerra",
+        bra: "| Urânio | Tinta de Guerra",
         schema: 17218,
         hun: "Urán Harci festés",
         rom: "Uranium Vopsea de război",
@@ -14336,7 +14336,7 @@ let dataItems = {
         pol: "Hana | Barwy wojenne",
         sch: "寒梅盛开 战绘",
         fre: "Hana | Peinture de guerre",
-        bra: "Hana Tinta de Guerra",
+        bra: "| Hana | Tinta de Guerra",
         schema: 17223,
         hun: "Hana Harci festés",
         rom: "Hana Vopsea de război",
@@ -14348,7 +14348,7 @@ let dataItems = {
         pol: "Kosmiczna katastrofa | Barwy wojenne",
         sch: "宇宙灾难 战绘",
         fre: "Cosmos | Peinture de guerre",
-        bra: "Calamidade Cósmica Tinta de Guerra",
+        bra: "| Calamidade Cósmica | Tinta de Guerra",
         schema: 17225,
         hun: "Kozmikus felfordulás Harci festés",
         rom: "Cosmic Calamity Vopsea de război",
@@ -14360,7 +14360,7 @@ let dataItems = {
         pol: "Mozaika | Barwy wojenne",
         sch: "古典工艺 战绘",
         fre: "Mosaïque | Peinture de guerre",
-        bra: "Mosaico Tinta de Guerra",
+        bra: "| Mosaico | Tinta de Guerra",
         schema: 17228,
         hun: "Mozaik Harci festés",
         rom: "Mosaic Vopsea de război",
@@ -14372,7 +14372,7 @@ let dataItems = {
         pol: "Bajer | Barwy wojenne",
         sch: "变幻之色 战绘",
         fre: "Jazzy | Peinture de guerre",
-        bra: "Jazz Tinta de Guerra",
+        bra: "| Jazz | Tinta de Guerra",
         schema: 17230,
         hun: "Dzsesszes Harci festés",
         rom: "Jazzy Vopsea de război",
@@ -14384,7 +14384,7 @@ let dataItems = {
         pol: "Klimat Miami | Barwy wojenne",
         sch: "五彩像素 战绘",
         fre: "Miami | Peinture de guerre",
-        bra: "Elemento Miami Tinta de Guerra",
+        bra: "| Elemento Miami | Tinta de Guerra",
         schema: 17213,
         hun: "A Miami-tényező Harci festés",
         rom: "Miami Element Vopsea de război",
@@ -14817,7 +14817,7 @@ let dataItems = {
         pol: "Nawiedzone duchy | Barwy wojenne",
         sch: "恐怖鬼魂 战绘",
         fre: "Vert de peur | Peinture de guerre",
-        bra: "Fantasmas Assombrados Tinta de Guerra",
+        bra: "| Fantasmas Assombrados | Tinta de Guerra",
         schema: 17236,
         hun: "Kísérteties szellemek Harci festés",
         rom: "Haunted Ghosts Vopsea de război",
@@ -14829,7 +14829,7 @@ let dataItems = {
         pol: "Całkowite skostnienie | Barwy wojenne",
         sch: "白骨累累 战绘",
         fre: "Paquet d'os | Peinture de guerre",
-        bra: "Puro Osso Tinta de Guerra",
+        bra: "| Puro Osso | Tinta de Guerra",
         schema: 17240,
         hun: "Kicsontozva Harci festés",
         rom: "Totally Boned Vopsea de război",
@@ -14841,7 +14841,7 @@ let dataItems = {
         pol: "Straszne święta | Barwy wojenne",
         sch: "恐怖假日 战绘",
         fre: "Vacances mortelles | Peinture de guerre",
-        bra: "Passeio Pavoroso Tinta de Guerra",
+        bra: "| Passeio Pavoroso | Tinta de Guerra",
         schema: 17239,
         hun: "Rémünnep Harci festés",
         rom: "Horror Holiday Vopsea de război",
@@ -14853,7 +14853,7 @@ let dataItems = {
         pol: "Duch Halloween | Barwy wojenne",
         sch: "万圣之魂 战绘",
         fre: "Esprit d'Halloween | Peinture de guerre",
-        bra: "Espírito de Dia das Bruxas Tinta de Guerra",
+        bra: "| Espírito de Dia das Bruxas | Tinta de Guerra",
         schema: 17238,
         hun: "Halloweeni hangulat Harci festés",
         rom: "Spirit of Halloween Vopsea de război",
@@ -14865,7 +14865,7 @@ let dataItems = {
         pol: "Kolorowa calavera | Barwy wojenne",
         sch: "亡灵狂欢 战绘",
         fre: "Calaveras | Peinture de guerre",
-        bra: "Caveiras Coloridas Tinta de Guerra",
+        bra: "| Caveiras Coloridas | Tinta de Guerra",
         schema: 17244,
         hun: "Calavera vászon Harci festés",
         rom: "Calavera Canvas Vopsea de război",
@@ -14877,7 +14877,7 @@ let dataItems = {
         pol: "Duchowy błysk | Barwy wojenne",
         sch: "幽灵缠身 战绘",
         fre: "Fantôluminescence | Peinture de guerre",
-        bra: "Brilho Espectral Tinta de Guerra",
+        bra: "| Brilho Espectral | Tinta de Guerra",
         schema: 17237,
         hun: "Szellemesen sziporkázó Harci festés",
         rom: "Spectral Shimmered Vopsea de război",
@@ -14889,7 +14889,7 @@ let dataItems = {
         pol: "Czaszkowa krata | Barwy wojenne",
         sch: "暗色骷髅 战绘",
         fre: "Étude de crânes | Peinture de guerre",
-        bra: "Estudo Esquelético Tinta de Guerra",
+        bra: "| Estudo Esquelético | Tinta de Guerra",
         schema: 17235,
         hun: "Koponyatanulmány Harci festés",
         rom: "Skull Study Vopsea de război",
@@ -14901,7 +14901,7 @@ let dataItems = {
         pol: "Miasto duchów | Barwy wojenne",
         sch: "阴森之城 战绘",
         fre: "Ville fantôme | Peinture de guerre",
-        bra: "Cidade Fantasma Tinta de Guerra",
+        bra: "| Cidade Fantasma | Tinta de Guerra",
         schema: 17242,
         hun: "Szellemlakta Harci festés",
         rom: "Ghost Town Vopsea de război",
@@ -14913,7 +14913,7 @@ let dataItems = {
         pol: "Wypieczone nowotwory | Barwy wojenne",
         sch: "肿瘤附体 战绘",
         fre: "Tu meurs | Peinture de guerre",
-        bra: "Torrada com Tumor Tinta de Guerra",
+        bra: "| Torrada com Tumor | Tinta de Guerra",
         schema: 17243,
         hun: "Tumoros Harci festés",
         rom: "Tumor Toasted Vopsea de război",
@@ -14925,7 +14925,7 @@ let dataItems = {
         pol: "Elektrowstrząs | Barwy wojenne",
         sch: "电刑处决 战绘",
         fre: "Électrochocs | Peinture de guerre",
-        bra: "Eletrochoque Tinta de Guerra",
+        bra: "| Eletrochoque | Tinta de Guerra",
         schema: 17241,
         hun: "Delejes Harci festés",
         rom: "Electroshocked Vopsea de război",
@@ -15824,7 +15824,7 @@ let dataItems = {
         pol: "Szczecina sknerusa",
         sch: "吝啬鬼络腮胡",
         fre: "Rouflaquettes",
-        bra: "Patilhas do Pão-duro",
+        bra: "Patilhas do Pão-Duro",
         schema: 31027,
         hun: "Fukar Barkó",
         swe: "Snåljåpens skägg"
@@ -15912,7 +15912,7 @@ let dataItems = {
         pol: "Ochraniacze rozwalającego",
         fre: "Protections du footballeur américain",
         sch: "黏弹橄榄球护肩",
-        bra: "Ombreiras do Quebra-costas",
+        bra: "Ombreiras do Quebra-Costas",
         schema: 31039,
         hun: "Letámadó Vállvédő",
         swe: "Anfallarens axelskydd"
@@ -16000,7 +16000,7 @@ let dataItems = {
         pol: "Rozłupywacz rozwalającego",
         fre: "Brise-crânes du footballeur américain",
         sch: "黏弹橄榄球头盔",
-        bra: "Quebra-crânios do Quebra-costas",
+        bra: "Quebra-Crânios do Quebra-Costas",
         schema: 31038,
         hun: "Letámadó Légiós",
         swe: "Romersk skallkrossare"
@@ -16954,7 +16954,7 @@ let dataItems = {
         pol: "Alpy | Barwy wojenne",
         fre: "Alpin | Peinture de guerre",
         sch: "阿尔卑斯 战绘",
-        bra: "Alpina Tinta de Guerra",
+        bra: "| Alpina | Tinta de Guerra",
         schema: 17252,
         hun: "Alpesi Harci festés",
         rom: "Alpine Vopsea de război",
@@ -16966,7 +16966,7 @@ let dataItems = {
         pol: "Zapakowany prezent | Barwy wojenne",
         fre: "Cadeau emballé | Peinture de guerre",
         sch: "圣诞礼盒 战绘",
-        bra: "Embrulho de Presente Tinta de Guerra",
+        bra: "| Embrulho de Presente | Tinta de Guerra",
         schema: 17253,
         hun: "Becsomagolt Harci festés",
         rom: "Gift Wrapped Vopsea de război",
@@ -16978,7 +16978,7 @@ let dataItems = {
         pol: "Straszna śnieżyca | Barwy wojenne",
         fre: "Neige abondante | Peinture de guerre",
         sch: "雪人佣兵 战绘",
-        bra: "Mercenáriozinhos de Neve Tinta de Guerra",
+        bra: "| Mercenáriozinhos de Neve | Tinta de Guerra",
         schema: 17249,
         hun: "Súlyosan behavazott Harci festés",
         rom: "Seriously Snowed Vopsea de război",
@@ -16990,7 +16990,7 @@ let dataItems = {
         pol: "Igloo | Barwy wojenne",
         fre: "Igloo | Peinture de guerre",
         sch: "冰砖小屋 战绘",
-        bra: "Iglu Tinta de Guerra",
+        bra: "| Iglu | Tinta de Guerra",
         schema: 17248,
         hun: "Jégkunyhó Harci festés",
         rom: "Igloo Vopsea de război",
@@ -17002,7 +17002,7 @@ let dataItems = {
         pol: "Kulig | Barwy wojenne",
         fre: "Traineau stylé | Peinture de guerre",
         sch: "雪橇彩带 战绘",
-        bra: "Trenó Tinta de Guerra",
+        bra: "| Trenó | Tinta de Guerra",
         schema: 17251,
         hun: "Szánkózós stílusú Harci festés",
         rom: "Sleighin' Style Vopsea de război",
@@ -17014,7 +17014,7 @@ let dataItems = {
         pol: "Pokrywa śnieżna | Barwy wojenne",
         fre: "Couvert de neige | Peinture de guerre",
         sch: "雪花覆盖 战绘",
-        bra: "Flocos de Neve Tinta de Guerra",
+        bra: "| Flocos de Neve | Tinta de Guerra",
         schema: 17245,
         hun: "Hófedte Harci festés",
         rom: "Snow Covered Vopsea de război",
@@ -17026,7 +17026,7 @@ let dataItems = {
         pol: "Mroźne zdobienie | Barwy wojenne",
         fre: "Décorations givrées | Peinture de guerre",
         sch: "冰霜之饰 战绘",
-        bra: "Ornamento Congelado Tinta de Guerra",
+        bra: "| Ornamento Congelado | Tinta de Guerra",
         schema: 17246,
         hun: "Fagy díszítette Harci festés",
         rom: "Frost Ornamented Vopsea de război",
@@ -17038,7 +17038,7 @@ let dataItems = {
         pol: "Śniąteczny kamuflaż | Barwy wojenne",
         fre: "Camouflage Smissmas | Peinture de guerre",
         sch: "圣诞迷彩 战绘",
-        bra: "Camuflagem Festiva Tinta de Guerra",
+        bra: "| Camuflagem Festiva | Tinta de Guerra",
         schema: 17250,
         hun: "Galácsonyi álca Harci festés",
         rom: "Smissmas Camo Vopsea de război",
@@ -17050,7 +17050,7 @@ let dataItems = {
         pol: "Śniąteczna wioska | Barwy wojenne",
         fre: "Village Smissmas | Peinture de guerre",
         sch: "圣诞村庄 战绘",
-        bra: "Vila do Polo Norte Tinta de Guerra",
+        bra: "| Vila do Polo Norte | Tinta de Guerra",
         schema: 17247,
         hun: "Galácsonyi falu Harci festés",
         rom: "Smissmas Village Vopsea de război",
@@ -17062,7 +17062,7 @@ let dataItems = {
         pol: "Zimowa kraina | Barwy wojenne",
         fre: "Emballage hivernal | Peinture de guerre",
         sch: "冬日条纹 战绘",
-        bra: "Embrulho de Natal Tinta de Guerra",
+        bra: "| Embrulho de Natal | Tinta de Guerra",
         schema: 17254,
         hun: "Galácsonyra csomagolt Harci festés",
         rom: "Winterland Wrapped Vopsea de război",
@@ -17493,7 +17493,7 @@ let dataItems = {
         pol: "Sir Dyńkinton",
         fre: "Sieur citrouille",
         sch: "南瓜爵士礼帽",
-        bra: "Senhor Cabeça-de-abóbora",
+        bra: "Senhor Cabeça-de-Abóbora",
         schema: 31131,
         hun: "Sir Tökkobaki",
         swe: "Von Pumpa"
@@ -17591,7 +17591,7 @@ let dataItems = {
         eng: "Organ-ically Hellraised War Paint",
         pol: "Organiczny pomiot | Barwy wojenne",
         sch: "原生狱火 战绘",
-        bra: "Terror Orgânico Tinta de Guerra",
+        bra: "| Terror Orgânico | Tinta de Guerra",
         schema: 17256,
         fre: "Incinération infernale | Peinture de guerre",
         hun: "Szerv-esen pokolbantermesztett Harci festés",
@@ -17603,7 +17603,7 @@ let dataItems = {
         eng: "Spider Season War Paint",
         pol: "Pajęcza pora | Barwy wojenne",
         sch: "蜘蛛之季 战绘",
-        bra: "Temporada de Aranhas Tinta de Guerra",
+        bra: "| Temporada de Aranhas | Tinta de Guerra",
         schema: 17269,
         fre: "Araignées géantes | Peinture de guerre",
         hun: "Pókszezon Harci festés",
@@ -17615,7 +17615,7 @@ let dataItems = {
         eng: "Gourdy Green War Paint",
         pol: "Dyniowa zieleń | Barwy wojenne",
         sch: "南瓜迷彩 战绘",
-        bra: "Horta de Abóboras Tinta de Guerra",
+        bra: "| Horta de Abóboras | Tinta de Guerra",
         schema: 17267,
         fre: "Gazon maudit | Peinture de guerre",
         hun: "Tökös zöld Harci festés",
@@ -17629,7 +17629,7 @@ let dataItems = {
         sch: "眼球果实 战绘",
         schema: 17265,
         fre: "Phytœil | Peinture de guerre",
-        bra: "Guaran-ahhhhh Tinta de Guerra",
+        bra: "| Guaran-ahhhhh | Tinta de Guerra",
         hun: "Szemkocsányos Harci festés",
         rom: "Eyestalker Vopsea de război",
         swe: "Coreopsis Krigsfärg"
@@ -17639,7 +17639,7 @@ let dataItems = {
         eng: "Death Deluxe War Paint",
         pol: "Luksusowa śmierć | Barwy wojenne",
         sch: "死亡玫瑰 战绘",
-        bra: "Morte de Luxo Tinta de Guerra",
+        bra: "| Morte de Luxo | Tinta de Guerra",
         schema: 17263,
         fre: "Cercueil | Peinture de guerre",
         hun: "Díszes halál Harci festés",
@@ -17651,7 +17651,7 @@ let dataItems = {
         eng: "Portal Plastered War Paint",
         pol: "Portalowa tapeta | Barwy wojenne",
         sch: "冥界之门 战绘",
-        bra: "Pintura de Portal Tinta de Guerra",
+        bra: "| Pintura de Portal | Tinta de Guerra",
         schema: 17262,
         fre: "Portail magique | Peinture de guerre",
         hun: "Portáltapaszos Harci festés",
@@ -17663,7 +17663,7 @@ let dataItems = {
         eng: "Candy Coated War Paint",
         pol: "Cukierek | Barwy wojenne",
         sch: "万圣糖果 战绘",
-        bra: "Revestimento Doce Tinta de Guerra",
+        bra: "| Revestimento Doce | Tinta de Guerra",
         schema: 17258,
         fre: "Friandise | Peinture de guerre",
         hun: "Cukorkapapíros Harci festés",
@@ -17675,7 +17675,7 @@ let dataItems = {
         eng: "Spider's Cluster War Paint",
         pol: "Sieć pająka | Barwy wojenne",
         sch: "毒巢蛛网 战绘",
-        bra: "Aglomerado de Aranhas Tinta de Guerra",
+        bra: "| Aglomerado de Aranhas | Tinta de Guerra",
         schema: 17266,
         fre: "Toiles d'araignée | Peinture de guerre",
         hun: "Pókfürtös Harci festés",
@@ -17687,7 +17687,7 @@ let dataItems = {
         eng: "Raving Dead War Paint",
         pol: "Tańczący umarli | Barwy wojenne",
         sch: "亡者狂言 战绘",
-        bra: "Mortos Muito Loucos Tinta de Guerra",
+        bra: "| Mortos Muito Loucos | Tinta de Guerra",
         schema: 17264,
         fre: "Squelette | Peinture de guerre",
         hun: "Haláli buli Harci festés",
@@ -17699,7 +17699,7 @@ let dataItems = {
         eng: "Crawlspace Critters War Paint",
         pol: "Piwniczne pełzacze | Barwy wojenne",
         sch: "狭缝生物 战绘",
-        bra: "Criaturinhas Escondidas Tinta de Guerra",
+        bra: "| Criaturinhas Escondidas | Tinta de Guerra",
         schema: 17261,
         fre: "Galetas | Peinture de guerre",
         hun: "Falban motoszkálós Harci festés",
@@ -17711,7 +17711,7 @@ let dataItems = {
         eng: "Sweet Toothed War Paint",
         pol: "Łakomczuch | Barwy wojenne",
         sch: "嗜甜成瘾 战绘",
-        bra: "Dentinhos Doces Tinta de Guerra",
+        bra: "| Dentinhos Doces | Tinta de Guerra",
         schema: 17260,
         fre: "Bec sucré | Peinture de guerre",
         hun: "Édesszájú Harci festés",
@@ -17723,7 +17723,7 @@ let dataItems = {
         eng: "Helldriver War Paint",
         pol: "Piekielnik | Barwy wojenne",
         sch: "地狱追逐 战绘",
-        bra: "Ácido Mortífero Tinta de Guerra",
+        bra: "| Ácido Mortífero | Tinta de Guerra",
         schema: 17255,
         fre: "Chlorophylle | Peinture de guerre",
         hun: "Pokolhajtó Harci festés",
@@ -17735,7 +17735,7 @@ let dataItems = {
         eng: "Mummified Mimic War Paint",
         pol: "Mumifikowany mimik | Barwy wojenne",
         sch: "狞笑干尸 战绘",
-        bra: "Mímico Mumificado Tinta de Guerra",
+        bra: "| Mímico Mumificado | Tinta de Guerra",
         schema: 17268,
         fre: "Momification | Peinture de guerre",
         hun: "Múmia-mimikri Harci festés",
@@ -17747,7 +17747,7 @@ let dataItems = {
         eng: "Pumpkin Pied War Paint",
         pol: "Dyniowe ciasto | Barwy wojenne",
         sch: "南瓜甜点 战绘",
-        bra: "Torta de Abóbora Tinta de Guerra",
+        bra: "| Torta de Abóbora | Tinta de Guerra",
         schema: 17259,
         fre: "Tarte aux citrouilles | Peinture de guerre",
         hun: "Tökös-pités Harci festés",
@@ -17759,7 +17759,7 @@ let dataItems = {
         eng: "Spectrum Splattered War Paint",
         pol: "Rozbryzgany duch | Barwy wojenne",
         sch: "魔血泼溅 战绘",
-        bra: "Gotas Cromáticas Tinta de Guerra",
+        bra: "| Gotas Cromáticas | Tinta de Guerra",
         schema: 17257,
         fre: "Spectre | Peinture de guerre",
         hun: "Spektrálpacás Harci festés",
@@ -17949,7 +17949,7 @@ let dataItems = {
         pol: "Drwina: Dziki jeździec",
         fre: "Raillerie : Rodéo sauvage",
         sch: "嘲讽：驯服野马",
-        bra: "Provocação: Tecno-touro do Texas",
+        bra: "Provocação: Tecnotouro do Texas",
         hun: "Beszólás: Ugráló vadbika",
         swe: "Hån: Hoppande hingsten"
     },
@@ -18223,7 +18223,7 @@ let dataItems = {
         pol: "Ścinacz głów Bezkonnego Bezgłowego Jeźdźca",
         fre: "Le Décapiteur du Cavalier sans Tête et sans Cheval",
         sch: "脱缰无头骑士的斩首斧",
-        bra: "O Corta-cabeças do Cavaleiro Carente de Cavalo e Cabeça",
+        bra: "O Corta-Cabeças do Cavaleiro Carente de Cavalo e Cabeça",
         schema: 266,
         hun: "A Lovatlan Fejetlen Lovas Fejvevője",
         swe: "Hästlöse Huvudlöse Horsemanns Halshuggare"
@@ -18278,7 +18278,7 @@ let dataItems = {
         pol: "Głowa Bezkonnego Bezgłowego Jeźdźca",
         fre: "Tête du Cavalier sans Tête et sans Cheval",
         sch: "脱缰的无头骑士南瓜头",
-        bra: "Cabeça do Cavaleiro Carente de Cavalo e Cabeça",
+        bra: "A Cabeça do Cavaleiro Carente de Cavalo e Cabeça",
         schema: 278,
         hun: "A Lovatlan Fejetlen Lovas Feje",
         swe: "Hästlöse Huvudlöse Horsemanns Huvud"
@@ -18571,7 +18571,7 @@ let dataItems = {
         eng: "Snowflake Swirled War Paint",
         schema: 17277,
         pol: "Wir z płatkami śniegu | Barwy wojenne",
-        bra: "Espiral Flocada Tinta de Guerra",
+        bra: "| Espiral Flocada | Tinta de Guerra",
         hun: "Kavargós-hópihés Harci festés",
         rom: "Snowflake Swirled Vopsea de război",
         fre: "Tourbillon de flocons | Peinture de guerre",
@@ -18582,7 +18582,7 @@ let dataItems = {
         eng: "Snow Globalization War Paint",
         schema: 17275,
         pol: "Śnieżna globalizacja | Barwy wojenne",
-        bra: "Globalização de Neve Tinta de Guerra",
+        bra: "| Globalização de Neve | Tinta de Guerra",
         hun: "Hócsatározás Harci festés",
         rom: "Snow Globalization Vopsea de război",
         fre: "Hiver universel | Peinture de guerre",
@@ -18593,7 +18593,7 @@ let dataItems = {
         eng: "Glacial Glazed War Paint",
         schema: 17282,
         pol: "Zimowe zeszklenie | Barwy wojenne",
-        bra: "Azulejos Glaciais Tinta de Guerra",
+        bra: "| Azulejos Glaciais | Tinta de Guerra",
         hun: "Gleccserbevonatú Harci festés",
         rom: "Glacial Glazed Vopsea de război",
         fre: "Banquise polaire | Peinture de guerre",
@@ -18604,7 +18604,7 @@ let dataItems = {
         eng: "Gifting Mann's Wrapping Paper War Paint",
         schema: 17276,
         pol: "Prezentowy papier do pakowania | Barwy wojenne",
-        bra: "Papel de Presente do Mann Presente Tinta de Guerra",
+        bra: "| Papel de Presente do Mann Presente | Tinta de Guerra",
         hun: "Manntasztikus csomagolópapír Harci festés",
         rom: "Gifting Mann's Wrapping Paper Vopsea de război",
         fre: "Papier cadeau Mannifique | Peinture de guerre",
@@ -18615,7 +18615,7 @@ let dataItems = {
         eng: "Peppermint Swirl War Paint",
         schema: 17273,
         pol: "Cukierkowy wir | Barwy wojenne",
-        bra: "Espiral de Hortelã-Pimenta Tinta de Guerra",
+        bra: "| Espiral de Hortelã-Pimenta | Tinta de Guerra",
         hun: "Borsmenta forgatag Harci festés",
         rom: "Peppermint Swirl Vopsea de război",
         fre: "Berlingot | Peinture de guerre",
@@ -18626,7 +18626,7 @@ let dataItems = {
         eng: "Gingerbread Winner War Paint",
         schema: 17270,
         pol: "Piernikowy zwycięzca | Barwy wojenne",
-        bra: "Ganha-Pão de Mel Tinta de Guerra",
+        bra: "| Ganha-Pão de Mel | Tinta de Guerra",
         hun: "Nyerő mézeskalács Harci festés",
         rom: "Gingerbread Winner Vopsea de război",
         fre: "Gagne-pain d'épice | Peinture de guerre",
@@ -18637,7 +18637,7 @@ let dataItems = {
         eng: "Smissmas Spycrabs War Paint",
         schema: 17278,
         pol: "Śniąteczne szpiegokraby | Barwy wojenne",
-        bra: "Spyranguejos de Natal Tinta de Guerra",
+        bra: "| Spyranguejos de Natal | Tinta de Guerra",
         hun: "Galácsonyi kémrákok Harci festés",
         rom: "Smissmas Spycrabs Vopsea de război",
         fre: "Spycrabs de Smissmas | Peinture de guerre",
@@ -18648,7 +18648,7 @@ let dataItems = {
         eng: "Elfin Enamel War Paint",
         schema: 17272,
         pol: "Elfia emalia | Barwy wojenne",
-        bra: "Esmalte Élfico Tinta de Guerra",
+        bra: "| Esmalte Élfico | Tinta de Guerra",
         hun: "Manós máz Harci festés",
         rom: "Elfin Enamel Vopsea de război",
         fre: "Elfe émaillé | Peinture de guerre",
@@ -18659,7 +18659,7 @@ let dataItems = {
         eng: "Frozen Aurora War Paint",
         schema: 17279,
         pol: "Mroźna zorza | Barwy wojenne",
-        bra: "Aurora Congelada Tinta de Guerra",
+        bra: "| Aurora Congelada | Tinta de Guerra",
         hun: "Fagyott sarki fény Harci festés",
         rom: "Frozen Aurora Vopsea de război",
         fre: "Aurore gelée | Peinture de guerre",
@@ -18670,7 +18670,7 @@ let dataItems = {
         eng: "Cookie Fortress War Paint",
         schema: 17283,
         pol: "Ciasteczkowa forteca | Barwy wojenne",
-        bra: "Fortaleza de Biscolachas Tinta de Guerra",
+        bra: "| Fortaleza de Biscolachas | Tinta de Guerra",
         hun: "Sütierőd Harci festés",
         rom: "Cookie Fortress Vopsea de război",
         fre: "Pain d'épice | Peinture de guerre",
@@ -18681,7 +18681,7 @@ let dataItems = {
         eng: "Frosty Delivery War Paint",
         schema: 17281,
         pol: "Mroźna dostawa | Barwy wojenne",
-        bra: "Entrega Gélida Tinta de Guerra",
+        bra: "| Entrega Gélida | Tinta de Guerra",
         hun: "Deres szállítmány Harci festés",
         rom: "Frosty Delivery Vopsea de război",
         fre: "Livraison givrée | Peinture de guerre",
@@ -18692,7 +18692,7 @@ let dataItems = {
         eng: "Saccharine Striped War Paint",
         schema: 17271,
         pol: "Przesłodkie pasy | Barwy wojenne",
-        bra: "Listras Adocicadas Tinta de Guerra",
+        bra: "| Listras Adocicadas | Tinta de Guerra",
         hun: "Cukorkacsíkos Harci festés",
         rom: "Saccharine Striped Vopsea de război",
         fre: "Stries saccharines | Peinture de guerre",
@@ -18703,7 +18703,7 @@ let dataItems = {
         eng: "Starlight Serenity War Paint",
         schema: 17280,
         pol: "Gwiezdne ukojenie | Barwy wojenne",
-        bra: "Serenidade Estrelada Tinta de Guerra",
+        bra: "| Serenidade Estrelada | Tinta de Guerra",
         hun: "Csillagfényes csendesség Harci festés",
         rom: "Starlight Serenity Vopsea de război",
         fre: "Astres radieux | Peinture de guerre",
@@ -19192,7 +19192,7 @@ let dataItems = {
         pol: "Śmiechu warte | Barwy wojenne",
         hun: "Sarsaparilla-mintás Harci festés",
         swe: "Sarsaparillasprejad Krigsfärg",
-        bra: "Salsaparrilhado Tinta de Guerra",
+        bra: "| Salsaparrilhado | Tinta de Guerra",
         fre: "Salsepareille | Peinture de guerre"
     },
     1751: {
@@ -19201,8 +19201,9 @@ let dataItems = {
         schema: 17296,
         pol: "Palić i podbijać | Barwy wojenne",
         hun: "Ölj és hódíts Harci festés",
-        bra: "Assar e Conquistar Tinta de Guerra",
-        fre: "Conquête à chaud | Peinture de guerre"
+        bra: "| Assar e Conquistar | Tinta de Guerra",
+        fre: "Conquête à chaud | Peinture de guerre",
+        swe: "Bränna och erövra Krigsfärg"
     },
     1752: {
         img: "searing_souls_war_paint",
@@ -19210,8 +19211,9 @@ let dataItems = {
         schema: 17293,
         pol: "Płonące dusze | Barwy wojenne",
         hun: "Lángoló Lelkek Harci festés",
-        bra: "Almas Agonizantes Tinta de Guerra",
-        fre: "Âmes ardentes | Peinture de guerre"
+        bra: "| Almas Agonizantes | Tinta de Guerra",
+        fre: "Âmes ardentes | Peinture de guerre",
+        swe: "Brinnande själar Krigsfärg"
     },
     1753: {
         img: "potent_poison_war_paint",
@@ -19219,8 +19221,9 @@ let dataItems = {
         schema: 17292,
         pol: "Silna trucizna | Barwy wojenne",
         hun: "Hatásos méreg Harci festés",
-        bra: "Caldeirão Borbulhante Tinta de Guerra",
-        fre: "Poison puissant | Peinture de guerre"
+        bra: "| Caldeirão Borbulhante | Tinta de Guerra",
+        fre: "Poison puissant | Peinture de guerre",
+        swe: "Starkt gift Krigsfärg"
     },
     1754: {
         img: "simple_spirits_war_paint",
@@ -19228,8 +19231,9 @@ let dataItems = {
         schema: 17290,
         pol: "Drobne duszki | Barwy wojenne",
         hun: "Egyszerűen szellemes Harci festés",
-        bra: "Fantasminhas Tinta de Guerra",
-        fre: "Petits esprits | Peinture de guerre"
+        bra: "| Fantasminhas | Tinta de Guerra",
+        fre: "Petits esprits | Peinture de guerre",
+        swe: "Simpla spöken Krigsfärg"
     },
     1755: {
         img: "skull_cracked_war_paint",
@@ -19237,8 +19241,9 @@ let dataItems = {
         schema: 17286,
         pol: "Spękane czaszki | Barwy wojenne",
         hun: "Koponyarepesztő Harci festés",
-        bra: "Crânios Quebrados Tinta de Guerra",
-        fre: "Crânes fêlés | Peinture de guerre"
+        bra: "| Crânios Quebrados | Tinta de Guerra",
+        fre: "Crânes fêlés | Peinture de guerre",
+        swe: "Skallspräckare Krigsfärg"
     },
     1756: {
         img: "necromanced_war_paint",
@@ -19246,8 +19251,9 @@ let dataItems = {
         schema: 17297,
         pol: "Nekromancja | Barwy wojenne",
         hun: "Felélesztve Harci festés",
-        bra: "Necromante Tinta de Guerra",
-        fre: "Nécromancie | Peinture de guerre"
+        bra: "| Necromante | Tinta de Guerra",
+        fre: "Nécromancie | Peinture de guerre",
+        swe: "Nekromantad Krigsfärg"
     },
     1757: {
         img: "polter_guised_war_paint",
@@ -19255,8 +19261,9 @@ let dataItems = {
         schema: 17295,
         pol: "Cierpiące dusze | Barwy wojenne",
         hun: "Kísérteties külső Harci festés",
-        bra: "Paranormal Tinta de Guerra",
-        fre: "Apparition | Peinture de guerre"
+        bra: "| Paranormal | Tinta de Guerra",
+        fre: "Apparition | Peinture de guerre",
+        swe: "Begeistrad Krigsfärg"
     },
     1758: {
         img: "neon_ween_war_paint",
@@ -19264,8 +19271,9 @@ let dataItems = {
         schema: 17289,
         pol: "Neonween | Barwy wojenne",
         hun: "Neon-ween Harci festés",
-        bra: "Travessuras de Neon Tinta de Guerra",
-        fre: "Néonween | Peinture de guerre"
+        bra: "| Travessuras de Neon | Tinta de Guerra",
+        fre: "Néonween | Peinture de guerre",
+        swe: "Neonween Krigsfärg"
     },
     1759: {
         img: "swashbuckled_war_paint",
@@ -19273,8 +19281,9 @@ let dataItems = {
         schema: 17285,
         pol: "Pirat | Barwy wojenne",
         hun: "Kalózos Harci festés",
-        bra: "Pirata Tinta de Guerra",
-        fre: "Flibuste | Peinture de guerre"
+        bra: "| Pirata | Tinta de Guerra",
+        fre: "Flibuste | Peinture de guerre",
+        swe: "Buckanjärad Krigsfärg"
     },
     1760: {
         img: "broken_bones_war_paint",
@@ -19282,8 +19291,9 @@ let dataItems = {
         schema: 17291,
         pol: "Połamane kości | Barwy wojenne",
         hun: "Törött csontok Harci festés",
-        bra: "Quebra-Ossos Tinta de Guerra",
-        fre: "Os broyés | Peinture de guerre"
+        bra: "| Quebra-Ossos | Tinta de Guerra",
+        fre: "Os broyés | Peinture de guerre",
+        swe: "Brutna ben Krigsfärg"
     },
     1761: {
         img: "party_phantoms_war_paint",
@@ -19291,8 +19301,9 @@ let dataItems = {
         schema: 17294,
         pol: "Imprezowe upiory | Barwy wojenne",
         hun: "Bulifantomok Harci festés",
-        bra: "Fantasmas Festeiros Tinta de Guerra",
-        fre: "Fantômes fêtards | Peinture de guerre"
+        bra: "| Fantasmas Festeiros | Tinta de Guerra",
+        fre: "Fantômes fêtards | Peinture de guerre",
+        swe: "Partyfantomer Krigsfärg"
     },
     1762: {
         img: "misfortunate_war_paint",
@@ -19300,8 +19311,9 @@ let dataItems = {
         schema: 17287,
         pol: "Nieszczęście | Barwy wojenne",
         hun: "Szerencsétlen Harci festés",
-        bra: "Desafortunado Tinta de Guerra",
-        fre: "Colvert | Peinture de guerre"
+        bra: "| Desafortunado | Tinta de Guerra",
+        fre: "Colvert | Peinture de guerre",
+        swe: "Otursbenägen Krigsfärg"
     },
     1763: {
         img: "taunt_the_drunken_sailor",
@@ -19558,7 +19570,8 @@ let dataItems = {
         schema: 31262,
         pol: "Przeciwsłoneczna przykrywka",
         hun: "Napernyőfedett Ügynök",
-        fre: "Ombrelle incognito"
+        fre: "Ombrelle incognito",
+        bra: "Guarda-Solitário"
     },
     1792: {
         img: "team_player",
@@ -19702,7 +19715,8 @@ let dataItems = {
         schema: 31272,
         pol: "Trawodawca",
         hun: "Fűmérnök",
-        fre: "Paysagiste"
+        fre: "Paysagiste",
+        bra: "O Jardineer"
     },
     1809: {
         img: "night_vision_gawkers",
@@ -19733,7 +19747,8 @@ let dataItems = {
         schema: 31265,
         pol: "Sprzedawca sodówki",
         hun: "Büfés Csákó",
-        fre: "Calot du vendeur de soda"
+        fre: "Calot du vendeur de soda",
+        bra: "Refresco de Cabeça"
     },
     1813: {
         img: "kazan_karategi",
@@ -19761,216 +19776,515 @@ let dataItems = {
     1816: {
         img: "nightbane_brim",
         eng: "Nightbane Brim",
-        schema: 31308
+        schema: 31308,
+        pol: "W mroku nocy",
+        bra: "Inquisidor Demolidor",
+        fre: "Inquisiteur nocturne",
+        hun: "Rémes Kalap"
     },
     1817: {
         img: "more_gun_marshal",
         eng: "More Gun Marshal",
-        schema: 31298
+        schema: 31298,
+        pol: "Strażnik działek strażniczych",
+        bra: "Marechal Munido",
+        fre: "Marshal surarmé",
+        hun: "„Több Fegyver” Rendőrbíró"
     },
     1818: {
         img: "hunting_cloak",
         eng: "Hunting Cloak",
-        schema: 31314
+        schema: 31314,
+        bra: "Capa de Caça",
+        fre: "Veston de chasse",
+        hun: "Vadászköpeny"
     },
     1819: {
         img: "the_imps_imprint",
         eng: "The Imp's Imprint",
-        schema: 31302
+        schema: 31302,
+        pol: "Diabelski nadruk",
+        bra: "O Colete do Capetinha",
+        fre: "La veste du vandale",
+        hun: "Ördögi Lenyomat"
     },
     1820: {
         img: "starlight_sorcerer",
         eng: "Starlight Sorcerer",
-        schema: 31294
+        schema: 31294,
+        pol: "Gwiezdny czarodziej",
+        bra: "Feiticeiro Estrelado",
+        fre: "Sorcier du firmament",
+        hun: "Csillagos Varázsló"
     },
     1821: {
         img: "beaten_and_bruised",
         eng: "Beaten and Bruised",
-        schema: 31293
+        schema: 31293,
+        pol: "Pobity i posiniaczony",
+        bra: "Espancado e Esmurrado",
+        fre: "Rossé et cabossé",
+        hun: "Legyőzve és Összeverve"
     },
     1822: {
         img: "bombard_brigadier",
         eng: "Bombard Brigadier",
-        schema: 31309
+        schema: 31309,
+        bra: "Brigadeiro Bombardeiro",
+        fre: "Brigadier bombardier",
+        hun: "Bombázó-brigadéros"
     },
     1823: {
         img: "firearm_protector",
         eng: "Firearm Protector",
-        schema: 31310
+        schema: 31310,
+        pol: "Ochrona ogniomistrza",
+        bra: "Bombeiro Incivil",
+        fre: "Soldat des flammes",
+        hun: "Tűzfegyver-vizsgáló"
     },
     1824: {
         img: "horror_shawl",
         eng: "Horror Shawl",
-        schema: 31304
+        schema: 31304,
+        pol: "Makabryczna chusta",
+        bra: "Xale de Horrores",
+        fre: "Capuchon de l'horreur",
+        hun: "Rémcsuklya"
     },
     1825: {
         img: "the_turncoat",
         eng: "The Turncoat",
-        schema: 31301
+        schema: 31301,
+        bra: "O Casaco do Vira-Casaca",
+        fre: "Redingote",
+        hun: "Nagykabát"
     },
     1826: {
         img: "dustbowl_devil",
         eng: "Dustbowl Devil",
-        schema: 31297
+        schema: 31297,
+        pol: "Diabeł z Dustbowl",
+        bra: "Demônio de Dustbowl",
+        fre: "Diable du Dustbowl",
+        hun: "A Homokvihar Ördöge"
     },
     1827: {
         img: "the_masked_fiend",
         eng: "The Masked Fiend",
-        schema: 31303
+        schema: 31303,
+        pol: "Zamaskowany demon",
+        bra: "A Máscara do Malvado",
+        fre: "Démon masqué",
+        hun: "Álarcos Ördög"
     },
     1828: {
         img: "safety_stripes",
         eng: "Safety Stripes",
-        schema: 31311
+        schema: 31311,
+        pol: "Pasy bezpieczeństwa",
+        bra: "Listras Refletivas",
+        fre: "Bandes réfléchissantes",
+        hun: "Láthatósági Csíkok"
     },
     1829: {
         img: "road_block",
         eng: "Road Block",
-        schema: 31306
+        schema: 31306,
+        bra: "O Bloqueio de Rua",
+        fre: "Route barrée",
+        hun: "Úttorlasz"
     },
     1830: {
         img: "the_lavish_labwear",
         eng: "The Lavish Labwear",
-        schema: 31299
+        schema: 31299,
+        bra: "O Laboratorista Luxuoso",
+        fre: "Blouse de luxe",
+        hun: "Fényűző Laborköpeny"
     },
     1831: {
         img: "headhunters_brim",
         eng: "Headhunter's Brim",
-        schema: 31313
+        schema: 31313,
+        bra: "Chapéu do Caçador de Cabeças",
+        fre: "Chapeau du chasseur de têtes",
+        hun: "Fejvadász-kalap"
     },
     1832: {
         img: "cranial_cowl",
         eng: "Cranial Cowl",
-        schema: 31312
+        schema: 31312,
+        bra: "Capuz Craniano",
+        fre: "Capuchon crânien",
+        hun: "Koponyakámzsa"
     },
     1833: {
         img: "alcoholic_automaton",
         eng: "Alcoholic Automaton",
-        schema: 31307
+        schema: 31307,
+        pol: "Automatyczny alkoholik",
+        bra: "Autômato Movido a Álcool",
+        fre: "Automate alcoolique",
+        hun: "Alkoholos Automata"
     },
     1834: {
         img: "road_rage",
         eng: "Road Rage",
-        schema: 31305
+        schema: 31305,
+        bra: "A Fúria da Estrada",
+        fre: "Rage au volant",
+        hun: "Országúti Dühöngés"
     },
     1835: {
         img: "victorian_villainy",
         eng: "Victorian Villainy",
-        schema: 31300
+        schema: 31300,
+        bra: "Vilania Vitoriana",
+        fre: "Infamie victorienne",
+        hun: "Viktoriánus Vérengzés"
     },
     1836: {
         img: "propaniac",
         eng: "Propaniac",
-        schema: 31296
+        schema: 31296,
+        pol: "Propaniak",
+        bra: "Propaníaco",
+        fre: "Propaniaque",
+        hun: "Gázos Séró"
     },
     1837: {
         img: "the_onimann",
         eng: "The Onimann",
-        schema: 31295
+        schema: 31295,
+        pol: "Onimann",
+        bra: "Onimann",
+        fre: "Onimann",
+        hun: "Onimann"
     },
     1838: {
         img: "mishas_maw",
         eng: "Misha's Maw",
-        schema: 31315
+        schema: 31315,
+        bra: "Russo Urso",
+        fre: "Tête d'ours",
+        hun: "Mackópofa"
     },
     1839: {
         img: "cabinet_mann",
         eng: "Cabinet Mann",
-        schema: 31316
+        schema: 31316,
+        pol: "Człowiek-automat",
+        bra: "Fliperamann",
+        fre: "Manitou de l'arcade",
+        hun: "Játékgép-gépész"
     },
     1840: {
         img: "fire_breather",
         eng: "Fire Breather",
-        schema: 31317
+        schema: 31317,
+        pol: "Zionący ogniem",
+        bra: "O Bafo do Dragão",
+        fre: "Cracheur de feu",
+        hun: "Tűzköpő"
     },
     1841: {
         img: "magical_mount",
         eng: "Magical Mount",
-        schema: 31318
+        schema: 31318,
+        pol: "Magiczny wierzchowiec",
+        bra: "Montaria Mágica",
+        fre: "Monture magique",
+        hun: "Mágikus Hátas"
     },
     1842: {
         img: "pony_express",
         eng: "Pony Express",
-        schema: 31319
+        schema: 31319,
+        pol: "Poczta konna",
+        bra: "A Cavalgada Maldita",
+        fre: "Le Poney Express"
     },
     1843: {
         img: "cream_corned_war_paint",
         eng: "Cream Corned War Paint",
-        schema: 17401
+        schema: 17401,
+        pol: "Krem kukurydziany | Barwy wojenne",
+        bra: "| Creme de Abóbora | Tinta de Guerra",
+        fre: "Estampillé maïs Peinture de guerre",
+        hun: "Cukorkabevonat Harci festés",
+        swe: "Stuvad majs Krigsfärg"
     },
     1844: {
         img: "hypergon_war_paint",
         eng: "Hypergon War Paint",
-        schema: 17408
+        schema: 17408,
+        pol: "Hipergon | Barwy wojenne",
+        bra: "| Hipergono | Tinta de Guerra",
+        fre: "Hypergone Peinture de guerre",
+        hun: "Húhatszög Harci festés",
+        swe: "Hypergonal Krigsfärg"
     },
     1845: {
         img: "health_and_hell_green_war_paint",
         eng: "Health and Hell (Green) War Paint",
-        schema: 17407
+        schema: 17407,
+        pol: "Zdrowie i piekło (zieleń) | Barwy wojenne",
+        bra: "| Verde e Inferno | Tinta de Guerra",
+        fre: "Vie et enfer (vert) Peinture de guerre",
+        hun: "Élet és Pokol (zöld) Harci festés",
+        swe: "Hälsa och helvete (grön) Krigsfärg"
     },
     1846: {
         img: "health_and_hell_war_paint",
         eng: "Health and Hell War Paint",
-        schema: 17406
+        schema: 17406,
+        pol: "Zdrowie i piekło | Barwy wojenne",
+        bra: "| Vida e Inferno | Tinta de Guerra",
+        fre: "Vie et enfer Peinture de guerre",
+        hun: "Élet és Pokol Harci festés",
+        swe: "Hälsa och helvete Krigsfärg"
     },
     1847: {
         img: "sunriser_war_paint",
         eng: "Sunriser War Paint",
-        schema: 17402
+        schema: 17402,
+        pol: "Wschód słońca | Barwy wojenne",
+        bra: "| Forja Solar | Tinta de Guerra",
+        fre: "Force solaire Peinture de guerre",
+        hun: "Napkeltegető Harci festés",
+        swe: "Solgångare Krigsfärg"
     },
     1848: {
         img: "chilly_autumn_war_paint",
         eng: "Chilly Autumn War Paint",
-        schema: 17410
+        schema: 17410,
+        pol: "Chłodna jesień | Barwy wojenne",
+        bra: "| Calafrios em Outono | Tinta de Guerra",
+        fre: "Frimas d'automne Peinture de guerre",
+        hun: "Hűvös Ősz Harci festés",
+        swe: "Kylig höst Krigsfärg"
     },
     1849: {
         img: "pumpkin_plastered_war_paint",
         eng: "Pumpkin Plastered War Paint",
-        schema: 17409
+        schema: 17409,
+        pol: "Dyniowa dekoracja | Barwy wojenne",
+        bra: "| Pintura de Abóbora | Tinta de Guerra",
+        fre: "Torché à la citrouille Peinture de guerre",
+        hun: "Tökre Mázolt Harci festés",
+        swe: "Pumpapackad Krigsfärg"
     },
     1850: {
         img: "metalized_soul_war_paint",
         eng: "Metalized Soul War Paint",
-        schema: 17404
+        schema: 17404,
+        pol: "Metaliczna dusza | Barwy wojenne",
+        bra: "| Alma Metalizada | Tinta de Guerra",
+        fre: "Âme métallisée Peinture de guerre",
+        hun: "Fémlelkű Harci festés",
+        swe: "Metallisk själ Krigsfärg"
     },
     1851: {
         img: "ghoul_blaster_war_paint",
         eng: "Ghoul Blaster War Paint",
-        schema: 17400
+        schema: 17400,
+        pol: "Pogromca duchów | Barwy wojenne",
+        bra: "| Caça-Espíritos | Tinta de Guerra",
+        fre: "Brise-fantôme Peinture de guerre",
+        hun: "Szellemaprító Harci festés",
+        swe: "Spöksprängare Krigsfärg"
     },
     1852: {
         img: "bonzo_gnawed_war_paint",
         eng: "Bonzo Gnawed War Paint",
-        schema: 17405
+        schema: 17405,
+        pol: "Obgryzający Bonzo | Barwy wojenne",
+        bra: "| Tormento do Bonzo | Tinta de Guerra",
+        fre: "Bonzo rongé Peinture de guerre",
+        hun: "Bonzo-rágcsálta Harci festés",
+        swe: "Bonzo-biten Krigsfärg"
     },
     1853: {
         img: "sacred_slayer_war_paint",
         eng: "Sacred Slayer War Paint",
-        schema: 17403
+        schema: 17403,
+        pol: "Święty zabójca | Barwy wojenne",
+        bra: "| Assassino Sagrado | Tinta de Guerra",
+        fre: "Occiseur sacré Peinture de guerre",
+        hun: "Felszentelt Fegyverzet Harci festés",
+        swe: "Helgad baneman Krigsfärg"
     },
     1854: {
         img: "taunt_drunk_manns_cannon",
         eng: "Taunt: Drunk Mann's Cannon",
-        schema: 31291
+        schema: 31291,
+        bra: "Provocação: Canhão do Cachaceiro",
+        fre: "Raillerie : Le canon du poivrot",
+        hun: "Beszólás: Részeges ágyútöltelék"
     },
     1855: {
         img: "taunt_shanty_shipmate",
         eng: "Taunt: Shanty Shipmate",
-        schema: 31292
+        schema: 31292,
+        pol: "Drwina: Pijackie szanty",
+        bra: "Provocação: O Marambaia",
+        fre: "Raillerie : Terre en vue",
+        hun: "Beszólás: Tintás tengerész"
     },
     1856: {
         img: "taunt_texas_twirl_em",
         eng: "Taunt: Texas Twirl 'Em",
-        schema: 31286
+        schema: 31286,
+        pol: "Drwina: Teksański tupaniec",
+        bra: "Provocação: Pula-Laço Texano",
+        fre: "Raillerie : Pro du lasso",
+        hun: "Beszólás: Texasi tornádó"
     },
     1857: {
         img: "taunt_the_travel_agent",
         eng: "Taunt: The Travel Agent",
-        schema: 31290
+        schema: 31290,
+        bra: "Provocação: O Agente de Viagem",
+        fre: "Raillerie : L'hélico-gadget",
+        hun: "Beszólás: Az utazó ügynök"
     },
     1858: {
         img: "taunt_the_scaredycat",
         eng: "Taunt: The Scaredy-cat!",
-        schema: 31288
+        schema: 31288,
+        bra: "Provocação: Que Susto!",
+        fre: "Raillerie : La poule mouillée !",
+        hun: "Beszólás: A gyáva nyúl!"
+    },
+    1859: {
+        img: "lumbercap",
+        eng: "Lumbercap",
+        schema: 31326
+    },
+    1860: {
+        img: "the_soft_hard_hat",
+        eng: "The Soft Hard Hat",
+        schema: 31331
+    },
+    1861: {
+        img: "heavy_heating",
+        eng: "Heavy Heating",
+        schema: 31346
+    },
+    1862: {
+        img: "arctic_mole",
+        eng: "Arctic Mole",
+        schema: 31333
+    },
+    1863: {
+        img: "glasgow_bankroll",
+        eng: "Glasgow Bankroll",
+        schema: 31342
+    },
+    1864: {
+        img: "partizan",
+        eng: "Partizan",
+        schema: 31329
+    },
+    1865: {
+        img: "cold_blooded_coat",
+        eng: "Cold Blooded Coat",
+        schema: 31336
+    },
+    1866: {
+        img: "bulb_bonnet",
+        eng: "Bulb Bonnet",
+        schema: 31335
+    },
+    1867: {
+        img: "crosshair_cardigan",
+        eng: "Crosshair Cardigan",
+        schema: 31340
+    },
+    1868: {
+        img: "oktoberfester",
+        eng: "Oktoberfester",
+        schema: 31344
+    },
+    1869: {
+        img: "the_cool_warm_sweater",
+        eng: "The Cool Warm Sweater",
+        schema: 31332
+    },
+    1870: {
+        img: "ol_reliable",
+        eng: "Ol' Reliable",
+        schema: 31345
+    },
+    1871: {
+        img: "underminers_overcoat",
+        eng: "Underminer's Overcoat",
+        schema: 31334
+    },
+    1872: {
+        img: "plaid_lad",
+        eng: "Plaid Lad",
+        schema: 31341
+    },
+    1873: {
+        img: "firebrand",
+        eng: "Firebrand",
+        schema: 31328
+    },
+    1874: {
+        img: "frostbite_bonnet",
+        eng: "Frostbite Bonnet",
+        schema: 31337
+    },
+    1875: {
+        img: "infiltrators_insulation",
+        eng: "Infiltrator's Insulation",
+        schema: 31338
+    },
+    1876: {
+        img: "the_wooly_pulli",
+        eng: "The Wooly Pulli",
+        schema: 31343
+    },
+    1877: {
+        img: "colonel_kringle",
+        eng: "Colonel Kringle",
+        schema: 31325
+    },
+    1878: {
+        img: "battle_bear",
+        eng: "Battle Bear",
+        schema: 31324
+    },
+    1879: {
+        img: "motley_sleeves",
+        eng: "Motley Sleeves",
+        schema: 31339
+    },
+    1880: {
+        img: "festive_rack",
+        eng: "Festive Rack",
+        schema: 31327
+    },
+    1881: {
+        img: "trappers_flap",
+        eng: "Trapper's Flap",
+        schema: 31323
+    },
+    1882: {
+        img: "taunt_russian_rubdown",
+        eng: "Taunt: Russian Rubdown",
+        schema: 31320
+    },
+    1883: {
+        img: "taunt_tailored_terminal",
+        eng: "Taunt: Tailored Terminal",
+        schema: 31321
+    },
+    1884: {
+        img: "taunt_roasty_toasty",
+        eng: "Taunt: Roasty Toasty",
+        schema: 31322
     }
 }

@@ -25,6 +25,7 @@ import {
     xmas19FX,
     xmas20FX,
     xmas21FX,
+    xmas22FX,
     nice2014UnusualPool,
     allGensFX,
     limitedLateSummerUnusualPool,
@@ -1422,7 +1423,7 @@ const sound = {
         import.meta.url)),
     crateOpen: new Audio(new URL('../sound/crateopen.mp3',
         import.meta.url)),
-    wrapOpen: new Audio(new URL('../sound/wrapopen.mp3',
+    winterCrateOpen: new Audio(new URL('../sound/wintercrateopen.mp3',
         import.meta.url)),
     roboCrateOpen: new Audio(new URL('../sound/robocrateopen.mp3',
         import.meta.url)),
@@ -1629,6 +1630,9 @@ function generateEffectList() {
                 break;
             case "xmas21":
                 effectsArray = xmas21FX;
+                break;
+            case "xmas22":
+                effectsArray = xmas22FX;
                 break;
         }
     } else {
@@ -2207,6 +2211,9 @@ function unbox() { // This function handles the unboxing itself: which item is u
                     case "xmas21":
                         effectsArray = xmas21FX;
                         break;
+                    case "xmas22":
+                        effectsArray = xmas22FX;
+                        break;
                 }
             } else {
                 effectsArray = crate.effects;
@@ -2470,7 +2477,13 @@ function beginUnbox() { // This function handles the unbox countdown and shows t
                 sound.play("roboCrateOpen");
                 break;
             case 114:
-                sound.play("wrapOpen");
+            case 122:
+            case 127:
+            case 140:
+            case 145:
+            case 150:
+            case 154:
+                sound.play("winterCrateOpen");
                 break;
             default:
                 sound.play("crateOpen");

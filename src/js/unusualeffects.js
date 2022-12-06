@@ -2398,61 +2398,140 @@ let dataEffects = {
     233: {
         img: "haunted_kraken",
         eng: "Haunted Kraken",
-        schema: 257
+        schema: 257,
+        pol: "nawiedzony Kraken",
+        bra: "Kraken assombrado",
+        fre: "Kraken hanté",
+        hun: "Lidérces kraken"
     },
     234: {
         img: "eerie_kraken",
         eng: "Eerie Kraken",
-        schema: 258
+        schema: 258,
+        bra: "Kraken sombrio",
+        fre: "Kraken sinistre",
+        hun: "Hajmeresztő kraken"
     },
     235: {
         img: "soulful_slice",
         eng: "Soulful Slice",
-        schema: 259
+        schema: 259,
+        bra: "Golpe gosmento",
+        fre: "Une tranche d'âme",
+        hun: "Szellemes fejsze"
     },
     236: {
         img: "horsemanns_hack",
         eng: "Horsemann's Hack",
-        schema: 260
+        schema: 260,
+        bra: "Corte certeiro",
+        fre: "Coup de hache du cavalier sans tête",
+        hun: "A Lovas csapása"
     },
     237: {
         img: "haunted_forever",
         eng: "Haunted Forever!",
-        schema: 261
+        schema: 261,
+        pol: "wieczyste nawiedzenie",
+        bra: "Assombrado para sempre!",
+        fre: "Hanté à vie",
+        hun: "Örökké kísértett!"
     },
     238: {
         img: "forever_and_forever",
         eng: "Forever And Forever!",
-        schema: 263
+        schema: 263,
+        pol: "już zawsze, na zawsze",
+        bra: "Para todo o sempre!",
+        fre: "Pour toujours et à tout jamais !",
+        hun: "Örökkön örökké!"
     },
     239: {
         img: "cursed_forever",
         eng: "Cursed Forever!",
-        schema: 264
+        schema: 264,
+        pol: "permamentne przekleństwo",
+        bra: "Amaldiçoado para sempre!",
+        fre: "Maudit pour toujours !",
+        hun: "Örökké Átkozott!"
     },
     240: {
         img: "moth_plague",
         eng: "Moth Plague",
-        schema: 265
+        schema: 265,
+        pol: "plaga ciem",
+        bra: "Praga de mariposas",
+        fre: "Nuée de papillons de nuit",
+        hun: "Molyhad"
     },
     241: {
         img: "malevolent_monoculi",
         eng: "Malevolent Monoculi",
-        schema: 266
+        schema: 266,
+        bra: "Monoculi malevolentes",
+        fre: "Œil maléfique",
+        hun: "Rosszakaró Monoculusok"
     },
     242: {
         img: "haunted_wick",
         eng: "Haunted Wick",
-        schema: 267
+        schema: 267,
+        pol: "nawiedzony knot",
+        bra: "Pavio assombrado",
+        fre: "Mèche hantée",
+        hun: "Kísérteties kanóc"
     },
     243: {
         img: "wicked_wick",
         eng: "Wicked Wick",
-        schema: 269
+        schema: 269,
+        pol: "nikczemny knot",
+        bra: "Pavio perverso",
+        fre: "Mèche méchante",
+        hun: "Komisz kanóc"
     },
     244: {
         img: "spectral_wick",
         eng: "Spectral Wick",
-        schema: 270
+        schema: 270,
+        pol: "widmowy knot",
+        bra: "Pavio espectral",
+        fre: "Mèche spectrale",
+        hun: "Lidérces kanóc"
+    },
+    245: {
+        img: "musical_maelstrom",
+        eng: "Musical Maelstrom",
+        schema: 271
+    },
+    246: {
+        img: "verdant_virtuoso",
+        eng: "Verdant Virtuoso",
+        schema: 272
+    },
+    247: {
+        img: "silver_serenade",
+        eng: "Silver Serenade",
+        schema: 273
+    },
+    248: {
+        img: "cosmic_constellations",
+        eng: "Cosmic Constellations",
+        schema: 274
+    },
+    249: {
+        img: "dazzling_constellations",
+        eng: "Dazzling Constellations",
+        schema: 276
+    },
+    250: {
+        img: "tainted_frost",
+        eng: "Tainted Frost",
+        schema: 277
+    },
+    251: {
+        img: "starlight_haze",
+        eng: "Starlight Haze",
+        schema: 278
     }
 }

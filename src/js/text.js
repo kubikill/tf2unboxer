@@ -2407,4 +2407,14 @@ let dataUi = {
         rom: "Fortareata Urlatoare XIV (2022)",
 		swe: "Skrik Fortress XIV (2022)"
     },
+    214: {
+        eng: "Smissmas 2022",
+        pol: "Śnięta 2022",
+        sch: "圣诞节 2022",
+        bra: "Natal de 2022",
+        cze: "Vánoce 2022",
+        hun: "Galácsony 2022",
+        rom: "Craciun 2022",
+		swe: "Smissmas 2022"
+    }
 }
