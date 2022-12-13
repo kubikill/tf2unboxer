@@ -2939,7 +2939,7 @@ cA[152].loot = [ // halloween 2022 cosmetic case
     new Item({ id: 1829, quality: 4, grade: 4 }),
     new Item({ id: 1830, quality: 4, grade: 4 }),
     new Item({ id: 1831, quality: 10, grade: 4 }),
-    new Item({ id: 1832, quality: 4, grade: 5 }),
+    new Item({ id: 1832, quality: 10, grade: 5 }),
     new Item({ id: 1833, quality: 4, grade: 5 }),
     new Item({ id: 1834, quality: 4, grade: 5 }),
     new Item({ id: 1835, quality: 10, grade: 5 }),
