@@ -998,5 +998,13 @@ let dataCrates = {
     97: {
         img: "winter_2022_cosmetic_case",
         eng: "Winter 2022 Cosmetic Case"
+    },
+    98: {
+        img: "summer_2023_cosmetic_case",
+        eng: "Summer 2023 Cosmetic Case"
+    },
+    99: {
+        img: "summer_2023_war_paint_case",
+        eng: "Summer 2023 War Paint Case",
     }
 }

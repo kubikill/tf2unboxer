@@ -349,6 +349,9 @@ function unbox() { // This function handles the unboxing itself: which item is u
                     case "xmas22":
                         effectsArray = xmas22FX;
                         break;
+                    case "summer23":
+                        effectsArray = summer23FX;
+                        break;
                 }
             } else {
                 effectsArray = crate.effects;

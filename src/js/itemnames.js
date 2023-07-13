@@ -118,7 +118,8 @@ let dataItems = {
         bra: "A Interbases",
         schema: 220,
         hun: "A Megállító",
-        ger: "Der Shortstop"
+        ger: "Der Shortstop",
+        swe: "Shortstop"
     },
     12: {
         img: "letranger",
@@ -178,7 +179,7 @@ let dataItems = {
     17: {
         img: "australium_gold",
         eng: "Australium Gold",
-        pol: "Złocistość Australium",
+        pol: "Złocistość australium",
         sch: "澳元素金",
         fre: "Or Australium",
         bra: "Ouro Austrálio",
@@ -195,7 +196,8 @@ let dataItems = {
         bra: "O Facão do Desbravador",
         schema: 232,
         hun: "A Bozótverő",
-        ger: "Der Buschwacka"
+        ger: "Der Buschwacka",
+        swe: "Bushwacka"
     },
     19: {
         img: "critacola",
@@ -214,7 +216,7 @@ let dataItems = {
         pol: "Burzyciel",
         sch: "拆迁者",
         fre: "Le Briseur de Ménages",
-        bra: "A Quebra-casas",
+        bra: "A Quebra-Casas",
         schema: 153,
         hun: "A Laklerendező",
         swe: "Hemrivaren"
@@ -420,13 +422,13 @@ let dataItems = {
     39: {
         img: "candy_cane",
         eng: "The Candy Cane",
-        pol: "Cukrowa laska",
+        pol: "Laska cukrowa",
         sch: "糖果手杖",
-        fre: "Le Sucre d'Orge",
-        bra: "A Bengala Doce",
+        fre: "Sucre d'orge",
+        bra: "Bengala Doce",
         schema: 317,
-        hun: "A Cukorpálca",
-        swe: "Polkagrisen"
+        hun: "cukorkapálca",
+        swe: "Polkagris"
     },
     40: {
         img: "fists_of_steel",
@@ -459,7 +461,8 @@ let dataItems = {
         bra: "A Claidheamh Mòr",
         schema: 327,
         hun: "A Claidheamh Mòr",
-        ger: "Das Claidheamh Mòr"
+        ger: "Das Claidheamh Mòr",
+        swe: "Claidheamh Mòr"
     },
     43: {
         img: "defiant_spartan",
@@ -766,7 +769,7 @@ let dataItems = {
         pol: "Makabryczny rozłupywacz",
         sch: "可怕的劈头者",
         fre: "Épouvantable Hachoir",
-        bra: "Abre-crânios Horripilante",
+        bra: "Abre-Crânios Horripilante",
         schema: 291,
         hun: "Hallatlan Hasogatás",
         swe: "Skrämmande Skallfraktur"
@@ -1265,7 +1268,8 @@ let dataItems = {
         bra: "A Bomba do Lago Ness",
         schema: 308,
         hun: "A Loch-Nesze-Szörny",
-        ger: "Der Lochnesser"
+        ger: "Der Lochnesser",
+        swe: "Loch-n-Load"
     },
     117: {
         img: "scotch_bonnet",
@@ -1482,7 +1486,7 @@ let dataItems = {
         pol: "Melonik oszczercy",
         sch: "背后诽谤者的小礼帽",
         fre: "Chapeau melon",
-        bra: "Chapéu-coco do Caluniador",
+        bra: "Chapéu-Coco do Caluniador",
         schema: 108,
         hun: "Hátbaszúrók Keménykalapja",
         swe: "Baktalarens Kubb"
@@ -1713,7 +1717,8 @@ let dataItems = {
         fre: "Hound Dog",
         bra: "Cão de Caça",
         schema: 145,
-        hun: "A Nagykutya"
+        hun: "A Nagykutya",
+        swe: "Hound Dog"
     },
     158: {
         img: "football_helmet",
@@ -1971,7 +1976,7 @@ let dataItems = {
         pol: "Dupalacz",
         sch: "偷袭烈焰喷射器",
         fre: "Le brûleur arrière",
-        bra: "O Queima-costas",
+        bra: "O Queima-Costas",
         schema: 40,
         hun: "A Beégető",
         swe: "Ryggbrännaren"
@@ -2138,7 +2143,8 @@ let dataItems = {
         bra: "O Escudo Antinavalha",
         schema: 57,
         hun: "A Visszavágó",
-        ger: "Der Stammesschild"
+        ger: "Der Stammesschild",
+        swe: "Razorback"
     },
     197: {
         img: "tough_guys_toque",
@@ -2171,7 +2177,8 @@ let dataItems = {
         bra: "A Kritzkrieg",
         schema: 35,
         hun: "A Kritzkrieg",
-        ger: "Die Kritzkrieg"
+        ger: "Die Kritzkrieg",
+        swe: "Kritzkrieg"
     },
     200: {
         img: "holy_mackerel",
@@ -2193,7 +2200,8 @@ let dataItems = {
         bra: "A Machina",
         schema: 526,
         hun: "A Machina",
-        ger: "Die Machina"
+        ger: "Die Machina",
+        swe: "Machina"
     },
     202: {
         img: "half_zatoichi",
@@ -2443,7 +2451,7 @@ let dataItems = {
         pol: "Zamrożony agent",
         sch: "神奇的冰柱",
         fre: "La Spy-lactite",
-        bra: "O Spy-lactite",
+        bra: "A Spy-lactite",
         schema: 649,
         hun: "A Kém-csap",
         swe: "Smygtappen"
@@ -2600,7 +2608,8 @@ let dataItems = {
         bra: "A Blutsauger",
         schema: 36,
         hun: "A Blutsauger",
-        ger: "Der Blutsauger"
+        ger: "Der Blutsauger",
+        swe: "Blutsauger"
     },
     239: {
         img: "liberty_launcher",
@@ -2652,7 +2661,7 @@ let dataItems = {
         pol: "Quick-Fix",
         sch: "快速医疗枪",
         fre: "Le Secou'rapide",
-        bra: "A Quebra-galho",
+        bra: "A Quebra-Galho",
         schema: 411,
         hun: "A Gyorsbeavatkozás",
         swe: "Snabbfixaren"
@@ -2785,7 +2794,8 @@ let dataItems = {
         bra: "O Diamante Bruto",
         schema: 525,
         hun: "A Diamondback",
-        ger: "Der Diamondback"
+        ger: "Der Diamondback",
+        swe: "Diamondback"
     },
     256: {
         img: "strange_part_gib_kills",
@@ -2804,7 +2814,7 @@ let dataItems = {
         pol: "Kuriozalna część: Wrogowie zabici w powietrzu",
         sch: "奇异武器升级部件：空中敌人击杀数",
         fre: "Pièce étrange : Ennemis dans les airs tués",
-        bra: "Peça Estranha: Inimigos Mortos no Ar",
+        bra: "Peça Estranha: Vítimas no Ar",
         schema: 6012,
         hun: "Fura Alkatrész: Megölt repülő ellenfelek",
         swe: "Märklig Del: Luftburna fiender dödade"
@@ -2991,7 +3001,7 @@ let dataItems = {
         pol: "Kuriozalna część: Zabójstwa odwetowe",
         sch: "奇异武器升级部件：复仇数",
         fre: "Pièce étrange : Victimes par vengeance",
-        bra: "Peça Estranha: Mortes Vingadoras",
+        bra: "Peça Estranha: Vinganças",
         schema: 6018,
         hun: "Fura Alkatrész: Bosszú ölések",
         swe: "Märklig Del: Hämndmord"
@@ -3013,7 +3023,7 @@ let dataItems = {
         pol: "Czerepołamacz Szkota",
         sch: "苏格兰颅骨切割者",
         fre: "La Guillotine Écossaise",
-        bra: "O Corta-crânios Escocês",
+        bra: "O Corta-Crânios Escocês",
         schema: 172,
         hun: "A Skót Fejtörő",
         swe: "Skottens Skallskärare"
@@ -3046,7 +3056,7 @@ let dataItems = {
         pol: "Kuriozalna część: Zabójstwa dominacyjne",
         sch: "奇异武器升级部件：控制数",
         fre: "Pièce étrange : Victimes dominées",
-        bra: "Peça Estranha: Mortes Dominadoras",
+        bra: "Peça Estranha: Dominações",
         schema: 6016,
         hun: "Fura Alkatrész: Alázó ölések",
         swe: "Märklig Del: Domineringsmord"
@@ -3441,7 +3451,7 @@ let dataItems = {
         pol: "Kuriozalna część: Zabójstwa z niskim stanem zdrowia",
         sch: "奇异武器升级部件：残血状态杀敌数",
         fre: "Pièce étrange : Nombre de victimes en ayant une santé faible",
-        bra: "Peça Estranha: Vítimas Enquanto com Pouca Vida",
+        bra: "Peça Estranha: Vítimas enquanto com Pouca Vida",
         schema: 6032,
         hun: "Fura Alkatrész: Ölések alacsony életerőnél",
         swe: "Märklig Del: Dödade vid låg hälsa"
@@ -3493,13 +3503,13 @@ let dataItems = {
     320: {
         img: "original",
         eng: "The Original",
-        pol: "Pierwowzór",
-        sch: "正宗雷神之锤火箭发射器",
-        fre: "L'Original",
-        bra: "O Original",
+        pol: "Oryginalna",
+        sch: "原版",
+        fre: "Originel",
+        bra: "Original",
         schema: 513,
-        hun: "Az Eredeti",
-        swe: "Originalet"
+        hun: "Eredeti",
+        swe: "Original"
     },
     321: {
         img: "invis_watch",
@@ -3923,7 +3933,7 @@ let dataItems = {
         pol: "Zimnokrwisty zabójca",
         sch: "冷面死神",
         fre: "Le tueur de sang froid",
-        bra: "O Sangue Frio",
+        bra: "O Sangue-Frio",
         schema: 981,
         hun: "A Hidegre-tevő",
         swe: "Den Kallblodiga Mördaren"
@@ -4022,7 +4032,7 @@ let dataItems = {
         pol: "Kuriozalna część: Zabici podczas Übercharge'a",
         sch: "奇异武器升级部件：Ubercharge 中击杀数",
         fre: "Pièce étrange : Victimes pendant une Übercharge",
-        bra: "Peça Estranha: Vítimas Durante ÜberCargas",
+        bra: "Peça Estranha: Vítimas durante ÜberCargas",
         schema: 6037,
         hun: "Fura Alkatrész: ÜberTöltés közbeni ölések",
         swe: "Märklig Del: Dödade som Überladdad"
@@ -4033,7 +4043,7 @@ let dataItems = {
         pol: "Kuriozalna część: Zabici pod wodą",
         sch: "奇异武器升级部件：水下杀人数",
         fre: "Pièce étrange : Victimes se trouvant sous l'eau",
-        bra: "Peça Estranha: Inimigos Submersos Mortos",
+        bra: "Peça Estranha: Vítimas Submersas",
         schema: 6036,
         hun: "Fura Alkatrész: Víz alatti ölések",
         swe: "Märklig Del: Undervattensmord"
@@ -4088,7 +4098,7 @@ let dataItems = {
         pol: "Kuriozalna część: Zabójstwa w obronie",
         sch: "奇异武器升级部件：防守击杀数",
         fre: "Pièce étrange : Victimes en tant que défenseur",
-        bra: "Peça Estranha: Vítimas para Defesa",
+        bra: "Peça Estranha: Capturadores Mortos",
         schema: 6035,
         hun: "Fura Alkatrész: Megölt védők",
         swe: "Märklig Del: Försvarsmord"
@@ -4099,7 +4109,7 @@ let dataItems = {
         pol: "Fałszywy melonik",
         sch: "仿冒的小礼帽",
         fre: "Le chapeau melon contrefait",
-        bra: "O Chapéu-coco Disfarçado",
+        bra: "O Chapéu-Coco Disfarçado",
         schema: 602,
         hun: "A Kamu Keménykalap",
         swe: "Den Förfalskade Kubben"
@@ -4143,7 +4153,7 @@ let dataItems = {
         pol: "Bazooka biedaka",
         sch: "乞丐的火箭筒",
         fre: "Bazooka du mendiant",
-        bra: "O Lança-foguetes do Lamentável",
+        bra: "O Lança-Foguetes do Lamentável",
         schema: 730,
         hun: "A Kacatvető",
         swe: "Den Ruinerades Raketgevär"
@@ -4757,7 +4767,7 @@ let dataItems = {
         pol: "Bezecny metalowy melonik",
         sch: "碱金属小圆礼帽",
         fre: "Chapeau Boulon",
-        bra: "Chapéu-coco de Cobre",
+        bra: "Chapéu-Coco de Cobre",
         schema: 30007,
         hun: "Egyszerű Fém Keménykalap",
         swe: "Kubb av grundmetall"
@@ -4768,7 +4778,7 @@ let dataItems = {
         pol: "Podrobiony bezecny metalowy melonik",
         sch: "仿冒的金属小礼帽",
         fre: "Chapeau Boulon de contrebande",
-        bra: "Chapéu-coco de Contrabanda Metálica",
+        bra: "Chapéu-Coco de Contrabanda Metálica",
         schema: 30047,
         hun: "Krómozott Keménykalap-kópia",
         swe: "Oädla Metallkubben"
@@ -4876,7 +4886,7 @@ let dataItems = {
         pol: "Kuriozalna część: Zabici Medycy z pełnym ÜberCharge",
         sch: "奇异武器升级部件：满 Ubercharge 医生消灭数",
         fre: "Pièce étrange : Medics tués ayant une Übercharge complète",
-        bra: "Peça Estranha: Medics com ÜberCarga Pronta Mortos",
+        bra: "Peça Estranha: Medics Mortos com a ÜberCarga Pronta",
         schema: 6023,
         hun: "Fura alkatrész: Teljes ÜberTöltéssel megölt Szanitécek",
         swe: "Märklig Del: Dödade Medics som hade full ÜberLaddning"
@@ -4953,7 +4963,7 @@ let dataItems = {
         pol: "Kuriozalna część: Zabójstwa drwiną",
         sch: "奇异武器升级部件：嘲讽杀敌数",
         fre: "Pièce étrange : Victimes d'attaques par raillerie",
-        bra: "Peça Estranha: Vítimas de Provocação",
+        bra: "Peça Estranha: Provocações Fatais",
         schema: 6051,
         hun: "Fura Alkatrész: Beszólás-támadással megölt ellenfelek",
         swe: "Märklig Del: Dödade med hånattacker"
@@ -5781,7 +5791,7 @@ let dataItems = {
         pol: "Kuriozalna część: Zabójstwa po zakończeniu rundy",
         sch: "奇异武器升级部件：胜利后逃兵追杀数",
         fre: "Pièce étrange : Victimes après victoire d'un round",
-        bra: "Peça Estranha: Vítimas Após Vencer a Rodada",
+        bra: "Peça Estranha: Vítimas após Vencer a Rodada",
         schema: 6041,
         hun: "Fura Alkatrész: Győzelmi idő alatti ölések",
         swe: "Märklig Del: Dödade under segertid"
@@ -5789,7 +5799,7 @@ let dataItems = {
     530: {
         img: "strange_part_robot_spies_destroyed",
         eng: "Strange Part: Robot Spies Destroyed",
-        pol: "Kuriozalna część: Zniszczeni Robo-Szpiedzy",
+        pol: "Kuriozalna część: Zniszczeni roboszpiedzy",
         sch: "奇异武器升级部件：机器间谍摧毁数",
         fre: "Pièce étrange : Spies Robots détruits",
         bra: "Peça Estranha: Spies Robôs Destruídos",
@@ -5937,7 +5947,8 @@ let dataItems = {
         bra: "O Bip Boy",
         schema: 30167,
         hun: "A Füttyös Fiú",
-        ger: "Der Beep Boy"
+        ger: "Der Beep Boy",
+        swe: "Beep Boy"
     },
     544: {
         img: "cuban_bristle_crisis",
@@ -7303,7 +7314,7 @@ let dataItems = {
         pol: "Piekąca palba",
         sch: "焦化枪",
         fre: "La Torche rousse",
-        bra: "A Queima-roupa",
+        bra: "A Queima-Roupa",
         schema: 740,
         hun: "Az Odapörkölő",
         swe: "Svedskottet"
@@ -7905,11 +7916,11 @@ let dataItems = {
         eng: "Sole Saviors",
         pol: "Nikczemne nagolennice",
         sch: "脚丫救世主",
-        fre: "Le Sauveur de semelles",
+        fre: "Les sauveur de semelles",
         bra: "As Solas do Salvador",
         schema: 30358,
         hun: "A Talpalávalók",
-        swe: "De ensamma överlevarna"
+        swe: "Stålsulorna"
     },
     724: {
         img: "stylish_degroot",
@@ -8325,7 +8336,7 @@ let dataItems = {
         pol: "Kuriozalna część: Zabójstw z pełnym zdrowiem",
         sch: "奇异武器升级部件：满血杀敌数",
         fre: "Victimes lorsque santé est au maximum",
-        bra: "Peça Estranha: Vítimas Enquanto com Vida Cheia",
+        bra: "Peça Estranha: Vítimas enquanto com Vida Cheia",
         schema: 6061,
         hun: "Fura Alkatrész: Teljes életerejű ölések",
         swe: "Märklig Del: Dödade vid full hälsa"
@@ -8952,7 +8963,7 @@ let dataItems = {
         pol: "Przechylony dekiel",
         sch: "卷边小礼帽",
         fre: "Le Chapeau bas",
-        bra: "Chapéu-coco Caridoso",
+        bra: "Chapéu-Coco Caridoso",
         schema: 30425,
         hun: "Megbillentett Fejfedő",
         swe: "Tippat Lock"
@@ -9079,14 +9090,14 @@ let dataItems = {
     830: {
         img: "classic",
         eng: "Classic",
-        pol: "Klasyk",
-        sch: "经典狙击步枪",
-        fre: "Le Classique",
-        bra: "O Clássico",
+        pol: "Klasycznie",
+        sch: "经典",
+        fre: "Classique",
+        bra: "Clássico",
         schema: 1098,
         schema2: 5754,
-        hun: "A Klasszikus",
-        swe: "Klassikern"
+        hun: "Klasszikus",
+        swe: "Klassisk"
     },
     831: {
         img: "manmelter",
@@ -9114,7 +9125,7 @@ let dataItems = {
     833: {
         img: "strange_part_robot_scouts_destroyed",
         eng: "Strange Part: Robot Scouts Destroyed",
-        pol: "Kuriozalna część: Zniszczeni Robo-Skauci",
+        pol: "Kuriozalna część: Zniszczeni roboskauci",
         sch: "奇异武器升级部件：机器人侦察兵消灭数",
         fre: "Pièce étrange : Scouts Robots détruits",
         bra: "Peça Estranha: Scouts Robôs Destruídos",
@@ -9148,19 +9159,20 @@ let dataItems = {
         img: "dell_in_the_shell",
         eng: "Dell in the Shell",
         pol: "Oczytany owodniowiec",
-        fre: "Dell sous Carapace",
-        sch: "龟工",
+        fre: "Ovipare stratège",
+        sch: "工壳机动队",
         bra: "Conagher no Casco",
         schema: 30995,
         hun: "Dell a Páncélban",
-        ger: "Schildkrötenschrauber"
+        ger: "Schildkrötenschrauber",
+        swe: "Pansarpadda"
     },
     837: {
         img: "a_shell_of_a_mann",
         eng: "A Shell of a Mann",
         pol: "Karapaks konstruktora",
-        fre: "La Carapace d'un Homme",
-        sch: "曼恩鳖甲",
+        fre: "La carapace humaine",
+        sch: "仙人之壳",
         bra: "O Casco de um Homem",
         schema: 30994,
         hun: "Férfias Páncélok",
@@ -9249,7 +9261,7 @@ let dataItems = {
         pol: "Ekwipunek egzorcysty",
         sch: "尖头十字架",
         fre: "L'Équipement du Massacreur de Goules",
-        bra: "O Equipamento Explode-espíritos",
+        bra: "O Equipamento Explode-Espíritos",
         schema: 30520,
         hun: "A Halvajáró-nyuvasztó Holmi",
         swe: "Vampyrjägarens vapenarsenal"
@@ -9351,7 +9363,8 @@ let dataItems = {
         bra: "Vampyro",
         schema: 30530,
         hun: "A Vámpiró",
-        ger: "Der Vampyro"
+        ger: "Der Vampyro",
+        swe: "Vampyro"
     },
     855: {
         img: "forgotten_kings_restless_head",
@@ -9483,7 +9496,8 @@ let dataItems = {
         bra: "O Bip Man",
         schema: 30509,
         hun: "A Füttyös Férfi",
-        ger: "Der Beep Man"
+        ger: "Der Beep Man",
+        swe: "Beep Man"
     },
     867: {
         img: "soul_of_spensers_past",
@@ -9527,7 +9541,8 @@ let dataItems = {
         bra: "O Herzensbrecher",
         schema: 30486,
         hun: "A Herzensbrecher",
-        ger: "Der Herzensbrecher"
+        ger: "Der Herzensbrecher",
+        swe: "Herzensbrecher"
     },
     871: {
         img: "hundkopf",
@@ -9538,7 +9553,8 @@ let dataItems = {
         bra: "O Hundkopf",
         schema: 30487,
         hun: "A Hundkopf",
-        ger: "Der Hundekopf"
+        ger: "Der Hundekopf",
+        swe: "Hundkopf"
     },
     872: {
         img: "kriegsmaschine_9000",
@@ -9549,7 +9565,8 @@ let dataItems = {
         bra: "A Kriegsmaschine-9000",
         schema: 30488,
         hun: "A Kriegsmaschine-9000",
-        ger: "Die Kriegsmaschine-9000"
+        ger: "Die Kriegsmaschine-9000",
+        swe: "Kriegsmaschine-9000"
     },
     873: {
         img: "vampire_makeover",
@@ -9689,7 +9706,7 @@ let dataItems = {
         pol: "Wiązowy koszmar",
         sch: "梦魇猎手",
         fre: "Le Chasseur Cauchemardesque",
-        bra: "O Caçador da Meia-noite",
+        bra: "O Caçador da Meia-Noite",
         schema: 30506,
         hun: "A Rémálomvadász",
         swe: "Mardrömsjägaren"
@@ -11271,7 +11288,8 @@ let dataItems = {
         bra: "O C.A.U.B.O.I.",
         schema: 30666,
         hun: "A F.É.Z.E.R.",
-        ger: "Die C.A.P.P.E.R"
+        ger: "Die C.A.P.P.E.R",
+        swe: "C.A.P.P.E.R"
     },
     1030: {
         img: "phononaut",
@@ -12382,7 +12400,7 @@ let dataItems = {
         pol: "Wyrzutnik szybkobomb",
         sch: "快速黏弹发射器",
         fre: "Le Lanceur de Bombes rapides",
-        bra: "O Lança-rápibombs",
+        bra: "O Lança-Rápibombs",
         schema: 1150,
         hun: "A Gyorsbomba-vető",
         swe: "Kvickbombsskjutaren"
@@ -12918,12 +12936,12 @@ let dataItems = {
         img: "upgrade",
         eng: "The Upgrade",
         pol: "Ulepszenie",
-        sch: "高科技间谍",
-        fre: "Cerveau mécanique",
-        bra: "Visor de Visão",
+        sch: "升级",
+        fre: "Amélioration",
+        bra: "Melhoria",
         schema: 30848,
-        hun: "A Fejlesztés",
-        swe: "Uppgraderingen"
+        hun: "Fejlesztés",
+        swe: "Uppgradering"
     },
     1177: {
         img: "speedsters_spandex",
@@ -15660,10 +15678,10 @@ let dataItems = {
         eng: "Antlers",
         pol: "Poroże",
         sch: "驯鹿鹿角",
-        fre: "Bois",
+        fre: "Ramures",
         bra: "Galhadas",
         schema: 993,
-        hun: "Agancsok",
+        hun: "agancs",
         swe: "Horn"
     },
     1421: {
@@ -16429,9 +16447,9 @@ let dataItems = {
         pol: "Przypinki!",
         sch: "漂亮的小徽章",
         fre: "Flair !",
-        bra: "Broches!",
+        bra: "Broches(!)",
         schema: 619,
-        hun: "Csecsebecse!",
+        hun: "csecsebecse!",
         swe: "Känsla!"
     },
     1491: {
@@ -16448,14 +16466,14 @@ let dataItems = {
     1492: {
         img: "marxman",
         eng: "Marxman",
-        pol: "Marksista wyborowy",
+        pol: "Marksowe oblicze",
         sch: "马列主义者",
-        fre: "Marx la Menace",
-        bra: "Marxa para a Morte",
+        fre: "Le Marxman",
+        bra: "O Grouchinês",
         schema: 816,
-        hun: "Enyhe célzÁsz",
+        hun: "A Buktás",
         rom: "Ţintă Fixă",
-        swe: "Marximalt Luftgevär"
+        swe: "Marxmannen"
     },
     1493: {
         img: "photo_badge",
@@ -17207,7 +17225,8 @@ let dataItems = {
         schema: 31115,
         hun: "Biztonsági Bukósisak",
         fre: "Casque casse-cou",
-        ger: "Gefahrschutzglocke"
+        ger: "Gefahrschutzglocke",
+        swe: "Säkerhetshjälm"
     },
     1562: {
         img: "birds_eye_viewer",
@@ -17299,7 +17318,7 @@ let dataItems = {
     },
     1570: {
         img: "hypno_eyes",
-        eng: "Hypno-eyes",
+        eng: "Hypno-Eyes",
         pol: "Hipnowzrok",
         fre: "Yeuxpnotiseurs",
         sch: "催眠之眼",
@@ -17342,7 +17361,8 @@ let dataItems = {
         schema: 588,
         schema2: 5661,
         hun: "A Pomson 6000",
-        ger: "Der Pomson 6000"
+        ger: "Der Pomson 6000",
+        swe: "Pomson 6000"
     },
     1574: {
         img: "the_seared_sorcerer",
@@ -18246,7 +18266,7 @@ let dataItems = {
         fre: "Horrible Gibus",
         sch: "可怕的折叠礼帽",
         bra: "Cartola Medonha",
-        schema: 116,
+        schema: 584,
         hun: "Cudar Cilinder",
         swe: "Spöklik Stormhatt"
     },
@@ -18266,7 +18286,7 @@ let dataItems = {
         eng: "Ghastlier Gibus",
         pol: "Upiorniejszy cylinder",
         fre: "Infâme Gibus",
-        sch: "更可怕的摺叠礼帽",
+        sch: "更可怕的折叠礼帽",
         bra: "Cartola Mais Medonha",
         schema: 279,
         hun: "Cudarabb Cilinder",
@@ -18289,7 +18309,7 @@ let dataItems = {
         pol: "Mrożąca krew w żyłach czacha",
         fre: "Crâne qui vous glace le sang",
         sch: "毛骨悚然的骷髅头",
-        bra: "Crânio Arrepiante",
+        bra: "O Crânio Arrepiante",
         schema: 287,
         hun: "Kísérteties Koponya",
         swe: "Ryslig Dödskalle"
@@ -18300,7 +18320,7 @@ let dataItems = {
         pol: "Juju voodoo",
         fre: "Juju Vaudou",
         sch: "巫毒护符",
-        bra: "Vudu Juju",
+        bra: "O Vudu Juju",
         schema: 289,
         hun: "Vudu Juju"
     },
@@ -19096,7 +19116,7 @@ let dataItems = {
         hun: "Megakasztott Agyalás",
         swe: "Fiskarens olycka",
         bra: "Pesque e Pense",
-        fre: "Prise de tête"
+        fre: "La prise de tête"
     },
     1740: {
         img: "optic_nerve",
@@ -19176,7 +19196,12 @@ let dataItems = {
     1748: {
         img: "miami_rooster",
         eng: "The Miami Rooster",
-        schema: 31231
+        schema: 31231,
+        pol: "Kogut z Miami",
+        bra: "Galo de Miami",
+        fre: "Coq de Miami",
+        hun: "Miami Kakas",
+        swe: "Miamituppen"
     },
     1749: {
         img: "computron_5000",
@@ -19578,7 +19603,10 @@ let dataItems = {
         eng: "The Team Player",
         schema: 31283,
         pol: "Gracz zespołowy",
-        hun: "Csapatjátékos"
+        hun: "Csapatjátékos",
+        bra: "O Camisa 1",
+        fre: "Esprit d'équipe",
+        swe: "Lagspelare"
     },
     1793: {
         img: "throttlehead",
@@ -19586,7 +19614,9 @@ let dataItems = {
         schema: 31282,
         pol: "Motogłowy",
         bra: "O Sem Destino",
-        hun: "Gázos Fejű"
+        hun: "Gázos Fejű",
+        fre: "Casse-cou",
+        swe: "Motorskalle"
     },
     1794: {
         img: "tactical_turtleneck",
@@ -19595,7 +19625,8 @@ let dataItems = {
         pol: "Taktyczny golf",
         bra: "Traje Tático",
         hun: "Taktikai Garbó",
-        fre: "Col roulé tactique"
+        fre: "Col roulé tactique",
+        swe: "Taktisk polo"
     },
     1795: {
         img: "combat_casual",
@@ -19604,7 +19635,8 @@ let dataItems = {
         pol: "Luźny wojak",
         bra: "Combatente Casual",
         hun: "Laza Harciasság",
-        fre: "Mercenaire décontracté"
+        fre: "Mercenaire décontracté",
+        swe: "Vardagskämpe"
     },
     1796: {
         img: "barefoot_brawler",
@@ -19630,7 +19662,8 @@ let dataItems = {
         schema: 31276,
         pol: "Ścigający",
         bra: "O Perseguidor",
-        hun: "Üldöző"
+        hun: "Üldöző",
+        fre: "Trench"
     },
     1799: {
         img: "western_wraps",
@@ -19638,7 +19671,8 @@ let dataItems = {
         schema: 31264,
         pol: "Zachodni kożuch",
         bra: "Agasalho do Velho Oeste",
-        hun: "Nyugati Hacuka"
+        hun: "Nyugati Hacuka",
+        fre: "Blouson du Far West"
     },
     1800: {
         img: "pests_pads",
@@ -19647,7 +19681,8 @@ let dataItems = {
         pol: "Ochraniacze zawadiaki",
         bra: "Proteções do Pestinha",
         hun: "Pancservédők",
-        fre: "Genouillères du casse-pieds"
+        fre: "Genouillères du casse-pieds",
+        swe: "Plågans knäskydd"
     },
     1801: {
         img: "boston_brain_bucket",
@@ -19664,7 +19699,9 @@ let dataItems = {
         schema: 31281,
         pol: "Przetarty jeździec",
         bra: "O Motoqueiro Marrento",
-        hun: "Szakadt Széltoló"
+        hun: "Szakadt Széltoló",
+        fre: "Doudoune déchirée",
+        swe: "Tuff knutte"
     },
     1803: {
         img: "fizzy_pharmacist",
@@ -19673,7 +19710,8 @@ let dataItems = {
         pol: "Gazowany farmaceuta",
         hun: "Pezsgő Patikus",
         bra: "Farmacêutico Gasoso",
-        fre: "Pharmacien pétillant"
+        fre: "Pharmacien pétillant",
+        swe: "Kolsyrad apotekare"
     },
     1804: {
         img: "detective",
@@ -19681,7 +19719,8 @@ let dataItems = {
         schema: 31277,
         pol: "Detektyw",
         bra: "O Detetive",
-        hun: "Nyomozó"
+        hun: "Nyomozó",
+        fre: "Fédora"
     },
     1805: {
         img: "hawaiian_hangover",
@@ -19689,7 +19728,8 @@ let dataItems = {
         schema: 31274,
         pol: "Kac po hawajsku",
         bra: "A Ressaca do Recesso",
-        hun: "Hawaii Másnaposság"
+        hun: "Hawaii Másnaposság",
+        fre: "Gueule de bois tropicale"
     },
     1806: {
         img: "tropical_camo",
@@ -19698,7 +19738,8 @@ let dataItems = {
         pol: "Tropikalny kamuflaż",
         bra: "Camuflagem Tropical",
         hun: "Trópusi Álca",
-        fre: "Camouflage Tropical"
+        fre: "Camouflage Tropical",
+        swe: "Tropisk kamouflage"
     },
     1807: {
         img: "squatters_right",
@@ -19707,7 +19748,8 @@ let dataItems = {
         pol: "Prawo blokersa",
         bra: "O Estilo Eslavo",
         hun: "A Házfoglaló Jogán",
-        fre: "Squatteur récalcitrant"
+        fre: "Squatteur récalcitrant",
+        swe: "Ligistkeps"
     },
     1808: {
         img: "lawnmaker",
@@ -19716,7 +19758,8 @@ let dataItems = {
         pol: "Trawodawca",
         hun: "Fűmérnök",
         fre: "Paysagiste",
-        bra: "O Jardineer"
+        bra: "O Jardineer",
+        swe: "Trädgårdsmästare"
     },
     1809: {
         img: "night_vision_gawkers",
@@ -19725,7 +19768,8 @@ let dataItems = {
         pol: "Noktowizyjny wytrzeszcz",
         bra: "Óculos de Terceiro Escalão",
         hun: "Éjjellátó Kukker",
-        fre: "Binocles de vision nocturne"
+        fre: "Binocles de vision nocturne",
+        swe: "Nattfluktare"
     },
     1810: {
         img: "head_banger",
@@ -19734,7 +19778,8 @@ let dataItems = {
         pol: "Bombowa impreza",
         bra: "Cabeça Explosiva",
         hun: "Agydurrantó",
-        fre: "Casque explosif"
+        fre: "Casque explosif",
+        swe: "Hjärnsprängare"
     },
     1811: {
         img: "monsieur_grenouille",
@@ -19748,7 +19793,8 @@ let dataItems = {
         pol: "Sprzedawca sodówki",
         hun: "Büfés Csákó",
         fre: "Calot du vendeur de soda",
-        bra: "Refresco de Cabeça"
+        bra: "Refresco de Cabeça",
+        swe: "Sodagubben"
     },
     1813: {
         img: "kazan_karategi",
@@ -19771,7 +19817,8 @@ let dataItems = {
         pol: "Udekorowany weteran",
         bra: "Veterano Decorado",
         hun: "Kitüntetett Veterán",
-        fre: "Vétéran décoré"
+        fre: "Vétéran décoré",
+        swe: "Dekorerad veteran"
     },
     1816: {
         img: "nightbane_brim",
@@ -19797,7 +19844,8 @@ let dataItems = {
         schema: 31314,
         bra: "Capa de Caça",
         fre: "Veston de chasse",
-        hun: "Vadászköpeny"
+        hun: "Vadászköpeny",
+        pol: "Peleryna polującego"
     },
     1819: {
         img: "the_imps_imprint",
@@ -19832,7 +19880,8 @@ let dataItems = {
         schema: 31309,
         bra: "Brigadeiro Bombardeiro",
         fre: "Brigadier bombardier",
-        hun: "Bombázó-brigadéros"
+        hun: "Bombázó-brigadéros",
+        pol: "Bombowy brygadier"
     },
     1823: {
         img: "firearm_protector",
@@ -19858,7 +19907,8 @@ let dataItems = {
         schema: 31301,
         bra: "O Casaco do Vira-Casaca",
         fre: "Redingote",
-        hun: "Nagykabát"
+        hun: "Nagykabát",
+        pol: "Renegat"
     },
     1826: {
         img: "dustbowl_devil",
@@ -19893,7 +19943,8 @@ let dataItems = {
         schema: 31306,
         bra: "O Bloqueio de Rua",
         fre: "Route barrée",
-        hun: "Úttorlasz"
+        hun: "Úttorlasz",
+        pol: "Blokada drogowa"
     },
     1830: {
         img: "the_lavish_labwear",
@@ -19901,7 +19952,8 @@ let dataItems = {
         schema: 31299,
         bra: "O Laboratorista Luxuoso",
         fre: "Blouse de luxe",
-        hun: "Fényűző Laborköpeny"
+        hun: "Fényűző Laborköpeny",
+        pol: "Litościwy laborant"
     },
     1831: {
         img: "headhunters_brim",
@@ -19909,7 +19961,8 @@ let dataItems = {
         schema: 31313,
         bra: "Chapéu do Caçador de Cabeças",
         fre: "Chapeau du chasseur de têtes",
-        hun: "Fejvadász-kalap"
+        hun: "Fejvadász-kalap",
+        pol: "Kapelusz łowcy głów"
     },
     1832: {
         img: "cranial_cowl",
@@ -19917,7 +19970,8 @@ let dataItems = {
         schema: 31312,
         bra: "Capuz Craniano",
         fre: "Capuchon crânien",
-        hun: "Koponyakámzsa"
+        hun: "Koponyakámzsa",
+        pol: "Czaszkowy kaptur"
     },
     1833: {
         img: "alcoholic_automaton",
@@ -19934,7 +19988,8 @@ let dataItems = {
         schema: 31305,
         bra: "A Fúria da Estrada",
         fre: "Rage au volant",
-        hun: "Országúti Dühöngés"
+        hun: "Országúti Dühöngés",
+        pol: "Agresja drogowa"
     },
     1835: {
         img: "victorian_villainy",
@@ -19942,7 +19997,8 @@ let dataItems = {
         schema: 31300,
         bra: "Vilania Vitoriana",
         fre: "Infamie victorienne",
-        hun: "Viktoriánus Vérengzés"
+        hun: "Viktoriánus Vérengzés",
+        pol: "Wiktoriański winowajca"
     },
     1836: {
         img: "propaniac",
@@ -19968,7 +20024,8 @@ let dataItems = {
         schema: 31315,
         bra: "Russo Urso",
         fre: "Tête d'ours",
-        hun: "Mackópofa"
+        hun: "Mackópofa",
+        pol: "Niedźwiedzia przysługa"
     },
     1839: {
         img: "cabinet_mann",
@@ -20121,7 +20178,8 @@ let dataItems = {
         schema: 31291,
         bra: "Provocação: Canhão do Cachaceiro",
         fre: "Raillerie : Le canon du poivrot",
-        hun: "Beszólás: Részeges ágyútöltelék"
+        hun: "Beszólás: Részeges ágyútöltelék",
+        pol: "Drwina: Armata alkoholika"
     },
     1855: {
         img: "taunt_shanty_shipmate",
@@ -20155,136 +20213,446 @@ let dataItems = {
         schema: 31288,
         bra: "Provocação: Que Susto!",
         fre: "Raillerie : La poule mouillée !",
-        hun: "Beszólás: A gyáva nyúl!"
+        hun: "Beszólás: A gyáva nyúl!",
+        pol: "Drwina: Płochliwy jak zając!"
     },
     1859: {
         img: "lumbercap",
         eng: "Lumbercap",
-        schema: 31326
+        schema: 31326,
+        pol: "Rębacz",
+        bra: "Chapéu do Lenhador",
+        fre: "Chapeau de bûcheron",
+        hun: "Favágósapka"
     },
     1860: {
         img: "the_soft_hard_hat",
         eng: "The Soft Hard Hat",
-        schema: 31331
+        schema: 31331,
+        pol: "Dziergany kask",
+        bra: "O Lã-pacete",
+        fre: "Casque tricoté",
+        hun: "Puha Védősisak"
     },
     1861: {
         img: "heavy_heating",
         eng: "Heavy Heating",
-        schema: 31346
+        schema: 31346,
+        pol: "Grube grzanie",
+        bra: "Aquecimento Pesado",
+        fre: "Réchauffe-Heavy",
+        hun: "Bemelegítő"
     },
     1862: {
         img: "arctic_mole",
         eng: "Arctic Mole",
-        schema: 31333
+        schema: 31333,
+        pol: "Arktyczny kret",
+        bra: "Toupeira do Ártico",
+        fre: "Taupe arctique",
+        hun: "Sarki Vakond"
     },
     1863: {
         img: "glasgow_bankroll",
         eng: "Glasgow Bankroll",
-        schema: 31342
+        schema: 31342,
+        pol: "Krezus z Glasgow",
+        bra: "Gala de Glasgow",
+        fre: "Flambeur de Glasgow",
+        hun: "Glasgow-i Pénzeszsák"
     },
     1864: {
         img: "partizan",
         eng: "Partizan",
-        schema: 31329
+        schema: 31329,
+        pol: "Partyzant",
+        bra: "Incendiário Apartidário",
+        fre: "Partisan",
+        hun: "Partizán"
     },
     1865: {
         img: "cold_blooded_coat",
         eng: "Cold Blooded Coat",
-        schema: 31336
+        schema: 31336,
+        pol: "Zimnokrwisty płaszcz",
+        bra: "Sobretudo do Sangue-Frio",
+        fre: "Manteau d'assassin",
+        hun: "Hidegvérű Kabát"
     },
     1866: {
         img: "bulb_bonnet",
         eng: "Bulb Bonnet",
-        schema: 31335
+        schema: 31335,
+        pol: "Bombkowy beret",
+        bra: "Ornamento do Briguento",
+        fre: "Bonnet à boule",
+        hun: "Gömbdísz Sapka"
     },
     1867: {
         img: "crosshair_cardigan",
         eng: "Crosshair Cardigan",
-        schema: 31340
+        schema: 31340,
+        pol: "Sweter w dziesiątkę",
+        bra: "Cardigã do Caçador",
+        fre: "Cardigan du tireur",
+        hun: "Szálkeresztes Kardigán"
     },
     1868: {
         img: "oktoberfester",
         eng: "Oktoberfester",
-        schema: 31344
+        schema: 31344,
+        pol: "Oktoberfestowicz",
+        bra: "Oktoberfesteiro",
+        fre: "Oktoberfêtard",
+        hun: "Oktoberfest-elő"
     },
     1869: {
         img: "the_cool_warm_sweater",
         eng: "The Cool Warm Sweater",
-        schema: 31332
+        schema: 31332,
+        pol: "Swetrogrodniczki",
+        bra: "O Lã-gasalho",
+        fre: "Pull en laine",
+        hun: "Menő Meleg Pulóver"
     },
     1870: {
         img: "ol_reliable",
         eng: "Ol' Reliable",
-        schema: 31345
+        schema: 31345,
+        pol: "Stary niezawodny",
+        bra: "Velharia Vigorosa",
+        fre: "L'incassable",
+        hun: "A Jó Öreg"
     },
     1871: {
         img: "underminers_overcoat",
         eng: "Underminer's Overcoat",
-        schema: 31334
+        schema: 31334,
+        pol: "Płaszcz podkopywacza",
+        bra: "Casacão do Construtor",
+        fre: "Manteau du sapeur-minier",
+        hun: "Az Aláásó Felöltője"
     },
     1872: {
         img: "plaid_lad",
         eng: "Plaid Lad",
-        schema: 31341
+        schema: 31341,
+        pol: "Kraciasty koleś",
+        bra: "Chapéu Xadrez do Escocês",
+        fre: "Béret écossais",
+        hun: "Skótkockás Legény"
     },
     1873: {
         img: "firebrand",
         eng: "Firebrand",
-        schema: 31328
+        schema: 31328,
+        pol: "Żar powstania",
+        bra: "Manifestante Flamejante",
+        fre: "Révolution ardente",
+        hun: "Égetnivaló"
     },
     1874: {
         img: "frostbite_bonnet",
         eng: "Frostbite Bonnet",
-        schema: 31337
+        schema: 31337,
+        pol: "Alpejski agent",
+        bra: "Chapéu do Sangue-Frio",
+        fre: "Chapka rembourrée",
+        hun: "Fagyálló Usánka"
     },
     1875: {
         img: "infiltrators_insulation",
         eng: "Infiltrator's Insulation",
-        schema: 31338
+        schema: 31338,
+        pol: "Izolacja infiltratora",
+        bra: "Isolamento do Infiltrador",
+        fre: "Sous couverture",
+        hun: "Beszivárgó-szigetelés"
     },
     1876: {
         img: "the_wooly_pulli",
         eng: "The Wooly Pulli",
-        schema: 31343
+        schema: 31343,
+        pol: "Krzykliwy kitel",
+        bra: "O Suéter do Cirurgião",
+        fre: "Pullüber",
+        hun: "Gyapjúpulcsi"
     },
     1877: {
         img: "colonel_kringle",
         eng: "Colonel Kringle",
-        schema: 31325
+        schema: 31325,
+        pol: "Pułkownik Kringle",
+        bra: "Coronel Noel",
+        fre: "Colonel Noël",
+        hun: "Télapó Ezredes"
     },
     1878: {
         img: "battle_bear",
         eng: "Battle Bear",
-        schema: 31324
+        schema: 31324,
+        pol: "Waleczny Wojtek",
+        bra: "Ursinho de Guerra",
+        fre: "Ourson de combat",
+        hun: "Harci Maci"
     },
     1879: {
         img: "motley_sleeves",
         eng: "Motley Sleeves",
-        schema: 31339
+        schema: 31339,
+        pol: "Dziarskie dziary",
+        bra: "Mangas Maneiras",
+        fre: "Tatoué de partout",
+        hun: "Tarka Karok"
     },
     1880: {
         img: "festive_rack",
         eng: "Festive Rack",
-        schema: 31327
+        schema: 31327,
+        pol: "Świąteczne poroże",
+        bra: "Galhadas Festivas",
+        fre: "Bois festifs",
+        hun: "Ünnepi Agancs"
     },
     1881: {
         img: "trappers_flap",
         eng: "Trapper's Flap",
-        schema: 31323
+        schema: 31323,
+        pol: "Uszanka trapera",
+        bra: "Armadilheiro Aquecido",
+        fre: "Toque du trappeur",
+        hun: "Prémvadász Prémsapka"
     },
     1882: {
         img: "taunt_russian_rubdown",
         eng: "Taunt: Russian Rubdown",
-        schema: 31320
+        schema: 31320,
+        pol: "Drwina: Odpicowany oręż",
+        bra: "Provocação: Limpeza Pesada",
+        fre: "Raillerie : Astiquage à la russe.",
+        hun: "Beszólás: Orosz tisztogatás"
     },
     1883: {
         img: "taunt_tailored_terminal",
         eng: "Taunt: Tailored Terminal",
-        schema: 31321
+        schema: 31321,
+        pol: "Drwina: Teczkowy terminal",
+        bra: "Provocação: Terminal Portátil",
+        fre: "Raillerie : Terminal sur mesure.",
+        hun: "Beszólás: Személyi terminál"
     },
     1884: {
         img: "taunt_roasty_toasty",
         eng: "Taunt: Roasty Toasty",
-        schema: 31322
+        schema: 31322,
+        pol: "Drwina: Pieczone pianki",
+        bra: "Provocação: Acampado e Tostado",
+        fre: "Raillerie : Grillade au coin du feu.",
+        hun: "Beszólás: Pirító Piró"
+    },
+    1885: {
+        img: "stealth_bomber",
+        eng: "Stealth Bomber",
+        schema: 31379
+    },
+    1886: {
+        img: "le_professionnel",
+        eng: "Le Professionnel",
+        schema: 31377
+    },
+    1887: {
+        img: "cargo_constructor",
+        eng: "Cargo Constructor",
+        schema: 31373
+    },
+    1888: {
+        img: "blast_bowl",
+        eng: "The Blast Bowl",
+        schema: 31371
+    },
+    1889: {
+        img: "heavy_metal",
+        eng: "Heavy Metal",
+        schema: 31369
+    },
+    1890: {
+        img: "brimmed_bootlegger",
+        eng: "Brimmed Bootlegger",
+        schema: 31366
+    },
+    1891: {
+        img: "medical_emergency",
+        eng: "Medical Emergency",
+        schema: 31365
+    },
+    1892: {
+        img: "bushman",
+        eng: "The Bushman",
+        schema: 31361
+    },
+    1893: {
+        img: "firestalker",
+        eng: "The Firestalker",
+        schema: 31359
+    },
+    1894: {
+        img: "brothers_in_blues",
+        eng: "Brothers in Blues",
+        schema: 31356
+    },
+    1895: {
+        img: "prohibition_opposition",
+        eng: "Prohibition Opposition",
+        schema: 31367
+    },
+    1896: {
+        img: "preventative_measure",
+        eng: "Preventative Measure",
+        schema: 31363
+    },
+    1897: {
+        img: "hazard_handler",
+        eng: "Hazard Handler",
+        schema: 31374
+    },
+    1898: {
+        img: "soho_sleuth",
+        eng: "The Soho Sleuth",
+        schema: 31358
+    },
+    1899: {
+        img: "close_quarters_cover",
+        eng: "Close Quarters Cover",
+        schema: 31378
+    },
+    1900: {
+        img: "hog_heels",
+        eng: "Hog Heels",
+        schema: 31370
+    },
+    1901: {
+        img: "shrapnel_shell",
+        eng: "The Shrapnel Shell",
+        schema: 31372
+    },
+    1902: {
+        img: "cleaners_cap",
+        eng: "Cleaner's Cap",
+        schema: 31376
+    },
+    1903: {
+        img: "brother_mann",
+        eng: "Brother Mann",
+        schema: 31368
+    },
+    1904: {
+        img: "cranium_cover",
+        eng: "Cranium Cover",
+        schema: 31362
+    },
+    1905: {
+        img: "uber_wear",
+        eng: "Über-Wear",
+        schema: 31364
+    },
+    1906: {
+        img: "flame_warrior",
+        eng: "The Flame Warrior",
+        schema: 31357
+    },
+    1907: {
+        img: "glorious_gambeson",
+        eng: "The Glorious Gambeson",
+        schema: 31360
+    },
+    1908: {
+        img: "full_metal_helmet",
+        eng: "Full Metal Helmet",
+        schema: 31355
+    },
+    1909: {
+        img: "cranium_cooler",
+        eng: "Cranium Cooler",
+        schema: 31375
+    },
+    1910: {
+        img: "secretly_serviced_war_paint",
+        eng: "Secretly Serviced War Paint",
+        schema: 17412
+    },
+    1911: {
+        img: "pacific_peacemaker_war_paint",
+        eng: "Pacific Peacemaker War Paint",
+        schema: 17419
+    },
+    1912: {
+        img: "team_serviced_war_paint",
+        eng: "Team Serviced War Paint",
+        schema: 17417
+    },
+    1913: {
+        img: "bomb_carrier_war_paint",
+        eng: "Bomb Carrier War Paint",
+        schema: 17414
+    },
+    1914: {
+        img: "mechanized_monster_war_paint",
+        eng: "Mechanized Monster War Paint",
+        schema: 17420
+    },
+    1915: {
+        img: "warborn_war_paint",
+        eng: "Warborn War Paint",
+        schema: 17418
+    },
+    1916: {
+        img: "steel_brushed_war_paint",
+        eng: "Steel Brushed War Paint",
+        schema: 17411
+    },
+    1917: {
+        img: "business_class_war_paint",
+        eng: "Business Class War Paint",
+        schema: 17415
+    },
+    1918: {
+        img: "deadly_dragon_war_paint",
+        eng: "Deadly Dragon War Paint",
+        schema: 17416
+    },
+    1919: {
+        img: "sky_stallion_war_paint",
+        eng: "Sky Stallion War Paint",
+        schema: 17413
+    },
+    1920: {
+        img: "taunt_killer_joke",
+        eng: "Taunt: Killer Joke",
+        schema: 31348
+    },
+    1921: {
+        img: "taunt_star_spangled_strategy",
+        eng: "Taunt: Star-Spangled Strategy",
+        schema: 31347
+    },
+    1922: {
+        img: "taunt_head_doctor",
+        eng: "Taunt: The Head Doctor",
+        schema: 31349
+    },
+    1923: {
+        img: "taunt_teufort_tango",
+        eng: "Taunt: Teufort Tango",
+        schema: 31351
+    },
+    1924: {
+        img: "taunt_road_rager",
+        eng: "Taunt: The Road Rager",
+        schema: 31352
+    },
+    1925: {
+        img: "taunt_killer_signature",
+        eng: "Taunt: The Killer Signature",
+        schema: 31354
     }
 }

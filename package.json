@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A Team Fortress 2 crate/case simulator.",
   "source": "/src/index.html",
-  "browserslist": "> 0.5%, last 2 versions, Firefox ESR, not dead, Safari 12, iOS 12",
+  "browserslist": "> 0.5%, last 2 versions, Firefox ESR, not dead, Safari >=14, iOS >=14",
   "scripts": {
     "start": "parcel --no-source-maps",
     "build": "parcel build"

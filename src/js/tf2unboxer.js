@@ -29,7 +29,10 @@ import {
     nice2014UnusualPool,
     allGensFX,
     limitedLateSummerUnusualPool,
+    summer23FX,
 } from "./crate.js";
+
+import { LZString } from "./lz-string.js";
 
 // Function for reporting errors to analytics
 let errorTimeout = false;
@@ -301,7 +304,7 @@ const DOM = {
 }
 
 // Misc variables
-let currentCrate = crateOrder[crateOrder.length - 1];
+let currentCrate = crateOrder[crateOrder.length - 2];
 let currentCrateObj = cA[crateOrder[currentCrate]];
 let canUnbox = true;
 let inDetailsMode = true;
@@ -1634,6 +1637,9 @@ function generateEffectList() {
             case "xmas22":
                 effectsArray = xmas22FX;
                 break;
+            case "summer23":
+                effectsArray = summer23FX;
+                break;
         }
     } else {
         effectsArray = currentCrateObj.effects;
@@ -2213,6 +2219,9 @@ function unbox() { // This function handles the unboxing itself: which item is u
                         break;
                     case "xmas22":
                         effectsArray = xmas22FX;
+                        break;
+                    case "summer23":
+                        effectsArray = summer23FX;
                         break;
                 }
             } else {
@@ -2942,7 +2951,8 @@ function addToUnusuals(unboxResult, saveObj, saveToStorage) {
     }
 
     if (saveToStorage) {
-        localStorage.setItem("unboxertf-unusuals", JSON.stringify(save.unusuals));
+        localStorage.setItem("unboxertf-unusuals", LZString.compressToUTF16(JSON.stringify(save.unusuals)));
+        localStorage.setItem("unboxertf-unusuals-save-format", 'lzstring');
     }
 }
 
@@ -3480,7 +3490,14 @@ if (tempStatSave != null) {
 }
 let tempUnusualSave = localStorage.getItem("unboxertf-unusuals");
 if (tempUnusualSave != null) {
-    save.unusuals = JSON.parse(tempUnusualSave);
+    let newUnusualFormat = localStorage.getItem("unboxertf-unusuals-save-format");
+
+    if (newUnusualFormat === 'lzstring') {
+        save.unusuals = JSON.parse(LZString.decompressFromUTF16(tempUnusualSave));
+    } else {
+        save.unusuals = JSON.parse(tempUnusualSave);
+    }
+
 }
 let tempBonusItemSave = localStorage.getItem("unboxertf-bonusitems");
 if (tempBonusItemSave != null) {
@@ -3556,7 +3573,8 @@ bulkWorker.onmessage = function (e) {
         localStorage.setItem("unboxertf-bonusitems", JSON.stringify(save.bonusItems));
         localStorage.setItem("unboxertf-cratestats", JSON.stringify(save.crateStats));
         localStorage.setItem("unboxertf-stats", JSON.stringify(save.stats));
-        localStorage.setItem("unboxertf-unusuals", JSON.stringify(save.unusuals));
+        localStorage.setItem("unboxertf-unusuals", LZString.compressToUTF16(JSON.stringify(save.unusuals)));
+        localStorage.setItem("unboxertf-unusuals-save-format", 'lzstring');
 
         // Display results
         DOM.bulkResults.title.innerHTML = `${getString("crate", currentCrateObj.id)}<br>${getSeries(currentCrateObj.series)}`;
