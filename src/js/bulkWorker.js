@@ -30,6 +30,7 @@ import {
     xmas20FX,
     xmas21FX,
     xmas22FX,
+    summer23FX,
     nice2014UnusualPool,
     allGensFX,
     limitedLateSummerUnusualPool,
