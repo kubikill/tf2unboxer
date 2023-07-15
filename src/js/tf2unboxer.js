@@ -2922,8 +2922,9 @@ function addToInventory(unboxResult, saveObj, saveToStorage) {
         }
     }
     if (saveToStorage) {
-        localStorage.setItem("unboxertf-crates", JSON.stringify(save.crates));
-        localStorage.setItem("unboxertf-bonusitems", JSON.stringify(save.bonusItems));
+        localStorage.setItem("unboxertf-crates", LZString.compressToUTF16(JSON.stringify(save.crates)));
+        localStorage.setItem("unboxertf-bonusitems", LZString.compressToUTF16(JSON.stringify(save.bonusItems)));
+        localStorage.setItem("unboxertf-save-format", 'lzstring');
     }
     return itemNum;
 }
@@ -2952,7 +2953,7 @@ function addToUnusuals(unboxResult, saveObj, saveToStorage) {
 
     if (saveToStorage) {
         localStorage.setItem("unboxertf-unusuals", LZString.compressToUTF16(JSON.stringify(save.unusuals)));
-        localStorage.setItem("unboxertf-unusuals-save-format", 'lzstring');
+        localStorage.setItem("unboxertf-save-format", 'lzstring');
     }
 }
 
@@ -3098,8 +3099,9 @@ function addToStats(unboxResult, saveObj, saveToStorage) {
     }
 
     if (saveToStorage) {
-        localStorage.setItem("unboxertf-cratestats", JSON.stringify(save.crateStats));
-        localStorage.setItem("unboxertf-stats", JSON.stringify(save.stats));
+        localStorage.setItem("unboxertf-cratestats", LZString.compressToUTF16(JSON.stringify(save.crateStats)));
+        localStorage.setItem("unboxertf-stats", LZString.compressToUTF16(JSON.stringify(save.stats)));
+        localStorage.setItem("unboxertf-save-format", 'lzstring');
     }
 }
 
@@ -3483,34 +3485,50 @@ DOM.bulkResults.unusualsNext.addEventListener("click", () => {
 });
 
 // Load saves
+let newSaveFormat = localStorage.getItem("unboxertf-save-format");
 
 let tempStatSave = localStorage.getItem("unboxertf-stats");
 if (tempStatSave != null) {
+    if (newSaveFormat === 'lzstring') {
+        tempStatSave = LZString.decompressFromUTF16(tempStatSave);
+    }
     Object.assign(save.stats, JSON.parse(tempStatSave));
 }
+
 let tempUnusualSave = localStorage.getItem("unboxertf-unusuals");
+let newUnusualFormat = localStorage.getItem("unboxertf-unusuals-save-format");
 if (tempUnusualSave != null) {
-    let newUnusualFormat = localStorage.getItem("unboxertf-unusuals-save-format");
-
-    if (newUnusualFormat === 'lzstring') {
-        save.unusuals = JSON.parse(LZString.decompressFromUTF16(tempUnusualSave));
-    } else {
-        save.unusuals = JSON.parse(tempUnusualSave);
+    if (newSaveFormat === 'lzstring' || newUnusualFormat === 'lzstring') {
+        tempUnusualSave = LZString.decompressFromUTF16(tempUnusualSave);
     }
-
+    save.unusuals = JSON.parse(tempUnusualSave);
 }
+
 let tempBonusItemSave = localStorage.getItem("unboxertf-bonusitems");
 if (tempBonusItemSave != null) {
+    if (newSaveFormat === 'lzstring') {
+        tempBonusItemSave = LZString.decompressFromUTF16(tempBonusItemSave);
+    }
     save.bonusItems = JSON.parse(tempBonusItemSave);
 }
+
 let tempCrateSave = localStorage.getItem("unboxertf-crates");
 if (tempCrateSave != null) {
+    if (newSaveFormat === 'lzstring') {
+        tempCrateSave = LZString.decompressFromUTF16(tempCrateSave);
+    }
     mergeDeep(save.crates, JSON.parse(tempCrateSave));
 }
+
 let tempCrateStatsSave = localStorage.getItem("unboxertf-cratestats");
 if (tempCrateStatsSave != null) {
+    if (newSaveFormat === 'lzstring') {
+        tempCrateStatsSave = LZString.decompressFromUTF16(tempCrateStatsSave);
+    }
+    
     mergeDeep(save.crateStats, JSON.parse(tempCrateStatsSave));
 }
+
 let tempOptionsSave = localStorage.getItem("unboxertf-options");
 if (tempOptionsSave != null) {
     Object.assign(save.options, JSON.parse(tempOptionsSave));
@@ -3569,12 +3587,12 @@ bulkWorker.onmessage = function (e) {
         DOM.bulkProgress.progressPercent.innerHTML = `${Math.round(e.data.progress / DOM.bulkProgress.progress.max * 100)}%`
     } else if (e.data.complete) {
         bulkSave = JSON.parse(e.data.bulkSave);
-        localStorage.setItem("unboxertf-crates", JSON.stringify(save.crates));
-        localStorage.setItem("unboxertf-bonusitems", JSON.stringify(save.bonusItems));
-        localStorage.setItem("unboxertf-cratestats", JSON.stringify(save.crateStats));
-        localStorage.setItem("unboxertf-stats", JSON.stringify(save.stats));
+        localStorage.setItem("unboxertf-crates", LZString.compressToUTF16(JSON.stringify(save.crates)));
+        localStorage.setItem("unboxertf-bonusitems", LZString.compressToUTF16(JSON.stringify(save.bonusItems)));
+        localStorage.setItem("unboxertf-cratestats", LZString.compressToUTF16(JSON.stringify(save.crateStats)));
+        localStorage.setItem("unboxertf-stats", LZString.compressToUTF16(JSON.stringify(save.stats)));
         localStorage.setItem("unboxertf-unusuals", LZString.compressToUTF16(JSON.stringify(save.unusuals)));
-        localStorage.setItem("unboxertf-unusuals-save-format", 'lzstring');
+        localStorage.setItem("unboxertf-save-format", 'lzstring');
 
         // Display results
         DOM.bulkResults.title.innerHTML = `${getString("crate", currentCrateObj.id)}<br>${getSeries(currentCrateObj.series)}`;

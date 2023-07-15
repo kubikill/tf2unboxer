@@ -136,7 +136,7 @@ export const xmas22FX = [245, 246, 247, 248, 249, 250, 251];
 const summer20FX = allGensFX.concat([134, 135, 136, 137, 138, 139, 140, 141, 142]);
 const summer21FX = allGensFX.concat([163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173]);
 const summer22FX = allGensFX.concat([205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232]);
-export const summer23FX = [251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263];
+export const summer23FX = [252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263];
 // Global bonus item list
 export const globalBonusItemArray = [24, 7, 74, 762, 763, "paint", "strangepart", 15, 767, 768, 769];
 // List of taunts used for unusualifiers

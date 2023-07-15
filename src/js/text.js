@@ -2416,5 +2416,8 @@ let dataUi = {
         hun: "Galácsony 2022",
         rom: "Craciun 2022",
 		swe: "Smissmas 2022"
+    },
+    215: {
+        eng: "Summer 2023",
     }
 }
