@@ -2638,5 +2638,57 @@ let dataEffects = {
         img: "mountain_halo",
         eng: "Mountain Halo",
         schema: 292
-    }
+    },
+    264: {
+        img: "celestial_summit",
+        eng: "Celestial Summit"
+    },
+    265: {
+        img: "stellar_ascent",
+        eng: "Stellar Ascent"
+    },
+    266: {
+        img: "sapped",
+        eng: "Sapped"
+    },
+    267: {
+        img: "hellspawned_horns",
+        eng: "Hellspawned Horns"
+    },
+    268: {
+        img: "demonic_impaler",
+        eng: "Demonic Impaler"
+    },
+    269: {
+        img: "revenants_rack",
+        eng: "Revenant's Rack"
+    },
+    270: {
+        img: "sixth_sense",
+        eng: "Sixth Sense"
+    },
+    271: {
+        img: "amygdala",
+        eng: "Amygdala"
+    },
+    272: {
+        img: "the_bone_zone",
+        eng: "The Bone Zone"
+    },
+    273: {
+        img: "arachnes_web",
+        eng: "Arachne's Web"
+    },
+    274: {
+        img: "acidic_climate",
+        eng: "Acidic Climate"
+    },
+    275: {
+        img: "otherwordly_weather",
+        eng: "Otherworldly Weather"
+    },
+    276: {
+        img: "nightmarish_storm",
+        eng: "Nightmarish Storm"
+    },
 }

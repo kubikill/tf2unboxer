@@ -34,6 +34,7 @@ import {
     nice2014UnusualPool,
     allGensFX,
     limitedLateSummerUnusualPool,
+    hw23FX,
     } from "./crate.js";
 
 const wearTable = ["", "FN", "MW", "FT", "WW", "BS"];
@@ -337,6 +338,9 @@ function unbox() { // This function handles the unboxing itself: which item is u
                         break;
                     case "hw22":
                         effectsArray = hw22FX;
+                        break;
+                    case "hw23":
+                        effectsArray = hw23FX;
                         break;
                     case "xmas19":
                         effectsArray = xmas19FX;

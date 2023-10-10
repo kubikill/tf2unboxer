@@ -2419,5 +2419,11 @@ let dataUi = {
     },
     215: {
         eng: "Summer 2023",
-    }
+    },
+    216: {
+        eng: "Scream Fortress XV (2023)",
+        sch: "尖叫要塞 XV（2023）",
+        rom: "Fortareata Urlatoare XV (2023)",
+		swe: "Skrik Fortress XV (2023)"
+    },
 }

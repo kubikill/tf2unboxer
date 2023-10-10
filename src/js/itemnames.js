@@ -20654,5 +20654,137 @@ let dataItems = {
         img: "taunt_killer_signature",
         eng: "Taunt: The Killer Signature",
         schema: 31354
-    }
+    },
+    1926: {
+        img: "make_ogre",
+        eng: "Make Ogre"
+    },
+    1927: {
+        img: "medical_mummy",
+        eng: "Medical Mummy"
+    },
+    1928: {
+        img: "six_eyed_specs",
+        eng: "Six-Eyed Specs"
+    },
+    1929: {
+        img: "concealed_convict",
+        eng: "Concealed Convict"
+    },
+    1930: {
+        img: "constructors_cover",
+        eng: "Constructor's Cover"
+    },
+    1931: {
+        img: "thunder_dome",
+        eng: "Thunder Dome"
+    },
+    1932: {
+        img: "splitting_headache",
+        eng: "Splitting Headache"
+    },
+    1933: {
+        img: "shortness_of_breath",
+        eng: "Shortness of Breath"
+    },
+    1934: {
+        img: "mean_captain",
+        eng: "Mean Captain"
+    },
+    1935: {
+        img: "ludicrously_lunatic_lunon_fedora",
+        eng: "Ludicrously Lunatic Lunon Fedora"
+    },
+    1936: {
+        img: "jumping_jester",
+        eng: "Jumping Jester"
+    },
+    1937: {
+        img: "sharpshooters_shroud",
+        eng: "Sharpshooter's Shroud"
+    },
+    1938: {
+        img: "main_cast",
+        eng: "Main Cast"
+    },
+    1939: {
+        img: "classic_criminal",
+        eng: "Classic Criminal"
+    },
+    1940: {
+        img: "dell_dynamic",
+        eng: "Dell Dynamic"
+    },
+    1941: {
+        img: "stunt_suit",
+        eng: "Stunt Suit"
+    },
+    1942: {
+        img: "dead_heat",
+        eng: "Dead Heat"
+    },
+    1943: {
+        img: "warlocks_warcloak",
+        eng: "Warlock's Warcloak"
+    },
+    1944: {
+        img: "clowns_coverup",
+        eng: "Clown's Cover-Up"
+    },
+    1945: {
+        img: "mad_lad",
+        eng: "Mad Lad"
+    },
+    1946: {
+        img: "last_laugh",
+        eng: "Last Laugh"
+    },
+    1947: {
+        img: "sightseer",
+        eng: "Sightseer"
+    },
+    1948: {
+        img: "power_spike",
+        eng: "Power Spike"
+    },
+    1949: {
+        img: "demonic_dome",
+        eng: "Demonic Dome"
+    },
+    1950: {
+        img: "bare_bear_bones",
+        eng: "Bare Bear Bones"
+    },
+    1951: {
+        img: "blastphomet",
+        eng: "Blastphomet"
+    },
+    1952: {
+        img: "spyder",
+        eng: "Spyder"
+    },
+    1953: {
+        img: "carry_van",
+        eng: "Carry-Van"
+    },
+    1954: {
+        img: "fiercesome_fluorescence",
+        eng: "Fiercesome Fluorescence"
+    },
+    1955: {
+        img: "taunt_neck_snap",
+        eng: "Taunt: Neck Snap"
+    },
+    1956: {
+        img: "taunt_roar_o_war",
+        eng: "Taunt: Roar O'War"
+    },
+    1957: {
+        img: "taunt_borrowed_bones",
+        eng: "Taunt: Borrowed Bones"
+    },
+    1958: {
+        img: "taunt_crypt_creeper",
+        eng: "Taunt: Crypt Creeper"
+    },
 }

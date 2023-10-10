@@ -30,6 +30,7 @@ import {
     allGensFX,
     limitedLateSummerUnusualPool,
     summer23FX,
+    hw23FX,
 } from "./crate.js";
 
 import { LZString } from "./lz-string.js";
@@ -1625,6 +1626,9 @@ function generateEffectList() {
             case "hw22":
                 effectsArray = hw22FX;
                 break;
+            case "hw23":
+                effectsArray = hw23FX;
+                break;
             case "xmas19":
                 effectsArray = xmas19FX;
                 break;
@@ -2207,6 +2211,9 @@ function unbox() { // This function handles the unboxing itself: which item is u
                         break;
                     case "hw22":
                         effectsArray = hw22FX;
+                        break;
+                    case "hw23":
+                        effectsArray = hw23FX;
                         break;
                     case "xmas19":
                         effectsArray = xmas19FX;
