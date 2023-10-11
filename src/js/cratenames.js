@@ -103,7 +103,7 @@ let dataCrates = {
     11: {
         img: "eerie_crate",
         eng: "Eerie Crate",
-        pol: "Niesamowita skrzynka",
+        pol: "Upiorna skrzynka",
         sch: "怪异的补给箱",
         fre: "Caisse sinistre",
         bra: "Caixa Sombria",
@@ -477,7 +477,7 @@ let dataCrates = {
     48: {
         img: "gun_mettle_cosmetic_case",
         eng: "Gun Mettle Cosmetic Case",
-        pol: "Skrzynia ozdób aktualizacji „Siła charakteru”",
+        pol: "Pojemnik ozdób aktualizacji „Siła charakteru”",
         sch: "枪魂饰品箱",
         fre: "Caisse de cosmétiques Gun Mettle",
         bra: "Caixa de Cosméticos do Arsenal Artístico",
@@ -512,7 +512,7 @@ let dataCrates = {
     51: {
         img: "gargoyle_case",
         eng: "Gargoyle Case",
-        pol: "Skrzynia gargulca",
+        pol: "Pojemnik gargulca",
         sch: "石像鬼石匣",
         fre: "Caisse gargouille",
         bra: "Caixa da Gárgula",
@@ -545,7 +545,7 @@ let dataCrates = {
     54: {
         img: "tough_break_cosmetic_case",
         eng: "Tough Break Cosmetic Case",
-        pol: "Skrzynia ozdób aktualizacji „Śniąteczne fatum”",
+        pol: "Pojemnik ozdób aktualizacji „Śniąteczne fatum”",
         sch: "艰难假日饰品箱",
         fre: "Caisse de cosmétiques Tough Break",
         bra: "Caixa de Cosméticos das Férias Frustradas",
@@ -556,7 +556,7 @@ let dataCrates = {
     55: {
         img: "mayflower_cosmetic_case",
         eng: "Mayflower Cosmetic Case",
-        pol: "Skrzynia ozdób kwiecia majowego",
+        pol: "Pojemnik ozdób kwiecia majowego",
         sch: "五月花饰品箱",
         fre: "Caisse de cosmétiques Mayflower",
         bra: "Caixa de Cosméticos da Flor de Maio",
@@ -578,7 +578,7 @@ let dataCrates = {
     57: {
         img: "unlocked_winter_2016_cosmetic_case",
         eng: "Unlocked Winter 2016 Cosmetic Case",
-        pol: "Otwarta zimowa skrzynia ozdób 2016",
+        pol: "Otwarty zimowy pojemnik ozdób 2016",
         sch: "2016 年无锁冬季饰品箱",
         fre: "Caisse cosmétique d'hiver 2016 déverrouillée",
         bra: "Caixa de Cosméticos Destrancada de Fim de Ano de 2016",
@@ -589,7 +589,7 @@ let dataCrates = {
     58: {
         img: "rainy_day_cosmetic_case",
         eng: "Rainy Day Cosmetic Case",
-        pol: "Skrzynia ozdób deszczowego dnia",
+        pol: "Pojemnik ozdób deszczowego dnia",
         sch: "雨季饰品箱",
         fre: "Caisse de cosmétiques Rainy Day",
         bra: "Caixa de Cosméticos do Dia Chuvoso",
@@ -600,7 +600,7 @@ let dataCrates = {
     59: {
         img: "abominable_cosmetic_case",
         eng: "Abominable Cosmetic Case",
-        pol: "Skrzynia ozdób okropieństwa",
+        pol: "Pojemnik ozdób okropieństwa",
         sch: "憎恶之物饰品箱",
         fre: "Caisse de cosmétiques abominables",
         bra: "Caixa de Cosméticos Abomináveis",
@@ -611,7 +611,7 @@ let dataCrates = {
     60: {
         img: "unleash_the_beast_cosmetic_case",
         eng: "Unleash the Beast Cosmetic Case",
-        pol: "Skrzynia ozdób uwolnionej bestii",
+        pol: "Pojemnik ozdób uwolnionej bestii",
         sch: "释放野兽饰品箱",
         fre: "Caisse de cosmétiques Unleash the Beast",
         bra: "Caixa de Cosméticos da Fera Libertada",
@@ -644,7 +644,7 @@ let dataCrates = {
     63: {
         img: "war_paint_civilian_grade_keyless_case",
         eng: "Decorated War Hero War Paint Civilian Grade Keyless Case",
-        pol: "Barwy wojenne bohatera wojennego Otwarta skrzynia stopnia cywil",
+        pol: "Barwy wojenne bohatera wojennego Otwarty pojemnik stopnia cywil",
         sch: "功勋英雄 民用级无锁战绘箱",
         fre: "Peinture de guerre Decorated War Hero Caisse ouverte de niveau Civil",
         bra: "Tinta de Guerra \\\"Veterano Condecorado\\\" Caixa Destrancada Nv. Civil",
@@ -656,7 +656,7 @@ let dataCrates = {
     64: {
         img: "war_paint_civilian_grade_keyless_case",
         eng: "Contract Campaigner War Paint Civilian Grade Keyless Case",
-        pol: "Barwy wojenne najemnika kontraktowego Otwarta skrzynia stopnia cywil",
+        pol: "Barwy wojenne najemnika kontraktowego Otwarty pojemnik stopnia cywil",
         sch: "合同履行者 民用级无锁战绘箱",
         fre: "Peinture de guerre « Contract Campaigner » Caisse ouverte de niveau Civil",
         bra: "Tinta de Guerra \\\"Contratado da Campanha\\\" Caixa Destrancada Nv. Civil",
@@ -668,7 +668,7 @@ let dataCrates = {
     65: {
         img: "winter_2017_cosmetic_case",
         eng: "Winter 2017 Cosmetic Case",
-        pol: "Zimowa skrzynia ozdób 2017",
+        pol: "Zimowy pojemnik ozdób 2017",
         sch: "2017 冬季饰品箱",
         fre: "Caisse de cosmétiques d'hiver 2017",
         bra: "Caixa de Cosméticos de Fim de Ano de 2017",
@@ -690,7 +690,7 @@ let dataCrates = {
     67: {
         img: "blue_moon_cosmetic_case",
         eng: "Blue Moon Cosmetic Case",
-        pol: "Skrzynia ozdób błękitnego księżyca",
+        pol: "Pojemnik ozdób błękitnego księżyca",
         sch: "蓝月饰品箱",
         fre: "Caisse de cosmétiques Blue Moon",
         bra: "Caixa de Cosméticos da Lua Azul",
@@ -723,7 +723,7 @@ let dataCrates = {
     70: {
         img: "winter_2018_cosmetic_case",
         eng: "Winter 2018 Cosmetic Case",
-        pol: "Zimowa skrzynia ozdób 2018",
+        pol: "Zimowy pojemnik ozdób 2018",
         sch: "2018 冬季饰品箱",
         fre: "Caisse de cosmétiques d'hiver 2018",
         bra: "Caixa de Cosméticos de Fim de Ano de 2018",
@@ -734,7 +734,7 @@ let dataCrates = {
     71: {
         img: "summer_2019_cosmetic_case",
         eng: "Summer 2019 Cosmetic Case",
-        pol: "Letnia skrzynia ozdób 2019",
+        pol: "Letni pojemnik ozdób 2019",
         fre: "Caisse de cosmétiques d'été 2019",
         sch: "2019 夏季饰品箱",
         bra: "Caixa de Cosméticos das Férias de 2019",
@@ -856,7 +856,7 @@ let dataCrates = {
     83: {
         img: "winter_2019_cosmetic_case",
         eng: "Winter 2019 Cosmetic Case",
-        pol: "Zimowa skrzynia ozdób 2019",
+        pol: "Zimowy pojemnik ozdób 2019",
         fre: "Caisse de cosmétiques d'hiver 2019",
         sch: "2019 冬季饰品箱",
         bra: "Caixa de Cosméticos de Fim de Ano de 2019",
@@ -878,7 +878,7 @@ let dataCrates = {
     85: {
         img: "summer_2020_cosmetic_case",
         eng: "Summer 2020 Cosmetic Case",
-        pol: "Letnia skrzynia ozdób 2020",
+        pol: "Letni pojemnik ozdób 2020",
         fre: "Caisse de cosmétiques d'été 2020",
         sch: "2020 夏季饰品箱",
         bra: "Caixa de Cosméticos das Férias de 2020",
@@ -911,7 +911,7 @@ let dataCrates = {
     88: {
         img: "winter_2020_cosmetic_case",
         eng: "Winter 2020 Cosmetic Case",
-        pol: "Zimowa skrzynia ozdób 2020",
+        pol: "Zimowy pojemnik ozdób 2020",
         bra: "Caixa de Cosméticos de Fim de Ano de 2020",
         fre: "Caisse de cosmétiques d'hiver 2020",
         hun: "Tél 2020 Díszítő Táska",
@@ -931,7 +931,7 @@ let dataCrates = {
     90: {
         img: "summer_2021_cosmetic_case",
         eng: "Summer 2021 Cosmetic Case",
-        pol: "Letnia skrzynia ozdób 2021",
+        pol: "Letni pojemnik ozdób 2021",
         fre: "Caisse de cosmétiques d'été 2021",
         sch: "2021 夏季饰品箱",
         bra: "Caixa de Cosméticos das Férias de 2021",
@@ -942,7 +942,7 @@ let dataCrates = {
     91: {
         img: "crimson_cache_case",
         eng: "Crimson Cache Case",
-        pol: "Skrzynia szkarłatnej skrytki",
+        pol: "Pojemnik szkarłatnej skrytki",
         hun: "Karmazsin Készlet Táska",
         swe: "Crimson Cache-väska",
         bra: "Caixa da Lembrança Carmesim",
@@ -962,7 +962,7 @@ let dataCrates = {
     93: {
         img: "winter_2021_cosmetic_case",
         eng: "Winter 2021 Cosmetic Case",
-        pol: "Zimowa skrzynia ozdób 2021",
+        pol: "Zimowy pojemnik ozdób 2021",
         bra: "Caixa de Cosméticos de Fim de Ano de 2021",
         hun: "Tél 2021 Díszítő Táska",
         fre: "Caisse de cosmétiques d'hiver 2021",
@@ -971,7 +971,7 @@ let dataCrates = {
     94: {
         img: "summer_2022_cosmetic_case",
         eng: "Summer 2022 Cosmetic Case",
-        pol: "Letnia skrzynia ozdób 2022",
+        pol: "Letni pojemnik ozdób 2022",
         bra: "Caixa de Cosméticos das Férias de 2022",
         hun: "Nyár 2022 Díszítő Táska",
         fre: "Caisse de cosmétiques d'été 2022",
@@ -980,7 +980,7 @@ let dataCrates = {
     95: {
         img: "ghoulish_gains_case",
         eng: "Ghoulish Gains Case",
-        pol: "Skrzynia upiornych zdobyczy",
+        pol: "Pojemnik upiornych zdobyczy",
         bra: "Caixa do Ghoul",
         fre: "Caisse du butin des goules",
         hun: "Hátborzongató Haszon Táska",
@@ -989,7 +989,7 @@ let dataCrates = {
     96: {
         img: "scream_fortress_xiv_war_paint_case",
         eng: "Scream Fortress XIV War Paint Case",
-        pol: "Skrzynia barw wojennych Scream Fortress XIV",
+        pol: "Pojemnik barw wojennych Scream Fortress XIV",
         bra: "Caixa de Tintas de Guerra do Scream Fortress XIV",
         fre: "Caisse de peintures Scream Fortress XIV",
         hun: "Scream Fortress XIV Harci Festés Táska",
@@ -997,15 +997,30 @@ let dataCrates = {
     },
     97: {
         img: "winter_2022_cosmetic_case",
-        eng: "Winter 2022 Cosmetic Case"
+        eng: "Winter 2022 Cosmetic Case",
+        pol: "Zimowy pojemnik ozdób 2022",
+        bra: "Caixa de Cosméticos de Fim de Ano de 2022",
+        fre: "Caisse de cosmétiques d'hiver 2022",
+        hun: "Tél 2022 Díszítő Táska",
+        rom: "Cutie cu accesorii Winter 2022"
     },
     98: {
         img: "summer_2023_cosmetic_case",
-        eng: "Summer 2023 Cosmetic Case"
+        eng: "Summer 2023 Cosmetic Case",
+        pol: "Letni pojemnik ozdób 2023",
+        bra: "Caixa de Cosméticos das Férias de 2023",
+        fre: "Caisse de cosmétiques d'été 2023",
+        hun: "Nyár 2023 Díszítő Táska",
+        rom: "Cutie cu accesorii Summer 2023"
     },
     99: {
         img: "summer_2023_war_paint_case",
         eng: "Summer 2023 War Paint Case",
+        pol: "Letni pojemnik barw wojennych 2023",
+        bra: "Caixa de Tintas de Guerra das Férias de 2023",
+        fre: "Caisse de peintures d'été 2023",
+        hun: "Nyár 2023 Harci Festés Táska",
+        rom: "Cutie cu vopsea de război Summer 2023"
     },
     100: {
         img: "bone_chilling_bonanza_case",

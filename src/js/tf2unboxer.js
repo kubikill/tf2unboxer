@@ -33,7 +33,9 @@ import {
     hw23FX,
 } from "./crate.js";
 
-import { LZString } from "./lz-string.js";
+import {
+    LZString
+} from "./lz-string.js";
 
 // Function for reporting errors to analytics
 let errorTimeout = false;
@@ -305,10 +307,13 @@ const DOM = {
 }
 
 // Misc variables
-let currentCrate = crateOrder[crateOrder.length - 2];
+let currentCrate = crateOrder[crateOrder.length - 1];
 let currentCrateObj = cA[crateOrder[currentCrate]];
 let canUnbox = true;
 let inDetailsMode = true;
+let addToInventorySaveTimeout = null;
+let addToUnusualsSaveTimeout = null;
+let addToStatsSaveTimeout = null;
 const emptyImage = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
 const wearTable = ["", "FN", "MW", "FT", "WW", "BS"];
 const wearTableNames = ["", 80, 81, 82, 83, 84];
@@ -2929,9 +2934,12 @@ function addToInventory(unboxResult, saveObj, saveToStorage) {
         }
     }
     if (saveToStorage) {
-        localStorage.setItem("unboxertf-crates", LZString.compressToUTF16(JSON.stringify(save.crates)));
-        localStorage.setItem("unboxertf-bonusitems", LZString.compressToUTF16(JSON.stringify(save.bonusItems)));
-        localStorage.setItem("unboxertf-save-format", 'lzstring');
+        clearTimeout(addToInventorySaveTimeout);
+        addToInventorySaveTimeout = setTimeout(() => {
+            localStorage.setItem("unboxertf-crates", LZString.compressToUTF16(JSON.stringify(save.crates)));
+            localStorage.setItem("unboxertf-bonusitems", LZString.compressToUTF16(JSON.stringify(save.bonusItems)));
+            localStorage.setItem("unboxertf-save-format", 'lzstring');
+        }, 2000);
     }
     return itemNum;
 }
@@ -2959,8 +2967,11 @@ function addToUnusuals(unboxResult, saveObj, saveToStorage) {
     }
 
     if (saveToStorage) {
-        localStorage.setItem("unboxertf-unusuals", LZString.compressToUTF16(JSON.stringify(save.unusuals)));
-        localStorage.setItem("unboxertf-save-format", 'lzstring');
+        clearTimeout(addToUnusualsSaveTimeout);
+        addToUnusualsSaveTimeout = setTimeout(() => {
+            localStorage.setItem("unboxertf-unusuals", LZString.compressToUTF16(JSON.stringify(save.unusuals)));
+            localStorage.setItem("unboxertf-save-format", 'lzstring');
+        }, 2000);
     }
 }
 
@@ -3106,9 +3117,12 @@ function addToStats(unboxResult, saveObj, saveToStorage) {
     }
 
     if (saveToStorage) {
-        localStorage.setItem("unboxertf-cratestats", LZString.compressToUTF16(JSON.stringify(save.crateStats)));
-        localStorage.setItem("unboxertf-stats", LZString.compressToUTF16(JSON.stringify(save.stats)));
-        localStorage.setItem("unboxertf-save-format", 'lzstring');
+        clearTimeout(addToStatsSaveTimeout);
+        addToStatsSaveTimeout = setTimeout(() => {
+            localStorage.setItem("unboxertf-cratestats", LZString.compressToUTF16(JSON.stringify(save.crateStats)));
+            localStorage.setItem("unboxertf-stats", LZString.compressToUTF16(JSON.stringify(save.stats)));
+            localStorage.setItem("unboxertf-save-format", 'lzstring');
+        }, 2000);
     }
 }
 
@@ -3532,7 +3546,7 @@ if (tempCrateStatsSave != null) {
     if (newSaveFormat === 'lzstring') {
         tempCrateStatsSave = LZString.decompressFromUTF16(tempCrateStatsSave);
     }
-    
+
     mergeDeep(save.crateStats, JSON.parse(tempCrateStatsSave));
 }
 

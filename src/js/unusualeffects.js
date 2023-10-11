@@ -2583,112 +2583,173 @@ let dataEffects = {
         img: "hard_carry",
         eng: "Hard Carry",
         schema: 279,
+        pol: "tajna teczka",
+        bra: "Carregador sonhador",
+        fre: "Malette mal lunée",
+        hun: "Kemény táska"
     },
     253: {
         img: "jellyfish_field",
         eng: "Jellyfish Field",
         schema: 281,
+        pol: "mielizna meduz",
+        bra: "Campo de águas-vivas",
+        fre: "Champ de méduses",
+        hun: "Medúzamező"
     },
     254: {
         img: "jellyfish_hunter",
         eng: "Jellyfish Hunter",
         schema: 283,
+        pol: "łowca meduz",
+        bra: "Caçador de águas-vivas",
+        fre: "Chasse-méduses",
+        hun: "Medúzavadász"
     },
     255: {
         img: "jellyfish_jam",
         eng: "Jellyfish Jam",
         schema: 284,
+        pol: "meduzi melanż",
+        bra: "Dança das águas-vivas",
+        fre: "Confiture de méduses",
+        hun: "Medúzalekvár"
     },
     256: {
         img: "global_clusters",
         eng: "Global Clusters",
         schema: 285,
+        pol: "gromada globalna",
+        bra: "Constelação",
+        fre: "Nébuleuse turquoise",
+        hun: "Csillagrajok"
     },
     257: {
         img: "celestial_starburst",
         eng: "Celestial Starburst",
         schema: 286,
+        pol: "wybuch na nieboskłonie",
+        bra: "Explosão estelar",
+        fre: "Nébuleuse mauve",
+        hun: "Égi csillagrobbanás"
     },
     258: {
         img: "sylicone_succiduous",
         eng: "Sylicone Succiduous",
         schema: 287,
+        pol: "spadający silikon",
+        bra: "Silício cadente",
+        fre: "Nébuleuse navel",
+        hun: "Narancs csillaghullás"
     },
     259: {
         img: "sakura_smoke_bomb",
         eng: "Sakura Smoke Bomb",
         schema: 288,
+        pol: "wiśniowa bomba dymna",
+        bra: "Bomba de cerejeira",
+        fre: "Fumigène fleuri",
+        hun: "Sakura füstbomba"
     },
     260: {
         img: "treasure_trove",
         eng: "Treasure Trove",
         schema: 289,
+        pol: "żyła złota",
+        bra: "Baú do tesouro",
+        fre: "Jackpot",
+        hun: "Kincsesbánya"
     },
     261: {
         img: "bubble_breeze",
         eng: "Bubble Breeze",
         schema: 290,
+        pol: "bąbelkowa bryza",
+        bra: "Borbulho de bolhas",
+        fre: "Bubulles",
+        hun: "Buborékfuvallat"
     },
     262: {
         img: "fireflies",
         eng: "Fireflies",
         schema: 291,
+        pol: "świetliki",
+        bra: "Vaga-lumes",
+        fre: "Lucioles",
+        hun: "Szentjánosbogarak"
     },
     263: {
         img: "mountain_halo",
         eng: "Mountain Halo",
-        schema: 292
+        schema: 292,
+        pol: "górska aureola",
+        bra: "Mundo das nuvens",
+        fre: "Halo alpin",
+        hun: "Hegyi fénykoszorú"
     },
     264: {
         img: "celestial_summit",
-        eng: "Celestial Summit"
+        eng: "Celestial Summit",
+        schema: 293
     },
     265: {
         img: "stellar_ascent",
-        eng: "Stellar Ascent"
+        eng: "Stellar Ascent",
+        schema: 294
     },
     266: {
         img: "sapped",
-        eng: "Sapped"
+        eng: "Sapped",
+        schema: 295
     },
     267: {
         img: "hellspawned_horns",
-        eng: "Hellspawned Horns"
+        eng: "Hellspawned Horns",
+        schema: 297
     },
     268: {
         img: "demonic_impaler",
-        eng: "Demonic Impaler"
+        eng: "Demonic Impaler",
+        schema: 299
     },
     269: {
         img: "revenants_rack",
-        eng: "Revenant's Rack"
+        eng: "Revenant's Rack",
+        schema: 300
     },
     270: {
         img: "sixth_sense",
-        eng: "Sixth Sense"
+        eng: "Sixth Sense",
+        schema: 301
     },
     271: {
         img: "amygdala",
-        eng: "Amygdala"
+        eng: "Amygdala",
+        schema: 303
     },
     272: {
         img: "the_bone_zone",
-        eng: "The Bone Zone"
+        eng: "Bone Zone",
+        schema: 304
     },
     273: {
         img: "arachnes_web",
-        eng: "Arachne's Web"
+        eng: "Arachne's Web",
+        schema: 305
     },
     274: {
         img: "acidic_climate",
-        eng: "Acidic Climate"
+        eng: "Acidic Climate",
+        schema: 306
     },
     275: {
-        img: "otherwordly_weather",
-        eng: "Otherworldly Weather"
+        img: "otherworldly_weather",
+        eng: "Otherworldly Weather",
+        schema: 307
     },
     276: {
         img: "nightmarish_storm",
-        eng: "Nightmarish Storm"
-    },
+        eng: "Nightmarish Storm",
+        schema: 308
+    }
 }

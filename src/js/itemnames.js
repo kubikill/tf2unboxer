@@ -10358,7 +10358,7 @@ let dataItems = {
         fre: "Clubsy le Phoque",
         bra: "Parceiro Polar",
         schema: 30593,
-        hun: "Zsebi A Fóka",
+        hun: "Zsebi, a Fóka",
         swe: "Sälen Klubby"
     },
     945: {
@@ -20068,7 +20068,7 @@ let dataItems = {
         schema: 17401,
         pol: "Krem kukurydziany | Barwy wojenne",
         bra: "| Creme de Abóbora | Tinta de Guerra",
-        fre: "Estampillé maïs Peinture de guerre",
+        fre: "Estampillé maïs | Peinture de guerre",
         hun: "Cukorkabevonat Harci festés",
         swe: "Stuvad majs Krigsfärg"
     },
@@ -20078,7 +20078,7 @@ let dataItems = {
         schema: 17408,
         pol: "Hipergon | Barwy wojenne",
         bra: "| Hipergono | Tinta de Guerra",
-        fre: "Hypergone Peinture de guerre",
+        fre: "Hypergone | Peinture de guerre",
         hun: "Húhatszög Harci festés",
         swe: "Hypergonal Krigsfärg"
     },
@@ -20088,7 +20088,7 @@ let dataItems = {
         schema: 17407,
         pol: "Zdrowie i piekło (zieleń) | Barwy wojenne",
         bra: "| Verde e Inferno | Tinta de Guerra",
-        fre: "Vie et enfer (vert) Peinture de guerre",
+        fre: "Vie et enfer (vert) | Peinture de guerre",
         hun: "Élet és Pokol (zöld) Harci festés",
         swe: "Hälsa och helvete (grön) Krigsfärg"
     },
@@ -20098,7 +20098,7 @@ let dataItems = {
         schema: 17406,
         pol: "Zdrowie i piekło | Barwy wojenne",
         bra: "| Vida e Inferno | Tinta de Guerra",
-        fre: "Vie et enfer Peinture de guerre",
+        fre: "Vie et enfer | Peinture de guerre",
         hun: "Élet és Pokol Harci festés",
         swe: "Hälsa och helvete Krigsfärg"
     },
@@ -20108,7 +20108,7 @@ let dataItems = {
         schema: 17402,
         pol: "Wschód słońca | Barwy wojenne",
         bra: "| Forja Solar | Tinta de Guerra",
-        fre: "Force solaire Peinture de guerre",
+        fre: "Force solaire | Peinture de guerre",
         hun: "Napkeltegető Harci festés",
         swe: "Solgångare Krigsfärg"
     },
@@ -20118,7 +20118,7 @@ let dataItems = {
         schema: 17410,
         pol: "Chłodna jesień | Barwy wojenne",
         bra: "| Calafrios em Outono | Tinta de Guerra",
-        fre: "Frimas d'automne Peinture de guerre",
+        fre: "Frimas d'automne | Peinture de guerre",
         hun: "Hűvös Ősz Harci festés",
         swe: "Kylig höst Krigsfärg"
     },
@@ -20128,7 +20128,7 @@ let dataItems = {
         schema: 17409,
         pol: "Dyniowa dekoracja | Barwy wojenne",
         bra: "| Pintura de Abóbora | Tinta de Guerra",
-        fre: "Torché à la citrouille Peinture de guerre",
+        fre: "Torché à la citrouille | Peinture de guerre",
         hun: "Tökre Mázolt Harci festés",
         swe: "Pumpapackad Krigsfärg"
     },
@@ -20138,7 +20138,7 @@ let dataItems = {
         schema: 17404,
         pol: "Metaliczna dusza | Barwy wojenne",
         bra: "| Alma Metalizada | Tinta de Guerra",
-        fre: "Âme métallisée Peinture de guerre",
+        fre: "Âme métallisée | Peinture de guerre",
         hun: "Fémlelkű Harci festés",
         swe: "Metallisk själ Krigsfärg"
     },
@@ -20148,7 +20148,7 @@ let dataItems = {
         schema: 17400,
         pol: "Pogromca duchów | Barwy wojenne",
         bra: "| Caça-Espíritos | Tinta de Guerra",
-        fre: "Brise-fantôme Peinture de guerre",
+        fre: "Brise-fantôme | Peinture de guerre",
         hun: "Szellemaprító Harci festés",
         swe: "Spöksprängare Krigsfärg"
     },
@@ -20158,7 +20158,7 @@ let dataItems = {
         schema: 17405,
         pol: "Obgryzający Bonzo | Barwy wojenne",
         bra: "| Tormento do Bonzo | Tinta de Guerra",
-        fre: "Bonzo rongé Peinture de guerre",
+        fre: "Bonzo rongé | Peinture de guerre",
         hun: "Bonzo-rágcsálta Harci festés",
         swe: "Bonzo-biten Krigsfärg"
     },
@@ -20168,7 +20168,7 @@ let dataItems = {
         schema: 17403,
         pol: "Święty zabójca | Barwy wojenne",
         bra: "| Assassino Sagrado | Tinta de Guerra",
-        fre: "Occiseur sacré Peinture de guerre",
+        fre: "Occision sacrée | Peinture de guerre",
         hun: "Felszentelt Fegyverzet Harci festés",
         swe: "Helgad baneman Krigsfärg"
     },
@@ -20453,235 +20453,399 @@ let dataItems = {
     1885: {
         img: "stealth_bomber",
         eng: "Stealth Bomber",
-        schema: 31379
+        schema: 31379,
+        bra: "Bombardeiro Sorrateiro",
+        fre: "Le pantalon camouflage",
+        hun: "Lopakodó Bombázó"
     },
     1886: {
         img: "le_professionnel",
         eng: "Le Professionnel",
-        schema: 31377
+        schema: 31377,
+        pol: "Francuski fachura",
+        fre: "Léon"
     },
     1887: {
         img: "cargo_constructor",
         eng: "Cargo Constructor",
-        schema: 31373
+        schema: 31373,
+        pol: "Inżynieria inwentarza",
+        fre: "Contremaitre",
+        hun: "Rakodómunkás"
     },
     1888: {
         img: "blast_bowl",
         eng: "The Blast Bowl",
-        schema: 31371
+        schema: 31371,
+        pol: "Samoprzylepny szyszak",
+        bra: "O Capacete de Stickies",
+        fre: "La tête dure",
+        hun: "Bombasisak"
     },
     1889: {
         img: "heavy_metal",
         eng: "Heavy Metal",
-        schema: 31369
+        schema: 31369,
+        pol: "Metal ciężki",
+        fre: "Heavy métal"
     },
     1890: {
         img: "brimmed_bootlegger",
         eng: "Brimmed Bootlegger",
-        schema: 31366
+        schema: 31366,
+        pol: "Kapeluszowa kontrabanda",
+        bra: "Fora-da-Lei Seca",
+        fre: "Fédora du contrebandier",
+        hun: "Karimás Szeszcsempész"
     },
     1891: {
         img: "medical_emergency",
         eng: "Medical Emergency",
-        schema: 31365
+        schema: 31365,
+        pol: "Pierwsza pomoc",
+        bra: "Emergência Médica",
+        fre: "Urgence médicale",
+        hun: "Orvosi Vészhelyzet"
     },
     1892: {
         img: "bushman",
         eng: "The Bushman",
-        schema: 31361
+        schema: 31361,
+        pol: "Buszmen",
+        bra: "O Homem Robusto do Arbusto",
+        fre: "Le bushman",
+        hun: "Bozótjáró"
     },
     1893: {
         img: "firestalker",
         eng: "The Firestalker",
-        schema: 31359
+        schema: 31359,
+        pol: "Płomienny prześladowca",
+        bra: "O Detetive Elementar",
+        fre: "Le détective chaud bouillant",
+        hun: "Tűzvadász"
     },
     1894: {
         img: "brothers_in_blues",
         eng: "Brothers in Blues",
-        schema: 31356
+        schema: 31356,
+        pol: "Bracia w bluesie",
+        bra: "Chapéu do Cara de Pau",
+        fre: "Les BLU Brothers",
+        hun: "Blues Testvérek"
     },
     1895: {
         img: "prohibition_opposition",
         eng: "Prohibition Opposition",
-        schema: 31367
+        schema: 31367,
+        pol: "Przeciwnik prohibicji",
+        bra: "Oposição à Proibição",
+        fre: "Antiprohibition",
+        hun: "Tilalomellenző"
     },
     1896: {
         img: "preventative_measure",
         eng: "Preventative Measure",
-        schema: 31363
+        schema: 31363,
+        pol: "Środek zapobiegawczy",
+        bra: "Medida Preventiva",
+        fre: "Mesure préventive",
+        hun: "Megelőző Intézkedés"
     },
     1897: {
         img: "hazard_handler",
         eng: "Hazard Handler",
-        schema: 31374
+        schema: 31374,
+        pol: "Ryzykowna robota",
+        bra: "Equipamento de Proteção Total",
+        fre: "Visière à toute épreuve",
+        hun: "Veszélykezelő"
     },
     1898: {
         img: "soho_sleuth",
         eng: "The Soho Sleuth",
-        schema: 31358
+        schema: 31358,
+        pol: "Wywiad z Westminster",
+        bra: "Investigador Londrino",
+        fre: "Le limier londonien",
+        hun: "Sohói Szimat"
     },
     1899: {
         img: "close_quarters_cover",
         eng: "Close Quarters Cover",
-        schema: 31378
+        schema: 31378,
+        pol: "Bandana bliskiej batalii",
+        bra: "Semblante Sólido da Serpente",
+        fre: "Combat rapproché",
+        hun: "Közelharci Fedezék"
     },
     1900: {
         img: "hog_heels",
         eng: "Hog Heels",
-        schema: 31370
+        schema: 31370,
+        pol: "Okucie oprycha",
+        fre: "Bottes de baroudeur",
+        hun: "Sárdagasztó"
     },
     1901: {
         img: "shrapnel_shell",
         eng: "The Shrapnel Shell",
-        schema: 31372
+        schema: 31372,
+        pol: "Odłamkowe odzienie",
+        bra: "A Estileira Stickeira",
+        fre: "La cuirasse coriace",
+        hun: "Tapadóbomba Héj"
     },
     1902: {
         img: "cleaners_cap",
         eng: "Cleaner's Cap",
-        schema: 31376
+        schema: 31376,
+        pol: "Czapka czyściciela",
+        bra: "Touca do Assassino",
+        fre: "Bonnet de l'assassin",
+        hun: "Takarítósapka"
     },
     1903: {
         img: "brother_mann",
         eng: "Brother Mann",
-        schema: 31368
+        schema: 31368,
+        pol: "Za Mann brat",
+        fre: "Le biker",
+        hun: "Mann Testvér"
     },
     1904: {
         img: "cranium_cover",
         eng: "Cranium Cover",
-        schema: 31362
+        schema: 31362,
+        pol: "Przesłona potylicy",
+        bra: "Ação Defensiva",
+        fre: "Couverture crânienne",
+        hun: "Koponyafedél"
     },
     1905: {
         img: "uber_wear",
         eng: "Über-Wear",
-        schema: 31364
+        schema: 31364,
+        pol: "Überubranie",
+        bra: "Übercolete",
+        fre: "Süber classe",
+        hun: "Über-Viselet"
     },
     1906: {
         img: "flame_warrior",
         eng: "The Flame Warrior",
-        schema: 31357
+        schema: 31357,
+        pol: "Żarzący żołnierz",
+        bra: "Guerreiro das Chamas",
+        fre: "Le guerrier tout feu tout flamme",
+        hun: "Lángharcos"
     },
     1907: {
         img: "glorious_gambeson",
         eng: "The Glorious Gambeson",
-        schema: 31360
+        schema: 31360,
+        pol: "Pierwszorzędna przeszywanica",
+        bra: "O Gibão Glorioso",
+        fre: "Le joli jaque",
+        hun: "Dicső Dolmány"
     },
     1908: {
         img: "full_metal_helmet",
         eng: "Full Metal Helmet",
-        schema: 31355
+        schema: 31355,
+        pol: "Żelazne zapasy",
+        bra: "Capacete Nascido para Matar",
+        fre: "Casque fourre-tout",
+        hun: "Kőkemény Fémsisak"
     },
     1909: {
         img: "cranium_cooler",
         eng: "Cranium Cooler",
-        schema: 31375
+        schema: 31375,
+        pol: "Schłodzona skroń",
+        bra: "Cabeça Fria",
+        fre: "Ventilo frontal",
+        hun: "Koponyahűtő"
     },
     1910: {
         img: "secretly_serviced_war_paint",
         eng: "Secretly Serviced War Paint",
-        schema: 17412
+        schema: 17412,
+        pol: "Sekretny serwis | Barwy wojenne",
+        bra: "| Serviço Secreto | Tinta de Guerra",
+        fre: "Services secrets | Peinture de guerre",
+        hun: "Titkosszolgálati Harci festés"
     },
     1911: {
         img: "pacific_peacemaker_war_paint",
         eng: "Pacific Peacemaker War Paint",
-        schema: 17419
+        schema: 17419,
+        pol: "Pacyficzny pacyfista | Barwy wojenne",
+        bra: "| Pacificador do Pacífico | Tinta de Guerra",
+        fre: "Pacificateur du Pacifique | Peinture de guerre",
+        hun: "Békés Békéltető Harci festés"
     },
     1912: {
         img: "team_serviced_war_paint",
         eng: "Team Serviced War Paint",
-        schema: 17417
+        schema: 17417,
+        pol: "Praca zespołowa | Barwy wojenne",
+        bra: "| Agente de Campo | Tinta de Guerra",
+        fre: "Au service de l'équipe | Peinture de guerre",
+        hun: "Csapatszolgálati Harci festés"
     },
     1913: {
         img: "bomb_carrier_war_paint",
         eng: "Bomb Carrier War Paint",
-        schema: 17414
+        schema: 17414,
+        pol: "Przenoszący bombę | Barwy wojenne",
+        bra: "| Demolição Blindada | Tinta de Guerra",
+        fre: "Machine de guerre | Peinture de guerre",
+        hun: "Bombahordozó Harci festés"
     },
     1914: {
         img: "mechanized_monster_war_paint",
         eng: "Mechanized Monster War Paint",
-        schema: 17420
+        schema: 17420,
+        pol: "Mechaniczne monstrum | Barwy wojenne",
+        bra: "| Monstro Mecanizado | Tinta de Guerra",
+        fre: "Monstre mécanisé | Peinture de guerre",
+        hun: "Gépesített Szörny Harci festés"
     },
     1915: {
         img: "warborn_war_paint",
         eng: "Warborn War Paint",
-        schema: 17418
+        schema: 17418,
+        pol: "Zrodzony z wojny | Barwy wojenne",
+        bra: "| Nascido para Matar | Tinta de Guerra",
+        fre: "Destin de guerre | Peinture de guerre",
+        hun: "Háborús Harci festés"
     },
     1916: {
         img: "steel_brushed_war_paint",
         eng: "Steel Brushed War Paint",
-        schema: 17411
+        schema: 17411,
+        pol: "Stalowy szlif | Barwy wojenne",
+        bra: "| Banho de Prata | Tinta de Guerra",
+        fre: "Acier | Peinture de guerre",
+        hun: "Szálcsiszolt Harci festés"
     },
     1917: {
         img: "business_class_war_paint",
         eng: "Business Class War Paint",
-        schema: 17415
+        schema: 17415,
+        pol: "Klasa biznesowa | Barwy wojenne",
+        bra: "| Classe Executiva | Tinta de Guerra",
+        fre: "Classe affaires | Peinture de guerre",
+        hun: "Első Osztály Harci festés"
     },
     1918: {
         img: "deadly_dragon_war_paint",
         eng: "Deadly Dragon War Paint",
-        schema: 17416
+        schema: 17416,
+        pol: "Zabójczy smok | Barwy wojenne",
+        bra: "| Destruição do Dragão | Tinta de Guerra",
+        fre: "Dragon mortel | Peinture de guerre",
+        hun: "Halálos Sárkány Harci festés"
     },
     1919: {
         img: "sky_stallion_war_paint",
         eng: "Sky Stallion War Paint",
-        schema: 17413
+        schema: 17413,
+        pol: "Podniebny ogier | Barwy wojenne",
+        bra: "| Ás do Ar | Tinta de Guerra",
+        fre: "Étalon céleste | Peinture de guerre",
+        hun: "Égi Mén Harci festés"
     },
     1920: {
         img: "taunt_killer_joke",
         eng: "Taunt: Killer Joke",
-        schema: 31348
+        schema: 31348,
+        pol: "Drwina: Zabójczy żart",
+        bra: "Provocação: Piada de Matar",
+        fre: "Raillerie : Mort de rire",
+        hun: "Beszólás: Durva vicces"
     },
     1921: {
         img: "taunt_star_spangled_strategy",
         eng: "Taunt: Star-Spangled Strategy",
-        schema: 31347
+        schema: 31347,
+        pol: "Drwina: Strategia na pięćdziesiąt gwiazdek",
+        bra: "Provocação: Plano Infalível",
+        fre: "Raillerie : Stratégie étoilée",
+        hun: "Beszólás: Csillagos-sávos stratégia",
+        swe: "Hån: Soldatstrategi"
     },
     1922: {
         img: "taunt_head_doctor",
         eng: "Taunt: The Head Doctor",
-        schema: 31349
+        schema: 31349,
+        pol: "Drwina: Dekapitacyjny doktor",
+        bra: "Provocação: O Médico da Cabeça",
+        fre: "Raillerie : Le docteur a la grosse tête",
+        hun: "Beszólás: A főorvos"
     },
     1923: {
         img: "taunt_teufort_tango",
         eng: "Taunt: Teufort Tango",
-        schema: 31351
+        schema: 31351,
+        pol: "Drwina: Teufordzkie tango",
+        bra: "Provocação: Tango de Teufort",
+        fre: "Raillerie : Tango de Teufort",
+        hun: "Beszólás: Teufort tangó"
     },
     1924: {
         img: "taunt_road_rager",
         eng: "Taunt: The Road Rager",
-        schema: 31352
+        schema: 31352,
+        pol: "Drwina: Krzyczący kierowca",
+        bra: "Provocação: O Perigo na Estrada",
+        fre: "Raillerie : Le cacou de la route",
+        hun: "Beszólás: Országúti dühöngő"
     },
     1925: {
         img: "taunt_killer_signature",
         eng: "Taunt: The Killer Signature",
-        schema: 31354
+        schema: 31354,
+        pol: "Drwina: Zabójczy podpis",
+        bra: "Provocação: Agrado aos Admiradores",
+        fre: "Raillerie : La signature meurtrière",
+        hun: "Beszólás: Döglesztő szignó"
     },
     1926: {
         img: "make_ogre",
-        eng: "Make Ogre"
+        eng: "Make Ogre",
+        schema: 31403
     },
     1927: {
         img: "medical_mummy",
-        eng: "Medical Mummy"
+        eng: "Medical Mummy",
+        schema: 31399
     },
     1928: {
         img: "six_eyed_specs",
-        eng: "Six-Eyed Specs"
+        eng: "Six-Eyed Specs",
+        schema: 31398
     },
     1929: {
         img: "concealed_convict",
-        eng: "Concealed Convict"
+        eng: "Concealed Convict",
+        schema: 31397
     },
     1930: {
         img: "constructors_cover",
-        eng: "Constructor's Cover"
+        eng: "Constructor's Cover",
+        schema: 31395
     },
     1931: {
         img: "thunder_dome",
-        eng: "Thunder Dome"
+        eng: "Thunder Dome",
+        schema: 31391
     },
     1932: {
         img: "splitting_headache",
-        eng: "Splitting Headache"
+        eng: "Splitting Headache",
+        schema: 31390
     },
     1933: {
         img: "shortness_of_breath",
@@ -20689,102 +20853,133 @@ let dataItems = {
     },
     1934: {
         img: "mean_captain",
-        eng: "Mean Captain"
+        eng: "Mean Captain",
+        schema: 31385
     },
     1935: {
         img: "ludicrously_lunatic_lunon_fedora",
-        eng: "Ludicrously Lunatic Lunon Fedora"
+        eng: "Ludicrously Lunatic Lunon Fedora",
+        schema: 31383
     },
     1936: {
         img: "jumping_jester",
-        eng: "Jumping Jester"
+        eng: "Jumping Jester",
+        schema: 31407
     },
     1937: {
         img: "sharpshooters_shroud",
-        eng: "Sharpshooter's Shroud"
+        eng: "Sharpshooter's Shroud",
+        schema: 31405
     },
     1938: {
         img: "main_cast",
-        eng: "Main Cast"
+        eng: "Main Cast",
+        schema: 31400
     },
     1939: {
         img: "classic_criminal",
-        eng: "Classic Criminal"
+        eng: "Classic Criminal",
+        schema: 31396
     },
     1940: {
         img: "dell_dynamic",
-        eng: "Dell Dynamic"
+        eng: "Dell Dynamic",
+        schema: 31394
     },
     1941: {
         img: "stunt_suit",
-        eng: "Stunt Suit"
+        eng: "Stunt Suit",
+        schema: 31392
     },
     1942: {
         img: "dead_heat",
-        eng: "Dead Heat"
+        eng: "Dead Heat",
+        pol: "Ogień z zaświatów",
+        sch: "死亡烧烤",
+        bra: "Te Vejo no Inferno",
+        fre: "Ex-aequo",
+        hun: "Holtverseny",
+        swe: "Dött lopp",
+        schema: 31389
     },
     1943: {
         img: "warlocks_warcloak",
-        eng: "Warlock's Warcloak"
+        eng: "Warlock's Warcloak",
+        schema: 31388
     },
     1944: {
         img: "clowns_coverup",
-        eng: "Clown's Cover-Up"
+        eng: "Clown's Cover-Up",
+        schema: 31386
     },
     1945: {
         img: "mad_lad",
-        eng: "Mad Lad"
+        eng: "Mad Lad",
+        schema: 31393
     },
     1946: {
         img: "last_laugh",
-        eng: "Last Laugh"
+        eng: "Last Laugh",
+        schema: 31406
     },
     1947: {
         img: "sightseer",
-        eng: "Sightseer"
+        eng: "Sightseer",
+        schema: 31404
     },
     1948: {
         img: "power_spike",
-        eng: "Power Spike"
+        eng: "Power Spike",
+        schema: 31401
     },
     1949: {
         img: "demonic_dome",
-        eng: "Demonic Dome"
+        eng: "Demonic Dome",
+        schema: 31384
     },
     1950: {
         img: "bare_bear_bones",
-        eng: "Bare Bear Bones"
+        eng: "Bare Bear Bones",
+        schema: 31402
     },
     1951: {
         img: "blastphomet",
-        eng: "Blastphomet"
+        eng: "Blastphomet",
+        schema: 31408
     },
     1952: {
         img: "spyder",
-        eng: "Spyder"
+        eng: "Spyder",
+        schema: 31409
     },
     1953: {
         img: "carry_van",
-        eng: "Carry-Van"
+        eng: "Carry-Van",
+        schema: 31410
     },
     1954: {
         img: "fiercesome_fluorescence",
-        eng: "Fiercesome Fluorescence"
+        eng: "Fiercesome Fluorescence",
+        schema: 31411
     },
     1955: {
         img: "taunt_neck_snap",
-        eng: "Taunt: Neck Snap"
+        eng: "Taunt: Neck Snap",
+        schema: 31381
     },
     1956: {
         img: "taunt_roar_o_war",
-        eng: "Taunt: Roar O'War"
+        eng: "Taunt: Roar O'War",
+        schema: 31380
     },
     1957: {
         img: "taunt_borrowed_bones",
-        eng: "Taunt: Borrowed Bones"
+        eng: "Taunt: Borrowed Bones",
+        schema: 31382
     },
     1958: {
         img: "taunt_crypt_creeper",
-        eng: "Taunt: Crypt Creeper"
-    },
+        eng: "Taunt: The Crypt Creeper",
+        schema: 31289
+    }
 }
