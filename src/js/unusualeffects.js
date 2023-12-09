@@ -1,4 +1,4 @@
-let dataEffects = {
+export let dataEffects = {
     1: {
         img: "burning_flames",
         eng: "Burning Flames",

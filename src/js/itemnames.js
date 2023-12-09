@@ -1,4 +1,4 @@
-let dataItems = {
+export let dataItems = {
     1: {
         img: "vita_saw",
         eng: "The Vita-Saw",

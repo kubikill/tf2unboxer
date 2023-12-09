@@ -1,4 +1,4 @@
-let dataCrates = {
+export let dataCrates = {
     1: {
         img: "mann_co_supply_crate",
         eng: "Mann Co. Supply Crate",

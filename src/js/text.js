@@ -1,4 +1,4 @@
-let dataUi = {
+export let dataUi = {
     1: {
         eng: "Weapons obtained from this crate will have the Strange quality.",
         pol: "Bronie otrzymane z tej skrzynki będą posiadały jakość Kuriozum.",

@@ -34,6 +34,11 @@ import {
     hw23FX,
 } from "./crate.js";
 
+import { dataItems } from "./itemnames.js";
+import { dataCrates } from "./cratenames.js";
+import { dataEffects } from "./unusualeffects.js";
+import { dataUi } from "./text.js";
+
 import {
     LZString
 } from "./lz-string.js";
