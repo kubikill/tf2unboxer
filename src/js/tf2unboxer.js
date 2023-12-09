@@ -2516,7 +2516,7 @@ function beginUnbox() { // This function handles the unbox countdown and shows t
             case 145:
             case 150:
             case 154:
-            case 157:
+            case 158:
                 sound.play("winterCrateOpen");
                 break;
             default:
