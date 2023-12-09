@@ -186,7 +186,7 @@ halloweenModeCrateList.hw22 = halloweenModeCrateList.xmas21.concat([150, 151]);
 halloweenModeCrateList.xmas22 = halloweenModeCrateList.xmas21.concat([152]);
 halloweenModeCrateList.summer23 = halloweenModeCrateList.xmas22.concat([154]);
 halloweenModeCrateList.hw23 = halloweenModeCrateList.summer23.concat([155]);
-halloweenModeCrateList.xmas23 = halloweenModeCrateList.summer23.concat([157]);
+halloweenModeCrateList.xmas23 = halloweenModeCrateList.hw23.concat([157]);
 // Crate array
 export let cA = [
     new Crate({ id: 1, series: 1, effects: gen1FX, unusual: 1, autoChance: 2 }), /*  [0] */
