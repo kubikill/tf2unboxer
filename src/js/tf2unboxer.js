@@ -26,6 +26,7 @@ import {
     xmas20FX,
     xmas21FX,
     xmas22FX,
+    xmas23FX,
     nice2014UnusualPool,
     allGensFX,
     limitedLateSummerUnusualPool,
@@ -702,8 +703,8 @@ function updateUnusualStats(array, upd) {
 
     if (array[0] === 770) {
         itemName = getString("item", 770).replace("#ITEM#", getString("item", array[1])).replace('The ', '');
-        img1 = `<img src="./images/item/${getImg("item", 770)}" alt="">`;
-        img2 = `<img class="unusualifierimg" src="./images/item/${getImg("item", array[1])}" alt="">`;
+        img1 = `<img src="./images/item/${getImg("item", 770)}" alt="" loading="lazy">`;
+        img2 = `<img class="unusualifierimg" src="./images/item/${getImg("item", array[1])}" alt="" loading="lazy">`;
     } else {
         if (strangeStringPosition === "left") {
             itemName = `${qualityName} ${itemName}`;
@@ -716,8 +717,8 @@ function updateUnusualStats(array, upd) {
         }
         effectText = `<p class="statsunusualseffect">${statClockText}${getString("ui", 79)} ${getString("effect", array[1])}</p>`;
 
-        img1 = `<img src="./images/effect/${getImg("effect", array[1])}" alt="">`;
-        img2 = `<img src="./images/item/${skinFolder}${getImg("item", array[0])}" alt="">`;
+        img1 = `<img src="./images/effect/${getImg("effect", array[1])}" alt="" loading="lazy">`;
+        img2 = `<img src="./images/item/${skinFolder}${getImg("item", array[0])}" alt="" loading="lazy">`;
     }
 
     let urlOptions = {
@@ -775,14 +776,14 @@ function generateCrateStats() {
     let tempHtml = "";
 
     tempHtml += `<div data-cratestats="bonus">
-    <img src="./images/item/${getImg("item", 24)}" alt="">
+    <img src="./images/item/${getImg("item", 24)}" alt="" loading="lazy">
     <p class="statscratesname">${getString("ui", 144)}</p>
     </div>`;
 
     for (let crateNum of crateOrder) {
         let crate = cA[crateNum];
         tempHtml += `<div data-cratestats="${crateNum}">
-    <img src="./images/crate/${getImg("crate", crate.id)}" alt="">
+    <img src="./images/crate/${getImg("crate", crate.id)}" alt="" loading="lazy">
     <p class="statscratesname">${getString("crate", crate.id)}</p>
     <p class="statscratesseries">${getSeries(crate.series)}</p>
     </div>`
@@ -849,7 +850,7 @@ function generateCrateDetails(crate, el, saveObj, bonus) {
             let marketplaceUrl = generateMarketplaceTfUrl(urlOptions);
             tempHTML += `<div class="bordercolor colorunique">
                     <p class="cratedetailsitemname">${getString("item", item.i)}</p>
-                    <img class="cratedetailsitemimg" src="./images/item/${getImg("item", item.i)}">
+                    <img class="cratedetailsitemimg" src="./images/item/${getImg("item", item.i)}" loading="lazy">
                     <div class="cratedetailsitembottom">
                     <p class="cratedetailsitemunboxed">${getString("ui", 53)} ${item.n} ${getString("ui", 54)}</p>
                     <div class="cratedetailsitemmarketbtns">
@@ -877,11 +878,11 @@ function generateCrateDetails(crate, el, saveObj, bonus) {
                     let itemImg, kitImg, itemName;
                     itemImg = kitImg = itemName = "";
                     if (item.quality === 12) {
-                        itemImg = `<img class="cratedetailsitemimg" src="./images/item/${getImg("item", 452)}">`;
-                        kitImg = `<img class="cratedetailskitimg" src="./images/item/${getImg("item", item.id)}">`;
+                        itemImg = `<img class="cratedetailsitemimg" src="./images/item/${getImg("item", 452)}" loading="lazy">`;
+                        kitImg = `<img class="cratedetailskitimg" src="./images/item/${getImg("item", item.id)}" loading="lazy">`;
                         itemName = getString("item", 452).replace("#ITEM#", getString("item", item.id)).replace('The ', '');
                     } else {
-                        itemImg = `<img class="cratedetailsitemimg" src="./images/item/${getImg("item", item.id)}">`;
+                        itemImg = `<img class="cratedetailsitemimg" src="./images/item/${getImg("item", item.id)}" loading="lazy">`;
                         itemName = getString("item", item.id);
                     }
                     let borderColor = "bordercolor ";
@@ -970,7 +971,7 @@ function generateCrateDetails(crate, el, saveObj, bonus) {
                     tempHTML += `<div${gradeClass}>
                     <p class="cratedetailsitemname">${getString("item", item.id)}</p>
                     <div>
-                    <img class="cratedetailsitemimg" src="./images/item/${getImg("item", item.id)}">
+                    <img class="cratedetailsitemimg" src="./images/item/${getImg("item", item.id)}" loading="lazy">
                         <div class="cratedetailsqualitylist">
                             <p class="colorunique">${getString("ui", 146)}:</p>
                             <p>${saveObject.crates[crate][index].n}</p>
@@ -1026,7 +1027,7 @@ function generateCrateDetails(crate, el, saveObj, bonus) {
                     tempHTML += `<div${gradeClass2}>
                     <p class="cratedetailsitemname">${getString("item", item.id)}</p>
                     <div>
-                    <img class="cratedetailsitemimg" src="./images/item/skins/FN${getImg("item", item.id)}">
+                    <img class="cratedetailsitemimg" src="./images/item/skins/FN${getImg("item", item.id)}" loading="lazy">
                         <div class="cratedetailsqualitylist">
                             <p class="colorunique">${getString("ui", 80)}:</p>
                             <p>${saveObject.crates[crate][index].FN}</p>
@@ -1063,8 +1064,8 @@ function generateCrateDetails(crate, el, saveObj, bonus) {
                         marketplaceUrl = generateMarketplaceTfUrl(urlOptions);
                         tempHTML += `<div class="bordercolor colorunique">
                     <p class="cratedetailsitemname">${itemName}</p>
-                    <img class="cratedetailsitemimg" src="./images/item/${getImg("item", 764)}">
-                    <img class="cratedetailskitimg" src="./images/item/${getImg("item", item.id)}">
+                    <img class="cratedetailsitemimg" src="./images/item/${getImg("item", 764)}" loading="lazy">
+                    <img class="cratedetailskitimg" src="./images/item/${getImg("item", item.id)}" loading="lazy">
                     <div class="cratedetailsitembottom">
                     <p class="cratedetailsitemunboxed">${getString("ui", 53)} ${saveObject.crates[crate][index].n} ${getString("ui", 54)}</p>
                     <div class="cratedetailsitemmarketbtns">
@@ -1088,8 +1089,8 @@ function generateCrateDetails(crate, el, saveObj, bonus) {
                         tempHTML += `<div class="bordercolor colorunique">
                     <p class="cratedetailsitemname">${itemName}<br>
                     <span class="cratedetailskillstreak">${getString("ui", 126)} ${getString("ui", sheenTable[specKit.s])}</span></p>
-                    <img class="cratedetailsitemimg" src="./images/item/${getImg("item", 765)}">
-                    <img class="cratedetailskitimg" src="./images/item/${getImg("item", item.id)}">
+                    <img class="cratedetailsitemimg" src="./images/item/${getImg("item", 765)}" loading="lazy">
+                    <img class="cratedetailskitimg" src="./images/item/${getImg("item", item.id)}" loading="lazy">
                     <div class="cratedetailsitembottom">
                     <p class="cratedetailsitemunboxed">${getString("ui", 53)} ${specKit.n} ${getString("ui", 54)}</p>
                     <div class="cratedetailsitemmarketbtns">
@@ -1114,8 +1115,8 @@ function generateCrateDetails(crate, el, saveObj, bonus) {
                     <p class="cratedetailsitemname">${itemName}<br>
                     <span class="cratedetailskillstreak">${getString("ui", 126)} ${getString("ui", sheenTable[proKit.s])}<br>
                     ${getString("ui", 127)} ${getString("ui", killstreakerTable[proKit.k])}</span></p>
-                    <img class="cratedetailsitemimg" src="./images/item/${getImg("item", 766)}">
-                    <img class="cratedetailskitimg" src="./images/item/${getImg("item", item.id)}">
+                    <img class="cratedetailsitemimg" src="./images/item/${getImg("item", 766)}" loading="lazy">
+                    <img class="cratedetailskitimg" src="./images/item/${getImg("item", item.id)}" loading="lazy">
                     <div class="cratedetailsitembottom">
                     <p class="cratedetailsitemunboxed">${getString("ui", 53)} ${proKit.n} ${getString("ui", 54)}</p>
                     <div class="cratedetailsitemmarketbtns">
@@ -1143,7 +1144,7 @@ function generateCrateDetails(crate, el, saveObj, bonus) {
                 marketplaceUrl = generateMarketplaceTfUrl(urlOptions);
                 tempHTML += `<div class="bordercolor colorunique">
                 <p class="cratedetailsitemname">${getString("item", item)}</p>
-                <img class="cratedetailsitemimg" src="./images/item/${getImg("item", item)}">
+                <img class="cratedetailsitemimg" src="./images/item/${getImg("item", item)}" loading="lazy">
                 <div class="cratedetailsitembottom">
                 <p class="cratedetailsitemunboxed">${getString("ui", 53)} ${saveObject.crates[crate][bonusItemIndex].n} ${getString("ui", 54)}</p>
                 <div class="cratedetailsitemmarketbtns">
@@ -1175,8 +1176,8 @@ function generateCrateDetails(crate, el, saveObj, bonus) {
                         let itemName = getString("item", 764).replace("#ITEM#", getString("item", item.id)).replace('The ', '');
                         tempHTML += `<div class="bordercolor colorunique">
                     <p class="cratedetailsitemname">${itemName}</p>
-                    <img class="cratedetailsitemimg" src="./images/item/${getImg("item", 764)}">
-                    <img class="cratedetailskitimg" src="./images/item/${getImg("item", item.id)}">
+                    <img class="cratedetailsitemimg" src="./images/item/${getImg("item", 764)}" loading="lazy">
+                    <img class="cratedetailskitimg" src="./images/item/${getImg("item", item.id)}" loading="lazy">
                     <div class="cratedetailsitembottom">
                     <p class="cratedetailsitemunboxed">${getString("ui", 53)} ${saveObject.crates[crate][bonusItemIndex].n} ${getString("ui", 54)}</p>
                     <div class="cratedetailsitemmarketbtns">
@@ -1200,8 +1201,8 @@ function generateCrateDetails(crate, el, saveObj, bonus) {
                         tempHTML += `<div class="bordercolor colorunique">
                     <p class="cratedetailsitemname">${itemName}<br>
                     <span class="cratedetailskillstreak">${getString("ui", 126)} ${getString("ui", sheenTable[specKit.s])}</span></p>
-                    <img class="cratedetailsitemimg" src="./images/item/${getImg("item", 765)}">
-                    <img class="cratedetailskitimg" src="./images/item/${getImg("item", item.id)}">
+                    <img class="cratedetailsitemimg" src="./images/item/${getImg("item", 765)}" loading="lazy">
+                    <img class="cratedetailskitimg" src="./images/item/${getImg("item", item.id)}" loading="lazy">
                     <div class="cratedetailsitembottom">
                     <p class="cratedetailsitemunboxed">${getString("ui", 53)} ${specKit.n} ${getString("ui", 54)}</p>
                     <div class="cratedetailsitemmarketbtns">
@@ -1226,8 +1227,8 @@ function generateCrateDetails(crate, el, saveObj, bonus) {
                     <p class="cratedetailsitemname">${itemName}<br>
                     <span class="cratedetailskillstreak">${getString("ui", 126)} ${getString("ui", sheenTable[proKit.s])}<br>
                     ${getString("ui", 127)} ${getString("ui", killstreakerTable[proKit.k])}</span></p>
-                    <img class="cratedetailsitemimg" src="./images/item/${getImg("item", 766)}">
-                    <img class="cratedetailskitimg" src="./images/item/${getImg("item", item.id)}">
+                    <img class="cratedetailsitemimg" src="./images/item/${getImg("item", 766)}" loading="lazy">
+                    <img class="cratedetailskitimg" src="./images/item/${getImg("item", item.id)}" loading="lazy">
                     <div class="cratedetailsitembottom">
                     <p class="cratedetailsitemunboxed">${getString("ui", 53)} ${proKit.n} ${getString("ui", 54)}</p>
                     <div class="cratedetailsitemmarketbtns">
@@ -1248,8 +1249,8 @@ function generateCrateDetails(crate, el, saveObj, bonus) {
                     steamMarketUrl = `<a class="btn tooltiptop" data-tooltip="${getString("ui", 197)}" data-tooltipstring="197" target="_blank" rel="noopener" href="${generateSteamMarketUrl(urlOptions)}"><i class="icon-steam"></i></a>`
                     backpackUrl = generateBackpackTfUrl(urlOptions);
                     marketplaceUrl = generateMarketplaceTfUrl(urlOptions);
-                    let itemImg = `<img class="cratedetailsitemimg" src="./images/item/${getImg("item", 452)}">`;
-                    let kitImg = `<img class="cratedetailskitimg" src="./images/item/${getImg("item", item.id)}">`;
+                    let itemImg = `<img class="cratedetailsitemimg" src="./images/item/${getImg("item", 452)}" loading="lazy">`;
+                    let kitImg = `<img class="cratedetailskitimg" src="./images/item/${getImg("item", item.id)}" loading="lazy">`;
                     let itemName = getString("item", 452).replace("#ITEM#", getString("item", item.id)).replace('The ', '');
                     tempHTML += `<div class="bordercolor colorunique">
                     <p class="cratedetailsitemname">${itemName}</p>
@@ -1645,6 +1646,9 @@ function generateEffectList() {
                 break;
             case "xmas22":
                 effectsArray = xmas22FX;
+                break;
+            case "xmas23":
+                effectsArray = xmas23FX;
                 break;
             case "summer23":
                 effectsArray = summer23FX;
@@ -2232,6 +2236,9 @@ function unbox() { // This function handles the unboxing itself: which item is u
                     case "xmas22":
                         effectsArray = xmas22FX;
                         break;
+                    case "xmas23":
+                        effectsArray = xmas23FX;
+                        break;
                     case "summer23":
                         effectsArray = summer23FX;
                         break;
@@ -2504,6 +2511,7 @@ function beginUnbox() { // This function handles the unbox countdown and shows t
             case 145:
             case 150:
             case 154:
+            case 157:
                 sound.play("winterCrateOpen");
                 break;
             default:

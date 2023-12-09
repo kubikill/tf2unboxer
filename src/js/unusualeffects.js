@@ -2690,66 +2690,179 @@ let dataEffects = {
     264: {
         img: "celestial_summit",
         eng: "Celestial Summit",
-        schema: 293
+        schema: 293,
+        pol: "niebiański szczyt",
+        bra: "Cume celestial",
+        fre: "Sommet céleste",
+        hun: "Mennyei csúcs"
     },
     265: {
         img: "stellar_ascent",
         eng: "Stellar Ascent",
-        schema: 294
+        schema: 294,
+        pol: "gwiezdna wzniosłość",
+        bra: "Ascensão estelar",
+        fre: "Ascension stellaire",
+        hun: "Sziporkázó emelkedés"
     },
     266: {
         img: "sapped",
         eng: "Sapped",
-        schema: 295
+        schema: 295,
+        pol: "zasapowany",
+        bra: "Sabotado",
+        fre: "Saboté",
+        hun: "Mentesítve"
     },
     267: {
         img: "hellspawned_horns",
         eng: "Hellspawned Horns",
-        schema: 297
+        schema: 297,
+        pol: "rogi z piekła rodem",
+        bra: "Chifres diabólicos",
+        fre: "Cornes diaboliques",
+        hun: "Pokol szülte szarvak"
     },
     268: {
         img: "demonic_impaler",
         eng: "Demonic Impaler",
-        schema: 299
+        schema: 299,
+        pol: "palownik z czeluści",
+        bra: "Empaladores demoníacos",
+        fre: "Empaleur démoniaque",
+        hun: "Démoni nyársaló"
     },
     269: {
         img: "revenants_rack",
         eng: "Revenant's Rack",
-        schema: 300
+        schema: 300,
+        pol: "piekielne poroże",
+        bra: "Retaliação pontiaguda",
+        fre: "Cornes du revenant",
+        hun: "Szörnyű szarvak"
     },
     270: {
         img: "sixth_sense",
         eng: "Sixth Sense",
-        schema: 301
+        schema: 301,
+        pol: "szósty zmysł",
+        bra: "Sexto sentido",
+        fre: "Sixième sens",
+        hun: "Hatodik érzék"
     },
     271: {
         img: "amygdala",
         eng: "Amygdala",
-        schema: 303
+        schema: 303,
+        pol: "ciało migdałowate",
+        bra: "Amígdala",
+        fre: "Amygdales",
+        hun: "Amigdala"
     },
     272: {
         img: "the_bone_zone",
         eng: "Bone Zone",
-        schema: 304
+        schema: 304,
+        pol: "strefa gnatów",
+        bra: "Zona óssea",
+        fre: "Crânerie",
+        hun: "A csontzóna",
+        rom: "The Bone Zone"
     },
     273: {
         img: "arachnes_web",
         eng: "Arachne's Web",
-        schema: 305
+        schema: 305,
+        pol: "pajęcza pajęczyna",
+        bra: "Teia da tecelã",
+        fre: "Toile d'araignée",
+        hun: "Arachné hálója"
     },
     274: {
         img: "acidic_climate",
         eng: "Acidic Climate",
-        schema: 306
+        schema: 306,
+        pol: "kwaśny deszcz",
+        bra: "Tempestade ácida",
+        fre: "Climat acide",
+        hun: "Savas éghajlat"
     },
     275: {
         img: "otherworldly_weather",
         eng: "Otherworldly Weather",
-        schema: 307
+        schema: 307,
+        pol: "pogoda pozaświata",
+        bra: "Tempestade cósmica",
+        fre: "Météo surnaturelle",
+        hun: "Túlvilági időjárás"
     },
     276: {
         img: "nightmarish_storm",
         eng: "Nightmarish Storm",
-        schema: 308
+        schema: 308,
+        pol: "koszmarna burza",
+        bra: "Tempestade sinistra",
+        fre: "Tempête cauchemardesque",
+        hun: "Rémálomvihar"
+    },
+    277: {
+        img: "icestruck",
+        eng: "Icestruck",
+        schema: 309
+    },
+    278: {
+        img: "goldstruck",
+        eng: "Goldstruck",
+        schema: 311
+    },
+    279: {
+        img: "radiant_rivalry",
+        eng: "Radiant Rivalry",
+        schema: 312
+    },
+    280: {
+        img: "radiant_legacy",
+        eng: "Radiant Legacy",
+        schema: 314
+    },
+    281: {
+        img: "frosty_flavours",
+        eng: "Frosty Flavours",
+        schema: 315
+    },
+    282: {
+        img: "mint_frost",
+        eng: "Mint Frost",
+        schema: 317
+    },
+    283: {
+        img: "north_star",
+        eng: "North Star",
+        schema: 318
+    },
+    284: {
+        img: "prettiest_star",
+        eng: "Prettiest Star",
+        schema: 320
+    },
+    285: {
+        img: "festive_falling_star",
+        eng: "Festive Falling Star",
+        schema: 321
+    },
+    286: {
+        img: "lunar_lights",
+        eng: "Lunar Lights",
+        schema: 322
+    },
+    287: {
+        img: "fairly_lights",
+        eng: "Fairy Lights",
+        schema: 324
+    },
+    288: {
+        img: "natural_lights",
+        eng: "Natural Lights",
+        schema: 325
     }
 }

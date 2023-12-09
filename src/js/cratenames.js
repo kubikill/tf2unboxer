@@ -1024,10 +1024,15 @@ let dataCrates = {
     },
     100: {
         img: "bone_chilling_bonanza_case",
-        eng: "Bone-Chilling Bonanza Case"
+        eng: "Bone-Chilling Bonanza Case",
+        pol: "Pojemnik mrożącej krew bonanzy",
+        bra: "Caixa da Bênção Sinistra",
+        fre: "Caisse du Magot macabre",
+        hun: "Borzongató Bonanza Táska",
+        rom: "Cutie Bone-Chilling Bonanza"
     },
     101: {
         img: "winter_2023_cosmetic_case",
-        eng: "Winter 2023 Cosmetic Case",
-    },
+        eng: "Winter 2023 Cosmetic Case"
+    }
 }

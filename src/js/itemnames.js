@@ -18408,7 +18408,8 @@ let dataItems = {
         bra: "Passo do Ursinho",
         hun: "Medvetappancs",
         fre: "Pantoufles velues",
-        swe: "Toffelhjälte"
+        swe: "Toffelhjälte",
+        sch: "梦游之熊"
     },
     1668: {
         img: "festive_flip_thwomps",
@@ -18428,7 +18429,8 @@ let dataItems = {
         bra: "Noel de Araque",
         hun: "Megszorult Mikulás",
         fre: "Père Noël fauché",
-        swe: "Lågpristomte"
+        swe: "Lågpristomte",
+        sch: "剩蛋老人"
     },
     1670: {
         img: "jolly_jingler",
@@ -18438,7 +18440,8 @@ let dataItems = {
         bra: "Guizo Natalino",
         hun: "Csavaros Csingilingi",
         fre: "Clochette pimpante",
-        swe: "Fjäder i hatten"
+        swe: "Fjäder i hatten",
+        sch: "圣诞铃铛帽"
     },
     1671: {
         img: "candy_cantlers",
@@ -18448,7 +18451,8 @@ let dataItems = {
         bra: "Galhada Adocicada",
         hun: "Cukorkagancs",
         fre: "Ramures sucrées",
-        ger: "Kandisgeweih"
+        ger: "Kandisgeweih",
+        sch: "糖果鹿角"
     },
     1672: {
         img: "festive_fascinator",
@@ -18477,7 +18481,8 @@ let dataItems = {
         bra: "Protetor Particular",
         hun: "Részecskeszűrő",
         fre: "Protecteur de particules",
-        ger: "Partikelmaske"
+        ger: "Partikelmaske",
+        sch: "有害微粒过滤器"
     },
     1675: {
         img: "the_killing_tree",
@@ -18504,7 +18509,8 @@ let dataItems = {
         bra: "Gorrinho do Soninho",
         hun: "Álommannus Sipka",
         fre: "Marchand de sommeil",
-        ger: "SandMannmütze"
+        ger: "SandMannmütze",
+        sch: "睡魔的流苏"
     },
     1678: {
         img: "bedbug_protection",
@@ -18514,7 +18520,8 @@ let dataItems = {
         bra: "Proteção Anti-Papão",
         hun: "Álombiztonsági Egyenruha",
         fre: "Pyjama protecteur",
-        ger: "Anti-Bettwanzen-Pyjama"
+        ger: "Anti-Bettwanzen-Pyjama",
+        sch: "瞌睡虫之衣"
     },
     1679: {
         img: "professionals_pom_pom",
@@ -18554,7 +18561,8 @@ let dataItems = {
         bra: "O Estrondoso Timão",
         hun: "Hajóssapka",
         fre: "Commandant de bord",
-        swe: "Skepparhatt"
+        swe: "Skepparhatt",
+        sch: "帆船之盔"
     },
     1683: {
         img: "towering_pillar_of_beanies",
@@ -18564,7 +18572,8 @@ let dataItems = {
         bra: "Pilar Monumental de Gorros",
         hun: "Magasan Tornyosuló Téli Sapkák",
         fre: "Imposante pile de bonnets",
-        ger: "Hochragende Säule von Beanies"
+        ger: "Hochragende Säule von Beanies",
+        sch: "高耸如柱的圣诞帽"
     },
     1684: {
         img: "the_round_a_bout",
@@ -18574,7 +18583,8 @@ let dataItems = {
         bra: "Pyrossel",
         hun: "Körhinta",
         fre: "Manège portable",
-        swe: "Karusellkrona"
+        swe: "Karusellkrona",
+        sch: "旋转独角兽"
     },
     1685: {
         img: "towering_pile_of_presents",
@@ -19926,7 +19936,8 @@ let dataItems = {
         pol: "Zamaskowany demon",
         bra: "A Máscara do Malvado",
         fre: "Démon masqué",
-        hun: "Álarcos Ördög"
+        hun: "Álarcos Ördög",
+        sch: "覆面小鬼"
     },
     1828: {
         img: "safety_stripes",
@@ -20471,7 +20482,8 @@ let dataItems = {
         schema: 31373,
         pol: "Inżynieria inwentarza",
         fre: "Contremaitre",
-        hun: "Rakodómunkás"
+        hun: "Rakodómunkás",
+        bra: "Construtor de Carga"
     },
     1888: {
         img: "blast_bowl",
@@ -20585,7 +20597,8 @@ let dataItems = {
         schema: 31370,
         pol: "Okucie oprycha",
         fre: "Bottes de baroudeur",
-        hun: "Sárdagasztó"
+        hun: "Sárdagasztó",
+        bra: "Moda do Motoqueiro"
     },
     1901: {
         img: "shrapnel_shell",
@@ -20611,7 +20624,8 @@ let dataItems = {
         schema: 31368,
         pol: "Za Mann brat",
         fre: "Le biker",
-        hun: "Mann Testvér"
+        hun: "Mann Testvér",
+        bra: "Mano Mann"
     },
     1904: {
         img: "cranium_cover",
@@ -20815,81 +20829,146 @@ let dataItems = {
     1926: {
         img: "make_ogre",
         eng: "Make Ogre",
-        schema: 31403
+        schema: 31403,
+        pol: "Ogromorfoza",
+        bra: "Harmonização Ogrível",
+        fre: "Métamorphogre",
+        hun: "Ogresszivitás"
     },
     1927: {
         img: "medical_mummy",
         eng: "Medical Mummy",
-        schema: 31399
+        schema: 31399,
+        pol: "Medyczna mumia",
+        bra: "Múmia Médica",
+        fre: "Mommie médicale",
+        hun: "Orvosi Múmia"
     },
     1928: {
         img: "six_eyed_specs",
         eng: "Six-Eyed Specs",
-        schema: 31398
+        schema: 31398,
+        pol: "Sześciooki",
+        bra: "São Seis Olhos",
+        fre: "Verres hexoculaires",
+        hun: "Hatszem-optika"
     },
     1929: {
         img: "concealed_convict",
         eng: "Concealed Convict",
-        schema: 31397
+        schema: 31397,
+        pol: "Schowany skazaniec",
+        bra: "Condenado Camuflado",
+        fre: "Prisonnier planqué",
+        hun: "Fedett Fegyenc"
     },
     1930: {
         img: "constructors_cover",
         eng: "Constructor's Cover",
-        schema: 31395
+        schema: 31395,
+        pol: "Kamizelka konstruktora",
+        bra: "Cobertura do Construtor",
+        fre: "Cuirasse du contremaitre",
+        hun: "Szerelő-szerelés"
     },
     1931: {
         img: "thunder_dome",
         eng: "Thunder Dome",
-        schema: 31391
+        schema: 31391,
+        pol: "Hukowy hełm",
+        bra: "Cúpula do Trovão",
+        fre: "Casque du tonnerre",
+        hun: "Viharkupola"
     },
     1932: {
         img: "splitting_headache",
         eng: "Splitting Headache",
-        schema: 31390
+        schema: 31390,
+        pol: "Przeszywający ból",
+        bra: "Mente Afiada",
+        fre: "Lame de tête",
+        hun: "Hasogató Fejfájás"
     },
     1933: {
         img: "shortness_of_breath",
-        eng: "Shortness of Breath"
+        eng: "Shortness Of Breath",
+        schema: 31387,
+        pol: "Bezdech",
+        bra: "Falta de Ar",
+        fre: "Souffle court",
+        hun: "Légszomj"
     },
     1934: {
         img: "mean_captain",
         eng: "Mean Captain",
-        schema: 31385
+        schema: 31385,
+        pol: "Karygodny kapitan",
+        bra: "O Capetão da Equipe",
+        fre: "Capitaine cornu",
+        hun: "A Gonoszkapitány"
     },
     1935: {
         img: "ludicrously_lunatic_lunon_fedora",
         eng: "Ludicrously Lunatic Lunon Fedora",
-        schema: 31383
+        schema: 31383,
+        pol: "Niedorzecznie naświetlona freonowa fedora",
+        bra: "Fedora de Lunônio Loucamente Lunático",
+        fre: "Loufoque et lunatique fedora fluo",
+        hun: "Fölöttébb Fantasztikus Fénylő Fedora"
     },
     1936: {
         img: "jumping_jester",
         eng: "Jumping Jester",
-        schema: 31407
+        schema: 31407,
+        pol: "Podskakujący pajac",
+        bra: "Bufão Brincalhão",
+        fre: "Bouffon bondissant",
+        hun: "Pattogó Bohóc"
     },
     1937: {
         img: "sharpshooters_shroud",
         eng: "Sharpshooter's Shroud",
-        schema: 31405
+        schema: 31405,
+        pol: "Całun celowniczego",
+        bra: "Fachada do Feiticeiro",
+        fre: "Tabar du tireur",
+        hun: "Mesterlövész-köpönyeg"
     },
     1938: {
         img: "main_cast",
         eng: "Main Cast",
-        schema: 31400
+        schema: 31400,
+        pol: "Gruby gips",
+        bra: "O Gesso Espesso",
+        fre: "Plâtre principal",
+        hun: "Öngyógyító"
     },
     1939: {
         img: "classic_criminal",
         eng: "Classic Criminal",
-        schema: 31396
+        schema: 31396,
+        pol: "Klasyczny kryminalista",
+        bra: "Criminoso Clássico",
+        fre: "Criminel classique",
+        hun: "Klasszikus Bűnöző"
     },
     1940: {
         img: "dell_dynamic",
         eng: "Dell Dynamic",
-        schema: 31394
+        schema: 31394,
+        pol: "Dynamiczny Dell",
+        bra: "Dell Dinâmico",
+        fre: "Dell dynamique",
+        hun: "Dinamikus Dell"
     },
     1941: {
         img: "stunt_suit",
         eng: "Stunt Suit",
-        schema: 31392
+        schema: 31392,
+        pol: "Konfekcja kaskadera",
+        bra: "Traje do Acrobata",
+        fre: "Tenue de cascadeur",
+        hun: "Kaszkadőrruha"
     },
     1942: {
         img: "dead_heat",
@@ -20905,185 +20984,273 @@ let dataItems = {
     1943: {
         img: "warlocks_warcloak",
         eng: "Warlock's Warcloak",
-        schema: 31388
+        schema: 31388,
+        pol: "Peleryna prestidigitatora",
+        bra: "Manto do Mago",
+        fre: "Cape du sorcier belliqueux",
+        hun: "Csatamágusi Csataköpeny"
     },
     1944: {
         img: "clowns_coverup",
         eng: "Clown's Cover-Up",
-        schema: 31386
+        schema: 31386,
+        pol: "Skryty śmieszek",
+        bra: "Cobertura Circense",
+        fre: "Masque de clown",
+        hun: "Bohócálca"
     },
     1945: {
         img: "mad_lad",
         eng: "Mad Lad",
-        schema: 31393
+        schema: 31393,
+        pol: "Szaleniec",
+        bra: "Farda da Estrada",
+        fre: "Maboul",
+        hun: "Őrült Legény"
     },
     1946: {
         img: "last_laugh",
         eng: "Last Laugh",
-        schema: 31406
+        schema: 31406,
+        pol: "Kto się śmieje ostatni",
+        bra: "A Última Risada",
+        fre: "Qui rira le dernier",
+        hun: "Az Utolsó Nevetés"
     },
     1947: {
         img: "sightseer",
         eng: "Sightseer",
-        schema: 31404
+        schema: 31404,
+        pol: "Jasnowidz",
+        bra: "Assassino Arcano",
+        fre: "Chapeau pointu",
+        hun: "Messzelátó"
     },
     1948: {
         img: "power_spike",
         eng: "Power Spike",
-        schema: 31401
+        schema: 31401,
+        pol: "Skok mocy",
+        bra: "Penteado Potente",
+        fre: "Survoltage",
+        hun: "Áramlöket"
     },
     1949: {
         img: "demonic_dome",
         eng: "Demonic Dome",
-        schema: 31384
+        schema: 31384,
+        pol: "Szatańskie sklepienie",
+        bra: "Domo Demoníaco",
+        fre: "Casque démoniaque",
+        hun: "Démoni Búra"
     },
     1950: {
         img: "bare_bear_bones",
         eng: "Bare Bear Bones",
-        schema: 31402
+        schema: 31402,
+        pol: "Nieżywy niedźwiedź",
+        bra: "Osso de Urso Grosso",
+        fre: "Crâne d'ours",
+        hun: "Medvekoponya"
     },
     1951: {
         img: "blastphomet",
         eng: "Blastphomet",
-        schema: 31408
+        schema: 31408,
+        pol: "Bombomet",
+        bra: "Bafomé das Bombas",
+        fre: "Boumphomet"
     },
     1952: {
         img: "spyder",
         eng: "Spyder",
-        schema: 31409
+        schema: 31409,
+        pol: "Szpająk",
+        bra: "Spyracnídeo",
+        hun: "Pókém"
     },
     1953: {
         img: "carry_van",
         eng: "Carry-Van",
-        schema: 31410
+        schema: 31410,
+        pol: "Nosibus",
+        bra: "Furgão de Papelão",
+        fre: "Véhicule autoporté",
+        hun: "Lakógatyó"
     },
     1954: {
         img: "fiercesome_fluorescence",
         eng: "Fiercesome Fluorescence",
-        schema: 31411
+        schema: 31411,
+        pol: "Fluorescencyjna trwoga",
+        bra: "Fluorescência Feroz",
+        fre: "Fluorescence abyssale",
+        hun: "Félelmetes Fluoreszcencia"
     },
     1955: {
         img: "taunt_neck_snap",
         eng: "Taunt: Neck Snap",
-        schema: 31381
+        schema: 31381,
+        pol: "Drwina: Karkoskręt",
+        bra: "Provocação: Quiroprata da Casa",
+        fre: "Raillerie : Brisage de nuque",
+        hun: "Beszólás: Nyakropogtató"
     },
     1956: {
         img: "taunt_roar_o_war",
         eng: "Taunt: Roar O'War",
-        schema: 31380
+        schema: 31380,
+        pol: "Drwina: Ryk wojenny",
+        bra: "Provocação: Rugido de Guerra",
+        fre: "Raillerie : Cri de guerre",
+        hun: "Beszólás: Csatakurjantás"
     },
     1957: {
         img: "taunt_borrowed_bones",
         eng: "Taunt: Borrowed Bones",
-        schema: 31382
+        schema: 31382,
+        pol: "Drwina: Lekarska lichwa",
+        bra: "Provocação: Esqueleto Emprestado",
+        fre: "Raillerie : Squelette emprunté",
+        hun: "Beszólás: Kölcsöncsontváz"
     },
     1958: {
         img: "taunt_crypt_creeper",
         eng: "Taunt: The Crypt Creeper",
-        schema: 31289
+        schema: 31289,
+        pol: "Drwina: Strach do szpiegu kości",
+        bra: "Provocação: Descanso do Drácula",
+        fre: "Raillerie : Vagabond des cryptes",
+        hun: "Beszólás: A kripták kémje"
     },
     1959: {
         img: "bigger_mann_on_campus",
         eng: "Bigger Mann on Campus",
+        schema: 31435
     },
     1960: {
         img: "balkans_brute",
         eng: "Balkan's Brute",
+        schema: 31434
     },
     1961: {
         img: "impact_impaler",
         eng: "Impact Impaler",
+        schema: 31432
     },
     1962: {
         img: "rugged_rags",
         eng: "Rugged Rags",
+        schema: 31430
     },
     1963: {
         img: "the_covert_covers",
         eng: "The Covert Covers",
+        schema: 31428
     },
     1964: {
         img: "sleuth_suit",
         eng: "Sleuth Suit",
+        schema: 31426
     },
     1965: {
         img: "nightcap",
         eng: "Nightcap",
+        schema: 31422
     },
     1966: {
         img: "the_puffed_practitioner",
         eng: "The Puffed Practitioner",
+        schema: 31420
     },
     1967: {
         img: "wanderers_wool",
         eng: "Wanderer's Wool",
+        schema: 31419
     },
     1968: {
         img: "cozy_cover_up",
         eng: "Cozy Cover-Up",
+        schema: 31416
     },
     1969: {
         img: "isotopic_insulator",
         eng: "Isotopic Insulator",
+        schema: 31436
     },
     1970: {
         img: "torchers_trench_coat",
         eng: "Torcher's Trench Coat",
+        schema: 31433
     },
     1971: {
         img: "strasbourg_scholar",
-        eng: "Strasbourg Scolar",
+        eng: "Strasbourg Scholar",
+        schema: 31427
     },
     1972: {
         img: "clue_hairdo",
         eng: "Clue Hairdo",
+        schema: 31425
     },
     1973: {
         img: "slumber_slacks",
         eng: "Slumber Slacks",
+        schema: 31424
     },
     1974: {
         img: "the_frigid_fashion",
         eng: "The Frigid Fashion",
+        schema: 31421
     },
     1975: {
         img: "trench_warefarer",
         eng: "Trench Warefarer",
+        schema: 31418
     },
     1976: {
         img: "the_dapper_dickens",
         eng: "The Dapper Dickens",
+        schema: 31417
     },
     1977: {
         img: "bonk_beanie",
         eng: "Bonk Beanie",
+        schema: 31437
     },
     1978: {
         img: "masked_loyalty",
         eng: "Masked Loyalty",
+        schema: 31431
     },
     1979: {
         img: "lazy_lounger",
         eng: "Lazy Lounger",
+        schema: 31423
     },
     1980: {
         img: "boarders_beanie",
         eng: "Boarder's Beanie",
+        schema: 31415
     },
     1981: {
         img: "scruffed_n_stitched",
         eng: "Scruffed 'n Stitched",
+        schema: 31429
     },
     1982: {
         img: "taunt_foul_play",
         eng: "Taunt: Foul Play",
+        schema: 31414
     },
     1983: {
         img: "taunt_cheers",
         eng: "Taunt: Cheers!",
+        schema: 31412
     },
     1984: {
         img: "taunt_mourning_mercs",
         eng: "Taunt: Mourning Mercs",
-    },
+        schema: 31413
+    }
 }
