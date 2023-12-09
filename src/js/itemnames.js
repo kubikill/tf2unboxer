@@ -20981,5 +20981,109 @@ let dataItems = {
         img: "taunt_crypt_creeper",
         eng: "Taunt: The Crypt Creeper",
         schema: 31289
-    }
+    },
+    1959: {
+        img: "bigger_mann_on_campus",
+        eng: "Bigger Mann on Campus",
+    },
+    1960: {
+        img: "balkans_brute",
+        eng: "Balkan's Brute",
+    },
+    1961: {
+        img: "impact_impaler",
+        eng: "Impact Impaler",
+    },
+    1962: {
+        img: "rugged_rags",
+        eng: "Rugged Rags",
+    },
+    1963: {
+        img: "the_covert_covers",
+        eng: "The Covert Covers",
+    },
+    1964: {
+        img: "sleuth_suit",
+        eng: "Sleuth Suit",
+    },
+    1965: {
+        img: "nightcap",
+        eng: "Nightcap",
+    },
+    1966: {
+        img: "the_puffed_practitioner",
+        eng: "The Puffed Practitioner",
+    },
+    1967: {
+        img: "wanderers_wool",
+        eng: "Wanderer's Wool",
+    },
+    1968: {
+        img: "cozy_cover_up",
+        eng: "Cozy Cover-Up",
+    },
+    1969: {
+        img: "isotopic_insulator",
+        eng: "Isotopic Insulator",
+    },
+    1970: {
+        img: "torchers_trench_coat",
+        eng: "Torcher's Trench Coat",
+    },
+    1971: {
+        img: "strasbourg_scholar",
+        eng: "Strasbourg Scolar",
+    },
+    1972: {
+        img: "clue_hairdo",
+        eng: "Clue Hairdo",
+    },
+    1973: {
+        img: "slumber_slacks",
+        eng: "Slumber Slacks",
+    },
+    1974: {
+        img: "the_frigid_fashion",
+        eng: "The Frigid Fashion",
+    },
+    1975: {
+        img: "trench_warefarer",
+        eng: "Trench Warefarer",
+    },
+    1976: {
+        img: "the_dapper_dickens",
+        eng: "The Dapper Dickens",
+    },
+    1977: {
+        img: "bonk_beanie",
+        eng: "Bonk Beanie",
+    },
+    1978: {
+        img: "masked_loyalty",
+        eng: "Masked Loyalty",
+    },
+    1979: {
+        img: "lazy_lounger",
+        eng: "Lazy Lounger",
+    },
+    1980: {
+        img: "boarders_beanie",
+        eng: "Boarder's Beanie",
+    },
+    1981: {
+        img: "scruffed_n_stitched",
+        eng: "Scruffed 'n Stitched",
+    },
+    1982: {
+        img: "taunt_foul_play",
+        eng: "Taunt: Foul Play",
+    },
+    1983: {
+        img: "taunt_cheers",
+        eng: "Taunt: Cheers!",
+    },
+    1984: {
+        img: "taunt_mourning_mercs",
+        eng: "Taunt: Mourning Mercs",
+    },
 }

@@ -1025,5 +1025,9 @@ let dataCrates = {
     100: {
         img: "bone_chilling_bonanza_case",
         eng: "Bone-Chilling Bonanza Case"
-    }
+    },
+    101: {
+        img: "winter_2023_cosmetic_case",
+        eng: "Winter 2023 Cosmetic Case",
+    },
 }

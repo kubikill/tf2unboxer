@@ -2426,4 +2426,14 @@ let dataUi = {
         rom: "Fortareata Urlatoare XV (2023)",
 		swe: "Skrik Fortress XV (2023)"
     },
+    217: {
+        eng: "Smissmas 2023",
+        pol: "Śnięta 2023",
+        sch: "圣诞节 2023",
+        bra: "Natal de 2023",
+        cze: "Vánoce 2023",
+        hun: "Galácsony 2023",
+        rom: "Craciun 2023",
+		swe: "Smissmas 2023"
+    },
 }
