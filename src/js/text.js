@@ -448,7 +448,7 @@ export let dataUi = {
         pol: "Ilość posiadanych:",
         sch: "开出次数：",
         bra: "Vezes desencaixotadas:",
-        fre: "Qauntité déballée:",
+        fre: "Quantité déballée:",
         cze: "Otevřeno tolikrát:",
         hun: "Kibontva ennyiszer:",
         rom: "Numarul deschiderilor:",
