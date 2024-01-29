@@ -128,6 +128,9 @@ function unbox() { // This function handles the unboxing itself: which item is u
                         unusualArray = crate.loot.filter(item => {
                             return [6, 7, 9, 10].includes(item.quality) && item.grade == gradeRandom;
                         });
+                        if (save.options.miscUnusuals && currentCrate === 105 && gradeRandom === 4) {
+                            unusualArray.push(crate.loot[5]) // Captain Space Mann
+                        }
                         if (gradeRandom <= 2) {
                             throw new Error;
                         }

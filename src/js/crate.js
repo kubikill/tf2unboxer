@@ -1718,7 +1718,7 @@ cA[105].loot = [
     new Item({ id: 1016, quality: 4, grade: 3 }),
     new Item({ id: 1017, quality: 4, grade: 3 }),
     new Item({ id: 1018, quality: 4, grade: 4 }),
-    new Item({ id: 1019, quality: 10, grade: 4 }),
+    new Item({ id: 1019, quality: 4, grade: 4 }),
     new Item({ id: 1020, quality: 4, grade: 4 }),
     new Item({ id: 1021, quality: 4, grade: 5 }),
     new Item({ id: 1022, quality: 4, grade: 5 }),
