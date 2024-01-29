@@ -36,6 +36,9 @@ import {
     allGensFX,
     limitedLateSummerUnusualPool,
     hw23FX,
+    miscUnusualPool,
+    eotlGlitchUnusualPool,
+    sniperVsSpyUnusualsPool,
     } from "./crate.js";
 
 const wearTable = ["", "FN", "MW", "FT", "WW", "BS"];
@@ -78,10 +81,13 @@ function unbox() { // This function handles the unboxing itself: which item is u
                 case 1: // Pick a random unusual from the general unusual pool
                     unusualArray = unusualPool.slice();
                     if (currentCrate === 96 && save.options.eotlGlitch) {
-                        unusualArray.push(916, 917, 918);
-                    };
+                        unusualArray = unusualArray.concat(eotlGlitchUnusualPool);
+                    }
                     if (currentCrateObj.series >= 1 && currentCrateObj.series <= 55 && save.options.sniperVsSpyUnusuals) {
-                        unusualArray.push(1354, 1359, 1370, 62, 158, 194, 124, 70, 178);
+                        unusualArray = unusualArray.concat(sniperVsSpyUnusualsPool);
+                    }
+                    if (currentCrateObj.series >= 1 && currentCrateObj.series <= 103 && save.options.miscUnusuals) {
+                        unusualArray = unusualArray.concat(miscUnusualPool);
                     }
                     if (currentCrateObj.series === 89) {
                         unusualArray = unusualArray.concat(nice2014UnusualPool);

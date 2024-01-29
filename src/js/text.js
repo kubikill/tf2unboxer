@@ -2436,4 +2436,12 @@ export let dataUi = {
         rom: "Craciun 2023",
 		swe: "Smissmas 2023"
     },
+    218: {
+        eng: "Enable unusual miscs:",
+        pol: "Włącz Nietypowe Okazy na przedmiotach dodatkowych:",
+    },
+    219: {
+        eng: "Allows some miscs to be unboxed as Unusuals from crates added before the TF2 July 7th 2016 update (crates #1 - #102)",
+        pol: "Ta opcja pozwala na otrzymanie tzw. przedmiotów dodatkowych (ang. miscs) w jakości Nietypowy Okaz z skrzynek dodanych przed aktualizacją TF2 z 7 lutego 2016 (skrzynki #1 - #102).",
+    }
 }
