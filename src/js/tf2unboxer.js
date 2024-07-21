@@ -35,6 +35,7 @@ import {
     miscUnusualPool,
     eotlGlitchUnusualPool,
     sniperVsSpyUnusualsPool,
+    summer24FX,
 } from "./crate.js";
 
 import { dataItems } from "./itemnames.js";
@@ -1662,6 +1663,9 @@ function generateEffectList() {
             case "summer23":
                 effectsArray = summer23FX;
                 break;
+            case "summer24":
+                effectsArray = summer24FX;
+                break;
         }
     } else {
         effectsArray = currentCrateObj.effects;
@@ -2256,6 +2260,9 @@ function unbox() { // This function handles the unboxing itself: which item is u
                         break;
                     case "summer23":
                         effectsArray = summer23FX;
+                        break;
+                    case "summer24":
+                        effectsArray = summer24FX;
                         break;
                 }
             } else {

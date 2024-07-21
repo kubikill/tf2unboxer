@@ -2443,5 +2443,8 @@ export let dataUi = {
     219: {
         eng: "Allows some miscs to be unboxed as Unusuals from crates added before the TF2 July 7th 2016 update (crates #1 - #102)",
         pol: "Ta opcja pozwala na otrzymanie tzw. przedmiotów dodatkowych (ang. miscs) w jakości Nietypowy Okaz z skrzynek dodanych przed aktualizacją TF2 z 7 lutego 2016 (skrzynki #1 - #102).",
-    }
+    },
+    220: {
+        eng: "Summer 2024",
+    },
 }

@@ -86,7 +86,7 @@ function unbox() { // This function handles the unboxing itself: which item is u
                     if (currentCrateObj.series >= 1 && currentCrateObj.series <= 55 && save.options.sniperVsSpyUnusuals) {
                         unusualArray = unusualArray.concat(sniperVsSpyUnusualsPool);
                     }
-                    if (currentCrateObj.series >= 1 && currentCrateObj.series <= 103 && save.options.miscUnusuals) {
+                    if (currentCrateObj.series >= 1 && currentCrateObj.series <= 102 && save.options.miscUnusuals) {
                         unusualArray = unusualArray.concat(miscUnusualPool);
                     }
                     if (currentCrateObj.series === 89) {
@@ -369,6 +369,9 @@ function unbox() { // This function handles the unboxing itself: which item is u
                         break;
                     case "summer23":
                         effectsArray = summer23FX;
+                        break;
+                    case "summer24":
+                        effectsArray = summer24FX;
                         break;
                 }
             } else {

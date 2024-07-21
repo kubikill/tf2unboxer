@@ -1033,6 +1033,16 @@ export let dataCrates = {
     },
     101: {
         img: "winter_2023_cosmetic_case",
-        eng: "Winter 2023 Cosmetic Case"
+        eng: "Winter 2023 Cosmetic Case",
+        pol: "Zimowy pojemnik ozdób 2023",
+        bra: "Caixa de Cosméticos de Fim de Ano de 2023",
+        fre: "Caisse de cosmétiques d'hiver 2023",
+        hun: "Tél 2023 Díszítő Táska",
+        rom: "Cutie cu accesorii Winter 2023",
+        swe: "Vinter 2023-kosmetiklåda"
+    },
+    102: {
+        img: "summer_2024_cosmetic_case",
+        eng: "Summer 2024 Cosmetic Case"
     }
 }

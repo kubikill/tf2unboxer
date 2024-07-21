@@ -2808,61 +2808,211 @@ export let dataEffects = {
     277: {
         img: "icestruck",
         eng: "Icestruck",
-        schema: 309
+        schema: 309,
+        pol: "lodowate uderzenie",
+        bra: "Flechada gelada",
+        fre: "Flèche glacée",
+        hun: "Jégnyíl",
+        swe: "Isträff"
     },
     278: {
         img: "goldstruck",
         eng: "Goldstruck",
-        schema: 311
+        schema: 311,
+        pol: "złote uderzenie",
+        bra: "Flechada dourada",
+        fre: "Flèche dorée",
+        hun: "Aranynyíl",
+        swe: "Guldträff"
     },
     279: {
         img: "radiant_rivalry",
         eng: "Radiant Rivalry",
-        schema: 312
+        schema: 312,
+        pol: "rozpromieniona rywalizacja",
+        bra: "Rivalidade radiante",
+        fre: "Rivalité radieuse",
+        hun: "Ragyogó rivalizálás",
+        swe: "Lysande rivalitet"
     },
     280: {
         img: "radiant_legacy",
         eng: "Radiant Legacy",
-        schema: 314
+        schema: 314,
+        pol: "rozpromieniona sukcesja",
+        bra: "Legado luminoso",
+        fre: "Promo radieuse",
+        hun: "Sugárzó hagyaték",
+        swe: "Lysande arv"
     },
     281: {
         img: "frosty_flavours",
         eng: "Frosty Flavours",
-        schema: 315
+        schema: 315,
+        pol: "mroźne posmaki",
+        bra: "Cérebro congelado",
+        fre: "Saveurs givrées",
+        hun: "Fagyos finomságok",
+        swe: "Frostiga smaker"
     },
     282: {
         img: "mint_frost",
         eng: "Mint Frost",
-        schema: 317
+        schema: 317,
+        pol: "mroźna mięta",
+        bra: "Geada de menta",
+        fre: "Menthe givrée",
+        hun: "Deres menta",
+        swe: "Mintfrost"
     },
     283: {
         img: "north_star",
         eng: "North Star",
-        schema: 318
+        schema: 318,
+        pol: "Gwiazda Polarna",
+        bra: "Estrela Polar",
+        fre: "Étoile polaire",
+        hun: "Sarkcsillag",
+        swe: "Nordstjärnan"
     },
     284: {
         img: "prettiest_star",
         eng: "Prettiest Star",
-        schema: 320
+        schema: 320,
+        pol: "najładniejsza gwiazda",
+        bra: "Estrela bela",
+        fre: "Belle étoile",
+        hun: "Legszebb csillag",
+        swe: "Finaste stjärnan"
     },
     285: {
         img: "festive_falling_star",
         eng: "Festive Falling Star",
-        schema: 321
+        schema: 321,
+        pol: "świąteczna opadająca gwiazda",
+        bra: "Estrela-cadente festiva",
+        fre: "Étoile filante festive",
+        hun: "Ünnepi hullócsillag",
+        swe: "Festligt stjärnfall"
     },
     286: {
         img: "lunar_lights",
         eng: "Lunar Lights",
-        schema: 322
+        schema: 322,
+        pol: "księżycowe światełka",
+        bra: "Faíscas lunares",
+        fre: "Lumières lunaires",
+        hun: "Holdfények",
+        swe: "Månljus"
     },
     287: {
         img: "fairly_lights",
         eng: "Fairy Lights",
-        schema: 324
+        schema: 324,
+        pol: "wróżkowe światełka",
+        bra: "Faíscas fantásticas",
+        fre: "Lumières féeriques",
+        hun: "Tündérfények",
+        swe: "Feljus"
     },
     288: {
         img: "natural_lights",
         eng: "Natural Lights",
-        schema: 325
+        schema: 325,
+        pol: "naturalne światełka",
+        bra: "Faíscas naturais",
+        fre: "Lumières naturelles",
+        hun: "Természetes fények",
+        swe: "Naturligt ljus"
+    },
+    289: {
+        img: "loyalists_coronet",
+        eng: "Loyalist's Coronet",
+        schema: 327
+    },
+    290: {
+        img: "knights_prideful_spirit",
+        eng: "Knight's Prideful Spirit",
+        schema: 329
+    },
+    291: {
+        img: "barons_cherished_chaplet",
+        eng: "Baron's Cherished Chaplet",
+        schema: 330
+    },
+    292: {
+        img: "lure_of_the_deep",
+        eng: "Lure of the Deep",
+        schema: 331
+    },
+    293: {
+        img: "violent_viridian",
+        eng: "Violent Viridian",
+        schema: 333
+    },
+    294: {
+        img: "magenta_monstrum",
+        eng: "Magenta Monstrum",
+        schema: 334
+    },
+    295: {
+        img: "rainbow_reverie",
+        eng: "Rainbow Reverie",
+        schema: 335
+    },
+    296: {
+        img: "cuban_smoke",
+        eng: "Cuban Smoke",
+        schema: 336
+    },
+    297: {
+        img: "melting_mohawk",
+        eng: "Melting Mohawk",
+        schema: 337
+    },
+    298: {
+        img: "scorched_scalp",
+        eng: "Scorched Scalp",
+        schema: 339
+    },
+    299: {
+        img: "ignited_crest",
+        eng: "Ignited Crest",
+        schema: 340
+    },
+    300: {
+        img: "rare_shine",
+        eng: "Rare Shine",
+        schema: 341
+    },
+    301: {
+        img: "distant_drift",
+        eng: "Distant Drift",
+        schema: 342
+    },
+    302: {
+        img: "warp_drive",
+        eng: "Warp Drive",
+        schema: 344
+    },
+    303: {
+        img: "overdrive",
+        eng: "Overdrive",
+        schema: 345
+    },
+    304: {
+        img: "butterfly_season",
+        eng: "Butterfly Season",
+        schema: 346
+    },
+    305: {
+        img: "psycho_delic",
+        eng: "Psycho-delic",
+        schema: 348
+    },
+    306: {
+        img: "bewitching_bugs",
+        eng: "Bewitching Bugs",
+        schema: 349
     }
 }
