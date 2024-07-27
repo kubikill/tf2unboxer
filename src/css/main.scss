@@ -820,6 +820,10 @@ img {
     transform: translate(-50%, -50%);
 }
 
+#effectimg {
+    transform: translate(-50%, -65%);
+}
+
 #kitimg {
     position: absolute;
     top: 37%;
@@ -852,7 +856,7 @@ img {
 
 #lootimgdiv img {
     display: block;
-    height: 55%;
+    height: 50%;
     width: 100%;
     object-fit: contain;
 }
@@ -1505,28 +1509,33 @@ div.visible {
 #statscratesdetailscontent>div>img,
 #bulkresultsitems>div>img,
 #bulkresultsbonusitems>div>img {
-    top: 20%;
+    top: 25%;
     position: absolute;
     object-fit: contain;
     width: 100%;
-    height: 60%;
+    height: 55%;
     left: 0;
     z-index: 0;
 
     &.cratedetailskitimg {
-        top: 45%;
-        height: 20%;
+        top: 50%;
+        height: 15%;
         width: auto;
-        left: 51%;
+        left: 50%;
         transform: translateX(-66%);
     }
 
     &.unusualifierimg {
-        height: 28%;
+        height: 24%;
         width: auto;
-        top: 49%;
+        top: 51%;
         left: 50%;
         transform: translateX(-40%);
+    }
+
+    &.effectimg {
+        top: 20%;
+        height: 60%;
     }
 }
 
@@ -2203,6 +2212,10 @@ div.visible {
             float: left;
 
             img {
+                height: 60%;
+            }
+
+            #effectimg {
                 height: 70%;
             }
         }
@@ -2266,7 +2279,7 @@ div.visible {
         #kitimg {
             top: 47%;
             left: 50%;
-            height: 19% !important;
+            height: 17% !important;
             transform: translateX(-68%);
         }
     }

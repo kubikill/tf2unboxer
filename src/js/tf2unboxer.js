@@ -727,7 +727,7 @@ function updateUnusualStats(array, upd) {
         }
         effectText = `<p class="statsunusualseffect">${statClockText}${getString("ui", 79)} ${getString("effect", array[1])}</p>`;
 
-        img1 = `<img src="./images/effect/${getImg("effect", array[1])}" alt="" loading="lazy">`;
+        img1 = `<img class="effectimg" src="./images/effect/${getImg("effect", array[1])}" alt="" loading="lazy">`;
         img2 = `<img src="./images/item/${skinFolder}${getImg("item", array[0])}" alt="" loading="lazy">`;
     }
 
