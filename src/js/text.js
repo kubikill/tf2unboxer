@@ -1,6 +1,7 @@
 export let dataUi = {
     1: {
         eng: "Weapons obtained from this crate will have the Strange quality.",
+        rus: "Оружие, полученное из этого ящика, будет иметь качество Странного типа.",
         pol: "Bronie otrzymane z tej skrzynki będą posiadały jakość Kuriozum.",
         sch: "从这个箱子中获得的武器具有奇异品质。",
         bra: "Armas obtidas por essa caixa terão a qualidade Estranha.",
@@ -9,10 +10,11 @@ export let dataUi = {
         hun: "Ebben a ládában található fegyverek Fura minőségűek lesznek.",
         rom: "Armele obtinute din aceasta cutie vor avea o calitate Stranie.",
 		swe: "Vapen som erhålls från denna låda kommer att ha den Avvikande kvaliteten.",
-		fil: "Ang mga armas na makukuha sa kahon ay magkakaroon ng kalidad na Strange.",
+		fil: "Ang mga armas na makukuha sa kahon ay magkakaroon ng kalidad na Strange."
     },
     2: {
         eng: "Items obtained from this crate might have the Strange quality.",
+        rus: "Предметы, полученные из этого ящика, могут иметь качество Странного типа.",
         pol: "Przedmioty otrzymane z tej skrzynki mogą posiadać jakość Kuriozum.",
         sch: "从这个箱子中获得的物品可能具有奇异品质。",
         bra: "Itens obtidos por essa caixa podem ter a qualidade Estranha.",
@@ -21,10 +23,11 @@ export let dataUi = {
         hun: "Ebben a ládában található tárgyak Fura minőségűek lehetnek.",
         rom: "Obiectele obtinute din aceasta cutie pot avea o calitate Stranie.",
 		swe: "Föremål som erhålls från denna låda kan ha den Avvikande kvaliteten.",
-		fil: "Mga aytem na makukuha sa kahon ay maaring magkakaroon ng kalidad na Strange.",
+		fil: "Mga aytem na makukuha sa kahon ay maaring magkakaroon ng kalidad na Strange."
     },
     3: {
         eng: "Items obtained from this crate will have the Haunted quality.",
+        rus: "Предметы, полученные из этого ящика, будут иметь качество Призрачного вида.",
         pol: "Przedmioty otrzymane z tej skrzynki będą posiadały jakość Przekleństwo.",
         sch: "从这个箱子中获得的物品具有闹鬼品质。",
         bra: "Itens obtidos por essa caixa terão a qualidade Assombrada.",
@@ -37,6 +40,7 @@ export let dataUi = {
     },
     4: {
         eng: "Items obtained from this crate may have Strange and/or Unusual quality.",
+        rus: "Предметы, полученные из этого ящика, могут иметь качество Странного и/или Необычного типа.",
         pol: "Przedmioty otrzymane z tej skrzynki mogą posiadać jakość Kuriozum i/lub Nietypowy Okaz.",
         sch: "从这个箱子中获得的物品可能具有奇异和/或稀有品质。",
         bra: "Itens obtidos por essa caixa podem ter a qualidade Estranha e/ou Incomum.",
@@ -49,6 +53,7 @@ export let dataUi = {
     },
     5: {
         eng: "Items obtained from this case may have Strange and/or Unusual quality.",
+        rus: "Предметы, полученные из этого кейса, могут иметь качество Странного и/или Необычного типа.",
         pol: "Przedmioty otrzymane z tej skrzynki mogą posiadać jakość Kuriozum i/lub Nietypowy Okaz.",
         sch: "从这个箱子中获得的物品可能具有奇异和/或稀有品质。",
         bra: "Itens obtidos por essa caixa podem ter a qualidade Estranha e/ou Incomum.",
@@ -61,6 +66,7 @@ export let dataUi = {
     },
     6: {
         eng: "Weapons obtained from this crate will have the Strange quality and cosmetics might have the Strange quality.",
+        rus: "Оружие, полученное из этого ящика, будет иметь качество Странного типа, а косметические предметы могут иметь качество Странного типа.",
         pol: "Bronie otrzymane z tej skrzynki będą posiadały jakość Kuriozum, a przedmioty ozdobne mogą posiadać jakość Kuriozum.",
         sch: "从这个箱子中获得的武器具有奇异品质，饰品可能具有奇异品质。",
         bra: "Armas obtidas por essa caixa terão a qualidade Estranha e cosméticos obtidos por essa caixa podem ter a qualidade Estranha.",
@@ -70,10 +76,11 @@ export let dataUi = {
         rom: "Armele obtinute din aceasta cutie vor avea o calitate Stranie iar cosmeticele pot avea o calitate Stranie.",
 		swe: "Vapen som erhålls från denna låda kommer att ha den Avvikande kvaliteten, och kosmetiker kan ha den Avvikande kvaliteten.",
 		fil: "Ang mga armas na makukuha sa kahon ay magkakaroon ng kalidad na Strange at ang mga kosmetiko ay maaring magkaroon ng Strange na kalidad."
-		
+
     },
     7: {
         eng: "Items obtained from this crate may have Unusual quality.",
+        rus: "Предметы, полученные из этого ящика, могут иметь качество Необычного типа.",
         pol: "Przedmioty otrzymane z tej skrzynki mogą posiadać jakość Nietypowy Okaz.",
         sch: "从这个箱子中获得的物品可能具有稀有品质。",
         bra: "Itens obtidos por essa caixa podem ter qualidade Incomum.",
@@ -86,6 +93,7 @@ export let dataUi = {
     },
     8: {
         eng: "Items obtained from this crate may have Strange and Haunted quality.",
+        rus: "Предметы, полученные из этого ящика, могут иметь качество Странного и Призрачного вида.",
         pol: "Przedmioty otrzymane z tej skrzynki mogą posiadać jakość Kuriozum i Przekleństwo.",
         sch: "从这个箱子中获得的物品可能具有奇异和闹鬼品质。",
         bra: "Itens obtidos por essa caixa podem ter qualidade Estranha e Assombrada.",
@@ -98,6 +106,7 @@ export let dataUi = {
     },
     9: {
         eng: "Options",
+        rus: "Настройки",
         pol: "Opcje",
         sch: "选项",
         bra: "Opções",
@@ -110,6 +119,7 @@ export let dataUi = {
     },
     10: {
         eng: "Statistics",
+        rus: "Статистика",
         pol: "Statystyki",
         sch: "统计",
         bra: "Estatisticas",
@@ -122,6 +132,7 @@ export let dataUi = {
     },
     11: {
         eng: "Grid view",
+        rus: "Вид сеткой",
         pol: "Widok siatki",
         sch: "网格视图",
         bra: "Visualização à grade",
@@ -134,6 +145,7 @@ export let dataUi = {
     },
     12: {
         eng: "Details view",
+        rus: "Детальный вид",
         pol: "Widok szczegółowy",
         sch: "详情视图",
         bra: "Visualização de detalhes",
@@ -146,6 +158,7 @@ export let dataUi = {
     },
     13: {
         eng: "Unbox my loot!",
+        rus: "Открыть мой лут!",
         pol: "Otwórz skrzynkę!",
         sch: "开启战利品！",
         bra: "Desencaixotar a minha recompensa!",
@@ -158,6 +171,7 @@ export let dataUi = {
     },
     14: {
         eng: "Random crate",
+        rus: "Случайный ящик",
         pol: "Losowa skrzynka",
         sch: "随机箱子",
         bra: "Caixa aleatória",
@@ -170,6 +184,7 @@ export let dataUi = {
     },
     15: {
         eng: "Return",
+        rus: "Вернуться",
         pol: "Wróć",
         sch: "返回",
         bra: "Retornar",
@@ -182,6 +197,7 @@ export let dataUi = {
     },
     16: {
         eng: "Effects",
+        rus: "Эффекты",
         pol: "Efekty",
         sch: "效果",
         bra: "Efeitos",
@@ -194,6 +210,7 @@ export let dataUi = {
     },
     17: {
         eng: "Loot",
+        rus: "Предметы",
         pol: "Przedmioty",
         sch: "战利品",
         bra: "Recompensas",
@@ -206,6 +223,7 @@ export let dataUi = {
     },
     18: {
         eng: "More info",
+        rus: "Подробнее",
         pol: "Więcej informacji",
         sch: "更多信息",
         bra: "Mais informações",
@@ -218,6 +236,7 @@ export let dataUi = {
     },
     19: {
         eng: "Unbox again",
+        rus: "Открыть снова",
         pol: "Otwórz kolejną",
         sch: "再次开箱",
         bra: "Desencaixotar novamente",
@@ -230,6 +249,7 @@ export let dataUi = {
     },
     20: {
         eng: "General",
+        rus: "Общее",
         pol: "Ogólne",
         sch: "常规",
         bra: "Geral",
@@ -242,6 +262,7 @@ export let dataUi = {
     },
     21: {
         eng: "Unusuals",
+        rus: "Необычного типа",
         pol: "Nietypowe Okazy",
         sch: "稀有",
         bra: "Incomuns",
@@ -253,6 +274,7 @@ export let dataUi = {
     },
     22: {
         eng: "Inventory",
+        rus: "Инвентарь",
         pol: "Ekwipunek",
         sch: "库存",
         bra: "Inventário",
@@ -265,6 +287,7 @@ export let dataUi = {
     },
     23: {
         eng: "Return to main menu",
+        rus: "Вернуться в главное меню",
         pol: "Wróć do menu głównego",
         sch: "返回主菜单",
         bra: "Retornar ao menu principal",
@@ -277,6 +300,7 @@ export let dataUi = {
     },
     24: {
         eng: "Return to list",
+        rus: "Вернуться к списку",
         pol: "Wróć do listy",
         sch: "返回列表",
         bra: "Retornar à lista",
@@ -289,6 +313,7 @@ export let dataUi = {
     },
     25: {
         eng: "Changelog",
+        rus: "Список изменений",
         pol: "Lista zmian",
         sch: "更新日志",
         bra: "Histórico de mudanças",
@@ -301,6 +326,7 @@ export let dataUi = {
     },
     26: {
         eng: "Credits",
+        rus: "Авторы",
         pol: "Twórcy",
         sch: "开发人员",
         bra: "Créditos",
@@ -313,6 +339,7 @@ export let dataUi = {
     },
     27: {
         eng: "Off",
+        rus: "Выкл",
         pol: "Wył.",
         sch: "关",
         bra: "Desativado",
@@ -325,6 +352,7 @@ export let dataUi = {
     },
     28: {
         eng: "On",
+        rus: "Вкл",
         pol: "Wł.",
         sch: "开",
         bra: "Ativado",
@@ -337,6 +365,7 @@ export let dataUi = {
     },
     29: {
         eng: "Reset",
+        rus: "Сброс",
         pol: "Resetuj",
         sch: "重置",
         bra: "Resetar",
@@ -349,6 +378,7 @@ export let dataUi = {
     },
     30: {
         eng: "This crate contains one of the following items:",
+        rus: "Этот ящик содержит один из следующих предметов:",
         pol: "Ta skrzynka zawiera jeden z następujących przedmiotów:",
         sch: "这个箱子包含下列物品之一：",
         bra: "Essa caixa contém um dos itens a seguir:",
@@ -361,6 +391,7 @@ export let dataUi = {
     },
     31: {
         eng: "Unusuals may have one of the following effects:",
+        rus: "Необычные предметы могут иметь один из следующих эффектов:",
         pol: "Nietypowe Okazy mogą posiadać jeden z następujących efektów:",
         sch: "稀有物品可能含有以下效果之一：",
         bra: "Itens incomuns poderão ter um dos efeitos a seguir:",
@@ -373,6 +404,7 @@ export let dataUi = {
     },
     32: {
         eng: "Unusuals cannot be unboxed from this crate.",
+        rus: "Необычные предметы не могут быть получены из этого ящика.",
         pol: "Ta skrzynka nie zawiera Nietypowych Okazów.",
         sch: "无法从这个箱子中获得稀有物品。",
         bra: "Itens incomuns não poderão ser obtidos por essa caixa.",
@@ -385,6 +417,7 @@ export let dataUi = {
     },
     33: {
         eng: "Unboxing your loot",
+        rus: "Идет открытие ящика...",
         pol: "Odpakowywanie twojego łupu",
         sch: "正在开启您的战利品",
         bra: "Desencaixotando a sua recompensa",
@@ -397,6 +430,7 @@ export let dataUi = {
     },
     34: {
         eng: "New item acquired!",
+        rus: "Получен новый предмет!",
         pol: "Zdobyto nowy przedmiot!",
         sch: "已获得新物品！",
         bra: "Novo item adquirido!",
@@ -409,6 +443,7 @@ export let dataUi = {
     },
     35: {
         eng: 'You <span id="unboxedtext">unboxed</span>:',
+        rus: 'Вы <span id="unboxedtext">открыли</span>:',
         pol: '<span id="unboxedtext">Odpakowujesz</span>:',
         sch: '您<span id="unboxedtext">开出了</span>：',
         bra: 'Você <span id="unboxedtext">desencaixotou</span>:',
@@ -421,6 +456,7 @@ export let dataUi = {
     },
     36: {
         eng: "★ Unusual Effect: ",
+        rus: "★ Необычный эффект: ",
         pol: "★ Efekt: ",
         sch: "★ 粒子效果：",
         bra: "★ Efeito Incomum: ",
@@ -433,6 +469,7 @@ export let dataUi = {
     },
     37: {
         eng: "Chance to unbox:",
+        rus: "Шанс выпадения:",
         pol: "Szansa na zdobycie:",
         sch: "开出几率：",
         bra: "Chance de desencaixotar:",
@@ -445,6 +482,7 @@ export let dataUi = {
     },
     38: {
         eng: "Times unboxed:",
+        rus: "Открыто раз:",
         pol: "Ilość posiadanych:",
         sch: "开出次数：",
         bra: "Vezes desencaixotadas:",
@@ -457,6 +495,7 @@ export let dataUi = {
     },
     39: {
         eng: "Unboxes since last Unusual:",
+        rus: "Открытий с последнего предмета Необычного типа:",
         pol: "Otwarcia pod rząd bez Nietypowego Okazu:",
         sch: "自上个稀有以来开箱数：",
         bra: "Desencaixotes desde o último item Incomum:",
@@ -469,6 +508,7 @@ export let dataUi = {
     },
     40: {
         eng: "Unusuals unboxed:",
+        rus: "Открыто предметов Необычного типа:",
         pol: "Otrzymane Nietypowe Okazy:",
         sch: "已开出稀有：",
         bra: "Itens Incomuns desencaixotados:",
@@ -481,6 +521,7 @@ export let dataUi = {
     },
     41: {
         eng: "Total crates/cases opened:",
+        rus: "Всего открыто ящиков/кейсов:",
         pol: "Otwarte skrzynki:",
         sch: "已开箱：",
         bra: "Total de caixas abertas:",
@@ -493,6 +534,7 @@ export let dataUi = {
     },
     42: {
         eng: "Money wasted on keys:",
+        rus: "Потрачено денег на ключи:",
         pol: "Pieniądze zmarnowane na klucze:",
         sch: "钥匙总花费：",
         bra: "Dinheiro gastado em chaves:",
@@ -505,6 +547,7 @@ export let dataUi = {
     },
     43: {
         eng: "Shortest Unusual drought:",
+        rus: "Самая короткая серия без предметов Необычного типа:",
         pol: "Najkrótsza przerwa w Nietypowych Okazach:",
         sch: "连续未开出稀有最短记录：",
         bra: "A menor seca de itens Incomuns:",
@@ -517,6 +560,7 @@ export let dataUi = {
     },
     44: {
         eng: "Longest Unusual drought:",
+        rus: "Самая длинная серия без предметов Необычного типа:",
         pol: "Najdłuższa przerwa w Nietypowych Okazach:",
         sch: "连续未开出稀有最长记录：",
         bra: "A maior seca de itens Incomuns:",
@@ -529,6 +573,7 @@ export let dataUi = {
     },
     45: {
         eng: '<span class="colorunique">Unique</span> items unboxed:',
+        rus: '<span class="colorunique">Уникальных</span> предметов открыто:',
         pol: 'Zdobyte <span class="colorunique">Unikalne</span> przedmioty:',
         sch: '已开出<span class="colorunique">独特</span>物品：',
         bra: 'Itens <span class="colorunique">Únicos</span> desencaixotados:',
@@ -541,6 +586,7 @@ export let dataUi = {
     },
     46: {
         eng: '<span class="colorstrange">Strange</span> items unboxed:',
+        rus: '<span class="colorstrange">Странного типа</span> предметов открыто:',
         pol: 'Zdobyte przedmioty <span class="colorstrange">Kuriozalne</span>:',
         sch: '已开出<span class="colorstrange">奇异</span>物品：',
         bra: 'Itens <span class="colorstrange">Estranhos</span> desencaixotados:',
@@ -553,6 +599,7 @@ export let dataUi = {
     },
     47: {
         eng: '<span class="colorhaunted">Haunted</span> items unboxed:',
+        rus: '<span class="colorhaunted">Призрачного вида</span> предметов открыто:',
         pol: 'Zdobyte <span class="colorhaunted">Przeklęte</span> przedmioty:',
         sch: '已开出<span class="colorhaunted">闹鬼</span>物品：',
         bra: 'Itens <span class="colorhaunted">Assombrados</span> desencaixotados:',
@@ -565,6 +612,7 @@ export let dataUi = {
     },
     48: {
         eng: '<span class="colordecorated">Decorated</span> items unboxed:',
+        rus: '<span class="colordecorated">Раскрашенное</span> предметов открыто:',
         pol: 'Zdobyte <span class="colordecorated">Dekorowane</span> przedmioty:',
         sch: '已开出<span class="colordecorated">装饰</span>物品：',
         bra: 'Itens <span class="colordecorated">Decorados</span> desencaixotados:',
@@ -577,6 +625,7 @@ export let dataUi = {
     },
     49: {
         eng: '<span class="colorunusual">Unusuals</span> unboxed:',
+        rus: '<span class="colorunusual">Необычного типа</span> предметов открыто:',
         pol: 'Zdobyte <span class="colorunusual">Nietypowe Okazy</span>:',
         sch: '已开出<span class="colorunusual">稀有</span>物品：',
         bra: 'Itens <span class="colorunusual">Incomuns</span> desencaixotados:',
@@ -589,6 +638,7 @@ export let dataUi = {
     },
     50: {
         eng: "No unusuals... yet.",
+        rus: "Предметов Необычного типа пока нет.",
         pol: "Brak Nietypowych Okazów.",
         sch: "还...没有稀有物品。",
         bra: "Nenhum item Incomum... por enquanto.",
@@ -601,6 +651,7 @@ export let dataUi = {
     },
     51: {
         eng: 'Unboxed <span id="statscratesdetailsunbox">0</span> times',
+        rus: 'Открыто <span id="statscratesdetailsunbox">0</span> раз',
         pol: 'Otwarto <span id="statscratesdetailsunbox">0</span> razy',
         sch: '开箱 <span id="statscratesdetailsunbox">0</span> 次',
         bra: 'Desencaixotado <span id="statscratesdetailsunbox">0</span> vezes',
@@ -613,6 +664,7 @@ export let dataUi = {
     },
     52: {
         eng: "No items... yet.<br>Go open some crates!",
+        rus: "Предметов пока нет.<br>Откройте несколько ящиков!",
         pol: "Brak przedmiotów.<br>Idź pootwierać skrzynki!",
         sch: "还...没有任何物品。<br>去开启一些箱子吧！",
         bra: "Sem itens... por enquanto.<br>Vai abrir algumas caixas!",
@@ -625,6 +677,7 @@ export let dataUi = {
     },
     53: {
         eng: "Unboxed ",
+        rus: "Открыто ",
         pol: "Otrzymano ",
         sch: "开出 ",
         bra: "Desencaixotou ",
@@ -637,6 +690,7 @@ export let dataUi = {
     },
     54: {
         eng: " times",
+        rus: " раз",
         pol: " razy",
         sch: " 次",
         bra: " vezes",
@@ -649,6 +703,7 @@ export let dataUi = {
     },
     55: {
         eng: "Language:",
+        rus: "Язык:",
         pol: "Język:",
         sch: "语言：",
         bra: "Idioma:",
@@ -661,6 +716,7 @@ export let dataUi = {
     },
     56: {
         eng: "Fast unboxing:",
+        rus: "Быстрое открытие:",
         pol: "Szybkie otwieranie:",
         sch: "快速开箱：",
         bra: "Desencaixotamento rápido:",
@@ -673,6 +729,7 @@ export let dataUi = {
     },
     57: {
         eng: 'Skips the unboxing countdown.<br>Also allows you to unbox rapidly by holding Space or the "Unbox again" button on the crate results screen.',
+        rus: 'Пропускает анимацию открытия.<br>Также позволяет быстро открывать ящики, удерживая Пробел или кнопку "Открыть снова" на экране результатов.',
         pol: 'Pomija odliczanie podczas otwierania skrzynek.<br>Pozwala także na szybkie otwieranie skrzynek, przytrzymując spację lub przycisk "Otwórz kolejną" na ekranie wyników otwarcia.',
         sch: "跳过开箱倒计时。 <br>这也使您可以按住空格键或者点击开箱结果的“再次开箱”按钮来快速开箱。",
         bra: 'Desativa a contagem regressiva.<br>Também permite que você desencaixote rapidamente segurando a tecla Espaço ou o botão "Desencaixotar novamente" nos resultados do seu desencaixotamento.',
@@ -685,6 +742,7 @@ export let dataUi = {
     },
     58: {
         eng: "Amoled theme:",
+        rus: "AMOLED тема:",
         pol: "Tryb Amoled:",
         sch: "Amoled 主题：",
         bra: "Tema escuro:",
@@ -697,6 +755,7 @@ export let dataUi = {
     },
     59: {
         eng: "Change background color to black.",
+        rus: "Изменить цвет фона на чёрный.",
         pol: "Zmienia kolor tła na czarny.",
         sch: "修改背景颜色为黑色。",
         bra: "Altera a cor do fundo para preto.",
@@ -709,6 +768,7 @@ export let dataUi = {
     },
     60: {
         eng: "Reset save:",
+        rus: "Сбросить сохранение:",
         pol: "Zresetuj zapis:",
         sch: "重置存档：",
         bra: "Resetar a sua data:",
@@ -721,6 +781,7 @@ export let dataUi = {
     },
     61: {
         eng: "Reset stats and all unboxed items, including unusuals.<br>Will ask for confirmation only once.",
+        rus: "Сбросить статистику и все открытые предметы, включая необычные.<br>Запросит подтверждение только один раз.",
         pol: "Resetuje statystyki i wszystkie zdobyte przedmioty, łącznie z Nietypowymi Okazami.",
         sch: "重置所有统计数据与物品，包括稀有物品。<br>我们只会询问一次。",
         bra: "Reseta as suas estatísticas e todos itens desencaixotados, incluindo itens Incomuns.<br>Só vai pedir confirmação uma vez.",
@@ -733,6 +794,7 @@ export let dataUi = {
     },
     62: {
         eng: "Custom Crate Depression Mode:",
+        rus: "Пользовательский режим настройки ящиков:",
         pol: "Własny tryb Skrzynkowej Depresji:",
         sch: "自定义战利品大爆发模式：",
         bra: "Modo Personalizado da Grande Depressão de Caixas:",
@@ -741,11 +803,12 @@ export let dataUi = {
         hun: "Egyedi ládanyitási mód:",
         rom: "Cutie Personalizata Modul Depresie:",
 		swe: "Anpassat Låddepressionsläge:",
-		fil: "Custom Kahon Depresyon Mode:" 
+		fil: "Custom Kahon Depresyon Mode:"
 
     },
     63: {
         eng: "Crash the economy in your own style! This option lets you always unbox Unusuals, Stranges, professional killstreak kits, bonus items or items of specific grade.<br>Enabling any of those options will disable stats and saving!",
+        rus: "Обрушьте экономику в своём стиле! Эта опция позволяет всегда получать Необычные, Странные, Профессиональные наборы убийств, Бонусные предметы или Предметы определённого класса.<br>Включение любой из этих опций отключит статистику и сохранение!",
         pol: "Rozwal ekonomię w swoim własnym stylu! Ta opcja pozwoli ci zawsze otrzymać Nietypowe Okazy, przedmioty Kuriozalne, zestawy z profesjonalną serią zabójstw, przedmioty dodatkowe lub przedmioty o określonym stopniu.<br>Włączenie jakiejkolwiek z tych opcji wyłączy statystyki i zapisywanie!",
         sch: "用您自己的方式摧毁游戏内经济！此选项可以让您总是开出稀有、奇异、职业连杀记录式或者指定等级的物品，以及额外奖励物品。<br>启用此处任何选项都会禁用统计与存档！",
         bra: "Destrua a economia no seu estilo! Essa opção te deixa sempre desencaixotar itens Incomuns, Estranhos, Kits de Combo Profissionais, itens de bônus ou itens de nível especifico.<br>Ativando qualquer uma dessas opções vai desativar estatísticas e a habilidade de salvar a sua data!",
@@ -758,6 +821,7 @@ export let dataUi = {
     },
     64: {
         eng: 'Made by <a href="https://steamcommunity.com/id/kubikill" target="_blank" rel="noopener">kubikill</a>',
+        rus: 'Создано <a href="https://steamcommunity.com/id/kubikill" target="_blank" rel="noopener">kubikill</a>',
         pol: 'Stworzone przez <a href="https://steamcommunity.com/id/kubikill" target="_blank" rel="noopener">kubikilla</a>',
         sch: '由 <a href="https://steamcommunity.com/id/kubikill" target="_blank" rel="noopener">kubikill</a> 制作',
         bra: 'Feito por <a href="https://steamcommunity.com/id/kubikill" target="_blank" rel="noopener">kubikill</a>',
@@ -770,6 +834,7 @@ export let dataUi = {
     },
     65: {
         eng: 'Special thanks to <a href="https://steamcommunity.com/profiles/76561198117761965" target="_blank" rel="noopener">Gorno</a>',
+        rus: 'Особая благодарность <a href="https://steamcommunity.com/profiles/76561198117761965" target="_blank" rel="noopener">Gorno</a>',
         pol: 'Specjalne podziękowania dla <a href="https://steamcommunity.com/profiles/76561198117761965" target="_blank" rel="noopener">Gorno</a>',
         sch: '特别感谢 <a href="https://steamcommunity.com/profiles/76561198117761965" target="_blank" rel="noopener">Gorno</a>',
         bra: 'Agradecimentos especiais para <a href="https://steamcommunity.com/profiles/76561198117761965" target="_blank" rel="noopener">Gorno</a>',
@@ -782,6 +847,7 @@ export let dataUi = {
     },
     66: {
         eng: 'Unusual effect images made by <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a>',
+        rus: 'Изображения необычных эффектов взяты из <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a>',
         pol: 'Obrazki efektów Nietypowych Okazów stworzone przez <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a>',
         sch: '稀有效果图像由 <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a> 制作',
         bra: 'Imagens de efeitos incomuns feito por <a href="https://backpack.tf" target="_blank" rel="noopener">backpack.tf</a>',
@@ -794,6 +860,7 @@ export let dataUi = {
     },
     67: {
         eng: "Bulk unboxing",
+        rus: "Массовое открытие",
         pol: "Otwórz wiele skrzynek",
         sch: "批量开箱",
         bra: "Desencaixotamento em massa",
@@ -806,6 +873,7 @@ export let dataUi = {
     },
     68: {
         eng: "How many crates/cases do you want to open?",
+        rus: "Сколько ящиков/кейсов вы хотите открыть?",
         pol: "Ile skrzynek chcesz otworzyć?",
         sch: "您想要开启几个箱子？",
         bra: "Quantas caixas você deseja abrir?",
@@ -818,6 +886,7 @@ export let dataUi = {
     },
     69: {
         eng: "Translators:",
+        rus: "Переводчики:",
         pol: "Tłumacze:",
         sch: "译者：",
         bra: "Tradutores:",
@@ -827,10 +896,11 @@ export let dataUi = {
         rom: "Traducatori:",
 		swe: "Översättare:",
 		fil: "Tagasalin:"
-		
+
     },
     70: {
         eng: 'Simplified Chinese',
+        rus: "Упрощённый китайский",
         pol: 'Chiński (uproszczony)',
         sch: '‪中文（简体）',
         bra: 'Chinês Simplificado',
@@ -843,6 +913,7 @@ export let dataUi = {
     },
     71: {
         eng: "Strange",
+        rus: "Странного типа",
         pol: "Kuriozum",
         sch: "奇异",
         bra: "Estranho",
@@ -854,6 +925,7 @@ export let dataUi = {
     },
     72: {
         eng: "Haunted",
+        rus: "Призрачного вида",
         pol: "Przekleństwo",
         sch: "闹鬼",
         bra: "Assombrado",
@@ -865,6 +937,7 @@ export let dataUi = {
     },
     73: {
         eng: "Unusual",
+        rus: "Необычного типа",
         pol: "Nietypowy Okaz",
         sch: "稀有",
         bra: "Incomum",
@@ -876,6 +949,7 @@ export let dataUi = {
     },
     74: {
         eng: "or a random Unusual hat!",
+        rus: "или случайная Необычная шапка!",
         pol: "lub losowy Nietypowy Okaz!",
         sch: "或者是一件随机的稀有饰品！",
         bra: "ou um item Incomum aleatório!",
@@ -888,6 +962,7 @@ export let dataUi = {
     },
     75: {
         eng: "Series #(NUM)",
+        rus: "Серия #(NUM)",
         pol: "Seria #(NUM)",
         sch: "编号 #(NUM)",
         bra: "Série #(NUM)",
@@ -900,6 +975,7 @@ export let dataUi = {
     },
     76: {
         eng: "Seriesless",
+        rus: "Без серии",
         pol: "Bez serii",
         sch: "无编号",
         bra: "Sem séries",
@@ -912,6 +988,7 @@ export let dataUi = {
     },
     77: {
         eng: "Save reset!",
+        rus: "Сохранение сброшено!",
         pol: "Zresetowano!",
         sch: "存档已重置！",
         bra: "Resetar a sua data",
@@ -924,6 +1001,7 @@ export let dataUi = {
     },
     78: {
         eng: "Are you sure?",
+        rus: "Вы уверены?",
         pol: "Na pewno?",
         sch: "您确定吗？",
         bra: "Você tem certeza?",
@@ -936,6 +1014,7 @@ export let dataUi = {
     },
     79: {
         eng: "Effect:",
+        rus: "Эффект:",
         pol: "Efekt:",
         sch: "效果：",
         bra: "Efeito:",
@@ -948,6 +1027,7 @@ export let dataUi = {
     },
     80: {
         eng: "Factory New",
+        rus: "Прямо с завода",
         pol: "Prosto z fabryki",
         sch: "崭新出厂",
         bra: "Nova de Fábrica",
@@ -959,6 +1039,7 @@ export let dataUi = {
     },
     81: {
         eng: "Minimal Wear",
+        rus: "Немного поношенное",
         pol: "Lekkie zużycie",
         sch: "略有磨损",
         bra: "Pouco Usada",
@@ -970,6 +1051,7 @@ export let dataUi = {
     },
     82: {
         eng: "Field-Tested",
+        rus: "После полевых испытаний",
         pol: "Po testach bojowych",
         sch: "久经沙场",
         bra: "Testada em Campo",
@@ -981,6 +1063,7 @@ export let dataUi = {
     },
     83: {
         eng: "Well-Worn",
+        rus: "Поношенное",
         pol: "Mocne zużycie",
         sch: "破损不堪",
         bra: "Bem Desgastada",
@@ -992,6 +1075,7 @@ export let dataUi = {
     },
     84: {
         eng: "Battle Scarred",
+        rus: "Закалённое в боях",
         pol: "Po ciężkich walkach",
         sch: "战痕累累",
         bra: "Veterana de Guerra",
@@ -1003,6 +1087,7 @@ export let dataUi = {
     },
     85: {
         eng: "Steam Group",
+        rus: "Группа Steam",
         pol: "Grupa na Steamie",
         sch: "Steam 组",
         bra: "Grupo da Steam",
@@ -1015,6 +1100,7 @@ export let dataUi = {
     },
     86: {
         eng: "Mute sound",
+        rus: "Отключить звук",
         pol: "Wycisz dźwięk",
         sch: "静音",
         bra: "Silenciar sons",
@@ -1027,6 +1113,7 @@ export let dataUi = {
     },
     87: {
         eng: "Settings",
+        rus: "Настройки",
         pol: "Ustawienia",
         sch: "设置",
         bra: "Definições",
@@ -1038,6 +1125,7 @@ export let dataUi = {
     },
     88: {
         eng: "About/Donate",
+        rus: "О сайте/Пожертвования",
         pol: "Info/Dotacje",
         sch: "关于/捐赠",
         bra: "Sobre/Doar",
@@ -1050,6 +1138,7 @@ export let dataUi = {
     },
     89: {
         eng: "Donations",
+        rus: "Пожертвования",
         pol: "Dotacje",
         sch: "捐赠",
         bra: "Doações",
@@ -1061,6 +1150,7 @@ export let dataUi = {
     },
     90: {
         eng: '<span class="colorstrange">Strange</span> <span class="colorunusual">Unusuals</span> unboxed:',
+        rus: '<span class="colorstrange">Странного типа</span> & <span class="colorunusual">Необычного типа</span> открыто:',
         pol: 'Zdobyte <span class="colorstrange">Kuriozalne</span> <span class="colorunusual">Nietypowe Okazy</span>:',
         sch: '已开出<span class="colorstrange">奇异</span><span class="colorunusual">稀有</span>物品：',
         bra: 'Itens <span class="colorstrange">Estranhos</span> <span class="colorunusual">Incomuns</span> desencaixotados:',
@@ -1073,6 +1163,7 @@ export let dataUi = {
     },
     91: {
         eng: "Graded items unboxed:",
+        rus: "Открыто предметов с классами:",
         pol: "Zdobyte przedmioty z stopniem:",
         sch: "已开出等级物品：",
         bra: "Itens com nível desencaixotados:",
@@ -1085,6 +1176,7 @@ export let dataUi = {
     },
     92: {
         eng: '<span class="colorcivilian">Civilian</span> items unboxed:',
+        rus: '<span class="colorcivilian">Гражданского</span> предметов открыто:',
         pol: 'Zdobyte przedmioty st. <span class="colorcivilian">Cywil</span>:',
         sch: '已开出<span class="colorcivilian">民用级</span>物品：',
         bra: 'Itens de nível <span class="colorcivilian">Civil</span> desencaixotados:',
@@ -1097,6 +1189,7 @@ export let dataUi = {
     },
     93: {
         eng: '<span class="colorfreelance">Freelance</span> items unboxed:',
+        rus: '<span class="colorfreelance">Внештатника</span> предметов открыто:',
         pol: 'Zdobyte przedmioty st. <span class="colorfreelance">Wolny Strzelec</span>:',
         sch: '已开出<span class="colorfreelance">不羁级</span>物品：',
         bra: 'Itens de nível <span class="colorfreelance">Autônomo</span> desencaixotados:',
@@ -1109,6 +1202,7 @@ export let dataUi = {
     },
     94: {
         eng: '<span class="colormercenary">Mercenary</span> items unboxed:',
+rus: '<span class="colormercenary">Наемника</span> предметов открыто:',
         pol: 'Zdobyte przedmioty st. <span class="colormercenary">Najemnik</span>:',
         sch: '已开出<span class="colormercenary">雇佣级</span>物品：',
         bra: 'Itens de nível <span class="colormercenary">Mercenário</span> desencaixotados:',
@@ -1121,6 +1215,7 @@ export let dataUi = {
     },
     95: {
         eng: '<span class="colorcommando">Commando</span> items unboxed:',
+        rus: '<span class="colorcommando">Бойца</span> предметов открыто:',
         pol: 'Zdobyte przedmioty st. <span class="colorcommando">Komandos</span>:',
         sch: '已开出<span class="colorcommando">特种级</span>物品：',
         bra: 'Itens de nível <span class="colorcommando">Comando</span> desencaixotados:',
@@ -1133,6 +1228,7 @@ export let dataUi = {
     },
     96: {
         eng: '<span class="colorassassin">Assassin</span> items unboxed:',
+        rus: '<span class="colorassassin">Убийцы</span> предметов открыто:',
         pol: 'Zdobyte przedmioty st. <span class="colorassassin">Asasyn</span>:',
         sch: '已开出<span class="colorassassin">刺杀级</span>物品：',
         bra: 'Itens de nível <span class="colorassassin">Assassino</span> desencaixotados:',
@@ -1145,6 +1241,7 @@ export let dataUi = {
     },
     97: {
         eng: '<span class="colorelite">Elite</span> items unboxed:',
+        rus: '<span class="colorelite">Элитного бойца</span> предметов открыто:',
         pol: 'Zdobyte przedmioty st. <span class="colorelite">Elita</span>:',
         sch: '已开出<span class="colorelite">精英级</span>物品：',
         bra: 'Itens de nível <span class="colorelite">Elite</span> desencaixotados:',
@@ -1157,6 +1254,7 @@ export let dataUi = {
     },
     98: {
         eng: "Items with wear unboxed:",
+        rus: "Открыто предметов с вещами:",
         pol: "Zdobyte przedmioty z stopniem jakości:",
         sch: "已开出磨损物品：",
         bra: "Itens com desgaste desencaixotados:",
@@ -1169,6 +1267,7 @@ export let dataUi = {
     },
     99: {
         eng: "Factory New items unboxed:",
+        rus: "Открыто предметов Прямо с завода:",
         pol: "Zdobyte fabrycznie nowe przedmioty:",
         sch: "已开出崭新出厂物品：",
         bra: "Itens Novos de Fábrica desencaixotados:",
@@ -1180,6 +1279,7 @@ export let dataUi = {
     },
     100: {
         eng: "Minimal Wear items unboxed:",
+        rus: "Открыто предметов Немного поношенное:",
         pol: "Zdobyte lekko używane przedmioty:",
         sch: "已开出略有磨损物品：",
         bra: "Itens Pouco Usados desencaixotados:",
@@ -1191,6 +1291,7 @@ export let dataUi = {
     },
     101: {
         eng: "Field-Tested items unboxed:",
+        rus: "Открыто предметов После полевых испытаний:",
         pol: "Zdobyte przetestowane w boju przedmioty:",
         sch: "已开出久经沙场物品：",
         bra: "Itens Testados em Campo desencaixotados:",
@@ -1202,6 +1303,7 @@ export let dataUi = {
     },
     102: {
         eng: "Well-Worn items unboxed:",
+        rus: "Открыто предметов Поношенное:",
         pol: "Zdobyte przedmioty z śladami używania:",
         sch: "已开出破损不堪物品：",
         bra: "Itens Bem Desgastados desencaixotados:",
@@ -1213,6 +1315,7 @@ export let dataUi = {
     },
     103: {
         eng: "Battle Scarred items unboxed:",
+        rus: "Открыто предметов Закалённое в боях:",
         pol: "Zdobyte zaprawione w walkach przedmioty:",
         sch: "已开出战痕累累物品：",
         bra: "Itens Veteranas de Guerra desencaixotados:",
@@ -1224,6 +1327,7 @@ export let dataUi = {
     },
     104: {
         eng: "General",
+        rus: "Общее",
         pol: "Ogólne",
         sch: "常规",
         bra: "Geral",
@@ -1236,6 +1340,7 @@ export let dataUi = {
     },
     105: {
         eng: "Quality",
+        rus: "Качество",
         pol: "Jakość",
         sch: "品质",
         bra: "Qualidade",
@@ -1248,6 +1353,7 @@ export let dataUi = {
     },
     106: {
         eng: "Grades",
+        rus: "Классы",
         pol: "Stopnie",
         sch: "等级",
         bra: "Níveis",
@@ -1260,6 +1366,7 @@ export let dataUi = {
     },
     107: {
         eng: "Wears",
+        rus: "Износ",
         pol: "Stopnie zużycia",
         sch: "磨损",
         bra: "Desgastes",
@@ -1271,6 +1378,7 @@ export let dataUi = {
     },
     108: {
         eng: "Average unboxes per Unusual:",
+        rus: "Среднее количество открытий на один предмет Необычного типа:",
         pol: "Średnia ilość otwarć na Nietypowy Okaz:",
         sch: "获得稀有平均开箱数：",
         bra: "Média de desencaixotamento por item Incomum:",
@@ -1283,6 +1391,7 @@ export let dataUi = {
     },
     109: {
         eng: '<span class="colorstrange">Strange</span> <span class="colorhaunted">Haunted</span> items unboxed:',
+        rus: '<span class="colorstrange">Странного типа</span> & <span class="colorhaunted">Призрачного вида</span> предметов открыто:',
         pol: 'Zdobyte <span class="colorstrange">Kuriozalne</span> <span class="colorhaunted">Nawiedzone</span> przedmioty:',
         sch: '已开出<span class="colorstrange">奇异</span><span class="colorhaunted">闹鬼</span>物品：',
         bra: 'Itens <span class="colorstrange">Estranhos</span> <span class="colorhaunted">Assombrados</span> desencaixotados:',
@@ -1295,6 +1404,7 @@ export let dataUi = {
     },
     110: {
         eng: "Average price of an Unusual:",
+        rus: "Средняя цена предмета Необычного типа:",
         pol: "Średnia wartość Nietypowego Okazu:",
         sch: "获得稀有平均花费：",
         bra: "Preço médio de um item Incomum",
@@ -1307,6 +1417,7 @@ export let dataUi = {
     },
     111: {
         eng: "Luck",
+        rus: "Удача",
         pol: "Szczęście",
         sch: "幸运",
         bra: "Sorte",
@@ -1319,6 +1430,7 @@ export let dataUi = {
     },
     112: {
         eng: "When it comes to Unusuals, you've been:",
+        rus: "Когда дело доходит до Необычного типа, вы были:",
         pol: "Jeśli chodzi o Nietypowe Okazy, to miałeś:",
         sch: "对于稀有物品来说，您：",
         bra: "Quando chega à itens Incomuns, você esteve:",
@@ -1331,6 +1443,7 @@ export let dataUi = {
     },
     113: {
         eng: "When it comes to Stranges, you've been:",
+        rus: "Когда дело доходит до Странного типа, вы были:",
         pol: "Jeśli chodzi o przedmioty Kuriozalne, to miałeś:",
         sch: "对于奇异物品来说，您：",
         bra: "Quando chega à itens Estranhos, você esteve:",
@@ -1343,6 +1456,7 @@ export let dataUi = {
     },
     114: {
         eng: "Lucky",
+        rus: "Удачливы",
         pol: "Szczęście",
         sch: "手气不错",
         bra: "Sortudo",
@@ -1355,6 +1469,7 @@ export let dataUi = {
     },
     115: {
         eng: "Unlucky",
+        rus: "Неудачливы",
         pol: "Pech",
         sch: "运气较差",
         bra: "Azarado",
@@ -1367,6 +1482,7 @@ export let dataUi = {
     },
     116: {
         eng: "Neither lucky nor unlucky",
+        rus: "Ни удачливы, ни неудачливы",
         pol: "Ani szczęście, ani pech",
         sch: "普普通通",
         bra: "Nem sortudo, nem azarado",
@@ -1379,6 +1495,7 @@ export let dataUi = {
     },
     117: {
         eng: "Not enough data to calculate luck.<br>Come back later once you unbox more crates/cases.",
+        rus: "Недостаточно данных для расчёта удачи.<br>Вернитесь позже, когда откроете больше ящиков/кейсов.",
         pol: "Za mało danych do obliczenia szczęścia.<br>Wróć później jak otworzysz więcej skrzynek.",
         sch: "暂无足够数据来计算幸运。<br>开启更多箱子后再来查看。",
         bra: "Não temos muita data para calcular a sua sorte.<br>Volte quando você tiver aberto mais caixas.",
@@ -1391,6 +1508,7 @@ export let dataUi = {
     },
     118: {
         eng: "Out of #TOTALUNBOXES# unboxes that could have an Unusual,<br>you unboxed #UNUSUALSUNBOXED#, ",
+        rus: "Из #TOTALUNBOXES# открытий, которые могли содержать Необычный предмет,<br>вы открыли #UNUSUALSUNBOXED#, ",
         pol: "Z #TOTALUNBOXES# otwarć które mogły być Nietypowym Okazem,<br>zdobyłeś #UNUSUALSUNBOXED#, ",
         sch: "在 #TOTALUNBOXES# 个有机会开出稀有物品的箱子中，<br>您开出了 #UNUSUALSUNBOXED# 个稀有物品,",
         bra: "De #TOTALUNBOXES# de caixas que você abriu que poderiam ter um item Incomum,<br>você abriu #UNUSUALSUNBOXED#, ",
@@ -1403,6 +1521,7 @@ export let dataUi = {
     },
     119: {
         eng: "which is #DIFF# more than we predicted (#PREDICTION#).",
+        rus: "что на #DIFF# больше, чем мы предсказывали (#PREDICTION#).",
         pol: "czyli #DIFF# więcej niż się spodziewaliśmy (#PREDICTION#).",
         sch: "比我们预测的（#PREDICTION#）要多 #DIFF# 个。",
         bra: "que é #DIFF# mais do que a nossa predição (#PREDICTION#).",
@@ -1415,6 +1534,7 @@ export let dataUi = {
     },
     120: {
         eng: "which is #DIFF# less than we predicted (#PREDICTION#).",
+        rus: "что на #DIFF# меньше, чем мы предсказывали (#PREDICTION#).",
         pol: "czyli #DIFF# mniej niż się spodziewaliśmy (#PREDICTION#).",
         sch: "比我们预测的（#PREDICTION#）要少 #DIFF# 个。",
         bra: "que é #DIFF# menos do que a nossa predição (#PREDICTION#).",
@@ -1427,6 +1547,7 @@ export let dataUi = {
     },
     121: {
         eng: "same amount as our prediction.",
+        rus: "столько же, сколько мы предсказывали.",
         pol: "zgodnie z przewidywaniami.",
         sch: "符合我们预测的数量。",
         bra: "mesmo valor que a nossa predição.",
@@ -1439,6 +1560,7 @@ export let dataUi = {
     },
     122: {
         eng: "Out of #TOTALUNBOXES# unboxes that could have a Strange item,<br>you unboxed #STRANGESUNBOXED#, ",
+        rus: "Из #TOTALUNBOXES# открытий, которые могли содержать Strange предмет,<br>вы открыли #STRANGESUNBOXED#, ",
         pol: "Z #TOTALUNBOXES# otwarć które mogły być przedmiotem Kuriozalnym,<br>zdobyłeś #STRANGESUNBOXED#, ",
         sch: "在 #TOTALUNBOXES# 个有机会开出奇异物品的箱子中，<br>您开出了 #STRANGESUNBOXED# 个奇异物品，",
         bra: "De #TOTALUNBOXES# de caixas que você abriu que poderiam ter um item Estranho,<br>você abriu #STRANGESUNBOXED#, ",
@@ -1451,6 +1573,7 @@ export let dataUi = {
     },
     123: {
         eng: "Cancel",
+        rus: "Отмена",
         pol: "Anuluj",
         sch: "取消",
         bra: "Cancelar",
@@ -1463,6 +1586,7 @@ export let dataUi = {
     },
     124: {
         eng: "This may take a few seconds.<br>Please be patient.",
+        rus: "Это может занять несколько секунд.<br>Пожалуйста, подождите.",
         pol: "To może potrwać chwilę.<br>Proszę o cierpliwość.",
         sch: "这可能要花几秒来完成。<br>请稍候。",
         bra: "Isso pode demorar alguns segundos.<br>Por favor tenha paciência.",
@@ -1475,6 +1599,7 @@ export let dataUi = {
     },
     125: {
         eng: "This will take a minute or two to process.<br>Please be patient.",
+        rus: "Это займёт минуту или две.<br>Пожалуйста, подождите.",
         pol: "To może potrwać minutę lub dwie.<br>Proszę o cierpliwość.",
         sch: "这将需要几分钟来完成。<br>请稍候。",
         bra: "Isso pode demorar um minuto ou dois para processar.<br>Por favor tenha paciência.",
@@ -1487,6 +1612,7 @@ export let dataUi = {
     },
     126: {
         eng: "Sheen:",
+        rus: "Блеск:",
         pol: "Połysk",
         sch: "武器光泽特效：",
         bra: "Brilho:",
@@ -1498,6 +1624,7 @@ export let dataUi = {
     },
     127: {
         eng: "Killstreaker:",
+        rus: "Эффект убийств:",
         pol: "Seryjny Zabójca:",
         sch: "连杀者特效：",
         bra: "Efeito de combo:",
@@ -1509,6 +1636,7 @@ export let dataUi = {
     },
     128: {
         eng: "Team Shine",
+        rus: "Командный блеск",
         pol: "blask drużyny",
         sch: "团队之光",
         bra: "Brilho da equipe",
@@ -1520,6 +1648,7 @@ export let dataUi = {
     },
     129: {
         eng: "Hot Rod",
+        rus: "Хот-род",
         pol: "hot rod",
         sch: "赤红新星",
         bra: "Rajada de roxo",
@@ -1531,6 +1660,7 @@ export let dataUi = {
     },
     130: {
         eng: "Manndarin",
+        rus: "Мандаринка",
         pol: "manndarynka",
         sch: "众志成橙",
         bra: "Manndarin",
@@ -1542,6 +1672,7 @@ export let dataUi = {
     },
     131: {
         eng: "Deadly Daffodil",
+        rus: "Смертельный нарцисс",
         pol: "nieludzki narcyz",
         sch: "致命水仙",
         bra: "Narciso nefasto",
@@ -1553,6 +1684,7 @@ export let dataUi = {
     },
     132: {
         eng: "Agonizing Emerald",
+        rus: "Мучительный изумруд",
         pol: "bolesny szmaragd",
         sch: "苦难翡翠",
         bra: "Esmeralda agonizante",
@@ -1564,6 +1696,7 @@ export let dataUi = {
     },
     133: {
         eng: "Mean Green",
+        rus: "Злобно-зелёный",
         pol: "złośliwa zieleń",
         sch: "绿行绿素",
         bra: "Lima maligna",
@@ -1575,6 +1708,7 @@ export let dataUi = {
     },
     134: {
         eng: "Villainous Violet",
+        rus: "Злодейский фиолетовый",
         pol: "perfidna purpura",
         sch: "罪恶紫罗兰",
         bra: "Violeta vil",
@@ -1586,6 +1720,7 @@ export let dataUi = {
     },
     135: {
         eng: "Cerebral Discharge",
+        rus: "Церебральный разряд",
         pol: "mózgowe wyładowanie",
         sch: "大脑放电",
         bra: "Descarga cerebral",
@@ -1597,6 +1732,7 @@ export let dataUi = {
     },
     136: {
         eng: "Fire Horns",
+        rus: "Огненные рога",
         pol: "ogniste rogi",
         sch: "火焰号角",
         bra: "Chifres ardentes",
@@ -1608,6 +1744,7 @@ export let dataUi = {
     },
     137: {
         eng: "Flames",
+        rus: "Пламя",
         pol: "płomienie",
         sch: "火焰",
         bra: "Chamas",
@@ -1619,6 +1756,7 @@ export let dataUi = {
     },
     138: {
         eng: "Hypno-Beam",
+        rus: "Гипнолуч",
         pol: "hipno-promień",
         sch: "催眠光束",
         bra: "Raio hipnotizante",
@@ -1630,6 +1768,7 @@ export let dataUi = {
     },
     139: {
         eng: "Incinerator",
+        rus: "Испепелитель",
         pol: "spopielacz",
         sch: "焚化炉",
         bra: "Incinerador",
@@ -1641,6 +1780,7 @@ export let dataUi = {
     },
     140: {
         eng: "Singularity",
+        rus: "Сингулярность",
         pol: "osobliwość",
         sch: "奇点",
         bra: "Singularidade",
@@ -1652,6 +1792,7 @@ export let dataUi = {
     },
     141: {
         eng: "Tornado",
+        rus: "Торнадо",
         pol: "tornado",
         sch: "飓风",
         bra: "Tornado",
@@ -1663,6 +1804,7 @@ export let dataUi = {
     },
     142: {
         eng: "Killstreak Kits obtained from this crate may be unboxed as Specialized or Professional Killstreak Kits instead.",
+        rus: "Наборы убийств, полученные из этого ящика, могут быть открыты как Специализированные или Профессиональные наборы убийств.",
         pol: "Zestawy z serią zabójstw z tej skrzynki mogą zostać zastąpione zestawami z wyspecjalizowaną lub profesionalną serią zabójstw.",
         sch: "从这个箱子中获得的连杀记录工具包可能为高级或职业品质。",
         bra: "Kits de Combo obtidos por essa caixa podem ser desencaixotados como Kits de Combo Especializados ou Kits de Combo Profissionais.",
@@ -1675,6 +1817,7 @@ export let dataUi = {
     },
     143: {
         eng: "Bonus items unboxed:",
+        rus: "Открыто бонусных предметов:",
         pol: "Otrzymane przedmioty dodatkowe:",
         sch: "已开出奖励物品：",
         bra: "Itens de bônus desencaixotados:",
@@ -1687,6 +1830,7 @@ export let dataUi = {
     },
     144: {
         eng: "Bonus items",
+        rus: "Бонусные предметы",
         pol: "Dodatkowe przedmioty",
         sch: "奖励物品",
         bra: "Itens de bônus",
@@ -1699,6 +1843,7 @@ export let dataUi = {
     },
     145: {
         eng: "None",
+        rus: "Нет",
         pol: "Brak",
         sch: "无",
         bra: "Nenhum",
@@ -1711,6 +1856,7 @@ export let dataUi = {
     },
     146: {
         eng: "Unique",
+        rus: "Уникальный",
         pol: "Unikalny",
         sch: "独特",
         bra: "Único",
@@ -1722,6 +1868,7 @@ export let dataUi = {
     },
     147: {
         eng: "This case may contain bonus items.",
+        rus: "Этот кейс может содержать бонусные предметы.",
         pol: "Ta skrzynka może zawierać dodatkowe przedmioty.",
         sch: "这个箱子可能包含奖励物品。",
         bra: "Essa caixa pode conter itens de bônus.",
@@ -1734,6 +1881,7 @@ export let dataUi = {
     },
     148: {
         eng: "Crate/case-exclusive bonus items:",
+        rus: "Эксклюзивные бонусные предметы из ящика/кейса:",
         pol: "Dodatkowe przedmioty ekskluzywne dla tej skrzynki:",
         sch: "箱子特有奖励物品：",
         bra: "Itens exclusivos para essa caixa:",
@@ -1746,6 +1894,7 @@ export let dataUi = {
     },
     149: {
         eng: "Stop unboxing at certain items:",
+        rus: "Остановить открытие при определённых предметах:",
         pol: "Przerwij otwieranie po otrzymaniu specyficznych przedmiotów:",
         sch: "开出特定物品时停止开箱：",
         bra: "Pare de desencaixotar em certos itens:",
@@ -1758,6 +1907,7 @@ export let dataUi = {
     },
     150: {
         eng: "This will prevent you from accidentally unboxing another crate/case after getting certain items.",
+        rus: "Это предотвратит случайное открытие другого ящика/кейса после получения определённых предметов.",
         pol: "Ta opcja tymczasowo przerwie otwieranie po otrzymaniu wybranych przedmiotów.",
         sch: "此选项防止您在开出特定物品后意外开启另一个箱子。",
         bra: "Isso vai prevenir você de acidentalmente desencaixotar outra caixa depois de obter certos itens.",
@@ -1770,6 +1920,7 @@ export let dataUi = {
     },
     151: {
         eng: "Items",
+        rus: "Предметы",
         pol: "Przedmioty",
         sch: "物品",
         bra: "Itens",
@@ -1782,6 +1933,7 @@ export let dataUi = {
     },
     152: {
         eng: "Page #PAGE# of #TOTAL#",
+        rus: "Страница #PAGE# из #TOTAL#",
         pol: "Strona #PAGE# z #TOTAL#",
         sch: "第 #PAGE# / #TOTAL# 页",
         bra: "Página #PAGE# de #TOTAL#",
@@ -1794,6 +1946,7 @@ export let dataUi = {
     },
     153: {
         eng: "Single bonus items unboxed:",
+        rus: "Открыто ящиков с одиночными бонусными предметами:",
         pol: "Otrzymane pojedyncze przedmioty dodatkowe:",
         sch: "开出一个奖励物品的次数：",
         bra: "Singelos itens de bônus desencaixotados:",
@@ -1806,6 +1959,7 @@ export let dataUi = {
     },
     154: {
         eng: "Double bonus items unboxed:",
+        rus: "Открыто ящиков с двойными бонусными предметами:",
         pol: "Otrzymane podwójne przedmioty dodatkowe:",
         sch: "开出两个奖励物品的次数：",
         bra: "Duplos itens de bônus desencaixotados:",
@@ -1818,6 +1972,7 @@ export let dataUi = {
     },
     155: {
         eng: "Triple bonus items unboxed:",
+        rus: "Открыто ящиков с тройными бонусными предметами:",
         pol: "Otrzymane potrójne przedmioty dodatkowe:",
         sch: "开出三个奖励物品的次数：",
         bra: "Triplos itens de bônus desencaixotados:",
@@ -1830,6 +1985,7 @@ export let dataUi = {
     },
     156: {
         eng: "Unusualifiers unboxed:",
+        rus: "Открыто необычнотизаторов:",
         pol: "Otrzymane uniezwyklacze:",
         sch: "开出稀有转化魔法：",
         bra: "Incomunizadores desencaixotados:",
@@ -1842,6 +1998,7 @@ export let dataUi = {
     },
     157: {
         eng: "Strange Stat Clock Attached",
+        rus: "Прикреплён к Странному счётчику",
         pol: "Dołączony licznik zabójstw",
         sch: "已附上统计记录表",
         bra: "Contador Estranho de estatísticas anexado",
@@ -1853,6 +2010,7 @@ export let dataUi = {
     },
     158: {
         eng: "Unusualifiers",
+        rus: "Необычнотизатор",
         pol: "Uniezwyklacze",
         sch: "稀有转化魔法",
         bra: "Incomunizadores",
@@ -1864,6 +2022,7 @@ export let dataUi = {
     },
     159: {
         eng: "Stranges",
+        rus: "Странного типа",
         pol: "Przedmioty kuriozalne",
         sch: "奇异",
         bra: "Estranhos",
@@ -1875,6 +2034,7 @@ export let dataUi = {
     },
     160: {
         eng: "Grade",
+        rus: "Класс",
         pol: "Stopień",
         sch: "等级",
         bra: "Nível",
@@ -1887,6 +2047,7 @@ export let dataUi = {
     },
     161: {
         eng: "Prof. killstreak kits",
+        rus: "Проф. наборы убийств",
         pol: "Zestawy z prof. serią zabójstw",
         sch: "职业连杀记录工具包",
         bra: "Kits de Combo Profissionais",
@@ -1898,6 +2059,7 @@ export let dataUi = {
     },
     162: {
         eng: "Triple bonus items",
+        rus: "Тройные бонусные предметы",
         pol: "Potrójne przedmioty dodatkowe",
         sch: "三个奖励物品",
         bra: "Triplos itens de bônus",
@@ -1910,6 +2072,7 @@ export let dataUi = {
     },
     163: {
         eng: "Grade Mercenary",
+        rus: "Класс Наёмника",
         pol: "Stopień Najemnik",
         sch: "雇佣级",
         bra: "Nível Mercenário",
@@ -1922,6 +2085,7 @@ export let dataUi = {
     },
     164: {
         eng: "Grade Commando",
+        rus: "Класс Бойца",
         pol: "Stopień Komandos",
         sch: "特种级",
         bra: "Nível Comando",
@@ -1934,6 +2098,7 @@ export let dataUi = {
     },
     165: {
         eng: "Grade Assassin",
+        rus: "Класс Убийцы",
         pol: "Stopień Asasyn",
         sch: "刺杀级",
         bra: "Nível Assassino",
@@ -1946,6 +2111,7 @@ export let dataUi = {
     },
     166: {
         eng: "Grade Elite",
+        rus: "Класс Элитного бойца",
         pol: "Stopień Elita",
         sch: "精英级",
         bra: "Nível Elite",
@@ -1958,6 +2124,7 @@ export let dataUi = {
     },
     167: {
         eng: "Mercenary",
+        rus: "Наёмника",
         pol: "Najemnik",
         sch: "雇佣",
         bra: "Mercenário",
@@ -1969,6 +2136,7 @@ export let dataUi = {
     },
     168: {
         eng: "Commando",
+        rus: "Бойца",
         pol: "Komandos",
         sch: "特种",
         bra: "Comando",
@@ -1980,6 +2148,7 @@ export let dataUi = {
     },
     169: {
         eng: "Assassin",
+        rus: "Убийцы",
         pol: "Asasyn",
         sch: "刺杀",
         bra: "Assassino",
@@ -1991,6 +2160,7 @@ export let dataUi = {
     },
     170: {
         eng: "Elite",
+        rus: "Элитного бойца",
         pol: "Elita",
         sch: "精英",
         bra: "Elite",
@@ -2002,6 +2172,7 @@ export let dataUi = {
     },
     171: {
         eng: "Bulk unboxing in progress...",
+        rus: "Массовое открытие в процессе...",
         pol: "Trwa otwieranie wielu skrzynek...",
         sch: "正在批量开箱...",
         bra: "Desencaixotamento em massa em andamento...",
@@ -2014,6 +2185,7 @@ export let dataUi = {
     },
     172: {
         eng: "Bulk unboxing results",
+        rus: "Результаты массового открытия",
         pol: "Wyniki zbiorczego otwierania",
         sch: "批量开箱结果",
         bra: "Resultados de desencaixotamento em massa",
@@ -2026,6 +2198,7 @@ export let dataUi = {
     },
     173: {
         eng: "Enable EOTL glitched Unusuals:",
+        rus: "Включить баг с Необычными EOTL:",
         pol: "Włącz zglitchowane Nietypowe Okazy EOTL:",
         sch: "启用 EOTL 异常稀有物品：",
         bra: "Ativar itens Incomuns falhados do EOTL:",
@@ -2038,6 +2211,7 @@ export let dataUi = {
     },
     174: {
         eng: 'Allows the Hunter Heavy, Coldfront Curbstompers and Sleeveless in Siberia to be unboxed in Unusual quality from the End of the Line Community Crate.',
+        rus: 'Позволяет открыть Hunter Heavy, Coldfront Curbstompers и Sleeveless in Siberia в Необычном качестве из Community Crate End of the Line.',
         pol: 'Pozwala na otrzymanie "Łowcy grubego zwierza", "Zimowych zgniataczy" i "Syberyjskiego bezrękawnika" jako Nietypowych Okazów z skrzynki aktualizacji społeczności „Koniec trasy”.',
         sch: '允许在 End of the Line 社区补给箱中开出稀有品质的“机枪猎手”、“冷锋践踏者”和“西伯利亚无袖衣”。',
         bra: 'Permite que os cosméticos "Caçador Camuflado", "Frente Quente" e "Jaqueta de Geada" sejam desencaixotados em qualidade Incomum por a caixa do End of the Line.',
@@ -2050,6 +2224,7 @@ export let dataUi = {
     },
     175: {
         eng: "Event mode:",
+        rus: "Режим события:",
         pol: "Tryb wydarzenia:",
         sch: "活动模式：",
         bra: "Modo de Evento:",
@@ -2061,6 +2236,7 @@ export let dataUi = {
     },
     176: {
         eng: "This option replaces Unusual effects in certain crates/cases with effects from the selected event.<br>Events from 2011 to 2016 affect only crates and cases released before the event.<br>Events from 2017 onwards affect only cases released before the event.",
+        rus: "Эта опция заменяет Необычные эффекты в определённых ящиках/кейсах на эффекты из выбранного события.<br>События с 2011 по 2016 год влияют только на ящики и кейсы, выпущенные до события.<br>События с 2017 года влияют только на кейсы, выпущенные до события.",
         pol: "Ta opcja zmienia efekty Nietypowych Okazów w niektórych skrzynkach na efekty z wybranego wydarzenia.<br>Wydarzenia z 2011 do 2016 roku obejmują tylko skrzynki wydane przed wydarzeniem.<br>Wydarzenia z 2017 i następnych lat obejmują tylko skrzynki wydane przed wydarzeniem i po aktualizacji Siła charakteru.",
         sch: "此选项将特定箱子的稀有效果替换为指定活动的效果。<br>2011 至 2016 年的活动只会影响活动之前发布的箱子。<br>2017 年起的活动只会影响活动之前与枪魂更新之后发布的箱子。",
         bra: "Essa opção substitui efeitos Incomuns em certas caixas com efeitos do evento selecionado.<br>Eventos de 2011 para 2016 só afetam caixas lançadas antes do evento.<br>Eventos de 2017 e avante só afetam as caixas lançadas antes do evento e as caixas lançadas depois da atualização Arsenal Artístico.",
@@ -2073,6 +2249,7 @@ export let dataUi = {
     },
     177: {
         eng: "Disabled",
+        rus: "Отключено",
         pol: "Wyłączone",
         sch: "禁用",
         bra: "Desativado",
@@ -2085,6 +2262,7 @@ export let dataUi = {
     },
     178: {
         eng: "Very Scary Halloween Special (2011)",
+        rus: "Очень страшный Хэллоуинский спецвыпуск (2011)",
         pol: "Bardzo Straszne Halloween (2011)",
         sch: "非常恐怖的万圣节特约（2011）",
         bra: "Especial Bem Assustador de Dia das Bruxas (2011)",
@@ -2095,6 +2273,7 @@ export let dataUi = {
     },
     179: {
         eng: "Spectral Halloween Special (2012)",
+        rus: "Очень страшный Хэллоуинский спецвыпуск (2012)",
         pol: "Spektralne Halloween (2012)",
         sch: "幽灵万圣节特约（2012）",
         bra: "Especial Espectral de Dia das Bruxas (2012)",
@@ -2105,48 +2284,56 @@ export let dataUi = {
     },
     180: {
         eng: "Scream Fortress V (2013)",
+        rus: "Вииизг Фортресс V (2013)",
         sch: "尖叫要塞 V（2013）",
         rom: "Fortareata Urlatoarea V (2013)",
 		swe: "Skrik Fortress V (2013)"
     },
     181: {
         eng: "Scream Fortress VI (2014)",
+        rus: "Вииизг Фортресс VI (2014)",
         sch: "尖叫要塞 VI（2014）",
         rom: "Fortareata Urlatoare VI (2014)",
 		swe: "Skrik Fortress VI (2014)"
     },
     182: {
         eng: "Scream Fortress VIII (2016)",
+        rus: "Вииизг Фортресс VIII (2016)",
         sch: "尖叫要塞 VIII（2016）",
         rom: "Fortareata Urlatoare VIII (2016)",
 		swe: "Skrik Fortress VIII (2016)"
     },
     183: {
         eng: "Scream Fortress IX (2017)",
+        rus: "Вииизг Фортресс IX (2017)",
         sch: "尖叫要塞 IX（2017）",
         rom: "Fortareata Urlatoare IX (2017)",
 		swe: "Skrik Fortress IX (2017)"
     },
     184: {
         eng: "Scream Fortress X (2018)",
+        rus: "Вииизг Фортресс X (2018)",
         sch: "尖叫要塞 X（2018）",
         rom: "Fortareata Urlatoare X (2018)",
 		swe: "Skrik Fortress X (2018)"
     },
     185: {
         eng: "Scream Fortress XI (2019)",
+        rus: "Вииизг Фортресс XI (2019)",
         sch: "尖叫要塞 XI（2019）",
         rom: "Fortareata Urlatoare XI (2019)",
 		swe: "Skrik Fortress XI (2019)"
     },
     186: {
         eng: "Scream Fortress XII (2020)",
+        rus: "Вииизг Фортресс XII (2020)",
         sch: "尖叫要塞 XII（2020）",
         rom: "Fortareata Urlatoare XII (2020)",
 		swe: "Skrik Fortress XII (2020)"
     },
     187: {
         eng: "Support Unboxer.tf by donating",
+        rus: "Поддержите Unboxer.tf пожертвованием",
         pol: "Wspomóż Unboxer.tf, przekazując darowiznę",
         sch: "捐赠以支持 Unboxer.tf",
         bra: "Apoie Unboxer.tf doando",
@@ -2159,6 +2346,7 @@ export let dataUi = {
     },
     188: {
         eng: "Unboxer.tf was made almost entirely by a single person in his spare time. If you like the website, please consider donating.<br>For your convenience, I do not and never will run any ads on this site.<br>Even a small donation will encourage me to continue working on Unboxer.tf. Thank you!",
+        rus: "Unboxer.tf был создан практически полностью одним человеком в свободное время. Если вам нравится сайт, пожалуйста, рассмотрите возможность пожертвования.<br>Для вашего удобства, я не размещаю и никогда не буду размещать рекламу на этом сайте.<br>Даже небольшое пожертвование поощрит меня продолжать работу над Unboxer.tf. Спасибо!",
         pol: "Unboxer.tf zostało stworzone prawie całkowicie przez jedną osobę w jego wolnym czasie. Jeśli spodobała ci się ta strona, proszę o przekazanie darowizny.<br>Dla Twojej wygody, nie ma i nie będzie żadnych reklam na stronie.<br>Nawet mała darowizna zmotywuje mnie do dalszej pracy nad Unboxer.tf. Dziękuję!",
         sch: "Unboxer.tf 仅由一名开发者在空闲时间开发而成。如果您喜欢此网站，请考虑捐赠。<br>即使是一点点赠予也会鼓励我继续开发 Unboxer.tf。谢谢！",
         bra: "Unboxer.tf foi feito quase inteiramente por uma só pessoa em seu tempo livre. Se você gostou do website, por favor considere doar.<br>Até uma doação pequena me incentiva a continuar trabalhando no Unboxer.tf. Obrigado!",
@@ -2171,6 +2359,7 @@ export let dataUi = {
     },
     189: {
         eng: "If you choose to donate, your name, Steam profile link and donation amount will appear in the list of donators.<br><b>In your donation message, please include that the donation is for unboxer.tf, as well as your name and Steam profile link.</b><br> You can choose to stay anonymous. Item donations will be displayed as their value in USD.",
+        rus: "Если вы решите сделать пожертвование, ваше имя, ссылка на профиль Steam и сумма пожертвования появятся в списке жертвователей.<br><b>В сообщении к пожертвованию, пожалуйста, укажите, что пожертвование для unboxer.tf, а также ваше имя и ссылку на профиль Steam.</b><br>Вы можете остаться анонимным. Пожертвования предметами будут отображаться как их стоимость в USD.",
         pol: "Jeśli przekażesz darowiznę, twój nick, link do profilu Steam i kwota darowizny zostaną dodane do listy darczyńców.<br><b>W wiadomości dołączonej do darowizny, proszę napisać że darowizna jest dla unboxer.tf oraz wpisz swój nick i link do profilu Steam.</b><br> Możesz także pozostać anonimowym. Darowizny w postaci przedmiotów będą pokazane jako ich wartość w USD.",
         sch: "如果您选择捐赠，您的名字、Steam 个人资料链接与捐赠金额会出现在捐赠列表中。<br>请在您的捐赠附言中说明此款项是捐赠给 Unboxer.tf 的，并附上您的名字与 Steam 个人资料链接。您也可以选择保持匿名。物品捐赠会显示为物品的美元价格。",
         bra: "Se você escolher doar, o seu nome, link do perfil na Steam e o valor da sua doação vão aparecer na lista de doadores. <br><b>Na sua mensagem de doação, por favor inclua que a doação é para unboxer.tf, também inclua o seu nome e link de perfil na Steam.</b><br>Você pode escolher para ficar anônimo. Doações de itens vão ser exibidas em seu preço em dólares americanos.",
@@ -2183,6 +2372,7 @@ export let dataUi = {
     },
     190: {
         eng: "Donator List",
+        rus: "Список жертвователей",
         pol: "Lista darczyńców",
         sch: "捐赠列表",
         bra: "Lista de doadores",
@@ -2195,9 +2385,11 @@ export let dataUi = {
     },
     191: {
         eng: "",
+        rus: ""
     },
     192: {
         eng: 'You can donate with <a href="https://paypal.me/kubikill" target="_blank" rel="noopener">PayPal</a> or <a href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo" target="_blank" rel="noopener">TF2/Steam items</a>.<br>Brave Browser users can donate using BAT from within the browser.',
+        rus: 'Вы можете сделать пожертвование через <a href="https://paypal.me/kubikill" target="_blank" rel="noopener">PayPal</a> или <a href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo" target="_blank" rel="noopener">предметами TF2/Steam</a>.<br>Пользователи браузера Brave могут жертвовать BAT прямо из браузера.',
         pol: 'Możesz przekazać darowiznę przez <a href="https://paypal.me/kubikill" target="_blank" rel="noopener">PayPal</a> lub <a href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo" target="_blank" rel="noopener">przedmioty TF2/Steam</a>.<br>Użytkownicy przeglądarki Brave Browser mogą przekazać darowiznę w BAT z poziomu przeglądarki.',
         sch: '您可以通过 <a href="https://paypal.me/kubikill" target="_blank" rel="noopener">PayPal</a> 捐赠现金或向我发送 <a href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo" target="_blank" rel="noopener">TF2/Steam 物品</a>。<br>Brave 浏览器的用户还可以捐赠浏览器内的 BAT 代币。',
         bra: 'Você pode doar com <a href="https://paypal.me/kubikill" target="_blank" rel="noopener">PayPal</a> ou <a href="https://steamcommunity.com/tradeoffer/new/?partner=98915182&token=YEmUtMbo" target="_blank" rel="noopener">itens da Steam/TF2</a>.<br>Usuários de Brave Browser podem doar usando BAT pelo navegador deles.',
@@ -2210,6 +2402,7 @@ export let dataUi = {
     },
     193: {
         eng: 'French',
+        rus: "Французский",
         pol: 'Francuski',
         sch: '法语',
         bra: 'Francês',
@@ -2222,6 +2415,7 @@ export let dataUi = {
     },
     194: {
         eng: 'Spanish',
+        rus: "Испанский",
         pol: 'Hiszpański',
         sch: '西班牙语',
         bra: 'Espanhol',
@@ -2233,6 +2427,7 @@ export let dataUi = {
     },
     195: {
         eng: 'German',
+        rus: "Немецкий",
         pol: 'Niemiecki',
         sch: '德语',
         bra: 'Alemão',
@@ -2244,6 +2439,7 @@ export let dataUi = {
     },
     196: {
         eng: 'Brazilian Portuguese',
+        rus: "Бразильский португальский",
         pol: 'Brazylijski portugalski',
         sch: '巴西葡萄牙语',
         bra: 'Português do Brasil',
@@ -2256,6 +2452,7 @@ export let dataUi = {
     },
     197: {
         eng: "View on Steam Market",
+        rus: "Посмотреть на Торговой площадке Steam",
         pol: "Wyświetl na Rynku Steam",
         sch: "在 Steam 社区市场查看",
         bra: "Ver na Steam Market",
@@ -2268,6 +2465,7 @@ export let dataUi = {
     },
     198: {
         eng: "View on Backpack.tf",
+        rus: "Посмотреть на Backpack.tf",
         pol: "Wyświetl na Backpack.tf",
         sch: "在 Backpack.tf 查看",
         bra: "Ver em Backpack.tf",
@@ -2280,6 +2478,7 @@ export let dataUi = {
     },
     199: {
         eng: "View on Marketplace.tf",
+        rus: "Посмотреть на Marketplace.tf",
         pol: "Wyświetl na Marketplace.tf",
         sch: "在 Marketplace.tf 查看",
         bra: "Ver em Marketplace.tf",
@@ -2292,6 +2491,7 @@ export let dataUi = {
     },
     200: {
         eng: "Enable Unusual Sniper vs. Spy update hats:",
+        rus: "Включить Необычные шляпы из обновления Снайпер против Шпиона:",
         pol: "Włącz Nietypowe Okazy z aktualizacji Snajper kontra Szpieg:",
         bra: "Ativar efeitos incomuns em chapéus da atualização Sniper vs. Spy:",
         sch: "启用“狙击手 vs. 间谍”更新的稀有帽子",
@@ -2304,6 +2504,7 @@ export let dataUi = {
     },
     201: {
         eng: "Allows the hats added in the Sniper vs. Spy update to be unboxed as Unusuals from crates added before the TF2 January 25th 2013 update (crates #1 - #55).",
+        rus: "Позволяет шляпам, добавленным в обновлении Снайпер против Шпиона, выпадать как Необычные из ящиков, добавленных до обновления TF2 25 января 2013 года (ящики #1 - #55).",
         pol: "Ta opcja pozwala na otrzymanie czapek z aktualizacji Snajper kontra Szpieg w jakości Nietypowy Okaz z skrzynek dodanych przed aktualizacją TF2 z 25 stycznia 2013 (skrzynki #1 - #55).",
         bra: "Isso permite que os chapéus adicionados na atualização do Sniper vs. Spy possam ser desencaixotados em qualidade Incomum por caixas adicionadas antes da atualização de TF2 em 25 de Janeiro de 2013 (caixas #1 - #55).",
         sch: "此选项允许从 2013 年 1 月 25 日 TF2 更新之前的箱子（编号为 #1-#55）中开出稀有品质的、在“狙击手 vs. 间谍”更新中添加的帽子。",
@@ -2316,6 +2517,7 @@ export let dataUi = {
     },
     202: {
         eng: "Smissmas 2020",
+        rus: "Смиссмас 2020",
         pol: "Śnięta 2020",
         sch: "圣诞节 2020",
         bra: "Natal de 2020",
@@ -2326,6 +2528,7 @@ export let dataUi = {
     },
     203: {
         eng: "Smissmas 2019",
+        rus: "Смиссмас 2019",
         pol: "Śnięta 2019",
         sch: "圣诞节 2019",
         bra: "Natal de 2019",
@@ -2336,6 +2539,7 @@ export let dataUi = {
     },
     204: {
         eng: "Search",
+        rus: "Поиск",
         pol: "Szukaj",
         cze: "Vyhledávání",
         hun: "Keresés",
@@ -2345,6 +2549,7 @@ export let dataUi = {
     },
     205: {
         eng: "Type to search",
+        rus: "Введите для поиска",
         pol: "Pisz, aby wyszukać",
         cze: "Piš pro vyhledávání",
         hun: "Kezdj el gépelni a kereséshez",
@@ -2354,6 +2559,7 @@ export let dataUi = {
     },
     206: {
         eng: 'Czech',
+        rus: "Чешский",
         pol: 'Czeski',
         cze: 'Čeština',
         hun: 'Cseh',
@@ -2362,6 +2568,7 @@ export let dataUi = {
     },
     207: {
         eng: 'Hungarian',
+        rus: "Венгерский",
         pol: "Węgierski",
         hun: 'Magyar',
         rom: 'Maghiara',
@@ -2370,6 +2577,7 @@ export let dataUi = {
     },
 	208: {
         eng: 'Romanian',
+        rus: "Румынский",
         pol: "Rumuński",
         rom: 'Romana',
 		swe: 'Rumänska',
@@ -2377,22 +2585,36 @@ export let dataUi = {
     },
 	209: {
 		eng: "Swedish",
+        rus: "Шведский",
 		pol: "Szwecki",
 		swe: "Svenska",
 		fil: "Suweko"
 	},
 	210: {
 		eng: "Filipino",
+        rus: "Филиппинский",
 		pol: "Filipiński"
 	},
+    221: {
+        eng: 'Russian',
+        rus: "Русский",
+        pol: "Rosyjski",
+        hun: "Orosz",
+        rom: "Rusă",
+        swe: "Ryska",
+        fil: "Ruso"
+    },
+
     211: {
         eng: "Scream Fortress XIII (2021)",
+        rus: "Вииизг Фортресс XIII (2021)",
         sch: "尖叫要塞 XIII（2021）",
         rom: "Fortareata Urlatoare XIII (2021)",
 		swe: "Skrik Fortress XIII (2021)"
     },
     212: {
         eng: "Smissmas 2021",
+        rus: "Смиссмас 2021",
         pol: "Śnięta 2021",
         sch: "圣诞节 2021",
         bra: "Natal de 2021",
@@ -2403,12 +2625,14 @@ export let dataUi = {
     },
     213: {
         eng: "Scream Fortress XIV (2022)",
+        rus: "Вииизг Фортресс XIV (2022)",
         sch: "尖叫要塞 XIV（2022）",
         rom: "Fortareata Urlatoare XIV (2022)",
 		swe: "Skrik Fortress XIV (2022)"
     },
     214: {
         eng: "Smissmas 2022",
+        rus: "Смиссмас 2022",
         pol: "Śnięta 2022",
         sch: "圣诞节 2022",
         bra: "Natal de 2022",
@@ -2419,15 +2643,18 @@ export let dataUi = {
     },
     215: {
         eng: "Summer 2023",
+        rus: "Лето 2023"
     },
     216: {
         eng: "Scream Fortress XV (2023)",
+        rus: "Вииизг Фортресс XV (2023)",
         sch: "尖叫要塞 XV（2023）",
         rom: "Fortareata Urlatoare XV (2023)",
 		swe: "Skrik Fortress XV (2023)"
     },
     217: {
         eng: "Smissmas 2023",
+        rus: "Смиссмас 2023",
         pol: "Śnięta 2023",
         sch: "圣诞节 2023",
         bra: "Natal de 2023",
@@ -2438,13 +2665,23 @@ export let dataUi = {
     },
     218: {
         eng: "Enable unusual miscs:",
+        rus: "Включить необычные аксессуары:",
         pol: "Włącz Nietypowe Okazy na przedmiotach dodatkowych:",
     },
     219: {
         eng: "Allows some miscs to be unboxed as Unusuals from crates added before the TF2 July 7th 2016 update (crates #1 - #102)",
+        rus: "Позволяет некоторым аксессуарам выпадать как Необычные из ящиков, добавленных до обновления TF2 7 июля 2016 года (ящики #1 - #102)",
         pol: "Ta opcja pozwala na otrzymanie tzw. przedmiotów dodatkowych (ang. miscs) w jakości Nietypowy Okaz z skrzynek dodanych przed aktualizacją TF2 z 7 lutego 2016 (skrzynki #1 - #102).",
     },
     220: {
         eng: "Summer 2024",
+        rus: "Лето 2024"
+    },
+    222: {
+        eng: "Scream Fortress XVI (2022)",
+        rus: "Вииизг Фортресс XVI (2024)",
+        sch: "尖叫要塞 XVI（2024）",
+        rom: "Fortareata Urlatoare XVI (2024)",
+		swe: "Skrik Fortress XVI (2024)"
     },
 }

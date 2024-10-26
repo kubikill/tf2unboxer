@@ -2,6 +2,7 @@ export let dataItems = {
     1: {
         img: "vita_saw",
         eng: "The Vita-Saw",
+        rus: "Вита-пила",
         pol: "Vita-piła",
         sch: "维塔锯",
         fre: "La Vita-Scie",
@@ -13,6 +14,7 @@ export let dataItems = {
     2: {
         img: "gunslinger",
         eng: "The Gunslinger",
+        rus: "Оружейник",
         pol: "Jednoręki bandyta",
         sch: "枪炮工之臂",
         fre: "Le Flingueur",
@@ -24,6 +26,7 @@ export let dataItems = {
     3: {
         img: "equalizer",
         eng: "The Equalizer",
+        rus: "Уравнитель",
         pol: "Wyrównywacz",
         sch: "十字镐",
         fre: "L'Equalizer",
@@ -35,6 +38,7 @@ export let dataItems = {
     4: {
         img: "scottish_resistance",
         eng: "The Scottish Resistance",
+        rus: "Шотландское сопротивление",
         pol: "Szkocki opór",
         sch: "苏格兰防御者",
         fre: "La Scottish Resistance",
@@ -46,6 +50,7 @@ export let dataItems = {
     5: {
         img: "old_guadalajara",
         eng: "Old Guadalajara",
+        rus: "Старая Гвадалахара",
         pol: "Stara Guadalajara",
         sch: "古老的瓜达拉哈拉草帽",
         fre: "Guadalajara d'antan",
@@ -57,6 +62,7 @@ export let dataItems = {
     6: {
         img: "nappers_respite",
         eng: "Napper's Respite",
+        rus: "Отдых для мозгов",
         pol: "Szlafmyca śpiocha",
         sch: "小偷的喘息",
         fre: "Neurones au repos",
@@ -68,6 +74,7 @@ export let dataItems = {
     7: {
         img: "name_tag",
         eng: "Name Tag",
+        rus: "Именной ярлык",
         pol: "Etykieta z nazwą",
         sch: "名称标签",
         fre: "Étiquette",
@@ -79,6 +86,7 @@ export let dataItems = {
     8: {
         img: "an_extraordinary_abundance_of_tinge",
         eng: "An Extraordinary Abundance of Tinge",
+        rus: "Огромное изобилие оттенков",
         pol: "Nadzwyczajna obfitość zabarwienia",
         sch: "独特满桶白",
         fre: "Une Touche d'Abondance Extraordinaire",
@@ -90,6 +98,7 @@ export let dataItems = {
     9: {
         img: "a_distinctive_lack_of_hue",
         eng: "A Distinctive Lack of Hue",
+        rus: "Острая нехватка цвета",
         pol: "Charakterystyczny brak odcienia",
         sch: "特别无色黑",
         fre: "Un Manque de Camaïeux",
@@ -101,6 +110,7 @@ export let dataItems = {
     10: {
         img: "black_box",
         eng: "The Black Box",
+        rus: "Чёрный ящик",
         pol: "Czarna skrzynka",
         sch: "黑匣子",
         fre: "La Boîte Noire",
@@ -112,6 +122,7 @@ export let dataItems = {
     11: {
         img: "shortstop",
         eng: "The Shortstop",
+        rus: "Прерыватель",
         pol: "Wstrzymywacz",
         sch: "游击手",
         fre: "L'Arrêt-court",
@@ -124,6 +135,7 @@ export let dataItems = {
     12: {
         img: "letranger",
         eng: "L'Etranger",
+        rus: "Незнакомец",
         pol: "L'Étranger",
         sch: "陌生人",
         fre: "L'Étranger",
@@ -135,6 +147,7 @@ export let dataItems = {
     13: {
         img: "sober_stuntman",
         eng: "Sober Stuntman",
+        rus: "Трезвый каскадер",
         pol: "Trzeźwy kaskader",
         sch: "冷静的特技演员",
         fre: "Cascadeur sobre",
@@ -146,6 +159,7 @@ export let dataItems = {
     14: {
         img: "chieftains_challenge",
         eng: "Chieftain's Challenge",
+        rus: "Испытание вождя",
         pol: "Zew wodza",
         sch: "印第安酋长帽",
         fre: "Défi du chef",
@@ -157,6 +171,7 @@ export let dataItems = {
     15: {
         img: "dueling_minigame",
         eng: "Dueling Mini-Game",
+        rus: "Мини-игра \"Дуэль\"",
         pol: "Minigra - pojedynek",
         sch: "迷你游戏:决斗!",
         fre: "Mini-jeu de duel",
@@ -168,6 +183,7 @@ export let dataItems = {
     16: {
         img: "a_deep_commitment_to_purple",
         eng: "A Deep Commitment to Purple",
+        rus: "Фиолетовая зависимость",
         pol: "Głęboko zaangażowana purpura",
         sch: "誓约之紫",
         fre: "Une Pourpre Imposante",
@@ -179,6 +195,7 @@ export let dataItems = {
     17: {
         img: "australium_gold",
         eng: "Australium Gold",
+        rus: "Золотой австралий",
         pol: "Złocistość australium",
         sch: "澳元素金",
         fre: "Or Australium",
@@ -190,6 +207,7 @@ export let dataItems = {
     18: {
         img: "bushwacka",
         eng: "The Bushwacka",
+        rus: "Кустолом",
         pol: "Bandyta z buszu",
         sch: "灌木丛",
         fre: "Le Bushwacka",
@@ -202,6 +220,7 @@ export let dataItems = {
     19: {
         img: "critacola",
         eng: "Crit-a-Cola",
+        rus: "Критокола",
         pol: "Kryt-o-Cola",
         sch: "爆击可乐",
         fre: "Crit-a-Cola",
@@ -213,6 +232,7 @@ export let dataItems = {
     20: {
         img: "homewrecker",
         eng: "The Homewrecker",
+        rus: "Крушитель",
         pol: "Burzyciel",
         sch: "拆迁者",
         fre: "Le Briseur de Ménages",
@@ -224,6 +244,7 @@ export let dataItems = {
     21: {
         img: "troublemakers_tossle_cap",
         eng: "Troublemaker's Tossle Cap",
+        rus: "Шапка беспредельщика",
         pol: "Czapka rozrabiaki",
         sch: "麻烦制造者的防寒帽",
         fre: "Bonnet de Fauteur de troubles",
@@ -235,6 +256,7 @@ export let dataItems = {
     22: {
         img: "bombing_run",
         eng: "Bombing Run",
+        rus: "Заход на цель",
         pol: "Rajd bombowy",
         sch: "轰炸航路",
         fre: "Frappe aérienne",
@@ -246,6 +268,7 @@ export let dataItems = {
     23: {
         img: "stout_shako",
         eng: "Stout Shako",
+        rus: "Прочный кивер",
         pol: "Opasłe czako",
         sch: "斯托特军帽",
         fre: "Fier shako",
@@ -257,6 +280,7 @@ export let dataItems = {
     24: {
         img: "description_tag",
         eng: "Description Tag",
+        rus: "Ярлык для описания",
         pol: "Etykieta z opisem",
         sch: "描述标签",
         fre: "Étiquette de Description",
@@ -268,6 +292,7 @@ export let dataItems = {
     25: {
         img: "battalions_backup",
         eng: "The Battalion's Backup",
+        rus: "Поддержка батальона",
         pol: "Wsparcie batalionu",
         sch: "军队的支援",
         fre: "Le Soutien du Bataillon",
@@ -279,6 +304,7 @@ export let dataItems = {
     26: {
         img: "pain_train",
         eng: "The Pain Train",
+        rus: "Костыль",
         pol: "Pałka sokisty",
         sch: "钉棍",
         fre: "Le Pain Train",
@@ -290,6 +316,7 @@ export let dataItems = {
     27: {
         img: "your_eternal_reward",
         eng: "Your Eternal Reward",
+        rus: "Вечный покой",
         pol: "Ostateczna nagroda",
         sch: "永生的回报",
         fre: "Ton Éternelle Récompense",
@@ -301,6 +328,7 @@ export let dataItems = {
     28: {
         img: "whoopee_cap",
         eng: "Whoopee Cap",
+        rus: "Молодёжная корона",
         pol: "Pierdziuszka",
         sch: "狂欢之冠",
         fre: "Toque de Fanfaron",
@@ -312,6 +340,7 @@ export let dataItems = {
     29: {
         img: "heavy_duty_rag",
         eng: "The Heavy Duty Rag",
+        rus: "Тряпка рабочего",
         pol: "Bandana Grubego",
         sch: "结实的头巾",
         fre: "Bandeau des lourdes obligations",
@@ -323,6 +352,7 @@ export let dataItems = {
     30: {
         img: "handymans_handle",
         eng: "Handyman's Handle",
+        rus: "Рычаг умельца",
         pol: "Przepychaczka babci klozetowej",
         sch: "能工巧匠的把手",
         fre: "Poignée multifonction",
@@ -334,6 +364,7 @@ export let dataItems = {
     31: {
         img: "powerjack",
         eng: "The Powerjack",
+        rus: "Разъединитель",
         pol: "Lewarek",
         sch: "强力千斤顶",
         fre: "Le Powerjack",
@@ -345,6 +376,7 @@ export let dataItems = {
     32: {
         img: "gunboats",
         eng: "The Gunboats",
+        rus: "Штурмботинки",
         pol: "Kanonierki",
         sch: "炮艇",
         fre: "Les Bottes de sûreté",
@@ -356,6 +388,7 @@ export let dataItems = {
     33: {
         img: "southern_hospitality",
         eng: "The Southern Hospitality",
+        rus: "Южное гостеприимство",
         pol: "Południowa gościnność",
         sch: "南部的款待",
         fre: "L'Hospitalité Sudiste",
@@ -367,6 +400,7 @@ export let dataItems = {
     34: {
         img: "blokes_bucket_hat",
         eng: "Bloke's Bucket Hat",
+        rus: "Шляпа рыболова",
         pol: "Ziomalska czapka wędkarska",
         sch: "渔夫的水桶帽",
         fre: "Bob de Mec",
@@ -378,6 +412,7 @@ export let dataItems = {
     35: {
         img: "safensound",
         eng: "Safe'n'Sound",
+        rus: "Шумопоглощающие наушники",
         pol: "Safe'n'Sound",
         sch: "安全耳套",
         fre: "Son et Sauf",
@@ -389,6 +424,7 @@ export let dataItems = {
     36: {
         img: "ze_goggles",
         eng: "Ze Goggles",
+        rus: "Пучеглазы",
         pol: "Gógle",
         sch: "护目镜",
         fre: "Les Bézicles",
@@ -400,6 +436,7 @@ export let dataItems = {
     37: {
         img: "colorno216190216",
         eng: "Color No. 216-190-216",
+        rus: "Цвет #216-190-216",
         pol: "Kolor nr 216-190-216",
         sch: "颜色编号 216-190-216",
         fre: "Couleur N° 216-190-216",
@@ -411,6 +448,7 @@ export let dataItems = {
     38: {
         img: "jag",
         eng: "The Jag",
+        rus: "Острозуб",
         pol: "Kieł",
         sch: "尖齿扳手",
         fre: "Le Crochet",
@@ -422,6 +460,7 @@ export let dataItems = {
     39: {
         img: "candy_cane",
         eng: "The Candy Cane",
+        rus: "Карамельная трость",
         pol: "Laska cukrowa",
         sch: "糖果手杖",
         fre: "Sucre d'orge",
@@ -433,6 +472,7 @@ export let dataItems = {
     40: {
         img: "fists_of_steel",
         eng: "The Fists of Steel",
+        rus: "Стальные кулаки",
         pol: "Pięści ze stali",
         sch: "钢铁手套",
         fre: "Les Poings d'Acier",
@@ -444,6 +484,7 @@ export let dataItems = {
     41: {
         img: "back_scratcher",
         eng: "The Back Scratcher",
+        rus: "Спиночёс",
         pol: "Drapaczka",
         sch: "不求人",
         fre: "Le Gratte-dos",
@@ -455,6 +496,7 @@ export let dataItems = {
     42: {
         img: "claidheamh_mor",
         eng: "The Claidheamh Mòr",
+        rus: "Клеймор",
         pol: "Claidheamh Mòr",
         sch: "摩尔巨剑",
         fre: "La Claidheamh Mòr",
@@ -467,6 +509,7 @@ export let dataItems = {
     43: {
         img: "defiant_spartan",
         eng: "Defiant Spartan",
+        rus: "Непокорный спартанец",
         pol: "Krnąbrny Spartanin",
         sch: "斯巴达战士头盔",
         fre: "Spartiate Provocateur",
@@ -478,6 +521,7 @@ export let dataItems = {
     44: {
         img: "detective_noir",
         eng: "Détective Noir",
+        rus: "Мрачный детектив",
         pol: "Detektyw noir",
         sch: "深色侦探帽",
         fre: "Détective Noir",
@@ -488,6 +532,7 @@ export let dataItems = {
     45: {
         img: "a_rather_festive_tree",
         eng: "A Rather Festive Tree",
+        rus: "Довольно праздничное деревце",
         pol: "Dosyć świąteczna choinka",
         sch: "精美的圣诞树",
         fre: "Un Sapin Assez Festif",
@@ -499,6 +544,7 @@ export let dataItems = {
     46: {
         img: "exquisite_rack",
         eng: "Exquisite Rack",
+        rus: "Изящная вешалка",
         pol: "Pokaźne poroże",
         sch: "精美的鹿角",
         fre: "Support Exquis",
@@ -510,6 +556,7 @@ export let dataItems = {
     47: {
         img: "buckaroos_hat",
         eng: "Buckaroo's Hat",
+        rus: "Ковбойская шляпа",
         pol: "Kowbojski kapelusz",
         sch: "西班牙牛仔帽",
         fre: "Chapeau de Buckaroo",
@@ -521,6 +568,7 @@ export let dataItems = {
     48: {
         img: "prince_tavishs_crown",
         eng: "Prince Tavish's Crown",
+        rus: "Корона принца Тавиша",
         pol: "Korona księcia Tavisha",
         sch: "塔维什王子的皇冠",
         fre: "Couronne du Prince Tavish",
@@ -532,6 +580,7 @@ export let dataItems = {
     49: {
         img: "coupe_disaster",
         eng: "Coupe D'isaster",
+        rus: "Причёска бунтаря",
         pol: "Cauchemarny toupéecik",
         sch: "修剪过的假发",
         fre: "Coupe D'Ésastre",
@@ -543,6 +592,7 @@ export let dataItems = {
     50: {
         img: "blighted_beak",
         eng: "Blighted Beak",
+        rus: "Прокажённый клюв",
         pol: "Morowa maska",
         sch: "勾嘴大夫的面具",
         fre: "Bec Bubonique",
@@ -554,6 +604,7 @@ export let dataItems = {
     51: {
         img: "madame_dixie",
         eng: "Madame Dixie",
+        rus: "Дамский котелок",
         pol: "Pani Dixie",
         sch: "迪克西夫人的花礼帽",
         fre: "Madame Dixie",
@@ -564,6 +615,7 @@ export let dataItems = {
     52: {
         img: "german_gonzila",
         eng: "German Gonzila",
+        rus: "Немецкая гонзилла",
         pol: "Niemiecka gonzila",
         sch: "提洛尔圆帽",
         fre: "Gonzila Allemand",
@@ -575,6 +627,7 @@ export let dataItems = {
     53: {
         img: "pyromancers_mask",
         eng: "Pyromancer's Mask",
+        rus: "Маска пироманта",
         pol: "Maska piromanty",
         sch: "火焰术士的面具",
         fre: "Masque de Pyromancien",
@@ -586,6 +639,7 @@ export let dataItems = {
     54: {
         img: "le_party_phantom",
         eng: "Le Party Phantom",
+        rus: "Призрак вечеринки",
         pol: "Upiór na przyjęciu",
         sch: "舞会面具",
         fre: "Le Fantôme de la Fête",
@@ -597,6 +651,7 @@ export let dataItems = {
     55: {
         img: "industrial_festivizer",
         eng: "Industrial Festivizer",
+        rus: "Заводской заводила",
         pol: "Przemysłowe świecidełka",
         sch: "圣诞彩灯",
         fre: "Festivités Industrielles",
@@ -608,6 +663,7 @@ export let dataItems = {
     56: {
         img: "larrikin_robin",
         eng: "Larrikin Robin",
+        rus: "Буйный Робин",
         pol: "Robin z Sherbrooke",
         sch: "绿林好汉之帽",
         fre: "Robin Brigand",
@@ -619,6 +675,7 @@ export let dataItems = {
     57: {
         img: "flipped_trillby",
         eng: "Flipped Trilby",
+        rus: "Перевёрнутая шляпа",
         pol: "Odwrócony trilby",
         sch: "翻转的圆毡帽",
         fre: "Chapeau de Feutre Retourné",
@@ -630,6 +687,7 @@ export let dataItems = {
     58: {
         img: "magnificent_mongolian",
         eng: "Magnificent Mongolian",
+        rus: "Величественный монгол",
         pol: "Mocarny Mongoł",
         sch: "宏伟的蒙古帽",
         fre: "Magnifique Mongol",
@@ -641,6 +699,7 @@ export let dataItems = {
     59: {
         img: "chargin_targe",
         eng: "The Chargin' Targe",
+        rus: "Штурмовой щит",
         pol: "Tarcza szarży",
         sch: "冲锋盾",
         fre: "Le Bouclier bélier",
@@ -652,6 +711,7 @@ export let dataItems = {
     60: {
         img: "direct_hit",
         eng: "The Direct Hit",
+        rus: "Прямое попадание",
         pol: "Celny strzał",
         sch: "精确打击者",
         fre: "Le Direct Hit",
@@ -667,6 +727,7 @@ export let dataItems = {
     62: {
         img: "demomans_fro",
         eng: "Demoman's Fro",
+        rus: "Афро",
         pol: "Afro Demomana",
         sch: "爆破手的埃弗罗发型",
         fre: "Coupe afro du Demoman",
@@ -678,6 +739,7 @@ export let dataItems = {
     63: {
         img: "drs_dapper_topper",
         eng: "Dr's Dapper Topper",
+        rus: "Чудной цилиндр",
         pol: "Pasiasty kapelusz Prota",
         sch: "博士的达珀礼帽",
         fre: "Haut-de-forme du docteur",
@@ -689,6 +751,7 @@ export let dataItems = {
     64: {
         img: "rimmed_raincatcher",
         eng: "Rimmed Raincatcher",
+        rus: "Пиратская треуголка",
         pol: "Piracki pieróg",
         sch: "凸缘遮雨帽",
         fre: "Lampion bordé",
@@ -700,6 +763,7 @@ export let dataItems = {
     65: {
         img: "milkman",
         eng: "The Milkman",
+        rus: "Молочник",
         pol: "Mleczarz",
         sch: "牛奶商",
         fre: "Le Laitier",
@@ -711,6 +775,7 @@ export let dataItems = {
     66: {
         img: "team_spirit",
         eng: "Team Spirit",
+        rus: "Командный дух",
         pol: "Duch drużyny",
         sch: "团队精神",
         fre: "Esprit d'Équipe",
@@ -722,6 +787,7 @@ export let dataItems = {
     67: {
         img: "force_a_nature",
         eng: "The Force-A-Nature",
+        rus: "Неумолимая сила",
         pol: "Siła natury",
         sch: "自然之力",
         fre: "La Force-de-la-Nature",
@@ -733,6 +799,7 @@ export let dataItems = {
     68: {
         img: "bonk_atomic_punch",
         eng: "Bonk! Atomic Punch",
+        rus: "Бонк! Атомный залп",
         pol: "Bonk! Atomowy kop",
         sch: "原子能饮料",
         fre: "Bonk! Atomic Punch",
@@ -744,6 +811,7 @@ export let dataItems = {
     69: {
         img: "huntsman",
         eng: "The Huntsman",
+        rus: "Охотник",
         pol: "Łowca",
         sch: "猎人短弓",
         fre: "Le Huntsman",
@@ -755,6 +823,7 @@ export let dataItems = {
     70: {
         img: "trophy_belt",
         eng: "Trophy Belt",
+        rus: "Лента с трофеями",
         pol: "Pas zdobyczy",
         sch: "战利品帽带",
         fre: "Ceinture trophée",
@@ -766,6 +835,7 @@ export let dataItems = {
     71: {
         img: "horrific_headsplitter",
         eng: "Horrific Headsplitter",
+        rus: "Ужасающий топор мясника",
         pol: "Makabryczny rozłupywacz",
         sch: "可怕的劈头者",
         fre: "Épouvantable Hachoir",
@@ -777,6 +847,7 @@ export let dataItems = {
     72: {
         img: "cadavers_cranium",
         eng: "Cadaver's Cranium",
+        rus: "Череп мертвеца",
         pol: "Czerep Frankensteina",
         sch: "死尸的头盖骨",
         fre: "Boite crânienne d'un cadavre",
@@ -788,6 +859,7 @@ export let dataItems = {
     73: {
         img: "familiar_fez",
         eng: "Familiar Fez",
+        rus: "Знакомая феска",
         pol: "Znajomy fez",
         sch: "熟悉的非斯帽",
         fre: "Fez et gestes",
@@ -799,6 +871,7 @@ export let dataItems = {
     74: {
         img: "gift_wrap",
         eng: "Gift Wrap",
+        rus: "Подарочная упаковка",
         pol: "Zestaw do pakowania",
         sch: "礼物包装",
         fre: "Papier Cadeau",
@@ -811,6 +884,7 @@ export let dataItems = {
     75: {
         img: "i_see_you",
         eng: "Taunt: I See You",
+        rus: "Насмешка: Я тебя вижу",
         schema: 1116,
         pol: "Drwina: Widzę cię",
         sch: "嘲讽：看见你了",
@@ -822,6 +896,7 @@ export let dataItems = {
     76: {
         img: "buy_a_life",
         eng: "Taunt: Buy A Life",
+        rus: "Насмешка: Займись делом",
         schema: 1108,
         pol: "Drwina: Kup sobie życie",
         sch: "嘲讽：强者的施舍",
@@ -833,6 +908,7 @@ export let dataItems = {
     77: {
         img: "results_are_in",
         eng: "Taunt: Results Are In",
+        rus: "Насмешка: Диагноз налицо",
         schema: 1109,
         pol: "Drwina: Mam twoje wyniki",
         sch: "嘲讽：检查报告",
@@ -844,6 +920,7 @@ export let dataItems = {
     78: {
         img: "party_trick",
         eng: "Taunt: Party Trick",
+        rus: "Насмешка: Фокус для вечеринки",
         schema: 1112,
         pol: "Drwina: Sztuczka imprezowa",
         sch: "嘲讽：派对礼物",
@@ -855,6 +932,7 @@ export let dataItems = {
     79: {
         img: "fresh_brewed_victory",
         eng: "Taunt: Fresh Brewed Victory",
+        rus: "Насмешка: Свежесваренная победа",
         schema: 1113,
         pol: "Drwina: Świeżo zaparzone zwycięstwo",
         sch: "嘲讽：先干为敬",
@@ -866,6 +944,7 @@ export let dataItems = {
     80: {
         img: "spent_well_spirits",
         eng: "Taunt: Spent Well Spirits",
+        rus: "Насмешка: Правильная разрядка",
         schema: 1114,
         pol: "Drwina: Połykacz ognia",
         sch: "嘲讽：烈酒上头",
@@ -877,6 +956,7 @@ export let dataItems = {
     81: {
         img: "rancho_relaxo",
         eng: "Taunt: Rancho Relaxo",
+        rus: "Насмешка: Ранчо Релаксо",
         schema: 1115,
         pol: "Drwina: Relaks na ranczo",
         sch: "嘲讽：悠闲度假",
@@ -888,6 +968,7 @@ export let dataItems = {
     82: {
         img: "battin_a_thousand",
         eng: "Taunt: Battin' a Thousand",
+        rus: "Насмешка: Один против тысячи",
         schema: 1117,
         pol: "Drwina: Perfekcyjny pałkarz",
         sch: "嘲讽：以一敌千",
@@ -899,6 +980,7 @@ export let dataItems = {
     83: {
         img: "oblooterated",
         eng: "Taunt: Oblooterated",
+        rus: "Насмешка: Трата сокровищ",
         schema: 1120,
         pol: "Drwina: Upojony",
         sch: "嘲讽：有酒不给喝",
@@ -910,6 +992,7 @@ export let dataItems = {
     84: {
         img: "deep_fried_desire",
         eng: "Taunt: Deep Fried Desire",
+        rus: "Насмешка: Хорошо прожаренная страсть",
         schema: 1119,
         pol: "Drwina: Głęboko smażone pożądanie",
         sch: "嘲讽：有肉不给吃",
@@ -921,6 +1004,7 @@ export let dataItems = {
     85: {
         img: "square_dance",
         eng: "Taunt: Square Dance",
+        rus: "Насмешка: Кадриль",
         schema: 1106,
         pol: "Drwina: Oberek",
         sch: "嘲讽：方块舞",
@@ -932,6 +1016,7 @@ export let dataItems = {
     86: {
         img: "flippin_awesome",
         eng: "Taunt: Flippin' Awesome",
+        rus: "Насмешка: Крутой кувырок",
         schema: 1107,
         pol: "Drwina: Wypasiony fikołek",
         sch: "嘲讽：牛逼闪闪的翻跟头",
@@ -943,6 +1028,7 @@ export let dataItems = {
     87: {
         img: "rock_paper_scissors",
         eng: "Taunt: Rock, Paper, Scissors",
+        rus: "Насмешка: Камень, ножницы, бумага",
         schema: 1110,
         pol: "Drwina: Kamień, papier, nożyce",
         sch: "嘲讽：石头剪刀布",
@@ -954,6 +1040,7 @@ export let dataItems = {
     88: {
         img: "conga",
         eng: "Taunt: Conga",
+        rus: "Насмешка: Конга",
         schema: 1118,
         pol: "Drwina: Konga",
         sch: "嘲讽：康茄舞",
@@ -965,6 +1052,7 @@ export let dataItems = {
     89: {
         img: "skullcracker",
         eng: "Taunt: Skullcracker",
+        rus: "Насмешка: Головоломка",
         schema: 1111,
         pol: "Drwina: Kruszenie czaszek",
         sch: "嘲讽：砸烂狗头",
@@ -976,6 +1064,7 @@ export let dataItems = {
     90: {
         img: "red_rock_roscoe",
         eng: "Red Rock Roscoe | Pistol",
+        rus: "Red Rock Roscoe | Пистолет",
         pol: "Z Red Rock | Pistolet",
         sch: "红石 手枪",
         bra: "Red Rock Roscoe Pistola",
@@ -987,6 +1076,7 @@ export let dataItems = {
     91: {
         img: "sand_cannon",
         eng: "Sand Cannon | Rocket Launcher",
+        rus: "Sand Cannon | Ракетомёт",
         pol: "Działo piaskowe | Wyrzutnia rakiet",
         sch: "沙漠巨炮 火箭发射器",
         bra: "Canhão de Areia Lança-Foguetes",
@@ -998,6 +1088,7 @@ export let dataItems = {
     92: {
         img: "sudden_flurry",
         eng: "Sudden Flurry | Stickybomb Launcher",
+        rus: "Sudden Flurry | Липучкомёт",
         pol: "Nagły podmuch | Wyrzutnia bomb samoprzylepnych",
         sch: "瞬间爆发 黏性炸弹发射器",
         bra: "Enxurrada Inesperada Lança-stickybombs",
@@ -1009,6 +1100,7 @@ export let dataItems = {
     93: {
         img: "psychedelic_slugger",
         eng: "Psychedelic Slugger | Revolver",
+        rus: "Psychedelic Slugger | Револьвер",
         pol: "Psychodeliczny wycisk | Rewolwer",
         sch: "幻彩 左轮手枪",
         bra: "Batedor Psicodélico Revólver",
@@ -1020,6 +1112,7 @@ export let dataItems = {
     94: {
         img: "purple_range",
         eng: "Purple Range | Sniper Rifle",
+        rus: "Purple Range | Снайперская винтовка",
         pol: "Zakres fioletu | Karabin snajperski",
         sch: "紫光十射 狙击步枪",
         bra: "Pontaria Púrpura Rifle de Sniper",
@@ -1031,6 +1124,7 @@ export let dataItems = {
     95: {
         img: "night_terror",
         eng: "Night Terror | Scattergun",
+        rus: "Night Terror | Обрез",
         pol: "Nocny terror | Dubeltówka",
         sch: "夜之恐惧 猎枪",
         bra: "Terror da Meia-noite Espingarda",
@@ -1042,6 +1136,7 @@ export let dataItems = {
     96: {
         img: "carpet_bomber",
         eng: "Carpet Bomber | Stickybomb Launcher",
+        rus: "Carpet Bomber | Липучкомёт",
         pol: "Nalot dywanowy | Wyrzutnia bomb samoprzylepnych",
         sch: "地毯式轰炸 黏性炸弹发射器",
         bra: "Arrasa Quarteirão Lança-stickybombs",
@@ -1053,6 +1148,7 @@ export let dataItems = {
     97: {
         img: "woodland_warrior",
         eng: "Woodland Warrior | Rocket Launcher",
+        rus: "Woodland Warrior | Ракетомёт",
         pol: "Leśny wojownik | Wyrzutnia rakiet",
         sch: "林地战士 火箭发射器",
         bra: "Matador do Matagal Lança-foguetes",
@@ -1064,6 +1160,7 @@ export let dataItems = {
     98: {
         img: "wrapped_reviver",
         eng: "Wrapped Reviver | Medi Gun",
+        rus: "Wrapped Reviver | Лечебная пушка",
         pol: "Spakowany ożywiciel | Medigun",
         sch: "迷彩救援者 医疗枪",
         bra: "Revivedor Embrulhado Arma Médica",
@@ -1075,6 +1172,7 @@ export let dataItems = {
     99: {
         img: "forest_fire",
         eng: "Forest Fire | Flame Thrower",
+        rus: "Forest Fire | Огнемёт",
         pol: "Leśny ogień | Miotacz ognia",
         sch: "森林之火 火焰喷射器",
         bra: "Fogo na Floresta Lança-chamas",
@@ -1086,6 +1184,7 @@ export let dataItems = {
     100: {
         img: "night_owl",
         eng: "Night Owl | Sniper Rifle",
+        rus: "Night Owl | Снайперская винтовка",
         pol: "Nocna sowa | Karabin snajperski",
         sch: "夜枭 狙击步枪",
         bra: "Coruja da Noite Rifle de Sniper",
@@ -1097,6 +1196,7 @@ export let dataItems = {
     101: {
         img: "woodsy_widowmaker",
         eng: "Woodsy Widowmaker | SMG",
+        rus: "Woodsy Widowmaker | Пистолет-пулемёт",
         pol: "Lesisty owdawiacz | PM",
         sch: "绝后之木 SMG",
         bra: "Viuvadora Verdejante Submetralhadora",
@@ -1108,6 +1208,7 @@ export let dataItems = {
     102: {
         img: "backwoods_boomstick",
         eng: "Backwoods Boomstick | Shotgun",
+        rus: "Backwoods Boomstick | Дробовик",
         pol: "Grzmiący kij z puszczy | Strzelba",
         sch: "荒野神兵 霰弹枪",
         bra: "Sertão Escopeta",
@@ -1119,6 +1220,7 @@ export let dataItems = {
     103: {
         img: "king_of_the_jungle",
         eng: "King of the Jungle | Minigun",
+        rus: "King of the Jungle | Пулемёт",
         pol: "Król dżungli | Minigun",
         sch: "丛林之王 医疗枪",
         bra: "Rei da Selva Metralhadora Giratória",
@@ -1130,6 +1232,7 @@ export let dataItems = {
     104: {
         img: "masked_mender",
         eng: "Masked Mender | Medi Gun",
+        rus: "Masked Mender | Лечебная пушка",
         pol: "Zakamufliowany uzdrowiciel | Medigun",
         sch: "蒙面者 医疗枪",
         bra: "Medicamento Mascarado Arma Médica",
@@ -1141,6 +1244,7 @@ export let dataItems = {
     105: {
         img: "pink_as_hell",
         eng: "Pink as Hell",
+        rus: "Нереально розовый",
         pol: "Różowy jak diabli",
         sch: "闪亮的粉红色",
         fre: "Un Rose d'Enfer",
@@ -1152,6 +1256,7 @@ export let dataItems = {
     106: {
         img: "a_color_similar_to_slate",
         eng: "A Color Similar to Slate",
+        rus: "Какой-то синевато-серый",
         pol: "Kolor podobny do łupkowego",
         sch: "石板似的颜色",
         fre: "Une Couleur Similaire à l'Ardoise",
@@ -1163,6 +1268,7 @@ export let dataItems = {
     107: {
         img: "drably_olive",
         eng: "Drably Olive",
+        rus: "Тускло-оливковый",
         pol: "Ponura oliwka",
         sch: "平淡榄色",
         fre: "Vert Olive",
@@ -1174,6 +1280,7 @@ export let dataItems = {
     108: {
         img: "the_bitter_taste_of_defeat_and_lime",
         eng: "The Bitter Taste of Defeat and Lime",
+        rus: "Горький вкус поражения и лайма",
         pol: "Gorzki smak porażki i limonki",
         sch: "苦涩的青柠绿",
         fre: "Le Goût Amer de la Défaite et du Citron Vert",
@@ -1185,6 +1292,7 @@ export let dataItems = {
     109: {
         img: "the_color_of_a_gentlemanns_business_pants",
         eng: "The Color of a Gentlemann's Business Pants",
+        rus: "Цвет брюк Джентльманна",
         pol: "Kolor biznesowych spodni dżentelmena",
         sch: "绅士商务裤的颜色",
         fre: "La Couleur du Pantalon d'Affaires d'un Gentlemann",
@@ -1196,6 +1304,7 @@ export let dataItems = {
     110: {
         img: "dark_salmon_injustice",
         eng: "Dark Salmon Injustice",
+        rus: "Тёмная лососевая несправедливость",
         pol: "Niesprawiedliwość ciemnego łososia",
         sch: "不公正的深橙红",
         fre: "Injustice Saumon Foncé",
@@ -1207,6 +1316,7 @@ export let dataItems = {
     111: {
         img: "grenadiers_softcap",
         eng: "Grenadier's Softcap",
+        rus: "Кепка гренадера",
         pol: "Patrolówka grenadiera",
         sch: "投弹兵的软帽",
         fre: "Casquette de grenadier",
@@ -1218,6 +1328,7 @@ export let dataItems = {
     112: {
         img: "indubitably_green",
         eng: "Indubitably Green",
+        rus: "Истинно зелёный",
         pol: "Niezaprzeczalnie zielony",
         sch: "不容置疑的绿色",
         fre: "Indubitablement Vert",
@@ -1229,6 +1340,7 @@ export let dataItems = {
     113: {
         img: "zepheniahs_greed",
         eng: "Zepheniah's Greed",
+        rus: "Жадность Зефенайи",
         pol: "Zachłanność Zefeniasza",
         sch: "贪欲黑暗绿色",
         fre: "L'Avarice de Zepheniah",
@@ -1240,6 +1352,7 @@ export let dataItems = {
     114: {
         img: "noble_hatters_violet",
         eng: "Noble Hatter's Violet",
+        rus: "Благородный фиолетовый",
         pol: "Fiolet zacnego kapelusznika",
         sch: "贵族帽商紫色",
         fre: "Violet de l'Aristocrate Chapeauté",
@@ -1251,6 +1364,7 @@ export let dataItems = {
     115: {
         img: "ullapool_caber",
         eng: "The Ullapool Caber",
+        rus: "Аллапульское бревно",
         pol: "Ullapoolski pal",
         sch: "木柄手榴弹",
         fre: "Le Caber d'Ullapool",
@@ -1262,6 +1376,7 @@ export let dataItems = {
     116: {
         img: "lochnload",
         eng: "The Loch-n-Load",
+        rus: "Подкидыш",
         pol: "Loch-n-Load",
         sch: "双管榴弹发射器",
         fre: "Le Loch-n-Load",
@@ -1274,6 +1389,7 @@ export let dataItems = {
     117: {
         img: "scotch_bonnet",
         eng: "Scotch Bonnet",
+        rus: "Шотландский чепец",
         pol: "Szkocki kask",
         sch: "破损的防暴头盔",
         fre: "Casque Écossais",
@@ -1285,6 +1401,7 @@ export let dataItems = {
     118: {
         img: "glengarry_bonnet",
         eng: "Glengarry Bonnet",
+        rus: "Гленгарри",
         pol: "Furażerka z Glengarry",
         sch: "苏格兰软帽",
         fre: "Bonnet Glengarry",
@@ -1296,6 +1413,7 @@ export let dataItems = {
     119: {
         img: "mann_co_orange",
         eng: "Mann Co. Orange",
+        rus: "Оранжевый в стиле Манн Ко",
         pol: "Pomarańcz firmy Mann Co.",
         sch: "曼恩企业橙",
         fre: "Orange Mann Co.",
@@ -1307,6 +1425,7 @@ export let dataItems = {
     120: {
         img: "crusaders_crossbow",
         eng: "Crusader's Crossbow",
+        rus: "Арбалет крестоносца",
         pol: "Kusza krzyżowca",
         sch: "十字军之弩",
         fre: "L'Arbalète du Croisé",
@@ -1318,6 +1437,7 @@ export let dataItems = {
     121: {
         img: "amputator",
         eng: "The Amputator",
+        rus: "Ампутатор",
         pol: "Amputator",
         sch: "器官切割器",
         fre: "L'Amputateur",
@@ -1329,6 +1449,7 @@ export let dataItems = {
     122: {
         img: "berliners_bucket_helm",
         eng: "Berliner's Bucket Helm",
+        rus: "Боевой шлем берлинца",
         pol: "Hełm garnczkowy Berlińczyka",
         sch: "柏林的桶式头盔",
         fre: "Seau Berlinois",
@@ -1340,6 +1461,7 @@ export let dataItems = {
     123: {
         img: "vintage_tyrolean",
         eng: "Vintage Tyrolean",
+        rus: "Старая тирольская шляпа",
         pol: "Klasyczny kapelusz tyrolski",
         sch: "传统提洛帽",
         fre: "Chapeau tyrolien",
@@ -1351,6 +1473,7 @@ export let dataItems = {
     124: {
         img: "prussian_pickelhaube",
         eng: "Prussian Pickelhaube",
+        rus: "Прусский пикельхельм",
         pol: "Pruska pikielhauba",
         sch: "普鲁士头盔",
         fre: "Casque à pointe prussien",
@@ -1362,6 +1485,7 @@ export let dataItems = {
     125: {
         img: "muskelmannbraun",
         eng: "Muskelmannbraun",
+        rus: "Мускулисто-коричневый",
         pol: "Muskularny brąz",
         sch: "肌肉男的肤色",
         fre: "Marronmuskelmann",
@@ -1372,6 +1496,7 @@ export let dataItems = {
     126: {
         img: "peculiarly_drab_tincture",
         eng: "Peculiarly Drab Tincture",
+        rus: "Странный оттенок серого",
         pol: "Osobliwie szarawe zabarwienie",
         sch: "沉闷乏味赭",
         fre: "Teinture Mate Particulière",
@@ -1383,6 +1508,7 @@ export let dataItems = {
     127: {
         img: "radigan_conagher_brown",
         eng: "Radigan Conagher Brown",
+        rus: "Коричневый от Радигана Конагера",
         pol: "Brąz Radigana Conaghera",
         sch: "褐色",
         fre: "Brun Radigan Conagher",
@@ -1394,6 +1520,7 @@ export let dataItems = {
     128: {
         img: "brass_beast",
         eng: "The Brass Beast",
+        rus: "Латунный монстр",
         pol: "Mosiężna bestia",
         sch: "黄铜猛兽",
         fre: "La Bête de Bronze",
@@ -1405,6 +1532,7 @@ export let dataItems = {
     129: {
         img: "buffalo_steak_sandvich",
         eng: "The Buffalo Steak Sandvich",
+        rus: "Бутерброд из мяса буйвола",
         pol: "Stek z bizona",
         sch: "水牛排三明治",
         fre: "Le Sandvich au Steak de Bison",
@@ -1416,6 +1544,7 @@ export let dataItems = {
     130: {
         img: "big_chief",
         eng: "The Big Chief",
+        rus: "Великий вождь",
         pol: "Wielki wódz",
         sch: "大酋长",
         fre: "Le Grand Chef",
@@ -1428,6 +1557,7 @@ export let dataItems = {
     131: {
         img: "officers_ushanka",
         eng: "Officer's Ushanka",
+        rus: "Офицерская ушанка",
         pol: "Uszanka oficera",
         sch: "官员的红军帽",
         fre: "Ouchanka d'officier",
@@ -1439,6 +1569,7 @@ export let dataItems = {
     132: {
         img: "sydney_sleeper",
         eng: "The Sydney Sleeper",
+        rus: "Сиднейский соня",
         pol: "Sydnejski usypiacz",
         sch: "悉尼沉睡者",
         fre: "La Sarbacane de Sydney",
@@ -1450,6 +1581,7 @@ export let dataItems = {
     133: {
         img: "ol_snaggletooth",
         eng: "Ol' Snaggletooth",
+        rus: "Старый кривозуб",
         pol: "Głowa Forfitera",
         sch: "老鳄鱼的龅牙",
         fre: "Sacré dentier",
@@ -1461,6 +1593,7 @@ export let dataItems = {
     134: {
         img: "professionals_panama",
         eng: "Professional's Panama",
+        rus: "Панама профессионала",
         pol: "Panama profesjonalisty",
         sch: "专业人士的巴拿马草帽",
         fre: "Panama du professionnel",
@@ -1472,6 +1605,7 @@ export let dataItems = {
     135: {
         img: "shooters_sola_topi",
         eng: "Shooter's Sola Topi",
+        rus: "Тропический шлем стрелка",
         pol: "Kolonialny hełm strzelca",
         sch: "猎手的索拉托皮",
         fre: "Tireur Colonial",
@@ -1483,6 +1617,7 @@ export let dataItems = {
     136: {
         img: "backbiters_billycock",
         eng: "Backbiter's Billycock",
+        rus: "Котелок сплетника",
         pol: "Melonik oszczercy",
         sch: "背后诽谤者的小礼帽",
         fre: "Chapeau melon",
@@ -1494,6 +1629,7 @@ export let dataItems = {
     137: {
         img: "tyrants_helm",
         eng: "Tyrant's Helm",
+        rus: "Шлем викинга",
         pol: "Hełm tyrana",
         sch: "暴君头盔",
         fre: "Casque de viking",
@@ -1505,6 +1641,7 @@ export let dataItems = {
     138: {
         img: "mad_milk",
         eng: "Mad Milk",
+        rus: "Зломолоко",
         pol: "Wściekłe mleko",
         sch: "疯狂的牛奶",
         fre: "Lait frelaté",
@@ -1516,6 +1653,7 @@ export let dataItems = {
     139: {
         img: "degreaser",
         eng: "The Degreaser",
+        rus: "Чистильщик",
         pol: "Odtłuszczacz",
         sch: "脱油剂",
         fre: "Le Dégraisseur",
@@ -1527,6 +1665,7 @@ export let dataItems = {
     140: {
         img: "attendant",
         eng: "The Attendant",
+        rus: "Заправщик",
         pol: "Pomocnik",
         sch: "服务员之帽",
         fre: "Le Préposé",
@@ -1538,6 +1677,7 @@ export let dataItems = {
     141: {
         img: "wrangler",
         eng: "The Wrangler",
+        rus: "Поводырь",
         pol: "Poskramiacz",
         sch: "遥控手柄",
         fre: "Le Dompteur",
@@ -1549,6 +1689,7 @@ export let dataItems = {
     142: {
         img: "hotrod",
         eng: "Hotrod",
+        rus: "Сварочная маска",
         pol: "Hotrod",
         sch: "电焊面罩",
         fre: "Hotrod",
@@ -1560,6 +1701,7 @@ export let dataItems = {
     143: {
         img: "professors_peculiarity",
         eng: "Professor's Peculiarity",
+        rus: "Своеобразие профессора",
         pol: "Profesorska osobliwość",
         sch: "教授的蓬乱白发",
         fre: "Particularité Professorale",
@@ -1571,6 +1713,7 @@ export let dataItems = {
     144: {
         img: "grenade_launcher",
         eng: "Grenade Launcher",
+        rus: "Гранатомёт",
         pol: "Granatnik",
         sch: "榴弹发射器",
         fre: "Lance-grenades",
@@ -1582,6 +1725,7 @@ export let dataItems = {
     145: {
         img: "stickybomb_launcher",
         eng: "Stickybomb Launcher",
+        rus: "Липучкомёт",
         pol: "Wyrzutnia bomb samoprzylepnych",
         sch: "黏性炸弹发射器",
         fre: "Lanceur de bombes collantes",
@@ -1593,6 +1737,7 @@ export let dataItems = {
     146: {
         img: "eyelander",
         eng: "The Eyelander",
+        rus: "Одноглазый горец",
         pol: "Wyszczerbiec",
         sch: "苏格兰长剑",
         fre: "L'Eyelander",
@@ -1604,6 +1749,7 @@ export let dataItems = {
     147: {
         img: "hustlers_hallmark",
         eng: "Hustler's Hallmark",
+        rus: "Шляпа сутенёра",
         pol: "Wizytówka sutenera",
         sch: "皮条客的标志帽",
         fre: "Marque du Débrouillard",
@@ -1615,6 +1761,7 @@ export let dataItems = {
     148: {
         img: "tipplers_tricorne",
         eng: "Tippler's Tricorne",
+        rus: "Треуголка пьяницы",
         pol: "Trikorn pijaka",
         sch: "醉汉的三角帽",
         fre: "Tricorne de l'ivrogne",
@@ -1626,6 +1773,7 @@ export let dataItems = {
     149: {
         img: "schadenfreude",
         eng: "Taunt: The Schadenfreude",
+        rus: "Насмешка: Злорадство",
         schema: 463,
         pol: "Drwina: Schadenfreude",
         sch: "嘲讽：幸灾乐祸",
@@ -1637,6 +1785,7 @@ export let dataItems = {
     150: {
         img: "rocket_launcher",
         eng: "Rocket Launcher",
+        rus: "Ракетомёт",
         pol: "Wyrzutnia rakiet",
         sch: "火箭发射器",
         fre: "Lance-roquettes",
@@ -1648,6 +1797,7 @@ export let dataItems = {
     151: {
         img: "shotgun",
         eng: "Shotgun",
+        rus: "Дробовик",
         pol: "Strzelba",
         sch: "霰弹枪",
         fre: "Fusil à pompe",
@@ -1659,6 +1809,7 @@ export let dataItems = {
     152: {
         img: "killers_kabuto",
         eng: "Killer's Kabuto",
+        rus: "Кабуто убийцы",
         pol: "Kabuto zabójcy",
         sch: "杀手的武士之胄",
         fre: "Kabuto de tueur",
@@ -1670,6 +1821,7 @@ export let dataItems = {
     153: {
         img: "sergeants_drill_hat",
         eng: "Sergeant's Drill Hat",
+        rus: "Компанейская шляпа",
         pol: "Kapelusz instruktora musztry",
         sch: "士官的操练帽",
         fre: "Chapeau d'Entraînement du Sergent",
@@ -1681,6 +1833,7 @@ export let dataItems = {
     154: {
         img: "gloves_of_running_urgently",
         eng: "Gloves of Running Urgently",
+        rus: "Горящие рукавицы ускорения",
         pol: "Gorące rękawice uciekiniera",
         sch: "紧急逃跑手套",
         fre: "Gants de Retraite Urgente",
@@ -1692,6 +1845,7 @@ export let dataItems = {
     155: {
         img: "minigun",
         eng: "Minigun",
+        rus: "Пулемёт",
         pol: "Minigun",
         sch: "转轮机枪",
         fre: "Minigun",
@@ -1702,6 +1856,7 @@ export let dataItems = {
     156: {
         img: "natascha",
         eng: "Natascha",
+        rus: "Наташа",
         pol: "Natasza",
         sch: "娜塔莎转轮机枪",
         fre: "Natascha",
@@ -1712,6 +1867,7 @@ export let dataItems = {
     157: {
         img: "hound_dog",
         eng: "The Hound Dog",
+        rus: "Прическа Элвиса",
         pol: "Hound Dog",
         sch: "猎犬",
         fre: "Hound Dog",
@@ -1723,6 +1879,7 @@ export let dataItems = {
     158: {
         img: "football_helmet",
         eng: "Football Helmet",
+        rus: "Футбольный шлем",
         pol: "Kask futbolowy",
         sch: "橄榄球头盔",
         fre: "Casque de football",
@@ -1734,6 +1891,7 @@ export let dataItems = {
     159: {
         img: "big_steel_jaw_of_summer_fun",
         eng: "Big Steel Jaw of Summer Fun",
+        rus: "Большая стальная челюсть для летнего веселья",
         pol: "Wielka stalowa szczęka letniej radochy",
         sch: "夏日狂欢大钢颚",
         fre: "Mâchoire en Acier d'Amusement Estivale",
@@ -1745,6 +1903,7 @@ export let dataItems = {
     160: {
         img: "coppers_hard_top",
         eng: "Copper's Hard Top",
+        rus: "Шлем шерифа",
         pol: "Zadaszenie gliniarza",
         sch: "警用机车头盔",
         fre: "Casque de Policier",
@@ -1756,6 +1915,7 @@ export let dataItems = {
     161: {
         img: "nessies_nine_iron",
         eng: "Nessie's Nine Iron",
+        rus: "Железная девятка Несси",
         pol: "Żelazna Nessie",
         sch: "尼斯的九号铁杆",
         fre: "Fer N°9 de Nessie",
@@ -1767,6 +1927,7 @@ export let dataItems = {
     162: {
         img: "postal_pummeler",
         eng: "Postal Pummeler",
+        rus: "Почтовый дебошир",
         pol: "Pocztowy pogromca",
         sch: "明信片打手",
         fre: "Le Poutreur Postal",
@@ -1778,6 +1939,7 @@ export let dataItems = {
     163: {
         img: "prairie_heel_biters",
         eng: "Prairie Heel Biters",
+        rus: "Шпоры дикого запада",
         pol: "Preriowe podgryzacze pięt",
         sch: "草原钉刺马靴",
         fre: "Éperons des Plaines",
@@ -1789,6 +1951,7 @@ export let dataItems = {
     164: {
         img: "rogues_col_roule",
         eng: "Rogue's Col Roule",
+        rus: "Водолазка мошенника",
         pol: "Gryzący golf gangstera",
         sch: "盗贼的高领毛衣",
         fre: "Col Roulé du Voleur",
@@ -1800,6 +1963,7 @@ export let dataItems = {
     165: {
         img: "security_shades",
         eng: "Security Shades",
+        rus: "Полицейские очки",
         pol: "Przyciemniane patrolówki",
         sch: "保安墨镜",
         fre: "Lunettes Sécuritaires",
@@ -1811,6 +1975,7 @@ export let dataItems = {
     166: {
         img: "stately_steel_toe",
         eng: "Stately Steel Toe",
+        rus: "Сапог стального величества",
         pol: "Dostojne obuwie ochronne",
         sch: "高贵的铁皮鞋",
         fre: "Noble Chaussure de Sécurité",
@@ -1822,6 +1987,7 @@ export let dataItems = {
     167: {
         img: "tam_o_shanter",
         eng: "Tam O' Shanter",
+        rus: "Тэм-о-шентер",
         pol: "Tam O' Shanter",
         sch: "苏格兰式便帽",
         fre: "Béret Écossais",
@@ -1831,6 +1997,7 @@ export let dataItems = {
     168: {
         img: "sandman",
         eng: "The Sandman",
+        rus: "Дрёма",
         pol: "Piaskun",
         sch: "睡魔",
         fre: "Le marchand de sable",
@@ -1842,6 +2009,7 @@ export let dataItems = {
     169: {
         img: "pistol",
         eng: "Pistol",
+        rus: "Пистолет",
         pol: "Pistolet",
         sch: "手枪",
         fre: "Pistolet",
@@ -1853,6 +2021,7 @@ export let dataItems = {
     170: {
         img: "scattergun",
         eng: "Scattergun",
+        rus: "Обрез",
         pol: "Dubeltówka",
         sch: "猎枪",
         fre: "Fusil à dispersion",
@@ -1864,6 +2033,7 @@ export let dataItems = {
     171: {
         img: "boston_basher",
         eng: "The Boston Basher",
+        rus: "Бостонский раздолбай",
         pol: "Bostoński tłuczek",
         sch: "波士顿狼牙棒",
         fre: "Le Bastonneur Bostonien",
@@ -1875,6 +2045,7 @@ export let dataItems = {
     172: {
         img: "ye_olde_baker_boy",
         eng: "Ye Olde Baker Boy",
+        rus: "Кепка газетчика",
         pol: "Czapka gazeciarza",
         sch: "老式报童帽",
         fre: "Casquette de gavroche",
@@ -1886,6 +2057,7 @@ export let dataItems = {
     173: {
         img: "ambassador",
         eng: "The Ambassador",
+        rus: "Амбассадор",
         pol: "Ambasador",
         sch: "大使手枪",
         fre: "L'Ambassadeur",
@@ -1897,6 +2069,7 @@ export let dataItems = {
     174: {
         img: "connivers_kunai",
         eng: "Conniver's Kunai",
+        rus: "Кунай заговорщика",
         pol: "Kunai krętacza",
         sch: "密谋者的苦无",
         fre: "Kunaï du Conspirateur",
@@ -1908,6 +2081,7 @@ export let dataItems = {
     175: {
         img: "knife",
         eng: "Knife",
+        rus: "Нож",
         pol: "Nóż",
         sch: "刀子",
         fre: "Couteau",
@@ -1919,6 +2093,7 @@ export let dataItems = {
     176: {
         img: "revolver",
         eng: "Revolver",
+        rus: "Револьвер",
         pol: "Rewolwer",
         sch: "左轮手枪",
         fre: "Revolver",
@@ -1928,6 +2103,7 @@ export let dataItems = {
     177: {
         img: "private_eye",
         eng: "Private Eye",
+        rus: "Частный сыщик",
         pol: "Bystrooki detektyw",
         sch: "私家侦探帽",
         fre: "Détective Privé",
@@ -1940,6 +2116,7 @@ export let dataItems = {
     178: {
         img: "fancy_fedora",
         eng: "Fancy Fedora",
+        rus: "Фетровая шляпа",
         pol: "Gustowna fedora",
         sch: "花哨软呢帽",
         fre: "Fedora élégant",
@@ -1951,6 +2128,7 @@ export let dataItems = {
     179: {
         img: "flame_thrower",
         eng: "Flame Thrower",
+        rus: "Огнемёт",
         pol: "Miotacz ognia",
         sch: "火焰喷射器",
         fre: "Lance-flammes",
@@ -1962,6 +2140,7 @@ export let dataItems = {
     180: {
         img: "flare_gun",
         eng: "The Flare Gun",
+        rus: "Ракетница",
         pol: "Pistolet sygnałowy",
         sch: "信号枪",
         fre: "Pistolet de détresse",
@@ -1973,6 +2152,7 @@ export let dataItems = {
     181: {
         img: "backburner",
         eng: "The Backburner",
+        rus: "Дожигатель",
         pol: "Dupalacz",
         sch: "偷袭烈焰喷射器",
         fre: "Le brûleur arrière",
@@ -1984,6 +2164,7 @@ export let dataItems = {
     182: {
         img: "prancers_pride",
         eng: "Prancer's Pride",
+        rus: "Гордость стаи",
         pol: "Duma renifera",
         sch: "驯鹿欢腾的角",
         fre: "Fierté de Prancer",
@@ -1995,6 +2176,7 @@ export let dataItems = {
     183: {
         img: "respectless_rubber_glove",
         eng: "Respectless Rubber Glove",
+        rus: "Наглая резиновая перчатка",
         pol: "Niepoważna gumowa rękawica",
         sch: "邋遢的橡胶手套",
         fre: "Gant en caoutchouc ridicule",
@@ -2006,6 +2188,7 @@ export let dataItems = {
     184: {
         img: "syringe_gun",
         eng: "Syringe Gun",
+        rus: "Шприцемёт",
         pol: "Pistolet strzykawkowy",
         sch: "注射枪",
         fre: "Pistolet à seringues",
@@ -2017,6 +2200,7 @@ export let dataItems = {
     185: {
         img: "bonesaw",
         eng: "Bonesaw",
+        rus: "Медицинская пила",
         pol: "Piła do kości",
         sch: "骨锯",
         fre: "Scie à amputation",
@@ -2028,6 +2212,7 @@ export let dataItems = {
     186: {
         img: "medi_gun",
         eng: "Medi Gun",
+        rus: "Лечебная пушка",
         pol: "Medigun",
         sch: "医疗枪",
         fre: "Medigun",
@@ -2039,6 +2224,7 @@ export let dataItems = {
     187: {
         img: "gentlemans_gatsby",
         eng: "Gentleman's Gatsby",
+        rus: "Джентльменская кепка",
         pol: "Kaszkiet dżentelmena",
         sch: "绅士的盖茨比帽",
         fre: "Gatsby du Gentleman",
@@ -2050,6 +2236,7 @@ export let dataItems = {
     188: {
         img: "otolaryngologists_mirror",
         eng: "Otolaryngologist's Mirror",
+        rus: "Зеркало отоларинголога",
         pol: "Lustro otolaryngologa",
         sch: "耳鼻喉科医师的诊疗镜",
         fre: "Miroir d'oto-rhino-laryngologiste",
@@ -2061,6 +2248,7 @@ export let dataItems = {
     189: {
         img: "sniper_rifle",
         eng: "Sniper Rifle",
+        rus: "Снайперская винтовка",
         pol: "Karabin snajperski",
         sch: "狙击步枪",
         fre: "Fusil de sniper",
@@ -2072,6 +2260,7 @@ export let dataItems = {
     190: {
         img: "jarate",
         eng: "Jarate",
+        rus: "Банкате",
         pol: "Sikwondo",
         sch: "瓶手道",
         fre: "Jaraté",
@@ -2082,6 +2271,7 @@ export let dataItems = {
     191: {
         img: "villains_veil",
         eng: "Villain's Veil",
+        rus: "Вуаль злодея",
         pol: "Chusta łotrzyka",
         sch: "恶棍的面罩",
         fre: "Voile du Vaurien",
@@ -2093,6 +2283,7 @@ export let dataItems = {
     192: {
         img: "frontier_justice",
         eng: "Frontier Justice",
+        rus: "Самосуд",
         pol: "Samosąd",
         sch: "边境审判",
         fre: "Que justice soit faite",
@@ -2104,6 +2295,7 @@ export let dataItems = {
     193: {
         img: "wrench",
         eng: "Wrench",
+        rus: "Гаечный ключ",
         pol: "Klucz",
         sch: "扳手",
         fre: "Clé",
@@ -2115,6 +2307,7 @@ export let dataItems = {
     194: {
         img: "mining_light",
         eng: "Mining Light",
+        rus: "Шахтёрский фонарь",
         pol: "Lampa górnicza",
         sch: "矿灯",
         fre: "Lampe de mineur",
@@ -2126,6 +2319,7 @@ export let dataItems = {
     195: {
         img: "axtinguisher",
         eng: "The Axtinguisher",
+        rus: "Огнетопор",
         pol: "Poskramiacz płomieni",
         sch: "火焰战斧",
         fre: "L'Hachtincteur",
@@ -2137,6 +2331,7 @@ export let dataItems = {
     196: {
         img: "razorback",
         eng: "The Razorback",
+        rus: "Бронепанцирь",
         pol: "Antyklinga",
         sch: "电击背脊盾",
         fre: "Le Razorback",
@@ -2149,6 +2344,7 @@ export let dataItems = {
     197: {
         img: "tough_guys_toque",
         eng: "Tough Guy's Toque",
+        rus: "Шапка крутого парня",
         pol: "Pomponik twardziela",
         sch: "硬汉的无边帽",
         fre: "Tuque de gros dur",
@@ -2160,6 +2356,7 @@ export let dataItems = {
     198: {
         img: "frenchmans_beret",
         eng: "Frenchman's Beret",
+        rus: "Французский берет",
         pol: "Beret Francuza",
         sch: "法式贝雷帽",
         fre: "Béret du Français",
@@ -2171,6 +2368,7 @@ export let dataItems = {
     199: {
         img: "kritzkrieg",
         eng: "The Kritzkrieg",
+        rus: "Крицкриг",
         pol: "Kritzkrieg",
         sch: "闪电战医疗枪",
         fre: "Le Kritzkrieg",
@@ -2183,6 +2381,7 @@ export let dataItems = {
     200: {
         img: "holy_mackerel",
         eng: "The Holy Mackerel",
+        rus: "Поддай леща",
         pol: "Święta makrela",
         sch: "圣灵鲭鱼",
         fre: "Le maquereau sacré",
@@ -2194,6 +2393,7 @@ export let dataItems = {
     201: {
         img: "machina",
         eng: "The Machina",
+        rus: "Махина",
         pol: "Machina",
         sch: "鬼械神狙",
         fre: "La Machina",
@@ -2206,6 +2406,7 @@ export let dataItems = {
     202: {
         img: "half_zatoichi",
         eng: "The Half-Zatoichi",
+        rus: "Полудзатоити",
         pol: "Prawie Zatoichi",
         sch: "座头市之刀",
         fre: "Demi-Zatoichi",
@@ -2217,6 +2418,7 @@ export let dataItems = {
     203: {
         img: "fists",
         eng: "Fists",
+        rus: "Кулаки",
         pol: "Pięści",
         sch: "拳头",
         fre: "Poings",
@@ -2228,6 +2430,7 @@ export let dataItems = {
     204: {
         img: "grimm_hatte",
         eng: "Grimm Hatte",
+        rus: "Мрачная шляпа",
         pol: "Sępny kłobuk",
         sch: "黑死病医帽",
         fre: "Sinistre Haine",
@@ -2239,6 +2442,7 @@ export let dataItems = {
     205: {
         img: "ubersaw",
         eng: "The Ubersaw",
+        rus: "Убер-пила",
         pol: "Überpiła",
         sch: "过载充能锯",
         fre: "L'Überscie",
@@ -2250,6 +2454,7 @@ export let dataItems = {
     206: {
         img: "soda_popper",
         eng: "The Soda Popper",
+        rus: "Газировщик",
         pol: "Buzownik",
         sch: "苏打炮手",
         fre: "Le Rafraîchisseur",
@@ -2261,6 +2466,7 @@ export let dataItems = {
     207: {
         img: "family_business",
         eng: "The Family Business",
+        rus: "Семейное дело",
         pol: "Rodzinny interes",
         sch: "家族运营枪",
         fre: "L'Entreprise Familiale",
@@ -2272,6 +2478,7 @@ export let dataItems = {
     208: {
         img: "reserve_shooter",
         eng: "The Reserve Shooter",
+        rus: "Офицер запаса",
         pol: "Rezerwista",
         sch: "预备役射手",
         fre: "Le Tireur Réserviste",
@@ -2283,6 +2490,7 @@ export let dataItems = {
     209: {
         img: "atomizer",
         eng: "The Atomizer",
+        rus: "Расщепитель",
         pol: "Atomizer",
         sch: "原子能球棒",
         fre: "L'Atomiseur",
@@ -2294,6 +2502,7 @@ export let dataItems = {
     210: {
         img: "hard_counter",
         eng: "Hard Counter",
+        rus: "Жёсткий отражатель",
         pol: "Parasolka ochronna",
         sch: "坚固的雨伞帽子",
         fre: "Grands moyens",
@@ -2305,6 +2514,7 @@ export let dataItems = {
     211: {
         img: "western_wear",
         eng: "Western Wear",
+        rus: "Западная шляпа",
         pol: "Zachodni styl",
         sch: "西部圆顶礼帽",
         fre: "Usure de l'Ouest",
@@ -2316,6 +2526,7 @@ export let dataItems = {
     212: {
         img: "festive_scattergun",
         eng: "Festive Scattergun",
+        rus: "Праздничный обрез",
         pol: "Świąteczna dubeltówka",
         sch: "节日猎枪",
         fre: "Fusil à dispersion festif",
@@ -2327,6 +2538,7 @@ export let dataItems = {
     213: {
         img: "festive_bat",
         eng: "Festive Bat",
+        rus: "Праздничная бита",
         pol: "Świąteczny kij",
         sch: "节日球棒",
         fre: "Batte festive",
@@ -2338,6 +2550,7 @@ export let dataItems = {
     214: {
         img: "festive_rocket_launcher",
         eng: "Festive Rocket Launcher",
+        rus: "Праздничный ракетомёт",
         pol: "Świąteczna wyrzutnia rakiet",
         sch: "节日火箭发射器",
         fre: "Lance-roquettes festif",
@@ -2349,6 +2562,7 @@ export let dataItems = {
     215: {
         img: "festive_flame_thrower",
         eng: "Festive Flame Thrower",
+        rus: "Праздничный огнемёт",
         pol: "Świąteczny miotacz ognia",
         sch: "节日火焰喷射器",
         fre: "Lance-flammes festif",
@@ -2360,6 +2574,7 @@ export let dataItems = {
     216: {
         img: "festive_stickybomb_launcher",
         eng: "Festive Stickybomb Launcher",
+        rus: "Праздничный липучкомёт",
         pol: "Świąteczna wyrzutnia bomb samoprzylepnych",
         sch: "节日黏性炸弹发射器",
         fre: "Lanceur de bombes collantes festif",
@@ -2371,6 +2586,7 @@ export let dataItems = {
     217: {
         img: "festive_minigun",
         eng: "Festive Minigun",
+        rus: "Праздничный пулемёт",
         pol: "Świąteczny minigun",
         sch: "节日转轮机枪",
         fre: "Minigun festif",
@@ -2382,6 +2598,7 @@ export let dataItems = {
     218: {
         img: "festive_wrench",
         eng: "Festive Wrench",
+        rus: "Праздничный гаечный ключ",
         pol: "Świąteczny klucz",
         sch: "节日扳手",
         fre: "Clé festive",
@@ -2393,6 +2610,7 @@ export let dataItems = {
     219: {
         img: "festive_medi_gun",
         eng: "Festive Medi Gun",
+        rus: "Праздничная лечебная пушка",
         pol: "Świąteczny medigun",
         sch: "节日医疗枪",
         fre: "Medigun festif",
@@ -2404,6 +2622,7 @@ export let dataItems = {
     220: {
         img: "festive_sniper_rifle",
         eng: "Festive Sniper Rifle",
+        rus: "Праздничная снайперская винтовка",
         pol: "Świąteczny karabin snajperski",
         sch: "节日狙击步枪",
         fre: "Fusil de sniper festif",
@@ -2415,6 +2634,7 @@ export let dataItems = {
     221: {
         img: "festive_knife",
         eng: "Festive Knife",
+        rus: "Праздничный нож",
         pol: "Świąteczny nóż",
         sch: "节日刀子",
         fre: "Couteau festif",
@@ -2426,6 +2646,7 @@ export let dataItems = {
     222: {
         img: "wrap_assassin",
         eng: "The Wrap Assassin",
+        rus: "Обёрточный убийца",
         pol: "Pakujący zabójca",
         sch: "包装纸杀手",
         fre: "L'assassin emballé",
@@ -2437,6 +2658,7 @@ export let dataItems = {
     223: {
         img: "holiday_punch",
         eng: "The Holiday Punch",
+        rus: "Праздничный удар",
         pol: "Świąteczny wigor",
         sch: "欢乐拳套",
         fre: "Le Punch des Vacances",
@@ -2448,6 +2670,7 @@ export let dataItems = {
     224: {
         img: "spy_cicle",
         eng: "The Spy-cicle",
+        rus: "Сосулька",
         pol: "Zamrożony agent",
         sch: "神奇的冰柱",
         fre: "La Spy-lactite",
@@ -2459,6 +2682,7 @@ export let dataItems = {
     225: {
         img: "big_elfin_deal",
         eng: "Big Elfin Deal",
+        rus: "Тоже мне, эльф",
         pol: "Wyelfiona mycka",
         sch: "欢乐小精灵的帽子",
         fre: "Une Affaire elftraordinaire",
@@ -2470,6 +2694,7 @@ export let dataItems = {
     226: {
         img: "bootie_time",
         eng: "Bootie Time",
+        rus: "Эльфийские ботиночки",
         pol: "Seksowne trzewiczki",
         sch: "欢乐小精灵的鞋子",
         fre: "Le Temps des Bottines",
@@ -2481,6 +2706,7 @@ export let dataItems = {
     227: {
         img: "all_father",
         eng: "All-Father",
+        rus: "Всеотец",
         pol: "Wszechojciec",
         sch: "雪白的大胡子",
         fre: "Le Père de Tout",
@@ -2492,6 +2718,7 @@ export let dataItems = {
     228: {
         img: "ornament_armament",
         eng: "Ornament Armament",
+        rus: "Декоративное вооружение",
         pol: "Ozdobny oręż",
         sch: "闪亮的装饰炸弹",
         fre: "L'Armement Ornemental",
@@ -2503,6 +2730,7 @@ export let dataItems = {
     229: {
         img: "kringle_collection",
         eng: "Kringle Collection",
+        rus: "Тулуп от Крингла",
         pol: "Kolekcja Kringle'a",
         sch: "暖和的雪绒外套",
         fre: "La Collection de Kringle",
@@ -2514,6 +2742,7 @@ export let dataItems = {
     230: {
         img: "head_warmer",
         eng: "Head Warmer",
+        rus: "Головогрейка",
         pol: "Ocieplacz głowy",
         sch: "冬季雪绒帽",
         fre: "La Tête Brulée",
@@ -2525,6 +2754,7 @@ export let dataItems = {
     231: {
         img: "jingle_belt",
         eng: "Jingle Belt",
+        rus: "Бубенцовый пояс",
         pol: "Obłędnie dzwoniący pas",
         sch: "雪橇响铃",
         fre: "La ceinture de clochettes",
@@ -2536,6 +2766,7 @@ export let dataItems = {
     232: {
         img: "sandvich_safe",
         eng: "Sandvich Safe",
+        rus: "Сейф для бутерброда",
         pol: "Kanapkowy sejf",
         sch: "午餐盒",
         fre: "Le Coffre à Sandvich",
@@ -2547,6 +2778,7 @@ export let dataItems = {
     233: {
         img: "stocking_stuffer",
         eng: "Stocking Stuffer",
+        rus: "Праздничный носок",
         pol: "Wypchana skarpeta",
         sch: "鲜红的圣诞袜子",
         fre: "La Chaussette de Noël",
@@ -2558,6 +2790,7 @@ export let dataItems = {
     234: {
         img: "outback_intellectual",
         eng: "Outback Intellectual",
+        rus: "Интеллигент из пустыни",
         pol: "Intelektualista z pustkowi",
         sch: "鲜艳的格子毛绒衫",
         fre: "L'intellectuel de l'arrière-pays",
@@ -2569,6 +2802,7 @@ export let dataItems = {
     235: {
         img: "brown_bomber",
         eng: "Brown Bomber",
+        rus: "Коричневый бомбист",
         pol: "Brązowy bombowiec",
         sch: "棕色雪地帽",
         fre: "La Bombe Brune",
@@ -2580,6 +2814,7 @@ export let dataItems = {
     236: {
         img: "bazaar_bargain",
         eng: "The Bazaar Bargain",
+        rus: "Базарная безделушка",
         pol: "Dalekosiężny dżezail",
         sch: "市场还价者",
         fre: "La Pétoire du bazar",
@@ -2591,6 +2826,7 @@ export let dataItems = {
     237: {
         img: "big_earner",
         eng: "The Big Earner",
+        rus: "Главный делец",
         pol: "Gruba ryba",
         sch: "暴利杀手",
         fre: "Le Grand Gagnant",
@@ -2602,6 +2838,7 @@ export let dataItems = {
     238: {
         img: "blutsauger",
         eng: "The Blutsauger",
+        rus: "Кровопийца",
         pol: "Blutsauger",
         sch: "吸血鬼针筒枪",
         fre: "Le Blutsauger",
@@ -2614,6 +2851,7 @@ export let dataItems = {
     239: {
         img: "liberty_launcher",
         eng: "The Liberty Launcher",
+        rus: "Освободитель",
         pol: "Wyrzutnia wolności",
         sch: "自由推进炮",
         fre: "Le Libérateur",
@@ -2625,6 +2863,7 @@ export let dataItems = {
     240: {
         img: "cosa_nostra_cap",
         eng: "Cosa Nostra Cap",
+        rus: "Шляпа мафиози",
         pol: "Kapelusz Cosa Nostry",
         sch: "我们的事业之帽",
         fre: "Chapeau de la Cosa Nostra",
@@ -2636,6 +2875,7 @@ export let dataItems = {
     241: {
         img: "dead_ringer",
         eng: "The Dead Ringer",
+        rus: "Звон смерти",
         pol: "Dzwon zmarłego",
         sch: "死亡之铃",
         fre: "La Dead Ringer",
@@ -2647,6 +2887,7 @@ export let dataItems = {
     242: {
         img: "submachine_gun",
         eng: "SMG",
+        rus: "Пистолет-пулемёт",
         pol: "PM",
         sch: "SMG",
         fre: "Mitraillette",
@@ -2658,6 +2899,7 @@ export let dataItems = {
     243: {
         img: "quick_fix",
         eng: "The Quick-Fix",
+        rus: "Быстроправ",
         pol: "Quick-Fix",
         sch: "快速医疗枪",
         fre: "Le Secou'rapide",
@@ -2669,6 +2911,7 @@ export let dataItems = {
     244: {
         img: "killing_gloves_of_boxing",
         eng: "The Killing Gloves of Boxing",
+        rus: "Кулаки грозного боксёра",
         pol: "Krytyczne grzmoty bokserskie",
         sch: "杀戮拳击手套",
         fre: "Les Kamarades Gants de Boxe",
@@ -2680,6 +2923,7 @@ export let dataItems = {
     245: {
         img: "flamboyant_flamenco",
         eng: "The Flamboyant Flamenco",
+        rus: "Яркое фламенко",
         pol: "Fatalne flamenco",
         sch: "华丽的弗拉门戈帽",
         fre: "Le Flamenco Flamboyant",
@@ -2691,6 +2935,7 @@ export let dataItems = {
     246: {
         img: "reggaelator",
         eng: "Reggaelator",
+        rus: "Рэггилятор",
         pol: "Reggaelator",
         sch: "雷鬼发型",
         fre: "Reggaelateur",
@@ -2701,6 +2946,7 @@ export let dataItems = {
     247: {
         img: "overdose",
         eng: "The Overdose",
+        rus: "Передоз",
         pol: "Końska dawka",
         sch: "过载注射枪",
         fre: "L'Overdose",
@@ -2712,6 +2958,7 @@ export let dataItems = {
     248: {
         img: "a_manns_mint",
         eng: "A Mann's Mint",
+        rus: "Зелень Манна",
         pol: "Mięta Manna",
         sch: "曼恩公司薄荷色",
         fre: "Une menthe Mann",
@@ -2723,6 +2970,7 @@ export let dataItems = {
     249: {
         img: "after_eight",
         eng: "After Eight",
+        rus: "Полуночный шоколад",
         pol: "Po ósmej",
         sch: "晚八点",
         fre: "After Eight",
@@ -2733,6 +2981,7 @@ export let dataItems = {
     250: {
         img: "salty_dog",
         eng: "The Salty Dog",
+        rus: "Морской волк",
         pol: "Wilk morski",
         sch: "水手老兵的帽子",
         fre: "Le Loup de Mer",
@@ -2744,6 +2993,7 @@ export let dataItems = {
     251: {
         img: "widowmaker",
         eng: "The Widowmaker",
+        rus: "Овдовитель",
         pol: "Likwidator",
         sch: "寡妇制造者",
         fre: "Le Faiseur de Veuves",
@@ -2756,6 +3006,7 @@ export let dataItems = {
     252: {
         img: "mantreads",
         eng: "The Mantreads",
+        rus: "Людодавы",
         pol: "Miażdżyciele",
         sch: "踏步靴",
         fre: "Les Bottes de Combat",
@@ -2767,6 +3018,7 @@ export let dataItems = {
     253: {
         img: "sapper",
         eng: "Sapper",
+        rus: "Жучок",
         pol: "Saper",
         sch: "电子工兵",
         fre: "Saboteur",
@@ -2777,6 +3029,7 @@ export let dataItems = {
     254: {
         img: "bat",
         eng: "Bat",
+        rus: "Бита",
         pol: "Kij",
         sch: "短棍",
         fre: "Batte",
@@ -2788,6 +3041,7 @@ export let dataItems = {
     255: {
         img: "diamondback",
         eng: "The Diamondback",
+        rus: "Алмазный змей",
         pol: "Grzechotnik",
         sch: "菱背响尾蛇",
         fre: "Le Diamondback",
@@ -2800,6 +3054,7 @@ export let dataItems = {
     256: {
         img: "strange_part_gib_kills",
         eng: "Strange Part: Gib Kills",
+        rus: "Странный счётчик: разорванные враги",
         pol: "Kuriozalna część: Rozczłonkowani wrogowie",
         sch: "奇异武器升级部件：炸碎敌人数",
         fre: "Pièce étrange : Mises en pièce",
@@ -2811,6 +3066,7 @@ export let dataItems = {
     257: {
         img: "strange_part_airborne_enemies_killed",
         eng: "Strange Part: Airborne Enemies Killed",
+        rus: "Странный счётчик: убийства в воздухе",
         pol: "Kuriozalna część: Wrogowie zabici w powietrzu",
         sch: "奇异武器升级部件：空中敌人击杀数",
         fre: "Pièce étrange : Ennemis dans les airs tués",
@@ -2822,6 +3078,7 @@ export let dataItems = {
     258: {
         img: "strange_part_heavies_killed",
         eng: "Strange Part: Heavies Killed",
+        rus: "Странный счётчик: убитые пулемётчики",
         pol: "Kuriozalna część: Zabici Grubi",
         sch: "奇异武器升级部件：机枪手消灭数",
         fre: "Pièce étrange : Heavies tués",
@@ -2833,6 +3090,7 @@ export let dataItems = {
     259: {
         img: "crocodile_smile",
         eng: "The Crocodile Smile",
+        rus: "Крокодилья улыбка",
         pol: "Krokodyli uśmiech",
         sch: "鳄鱼牙项链",
         fre: "Le Sourire du Crocodile",
@@ -2844,6 +3102,7 @@ export let dataItems = {
     260: {
         img: "large_luchadore",
         eng: "Large Luchadore",
+        rus: "Большой лучадор",
         pol: "Ogromny luchador",
         sch: "摔角手面具",
         fre: "Masque de Luchador",
@@ -2855,6 +3114,7 @@ export let dataItems = {
     261: {
         img: "bottle",
         eng: "Bottle",
+        rus: "Бутылка",
         pol: "Butelka",
         sch: "瓶子",
         fre: "Bouteille",
@@ -2866,6 +3126,7 @@ export let dataItems = {
     262: {
         img: "strange_part_buildings_destroyed",
         eng: "Strange Part: Buildings Destroyed",
+        rus: "Странный счётчик: уничтоженные постройки",
         pol: "Kuriozalna część: Zniszczone konstrukcje",
         sch: "奇异武器升级部件：建筑摧毁数",
         fre: "Pièce étrange : Bâtiments détruits",
@@ -2877,6 +3138,7 @@ export let dataItems = {
     263: {
         img: "strange_part_projectiles_reflected",
         eng: "Strange Part: Projectiles Reflected",
+        rus: "Странный счётчик: отражённые снаряды",
         pol: "Kuriozalna część: Odbite pociski",
         sch: "奇异武器升级部件：反弹次数",
         fre: "Pièce étrange : Projectiles renvoyés",
@@ -2888,6 +3150,7 @@ export let dataItems = {
     264: {
         img: "strange_part_headshot_kills",
         eng: "Strange Part: Headshot Kills",
+        rus: "Странный счётчик: убийства в голову",
         pol: "Kuriozalna część: Zabici strzałami w głowę",
         sch: "奇异武器升级部件：爆头数",
         fre: "Pièce étrange : Frags par tir en pleine tête",
@@ -2899,6 +3162,7 @@ export let dataItems = {
     265: {
         img: "outdoorsman",
         eng: "The Outdoorsman",
+        rus: "Дровосек",
         pol: "Odludek",
         sch: "伐木工帽子",
         fre: "L'homme d'extérieur",
@@ -2910,6 +3174,7 @@ export let dataItems = {
     266: {
         img: "ol_geezer",
         eng: "Ol' Geezer",
+        rus: "Старикашка",
         pol: "Ol' Geezer",
         sch: "老式牛仔帽",
         fre: "Vieu' Schnock",
@@ -2921,6 +3186,7 @@ export let dataItems = {
     267: {
         img: "tribalmans_shiv",
         eng: "The Tribalman's Shiv",
+        rus: "Заточка дикаря",
         pol: "Plemienne ostrze",
         sch: "部落者刮刀",
         fre: "Le Couteau Aborigène",
@@ -2932,6 +3198,7 @@ export let dataItems = {
     268: {
         img: "detonator",
         eng: "Detonator",
+        rus: "Детонатор",
         pol: "Detonator",
         sch: "起爆者",
         fre: "Le Détonateur",
@@ -2943,6 +3210,7 @@ export let dataItems = {
     269: {
         img: "strange_part_allies_extinguished",
         eng: "Strange Part: Teammates Extinguished",
+        rus: "Странный счётчик: потушенные союзники",
         pol: "Kuriozalna część: Ugaszeni sojusznicy",
         sch: "奇异武器升级部件：队友灭火数",
         fre: "Pièce étrange : coéquipiers en feu éteints",
@@ -2954,6 +3222,7 @@ export let dataItems = {
     270: {
         img: "strange_part_posthumous_kills",
         eng: "Strange Part: Posthumous Kills",
+        rus: "Странный счётчик: посмертные убийства",
         pol: "Kuriozalna część: Zabójstwa zza grobu",
         sch: "奇异武器升级部件：死后杀敌数",
         fre: "Pièce étrange : Victimes posthumes",
@@ -2965,6 +3234,7 @@ export let dataItems = {
     271: {
         img: "market_gardener",
         eng: "The Market Gardener",
+        rus: "Землекоп",
         pol: "Ogrodnik z Arnhem",
         sch: "市场花园铁锹",
         fre: "Le Jardinier",
@@ -2976,6 +3246,7 @@ export let dataItems = {
     272: {
         img: "strange_part_critical_kills",
         eng: "Strange Part: Critical Kills",
+        rus: "Странный счётчик: убийства критами",
         pol: "Kuriozalna część: Zabójstwa krytyczne",
         sch: "奇异武器升级部件：爆击杀敌数",
         fre: "Pièce étrange : Victimes par coup critique",
@@ -2987,6 +3258,7 @@ export let dataItems = {
     273: {
         img: "strange_part_demomen_killed",
         eng: "Strange Part: Demomen Killed",
+        rus: "Странный счётчик: убитые подрывники",
         pol: "Kuriozalna część: Zabici Demomani",
         sch: "奇异武器升级部件：爆破手消灭数",
         fre: "Pièce étrange : Demomen tués",
@@ -2998,6 +3270,7 @@ export let dataItems = {
     274: {
         img: "strange_part_revenge_kills",
         eng: "Strange Part: Revenge Kills",
+        rus: "Странный счётчик: убийства с местью",
         pol: "Kuriozalna część: Zabójstwa odwetowe",
         sch: "奇异武器升级部件：复仇数",
         fre: "Pièce étrange : Victimes par vengeance",
@@ -3009,6 +3282,7 @@ export let dataItems = {
     275: {
         img: "hat_with_no_name",
         eng: "The Hat With No Name",
+        rus: "Шляпа без имени",
         pol: "Kapelusz bez imienia",
         sch: "无名之帽",
         fre: "Le Chapeau Sans Nom",
@@ -3020,6 +3294,7 @@ export let dataItems = {
     276: {
         img: "scotsmans_skullcutter",
         eng: "The Scotsman's Skullcutter",
+        rus: "Шотландский головорез",
         pol: "Czerepołamacz Szkota",
         sch: "苏格兰颅骨切割者",
         fre: "La Guillotine Écossaise",
@@ -3031,6 +3306,7 @@ export let dataItems = {
     277: {
         img: "persian_persuader",
         eng: "The Persian Persuader",
+        rus: "Персидский заклинатель",
         pol: "Perska perswazja",
         sch: "波斯弯刀",
         fre: "La persuasion persane",
@@ -3042,6 +3318,7 @@ export let dataItems = {
     278: {
         img: "strange_part_soldiers_killed",
         eng: "Strange Part: Soldiers Killed",
+        rus: "Странный счётчик: убитые солдаты",
         pol: "Kuriozalna część: Zabici Żołnierze",
         sch: "奇异武器升级部件：士兵消灭数",
         fre: "Pièce étrange : Soldiers tués",
@@ -3053,6 +3330,7 @@ export let dataItems = {
     279: {
         img: "strange_part_domination_kills",
         eng: "Strange Part: Domination Kills",
+        rus: "Странный счётчик: убийства с превосходством",
         pol: "Kuriozalna część: Zabójstwa dominacyjne",
         sch: "奇异武器升级部件：控制数",
         fre: "Pièce étrange : Victimes dominées",
@@ -3064,6 +3342,7 @@ export let dataItems = {
     280: {
         img: "strange_part_kills_while_explosive_jumping",
         eng: "Strange Part: Kills While Explosive Jumping",
+        rus: "Странный счётчик: убийства в прыжке на взрывчатке",
         pol: "Kuriozalna część: Zabójstwa podczas skoku na eksplozji",
         sch: "奇异武器升级部件：爆炸起跳空中杀敌数",
         fre: "Pièce étrange : Victimes lors de sauts propulsés",
@@ -3075,6 +3354,7 @@ export let dataItems = {
     281: {
         img: "tavish_degroot_experience",
         eng: "The Tavish DeGroot Experience",
+        rus: "Опыт Тавиша ДеГрута",
         pol: "Tavish DeGroot Experience",
         sch: "塔维什德格罗特的宽边帽",
         fre: "L'expérience Tavish DeGroot",
@@ -3086,6 +3366,7 @@ export let dataItems = {
     282: {
         img: "lollichop",
         eng: "Lollichop",
+        rus: "Кледенец",
         pol: "Lizasiek",
         sch: "锋利的波板糖",
         fre: "La Sussache",
@@ -3097,6 +3378,7 @@ export let dataItems = {
     283: {
         img: "rainblower",
         eng: "Rainblower",
+        rus: "Радужигатель",
         pol: "Tęczomiot",
         sch: "彩虹喷灯",
         fre: "Le Chasse-nuages",
@@ -3108,6 +3390,7 @@ export let dataItems = {
     284: {
         img: "apparatchiks_apparel",
         eng: "The Apparatchik's Apparel",
+        rus: "Одежда аппаратчика",
         pol: "Koszula komucha",
         sch: "党僚的服饰",
         fre: "Les Vêtements d'Apparatchik",
@@ -3119,6 +3402,7 @@ export let dataItems = {
     285: {
         img: "bird_man_of_aberdeen",
         eng: "Bird-Man of Aberdeen",
+        rus: "Птицелов из Абердина",
         pol: "Ptasznik z Aberdeen",
         sch: "阿伯丁的鸟人",
         fre: "L'Homme-Oiseau d'Aberdeen",
@@ -3130,6 +3414,7 @@ export let dataItems = {
     286: {
         img: "business_casual",
         eng: "Business Casual",
+        rus: "Повседневно-деловой",
         pol: "Luźny biznes",
         sch: "商务休闲衫",
         fre: "Le Businessman Détendu",
@@ -3141,6 +3426,7 @@ export let dataItems = {
     287: {
         img: "captains_cocktails",
         eng: "Captain's Cocktails",
+        rus: "Капитанские коктейли",
         pol: "Koktajle kapitana",
         sch: "丐帮头头的罐头盒",
         fre: "Les Cocktails du Capitaine",
@@ -3152,6 +3438,7 @@ export let dataItems = {
     288: {
         img: "dillingers_duffel",
         eng: "Dillinger's Duffel",
+        rus: "Вещмешок Диллинджера",
         pol: "Dorobek Dillingera",
         sch: "狄林杰的粗花呢布袋",
         fre: "Sac de Dillinger",
@@ -3163,6 +3450,7 @@ export let dataItems = {
     289: {
         img: "fed_fightin_fedora",
         eng: "Fed-Fightin' Fedora",
+        rus: "Фетровая шляпа федералоборца",
         pol: "Antyfederalna fedora",
         sch: "联邦探员打败者",
         fre: "Le Fedora du Combat des Fédéraux",
@@ -3174,6 +3462,7 @@ export let dataItems = {
     290: {
         img: "gentlemans_ushanka",
         eng: "Gentleman's Ushanka",
+        rus: "Джентльменская ушанка",
         pol: "Uszanka dżentelmena",
         sch: "绅士的红军帽",
         fre: "L'Ushanka du Gentilhomme",
@@ -3185,6 +3474,7 @@ export let dataItems = {
     291: {
         img: "hazmat_headcase",
         eng: "HazMat Headcase",
+        rus: "Головной комплект химзащиты",
         pol: "Gorąca głowa",
         sch: "危爆品处理面罩",
         fre: "Le casque Hazmat",
@@ -3196,6 +3486,7 @@ export let dataItems = {
     292: {
         img: "helmet_without_a_home",
         eng: "Helmet Without a Home",
+        rus: "Шлем без крыши над головой",
         pol: "Kask kloszarda",
         sch: "无家可盔",
         fre: "Le Casque Sans Foyer",
@@ -3207,6 +3498,7 @@ export let dataItems = {
     293: {
         img: "idea_tube",
         eng: "Idea Tube",
+        rus: "Тубус с идеями",
         pol: "Pomysłowy tubus",
         sch: "思想管",
         fre: "Le Tube à idées",
@@ -3218,6 +3510,7 @@ export let dataItems = {
     294: {
         img: "liquidators_lid",
         eng: "Liquidator's Lid",
+        rus: "Шапочка Ликвидатора",
         pol: "Leon likwidator",
         sch: "清算人的帽子",
         fre: "Le Galurin du Liquidateur",
@@ -3229,6 +3522,7 @@ export let dataItems = {
     295: {
         img: "balloonicorn",
         eng: "Balloonicorn",
+        rus: "Надувнорог",
         pol: "Balonorożec",
         sch: "气球独角兽",
         fre: "La Ballicorne",
@@ -3240,6 +3534,7 @@ export let dataItems = {
     296: {
         img: "infernal_orchestrina",
         eng: "Infernal Orchestrina",
+        rus: "Адская Оркестрина",
         pol: "Piekielna pozytywka",
         sch: "炼狱管弦乐",
         fre: "Orgue de Barbarie",
@@ -3251,6 +3546,7 @@ export let dataItems = {
     297: {
         img: "tomislav",
         eng: "Tomislav",
+        rus: "Томислав",
         pol: "Tomisław",
         sch: "汤姆斯拉夫",
         fre: "Tomislav",
@@ -3261,6 +3557,7 @@ export let dataItems = {
     298: {
         img: "strange_part_scouts_killed",
         eng: "Strange Part: Scouts Killed",
+        rus: "Странный счётчик: убитые разведчики",
         pol: "Kuriozalna część: Zabici Skauci",
         sch: "奇异武器升级部件：侦察兵消灭数",
         fre: "Pièce étrange : Scouts tués",
@@ -3272,6 +3569,7 @@ export let dataItems = {
     299: {
         img: "strange_part_sappers_destroyed",
         eng: "Strange Part: Sappers Destroyed",
+        rus: "Странный счётчик: уничтоженные жучки",
         pol: "Kuriozalna część: Zniszczone sapery",
         sch: "奇异武器升级部件：电子工兵摧毁数",
         fre: "Pièce étrange : Saboteurs détruits",
@@ -3283,6 +3581,7 @@ export let dataItems = {
     300: {
         img: "strange_part_cloaked_spies_killed",
         eng: "Strange Part: Cloaked Spies Killed",
+        rus: "Странный счётчик: убитые невидимые шпионы",
         pol: "Kuriozalna część: Zabici niewidzialni Szpiedzy",
         sch: "奇异武器升级部件：隐形间谍消灭数",
         fre: "Pièce étrange : Spies invisibles tués",
@@ -3294,6 +3593,7 @@ export let dataItems = {
     301: {
         img: "backwards_ballcap",
         eng: "The Backwards Ballcap",
+        rus: "Перевернутая бейсболка",
         pol: "Bejsbolówka buntownika",
         sch: "反戴的棒球帽",
         fre: "La casquette à l'envers",
@@ -3305,6 +3605,7 @@ export let dataItems = {
     302: {
         img: "koala_compact",
         eng: "Koala Compact",
+        rus: "Карманный коала",
         pol: "Kompaktowy koala",
         sch: "口袋考拉",
         fre: "Le Koala Compact",
@@ -3316,6 +3617,7 @@ export let dataItems = {
     303: {
         img: "soviet_gentleman",
         eng: "The Soviet Gentleman",
+        rus: "Советский джентльмен",
         pol: "Radziecki dżentelmen",
         sch: "苏维埃绅士",
         fre: "Le Gentleman Soviétique",
@@ -3327,6 +3629,7 @@ export let dataItems = {
     304: {
         img: "pocket_purrer",
         eng: "Pocket Purrer",
+        rus: "Карманный мурлыка",
         pol: "Kieszonkowy kiciuś",
         sch: "口袋猫猫",
         fre: "Le Ronronneur de Poche",
@@ -3338,6 +3641,7 @@ export let dataItems = {
     305: {
         img: "hat_of_cards",
         eng: "Hat of Cards",
+        rus: "Шляпа карт",
         pol: "Czapka z kart",
         sch: "纸牌骗术师",
         fre: "Chapeau de Cartes",
@@ -3349,6 +3653,7 @@ export let dataItems = {
     306: {
         img: "medi_mask",
         eng: "Medi-Mask",
+        rus: "Медицинский респиратор",
         pol: "Med-maska",
         sch: "防毒面具",
         fre: "Medi-Masque",
@@ -3360,6 +3665,7 @@ export let dataItems = {
     307: {
         img: "track_terrorizer",
         eng: "Track Terrorizer",
+        rus: "Гроза беговой дорожки",
         pol: "Bezecnik z bieżni",
         sch: "跟踪狂",
         fre: "La Terreur des Pistes",
@@ -3371,6 +3677,7 @@ export let dataItems = {
     308: {
         img: "war_pig",
         eng: "The War Pig",
+        rus: "Боевой кабан",
         pol: "Świnia wojny",
         sch: "战场豪猪",
         fre: "Le Porc de Guerre",
@@ -3382,6 +3689,7 @@ export let dataItems = {
     309: {
         img: "bearded_bombardier",
         eng: "Bearded Bombardier",
+        rus: "Бородатый бомбардир",
         pol: "Brodaty bombardier",
         sch: "炸弹兵的花白胡须",
         fre: "Le Bombardier Barbu",
@@ -3393,6 +3701,7 @@ export let dataItems = {
     310: {
         img: "pyrotechnic_tote",
         eng: "Pyrotechnic Tote",
+        rus: "Ранец с пиротехникой",
         pol: "Torba pirotechnika",
         sch: "烟火背包",
         fre: "Le Fourre-tout Pyrotechnique",
@@ -3404,6 +3713,7 @@ export let dataItems = {
     311: {
         img: "robro_3000",
         eng: "RoBro 3000",
+        rus: "РоБро 3000",
         pol: "RoBro 3000",
         sch: "机器伙伴 3000",
         fre: "Le RoBro 3000",
@@ -3415,6 +3725,7 @@ export let dataItems = {
     312: {
         img: "shovel",
         eng: "Shovel",
+        rus: "Лопата",
         pol: "Saperka",
         sch: "铁锹",
         fre: "Pelle",
@@ -3426,6 +3737,7 @@ export let dataItems = {
     313: {
         img: "strange_part_engineers_killed",
         eng: "Strange Part: Engineers Killed",
+        rus: "Странный счётчик: убитые инженеры",
         pol: "Kuriozalna część: Zabici Inżynierowie",
         sch: "奇异武器升级部件：工程师消灭数",
         fre: "Pièce étrange : Engineers tués",
@@ -3437,6 +3749,7 @@ export let dataItems = {
     314: {
         img: "strange_part_robots_destroyed",
         eng: "Strange Part: Robots Destroyed",
+        rus: "Странный счётчик: уничтоженные роботы",
         pol: "Kuriozalna część: Zniszczone roboty",
         sch: "奇异武器升级部件：机器人消灭数",
         fre: "Pièce étrange : Robots détruits",
@@ -3448,6 +3761,7 @@ export let dataItems = {
     315: {
         img: "strange_part_low_health_kills",
         eng: "Strange Part: Low-Health Kills",
+        rus: "Странный счётчик: убийства на грани смерти",
         pol: "Kuriozalna część: Zabójstwa z niskim stanem zdrowia",
         sch: "奇异武器升级部件：残血状态杀敌数",
         fre: "Pièce étrange : Nombre de victimes en ayant une santé faible",
@@ -3459,6 +3773,7 @@ export let dataItems = {
     316: {
         img: "surgeons_stahlhelm",
         eng: "The Surgeon's Stahlhelm",
+        rus: "Штальхельм врача",
         pol: "Stalowy hełm chirurga",
         sch: "外科医生的钢盔",
         fre: "Le Stahlhelm de Chirurgien",
@@ -3470,6 +3785,7 @@ export let dataItems = {
     317: {
         img: "furious_fukaamigasa",
         eng: "Furious Fukaamigasa",
+        rus: "Свирепый фукаамигаса",
         pol: "Fukaamigasa furiata",
         sch: "愤怒者的斗笠",
         fre: "Furieux Fukaamigasa",
@@ -3481,6 +3797,7 @@ export let dataItems = {
     318: {
         img: "strange_bacon_grease",
         eng: "Strange Bacon Grease",
+        rus: "Странный свиной жир",
         pol: "Kuriozalna słonina",
         sch: "奇异猪油",
         fre: "Graisse de bacon étrange",
@@ -3492,6 +3809,7 @@ export let dataItems = {
     319: {
         img: "construction_pda",
         eng: "Construction PDA",
+        rus: "КПК постройки",
         pol: "PDA budowy",
         sch: "建造工具",
         fre: "PDA de Construction",
@@ -3503,6 +3821,7 @@ export let dataItems = {
     320: {
         img: "original",
         eng: "The Original",
+        rus: "Прародитель",
         pol: "Oryginalna",
         sch: "原版",
         fre: "Originel",
@@ -3514,6 +3833,7 @@ export let dataItems = {
     321: {
         img: "invis_watch",
         eng: "Invis Watch",
+        rus: "Часы невидимости",
         pol: "Zegarek niewidzialności",
         sch: "隐形手表",
         fre: "Montre d'invisibilité",
@@ -3525,6 +3845,7 @@ export let dataItems = {
     322: {
         img: "splendid_screen",
         eng: "The Splendid Screen",
+        rus: "Роскошное прикрытие",
         pol: "Prześwietny puklerz",
         sch: "辉煌护盾",
         fre: "Le Mirage Éblouissant",
@@ -3536,6 +3857,7 @@ export let dataItems = {
     323: {
         img: "sir_hootsalot",
         eng: "Sir Hootsalot",
+        rus: "Сэр Соволот",
         pol: "Kapitan Sowa",
         sch: "夜行者爵士",
         fre: "Sire Hululalot",
@@ -3546,6 +3868,7 @@ export let dataItems = {
     324: {
         img: "master_mind",
         eng: "Master Mind",
+        rus: "Гигант мысли",
         pol: "Umysł majstra",
         sch: "超级大脑",
         fre: "L'esprit du maître",
@@ -3557,6 +3880,7 @@ export let dataItems = {
     325: {
         img: "rump_o_lantern",
         eng: "Rump-o'-Lantern",
+        rus: "Афедрофонарь",
         pol: "Halloweenowe wsparcie duchowe",
         sch: "遮臀南瓜灯",
         fre: "La Lantern-o-croupion",
@@ -3568,6 +3892,7 @@ export let dataItems = {
     326: {
         img: "scarecrow",
         eng: "Scarecrow",
+        rus: "Пугало",
         pol: "Strach na wróble",
         sch: "稻草人",
         fre: "L'Épouvantail",
@@ -3579,6 +3904,7 @@ export let dataItems = {
     327: {
         img: "crones_dome",
         eng: "Crone's Dome",
+        rus: "Ведьминский колпак",
         pol: "Kapelusz wiedźmy",
         sch: "巫婆的尖帽",
         fre: "Le Chapeau de sorcière",
@@ -3590,6 +3916,7 @@ export let dataItems = {
     328: {
         img: "executioner",
         eng: "Executioner",
+        rus: "Палач",
         pol: "Spojrzenie kata",
         sch: "蒙面刽子手",
         fre: "Le Bourreau",
@@ -3601,6 +3928,7 @@ export let dataItems = {
     329: {
         img: "bonedolier",
         eng: "Bonedolier",
+        rus: "Костонташ",
         pol: "Wybuchowa czacha",
         sch: "骨弹带",
         fre: "L'Osselière",
@@ -3612,6 +3940,7 @@ export let dataItems = {
     330: {
         img: "plutonidome",
         eng: "Plutonidome",
+        rus: "Плутониевый котелок",
         pol: "Płynny potencjał",
         sch: "诡异脑袋",
         fre: "Le Plutoniheaume",
@@ -3623,6 +3952,7 @@ export let dataItems = {
     331: {
         img: "spooky_shoes",
         eng: "Spooky Shoes",
+        rus: "Жуткая обувка",
         pol: "Trupie trampki",
         sch: "骷髅长靴",
         fre: "Les sinistres chaussures",
@@ -3634,6 +3964,7 @@ export let dataItems = {
     332: {
         img: "spooky_sleeves",
         eng: "Spooky Sleeves",
+        rus: "Жуткие рукава",
         pol: "Trupie rękawy",
         sch: "骷髅夹克",
         fre: "Les sinistres manchettes",
@@ -3645,6 +3976,7 @@ export let dataItems = {
     333: {
         img: "zipperface",
         eng: "Zipperface",
+        rus: "Молниеликий",
         pol: "Twarz na zamek błyskawiczny",
         sch: "去骨拉链",
         fre: "Le Crâneur",
@@ -3656,6 +3988,7 @@ export let dataItems = {
     334: {
         img: "boo_balloon",
         eng: "Boo Balloon",
+        rus: "Жуткий шарик",
         pol: "Złowieszczy balonik",
         sch: "幽灵气球",
         fre: "Le ballon de boo-druche",
@@ -3667,6 +4000,7 @@ export let dataItems = {
     335: {
         img: "unknown_monkeynaut",
         eng: "Unknown Monkeynaut",
+        rus: "Неизвестный обезьянавт",
         pol: "Nieznany małponauta",
         sch: "无名的宇航猴",
         fre: "Le singenaute inconnu",
@@ -3678,6 +4012,7 @@ export let dataItems = {
     336: {
         img: "grand_duchess_tutu",
         eng: "Grand Duchess Tutu",
+        rus: "Пачка великой княжны",
         pol: "Tutu wielkiej księżnej",
         sch: "大公夫人的芭蕾舞短裙",
         fre: "Le tutu de la Grande Duchesse",
@@ -3689,6 +4024,7 @@ export let dataItems = {
     337: {
         img: "grand_duchess_fairy_wings",
         eng: "Grand Duchess Fairy Wings",
+        rus: "Волшебные крылышки великой княжны",
         pol: "Baśniowe skrzydła wielkiej księżnej",
         sch: "大公夫人的小仙女翅膀",
         fre: "Les ailes féeriques de la Grande Duchesse",
@@ -3700,6 +4036,7 @@ export let dataItems = {
     338: {
         img: "grand_duchess_tiara",
         eng: "Grand Duchess Tiara",
+        rus: "Корона великой княжны",
         pol: "Diadem wielkiej księżnej",
         sch: "大公夫人的宝冠",
         fre: "Le diadème de la Grande Duchesse",
@@ -3711,6 +4048,7 @@ export let dataItems = {
     339: {
         img: "dead_little_buddy",
         eng: "Dead Little Buddy",
+        rus: "Мертвый дружок",
         pol: "Mały martwy kumpel",
         sch: "玩伴小幽灵",
         fre: "Le petit pote mort",
@@ -3722,6 +4060,7 @@ export let dataItems = {
     340: {
         img: "exorcizor",
         eng: "Exorcizor",
+        rus: "Физзорцист",
         pol: "Koloratka egzorcysty",
         sch: "驱魔人",
         fre: "L'Exorciseur",
@@ -3733,6 +4072,7 @@ export let dataItems = {
     341: {
         img: "voodoo_juju_slight_return",
         eng: "Voodoo JuJu (Slight Return)",
+        rus: "Амулет вуду (версия 2.0)",
         pol: "Juju voodoo (skromny powrót)",
         sch: "巫毒符咒（微小的回报）",
         fre: "Le JuJu vaudou (petit retour)",
@@ -3745,6 +4085,7 @@ export let dataItems = {
     342: {
         img: "wraith_wrap",
         eng: "Wraith Wrap",
+        rus: "Призрачный покров",
         pol: "Kaptur krematora",
         sch: "幽灵兜帽",
         fre: "Le Châle Spectral",
@@ -3756,6 +4097,7 @@ export let dataItems = {
     343: {
         img: "coffin_kit",
         eng: "Coffin Kit",
+        rus: "Похоронные принадлежности",
         pol: "Zestaw trumniarza",
         sch: "求死背包",
         fre: "Le Cercueil à dos",
@@ -3767,6 +4109,7 @@ export let dataItems = {
     344: {
         img: "bat_outta_hell",
         eng: "Bat Outta Hell",
+        rus: "Дубина из ада",
         pol: "Piekielna pałka",
         sch: "恐怖骸骨",
         fre: "La Batte des Enfers",
@@ -3778,6 +4121,7 @@ export let dataItems = {
     345: {
         img: "festive_holy_mackerel",
         eng: "The Festive Holy Mackerel",
+        rus: "Праздничный Поддай леща",
         pol: "Świąteczna Święta makrela",
         sch: "节日圣灵鲭鱼",
         fre: "Maquereau Sacré festif",
@@ -3789,6 +4133,7 @@ export let dataItems = {
     346: {
         img: "festive_axtinguisher",
         eng: "The Festive Axtinguisher",
+        rus: "Праздничный Огнетопор",
         pol: "Świąteczny Poskramiacz płomieni",
         sch: "节日火焰战斧",
         fre: "Hachtincteur festif",
@@ -3800,6 +4145,7 @@ export let dataItems = {
     347: {
         img: "festive_buff_banner",
         eng: "The Festive Buff Banner",
+        rus: "Праздничное Вдохновляющее знамя",
         pol: "Świąteczny Sztandar chwały",
         sch: "节日战旗",
         fre: "Drapeau Buff festif",
@@ -3811,6 +4157,7 @@ export let dataItems = {
     348: {
         img: "festive_sandvich",
         eng: "The Festive Sandvich",
+        rus: "Праздничный бутерброд",
         pol: "Świąteczna kanapka",
         sch: "节日三明治",
         fre: "Sandvich festif",
@@ -3822,6 +4169,7 @@ export let dataItems = {
     349: {
         img: "festive_ubersaw",
         eng: "The Festive Ubersaw",
+        rus: "Праздничная Убер-пила",
         pol: "Świąteczna Überpiła",
         sch: "节日过载充能锯",
         fre: "Überscie festive",
@@ -3833,6 +4181,7 @@ export let dataItems = {
     350: {
         img: "festive_frontier_justice",
         eng: "The Festive Frontier Justice",
+        rus: "Праздничный Самосуд",
         pol: "Świąteczny Samosąd",
         sch: "节日边境裁决者",
         fre: "Justice Frontalière festive",
@@ -3844,6 +4193,7 @@ export let dataItems = {
     351: {
         img: "festive_huntsman",
         eng: "The Festive Huntsman",
+        rus: "Праздничный Охотник",
         pol: "Świąteczny Łowca",
         sch: "节日猎人短弓",
         fre: "Huntsman festif",
@@ -3855,6 +4205,7 @@ export let dataItems = {
     352: {
         img: "festive_ambassador",
         eng: "The Festive Ambassador",
+        rus: "Праздничный Амбассадор",
         pol: "Świąteczny Ambasador",
         sch: "节日大使左轮手枪",
         fre: "Ambassadeur festif",
@@ -3866,6 +4217,7 @@ export let dataItems = {
     353: {
         img: "festive_grenade_launcher",
         eng: "Festive Grenade Launcher",
+        rus: "Праздничный гранатомёт",
         pol: "Świąteczny granatnik",
         sch: "节日榴弹发射器",
         fre: "Lance-grenades festif",
@@ -3877,6 +4229,7 @@ export let dataItems = {
     354: {
         img: "winter_wonderland_wrap",
         eng: "Winter Wonderland Wrap",
+        rus: "Шарф зимних чудес",
         pol: "Szal śnieżnego szaleństwa",
         sch: "奇幻冬日面罩",
         fre: "L'écharpe du rêve hivernal",
@@ -3888,6 +4241,7 @@ export let dataItems = {
     355: {
         img: "cut_throat_concierge",
         eng: "Cut Throat Concierge",
+        rus: "Консьерж-убийца",
         pol: "Szumowina Szwajcar",
         sch: "割喉看门人",
         fre: "Le groom assassin",
@@ -3899,6 +4253,7 @@ export let dataItems = {
     356: {
         img: "der_wintermantel",
         eng: "Der Wintermantel",
+        rus: "Дер Винтермантель",
         pol: "Der Wintermantel",
         sch: "冬季大衣",
         fre: "Der Wintermantel",
@@ -3908,6 +4263,7 @@ export let dataItems = {
     357: {
         img: "cool_breeze",
         eng: "Cool Breeze",
+        rus: "Освежающий сквозняк",
         pol: "Zimny zefirek",
         sch: "冷风",
         fre: "La bise",
@@ -3919,6 +4275,7 @@ export let dataItems = {
     358: {
         img: "soldiers_slope_scopers",
         eng: "Soldier's Slope Scopers",
+        rus: "Солдатские лыжные очки",
         pol: "Górskie gogle gwardzisty",
         sch: "士兵的滑雪风镜",
         fre: "Lunettes de ski du Soldier",
@@ -3930,6 +4287,7 @@ export let dataItems = {
     359: {
         img: "cold_killer",
         eng: "The Cold Killer",
+        rus: "Хладнокровный убийца",
         pol: "Zimnokrwisty zabójca",
         sch: "冷面死神",
         fre: "Le tueur de sang froid",
@@ -3941,6 +4299,7 @@ export let dataItems = {
     360: {
         img: "docs_holiday",
         eng: "Doc's Holiday",
+        rus: "Доктор на отдыхе",
         pol: "Urlop zdrowotny",
         sch: "医生的假日",
         fre: "Doc Holiday",
@@ -3952,6 +4311,7 @@ export let dataItems = {
     361: {
         img: "digit_divulger",
         eng: "Digit Divulger",
+        rus: "Скаутские пальчики",
         pol: "Palczaste pokazywacze",
         sch: "无指手套",
         fre: "Mitaines révélatrices",
@@ -3963,6 +4323,7 @@ export let dataItems = {
     362: {
         img: "tough_stuff_muffs",
         eng: "Tough Stuff Muffs",
+        rus: "Суровые наушнички",
         pol: "Najtwardsze nauszniki",
         sch: "高强度耳罩",
         fre: "Cache-oreilles de dur",
@@ -3974,6 +4335,7 @@ export let dataItems = {
     363: {
         img: "heavys_hockey_hair",
         eng: "Heavy's Hockey Hair",
+        rus: "Прическа хоккеиста",
         pol: "Hokejowe hery Grubego",
         sch: "机枪手的冰球头",
         fre: "La nuque longue du Heavy hockeyeur",
@@ -3985,6 +4347,7 @@ export let dataItems = {
     364: {
         img: "mutton_mann",
         eng: "Mutton Mann",
+        rus: "Мохнатый Манн",
         pol: "Faworyty prawdziwego gentlemanna",
         sch: "曼恩式美鬓",
         fre: "Rouflaquettes Mann",
@@ -3996,6 +4359,7 @@ export let dataItems = {
     365: {
         img: "mercs_muffler",
         eng: "Merc's Muffler",
+        rus: "Кашне наемника",
         pol: "Arafata najemnika",
         sch: "佣兵的花围巾",
         fre: "Le cache-nez du mercenaire",
@@ -4007,6 +4371,7 @@ export let dataItems = {
     366: {
         img: "barnstormer",
         eng: "Barnstormer",
+        rus: "Гроза сараев",
         pol: "Pilotka z polotem",
         sch: "马戏飞行员",
         fre: "Les lunettes d'aviateur",
@@ -4018,6 +4383,7 @@ export let dataItems = {
     367: {
         img: "strange_part_snipers_killed",
         eng: "Strange Part: Snipers Killed",
+        rus: "Странный счётчик: убитые снайперы",
         pol: "Kuriozalna część: Zabici Snajperzy",
         sch: "奇异武器升级部件：狙击手消灭数",
         fre: "Pièce étrange : Snipers tués",
@@ -4029,6 +4395,7 @@ export let dataItems = {
     368: {
         img: "strange_part_kills_while_ubercharged",
         eng: "Strange Part: Kills While Übercharged",
+        rus: "Странный счётчик: убийства под действием убер-заряда",
         pol: "Kuriozalna część: Zabici podczas Übercharge'a",
         sch: "奇异武器升级部件：Ubercharge 中击杀数",
         fre: "Pièce étrange : Victimes pendant une Übercharge",
@@ -4040,6 +4407,7 @@ export let dataItems = {
     369: {
         img: "strange_part_underwater_kills",
         eng: "Strange Part: Underwater Kills",
+        rus: "Странный счётчик: убийства под водой",
         pol: "Kuriozalna część: Zabici pod wodą",
         sch: "奇异武器升级部件：水下杀人数",
         fre: "Pièce étrange : Victimes se trouvant sous l'eau",
@@ -4051,6 +4419,7 @@ export let dataItems = {
     370: {
         img: "hotties_hoodie",
         eng: "Hottie's Hoodie",
+        rus: "Пламенный балахон",
         pol: "Kaptur przystojniaka",
         sch: "火辣的兜帽",
         fre: "Sweat du Canon",
@@ -4062,6 +4431,7 @@ export let dataItems = {
     371: {
         img: "surgeons_side_satchel",
         eng: "The Surgeon's Side Satchel",
+        rus: "Поясная сумка хирурга",
         pol: "Chlebak chwackiego chirurga",
         sch: "外科医生的随身小包",
         fre: "La Sacoche du Chirurgien",
@@ -4073,6 +4443,7 @@ export let dataItems = {
     372: {
         img: "baby_faces_blaster",
         eng: "Baby Face's Blaster",
+        rus: "Обрез Малыша",
         pol: "Browning Baby Face'a",
         sch: "娃娃脸的冲击波",
         fre: "L'Exploseur de Tête d'Ange",
@@ -4084,6 +4455,7 @@ export let dataItems = {
     373: {
         img: "strange_part_pyros_killed",
         eng: "Strange Part: Pyros Killed",
+        rus: "Странный счётчик: убитые поджигатели",
         pol: "Kuriozalna część: Zabici Pyro",
         sch: "奇异武器升级部件：火焰兵消灭数",
         fre: "Pièce étrange : Pyros tués",
@@ -4095,6 +4467,7 @@ export let dataItems = {
     374: {
         img: "strange_part_defender_kills",
         eng: "Strange Part: Defender Kills",
+        rus: "Странный счётчик: убийств при защите",
         pol: "Kuriozalna część: Zabójstwa w obronie",
         sch: "奇异武器升级部件：防守击杀数",
         fre: "Pièce étrange : Victimes en tant que défenseur",
@@ -4106,6 +4479,7 @@ export let dataItems = {
     375: {
         img: "counterfeit_billycock",
         eng: "The Counterfeit Billycock",
+        rus: "Поддельный котелок",
         pol: "Fałszywy melonik",
         sch: "仿冒的小礼帽",
         fre: "Le chapeau melon contrefait",
@@ -4117,6 +4491,7 @@ export let dataItems = {
     376: {
         img: "desert_marauder",
         eng: "Desert Marauder",
+        rus: "Пустынный мародер",
         pol: "Pustynny rabuś",
         sch: "阿拉伯头巾",
         fre: "Le Maraudeur du Désert",
@@ -4128,6 +4503,7 @@ export let dataItems = {
     377: {
         img: "fire_axe",
         eng: "Fire Axe",
+        rus: "Пожарный топор",
         pol: "Topór strażacki",
         sch: "消防斧",
         fre: "Hache",
@@ -4139,6 +4515,7 @@ export let dataItems = {
     378: {
         img: "flying_guillotine",
         eng: "The Flying Guillotine",
+        rus: "Летающая гильотина",
         pol: "Latająca gilotyna",
         sch: "混混的菜刀",
         fre: "La guillotine volante",
@@ -4150,6 +4527,7 @@ export let dataItems = {
     379: {
         img: "beggars_bazooka",
         eng: "The Beggar's Bazooka",
+        rus: "Базука бродяги",
         pol: "Bazooka biedaka",
         sch: "乞丐的火箭筒",
         fre: "Bazooka du mendiant",
@@ -4161,6 +4539,7 @@ export let dataItems = {
     380: {
         img: "strange_part_medics_killed",
         eng: "Strange Part: Medics Killed",
+        rus: "Странный счётчик: убитые медики",
         pol: "Kuriozalna część: Zabici Medycy",
         sch: "奇异武器升级部件：医生消灭数",
         fre: "Pièce étrange : Medics tués",
@@ -4172,6 +4551,7 @@ export let dataItems = {
     381: {
         img: "strange_part_tanks_destroyed",
         eng: "Strange Part: Tanks Destroyed",
+        rus: "Странный счётчик: уничтоженные танки",
         pol: "Kuriozalna część: Zniszczone czołgi",
         sch: "奇异武器升级部件：坦克摧毁数",
         fre: "Pièce étrange : Tanks détruits",
@@ -4183,6 +4563,7 @@ export let dataItems = {
     382: {
         img: "strange_part_long_distance_kills",
         eng: "Strange Part: Long-Distance Kills",
+        rus: "Странный счётчик: убийства издалека",
         pol: "Kuriozalna część: Zabójstwa z dużej odległości",
         sch: "奇异武器升级部件：远距离击杀",
         fre: "Pièce étrange : Victimes à longue distance",
@@ -4194,6 +4575,7 @@ export let dataItems = {
     383: {
         img: "modest_pile_of_hat",
         eng: "Modest Pile of Hat",
+        rus: "Небольшой набор шляп",
         pol: "Skromny stos kapelusza",
         sch: "朴素的桩柱帽",
         fre: "Modeste pile de chapeaux",
@@ -4205,6 +4587,7 @@ export let dataItems = {
     384: {
         img: "neon_annihilator",
         eng: "The Neon Annihilator",
+        rus: "Неоновый аннигилятор",
         pol: "Neonowy niszczyciel",
         sch: "霓虹杀手",
         fre: "Le Néonhilateur",
@@ -4216,6 +4599,7 @@ export let dataItems = {
     385: {
         img: "mann_co_painting_set",
         eng: "Mann Co. Painting Set",
+        rus: "Набор красок от Манн Ко",
         pol: "Zestaw farb Mann Co.",
         sch: "曼恩公司油漆套装",
         fre: "Coffret de peinture Mann Co.",
@@ -4227,6 +4611,7 @@ export let dataItems = {
     386: {
         img: "bolt_boy",
         eng: "Bolt Boy",
+        rus: "Вольт-парень",
         pol: "Bolt Boy",
         sch: "螺栓小子",
         fre: "Le Bolt Boy",
@@ -4238,6 +4623,7 @@ export let dataItems = {
     387: {
         img: "bonk_leadwear",
         eng: "Bonk Leadwear",
+        rus: "Свинцовый шлем \"Бонк\"",
         pol: "Ołowiowy Bonk",
         sch: "饮料铅盔",
         fre: "Casque Bonk en Plomb",
@@ -4249,6 +4635,7 @@ export let dataItems = {
     388: {
         img: "bot_dogger",
         eng: "Bot Dogger",
+        rus: "Бот-догщик",
         pol: "Botdoggista",
         sch: "机器热狗帽",
         fre: "Le Bot Dog",
@@ -4260,6 +4647,7 @@ export let dataItems = {
     389: {
         img: "ye_oiled_baker_boy",
         eng: "Ye Oiled Baker Boy",
+        rus: "Кепка робо-газетчика",
         pol: "Usmarowana czapka gazeciarza",
         sch: "涂满机油的老式报童帽",
         fre: "Le Mécha-Gavroche Huilé",
@@ -4271,6 +4659,7 @@ export let dataItems = {
     390: {
         img: "full_metal_drill_hat",
         eng: "Full Metal Drill Hat",
+        rus: "Цельнометаллическая компанейская шляпа",
         pol: "Metalowy kapelusz musztry",
         sch: "全金属操练帽",
         fre: "Le Sergent Instructeur 2.0",
@@ -4282,6 +4671,7 @@ export let dataItems = {
     391: {
         img: "soldiers_sparkplug",
         eng: "Soldier's Sparkplug",
+        rus: "Солдатская свеча",
         pol: "Świeca sierżanta",
         sch: "士兵的火花塞",
         fre: "Bougie d'allumage du Soldier",
@@ -4293,6 +4683,7 @@ export let dataItems = {
     392: {
         img: "steel_shako",
         eng: "Steel Shako",
+        rus: "Стальной кивер",
         pol: "Stalowe czako",
         sch: "钢制斯托特军帽",
         fre: "Fer shako",
@@ -4304,6 +4695,7 @@ export let dataItems = {
     393: {
         img: "tyrantium_helmet",
         eng: "Tyrantium Helmet",
+        rus: "Шлем из викингия",
         pol: "Hełm z tyrantynium",
         sch: "暴元素头盔",
         fre: "Casque de tyrantium",
@@ -4315,6 +4707,7 @@ export let dataItems = {
     394: {
         img: "bolted_birdcage",
         eng: "Bolted Birdcage",
+        rus: "Клетка механической птички",
         pol: "Poskręcana klatka dla ptaków",
         sch: "金属鸟笼",
         fre: "La volière boulonnée",
@@ -4326,6 +4719,7 @@ export let dataItems = {
     395: {
         img: "electric_escorter",
         eng: "Electric Escorter",
+        rus: "Навигатор накаливания",
         pol: "Elektryczny eskorter",
         sch: "指路的灯泡头",
         fre: "L'escorte électrique",
@@ -4337,6 +4731,7 @@ export let dataItems = {
     396: {
         img: "filamental",
         eng: "Filamental",
+        rus: "Нить накала",
         pol: "Żarnikołak",
         sch: "灯泡面罩",
         fre: "Le Filamental",
@@ -4348,6 +4743,7 @@ export let dataItems = {
     397: {
         img: "firewall_helmet",
         eng: "Firewall Helmet",
+        rus: "Шлем-брандмауэр",
         pol: "Hełm zapory ogniowej",
         sch: "防火墙头盔",
         fre: "Casque pare-feu",
@@ -4359,6 +4755,7 @@ export let dataItems = {
     398: {
         img: "googol_glass_eyes",
         eng: "Googol Glass Eyes",
+        rus: "Взгляд гугол-глаз",
         pol: "Gogle Googol Glass",
         sch: "谷鸽眼镜",
         fre: "Prothèse pour Vue pixellisée",
@@ -4370,6 +4767,7 @@ export let dataItems = {
     399: {
         img: "metal_slug",
         eng: "Metal Slug",
+        rus: "Стальной слизень",
         pol: "Metaloślimak",
         sch: "合金鼻涕虫",
         fre: "L'Envahisseur Encéphale",
@@ -4381,6 +4779,7 @@ export let dataItems = {
     400: {
         img: "plumbers_pipe",
         eng: "Plumber's Pipe",
+        rus: "Грубость сантехника",
         pol: "Rura hydrauliczna",
         sch: "管道工的管子",
         fre: "Tuyau du Plombier",
@@ -4392,6 +4791,7 @@ export let dataItems = {
     401: {
         img: "pyros_boron_beanie",
         eng: "Pyro's Boron Beanie",
+        rus: "Борная шапочка поджигателя",
         pol: "Wolframowy wirniczek Pyro",
         sch: "火焰兵的硼制童帽",
         fre: "Bonnet en Bore du Pyro",
@@ -4403,6 +4803,7 @@ export let dataItems = {
     402: {
         img: "respectless_robo_glove",
         eng: "Respectless Robo-Glove",
+        rus: "Наглая робо-перчатка",
         pol: "Niepoważna roborękawica",
         sch: "邋遢的机器手套",
         fre: "Gant robotique ridicule",
@@ -4414,6 +4815,7 @@ export let dataItems = {
     403: {
         img: "rusty_reaper",
         eng: "Rusty Reaper",
+        rus: "Ржавый жнец",
         pol: "Rdzawy żniwiarz",
         sch: "铁锈收割者",
         fre: "Le Faucheur Rouillé",
@@ -4425,6 +4827,7 @@ export let dataItems = {
     404: {
         img: "scrap_sack",
         eng: "Scrap Sack",
+        rus: "Ранец с металлоломом",
         pol: "Szmelcowa sakwa",
         sch: "废铁包",
         fre: "Le Sac de Ferraille",
@@ -4436,6 +4839,7 @@ export let dataItems = {
     405: {
         img: "bolted_bicorne",
         eng: "Bolted Bicorne",
+        rus: "Клёпаная двууголка",
         pol: "Blaszany bikorn",
         sch: "螺栓海盗的双角帽",
         fre: "Le bicorne boulonné",
@@ -4447,6 +4851,7 @@ export let dataItems = {
     406: {
         img: "bolted_bombardier",
         eng: "Bolted Bombardier",
+        rus: "Бомбардир на болтах",
         pol: "Skuty bombardier",
         sch: "炸弹兵的螺栓花白胡须",
         fre: "Le Bombardier Boulonné",
@@ -4458,6 +4863,7 @@ export let dataItems = {
     407: {
         img: "broadband_bonnet",
         eng: "Broadband Bonnet",
+        rus: "Широкополосный берет",
         pol: "Szerokopasmowy Szkot",
         sch: "无线宽带软帽",
         fre: "Le Bonnet à Haut Débit",
@@ -4469,6 +4875,7 @@ export let dataItems = {
     408: {
         img: "cyborg_stunt_helmet",
         eng: "Cyborg Stunt Helmet",
+        rus: "Шлем киборга-каскадера",
         pol: "Hełm cyborga-kaskadera",
         sch: "机器人特技头盔",
         fre: "Le Casqu-adeur cyborg",
@@ -4480,6 +4887,7 @@ export let dataItems = {
     409: {
         img: "fr_0",
         eng: "FR-0",
+        rus: "АФР-0",
         pol: "FR-0",
         sch: "0式爆炸头",
         fre: "La FR-0",
@@ -4491,6 +4899,7 @@ export let dataItems = {
     410: {
         img: "hdmi_patch",
         eng: "HDMI Patch",
+        rus: "HDMI-заплатка",
         pol: "Przepaska HDMI",
         sch: "高画质独眼照",
         fre: "Le cache HDMI",
@@ -4502,6 +4911,7 @@ export let dataItems = {
     411: {
         img: "pure_tin_capotain",
         eng: "Pure Tin Capotain",
+        rus: "Колпак из жестянки",
         pol: "Pirytowy purytanin",
         sch: "纯锡猎巫帽",
         fre: "L'Inquisiteur en aluminium pur",
@@ -4513,6 +4923,7 @@ export let dataItems = {
     412: {
         img: "scrumpy_strongbox",
         eng: "Scrumpy Strongbox",
+        rus: "Сейф со скотчем",
         pol: "Sejf pełen szkockiej",
         sch: "苹果烈酒保险箱",
         fre: "Le Coffre-fort de Scrumpy",
@@ -4524,6 +4935,7 @@ export let dataItems = {
     413: {
         img: "strontium_stove_pipe",
         eng: "Strontium Stove Pipe",
+        rus: "Стронциевый цилиндр",
         pol: "Strontowy szapoklak",
         sch: "锶元素大礼帽",
         fre: "Le Haut-de-forme en Strontium",
@@ -4535,6 +4947,7 @@ export let dataItems = {
     414: {
         img: "bunsen_brave",
         eng: "Bunsen Brave",
+        rus: "Гордость Бунзена",
         pol: "Bunsenimo",
         sch: "火焰大酋长",
         fre: "Le brave Bunsen",
@@ -4546,6 +4959,7 @@ export let dataItems = {
     415: {
         img: "gridiron_guardian",
         eng: "Gridiron Guardian",
+        rus: "Бронированный защитник",
         pol: "Oksydowany obrońca",
         sch: "球场保卫者",
         fre: "Le Gardien du Stade",
@@ -4557,6 +4971,7 @@ export let dataItems = {
     416: {
         img: "titanium_towel",
         eng: "Titanium Towel",
+        rus: "Нержавеющее полотенце",
         pol: "Ferromagnetyczny ręcznik",
         sch: "钛制毛巾",
         fre: "La Serviette en Titane",
@@ -4568,6 +4983,7 @@ export let dataItems = {
     417: {
         img: "tungsten_toque",
         eng: "Tungsten Toque",
+        rus: "Шапка тугоплавкого парня",
         pol: "Platynowy pomponik",
         sch: "钨制无边帽",
         fre: "La tuque de tungstène",
@@ -4579,6 +4995,7 @@ export let dataItems = {
     418: {
         img: "data_mining_light",
         eng: "Data Mining Light",
+        rus: "Фонарь поисковика",
         pol: "Lampa drążenia danych",
         sch: "数据挖掘灯",
         fre: "La Lampe d'explorateur de Données",
@@ -4590,6 +5007,7 @@ export let dataItems = {
     419: {
         img: "dual_core_devil_doll",
         eng: "Dual-Core Devil Doll",
+        rus: "Двухъядерная дьявольская кукла",
         pol: "Dwurdzeniowa diabelska lalka",
         sch: "双核恶魔娃娃",
         fre: "La Poupée Double-cœur Démoniaque",
@@ -4601,6 +5019,7 @@ export let dataItems = {
     420: {
         img: "plug_in_prospector",
         eng: "Plug-In Prospector",
+        rus: "Устаревший робот",
         pol: "Poszukiwacz wtyczek",
         sch: "插件式牛仔帽",
         fre: "Le prospecteur connecté",
@@ -4612,6 +5031,7 @@ export let dataItems = {
     421: {
         img: "teddy_robobelt",
         eng: "Teddy Robobelt",
+        rus: "Робопояс Тедди",
         pol: "Teddy Robobelt",
         sch: "泰迪机器熊",
         fre: "Enginounours robotique",
@@ -4622,6 +5042,7 @@ export let dataItems = {
     422: {
         img: "texas_tin_gallon",
         eng: "Texas Tin-Gallon",
+        rus: "Техасская техношляпа",
         pol: "Tytanowy teksański kapelusz",
         sch: "德州锡制牛仔帽",
         fre: "Chapeau de cowboy en étain",
@@ -4633,6 +5054,7 @@ export let dataItems = {
     423: {
         img: "timeless_topper",
         eng: "Timeless Topper",
+        rus: "Нестареющая шляпа",
         pol: "Ponadczasowy cylinder",
         sch: "永恒的礼帽",
         fre: "Le Haut-de-forme Intemporel",
@@ -4644,6 +5066,7 @@ export let dataItems = {
     424: {
         img: "byted_beak",
         eng: "Byte'd Beak",
+        rus: "Луженый клюв",
         pol: "Megabajtowa maska",
         sch: "字节大夫的面具",
         fre: "Le Bec à Octet",
@@ -4655,6 +5078,7 @@ export let dataItems = {
     425: {
         img: "halogen_head_lamp",
         eng: "Halogen Head Lamp",
+        rus: "Налобная галогенная лампа",
         pol: "Halogenowa lampa czołowa",
         sch: "头戴式卤素灯",
         fre: "Lampe Halogène Frontale",
@@ -4666,6 +5090,7 @@ export let dataItems = {
     426: {
         img: "mecha_medes",
         eng: "Mecha-Medes",
+        rus: "Архи-мех",
         pol: "Mechamedes",
         sch: "阿机米德",
         fre: "Archi-Mech",
@@ -4676,6 +5101,7 @@ export let dataItems = {
     427: {
         img: "platinum_pickelhaube",
         eng: "Platinum Pickelhaube",
+        rus: "Платиновый пикельхельм",
         pol: "Platynowa pikielhauba",
         sch: "铂金尖顶盔",
         fre: "Casque à pointe en platine",
@@ -4687,6 +5113,7 @@ export let dataItems = {
     428: {
         img: "practitioners_processing_mask",
         eng: "Practitioner's Processing Mask",
+        rus: "Механическая маска",
         pol: "Mechaniczna maska internisty",
         sch: "医生的数据调控口罩",
         fre: "Masque de traitement du praticien",
@@ -4698,6 +5125,7 @@ export let dataItems = {
     429: {
         img: "steam_pipe",
         eng: "Steam Pipe",
+        rus: "Выхлопная трубка",
         pol: "Fajka parowa",
         sch: "蒸汽管的大问题",
         fre: "La pipe à vapeur",
@@ -4709,6 +5137,7 @@ export let dataItems = {
     430: {
         img: "titanium_tyrolean",
         eng: "Titanium Tyrolean",
+        rus: "Титановая тирольская шляпа",
         pol: "Tytanowy kapelusz tyrolski",
         sch: "钛制提洛帽",
         fre: "Chapeau tyrolien en titane",
@@ -4720,6 +5149,7 @@ export let dataItems = {
     431: {
         img: "virus_doctor",
         eng: "Virus Doctor",
+        rus: "Антивирусная шляпа",
         pol: "Antywirus",
         sch: "病毒医帽",
         fre: "Le Docteur Viral",
@@ -4731,6 +5161,7 @@ export let dataItems = {
     432: {
         img: "letchs_led",
         eng: "Letch's LED",
+        rus: "Индикатор шельмеца",
         pol: "LEDy lubieżnika",
         sch: "好色之徒的 LED 眼镜",
         fre: "Galurin à LED licencieuses",
@@ -4742,6 +5173,7 @@ export let dataItems = {
     433: {
         img: "shooters_tin_topi",
         eng: "Shooter's Tin Topi",
+        rus: "Технический шлем стрелка",
         pol: "Chromowany hełm strzelca",
         sch: "射手的锡制遮阳帽",
         fre: "Tireur Colonial d'Étain",
@@ -4753,6 +5185,7 @@ export let dataItems = {
     434: {
         img: "soldered_sensei",
         eng: "Soldered Sensei",
+        rus: "Стальная повязка сэнсэя",
         pol: "Zespawany sensei",
         sch: "大师的铁带",
         fre: "Sensei soudé",
@@ -4764,6 +5197,7 @@ export let dataItems = {
     435: {
         img: "base_metal_billycock",
         eng: "Base Metal Billycock",
+        rus: "Котелок из сплавов",
         pol: "Bezecny metalowy melonik",
         sch: "碱金属小圆礼帽",
         fre: "Chapeau Boulon",
@@ -4775,6 +5209,7 @@ export let dataItems = {
     436: {
         img: "bootleg_base_metal_billycock",
         eng: "Bootleg Base Metal Billycock",
+        rus: "Поддельный металлический котелок",
         pol: "Podrobiony bezecny metalowy melonik",
         sch: "仿冒的金属小礼帽",
         fre: "Chapeau Boulon de contrebande",
@@ -4786,6 +5221,7 @@ export let dataItems = {
     437: {
         img: "megapixel_beard",
         eng: "Megapixel Beard",
+        rus: "Мегапиксельная борода",
         pol: "Megapikselowa broda",
         sch: "千万像素级大胡子相机",
         fre: "La Barbe Mégapixel",
@@ -4797,6 +5233,7 @@ export let dataItems = {
     438: {
         img: "galvanized_gibus",
         eng: "Galvanized Gibus",
+        rus: "Оцинкованный шапокляк",
         pol: "Cynkowany cylinder",
         sch: "镀锌折叠礼帽",
         fre: "Le Gibus Galvanisé",
@@ -4808,6 +5245,7 @@ export let dataItems = {
     439: {
         img: "modest_metal_pile_of_scrap",
         eng: "Modest Metal Pile of Scrap",
+        rus: "Небольшой набор металлолома",
         pol: "Skromny stalowy stos złomu",
         sch: "朴素的废铁桩柱帽",
         fre: "Modeste pile de ferraille",
@@ -4819,6 +5257,7 @@ export let dataItems = {
     440: {
         img: "noble_nickel_amassment_of_hats",
         eng: "Noble Nickel Amassment of Hats",
+        rus: "Знатная куча никелевых шляп",
         pol: "Zacna kadmowana miara kapeluszy",
         sch: "高贵的镍制层叠帽",
         fre: "Pile nobiliaire de couvre-chefs en nickel",
@@ -4830,6 +5269,7 @@ export let dataItems = {
     441: {
         img: "towering_titanium_pillar_of_hats",
         eng: "Towering Titanium Pillar of Hats",
+        rus: "Гигантская титановая башня из шляп",
         pol: "Niebotyczny tytanowy słup kapeluszy",
         sch: "高耸的钛制塔柱帽",
         fre: "Imposante pile de chapeaux en titane",
@@ -4841,6 +5281,7 @@ export let dataItems = {
     442: {
         img: "battery_canteens",
         eng: "Battery Canteens",
+        rus: "Аккумулятор бонусов",
         pol: "Mannierki-baterie",
         sch: "机器水壶",
         fre: "Gourdes Acides",
@@ -4852,6 +5293,7 @@ export let dataItems = {
     443: {
         img: "kukri",
         eng: "Kukri",
+        rus: "Кукри",
         pol: "Kukri",
         sch: "反曲刀",
         fre: "Kukri",
@@ -4861,6 +5303,7 @@ export let dataItems = {
     444: {
         img: "huo_long_heater",
         eng: "The Huo-Long Heater",
+        rus: "Огненный дракон",
         pol: "Wejście smoka",
         sch: "火龙转轮机枪",
         fre: "Le Radiateur de Huo Long",
@@ -4872,6 +5315,7 @@ export let dataItems = {
     445: {
         img: "enforcer",
         eng: "The Enforcer",
+        rus: "Принудитель",
         pol: "Egzekutor",
         sch: "执法者",
         fre: "L'Exécutant",
@@ -4883,6 +5327,7 @@ export let dataItems = {
     446: {
         img: "strange_part_medics_killed_that_have_full_ubercharge",
         eng: "Strange Part: Medics Killed That Have Full ÜberCharge",
+        rus: "Странный счётчик: убитые медики с полным убер-зарядом",
         pol: "Kuriozalna część: Zabici Medycy z pełnym ÜberCharge",
         sch: "奇异武器升级部件：满 Ubercharge 医生消灭数",
         fre: "Pièce étrange : Medics tués ayant une Übercharge complète",
@@ -4894,6 +5339,7 @@ export let dataItems = {
     447: {
         img: "strange_part_giant_robots_destroyed",
         eng: "Strange Part: Giant Robots Destroyed",
+        rus: "Странный счётчик: уничтоженные гигантские роботы",
         pol: "Kuriozalna część: Zniszczone gigantyczne roboty",
         sch: "奇异武器升级部件：巨型机器人摧毁数",
         fre: "Pièce étrange : Robots géants détruits",
@@ -4905,6 +5351,7 @@ export let dataItems = {
     448: {
         img: "fast_learner",
         eng: "The Fast Learner",
+        rus: "Способный ученик",
         pol: "Błysk geniuszu",
         sch: "速学者",
         fre: "L'éclair de génie",
@@ -4916,6 +5363,7 @@ export let dataItems = {
     449: {
         img: "disciplinary_action",
         eng: "The Disciplinary Action",
+        rus: "Дисциплинарное взыскание",
         pol: "Postępowanie dyscyplinarne",
         sch: "指挥官的军鞭",
         fre: "L'Action Disciplinaire",
@@ -4927,6 +5375,7 @@ export let dataItems = {
     450: {
         img: "loose_cannon",
         eng: "The Loose Cannon",
+        rus: "Пушка без лафета",
         pol: "Działo nawalone",
         sch: "脱缰巨炮",
         fre: "Danger public",
@@ -4938,6 +5387,7 @@ export let dataItems = {
     451: {
         img: "fan_o_war",
         eng: "The Fan O'War",
+        rus: "Веер войны",
         pol: "Wachlarz wojenny",
         sch: "军配扇",
         fre: "L'évent-taille",
@@ -4949,6 +5399,7 @@ export let dataItems = {
     452: {
         img: "strangifier",
         eng: "#ITEM# Strangifier",
+        rus: "Страннодел",
         pol: "Kuriozonator: #ITEM#",
         sch: "#ITEM# 奇异转化药剂",
         fre: "Étrangifiant: #ITEM#",
@@ -4960,6 +5411,7 @@ export let dataItems = {
     453: {
         img: "strange_part_kills_with_a_taunt_attack",
         eng: "Strange Part: Kills with a Taunt Attack",
+        rus: "Странный счётчик: убийства насмешкой",
         pol: "Kuriozalna część: Zabójstwa drwiną",
         sch: "奇异武器升级部件：嘲讽杀敌数",
         fre: "Pièce étrange : Victimes d'attaques par raillerie",
@@ -4971,6 +5423,7 @@ export let dataItems = {
     454: {
         img: "brotherhood_of_arms",
         eng: "The Brotherhood of Arms",
+        rus: "Братья по оружию",
         pol: "Braterstwo broni",
         sch: "兄弟会兜帽",
         fre: "Le frère d'armes",
@@ -4982,6 +5435,7 @@ export let dataItems = {
     455: {
         img: "well_rounded_rifleman",
         eng: "The Well-Rounded Rifleman",
+        rus: "Скругленный стрелок",
         pol: "Satysfakcjonujący strzelec",
         sch: "狙击手圆帽",
         fre: "Le fusilier accompli",
@@ -4993,6 +5447,7 @@ export let dataItems = {
     456: {
         img: "breakneck_baggies",
         eng: "The Breakneck Baggies",
+        rus: "Опасные штанишки",
         pol: "Karkołomne szarawary",
         sch: "巡逻者长裤",
         fre: "Les baggies à grande vitesse",
@@ -5004,6 +5459,7 @@ export let dataItems = {
     457: {
         img: "powdered_practitioner",
         eng: "The Powdered Practitioner",
+        rus: "Припудренный терапевт",
         pol: "Przypudrowany konsyliarz",
         sch: "绣花三角帽",
         fre: "Le Praticien Emperruqué",
@@ -5015,6 +5471,7 @@ export let dataItems = {
     458: {
         img: "pocket_pyro",
         eng: "The Pocket Pyro",
+        rus: "Карманный поджигатель",
         pol: "Kieszonkowy Pyro",
         sch: "口袋火焰兵",
         fre: "Le Pyro de poche",
@@ -5026,6 +5483,7 @@ export let dataItems = {
     459: {
         img: "cloud_crasher",
         eng: "The Cloud Crasher",
+        rus: "Крушитель небес",
         pol: "Postrach przestworzy",
         sch: "裂云头盔",
         fre: "Le fendeur de nuages",
@@ -5037,6 +5495,7 @@ export let dataItems = {
     460: {
         img: "pom_pommed_provocateur",
         eng: "The Pom-Pommed Provocateur",
+        rus: "Провокатор с помпоном",
         pol: "Pomponowy prowokator",
         sch: "绒球特工",
         fre: "Le provocateur à pompon",
@@ -5048,6 +5507,7 @@ export let dataItems = {
     461: {
         img: "dark_age_defender",
         eng: "The Dark Age Defender",
+        rus: "Защитник Темного века",
         pol: "Średniowieczny śmiałek",
         sch: "暗黑护甲",
         fre: "Le Défenseur des Temps Obscurs",
@@ -5059,6 +5519,7 @@ export let dataItems = {
     462: {
         img: "tyurtlenek",
         eng: "The Tyurtlenek",
+        rus: "Водолазище",
         pol: "Gyolfik",
         sch: "高领毛衣",
         fre: "Le Kol Roulé",
@@ -5070,6 +5531,7 @@ export let dataItems = {
     463: {
         img: "mair_mask",
         eng: "The Mair Mask",
+        rus: "Моздушная маска",
         pol: "Maska MO2",
         sch: "曼尔面具",
         fre: "Le Masque à Mair",
@@ -5081,6 +5543,7 @@ export let dataItems = {
     464: {
         img: "stormin_norman",
         eng: "Stormin' Norman",
+        rus: "Летучий нормандец",
         pol: "Szalejący Norman",
         sch: "进击的诺曼人",
         fre: "L'Assaillant Normand",
@@ -5092,6 +5555,7 @@ export let dataItems = {
     465: {
         img: "das_gutenkutteharen",
         eng: "Das Gutenkutteharen",
+        rus: "Дас Гутенстригевласен",
         pol: "Das Dobren Fryzuren",
         sch: "佼佼者",
         fre: "Das Gutenkutteharen",
@@ -5102,6 +5566,7 @@ export let dataItems = {
     466: {
         img: "blood_banker",
         eng: "Blood Banker",
+        rus: "Банкир крови",
         pol: "Krwawy bankier",
         sch: "嗜血银行家",
         fre: "Le Banquier Sanglant",
@@ -5113,6 +5578,7 @@ export let dataItems = {
     467: {
         img: "pardners_pompadour",
         eng: "Pardner's Pompadour",
+        rus: "Помпадур приятеля",
         pol: "Preriowy pompadour",
         sch: "搭档的庞帕多发型",
         fre: "Le Pompadour du Compagnon",
@@ -5124,6 +5590,7 @@ export let dataItems = {
     468: {
         img: "heavy_weight_champ",
         eng: "Heavy-Weight Champ",
+        rus: "Тяжеловесный чемпион",
         pol: "Mistrz wagi ciężkiej",
         sch: "重量级拳击冠军",
         fre: "Le Champion Poids Lourd",
@@ -5135,6 +5602,7 @@ export let dataItems = {
     469: {
         img: "backpack_broiler",
         eng: "Backpack Broiler",
+        rus: "Гриль-рюкзак",
         pol: "Plecakowy opiekacz",
         sch: "烤肉背包",
         fre: "Le Sac à Dos Grill",
@@ -5146,6 +5614,7 @@ export let dataItems = {
     470: {
         img: "virtual_viewfinder",
         eng: "Virtual Viewfinder",
+        rus: "Виртуальный видоискатель",
         pol: "Wirtualny wizjer",
         sch: "虚拟现实取景器",
         fre: "Le Viseur Virtuel",
@@ -5157,6 +5626,7 @@ export let dataItems = {
     471: {
         img: "federal_casemaker",
         eng: "Federal Casemaker",
+        rus: "Федеральный крышеватель",
         pol: "Profesjonalny agent federalny",
         sch: "联邦闹事者",
         fre: "L'inspecteur Fédéral",
@@ -5168,6 +5638,7 @@ export let dataItems = {
     472: {
         img: "wet_works",
         eng: "Wet Works",
+        rus: "Мокрые делишки",
         pol: "Mokra robota",
         sch: "暗杀雨帽",
         fre: "Oeuvres Sanglantes",
@@ -5179,6 +5650,7 @@ export let dataItems = {
     473: {
         img: "dry_gulch_gulp",
         eng: "Dry Gulch Gulp",
+        rus: "Осушающий глоток",
         pol: "Haust z suchego kanionu",
         sch: "快餐店饮料杯",
         fre: "La Gorge Sèche",
@@ -5190,6 +5662,7 @@ export let dataItems = {
     474: {
         img: "borscht_belt",
         eng: "Borscht Belt",
+        rus: "Борщевый пояс",
         pol: "Czerwony pas",
         sch: "罗宋腰带",
         fre: "Gros plein de bortch",
@@ -5202,6 +5675,7 @@ export let dataItems = {
     475: {
         img: "valley_forge",
         eng: "Valley Forge",
+        rus: "Вэлли Фордж",
         pol: "Valley Forge",
         sch: "福吉谷总统帽",
         fre: "Le Tricorne de Valley Forge",
@@ -5213,6 +5687,7 @@ export let dataItems = {
     476: {
         img: "shoguns_shoulder_guard",
         eng: "Shogun's Shoulder Guard",
+        rus: "Сегунский наплечник",
         pol: "Niewzruszone ramię szoguna",
         sch: "幕府将军的肩甲",
         fre: "L'Épaulière du Shogun",
@@ -5224,6 +5699,7 @@ export let dataItems = {
     477: {
         img: "gaelic_golf_bag",
         eng: "Gaelic Golf Bag",
+        rus: "Гэльская сумка для гольфа",
         pol: "Gaelicka torba golfowa",
         sch: "盖尔人的高尔夫球袋",
         fre: "Le Sac de Golf Gaélique",
@@ -5235,6 +5711,7 @@ export let dataItems = {
     478: {
         img: "das_feelinbeterbager",
         eng: "Das Feelinbeterbager",
+        rus: "Дас Лучшечувственсумкер",
         pol: "Das Już Mi Lepiej Torben",
         sch: "感觉良好背包",
         fre: "Das Feelinbeterbager",
@@ -5246,6 +5723,7 @@ export let dataItems = {
     479: {
         img: "belgian_detective",
         eng: "Belgian Detective",
+        rus: "Бельгийский детектив",
         pol: "Belgijski detektyw",
         sch: "比利时侦探",
         fre: "Le détective belge",
@@ -5257,6 +5735,7 @@ export let dataItems = {
     480: {
         img: "caribbean_conqueror",
         eng: "Caribbean Conqueror",
+        rus: "Карибский завоеватель",
         pol: "Karaibski konkwistador",
         sch: "加勒比征服者",
         fre: "Le conquérant des Caraïbes",
@@ -5268,6 +5747,7 @@ export let dataItems = {
     481: {
         img: "katyusha",
         eng: "Katyusha",
+        rus: "Катюша",
         pol: "Katiusza",
         sch: "喀秋莎",
         fre: "Le Katyusha",
@@ -5279,6 +5759,7 @@ export let dataItems = {
     482: {
         img: "das_hazmattenhatten",
         eng: "Das Hazmattenhatten",
+        rus: "Дас Химзащитшлемен",
         pol: "Das Hazmatten Kapelusz",
         sch: "镜面防护帽",
         fre: "Das Hazmattenhatten",
@@ -5289,6 +5770,7 @@ export let dataItems = {
     483: {
         img: "pampered_pyro",
         eng: "Pampered Pyro",
+        rus: "Избалованный поджигатель",
         pol: "Wypieszczony Pyro",
         sch: "骄奢火焰兵头巾",
         fre: "Le Pyro Pomponné",
@@ -5300,6 +5782,7 @@ export let dataItems = {
     484: {
         img: "rogues_brogues",
         eng: "Rogue's Brogues",
+        rus: "Башмаки жулика",
         pol: "Bandyckie brogsy",
         sch: "恶棍的粗革皮鞋",
         fre: "Les Claquettes du Coquin",
@@ -5311,6 +5794,7 @@ export let dataItems = {
     485: {
         img: "hornblower",
         eng: "Hornblower",
+        rus: "Дудкодуй",
         pol: "Pan Hornblower",
         sch: "霍恩布洛尔的海军服",
         fre: "Le Hornblower",
@@ -5321,6 +5805,7 @@ export let dataItems = {
     486: {
         img: "delinquents_down_vest",
         eng: "Delinquent's Down Vest",
+        rus: "Жилет жулика",
         pol: "Bezrękawnik delikwenta",
         sch: "少年犯的羽绒背心",
         fre: "La Doudoune de Délinquant",
@@ -5332,6 +5817,7 @@ export let dataItems = {
     487: {
         img: "glasgow_great_helm",
         eng: "Glasgow Great Helm",
+        rus: "Великий глазговский шлем",
         pol: "Hełm garnczkowy z Glasgow",
         sch: "格拉斯哥卓越头盔",
         fre: "Le Grand Heaume de Glasgow",
@@ -5343,6 +5829,7 @@ export let dataItems = {
     488: {
         img: "rebel_rouser",
         eng: "Rebel Rouser",
+        rus: "Бунтовщик",
         pol: "Skonfundowany konfederat",
         sch: "叛乱煽动者",
         fre: "L'agitateur rebelle",
@@ -5354,6 +5841,7 @@ export let dataItems = {
     489: {
         img: "el_muchacho",
         eng: "El Muchacho",
+        rus: "Эль Мучачо",
         pol: "El muchacho",
         sch: "少年的羊毛斗篷",
         fre: "El Muchacho",
@@ -5363,6 +5851,7 @@ export let dataItems = {
     490: {
         img: "das_ubersternmann",
         eng: "Das Ubersternmann",
+        rus: "Дас Уберштернманн",
         pol: "Das Uber Srogien Człowiekien",
         sch: "名医帽",
         fre: "Das Ubersternmann",
@@ -5374,6 +5863,7 @@ export let dataItems = {
     491: {
         img: "bolshevik_biker",
         eng: "Bolshevik Biker",
+        rus: "Байкер-большевик",
         pol: "Bolszewicki motocyklista",
         sch: "布尔什维克骑手",
         fre: "Le Biker Bolchevik",
@@ -5385,6 +5875,7 @@ export let dataItems = {
     492: {
         img: "tartan_spartan",
         eng: "Tartan Spartan",
+        rus: "Шотландский спартанец",
         pol: "Demolka w kratę",
         sch: "炸弹专家",
         fre: "Spartiate Écossais",
@@ -5397,6 +5888,7 @@ export let dataItems = {
     493: {
         img: "cobber_chameleon",
         eng: "Cobber Chameleon",
+        rus: "Хамелеон-приятель",
         pol: "Koleżka kameleon",
         sch: "宠物变色龙",
         fre: "Le Pote Caméléon",
@@ -5408,6 +5900,7 @@ export let dataItems = {
     494: {
         img: "graybanns",
         eng: "Graybanns",
+        rus: "Грей-Банны",
         pol: "Graybanny",
         sch: "灰朋太阳镜",
         fre: "Graybanns",
@@ -5417,6 +5910,7 @@ export let dataItems = {
     495: {
         img: "after_dark",
         eng: "After Dark",
+        rus: "Послемрак",
         pol: "Po zmroku",
         sch: "夜生活",
         fre: "La Fin de Soirée",
@@ -5428,6 +5922,7 @@ export let dataItems = {
     496: {
         img: "hive_minder",
         eng: "Hive Minder",
+        rus: "Пасечник",
         pol: "Opiekun roju",
         sch: "养蜂人之帽",
         fre: "L'apiculteur",
@@ -5439,6 +5934,7 @@ export let dataItems = {
     497: {
         img: "das_metalmeatencasen",
         eng: "Das Metalmeatencasen",
+        rus: "Дас Металмясфутлярен",
         pol: "Das Metal Ochrona fur Brust",
         sch: "金属裹肉甲",
         fre: "Das Metalmeatencasen",
@@ -5450,6 +5946,7 @@ export let dataItems = {
     498: {
         img: "gaelic_garb",
         eng: "Gaelic Garb",
+        rus: "Гэльское одеяние",
         pol: "Celtyckie odzienie",
         sch: "高卢式外套",
         fre: "Les Habits Gaéliques",
@@ -5461,6 +5958,7 @@ export let dataItems = {
     499: {
         img: "half_pipe_hurdler",
         eng: "Half-Pipe Hurdler",
+        rus: "Ездок по рампе",
         pol: "Ramposkoczek",
         sch: "邦克滑板",
         fre: "Le Coureur des Rampes",
@@ -5472,6 +5970,7 @@ export let dataItems = {
     500: {
         img: "birdman_of_australiacatraz",
         eng: "Birdman of Australiacatraz",
+        rus: "Птицелов из Австралькатраса",
         pol: "Ptasznik z Australiacatraz",
         sch: "澳魔岛驯鸟者",
         fre: "Homme-Oiseau d'Australcatraz",
@@ -5483,6 +5982,7 @@ export let dataItems = {
     501: {
         img: "tsarboosh",
         eng: "Tsarboosh",
+        rus: "Царьбуш",
         pol: "Carbusz",
         sch: "沙皇毡帽",
         fre: "Le Tsarboosh",
@@ -5494,6 +5994,7 @@ export let dataItems = {
     502: {
         img: "macho_mann",
         eng: "Macho Mann",
+        rus: "Мачо Манн",
         pol: "Męski mężczyzna",
         sch: "猛男曼恩",
         fre: "Le Macho Mann",
@@ -5505,6 +6006,7 @@ export let dataItems = {
     503: {
         img: "harmburg",
         eng: "Harmburg",
+        rus: "Вредоносный хомбург",
         pol: "Harmburg",
         sch: "邪恶汉堡帽",
         fre: "Le Harmburg",
@@ -5516,6 +6018,7 @@ export let dataItems = {
     504: {
         img: "das_maddendoktor",
         eng: "Das Maddendoktor",
+        rus: "Дас Безуммендоктор",
         pol: "Der Szalonenlekarzen",
         sch: "疯狂的医生",
         fre: "Das Maddendoktor",
@@ -5527,6 +6030,7 @@ export let dataItems = {
     505: {
         img: "red_army_robin",
         eng: "Red Army Robin",
+        rus: "Красноармейская малиновка",
         pol: "Rudzik Armii Czerwonej",
         sch: "红军战士的知更鸟",
         fre: "Le Rouge-gorge de l'Armée Rouge",
@@ -5538,6 +6042,7 @@ export let dataItems = {
     506: {
         img: "greased_lightning",
         eng: "Greased Lightning",
+        rus: "Смазанная молния",
         pol: "Natłuszczona błyskawica",
         sch: "风驰电掣",
         fre: "Éclair Gominé",
@@ -5549,6 +6054,7 @@ export let dataItems = {
     507: {
         img: "whiskey_bib",
         eng: "Whiskey Bib",
+        rus: "Салфетка для виски",
         pol: "Wyświechtany śliniak do whisky",
         sch: "威士忌餐巾布",
         fre: "Le Bavoir à Whisky",
@@ -5560,6 +6066,7 @@ export let dataItems = {
     508: {
         img: "cool_cat_cardigan",
         eng: "Cool Cat Cardigan",
+        rus: "Крутая кофта",
         pol: "Prze gość",
         sch: "酷猫羊毛衫",
         fre: "Le Cardigan du Mec Cool",
@@ -5571,6 +6078,7 @@ export let dataItems = {
     509: {
         img: "colonial_clogs",
         eng: "Colonial Clogs",
+        rus: "Колониальные башмаки",
         pol: "Kolonialne chodaki",
         sch: "殖民木屐",
         fre: "Les Sabots Coloniaux",
@@ -5582,6 +6090,7 @@ export let dataItems = {
     510: {
         img: "burning_bandana",
         eng: "Burning Bandana",
+        rus: "Горящая бандана",
         pol: "Płonąca bandana",
         sch: "烈焰头巾",
         fre: "Le Bandana Ardent",
@@ -5593,6 +6102,7 @@ export let dataItems = {
     511: {
         img: "falconer",
         eng: "Falconer",
+        rus: "Сокольничий",
         pol: "Sokolnik",
         sch: "驯鹰手套",
         fre: "Le Fauconnier",
@@ -5604,6 +6114,7 @@ export let dataItems = {
     512: {
         img: "black_watch",
         eng: "Black Watch",
+        rus: "Черный дозор",
         pol: "Czarna straż",
         sch: "黑卫部队军帽",
         fre: "La Sentinelle Noire",
@@ -5615,6 +6126,7 @@ export let dataItems = {
     513: {
         img: "flared_frontiersman",
         eng: "Flared Frontiersman",
+        rus: "Расклешенный передовик",
         pol: "Dzwoniasty pionier",
         sch: "拓荒者的喇叭裤",
         fre: "Les Pattes d'eph du Pionnier",
@@ -5626,6 +6138,7 @@ export let dataItems = {
     514: {
         img: "compatriot",
         eng: "Compatriot",
+        rus: "Соотечественник",
         pol: "Kompatriota",
         sch: "同胞",
         fre: "Le compatriote",
@@ -5637,6 +6150,7 @@ export let dataItems = {
     515: {
         img: "das_fantzipantzen",
         eng: "Das Fantzipantzen",
+        rus: "Дас Моденшмотен",
         pol: "Das Krzykliwy Mantel",
         sch: "花哨衬衫",
         fre: "Das Fantzipantzen",
@@ -5647,6 +6161,7 @@ export let dataItems = {
     516: {
         img: "bear_necessities",
         eng: "Bear Necessities",
+        rus: "Медвежьи радости",
         pol: "Niedźwiedzie potrzeby",
         sch: "巨熊必需品",
         fre: "Il en faut peu pour être un Ours",
@@ -5658,6 +6173,7 @@ export let dataItems = {
     517: {
         img: "bigg_mann_on_campus",
         eng: "Bigg Mann on Campus",
+        rus: "Большой человек в кампусе",
         pol: "Szycha z akademika",
         sch: "校园大咖",
         fre: "La Star du Campus",
@@ -5669,6 +6185,7 @@ export let dataItems = {
     518: {
         img: "lieutenant_bites",
         eng: "Lieutenant Bites",
+        rus: "Лейтенант Кусака",
         pol: "Porucznik Gryzak",
         sch: "咬咬中尉",
         fre: "Lieutenant Mordant",
@@ -5680,6 +6197,7 @@ export let dataItems = {
     519: {
         img: "brawling_buccaneer",
         eng: "Brawling Buccaneer",
+        rus: "Буканьер-буян",
         pol: "Bitny bukanier",
         sch: "喧闹海盗外套",
         fre: "Le Boucanier Bagarreur",
@@ -5691,6 +6209,7 @@ export let dataItems = {
     520: {
         img: "founding_father",
         eng: "Founding Father",
+        rus: "Отец-основатель",
         pol: "Ojciec założyciel",
         sch: "开国元勋",
         fre: "Le père fondateur",
@@ -5702,6 +6221,7 @@ export let dataItems = {
     521: {
         img: "caffeine_cooler",
         eng: "Caffeine Cooler",
+        rus: "Кофеиновый холодильник",
         pol: "Chłodna kofeina",
         sch: "原子饮料冰镇箱",
         fre: "La glacière à caféine",
@@ -5713,6 +6233,7 @@ export let dataItems = {
     522: {
         img: "gabe_glasses",
         eng: "Gabe Glasses",
+        rus: "Очки Гейба",
         pol: "Okulary Gabe'a",
         sch: "Gabe 式眼镜",
         fre: "Les lunettes de Gabe",
@@ -5724,6 +6245,7 @@ export let dataItems = {
     523: {
         img: "trash_toter",
         eng: "Trash Toter",
+        rus: "Мусоровоз",
         pol: "Kopertówka klamociarza",
         sch: "废物挎包",
         fre: "La Sacoche à Déchets",
@@ -5735,6 +6257,7 @@ export let dataItems = {
     524: {
         img: "baron_von_havenaplane",
         eng: "Baron von Havenaplane",
+        rus: "Барон фон Небесамолетт",
         pol: "Baron von Awiatoren",
         sch: "天堂战机男爵",
         fre: "Baron von Havenaplane",
@@ -5745,6 +6268,7 @@ export let dataItems = {
     525: {
         img: "whirly_warrior",
         eng: "Whirly Warrior",
+        rus: "Вихревый воин",
         pol: "Zakręcony wojownik",
         sch: "旋翼战士",
         fre: "L'Hélico-Guerrier",
@@ -5756,6 +6280,7 @@ export let dataItems = {
     526: {
         img: "das_naggenvatcher",
         eng: "Das Naggenvatcher",
+        rus: "Дас Бошкинзащитер",
         pol: "Das Ochrona Fur Głowen",
         sch: "兄弟钢盔",
         fre: "Das Naggenvatcher",
@@ -5766,6 +6291,7 @@ export let dataItems = {
     527: {
         img: "soot_suit",
         eng: "Soot Suit",
+        rus: "Золовой костюм",
         pol: "Gorący garniak",
         sch: "烟尘西装",
         fre: "La Tenue de Sooter",
@@ -5777,6 +6303,7 @@ export let dataItems = {
     528: {
         img: "hitmans_heatmaker",
         eng: "The Hitman's Heatmaker",
+        rus: "Разжигатель разбойника",
         pol: "Zabawka zawodowca",
         sch: "职业杀手的手感",
         fre: "Le Brûleur à Gages",
@@ -5788,6 +6315,7 @@ export let dataItems = {
     529: {
         img: "strange_part_kills_during_victory_time",
         eng: "Strange Part: Kills During Victory Time",
+        rus: "Странный счётчик: убийства после победы",
         pol: "Kuriozalna część: Zabójstwa po zakończeniu rundy",
         sch: "奇异武器升级部件：胜利后逃兵追杀数",
         fre: "Pièce étrange : Victimes après victoire d'un round",
@@ -5799,6 +6327,7 @@ export let dataItems = {
     530: {
         img: "strange_part_robot_spies_destroyed",
         eng: "Strange Part: Robot Spies Destroyed",
+        rus: "Странный счётчик: уничтоженные роботы-шпионы",
         pol: "Kuriozalna część: Zniszczeni roboszpiedzy",
         sch: "奇异武器升级部件：机器间谍摧毁数",
         fre: "Pièce étrange : Spies Robots détruits",
@@ -5810,6 +6339,7 @@ export let dataItems = {
     531: {
         img: "viking_braider",
         eng: "The Viking Braider",
+        rus: "Борода викинга",
         pol: "Warkoczyki wikinga",
         sch: "维京孖辫胡",
         fre: "Les tresses vikings",
@@ -5821,6 +6351,7 @@ export let dataItems = {
     532: {
         img: "flapjack",
         eng: "The Flapjack",
+        rus: "Куртка на застежках",
         pol: "Klapota",
         sch: "东京奔跑者",
         fre: "Le Flapjack",
@@ -5832,6 +6363,7 @@ export let dataItems = {
     533: {
         img: "gold_digger",
         eng: "The Gold Digger",
+        rus: "Золотодобытчик",
         pol: "Poszukiwacz złota",
         sch: "淘金者",
         fre: "Le Chercheur d'or",
@@ -5843,6 +6375,7 @@ export let dataItems = {
     534: {
         img: "weight_room_warmer",
         eng: "Weight Room Warmer",
+        rus: "Толстовка толстяка",
         pol: "Docieplający dres",
         sch: "健身房棉袄",
         fre: "Chauffeur de salle de sport",
@@ -5854,6 +6387,7 @@ export let dataItems = {
     535: {
         img: "special_eyes",
         eng: "The Special Eyes",
+        rus: "Особый взгляд",
         pol: "Wyjątkowe oczy",
         sch: "独特之眼",
         fre: "Le Regard spécial",
@@ -5865,6 +6399,7 @@ export let dataItems = {
     536: {
         img: "chronomancer",
         eng: "The Chronomancer",
+        rus: "Хрономант",
         pol: "Chronomanta",
         sch: "时空之主",
         fre: "Le Chronomancien",
@@ -5876,6 +6411,7 @@ export let dataItems = {
     537: {
         img: "pirate_bandana",
         eng: "Pirate Bandana",
+        rus: "Пиратская бандана",
         pol: "Piracka chusta",
         sch: "海盗头巾",
         fre: "Bandana de pirate",
@@ -5887,6 +6423,7 @@ export let dataItems = {
     538: {
         img: "brim_full_of_bullets",
         eng: "Brim-Full of Bullets",
+        rus: "Пригоршня пуль",
         pol: "W kulach po brzegi",
         sch: "大嫖客的牛仔帽",
         fre: "Pour une poignée de balles",
@@ -5898,6 +6435,7 @@ export let dataItems = {
     539: {
         img: "lil_snaggletooth",
         eng: "Li'l Snaggletooth",
+        rus: "Малыш кривозуб",
         pol: "Mały Forfiter",
         sch: "小鳄鱼的龅牙",
         fre: "Le P'tit Snaggletooth",
@@ -5909,6 +6447,7 @@ export let dataItems = {
     540: {
         img: "escapist",
         eng: "Escapist",
+        rus: "Беглец",
         pol: "Ucieczkowicz",
         sch: "逃犯",
         fre: "L'évadé",
@@ -5920,6 +6459,7 @@ export let dataItems = {
     541: {
         img: "lhomme_burglerre",
         eng: "L'homme Burglerre",
+        rus: "Булочный грабитель",
         pol: "L'homme Burglerre",
         sch: "古堡神偷",
         fre: "L'homme Burglerre",
@@ -5930,6 +6470,7 @@ export let dataItems = {
     542: {
         img: "ward",
         eng: "The Ward",
+        rus: "Смотритель",
         pol: "Oddziałowy",
         sch: "病房大衣",
         fre: "Le Dispensaire",
@@ -5941,6 +6482,7 @@ export let dataItems = {
     543: {
         img: "beep_boy",
         eng: "The Beep Boy",
+        rus: "Бип-бой",
         pol: "Bip Boy",
         sch: "BB 游戏机",
         fre: "La Beep Boy",
@@ -5953,6 +6495,7 @@ export let dataItems = {
     544: {
         img: "cuban_bristle_crisis",
         eng: "The Cuban Bristle Crisis",
+        rus: "Карибский волосяной кризис",
         pol: "Kubański kryzys szczecinowy",
         sch: "古巴大胡子危机",
         fre: "La Barbe de crise cubaine",
@@ -5964,6 +6507,7 @@ export let dataItems = {
     545: {
         img: "a_brush_with_death",
         eng: "A Brush with Death",
+        rus: "Смертописная кисть",
         pol: "Konował z brodą",
         sch: "致死胡髭",
         fre: "En brosse avec la Mort",
@@ -5975,6 +6519,7 @@ export let dataItems = {
     546: {
         img: "tricksters_turnout_gear",
         eng: "Trickster's Turnout Gear",
+        rus: "Обманчивый костюм пожарного",
         pol: "Żaroodporne wdzianko żartownisia",
         sch: "欺诈大师的消防战斗服",
         fre: "Le faux pompier",
@@ -5986,6 +6531,7 @@ export let dataItems = {
     547: {
         img: "hong_kong_cone",
         eng: "Hong Kong Cone",
+        rus: "Гонконгская шляпа",
         pol: "Słomiany stożek",
         sch: "港式斗笠",
         fre: "Cône de Hong Kong",
@@ -5997,6 +6543,7 @@ export let dataItems = {
     548: {
         img: "hurt_locher",
         eng: "The Hurt Locher",
+        rus: "Повелитель Лохнесса",
         pol: "Wybuchowe wdzianko",
         sch: "拆弹部队",
         fre: "Le Démineur",
@@ -6008,6 +6555,7 @@ export let dataItems = {
     549: {
         img: "bone_dome",
         eng: "The Bone Dome",
+        rus: "Костяная башка",
         pol: "Koścista kopuła",
         sch: "去骨圆帽",
         fre: "Le Casque crânien",
@@ -6019,6 +6567,7 @@ export let dataItems = {
     550: {
         img: "air_raider",
         eng: "The Air Raider",
+        rus: "Воздушный рейдер",
         pol: "Kierowca bombowca",
         sch: "空袭者",
         fre: "Le Pilleur d'air",
@@ -6030,6 +6579,7 @@ export let dataItems = {
     551: {
         img: "medical_mystery",
         eng: "The Medical Mystery",
+        rus: "Врачебная тайна",
         pol: "Tajemnica lekarska",
         sch: "医学之谜",
         fre: "Le Mystère médical",
@@ -6041,6 +6591,7 @@ export let dataItems = {
     552: {
         img: "cotton_head",
         eng: "The Cotton Head",
+        rus: "Хлопковая башка",
         pol: "Dziadkowe trilby",
         sch: "棉制顶帽",
         fre: "Le Cotton Head",
@@ -6052,6 +6603,7 @@ export let dataItems = {
     553: {
         img: "slick_cut",
         eng: "The Slick Cut",
+        rus: "Стильный зачес",
         pol: "Dziarski fryz",
         sch: "手术头巾",
         fre: "La Coupe futée",
@@ -6063,6 +6615,7 @@ export let dataItems = {
     554: {
         img: "frenchmans_formals",
         eng: "The Frenchman's Formals",
+        rus: "Вечерний наряд француза",
         pol: "Elegancja-Francja",
         sch: "法式礼服",
         fre: "Le Français classique",
@@ -6074,6 +6627,7 @@ export let dataItems = {
     555: {
         img: "halloweiner",
         eng: "Halloweiner",
+        rus: "Сосиска всех святых",
         pol: "Paróween",
         sch: "万圣热狗",
         fre: "Le Hante-dog",
@@ -6085,6 +6639,7 @@ export let dataItems = {
     556: {
         img: "horrific_head_of_hare",
         eng: "Horrific Head of Hare",
+        rus: "Ужасная кроличья голова",
         pol: "Koszmarna królicza kiepeła",
         sch: "野兔的惊惧头套",
         fre: "L'affreuse tête de lièvre",
@@ -6096,6 +6651,7 @@ export let dataItems = {
     557: {
         img: "hounds_hood",
         eng: "Hound's Hood",
+        rus: "Собачий капюшон",
         pol: "Kejterski kaptur",
         sch: "猎犬头套",
         fre: "La Capuche du Chien",
@@ -6107,6 +6663,7 @@ export let dataItems = {
     558: {
         img: "face_plante",
         eng: "Face Plante",
+        rus: "Хоккейная маска",
         pol: "Twarzoplask",
         sch: "普兰特面具",
         fre: "La Face de Plante",
@@ -6118,6 +6675,7 @@ export let dataItems = {
     559: {
         img: "faun_feet",
         eng: "Faun Feet",
+        rus: "Ноги фавна",
         pol: "Faunie stópki",
         sch: "地狱信差",
         fre: "Pattes du faune",
@@ -6129,6 +6687,7 @@ export let dataItems = {
     560: {
         img: "sprinting_cephalopod",
         eng: "Sprinting Cephalopod",
+        rus: "Головоногий бегун",
         pol: "Głowonogi goniec",
         sch: "疾跑的触须",
         fre: "Les Céphalopodes de course",
@@ -6140,6 +6699,7 @@ export let dataItems = {
     561: {
         img: "terrier_trousers",
         eng: "Terrier Trousers",
+        rus: "Штан-терьер",
         pol: "Trzewiki teriera",
         sch: "梗犬长裤",
         fre: "Le pantalon pattes de terrier",
@@ -6151,6 +6711,7 @@ export let dataItems = {
     562: {
         img: "cadavers_capper",
         eng: "Cadaver's Capper",
+        rus: "Шляпа мертвяка",
         pol: "Mycka martwiaka",
         sch: "僵尸的符咒帽",
         fre: "La Toque du vampire",
@@ -6162,6 +6723,7 @@ export let dataItems = {
     563: {
         img: "freedom_feathers",
         eng: "Freedom Feathers",
+        rus: "Перья свободы",
         pol: "Pióra wolności",
         sch: "自由之羽",
         fre: "L'Aigle de la liberté",
@@ -6173,6 +6735,7 @@ export let dataItems = {
     564: {
         img: "hardium_helm",
         eng: "Hardium Helm",
+        rus: "Шлем из твердия",
         pol: "Hardy hełm",
         sch: "硬派头盔",
         fre: "Le Casque de hardium",
@@ -6184,6 +6747,7 @@ export let dataItems = {
     565: {
         img: "hidden_dragon",
         eng: "Hidden Dragon",
+        rus: "Затаившийся дракон",
         pol: "Ukryty smok",
         sch: "藏龙",
         fre: "Le Dragon tigré",
@@ -6195,6 +6759,7 @@ export let dataItems = {
     566: {
         img: "larval_lid",
         eng: "Larval Lid",
+        rus: "Личиночная каска",
         pol: "Glizdogłowa",
         sch: "威蛆先生",
         fre: "Le Casque ver",
@@ -6206,6 +6771,7 @@ export let dataItems = {
     567: {
         img: "spellbinders_bonnet",
         eng: "Spellbinder's Bonnet",
+        rus: "Колпак чародея",
         pol: "Gandalf Szarobrewy",
         sch: "巫师的软帽",
         fre: "Le Chapeau de sorcier",
@@ -6217,6 +6783,7 @@ export let dataItems = {
     568: {
         img: "faux_manchu",
         eng: "Faux Manchu",
+        rus: "Усы Манчу",
         pol: "Fałszywy Mandżur",
         sch: "人造满洲胡",
         fre: "Le Faux Manchu",
@@ -6228,6 +6795,7 @@ export let dataItems = {
     569: {
         img: "grub_grenades",
         eng: "Grub Grenades",
+        rus: "Личинки-лимонки",
         pol: "Granaty robalowe",
         sch: "蛆形手雷",
         fre: "Larves explosives",
@@ -6239,6 +6807,7 @@ export let dataItems = {
     570: {
         img: "jupiter_jumpers",
         eng: "Jupiter Jumpers",
+        rus: "Юпитерский ранец",
         pol: "Saturnowe skoczki",
         sch: "木星飞跃军靴",
         fre: "Les Bottes de Jupiter",
@@ -6250,6 +6819,7 @@ export let dataItems = {
     571: {
         img: "lieutenant_bites_the_dust",
         eng: "Lieutenant Bites the Dust",
+        rus: "Лейтенант Больше-не-Кусака",
         pol: "Porucznik Gryzie Piach",
         sch: "暴毙的咬咬中尉",
         fre: "Lieutenant Mord-la-poussière",
@@ -6261,6 +6831,7 @@ export let dataItems = {
     572: {
         img: "shaolin_sash",
         eng: "Shaolin Sash",
+        rus: "Шаолиньский пояс",
         pol: "Szaolińska szarfa",
         sch: "少林腰带",
         fre: "L'Écharpe shaolin",
@@ -6272,6 +6843,7 @@ export let dataItems = {
     573: {
         img: "space_bracers",
         eng: "Space Bracers",
+        rus: "Космические наручи",
         pol: "Galaktyczne karwasze",
         sch: "太空护腕",
         fre: "Les Brassards spatiaux",
@@ -6283,6 +6855,7 @@ export let dataItems = {
     574: {
         img: "bozos_bouffant",
         eng: "Bozo's Bouffant",
+        rus: "Клоунский начес",
         pol: "Czupryna pajaca",
         sch: "笨蛋的蓬松发型",
         fre: "Tronche de clown",
@@ -6294,6 +6867,7 @@ export let dataItems = {
     575: {
         img: "burnys_boney_bonnet",
         eng: "Burny's Boney Bonnet",
+        rus: "Рогатый капюшон Жгучки",
         pol: "Kolczasty kapturek Denżara",
         sch: "硝博士的邦尼帽",
         fre: "Le Bonnet cornu de Burny",
@@ -6305,6 +6879,7 @@ export let dataItems = {
     576: {
         img: "corpsemopolitan",
         eng: "Corpsemopolitan",
+        rus: "Трупмополитан",
         pol: "Zwłokopolitan",
         sch: "大都会果汁",
         fre: "Le Corpsmopolite",
@@ -6316,6 +6891,7 @@ export let dataItems = {
     577: {
         img: "crispy_golden_locks",
         eng: "Crispy Golden Locks",
+        rus: "Запеченные кудряшки",
         pol: "Chrupiąco złote loki",
         sch: "易碎的金假发",
         fre: "Les Boucles d'or frites",
@@ -6327,6 +6903,7 @@ export let dataItems = {
     578: {
         img: "gothic_guise",
         eng: "Gothic Guise",
+        rus: "Готический облик",
         pol: "Gotycka garderoba",
         sch: "哥特式伪装",
         fre: "La Gargouille gothique",
@@ -6338,6 +6915,7 @@ export let dataItems = {
     579: {
         img: "macabre_mask",
         eng: "Macabre Mask",
+        rus: "Мрачная маска",
         pol: "Makabryczna maska",
         sch: "骇人面具",
         fre: "Le masque macabre",
@@ -6349,6 +6927,7 @@ export let dataItems = {
     580: {
         img: "mucous_membrain",
         eng: "Mucous Membrain",
+        rus: "Слизистый мозжечок",
         pol: "Membrana śluzowa",
         sch: "粘膜脑浆",
         fre: "Le Mucus de la membrane crânienne",
@@ -6360,6 +6939,7 @@ export let dataItems = {
     581: {
         img: "ravens_visage",
         eng: "Raven's Visage",
+        rus: "Вороний клюв",
         pol: "Krucze oblicze",
         sch: "巨大的乌鸦头骨",
         fre: "Le Crâne du corbeau",
@@ -6371,6 +6951,7 @@ export let dataItems = {
     582: {
         img: "spectralnaut",
         eng: "Spectralnaut",
+        rus: "Призраконавт",
         pol: "Widmonauta",
         sch: "古怪的宇航头盔",
         fre: "L'Explorateur spectral",
@@ -6382,6 +6963,7 @@ export let dataItems = {
     583: {
         img: "abhorrent_appendages",
         eng: "Abhorrent Appendages",
+        rus: "Мерзкие причиндалы",
         pol: "Abominacyjne akcesoria",
         sch: "可憎的四肢",
         fre: "Les Appendices répugnants",
@@ -6393,6 +6975,7 @@ export let dataItems = {
     584: {
         img: "beast_from_below",
         eng: "Beast from Below",
+        rus: "Чудовище из-под земли",
         pol: "Groza z głębin",
         sch: "下界恶兽",
         fre: "La bête des profondeurs",
@@ -6404,6 +6987,7 @@ export let dataItems = {
     585: {
         img: "carrion_companion",
         eng: "Carrion Companion",
+        rus: "Мертвый компаньон",
         pol: "Trupi towarzysz",
         sch: "腐肉同伴",
         fre: "La Charogne de compagnie",
@@ -6415,6 +6999,7 @@ export let dataItems = {
     586: {
         img: "cauterizers_caudal_appendage",
         eng: "Cauterizer's Caudal Appendage",
+        rus: "Задняя конечность прижигателя",
         pol: "Ognisty ogon przyżegacza",
         sch: "烧灼之尾",
         fre: "L’Appendice caudal cautérisé",
@@ -6426,6 +7011,7 @@ export let dataItems = {
     587: {
         img: "creature_from_the_heap",
         eng: "Creature from the Heap",
+        rus: "Мусорное существо",
         pol: "Bestia ze śmieciowiska",
         sch: "隐藏在垃圾桶内的生物",
         fre: "La créature des poubelles",
@@ -6437,6 +7023,7 @@ export let dataItems = {
     588: {
         img: "death_support_pack",
         eng: "Death Support Pack",
+        rus: "Система смертообеспечения",
         pol: "Zestaw pierwszej pożogi",
         sch: "死亡补给包",
         fre: "Le Pack de survie",
@@ -6448,6 +7035,7 @@ export let dataItems = {
     589: {
         img: "external_organ",
         eng: "External Organ",
+        rus: "Внешний орган",
         pol: "Organ zewnętrzny",
         sch: "黑色管弦乐",
         fre: "L'Orgue externe",
@@ -6459,6 +7047,7 @@ export let dataItems = {
     590: {
         img: "glob",
         eng: "Glob",
+        rus: "Капля",
         pol: "Glut",
         sch: "幽浮小精灵",
         fre: "Le Glob",
@@ -6470,6 +7059,7 @@ export let dataItems = {
     591: {
         img: "grisly_gumbo",
         eng: "Grisly Gumbo",
+        rus: "Скверный супчик",
         pol: "Grobowa grochówa",
         sch: "恐怖的浓汤",
         fre: "Le Gombo humain",
@@ -6481,6 +7071,7 @@ export let dataItems = {
     592: {
         img: "handhunter",
         eng: "Handhunter",
+        rus: "Охотник за руками",
         pol: "Palcościnacz",
         sch: "斩手铡刀",
         fre: "La Guillotine à mains",
@@ -6492,6 +7083,7 @@ export let dataItems = {
     593: {
         img: "hard_headed_hardware",
         eng: "Hard-Headed Hardware",
+        rus: "Твердолобая аппаратура",
         pol: "Twardogłowy osprzęt",
         sch: "硬头硬脑",
         fre: "Tête de pioche infernale",
@@ -6503,6 +7095,7 @@ export let dataItems = {
     594: {
         img: "hollowhead",
         eng: "Hollowhead",
+        rus: "Пустоголовый",
         pol: "Pustogłowy",
         sch: "万圣罩",
         fre: "La tête vide",
@@ -6514,6 +7107,7 @@ export let dataItems = {
     595: {
         img: "maniacs_manacles",
         eng: "Maniac's Manacles",
+        rus: "Оковы маньяка",
         pol: "Okowy opętanego",
         sch: "疯子的手铐",
         fre: "Les Menottes du maniaque",
@@ -6525,6 +7119,7 @@ export let dataItems = {
     596: {
         img: "monsters_stompers",
         eng: "Monster's Stompers",
+        rus: "Лапищи чудища",
         pol: "Potworne przygniatacze",
         sch: "怪兽的践踏爪靴",
         fre: "Les Pattes de monstre",
@@ -6536,6 +7131,7 @@ export let dataItems = {
     597: {
         img: "py_40_incinibot",
         eng: "PY-40 Incinibot",
+        rus: "Инсинибот PY-40",
         pol: "Spopielobot PY-40",
         sch: "火焰机器人 40 号",
         fre: "Incinérobot PY-40",
@@ -6546,6 +7142,7 @@ export let dataItems = {
     598: {
         img: "rugged_respirator",
         eng: "Rugged Respirator",
+        rus: "Крепкий респиратор",
         pol: "Rdzewiejący respirator",
         sch: "坚固耐用的呼吸器",
         fre: "Le respirateur robuste",
@@ -6557,6 +7154,7 @@ export let dataItems = {
     599: {
         img: "scorched_skirt",
         eng: "Scorched Skirt",
+        rus: "Подпаленный подол",
         pol: "Spalona spódnica",
         sch: "烧焦的围裙",
         fre: "La Jupe carbonisée",
@@ -6568,6 +7166,7 @@ export let dataItems = {
     600: {
         img: "up_pyroscopes",
         eng: "Up Pyroscopes",
+        rus: "Поднятый пиро-скоп",
         pol: "Pyroskopy",
         sch: "火焰兵的蛙人之魂",
         fre: "Les Pyroscopes",
@@ -6579,6 +7178,7 @@ export let dataItems = {
     601: {
         img: "vicious_visage",
         eng: "Vicious Visage",
+        rus: "Злобная маска",
         pol: "Fatalna facjata",
         sch: "恶毒面罩",
         fre: "Le Visage vicieux",
@@ -6590,6 +7190,7 @@ export let dataItems = {
     602: {
         img: "headtakers_hood",
         eng: "Headtaker's Hood",
+        rus: "Капюшон головореза",
         pol: "Kaptur kosigłowy",
         sch: "行刑者的面罩",
         fre: "La Cagoule du décapiteur",
@@ -6601,6 +7202,7 @@ export let dataItems = {
     603: {
         img: "mann_bird_of_aberdeen",
         eng: "Mann-Bird of Aberdeen",
+        rus: "Птица-ловец из Абердина",
         pol: "Ptakoczłek z Aberdeen",
         sch: "阿伯丁的鸟头人",
         fre: "L'Oiseau d'Aberdeen",
@@ -6612,6 +7214,7 @@ export let dataItems = {
     604: {
         img: "squids_lid",
         eng: "Squid's Lid",
+        rus: "Кальмарова шляпа",
         pol: "Postrach owoców morza",
         sch: "独眼乌贼",
         fre: "Le Chapeau de la Méduse",
@@ -6623,6 +7226,7 @@ export let dataItems = {
     605: {
         img: "transylvania_top",
         eng: "Transylvania Top",
+        rus: "Трансильванская прическа",
         pol: "Transylwańska czupryna",
         sch: "吸血鬼之祖",
         fre: "La Coupe de Transylvanie",
@@ -6634,6 +7238,7 @@ export let dataItems = {
     606: {
         img: "capn_calamari",
         eng: "Cap'n Calamari",
+        rus: "Капитан Кальмар",
         pol: "Kapitan Kalmar",
         sch: "鱿鱼船长",
         fre: "Cap'taine Calamar",
@@ -6645,6 +7250,7 @@ export let dataItems = {
     607: {
         img: "horsemanns_hand_me_down",
         eng: "Horsemann's Hand-Me-Down",
+        rus: "Изношенный плащ всадника",
         pol: "Dziedzictwo Bezkonnego Jeźdźca",
         sch: "无头骑士的传家之宝",
         fre: "La Guenille du Cavalier sans Tête",
@@ -6656,6 +7262,7 @@ export let dataItems = {
     608: {
         img: "lordly_lapels",
         eng: "Lordly Lapels",
+        rus: "Надменные лацканы",
         pol: "Książęcy kołnierz",
         sch: "贵族衣领",
         fre: "Le Col comtois",
@@ -6667,6 +7274,7 @@ export let dataItems = {
     609: {
         img: "parasight",
         eng: "Parasight",
+        rus: "Паравидение",
         pol: "Paso-wid",
         sch: "寄生之眼",
         fre: "L'oeil indésirable",
@@ -6678,6 +7286,7 @@ export let dataItems = {
     610: {
         img: "polly_putrid",
         eng: "Polly Putrid",
+        rus: "Покойный Попка",
         pol: "Plugawa Polly",
         sch: "腐烂的鹦鹉",
         fre: "Perroquet putride",
@@ -6689,6 +7298,7 @@ export let dataItems = {
     611: {
         img: "chicken_kiev",
         eng: "Chicken Kiev",
+        rus: "Цыпленок по-киевски",
         pol: "Kotlet de volaille",
         sch: "鸡辅猛禽",
         fre: "Le Poulet à la Kiev",
@@ -6700,6 +7310,7 @@ export let dataItems = {
     612: {
         img: "horned_honcho",
         eng: "Horned Honcho",
+        rus: "Рогатый руководитель",
         pol: "Piekielny przełożony",
         sch: "双角队长",
         fre: "Le Honcho à cornes",
@@ -6711,6 +7322,7 @@ export let dataItems = {
     613: {
         img: "ivan_the_inedible",
         eng: "Ivan the Inedible",
+        rus: "Иван Несъедобный",
         pol: "Iwan Niejadalny",
         sch: "恐怖的伊凡三明治",
         fre: "Ivan l'immangeable",
@@ -6722,6 +7334,7 @@ export let dataItems = {
     614: {
         img: "last_bite",
         eng: "Last Bite",
+        rus: "Последний укус",
         pol: "Ostatni kęs",
         sch: "最后一口",
         fre: "L'Ultime bouchée",
@@ -6733,6 +7346,7 @@ export let dataItems = {
     615: {
         img: "monstrous_mandible",
         eng: "Monstrous Mandible",
+        rus: "Чудовищная челюсть",
         pol: "Sztraszna szczena",
         sch: "巨大的下颚",
         fre: "La mandibule monstrueuse",
@@ -6744,6 +7358,7 @@ export let dataItems = {
     616: {
         img: "grease_monkey",
         eng: "Grease Monkey",
+        rus: "Примат-механик",
         pol: "Małpi mechanik",
         sch: "油猢狲",
         fre: "Le Mécanosinge",
@@ -6755,6 +7370,7 @@ export let dataItems = {
     617: {
         img: "alternative_medicine_mann",
         eng: "Alternative Medicine Mann",
+        rus: "Альтер-манн-тивная медицина",
         pol: "Szaman na perypetiach",
         sch: "非传统医学医师",
         fre: "Le Médecin alternatif",
@@ -6766,6 +7382,7 @@ export let dataItems = {
     618: {
         img: "das_blutliebhaber",
         eng: "Das Blutliebhaber",
+        rus: "Дас Кроволюб",
         pol: "Das Blutliebhaber",
         sch: "嗜血狂魔",
         fre: "Das Blutliebhaber",
@@ -6775,6 +7392,7 @@ export let dataItems = {
     619: {
         img: "medimedes",
         eng: "Medimedes",
+        rus: "Медимед",
         pol: "Medymedes",
         sch: "麦基米德",
         fre: "Medimède",
@@ -6785,6 +7403,7 @@ export let dataItems = {
     620: {
         img: "shamans_skull",
         eng: "Shaman's Skull",
+        rus: "Череп шамана",
         pol: "Czaszka szamana",
         sch: "萨满的头骨",
         fre: "Le Crâne pour shaman",
@@ -6796,6 +7415,7 @@ export let dataItems = {
     621: {
         img: "teutonkahmun",
         eng: "Teutonkahmun",
+        rus: "Тевтонхамон",
         pol: "Teutonchamon",
         sch: "图坦卡蒙的诅咒",
         fre: "Teutonkahmon",
@@ -6807,6 +7427,7 @@ export let dataItems = {
     622: {
         img: "trepanabotomizer",
         eng: "Trepanabotomizer",
+        rus: "Трепанализатор",
         pol: "Trepanabotomizer",
         sch: "滥医充数",
         fre: "Le trépanolobotomiseur",
@@ -6818,6 +7439,7 @@ export let dataItems = {
     623: {
         img: "archimedes_the_undying",
         eng: "Archimedes the Undying",
+        rus: "Архимед Бессмертный",
         pol: "Archimedes Z",
         sch: "阿僵米德",
         fre: "Archimède zombie",
@@ -6829,6 +7451,7 @@ export let dataItems = {
     624: {
         img: "lo_grav_loafers",
         eng: "Lo-Grav Loafers",
+        rus: "Туфли низкого притяжения",
         pol: "Księżycowe kamasze",
         sch: "低重力懒汉鞋",
         fre: "Les Bottes anti-gravité",
@@ -6840,6 +7463,7 @@ export let dataItems = {
     625: {
         img: "ramses_regalia",
         eng: "Ramses' Regalia",
+        rus: "Регалии Рамзеса",
         pol: "Regalia Ramzesa",
         sch: "拉美西斯的皇家遗物",
         fre: "Le Costume de Ramsès",
@@ -6851,6 +7475,7 @@ export let dataItems = {
     626: {
         img: "second_opinion",
         eng: "Second Opinion",
+        rus: "Второе мнение",
         pol: "Druga opinia",
         sch: "第二选择",
         fre: "Second diagnostic",
@@ -6863,6 +7488,7 @@ export let dataItems = {
     627: {
         img: "surgeons_space_suit",
         eng: "Surgeon's Space Suit",
+        rus: "Хирургический скафандр",
         pol: "Skafander kosmiczny doktora",
         sch: "外科医生的太空服",
         fre: "La combinaison d'astro-chirurgien",
@@ -6874,6 +7500,7 @@ export let dataItems = {
     628: {
         img: "vicars_vestments",
         eng: "Vicar's Vestments",
+        rus: "Облачение викария",
         pol: "Szata wikarego",
         sch: "教堂牧师的圣衣",
         fre: "Les Vêtements du vicaire",
@@ -6885,6 +7512,7 @@ export let dataItems = {
     629: {
         img: "hallowed_headcase",
         eng: "Hallowed Headcase",
+        rus: "Священная маска",
         pol: "Sakralny świr",
         sch: "万圣狂人",
         fre: "Le Saint masque",
@@ -6896,6 +7524,7 @@ export let dataItems = {
     630: {
         img: "sir_shootsalot",
         eng: "Sir Shootsalot",
+        rus: "Сэр Совострел",
         pol: "Pan Dużostrzel",
         sch: "夜行者爵士帽",
         fre: "Sire Tirealot",
@@ -6906,6 +7535,7 @@ export let dataItems = {
     631: {
         img: "carious_chameleon",
         eng: "Carious Chameleon",
+        rus: "Гнилой хамелеон",
         pol: "Nadgniły kameleon",
         sch: "腐烂的变色龙",
         fre: "Le Caméléon décharné",
@@ -6917,6 +7547,7 @@ export let dataItems = {
     632: {
         img: "hyperbaric_bowler",
         eng: "Hyperbaric Bowler",
+        rus: "Гипербарический котелок",
         pol: "Melonik mózgowca",
         sch: "高压式硬顶圆礼帽",
         fre: "Le mental sous pression",
@@ -6928,6 +7559,7 @@ export let dataItems = {
     633: {
         img: "candymans_cap",
         eng: "Candyman's Cap",
+        rus: "Шляпа кондитера",
         pol: "Czapka cukierasa",
         sch: "甜心宝贝的帽子",
         fre: "Le Chapeau de Candyman",
@@ -6939,6 +7571,7 @@ export let dataItems = {
     634: {
         img: "bountiful_bow",
         eng: "Bountiful Bow",
+        rus: "Бант богача",
         pol: "Miłosierna muszka",
         sch: "慷慨的蝴蝶结",
         fre: "Le Costume du prodigue",
@@ -6950,6 +7583,7 @@ export let dataItems = {
     635: {
         img: "bozos_brogues",
         eng: "Bozo's Brogues",
+        rus: "Башмаки клоуна",
         pol: "Buty Bozo",
         sch: "笨蛋的土皮鞋",
         fre: "Croquenots du nigaud",
@@ -6961,6 +7595,7 @@ export let dataItems = {
     636: {
         img: "foul_cowl",
         eng: "Foul Cowl",
+        rus: "Порочный плащ",
         pol: "Plugawa peleryna",
         sch: "污秽的斗篷",
         fre: "La Cape du vampire",
@@ -6972,6 +7607,7 @@ export let dataItems = {
     637: {
         img: "baphomet_trotters",
         eng: "Baphomet Trotters",
+        rus: "Копытца Бафомета",
         pol: "Kopyta Bafometa",
         sch: "巴风特羊蹄",
         fre: "Les Baphomet trotteurs",
@@ -6983,6 +7619,7 @@ export let dataItems = {
     638: {
         img: "candleer",
         eng: "Candleer",
+        rus: "Свеченосец",
         pol: "Świecznik",
         sch: "蜡烛手雷",
         fre: "La Bandoulière de bougies",
@@ -6994,6 +7631,7 @@ export let dataItems = {
     639: {
         img: "pin_pals",
         eng: "Pin Pals",
+        rus: "Поколотые приятели",
         pol: "Nierozłączki",
         sch: "针友",
         fre: "Potes épinglés",
@@ -7005,6 +7643,7 @@ export let dataItems = {
     640: {
         img: "snaggletoothed_stetson",
         eng: "Snaggletoothed Stetson",
+        rus: "Кривозубая шляпа",
         pol: "Szczerbaty stetson",
         sch: "牙齿不齐的斯泰森毡帽",
         fre: "Le Stetson denté",
@@ -7016,6 +7655,7 @@ export let dataItems = {
     641: {
         img: "ethereal_hood",
         eng: "Ethereal Hood",
+        rus: "Потусторонний капюшон",
         pol: "Eteryczny kaptur",
         sch: "空灵风帽",
         fre: "Capuche éthérée",
@@ -7027,6 +7667,7 @@ export let dataItems = {
     642: {
         img: "birdie_bonnet",
         eng: "Birdie Bonnet",
+        rus: "Цыплячья шапка",
         pol: "Kurczakaptur",
         sch: "小鸟邦尼特",
         fre: "Le Bonnet de poulet",
@@ -7038,6 +7679,7 @@ export let dataItems = {
     643: {
         img: "dark_helm",
         eng: "Dark Helm",
+        rus: "Темный шлем",
         pol: "Mroczny hełm",
         sch: "黑暗头盔",
         fre: "Le Heaume noir",
@@ -7049,6 +7691,7 @@ export let dataItems = {
     644: {
         img: "haunted_hat",
         eng: "Haunted Hat",
+        rus: "Заклятая шляпа",
         pol: "Nawiedzona czapka",
         sch: "闹鬼的折叠礼帽",
         fre: "Le Chapeau Hanté",
@@ -7060,6 +7703,7 @@ export let dataItems = {
     645: {
         img: "magical_mercenary",
         eng: "Magical Mercenary",
+        rus: "Волшебный наемник",
         pol: "Magiczny najemnik",
         sch: "魔法佣兵",
         fre: "Le Mercenaire magique",
@@ -7071,6 +7715,7 @@ export let dataItems = {
     646: {
         img: "manneater",
         eng: "Manneater",
+        rus: "Манноед",
         pol: "Ludożerca",
         sch: "曼恩头骨",
         fre: "Le Crannibale",
@@ -7082,6 +7727,7 @@ export let dataItems = {
     647: {
         img: "one_way_ticket",
         eng: "One-Way Ticket",
+        rus: "Билет в один конец",
         pol: "Bilet w jedną stronę",
         sch: "死朋友",
         fre: "L'Aller simple",
@@ -7093,6 +7739,7 @@ export let dataItems = {
     648: {
         img: "tuque_or_treat",
         eng: "Tuque or Treat",
+        rus: "Шапка или жизнь",
         pol: "Czapka albo psikus",
         sch: "不给南瓜就捣蛋",
         fre: "La Tuque citrouille",
@@ -7104,6 +7751,7 @@ export let dataItems = {
     649: {
         img: "accursed_apparition",
         eng: "Accursed Apparition",
+        rus: "Проклятое приведение",
         pol: "Wyklęte widmo",
         sch: "受诅咒的亡魂",
         fre: "L'Apparition maudite",
@@ -7115,6 +7763,7 @@ export let dataItems = {
     650: {
         img: "beacon_from_beyond",
         eng: "Beacon from Beyond",
+        rus: "Светило с того света",
         pol: "Latarnia z zaświatów",
         sch: "启蒙之灯",
         fre: "La Lanterne de l'au-delà",
@@ -7126,6 +7775,7 @@ export let dataItems = {
     651: {
         img: "cryptic_keepsake",
         eng: "Cryptic Keepsake",
+        rus: "Загадочный амулет",
         pol: "Straszliwy suwenir",
         sch: "神秘的骨链",
         fre: "La Relique cryptique",
@@ -7137,6 +7787,7 @@ export let dataItems = {
     652: {
         img: "guano",
         eng: "Guano",
+        rus: "Гуано",
         pol: "Guano",
         sch: "火蝠",
         fre: "Guano",
@@ -7146,6 +7797,7 @@ export let dataItems = {
     653: {
         img: "pocket_horsemann",
         eng: "Pocket Horsemann",
+        rus: "Карманный всадник",
         pol: "Kieszonkowy Jeździec",
         sch: "口袋骑士",
         fre: "Le Cavalier sans Tête de poche",
@@ -7157,6 +7809,7 @@ export let dataItems = {
     654: {
         img: "quoth",
         eng: "Quoth",
+        rus: "Ворон",
         pol: "Miodrzekł",
         sch: "乌鸦",
         fre: "Quoth",
@@ -7168,6 +7821,7 @@ export let dataItems = {
     655: {
         img: "sackcloth_spook",
         eng: "Sackcloth Spook",
+        rus: "Мешковатый призрак",
         pol: "Parciany potworak",
         sch: "麻布幽灵",
         fre: "Le Sac de toile hanté",
@@ -7179,6 +7833,7 @@ export let dataItems = {
     656: {
         img: "unidentified_following_object",
         eng: "Unidentified Following Object",
+        rus: "Навязчивый летающий объект",
         pol: "Niezidentyfikowany obiekt podążający",
         sch: "不明跟踪物",
         fre: "Objet Visqueux Non Identifié",
@@ -7190,6 +7845,7 @@ export let dataItems = {
     657: {
         img: "solemn_vow",
         eng: "The Solemn Vow",
+        rus: "Священная клятва",
         pol: "Uroczysta przysięga",
         sch: "希波克拉底的塑像",
         fre: "Le Voeu Solennel",
@@ -7201,6 +7857,7 @@ export let dataItems = {
     658: {
         img: "strange_part_unusual_wearing_player_kills",
         eng: "Strange Part: Unusual-Wearing Player Kills",
+        rus: "Странный счётчик: игроки с необычными предметами",
         pol: "Kuriozalna część: Zabitych wrogów noszących nietypowy okaz",
         sch: "奇异武器升级部件：佩戴稀有装饰玩家消灭数",
         fre: "Pièce étrange : Victimes portant un objet inhabituel",
@@ -7212,6 +7869,7 @@ export let dataItems = {
     659: {
         img: "strange_part_spies_killed",
         eng: "Strange Part: Spies Killed",
+        rus: "Странный счётчик: убитые шпионы",
         pol: "Kuriozalna część: Zabici Szpiedzy",
         sch: "奇异武器升级部件：间谍消灭数",
         fre: "Pièce étrange : Spies tués",
@@ -7223,6 +7881,7 @@ export let dataItems = {
     660: {
         img: "strange_part_burning_enemy_kills",
         eng: "Strange Part: Burning Enemy Kills",
+        rus: "Странный счётчик: убитые горящие игроки",
         pol: "Kuriozalna część: Zabici podpaleni wrogowie",
         sch: "奇异武器升级部件：着火敌人消灭数",
         fre: "Pièce étrange : Victimes enflammée",
@@ -7234,6 +7893,7 @@ export let dataItems = {
     661: {
         img: "concheror",
         eng: "The Concheror",
+        rus: "Завоеватель",
         pol: "Sashimono straceńca",
         sch: "征服者战旗",
         fre: "Conque-érant",
@@ -7245,6 +7905,7 @@ export let dataItems = {
     662: {
         img: "eviction_notice",
         eng: "The Eviction Notice",
+        rus: "Уведомление о выселении",
         pol: "Nakaz eksmisji",
         sch: "驱逐警告",
         fre: "L'Avis d'Expulsion",
@@ -7256,6 +7917,7 @@ export let dataItems = {
     663: {
         img: "strange_part_killstreaks_ended",
         eng: "Strange Part: Killstreaks Ended",
+        rus: "Странный счётчик: прерванные серии убийств",
         pol: "Kuriozalna część: Przerwane serie zabójstw",
         sch: "奇异武器升级部件：连杀终结数",
         fre: "Pièce étrange : Fin d'un killstreak",
@@ -7267,6 +7929,7 @@ export let dataItems = {
     664: {
         img: "strange_cosmetic_part_freezecam_taunt_appearances",
         eng: "Strange Cosmetic Part: Freezecam Taunt Appearances",
+        rus: "Странный счётчик аксессуара: насмешки на посмертных снимках",
         pol: "Kuriozalna część dla przedmiotów ozdobnych: Drwiny uwiecznione w migawce",
         sch: "奇异部件：杀敌后嘲讽数",
         fre: "Pièce cosmétique étrange : Apparition en faisant une raillerie pendant un arrêt sur image",
@@ -7278,6 +7941,7 @@ export let dataItems = {
     665: {
         img: "strange_part_damage_dealt",
         eng: "Strange Part: Damage Dealt",
+        rus: "Странный счётчик: нанесённый урон",
         pol: "Kuriozalna część: Zadane obrażenia",
         sch: "奇异武器升级部件：伤害输出量",
         fre: "Pièce étrange : Dégâts infligés",
@@ -7289,6 +7953,7 @@ export let dataItems = {
     666: {
         img: "front_runner",
         eng: "The Front Runner",
+        rus: "Передовой фаворит",
         pol: "Przodownik",
         sch: "领跑者",
         fre: "Le Coureur Frontal",
@@ -7300,6 +7965,7 @@ export let dataItems = {
     667: {
         img: "rescue_ranger",
         eng: "The Rescue Ranger",
+        rus: "Спасатель",
         pol: "Ryzykowny ratunek",
         sch: "火线救兵",
         fre: "Ranger du risque",
@@ -7311,6 +7977,7 @@ export let dataItems = {
     668: {
         img: "scorch_shot",
         eng: "The Scorch Shot",
+        rus: "Обжигающий выстрел",
         pol: "Piekąca palba",
         sch: "焦化枪",
         fre: "La Torche rousse",
@@ -7322,6 +7989,7 @@ export let dataItems = {
     669: {
         img: "strange_cosmetic_part_fires_survived",
         eng: "Strange Cosmetic Part: Fires Survived",
+        rus: "Странный счётчик аксессуара: пережитые возгорания",
         pol: "Kuriozalna część dla przedmiotów ozdobnych: Przetrwane podpalenia",
         sch: "奇异部件：被点燃后存活次数",
         fre: "Pièce de cosmétique étrange : Incendies survécus",
@@ -7333,6 +8001,7 @@ export let dataItems = {
     670: {
         img: "strange_part_allied_healing_done",
         eng: "Strange Part: Allied Healing Done",
+        rus: "Странный счётчик: лечение союзников",
         pol: "Kuriozalna część: Uleczone punkty zdrowia drużyny",
         sch: "奇异武器升级部件：队友生命值回复量",
         fre: "Pièce étrange : Soins apportés aux alliés",
@@ -7344,6 +8013,7 @@ export let dataItems = {
     671: {
         img: "strange_part_point_blank_kills",
         eng: "Strange Part: Point-Blank Kills",
+        rus: "Странный счётчик: убийства в упор",
         pol: "Kuriozalna część: Zabójstwa z bliska",
         sch: "奇异武器升级部件：超近距离击杀数",
         fre: "Pièce étrange : Victimes à bout portant",
@@ -7355,6 +8025,7 @@ export let dataItems = {
     672: {
         img: "builders_blueprints",
         eng: "The Builder's Blueprints",
+        rus: "Чертежи строителя",
         pol: "Plany budowniczego",
         sch: "建筑师的蓝图",
         fre: "Les Plans du Constructeur",
@@ -7366,6 +8037,7 @@ export let dataItems = {
     673: {
         img: "festive_force_a_nature",
         eng: "Festive Force-A-Nature",
+        rus: "Праздничная Неумолимая сила",
         pol: "Świąteczna Siła natury",
         sch: "节日自然之力",
         fre: "Force-de-la-Nature festive",
@@ -7377,6 +8049,7 @@ export let dataItems = {
     674: {
         img: "festive_sapper",
         eng: "Festive Sapper",
+        rus: "Праздничный жучок",
         pol: "Świąteczny saper",
         sch: "节日电子工兵",
         fre: "Saboteur festif",
@@ -7388,6 +8061,7 @@ export let dataItems = {
     675: {
         img: "festive_crusaders_crossbow",
         eng: "Festive Crusader's Crossbow",
+        rus: "Праздничный Арбалет крестоносца",
         pol: "Świąteczna Kusza krzyżowca",
         sch: "节日十字军之弩",
         fre: "Arbalète du Croisé festive",
@@ -7399,6 +8073,7 @@ export let dataItems = {
     676: {
         img: "festive_flare_gun",
         eng: "Festive Flare Gun",
+        rus: "Праздничная Ракетница",
         pol: "Świąteczny pistolet sygnałowy",
         sch: "节日信号枪",
         fre: "Pistolet de détresse festif",
@@ -7410,6 +8085,7 @@ export let dataItems = {
     677: {
         img: "festive_eyelander",
         eng: "Festive Eyelander",
+        rus: "Праздничный Одноглазый горец",
         pol: "Świąteczny Wyszczerbiec",
         sch: "节日苏格兰长剑",
         fre: "Eyelander festif",
@@ -7421,6 +8097,7 @@ export let dataItems = {
     678: {
         img: "festive_jarate",
         eng: "Festive Jarate",
+        rus: "Праздничное Банкате",
         pol: "Świąteczne Sikwondo",
         sch: "节日瓶手道",
         fre: "Jaraté festif",
@@ -7432,6 +8109,7 @@ export let dataItems = {
     679: {
         img: "festive_gloves_of_running_urgently",
         eng: "Festive Gloves of Running Urgently",
+        rus: "Праздничные Горящие Рукавицы Ускорения",
         pol: "Świąteczne Gorące rękawice uciekiniera",
         sch: "节日紧急逃跑手套",
         fre: "Gants de Retraite Urgente festifs",
@@ -7443,6 +8121,7 @@ export let dataItems = {
     680: {
         img: "festive_black_box",
         eng: "Festive Black Box",
+        rus: "Праздничный Чёрный ящик",
         pol: "Świąteczna Czarna skrzynka",
         sch: "节日黑匣子",
         fre: "Boîte Noire festive",
@@ -7454,6 +8133,7 @@ export let dataItems = {
     681: {
         img: "festive_wrangler",
         eng: "Festive Wrangler",
+        rus: "Праздничный Поводырь",
         pol: "Świąteczny Poskramiacz",
         sch: "节日遥控手柄",
         fre: "Dompteur festif",
@@ -7465,6 +8145,7 @@ export let dataItems = {
     682: {
         img: "blizzard_breather",
         eng: "Blizzard Breather",
+        rus: "Дыхание метели",
         pol: "Arktyczny oddech",
         sch: "暴风雪呼吸面具",
         fre: "Le respirateur du blizzard",
@@ -7476,6 +8157,7 @@ export let dataItems = {
     683: {
         img: "sub_zero_suit",
         eng: "Sub Zero Suit",
+        rus: "Низкотемпературный костюм",
         pol: "Azbestowy anorak",
         sch: "极地防寒服",
         fre: "La combinaison polaire",
@@ -7487,6 +8169,7 @@ export let dataItems = {
     684: {
         img: "dictator",
         eng: "Dictator",
+        rus: "Диктатор",
         pol: "Dyktator",
         sch: "独裁者之须",
         fre: "Dictateur",
@@ -7498,6 +8181,7 @@ export let dataItems = {
     685: {
         img: "neckwear_headwear",
         eng: "Neckwear Headwear",
+        rus: "Нашейная шляпа",
         pol: "Szalikapelusz",
         sch: "戴围巾的帽子",
         fre: "L'écharpe de chapeau",
@@ -7509,6 +8193,7 @@ export let dataItems = {
     686: {
         img: "trail_blazer",
         eng: "Trail-Blazer",
+        rus: "Путепроходец",
         pol: "Płomienne płozy",
         sch: "开路先锋",
         fre: "Le pionnier des pistes",
@@ -7520,6 +8205,7 @@ export let dataItems = {
     687: {
         img: "dead_of_night",
         eng: "Dead of Night",
+        rus: "Смерть в ночи",
         pol: "Śmierć nadejdzie w nocy",
         sch: "冬夜夹克",
         fre: "Cœur de la nuit",
@@ -7531,6 +8217,7 @@ export let dataItems = {
     688: {
         img: "snow_scoper",
         eng: "Snow Scoper",
+        rus: "Снежный стрелок",
         pol: "Wiatrówka",
         sch: "雪地瞭望者",
         fre: "Le Snow Scoper",
@@ -7542,6 +8229,7 @@ export let dataItems = {
     689: {
         img: "nunhood",
         eng: "Nunhood",
+        rus: "Моццетта монаха",
         pol: "Kapłański kaptur",
         sch: "修女披风",
         fre: "La capuche de l'ordre",
@@ -7553,6 +8241,7 @@ export let dataItems = {
     690: {
         img: "angel_of_death",
         eng: "Angel of Death",
+        rus: "Ангел смерти",
         pol: "Anioł śmierci",
         sch: "死亡天使的长袍",
         fre: "L'ange de la mort",
@@ -7564,6 +8253,7 @@ export let dataItems = {
     691: {
         img: "kiss_king",
         eng: "Kiss King",
+        rus: "Король поцелуев",
         pol: "Cesarz całusków",
         sch: "亲吻之王",
         fre: "Le roi du baiser",
@@ -7575,6 +8265,7 @@ export let dataItems = {
     692: {
         img: "slo_poke",
         eng: "Slo-Poke",
+        rus: "Ков-бой",
         pol: "Kowbojskie zapędy",
         sch: "警长的牛仔帽",
         fre: "Le Par-Essieux",
@@ -7586,6 +8277,7 @@ export let dataItems = {
     693: {
         img: "minnesota_slick",
         eng: "Minnesota Slick",
+        rus: "Миннесотский зачес",
         pol: "Minesocki fryz",
         sch: "明州的老练杀手",
         fre: "L'assassin du Minnesota",
@@ -7597,6 +8289,7 @@ export let dataItems = {
     694: {
         img: "toy_soldier",
         eng: "Toy Soldier",
+        rus: "Щелкунчик",
         pol: "Zabawkowy żołnierzyk",
         sch: "锡兵的军帽",
         fre: "Le soldat de plomb",
@@ -7608,6 +8301,7 @@ export let dataItems = {
     695: {
         img: "five_month_shadow",
         eng: "Five-Month Shadow",
+        rus: "Пятимесячная щетина",
         pol: "Sześciomiesięczna szczecina",
         sch: "怪形客胡子",
         fre: "La barbe de cinq mois",
@@ -7619,6 +8313,7 @@ export let dataItems = {
     696: {
         img: "mann_of_reason",
         eng: "Mann of Reason",
+        rus: "Рационалист",
         pol: "Głos rozsądku",
         sch: "随从之帽",
         fre: "L'homme de raison",
@@ -7630,6 +8325,7 @@ export let dataItems = {
     697: {
         img: "mann_of_the_house",
         eng: "Mann of the House",
+        rus: "Глава семейства",
         pol: "Pan domu",
         sch: "一家之主",
         fre: "L'Homme de la Maison",
@@ -7641,6 +8337,7 @@ export let dataItems = {
     698: {
         img: "chucklenuts",
         eng: "Chucklenuts",
+        rus: "Орешник",
         pol: "Druhna Basia",
         sch: "宝来鼠",
         fre: "Chucklenuts",
@@ -7652,6 +8349,7 @@ export let dataItems = {
     699: {
         img: "tiny_timber",
         eng: "Tiny Timber",
+        rus: "Малый лесоруб",
         pol: "Podpałka",
         sch: "小小柴火堆",
         fre: "Petit bois",
@@ -7663,6 +8361,7 @@ export let dataItems = {
     700: {
         img: "face_full_of_festive",
         eng: "Face Full of Festive",
+        rus: "Довольно праздничное лицо",
         pol: "Oświecone oblicze Śniąt",
         sch: "满带节日气息的大胡子",
         fre: "Barbe festive",
@@ -7674,6 +8373,7 @@ export let dataItems = {
     701: {
         img: "ruffled_ruprecht",
         eng: "Ruffled Ruprecht",
+        rus: "Взъерошенный Рупрехт",
         pol: "Brodaty Bawarczyk",
         sch: "随从之胡",
         fre: "Le père froissé",
@@ -7685,6 +8385,7 @@ export let dataItems = {
     702: {
         img: "golden_garment",
         eng: "Golden Garment",
+        rus: "Золотое одеяние",
         pol: "Ozdobne odzienie",
         sch: "金丝大衣",
         fre: "L'habit doré",
@@ -7696,6 +8397,7 @@ export let dataItems = {
     703: {
         img: "little_drummer_mann",
         eng: "Little Drummer Mann",
+        rus: "Маленький бараманнщик",
         pol: "Maleńki dobosz",
         sch: "小小鼓手",
         fre: "Le petit homme au tambour",
@@ -7707,6 +8409,7 @@ export let dataItems = {
     704: {
         img: "scout_shako",
         eng: "Scout Shako",
+        rus: "Кивер разведчика",
         pol: "Skautowe czako",
         sch: "小兵的斯托特军帽",
         fre: "Le frêle shako",
@@ -7718,6 +8421,7 @@ export let dataItems = {
     705: {
         img: "toy_tailor",
         eng: "Toy Tailor",
+        rus: "Игрушечник",
         pol: "Starszy elf podpalacz",
         sch: "玩具裁缝",
         fre: "Le lutin des jouets",
@@ -7729,6 +8433,7 @@ export let dataItems = {
     706: {
         img: "extra_layer",
         eng: "Extra Layer",
+        rus: "Дополнительный слой",
         pol: "Dodatkowa warstwa",
         sch: "厚实的夹克",
         fre: "La couche de plus",
@@ -7740,6 +8445,7 @@ export let dataItems = {
     707: {
         img: "polar_pullover",
         eng: "Polar Pullover",
+        rus: "Полярный пуловер",
         pol: "Kozacka kominiara",
         sch: "极地头套",
         fre: "Le pullover polaire",
@@ -7751,6 +8457,7 @@ export let dataItems = {
     708: {
         img: "dogfighter",
         eng: "Dogfighter",
+        rus: "Воздушный боец",
         pol: "As przestworzy",
         sch: "飞行员的夹克衫",
         fre: "Le baroudeur",
@@ -7762,6 +8469,7 @@ export let dataItems = {
     709: {
         img: "antarctic_parka",
         eng: "Antarctic Parka",
+        rus: "Антарктическая парка",
         pol: "Antarktyczna parka",
         sch: "南极御寒大衣",
         fre: "Parka antarctique",
@@ -7773,6 +8481,7 @@ export let dataItems = {
     710: {
         img: "runners_warm_up",
         eng: "Runner's Warm-Up",
+        rus: "Разминка бегуна",
         pol: "Zimowa rozgrzewka",
         sch: "跑垒者的护耳帽",
         fre: "Réchauffement du coureur",
@@ -7784,6 +8493,7 @@ export let dataItems = {
     711: {
         img: "highland_high_heels",
         eng: "Highland High Heels",
+        rus: "Высокогорные высокие сапоги",
         pol: "Taternicze tartanowe trapery",
         sch: "高地人的高跟靴",
         fre: "Talons des Highlands",
@@ -7795,6 +8505,7 @@ export let dataItems = {
     712: {
         img: "tartan_tyrolean",
         eng: "Tartan Tyrolean",
+        rus: "Тирольская тартановая шляпа",
         pol: "Tyrolski tartan",
         sch: "苏格兰方格花纹提洛帽",
         fre: "Tyrolien écossais",
@@ -7806,6 +8517,7 @@ export let dataItems = {
     713: {
         img: "marshalls_mutton_chops",
         eng: "Marshall's Mutton Chops",
+        rus: "Бакенбарды маршала",
         pol: "Pekaesy pułkownika",
         sch: "警长的白花胡子",
         fre: "Favoris du Marshall",
@@ -7817,6 +8529,7 @@ export let dataItems = {
     714: {
         img: "ticket_boy",
         eng: "Ticket Boy",
+        rus: "Билетер",
         pol: "Bileter",
         sch: "查票小哥",
         fre: "Le Tickettier",
@@ -7828,6 +8541,7 @@ export let dataItems = {
     715: {
         img: "ground_control",
         eng: "Ground Control",
+        rus: "Авиадиспетчер",
         pol: "Halo, tu wieża",
         sch: "地面控制",
         fre: "Contrôleur terrestre",
@@ -7839,6 +8553,7 @@ export let dataItems = {
     716: {
         img: "killers_kit",
         eng: "Killer's Kit",
+        rus: "Комплект киллера",
         pol: "Zestaw zabijaki",
         sch: "杀手的工具包",
         fre: "Le kit du tueur",
@@ -7850,6 +8565,7 @@ export let dataItems = {
     717: {
         img: "cute_suit",
         eng: "Cute Suit",
+        rus: "Милый костюм",
         pol: "Ziomek błyskawiczny",
         sch: "超萌外套",
         fre: "La jolie combi",
@@ -7861,6 +8577,7 @@ export let dataItems = {
     718: {
         img: "sole_mate",
         eng: "Sole Mate",
+        rus: "Рыбный день",
         pol: "Bratnia gorbusza",
         sch: "大嘴情侣",
         fre: "Sole partenaire",
@@ -7872,6 +8589,7 @@ export let dataItems = {
     719: {
         img: "bushi_dou",
         eng: "Bushi-Dou",
+        rus: "Бушидо",
         pol: "Bushi-Dou",
         sch: "武士道",
         fre: "Bushi-Dou",
@@ -7881,6 +8599,7 @@ export let dataItems = {
     720: {
         img: "dark_falkirk_helm",
         eng: "Dark Falkirk Helm",
+        rus: "Черный фолкеркский шлем",
         pol: "Mroczna przyłbica",
         sch: "黑暗的福尔柯克头盔",
         fre: "Le sombre casque de Falkirk",
@@ -7892,6 +8611,7 @@ export let dataItems = {
     721: {
         img: "juggernaut_jacket",
         eng: "Juggernaut Jacket",
+        rus: "Жилет разрушителя",
         pol: "Kozacki kevlar",
         sch: "霸王夹克衫",
         fre: "Tenue anti-explosifs",
@@ -7903,6 +8623,7 @@ export let dataItems = {
     722: {
         img: "sangu_sleeves",
         eng: "Sangu Sleeves",
+        rus: "Рукава самурая",
         pol: "Samurajskie sangu",
         sch: "甲胄护腕",
         fre: "Les brassards Sangu",
@@ -7914,6 +8635,7 @@ export let dataItems = {
     723: {
         img: "sole_saviors",
         eng: "Sole Saviors",
+        rus: "Спасители ступней",
         pol: "Nikczemne nagolennice",
         sch: "脚丫救世主",
         fre: "Les sauveur de semelles",
@@ -7925,6 +8647,7 @@ export let dataItems = {
     724: {
         img: "stylish_degroot",
         eng: "Stylish DeGroot",
+        rus: "Стильный ДеГрут",
         pol: "Stylowy DeGroot",
         sch: "时髦的头带",
         fre: "Élégant DeGroot",
@@ -7936,6 +8659,7 @@ export let dataItems = {
     725: {
         img: "bullet_buzz",
         eng: "Bullet Buzz",
+        rus: "Визг пуль",
         pol: "Jak kula do jeża",
         sch: "子弹配平头",
         fre: "Balle règlementaire",
@@ -7947,6 +8671,7 @@ export let dataItems = {
     726: {
         img: "combat_slacks",
         eng: "Combat Slacks",
+        rus: "Боевые брюки",
         pol: "Bitewne bambetle",
         sch: "格斗便裤",
         fre: "Tenue de combat",
@@ -7958,6 +8683,7 @@ export let dataItems = {
     727: {
         img: "eliminators_safeguard",
         eng: "Eliminator's Safeguard",
+        rus: "Шлем уничтожителя",
         pol: "Ochrona likwidatora",
         sch: "歼灭者的防暴头盔",
         fre: "La protection du destructeur",
@@ -7969,6 +8695,7 @@ export let dataItems = {
     728: {
         img: "gone_commando",
         eng: "Gone Commando",
+        rus: "Коммандо",
         pol: "Kolosalny komandos",
         sch: "剥光的突击兵",
         fre: "Passé commando",
@@ -7980,6 +8707,7 @@ export let dataItems = {
     729: {
         img: "heavy_lifter",
         eng: "Heavy Lifter",
+        rus: "Тяжеловес",
         pol: "Potężny paker",
         sch: "健硕的举重运动员",
         fre: "L'haltérophile",
@@ -7991,6 +8719,7 @@ export let dataItems = {
     730: {
         img: "leftover_trap",
         eng: "Leftover Trap",
+        rus: "Пережиток прошлого",
         pol: "Pułapka na okruchy",
         sch: "大胡子陷阱",
         fre: "Le piège à miettes",
@@ -8002,6 +8731,7 @@ export let dataItems = {
     731: {
         img: "rat_stompers",
         eng: "Rat Stompers",
+        rus: "Крысодавы",
         pol: "Kamasze kloszarda",
         sch: "耗子践踏者",
         fre: "Les Bottes Anti-rat",
@@ -8013,6 +8743,7 @@ export let dataItems = {
     732: {
         img: "sammy_cap",
         eng: "Sammy Cap",
+        rus: "Бутерная шляпа",
         pol: "Kanapułapka",
         sch: "三明治之帽",
         fre: "L'attrape Sammy",
@@ -8024,6 +8755,7 @@ export let dataItems = {
     733: {
         img: "trash_man",
         eng: "Trash Man",
+        rus: "Мусорщик",
         pol: "Mycka menela",
         sch: "拾荒者之帽",
         fre: "Éboueur Man",
@@ -8035,6 +8767,7 @@ export let dataItems = {
     734: {
         img: "war_goggles",
         eng: "War Goggles",
+        rus: "Военные консервы",
         pol: "Gogle wojenne",
         sch: "战争护目镜",
         fre: "Les lunettes de guerre",
@@ -8046,6 +8779,7 @@ export let dataItems = {
     735: {
         img: "warmth_preserver",
         eng: "Warmth Preserver",
+        rus: "Теплохранитель",
         pol: "Ocieplana kamizela",
         sch: "保暖的无袖羽绒",
         fre: "Le Conservateur de chaleur",
@@ -8057,6 +8791,7 @@ export let dataItems = {
     736: {
         img: "antarctic_researcher",
         eng: "Antarctic Researcher",
+        rus: "Исследователь Антарктиды",
         pol: "Arktyczny odkrywca",
         sch: "南极研究员",
         fre: "Le chercheur polaire",
@@ -8068,6 +8803,7 @@ export let dataItems = {
     737: {
         img: "ein",
         eng: "Ein",
+        rus: "Эйн",
         pol: "Ein",
         sch: "矿工的金丝雀",
         fre: "Ein",
@@ -8077,6 +8813,7 @@ export let dataItems = {
     738: {
         img: "scotch_saver",
         eng: "Scotch Saver",
+        rus: "Хранитель скотча",
         pol: "Łapacz whisky",
         sch: "苏格兰节俭者",
         fre: "Le sauveur de scotch",
@@ -8088,6 +8825,7 @@ export let dataItems = {
     739: {
         img: "trenchers_topper",
         eng: "Trencher's Topper",
+        rus: "Траншейный шлем",
         pol: "Okopowa osłona",
         sch: "战壕兵的礼帽",
         fre: "Le couvre-chef des tranchées",
@@ -8099,6 +8837,7 @@ export let dataItems = {
     740: {
         img: "trenchers_tunic",
         eng: "Trencher's Tunic",
+        rus: "Одежда окопника",
         pol: "Okopowe odzienie",
         sch: "战壕兵的束腰外衣",
         fre: "La tunique des tranchées",
@@ -8110,6 +8849,7 @@ export let dataItems = {
     741: {
         img: "colonels_coat",
         eng: "Colonel's Coat",
+        rus: "Пальто полковника",
         pol: "Odzienie oficera",
         sch: "陆军上校的大衣",
         fre: "La veste du colonel",
@@ -8121,6 +8861,7 @@ export let dataItems = {
     742: {
         img: "dough_puncher",
         eng: "Dough Puncher",
+        rus: "Полевой пекарь",
         pol: "Krawat kuchcika",
         sch: "揉面大厨的工作服",
         fre: "Le batteur de pâte",
@@ -8132,6 +8873,7 @@ export let dataItems = {
     743: {
         img: "fashionable_megalomaniac",
         eng: "Fashionable Megalomaniac",
+        rus: "Модный мегаломаньяк",
         pol: "Modny megaloman",
         sch: "时髦的自大狂",
         fre: "La mode du mégalomane",
@@ -8143,6 +8885,7 @@ export let dataItems = {
     744: {
         img: "gaiter_guards",
         eng: "Gaiter Guards",
+        rus: "Сторож в гетрах",
         pol: "Germańskie gamasze",
         sch: "绑腿守卫",
         fre: "Le protecteur des guêtres",
@@ -8154,6 +8897,7 @@ export let dataItems = {
     745: {
         img: "heat_of_winter",
         eng: "Heat of Winter",
+        rus: "Зимнее тепло",
         pol: "Zimna wojna",
         sch: "冬天里的一把热",
         fre: "La Chaleur de l'hiver",
@@ -8165,6 +8909,7 @@ export let dataItems = {
     746: {
         img: "heers_helmet",
         eng: "Heer's Helmet",
+        rus: "Армейский шлем",
         pol: "Hełm Heeru",
         sch: "德国陆军的头盔",
         fre: "Le Casque de la Heer",
@@ -8176,6 +8921,7 @@ export let dataItems = {
     747: {
         img: "mustachioed_mann",
         eng: "Mustachioed Mann",
+        rus: "Усатый Манн",
         pol: "Wąsaty wodzirej",
         sch: "长胡子曼恩",
         fre: "Le moustachu",
@@ -8187,6 +8933,7 @@ export let dataItems = {
     748: {
         img: "smock_surgeon",
         eng: "Smock Surgeon",
+        rus: "Практичный передник",
         pol: "Fartuch felczera",
         sch: "外科医生的工作服",
         fre: "Le tablier de chirurgien",
@@ -8198,6 +8945,7 @@ export let dataItems = {
     749: {
         img: "teutonic_toque",
         eng: "Teutonic Toque",
+        rus: "Тевтонский колпак",
         pol: "Kapelusz kuchcika",
         sch: "日耳曼大厨帽",
         fre: "La toque teutonique",
@@ -8209,6 +8957,7 @@ export let dataItems = {
     750: {
         img: "archers_groudings",
         eng: "Archer's Groundings",
+        rus: "Опора лучника",
         pol: "Trzewiki łucznika",
         sch: "射手之靴",
         fre: "Bottines de l'archer",
@@ -8220,6 +8969,7 @@ export let dataItems = {
     751: {
         img: "huntsmans_essentials",
         eng: "Huntsman's Essentials",
+        rus: "Принадлежности охотника",
         pol: "Niezbędnik łowcy",
         sch: "猎手的必需品",
         fre: "Les indispensables du Huntsman",
@@ -8231,6 +8981,7 @@ export let dataItems = {
     752: {
         img: "toowoomba_tunic",
         eng: "Toowoomba Tunic",
+        rus: "Тувумбская туника",
         pol: "Tunika z Toowoomba",
         sch: "图文巴束腰外衣",
         fre: "La Tunique de Toowoomba",
@@ -8242,6 +8993,7 @@ export let dataItems = {
     753: {
         img: "backstabbers_boomslang",
         eng: "Backstabber's Boomslang",
+        rus: "Ужик убийцы",
         pol: "Zdradziecki zaskroniec",
         sch: "背刺者之蛇",
         fre: "Le Boomslang du poignardage",
@@ -8253,6 +9005,7 @@ export let dataItems = {
     754: {
         img: "napoleon_complex",
         eng: "Napoleon Complex",
+        rus: "Наполеонский комплекс",
         pol: "Napoleon Szedł-w-Zaparte",
         sch: "拿破仑情结",
         fre: "Le Complexe de Napoléon",
@@ -8264,6 +9017,7 @@ export let dataItems = {
     755: {
         img: "deep_cover_operator",
         eng: "Deep Cover Operator",
+        rus: "Оперативник под прикрытием",
         pol: "Zabili go i uciekł",
         sch: "潜行大师",
         fre: "L'agent sous couverture",
@@ -8275,6 +9029,7 @@ export let dataItems = {
     756: {
         img: "law",
         eng: "Law",
+        rus: "Закон",
         pol: "Dzielnicowy",
         sch: "警官大檐帽",
         fre: "La loi",
@@ -8286,6 +9041,7 @@ export let dataItems = {
     757: {
         img: "pretty_boys_pocket_pistol",
         eng: "Pretty Boy's Pocket Pistol",
+        rus: "Дамский пистолет Красавчика",
         pol: "Poręczny pistolet Pretty Boya",
         sch: "帅气男孩的袖珍手枪",
         fre: "Le Pistolet de Poche du Beau Gosse",
@@ -8298,6 +9054,7 @@ export let dataItems = {
     758: {
         img: "phlogistinator",
         eng: "Phlogistinator",
+        rus: "Флогистонатор",
         pol: "Flogistynator",
         sch: "燃素喷射器",
         fre: "Le Phlogistinateur",
@@ -8310,6 +9067,7 @@ export let dataItems = {
     759: {
         img: "cleaners_carbine",
         eng: "Cleaner's Carbine",
+        rus: "Карабин Чистильщика",
         pol: "Spluwa sprzątacza",
         sch: "扫荡者卡宾",
         fre: "La Carabine du Nettoyeur",
@@ -8322,6 +9080,7 @@ export let dataItems = {
     760: {
         img: "strange_cosmetic_part_kills",
         eng: "Strange Cosmetic Part: Kills",
+        rus: "Странный счётчик аксессуара: убийства",
         pol: "Kuriozalna część dla przedmiotów ozdobnych: Zabici",
         sch: "奇异饰品部件：杀敌数",
         fre: "Pièce cosmétique étrange : Victimes",
@@ -8333,6 +9092,7 @@ export let dataItems = {
     761: {
         img: "strange_part_full_health_kills",
         eng: "Strange Part: Full Health Kills",
+        rus: "Странный счётчик: убийства с полным здоровьем",
         pol: "Kuriozalna część: Zabójstw z pełnym zdrowiem",
         sch: "奇异武器升级部件：满血杀敌数",
         fre: "Victimes lorsque santé est au maximum",
@@ -8344,6 +9104,7 @@ export let dataItems = {
     762: {
         img: "giftapult",
         eng: "Giftapult",
+        rus: "Подаркопульта",
         pol: "Daropulta",
         fre: "Cadeaupulte",
         sch: "礼物发射器",
@@ -8355,6 +9116,7 @@ export let dataItems = {
     763: {
         img: "strange_count_transfer_tool",
         eng: "Strange Count Transfer Tool",
+        rus: "Обменник странных счётчиков",
         pol: "Narzędzie przekazujące statystykę kuriozum",
         fre: "Outil de transfert de compteur étrange",
         sch: "奇异计数转移工具",
@@ -8366,6 +9128,7 @@ export let dataItems = {
     764: {
         img: "killstreak_kit",
         eng: "Killstreak #ITEM# Kit",
+        rus: "Набор серии убийств - #ITEM#",
         pol: "Zestaw serii zabójstw: #ITEM#",
         fre: "Kit: #ITEM# Killstreak",
         sch: "连杀记录式 #ITEM# 工具包",
@@ -8377,6 +9140,7 @@ export let dataItems = {
     765: {
         img: "specialized_killstreak_kit",
         eng: "Specialized Killstreak #ITEM# Kit",
+        rus: "Набор особо опасного убийцы - #ITEM#",
         pol: "Zestaw wyspecjalizowanej serii zabójstw: #ITEM#",
         fre: "Kit: #ITEM# Killstreak spécialisé",
         sch: "高级连杀记录式 #ITEM# 工具包",
@@ -8388,6 +9152,7 @@ export let dataItems = {
     766: {
         img: "professional_killstreak_kit",
         eng: "Professional Killstreak #ITEM# Kit",
+        rus: "Набор профессионального убийцы - #ITEM#",
         pol: "Zestaw profesjonalnej serii zabójstw: #ITEM#",
         fre: "Kit: #ITEM# Killstreak professionnel",
         sch: "职业连杀记录式 #ITEM# 工具包",
@@ -8399,6 +9164,7 @@ export let dataItems = {
     767: {
         img: "tour_of_duty_ticket",
         eng: "Tour of Duty Ticket",
+        rus: "Командировочный билет",
         pol: "Bilet służby wojskowej",
         fre: "Ticket de Tour of Duty",
         sch: "使命之旅入场券",
@@ -8410,6 +9176,7 @@ export let dataItems = {
     768: {
         img: "backpack_expander",
         eng: "Backpack Expander",
+        rus: "Расширитель рюкзака",
         pol: "Rozszerzacz plecaka",
         fre: "Agrandisseur d'Inventaire",
         sch: "背包扩充工具",
@@ -8421,6 +9188,7 @@ export let dataItems = {
     769: {
         img: "decal_tool",
         eng: "Decal Tool",
+        rus: "Инструмент для нанесения наклеек",
         pol: "Naklejka",
         fre: "Outil de décalcomanie",
         sch: "贴纸工具",
@@ -8432,6 +9200,7 @@ export let dataItems = {
     770: {
         img: "unusualifier",
         eng: "#ITEM# Unusualifier",
+        rus: "Необычнотизатор необычного типа - #ITEM#",
         pol: "Uniezwyklacz: #ITEM#",
         fre: "Inhabituellisateur: #ITEM#",
         sch: "#ITEM# 稀有转化魔法",
@@ -8443,6 +9212,7 @@ export let dataItems = {
     771: {
         img: "aged_moustache_grey",
         eng: "Aged Moustache Grey",
+        rus: "Серый седого усача",
         pol: "Szarość wiekowych wąsów",
         fre: "Gris Moustache Grisonnante",
         sch: "老年胡须灰",
@@ -8454,6 +9224,7 @@ export let dataItems = {
     772: {
         img: "mutated_milk",
         eng: "Mutated Milk",
+        rus: "Мутировавшее молоко",
         pol: "Zmutowane mleko",
         sch: "突变牛奶",
         fre: "Lait mutant",
@@ -8465,6 +9236,7 @@ export let dataItems = {
     773: {
         img: "bread_bite",
         eng: "Bread Bite",
+        rus: "Кусай-хлеб",
         pol: "Chlebogryzarka",
         sch: "咬人的面包",
         fre: "La Morsure du pain",
@@ -8476,6 +9248,7 @@ export let dataItems = {
     774: {
         img: "self_aware_beauty_mark",
         eng: "Self-Aware Beauty Mark",
+        rus: "Родинка с самосознанием",
         pol: "Samoświadomy pieprzyk",
         sch: "迷人的生命体",
         fre: "Le grain de beauté conscient",
@@ -8487,6 +9260,7 @@ export let dataItems = {
     775: {
         img: "snack_attack",
         eng: "Snack Attack",
+        rus: "Закусочная атака",
         pol: "Atak przekąską",
         sch: "进击的零食",
         fre: "L'Attaque du snack",
@@ -8498,6 +9272,7 @@ export let dataItems = {
     776: {
         img: "argyle_ace",
         eng: "Argyle Ace",
+        rus: "Офисная обувка",
         pol: "Kraciasty krok",
         sch: "时髦鞋袜",
         fre: "Les Chaussettes à carreaux",
@@ -8509,6 +9284,7 @@ export let dataItems = {
     777: {
         img: "frickin_sweet_ninja_hood",
         eng: "Frickin' Sweet Ninja Hood",
+        rus: "Чертовски клевый капюшон ниндзя",
         pol: "Przesłodki kaptur ninja",
         sch: "忍者小斗篷",
         fre: "La Capuche ninja carrément cool",
@@ -8520,6 +9296,7 @@ export let dataItems = {
     778: {
         img: "paisley_pro",
         eng: "Paisley Pro",
+        rus: "Турецкий огурчик",
         pol: "Paislejowe polo",
         sch: "佩斯利花边衬衫",
         fre: "Le Paisley du pro",
@@ -8531,6 +9308,7 @@ export let dataItems = {
     779: {
         img: "pomade_prince",
         eng: "Pomade Prince",
+        rus: "Прилизанный принц",
         pol: "Pan pomada",
         sch: "王子的发油头",
         fre: "Le Prince du gel",
@@ -8542,6 +9320,7 @@ export let dataItems = {
     780: {
         img: "red_socks",
         eng: "Red Socks",
+        rus: "Ред Сокс",
         pol: "Czerwone skarpety",
         sch: "红袜子",
         fre: "Les Chaussettes Rouges",
@@ -8553,6 +9332,7 @@ export let dataItems = {
     781: {
         img: "southie_shinobi",
         eng: "Southie Shinobi",
+        rus: "Синоби южного Бостона",
         pol: "Ninja spod Bostonu",
         sch: "南方小忍者",
         fre: "Le Shinobi de Boston",
@@ -8564,6 +9344,7 @@ export let dataItems = {
     782: {
         img: "classified_coif",
         eng: "Classified Coif",
+        rus: "Засекреченная шапка",
         pol: "Marynarka agenta",
         sch: "公务员的风衣",
         fre: "Le Col Blanc",
@@ -8575,6 +9356,7 @@ export let dataItems = {
     783: {
         img: "man_in_slacks",
         eng: "Man in Slacks",
+        rus: "Слаксы",
         pol: "Facet w spodniach",
         sch: "黑裤人",
         fre: "L'Homme de Goût",
@@ -8586,6 +9368,7 @@ export let dataItems = {
     784: {
         img: "spook_specs",
         eng: "Spook Specs",
+        rus: "Шпионские очки",
         pol: "Okulary tajniaka",
         sch: "秘密探员墨镜",
         fre: "Les Lunettes Secrètes",
@@ -8597,6 +9380,7 @@ export let dataItems = {
     785: {
         img: "combustible_kabuto",
         eng: "Combustible Kabuto",
+        rus: "Кабуто внутреннего сгорания",
         pol: "Łatwopalne kabuto",
         sch: "易燃武士盔",
         fre: "Le Kabuto Inflammable",
@@ -8608,6 +9392,7 @@ export let dataItems = {
     786: {
         img: "employee_of_the_mmmph",
         eng: "Employee of the Mmmph",
+        rus: "Работник мммпфсца",
         pol: "Pracownik mmmphca",
         sch: "麦呜唔快餐员工",
         fre: "Employé du Mmmph",
@@ -8619,6 +9404,7 @@ export let dataItems = {
     787: {
         img: "frymaster",
         eng: "Frymaster",
+        rus: "Мастер поджарки",
         pol: "Mistrz kuchni",
         sch: "油炸活人",
         fre: "Le Maître ès Frites",
@@ -8630,6 +9416,7 @@ export let dataItems = {
     788: {
         img: "gas_guzzler",
         eng: "Gas Guzzler",
+        rus: "Пожиратель топлива",
         pol: "Pożeracz paliwa",
         sch: "跑车排气管",
         fre: "L'Usine à Gaz",
@@ -8641,6 +9428,7 @@ export let dataItems = {
     789: {
         img: "lunatics_leathers",
         eng: "Lunatic's Leathers",
+        rus: "Кожанка безумца",
         pol: "Skórzany szaleniec",
         sch: "疯狂车手的皮衣",
         fre: "Le Cuir du Dérangé",
@@ -8652,6 +9440,7 @@ export let dataItems = {
     790: {
         img: "sengoku_scorcher",
         eng: "Sengoku Scorcher",
+        rus: "Стиляга Сэнгоку",
         pol: "Podpalacz z Sengoku",
         sch: "本能寺纵火者",
         fre: "Fougue Sengoku",
@@ -8663,6 +9452,7 @@ export let dataItems = {
     791: {
         img: "smoking_skid_lid",
         eng: "Smoking Skid Lid",
+        rus: "Шальной шлем",
         pol: "Apokaliptyczny kask",
         sch: "冒烟尖顶盔",
         fre: "Le Casque à pointe du flambeur",
@@ -8674,6 +9464,7 @@ export let dataItems = {
     792: {
         img: "allbrero",
         eng: "Allbrero",
+        rus: "Оллбреро",
         pol: "Bylibrero",
         sch: "墨西哥草帽",
         fre: "Le sombre héros",
@@ -8685,6 +9476,7 @@ export let dataItems = {
     793: {
         img: "frontier_djustice",
         eng: "Frontier Djustice",
+        rus: "Джангосуд",
         pol: "Dsamosąd",
         sch: "墨西哥边疆正义",
         fre: "La Djustice Frontalière",
@@ -8696,6 +9488,7 @@ export let dataItems = {
     794: {
         img: "razor_cut",
         eng: "Razor Cut",
+        rus: "Ирокез",
         pol: "Ostry fryz",
         sch: "剃刀发型",
         fre: "La Coupe au rasoir",
@@ -8707,6 +9500,7 @@ export let dataItems = {
     795: {
         img: "seeing_double",
         eng: "Seeing Double",
+        rus: "Двойная порция",
         pol: "Widzenie zdwojone",
         sch: "醉汉太阳镜",
         fre: "Double vision",
@@ -8718,6 +9512,7 @@ export let dataItems = {
     796: {
         img: "six_pack_abs",
         eng: "Six Pack Abs",
+        rus: "Пивной пресс",
         pol: "Sześciopak",
         sch: "六瓶装啤酒",
         fre: "Les tablettes de chocolat",
@@ -8729,6 +9524,7 @@ export let dataItems = {
     797: {
         img: "yuris_revenge",
         eng: "Yuri's Revenge",
+        rus: "Месть Юрия",
         pol: "Zemsta Jurija",
         sch: "尤里的复仇",
         fre: "Revanche de Yuri",
@@ -8740,6 +9536,7 @@ export let dataItems = {
     798: {
         img: "danger",
         eng: "Danger",
+        rus: "Опасность",
         pol: "Zagrożenie",
         sch: "绝命毒工",
         fre: "Le Danger",
@@ -8751,6 +9548,7 @@ export let dataItems = {
     799: {
         img: "eggheads_overalls",
         eng: "Egghead's Overalls",
+        rus: "Комбинезон яйцеголового",
         pol: "Okrągłości jajogłowego",
         sch: "书呆子衬衫",
         fre: "La blouse de l'intello",
@@ -8762,6 +9560,7 @@ export let dataItems = {
     800: {
         img: "endothermic_exowear",
         eng: "Endothermic Exowear",
+        rus: "Эндотермическая одежда",
         pol: "Endotermiczne egzoubranie",
         sch: "吸热外套",
         fre: "L'Exo-combi Endothermique",
@@ -8773,6 +9572,7 @@ export let dataItems = {
     801: {
         img: "joe_on_the_go",
         eng: "Joe-on-the-Go",
+        rus: "Джо-в-рюкзаке-тесно",
         pol: "Przenośny inżynier",
         sch: "偷运宇航猴",
         fre: "Le Joe-Sac-à-Dos",
@@ -8784,6 +9584,7 @@ export let dataItems = {
     802: {
         img: "level_three_chin",
         eng: "Level Three Chin",
+        rus: "Трехэтажный подбородок",
         pol: "Potrójny podbródek",
         sch: "肉肉的下巴",
         fre: "Le Triple Menton",
@@ -8795,6 +9596,7 @@ export let dataItems = {
     803: {
         img: "lonesome_loafers",
         eng: "Lonesome Loafers",
+        rus: "Унылый уникум",
         pol: "Łapcie łamagi",
         sch: "孤独一生的凉鞋",
         fre: "Les Mocassins du solitaire",
@@ -8806,6 +9608,7 @@ export let dataItems = {
     804: {
         img: "peaceniks_ponytail",
         eng: "Peacenik's Ponytail",
+        rus: "Поньский хвост пацифиста",
         pol: "Kucyk pacyfisty",
         sch: "反战分子的马尾头",
         fre: "La Queue de Cheval du Pacifiste",
@@ -8817,6 +9620,7 @@ export let dataItems = {
     805: {
         img: "tools_of_the_trade",
         eng: "Tools of the Trade",
+        rus: "Орудия ремесла",
         pol: "Narzędzia fachu",
         sch: "工具背心",
         fre: "Les Bons Outils",
@@ -8828,6 +9632,7 @@ export let dataItems = {
     806: {
         img: "chronoscarf",
         eng: "Chronoscarf",
+        rus: "Хроношарф",
         pol: "Chronoszalik",
         sch: "时空围巾",
         fre: "L'Écharpe temporelle",
@@ -8839,6 +9644,7 @@ export let dataItems = {
     807: {
         img: "medicine_manpurse",
         eng: "Medicine Manpurse",
+        rus: "Сумка cанитара",
         pol: "Torba medyczna",
         sch: "装药的男式手袋",
         fre: "La sacoche médicinale",
@@ -8850,6 +9656,7 @@ export let dataItems = {
     808: {
         img: "ze_ubermensch",
         eng: "Ze Übermensch",
+        rus: "Сверхчеловек",
         pol: "Ze Übermensch",
         sch: "尼采的超人胡子",
         fre: "Ze Übermensch",
@@ -8861,6 +9668,7 @@ export let dataItems = {
     809: {
         img: "scopers_smoke",
         eng: "Scoper's Smoke",
+        rus: "Курево киллера",
         pol: "Fajka teleskopowa",
         sch: "烟枪狙击手",
         fre: "La Cigarette du Scoper",
@@ -8872,6 +9680,7 @@ export let dataItems = {
     810: {
         img: "triggermans_tacticals",
         eng: "Triggerman's Tacticals",
+        rus: "Карго киллера",
         pol: "Spodnie strzelca",
         sch: "射手的战术长裤",
         fre: "Le Bouffant du braqueur",
@@ -8883,6 +9692,7 @@ export let dataItems = {
     811: {
         img: "au_courant_assassin",
         eng: "Au Courant Assassin",
+        rus: "Знаток-убийца",
         pol: "Zabójca au courant",
         sch: "熟练杀手",
         fre: "L'assassin au courant",
@@ -8894,6 +9704,7 @@ export let dataItems = {
     812: {
         img: "aviator_assassin",
         eng: "Aviator Assassin",
+        rus: "Пилот-убийца",
         pol: "Podniebny zabójca",
         sch: "空中刺客",
         fre: "L'Aviateur Malfaiteur",
@@ -8905,6 +9716,7 @@ export let dataItems = {
     813: {
         img: "rogues_robe",
         eng: "Rogue's Robe",
+        rus: "Воровская одежда",
         pol: "Szlafrok łotra",
         sch: "盗贼长袍",
         fre: "Le Kimono du voyou",
@@ -8916,6 +9728,7 @@ export let dataItems = {
     814: {
         img: "sky_captain",
         eng: "Sky Captain",
+        rus: "Капитан поднебесья",
         pol: "Podniebny kapitan",
         sch: "机长制服",
         fre: "Le Commandant de bord",
@@ -8927,6 +9740,7 @@ export let dataItems = {
     815: {
         img: "mercs_mohawk",
         eng: "Merc's Mohawk",
+        rus: "Ирокез наемника",
         pol: "Irokez najemnika",
         sch: "佣兵的莫西干发型",
         fre: "Le Mohawk de mercenaire",
@@ -8938,6 +9752,7 @@ export let dataItems = {
     816: {
         img: "bruisers_bandanna",
         eng: "Bruiser's Bandanna",
+        rus: "Бандана Бандита",
         pol: "Bandana pięściarza",
         sch: "彪形大汉面罩",
         fre: "Le Bandana du Bandito",
@@ -8949,6 +9764,7 @@ export let dataItems = {
     817: {
         img: "eye_catcher",
         eng: "Eye-Catcher",
+        rus: "Повязка пирата",
         pol: "Oczko w głowie",
         sch: "独眼龙",
         fre: "Le Tape-à-l'Oeil",
@@ -8960,6 +9776,7 @@ export let dataItems = {
     818: {
         img: "tipped_lid",
         eng: "Tipped Lid",
+        rus: "Благотворительная шляпка",
         pol: "Przechylony dekiel",
         sch: "卷边小礼帽",
         fre: "Le Chapeau bas",
@@ -8971,6 +9788,7 @@ export let dataItems = {
     819: {
         img: "vive_la_france",
         eng: "Vive La France",
+        rus: "Вив ля Франс",
         pol: "Wiwat Fhąsja",
         sch: "法兰西万岁",
         fre: "Vive La France",
@@ -8980,6 +9798,7 @@ export let dataItems = {
     820: {
         img: "ye_olde_rustic_colour",
         eng: "Ye Olde Rustic Colour",
+        rus: "Старый грубый цвет",
         pol: "Odcień zaiste rdzawy",
         fre: "La Bonne Vieille Couleur des Familles",
         sch: "老式乡村啡色",
@@ -8991,6 +9810,7 @@ export let dataItems = {
     821: {
         img: "an_air_of_debonair",
         eng: "An Air of Debonair",
+        rus: "Атмосфера любезности",
         pol: "Powiew elegancji",
         fre: "Un Air de Débonnaire",
         sch: "优雅的姿态",
@@ -9002,6 +9822,7 @@ export let dataItems = {
     822: {
         img: "balaclavas_are_forever",
         eng: "Balaclavas Are Forever",
+        rus: "Балаклавы навсегда",
         pol: "Kominiarki są wieczne",
         fre: "Les Cagoules Sont Éternelles",
         sch: "不朽的巴拉克拉瓦",
@@ -9013,6 +9834,7 @@ export let dataItems = {
     823: {
         img: "cream_spirit",
         eng: "Cream Spirit",
+        rus: "Кремовый дух",
         pol: "Duch kremówki",
         fre: "Esprit Crème",
         sch: "奶油精神",
@@ -9024,6 +9846,7 @@ export let dataItems = {
     824: {
         img: "operators_overalls",
         eng: "Operator's Overalls",
+        rus: "Комбинезон рабочего",
         pol: "Ogrodniczki operatora",
         fre: "Salopette de l'Engineer",
         sch: "技工的工作服",
@@ -9035,6 +9858,7 @@ export let dataItems = {
     825: {
         img: "the_value_of_teamwork",
         eng: "The Value of Teamwork",
+        rus: "Значение командной игры",
         pol: "Wartość współpracy",
         fre: "L'Importance du Travail d'Équipe",
         sch: "团队之力",
@@ -9046,6 +9870,7 @@ export let dataItems = {
     826: {
         img: "waterlogged_lab_coat",
         eng: "Waterlogged Lab Coat",
+        rus: "Мокрый лабораторный халат",
         pol: "Przemoknięty kitel laboratoryjny",
         fre: "Blouse de Labo Détrempée",
         sch: "浸满水的实验工作服",
@@ -9057,6 +9882,7 @@ export let dataItems = {
     827: {
         img: "aerobatics_demonstrator",
         eng: "Aerobatics Demonstrator",
+        rus: "Инструктор по аэробатике",
         pol: "Lot pokazowy",
         fre: "Démonstrateur de voltige aérienne",
         sch: "醉酒驾机",
@@ -9068,6 +9894,7 @@ export let dataItems = {
     828: {
         img: "final_frontier_freighter",
         eng: "Final Frontier Freighter",
+        rus: "Реактивный фрахтовщик",
         pol: "Końcowe odliczanie",
         fre: "Transporteur de l'ultime frontière",
         sch: "航地飞机",
@@ -9079,6 +9906,7 @@ export let dataItems = {
     829: {
         img: "hovering_hotshot",
         eng: "Hovering Hotshot",
+        rus: "Бреющий воспалитель",
         pol: "Helikopter w ogniu",
         fre: "Super hélice",
         sch: "人肉直升机",
@@ -9090,6 +9918,7 @@ export let dataItems = {
     830: {
         img: "classic",
         eng: "Classic",
+        rus: "Классическая",
         pol: "Klasycznie",
         sch: "经典",
         fre: "Classique",
@@ -9102,6 +9931,7 @@ export let dataItems = {
     831: {
         img: "manmelter",
         eng: "Manmelter",
+        rus: "Людоплав",
         pol: "Człekoroztapiacz",
         sch: "熔人枪",
         fre: "Le Fissionneur",
@@ -9114,6 +9944,7 @@ export let dataItems = {
     832: {
         img: "crocodile_mun_dee",
         eng: "Crocodile Mun-Dee",
+        rus: "Крокодил Манди",
         pol: "Krokodyl Mun-Dee",
         fre: "Crocodile Mun-Dee",
         sch: "全员鳄人",
@@ -9125,6 +9956,7 @@ export let dataItems = {
     833: {
         img: "strange_part_robot_scouts_destroyed",
         eng: "Strange Part: Robot Scouts Destroyed",
+        rus: "Странный счётчик: уничтоженные роботы-разведчики",
         pol: "Kuriozalna część: Zniszczeni roboskauci",
         sch: "奇异武器升级部件：机器人侦察兵消灭数",
         fre: "Pièce étrange : Scouts Robots détruits",
@@ -9136,6 +9968,7 @@ export let dataItems = {
     834: {
         img: "strange_part_taunting_player_kills",
         eng: "Strange Part: Taunting Player Kills",
+        rus: "Странный счётчик: убийства насмехающихся игроков",
         pol: "Kuriozalna część: Zabici drwiący wrogowie",
         sch: "奇异武器升级部件：消灭正在嘲讽玩家数",
         fre: "Pièce étrange : Victimes effectuant une raillerie",
@@ -9147,6 +9980,7 @@ export let dataItems = {
     835: {
         img: "scopers_scales",
         eng: "Scoper's Scales",
+        rus: "Снайперская чешуя",
         pol: "Łuskowate łapska",
         fre: "Reptile réputé",
         sch: "鳄人鳞甲",
@@ -9158,6 +9992,7 @@ export let dataItems = {
     836: {
         img: "dell_in_the_shell",
         eng: "Dell in the Shell",
+        rus: "Панцирный Делл",
         pol: "Oczytany owodniowiec",
         fre: "Ovipare stratège",
         sch: "工壳机动队",
@@ -9170,6 +10005,7 @@ export let dataItems = {
     837: {
         img: "a_shell_of_a_mann",
         eng: "A Shell of a Mann",
+        rus: "Манн-панцирь",
         pol: "Karapaks konstruktora",
         fre: "La carapace humaine",
         sch: "仙人之壳",
@@ -9181,6 +10017,7 @@ export let dataItems = {
     838: {
         img: "nugget_noggin",
         eng: "The Nugget Noggin",
+        rus: "Цыплячья голова",
         pol: "Ptasi móżdżek",
         sch: "鸡块大王",
         fre: "La Tronche d'Escalope Panée",
@@ -9192,6 +10029,7 @@ export let dataItems = {
     839: {
         img: "fowl_fists",
         eng: "The Fowl Fists",
+        rus: "Куриные кулачки",
         pol: "Drobiowe dłonie",
         sch: "小鸡快跑",
         fre: "Les Poings Volatiles",
@@ -9203,6 +10041,7 @@ export let dataItems = {
     840: {
         img: "talon_trotters",
         eng: "The Talon Trotters",
+        rus: "Курьи ножки",
         pol: "Kamasze kurczaka",
         sch: "劲脆鸡爪",
         fre: "Les Serres Trotteuses",
@@ -9214,6 +10053,7 @@ export let dataItems = {
     841: {
         img: "head_hunter",
         eng: "The Head Hunter",
+        rus: "Охотник за головами",
         pol: "Głowca",
         sch: "Hunter 的头",
         fre: "Le Chasseur de Têtes",
@@ -9225,6 +10065,7 @@ export let dataItems = {
     842: {
         img: "claws_and_infect",
         eng: "The Claws And Infect",
+        rus: "Заразные когти",
         pol: "Splugawione szpony",
         sch: "感染之爪",
         fre: "Les Griffes Infectées",
@@ -9236,6 +10077,7 @@ export let dataItems = {
     843: {
         img: "crazy_legs",
         eng: "The Crazy Legs",
+        rus: "Сумасшедшие ноги",
         pol: "Szalone nogi",
         sch: "腐烂之足",
         fre: "Les Crazy Legs",
@@ -9247,6 +10089,7 @@ export let dataItems = {
     844: {
         img: "battle_bird",
         eng: "The Battle Bird",
+        rus: "Бойцовый петух",
         pol: "Ptak wojny",
         sch: "天鹰战士",
         fre: "L'Oiseau de bataille",
@@ -9258,6 +10101,7 @@ export let dataItems = {
     845: {
         img: "ghoul_gibbin_gear",
         eng: "The Ghoul Gibbin' Gear",
+        rus: "Набор убийцы упырей",
         pol: "Ekwipunek egzorcysty",
         sch: "尖头十字架",
         fre: "L'Équipement du Massacreur de Goules",
@@ -9269,6 +10113,7 @@ export let dataItems = {
     846: {
         img: "hellhunters_headpiece",
         eng: "The Hellhunter's Headpiece",
+        rus: "Шляпа охотника за нечистью",
         pol: "Łowca demonów",
         sch: "地狱猎手",
         fre: "Le Chapeau du Purificateur",
@@ -9280,6 +10125,7 @@ export let dataItems = {
     847: {
         img: "supernatural_stalker",
         eng: "The Supernatural Stalker",
+        rus: "Охотник за сверхъестественным",
         pol: "Upiorna chusta",
         sch: "超自然行者",
         fre: "Le Traqueur Surnaturel",
@@ -9291,6 +10137,7 @@ export let dataItems = {
     848: {
         img: "kritz_or_treat_canteen",
         eng: "The Kritz or Treat Canteen",
+        rus: "Мешочек для бонусов",
         pol: "Mannierka smakołyk albo krytyk",
         sch: "“不放爆击就捣蛋”水壶",
         fre: "Gourde Kritz ou Friandises",
@@ -9302,6 +10149,7 @@ export let dataItems = {
     849: {
         img: "creatures_grin",
         eng: "The Creature's Grin",
+        rus: "Чудовищный оскал",
         pol: "Upiorny uśmiech",
         sch: "裂面者",
         fre: "Le Sourire Monstrueux",
@@ -9313,6 +10161,7 @@ export let dataItems = {
     850: {
         img: "arsonist_apparatus",
         eng: "The Arsonist Apparatus",
+        rus: "Прибор поджигателя",
         pol: "Przyrządy podpalacza",
         sch: "纵火者之臂",
         fre: "L'Appareil Incendiaire",
@@ -9324,6 +10173,7 @@ export let dataItems = {
     851: {
         img: "moccasin_machinery",
         eng: "The Moccasin Machinery",
+        rus: "Механический мокасин",
         pol: "Mokasynowa maszyneria",
         sch: "莫卡辛机器足",
         fre: "Le Mocassin Mécanique",
@@ -9335,6 +10185,7 @@ export let dataItems = {
     852: {
         img: "lollichop_licker",
         eng: "The Lollichop Licker",
+        rus: "Лизун кледенца",
         pol: "Lizacz Lizaśka",
         sch: "糖上舔血",
         fre: "Le Sussache Lover",
@@ -9346,6 +10197,7 @@ export let dataItems = {
     853: {
         img: "mr_juice",
         eng: "Mr. Juice",
+        rus: "Мистер Джус",
         pol: "Sokopyrówka",
         sch: "果汁先生",
         fre: "M. Juteux",
@@ -9357,6 +10209,7 @@ export let dataItems = {
     854: {
         img: "vampyro",
         eng: "The Vampyro",
+        rus: "Вам-пиро",
         pol: "Wampyro",
         sch: "火焰吸血鬼",
         fre: "Le Vampyro",
@@ -9369,6 +10222,7 @@ export let dataItems = {
     855: {
         img: "forgotten_kings_restless_head",
         eng: "The Forgotten King's Restless Head",
+        rus: "Неупокоенная голова забытого короля",
         pol: "Nieznająca spoczynku głowa Zapomnianego Króla",
         sch: "鬼王的脑袋",
         fre: "La Tête Délétère du Roi Oublié",
@@ -9380,6 +10234,7 @@ export let dataItems = {
     856: {
         img: "forgotten_kings_pauldrons",
         eng: "The Forgotten King's Pauldrons",
+        rus: "Наплечники забытого короля",
         pol: "Naramienniki Zapomnianego Króla",
         sch: "鬼王的肩甲",
         fre: "Les Épaulières du Roi Oublié",
@@ -9391,6 +10246,7 @@ export let dataItems = {
     857: {
         img: "eyeborg",
         eng: "The Eyeborg",
+        rus: "Глазборг",
         pol: "Cyklopoborg",
         sch: "机器义眼",
         fre: "L'Oeilborg",
@@ -9402,6 +10258,7 @@ export let dataItems = {
     858: {
         img: "mannhattan_project",
         eng: "The Mannhattan Project",
+        rus: "Маннхэттенский проект",
         pol: "Projekt Mannhattan",
         sch: "头戴式蘑菇云",
         fre: "Le Projet Manhattan",
@@ -9413,6 +10270,7 @@ export let dataItems = {
     859: {
         img: "lil_dutchman",
         eng: "The Li'l Dutchman",
+        rus: "Маленький голландец",
         pol: "Maluśki Holender",
         sch: "诅咒之舟",
         fre: "Le P'tit Hollandais",
@@ -9424,6 +10282,7 @@ export let dataItems = {
     860: {
         img: "bone_cut_belt",
         eng: "The Bone-Cut Belt",
+        rus: "Костяной наплечник",
         pol: "Najeżony naramiennik",
         sch: "剔骨护肩",
         fre: "La Ceinture Coupe-Os",
@@ -9435,6 +10294,7 @@ export let dataItems = {
     861: {
         img: "bull_locks",
         eng: "The Bull Locks",
+        rus: "Бычья борода",
         pol: "Bycza broda",
         sch: "公牛毛发",
         fre: "Les Dreadlocks de Taureau",
@@ -9446,6 +10306,7 @@ export let dataItems = {
     862: {
         img: "minsk_beef",
         eng: "The Minsk Beef",
+        rus: "Минская говядина",
         pol: "Wół z Mińska",
         sch: "明斯克公牛",
         fre: "L' É-Minsk-é de Bœuf",
@@ -9457,6 +10318,7 @@ export let dataItems = {
     863: {
         img: "immobile_suit",
         eng: "The Immobile Suit",
+        rus: "Смирительный костюм",
         pol: "Pancerz niemobilny",
         sch: "重型胸甲",
         fre: "La Combi-mmobile",
@@ -9468,6 +10330,7 @@ export let dataItems = {
     864: {
         img: "hooded_haunter",
         eng: "The Hooded Haunter",
+        rus: "Призрак в капюшоне",
         pol: "Zakapturzona zjawa",
         sch: "披风幽灵",
         fre: "L'Esprit Capuchonné",
@@ -9479,6 +10342,7 @@ export let dataItems = {
     865: {
         img: "iron_fist",
         eng: "The Iron Fist",
+        rus: "Железный кулак",
         pol: "Żelazna pięść",
         sch: "铁臂",
         fre: "Le Poing de Fer",
@@ -9490,6 +10354,7 @@ export let dataItems = {
     866: {
         img: "beep_man",
         eng: "The Beep Man",
+        rus: "Бип-мен",
         pol: "Człowiek-konsola",
         sch: "巨型游戏机",
         fre: "Le Beep Man",
@@ -9502,6 +10367,7 @@ export let dataItems = {
     867: {
         img: "soul_of_spensers_past",
         eng: "The Soul of 'Spensers Past",
+        rus: "Душа раздатчика",
         pol: "Duch minionego zasobnika",
         sch: "布.基齐先生的灵魂",
         fre: "Le Fantôme des Distributeurs Défunts",
@@ -9513,6 +10379,7 @@ export let dataItems = {
     868: {
         img: "garden_bristles",
         eng: "The Garden Bristles",
+        rus: "Садовая борода",
         pol: "Krasnal obrodowy",
         sch: "花园矮人须",
         fre: "La Barbe de Jardin",
@@ -9524,6 +10391,7 @@ export let dataItems = {
     869: {
         img: "tiny_texan",
         eng: "The Tiny Texan",
+        rus: "Маленький техасец",
         pol: "Tyci Teksańczyk",
         sch: "微型德州人",
         fre: "Le Petit Texan",
@@ -9535,6 +10403,7 @@ export let dataItems = {
     870: {
         img: "herzensbrecher",
         eng: "The Herzensbrecher",
+        rus: "Сердцеед",
         pol: "Herzensbrecher",
         sch: "医界良心",
         fre: "Le Herzensbrecher",
@@ -9547,6 +10416,7 @@ export let dataItems = {
     871: {
         img: "hundkopf",
         eng: "The Hundkopf",
+        rus: "Псиглавец",
         pol: "Hundkopf",
         sch: "死狗头",
         fre: "Le Hundkopf",
@@ -9559,6 +10429,7 @@ export let dataItems = {
     872: {
         img: "kriegsmaschine_9000",
         eng: "The Kriegsmaschine-9000",
+        rus: "Кригсмашина-9000",
         pol: "Kriegsmaschine-9000",
         sch: "爆击机器人 9000 型",
         fre: "La Kriegsmaschine-9000",
@@ -9571,6 +10442,7 @@ export let dataItems = {
     873: {
         img: "vampire_makeover",
         eng: "The Vampire Makeover",
+        rus: "Макияж вампира",
         pol: "Wampirzy wizaż",
         sch: "血站总管的面容",
         fre: "Le Relooking Transylvanien",
@@ -9582,6 +10454,7 @@ export let dataItems = {
     874: {
         img: "vampiric_vesture",
         eng: "The Vampiric Vesture",
+        rus: "Одеяние вампира",
         pol: "Wampirze wdzianko",
         sch: "血站总管的大衣",
         fre: "L'Habit Vampirique",
@@ -9593,6 +10466,7 @@ export let dataItems = {
     875: {
         img: "templars_spirit",
         eng: "The Templar's Spirit",
+        rus: "Дух храмовника",
         pol: "Duch templariusza",
         sch: "圣殿骑士之灵",
         fre: "L’Âme du Templier",
@@ -9604,6 +10478,7 @@ export let dataItems = {
     876: {
         img: "wings_of_purity",
         eng: "The Wings of Purity",
+        rus: "Крылья непорочности",
         pol: "Skrzydła cnoty",
         sch: "净化之翼",
         fre: "Les Ailes de Pureté",
@@ -9615,6 +10490,7 @@ export let dataItems = {
     877: {
         img: "cranial_conspiracy",
         eng: "The Cranial Conspiracy",
+        rus: "Черепная маскировка",
         pol: "Czaszkowa zmowa",
         sch: "蜥蜴脑袋",
         fre: "La Conspiration Crânienne",
@@ -9626,6 +10502,7 @@ export let dataItems = {
     878: {
         img: "scaly_scrapers",
         eng: "The Scaly Scrapers",
+        rus: "Чешуйчатые лапы",
         pol: "Łuskowe łapsko",
         sch: "蜥蜴爪子",
         fre: "La Démangeaison d’Écailles",
@@ -9637,6 +10514,7 @@ export let dataItems = {
     879: {
         img: "mr_mundees_wild_ride",
         eng: "Mr. Mundee's Wild Ride",
+        rus: "Дикие скачки мистера Манди",
         pol: "Strusia jazda bez trzymanki",
         sch: "穆迪先生的狂野座驾",
         fre: "La Chevauchée Sauvage de M. Mundee",
@@ -9648,6 +10526,7 @@ export let dataItems = {
     880: {
         img: "marsupial_man",
         eng: "The Marsupial Man",
+        rus: "Человек-кенгуру",
         pol: "Człowiek-torbacz",
         sch: "袋鼠耳朵",
         fre: "L'Homme Marsupial",
@@ -9659,6 +10538,7 @@ export let dataItems = {
     881: {
         img: "kanga_kickers",
         eng: "The Kanga Kickers",
+        rus: "Брыкалки кенгуру",
         pol: "Kangurze kopyta",
         sch: "袋鼠尾巴",
         fre: "Les Kangous Kickers",
@@ -9670,6 +10550,7 @@ export let dataItems = {
     882: {
         img: "roo_rippers",
         eng: "The Roo Rippers",
+        rus: "Хваталки кенгуру",
         pol: "Kangurze kończyny",
         sch: "袋鼠爪子",
         fre: "Le Kangourou Éventreur",
@@ -9681,6 +10562,7 @@ export let dataItems = {
     883: {
         img: "marsupial_muzzle",
         eng: "The Marsupial Muzzle",
+        rus: "Морда кенгуру",
         pol: "Twarz torbacza",
         sch: "袋鼠脑袋",
         fre: "Le Museau Marsupial",
@@ -9692,6 +10574,7 @@ export let dataItems = {
     884: {
         img: "shadowmans_shade",
         eng: "Shadowman's Shade",
+        rus: "Тень колдуна",
         pol: "Cień cichociemnego",
         sch: "暗影之人的礼帽",
         fre: "L'Ombre du Shadowman",
@@ -9703,6 +10586,7 @@ export let dataItems = {
     885: {
         img: "nightmare_hunter",
         eng: "The Nightmare Hunter",
+        rus: "Охотник за кошмарами",
         pol: "Wiązowy koszmar",
         sch: "梦魇猎手",
         fre: "Le Chasseur Cauchemardesque",
@@ -9714,6 +10598,7 @@ export let dataItems = {
     886: {
         img: "rogues_rabbit",
         eng: "The Rogue's Rabbit",
+        rus: "Кролик жулика",
         pol: "Królik krętacza",
         sch: "魔术师的兔子帽",
         fre: "Le Lapin du Voyou",
@@ -9725,6 +10610,7 @@ export let dataItems = {
     887: {
         img: "facepeeler",
         eng: "The Facepeeler",
+        rus: "Лицесрез",
         pol: "Zdzieracz twarzy",
         sch: "画皮",
         fre: "L’Éplucheur de Visages",
@@ -9736,6 +10622,7 @@ export let dataItems = {
     888: {
         img: "ghost_of_spies_checked_past",
         eng: "The Ghost of Spies Checked Past",
+        rus: "Призрак беспечности",
         pol: "Długie ramię niesprawiedliwości",
         sch: "死不瞑目的间谍鬼魂",
         fre: "Le Fantôme des Défunts Spies Repérés",
@@ -9747,6 +10634,7 @@ export let dataItems = {
     889: {
         img: "mishap_mercenary",
         eng: "The Mishap Mercenary",
+        rus: "Наемный ликвидатор",
         pol: "Niefortunny najemnik",
         sch: "倒霉的雇佣兵",
         fre: "Le Mercenaire malchanceux",
@@ -9758,6 +10646,7 @@ export let dataItems = {
     890: {
         img: "lady_killer",
         eng: "The Lady Killer",
+        rus: "Жак Потрошитель",
         pol: "Pożeracz damskich serc",
         sch: "少妇杀手",
         fre: "Le Tombeur de ces Dames",
@@ -9769,6 +10658,7 @@ export let dataItems = {
     891: {
         img: "lone_survivor",
         eng: "The Lone Survivor",
+        rus: "Последний герой",
         pol: "Jedyny ocalały",
         sch: "孤独的幸存者",
         fre: "Le Survivant Solitaire",
@@ -9780,6 +10670,7 @@ export let dataItems = {
     892: {
         img: "poachers_safari_jacket",
         eng: "Poacher's Safari Jacket",
+        rus: "Куртка браконьера",
         pol: "Kurtka safari kłusownika",
         sch: "偷猎者的夹克",
         fre: "Veste safari du braconnier",
@@ -9791,6 +10682,7 @@ export let dataItems = {
     893: {
         img: "thirst_blood",
         eng: "Thirst Blood",
+        rus: "Жажда крови",
         pol: "Pożądana krew",
         sch: "嗜血头带",
         fre: "Pas ma Guerre",
@@ -9802,6 +10694,7 @@ export let dataItems = {
     894: {
         img: "mann_of_the_seven_sees",
         eng: "Mann of the Seven Sees",
+        rus: "Боцманн семи морей",
         pol: "Chojrak siedmiu wynurzeń",
         sch: "纵横七海",
         fre: "Le Conquérant des Sept Mers",
@@ -9813,6 +10706,7 @@ export let dataItems = {
     895: {
         img: "hillbilly_speed_bump",
         eng: "Hillbilly Speed Bump",
+        rus: "Броненосец в потёмках",
         pol: "Prowincjonalny garbek",
         sch: "口袋犰狳",
         fre: "Bosse de péquenaud",
@@ -9824,6 +10718,7 @@ export let dataItems = {
     896: {
         img: "unshaved_bear",
         eng: "The Unshaved Bear",
+        rus: "Небритый медведь",
         pol: "Nieogolony niedźwiedź",
         sch: "长毛熊怪",
         fre: "L'Ours mal rasé",
@@ -9835,6 +10730,7 @@ export let dataItems = {
     897: {
         img: "pocket_heavy",
         eng: "Pocket Heavy",
+        rus: "Карманный пулемётчик",
         pol: "Kieszonkowy Gruby",
         sch: "口袋机枪手",
         fre: "Heavy de poche",
@@ -9846,6 +10742,7 @@ export let dataItems = {
     898: {
         img: "wartime_warmth",
         eng: "Wartime Warmth",
+        rus: "Военная грелка",
         pol: "Wojenne ciepełko",
         sch: "战时保暖面罩",
         fre: "Cagoule de guerre",
@@ -9857,6 +10754,7 @@ export let dataItems = {
     899: {
         img: "insulated_inventor",
         eng: "Insulated Inventor",
+        rus: "Изобретатель-отшельник",
         pol: "Watowany wynalazca",
         sch: "保暖发明家",
         fre: "Inventeur isolé",
@@ -9868,6 +10766,7 @@ export let dataItems = {
     900: {
         img: "brooklyn_booties",
         eng: "Brooklyn Booties",
+        rus: "Бруклинские ботиночки",
         pol: "Brooklyńskie buciki",
         sch: "布鲁克林短靴",
         fre: "Bottines de Brooklyn",
@@ -9879,6 +10778,7 @@ export let dataItems = {
     901: {
         img: "double_dynamite",
         eng: "Double Dynamite",
+        rus: "Двойной динамит",
         pol: "Sześciopak Nobla",
         sch: "两捆炸药",
         fre: "Double Dynamite",
@@ -9890,6 +10790,7 @@ export let dataItems = {
     902: {
         img: "coldsnap_cap",
         eng: "Coldsnap Cap",
+        rus: "Теплая шапка",
         pol: "Polarny pompon",
         sch: "寒潮针织帽",
         fre: "Bonnet de vague de froid",
@@ -9901,6 +10802,7 @@ export let dataItems = {
     903: {
         img: "snow_stompers",
         eng: "Snow Stompers",
+        rus: "Снегоступы",
         pol: "Termiczne trepy",
         sch: "雪地践踏者",
         fre: "Grosses bottes de neige",
@@ -9912,6 +10814,7 @@ export let dataItems = {
     904: {
         img: "north_polar_fleece",
         eng: "North Polar Fleece",
+        rus: "Шерстяная кофта полярника",
         pol: "Polarny polar",
         sch: "北极羊毛衣",
         fre: "Toison polaire",
@@ -9923,6 +10826,7 @@ export let dataItems = {
     905: {
         img: "fur_lined_fighter",
         eng: "Fur-Lined Fighter",
+        rus: "Боец с меховой подкладкой",
         pol: "Uszanka emigranta",
         sch: "毛皮战士帽",
         fre: "Guerrier de fourrure",
@@ -9934,6 +10838,7 @@ export let dataItems = {
     906: {
         img: "boxcar_bomber",
         eng: "Boxcar Bomber",
+        rus: "Взрывной товарняк",
         pol: "Pilot pociągu-pułapki",
         sch: "棚车轰炸员",
         fre: "Fourvoyeur de fourgon",
@@ -9945,6 +10850,7 @@ export let dataItems = {
     907: {
         img: "bombers_bucket_hat",
         eng: "Bomber's Bucket Hat",
+        rus: "Панама подрывника",
         pol: "Zamachowiec-amator",
         sch: "轰炸员的礼帽",
         fre: "Bob du bombardier",
@@ -9956,6 +10862,7 @@ export let dataItems = {
     908: {
         img: "screamin_eagle",
         eng: "Screamin' Eagle",
+        rus: "Кричащий орел",
         pol: "As przestworzy",
         sch: "呼啸雄鹰",
         fre: "Piqué du faucon",
@@ -9968,6 +10875,7 @@ export let dataItems = {
     909: {
         img: "winter_woodsman",
         eng: "Winter Woodsman",
+        rus: "Зимний лесоруб",
         pol: "Dogrzany drwal",
         sch: "冬季伐木人",
         fre: "Bûcheron boréal",
@@ -9979,6 +10887,7 @@ export let dataItems = {
     910: {
         img: "snow_sleeves",
         eng: "Snow Sleeves",
+        rus: "Снежные рукава",
         pol: "Rękawy śnieżne",
         sch: "雪地防寒袖",
         fre: "Manches hivernales",
@@ -9990,6 +10899,7 @@ export let dataItems = {
     911: {
         img: "flashdance_footies",
         eng: "Flashdance Footies",
+        rus: "Танцевальные сапоги",
         pol: "Froty z Flashdance",
         sch: "闪舞冬靴",
         fre: "Façon Flashdance",
@@ -10001,6 +10911,7 @@ export let dataItems = {
     912: {
         img: "thermal_tracker",
         eng: "Thermal Tracker",
+        rus: "Термокомплект",
         pol: "Docieplony długodystansowiec",
         sch: "热能追踪者",
         fre: "Traqueur thermique",
@@ -10012,6 +10923,7 @@ export let dataItems = {
     913: {
         img: "condor_cap",
         eng: "Condor Cap",
+        rus: "Кондорская шапка",
         pol: "Dokerka Condor",
         sch: "秃鹰之帽",
         fre: "Bonnet de condor",
@@ -10023,6 +10935,7 @@ export let dataItems = {
     914: {
         img: "mistaken_movember",
         eng: "Mistaken Movember",
+        rus: "Неуместный усабрь",
         pol: "Spóźniony Movember",
         sch: "胡子节的谬误",
         fre: "Mauvais Movember",
@@ -10034,6 +10947,7 @@ export let dataItems = {
     915: {
         img: "double_dog_dare_demo_pants",
         eng: "Double Dog Dare Demo Pants",
+        rus: "Теплые подрывные штаны на спор",
         pol: "Bombowe bojówki",
         sch: "无惧之爆破手冬裤",
         fre: "Pantalon à double défi du Demoman",
@@ -10045,6 +10959,7 @@ export let dataItems = {
     916: {
         img: "sleeveless_in_siberia",
         eng: "Sleeveless in Siberia",
+        rus: "Сибирская безрукавка",
         pol: "Syberyjski bezrękawnik",
         sch: "西伯利亚无袖衣",
         fre: "Débardeur sibérien",
@@ -10056,6 +10971,7 @@ export let dataItems = {
     917: {
         img: "hunter_heavy",
         eng: "Hunter Heavy",
+        rus: "Пулемётчик-охотник",
         pol: "Łowca grubego zwierza",
         sch: "机枪猎手",
         fre: "Heavy chasseur",
@@ -10067,6 +10983,7 @@ export let dataItems = {
     918: {
         img: "coldfront_curbstompers",
         eng: "Coldfront Curbstompers",
+        rus: "Зимние ботинки с набойками",
         pol: "Zimowe zgniatacze",
         sch: "冷锋践踏者",
         fre: "Mange-trottoir de Coldfront",
@@ -10078,6 +10995,7 @@ export let dataItems = {
     919: {
         img: "crossing_guard",
         eng: "The Crossing Guard",
+        rus: "Регулировщик",
         pol: "Zawiadowca",
         sch: "铁轨管制员",
         fre: "Le Passage à niveau",
@@ -10089,6 +11007,7 @@ export let dataItems = {
     920: {
         img: "pool_party",
         eng: "Taunt: Pool Party",
+        rus: "Насмешка: Вечеринка в бассейне",
         schema: 30570,
         pol: "Drwina: Impreza na basenie",
         sch: "嘲讽：泳池派对",
@@ -10100,6 +11019,7 @@ export let dataItems = {
     921: {
         img: "cold_snap_coat",
         eng: "Cold Snap Coat",
+        rus: "Теплая куртка",
         pol: "Polarna parka",
         sch: "寒潮外套",
         fre: "Blouson Coupe Vent",
@@ -10111,6 +11031,7 @@ export let dataItems = {
     922: {
         img: "festive_bonk_atomic_punch",
         eng: "Festive Bonk! Atomic Punch",
+        rus: "Праздничный Бонк! Атомный залп",
         pol: "Świąteczny Bonk! Atomowy kop",
         sch: "节日原子能饮料",
         fre: "Bonk! Atomic Punch festif",
@@ -10122,6 +11043,7 @@ export let dataItems = {
     923: {
         img: "festive_backburner",
         eng: "Festive Backburner",
+        rus: "Праздничный Дожигатель",
         pol: "Świąteczny Dupalacz",
         sch: "节日偷袭烈焰喷射器",
         fre: "Brûleur arrière festif",
@@ -10133,6 +11055,7 @@ export let dataItems = {
     924: {
         img: "festive_chargin_targe",
         eng: "Festive Chargin' Targe",
+        rus: "Праздничный Штурмовой щит",
         pol: "Świąteczna Tarcza szarży",
         sch: "节日冲锋盾",
         fre: "Bouclier bélier festif",
@@ -10144,6 +11067,7 @@ export let dataItems = {
     925: {
         img: "festive_bonesaw",
         eng: "Festive Bonesaw",
+        rus: "Праздничная медицинская пила",
         pol: "Świąteczna piła do kości",
         sch: "节日骨锯",
         fre: "Scie à amputation festive",
@@ -10155,6 +11079,7 @@ export let dataItems = {
     926: {
         img: "festive_smg",
         eng: "Festive SMG",
+        rus: "Праздничный пистолет-пулемёт",
         pol: "Świąteczny PM",
         sch: "节日 SMG",
         fre: "Mitraillette festive",
@@ -10166,6 +11091,7 @@ export let dataItems = {
     927: {
         img: "festive_revolver",
         eng: "Festive Revolver",
+        rus: "Праздничный револьвер",
         pol: "Świąteczny rewolwer",
         sch: "节日左轮手枪",
         fre: "Revolver festif",
@@ -10177,6 +11103,7 @@ export let dataItems = {
     928: {
         img: "festive_shotgun",
         eng: "Festive Shotgun",
+        rus: "Праздничный дробовик",
         pol: "Świąteczna strzelba",
         sch: "节日霰弹枪",
         fre: "Fusil à pompe festif",
@@ -10188,6 +11115,7 @@ export let dataItems = {
     929: {
         img: "co_pilot",
         eng: "Co-Pilot",
+        rus: "Второй пилот",
         pol: "Drugi pilot",
         sch: "副驾驶头盔",
         fre: "Co-Pilote",
@@ -10199,6 +11127,7 @@ export let dataItems = {
     930: {
         img: "courtiers_collar",
         eng: "Courtier's Collar",
+        rus: "Повязка придворного",
         pol: "Kołnierzyk dworzanina",
         sch: "谄媚者的衣领",
         fre: "Col du Courtisan",
@@ -10210,6 +11139,7 @@ export let dataItems = {
     931: {
         img: "harlequins_hooves",
         eng: "Harlequin's Hooves",
+        rus: "Ботинки буффона",
         pol: "Błazeńskie buciki",
         sch: "小丑靴子",
         fre: "Souliers d'Arlequin",
@@ -10221,6 +11151,7 @@ export let dataItems = {
     932: {
         img: "mountebanks_masque",
         eng: "Mountebank's Masque",
+        rus: "Маска мошенника",
         pol: "Maska szarlatana",
         sch: "行骗者的面具",
         fre: "Masque de Charlatant",
@@ -10232,6 +11163,7 @@ export let dataItems = {
     933: {
         img: "skullcap",
         eng: "Skullcap",
+        rus: "Берет с черепом",
         pol: "Beret z czaszką",
         sch: "骷髅贝雷帽",
         fre: "Le Béret d'Outre-Tombe",
@@ -10243,6 +11175,7 @@ export let dataItems = {
     934: {
         img: "black_knights_bascinet",
         eng: "Black Knight's Bascinet",
+        rus: "Бацинет черного рыцаря",
         pol: "Psi pysk czarnego rycerza",
         sch: "黑骑士面罩头盔",
         fre: "Bassinet du chevalier noir",
@@ -10254,6 +11187,7 @@ export let dataItems = {
     935: {
         img: "charred_chainmail",
         eng: "Charred Chainmail",
+        rus: "Каленая кольчуга",
         pol: "Wypalana kolczuga",
         sch: "焦黑鳞甲",
         fre: "Cotte de maille carbonisée",
@@ -10265,6 +11199,7 @@ export let dataItems = {
     936: {
         img: "pyromancers_hood",
         eng: "Pyromancer's Hood",
+        rus: "Капюшон пироманта",
         pol: "Kaptur piromanty",
         sch: "火焰术士的兜帽",
         fre: "Capuche de Pyromancien",
@@ -10276,6 +11211,7 @@ export let dataItems = {
     937: {
         img: "pyromancers_raiments",
         eng: "Pyromancer's Raiments",
+        rus: "Одеяние пироманта",
         pol: "Szaty piromanty",
         sch: "纵火者的制服",
         fre: "Robe de Pyromancien",
@@ -10287,6 +11223,7 @@ export let dataItems = {
     938: {
         img: "torchers_tabard",
         eng: "Torcher's Tabard",
+        rus: "Плащ подпалителя",
         pol: "Odzienie giermka",
         sch: "火炬手的战袍",
         fre: "Tabard de l'incendiaire",
@@ -10298,6 +11235,7 @@ export let dataItems = {
     939: {
         img: "scot_bonnet",
         eng: "Scot Bonnet",
+        rus: "Шотландская шапочка",
         pol: "Szkocka mycka",
         sch: "苏格兰毛线帽",
         fre: "Bonnet du Scot",
@@ -10309,6 +11247,7 @@ export let dataItems = {
     940: {
         img: "storm_stompers",
         eng: "Storm Stompers",
+        rus: "Буреступы",
         pol: "Burzowe buciory",
         sch: "风暴战靴",
         fre: "L'Ecraseur de Flaques",
@@ -10320,6 +11259,7 @@ export let dataItems = {
     941: {
         img: "valhalla_helm",
         eng: "Valhalla Helm",
+        rus: "Шлем Вальхаллы",
         pol: "Hełm Walhalli",
         sch: "瓦尔哈拉头盔",
         fre: "Casque du Valhalla",
@@ -10331,6 +11271,7 @@ export let dataItems = {
     942: {
         img: "old_man_frost",
         eng: "Old Man Frost",
+        rus: "Дядюшка Мороз",
         pol: "Dziadek Mróz",
         sch: "森林爷爷",
         fre: "Le vieil homme de Noël",
@@ -10342,6 +11283,7 @@ export let dataItems = {
     943: {
         img: "siberian_facehugger",
         eng: "Siberian Facehugger",
+        rus: "Сибирский лицехват",
         pol: "Syberyjski ocieplacz głowy",
         sch: "西伯利亚裹脸帽",
         fre: "Face-Hugger de Sibérie",
@@ -10353,6 +11295,7 @@ export let dataItems = {
     944: {
         img: "clubsy_the_seal",
         eng: "Clubsy The Seal",
+        rus: "Тюлень Дубинушка",
         pol: "Foczka buławka",
         sch: "海豹棒棒",
         fre: "Clubsy le Phoque",
@@ -10364,6 +11307,7 @@ export let dataItems = {
     945: {
         img: "conaghers_combover",
         eng: "Conagher's Combover",
+        rus: "Переплюйчик Конагера",
         pol: "Zaczes Conaghera",
         sch: "秃顶牛仔的装束",
         fre: "Conagher Dégarni",
@@ -10375,6 +11319,7 @@ export let dataItems = {
     946: {
         img: "cop_caller",
         eng: "Cop Caller",
+        rus: "Позывной полицейских",
         pol: "Kapuś",
         sch: "报警员",
         fre: "Demande de Renforts",
@@ -10386,6 +11331,7 @@ export let dataItems = {
     947: {
         img: "holstered_heaters",
         eng: "Holstered Heaters",
+        rus: "Кобура Конагера",
         pol: "Kaburowe ogrzewacze",
         sch: "检测者的保暖大衣",
         fre: "Étuis Chauffants",
@@ -10397,6 +11343,7 @@ export let dataItems = {
     948: {
         img: "thermal_insulation_layer",
         eng: "Thermal Insulation Layer",
+        rus: "Слой теплоизоляции",
         pol: "Warstwa izolacji termicznej",
         sch: "绝热层",
         fre: "Couche d'isolation thermique",
@@ -10408,6 +11355,7 @@ export let dataItems = {
     949: {
         img: "surgeons_shako",
         eng: "Surgeon's Shako",
+        rus: "Кивер костореза",
         pol: "Czako chirurga",
         sch: "外科医师的行军帽",
         fre: "Shako du chirurgien",
@@ -10419,6 +11367,7 @@ export let dataItems = {
     950: {
         img: "unknown_mann",
         eng: "Unknown Mann",
+        rus: "Манноним",
         pol: "Nieznany Mann",
         sch: "无名之人",
         fre: "Mann Inconnu",
@@ -10430,6 +11379,7 @@ export let dataItems = {
     951: {
         img: "bushmans_bristles",
         eng: "Bushman's Bristles",
+        rus: "Борода бушмена",
         pol: "Buszmeńska szczecina",
         sch: "丛林一族的长须",
         fre: "Bacchantes du Bushman",
@@ -10441,6 +11391,7 @@ export let dataItems = {
     952: {
         img: "marksmans_mohair",
         eng: "Marksman's Mohair",
+        rus: "Мохер меткого стрелка",
         pol: "Kożuch wyborowy",
         sch: "神射手的马海毛大衣",
         fre: "Petite Laine du Tireur d'Élite",
@@ -10452,6 +11403,7 @@ export let dataItems = {
     953: {
         img: "professionals_ushanka",
         eng: "Professional's Ushanka",
+        rus: "Ушанка убийцы",
         pol: "Uszanka profesjonalisty",
         sch: "职业杀手的俄国军帽",
         fre: "Ouchanka du professionnel",
@@ -10463,6 +11415,7 @@ export let dataItems = {
     954: {
         img: "wally_pocket",
         eng: "Wally Pocket",
+        rus: "Карманный кенгуру",
         pol: "Kieszonkowy kangurek",
         sch: "可爱的袋鼠袋",
         fre: "Wally de poche",
@@ -10474,6 +11427,7 @@ export let dataItems = {
     955: {
         img: "pocket_momma",
         eng: "Pocket Momma",
+        rus: "Карманная мамочка",
         pol: "Kieszonkowa mamusia",
         sch: "袖珍妈妈",
         fre: "Momma de poche",
@@ -10485,6 +11439,7 @@ export let dataItems = {
     956: {
         img: "puffy_provocateur",
         eng: "Puffy Provocateur",
+        rus: "Поддутый провокатор",
         pol: "Puszysta prowokatorka",
         sch: "蓬蓬密探",
         fre: "Le Provocateur matelassé",
@@ -10496,6 +11451,7 @@ export let dataItems = {
     957: {
         img: "stealthy_scarf",
         eng: "Stealthy Scarf",
+        rus: "Скрытный шарф",
         pol: "Szal szalbierza",
         sch: "隐秘围巾",
         fre: "Écharpe énigmatique",
@@ -10507,6 +11463,7 @@ export let dataItems = {
     958: {
         img: "cow_mangler_5000",
         eng: "Cow Mangler 5000",
+        rus: "Линчеватель скота 5000",
         pol: "Wyżymaczka krów 5000",
         sch: "绞牛机 5000",
         fre: "Le Broyeur Bovin 5000",
@@ -10519,6 +11476,7 @@ export let dataItems = {
     959: {
         img: "third_degree",
         eng: "Third Degree",
+        rus: "Третья степень",
         pol: "Trzeci stopień",
         sch: "三度烧伤",
         fre: "Le Troisième Degré",
@@ -10531,6 +11489,7 @@ export let dataItems = {
     960: {
         img: "winger",
         eng: "The Winger",
+        rus: "Окрыленный",
         pol: "Skrzydłowy",
         sch: "边锋球员",
         fre: "L'Ailier",
@@ -10542,6 +11501,7 @@ export let dataItems = {
     961: {
         img: "strange_part_not_crit_nor_minicrit_kills",
         eng: "Strange Part: Not Crit nor MiniCrit Kills",
+        rus: "Странный счётчик: убийства некритическим уроном",
         pol: "Kuriozalna część: Zabójstwa niekrytyczne oraz nieminikrytyczne",
         sch: "奇异武器升级部件：非爆击/迷你爆击杀敌数",
         fre: "Pièce étrange : Victimes sans coup critique ou mini-crit",
@@ -10553,6 +11513,7 @@ export let dataItems = {
     962: {
         img: "strange_part_player_hits",
         eng: "Strange Part: Player Hits",
+        rus: "Странный счётчик: попадания по противникам",
         pol: "Kuriozalna część: Trafieni wrogowie",
         sch: "奇异武器升级部件：击中玩家数",
         fre: "Pièce étrange : Joueurs touchés",
@@ -10564,6 +11525,7 @@ export let dataItems = {
     963: {
         img: "strange_cosmetic_part_assists",
         eng: "Strange Cosmetic Part: Assists",
+        rus: "Странный счётчик аксессуара: очки помощи",
         pol: "Kuriozalna część dla przedmiotów ozdobnych: Asysty",
         sch: "奇异饰品部件：助攻数",
         fre: "Pièce de cosmétique étrange : Coopérations",
@@ -10575,6 +11537,7 @@ export let dataItems = {
     964: {
         img: "texas_ten_gallon",
         eng: "Texas Ten Gallon",
+        rus: "Большая техасская шляпа",
         pol: "Teksański kapelusz",
         sch: "德州牛仔帽",
         fre: "Chapeau de cowboy",
@@ -10586,6 +11549,7 @@ export let dataItems = {
     965: {
         img: "awper_hand",
         eng: "The AWPer Hand",
+        rus: "Слонобой",
         pol: "Ale wielka pukawka",
         sch: "高手的 AWP",
         fre: "L'AWPantage",
@@ -10597,6 +11561,7 @@ export let dataItems = {
     966: {
         img: "war_blunder",
         eng: "War Blunder",
+        rus: "Военный просчёт",
         pol: "Bitewny blamaż",
         fre: "Bavure de guerre",
         sch: "战争挺累",
@@ -10608,6 +11573,7 @@ export let dataItems = {
     967: {
         img: "grounded_flyboy",
         eng: "Grounded Flyboy",
+        rus: "Приземлённый летун",
         pol: "Uziemiony lotnik",
         fre: "Pilote terrestre",
         sch: "禁止升空",
@@ -10619,6 +11585,7 @@ export let dataItems = {
     968: {
         img: "rolfe_copter",
         eng: "Rolfe Copter",
+        rus: "Рольф-коптер",
         pol: "Rolfokopter",
         fre: "Médicoptère",
         sch: "医疗直升机",
@@ -10630,6 +11597,7 @@ export let dataItems = {
     969: {
         img: "pug_mug",
         eng: "Pug Mug",
+        rus: "Морда мопса",
         pol: "Mopsowa mordka",
         fre: "Bouille de bouledogue",
         sch: "哈巴工",
@@ -10641,6 +11609,7 @@ export let dataItems = {
     970: {
         img: "treehugger",
         eng: "Treehugger",
+        rus: "Голова садовая",
         pol: "Drzewolub",
         fre: "Souche sèche",
         sch: "抱树狂人",
@@ -10652,6 +11621,7 @@ export let dataItems = {
     971: {
         img: "mannvich",
         eng: "Mannvich",
+        rus: "Манндвич",
         pol: "Kanapkoczłek",
         fre: "Mannvich",
         sch: "巨型三明治",
@@ -10662,6 +11632,7 @@ export let dataItems = {
     972: {
         img: "festivizer",
         eng: "The Festivizer",
+        rus: "Украшение",
         pol: "Dekorator",
         fre: "Enguirlandeur",
         sch: "彩灯",
@@ -10673,6 +11644,7 @@ export let dataItems = {
     973: {
         img: "taunt_boston_breakdance",
         eng: "Taunt: The Boston Breakdance",
+        rus: "Насмешка: Бостонский брейк",
         schema: 30572,
         pol: "Drwina: Bostoński breakdance",
         fre: "Raillerie : La breakdance de Boston",
@@ -10684,6 +11656,7 @@ export let dataItems = {
     974: {
         img: "taunt_bunnyhopper",
         eng: "Taunt: The Bunnyhopper",
+        rus: "Насмешка: Попрыгунчик",
         schema: 30920,
         pol: "Drwina: Pogoskoczek",
         fre: "Raillerie : Le coup du lapin",
@@ -10695,6 +11668,7 @@ export let dataItems = {
     975: {
         img: "dalokohs_bar",
         eng: "The Dalokohs Bar",
+        rus: "Плитка «Далокош»",
         pol: "Tabliczka Ladyczeko",
         sch: "达勒克斯巧克力块",
         fre: "La Barre de Dalokohs",
@@ -10706,6 +11680,7 @@ export let dataItems = {
     976: {
         img: "warriors_spirit",
         eng: "The Warrior's Spirit",
+        rus: "Воинский дух",
         pol: "Dusza wojownika",
         sch: "勇士之魂",
         fre: "L'Esprit du Guerrier",
@@ -10717,6 +11692,7 @@ export let dataItems = {
     977: {
         img: "apoco_fists",
         eng: "The Apoco-Fists",
+        rus: "Кулакопокалипсис",
         pol: "Piąchokalipsa",
         sch: "天灾之拳",
         fre: "A-poing-calypses",
@@ -10728,6 +11704,7 @@ export let dataItems = {
     978: {
         img: "red_tape_recorder",
         eng: "The Red-Tape Recorder",
+        rus: "Откатофон",
         pol: "Magnetofon urzędasa",
         sch: "官僚式录音机",
         fre: "L'enregistreur de formalités",
@@ -10739,6 +11716,7 @@ export let dataItems = {
     979: {
         img: "shahanshah",
         eng: "The Shahanshah",
+        rus: "Шаханшах",
         pol: "Szachinszach",
         sch: "诸王之王",
         fre: "Le Shahanshah",
@@ -10750,6 +11728,7 @@ export let dataItems = {
     980: {
         img: "cloak_and_dagger",
         eng: "The Cloak and Dagger",
+        rus: "Плащ и кинжал",
         pol: "Peleryna nożownika",
         sch: "隐形刺客",
         fre: "La Cloak and Dagger",
@@ -10761,6 +11740,7 @@ export let dataItems = {
     981: {
         img: "buff_banner",
         eng: "The Buff Banner",
+        rus: "Вдохновляющее знамя",
         pol: "Sztandar chwały",
         sch: "战旗",
         fre: "Le Drapeau Buff",
@@ -10772,6 +11752,7 @@ export let dataItems = {
     982: {
         img: "righteous_bison",
         eng: "Righteous Bison",
+        rus: "Благочестивый бизон",
         pol: "Prawy bizon",
         sch: "正义野牛",
         fre: "Le Bison Vertueux",
@@ -10784,6 +11765,7 @@ export let dataItems = {
     983: {
         img: "turbine_torcher",
         eng: "Turbine Torcher | Flame Thrower",
+        rus: "Turbine Torcher | Огнемёт",
         pol: "Palnik turbinowy | Miotacz ognia",
         sch: "涡轮喷灯 火焰喷射器",
         bra: "Tocha Turbinada Lança-chamas",
@@ -10795,6 +11777,7 @@ export let dataItems = {
     984: {
         img: "low_profile",
         eng: "Low Profile | SMG",
+        rus: "Low Profile | Пистолет-пулемёт",
         pol: "Czysta dyskrecja | PM",
         sch: "不露圭角 SMG",
         bra: "Disparador Discreto Submetralhadora",
@@ -10806,6 +11789,7 @@ export let dataItems = {
     985: {
         img: "aqua_marine",
         eng: "Aqua Marine | Rocket Launcher",
+        rus: "Aqua Marine | Ракетомёт",
         pol: "Akwamarynarz | Wyrzutnia rakiet",
         sch: "海军陆战队 火箭发射器",
         bra: "Matador Marinho Lança-foguetes",
@@ -10817,6 +11801,7 @@ export let dataItems = {
     986: {
         img: "brick_house",
         eng: "Brick House | Minigun",
+        rus: "Brick House | Пулемёт",
         pol: "Domek z cegieł | Minigun",
         sch: "砖墙 转轮机枪",
         bra: "Casa Muito Metralhada Metralhadora Giratória",
@@ -10828,6 +11813,7 @@ export let dataItems = {
     987: {
         img: "lightning_rod",
         eng: "Lightning Rod | Shotgun",
+        rus: "Lightning Rod | Дробовик",
         pol: "Piorunochron | Strzelba",
         sch: "引雷针 霰弹枪",
         bra: "Para-raios Escopeta",
@@ -10839,6 +11825,7 @@ export let dataItems = {
     988: {
         img: "sandstone_special",
         eng: "Sandstone Special | Pistol",
+        rus: "Sandstone Special | Пистолет",
         pol: "Piaskowcowy specjał | Pistolet",
         sch: "砂岩特制 手枪",
         bra: "Arsenal de Arenito Pistola",
@@ -10850,6 +11837,7 @@ export let dataItems = {
     989: {
         img: "black_dahlia",
         eng: "Black Dahlia | Pistol",
+        rus: "Black Dahlia | Пистолет",
         pol: "Czarna dalia | Pistolet",
         sch: "黑色大丽花 手枪",
         bra: "Dália Negra Pistola",
@@ -10861,6 +11849,7 @@ export let dataItems = {
     990: {
         img: "dead_reckoner",
         eng: "Dead Reckoner | Revolver",
+        rus: "Dead Reckoner | Револьвер",
         pol: "Trupi zwiad | Rewolwer",
         sch: "死亡判官 左轮手枪",
         bra: "Cadáver Calculista Revólver",
@@ -10872,6 +11861,7 @@ export let dataItems = {
     991: {
         img: "spark_of_life",
         eng: "Spark of Life | Medi Gun",
+        rus: "Spark of Life | Лечебная пушка",
         pol: "Iskra życia | Medigun",
         sch: "生命之光 医疗枪",
         bra: "Sinal de Vida Arma Médica",
@@ -10883,6 +11873,7 @@ export let dataItems = {
     992: {
         img: "flash_fryer",
         eng: "Flash Fryer | Flame Thrower",
+        rus: "Flash Fryer | Огнемёт",
         pol: "Szybki spalacz | Miotacz ognia",
         sch: "闪电烧烤 火焰喷射器",
         bra: "Flama Fulminante Lança-chamas",
@@ -10894,6 +11885,7 @@ export let dataItems = {
     993: {
         img: "pink_elephant",
         eng: "Pink Elephant | Stickybomb Launcher",
+        rus: "Pink Elephant | Липучкомёт",
         pol: "Różowy słoń | Wyrzutnia bomb samoprzylepnych",
         sch: "粉红象 黏性炸弹发射器",
         bra: "Elefante Rosa Lança-stickybombs",
@@ -10905,6 +11897,7 @@ export let dataItems = {
     994: {
         img: "current_event",
         eng: "Current Event | Scattergun",
+        rus: "Current Event | Обрез",
         pol: "Aktualne wydarzenie | Dubeltówka",
         sch: "紫电 猎枪",
         bra: "Acontecimento Chocante Espingarda",
@@ -10916,6 +11909,7 @@ export let dataItems = {
     995: {
         img: "shell_shocker",
         eng: "Shell Shocker | Rocket Launcher",
+        rus: "Shell Shocker | Ракетомёт",
         pol: "Traumatyczne wspomnienie | Wyrzutnia rakiet",
         sch: "震荡弹 火箭发射器",
         bra: "Ligadão Lança-foguetes",
@@ -10927,6 +11921,7 @@ export let dataItems = {
     996: {
         img: "liquid_asset",
         eng: "Liquid Asset | Stickybomb Launcher",
+        rus: "Liquid Asset | Липучкомёт",
         pol: "Płynny kapitał | Wyrzutnia bomb samoprzylepnych",
         sch: "液态炸药 黏性炸弹发射器",
         bra: "Lucro Líquido Lança-stickybombs",
@@ -10938,6 +11933,7 @@ export let dataItems = {
     997: {
         img: "thunderbolt",
         eng: "Thunderbolt | Sniper Rifle",
+        rus: "Thunderbolt | Снайперская винтовка",
         pol: "Piorun | Karabin snajperski",
         sch: "雷霆打击 狙击步枪",
         bra: "Relâmpago Rifle de Sniper",
@@ -10949,6 +11945,7 @@ export let dataItems = {
     998: {
         img: "commissars_coat",
         eng: "Commissar's Coat",
+        rus: "Комиссарский китель",
         pol: "Płaszcz komisarza",
         sch: "人民委员大衣",
         fre: "Manteau du commissaire",
@@ -10960,6 +11957,7 @@ export let dataItems = {
     999: {
         img: "flak_jack",
         eng: "Flak Jack",
+        rus: "Артиллерийский жилет",
         pol: "Dezaprobata policjanta",
         sch: "防弹背心",
         fre: "Flak Jack",
@@ -10971,6 +11969,7 @@ export let dataItems = {
     1000: {
         img: "lurkers_leathers",
         eng: "Lurker's Leathers",
+        rus: "Пальто проныры",
         pol: "Odzienie opryszka",
         sch: "潜行者的皮衣裤",
         fre: "Le cuir du limier",
@@ -10982,6 +11981,7 @@ export let dataItems = {
     1001: {
         img: "rotation_sensation",
         eng: "Rotation Sensation",
+        rus: "Потрясающий перевертыш",
         pol: "Odwrócona furora",
         sch: "旋转感应帽",
         fre: "La rotation sensass",
@@ -10993,6 +11993,7 @@ export let dataItems = {
     1002: {
         img: "support_spurs",
         eng: "Support Spurs",
+        rus: "Шпоры защитника",
         pol: "Ostrogi oparcia",
         sch: "马刺靴",
         fre: "Supporte-éperons",
@@ -11004,6 +12005,7 @@ export let dataItems = {
     1003: {
         img: "vascular_vestment",
         eng: "Vascular Vestment",
+        rus: "Кровеносный костюм",
         pol: "Naczyniowy napierśnik",
         sch: "医生的经典胸甲",
         fre: "Le gilet vasculaire",
@@ -11015,6 +12017,7 @@ export let dataItems = {
     1004: {
         img: "wild_west_waistcoat",
         eng: "Wild West Waistcoat",
+        rus: "Жилет шерифа",
         pol: "Kamizelka z Dzikiego Zachodu",
         sch: "西部狂野马甲",
         fre: "Manteau du shérif de l'ouest",
@@ -11026,6 +12029,7 @@ export let dataItems = {
     1005: {
         img: "fortunate_son",
         eng: "Fortunate Son",
+        rus: "Любимчик фортуны",
         pol: "Szczęściarz",
         sch: "走运的新兵",
         fre: "Fils chanceux",
@@ -11035,6 +12039,7 @@ export let dataItems = {
     1006: {
         img: "outta_sight",
         eng: "Outta Sight",
+        rus: "Слепая зона",
         pol: "Ślepak",
         sch: "眼不见心不烦",
         fre: "Hyper loin",
@@ -11046,6 +12051,7 @@ export let dataItems = {
     1007: {
         img: "physicians_protector",
         eng: "Physician's Protector",
+        rus: "Защитный шлем целителя",
         pol: "Ochraniacz medyczny",
         sch: "内科医生的钢盔",
         fre: "La protection du physicien",
@@ -11057,6 +12063,7 @@ export let dataItems = {
     1008: {
         img: "white_russian",
         eng: "White Russian",
+        rus: "Белый русский",
         pol: "Biały Rosjanin",
         sch: "白色俄罗斯",
         fre: "Le Caucasien",
@@ -11066,6 +12073,7 @@ export let dataItems = {
     1009: {
         img: "bruces_bonnet",
         eng: "Bruce's Bonnet",
+        rus: "Брюсова кольчуга",
         pol: "Rycerskość Roberta",
         sch: "苏格兰王布鲁斯之盔",
         fre: "Cagoule de maille",
@@ -11077,6 +12085,7 @@ export let dataItems = {
     1010: {
         img: "el_duderino",
         eng: "El Duderino",
+        rus: "Эль Чувачино",
         pol: "El kolesino",
         sch: "大佬勒布斯基",
         fre: "Le Duc",
@@ -11087,6 +12096,7 @@ export let dataItems = {
     1011: {
         img: "sheriffs_stetson",
         eng: "Sheriff's Stetson",
+        rus: "Шляпа шерифа",
         pol: "Stetson szeryfa",
         sch: "警长的宽檐帽",
         fre: "Chapeau de shérif",
@@ -11098,6 +12108,7 @@ export let dataItems = {
     1012: {
         img: "captain_cardbeard_cutthroat",
         eng: "Captain Cardbeard Cutthroat",
+        rus: "Капитан Картонная борода",
         pol: "Kapitan Okrutny Kartonobrody",
         sch: "纸板海盗帽",
         fre: "Capitaine Barbenkarton",
@@ -11109,6 +12120,7 @@ export let dataItems = {
     1013: {
         img: "potassium_bonnett",
         eng: "Potassium Bonnet",
+        rus: "Калиевый капюшон",
         pol: "Czapeczka potasowa",
         sch: "获元钾",
         fre: "Cagoule au potassium",
@@ -11120,6 +12132,7 @@ export let dataItems = {
     1014: {
         img: "universal_translator",
         eng: "Universal Translator",
+        rus: "Универсальный переводчик",
         pol: "Uniwersalny tłumacz",
         sch: "星际翻译官",
         fre: "Traducteur universel",
@@ -11131,6 +12144,7 @@ export let dataItems = {
     1015: {
         img: "phobos_filter",
         eng: "Phobos Filter",
+        rus: "Фильтр для Фобоса",
         pol: "Filtr z Fobosa",
         sch: "火卫一过滤面罩",
         fre: "Filtre de Phobos",
@@ -11142,6 +12156,7 @@ export let dataItems = {
     1016: {
         img: "final_frontiersman",
         eng: "Final Frontiersman",
+        rus: "Последний переселенец",
         pol: "Ostatni pogranicznik",
         sch: "最后的拓荒者",
         fre: "L'habitant de la frontière finale",
@@ -11153,6 +12168,7 @@ export let dataItems = {
     1017: {
         img: "life_support_system",
         eng: "Life Support System",
+        rus: "Система жизнеобеспечения",
         pol: "System podtrzymywania życia",
         sch: "生命支持系统",
         fre: "Système de support vital",
@@ -11164,6 +12180,7 @@ export let dataItems = {
     1018: {
         img: "rocket_operator",
         eng: "Rocket Operator",
+        rus: "Наводчик ракет",
         pol: "Operator rakiety",
         sch: "火箭操作员",
         fre: "Opérateur de roquettes",
@@ -11175,6 +12192,7 @@ export let dataItems = {
     1019: {
         img: "captain_space_mann",
         eng: "Captain Space Mann",
+        rus: "Капитан Косманнавт",
         pol: "Kapitan kosmannauta",
         sch: "太空队长曼恩",
         fre: "Capitaine Space Mann",
@@ -11186,6 +12204,7 @@ export let dataItems = {
     1020: {
         img: "shooting_star",
         eng: "Shooting Star",
+        rus: "Падающая звезда",
         pol: "Strzelająca gwiazda",
         sch: "流星狙击者",
         fre: "Étoile filante",
@@ -11197,6 +12216,7 @@ export let dataItems = {
     1021: {
         img: "giger_counter",
         eng: "Giger Counter",
+        rus: "Счётчик Гигера",
         pol: "Licznik Gigera",
         sch: "异形计数器",
         fre: "Le compteur geiger",
@@ -11208,6 +12228,7 @@ export let dataItems = {
     1022: {
         img: "starduster",
         eng: "Starduster",
+        rus: "Звездный пыльник",
         pol: "Gwiezdny łach",
         sch: "星尘披风",
         fre: "Nébuleuse",
@@ -11219,6 +12240,7 @@ export let dataItems = {
     1023: {
         img: "corona_australis",
         eng: "Corona Australis",
+        rus: "Южная корона",
         pol: "Korona południowa",
         sch: "澳冕",
         fre: "Couronne australe",
@@ -11228,6 +12250,7 @@ export let dataItems = {
     1024: {
         img: "sucker_slug",
         eng: "Sucker Slug",
+        rus: "Слизняк-сосунок",
         pol: "Ssący glut",
         sch: "吸脑鼻涕虫",
         fre: "Limace suceuse",
@@ -11239,6 +12262,7 @@ export let dataItems = {
     1025: {
         img: "graylien",
         eng: "The Graylien",
+        rus: "Серопланетянин",
         pol: "Szarmita",
         sch: "小灰人",
         fre: "Le Petit-Gris",
@@ -11250,6 +12274,7 @@ export let dataItems = {
     1026: {
         img: "cadet_visor",
         eng: "Cadet Visor",
+        rus: "Кадетские наглазники",
         pol: "Wizjer kadeta",
         sch: "学院护目镜",
         fre: "Visière du cadet",
@@ -11261,6 +12286,7 @@ export let dataItems = {
     1027: {
         img: "space_diver",
         eng: "The Space Diver",
+        rus: "Космоплаватель",
         pol: "Kosmonurek",
         sch: "太空跳伞员",
         fre: "Plongée spatiale",
@@ -11272,6 +12298,7 @@ export let dataItems = {
     1028: {
         img: "a_head_full_of_hot_air",
         eng: "A Head Full of Hot Air",
+        rus: "Горячая сорвиголова",
         pol: "Głowa pełna gorącego powietrza",
         sch: "热气头盔",
         fre: "Une tête pleine d'air chaud",
@@ -11283,6 +12310,7 @@ export let dataItems = {
     1029: {
         img: "capper",
         eng: "The C.A.P.P.E.R",
+        rus: "З.А.Х.В.А.Т.Ч.И.К.",
         pol: "C.A.P.P.E.R",
         sch: "高能电磁脉冲粒子枪",
         fre: "Le C.A.P.P.E.R",
@@ -11295,6 +12323,7 @@ export let dataItems = {
     1030: {
         img: "phononaut",
         eng: "Phononaut",
+        rus: "Ухонавт",
         pol: "Telenauta",
         sch: "太空头盔",
         fre: "Casque astronomique",
@@ -11305,6 +12334,7 @@ export let dataItems = {
     1031: {
         img: "jupiter_jetpack",
         eng: "Jupiter Jetpack",
+        rus: "Юпитерский ракетный ранец",
         pol: "Plutoński plecak",
         sch: "木星飞行背包",
         fre: "Jetpack jupitérien",
@@ -11316,6 +12346,7 @@ export let dataItems = {
     1032: {
         img: "space_hamster_hammy",
         eng: "Space Hamster Hammy",
+        rus: "Космический хомячок",
         pol: "Hammy - kosmiczny chomik",
         sch: "太空仓鼠哈米",
         fre: "Hamster de l'espace au goût de jambon",
@@ -11327,6 +12358,7 @@ export let dataItems = {
     1033: {
         img: "burstchester",
         eng: "Taunt: Burstchester",
+        rus: "Насмешка: Грудолом",
         schema: 30621,
         pol: "Drwina: Burstchester",
         sch: "嘲讽：裂胸者",
@@ -11338,6 +12370,7 @@ export let dataItems = {
     1034: {
         img: "batsaber",
         eng: "Batsaber",
+        rus: "Световая бита",
         pol: "Kij świetlny",
         sch: "光剑球棒",
         fre: "Batsabre",
@@ -11349,6 +12382,7 @@ export let dataItems = {
     1035: {
         img: "face_of_mercy",
         eng: "The Face of Mercy",
+        rus: "Лицо милосердия",
         pol: "Twarz przebaczenia",
         sch: "仁慈者的面具",
         fre: "Visage de la miséricorde",
@@ -11360,6 +12394,7 @@ export let dataItems = {
     1036: {
         img: "el_patron",
         eng: "El Patron",
+        rus: "Заступник",
         pol: "El patron",
         sch: "大老板",
         fre: "El Patron",
@@ -11369,6 +12404,7 @@ export let dataItems = {
     1037: {
         img: "smokey_sombrero",
         eng: "Smokey Sombrero",
+        rus: "Сомбреро с дымком",
         pol: "Czadowe sombrero",
         sch: "烟熏墨西哥帽",
         fre: "Sombrero fumé",
@@ -11380,6 +12416,7 @@ export let dataItems = {
     1038: {
         img: "thrilling_tracksuit",
         eng: "Thrilling Tracksuit",
+        rus: "Бесстрашный бегун",
         pol: "Dreszczowiec",
         sch: "赛车手外套",
         fre: "Survêtement phénoménal",
@@ -11391,6 +12428,7 @@ export let dataItems = {
     1039: {
         img: "baaarrgh_n_britches",
         eng: "B'aaarrgh-n-Britches",
+        rus: "Панталоны пир-р-рата",
         pol: "D-aaarrrmowe bryczesy",
         sch: "廉价海盗裤",
         fre: "Haaauts-de-chaaausses",
@@ -11402,6 +12440,7 @@ export let dataItems = {
     1040: {
         img: "prehistoric_pullover",
         eng: "Prehistoric Pullover",
+        rus: "Доисторический динозавр",
         pol: "Prehistoryczny pulower",
         sch: "史前爬行动物兜帽",
         fre: "Pullover Préhistorique",
@@ -11413,6 +12452,7 @@ export let dataItems = {
     1041: {
         img: "roboot",
         eng: "Roboot",
+        rus: "Роботинок",
         pol: "Robut",
         sch: "枪炮工之足",
         fre: "Robotte",
@@ -11424,6 +12464,7 @@ export let dataItems = {
     1042: {
         img: "duck_billed_hatypus",
         eng: "Duck Billed Hatypus",
+        rus: "Утконос",
         pol: "Kacza czapa",
         sch: "真.鸭舌帽",
         fre: "Coincoinsquette",
@@ -11435,6 +12476,7 @@ export let dataItems = {
     1043: {
         img: "iron_lung",
         eng: "Iron Lung",
+        rus: "Железное легкое",
         pol: "Żelazne płuco",
         sch: "铁肺",
         fre: "Poumon d'acier",
@@ -11446,6 +12488,7 @@ export let dataItems = {
     1044: {
         img: "neptunes_nightmare",
         eng: "Neptune's Nightmare",
+        rus: "Ночной кошмар Нептуна",
         pol: "Koszmar Neptuna",
         sch: "海王之魇",
         fre: "Cauchemar de Neptune",
@@ -11457,6 +12500,7 @@ export let dataItems = {
     1045: {
         img: "el_caballero",
         eng: "El Caballero",
+        rus: "Эль кабальеро",
         pol: "El caballero",
         sch: "西班牙绅士",
         fre: "El Caballero",
@@ -11466,6 +12510,7 @@ export let dataItems = {
     1046: {
         img: "baaarrgh_n_bicorne",
         eng: "B'aaarrgh-n-Bicorne",
+        rus: "Двууголка пир-р-рата",
         pol: "D-aaarrrrmowy bikorn",
         sch: "廉价海盗帽",
         fre: "Bicorrrne",
@@ -11477,6 +12522,7 @@ export let dataItems = {
     1047: {
         img: "death_racers_helmet",
         eng: "Death Racer's Helmet",
+        rus: "Шлем гонщика со смертью",
         pol: "Hełm death racera",
         sch: "绝命赛车手",
         fre: "Casque du pilote de la mort",
@@ -11488,6 +12534,7 @@ export let dataItems = {
     1048: {
         img: "grim_tweeter",
         eng: "Grim Tweeter",
+        rus: "Птичий жнец",
         pol: "Ponury ćwierkacz",
         sch: "报亡之雀",
         fre: "Le titi faucheur",
@@ -11499,6 +12546,7 @@ export let dataItems = {
     1049: {
         img: "crusaders_getup",
         eng: "Crusader's Getup",
+        rus: "Одеяние очищения",
         pol: "Kubrak krzyżowca",
         sch: "十字军战服",
         fre: "Combinaison du défenseur",
@@ -11510,6 +12558,7 @@ export let dataItems = {
     1050: {
         img: "deader_alive",
         eng: "Dead'er Alive",
+        rus: "Живой или мертвый",
         pol: "Żywy lub martwy",
         sch: "要塞威龙",
         fre: "Engicop",
@@ -11521,6 +12570,7 @@ export let dataItems = {
     1051: {
         img: "arthropods_aspect",
         eng: "Arthropod's Aspect",
+        rus: "Маска муравья",
         pol: "Mrówcze oblicze",
         sch: "纵火狂蚁",
         fre: "Le look arthropode",
@@ -11532,6 +12582,7 @@ export let dataItems = {
     1052: {
         img: "catastrophic_companions",
         eng: "Catastrophic Companions",
+        rus: "Котострофа",
         pol: "Katastroficzni towarzysze",
         sch: "大规模杀伤性小伙伴",
         fre: "Compagnons catastrophiques",
@@ -11543,6 +12594,7 @@ export let dataItems = {
     1053: {
         img: "hellmet",
         eng: "The Hellmet",
+        rus: "Чистилишлем",
         pol: "Piekłohełm",
         sch: "地狱骨盔",
         fre: "Le Purgacasque",
@@ -11554,6 +12606,7 @@ export let dataItems = {
     1054: {
         img: "flower_power_shotgun",
         eng: "Flower Power | Shotgun",
+        rus: "Flower Power | Дробовик",
         pol: "Strzelba | Dzieci kwiaty",
         sch: "鲜花之力霰弹枪",
         fre: "Le fusil à pompe Flower Power",
@@ -11566,6 +12619,7 @@ export let dataItems = {
     1055: {
         img: "flower_power_scattergun",
         eng: "Flower Power | Scattergun",
+        rus: "Flower Power | Обрез",
         pol: "Dubeltówka | Dzieci kwiaty",
         sch: "鲜花之力猎枪",
         fre: "Le fusil à dispersion Flower Power",
@@ -11578,6 +12632,7 @@ export let dataItems = {
     1056: {
         img: "flower_power_revolver",
         eng: "Flower Power | Revolver",
+        rus: "Flower Power | Револьвер",
         pol: "Rewolwer | Dzieci kwiaty",
         sch: "鲜花之力左轮手枪",
         fre: "Le revolver Flower Power",
@@ -11590,6 +12645,7 @@ export let dataItems = {
     1057: {
         img: "flower_power_medi_gun",
         eng: "Flower Power | Medi Gun",
+        rus: "Flower Power | Лечебная пушка",
         pol: "Medigun | Dzieci kwiaty",
         sch: "鲜花之力医疗枪",
         fre: "Le medigun Flower Power",
@@ -11602,6 +12658,7 @@ export let dataItems = {
     1058: {
         img: "brain_candy_rocket_launcher",
         eng: "Brain Candy | Rocket Launcher",
+        rus: "Brain Candy | Ракетомёт",
         pol: "Wyrzutnia rakiet | Cukieraski",
         sch: "脑浆糖果火箭发射器",
         fre: "Le lance-roquettes sucette",
@@ -11614,6 +12671,7 @@ export let dataItems = {
     1059: {
         img: "brain_candy_pistol",
         eng: "Brain Candy | Pistol",
+        rus: "Brain Candy | Пистолет",
         pol: "Pistolet | Cukieraski",
         sch: "脑浆糖果手枪",
         fre: "Le pistolet sucette",
@@ -11626,6 +12684,7 @@ export let dataItems = {
     1060: {
         img: "brain_candy_minigun",
         eng: "Brain Candy | Minigun",
+        rus: "Brain Candy | Пулемёт",
         pol: "Minigun | Cukieraski",
         sch: "脑浆糖果转轮机枪",
         fre: "Le minigun sucette",
@@ -11638,6 +12697,7 @@ export let dataItems = {
     1061: {
         img: "brain_candy_knife",
         eng: "Brain Candy | Knife",
+        rus: "Brain Candy | Нож",
         pol: "Nóż | Cukieraski",
         sch: "脑浆糖果刀子",
         fre: "Le couteau sucette",
@@ -11650,6 +12710,7 @@ export let dataItems = {
     1062: {
         img: "shot_to_hell_pistol",
         eng: "Shot to Hell | Pistol",
+        rus: "Shot to Hell | Пистолет",
         pol: "Pistolet | Z piekła rodem",
         sch: "射到死手枪",
         fre: "Le pistolet infernal",
@@ -11662,6 +12723,7 @@ export let dataItems = {
     1063: {
         img: "stabbed_to_hell_knife",
         eng: "Stabbed to Hell | Knife",
+        rus: "Stabbed to Hell | Нож",
         pol: "Nóż | Z piekła rodem",
         sch: "背刺到死刀子",
         fre: "Le couteau infernal",
@@ -11674,6 +12736,7 @@ export let dataItems = {
     1064: {
         img: "blue_mew_smg",
         eng: "Blue Mew | SMG",
+        rus: "Blue Mew | Пистолет-пулемёт",
         pol: "PM | Koteł",
         sch: "蓝喵 SMG",
         fre: "La mitraillette miaou",
@@ -11686,6 +12749,7 @@ export let dataItems = {
     1065: {
         img: "torqued_to_hell_wrench",
         eng: "Torqued to Hell | Wrench",
+        rus: "Torqued to Hell | Гаечный ключ",
         pol: "Klucz | Z piekła rodem",
         sch: "扭曲到死扳手",
         fre: "La clé infernale",
@@ -11698,6 +12762,7 @@ export let dataItems = {
     1066: {
         img: "shot_to_hell_scattergun",
         eng: "Shot to Hell | Scattergun",
+        rus: "Shot to Hell | Обрез",
         pol: "Dubeltówka | Z piekła rodem",
         sch: "射到死猎枪",
         fre: "Le fusil à dispersion infernal",
@@ -11710,6 +12775,7 @@ export let dataItems = {
     1067: {
         img: "blue_mew_scattergun",
         eng: "Blue Mew | Scattergun",
+        rus: "Blue Mew | Обрез",
         pol: "Dubeltówka | Koteł",
         sch: "蓝喵猎枪",
         fre: "Le fusil à dispersion miaou",
@@ -11722,6 +12788,7 @@ export let dataItems = {
     1068: {
         img: "blue_mew_rocket_launcher",
         eng: "Blue Mew | Rocket Launcher",
+        rus: "Blue Mew | Ракетомёт",
         pol: "Wyrzutnia rakiet | Koteł",
         sch: "蓝喵火箭发射器",
         fre: "Le lance-roquettes miaou",
@@ -11734,6 +12801,7 @@ export let dataItems = {
     1069: {
         img: "blue_mew_pistol",
         eng: "Blue Mew | Pistol",
+        rus: "Blue Mew | Пистолет",
         pol: "Pistolet | Koteł",
         sch: "蓝喵手枪",
         fre: "Le pistolet miaou",
@@ -11746,6 +12814,7 @@ export let dataItems = {
     1070: {
         img: "blue_mew_knife",
         eng: "Blue Mew | Knife",
+        rus: "Blue Mew | Нож",
         pol: "Nóż | Koteł",
         sch: "蓝喵刀子",
         fre: "Le couteau miaou",
@@ -11758,6 +12827,7 @@ export let dataItems = {
     1071: {
         img: "mister_cuddles_minigun",
         eng: "Mister Cuddles | Minigun",
+        rus: "Mister Cuddles | Пулемёт",
         pol: "Pan Przytulaśny | Minigun",
         sch: "抱抱先生 转轮机枪",
         bra: "Senhor Fofinho Metralhadora Giratória",
@@ -11769,6 +12839,7 @@ export let dataItems = {
     1072: {
         img: "balloonicorn_flame_thrower",
         eng: "Balloonicorn | Flame Thrower",
+        rus: "Balloonicorn | Огнемёт",
         pol: "Miotacz ognia | Balonorożec",
         sch: "气球独角兽火焰喷射器",
         fre: "Le lance-flammes Ballicorne",
@@ -11781,6 +12852,7 @@ export let dataItems = {
     1073: {
         img: "sweet_dreams_stickybomb_launcher",
         eng: "Sweet Dreams | Stickybomb Launcher",
+        rus: "Sweet Dreams | Липучкомёт",
         pol: "Wyrzutnia bomb samoprzylepnych | Słodkich snów",
         sch: "甜蜜梦境黏性炸弹发射器",
         fre: "Le lanceur de bombes collantes des beaux rêves",
@@ -11792,6 +12864,7 @@ export let dataItems = {
     1074: {
         img: "sweet_dreams_grenade_launcher",
         eng: "Sweet Dreams | Grenade Launcher",
+        rus: "Sweet Dreams | Гранатомёт",
         pol: "Granatnik | Słodkich snów",
         sch: "甜蜜梦境榴弹发射器",
         fre: "Le lance-grenades des beaux rêves",
@@ -11804,6 +12877,7 @@ export let dataItems = {
     1075: {
         img: "balloonicorn_sniper_rifle",
         eng: "Balloonicorn | Sniper Rifle",
+        rus: "Balloonicorn | Снайперская винтовка",
         pol: "Karabin snajperski | Balonorożec",
         sch: "气球独角兽狙击步枪",
         fre: "Le fusil de sniper Ballicorne",
@@ -11816,6 +12890,7 @@ export let dataItems = {
     1076: {
         img: "rainbow_flame_thrower",
         eng: "Rainbow | Flame Thrower",
+        rus: "Rainbow | Огнемёт",
         pol: "Miotacz ognia | Tęcza",
         sch: "彩虹火焰喷射器",
         fre: "Le lance-flammes arc-en-ciel",
@@ -11828,6 +12903,7 @@ export let dataItems = {
     1077: {
         img: "rainbow_sniper_rifle",
         eng: "Rainbow | Sniper Rifle",
+        rus: "Rainbow | Снайперская винтовка",
         pol: "Karabin snajperski | Tęcza",
         sch: "彩虹狙击步枪",
         fre: "Le fusil de sniper arc-en-ciel",
@@ -11840,6 +12916,7 @@ export let dataItems = {
     1078: {
         img: "rainbow_grenade_launcher",
         eng: "Rainbow | Grenade Launcher",
+        rus: "Rainbow | Гранатомёт",
         pol: "Granatnik | Tęcza",
         sch: "彩虹榴弹发射器",
         fre: "Le lance-grenades arc-en-ciel",
@@ -11852,6 +12929,7 @@ export let dataItems = {
     1079: {
         img: "blitzkrieg_knife",
         eng: "Blitzkrieg | Knife",
+        rus: "Blitzkrieg | Нож",
         pol: "Nóż | Blitzkrieg",
         sch: "雷霆闪击刀子",
         fre: "Le couteau Blitzkrieg",
@@ -11864,6 +12942,7 @@ export let dataItems = {
     1080: {
         img: "butcher_bird_grenade_launcher",
         eng: "Butcher Bird | Grenade Launcher",
+        rus: "Butcher Bird | Гранатомёт",
         pol: "Granatnik | Srokacz",
         sch: "伯劳鸟榴弹发射器",
         fre: "Le lance-grenades rapace",
@@ -11876,6 +12955,7 @@ export let dataItems = {
     1081: {
         img: "corsair_scattergun",
         eng: "Corsair | Scattergun",
+        rus: "Corsair | Обрез",
         pol: "Dubeltówka | Korsarz",
         sch: "海盗猎枪",
         fre: "Le fusil à dispersion pirate",
@@ -11888,6 +12968,7 @@ export let dataItems = {
     1082: {
         img: "airwolf_wrench",
         eng: "Airwolf | Wrench",
+        rus: "Airwolf | Гаечный ключ",
         pol: "Klucz | Airwolf",
         sch: "飞狼扳手",
         fre: "La clé Airwolf",
@@ -11900,6 +12981,7 @@ export let dataItems = {
     1083: {
         img: "blitzkrieg_smg",
         eng: "Blitzkrieg | SMG",
+        rus: "Blitzkrieg | Пистолет-пулемёт",
         pol: "PM | Blitzkrieg",
         sch: "雷霆闪击 SMG",
         fre: "La mitraillette Blitzkrieg",
@@ -11912,6 +12994,7 @@ export let dataItems = {
     1084: {
         img: "blitzkrieg_revolver",
         eng: "Blitzkrieg | Revolver",
+        rus: "Blitzkrieg | Револьвер",
         pol: "Rewolwer | Blitzkrieg",
         sch: "雷霆闪击左轮手枪",
         fre: "Le revolver Blitzkrieg",
@@ -11924,6 +13007,7 @@ export let dataItems = {
     1085: {
         img: "blitzkrieg_pistol",
         eng: "Blitzkrieg | Pistol",
+        rus: "Blitzkrieg | Пистолет",
         pol: "Pistolet | Blitzkrieg",
         sch: "雷霆闪击手枪",
         fre: "Le pistolet Blitzkrieg",
@@ -11936,6 +13020,7 @@ export let dataItems = {
     1086: {
         img: "blitzkrieg_medi_gun",
         eng: "Blitzkrieg | Medi Gun",
+        rus: "Blitzkrieg | Лечебная пушка",
         pol: "Medigun | Blitzkrieg",
         sch: "雷霆闪击医疗枪",
         fre: "Le medigun Blitzkrieg",
@@ -11948,6 +13033,7 @@ export let dataItems = {
     1087: {
         img: "airwolf_knife",
         eng: "Airwolf | Knife",
+        rus: "Airwolf | Нож",
         pol: "Nóż | Airwolf",
         sch: "飞狼刀子",
         fre: "Le couteau Airwolf",
@@ -11960,6 +13046,7 @@ export let dataItems = {
     1088: {
         img: "corsair_medi_gun",
         eng: "Corsair | Medi Gun",
+        rus: "Corsair | Лечебная пушка",
         pol: "Medigun | Korsarz",
         sch: "海盗医疗枪",
         fre: "Le medigun pirate",
@@ -11972,6 +13059,7 @@ export let dataItems = {
     1089: {
         img: "blitzkrieg_stickybomb_launcher",
         eng: "Blitzkrieg | Stickybomb Launcher",
+        rus: "Blitzkrieg | Липучкомёт",
         pol: "Wyrzutnia bomb samoprzylepnych | Blitzkrieg",
         sch: "雷霆闪击黏性炸弹发射器",
         fre: "Le lanceur de bombes collantes Blitzkrieg",
@@ -11984,6 +13072,7 @@ export let dataItems = {
     1090: {
         img: "airwolf_sniper_rifle",
         eng: "Airwolf | Sniper Rifle",
+        rus: "Airwolf | Снайперская винтовка",
         pol: "Karabin snajperski | Airwolf",
         sch: "飞狼狙击步枪",
         fre: "Le fusil de sniper Airwolf",
@@ -11996,6 +13085,7 @@ export let dataItems = {
     1091: {
         img: "butcher_bird_minigun",
         eng: "Butcher Bird | Minigun",
+        rus: "Butcher Bird | Пулемёт",
         pol: "Minigun | Srokacz",
         sch: "伯劳鸟转轮机枪",
         fre: "Le minigun rapace",
@@ -12008,6 +13098,7 @@ export let dataItems = {
     1092: {
         img: "warhawk_flame_thrower",
         eng: "Warhawk | Flame Thrower",
+        rus: "Warhawk | Огнемёт",
         pol: "Miotacz ognia | Warhawk",
         sch: "鹰派火焰喷射器",
         fre: "Le lance-flammes du faucon guerrier",
@@ -12020,6 +13111,7 @@ export let dataItems = {
     1093: {
         img: "red_bear_shotgun",
         eng: "Red Bear | Shotgun",
+        rus: "Red Bear | Дробовик",
         pol: "Strzelba | Czerwony niedźwiedź",
         sch: "赤红之熊霰弹枪",
         fre: "Le fusil à pompe de l'ours rouge",
@@ -12032,6 +13124,7 @@ export let dataItems = {
     1094: {
         img: "warhawk_grenade_launcher",
         eng: "Warhawk | Grenade Launcher",
+        rus: "Warhawk | Гранатомёт",
         pol: "Granatnik | Warhawk",
         sch: "鹰派榴弹发射器",
         fre: "Le lance-grenades du faucon guerrier",
@@ -12044,6 +13137,7 @@ export let dataItems = {
     1095: {
         img: "warhawk_rocket_launcher",
         eng: "Warhawk | Rocket Launcher",
+        rus: "Warhawk | Ракетомёт",
         pol: "Wyrzutnia rakiet | Warhawk",
         sch: "鹰派火箭发射器",
         fre: "Le lance-roquettes du faucon guerrier",
@@ -12056,6 +13150,7 @@ export let dataItems = {
     1096: {
         img: "killer_bee_scattergun",
         eng: "Killer Bee | Scattergun",
+        rus: "Killer Bee | Обрез",
         pol: "Dubeltówka | Zabójcza pszczoła",
         sch: "杀人蜂猎枪",
         fre: "Le fusil à dispersion ruche",
@@ -12068,6 +13163,7 @@ export let dataItems = {
     1097: {
         img: "patriot_peak",
         eng: "The Patriot Peak",
+        rus: "Пик патриотизма",
         pol: "Rogatywka patrioty",
         sch: "爱国之鹰",
         fre: "L'apogée patriotique",
@@ -12079,6 +13175,7 @@ export let dataItems = {
     1098: {
         img: "berlin_brain_bowl",
         eng: "Berlin Brain Bowl",
+        rus: "Мюнхенская миска мозгов",
         pol: "Berliński hełm sanitariusza",
         sch: "柏林脑盔",
         fre: "Protection berlinoise",
@@ -12090,6 +13187,7 @@ export let dataItems = {
     1099: {
         img: "hot_heels",
         eng: "Hot Heels",
+        rus: "Раскаленные кроссы",
         pol: "Mattelowe trampki",
         sch: "热力跑鞋",
         fre: "Talons chauts",
@@ -12101,6 +13199,7 @@ export let dataItems = {
     1100: {
         img: "a_hat_to_kill_for",
         eng: "A Hat to Kill For",
+        rus: "Убийственная шляпа",
         pol: "Kapelusz wart zabójstwa",
         sch: "谋帽害命",
         fre: "Un chapeau à en mourir",
@@ -12112,6 +13211,7 @@ export let dataItems = {
     1101: {
         img: "shin_shredders",
         eng: "Shin Shredders",
+        rus: "Ножные лезвия",
         pol: "Samurajskie haidate",
         sch: "武士钢甲",
         fre: "Protège-tibias du conquérant",
@@ -12123,6 +13223,7 @@ export let dataItems = {
     1102: {
         img: "medical_monarch",
         eng: "Medical Monarch",
+        rus: "Королевский клиницист",
         pol: "Monarcha medycyny",
         sch: "医疗之王",
         fre: "Monarque médical",
@@ -12134,6 +13235,7 @@ export let dataItems = {
     1103: {
         img: "siberian_sweater",
         eng: "Siberian Sweater",
+        rus: "Сибирский свитер",
         pol: "Syberyjski sweter",
         sch: "西伯利亚小毛衣",
         fre: "Pull sibérien",
@@ -12145,6 +13247,7 @@ export let dataItems = {
     1104: {
         img: "chicago_overcoat",
         eng: "Chicago Overcoat",
+        rus: "Чикагское пальто",
         pol: "Chicagowski płaszcz",
         sch: "芝加哥外套",
         fre: "Pardessus de Chicago",
@@ -12156,6 +13259,7 @@ export let dataItems = {
     1105: {
         img: "diplomat",
         eng: "The Diplomat",
+        rus: "Дипломат",
         pol: "Dyplomata",
         sch: "驻外武官",
         fre: "Le diplomate",
@@ -12167,6 +13271,7 @@ export let dataItems = {
     1106: {
         img: "bunnyhoppers_ballistics_vest",
         eng: "Bunnyhopper's Ballistics Vest",
+        rus: "Бронежилет попрыгунчика",
         pol: "Kamizelka kuloodporna skoczka",
         sch: "跳跳兔的弹道学背心",
         fre: "Pare-balle du Bunnyhopper",
@@ -12178,6 +13283,7 @@ export let dataItems = {
     1107: {
         img: "winter_backup",
         eng: "Winter Backup",
+        rus: "Зимние запчасти",
         pol: "Zimowe wsparcie",
         sch: "冬日背包",
         fre: "Provisions hivernales",
@@ -12189,6 +13295,7 @@ export let dataItems = {
     1108: {
         img: "bonk_batters_backup",
         eng: "Bonk Batter's Backup",
+        rus: "Комплект бейсболиста",
         pol: "Sprzęt pałkarza Bonka",
         sch: "原子能棒球手的必备物品",
         fre: "Sac de baseball de Bonk",
@@ -12200,6 +13307,7 @@ export let dataItems = {
     1109: {
         img: "gift_bringer",
         eng: "The Gift Bringer",
+        rus: "Подарконосец",
         pol: "Śnięty Mikołaj",
         sch: "圣诞老人外套",
         fre: "Le père Soldier",
@@ -12211,6 +13319,7 @@ export let dataItems = {
     1110: {
         img: "chill_chullo",
         eng: "The Chill Chullo",
+        rus: "Теплая ушастая шапка",
         pol: "Zmrożone chullo",
         sch: "御寒毛绒帽",
         fre: "Chill Chullo",
@@ -12222,6 +13331,7 @@ export let dataItems = {
     1111: {
         img: "a_well_wrapped_hat",
         eng: "A Well Wrapped Hat",
+        rus: "Хорошо завернутая шляпа",
         pol: "Dobrze zapakowany cylinder",
         sch: "精美礼物包装帽",
         fre: "Un chapeau bien emballé",
@@ -12233,6 +13343,7 @@ export let dataItems = {
     1112: {
         img: "courtly_cuirass",
         eng: "Courtly Cuirass",
+        rus: "Локтевые латы",
         pol: "Dworski kirys",
         sch: "典雅的臂甲",
         fre: "Protège-bras moyenâgeux",
@@ -12244,6 +13355,7 @@ export let dataItems = {
     1113: {
         img: "demos_dustcatcher",
         eng: "The Demo's Dustcatcher",
+        rus: "Пончо подрывника",
         pol: "Peleryna z prerii",
         sch: "爆破手的遮风围巾",
         fre: "Plumeau du Demo",
@@ -12255,6 +13367,7 @@ export let dataItems = {
     1114: {
         img: "surgical_survivalist",
         eng: "The Surgical Survivalist",
+        rus: "Подготовленный педиатр",
         pol: "Sanitariusz frontowy",
         sch: "外科学护膝",
         fre: "Chirurgien survivaliste",
@@ -12266,6 +13379,7 @@ export let dataItems = {
     1115: {
         img: "squires_sabatons",
         eng: "Squire's Sabatons",
+        rus: "Обувка оруженосца",
         pol: "Trzewiki giermka",
         sch: "侍从的铠靴",
         fre: "Soleret de l'écuyer",
@@ -12277,6 +13391,7 @@ export let dataItems = {
     1116: {
         img: "airdog",
         eng: "The Airdog",
+        rus: "Авианалетчик",
         pol: "Awiator",
         sch: "天狗滑雪盔",
         fre: "Pro de la glisse",
@@ -12288,6 +13403,7 @@ export let dataItems = {
     1117: {
         img: "scoped_spartan",
         eng: "Scoped Spartan",
+        rus: "Спартанский стрелок",
         pol: "Wcelowany Spartanin",
         sch: "斯巴达披风",
         fre: "Cape spartiate",
@@ -12299,6 +13415,7 @@ export let dataItems = {
     1118: {
         img: "heralds_helm",
         eng: "Herald's Helm",
+        rus: "Шлем глашатая",
         pol: "Hełm herolda",
         sch: "先锋之盔",
         fre: "Casque de héraut",
@@ -12310,6 +13427,7 @@ export let dataItems = {
     1119: {
         img: "gauzed_gaze",
         eng: "Gauzed Gaze",
+        rus: "Взгляд из ваты",
         pol: "Gazowe gogle",
         sch: "蒙面神医",
         fre: "Masque chirurgical",
@@ -12321,6 +13439,7 @@ export let dataItems = {
     1120: {
         img: "lurking_legionnaire",
         eng: "The Lurking Legionnaire",
+        rus: "Скрытый следователь",
         pol: "Czyhający legionista",
         sch: "外籍军团的军装",
         fre: "Tenue du légionnaire",
@@ -12332,6 +13451,7 @@ export let dataItems = {
     1121: {
         img: "patriots_pouches",
         eng: "Patriot's Pouches",
+        rus: "Капральские кармашки",
         pol: "Ładownica patrioty",
         sch: "爱国者的弹药袋",
         fre: "Équipement du patriote",
@@ -12343,6 +13463,7 @@ export let dataItems = {
     1122: {
         img: "dad_duds",
         eng: "Dad Duds",
+        rus: "Отцовская одежка",
         pol: "Ojcowski ciuch",
         sch: "工程老爹的格纹衬衫",
         fre: "Chemise à carreaux",
@@ -12354,6 +13475,7 @@ export let dataItems = {
     1123: {
         img: "dayjogger",
         eng: "The Dayjogger",
+        rus: "Дневной стиляга",
         pol: "Wieczny biegacz",
         sch: "日行者",
         fre: "Dayjogger",
@@ -12365,6 +13487,7 @@ export let dataItems = {
     1124: {
         img: "dead_head",
         eng: "The Dead Head",
+        rus: "Мертвое лицо",
         pol: "Twarzoczaszka",
         sch: "无面之人",
         fre: "Masque de mort",
@@ -12376,6 +13499,7 @@ export let dataItems = {
     1125: {
         img: "bedouin_bandana",
         eng: "Bedouin Bandana",
+        rus: "Бедуинская бандана",
         pol: "Bandana Beduina",
         sch: "贝督因蒙面头巾",
         fre: "Bandana bédouin",
@@ -12387,6 +13511,7 @@ export let dataItems = {
     1126: {
         img: "sandvich",
         eng: "The Sandvich",
+        rus: "Бутерброд",
         pol: "Kanapka",
         sch: "三明治",
         fre: "Le Sandvich",
@@ -12398,6 +13523,7 @@ export let dataItems = {
     1127: {
         img: "quickiebomb_launcher",
         eng: "The Quickiebomb Launcher",
+        rus: "Быстромёт",
         pol: "Wyrzutnik szybkobomb",
         sch: "快速黏弹发射器",
         fre: "Le Lanceur de Bombes rapides",
@@ -12409,6 +13535,7 @@ export let dataItems = {
     1128: {
         img: "back_scatter",
         eng: "The Back Scatter",
+        rus: "Спинобрез",
         pol: "Dupeltówka",
         sch: "偷袭之力",
         fre: "Le Back Scatter",
@@ -12420,6 +13547,7 @@ export let dataItems = {
     1129: {
         img: "panic_attack",
         eng: "The Panic Attack",
+        rus: "Паническая атака",
         pol: "Atak paniki",
         sch: "恐慌打击",
         fre: "La Crise de Panique",
@@ -12431,6 +13559,7 @@ export let dataItems = {
     1130: {
         img: "iron_bomber",
         eng: "The Iron Bomber",
+        rus: "Железный бомбардир",
         pol: "Żelazny bombardier",
         sch: "铁弹发射器",
         fre: "Le Canonneur",
@@ -12442,6 +13571,7 @@ export let dataItems = {
     1131: {
         img: "showstopper",
         eng: "Showstopper",
+        rus: "Гвоздь программы",
         pol: "fajerwerki",
         sch: "烟花表演",
         fre: "Clou du spectacle",
@@ -12453,6 +13583,7 @@ export let dataItems = {
     1132: {
         img: "mad_mask",
         eng: "Mad Mask",
+        rus: "Безумный в маске",
         pol: "Mad maska",
         sch: "疯狂面具",
         fre: "Mad Mask",
@@ -12463,6 +13594,7 @@ export let dataItems = {
     1133: {
         img: "surgeons_sidearms",
         eng: "The Surgeon's Sidearms",
+        rus: "Экипировка эскулапа",
         pol: "Przybornik chirurga",
         sch: "外科医生的小工具",
         fre: "Armes de poing du chirurgien",
@@ -12474,6 +13606,7 @@ export let dataItems = {
     1134: {
         img: "nasty_norsemann",
         eng: "Nasty Norsemann",
+        rus: "Несносный норманн",
         pol: "Groźny nord",
         sch: "北欧牛角盔",
         fre: "Vil viking",
@@ -12485,6 +13618,7 @@ export let dataItems = {
     1135: {
         img: "colossal_cranium",
         eng: "Colossal Cranium",
+        rus: "Чудовищный череп",
         pol: "Kolosalna łysina",
         sch: "巨型光头",
         fre: "Boîte crânienne colossale",
@@ -12496,6 +13630,7 @@ export let dataItems = {
     1136: {
         img: "el_paso_poncho",
         eng: "The El Paso Poncho",
+        rus: "Пончо Эль-Пасо",
         pol: "Ponczo el paso",
         sch: "帕索的毛衣",
         fre: "Le El Paso Poncho",
@@ -12507,6 +13642,7 @@ export let dataItems = {
     1137: {
         img: "spooktacles",
         eng: "Spooktacles",
+        rus: "Трепескопы",
         pol: "Strasznokulary",
         sch: "骷髅墨镜",
         fre: "Luneffrayantes",
@@ -12518,6 +13654,7 @@ export let dataItems = {
     1138: {
         img: "wide_brimmed_bandito",
         eng: "The Wide-Brimmed Bandito",
+        rus: "Широкополый бандитто",
         pol: "Bandyckie sombrero",
         sch: "宽边墨西哥帽",
         fre: "Le Bandito à larges bords",
@@ -12529,6 +13666,7 @@ export let dataItems = {
     1139: {
         img: "cranial_carcharodon",
         eng: "The Cranial Carcharodon",
+        rus: "Акулье темя",
         pol: "Czaszkowy megalodon",
         sch: "鲨鱼头套",
         fre: "Le carcharodon crânien",
@@ -12540,6 +13678,7 @@ export let dataItems = {
     1140: {
         img: "wing_mann",
         eng: "The Wing Mann",
+        rus: "Куроманн",
         pol: "Skrzydełkowy",
         sch: "鸡翅大侠",
         fre: "Le Mann ailé",
@@ -12551,6 +13690,7 @@ export let dataItems = {
     1141: {
         img: "toadstool_topper",
         eng: "The Toadstool Topper",
+        rus: "Шапка-поганка",
         pol: "Muchomor czapkogłowy",
         sch: "小佣兵采蘑菇",
         fre: "Chapignon",
@@ -12562,6 +13702,7 @@ export let dataItems = {
     1142: {
         img: "spirit_of_the_bombing_past",
         eng: "Spirit of the Bombing Past",
+        rus: "Дух взрывного прошлого",
         pol: "Duch wybuchowej przeszłości",
         sch: "爆破狂魔",
         fre: "Esprit des anciennes explosions",
@@ -12573,6 +13714,7 @@ export let dataItems = {
     1143: {
         img: "corpus_christi_cranium",
         eng: "The Corpus Christi Cranium",
+        rus: "Твердолобый техасец",
         pol: "Corpus Christi cranium",
         sch: "圣体之颅",
         fre: "Le crâne de Corpus Christi",
@@ -12584,6 +13726,7 @@ export let dataItems = {
     1144: {
         img: "heavy_tourism",
         eng: "Heavy Tourism",
+        rus: "Крупнокалиберный туризм",
         pol: "Grube wakacje",
         sch: "超重型游客",
         fre: "Chemise à fleurs",
@@ -12595,6 +13738,7 @@ export let dataItems = {
     1145: {
         img: "big_topper",
         eng: "Big Topper",
+        rus: "Цилиндрище",
         pol: "Wielka szycha",
         sch: "魔术师的高帽子",
         fre: "Haut-de-plume",
@@ -12606,6 +13750,7 @@ export let dataItems = {
     1146: {
         img: "lil_bitey",
         eng: "Lil' Bitey",
+        rus: "Покусашка",
         pol: "Gacuś",
         sch: "吸血蝙蝠帽",
         fre: "P'tite morsure",
@@ -12617,6 +13762,7 @@ export let dataItems = {
     1147: {
         img: "mohorn",
         eng: "Mo'Horn",
+        rus: "И-рог-ез",
         pol: "Mo-czub",
         sch: "火焰发型",
         fre: "Mo'Horn",
@@ -12628,6 +13774,7 @@ export let dataItems = {
     1148: {
         img: "pestering_jester",
         eng: "Pestering Jester",
+        rus: "Вредный шут",
         pol: "Wnerwiający błazen",
         sch: "弄臣之帽",
         fre: "Bouffon badin",
@@ -12639,6 +13786,7 @@ export let dataItems = {
     1149: {
         img: "burly_beast",
         eng: "Burly Beast",
+        rus: "Дикий нрав",
         pol: "Muskularna bestia",
         sch: "胸毛怪兽",
         fre: "Brute baraquée",
@@ -12650,6 +13798,7 @@ export let dataItems = {
     1150: {
         img: "class_crown",
         eng: "Class Crown",
+        rus: "Классовая корона",
         pol: "Korona z klasą",
         sch: "佣兵之冠",
         fre: "Couronne royale",
@@ -12661,6 +13810,7 @@ export let dataItems = {
     1151: {
         img: "combustible_cutie",
         eng: "Combustible Cutie",
+        rus: "Горючий очаровашка",
         pol: "Łatwopalny słodziak",
         sch: "火爆萌物",
         fre: "Beauté combustible",
@@ -12672,6 +13822,7 @@ export let dataItems = {
     1152: {
         img: "handy_canes",
         eng: "Handy Canes",
+        rus: "Карамельный запас",
         pol: "Poręczne laski",
         sch: "拐杖糖",
         fre: "Canne à bombe",
@@ -12683,6 +13834,7 @@ export let dataItems = {
     1153: {
         img: "readers_choice",
         eng: "Reader's Choice",
+        rus: "Выбор читателя",
         pol: "Nagroda czytelników",
         sch: "睹者之选",
         fre: "Choix des lecteurs",
@@ -12694,6 +13846,7 @@ export let dataItems = {
     1154: {
         img: "brain_warming_wear",
         eng: "Brain-Warming Wear",
+        rus: "Мозгогрейка",
         pol: "Mózgogrzewacz",
         sch: "暖脑毛绒帽",
         fre: "Couvre-cerveau",
@@ -12705,6 +13858,7 @@ export let dataItems = {
     1155: {
         img: "packable_provisions",
         eng: "Packable Provisions",
+        rus: "Ручной раздатчик",
         pol: "Pakowalny prowiant",
         sch: "随身补给器",
         fre: "Provisions de Noël",
@@ -12716,6 +13870,7 @@ export let dataItems = {
     1156: {
         img: "elf_esteem",
         eng: "Elf Esteem",
+        rus: "Эльфийское эго",
         pol: "Elfia estyma",
         sch: "黏弹小精灵",
         fre: "L'elfet de Noël",
@@ -12727,6 +13882,7 @@ export let dataItems = {
     1157: {
         img: "sweet_smissmas_sweater",
         eng: "Sweet Smissmas Sweater",
+        rus: "Шмождественский свитер",
         pol: "Słodziaśny śniąteczny sweter",
         sch: "甜蜜的圣诞毛衣",
         fre: "Doux tricot de Smissmas",
@@ -12738,6 +13894,7 @@ export let dataItems = {
     1158: {
         img: "santarchimedes",
         eng: "Santarchimedes",
+        rus: "Архимед Клаус",
         pol: "Święty Mikomedes",
         sch: "圣基米德",
         fre: "Paparchimède",
@@ -12748,6 +13905,7 @@ export let dataItems = {
     1159: {
         img: "socked_and_loaded",
         eng: "Socked and Loaded",
+        rus: "Вооружен и украшен",
         pol: "Skarpeta słodkości",
         sch: "武装之袜",
         fre: "Enchaussé, c'est pesé",
@@ -12760,6 +13918,7 @@ export let dataItems = {
     1160: {
         img: "flammable_favor",
         eng: "Flammable Favor",
+        rus: "Воспламеняемый восторг",
         pol: "Paląca przysługa",
         sch: "易燃之礼",
         fre: "Faveur inflammable",
@@ -12771,6 +13930,7 @@ export let dataItems = {
     1161: {
         img: "bomb_beanie",
         eng: "Bomb Beanie",
+        rus: "Шапка-липучка",
         pol: "Niesamoprzylepna czapka",
         sch: "黏弹头套",
         fre: "Boonnet",
@@ -12782,6 +13942,7 @@ export let dataItems = {
     1162: {
         img: "electric_twanger",
         eng: "The Electric Twanger",
+        rus: "Драйв-лопата",
         pol: "Pan elektryk",
         sch: "三昧电弦",
         fre: "La vibration électrique",
@@ -12793,6 +13954,7 @@ export let dataItems = {
     1163: {
         img: "woolen_warmer",
         eng: "The Woolen Warmer",
+        rus: "Шерстяная шапка",
         pol: "Wełenka ciepełka",
         sch: "羊毛针织帽",
         fre: "Bonnet de laine",
@@ -12804,6 +13966,7 @@ export let dataItems = {
     1164: {
         img: "snowwing",
         eng: "Snowwing",
+        rus: "Снего-скат",
         pol: "Śniegolot",
         sch: "雪翼滑板",
         fre: "Ailes des neiges",
@@ -12815,6 +13978,7 @@ export let dataItems = {
     1165: {
         img: "pyro_the_flamedeer",
         eng: "Pyro the Flamedeer",
+        rus: "Зажигательный олененок",
         pol: "Płomienifer Pyro",
         sch: "火焰驯鹿",
         fre: "Pyro le cerflamboyant",
@@ -12826,6 +13990,7 @@ export let dataItems = {
     1166: {
         img: "head_prize",
         eng: "The Head Prize",
+        rus: "Головной приз",
         pol: "Głowna nagroda",
         sch: "头等大奖",
         fre: "Renard empaillé",
@@ -12837,6 +14002,7 @@ export let dataItems = {
     1167: {
         img: "bomber_knight",
         eng: "The Bomber Knight",
+        rus: "Бомбический рыцарь",
         pol: "Bombowy rycerz",
         sch: "炸弹骑士头盔",
         fre: "Le chevalier boum",
@@ -12848,6 +14014,7 @@ export let dataItems = {
     1168: {
         img: "snowmann",
         eng: "The Snowmann",
+        rus: "Снеговик",
         pol: "Bałwanek",
         sch: "曼恩雪人帽",
         fre: "Le Mann de neige",
@@ -12859,6 +14026,7 @@ export let dataItems = {
     1169: {
         img: "airtight_arsonist",
         eng: "Airtight Arsonist",
+        rus: "Герметичное горение",
         pol: "Hermetyczny podpalacz",
         sch: "气密式纵火狂面罩",
         fre: "Masque à oxygène de l'incendiaire",
@@ -12870,6 +14038,7 @@ export let dataItems = {
     1170: {
         img: "flakcatcher",
         eng: "Flakcatcher",
+        rus: "Зенитный защитник",
         pol: "Flakamizela",
         sch: "弹药背心",
         fre: "Gilet attrape-balles",
@@ -12881,6 +14050,7 @@ export let dataItems = {
     1171: {
         img: "airborne_attire",
         eng: "Airborne Attire",
+        rus: "Пилотский прикид",
         pol: "Powietrzne przyodzienie",
         sch: "飞行员夹克",
         fre: "Veste d'aviateur",
@@ -12892,6 +14062,7 @@ export let dataItems = {
     1172: {
         img: "warhood",
         eng: "Warhood",
+        rus: "Бандитский долг",
         pol: "Kaptur wojenny",
         sch: "蒙面兜帽",
         fre: "Chèche de guerre",
@@ -12903,6 +14074,7 @@ export let dataItems = {
     1173: {
         img: "field_practice",
         eng: "Field Practice",
+        rus: "Полевая практика",
         pol: "Praktyka polowa",
         sch: "战地医生贝雷帽",
         fre: "Médecin de terrain",
@@ -12914,6 +14086,7 @@ export let dataItems = {
     1174: {
         img: "head_mounted_double_observatory",
         eng: "Head Mounted Double Observatory",
+        rus: "Лицевое устройство наблюдения",
         pol: "Podwójne patrzałki",
         sch: "头戴式双筒观测器",
         fre: "Visiolunettes",
@@ -12925,6 +14098,7 @@ export let dataItems = {
     1175: {
         img: "blast_defense",
         eng: "Blast Defense",
+        rus: "Взрывная оборона",
         pol: "Wystrzałowa obrona",
         sch: "钢铁防爆盔",
         fre: "Protection du forgeron",
@@ -12936,6 +14110,7 @@ export let dataItems = {
     1176: {
         img: "upgrade",
         eng: "The Upgrade",
+        rus: "Прогресс",
         pol: "Ulepszenie",
         sch: "升级",
         fre: "Amélioration",
@@ -12947,6 +14122,7 @@ export let dataItems = {
     1177: {
         img: "speedsters_spandex",
         eng: "Speedster's Spandex",
+        rus: "Скоростной спандекс",
         pol: "Lycra biegacza",
         sch: "疾跑者的肩带",
         fre: "Veste du pistard prompt",
@@ -12958,6 +14134,7 @@ export let dataItems = {
     1178: {
         img: "down_under_duster",
         eng: "Down Under Duster",
+        rus: "Пыльник-перевертыш",
         pol: "Płaszcz z pustkowi",
         sch: "遮尘风衣",
         fre: "Manteau antipodal",
@@ -12969,6 +14146,7 @@ export let dataItems = {
     1179: {
         img: "hawk_eyed_hunter",
         eng: "Hawk-Eyed Hunter",
+        rus: "Охотничий окуляр",
         pol: "Jastrzębiooki łowca",
         sch: "鹰眼猎手",
         fre: "Œil de lynx",
@@ -12980,6 +14158,7 @@ export let dataItems = {
     1180: {
         img: "messengers_mail_bag",
         eng: "Messenger's Mail Bag",
+        rus: "Почтовый посыльный",
         pol: "Listonoszka gońca",
         sch: "信使邮包",
         fre: "Sacoche du facteur",
@@ -12991,6 +14170,7 @@ export let dataItems = {
     1181: {
         img: "pocket_pauling",
         eng: "Pocket Pauling",
+        rus: "Карманная Полинг",
         pol: "Kieszonkowa Pauling",
         sch: "宝琳玩偶",
         fre: "Pauling de poche",
@@ -13002,6 +14182,7 @@ export let dataItems = {
     1182: {
         img: "archers_sterling",
         eng: "Archer's Sterling",
+        rus: "Луженый лучник",
         pol: "Niezawodny strzelec",
         sch: "弓手的护鼻头盔",
         fre: "Archer australien",
@@ -13013,6 +14194,7 @@ export let dataItems = {
     1183: {
         img: "guilden_guardian",
         eng: "Guilden Guardian",
+        rus: "Придворный патруль",
         pol: "Obrońca cechu",
         sch: "皇家卫队",
         fre: "Gardien médiéval",
@@ -13024,6 +14206,7 @@ export let dataItems = {
     1184: {
         img: "legendary_lid",
         eng: "Legendary Lid",
+        rus: "Крутая каса",
         pol: "Legendarny dekiel",
         sch: "传奇武士的斗笠",
         fre: "Casque légendaire",
@@ -13035,6 +14218,7 @@ export let dataItems = {
     1185: {
         img: "plumbers_cap",
         eng: "Plumber's Cap",
+        rus: "Водопроводная фуражка",
         pol: "Zestaw hydraulika",
         sch: "水管工之帽",
         fre: "Casquette du plombier",
@@ -13046,6 +14230,7 @@ export let dataItems = {
     1186: {
         img: "lightning_lid",
         eng: "The Lightning Lid",
+        rus: "Молниеносная маска",
         pol: "Piorunujący czerep",
         sch: "闪电之盔",
         fre: "Casque à éclairs",
@@ -13057,6 +14242,7 @@ export let dataItems = {
     1187: {
         img: "flash_of_inspiration",
         eng: "Flash of Inspiration",
+        rus: "Вспышка вдохновения",
         pol: "Błysk inspiracji",
         sch: "灵光一闪",
         fre: "Tonnerre de Zeus",
@@ -13068,6 +14254,7 @@ export let dataItems = {
     1188: {
         img: "firemans_essentials",
         eng: "Fireman's Essentials",
+        rus: "Приметы пожарника",
         pol: "Niezbędnik strażaka",
         sch: "消防员的必备品",
         fre: "Les essentiels du pompier",
@@ -13079,6 +14266,7 @@ export let dataItems = {
     1189: {
         img: "conaghers_utility_idol",
         eng: "Conaghers' Utility Idol",
+        rus: "Конагерский идол полезности",
         pol: "Bożek pożytku Conaghera",
         sch: "工程之神的塑像",
         fre: "Idole de Conagher",
@@ -13090,6 +14278,7 @@ export let dataItems = {
     1190: {
         img: "pithy_professional",
         eng: "The Pithy Professional",
+        rus: "Придирчивый профи",
         pol: "Rdzenny profesjonalista",
         sch: "精干的专业佣兵",
         fre: "Salacot",
@@ -13101,6 +14290,7 @@ export let dataItems = {
     1191: {
         img: "classy_capper",
         eng: "The Classy Capper",
+        rus: "Шик-шляпа",
         pol: "Klasyczny kapelusznik",
         sch: "气派的骑士帽",
         fre: "Le couvre-chef élégant",
@@ -13112,6 +14302,7 @@ export let dataItems = {
     1192: {
         img: "most_dangerous_mane",
         eng: "The Most Dangerous Mane",
+        rus: "Небрит и опасен",
         pol: "Najniebezpieczniejsza narośl",
         sch: "超级危险的胡须",
         fre: "La crinière la plus dangereuse",
@@ -13123,6 +14314,7 @@ export let dataItems = {
     1193: {
         img: "forest_footwear",
         eng: "Forest Footwear",
+        rus: "Ботинки для бездорожья",
         pol: "Obuwie leśnika",
         sch: "丛林之靴",
         fre: "Chaussures forestières",
@@ -13134,6 +14326,7 @@ export let dataItems = {
     1194: {
         img: "shellmet",
         eng: "The Shellmet",
+        rus: "Патрон-каска",
         pol: "Łuskohełm",
         sch: "丛林老兵的头盔",
         fre: "Le cascrapace",
@@ -13145,6 +14338,7 @@ export let dataItems = {
     1195: {
         img: "attack_packs",
         eng: "Attack Packs",
+        rus: "Разгрузка на гузках",
         pol: "Szelki szturmu",
         sch: "作战装具",
         fre: "Réserves militaires",
@@ -13156,6 +14350,7 @@ export let dataItems = {
     1196: {
         img: "nuke",
         eng: "Nuke",
+        rus: "Ядерный герцог",
         pol: "Książę",
         sch: "公爵发型",
         fre: "Le Duke",
@@ -13167,6 +14362,7 @@ export let dataItems = {
     1197: {
         img: "bait_and_bite",
         eng: "Bait and Bite",
+        rus: "Улов и уловки",
         pol: "Duża sztuka",
         sch: "钓鱼工具包",
         fre: "Appâts et hameçons",
@@ -13178,6 +14374,7 @@ export let dataItems = {
     1198: {
         img: "riflemans_regalia",
         eng: "Rifleman's Regalia",
+        rus: "Привилегии профи",
         pol: "Insygnia strzelca",
         sch: "步枪手军装",
         fre: "Tenue du fusilleur",
@@ -13189,6 +14386,7 @@ export let dataItems = {
     1199: {
         img: "croaking_hazard",
         eng: "The Croaking Hazard",
+        rus: "Лягушачья угроза",
         pol: "Rechoczące niebezpieczeństwo",
         sch: "危险的呱呱",
         fre: "Le danger coassant",
@@ -13200,6 +14398,7 @@ export let dataItems = {
     1200: {
         img: "transparent_trousers",
         eng: "Transparent Trousers",
+        rus: "Камуфляжные кальсоны",
         pol: "Bojówki bojownika",
         sch: "显而易见的裤子",
         fre: "Pantalons transparents",
@@ -13211,6 +14410,7 @@ export let dataItems = {
     1201: {
         img: "d_eye_monds",
         eng: "D-eye-monds",
+        rus: "Глаз-алмаз",
         pol: "Błyskoczki",
         sch: "宝石之眼",
         fre: "D-yeux-mants",
@@ -13222,6 +14422,7 @@ export let dataItems = {
     1202: {
         img: "hunter_in_darkness",
         eng: "The Hunter in Darkness",
+        rus: "Охотник во тьме",
         pol: "Nocny łowca",
         sch: "暗夜猎手",
         fre: "Chasseur de nuit",
@@ -13233,6 +14434,7 @@ export let dataItems = {
     1203: {
         img: "tropical_toad",
         eng: "Tropical Toad",
+        rus: "Жаба из джунглей",
         pol: "Tropikalna ropucha",
         sch: "热带蟾蜍",
         fre: "Crapaud tropical",
@@ -13244,6 +14446,7 @@ export let dataItems = {
     1204: {
         img: "jungle_jersey",
         eng: "Jungle Jersey",
+        rus: "Жакет для джунглей",
         pol: "Dżunglowy dżersej",
         sch: "丛林毛线衫",
         fre: "Veste forestière",
@@ -13255,6 +14458,7 @@ export let dataItems = {
     1205: {
         img: "aztec_aggressor",
         eng: "The Aztec Aggressor",
+        rus: "Ацтекский агрессор",
         pol: "Aztecki agresor",
         sch: "阿兹特克狂战士",
         fre: "L'agresseur aztèque",
@@ -13266,6 +14470,7 @@ export let dataItems = {
     1206: {
         img: "war_eagle",
         eng: "The War Eagle",
+        rus: "Орёл войны",
         pol: "Orzeł wojny",
         sch: "战鹰图腾面具",
         fre: "Aigle tiki",
@@ -13277,6 +14482,7 @@ export let dataItems = {
     1207: {
         img: "quizzical_quetzal",
         eng: "Quizzical Quetzal",
+        rus: "Красочный кетцаль",
         pol: "Dziwaczny kwezal",
         sch: "古怪的格查尔鸟",
         fre: "Quizzalcoalt",
@@ -13288,6 +14494,7 @@ export let dataItems = {
     1208: {
         img: "aloha_apparel",
         eng: "Aloha Apparel",
+        rus: "Островное облачение",
         pol: "Średnia hawajska",
         sch: "夏威夷衬衫",
         fre: "Chemise hawaïenne",
@@ -13299,6 +14506,7 @@ export let dataItems = {
     1209: {
         img: "commando_elite",
         eng: "Commando Elite",
+        rus: "Элитный отряд",
         pol: "Elitarny komandos",
         sch: "精英特种兵",
         fre: "Commando d'élite",
@@ -13310,6 +14518,7 @@ export let dataItems = {
     1210: {
         img: "siberian_tigerstripe",
         eng: "Siberian Tigerstripe",
+        rus: "Таёжный тигр",
         pol: "Tygrys syberyjski",
         sch: "西伯利亚之虎",
         fre: "Uniforme militaire sibérien",
@@ -13321,6 +14530,7 @@ export let dataItems = {
     1211: {
         img: "cammy_jammies",
         eng: "The Cammy Jammies",
+        rus: "Боевые брюки",
         pol: "Pidżama moro",
         sch: "迷彩之裤",
         fre: "Le pyj' de camouflage",
@@ -13332,6 +14542,7 @@ export let dataItems = {
     1212: {
         img: "deitys_dress",
         eng: "Deity's Dress",
+        rus: "Священные символы",
         pol: "Szata bóstwa",
         sch: "羽蛇神祭服",
         fre: "Tenue du Quetzalcoatl",
@@ -13343,6 +14554,7 @@ export let dataItems = {
     1213: {
         img: "sharp_chest_pain",
         eng: "Sharp Chest Pain",
+        rus: "Острая боль в груди",
         pol: "Kłujący ból",
         sch: "胸口插大刀",
         fre: "Douleur aiguë à la poitrine",
@@ -13354,6 +14566,7 @@ export let dataItems = {
     1214: {
         img: "vitals_vest",
         eng: "Vitals Vest",
+        rus: "Жилет жизнелюба",
         pol: "Kamizelka konieczności",
         sch: "医疗必备品背心",
         fre: "Veste du toubib",
@@ -13365,6 +14578,7 @@ export let dataItems = {
     1215: {
         img: "battle_boonie",
         eng: "Battle Boonie",
+        rus: "Патрульная панамка",
         pol: "Bitewne boonie",
         sch: "军医布尼帽",
         fre: "Couvre-chef médical",
@@ -13376,6 +14590,7 @@ export let dataItems = {
     1216: {
         img: "heavy_harness",
         eng: "Heavy Harness",
+        rus: "Пудовая портупея",
         pol: "Gruba uprząż",
         sch: "重型背带",
         fre: "Harnais du Heavy",
@@ -13387,6 +14602,7 @@ export let dataItems = {
     1217: {
         img: "fat_mans_field_cap",
         eng: "Fat Man's Field Cap",
+        rus: "Полевая кепка толстяка",
         pol: "Masywna czapka polowa",
         sch: "肥佬的野战帽",
         fre: "Chapeau du replet",
@@ -13398,6 +14614,7 @@ export let dataItems = {
     1218: {
         img: "conspicuous_camouflage",
         eng: "The Conspicuous Camouflage",
+        rus: "Кричащий камуфляж",
         pol: "Ostentacyjny kamuflaż",
         sch: "引人注目的伪装服",
         fre: "Camouflage remarquable",
@@ -13409,6 +14626,7 @@ export let dataItems = {
     1219: {
         img: "feathered_fiend",
         eng: "Feathered Fiend",
+        rus: "Пернатый прохвост",
         pol: "Pierzasty demon",
         sch: "羽蛇神面具",
         fre: "Heaume du Quetzalcoatl",
@@ -13420,6 +14638,7 @@ export let dataItems = {
     1220: {
         img: "hot_huaraches",
         eng: "The Hot Huaraches",
+        rus: "Горячие гуарачи",
         pol: "Gorące sandały",
         sch: "灼热人字拖",
         fre: "Huaraches embrasées",
@@ -13431,6 +14650,7 @@ export let dataItems = {
     1221: {
         img: "pocket_saxton",
         eng: "Pocket Saxton",
+        rus: "Карманный Сакстон",
         pol: "Kieszonkowy Saxton",
         sch: "口袋萨克斯顿",
         fre: "Saxton de poche",
@@ -13442,6 +14662,7 @@ export let dataItems = {
     1222: {
         img: "crit_cloak",
         eng: "The Crit Cloak",
+        rus: "Крит-капюшон",
         pol: "Krytyczny kaptur",
         sch: "爆击火箭神教徒",
         fre: "Voile maya",
@@ -13453,6 +14674,7 @@ export let dataItems = {
     1223: {
         img: "sacrificial_stone",
         eng: "Sacrificial Stone",
+        rus: "Жертвенный камень",
         pol: "Kamień ofiarny",
         sch: "献祭之石",
         fre: "Pierre sacrificielle",
@@ -13464,6 +14686,7 @@ export let dataItems = {
     1224: {
         img: "bananades",
         eng: "Bananades",
+        rus: "Банановые бомбы",
         pol: "Bomby bananowe",
         sch: "香蕉炸弹",
         fre: "Bananades",
@@ -13475,6 +14698,7 @@ export let dataItems = {
     1225: {
         img: "jungle_wreath",
         eng: "Jungle Wreath",
+        rus: "Венок из джунглей",
         pol: "Dżunglowy wieniec",
         sch: "丛林里的花环",
         fre: "Couronne de fleurs",
@@ -13486,6 +14710,7 @@ export let dataItems = {
     1226: {
         img: "aztec_warrior",
         eng: "The Aztec Warrior",
+        rus: "Ацтекский воин",
         pol: "Aztecki wojownik",
         sch: "阿兹特克战盔",
         fre: "Le guerrier aztèque",
@@ -13497,6 +14722,7 @@ export let dataItems = {
     1227: {
         img: "slithering_scarf",
         eng: "The Slithering Scarf",
+        rus: "Шипящий шарф",
         pol: "Syczący szal",
         sch: "嘶嘶作响的围巾",
         fre: "L'essarpe",
@@ -13508,6 +14734,7 @@ export let dataItems = {
     1228: {
         img: "mannana_peeled_war_paint",
         eng: "Mannana Peeled War Paint",
+        rus: "Боевая краска \"Маннановая кожура\"",
         pol: "Obrany banan | Barwy wojenne",
         sch: "曼恩香蕉 战绘",
         fre: "Mannanas | Peinture de guerre",
@@ -13520,6 +14747,7 @@ export let dataItems = {
     1229: {
         img: "leopard_printed_war_paint",
         eng: "Leopard Printed War Paint",
+        rus: "Боевая краска \"Леопардовая шкура\"",
         pol: "Panterka | Barwy wojenne",
         sch: "斑点豹纹 战绘",
         fre: "Léopard | Peinture de guerre",
@@ -13532,6 +14760,7 @@ export let dataItems = {
     1230: {
         img: "tiger_buffed_war_paint",
         eng: "Tiger Buffed War Paint",
+        rus: "Боевая краска \"Тигровый окрас\"",
         pol: "Tygrysi pazur | Barwy wojenne",
         sch: "老虎条纹 战绘",
         fre: "Tigre | Peinture de guerre",
@@ -13544,6 +14773,7 @@ export let dataItems = {
     1231: {
         img: "bamboo_brushed_war_paint",
         eng: "Bamboo Brushed War Paint",
+        rus: "Боевая краска \"Бамбуковые мазки\"",
         pol: "Bambusowe krycie | Barwy wojenne",
         sch: "势如破竹 战绘",
         fre: "Bambou | Peinture de guerre",
@@ -13556,6 +14786,7 @@ export let dataItems = {
     1232: {
         img: "anodized_aloha_war_paint",
         eng: "Anodized Aloha War Paint",
+        rus: "Боевая краска \"Алоха в закате\"",
         pol: "Anodowane aloha | Barwy wojenne",
         sch: "椰林风光 战绘",
         fre: "Aloha | Peinture de guerre",
@@ -13568,6 +14799,7 @@ export let dataItems = {
     1233: {
         img: "pina_polished_war_paint",
         eng: "Piña Polished War Paint",
+        rus: "Боевая краска \"Изысканный ананас\"",
         pol: "Piña colada | Barwy wojenne",
         sch: "菠萝图案 战绘",
         fre: "Piña | Peinture de guerre",
@@ -13580,6 +14812,7 @@ export let dataItems = {
     1234: {
         img: "croc_dusted_war_paint",
         eng: "Croc Dusted War Paint",
+        rus: "Боевая краска \"Крокодилий оттенок\"",
         pol: "Siła krokodyla | Barwy wojenne",
         sch: "鳄鱼池塘 战绘",
         fre: "Croco | Peinture de guerre",
@@ -13592,6 +14825,7 @@ export let dataItems = {
     1235: {
         img: "macaw_masked_war_paint",
         eng: "Macaw Masked War Paint",
+        rus: "Боевая краска \"Маска макао\"",
         pol: "Papuzi kamuflaż | Barwy wojenne",
         sch: "金刚鹦鹉 战绘",
         fre: "Ara macao | Peinture de guerre",
@@ -13604,6 +14838,7 @@ export let dataItems = {
     1236: {
         img: "yeti_coated_war_paint",
         eng: "Yeti Coated War Paint",
+        rus: "Боевая краска \"Меховой йети\"",
         pol: "Skóra z yeti | Barwy wojenne",
         sch: "雪人之眼 战绘",
         fre: "Yéti | Peinture de guerre",
@@ -13616,6 +14851,7 @@ export let dataItems = {
     1237: {
         img: "sax_waxed_war_paint",
         eng: "Sax Waxed War Paint",
+        rus: "Боевая краска \"Лощёный Сакстон\"",
         pol: "Złoty mat | Barwy wojenne",
         sch: "萨克斯顿 战绘",
         fre: "Saxton | Peinture de guerre",
@@ -13628,6 +14864,7 @@ export let dataItems = {
     1238: {
         img: "park_pigmented_war_paint",
         eng: "Park Pigmented War Paint",
+        rus: "Боевая краска \"Пигмент парка\" ",
         pol: "Nastrój parku | Barwy wojenne",
         sch: "公园海报 战绘",
         fre: "Yeti Park | Peinture de guerre",
@@ -13640,6 +14877,7 @@ export let dataItems = {
     1239: {
         img: "bloom_buffed_war_paint",
         eng: "Bloom Buffed War Paint",
+        rus: "Боевая краска \"Цветочный глянец\"",
         pol: "Kwiecisty rozkwit | Barwy wojenne",
         sch: "鲜花盛开 战绘",
         fre: "Floraison | Peinture de guerre",
@@ -13652,6 +14890,7 @@ export let dataItems = {
     1240: {
         img: "cardboard_boxed_war_paint",
         eng: "Cardboard Boxed War Paint",
+        rus: "Боевая краска \"Картонная коробка\"",
         pol: "Kartonowe opakowanie | Barwy wojenne",
         sch: "纸盒包裹 战绘",
         fre: "Emboité | Peinture de guerre",
@@ -13664,6 +14903,7 @@ export let dataItems = {
     1241: {
         img: "star_crossed_war_paint",
         eng: "Star Crossed War Paint",
+        rus: "Боевая краска \"Звёздная обёртка\"",
         pol: "Gwiezdna podróż | Barwy wojenne",
         sch: "璀璨星空 战绘",
         fre: "Stellaire | Peinture de guerre",
@@ -13676,6 +14916,7 @@ export let dataItems = {
     1242: {
         img: "merc_stained_war_paint",
         eng: "Merc Stained War Paint",
+        rus: "Боевая краска \"Символы наёмника\"",
         pol: "Symbol najemnika | Barwy wojenne",
         sch: "佣兵之印 战绘",
         fre: "Mercenaire | Peinture de guerre",
@@ -13688,6 +14929,7 @@ export let dataItems = {
     1243: {
         img: "quack_canvassed_war_paint",
         eng: "Quack Canvassed War Paint",
+        rus: "Боевая краска \"Крякнутый узор\"",
         pol: "Kwacze opowieści | Barwy wojenne",
         sch: "致命之鸭 战绘",
         fre: "Coincoin | Peinture de guerre",
@@ -13700,6 +14942,7 @@ export let dataItems = {
     1244: {
         img: "clover_camod_war_paint",
         eng: "Clover Camo'd War Paint",
+        rus: "Боевая краска \"Клеверный камуфляж\"",
         pol: "Irlandzkie szczęście | Barwy wojenne",
         sch: "四叶草纹 战绘",
         fre: "Porte-bonheur | Peinture de guerre",
@@ -13712,6 +14955,7 @@ export let dataItems = {
     1245: {
         img: "pizza_polished_war_paint",
         eng: "Pizza Polished War Paint",
+        rus: "Боевая краска \"Полированная пицца\"",
         pol: "Palce lizać | Barwy wojenne",
         sch: "食欲大振 战绘",
         fre: "Pizza | Peinture de guerre",
@@ -13724,6 +14968,7 @@ export let dataItems = {
     1246: {
         img: "kill_covered_war_paint",
         eng: "Kill Covered War Paint",
+        rus: "Боевая краска \"Посмертные засечки\"",
         pol: "Zabójstwo potwierdzone | Barwy wojenne",
         sch: "杀戮刻痕 战绘",
         fre: "Dénombrement | Peinture de guerre",
@@ -13736,6 +14981,7 @@ export let dataItems = {
     1247: {
         img: "bank_rolled_war_paint",
         eng: "Bank Rolled War Paint",
+        rus: "Боевая краска \"Крупный номинал\"",
         pol: "Na bogato | Barwy wojenne",
         sch: "为所欲为 战绘",
         fre: "Billets de banque | Peinture de guerre",
@@ -13748,6 +14994,7 @@ export let dataItems = {
     1248: {
         img: "bonk_varnished_war_paint",
         eng: "Bonk Varnished War Paint",
+        rus: "Боевая краска \"Газированное покрытие\"",
         pol: "Bonkowo | Barwy wojenne",
         sch: "辐射超标 战绘",
         fre: "Bonk | Peinture de guerre",
@@ -13760,6 +15007,7 @@ export let dataItems = {
     1249: {
         img: "dream_piped_war_paint",
         eng: "Dream Piped War Paint",
+        rus: "Боевая краска \"Нежные мечты\"",
         pol: "Słodziaśne sny | Barwy wojenne",
         sch: "幻境之物 战绘",
         fre: "Rose bonbon | Peinture de guerre",
@@ -13772,6 +15020,7 @@ export let dataItems = {
     1250: {
         img: "freedom_wrapped_war_paint",
         eng: "Freedom Wrapped War Paint",
+        rus: "Боевая краска \"Обёртка свободы\"",
         pol: "Waleczna wolność | Barwy wojenne",
         sch: "星条花纹 战绘",
         fre: "Libertaire | Peinture de guerre",
@@ -13784,6 +15033,7 @@ export let dataItems = {
     1251: {
         img: "fire_glazed_war_paint",
         eng: "Fire Glazed War Paint",
+        rus: "Боевая краска \"Языки пламени\"",
         pol: "Glazurowany ogień | Barwy wojenne",
         sch: "烈焰之纹 战绘",
         fre: "Brasier | Peinture de guerre",
@@ -13796,6 +15046,7 @@ export let dataItems = {
     1252: {
         img: "civic_duty_mk_ii_war_paint",
         eng: "Civic Duty Mk.II War Paint",
+        rus: "Боевая краска \"Гражданский долг, вер. 2.0\"",
         pol: "Obywatelski obowiązek wz. II | Barwy wojenne",
         sch: "公民义务 Mk.II 战绘",
         fre: "Devoir civique Mk.II | Peinture de guerre",
@@ -13808,6 +15059,7 @@ export let dataItems = {
     1253: {
         img: "civil_servant_mk_ii_war_paint",
         eng: "Civil Servant Mk.II War Paint",
+        rus: "Боевая краска \"Гражданский врач, вер. 2.0\"",
         pol: "Służba cywilna wz. II | Barwy wojenne",
         sch: "公仆 Mk.II 战绘",
         fre: "Fonctionnaire Mk.II | Peinture de guerre",
@@ -13820,6 +15072,7 @@ export let dataItems = {
     1254: {
         img: "autumn_mk_ii_war_paint",
         eng: "Autumn Mk.II War Paint",
+        rus: "Боевая краска \"Осень, вер. 2.0\"",
         pol: "Jesień wz. II | Barwy wojenne",
         sch: "秋日 Mk.II 战绘",
         fre: "Automne Mk.II | Peinture de guerre",
@@ -13832,6 +15085,7 @@ export let dataItems = {
     1255: {
         img: "plaid_potshotter_mk_ii_war_paint",
         eng: "Plaid Potshotter Mk.II War Paint",
+        rus: "Боевая краска \"Плед в клеточку, вер. 2.0\"",
         pol: "Strzelec w kratę wz. II | Barwy wojenne",
         sch: "格纹猛击者 Mk.II 战绘",
         fre: "Tir à carreau Mk.II | Peinture de guerre",
@@ -13844,6 +15098,7 @@ export let dataItems = {
     1256: {
         img: "night_owl_mk_ii_war_paint",
         eng: "Night Owl Mk.II War Paint",
+        rus: "Боевая краска \"Ночной гуляка, вер. 2.0\"",
         pol: "Nocna sowa wz. II | Barwy wojenne",
         sch: "夜枭 Mk.II 战绘",
         fre: "Oiseau de nuit Mk.II | Peinture de guerre",
@@ -13856,6 +15111,7 @@ export let dataItems = {
     1257: {
         img: "woodsy_widowmaker_mk_ii_war_paint",
         eng: "Woodsy Widowmaker Mk.II War Paint",
+        rus: "Боевая краска \"Лесной овдовитель, вер. 2.0\"",
         pol: "Lesisty owdawiacz wz. II | Barwy wojenne",
         sch: "绝后之木 Mk.II 战绘",
         fre: "Endeuilleur boisé Mk.II | Peinture de guerre",
@@ -13868,6 +15124,7 @@ export let dataItems = {
     1258: {
         img: "forest_fire_mk_ii_war_paint",
         eng: "Forest Fire Mk.II War Paint",
+        rus: "Боевая краска \"Лесной пожар, вер. 2.0\"",
         pol: "Leśny ogień wz. II | Barwy wojenne",
         sch: "森林之火 Mk.II 战绘",
         fre: "Feu de forêt Mk.II | Peinture de guerre",
@@ -13880,6 +15137,7 @@ export let dataItems = {
     1259: {
         img: "woodland_warrior_mk_ii_war_paint",
         eng: "Woodland Warrior Mk.II War Paint",
+        rus: "Боевая краска \"Лесной воитель, вер. 2.0\"",
         pol: "Leśny wojownik wz. II | Barwy wojenne",
         sch: "林地战士 Mk.II 战绘",
         fre: "Va-t-en-guerre des bois Mk.II | Peinture de guerre",
@@ -13892,6 +15150,7 @@ export let dataItems = {
     1260: {
         img: "carpet_bomber_mk_ii_war_paint",
         eng: "Carpet Bomber Mk.II War Paint",
+        rus: "Боевая краска \"Ковровый бомбардировщик, вер. 2.0\"",
         pol: "Nalot dywanowy wz. II | Barwy wojenne",
         sch: "地毯式轰炸 Mk.II 战绘",
         fre: "Bombardier tapissé Mk.II | Peinture de guerre",
@@ -13904,6 +15163,7 @@ export let dataItems = {
     1261: {
         img: "wrapped_reviver_mk_ii_war_paint",
         eng: "Wrapped Reviver Mk.II War Paint",
+        rus: "Боевая краска \"Обмотанный оживитель, вер. 2.0\"",
         pol: "Spakowany ożywiciel wz. II | Barwy wojenne",
         sch: "迷彩救援者 Mk.II 战绘",
         fre: "Résurrection emballée Mk.II | Peinture de guerre",
@@ -13916,6 +15176,7 @@ export let dataItems = {
     1262: {
         img: "nutcracker_mk_ii_war_paint",
         eng: "Nutcracker Mk.II War Paint",
+        rus: "Боевая краска \"Щелкунчик, вер. 2.0\"",
         pol: "Dziadek do orzechów wz. II | Barwy wojenne",
         sch: "胡桃夹子 Mk.II 战绘",
         fre: "Casse-noix Mk.II | Peinture de guerre",
@@ -13928,6 +15189,7 @@ export let dataItems = {
     1263: {
         img: "smalltown_bringdown_mk_ii_war_paint",
         eng: "Smalltown Bringdown Mk.II War Paint",
+        rus: "Боевая краска \"Провинциальный разрушитель, вер. 2.0\"",
         pol: "Miasteczkowy łomot wz. II | Barwy wojenne",
         sch: "夷平小镇 Mk.II 战绘",
         fre: "Casse-village Mk.II | Peinture de guerre",
@@ -13940,6 +15202,7 @@ export let dataItems = {
     1264: {
         img: "macabre_web_mk_ii_war_paint",
         eng: "Macabre Web Mk.II War Paint",
+        rus: "Боевая краска \"Паутина, вер. 2.0\"",
         pol: "Makabryczna sieć wz. II | Barwy wojenne",
         sch: "亡者之网 Mk.II 战绘",
         fre: "Toiles macabres Mk.II | Peinture de guerre",
@@ -13952,6 +15215,7 @@ export let dataItems = {
     1265: {
         img: "iron_wood_mk_ii_war_paint",
         eng: "Iron Wood Mk.II War Paint",
+        rus: "Боевая краска \"Железное дерево, вер. 2.0\"",
         pol: "Drzewo żelazne wz. II | Barwy wojenne",
         sch: "铁木 Mk.II 战绘",
         fre: "Bois métallique Mk.II | Peinture de guerre",
@@ -13964,6 +15228,7 @@ export let dataItems = {
     1266: {
         img: "backwoods_boomstick_mk_ii_war_paint",
         eng: "Backwoods Boomstick Mk.II War Paint",
+        rus: "Боевая краска \"Камуфляжный огнестрел, вер. 2.0\"",
         pol: "Grzmiący kij z puszczy wz. II | Barwy wojenne",
         sch: "荒野神兵 Mk.II 战绘",
         fre: "Fusil de derrière les fagots Mk.II | Peinture de guerre",
@@ -13976,6 +15241,7 @@ export let dataItems = {
     1267: {
         img: "masked_mender_mk_ii_war_paint",
         eng: "Masked Mender Mk.II War Paint",
+        rus: "Боевая краска \"Военный врач, вер. 2.0\"",
         pol: "Zakamuflowany uzdrowiciel wz. II | Barwy wojenne",
         sch: "蒙面者 Mk.II 战绘",
         fre: "Dépannage masqué Mk.II | Peinture de guerre",
@@ -13988,6 +15254,7 @@ export let dataItems = {
     1268: {
         img: "dead_reckoner_mk_ii_war_paint",
         eng: "Dead Reckoner Mk.II War Paint",
+        rus: "Боевая краска \"Счислитель пути, вер. 2.0\"",
         pol: "Trupi zwiad wz. II | Barwy wojenne",
         sch: "死亡判官 Mk.II 战绘",
         fre: "Cible de la mort Mk.II | Peinture de guerre",
@@ -14000,6 +15267,7 @@ export let dataItems = {
     1269: {
         img: "bovine_blazemaker_mk_ii_war_paint",
         eng: "Bovine Blazemaker Mk.II War Paint",
+        rus: "Боевая краска \"Бычий пламемёт, вер. 2.0\"",
         pol: "Bawoli podpalacz wz. II | Barwy wojenne",
         sch: "奶牛花纹 Mk.II 战绘",
         fre: "Bovin Mk.II | Peinture de guerre",
@@ -14012,6 +15280,7 @@ export let dataItems = {
     1270: {
         img: "blast_blocker",
         eng: "Blast Blocker",
+        rus: "Сапёрный слой",
         pol: "Pancerz przeciwwybuchowy",
         sch: "防爆背心",
         fre: "Gilet pare-bombes",
@@ -14023,6 +15292,7 @@ export let dataItems = {
     1271: {
         img: "caribou_companion",
         eng: "The Caribou Companion",
+        rus: "Отважный олень",
         pol: "Kompan karibu",
         sch: "驯鹿防寒帽",
         fre: "Caribonnet",
@@ -14034,6 +15304,7 @@ export let dataItems = {
     1272: {
         img: "pocket_santa",
         eng: "Pocket Santa",
+        rus: "Карманный Санта",
         pol: "Kieszonkowy Mikołaj",
         sch: "口袋圣诞老人",
         fre: "Père Noël de poche",
@@ -14045,6 +15316,7 @@ export let dataItems = {
     1273: {
         img: "down_tundra_coat",
         eng: "Down Tundra Coat",
+        rus: "Полярный пуховик",
         pol: "Puchowa kurtka",
         sch: "冻原防寒大衣",
         fre: "Veste du sniper de la toundra",
@@ -14056,6 +15328,7 @@ export let dataItems = {
     1274: {
         img: "puffy_polar_cap",
         eng: "Puffy Polar Cap",
+        rus: "Стёганая фуражка",
         pol: "Puszysta polarna czapa",
         sch: "极地毛绒帽",
         fre: "Casquette rembourrée",
@@ -14067,6 +15340,7 @@ export let dataItems = {
     1275: {
         img: "polar_bear",
         eng: "Polar Bear",
+        rus: "Полярный медведь",
         pol: "Niedźwiedź polarny",
         sch: "北极巨熊",
         fre: "Ours polaire",
@@ -14078,6 +15352,7 @@ export let dataItems = {
     1276: {
         img: "sinners_shade",
         eng: "Sinner's Shade",
+        rus: "Широкополый грешник",
         pol: "Grzeszny grubas",
         sch: "罪者之镜",
         fre: "Duelliste au soleil",
@@ -14089,6 +15364,7 @@ export let dataItems = {
     1277: {
         img: "brass_bucket",
         eng: "Brass Bucket",
+        rus: "Бронзовая бадья",
         pol: "Rakietowy wiadrogłowy",
         sch: "火箭十字盔",
         fre: "Heaume du suzerain",
@@ -14100,6 +15376,7 @@ export let dataItems = {
     1278: {
         img: "pocket_yeti",
         eng: "Pocket Yeti",
+        rus: "Карманный йети",
         pol: "Kieszonkowy yeti",
         sch: "口袋雪人",
         fre: "Yéti de poche",
@@ -14111,6 +15388,7 @@ export let dataItems = {
     1279: {
         img: "truckers_topper",
         eng: "Trucker's Topper",
+        rus: "Кепка дальнобойщика",
         pol: "Typowy tirowiec",
         sch: "卡车司机帽",
         fre: "Casquette du routier",
@@ -14122,6 +15400,7 @@ export let dataItems = {
     1280: {
         img: "sledders_sidekick",
         eng: "Sledder's Sidekick",
+        rus: "Помощник полярника",
         pol: "Psi pomocnik",
         sch: "雪橇小伙伴",
         fre: "Copain canin",
@@ -14133,6 +15412,7 @@ export let dataItems = {
     1281: {
         img: "wild_west_whiskers",
         eng: "Wild West Whiskers",
+        rus: "Дико западные усы",
         pol: "Bardzo dzikie bokobrody",
         sch: "狂野西部胡须",
         fre: "Moustache du Far West",
@@ -14144,6 +15424,7 @@ export let dataItems = {
     1282: {
         img: "coldfront_commander",
         eng: "Coldfront Commander",
+        rus: "Снежный солдат",
         pol: "Dowódca z zimnego frontu",
         sch: "严寒战线指挥官",
         fre: "Visière du front froid",
@@ -14155,6 +15436,7 @@ export let dataItems = {
     1283: {
         img: "burning_beanie",
         eng: "Burning Beanie",
+        rus: "Пламенная шапка",
         pol: "Dogrzany dekiel",
         sch: "烈焰造型无边帽",
         fre: "Bonnet chauffant",
@@ -14166,6 +15448,7 @@ export let dataItems = {
     1284: {
         img: "melody_of_misery",
         eng: "Melody of Misery",
+        rus: "Звуки злоключений",
         pol: "Melodia męki",
         sch: "悲惨之声",
         fre: "Mélodie de misère",
@@ -14177,6 +15460,7 @@ export let dataItems = {
     1285: {
         img: "handsome_hitman",
         eng: "The Handsome Hitman",
+        rus: "Неотразимый наёмник",
         pol: "Zniewalający zabójca",
         sch: "风流杀手",
         fre: "Séducteur à gages",
@@ -14188,6 +15472,7 @@ export let dataItems = {
     1286: {
         img: "cats_pajamas",
         eng: "The Cat's Pajamas",
+        rus: "Кошачий комбинезон",
         pol: "Koci kostium",
         sch: "猫耳睡衣",
         fre: "Pychama",
@@ -14199,6 +15484,7 @@ export let dataItems = {
     1287: {
         img: "coldfront_carapace",
         eng: "Coldfront Carapace",
+        rus: "Снежный панцирь",
         pol: "Pancerz z zimnego frontu",
         sch: "严寒战线防护衣",
         fre: "Attirail du front froid",
@@ -14210,6 +15496,7 @@ export let dataItems = {
     1288: {
         img: "hungover_hero",
         eng: "Hungover Hero",
+        rus: "Похмельный герой",
         pol: "Mrożone mamrotanie",
         sch: "宿醉英雄",
         fre: "Gueule de bois",
@@ -14221,6 +15508,7 @@ export let dataItems = {
     1289: {
         img: "balloonihoodie",
         eng: "Balloonihoodie",
+        rus: "Надувношон",
         pol: "Balonokaptur",
         sch: "气球独角兽兜帽",
         fre: "Ballicapuche",
@@ -14232,6 +15520,7 @@ export let dataItems = {
     1290: {
         img: "geometrical_teams_war_paint",
         eng: "Geometrical Teams War Paint",
+        rus: "Боевая краска \"Геометрия команд\"",
         pol: "Geometria | Barwy wojenne",
         sch: "几何图案 战绘",
         fre: "Géométrie | Peinture de guerre",
@@ -14244,6 +15533,7 @@ export let dataItems = {
     1291: {
         img: "bomber_soul_war_paint",
         eng: "Bomber Soul War Paint",
+        rus: "Боевая краска \"Душа истребителя\"",
         pol: "Dusza bombardiera | Barwy wojenne",
         sch: "高空轰炸 战绘",
         fre: "Militaire | Peinture de guerre",
@@ -14256,6 +15546,7 @@ export let dataItems = {
     1292: {
         img: "polar_surprise_war_paint",
         eng: "Polar Surprise War Paint",
+        rus: "Боевая краска \"Полярный сюрприз\"",
         pol: "Polarna niespodzianka | Barwy wojenne",
         sch: "圣诞萌物 战绘",
         fre: "Ours polaire | Peinture de guerre",
@@ -14268,6 +15559,7 @@ export let dataItems = {
     1293: {
         img: "cabin_fevered_war_paint",
         eng: "Cabin Fevered War Paint",
+        rus: "Боевая краска \"Клаустрофобия\"",
         pol: "Lśnienie | Barwy wojenne",
         sch: "幽闭恐惧 战绘",
         fre: "Hexagone | Peinture de guerre",
@@ -14280,6 +15572,7 @@ export let dataItems = {
     1294: {
         img: "alien_tech_war_paint",
         eng: "Alien Tech War Paint",
+        rus: "Боевая краска \"Внеземные технологии\"",
         pol: "Technologia obcych | Barwy wojenne",
         sch: "外星科技 战绘",
         fre: "Extraterrestre | Peinture de guerre",
@@ -14292,6 +15585,7 @@ export let dataItems = {
     1295: {
         img: "dovetailed_war_paint",
         eng: "Dovetailed War Paint",
+        rus: "Боевая краска \"Голубятня\"",
         pol: "Gołębie serce | Barwy wojenne",
         sch: "阿基米德 战绘",
         fre: "Plumes d'Archimède | Peinture de guerre",
@@ -14304,6 +15598,7 @@ export let dataItems = {
     1296: {
         img: "damascus_and_mahogany_war_paint",
         eng: "Damascus & Mahogany War Paint",
+        rus: "Боевая краска \"Сталь и дерево\"",
         pol: "Stal damasceńska i mahoń | Barwy wojenne",
         sch: "大马士革 战绘",
         fre: "Damascus et Mahogany | Peinture de guerre",
@@ -14316,6 +15611,7 @@ export let dataItems = {
     1297: {
         img: "hazard_warning_war_paint",
         eng: "Hazard Warning War Paint",
+        rus: "Боевая краска \"Угроза жизни\"",
         pol: "Zagrożenie środowiskowe | Barwy wojenne",
         sch: "危险警告 战绘",
         fre: "Danger | Peinture de guerre",
@@ -14328,6 +15624,7 @@ export let dataItems = {
     1298: {
         img: "neo_tokyo_war_paint",
         eng: "Neo Tokyo War Paint",
+        rus: "Боевая краска \"Нео-Токио\"",
         pol: "Neo Tokio | Barwy wojenne",
         sch: "新东京都 战绘",
         fre: "Neo Tokyo | Peinture de guerre",
@@ -14340,6 +15637,7 @@ export let dataItems = {
     1299: {
         img: "uranium_war_paint",
         eng: "Uranium War Paint",
+        rus: "Боевая краска \"Уран\"",
         pol: "Uran | Barwy wojenne",
         sch: "核子动力 战绘",
         fre: "Uranium | Peinture de guerre",
@@ -14352,6 +15650,7 @@ export let dataItems = {
     1300: {
         img: "hana_war_paint",
         eng: "Hana War Paint",
+        rus: "Боевая краска \"Цветение\"",
         pol: "Hana | Barwy wojenne",
         sch: "寒梅盛开 战绘",
         fre: "Hana | Peinture de guerre",
@@ -14364,6 +15663,7 @@ export let dataItems = {
     1301: {
         img: "cosmic_calamity_war_paint",
         eng: "Cosmic Calamity War Paint",
+        rus: "Боевая краска \"Космоугроза\"",
         pol: "Kosmiczna katastrofa | Barwy wojenne",
         sch: "宇宙灾难 战绘",
         fre: "Cosmos | Peinture de guerre",
@@ -14376,6 +15676,7 @@ export let dataItems = {
     1302: {
         img: "mosaic_war_paint",
         eng: "Mosaic War Paint",
+        rus: "Боевая краска \"Мозаика\"",
         pol: "Mozaika | Barwy wojenne",
         sch: "古典工艺 战绘",
         fre: "Mosaïque | Peinture de guerre",
@@ -14388,6 +15689,7 @@ export let dataItems = {
     1303: {
         img: "jazzy_war_paint",
         eng: "Jazzy War Paint",
+        rus: "Боевая краска \"Джаз\"",
         pol: "Bajer | Barwy wojenne",
         sch: "变幻之色 战绘",
         fre: "Jazzy | Peinture de guerre",
@@ -14400,6 +15702,7 @@ export let dataItems = {
     1304: {
         img: "miami_element_war_paint",
         eng: "Miami Element War Paint",
+        rus: "Боевая краска \"Элемент Майами\"",
         pol: "Klimat Miami | Barwy wojenne",
         sch: "五彩像素 战绘",
         fre: "Miami | Peinture de guerre",
@@ -14412,6 +15715,7 @@ export let dataItems = {
     1305: {
         img: "antarctic_eyewear",
         eng: "Antarctic Eyewear",
+        rus: "Антарктические очки",
         pol: "Szkła szóstego kontynentu",
         sch: "南极护目镜",
         fre: "Lunettes de l'Antarctique",
@@ -14423,6 +15727,7 @@ export let dataItems = {
     1306: {
         img: "assassins_attire",
         eng: "Assassin's Attire",
+        rus: "Украшения убийцы",
         pol: "Szykowny skrytobójca",
         sch: "刺杀者西装",
         fre: "Gentleman assassin",
@@ -14434,6 +15739,7 @@ export let dataItems = {
     1307: {
         img: "hot_case",
         eng: "The Hot Case",
+        rus: "Пылкий следопыт",
         pol: "Gorąca sprawa",
         sch: "烫手神探",
         fre: "Inspecteur rouget",
@@ -14445,6 +15751,7 @@ export let dataItems = {
     1308: {
         img: "sky_high_fly_guy",
         eng: "Sky High Fly Guy",
+        rus: "Пилот без забот",
         pol: "Lotnik wysokich lotów",
         sch: "火箭飞人",
         fre: "L'aviateur",
@@ -14456,6 +15763,7 @@ export let dataItems = {
     1309: {
         img: "tsar_platinum",
         eng: "Tsar Platinum",
+        rus: "Царь-платина",
         pol: "Platynowy car",
         sch: "白金沙皇",
         fre: "Tsar platinum",
@@ -14467,6 +15775,7 @@ export let dataItems = {
     1310: {
         img: "head_hedge",
         eng: "The Head Hedge",
+        rus: "Головные заросли",
         pol: "Krzaczasty kamuflaż",
         sch: "丛林伪装盔",
         fre: "Haie-de-forme",
@@ -14478,6 +15787,7 @@ export let dataItems = {
     1311: {
         img: "tundra_top",
         eng: "The Tundra Top",
+        rus: "Вечномёрзлая шапочка",
         pol: "Polarna przykrywka",
         sch: "极地毛线帽",
         fre: "Bonnet de la toundra",
@@ -14489,6 +15799,7 @@ export let dataItems = {
     1312: {
         img: "wipe_out_wraps",
         eng: "Wipe Out Wraps",
+        rus: "Лавинная куртка",
         pol: "Ocieplane okrycie",
         sch: "滑雪新手",
         fre: "Bandages essuie-tout",
@@ -14500,6 +15811,7 @@ export let dataItems = {
     1313: {
         img: "punks_pomp",
         eng: "Punk's Pomp",
+        rus: "Помпезный пройдоха",
         pol: "Punkowa pomada",
         sch: "浮夸的朋克发型",
         fre: "Pompadour punk",
@@ -14511,6 +15823,7 @@ export let dataItems = {
     1314: {
         img: "starboard_crusader",
         eng: "Starboard Crusader",
+        rus: "Звёздный крестоносец",
         pol: "Gwiezdny krzyżowiec",
         sch: "右舷斗士",
         fre: "Héritage du futur",
@@ -14521,6 +15834,7 @@ export let dataItems = {
     1315: {
         img: "aristotle",
         eng: "Aristotle",
+        rus: "Аристотель",
         pol: "Arystoteles",
         sch: "鸦里士多德",
         fre: "Aristote",
@@ -14532,6 +15846,7 @@ export let dataItems = {
     1316: {
         img: "burning_question",
         eng: "The Burning Question",
+        rus: "Горячий след",
         pol: "Palące pytanie",
         sch: "灼人奇案",
         fre: "Question brûlante",
@@ -14543,6 +15858,7 @@ export let dataItems = {
     1317: {
         img: "veterans_attire",
         eng: "Veteran's Attire",
+        rus: "Камзол ветерана",
         pol: "Kurtka kombatanta",
         sch: "老兵的军服",
         fre: "La vestéran",
@@ -14554,6 +15870,7 @@ export let dataItems = {
     1318: {
         img: "scourge_of_the_sky",
         eng: "Scourge of the Sky",
+        rus: "Бич небосклона",
         pol: "Nieszczęście nieboskłonu",
         sch: "空中浩劫",
         fre: "Appui aérien",
@@ -14565,6 +15882,7 @@ export let dataItems = {
     1319: {
         img: "blizzard_britches",
         eng: "Blizzard Britches",
+        rus: "Метельные штаны",
         pol: "Zmrożone wycierusy",
         sch: "暴风滑雪裤",
         fre: "Le fute à peuf",
@@ -14576,6 +15894,7 @@ export let dataItems = {
     1320: {
         img: "cold_case",
         eng: "The Cold Case",
+        rus: "Запас хладнокровия",
         pol: "Schłodzony schowek",
         sch: "便携式啤酒冷却装置",
         fre: "Réfrigérateur portatif",
@@ -14587,6 +15906,7 @@ export let dataItems = {
     1321: {
         img: "private_maggot_muncher",
         eng: "Private Maggot Muncher",
+        rus: "Рядовой Червеглот",
         pol: "Szeregowy Larwożerca",
         sch: "蛆虫毁灭者",
         fre: "Dévermineur personnel",
@@ -14598,6 +15918,7 @@ export let dataItems = {
     1322: {
         img: "frag_proof_fragger",
         eng: "The Frag Proof Fragger",
+        rus: "Взрывозащитный взрыватель",
         pol: "Osłona oczodołów",
         sch: "防破片头盔",
         fre: "Casque résolument sécurisé",
@@ -14609,6 +15930,7 @@ export let dataItems = {
     1323: {
         img: "robin_walkers",
         eng: "Robin Walkers",
+        rus: "Снегирьи тапочки",
         pol: "Ptasie papucie",
         fre: "Charentaises de Robin",
         sch: "Robin Walkers",
@@ -14619,6 +15941,7 @@ export let dataItems = {
     1324: {
         img: "deadbeats",
         eng: "Deadbeats",
+        rus: "Звуки смерти",
         pol: "Śmierćheisery",
         sch: "低音至死",
         fre: "Sono mortelle",
@@ -14630,6 +15953,7 @@ export let dataItems = {
     1325: {
         img: "murderers_motif",
         eng: "Murderer's Motif",
+        rus: "Маска маньяка",
         pol: "Motyw mordercy",
         sch: "杀手面具",
         fre: "Masque de zéro",
@@ -14641,6 +15965,7 @@ export let dataItems = {
     1326: {
         img: "bandits_boots",
         eng: "Bandit's Boots",
+        rus: "Ботинки бандита",
         pol: "Bandyckie buciska",
         sch: "恶棍之靴",
         fre: "Bottes de bandit",
@@ -14652,6 +15977,7 @@ export let dataItems = {
     1327: {
         img: "highway_star",
         eng: "Highway Star",
+        rus: "Звезда дорог",
         pol: "Król szos",
         sch: "公路之星",
         fre: "Biker de l'outback",
@@ -14663,6 +15989,7 @@ export let dataItems = {
     1328: {
         img: "mann_o_war",
         eng: "Mann-O-War",
+        rus: "Корабль Манна",
         pol: "Zawzięty żeglarz",
         sch: "重型海盗",
         fre: "Corsaire de l'Arctique",
@@ -14674,6 +16001,7 @@ export let dataItems = {
     1329: {
         img: "olympic_leapers",
         eng: "Olympic Leapers",
+        rus: "Олимпийские прыгуны",
         pol: "Pantofle posłańca",
         sch: "奥林匹亚信使",
         fre: "Sandales d'Hermès",
@@ -14685,6 +16013,7 @@ export let dataItems = {
     1330: {
         img: "hephaistos_handcraft",
         eng: "Hephaistos' Handcraft",
+        rus: "Гефестов головняк",
         pol: "Chluba Hefajstosa",
         sch: "火神之盔",
         fre: "Hoplite bondissant",
@@ -14696,6 +16025,7 @@ export let dataItems = {
     1331: {
         img: "vampire_vanquisher",
         eng: "Vampire Vanquisher",
+        rus: "Гроза вампиров",
         pol: "Wyganiacz wampirów",
         sch: "吸血鬼猎人",
         fre: "Terreur des vampires",
@@ -14707,6 +16037,7 @@ export let dataItems = {
     1332: {
         img: "mini_engy",
         eng: "Mini-Engy",
+        rus: "Мини-инженер",
         pol: "Miniaturowy Inżynier",
         sch: "迷你工程师",
         fre: "Enjouetneer",
@@ -14717,6 +16048,7 @@ export let dataItems = {
     1333: {
         img: "arachno_arsonist",
         eng: "The Arachno-Arsonist",
+        rus: "Паутиножигатель",
         pol: "Pajęczy podpalacz",
         sch: "蛛形纵火狂",
         fre: "Cracheur de venin",
@@ -14728,6 +16060,7 @@ export let dataItems = {
     1334: {
         img: "gaelic_glutton",
         eng: "Gaelic Glutton",
+        rus: "Гэльский глотатель",
         pol: "Szkocki spaślak",
         sch: "苏格兰大胃王",
         fre: "Glouton gaélique",
@@ -14739,6 +16072,7 @@ export let dataItems = {
     1335: {
         img: "dressperado",
         eng: "Dressperado",
+        rus: "Отчаянный",
         pol: "Kataloński kryminalista",
         sch: "暴徒型男",
         fre: "Renard rusé",
@@ -14749,6 +16083,7 @@ export let dataItems = {
     1336: {
         img: "pyro_in_chinatown",
         eng: "Pyro in Chinatown",
+        rus: "Поджигатель в китайском квартале",
         pol: "Pyro w Chinatown",
         sch: "霓虹灯饰",
         fre: "Incendiaire de Chinatown",
@@ -14760,6 +16095,7 @@ export let dataItems = {
     1337: {
         img: "athenian_attire",
         eng: "Athenian Attire",
+        rus: "Афинский атрибут",
         pol: "Grecka garderoba",
         sch: "雅典战袍",
         fre: "Habit d'Athénien",
@@ -14771,6 +16107,7 @@ export let dataItems = {
     1338: {
         img: "tank_top",
         eng: "The Tank Top",
+        rus: "Танковая голова",
         pol: "Czołowy czołg",
         sch: "装甲之帽",
         fre: "Chauve d'assaut",
@@ -14782,6 +16119,7 @@ export let dataItems = {
     1339: {
         img: "aim_assistant",
         eng: "Aim Assistant",
+        rus: "Помощник по наведению",
         pol: "Asystent celowania",
         sch: "步哨助理",
         fre: "Aide à la visée",
@@ -14793,6 +16131,7 @@ export let dataItems = {
     1340: {
         img: "defragmenting_hard_hat_17",
         eng: "Defragmenting Hard Hat 17%",
+        rus: "Дефрагментация каски: 17%",
         pol: "Defragmentacja kasku 17%",
         sch: "碎片清理帽",
         fre: "Casque défragmenté à 17 %",
@@ -14804,6 +16143,7 @@ export let dataItems = {
     1341: {
         img: "terror_antula",
         eng: "Terror-antula",
+        rus: "Страхорантул",
         pol: "Terrorantula",
         sch: "恐怖大蜘蛛",
         fre: "Terreur-tula",
@@ -14813,6 +16153,7 @@ export let dataItems = {
     1342: {
         img: "mr_quackers",
         eng: "Mr. Quackers",
+        rus: "Мистер Крякерс",
         pol: "Pan Kwaczak",
         sch: "鸭嘴面具",
         fre: "Canard déchaîné",
@@ -14824,6 +16165,7 @@ export let dataItems = {
     1343: {
         img: "lucky_cat_hat",
         eng: "Lucky Cat Hat",
+        rus: "Удачливая кошкошляпа",
         pol: "Mycka manekineko",
         sch: "好运招财猫",
         fre: "Chat-peau porte-bonheur",
@@ -14835,6 +16177,7 @@ export let dataItems = {
     1344: {
         img: "haunted_ghosts_war_paint",
         eng: "Haunted Ghosts War Paint",
+        rus: "Боевая краска \"Призрачные призраки\"",
         pol: "Nawiedzone duchy | Barwy wojenne",
         sch: "恐怖鬼魂 战绘",
         fre: "Vert de peur | Peinture de guerre",
@@ -14847,6 +16190,7 @@ export let dataItems = {
     1345: {
         img: "totally_boned_war_paint",
         eng: "Totally Boned War Paint",
+        rus: "Боевая краска \"Костяшки\"",
         pol: "Całkowite skostnienie | Barwy wojenne",
         sch: "白骨累累 战绘",
         fre: "Paquet d'os | Peinture de guerre",
@@ -14859,6 +16203,7 @@ export let dataItems = {
     1346: {
         img: "horror_holiday_war_paint",
         eng: "Horror Holiday War Paint",
+        rus: "Боевая краска \"Праздник ужасов\"",
         pol: "Straszne święta | Barwy wojenne",
         sch: "恐怖假日 战绘",
         fre: "Vacances mortelles | Peinture de guerre",
@@ -14871,6 +16216,7 @@ export let dataItems = {
     1347: {
         img: "spirit_of_halloween_war_paint",
         eng: "Spirit of Halloween War Paint",
+        rus: "Боевая краска \"Дух Хеллоуина\"",
         pol: "Duch Halloween | Barwy wojenne",
         sch: "万圣之魂 战绘",
         fre: "Esprit d'Halloween | Peinture de guerre",
@@ -14883,6 +16229,7 @@ export let dataItems = {
     1348: {
         img: "calavera_canvas_war_paint",
         eng: "Calavera Canvas War Paint",
+        rus: "Боевая краска \"Калаверская канва\"",
         pol: "Kolorowa calavera | Barwy wojenne",
         sch: "亡灵狂欢 战绘",
         fre: "Calaveras | Peinture de guerre",
@@ -14895,6 +16242,7 @@ export let dataItems = {
     1349: {
         img: "spectral_shimmered_war_paint",
         eng: "Spectral Shimmered War Paint",
+        rus: "Боевая краска \"Мерцающие души\"",
         pol: "Duchowy błysk | Barwy wojenne",
         sch: "幽灵缠身 战绘",
         fre: "Fantôluminescence | Peinture de guerre",
@@ -14907,6 +16255,7 @@ export let dataItems = {
     1350: {
         img: "skull_study_war_paint",
         eng: "Skull Study War Paint",
+        rus: "Боевая краска \"Череда черепов\"",
         pol: "Czaszkowa krata | Barwy wojenne",
         sch: "暗色骷髅 战绘",
         fre: "Étude de crânes | Peinture de guerre",
@@ -14919,6 +16268,7 @@ export let dataItems = {
     1351: {
         img: "ghost_town_war_paint",
         eng: "Ghost Town War Paint",
+        rus: "Боевая краска \"Город призраков\"",
         pol: "Miasto duchów | Barwy wojenne",
         sch: "阴森之城 战绘",
         fre: "Ville fantôme | Peinture de guerre",
@@ -14931,6 +16281,7 @@ export let dataItems = {
     1352: {
         img: "tumor_toasted_war_paint",
         eng: "Tumor Toasted War Paint",
+        rus: "Боевая краска \"Опухшее тесто\"",
         pol: "Wypieczone nowotwory | Barwy wojenne",
         sch: "肿瘤附体 战绘",
         fre: "Tu meurs | Peinture de guerre",
@@ -14943,6 +16294,7 @@ export let dataItems = {
     1353: {
         img: "electroshocked_war_paint",
         eng: "Electroshocked War Paint",
+        rus: "Боевая краска \"Электрошок\"",
         pol: "Elektrowstrząs | Barwy wojenne",
         sch: "电刑处决 战绘",
         fre: "Électrochocs | Peinture de guerre",
@@ -14955,6 +16307,7 @@ export let dataItems = {
     1354: {
         img: "batters_helmet",
         eng: "Batter's Helmet",
+        rus: "Бейсбольный шлем",
         pol: "Hełm pałkarza",
         sch: "击球手头盔",
         fre: "Casque de batteur",
@@ -14966,6 +16319,7 @@ export let dataItems = {
     1355: {
         img: "bonk_helm",
         eng: "Bonk Helm",
+        rus: "Шлем \"Бонк\"",
         pol: "Hełm Bonk",
         sch: "饮料头盔",
         fre: "Casque Bonk",
@@ -14977,6 +16331,7 @@ export let dataItems = {
     1356: {
         img: "bonk_boy",
         eng: "Bonk Boy",
+        rus: "Бонк-парень",
         pol: "Bonk Boy",
         sch: "原子小子",
         fre: "Bonk Boy",
@@ -14988,6 +16343,7 @@ export let dataItems = {
     1357: {
         img: "el_jefe",
         eng: "El Jefe",
+        rus: "Эль Хефе",
         pol: "El Jefe",
         sch: "革命家之帽",
         fre: "El Jefe",
@@ -14998,6 +16354,7 @@ export let dataItems = {
     1358: {
         img: "hermes",
         eng: "Hermes",
+        rus: "Гермес",
         pol: "Hermes",
         sch: "赫耳墨斯之帽",
         fre: "L'Hermès",
@@ -15009,6 +16366,7 @@ export let dataItems = {
     1359: {
         img: "soldiers_stash",
         eng: "Soldier's Stash",
+        rus: "Солдатская каска",
         pol: "Skarb Żołnierza",
         sch: "士兵的猫眼带",
         fre: "Planque du Soldier",
@@ -15020,6 +16378,7 @@ export let dataItems = {
     1360: {
         img: "stainless_pot",
         eng: "Stainless Pot",
+        rus: "Кастрюля из нержавейки",
         pol: "Rondel nierdzewny",
         sch: "不锈锅",
         fre: "Casserole en acier",
@@ -15031,6 +16390,7 @@ export let dataItems = {
     1361: {
         img: "honchos_headgear",
         eng: "Honcho's Headgear",
+        rus: "Фуражка командира",
         pol: "Oficerka przywódcy",
         sch: "领导者的军帽",
         fre: "La Casquette du Honcho",
@@ -15042,6 +16402,7 @@ export let dataItems = {
     1362: {
         img: "brain_bucket",
         eng: "Brain Bucket",
+        rus: "Защитное ведро",
         pol: "Wiadro na mózg",
         sch: "僵尸的铁桶",
         fre: "Seau de Cerveau",
@@ -15053,6 +16414,7 @@ export let dataItems = {
     1363: {
         img: "team_captain",
         eng: "Team Captain",
+        rus: "Капитан команды",
         pol: "Kapitan brygady",
         sch: "团队领袖之帽",
         fre: "Le Capitaine d'Équipe",
@@ -15064,6 +16426,7 @@ export let dataItems = {
     1364: {
         img: "armored_authority",
         eng: "Armored Authority",
+        rus: "Железный авторитет",
         pol: "Pancerny autorytet",
         sch: "将军的军盔",
         fre: "Autorité Blindée",
@@ -15075,6 +16438,7 @@ export let dataItems = {
     1365: {
         img: "jumpers_jeepcap",
         eng: "Jumper's Jeepcap",
+        rus: "Кепка прыгуна",
         pol: "Patrolówka desantowca",
         sch: "伞兵的羊毛帽",
         fre: "Casquette de parachutiste",
@@ -15086,6 +16450,7 @@ export let dataItems = {
     1366: {
         img: "lord_cockswains_pith_helmet",
         eng: "Lord Cockswain's Pith Helmet",
+        rus: "Колониальный шлем лорда Коксвейна",
         pol: "Hełm korkowy lorda Cockswaina",
         sch: "考克斯文公爵的神气头盔",
         fre: "Casque Colonial de Lord Cockswain",
@@ -15097,6 +16462,7 @@ export let dataItems = {
     1367: {
         img: "lucky_shot",
         eng: "Lucky Shot",
+        rus: "Везунчик",
         pol: "Szczęśliwy traf",
         sch: "幸运一击",
         fre: "Le Coup de Chance",
@@ -15108,6 +16474,7 @@ export let dataItems = {
     1368: {
         img: "conquistador",
         eng: "Conquistador",
+        rus: "Конкистадор",
         pol: "Konkwistador",
         sch: "西班牙征服者",
         fre: "Le Conquistador",
@@ -15119,6 +16486,7 @@ export let dataItems = {
     1369: {
         img: "infernal_impaler",
         eng: "Infernal Impaler",
+        rus: "Адский бодатель",
         pol: "Piekielny palownik",
         sch: "凶残的恶魔头",
         fre: "L'Empaleur Infernal",
@@ -15130,6 +16498,7 @@ export let dataItems = {
     1370: {
         img: "pyros_beanie",
         eng: "Pyro's Beanie",
+        rus: "Шапочка поджигателя",
         pol: "Wirniczek Pyro",
         sch: "火焰兵的无边帽",
         fre: "Bonnet du Pyro",
@@ -15141,6 +16510,7 @@ export let dataItems = {
     1371: {
         img: "brigade_helm",
         eng: "Brigade Helm",
+        rus: "Шлем пожарного",
         pol: "Hełm brygadzisty",
         sch: "军用消防头盔",
         fre: "Casque de pompier",
@@ -15152,6 +16522,7 @@ export let dataItems = {
     1372: {
         img: "triboniophorus_tyrannus",
         eng: "Triboniophorus Tyrannus",
+        rus: "Трибониофорус Тиранус",
         pol: "Triboniophorus Tyrannus",
         sch: "懒惰的鼻涕虫",
         fre: "Triboniophorus Tyrannus",
@@ -15161,6 +16532,7 @@ export let dataItems = {
     1373: {
         img: "vintage_merryweather",
         eng: "Vintage Merryweather",
+        rus: "Винтажный шлем пожарного",
         pol: "Zabytek strażaka",
         sch: "老式消防头盔",
         fre: "Casque Millésimé",
@@ -15172,6 +16544,7 @@ export let dataItems = {
     1374: {
         img: "dead_cone",
         eng: "Dead Cone",
+        rus: "Конус мертвеца",
         pol: "Martwy pachołek",
         sch: "僵尸的路障",
         fre: "Cône du Mort",
@@ -15183,6 +16556,7 @@ export let dataItems = {
     1375: {
         img: "connoisseurs_cap",
         eng: "Connoisseur's Cap",
+        rus: "Колпак знатока",
         pol: "Czapka konesera",
         sch: "行家的厨师帽",
         fre: "Toque du Connaisseur",
@@ -15194,6 +16568,7 @@ export let dataItems = {
     1376: {
         img: "birdcage",
         eng: "Birdcage",
+        rus: "Птичья клетка",
         pol: "Klatka dla ptaków",
         sch: "鸟笼",
         fre: "La Volière",
@@ -15205,6 +16580,7 @@ export let dataItems = {
     1377: {
         img: "little_buddy",
         eng: "Little Buddy",
+        rus: "Дружок",
         pol: "Koleżka",
         sch: "水手帽",
         fre: "Le Petit Moussaillon",
@@ -15216,6 +16592,7 @@ export let dataItems = {
     1378: {
         img: "bubble_pipe",
         eng: "Bubble Pipe",
+        rus: "Трубкошлем",
         pol: "Bańkowa fajka",
         sch: "带烟斗的氧气罩",
         fre: "La Bulle à Pipe",
@@ -15227,6 +16604,7 @@ export let dataItems = {
     1379: {
         img: "waxy_wayfinder",
         eng: "Waxy Wayfinder",
+        rus: "Парафиновый путепроходец",
         pol: "Obłędny ognik",
         sch: "寻路的蜡烛头",
         fre: "La Bougie à Tête Chercheuse",
@@ -15238,6 +16616,7 @@ export let dataItems = {
     1380: {
         img: "scotsmans_stove_pipe",
         eng: "Scotsman's Stove Pipe",
+        rus: "Шотландский цилиндр",
         pol: "Szapoklak Szkota",
         sch: "苏格兰大礼帽",
         fre: "Chapeau haut de forme",
@@ -15249,6 +16628,7 @@ export let dataItems = {
     1381: {
         img: "carousers_capotain",
         eng: "Carouser's Capotain",
+        rus: "Колпак гуляки",
         pol: "Pijany purytanin",
         sch: "闹事者头目之冠",
         fre: "Chapeau de beuverie",
@@ -15260,6 +16640,7 @@ export let dataItems = {
     1382: {
         img: "samur_eye",
         eng: "Samur-Eye",
+        rus: "Одноглазый самурай",
         pol: "Samur-Eye",
         sch: "武士之眼",
         fre: "Samour-Oeil",
@@ -15271,6 +16652,7 @@ export let dataItems = {
     1383: {
         img: "conjurers_cowl",
         eng: "Conjurer's Cowl",
+        rus: "Капюшон волшебника",
         pol: "Kaptur magika",
         sch: "魔术师的兜帽",
         fre: "Le Capuchon du Magicien",
@@ -15282,6 +16664,7 @@ export let dataItems = {
     1384: {
         img: "sultans_ceremonial",
         eng: "Sultan's Ceremonial",
+        rus: "Церемониальный тюрбан султана",
         pol: "Sułtański turban ceremonialny",
         sch: "苏丹的羽毛头巾",
         fre: "Turban Cérémonial du Sultan",
@@ -15293,6 +16676,7 @@ export let dataItems = {
     1385: {
         img: "mask_of_the_shaman",
         eng: "Mask of the Shaman",
+        rus: "Маска шамана",
         pol: "Maska szamana",
         sch: "萨满面具",
         fre: "Le Masque du Chaman",
@@ -15304,6 +16688,7 @@ export let dataItems = {
     1386: {
         img: "buccaneers_bicorne",
         eng: "The Buccaneer's Bicorne",
+        rus: "Двууголка буканьера",
         pol: "Bikorn bukaniera",
         sch: "海盗的双角帽",
         fre: "Le bicorne de flibustier",
@@ -15315,6 +16700,7 @@ export let dataItems = {
     1387: {
         img: "pugilists_protector",
         eng: "Pugilist's Protector",
+        rus: "Боксёрская защита",
         pol: "Ochraniacz pięściarza",
         sch: "拳击手头套",
         fre: "Protecteur du pugiliste",
@@ -15326,6 +16712,7 @@ export let dataItems = {
     1388: {
         img: "dread_knot",
         eng: "Dread Knot",
+        rus: "Бесстрашный узел",
         pol: "Kok sumity",
         sch: "无畏者的唐轮头",
         fre: "Cuir Assez Chevelu",
@@ -15337,6 +16724,7 @@ export let dataItems = {
     1389: {
         img: "capos_capper",
         eng: "Capo's Capper",
+        rus: "Шляпа капо",
         pol: "Kapelusz capo",
         sch: "凯波尼的软呢帽",
         fre: "Feutre du Capo",
@@ -15348,6 +16736,7 @@ export let dataItems = {
     1390: {
         img: "dragonborn_helmet",
         eng: "Dragonborn Helmet",
+        rus: "Шлем драконорожденного",
         pol: "Hełm smoczego dziecięcia",
         sch: "龙裔头盔",
         fre: "Casque du Dovahkiin",
@@ -15359,6 +16748,7 @@ export let dataItems = {
     1391: {
         img: "gym_rat",
         eng: "Gym Rat",
+        rus: "Качок",
         pol: "Gimnasta",
         sch: "运动头带",
         fre: "Le Rat de la Salle de Gym",
@@ -15370,6 +16760,7 @@ export let dataItems = {
     1392: {
         img: "one_man_army",
         eng: "One-Man Army",
+        rus: "Человек-армия",
         pol: "Jednoosobowa armia",
         sch: "兰博的头带",
         fre: "L'Armée Fatale",
@@ -15381,6 +16772,7 @@ export let dataItems = {
     1393: {
         img: "engineers_cap",
         eng: "Engineer's Cap",
+        rus: "Фуражка машиниста",
         pol: "Czapka maszynisty",
         sch: "工程师的鸭舌帽",
         fre: "Casquette de l'Engineer",
@@ -15392,6 +16784,7 @@ export let dataItems = {
     1394: {
         img: "big_country",
         eng: "Big Country",
+        rus: "Прическа степного музыканта",
         pol: "Dusza country",
         sch: "帅气的马莱发型",
         fre: "Grand pays",
@@ -15403,6 +16796,7 @@ export let dataItems = {
     1395: {
         img: "hetmans_headpiece",
         eng: "Hetman's Headpiece",
+        rus: "Гетманская шляпа",
         pol: "Chluba hetmana",
         sch: "哥萨克酋长的羽毛帽",
         fre: "Chapeau de Hetman",
@@ -15414,6 +16808,7 @@ export let dataItems = {
     1396: {
         img: "pencil_pusher",
         eng: "Pencil Pusher",
+        rus: "Канцелярская крыса",
         pol: "Ufryzowany urzędas",
         sch: "会计师的铅笔",
         fre: "Le Gratte-papier",
@@ -15425,6 +16820,7 @@ export let dataItems = {
     1397: {
         img: "virtual_reality_headset",
         eng: "Virtual Reality Headset",
+        rus: "Гарнитура виртуальной реальности",
         pol: "Zestaw wirtualnej rzeczywistości",
         sch: "虚拟现实头戴式显示器",
         fre: "Le Casque de Réalité Virtuelle",
@@ -15436,6 +16832,7 @@ export let dataItems = {
     1398: {
         img: "brainiac_hairpiece",
         eng: "Brainiac Hairpiece",
+        rus: "Шиньон умника",
         pol: "Peruka mózgowca",
         sch: "发明家的白发",
         fre: "La Coiffure du Brainiac",
@@ -15447,6 +16844,7 @@ export let dataItems = {
     1399: {
         img: "geisha_boy",
         eng: "Geisha Boy",
+        rus: "Мальчик-гейша",
         pol: "Męska gejsza",
         sch: "男艺妓头饰",
         fre: "Geisha Boy",
@@ -15458,6 +16856,7 @@ export let dataItems = {
     1400: {
         img: "medics_mountain_cap",
         eng: "Medic's Mountain Cap",
+        rus: "Картуз доктора",
         pol: "Górska czapka Medyka",
         sch: "医生的野战帽",
         fre: "Casquette de Montagnard du Medic",
@@ -15469,6 +16868,7 @@ export let dataItems = {
     1401: {
         img: "doctors_sack",
         eng: "Doctor's Sack",
+        rus: "Докторский мешок",
         pol: "Torebka doktora",
         sch: "医生的冰袋",
         fre: "Bouillotte du Docteur",
@@ -15480,6 +16880,7 @@ export let dataItems = {
     1402: {
         img: "masters_yellow_belt",
         eng: "Master's Yellow Belt",
+        rus: "Жёлтая повязка мастера",
         pol: "Żółty pas mistrza",
         sch: "大师的黄带",
         fre: "Ceinture jaune du maître",
@@ -15491,6 +16892,7 @@ export let dataItems = {
     1403: {
         img: "crocleather_slouch",
         eng: "Crocleather Slouch",
+        rus: "Шляпа из крокодиловой кожи",
         pol: "Kapelusz z krokodylej skóry",
         sch: "鳄鱼皮宽边软帽",
         fre: "Chapeau Mou en Cuir de Croco",
@@ -15502,6 +16904,7 @@ export let dataItems = {
     1404: {
         img: "anger",
         eng: "Anger",
+        rus: "Ярость",
         pol: "Wściekły",
         sch: "暴怒兜帽",
         fre: "Le rageux",
@@ -15515,6 +16918,7 @@ export let dataItems = {
     1405: {
         img: "your_worst_nightmare",
         eng: "Your Worst Nightmare",
+        rus: "Твой худший кошмар",
         pol: "Twój najgorszy koszmar",
         sch: "让你做恶梦的头巾",
         fre: "Votre pire cauchemar",
@@ -15526,6 +16930,7 @@ export let dataItems = {
     1406: {
         img: "swagmans_swatter",
         eng: "Swagman's Swatter",
+        rus: "Мухобойка бродяги",
         pol: "Zasłona swagmana",
         sch: "流浪者的软木帽",
         fre: "Le chasse-mouche de vagabond",
@@ -15537,6 +16942,7 @@ export let dataItems = {
     1407: {
         img: "fruit_shoot",
         eng: "Fruit Shoot",
+        rus: "В яблочко",
         pol: "Owocny strzał",
         sch: "苹果射击帽",
         fre: "Tir fruité",
@@ -15548,6 +16954,7 @@ export let dataItems = {
     1408: {
         img: "magistrates_mullet",
         eng: "Magistrate's Mullet",
+        rus: "Судейский парик",
         pol: "Peruka sędziego",
         sch: "裁判官的假发",
         fre: "Perruque de Magistrat",
@@ -15559,6 +16966,7 @@ export let dataItems = {
     1409: {
         img: "noh_mercy",
         eng: "Noh Mercy",
+        rus: "Безжалостный демон",
         pol: "Horrendalna hannya",
         sch: "般若能面",
         fre: "Nô Merci",
@@ -15570,6 +16978,7 @@ export let dataItems = {
     1410: {
         img: "charmers_chapeau",
         eng: "Charmer's Chapeau",
+        rus: "Шляпа обольстителя",
         pol: "Kapelusz szarmanckiego kawalera",
         sch: "引人注目的骑士帽",
         fre: "Chapeau du Charmeur",
@@ -15581,6 +16990,7 @@ export let dataItems = {
     1411: {
         img: "janissary_ketche",
         eng: "Janissary Ketche",
+        rus: "Янычарская клятва",
         pol: "Janczarskie kece",
         sch: "土耳其禁卫军头冠",
         fre: "Ketche du Janissaire",
@@ -15592,6 +17002,7 @@ export let dataItems = {
     1412: {
         img: "nanobalaclava",
         eng: "Nanobalaclava",
+        rus: "Нанобалаклава",
         pol: "Nanokominiarka",
         sch: "纳米科技面罩",
         fre: "La Nanocagoule",
@@ -15603,6 +17014,7 @@ export let dataItems = {
     1413: {
         img: "linspecteur",
         eng: "L'Inspecteur",
+        rus: "Инспектор",
         pol: "L'Inspecteur",
         sch: "法国警督",
         fre: "L'inspecteur",
@@ -15613,6 +17025,7 @@ export let dataItems = {
     1414: {
         img: "noble_amassment_of_hats",
         eng: "Noble Amassment of Hats",
+        rus: "Знатная куча шляп",
         pol: "Zacna miara kapeluszy",
         sch: "高贵的层叠帽",
         fre: "Pile nobiliaire de couvre-chefs",
@@ -15624,6 +17037,7 @@ export let dataItems = {
     1415: {
         img: "towering_pillar_of_hats",
         eng: "Towering Pillar of Hats",
+        rus: "Гигантская башня из шляп",
         pol: "Niebotyczny słup kapeluszy",
         sch: "高耸的塔柱帽",
         fre: "Imposante pile de chapeaux",
@@ -15635,6 +17049,7 @@ export let dataItems = {
     1416: {
         img: "company_man",
         eng: "Company Man",
+        rus: "Преданный сотрудник",
         pol: "Człowiek korporacji",
         sch: "萨里夫工业公司员工帽",
         fre: "Casquette de l'Employé",
@@ -15646,6 +17061,7 @@ export let dataItems = {
     1417: {
         img: "killer_exclusive",
         eng: "Killer Exclusive",
+        rus: "Убийственный репортаж",
         pol: "Łowca sensacji",
         sch: "独家杀手",
         fre: "Le Scoop Meurtrier",
@@ -15657,6 +17073,7 @@ export let dataItems = {
     1418: {
         img: "hot_dogger",
         eng: "Hot Dogger",
+        rus: "Хот-догщик",
         pol: "Hotdoggista",
         sch: "热狗摊售货员帽子",
         fre: "Le vendeur de hot dogs",
@@ -15668,6 +17085,7 @@ export let dataItems = {
     1419: {
         img: "human_cannonball",
         eng: "Human Cannonball",
+        rus: "Человек-ядро",
         pol: "Ludzka kula armatnia",
         sch: "人肉炮弹",
         fre: "L'Homme-canon",
@@ -15679,6 +17097,7 @@ export let dataItems = {
     1420: {
         img: "antlers",
         eng: "Antlers",
+        rus: "Рога",
         pol: "Poroże",
         sch: "驯鹿鹿角",
         fre: "Ramures",
@@ -15690,6 +17109,7 @@ export let dataItems = {
     1421: {
         img: "dread_hiding_hood",
         eng: "Dread Hiding Hood",
+        rus: "Одеяние обманщика",
         pol: "Złowieszczy kapturek",
         sch: "惊惧隐蔽兜帽",
         fre: "Le redoutable petit chaperon",
@@ -15701,6 +17121,7 @@ export let dataItems = {
     1422: {
         img: "pocket_pardner",
         eng: "Pocket Pardner",
+        rus: "Карманный кореш",
         pol: "Kieszonkowy partner",
         sch: "口袋工程师",
         fre: "Partenaire de poche",
@@ -15712,6 +17133,7 @@ export let dataItems = {
     1423: {
         img: "wise_whiskers",
         eng: "Wise Whiskers",
+        rus: "Усы мудреца",
         pol: "Wykwintne wąsiska",
         sch: "仙人之须",
         fre: "Moustache de sage",
@@ -15723,6 +17145,7 @@ export let dataItems = {
     1424: {
         img: "snowcapped",
         eng: "Snowcapped",
+        rus: "Снежный козырёк",
         pol: "Śnieżna czapa",
         sch: "护耳军帽",
         fre: "Guerre froide",
@@ -15734,6 +17157,7 @@ export let dataItems = {
     1425: {
         img: "paka_parka",
         eng: "Paka Parka",
+        rus: "Прощальная парка",
         pol: "Parka pakera",
         sch: "因纽特大衣",
         fre: "Parka de l'Alaska",
@@ -15744,6 +17168,7 @@ export let dataItems = {
     1426: {
         img: "catchers_companion",
         eng: "The Catcher's Companion",
+        rus: "Компаньон кэтчера",
         pol: "Pobratymiec pałkarza",
         sch: "棒球小鸟",
         fre: "Bec non cloué",
@@ -15755,6 +17180,7 @@ export let dataItems = {
     1427: {
         img: "juveniles_jumper",
         eng: "Juvenile's Jumper",
+        rus: "Юношеский свитер",
         pol: "Szczeniacki sweter",
         sch: "少年的毛衣",
         fre: "Classique de Noël",
@@ -15766,6 +17192,7 @@ export let dataItems = {
     1428: {
         img: "crack_pot",
         eng: "The Crack Pot",
+        rus: "Горшкоголовый",
         pol: "Doniczkowy dureń",
         sch: "脑袋开花",
         fre: "Fine fleur",
@@ -15777,6 +17204,7 @@ export let dataItems = {
     1429: {
         img: "climbing_commander",
         eng: "Climbing Commander",
+        rus: "Горный солдат",
         pol: "Docieplony dowódca",
         sch: "登山指挥官",
         fre: "Grimpeur des Rocheuses",
@@ -15788,6 +17216,7 @@ export let dataItems = {
     1430: {
         img: "mighty_mitre",
         eng: "Mighty Mitre",
+        rus: "Могучая митра",
         pol: "Mocarna mitra",
         sch: "主教之冠",
         fre: "Miracle de la médecine",
@@ -15799,6 +17228,7 @@ export let dataItems = {
     1431: {
         img: "puggyback",
         eng: "The Puggyback",
+        rus: "Заплечный мопс",
         pol: "Przenośna psiarnia",
         sch: "巴哥背包",
         fre: "Sac à dogue",
@@ -15810,6 +17240,7 @@ export let dataItems = {
     1432: {
         img: "cool_capuchon",
         eng: "Cool Capuchon",
+        rus: "Крутой капюшон",
         pol: "Kozacki capuchon",
         sch: "冷风兜帽",
         fre: "Capuche stylée",
@@ -15821,6 +17252,7 @@ export let dataItems = {
     1433: {
         img: "pocket_admin",
         eng: "Pocket Admin",
+        rus: "Карманный Администратор",
         pol: "Kieszonkowa Administratorka",
         sch: "口袋管理员",
         fre: "Admin de poche",
@@ -15832,6 +17264,7 @@ export let dataItems = {
     1434: {
         img: "harry",
         eng: "Harry",
+        rus: "Гарри",
         pol: "Harry",
         sch: "懒猫哈里",
         fre: "Harry",
@@ -15842,6 +17275,7 @@ export let dataItems = {
     1435: {
         img: "misers_muttonchops",
         eng: "Miser's Muttonchops",
+        rus: "Бакенбарды скряги",
         pol: "Szczecina sknerusa",
         sch: "吝啬鬼络腮胡",
         fre: "Rouflaquettes",
@@ -15853,6 +17287,7 @@ export let dataItems = {
     1436: {
         img: "polar_pal",
         eng: "The Polar Pal",
+        rus: "Полярный приятель",
         pol: "Polarny przyjaciel",
         sch: "极地伴侣",
         fre: "Pote du pôle",
@@ -15864,6 +17299,7 @@ export let dataItems = {
     1437: {
         img: "dumb_bell",
         eng: "The Dumb Bell",
+        rus: "Колокол кретина",
         pol: "Cymbał brzmiący",
         sch: "不哑的铃",
         fre: "Sonneur de cloche",
@@ -15875,6 +17311,7 @@ export let dataItems = {
     1438: {
         img: "millennial_mercenary",
         eng: "Millennial Mercenary",
+        rus: "Наёмник-миллениал",
         pol: "Militarny milenials",
         sch: "00后佣兵",
         fre: "Mercenaire de la génération Y",
@@ -15886,6 +17323,7 @@ export let dataItems = {
     1439: {
         img: "bread_heads",
         eng: "Bread Heads",
+        rus: "Хлебная голова",
         pol: "Chlebogłowy",
         sch: "面包怪兽",
         fre: "Mangeur de pain",
@@ -15897,6 +17335,7 @@ export let dataItems = {
     1440: {
         img: "melted_mop",
         eng: "Melted Mop",
+        rus: "Подтёкший прикид",
         pol: "Roztopiony rożek",
         fre: "Fonte des glaces",
         sch: "融化的冰淇淋",
@@ -15908,6 +17347,7 @@ export let dataItems = {
     1441: {
         img: "staplers_specs",
         eng: "Stapler's Specs",
+        rus: "Офисные окуляры",
         pol: "Szkła zszywacza",
         fre: "Officier de bureau",
         sch: "订书机英雄",
@@ -15919,6 +17359,7 @@ export let dataItems = {
     1442: {
         img: "shutterbug",
         eng: "Shutterbug",
+        rus: "Затворник",
         pol: "Fotopluskwa",
         fre: "Caméra cachée",
         sch: "相机礼帽",
@@ -15930,6 +17371,7 @@ export let dataItems = {
     1443: {
         img: "backbreakers_guards",
         eng: "Backbreaker's Guards",
+        rus: "Защита костолома",
         pol: "Ochraniacze rozwalającego",
         fre: "Protections du footballeur américain",
         sch: "黏弹橄榄球护肩",
@@ -15941,6 +17383,7 @@ export let dataItems = {
     1444: {
         img: "mediterranean_mercenary",
         eng: "Mediterranean Mercenary",
+        rus: "Слуга Средиземноморья",
         pol: "Śródziemnomorski najemnik",
         fre: "Mercenaire méditerranéen",
         sch: "地中海佣兵",
@@ -15952,6 +17395,7 @@ export let dataItems = {
     1445: {
         img: "dancing_doe",
         eng: "Dancing Doe",
+        rus: "Титан танцпола",
         pol: "Roztańczony Ricardo",
         fre: "Bandana exaltant",
         sch: "箭迟但到",
@@ -15963,6 +17407,7 @@ export let dataItems = {
     1446: {
         img: "pompous_privateer",
         eng: "The Pompous Privateer",
+        rus: "Культурный капер",
         pol: "Kozacki kaper",
         fre: "Corsaire cabotin",
         sch: "自大的海盗",
@@ -15974,6 +17419,7 @@ export let dataItems = {
     1447: {
         img: "bottle_cap",
         eng: "The Bottle Cap",
+        rus: "Газированная кепка",
         pol: "Kapslówka",
         fre: "Casquette anti-soif",
         sch: "原子能饮料帽",
@@ -15985,6 +17431,7 @@ export let dataItems = {
     1448: {
         img: "brain_interface",
         eng: "Brain Interface",
+        rus: "Мозговой интерфейс",
         pol: "Inteligentny interfejs",
         fre: "Interface neuronale",
         sch: "脑机接口头盔",
@@ -15996,6 +17443,7 @@ export let dataItems = {
     1449: {
         img: "wanderers_wear",
         eng: "Wanderer's Wear",
+        rus: "Снаряжение скитальца",
         pol: "Warstwa wędrowca",
         fre: "Tenue de rando",
         sch: "旅行者的大衣",
@@ -16007,6 +17455,7 @@ export let dataItems = {
     1450: {
         img: "spawn_camper",
         eng: "Spawn Camper",
+        rus: "Поджидатель",
         pol: "Obozowicz na bazie",
         fre: "Campeur en feu",
         sch: "出生点看守者",
@@ -16018,6 +17467,7 @@ export let dataItems = {
     1451: {
         img: "backbreakers_skullcracker",
         eng: "Backbreaker's Skullcracker",
+        rus: "Головняк костолома",
         pol: "Rozłupywacz rozwalającego",
         fre: "Brise-crânes du footballeur américain",
         sch: "黏弹橄榄球头盔",
@@ -16029,6 +17479,7 @@ export let dataItems = {
     1452: {
         img: "kapitans_kaftan",
         eng: "Kapitan's Kaftan",
+        rus: "Капитанский кафтан",
         pol: "Kaftan kapitana",
         fre: "Caftan du capitaine",
         sch: "队长的长袍",
@@ -16040,6 +17491,7 @@ export let dataItems = {
     1453: {
         img: "wagga_wagga_wear",
         eng: "Wagga Wagga Wear",
+        rus: "Стиляга из Вагга-Вагга",
         pol: "Pustynne palto",
         fre: "Manteau de Wagga Wagga",
         sch: "瓦加瓦加外套",
@@ -16051,6 +17503,7 @@ export let dataItems = {
     1454: {
         img: "speedy_scoundrel",
         eng: "Speedy Scoundrel",
+        rus: "Проворный пройдоха",
         pol: "Śpieszny szubrawiec",
         fre: "Moussaillon magnanime",
         sch: "神速流氓",
@@ -16062,6 +17515,7 @@ export let dataItems = {
     1455: {
         img: "dynamite_abs",
         eng: "Dynamite Abs",
+        rus: "Бомбезный пресс",
         pol: "Bombowy bebech",
         fre: "Abdynamites",
         sch: "炸药腹肌",
@@ -16073,6 +17527,7 @@ export let dataItems = {
     1456: {
         img: "unforgiven_glory",
         eng: "Unforgiven Glory",
+        rus: "Непрощённая слава",
         pol: "Nieprzebaczona chwała",
         fre: "Glorieux borgne",
         sch: "无可饶恕之荣耀",
@@ -16084,6 +17539,7 @@ export let dataItems = {
     1457: {
         img: "bobby_bonnet",
         eng: "Bobby Bonnet",
+        rus: "Страж порядка",
         pol: "Garniec gliniarza",
         fre: "Policier de Sa Majesté",
         sch: "英式警察头盔",
@@ -16095,6 +17551,7 @@ export let dataItems = {
     1458: {
         img: "bare_necessities",
         eng: "The Bare Necessities",
+        rus: "Простые радости",
         pol: "Podstawowe potrzeby",
         fre: "Le minimum vital",
         sch: "基本必需品",
@@ -16106,6 +17563,7 @@ export let dataItems = {
     1459: {
         img: "fiery_phoenix",
         eng: "The Fiery Phoenix",
+        rus: "Пламенный феникс",
         pol: "Ognisty Feniks",
         fre: "Phénix flamboyant",
         sch: "不死之鸟",
@@ -16117,6 +17575,7 @@ export let dataItems = {
     1460: {
         img: "peacebreaker",
         eng: "The Peacebreaker",
+        rus: "Мироломец",
         pol: "Siewca wojny",
         fre: "Tête chercheuse",
         sch: "和平破坏者",
@@ -16128,6 +17587,7 @@ export let dataItems = {
     1461: {
         img: "texas_toast",
         eng: "Texas Toast",
+        rus: "Техасские тосты",
         pol: "Teksański tost",
         fre: "Pain gagné",
         sch: "德州面包机",
@@ -16138,6 +17598,7 @@ export let dataItems = {
     1462: {
         img: "baseball_bills_sports_shine",
         eng: "Baseball Bill's Sports Shine",
+        rus: "Спортивный гель для волос",
         pol: "Sportowy połysk baseballowego Bogusia",
         sch: "棒球比尔的发蜡头",
         fre: "Cheveux gominés",
@@ -16149,6 +17610,7 @@ export let dataItems = {
     1463: {
         img: "boston_boom_bringer",
         eng: "Boston Boom-Bringer",
+        rus: "Бостонский бумбила",
         pol: "Bostoński boom-bringer",
         sch: "波士顿噪音制造者",
         fre: "Le Bon Son de Boston",
@@ -16160,6 +17622,7 @@ export let dataItems = {
     1464: {
         img: "stereoscopic_shades",
         eng: "Stereoscopic Shades",
+        rus: "Стереоскопические очки",
         pol: "Stereoskopowe szkła",
         sch: "3D 立体眼镜",
         fre: "Les Lunettes Stéréoscopiques",
@@ -16171,6 +17634,7 @@ export let dataItems = {
     1465: {
         img: "soldiers_stogie",
         eng: "Soldier's Stogie",
+        rus: "Солдатская сигара",
         pol: "Puro piechura",
         sch: "士兵的廉价雪茄",
         fre: "Le cigare du Soldier",
@@ -16182,6 +17646,7 @@ export let dataItems = {
     1466: {
         img: "apparitions_aspect",
         eng: "Apparition's Aspect",
+        rus: "Призрачная ухмылка",
         pol: "Zjawisko nadpyrodzone",
         sch: "幽灵面罩",
         fre: "L'aspect de l'apparition",
@@ -16194,6 +17659,7 @@ export let dataItems = {
     1467: {
         img: "burning_bongos",
         eng: "Burning Bongos",
+        rus: "Зажигательные бонго",
         pol: "Płonące bongosy",
         sch: "纵火狂的小鼓",
         fre: "Les Bongos Ardents",
@@ -16205,6 +17671,7 @@ export let dataItems = {
     1468: {
         img: "cremators_conscience",
         eng: "Cremator's Conscience",
+        rus: "Совесть поджигателя",
         pol: "Sumienie sadysty",
         sch: "焚尸者的良心",
         fre: "La Conscience du Crémateur",
@@ -16216,6 +17683,7 @@ export let dataItems = {
     1469: {
         img: "last_breath",
         eng: "Last Breath",
+        rus: "Последний вздох",
         pol: "Ostatnie tchnienie",
         sch: "骷髅头骨",
         fre: "Le Dernier Souffle",
@@ -16227,6 +17695,7 @@ export let dataItems = {
     1470: {
         img: "popeyes",
         eng: "Pop-Eyes",
+        rus: "Глаза навыкат",
         pol: "Gibające gały",
         sch: "弹簧眼",
         fre: "Pop-eyes",
@@ -16238,6 +17707,7 @@ export let dataItems = {
     1471: {
         img: "a_whiff_of_the_old_brimstone",
         eng: "A Whiff of the Old Brimstone",
+        rus: "Аромат старой доброй серы",
         pol: "Powiew siareczki",
         sch: "一丝古老的硫磺气息",
         fre: "Une bouffée de soufre à l'ancienne",
@@ -16249,6 +17719,7 @@ export let dataItems = {
     1472: {
         img: "aladdins_private_reserve",
         eng: "Aladdin's Private Reserve",
+        rus: "Неприкосновенный запас Аладдина",
         pol: "Osobista rezerwa Aladyna",
         sch: "阿拉丁的私人藏品",
         fre: "La réserve privée d'Aladdin",
@@ -16260,6 +17731,7 @@ export let dataItems = {
     1473: {
         img: "liquor_locker",
         eng: "Liquor Locker",
+        rus: "Ромовый рундук",
         pol: "Bombowy barek",
         sch: "烈酒储存箱",
         fre: "Le Coffre à liqueurs",
@@ -16271,6 +17743,7 @@ export let dataItems = {
     1474: {
         img: "snapped_pupil",
         eng: "Snapped Pupil",
+        rus: "Снимок глаза",
         pol: "Zaślepka",
         sch: "独眼快照",
         fre: "La Photo de la pupille",
@@ -16282,6 +17755,7 @@ export let dataItems = {
     1475: {
         img: "little_bear",
         eng: "Little Bear",
+        rus: "Маленький медвежонок",
         pol: "Mały miś",
         sch: "育熊袋",
         fre: "Petit Ours Robot",
@@ -16293,6 +17767,7 @@ export let dataItems = {
     1476: {
         img: "toss_proof_towel",
         eng: "Toss-Proof Towel",
+        rus: "Неспадающее полотенце",
         pol: "Rzutoodporny ręcznik",
         sch: "扔不掉的毛巾",
         fre: "Serviette du vainqueur",
@@ -16304,6 +17779,7 @@ export let dataItems = {
     1477: {
         img: "texas_half_pants",
         eng: "Texas Half-Pants",
+        rus: "Техасские чапсы",
         pol: "Wyczesane czapsy",
         sch: "德州五分裤",
         fre: "Le Demi-Pantalon du Texas",
@@ -16315,6 +17791,7 @@ export let dataItems = {
     1478: {
         img: "texas_slims_dome_shine",
         eng: "Texas Slim's Dome Shine",
+        rus: "Техасская блестящая лысина",
         pol: "Błyszcząca glaca teksańskiego Staśka",
         sch: "德州瘦子三分头",
         fre: "Crâne chauve et luisant",
@@ -16326,6 +17803,7 @@ export let dataItems = {
     1479: {
         img: "archimedes",
         eng: "Archimedes",
+        rus: "Архимед",
         pol: "Archimedes",
         sch: "阿基米德",
         fre: "Archimède",
@@ -16338,6 +17816,7 @@ export let dataItems = {
     1480: {
         img: "couvre_corner",
         eng: "Couvre Corner",
+        rus: "Сложенный платок",
         pol: "Poważna poszetka",
         sch: "整洁的手帕",
         fre: "Mouchoir en coin",
@@ -16349,6 +17828,7 @@ export let dataItems = {
     1481: {
         img: "nine_pipe_problem",
         eng: "Nine-Pipe Problem",
+        rus: "Задача на девять трубок",
         pol: "Problem na dziewięć fajek",
         sch: "九口烟的大问题",
         fre: "Le problème pour neuf pipes",
@@ -16360,6 +17840,7 @@ export let dataItems = {
     1482: {
         img: "surgeons_stethoscope",
         eng: "Surgeon's Stethoscope",
+        rus: "Врачебный стетоскоп",
         pol: "Stetoskop Eskulapa",
         sch: "外科医生的听诊器",
         fre: "Le Stéthoscope de Chirurgien",
@@ -16371,6 +17852,7 @@ export let dataItems = {
     1483: {
         img: "ritzy_ricks_hair_fixative",
         eng: "Ritzy Rick's Hair Fixative",
+        rus: "Лак для роскошной шевелюры",
         pol: "Utrwalacz do włosów Ryżawego Ryśka",
         sch: "时髦瑞克的后梳头",
         fre: "Coupe parfaite, fixation extrême",
@@ -16382,6 +17864,7 @@ export let dataItems = {
     1484: {
         img: "camera_beard",
         eng: "Camera Beard",
+        rus: "Борода с камерой",
         pol: "Broda z aparatem",
         sch: "相机胡子",
         fre: "Barbe-appareil photo",
@@ -16393,6 +17876,7 @@ export let dataItems = {
     1485: {
         img: "sneaky_spats_of_sneaking",
         eng: "Sneaky Spats of Sneaking",
+        rus: "Неслышные штиблеты тишины",
         pol: "Ciche cholewniki cichociemnego",
         sch: "潜入者的潜入专用鞋",
         fre: "Les Guêtres furtives de furetage",
@@ -16404,6 +17888,7 @@ export let dataItems = {
     1486: {
         img: "spectres_spectacles",
         eng: "Spectre's Spectacles",
+        rus: "Очки призрака",
         pol: "Binokle widma",
         sch: "幽灵的眼镜",
         fre: "Les Lunettes de spectre",
@@ -16415,6 +17900,7 @@ export let dataItems = {
     1487: {
         img: "champ_stamp",
         eng: "Champ Stamp",
+        rus: "Клеймо чемпиона",
         pol: "Tatuaż twardziela",
         sch: "佣兵的龙刺青",
         fre: "Le Tampon du Champion",
@@ -16426,6 +17912,7 @@ export let dataItems = {
     1488: {
         img: "clan_pride",
         eng: "Clan Pride",
+        rus: "Гордость клана",
         pol: "Duma klanu",
         sch: "家族徽章",
         fre: "Fierté de l'Équipe",
@@ -16437,6 +17924,7 @@ export let dataItems = {
     1489: {
         img: "dr_whoa",
         eng: "Dr. Whoa",
+        rus: "Д-р Ктой",
         pol: "Dr Whoa",
         sch: "绅士的蝴蝶结",
         fre: "Dr. Whoa",
@@ -16447,6 +17935,7 @@ export let dataItems = {
     1490: {
         img: "flair",
         eng: "Flair!",
+        rus: "Значки!",
         pol: "Przypinki!",
         sch: "漂亮的小徽章",
         fre: "Flair !",
@@ -16458,6 +17947,7 @@ export let dataItems = {
     1491: {
         img: "itsy_bitsy_spyer",
         eng: "Itsy Bitsy Spyer",
+        rus: "Кроха Шпаучок",
         pol: "Tyci-tyci Szpieg",
         sch: "小不点间谍",
         fre: "Le Itsy Bitsy Spyer",
@@ -16469,6 +17959,7 @@ export let dataItems = {
     1492: {
         img: "marxman",
         eng: "Marxman",
+        rus: "Ворошиловский стрелок",
         pol: "Marksowe oblicze",
         sch: "马列主义者",
         fre: "Le Marxman",
@@ -16481,6 +17972,7 @@ export let dataItems = {
     1493: {
         img: "photo_badge",
         eng: "Photo Badge",
+        rus: "Личный пропуск",
         pol: "Odznaka ze zdjęciem",
         sch: "照片徽章",
         fre: "Badge Photo",
@@ -16492,6 +17984,7 @@ export let dataItems = {
     1494: {
         img: "reindoonicorn",
         eng: "Reindoonicorn",
+        rus: "Надуволенерог",
         pol: "Reniferożec",
         sch: "气球驯鹿独角兽",
         fre: "Le Rennicorne",
@@ -16503,6 +17996,7 @@ export let dataItems = {
     1495: {
         img: "teufort_tooth_kicker",
         eng: "Teufort Tooth Kicker",
+        rus: "Туфортский зуболом",
         pol: "Teufordzkie kopacze trzonowców",
         sch: "双城碎齿者",
         fre: "Le botteur de dents de Teufort",
@@ -16514,6 +18008,7 @@ export let dataItems = {
     1496: {
         img: "triad_trinket",
         eng: "Triad Trinket",
+        rus: "Цепочка Триады",
         pol: "Ozdoba opryszka",
         sch: "三合会饰衣",
         fre: "Le Colifichet de la Triade",
@@ -16525,6 +18020,7 @@ export let dataItems = {
     1497: {
         img: "tuxxy",
         eng: "Tuxxy",
+        rus: "Тукси",
         pol: "Saxxowny smoking",
         sch: "萨氏燕尾服",
         fre: "Le Tuxxy",
@@ -16540,6 +18036,7 @@ export let dataItems = {
     1499: {
         img: "derangement_garment",
         eng: "Derangement Garment",
+        rus: "Рубашка рубителя",
         pol: "Pasy psychola",
         fre: "Camisole de sadiste",
         sch: "狂人约束衣",
@@ -16551,6 +18048,7 @@ export let dataItems = {
     1500: {
         img: "fuel_injector",
         eng: "Fuel Injector",
+        rus: "Топливный инжектор",
         pol: "Połykacz paliwa",
         fre: "Pompe à démence",
         sch: "燃料喷射器",
@@ -16562,6 +18060,7 @@ export let dataItems = {
     1501: {
         img: "party_poncho",
         eng: "Party Poncho",
+        rus: "Праздничное пончо",
         pol: "Przyjęciowe ponczo",
         fre: "Poncho de fiesta",
         sch: "派对斗篷",
@@ -16573,6 +18072,7 @@ export let dataItems = {
     1502: {
         img: "pocket_halloween_boss",
         eng: "Pocket Halloween Boss",
+        rus: "Карманный босс Хеллоуина",
         pol: "Kieszonkowy boss halloweenowy",
         fre: "Boss d'Halloween de poche",
         sch: "口袋妖怪",
@@ -16584,6 +18084,7 @@ export let dataItems = {
     1503: {
         img: "binoculus",
         eng: "BINOCULUS!",
+        rus: "ОЧКАСТУС!",
         pol: "BINOKULUS!",
         fre: "BINOCULUS !",
         sch: "魔眼（镜）",
@@ -16594,6 +18095,7 @@ export let dataItems = {
     1504: {
         img: "candy_cranium",
         eng: "Candy Cranium",
+        rus: "Сладкий скальп",
         pol: "Cukrowa czacha",
         fre: "Pochette surprise",
         sch: "糖果脑袋",
@@ -16605,6 +18107,7 @@ export let dataItems = {
     1505: {
         img: "el_mostacho",
         eng: "El Mostacho",
+        rus: "Эль Усищио",
         pol: "El wąsaczo",
         fre: "El Mostacho",
         sch: "长须神工",
@@ -16615,6 +18118,7 @@ export let dataItems = {
     1506: {
         img: "bat_hat",
         eng: "Bat Hat",
+        rus: "Бейсбольная мышь",
         pol: "Nietoperze nakrycie",
         fre: "Chauve souriant",
         sch: "卡通蝙蝠帽",
@@ -16626,6 +18130,7 @@ export let dataItems = {
     1507: {
         img: "convict_cap",
         eng: "Convict Cap",
+        rus: "Тюремная тюбетейка",
         pol: "Obity osadzony",
         fre: "Bonnet de bagnard",
         sch: "囚犯之帽",
@@ -16637,6 +18142,7 @@ export let dataItems = {
     1508: {
         img: "bread_biter",
         eng: "Bread Biter",
+        rus: "Хлебный хищник",
         pol: "Chrupacz chleba",
         fre: "Un pain c'est tout",
         sch: "面包口罩",
@@ -16648,6 +18154,7 @@ export let dataItems = {
     1509: {
         img: "el_zapateador",
         eng: "El Zapateador",
+        rus: "Эль Сапатадор",
         pol: "El Zapateador",
         fre: "El Zapateador",
         sch: "革命领袖",
@@ -16657,6 +18164,7 @@ export let dataItems = {
     1510: {
         img: "voodoo_vizier",
         eng: "Voodoo Vizier",
+        rus: "Визирь вуду",
         pol: "Wezyr voodoo",
         fre: "Vizir vaudou",
         sch: "巫毒面具",
@@ -16668,6 +18176,7 @@ export let dataItems = {
     1511: {
         img: "soviet_strongmann",
         eng: "Soviet Strongmann",
+        rus: "Советский силач",
         pol: "Sowiecki strongmann",
         fre: "Force soviétique",
         sch: "苏维埃猛男",
@@ -16679,6 +18188,7 @@ export let dataItems = {
     1512: {
         img: "skullbrero",
         eng: "Skullbrero",
+        rus: "Черебреро",
         pol: "Czaszkombrero",
         fre: "Sombrero sinistre",
         sch: "亡者之帽",
@@ -16690,6 +18200,7 @@ export let dataItems = {
     1513: {
         img: "horrible_horns",
         eng: "The Horrible Horns",
+        rus: "Роковые рога",
         pol: "Potworne poroże",
         fre: "Cornes horribles",
         sch: "恐怖魔角",
@@ -16701,6 +18212,7 @@ export let dataItems = {
     1514: {
         img: "madmanns_muzzle",
         eng: "Madmann's Muzzle",
+        rus: "Маска мясоеда",
         pol: "Namordnik niepoczytalnego",
         fre: "Muselière meurtrière",
         sch: "狂人面罩",
@@ -16712,6 +18224,7 @@ export let dataItems = {
     1515: {
         img: "trick_stabber",
         eng: "The Trick Stabber",
+        rus: "Обманка",
         pol: "Szmaciany spryciarz",
         fre: "Poignardeur",
         sch: "面刺专家",
@@ -16723,6 +18236,7 @@ export let dataItems = {
     1516: {
         img: "elizabeth_the_third",
         eng: "Elizabeth the Third",
+        rus: "Елизавета III",
         pol: "Elżbieta Trzecia",
         fre: "Élisabeth III",
         sch: "伊丽莎白三世",
@@ -16734,6 +18248,7 @@ export let dataItems = {
     1517: {
         img: "head_of_the_dead",
         eng: "Head of the Dead",
+        rus: "Лик мёртвых",
         pol: "Twarz truposza",
         fre: "Tête de mort",
         sch: "亡者之王",
@@ -16745,6 +18260,7 @@ export let dataItems = {
     1518: {
         img: "racc_mann",
         eng: "Racc Mann",
+        rus: "Енотовидный вояка",
         pol: "Superszop",
         fre: "Raton tueur",
         sch: "浣熊侠",
@@ -16756,6 +18272,7 @@ export let dataItems = {
     1519: {
         img: "pyro_lantern",
         eng: "Pyr'o Lantern",
+        rus: "Пламенный фонарь",
         pol: "Dyniowa światłość",
         fre: "Citrouille lanterne",
         sch: "火焰南瓜灯",
@@ -16767,6 +18284,7 @@ export let dataItems = {
     1520: {
         img: "mister_bones",
         eng: "Mister Bones",
+        rus: "Мистер скелет",
         pol: "Pan Kostek",
         fre: "Monsieur Bones",
         sch: "骷髅先生",
@@ -16778,6 +18296,7 @@ export let dataItems = {
     1521: {
         img: "pebbles_the_penguin",
         eng: "Pebbles the Penguin",
+        rus: "Пингвин Пеблс",
         pol: "Pingwin Pierzuś",
         fre: "Manchot l'empereur",
         sch: "小企鹅卵石",
@@ -16789,6 +18308,7 @@ export let dataItems = {
     1522: {
         img: "citizen_cane",
         eng: "Citizen Cane",
+        rus: "Сэр Сладость",
         pol: "Cukrowy cudak",
         fre: "Chapeau d'orge",
         sch: "公民糖杖",
@@ -16800,6 +18320,7 @@ export let dataItems = {
     1523: {
         img: "missing_piece",
         eng: "Missing Piece",
+        rus: "Утерянный убор",
         pol: "Brakujący element",
         fre: "Bonnet introuvable",
         sch: "失踪人口",
@@ -16811,6 +18332,7 @@ export let dataItems = {
     1524: {
         img: "glittering_garland",
         eng: "Glittering Garland",
+        rus: "Горделивая гирлянда",
         pol: "Wymuskany wieniec",
         fre: "Guirlande enguirlandée",
         sch: "炫目花环",
@@ -16822,6 +18344,7 @@ export let dataItems = {
     1525: {
         img: "yule_hog",
         eng: "Yule Hog",
+        rus: "Святочная свинина",
         pol: "Szapoklak z szynki",
         fre: "Jambon de Noël",
         sch: "圣诞火腿",
@@ -16833,6 +18356,7 @@ export let dataItems = {
     1526: {
         img: "gingerbread_mann",
         eng: "Gingerbread Mann",
+        rus: "Пряничный приятель",
         pol: "Lukrowy ludzik",
         fre: "Mercenaire d'épice",
         sch: "姜饼曼恩",
@@ -16844,6 +18368,7 @@ export let dataItems = {
     1527: {
         img: "bumble_beenie",
         eng: "Bumble Beenie",
+        rus: "Пчелогрейка",
         pol: "Trzmiela czapa",
         fre: "Roi de la ruche",
         sch: "蜜蜂之帽",
@@ -16855,6 +18380,7 @@ export let dataItems = {
     1528: {
         img: "spiky_viking",
         eng: "Spiky Viking",
+        rus: "Шипастый викинг",
         pol: "Kolczasty wiking",
         fre: "Casque à pointes",
         sch: "维京刺盔",
@@ -16866,6 +18392,7 @@ export let dataItems = {
     1529: {
         img: "pocket_medes",
         eng: "Pocket-Medes",
+        rus: "Карманный Архимед",
         pol: "Kieszonkomedes",
         fre: "Archimède de poche",
         sch: "袋基米德",
@@ -16877,6 +18404,7 @@ export let dataItems = {
     1530: {
         img: "discovision",
         eng: "Discovision",
+        rus: "Дискозрение",
         pol: "Discowizja",
         fre: "Discovision",
         sch: "迪斯科之眼",
@@ -16887,6 +18415,7 @@ export let dataItems = {
     1531: {
         img: "telefragger_toque",
         eng: "Telefragger Toque",
+        rus: "Телешапочка",
         pol: "Toczek telefraggera",
         fre: "Toque téléportatrice",
         sch: "传送绞肉机",
@@ -16898,6 +18427,7 @@ export let dataItems = {
     1532: {
         img: "globetrotter",
         eng: "Globetrotter",
+        rus: "Снежный котелок",
         pol: "Okrągły odkrywca",
         fre: "Souvenir de 2fort",
         sch: "雪景之帽",
@@ -16909,6 +18439,7 @@ export let dataItems = {
     1533: {
         img: "winter_wrap_up",
         eng: "Winter Wrap Up",
+        rus: "Обёртка по уши",
         pol: "Zimowe zakrycie",
         fre: "Emmitouflage",
         sch: "冬日套装",
@@ -16920,6 +18451,7 @@ export let dataItems = {
     1534: {
         img: "mislaid_sweater",
         eng: "The Mislaid Sweater",
+        rus: "Скрытный свитер",
         pol: "Zapodziany sweter",
         fre: "Pull introuvable",
         sch: "迷失毛衣",
@@ -16930,6 +18462,7 @@ export let dataItems = {
     1535: {
         img: "public_speaker",
         eng: "Public Speaker",
+        rus: "Громкий говоритель",
         pol: "Chodząca rozgłośnia",
         fre: "Annonceur",
         sch: "高音喇叭",
@@ -16940,6 +18473,7 @@ export let dataItems = {
     1536: {
         img: "smissmas_saxton",
         eng: "Smissmas Saxton",
+        rus: "Шмождественский Сакстон",
         pol: "Śniąteczny Saxton",
         fre: "Père Saxton",
         sch: "萨克斯顿圣诞帽",
@@ -16951,6 +18485,7 @@ export let dataItems = {
     1537: {
         img: "provisions_cap",
         eng: "Provisions Cap",
+        rus: "Фуражка снабженца",
         pol: "Czapka zapasów",
         fre: "Casquette Provisions",
         sch: "补给帽",
@@ -16961,6 +18496,7 @@ export let dataItems = {
     1538: {
         img: "candy_crown",
         eng: "Candy Crown",
+        rus: "Конфетная корона",
         pol: "Piernikowe panisko",
         fre: "Monsieur Tartine",
         sch: "糖果之冠",
@@ -16972,6 +18508,7 @@ export let dataItems = {
     1539: {
         img: "alpine_war_paint",
         eng: "Alpine War Paint",
+        rus: "Боевая краска \"Высокогорье\"",
         pol: "Alpy | Barwy wojenne",
         fre: "Alpin | Peinture de guerre",
         sch: "阿尔卑斯 战绘",
@@ -16984,6 +18521,7 @@ export let dataItems = {
     1540: {
         img: "gift_wrapped_war_paint",
         eng: "Gift Wrapped War Paint",
+        rus: "Боевая краска \"Подарочная бумага\"",
         pol: "Zapakowany prezent | Barwy wojenne",
         fre: "Cadeau emballé | Peinture de guerre",
         sch: "圣诞礼盒 战绘",
@@ -16996,6 +18534,7 @@ export let dataItems = {
     1541: {
         img: "seriously_snowed_war_paint",
         eng: "Seriously Snowed War Paint",
+        rus: "Боевая краска \"Сильный снегопад\"",
         pol: "Straszna śnieżyca | Barwy wojenne",
         fre: "Neige abondante | Peinture de guerre",
         sch: "雪人佣兵 战绘",
@@ -17008,6 +18547,7 @@ export let dataItems = {
     1542: {
         img: "igloo_war_paint",
         eng: "Igloo War Paint",
+        rus: "Боевая краска \"Иглу\"",
         pol: "Igloo | Barwy wojenne",
         fre: "Igloo | Peinture de guerre",
         sch: "冰砖小屋 战绘",
@@ -17020,6 +18560,7 @@ export let dataItems = {
     1543: {
         img: "sleighin_style_war_paint",
         eng: "Sleighin' Style War Paint",
+        rus: "Боевая краска \"Стильные сани\"",
         pol: "Kulig | Barwy wojenne",
         fre: "Traineau stylé | Peinture de guerre",
         sch: "雪橇彩带 战绘",
@@ -17032,6 +18573,7 @@ export let dataItems = {
     1544: {
         img: "snow_covered_war_paint",
         eng: "Snow Covered War Paint",
+        rus: "Боевая краска \"Снежный покров\"",
         pol: "Pokrywa śnieżna | Barwy wojenne",
         fre: "Couvert de neige | Peinture de guerre",
         sch: "雪花覆盖 战绘",
@@ -17044,6 +18586,7 @@ export let dataItems = {
     1545: {
         img: "frost_ornamented_war_paint",
         eng: "Frost Ornamented War Paint",
+        rus: "Боевая краска \"Морозные узоры\"",
         pol: "Mroźne zdobienie | Barwy wojenne",
         fre: "Décorations givrées | Peinture de guerre",
         sch: "冰霜之饰 战绘",
@@ -17056,6 +18599,7 @@ export let dataItems = {
     1546: {
         img: "smissmas_camo_war_paint",
         eng: "Smissmas Camo War Paint",
+        rus: "Боевая краска \"Шмождественский камуфляж\"",
         pol: "Śniąteczny kamuflaż | Barwy wojenne",
         fre: "Camouflage Smissmas | Peinture de guerre",
         sch: "圣诞迷彩 战绘",
@@ -17068,6 +18612,7 @@ export let dataItems = {
     1547: {
         img: "smissmas_village_war_paint",
         eng: "Smissmas Village War Paint",
+        rus: "Боевая краска \"Шмождественская деревня\"",
         pol: "Śniąteczna wioska | Barwy wojenne",
         fre: "Village Smissmas | Peinture de guerre",
         sch: "圣诞村庄 战绘",
@@ -17080,6 +18625,7 @@ export let dataItems = {
     1548: {
         img: "winterland_wrapped_war_paint",
         eng: "Winterland Wrapped War Paint",
+        rus: "Боевая краска \"Праздничные полосы\"",
         pol: "Zimowa kraina | Barwy wojenne",
         fre: "Emballage hivernal | Peinture de guerre",
         sch: "冬日条纹 战绘",
@@ -17092,6 +18638,7 @@ export let dataItems = {
     1549: {
         img: "self_care",
         eng: "Self-Care",
+        rus: "Самолечение",
         pol: "Samoopieka",
         sch: "医者自医",
         bra: "Autoajuda",
@@ -17103,6 +18650,7 @@ export let dataItems = {
     1550: {
         img: "the_jarmaments",
         eng: "The Jarmaments",
+        rus: "Банкольер",
         pol: "Sikwondowe słoiki",
         sch: "瓶手道武装",
         bra: "Jarmamentos",
@@ -17114,6 +18662,7 @@ export let dataItems = {
     1551: {
         img: "sophisticated_smoker",
         eng: "The Sophisticated Smoker",
+        rus: "Культурный куряга",
         pol: "Nienaganny nałogowiec",
         fre: "Fumeur fumeux",
         sch: "雪茄大佬",
@@ -17125,6 +18674,7 @@ export let dataItems = {
     1552: {
         img: "soda_specs",
         eng: "Soda Specs",
+        rus: "Газиров-очки",
         pol: "Sodowe szkła",
         sch: "原子能眼镜",
         bra: "Olhar Refrescante",
@@ -17136,6 +18686,7 @@ export let dataItems = {
     1553: {
         img: "fire_fighter",
         eng: "Fire Fighter",
+        rus: "Пылкий борец",
         pol: "Wojownik ognia",
         fre: "Combattant enflammé",
         sch: "街头火霸王",
@@ -17147,6 +18698,7 @@ export let dataItems = {
     1554: {
         img: "poolside_polo",
         eng: "Poolside Polo",
+        rus: "Прибрежное поло",
         pol: "Plażowe polo",
         sch: "池边衬衫",
         bra: "Polo do Praieiro",
@@ -17158,6 +18710,7 @@ export let dataItems = {
     1555: {
         img: "crabe_de_chapeau",
         eng: "Crabe de Chapeau",
+        rus: "Шапокраб",
         pol: "Crabe de chapeau",
         fre: "Crabe de chapeau",
         sch: "蟹蟹之帽",
@@ -17168,6 +18721,7 @@ export let dataItems = {
     1556: {
         img: "california_cap",
         eng: "California Cap",
+        rus: "Калифорнийская кепка",
         pol: "Kalifornijska czapka",
         sch: "加州棒球帽",
         bra: "Boné Californiano",
@@ -17179,6 +18733,7 @@ export let dataItems = {
     1557: {
         img: "bazaar_bauble",
         eng: "Bazaar Bauble",
+        rus: "Базарный болванчик",
         pol: "Bazarowe bawidełko",
         sch: "惊喜小兵",
         bra: "Bugiganga do Bazar",
@@ -17190,6 +18745,7 @@ export let dataItems = {
     1558: {
         img: "head_of_defense",
         eng: "Head of Defense",
+        rus: "Глава обороны",
         pol: "Czołowy obrońca",
         sch: "步哨头盔",
         bra: "Mini-stro da Defesa",
@@ -17200,6 +18756,7 @@ export let dataItems = {
     1559: {
         img: "flatliner",
         eng: "The Flatliner",
+        rus: "Бессердечник",
         pol: "Pulsowizjer",
         sch: "平线庸医",
         bra: "Visão Vascular",
@@ -17211,6 +18768,7 @@ export let dataItems = {
     1560: {
         img: "tools_of_the_tourist",
         eng: "Tools of the Tourist",
+        rus: "Причиндалы путешественника",
         pol: "Torba turysty",
         sch: "游客的挎包",
         bra: "Ferramentas do Farofeiro",
@@ -17222,6 +18780,7 @@ export let dataItems = {
     1561: {
         img: "hazard_headgear",
         eng: "Hazard Headgear",
+        rus: "Устранитель угроз",
         pol: "Niezabezpieczone nakrycie",
         sch: "危爆之盔",
         bra: "Equipamento de Proteção Parcial",
@@ -17234,6 +18793,7 @@ export let dataItems = {
     1562: {
         img: "birds_eye_viewer",
         eng: "Bird's Eye Viewer",
+        rus: "Птичий глаз",
         pol: "Ptasia perspektywa",
         fre: "Espigeon",
         sch: "间谍鸽",
@@ -17245,6 +18805,7 @@ export let dataItems = {
     1563: {
         img: "breach_and_bomb",
         eng: "Breach and Bomb",
+        rus: "Прорыв и подрыв",
         pol: "Wyważyć i wysadzić",
         sch: "以爆制暴",
         bra: "Infiltrar e Detonar",
@@ -17256,6 +18817,7 @@ export let dataItems = {
     1564: {
         img: "momma_kiev",
         eng: "Momma Kiev",
+        rus: "Квочка киевская",
         pol: "Kijowska kwoka",
         sch: "基辅老母鸡",
         bra: "Mamãe Kiev",
@@ -17267,6 +18829,7 @@ export let dataItems = {
     1565: {
         img: "flamehawk",
         eng: "Flamehawk",
+        rus: "Пирокез",
         pol: "Iskrzący irokez",
         fre: "Pyroquois",
         sch: "莫火克发型",
@@ -17278,6 +18841,7 @@ export let dataItems = {
     1566: {
         img: "loaf_loafers",
         eng: "Loaf Loafers",
+        rus: "Хлебоходы",
         pol: "Bochenkowe buty",
         fre: "Paintoufles",
         sch: "面包大脚",
@@ -17289,6 +18853,7 @@ export let dataItems = {
     1567: {
         img: "smoking_jacket",
         eng: "Smoking Jacket",
+        rus: "Курительный пиджак",
         pol: "Bonżurka palacza",
         sch: "烟鬼夹克",
         bra: "Traje de Tabaco",
@@ -17300,6 +18865,7 @@ export let dataItems = {
     1568: {
         img: "hawk_warrior",
         eng: "Hawk Warrior",
+        rus: "Ястреб-вояка",
         pol: "Jastrzębi wojownik",
         fre: "Faucon de guerre",
         sch: "白头鹰战士",
@@ -17311,6 +18877,7 @@ export let dataItems = {
     1569: {
         img: "breadcrab",
         eng: "Breadcrab",
+        rus: "Хлебкраб",
         pol: "Chlebokrab",
         fre: "Pain de tête",
         sch: "面包头蟹",
@@ -17322,6 +18889,7 @@ export let dataItems = {
     1570: {
         img: "hypno_eyes",
         eng: "Hypno-Eyes",
+        rus: "Гипноглаза",
         pol: "Hipnowzrok",
         fre: "Yeuxpnotiseurs",
         sch: "催眠之眼",
@@ -17333,6 +18901,7 @@ export let dataItems = {
     1571: {
         img: "vaccinator",
         eng: "Vaccinator",
+        rus: "Вакцинатор",
         pol: "Zaszczepiacz",
         fre: "Vaccinateur",
         sch: "疫苗接种枪",
@@ -17345,6 +18914,7 @@ export let dataItems = {
     1572: {
         img: "air_strike",
         eng: "Air Strike",
+        rus: "Авиаудар",
         pol: "Atak powietrzny",
         fre: "La Frappe aérienne",
         sch: "空袭火箭筒",
@@ -17357,6 +18927,7 @@ export let dataItems = {
     1573: {
         img: "pomson_6000",
         eng: "The Pomson 6000",
+        rus: "Помсон 6000",
         pol: "Pomson 6000",
         fre: "Le Pomson 6000",
         sch: "歼灭者 6000",
@@ -17370,6 +18941,7 @@ export let dataItems = {
     1574: {
         img: "the_seared_sorcerer",
         eng: "The Seared Sorcerer",
+        rus: "Чёрствый чародей",
         pol: "Zapalający zaklinacz",
         fre: "Pyromage",
         sch: "焦灼炎术师",
@@ -17381,6 +18953,7 @@ export let dataItems = {
     1575: {
         img: "the_boom_boxers",
         eng: "The Boom Boxers",
+        rus: "Взрыв-боксеры",
         pol: "Bumbokserki",
         fre: "Box-cœurs",
         sch: "甜心内裤",
@@ -17392,6 +18965,7 @@ export let dataItems = {
     1576: {
         img: "king_cardbeard",
         eng: "King Cardbeard",
+        rus: "Король Картонная борода",
         pol: "Król Kartonobrody",
         fre: "Monarque en carton",
         sch: "纸板皇冠",
@@ -17403,6 +18977,7 @@ export let dataItems = {
     1577: {
         img: "flavorful_baggies",
         eng: "Flavorful Baggies",
+        rus: "Брюки с изюминкой",
         pol: "Pstrokate pumpy",
         fre: "Pantalon de bon gout",
         sch: "小丑波点裤",
@@ -17414,6 +18989,7 @@ export let dataItems = {
     1578: {
         img: "calamitous_cauldron",
         eng: "Calamitous Cauldron",
+        rus: "Котёл катастроф",
         pol: "Katastrofalny kocioł",
         fre: "Chaudron calamiteux",
         sch: "倾覆之釜",
@@ -17425,6 +19001,7 @@ export let dataItems = {
     1579: {
         img: "a_handsome_handy_thing",
         eng: "A Handsome Handy Thing",
+        rus: "Прелестная подручная рука",
         pol: "Poręczna rąsia",
         fre: "Tête paumée",
         sch: "留了一手",
@@ -17436,6 +19013,7 @@ export let dataItems = {
     1580: {
         img: "handsome_devil",
         eng: "Handsome Devil",
+        rus: "Дьявольский красавчик",
         pol: "Przystojny diabeł",
         fre: "Diable distingué",
         sch: "潇洒魔男",
@@ -17447,6 +19025,7 @@ export let dataItems = {
     1581: {
         img: "hollowed_helm",
         eng: "Hollowed Helm",
+        rus: "Полый шлем",
         pol: "Dyniowa defensywa",
         fre: "Cascourge",
         sch: "空心南瓜盔",
@@ -17458,6 +19037,7 @@ export let dataItems = {
     1582: {
         img: "goblineer",
         eng: "Goblineer",
+        rus: "Гоблинер",
         pol: "Goblinier",
         fre: "Goblineer",
         sch: "工布林",
@@ -17469,6 +19049,7 @@ export let dataItems = {
     1583: {
         img: "the_ghoul_box",
         eng: "The Ghoul Box",
+        rus: "Ящик с ужасами",
         pol: "Ghul narzędziowy",
         fre: "Goule à outils",
         sch: "怪物工具箱",
@@ -17480,6 +19061,7 @@ export let dataItems = {
     1584: {
         img: "glow_from_below",
         eng: "Glow from Below",
+        rus: "Свечение бездны",
         pol: "Światełko z otchłani",
         fre: "Baudroie luminescente",
         sch: "深海之光",
@@ -17491,6 +19073,7 @@ export let dataItems = {
     1585: {
         img: "eye_see_you",
         eng: "Eye-See-You",
+        rus: "Глаз-да-глаз",
         pol: "Mam na ciebie oko",
         fre: "Yeux-te-vois",
         sch: "别具慧眼",
@@ -17502,6 +19085,7 @@ export let dataItems = {
     1586: {
         img: "impish_ears",
         eng: "Impish Ears",
+        rus: "Ушки бесёнка",
         pol: "Chochlikowe uszy",
         fre: "Oreilles de farfadet",
         sch: "小鬼耳朵",
@@ -17513,6 +19097,7 @@ export let dataItems = {
     1587: {
         img: "sir_pumpkinton",
         eng: "Sir Pumpkinton",
+        rus: "Сэр Тыквингтон",
         pol: "Sir Dyńkinton",
         fre: "Sieur citrouille",
         sch: "南瓜爵士礼帽",
@@ -17524,6 +19109,7 @@ export let dataItems = {
     1588: {
         img: "gourd_grin",
         eng: "Gourd Grin",
+        rus: "Тыквенная ухмылка",
         pol: "Dyniowy uśmiech",
         fre: "Rictus sardonique",
         sch: "裂口南瓜巾",
@@ -17535,6 +19121,7 @@ export let dataItems = {
     1589: {
         img: "semi_tame_trappers_hat",
         eng: "Semi-tame Trapper's Hat",
+        rus: "Полудомашняя охотничья шапка",
         pol: "Półoswojona czapka trapera",
         fre: "Raton laveur empaillé",
         sch: "菜鸟猎人",
@@ -17546,6 +19133,7 @@ export let dataItems = {
     1590: {
         img: "the_fire_tooth",
         eng: "Fire Tooth",
+        rus: "Огнеежка",
         pol: "Ognisty ząb",
         fre: "Clown incendiaire",
         sch: "大牙小丑",
@@ -17557,6 +19145,7 @@ export let dataItems = {
     1591: {
         img: "wavefinder",
         eng: "Wavefinder",
+        rus: "Волнолов",
         pol: "Wykrywacz fal",
         fre: "Ondoscope",
         sch: "寻波装置",
@@ -17568,6 +19157,7 @@ export let dataItems = {
     1592: {
         img: "misfortune_fedora",
         eng: "Misfortune Fedora",
+        rus: "Федора невезения",
         pol: "Niefortunna fedora",
         fre: "Feutre maudit",
         sch: "厄运迷雾礼帽",
@@ -17579,6 +19169,7 @@ export let dataItems = {
     1593: {
         img: "wrap_a_khamon",
         eng: "Wrap-A-Khamon",
+        rus: "Бинтохамон",
         pol: "Bandażochamon",
         fre: "Momie-cyclope",
         sch: "法老的折叠礼帽",
@@ -17590,6 +19181,7 @@ export let dataItems = {
     1594: {
         img: "balloonicorpse",
         eng: "Balloonicorpse",
+        rus: "Надувнокост",
         pol: "Balonozwłoki",
         fre: "Ballicorps",
         sch: "气球独角尸",
@@ -17601,6 +19193,7 @@ export let dataItems = {
     1595: {
         img: "all_hallows_hatte",
         eng: "All Hallows' Hatte",
+        rus: "Шляпа всех святых",
         pol: "Kapelusz wszystkich świętych",
         fre: "Toussorcier",
         sch: "万灵彩灯之帽",
@@ -17612,6 +19205,7 @@ export let dataItems = {
     1596: {
         img: "organically_hellraised_war_paint",
         eng: "Organ-ically Hellraised War Paint",
+        rus: "Боевая краска \"Выращено в аду\"",
         pol: "Organiczny pomiot | Barwy wojenne",
         sch: "原生狱火 战绘",
         bra: "| Terror Orgânico | Tinta de Guerra",
@@ -17624,6 +19218,7 @@ export let dataItems = {
     1597: {
         img: "spider_season_war_paint",
         eng: "Spider Season War Paint",
+        rus: "Боевая краска \"Паучья пора\"",
         pol: "Pajęcza pora | Barwy wojenne",
         sch: "蜘蛛之季 战绘",
         bra: "| Temporada de Aranhas | Tinta de Guerra",
@@ -17636,6 +19231,7 @@ export let dataItems = {
     1598: {
         img: "gourdy_green_war_paint",
         eng: "Gourdy Green War Paint",
+        rus: "Боевая краска \"Тыквенный камуфляж\"",
         pol: "Dyniowa zieleń | Barwy wojenne",
         sch: "南瓜迷彩 战绘",
         bra: "| Horta de Abóboras | Tinta de Guerra",
@@ -17648,6 +19244,7 @@ export let dataItems = {
     1599: {
         img: "eyestalker_war_paint",
         eng: "Eyestalker War Paint",
+        rus: "Боевая краска \"Глазастые заросли\"",
         pol: "Podglądaczka | Barwy wojenne",
         sch: "眼球果实 战绘",
         schema: 17265,
@@ -17660,6 +19257,7 @@ export let dataItems = {
     1600: {
         img: "death_deluxe_war_paint",
         eng: "Death Deluxe War Paint",
+        rus: "Боевая краска \"Пышная погибель\"",
         pol: "Luksusowa śmierć | Barwy wojenne",
         sch: "死亡玫瑰 战绘",
         bra: "| Morte de Luxo | Tinta de Guerra",
@@ -17672,6 +19270,7 @@ export let dataItems = {
     1601: {
         img: "portal_plastered_war_paint",
         eng: "Portal Plastered War Paint",
+        rus: "Боевая краска \"Портальное покрытие\"",
         pol: "Portalowa tapeta | Barwy wojenne",
         sch: "冥界之门 战绘",
         bra: "| Pintura de Portal | Tinta de Guerra",
@@ -17684,6 +19283,7 @@ export let dataItems = {
     1602: {
         img: "candy_coated_war_paint",
         eng: "Candy Coated War Paint",
+        rus: "Боевая краска \"Карамельный кров\"",
         pol: "Cukierek | Barwy wojenne",
         sch: "万圣糖果 战绘",
         bra: "| Revestimento Doce | Tinta de Guerra",
@@ -17696,6 +19296,7 @@ export let dataItems = {
     1603: {
         img: "spiders_cluster_war_paint",
         eng: "Spider's Cluster War Paint",
+        rus: "Боевая краска \"Паучий переплёт\"",
         pol: "Sieć pająka | Barwy wojenne",
         sch: "毒巢蛛网 战绘",
         bra: "| Aglomerado de Aranhas | Tinta de Guerra",
@@ -17708,6 +19309,7 @@ export let dataItems = {
     1604: {
         img: "raving_dead_war_paint",
         eng: "Raving Dead War Paint",
+        rus: "Боевая краска \"Дохлая тусовка\"",
         pol: "Tańczący umarli | Barwy wojenne",
         sch: "亡者狂言 战绘",
         bra: "| Mortos Muito Loucos | Tinta de Guerra",
@@ -17720,6 +19322,7 @@ export let dataItems = {
     1605: {
         img: "crawlspace_critters_war_paint",
         eng: "Crawlspace Critters War Paint",
+        rus: "Боевая краска \"Твари из подпола\"",
         pol: "Piwniczne pełzacze | Barwy wojenne",
         sch: "狭缝生物 战绘",
         bra: "| Criaturinhas Escondidas | Tinta de Guerra",
@@ -17732,6 +19335,7 @@ export let dataItems = {
     1606: {
         img: "sweet_toothed_war_paint",
         eng: "Sweet Toothed War Paint",
+        rus: "Боевая краска \"Сластёна\"",
         pol: "Łakomczuch | Barwy wojenne",
         sch: "嗜甜成瘾 战绘",
         bra: "| Dentinhos Doces | Tinta de Guerra",
@@ -17744,6 +19348,7 @@ export let dataItems = {
     1607: {
         img: "helldriver_war_paint",
         eng: "Helldriver War Paint",
+        rus: "Боевая краска \"Адский гонщик\"",
         pol: "Piekielnik | Barwy wojenne",
         sch: "地狱追逐 战绘",
         bra: "| Ácido Mortífero | Tinta de Guerra",
@@ -17756,6 +19361,7 @@ export let dataItems = {
     1608: {
         img: "mummified_mimic_war_paint",
         eng: "Mummified Mimic War Paint",
+        rus: "Боевая краска \"Мумифицированный мимик\"",
         pol: "Mumifikowany mimik | Barwy wojenne",
         sch: "狞笑干尸 战绘",
         bra: "| Mímico Mumificado | Tinta de Guerra",
@@ -17768,6 +19374,7 @@ export let dataItems = {
     1609: {
         img: "pumpkin_pied_war_paint",
         eng: "Pumpkin Pied War Paint",
+        rus: "Боевая краска \"Тыквенный пирог\"",
         pol: "Dyniowe ciasto | Barwy wojenne",
         sch: "南瓜甜点 战绘",
         bra: "| Torta de Abóbora | Tinta de Guerra",
@@ -17780,6 +19387,7 @@ export let dataItems = {
     1610: {
         img: "spectrum_splattered_war_paint",
         eng: "Spectrum Splattered War Paint",
+        rus: "Боевая краска \"Спектральный всплеск\"",
         pol: "Rozbryzgany duch | Barwy wojenne",
         sch: "魔血泼溅 战绘",
         bra: "| Gotas Cromáticas | Tinta de Guerra",
@@ -17792,6 +19400,7 @@ export let dataItems = {
     1611: {
         img: "taunt_carlton",
         eng: "Taunt: The Carlton",
+        rus: "Насмешка: Танец Карлтона",
         schema: 1168,
         pol: "Drwina: Carlton",
         fre: "Raillerie : Le Carlton",
@@ -17803,6 +19412,7 @@ export let dataItems = {
     1612: {
         img: "taunt_runners_rhythm",
         eng: "Taunt: Runner's Rhythm",
+        rus: "Насмешка: Ритм рысака",
         schema: 30921,
         pol: "Drwina: Bębny biegacza",
         fre: "Raillerie : Garde le rythme",
@@ -17814,6 +19424,7 @@ export let dataItems = {
     1613: {
         img: "taunt_scooty_scoot",
         eng: "Taunt: The Scooty Scoot",
+        rus: "Насмешка: Скудный скутер",
         schema: 1197,
         pol: "Drwina: Skauci skuter",
         fre: "Raillerie : Le Scouteur",
@@ -17825,6 +19436,7 @@ export let dataItems = {
     1614: {
         img: "taunt_trackmans_touchdown",
         eng: "Taunt: The Trackman's Touchdown",
+        rus: "Насмешка: Бросок бегуна",
         schema: 30917,
         pol: "Drwina: Pierwszorzędne przyłożenie",
         fre: "Raillerie : Le footballeur américain",
@@ -17836,6 +19448,7 @@ export let dataItems = {
     1615: {
         img: "taunt_fubar_fanfare",
         eng: "Taunt: The Fubar Fanfare",
+        rus: "Насмешка: Фиаско-фанфара",
         schema: 30761,
         pol: "Drwina: Fanfara defetysty",
         fre: "Raillerie : La fanfare Fubar",
@@ -17847,6 +19460,7 @@ export let dataItems = {
     1616: {
         img: "taunt_panzer_pants",
         eng: "Taunt: Panzer Pants",
+        rus: "Насмешка: Танковые штаны",
         schema: 1196,
         pol: "Drwina: Pancerne pantalony",
         fre: "Raillerie : Le sot d'assaut",
@@ -17858,6 +19472,7 @@ export let dataItems = {
     1617: {
         img: "taunt_soldiers_requiem",
         eng: "Taunt: Soldier's Requiem",
+        rus: "Насмешка: Солдатская скорбь",
         schema: 30673,
         pol: "Drwina: Requiem Żołnierza",
         fre: "Raillerie : Requiem du Soldier",
@@ -17869,6 +19484,7 @@ export let dataItems = {
     1618: {
         img: "taunt_balloonibouncer",
         eng: "Taunt: The Balloonibouncer",
+        rus: "Насмешка: Надувнокачалка",
         schema: 30763,
         pol: "Drwina: Balonohuśtawka",
         fre: "Raillerie : La Ballicorne à ressort",
@@ -17880,6 +19496,7 @@ export let dataItems = {
     1619: {
         img: "taunt_headcase",
         eng: "Taunt: The Headcase",
+        rus: "Насмешка: Главное блюдо",
         schema: 30876,
         pol: "Drwina: Danie głowne",
         fre: "Raillerie : Le plat de résistance",
@@ -17891,6 +19508,7 @@ export let dataItems = {
     1620: {
         img: "taunt_skating_scorcher",
         eng: "Taunt: The Skating Scorcher",
+        rus: "Насмешка: Фигурное сжигание",
         schema: 30919,
         pol: "Drwina: Spopielający sportowiec",
         fre: "Raillerie : Le patineur arsoniste",
@@ -17902,6 +19520,7 @@ export let dataItems = {
     1621: {
         img: "taunt_bad_pipes",
         eng: "Taunt: Bad Pipes",
+        rus: "Насмешка: Плохолынка",
         schema: 30671,
         pol: "Drwina: Kiepskie dudy",
         fre: "Raillerie : Corne'amuse",
@@ -17913,6 +19532,7 @@ export let dataItems = {
     1622: {
         img: "taunt_scotsmanns_stagger",
         eng: "Taunt: Scotsmann's Stagger",
+        rus: "Насмешка: Шотландское шатание",
         schema: 30840,
         pol: "Drwina: Szkocki spacer",
         fre: "Raillerie : L'écossais pompette",
@@ -17924,6 +19544,7 @@ export let dataItems = {
     1623: {
         img: "taunt_table_tantrum",
         eng: "Taunt: The Table Tantrum",
+        rus: "Насмешка: Столовое сальто",
         schema: 1174,
         pol: "Drwina: Rozróba przy stole",
         fre: "Raillerie : Le lancer de table",
@@ -17935,6 +19556,7 @@ export let dataItems = {
     1624: {
         img: "taunt_proletariat_posedown",
         eng: "Taunt: The Proletariat Posedown",
+        rus: "Насмешка: Мощь пролетариата",
         schema: 30616,
         pol: "Drwina: Proletariacka poza",
         fre: "Raillerie : La pose prolétaire",
@@ -17946,6 +19568,7 @@ export let dataItems = {
     1625: {
         img: "taunt_russian_arms_race",
         eng: "Taunt: The Russian Arms Race",
+        rus: "Насмешка: Гонка в тяжёлом весе",
         schema: 30843,
         pol: "Drwina: Rosyjski wyścig zbrojeń",
         fre: "Raillerie : Les grandes pompes",
@@ -17957,6 +19580,7 @@ export let dataItems = {
     1626: {
         img: "taunt_soviet_strongarm",
         eng: "Taunt: The Soviet Strongarm",
+        rus: "Насмешка: Сила советов",
         schema: 30844,
         pol: "Drwina: Sowiecki siłacz",
         fre: "Raillerie : Halte aux haltères",
@@ -17968,6 +19592,7 @@ export let dataItems = {
     1627: {
         img: "taunt_bucking_bronco",
         eng: "Taunt: Bucking Bronco",
+        rus: "Насмешка: Необузданный бычок",
         schema: 30618,
         pol: "Drwina: Dziki jeździec",
         fre: "Raillerie : Rodéo sauvage",
@@ -17979,6 +19604,7 @@ export let dataItems = {
     1628: {
         img: "taunt_dueling_banjo",
         eng: "Taunt: The Dueling Banjo",
+        rus: "Насмешка: Дуэльное банджо",
         schema: 30842,
         pol: "Drwina: Bajeranckie banjo",
         fre: "Raillerie : Le pro du banjo",
@@ -17990,6 +19616,7 @@ export let dataItems = {
     1629: {
         img: "taunt_jumping_jack",
         eng: "Taunt: The Jumping Jack",
+        rus: "Насмешка: Отбойные скачки",
         schema: 30845,
         pol: "Drwina: Pneumoskoczek",
         fre: "Raillerie : Marteau piqueur",
@@ -18001,6 +19628,7 @@ export let dataItems = {
     1630: {
         img: "taunt_meet_the_medic",
         eng: "Taunt: The Meet the Medic",
+        rus: "Насмешка: Знакомьтесь, Медик",
         schema: 477,
         pol: "Drwina: Poznajcie Medyka",
         fre: "Raillerie : À la Rencontre du Medic",
@@ -18012,6 +19640,7 @@ export let dataItems = {
     1631: {
         img: "taunt_surgeons_squeezebox",
         eng: "Taunt: Surgeon's Squeezebox",
+        rus: "Насмешка: Акушерский аккордеон",
         schema: 30918,
         pol: "Drwina: Arteterapia akordeonowa",
         fre: "Raillerie : La mélodie du docteur",
@@ -18023,6 +19652,7 @@ export let dataItems = {
     1632: {
         img: "taunt_didgeridrongo",
         eng: "Taunt: Didgeridrongo",
+        rus: "Насмешка: Диджеридурень",
         schema: 30839,
         pol: "Drwina: Didgeridureń",
         fre: "Raillerie : Didgeridrongo",
@@ -18034,6 +19664,7 @@ export let dataItems = {
     1633: {
         img: "taunt_killer_solo",
         eng: "Taunt: The Killer Solo",
+        rus: "Насмешка: Убийственное соло",
         schema: 30609,
         pol: "Drwina: Zabójcze solo",
         fre: "Raillerie : Le solo de la mort",
@@ -18045,6 +19676,7 @@ export let dataItems = {
     1634: {
         img: "taunt_most_wanted",
         eng: "Taunt: Most Wanted",
+        rus: "Насмешка: Особо опасен",
         schema: 30614,
         pol: "Drwina: Najbardziej poszukiwany",
         fre: "Raillerie : Recherché",
@@ -18056,6 +19688,7 @@ export let dataItems = {
     1635: {
         img: "taunt_box_trot",
         eng: "Taunt: The Box Trot",
+        rus: "Насмешка: Короботрот",
         schema: 30615,
         pol: "Drwina: Kartonowe szpiegostwo",
         fre: "Raillerie : La Box Trot",
@@ -18067,6 +19700,7 @@ export let dataItems = {
     1636: {
         img: "taunt_disco_fever",
         eng: "Taunt: Disco Fever",
+        rus: "Насмешка: Диско-лихорадка",
         schema: 30762,
         pol: "Drwina: Gorączka disco",
         fre: "Raillerie : La fièvre du disco",
@@ -18078,6 +19712,7 @@ export let dataItems = {
     1637: {
         img: "taunt_luxury_lounge",
         eng: "Taunt: Luxury Lounge",
+        rus: "Насмешка: Праздная пауза",
         schema: 30922,
         pol: "Drwina: Wykwintny wypoczynek",
         fre: "Raillerie : Le fauteuil d'argent",
@@ -18089,6 +19724,7 @@ export let dataItems = {
     1638: {
         img: "taunt_directors_vision",
         eng: "Taunt: The Director's Vision",
+        rus: "Насмешка: Взгляд режиссера",
         schema: 438,
         pol: "Drwina: Wizja reżysera",
         fre: "Raillerie : La vue du Réalisateur",
@@ -18100,6 +19736,7 @@ export let dataItems = {
     1639: {
         img: "taunt_kazotsky_kick",
         eng: "Taunt: Kazotsky Kick",
+        rus: "Насмешка: Вприсядку",
         schema: 1157,
         pol: "Drwina: Kozacki kop",
         fre: "Raillerie : La danse Kazotsky",
@@ -18111,6 +19748,7 @@ export let dataItems = {
     1640: {
         img: "taunt_mannrobics",
         eng: "Taunt: Mannrobics",
+        rus: "Насмешка: Маннробика",
         schema: 1162,
         pol: "Drwina: Mannorobik",
         fre: "Raillerie : Mannrobic",
@@ -18122,6 +19760,7 @@ export let dataItems = {
     1641: {
         img: "taunt_second_rate_sorcery",
         eng: "Taunt: Second Rate Sorcery",
+        rus: "Насмешка: Второсортный волшебник",
         schema: 30816,
         pol: "Drwina: Czary z drugiej ręki",
         fre: "Raillerie : Sorcellerie de seconde classe",
@@ -18133,6 +19772,7 @@ export let dataItems = {
     1642: {
         img: "taunt_shred_alert",
         eng: "Taunt: The Shred Alert",
+        rus: "Насмешка: Боевой запил",
         schema: 1015,
         pol: "Szyderstwo szarpidruta",
         fre: "Raillerie : La Shred Alert",
@@ -18144,6 +19784,7 @@ export let dataItems = {
     1643: {
         img: "taunt_victory_lap",
         eng: "Taunt: The Victory Lap",
+        rus: "Насмешка: Круг почета",
         schema: 1172,
         pol: "Drwina: Zwycięskie okrążenie",
         fre: "Raillerie : Tour d'honneur",
@@ -18155,6 +19796,7 @@ export let dataItems = {
     1644: {
         img: "taunt_yeti_punch",
         eng: "Taunt: Yeti Punch",
+        rus: "Насмешка: Удар по йети",
         schema: 1182,
         pol: "Drwina: Uderzenie yeti",
         fre: "Raillerie : En plein dans le migou",
@@ -18166,6 +19808,7 @@ export let dataItems = {
     1645: {
         img: "taunt_yeti_smash",
         eng: "Taunt: Yeti Smash",
+        rus: "Насмешка: Йети крушить",
         schema: 1183,
         pol: "Drwina: Zniszczenie yeti",
         fre: "Raillerie : L'abominable mercenaire des neiges",
@@ -18177,6 +19820,7 @@ export let dataItems = {
     1646: {
         img: "taunt_zoomin_broom",
         eng: "Taunt: Zoomin' Broom",
+        rus: "Насмешка: Улётные мётлы",
         schema: 30672,
         pol: "Drwina: Lot na miotle",
         fre: "Raillerie : Le balai filant",
@@ -18188,6 +19832,7 @@ export let dataItems = {
     1647: {
         img: "pyro_shark",
         eng: "Pyro Shark",
+        rus: "Дизельная акула",
         pol: "Żarzący żarłacz",
         fre: "Pyrequin",
         sch: "怒火狂鲨",
@@ -18199,6 +19844,7 @@ export let dataItems = {
     1648: {
         img: "avian_amante",
         eng: "Avian Amante",
+        rus: "Летучий ловелас",
         pol: "Ptasi pasjonat",
         fre: "Corbeau mégot",
         sch: "鸦人面具",
@@ -18210,6 +19856,7 @@ export let dataItems = {
     1649: {
         img: "eingineer",
         eng: "Eingineer",
+        rus: "Эйнженер",
         pol: "Einżynier",
         fre: "Eingineer",
         sch: "金丝雀矿工",
@@ -18221,6 +19868,7 @@ export let dataItems = {
     1650: {
         img: "remorseless_raptor",
         eng: "Remorseless Raptor",
+        rus: "Яростный ящер",
         pol: "Groźna gadzina",
         fre: "Raptor sans remords",
         sch: "无情迅猛龙",
@@ -18232,6 +19880,7 @@ export let dataItems = {
     1651: {
         img: "wild_whip",
         eng: "Wild Whip",
+        rus: "Хвост хищника",
         pol: "Dziki dromeozaur",
         fre: "Reliquat d'évolution",
         sch: "狂野尾鞭",
@@ -18243,6 +19892,7 @@ export let dataItems = {
     1652: {
         img: "horseless_headless_horsemanns_headtaker",
         eng: "Horseless Headless Horsemann's Headtaker",
+        rus: "Секира Пешего всадника без головы",
         pol: "Ścinacz głów Bezkonnego Bezgłowego Jeźdźca",
         fre: "Le Décapiteur du Cavalier sans Tête et sans Cheval",
         sch: "脱缰无头骑士的斩首斧",
@@ -18254,6 +19904,7 @@ export let dataItems = {
     1653: {
         img: "necro_smasher",
         eng: "Necro Smasher",
+        rus: "Трупоколотушка",
         pol: "Nekrozgniatacz",
         fre: "Necro Smasher",
         sch: "大力碎尸锤",
@@ -18265,6 +19916,7 @@ export let dataItems = {
     1654: {
         img: "ghastly_gibus",
         eng: "Ghastly Gibus",
+        rus: "Жуткий шапокляк",
         pol: "Upiorny cylinder",
         fre: "Horrible Gibus",
         sch: "可怕的折叠礼帽",
@@ -18276,6 +19928,7 @@ export let dataItems = {
     1655: {
         img: "mildly_disturbing_halloween_mask",
         eng: "Mildly Disturbing Halloween Mask",
+        rus: "Пугающая маска на Хеллоуин",
         pol: "Lekko niepokojąca maska halloweenowa",
         fre: "Masque d'Halloween un peu dérangeant",
         sch: "令人不安的万圣节面具",
@@ -18287,6 +19940,7 @@ export let dataItems = {
     1656: {
         img: "ghastlier_gibus",
         eng: "Ghastlier Gibus",
+        rus: "Жутчайший шапокляк",
         pol: "Upiorniejszy cylinder",
         fre: "Infâme Gibus",
         sch: "更可怕的折叠礼帽",
@@ -18298,6 +19952,7 @@ export let dataItems = {
     1657: {
         img: "horseless_headless_horsemanns_head",
         eng: "Horseless Headless Horsemann's Head",
+        rus: "Голова Пешего всадника без головы",
         pol: "Głowa Bezkonnego Bezgłowego Jeźdźca",
         fre: "Tête du Cavalier sans Tête et sans Cheval",
         sch: "脱缰的无头骑士南瓜头",
@@ -18309,6 +19964,7 @@ export let dataItems = {
     1658: {
         img: "spine_chilling_skull",
         eng: "Spine-Chilling Skull",
+        rus: "Будоражащий кровь череп",
         pol: "Mrożąca krew w żyłach czacha",
         fre: "Crâne qui vous glace le sang",
         sch: "毛骨悚然的骷髅头",
@@ -18320,6 +19976,7 @@ export let dataItems = {
     1659: {
         img: "voodoo_juju",
         eng: "Voodoo Juju",
+        rus: "Амулет вуду",
         pol: "Juju voodoo",
         fre: "Juju Vaudou",
         sch: "巫毒护符",
@@ -18330,6 +19987,7 @@ export let dataItems = {
     1660: {
         img: "ghastlierest_gibus",
         eng: "Ghastlierest Gibus",
+        rus: "Наижутчайший шапокляк",
         pol: "Najupiorniejszy cylinder",
         fre: "Épouvantable Gibus",
         sch: "最可怕的折叠礼帽",
@@ -18341,6 +19999,7 @@ export let dataItems = {
     1661: {
         img: "monoculus",
         eng: "MONOCULUS!",
+        rus: "ГЛАЗАСТУС!",
         pol: "MONOCULUS!",
         fre: "Le MONOCULUS !",
         sch: "独眼怪胎！",
@@ -18352,6 +20011,7 @@ export let dataItems = {
     1662: {
         img: "spine_chilling_skull_2011",
         eng: "Spine-Chilling Skull 2011",
+        rus: "Леденящий кровь череп 2011",
         pol: "Mrożąca krew w żyłach czacha 2011",
         fre: "Le Crâne qui vous glace le sang 2011",
         sch: "毛骨悚然的骷髅头 2011 年版",
@@ -18363,6 +20023,7 @@ export let dataItems = {
     1663: {
         img: "ghostly_gibus",
         eng: "Ghostly Gibus",
+        rus: "Призрачный шапокляк",
         pol: "Widmowy cylinder",
         fre: "Fantomatique Gibus",
         sch: "幽灵折叠礼帽",
@@ -18374,6 +20035,7 @@ export let dataItems = {
     1664: {
         img: "skull_island_topper",
         eng: "Skull Island Topper",
+        rus: "Шляпа с острова Черепа",
         pol: "Czaszkowy cylinder czarnoksiężnika",
         fre: "Le couvre-chef de l'Île au crâne",
         sch: "骷髅岛主",
@@ -18385,6 +20047,7 @@ export let dataItems = {
     1665: {
         img: "pallet_of_crates",
         eng: "Pallet of Crates",
+        rus: "Груда ящиков",
         pol: "Paleta skrzynek",
         fre: "Palette de caisses",
         sch: "成堆的补给箱",
@@ -18396,6 +20059,7 @@ export let dataItems = {
     1666: {
         img: "elf_care_provider",
         eng: "Elf Care Provider",
+        rus: "Доктор эльфийских наук",
         schema: 31176,
         pol: "Elfia służba zdrowia",
         bra: "Cuidado Pré-Natal",
@@ -18407,6 +20071,7 @@ export let dataItems = {
     1667: {
         img: "bear_walker",
         eng: "Bear Walker",
+        rus: "Медвеходы",
         schema: 31180,
         pol: "Syberyjskie spanko",
         bra: "Passo do Ursinho",
@@ -18418,6 +20083,7 @@ export let dataItems = {
     1668: {
         img: "festive_flip_thwomps",
         eng: "Festive Flip-Thwomps",
+        rus: "Праздничная походка",
         schema: 31167,
         pol: "Prezentowe płaskostopie",
         bra: "Embrulho de Pé-sente",
@@ -18429,6 +20095,7 @@ export let dataItems = {
     1669: {
         img: "shoestring_santa",
         eng: "Shoestring Santa",
+        rus: "Скудный Санта",
         schema: 31169,
         pol: "Mikołaj z przeceny",
         bra: "Noel de Araque",
@@ -18440,6 +20107,7 @@ export let dataItems = {
     1670: {
         img: "jolly_jingler",
         eng: "Jolly Jingler",
+        rus: "Бойкий бубенчик",
         schema: 31165,
         pol: "Rozdzwoniony wesołek",
         bra: "Guizo Natalino",
@@ -18451,6 +20119,7 @@ export let dataItems = {
     1671: {
         img: "candy_cantlers",
         eng: "Candy Cantlers",
+        rus: "Сахарные рожки",
         schema: 31164,
         pol: "Cukierkowe poroże",
         bra: "Galhada Adocicada",
@@ -18462,6 +20131,7 @@ export let dataItems = {
     1672: {
         img: "festive_fascinator",
         eng: "Festive Fascinator",
+        rus: "Очаровательный ободок",
         schema: 31172,
         pol: "Fikuśny fascynator",
         bra: "Fascinador Festivo",
@@ -18473,6 +20143,7 @@ export let dataItems = {
     1673: {
         img: "reindoonibeanie",
         eng: "Reindoonibeanie",
+        rus: "Надуволенешапка",
         schema: 31171,
         pol: "Reniferożcowe beanie",
         bra: "Renagorro",
@@ -18483,6 +20154,7 @@ export let dataItems = {
     1674: {
         img: "particulate_protector",
         eng: "Particulate Protector",
+        rus: "Блокиратор бактерий",
         schema: 31163,
         pol: "Przeciwcząsteczkowa protekcja",
         bra: "Protetor Particular",
@@ -18494,6 +20166,7 @@ export let dataItems = {
     1675: {
         img: "the_killing_tree",
         eng: "The Killing Tree",
+        rus: "Древо убийств",
         schema: 31181,
         pol: "Śmiercionośny starodrzew",
         bra: "Pinheiro Certeiro",
@@ -18505,6 +20178,7 @@ export let dataItems = {
     1676: {
         img: "the_smissmass_sorcerer",
         eng: "Smissmas Sorcerer",
+        rus: "Шмождественский чародей",
         schema: 31166,
         pol: "Śniąteczny czarodziej",
         bra: "Feiticeiro Festivo",
@@ -18516,6 +20190,7 @@ export let dataItems = {
     1677: {
         img: "sandmanns_brush",
         eng: "SandMann's Brush",
+        rus: "Сонная кисточка",
         schema: 31178,
         pol: "Muśnięcie Piaskuna",
         bra: "Gorrinho do Soninho",
@@ -18527,6 +20202,7 @@ export let dataItems = {
     1678: {
         img: "bedbug_protection",
         eng: "BedBug Protection",
+        rus: "Клоп-стоп",
         schema: 31179,
         pol: "Piżamka proletariusza",
         bra: "Proteção Anti-Papão",
@@ -18538,6 +20214,7 @@ export let dataItems = {
     1679: {
         img: "professionals_pom_pom",
         eng: "Professional's Pom-Pom",
+        rus: "Помпон профессионала",
         schema: 31170,
         pol: "Pompon profesjonalisty",
         bra: "Pompom do Profissional",
@@ -18549,6 +20226,7 @@ export let dataItems = {
     1680: {
         img: "blitzen_bowl",
         eng: "Blitzen Bowl",
+        rus: "Каска Кометы",
         schema: 31175,
         pol: "Błyskawiczny kask",
         bra: "Engenharia Renal",
@@ -18560,6 +20238,7 @@ export let dataItems = {
     1681: {
         img: "night_ward",
         eng: "Night Ward",
+        rus: "Ночная сиделка",
         schema: 31177,
         pol: "Nocny dyżur",
         bra: "Plantão Noturno",
@@ -18571,6 +20250,7 @@ export let dataItems = {
     1682: {
         img: "helm_helm",
         eng: "Helm Helm",
+        rus: "Штурвальная шляпа",
         schema: 31182,
         pol: "Ster u steru",
         bra: "O Estrondoso Timão",
@@ -18582,6 +20262,7 @@ export let dataItems = {
     1683: {
         img: "towering_pillar_of_beanies",
         eng: "Towering Pillar of Beanies",
+        rus: "Гигантская башня из шапок",
         schema: 31168,
         pol: "Niebotyczny słup beanie",
         bra: "Pilar Monumental de Gorros",
@@ -18593,6 +20274,7 @@ export let dataItems = {
     1684: {
         img: "the_round_a_bout",
         eng: "The Round-A-Bout",
+        rus: "Карусель",
         schema: 31174,
         pol: "Karnawałowa karuzela",
         bra: "Pyrossel",
@@ -18604,6 +20286,7 @@ export let dataItems = {
     1685: {
         img: "towering_pile_of_presents",
         eng: "Towering Pile of Presents",
+        rus: "Гигантская груда подарков",
         pol: "Niebotyczny słup prezentów",
         bra: "Pilha Monumental de Presentes",
         hun: "Magasan Tornyosuló Ajándékhalom",
@@ -18615,6 +20298,7 @@ export let dataItems = {
     1686: {
         img: "snowflake_swirled_war_paint",
         eng: "Snowflake Swirled War Paint",
+        rus: "Боевая краска \"Снежная спираль\"",
         schema: 17277,
         pol: "Wir z płatkami śniegu | Barwy wojenne",
         bra: "| Espiral Flocada | Tinta de Guerra",
@@ -18626,6 +20310,7 @@ export let dataItems = {
     1687: {
         img: "snow_globalization_war_paint",
         eng: "Snow Globalization War Paint",
+        rus: "Боевая краска \"Снежный шар\"",
         schema: 17275,
         pol: "Śnieżna globalizacja | Barwy wojenne",
         bra: "| Globalização de Neve | Tinta de Guerra",
@@ -18637,6 +20322,7 @@ export let dataItems = {
     1688: {
         img: "glacial_glazed_war_paint",
         eng: "Glacial Glazed War Paint",
+        rus: "Боевая краска \"Ледниковый лак\"",
         schema: 17282,
         pol: "Zimowe zeszklenie | Barwy wojenne",
         bra: "| Azulejos Glaciais | Tinta de Guerra",
@@ -18648,6 +20334,7 @@ export let dataItems = {
     1689: {
         img: "gifting_manns_wrapping_paper_war_paint",
         eng: "Gifting Mann's Wrapping Paper War Paint",
+        rus: "Боевая краска \"Обёрточная бумага щедрого Манна\"",
         schema: 17276,
         pol: "Prezentowy papier do pakowania | Barwy wojenne",
         bra: "| Papel de Presente do Mann Presente | Tinta de Guerra",
@@ -18659,6 +20346,7 @@ export let dataItems = {
     1690: {
         img: "peppermint_swirl_war_paint",
         eng: "Peppermint Swirl War Paint",
+        rus: "Боевая краска \"Мятный вихрь\"",
         schema: 17273,
         pol: "Cukierkowy wir | Barwy wojenne",
         bra: "| Espiral de Hortelã-Pimenta | Tinta de Guerra",
@@ -18670,6 +20358,7 @@ export let dataItems = {
     1691: {
         img: "gingerbread_winner_war_paint",
         eng: "Gingerbread Winner War Paint",
+        rus: "Боевая краска \"Пряничный победитель\"",
         schema: 17270,
         pol: "Piernikowy zwycięzca | Barwy wojenne",
         bra: "| Ganha-Pão de Mel | Tinta de Guerra",
@@ -18681,6 +20370,7 @@ export let dataItems = {
     1692: {
         img: "smissmas_spycrabs_war_paint",
         eng: "Smissmas Spycrabs War Paint",
+        rus: "Боевая краска \"Шмождественские крабы-шпионы\"",
         schema: 17278,
         pol: "Śniąteczne szpiegokraby | Barwy wojenne",
         bra: "| Spyranguejos de Natal | Tinta de Guerra",
@@ -18692,6 +20382,7 @@ export let dataItems = {
     1693: {
         img: "elfin_enamel_war_paint",
         eng: "Elfin Enamel War Paint",
+        rus: "Боевая краска \"Эльфийская эмаль\"",
         schema: 17272,
         pol: "Elfia emalia | Barwy wojenne",
         bra: "| Esmalte Élfico | Tinta de Guerra",
@@ -18703,6 +20394,7 @@ export let dataItems = {
     1694: {
         img: "frozen_aurora_war_paint",
         eng: "Frozen Aurora War Paint",
+        rus: "Боевая краска \"Застывшая заря\"",
         schema: 17279,
         pol: "Mroźna zorza | Barwy wojenne",
         bra: "| Aurora Congelada | Tinta de Guerra",
@@ -18714,6 +20406,7 @@ export let dataItems = {
     1695: {
         img: "cookie_fortress_war_paint",
         eng: "Cookie Fortress War Paint",
+        rus: "Боевая краска \"Пряничные наёмнички\"",
         schema: 17283,
         pol: "Ciasteczkowa forteca | Barwy wojenne",
         bra: "| Fortaleza de Biscolachas | Tinta de Guerra",
@@ -18725,6 +20418,7 @@ export let dataItems = {
     1696: {
         img: "frosty_delivery_war_paint",
         eng: "Frosty Delivery War Paint",
+        rus: "Боевая краска \"Морозная посылка\"",
         schema: 17281,
         pol: "Mroźna dostawa | Barwy wojenne",
         bra: "| Entrega Gélida | Tinta de Guerra",
@@ -18736,6 +20430,7 @@ export let dataItems = {
     1697: {
         img: "saccharine_striped_war_paint",
         eng: "Saccharine Striped War Paint",
+        rus: "Боевая краска \"Сладкие полоски\"",
         schema: 17271,
         pol: "Przesłodkie pasy | Barwy wojenne",
         bra: "| Listras Adocicadas | Tinta de Guerra",
@@ -18747,6 +20442,7 @@ export let dataItems = {
     1698: {
         img: "starlight_serenity_war_paint",
         eng: "Starlight Serenity War Paint",
+        rus: "Боевая краска \"Полуночный покой\"",
         schema: 17280,
         pol: "Gwiezdne ukojenie | Barwy wojenne",
         bra: "| Serenidade Estrelada | Tinta de Guerra",
@@ -18758,6 +20454,7 @@ export let dataItems = {
     1699: {
         img: "taunt_the_pooped_deck",
         eng: "Taunt: The Pooped Deck",
+        rus: "Насмешка: Уютный ют",
         schema: 31153,
         pol: "Drwina: Pijacki pokład",
         bra: "Provocação: Escocês Exausto",
@@ -18768,6 +20465,7 @@ export let dataItems = {
     1700: {
         img: "taunt_time_out_therapy",
         eng: "Taunt: Time Out Therapy",
+        rus: "Насмешка: Целебный перерыв",
         schema: 31154,
         pol: "Drwina: Teufordzki terapeuta",
         bra: "Provocação: Pausa Fora de Hora",
@@ -18778,6 +20476,7 @@ export let dataItems = {
     1701: {
         img: "taunt_rocket_jockey",
         eng: "Taunt: Rocket Jockey",
+        rus: "Насмешка: Ракетные скачки",
         schema: 31155,
         pol: "Drwina: Rakietowy dżokej",
         bra: "Provocação: Fogueteiro Fantástico",
@@ -18788,6 +20487,7 @@ export let dataItems = {
     1702: {
         img: "taunt_the_boston_boarder",
         eng: "Taunt: The Boston Boarder",
+        rus: "Насмешка: Бостонский скейтбордист",
         schema: 31156,
         pol: "Drwina: Bostoński skejter",
         bra: "Provocação: Charlie Bonk Jr.",
@@ -18798,6 +20498,7 @@ export let dataItems = {
     1703: {
         img: "taunt_scorchers_solo",
         eng: "Taunt: Scorcher's Solo",
+        rus: "Насмешка: Пламенное соло",
         schema: 31157,
         pol: "Drwina: Solówka spopielacza",
         bra: "Provocação: Fique Pianinho",
@@ -18808,6 +20509,7 @@ export let dataItems = {
     1704: {
         img: "taunt_texas_truckin",
         eng: "Taunt: Texas Truckin'",
+        rus: "Насмешка: Техасский тракторист",
         schema: 31160,
         pol: "Drwina: Teksański traktorzysta",
         bra: "Provocação: Tratorzinho do Texas",
@@ -18818,6 +20520,7 @@ export let dataItems = {
     1705: {
         img: "taunt_spin_to_win",
         eng: "Taunt: Spin-to-Win",
+        rus: "Насмешка: Кручу-верчу",
         schema: 31161,
         pol: "Drwina: Znak zwycięstwa",
         bra: "Provocação: Dando a Seta",
@@ -18828,6 +20531,7 @@ export let dataItems = {
     1706: {
         img: "taunt_the_fist_bump",
         eng: "Taunt: The Fist Bump",
+        rus: "Насмешка: Кулачок",
         schema: 31162,
         pol: "Drwina: Żółwik",
         bra: "Provocação: Soquinho",
@@ -18838,6 +20542,7 @@ export let dataItems = {
     1707: {
         img: "manndatory_attire",
         eng: "Manndatory Attire",
+        rus: "Непре-Манный атрибут",
         schema: 31184,
         pol: "Pod krawatem",
         hun: "Kötelező Viselet",
@@ -18848,6 +20553,7 @@ export let dataItems = {
     1708: {
         img: "roaming_roman",
         eng: "Roaming Roman",
+        rus: "Рыскающий римлянин",
         schema: 31198,
         pol: "Żwawy Rzymianin",
         bra: "Centurião Errante",
@@ -18858,6 +20564,7 @@ export let dataItems = {
     1709: {
         img: "brim_of_fire",
         eng: "Brim of Fire",
+        rus: "Пламенные поля",
         schema: 31185,
         pol: "Ogniste rondo",
         bra: "Aba Labareda",
@@ -18868,6 +20575,7 @@ export let dataItems = {
     1710: {
         img: "wild_brim_slouch",
         eng: "Wild Brim Slouch",
+        rus: "Дикополый лентяй",
         schema: 31192,
         pol: "Zębata zdobycz",
         bra: "Couro do Pântano",
@@ -18878,6 +20586,7 @@ export let dataItems = {
     1711: {
         img: "fried_batter",
         eng: "Fried Batter",
+        rus: "Кухонный болтун",
         schema: 31197,
         pol: "Smażony sprinter",
         bra: "Corredor do Caixa",
@@ -18888,6 +20597,7 @@ export let dataItems = {
     1712: {
         img: "reel_fly_hat",
         eng: "Reel Fly Hat",
+        rus: "Шляпка-наживка",
         schema: 31186,
         pol: "Kapelusz fanatyka",
         bra: "Isca Cocuruta",
@@ -18898,6 +20608,7 @@ export let dataItems = {
     1713: {
         img: "two_punch_mann",
         eng: "Two Punch Mann",
+        rus: "Месть боксёра",
         schema: 31191,
         pol: "Dwubij",
         bra: "Porta-Luvas de Boxe",
@@ -18908,6 +20619,7 @@ export let dataItems = {
     1714: {
         img: "hook_line_and_cinder",
         eng: "Hook, Line, and Cinder",
+        rus: "Поджарый поплавок",
         schema: 31187,
         pol: "Haczyk, żyłka i popiół",
         bra: "Vai Pescá",
@@ -18918,6 +20630,7 @@ export let dataItems = {
     1715: {
         img: "thousand_yard_stare",
         eng: "Thousand-Yard Stare",
+        rus: "Взгляд на тысячу ярдов",
         schema: 31200,
         pol: "Wojenny wytrzeszcz",
         bra: "Olho no Olho",
@@ -18928,6 +20641,7 @@ export let dataItems = {
     1716: {
         img: "snack_stack",
         eng: "Snack Stack",
+        rus: "Бутербашня",
         schema: 31190,
         pol: "Sterta smakołyków",
         bra: "Pilha de Sandviches",
@@ -18938,6 +20652,7 @@ export let dataItems = {
     1717: {
         img: "crocodile_dandy",
         eng: "Crocodile Dandy",
+        rus: "Крокодил-денди",
         schema: 31193,
         pol: "Krokodyl dandys",
         bra: "Crocodilo Dândi",
@@ -18948,6 +20663,7 @@ export let dataItems = {
     1718: {
         img: "meal_dealer",
         eng: "Meal Dealer",
+        rus: "Стремительный кормитель",
         schema: 31196,
         pol: "Sprzedawca smakowitości",
         bra: "Atendente de Lanchonete",
@@ -18958,6 +20674,7 @@ export let dataItems = {
     1719: {
         img: "water_waders",
         eng: "Water Waders",
+        rus: "Убранство удильщика",
         schema: 31188,
         pol: "Wodne wdzianko",
         bra: "Pesca à Prova d'Água",
@@ -18968,6 +20685,7 @@ export let dataItems = {
     1720: {
         img: "the_sightliner",
         eng: "The Sightliner",
+        rus: "Прицеловизор",
         schema: 31189,
         pol: "Działkowizor",
         hun: "Célbamérő",
@@ -18978,6 +20696,7 @@ export let dataItems = {
     1721: {
         img: "the_panisher",
         eng: "The Panisher",
+        rus: "Пригоратель",
         schema: 31199,
         pol: "Patelniowy pogromca",
         bra: "O Frigideiro",
@@ -18988,6 +20707,7 @@ export let dataItems = {
     1722: {
         img: "fast_food",
         eng: "Fast Food",
+        rus: "Быстрый перекус",
         schema: 31195,
         pol: "Szybka szama",
         bra: "Entrega Rápida",
@@ -18998,6 +20718,7 @@ export let dataItems = {
     1723: {
         img: "crustaceous_cowl",
         eng: "Crustaceous Cowl",
+        rus: "Крабовый капюшон",
         schema: 31194,
         pol: "Krabowy kaptur",
         bra: "Capuz Crustáceo",
@@ -19008,6 +20729,7 @@ export let dataItems = {
     1724: {
         img: "ballooniphones",
         eng: "Ballooniphones",
+        rus: "Надувнаушники",
         schema: 31183,
         pol: "Balonofonia",
         bra: "Balãonifones",
@@ -19018,6 +20740,7 @@ export let dataItems = {
     1725: {
         img: "beanie_the_all_gnawing",
         eng: "Beanie The All-Gnawing",
+        rus: "Всепоглощающая шапка",
         schema: 31212,
         pol: "Wszechjedzące beanie",
         hun: "Mindentrágó Sapi",
@@ -19029,6 +20752,7 @@ export let dataItems = {
     1726: {
         img: "death_stare",
         eng: "Death Stare",
+        rus: "Убийственный взгляд",
         schema: 31225,
         pol: "Śmiertelne spojrzenie",
         bra: "Olho Gordo",
@@ -19040,6 +20764,7 @@ export let dataItems = {
     1727: {
         img: "hat_outta_hell",
         eng: "Hat Outta Hell",
+        rus: "Прикид из ада",
         schema: 31216,
         pol: "Czorcia czapka",
         hun: "Pokolsityak",
@@ -19051,6 +20776,7 @@ export let dataItems = {
     1728: {
         img: "the_scariest_mask_ever",
         eng: "The Scariest Mask EVER",
+        rus: "САМАЯ жуткая маска",
         schema: 31219,
         pol: "Najstraszniejsza maska JAKA ISTNIEJE",
         hun: "A LEGESlegfélelmetesebb Álarc",
@@ -19062,6 +20788,7 @@ export let dataItems = {
     1729: {
         img: "twisted_topper",
         eng: "Twisted Topper",
+        rus: "Закрученный цилиндр",
         schema: 31211,
         pol: "Pokręcony cylinder",
         hun: "Csíkos Cilinder",
@@ -19073,6 +20800,7 @@ export let dataItems = {
     1730: {
         img: "creepy_crawlers",
         eng: "Creepy Crawlers",
+        rus: "Ползучие пакостники",
         schema: 31208,
         pol: "Przerażające pełzaki",
         hun: "Rémséges Pókok",
@@ -19084,6 +20812,7 @@ export let dataItems = {
     1731: {
         img: "spooky_head_bouncers",
         eng: "Spooky Head-Bouncers",
+        rus: "Жуткие антенночки",
         schema: 31209,
         pol: "Przerażające podskakiwacze",
         hun: "Ijesztő Fejenrezgők",
@@ -19095,6 +20824,7 @@ export let dataItems = {
     1732: {
         img: "tricksters_treats",
         eng: "Trickster's Treats",
+        rus: "Поощрения пройдохи",
         schema: 31220,
         pol: "Słodkości szachraja",
         bra: "Gostosuras do Travesso",
@@ -19106,6 +20836,7 @@ export let dataItems = {
     1733: {
         img: "the_corpse_carrier",
         eng: "The Corpse Carrier",
+        rus: "Трупоносец",
         schema: 31226,
         pol: "Tragarz zwłok",
         bra: "Carregador de Corpos",
@@ -19117,6 +20848,7 @@ export let dataItems = {
     1734: {
         img: "smiling_somen",
         eng: "Smiling Somen",
+        rus: "Усмешливый сомэн",
         schema: 31222,
         pol: "Śmieszkujący sōmen",
         hun: "Vigyorgó Somen",
@@ -19128,6 +20860,7 @@ export let dataItems = {
     1735: {
         img: "second_head_headwear",
         eng: "Second-Head Headwear",
+        rus: "Головной головной убор",
         schema: 31214,
         pol: "Co dwie głowy, to nie jedna",
         bra: "Chapéu em Segunda Cabeça",
@@ -19139,6 +20872,7 @@ export let dataItems = {
     1736: {
         img: "eyequarium",
         eng: "Eyequarium",
+        rus: "Оковариум",
         schema: 31213,
         pol: "Okwarium",
         hun: "Szemnedvesítő",
@@ -19150,6 +20884,7 @@ export let dataItems = {
     1737: {
         img: "goalkeeper",
         eng: "Goalkeeper",
+        rus: "Вратарь",
         schema: 31217,
         pol: "Bramkarz",
         hun: "Kapus",
@@ -19161,6 +20896,7 @@ export let dataItems = {
     1738: {
         img: "alakablamicon",
         eng: "Alakablamicon",
+        rus: "Колдуномикон",
         schema: 31215,
         pol: "Abrakabumicon",
         hun: "Bummbanomicon",
@@ -19169,6 +20905,7 @@ export let dataItems = {
     1739: {
         img: "the_hook_line_and_thinker",
         eng: "The Hook, Line, and Thinker",
+        rus: "Улов мозгов",
         schema: 31223,
         pol: "Pomysłowy połów",
         hun: "Megakasztott Agyalás",
@@ -19180,6 +20917,7 @@ export let dataItems = {
     1740: {
         img: "optic_nerve",
         eng: "Optic Nerve",
+        rus: "Зрительный нерв",
         schema: 31224,
         pol: "Nerw wzrokowy",
         hun: "Látóideg",
@@ -19191,6 +20929,7 @@ export let dataItems = {
     1741: {
         img: "gruesome_gourd",
         eng: "Gruesome Gourd",
+        rus: "Тыквенный тиран",
         schema: 31227,
         pol: "Gustowna gurda",
         hun: "Irtózatos Tökfej",
@@ -19202,6 +20941,7 @@ export let dataItems = {
     1742: {
         img: "the_bone_cone",
         eng: "The Bone Cone",
+        rus: "Костяной колпак",
         schema: 31218,
         pol: "Stożek kości",
         hun: "Csontkúp",
@@ -19213,6 +20953,7 @@ export let dataItems = {
     1743: {
         img: "wandering_wraith",
         eng: "Wandering Wraith",
+        rus: "Плутающий призрак",
         schema: 31221,
         pol: "Wędrujące widmo",
         hun: "Lángoló Lidérc",
@@ -19224,6 +20965,7 @@ export let dataItems = {
     1744: {
         img: "towering_patch_of_pumpkins",
         eng: "Towering Patch of Pumpkins",
+        rus: "Гигантская башня из тыкв",
         schema: 31210,
         pol: "Niebotyczny słup dyń",
         hun: "Magasan Tornyosuló Tökök",
@@ -19235,12 +20977,14 @@ export let dataItems = {
     1745: {
         img: "poopy_doe",
         eng: "Poopy Doe",
+        rus: "Простофиля Доу",
         schema: 31228,
         sch: "破空飞猿"
     },
     1746: {
         img: "batters_beak",
         eng: "Batter's Beak",
+        rus: "Пернатый питчер",
         schema: 31229,
         pol: "Pierzasty pałkarz",
         hun: "Csőrös Ütős",
@@ -19252,6 +20996,7 @@ export let dataItems = {
     1747: {
         img: "war_dog",
         eng: "War Dog",
+        rus: "Пёс войны",
         schema: 31230,
         pol: "Pies wojny",
         hun: "Harci Kutya",
@@ -19263,6 +21008,7 @@ export let dataItems = {
     1748: {
         img: "miami_rooster",
         eng: "The Miami Rooster",
+        rus: "Майамский петушок",
         schema: 31231,
         pol: "Kogut z Miami",
         bra: "Galo de Miami",
@@ -19274,6 +21020,7 @@ export let dataItems = {
     1749: {
         img: "computron_5000",
         eng: "Computron 5000",
+        rus: "Компьютрон 5000",
         schema: 31232,
         pol: "Komputron 5000",
         fre: "Robespion 5000",
@@ -19282,6 +21029,7 @@ export let dataItems = {
     1750: {
         img: "sarsparilla_sprayed_war_paint",
         eng: "Sarsparilla Sprayed War Paint",
+        rus: "Боевая краска \"Газированное граффити\"",
         schema: 17284,
         pol: "Śmiechu warte | Barwy wojenne",
         hun: "Sarsaparilla-mintás Harci festés",
@@ -19292,6 +21040,7 @@ export let dataItems = {
     1751: {
         img: "kiln_conquer_war_paint",
         eng: "Kiln & Conquer War Paint",
+        rus: "Боевая краска \"Печные муки\"",
         schema: 17296,
         pol: "Palić i podbijać | Barwy wojenne",
         hun: "Ölj és hódíts Harci festés",
@@ -19302,6 +21051,7 @@ export let dataItems = {
     1752: {
         img: "searing_souls_war_paint",
         eng: "Searing Souls War Paint",
+        rus: "Боевая краска \"Горящие души\"",
         schema: 17293,
         pol: "Płonące dusze | Barwy wojenne",
         hun: "Lángoló Lelkek Harci festés",
@@ -19312,6 +21062,7 @@ export let dataItems = {
     1753: {
         img: "potent_poison_war_paint",
         eng: "Potent Poison War Paint",
+        rus: "Боевая краска \"Ядрёный яд\"",
         schema: 17292,
         pol: "Silna trucizna | Barwy wojenne",
         hun: "Hatásos méreg Harci festés",
@@ -19322,6 +21073,7 @@ export let dataItems = {
     1754: {
         img: "simple_spirits_war_paint",
         eng: "Simple Spirits War Paint",
+        rus: "Боевая краска \"Простые приведения\"",
         schema: 17290,
         pol: "Drobne duszki | Barwy wojenne",
         hun: "Egyszerűen szellemes Harci festés",
@@ -19332,6 +21084,7 @@ export let dataItems = {
     1755: {
         img: "skull_cracked_war_paint",
         eng: "Skull Cracked War Paint",
+        rus: "Боевая краска \"Хруст черепов\"",
         schema: 17286,
         pol: "Spękane czaszki | Barwy wojenne",
         hun: "Koponyarepesztő Harci festés",
@@ -19342,6 +21095,7 @@ export let dataItems = {
     1756: {
         img: "necromanced_war_paint",
         eng: "Necromanced War Paint",
+        rus: "Боевая краска \"Нежить\"",
         schema: 17297,
         pol: "Nekromancja | Barwy wojenne",
         hun: "Felélesztve Harci festés",
@@ -19352,6 +21106,7 @@ export let dataItems = {
     1757: {
         img: "polter_guised_war_paint",
         eng: "Polter-Guised War Paint",
+        rus: "Боевая краска \"Покров полтергейста\"",
         schema: 17295,
         pol: "Cierpiące dusze | Barwy wojenne",
         hun: "Kísérteties külső Harci festés",
@@ -19362,6 +21117,7 @@ export let dataItems = {
     1758: {
         img: "neon_ween_war_paint",
         eng: "Neon-ween War Paint",
+        rus: "Боевая краска \"Неоноуин\"",
         schema: 17289,
         pol: "Neonween | Barwy wojenne",
         hun: "Neon-ween Harci festés",
@@ -19372,6 +21128,7 @@ export let dataItems = {
     1759: {
         img: "swashbuckled_war_paint",
         eng: "Swashbuckled War Paint",
+        rus: "Боевая краска \"Контрабанда\"",
         schema: 17285,
         pol: "Pirat | Barwy wojenne",
         hun: "Kalózos Harci festés",
@@ -19382,6 +21139,7 @@ export let dataItems = {
     1760: {
         img: "broken_bones_war_paint",
         eng: "Broken Bones War Paint",
+        rus: "Боевая краска \"Кости в крошку\"",
         schema: 17291,
         pol: "Połamane kości | Barwy wojenne",
         hun: "Törött csontok Harci festés",
@@ -19392,6 +21150,7 @@ export let dataItems = {
     1761: {
         img: "party_phantoms_war_paint",
         eng: "Party Phantoms War Paint",
+        rus: "Боевая краска \"Дискотека духов\"",
         schema: 17294,
         pol: "Imprezowe upiory | Barwy wojenne",
         hun: "Bulifantomok Harci festés",
@@ -19402,6 +21161,7 @@ export let dataItems = {
     1762: {
         img: "misfortunate_war_paint",
         eng: "Misfortunate War Paint",
+        rus: "Боевая краска \"Неудача\"",
         schema: 17287,
         pol: "Nieszczęście | Barwy wojenne",
         hun: "Szerencsétlen Harci festés",
@@ -19412,6 +21172,7 @@ export let dataItems = {
     1763: {
         img: "taunt_the_drunken_sailor",
         eng: "Taunt: The Drunken Sailor",
+        rus: "Насмешка: Пьяный моряк",
         schema: 31201,
         pol: "Drwina: Pijany żeglarz",
         hun: "Beszólás: A részeg tengerész",
@@ -19422,6 +21183,7 @@ export let dataItems = {
     1764: {
         img: "taunt_the_profane_puppeteer",
         eng: "Taunt: The Profane Puppeteer",
+        rus: "Насмешка: Кощунственный кукловод",
         schema: 31202,
         pol: "Drwina: Pyskaty pacynkarz",
         hun: "Beszólás: A borzasztó bábos",
@@ -19431,6 +21193,7 @@ export let dataItems = {
     1765: {
         img: "taunt_the_mannbulance",
         eng: "Taunt: The Mannbulance!",
+        rus: "Насмешка: Маннитар!",
         schema: 31203,
         pol: "Drwina: Mannbulans!",
         hun: "Beszólás: A Manntőautó!",
@@ -19440,6 +21203,7 @@ export let dataItems = {
     1766: {
         img: "taunt_bare_knuckle_beatdown",
         eng: "Taunt: Bare Knuckle Beatdown",
+        rus: "Насмешка: Кулачное колотилово",
         schema: 31207,
         pol: "Drwina: Srogi łomot",
         hun: "Beszlás: Pusztakezes lezúzás",
@@ -19449,6 +21213,7 @@ export let dataItems = {
     1767: {
         img: "taunt_the_homerunners_hobby",
         eng: "Taunt: The Homerunner's Hobby",
+        rus: "Насмешка: Безделье бегуна",
         schema: 31233,
         pol: "Drwina: Hobby chłystka",
         hun: "Beszólás: A hazafutó hobbija",
@@ -19458,6 +21223,7 @@ export let dataItems = {
     1768: {
         img: "festive_cover_up",
         eng: "Festive Cover-Up",
+        rus: "Праздничное прикрытие",
         schema: 31257,
         pol: "Świąteczna przykrywka",
         hun: "Ünnepi Fedés",
@@ -19467,11 +21233,13 @@ export let dataItems = {
     1769: {
         img: "el_fiestibrero",
         eng: "El Fiestibrero",
+        rus: "Эль фиестбрерро",
         schema: 31241
     },
     1770: {
         img: "ominous_offering",
         eng: "Ominous Offering",
+        rus: "Сомнительный сюрприз",
         schema: 31251,
         pol: "Podejrzany prezent",
         bra: "Oferenda Obscura",
@@ -19481,6 +21249,7 @@ export let dataItems = {
     1771: {
         img: "brain_cane",
         eng: "Brain Cane",
+        rus: "Мозговая трость",
         schema: 31248,
         pol: "Laska mózgowa",
         hun: "Agyszúrás",
@@ -19490,6 +21259,7 @@ export let dataItems = {
     1772: {
         img: "cozy_catchers",
         eng: "Cozy Catchers",
+        rus: "Уютный уловитель",
         schema: 31250,
         pol: "Lodowate łapacze",
         hun: "Hógolyófogó",
@@ -19499,6 +21269,7 @@ export let dataItems = {
     1773: {
         img: "the_giftcrafter",
         eng: "The Giftcrafter",
+        rus: "Подарочный мастер",
         schema: 31246,
         pol: "Pakowacz prezentów",
         hun: "Ajándékcsináló",
@@ -19508,6 +21279,7 @@ export let dataItems = {
     1774: {
         img: "festive_frames",
         eng: "Festive Frames",
+        rus: "Отрадная оправа",
         schema: 31252,
         pol: "Bożonarodzeniowe bryle",
         bra: "Óculos Ornamentais",
@@ -19517,6 +21289,7 @@ export let dataItems = {
     1775: {
         img: "mooshanka",
         eng: "Mooshanka",
+        rus: "Сохатая ушанка",
         schema: 31255,
         pol: "Karibuszanka",
         hun: "Holdsánka",
@@ -19526,6 +21299,7 @@ export let dataItems = {
     1776: {
         img: "elf_defense",
         eng: "Elf Defense",
+        rus: "Эльфооборона",
         schema: 31256,
         pol: "Elfia obrona",
         hun: "Manóvédelem",
@@ -19535,6 +21309,7 @@ export let dataItems = {
     1777: {
         img: "gnome_dome",
         eng: "Gnome Dome",
+        rus: "Гномий убор",
         schema: 31242,
         pol: "Kartonowy krasnal",
         bra: "Natal Artesanal",
@@ -19544,6 +21319,7 @@ export let dataItems = {
     1778: {
         img: "elf_made_bandanna",
         eng: "Elf-Made Bandanna",
+        rus: "Эльфодельная банданна",
         schema: 31260,
         pol: "Wyelfiona bandana",
         hun: "Manó Kendő",
@@ -19553,6 +21329,7 @@ export let dataItems = {
     1779: {
         img: "seasonal_spring",
         eng: "Seasonal Spring",
+        rus: "Праздничная пружина",
         schema: 31244,
         pol: "Sezonowy skoczek",
         hun: "Feltekert Fejfenyő",
@@ -19562,6 +21339,7 @@ export let dataItems = {
     1780: {
         img: "elf_ignition",
         eng: "Elf Ignition",
+        rus: "Эльфовозгорание",
         schema: 31253,
         pol: "Elfia pożoga",
         hun: "Manógyújtás",
@@ -19571,6 +21349,7 @@ export let dataItems = {
     1781: {
         img: "train_of_thought",
         eng: "Train of Thought",
+        rus: "Главэкспресс",
         schema: 31254,
         pol: "Tor myślenia",
         hun: "Mozdonygépész",
@@ -19580,6 +21359,7 @@ export let dataItems = {
     1782: {
         img: "seasonal_employee",
         eng: "Seasonal Employee",
+        rus: "Сезонный сотрудник",
         schema: 31258,
         pol: "Pracownik sezonowy",
         hun: "Szezonális Alkalmazott",
@@ -19589,6 +21369,7 @@ export let dataItems = {
     1783: {
         img: "reindoonihorns",
         eng: "Reindoonihorns",
+        rus: "Рога Надуволенерога",
         schema: 31249,
         pol: "Reniferożcowe poroże",
         hun: "Rénkornissszarv",
@@ -19598,6 +21379,7 @@ export let dataItems = {
     1784: {
         img: "jolly_jester",
         eng: "Jolly Jester",
+        rus: "Шмождественский шут",
         schema: 31243,
         pol: "Świąteczny śmieszek",
         bra: "Bobo do Norte",
@@ -19607,6 +21389,7 @@ export let dataItems = {
     1785: {
         img: "merry_cone",
         eng: "Merry Cone",
+        rus: "Весёлый колпачок",
         schema: 31247,
         pol: "Świąteczny stożek",
         hun: "Vidám Csúcsdísz",
@@ -19616,6 +21399,7 @@ export let dataItems = {
     1786: {
         img: "hat_chocolate",
         eng: "Hat Chocolate",
+        rus: "Горячий шапколад",
         schema: 31259,
         pol: "Czapka na ciepło",
         hun: "Fejcsokoládé",
@@ -19625,6 +21409,7 @@ export let dataItems = {
     1787: {
         img: "oh_deer",
         eng: "Oh Deer!",
+        rus: "Ну и олень!",
         schema: 31245,
         pol: "Ale jeleń!",
         hun: "Szarvamra!",
@@ -19634,6 +21419,7 @@ export let dataItems = {
     1788: {
         img: "taunt_doctors_defibrillators",
         eng: "Taunt: Doctor's Defibrillators",
+        rus: "Насмешка: Дефибриллятор доктора",
         schema: 31236,
         pol: "Drwina: Defibrylatory doktora",
         bra: "Provocação: Desfibrilador do Doutor",
@@ -19643,6 +21429,7 @@ export let dataItems = {
     1789: {
         img: "taunt_shooters_stakeout",
         eng: "Taunt: Shooter's Stakeout",
+        rus: "Насмешка: Кемпинг киллера",
         schema: 31237,
         pol: "Drwina: Obcykany obserwator",
         hun: "Beszólás: Lövészállás",
@@ -19652,6 +21439,7 @@ export let dataItems = {
     1790: {
         img: "taunt_the_hot_wheeler",
         eng: "Taunt: The Hot Wheeler",
+        rus: "Насмешка: Пламенный гонщик",
         schema: 31239,
         pol: "Drwina: Spalacz gum",
         hun: "Beszólás: Tüzes járgány",
@@ -19661,6 +21449,7 @@ export let dataItems = {
     1791: {
         img: "undercover_brolly",
         eng: "Undercover Brolly",
+        rus: "Парасоль прикрытия",
         schema: 31262,
         pol: "Przeciwsłoneczna przykrywka",
         hun: "Napernyőfedett Ügynök",
@@ -19670,6 +21459,7 @@ export let dataItems = {
     1792: {
         img: "team_player",
         eng: "The Team Player",
+        rus: "Командный игрок",
         schema: 31283,
         pol: "Gracz zespołowy",
         hun: "Csapatjátékos",
@@ -19681,6 +21471,7 @@ export let dataItems = {
     1793: {
         img: "throttlehead",
         eng: "The Throttlehead",
+        rus: "Дитя дорог",
         schema: 31282,
         pol: "Motogłowy",
         bra: "O Sem Destino",
@@ -19692,6 +21483,7 @@ export let dataItems = {
     1794: {
         img: "tactical_turtleneck",
         eng: "Tactical Turtleneck",
+        rus: "Водолазка внедренца",
         schema: 31278,
         pol: "Taktyczny golf",
         bra: "Traje Tático",
@@ -19703,6 +21495,7 @@ export let dataItems = {
     1795: {
         img: "combat_casual",
         eng: "Combat Casual",
+        rus: "Будничный боец",
         schema: 31268,
         pol: "Luźny wojak",
         bra: "Combatente Casual",
@@ -19714,6 +21507,7 @@ export let dataItems = {
     1796: {
         img: "barefoot_brawler",
         eng: "Barefoot Brawler",
+        rus: "Босой боец",
         schema: 31275,
         pol: "Bosy buntownik",
         bra: "Pugnador Praiano",
@@ -19724,6 +21518,7 @@ export let dataItems = {
     1797: {
         img: "hawaiian_hunter",
         eng: "Hawaiian Hunter",
+        rus: "Гавайский губитель",
         schema: 31271,
         pol: "Hawajski łowca",
         bra: "Atirador Havaiano",
@@ -19734,6 +21529,7 @@ export let dataItems = {
     1798: {
         img: "chaser",
         eng: "The Chaser",
+        rus: "Преследователь",
         schema: 31276,
         pol: "Ścigający",
         bra: "O Perseguidor",
@@ -19744,6 +21540,7 @@ export let dataItems = {
     1799: {
         img: "western_wraps",
         eng: "The Western Wraps",
+        rus: "Западное одеяние",
         schema: 31264,
         pol: "Zachodni kożuch",
         bra: "Agasalho do Velho Oeste",
@@ -19754,6 +21551,7 @@ export let dataItems = {
     1800: {
         img: "pests_pads",
         eng: "Pest's Pads",
+        rus: "Защита задиры",
         schema: 31285,
         pol: "Ochraniacze zawadiaki",
         bra: "Proteções do Pestinha",
@@ -19765,6 +21563,7 @@ export let dataItems = {
     1801: {
         img: "boston_brain_bucket",
         eng: "Boston Brain Bucket",
+        rus: "Массачусетская миска мозгов",
         schema: 31284,
         pol: "Mózgonosz z Massachusetts",
         bra: "Balde de Miolos de Boston",
@@ -19775,6 +21574,7 @@ export let dataItems = {
     1802: {
         img: "ripped_rider",
         eng: "The Ripped Rider",
+        rus: "Безрукавка байкера",
         schema: 31281,
         pol: "Przetarty jeździec",
         bra: "O Motoqueiro Marrento",
@@ -19785,6 +21585,7 @@ export let dataItems = {
     1803: {
         img: "fizzy_pharmacist",
         eng: "Fizzy Pharmacist",
+        rus: "Шипучий фармацевт",
         schema: 31266,
         pol: "Gazowany farmaceuta",
         hun: "Pezsgő Patikus",
@@ -19796,6 +21597,7 @@ export let dataItems = {
     1804: {
         img: "detective",
         eng: "The Detective",
+        rus: "Детектив",
         schema: 31277,
         pol: "Detektyw",
         bra: "O Detetive",
@@ -19806,6 +21608,7 @@ export let dataItems = {
     1805: {
         img: "hawaiian_hangover",
         eng: "The Hawaiian Hangover",
+        rus: "Пляжное похмелье",
         schema: 31274,
         pol: "Kac po hawajsku",
         bra: "A Ressaca do Recesso",
@@ -19816,6 +21619,7 @@ export let dataItems = {
     1806: {
         img: "tropical_camo",
         eng: "Tropical Camo",
+        rus: "Тропический камуфляж",
         schema: 31270,
         pol: "Tropikalny kamuflaż",
         bra: "Camuflagem Tropical",
@@ -19827,6 +21631,7 @@ export let dataItems = {
     1807: {
         img: "squatters_right",
         eng: "Squatter's Right",
+        rus: "Любитель присесть",
         schema: 31267,
         pol: "Prawo blokersa",
         bra: "O Estilo Eslavo",
@@ -19838,6 +21643,7 @@ export let dataItems = {
     1808: {
         img: "lawnmaker",
         eng: "Lawnmaker",
+        rus: "Газонодатель",
         schema: 31272,
         pol: "Trawodawca",
         hun: "Fűmérnök",
@@ -19849,6 +21655,7 @@ export let dataItems = {
     1809: {
         img: "night_vision_gawkers",
         eng: "Night Vision Gawkers",
+        rus: "Очки ночного глазения",
         schema: 31279,
         pol: "Noktowizyjny wytrzeszcz",
         bra: "Óculos de Terceiro Escalão",
@@ -19860,6 +21667,7 @@ export let dataItems = {
     1810: {
         img: "head_banger",
         eng: "Head Banger",
+        rus: "Взрыв мозга",
         schema: 31273,
         pol: "Bombowa impreza",
         bra: "Cabeça Explosiva",
@@ -19870,12 +21678,14 @@ export let dataItems = {
     1811: {
         img: "monsieur_grenouille",
         eng: "Monsieur Grenouille",
+        rus: "Месье Ля Гушка",
         schema: 31280,
         sch: "青蛙老爷"
     },
     1812: {
         img: "soda_cap",
         eng: "Soda Cap",
+        rus: "Шапка газировщика",
         schema: 31265,
         pol: "Sprzedawca sodówki",
         hun: "Büfés Csákó",
@@ -19887,6 +21697,7 @@ export let dataItems = {
     1813: {
         img: "kazan_karategi",
         eng: "Kazan Karategi",
+        rus: "Калёное каратэги",
         schema: 31263,
         pol: "Wulkaniczny wojownik",
         fre: "Kimono flamboyant",
@@ -19895,6 +21706,7 @@ export let dataItems = {
     1814: {
         img: "rocko",
         eng: "Rocko",
+        rus: "Рокко",
         schema: 31269,
         pol: "Roko",
         hun: "Kroki",
@@ -19903,6 +21715,7 @@ export let dataItems = {
     1815: {
         img: "decorated_veteran",
         eng: "Decorated Veteran",
+        rus: "Украшенный ветеран",
         schema: 31261,
         pol: "Udekorowany weteran",
         bra: "Veterano Decorado",
@@ -19914,6 +21727,7 @@ export let dataItems = {
     1816: {
         img: "nightbane_brim",
         eng: "Nightbane Brim",
+        rus: "Полуночный пугатель",
         schema: 31308,
         pol: "W mroku nocy",
         bra: "Inquisidor Demolidor",
@@ -19924,6 +21738,7 @@ export let dataItems = {
     1817: {
         img: "more_gun_marshal",
         eng: "More Gun Marshal",
+        rus: "Многопушечный маршал",
         schema: 31298,
         pol: "Strażnik działek strażniczych",
         bra: "Marechal Munido",
@@ -19934,6 +21749,7 @@ export let dataItems = {
     1818: {
         img: "hunting_cloak",
         eng: "Hunting Cloak",
+        rus: "Охотничья накидка",
         schema: 31314,
         bra: "Capa de Caça",
         fre: "Veston de chasse",
@@ -19944,6 +21760,7 @@ export let dataItems = {
     1819: {
         img: "the_imps_imprint",
         eng: "The Imp's Imprint",
+        rus: "Чёртовы начертания",
         schema: 31302,
         pol: "Diabelski nadruk",
         bra: "O Colete do Capetinha",
@@ -19954,6 +21771,7 @@ export let dataItems = {
     1820: {
         img: "starlight_sorcerer",
         eng: "Starlight Sorcerer",
+        rus: "Звёздный заклинатель",
         schema: 31294,
         pol: "Gwiezdny czarodziej",
         bra: "Feiticeiro Estrelado",
@@ -19964,6 +21782,7 @@ export let dataItems = {
     1821: {
         img: "beaten_and_bruised",
         eng: "Beaten and Bruised",
+        rus: "Синяки и ссадины",
         schema: 31293,
         pol: "Pobity i posiniaczony",
         bra: "Espancado e Esmurrado",
@@ -19974,6 +21793,7 @@ export let dataItems = {
     1822: {
         img: "bombard_brigadier",
         eng: "Bombard Brigadier",
+        rus: "Бригадный бомбардир",
         schema: 31309,
         bra: "Brigadeiro Bombardeiro",
         fre: "Brigadier bombardier",
@@ -19983,6 +21803,7 @@ export let dataItems = {
     1823: {
         img: "firearm_protector",
         eng: "Firearm Protector",
+        rus: "Огнестрелец",
         schema: 31310,
         pol: "Ochrona ogniomistrza",
         bra: "Bombeiro Incivil",
@@ -19993,6 +21814,7 @@ export let dataItems = {
     1824: {
         img: "horror_shawl",
         eng: "Horror Shawl",
+        rus: "Хорроршист",
         schema: 31304,
         pol: "Makabryczna chusta",
         bra: "Xale de Horrores",
@@ -20003,6 +21825,7 @@ export let dataItems = {
     1825: {
         img: "the_turncoat",
         eng: "The Turncoat",
+        rus: "Перевёртыш",
         schema: 31301,
         bra: "O Casaco do Vira-Casaca",
         fre: "Redingote",
@@ -20013,6 +21836,7 @@ export let dataItems = {
     1826: {
         img: "dustbowl_devil",
         eng: "Dustbowl Devil",
+        rus: "Повелитель пустынь",
         schema: 31297,
         pol: "Diabeł z Dustbowl",
         bra: "Demônio de Dustbowl",
@@ -20023,6 +21847,7 @@ export let dataItems = {
     1827: {
         img: "the_masked_fiend",
         eng: "The Masked Fiend",
+        rus: "Монстр в маске",
         schema: 31303,
         pol: "Zamaskowany demon",
         bra: "A Máscara do Malvado",
@@ -20033,6 +21858,7 @@ export let dataItems = {
     1828: {
         img: "safety_stripes",
         eng: "Safety Stripes",
+        rus: "Полоски предосторожности",
         schema: 31311,
         pol: "Pasy bezpieczeństwa",
         bra: "Listras Refletivas",
@@ -20043,6 +21869,7 @@ export let dataItems = {
     1829: {
         img: "road_block",
         eng: "Road Block",
+        rus: "Дорожный заслон",
         schema: 31306,
         bra: "O Bloqueio de Rua",
         fre: "Route barrée",
@@ -20053,6 +21880,7 @@ export let dataItems = {
     1830: {
         img: "the_lavish_labwear",
         eng: "The Lavish Labwear",
+        rus: "Лощёный лаборант",
         schema: 31299,
         bra: "O Laboratorista Luxuoso",
         fre: "Blouse de luxe",
@@ -20063,6 +21891,7 @@ export let dataItems = {
     1831: {
         img: "headhunters_brim",
         eng: "Headhunter's Brim",
+        rus: "Шляпа охотника за головами",
         schema: 31313,
         bra: "Chapéu do Caçador de Cabeças",
         fre: "Chapeau du chasseur de têtes",
@@ -20073,6 +21902,7 @@ export let dataItems = {
     1832: {
         img: "cranial_cowl",
         eng: "Cranial Cowl",
+        rus: "Краниальный капюшон",
         schema: 31312,
         bra: "Capuz Craniano",
         fre: "Capuchon crânien",
@@ -20083,6 +21913,7 @@ export let dataItems = {
     1833: {
         img: "alcoholic_automaton",
         eng: "Alcoholic Automaton",
+        rus: "Автоматизированный алкоголик",
         schema: 31307,
         pol: "Automatyczny alkoholik",
         bra: "Autômato Movido a Álcool",
@@ -20093,6 +21924,7 @@ export let dataItems = {
     1834: {
         img: "road_rage",
         eng: "Road Rage",
+        rus: "Дорожный драчун",
         schema: 31305,
         bra: "A Fúria da Estrada",
         fre: "Rage au volant",
@@ -20103,6 +21935,7 @@ export let dataItems = {
     1835: {
         img: "victorian_villainy",
         eng: "Victorian Villainy",
+        rus: "Вредный викторианец",
         schema: 31300,
         bra: "Vilania Vitoriana",
         fre: "Infamie victorienne",
@@ -20113,6 +21946,7 @@ export let dataItems = {
     1836: {
         img: "propaniac",
         eng: "Propaniac",
+        rus: "Пропаньяк",
         schema: 31296,
         pol: "Propaniak",
         bra: "Propaníaco",
@@ -20123,6 +21957,7 @@ export let dataItems = {
     1837: {
         img: "the_onimann",
         eng: "The Onimann",
+        rus: "Они-манн",
         schema: 31295,
         pol: "Onimann",
         bra: "Onimann",
@@ -20133,6 +21968,7 @@ export let dataItems = {
     1838: {
         img: "mishas_maw",
         eng: "Misha's Maw",
+        rus: "Мишкина морда",
         schema: 31315,
         bra: "Russo Urso",
         fre: "Tête d'ours",
@@ -20143,6 +21979,7 @@ export let dataItems = {
     1839: {
         img: "cabinet_mann",
         eng: "Cabinet Mann",
+        rus: "Игро-Манн",
         schema: 31316,
         pol: "Człowiek-automat",
         bra: "Fliperamann",
@@ -20153,6 +21990,7 @@ export let dataItems = {
     1840: {
         img: "fire_breather",
         eng: "Fire Breather",
+        rus: "Огнедышащий оскал",
         schema: 31317,
         pol: "Zionący ogniem",
         bra: "O Bafo do Dragão",
@@ -20163,6 +22001,7 @@ export let dataItems = {
     1841: {
         img: "magical_mount",
         eng: "Magical Mount",
+        rus: "Сказочный скакун",
         schema: 31318,
         pol: "Magiczny wierzchowiec",
         bra: "Montaria Mágica",
@@ -20173,6 +22012,7 @@ export let dataItems = {
     1842: {
         img: "pony_express",
         eng: "Pony Express",
+        rus: "Пони-экспресс",
         schema: 31319,
         pol: "Poczta konna",
         bra: "A Cavalgada Maldita",
@@ -20182,6 +22022,7 @@ export let dataItems = {
     1843: {
         img: "cream_corned_war_paint",
         eng: "Cream Corned War Paint",
+        rus: "Боевая краска \"Карамельная кукуруза\"",
         schema: 17401,
         pol: "Krem kukurydziany | Barwy wojenne",
         bra: "| Creme de Abóbora | Tinta de Guerra",
@@ -20192,6 +22033,7 @@ export let dataItems = {
     1844: {
         img: "hypergon_war_paint",
         eng: "Hypergon War Paint",
+        rus: "Боевая краска \"Гиперугольник\"",
         schema: 17408,
         pol: "Hipergon | Barwy wojenne",
         bra: "| Hipergono | Tinta de Guerra",
@@ -20202,6 +22044,7 @@ export let dataItems = {
     1845: {
         img: "health_and_hell_green_war_paint",
         eng: "Health and Hell (Green) War Paint",
+        rus: "Боевая краска \"Польза преисподней (зелёная)\"",
         schema: 17407,
         pol: "Zdrowie i piekło (zieleń) | Barwy wojenne",
         bra: "| Verde e Inferno | Tinta de Guerra",
@@ -20212,6 +22055,7 @@ export let dataItems = {
     1846: {
         img: "health_and_hell_war_paint",
         eng: "Health and Hell War Paint",
+        rus: "Боевая краска \"Польза преисподней\"",
         schema: 17406,
         pol: "Zdrowie i piekło | Barwy wojenne",
         bra: "| Vida e Inferno | Tinta de Guerra",
@@ -20222,6 +22066,7 @@ export let dataItems = {
     1847: {
         img: "sunriser_war_paint",
         eng: "Sunriser War Paint",
+        rus: "Боевая краска \"Вестник рассвета\"",
         schema: 17402,
         pol: "Wschód słońca | Barwy wojenne",
         bra: "| Forja Solar | Tinta de Guerra",
@@ -20232,6 +22077,7 @@ export let dataItems = {
     1848: {
         img: "chilly_autumn_war_paint",
         eng: "Chilly Autumn War Paint",
+        rus: "Боевая краска \"Прохладная осень\"",
         schema: 17410,
         pol: "Chłodna jesień | Barwy wojenne",
         bra: "| Calafrios em Outono | Tinta de Guerra",
@@ -20242,6 +22088,7 @@ export let dataItems = {
     1849: {
         img: "pumpkin_plastered_war_paint",
         eng: "Pumpkin Plastered War Paint",
+        rus: "Боевая краска \"Тыквенный трафарет\"",
         schema: 17409,
         pol: "Dyniowa dekoracja | Barwy wojenne",
         bra: "| Pintura de Abóbora | Tinta de Guerra",
@@ -20252,6 +22099,7 @@ export let dataItems = {
     1850: {
         img: "metalized_soul_war_paint",
         eng: "Metalized Soul War Paint",
+        rus: "Боевая краска \"Металлическая душа\"",
         schema: 17404,
         pol: "Metaliczna dusza | Barwy wojenne",
         bra: "| Alma Metalizada | Tinta de Guerra",
@@ -20262,6 +22110,7 @@ export let dataItems = {
     1851: {
         img: "ghoul_blaster_war_paint",
         eng: "Ghoul Blaster War Paint",
+        rus: "Боевая краска \"Уборщик за призраками\"",
         schema: 17400,
         pol: "Pogromca duchów | Barwy wojenne",
         bra: "| Caça-Espíritos | Tinta de Guerra",
@@ -20272,6 +22121,7 @@ export let dataItems = {
     1852: {
         img: "bonzo_gnawed_war_paint",
         eng: "Bonzo Gnawed War Paint",
+        rus: "Боевая краска \"Укусы Бонзо\"",
         schema: 17405,
         pol: "Obgryzający Bonzo | Barwy wojenne",
         bra: "| Tormento do Bonzo | Tinta de Guerra",
@@ -20282,6 +22132,7 @@ export let dataItems = {
     1853: {
         img: "sacred_slayer_war_paint",
         eng: "Sacred Slayer War Paint",
+        rus: "Боевая краска \"Праведный палач\"",
         schema: 17403,
         pol: "Święty zabójca | Barwy wojenne",
         bra: "| Assassino Sagrado | Tinta de Guerra",
@@ -20292,6 +22143,7 @@ export let dataItems = {
     1854: {
         img: "taunt_drunk_manns_cannon",
         eng: "Taunt: Drunk Mann's Cannon",
+        rus: "Taunt: Манн-тира пьяницы",
         schema: 31291,
         bra: "Provocação: Canhão do Cachaceiro",
         fre: "Raillerie : Le canon du poivrot",
@@ -20301,6 +22153,7 @@ export let dataItems = {
     1855: {
         img: "taunt_shanty_shipmate",
         eng: "Taunt: Shanty Shipmate",
+        rus: "Насмешка: Непутёвый сухопут",
         schema: 31292,
         pol: "Drwina: Pijackie szanty",
         bra: "Provocação: O Marambaia",
@@ -20310,6 +22163,7 @@ export let dataItems = {
     1856: {
         img: "taunt_texas_twirl_em",
         eng: "Taunt: Texas Twirl 'Em",
+        rus: "Насмешка: Техасский трюкач",
         schema: 31286,
         pol: "Drwina: Teksański tupaniec",
         bra: "Provocação: Pula-Laço Texano",
@@ -20319,6 +22173,7 @@ export let dataItems = {
     1857: {
         img: "taunt_the_travel_agent",
         eng: "Taunt: The Travel Agent",
+        rus: "Насмешка: Перелётный агент",
         schema: 31290,
         bra: "Provocação: O Agente de Viagem",
         fre: "Raillerie : L'hélico-gadget",
@@ -20327,6 +22182,7 @@ export let dataItems = {
     1858: {
         img: "taunt_the_scaredycat",
         eng: "Taunt: The Scaredy-cat!",
+        rus: "Насмешка: Трусишка!",
         schema: 31288,
         bra: "Provocação: Que Susto!",
         fre: "Raillerie : La poule mouillée !",
@@ -20336,6 +22192,7 @@ export let dataItems = {
     1859: {
         img: "lumbercap",
         eng: "Lumbercap",
+        rus: "Дровокепка",
         schema: 31326,
         pol: "Rębacz",
         bra: "Chapéu do Lenhador",
@@ -20346,6 +22203,7 @@ export let dataItems = {
     1860: {
         img: "the_soft_hard_hat",
         eng: "The Soft Hard Hat",
+        rus: "Касковязка",
         schema: 31331,
         pol: "Dziergany kask",
         bra: "O Lã-pacete",
@@ -20356,6 +22214,7 @@ export let dataItems = {
     1861: {
         img: "heavy_heating",
         eng: "Heavy Heating",
+        rus: "Усиленное утепление",
         schema: 31346,
         pol: "Grube grzanie",
         bra: "Aquecimento Pesado",
@@ -20366,6 +22225,7 @@ export let dataItems = {
     1862: {
         img: "arctic_mole",
         eng: "Arctic Mole",
+        rus: "Арктический крот",
         schema: 31333,
         pol: "Arktyczny kret",
         bra: "Toupeira do Ártico",
@@ -20376,6 +22236,7 @@ export let dataItems = {
     1863: {
         img: "glasgow_bankroll",
         eng: "Glasgow Bankroll",
+        rus: "Богач из Глазго",
         schema: 31342,
         pol: "Krezus z Glasgow",
         bra: "Gala de Glasgow",
@@ -20386,6 +22247,7 @@ export let dataItems = {
     1864: {
         img: "partizan",
         eng: "Partizan",
+        rus: "Партизан",
         schema: 31329,
         pol: "Partyzant",
         bra: "Incendiário Apartidário",
@@ -20396,6 +22258,7 @@ export let dataItems = {
     1865: {
         img: "cold_blooded_coat",
         eng: "Cold Blooded Coat",
+        rus: "Пальто педанта",
         schema: 31336,
         pol: "Zimnokrwisty płaszcz",
         bra: "Sobretudo do Sangue-Frio",
@@ -20406,6 +22269,7 @@ export let dataItems = {
     1866: {
         img: "bulb_bonnet",
         eng: "Bulb Bonnet",
+        rus: "Шаровой шлем",
         schema: 31335,
         pol: "Bombkowy beret",
         bra: "Ornamento do Briguento",
@@ -20416,6 +22280,7 @@ export let dataItems = {
     1867: {
         img: "crosshair_cardigan",
         eng: "Crosshair Cardigan",
+        rus: "Кардиган киллера",
         schema: 31340,
         pol: "Sweter w dziesiątkę",
         bra: "Cardigã do Caçador",
@@ -20426,6 +22291,7 @@ export let dataItems = {
     1868: {
         img: "oktoberfester",
         eng: "Oktoberfester",
+        rus: "Октоберфестер",
         schema: 31344,
         pol: "Oktoberfestowicz",
         bra: "Oktoberfesteiro",
@@ -20436,6 +22302,7 @@ export let dataItems = {
     1869: {
         img: "the_cool_warm_sweater",
         eng: "The Cool Warm Sweater",
+        rus: "Освежающий свитер",
         schema: 31332,
         pol: "Swetrogrodniczki",
         bra: "O Lã-gasalho",
@@ -20446,6 +22313,7 @@ export let dataItems = {
     1870: {
         img: "ol_reliable",
         eng: "Ol' Reliable",
+        rus: "Старый добрый",
         schema: 31345,
         pol: "Stary niezawodny",
         bra: "Velharia Vigorosa",
@@ -20456,6 +22324,7 @@ export let dataItems = {
     1871: {
         img: "underminers_overcoat",
         eng: "Underminer's Overcoat",
+        rus: "Пальто саботажника",
         schema: 31334,
         pol: "Płaszcz podkopywacza",
         bra: "Casacão do Construtor",
@@ -20466,6 +22335,7 @@ export let dataItems = {
     1872: {
         img: "plaid_lad",
         eng: "Plaid Lad",
+        rus: "Братан в тартан",
         schema: 31341,
         pol: "Kraciasty koleś",
         bra: "Chapéu Xadrez do Escocês",
@@ -20476,6 +22346,7 @@ export let dataItems = {
     1873: {
         img: "firebrand",
         eng: "Firebrand",
+        rus: "Разжигатель",
         schema: 31328,
         pol: "Żar powstania",
         bra: "Manifestante Flamejante",
@@ -20486,6 +22357,7 @@ export let dataItems = {
     1874: {
         img: "frostbite_bonnet",
         eng: "Frostbite Bonnet",
+        rus: "Утепляющий убор",
         schema: 31337,
         pol: "Alpejski agent",
         bra: "Chapéu do Sangue-Frio",
@@ -20496,6 +22368,7 @@ export let dataItems = {
     1875: {
         img: "infiltrators_insulation",
         eng: "Infiltrator's Insulation",
+        rus: "Изоляция инфильтратора",
         schema: 31338,
         pol: "Izolacja infiltratora",
         bra: "Isolamento do Infiltrador",
@@ -20506,6 +22379,7 @@ export let dataItems = {
     1876: {
         img: "the_wooly_pulli",
         eng: "The Wooly Pulli",
+        rus: "Пульсовый пуловер",
         schema: 31343,
         pol: "Krzykliwy kitel",
         bra: "O Suéter do Cirurgião",
@@ -20516,6 +22390,7 @@ export let dataItems = {
     1877: {
         img: "colonel_kringle",
         eng: "Colonel Kringle",
+        rus: "Полковник Крингл",
         schema: 31325,
         pol: "Pułkownik Kringle",
         bra: "Coronel Noel",
@@ -20526,6 +22401,7 @@ export let dataItems = {
     1878: {
         img: "battle_bear",
         eng: "Battle Bear",
+        rus: "Косолапый коммандо",
         schema: 31324,
         pol: "Waleczny Wojtek",
         bra: "Ursinho de Guerra",
@@ -20536,6 +22412,7 @@ export let dataItems = {
     1879: {
         img: "motley_sleeves",
         eng: "Motley Sleeves",
+        rus: "Разноцветные рукава",
         schema: 31339,
         pol: "Dziarskie dziary",
         bra: "Mangas Maneiras",
@@ -20546,6 +22423,7 @@ export let dataItems = {
     1880: {
         img: "festive_rack",
         eng: "Festive Rack",
+        rus: "Праздничные рога",
         schema: 31327,
         pol: "Świąteczne poroże",
         bra: "Galhadas Festivas",
@@ -20556,6 +22434,7 @@ export let dataItems = {
     1881: {
         img: "trappers_flap",
         eng: "Trapper's Flap",
+        rus: "Ушанка ловчего",
         schema: 31323,
         pol: "Uszanka trapera",
         bra: "Armadilheiro Aquecido",
@@ -20566,6 +22445,7 @@ export let dataItems = {
     1882: {
         img: "taunt_russian_rubdown",
         eng: "Taunt: Russian Rubdown",
+        rus: "Насмешка: Русское растирание",
         schema: 31320,
         pol: "Drwina: Odpicowany oręż",
         bra: "Provocação: Limpeza Pesada",
@@ -20575,6 +22455,7 @@ export let dataItems = {
     1883: {
         img: "taunt_tailored_terminal",
         eng: "Taunt: Tailored Terminal",
+        rus: "Насмешка: Терминал тайн",
         schema: 31321,
         pol: "Drwina: Teczkowy terminal",
         bra: "Provocação: Terminal Portátil",
@@ -20584,6 +22465,7 @@ export let dataItems = {
     1884: {
         img: "taunt_roasty_toasty",
         eng: "Taunt: Roasty Toasty",
+        rus: "Насмешка: Полная прожарка",
         schema: 31322,
         pol: "Drwina: Pieczone pianki",
         bra: "Provocação: Acampado e Tostado",
@@ -20593,6 +22475,7 @@ export let dataItems = {
     1885: {
         img: "stealth_bomber",
         eng: "Stealth Bomber",
+        rus: "Стелс-бомбардир",
         schema: 31379,
         bra: "Bombardeiro Sorrateiro",
         fre: "Le pantalon camouflage",
@@ -20602,6 +22485,7 @@ export let dataItems = {
     1886: {
         img: "le_professionnel",
         eng: "Le Professionnel",
+        rus: "Лё Професьонель",
         schema: 31377,
         pol: "Francuski fachura",
         fre: "Léon",
@@ -20610,6 +22494,7 @@ export let dataItems = {
     1887: {
         img: "cargo_constructor",
         eng: "Cargo Constructor",
+        rus: "Гроза грузов",
         schema: 31373,
         pol: "Inżynieria inwentarza",
         fre: "Contremaitre",
@@ -20620,6 +22505,7 @@ export let dataItems = {
     1888: {
         img: "blast_bowl",
         eng: "The Blast Bowl",
+        rus: "Визор взрывника",
         schema: 31371,
         pol: "Samoprzylepny szyszak",
         bra: "O Capacete de Stickies",
@@ -20630,6 +22516,7 @@ export let dataItems = {
     1889: {
         img: "heavy_metal",
         eng: "Heavy Metal",
+        rus: "Тяжёлый металл",
         schema: 31369,
         pol: "Metal ciężki",
         fre: "Heavy métal",
@@ -20638,6 +22525,7 @@ export let dataItems = {
     1890: {
         img: "brimmed_bootlegger",
         eng: "Brimmed Bootlegger",
+        rus: "Фетровый аферист",
         schema: 31366,
         pol: "Kapeluszowa kontrabanda",
         bra: "Fora-da-Lei Seca",
@@ -20648,6 +22536,7 @@ export let dataItems = {
     1891: {
         img: "medical_emergency",
         eng: "Medical Emergency",
+        rus: "Неотложная помощь",
         schema: 31365,
         pol: "Pierwsza pomoc",
         bra: "Emergência Médica",
@@ -20658,6 +22547,7 @@ export let dataItems = {
     1892: {
         img: "bushman",
         eng: "The Bushman",
+        rus: "Любитель зарослей",
         schema: 31361,
         pol: "Buszmen",
         bra: "O Homem Robusto do Arbusto",
@@ -20668,6 +22558,7 @@ export let dataItems = {
     1893: {
         img: "firestalker",
         eng: "The Firestalker",
+        rus: "Воспламенение личности",
         schema: 31359,
         pol: "Płomienny prześladowca",
         bra: "O Detetive Elementar",
@@ -20678,6 +22569,7 @@ export let dataItems = {
     1894: {
         img: "brothers_in_blues",
         eng: "Brothers in Blues",
+        rus: "Братья по блюзу",
         schema: 31356,
         pol: "Bracia w bluesie",
         bra: "Chapéu do Cara de Pau",
@@ -20688,6 +22580,7 @@ export let dataItems = {
     1895: {
         img: "prohibition_opposition",
         eng: "Prohibition Opposition",
+        rus: "Нелюбитель запретителей",
         schema: 31367,
         pol: "Przeciwnik prohibicji",
         bra: "Oposição à Proibição",
@@ -20698,6 +22591,7 @@ export let dataItems = {
     1896: {
         img: "preventative_measure",
         eng: "Preventative Measure",
+        rus: "Превентивная мера",
         schema: 31363,
         pol: "Środek zapobiegawczy",
         bra: "Medida Preventiva",
@@ -20708,6 +22602,7 @@ export let dataItems = {
     1897: {
         img: "hazard_handler",
         eng: "Hazard Handler",
+        rus: "Защитное забрало",
         schema: 31374,
         pol: "Ryzykowna robota",
         bra: "Equipamento de Proteção Total",
@@ -20717,6 +22612,7 @@ export let dataItems = {
     1898: {
         img: "soho_sleuth",
         eng: "The Soho Sleuth",
+        rus: "Сыщик из Сохо",
         schema: 31358,
         pol: "Wywiad z Westminster",
         bra: "Investigador Londrino",
@@ -20727,6 +22623,7 @@ export let dataItems = {
     1899: {
         img: "close_quarters_cover",
         eng: "Close Quarters Cover",
+        rus: "Патриот под прикрытием",
         schema: 31378,
         pol: "Bandana bliskiej batalii",
         bra: "Semblante Sólido da Serpente",
@@ -20736,6 +22633,7 @@ export let dataItems = {
     1900: {
         img: "hog_heels",
         eng: "Hog Heels",
+        rus: "Байкерские боты",
         schema: 31370,
         pol: "Okucie oprycha",
         fre: "Bottes de baroudeur",
@@ -20745,6 +22643,7 @@ export let dataItems = {
     1901: {
         img: "shrapnel_shell",
         eng: "The Shrapnel Shell",
+        rus: "Подрывной панцирь",
         schema: 31372,
         pol: "Odłamkowe odzienie",
         bra: "A Estileira Stickeira",
@@ -20754,6 +22653,7 @@ export let dataItems = {
     1902: {
         img: "cleaners_cap",
         eng: "Cleaner's Cap",
+        rus: "Шапка чистильщика",
         schema: 31376,
         pol: "Czapka czyściciela",
         bra: "Touca do Assassino",
@@ -20763,6 +22663,7 @@ export let dataItems = {
     1903: {
         img: "brother_mann",
         eng: "Brother Mann",
+        rus: "Браток с дорог",
         schema: 31368,
         pol: "Za Mann brat",
         fre: "Le biker",
@@ -20773,6 +22674,7 @@ export let dataItems = {
     1904: {
         img: "cranium_cover",
         eng: "Cranium Cover",
+        rus: "Защита для затылка",
         schema: 31362,
         pol: "Przesłona potylicy",
         bra: "Ação Defensiva",
@@ -20782,6 +22684,7 @@ export let dataItems = {
     1905: {
         img: "uber_wear",
         eng: "Über-Wear",
+        rus: "Убер-наряд",
         schema: 31364,
         pol: "Überubranie",
         bra: "Übercolete",
@@ -20792,6 +22695,7 @@ export let dataItems = {
     1906: {
         img: "flame_warrior",
         eng: "The Flame Warrior",
+        rus: "Воин огня",
         schema: 31357,
         pol: "Żarzący żołnierz",
         bra: "Guerreiro das Chamas",
@@ -20801,6 +22705,7 @@ export let dataItems = {
     1907: {
         img: "glorious_gambeson",
         eng: "The Glorious Gambeson",
+        rus: "Славная стёганка",
         schema: 31360,
         pol: "Pierwszorzędna przeszywanica",
         bra: "O Gibão Glorioso",
@@ -20811,6 +22716,7 @@ export let dataItems = {
     1908: {
         img: "full_metal_helmet",
         eng: "Full Metal Helmet",
+        rus: "Цельнометаллический шлем",
         schema: 31355,
         pol: "Żelazne zapasy",
         bra: "Capacete Nascido para Matar",
@@ -20821,6 +22727,7 @@ export let dataItems = {
     1909: {
         img: "cranium_cooler",
         eng: "Cranium Cooler",
+        rus: "Краниальный кулер",
         schema: 31375,
         pol: "Schłodzona skroń",
         bra: "Cabeça Fria",
@@ -20830,6 +22737,7 @@ export let dataItems = {
     1910: {
         img: "secretly_serviced_war_paint",
         eng: "Secretly Serviced War Paint",
+        rus: "Боевая краска \"Секретная служба\"",
         schema: 17412,
         pol: "Sekretny serwis | Barwy wojenne",
         bra: "| Serviço Secreto | Tinta de Guerra",
@@ -20839,6 +22747,7 @@ export let dataItems = {
     1911: {
         img: "pacific_peacemaker_war_paint",
         eng: "Pacific Peacemaker War Paint",
+        rus: "Боевая краска \"Тихоокеанский тихоня\"",
         schema: 17419,
         pol: "Pacyficzny pacyfista | Barwy wojenne",
         bra: "| Pacificador do Pacífico | Tinta de Guerra",
@@ -20848,6 +22757,7 @@ export let dataItems = {
     1912: {
         img: "team_serviced_war_paint",
         eng: "Team Serviced War Paint",
+        rus: "Боевая краска \"Командная служба\"",
         schema: 17417,
         pol: "Praca zespołowa | Barwy wojenne",
         bra: "| Agente de Campo | Tinta de Guerra",
@@ -20857,6 +22767,7 @@ export let dataItems = {
     1913: {
         img: "bomb_carrier_war_paint",
         eng: "Bomb Carrier War Paint",
+        rus: "Боевая краска \"Бомбоносец\"",
         schema: 17414,
         pol: "Przenoszący bombę | Barwy wojenne",
         bra: "| Demolição Blindada | Tinta de Guerra",
@@ -20866,6 +22777,7 @@ export let dataItems = {
     1914: {
         img: "mechanized_monster_war_paint",
         eng: "Mechanized Monster War Paint",
+        rus: "Боевая краска \"Механический монстр\"",
         schema: 17420,
         pol: "Mechaniczne monstrum | Barwy wojenne",
         bra: "| Monstro Mecanizado | Tinta de Guerra",
@@ -20875,6 +22787,7 @@ export let dataItems = {
     1915: {
         img: "warborn_war_paint",
         eng: "Warborn War Paint",
+        rus: "Боевая краска \"Рождённый в бою\"",
         schema: 17418,
         pol: "Zrodzony z wojny | Barwy wojenne",
         bra: "| Nascido para Matar | Tinta de Guerra",
@@ -20884,6 +22797,7 @@ export let dataItems = {
     1916: {
         img: "steel_brushed_war_paint",
         eng: "Steel Brushed War Paint",
+        rus: "Боевая краска \"Матовая сталь\"",
         schema: 17411,
         pol: "Stalowy szlif | Barwy wojenne",
         bra: "| Banho de Prata | Tinta de Guerra",
@@ -20893,6 +22807,7 @@ export let dataItems = {
     1917: {
         img: "business_class_war_paint",
         eng: "Business Class War Paint",
+        rus: "Боевая краска \"Бизнес-класс\"",
         schema: 17415,
         pol: "Klasa biznesowa | Barwy wojenne",
         bra: "| Classe Executiva | Tinta de Guerra",
@@ -20902,6 +22817,7 @@ export let dataItems = {
     1918: {
         img: "deadly_dragon_war_paint",
         eng: "Deadly Dragon War Paint",
+        rus: "Боевая краска \"Яростный ящер\"",
         schema: 17416,
         pol: "Zabójczy smok | Barwy wojenne",
         bra: "| Destruição do Dragão | Tinta de Guerra",
@@ -20911,6 +22827,7 @@ export let dataItems = {
     1919: {
         img: "sky_stallion_war_paint",
         eng: "Sky Stallion War Paint",
+        rus: "Боевая краска \"Железный жеребец\"",
         schema: 17413,
         pol: "Podniebny ogier | Barwy wojenne",
         bra: "| Ás do Ar | Tinta de Guerra",
@@ -20920,6 +22837,7 @@ export let dataItems = {
     1920: {
         img: "taunt_killer_joke",
         eng: "Taunt: Killer Joke",
+        rus: "Насмешка: Убойная шутка",
         schema: 31348,
         pol: "Drwina: Zabójczy żart",
         bra: "Provocação: Piada de Matar",
@@ -20929,6 +22847,7 @@ export let dataItems = {
     1921: {
         img: "taunt_star_spangled_strategy",
         eng: "Taunt: Star-Spangled Strategy",
+        rus: "Насмешка: Звёздно-полосатый план",
         schema: 31347,
         pol: "Drwina: Strategia na pięćdziesiąt gwiazdek",
         bra: "Provocação: Plano Infalível",
@@ -20939,6 +22858,7 @@ export let dataItems = {
     1922: {
         img: "taunt_head_doctor",
         eng: "Taunt: The Head Doctor",
+        rus: "Насмешка: Врач с головой",
         schema: 31349,
         pol: "Drwina: Dekapitacyjny doktor",
         bra: "Provocação: O Médico da Cabeça",
@@ -20948,6 +22868,7 @@ export let dataItems = {
     1923: {
         img: "taunt_teufort_tango",
         eng: "Taunt: Teufort Tango",
+        rus: "Насмешка: Туфортское танго",
         schema: 31351,
         pol: "Drwina: Teufordzkie tango",
         bra: "Provocação: Tango de Teufort",
@@ -20957,6 +22878,7 @@ export let dataItems = {
     1924: {
         img: "taunt_road_rager",
         eng: "Taunt: The Road Rager",
+        rus: "Насмешка: Лютый лихач",
         schema: 31352,
         pol: "Drwina: Krzyczący kierowca",
         bra: "Provocação: O Perigo na Estrada",
@@ -20966,6 +22888,7 @@ export let dataItems = {
     1925: {
         img: "taunt_killer_signature",
         eng: "Taunt: The Killer Signature",
+        rus: "Насмешка: Почерк убийцы",
         schema: 31354,
         pol: "Drwina: Zabójczy podpis",
         bra: "Provocação: Agrado aos Admiradores",
@@ -20975,6 +22898,7 @@ export let dataItems = {
     1926: {
         img: "make_ogre",
         eng: "Make Ogre",
+        rus: "Преогражение",
         schema: 31403,
         pol: "Ogromorfoza",
         bra: "Harmonização Ogrível",
@@ -20985,6 +22909,7 @@ export let dataItems = {
     1927: {
         img: "medical_mummy",
         eng: "Medical Mummy",
+        rus: "Медицинская мумия",
         schema: 31399,
         pol: "Medyczna mumia",
         bra: "Múmia Médica",
@@ -20995,6 +22920,7 @@ export let dataItems = {
     1928: {
         img: "six_eyed_specs",
         eng: "Six-Eyed Specs",
+        rus: "Шестиглазый шпион",
         schema: 31398,
         pol: "Sześciooki",
         bra: "São Seis Olhos",
@@ -21005,6 +22931,7 @@ export let dataItems = {
     1929: {
         img: "concealed_convict",
         eng: "Concealed Convict",
+        rus: "Роба рецидивиста",
         schema: 31397,
         pol: "Schowany skazaniec",
         bra: "Condenado Camuflado",
@@ -21015,6 +22942,7 @@ export let dataItems = {
     1930: {
         img: "constructors_cover",
         eng: "Constructor's Cover",
+        rus: "Костюм конструктора",
         schema: 31395,
         pol: "Kamizelka konstruktora",
         bra: "Cobertura do Construtor",
@@ -21025,6 +22953,7 @@ export let dataItems = {
     1931: {
         img: "thunder_dome",
         eng: "Thunder Dome",
+        rus: "Громовой кумпол",
         schema: 31391,
         pol: "Hukowy hełm",
         bra: "Cúpula do Trovão",
@@ -21035,6 +22964,7 @@ export let dataItems = {
     1932: {
         img: "splitting_headache",
         eng: "Splitting Headache",
+        rus: "Раздвоение личности",
         schema: 31390,
         pol: "Przeszywający ból",
         bra: "Mente Afiada",
@@ -21045,6 +22975,7 @@ export let dataItems = {
     1933: {
         img: "shortness_of_breath",
         eng: "Shortness Of Breath",
+        rus: "Удушитель",
         schema: 31387,
         pol: "Bezdech",
         bra: "Falta de Ar",
@@ -21055,6 +22986,7 @@ export let dataItems = {
     1934: {
         img: "mean_captain",
         eng: "Mean Captain",
+        rus: "Оккультный офицер",
         schema: 31385,
         pol: "Karygodny kapitan",
         bra: "O Capetão da Equipe",
@@ -21065,6 +22997,7 @@ export let dataItems = {
     1935: {
         img: "ludicrously_lunatic_lunon_fedora",
         eng: "Ludicrously Lunatic Lunon Fedora",
+        rus: "Смехотворно сумасшедшая сияющая федора",
         schema: 31383,
         pol: "Niedorzecznie naświetlona freonowa fedora",
         bra: "Fedora de Lunônio Loucamente Lunático",
@@ -21075,6 +23008,7 @@ export let dataItems = {
     1936: {
         img: "jumping_jester",
         eng: "Jumping Jester",
+        rus: "Шустрый шут",
         schema: 31407,
         pol: "Podskakujący pajac",
         bra: "Bufão Brincalhão",
@@ -21085,6 +23019,7 @@ export let dataItems = {
     1937: {
         img: "sharpshooters_shroud",
         eng: "Sharpshooter's Shroud",
+        rus: "Мантия меткости",
         schema: 31405,
         pol: "Całun celowniczego",
         bra: "Fachada do Feiticeiro",
@@ -21095,6 +23030,7 @@ export let dataItems = {
     1938: {
         img: "main_cast",
         eng: "Main Cast",
+        rus: "Множественный перелом",
         schema: 31400,
         pol: "Gruby gips",
         bra: "O Gesso Espesso",
@@ -21105,6 +23041,7 @@ export let dataItems = {
     1939: {
         img: "classic_criminal",
         eng: "Classic Criminal",
+        rus: "Классика криминала",
         schema: 31396,
         pol: "Klasyczny kryminalista",
         bra: "Criminoso Clássico",
@@ -21115,6 +23052,7 @@ export let dataItems = {
     1940: {
         img: "dell_dynamic",
         eng: "Dell Dynamic",
+        rus: "Динамо-Делл",
         schema: 31394,
         pol: "Dynamiczny Dell",
         bra: "Dell Dinâmico",
@@ -21125,6 +23063,7 @@ export let dataItems = {
     1941: {
         img: "stunt_suit",
         eng: "Stunt Suit",
+        rus: "Костюм каскадёра",
         schema: 31392,
         pol: "Konfekcja kaskadera",
         bra: "Traje do Acrobata",
@@ -21135,6 +23074,7 @@ export let dataItems = {
     1942: {
         img: "dead_heat",
         eng: "Dead Heat",
+        rus: "Убийственная жара",
         pol: "Ogień z zaświatów",
         sch: "死亡烧烤",
         bra: "Te Vejo no Inferno",
@@ -21146,6 +23086,7 @@ export let dataItems = {
     1943: {
         img: "warlocks_warcloak",
         eng: "Warlock's Warcloak",
+        rus: "Накидка некроманта",
         schema: 31388,
         pol: "Peleryna prestidigitatora",
         bra: "Manto do Mago",
@@ -21156,6 +23097,7 @@ export let dataItems = {
     1944: {
         img: "clowns_coverup",
         eng: "Clown's Cover-Up",
+        rus: "Клоун под прикрытием",
         schema: 31386,
         pol: "Skryty śmieszek",
         bra: "Cobertura Circense",
@@ -21166,6 +23108,7 @@ export let dataItems = {
     1945: {
         img: "mad_lad",
         eng: "Mad Lad",
+        rus: "Безумный парень",
         schema: 31393,
         pol: "Szaleniec",
         bra: "Farda da Estrada",
@@ -21176,6 +23119,7 @@ export let dataItems = {
     1946: {
         img: "last_laugh",
         eng: "Last Laugh",
+        rus: "Последний смех",
         schema: 31406,
         pol: "Kto się śmieje ostatni",
         bra: "A Última Risada",
@@ -21186,6 +23130,7 @@ export let dataItems = {
     1947: {
         img: "sightseer",
         eng: "Sightseer",
+        rus: "Ясновидец",
         schema: 31404,
         pol: "Jasnowidz",
         bra: "Assassino Arcano",
@@ -21196,6 +23141,7 @@ export let dataItems = {
     1948: {
         img: "power_spike",
         eng: "Power Spike",
+        rus: "Шок-шевелюра",
         schema: 31401,
         pol: "Skok mocy",
         bra: "Penteado Potente",
@@ -21206,6 +23152,7 @@ export let dataItems = {
     1949: {
         img: "demonic_dome",
         eng: "Demonic Dome",
+        rus: "Чёртов череп",
         schema: 31384,
         pol: "Szatańskie sklepienie",
         bra: "Domo Demoníaco",
@@ -21216,6 +23163,7 @@ export let dataItems = {
     1950: {
         img: "bare_bear_bones",
         eng: "Bare Bear Bones",
+        rus: "Мишуткина черепушка",
         schema: 31402,
         pol: "Nieżywy niedźwiedź",
         bra: "Osso de Urso Grosso",
@@ -21226,6 +23174,7 @@ export let dataItems = {
     1951: {
         img: "blastphomet",
         eng: "Blastphomet",
+        rus: "Бахомет",
         schema: 31408,
         pol: "Bombomet",
         bra: "Bafomé das Bombas",
@@ -21235,6 +23184,7 @@ export let dataItems = {
     1952: {
         img: "spyder",
         eng: "Spyder",
+        rus: "Шпаук",
         schema: 31409,
         pol: "Szpająk",
         bra: "Spyracnídeo",
@@ -21244,6 +23194,7 @@ export let dataItems = {
     1953: {
         img: "carry_van",
         eng: "Carry-Van",
+        rus: "Переносной фургон",
         schema: 31410,
         pol: "Nosibus",
         bra: "Furgão de Papelão",
@@ -21254,6 +23205,7 @@ export let dataItems = {
     1954: {
         img: "fiercesome_fluorescence",
         eng: "Fiercesome Fluorescence",
+        rus: "Ужасающий удильщик",
         schema: 31411,
         pol: "Fluorescencyjna trwoga",
         bra: "Fluorescência Feroz",
@@ -21264,6 +23216,7 @@ export let dataItems = {
     1955: {
         img: "taunt_neck_snap",
         eng: "Taunt: Neck Snap",
+        rus: "Насмешка: Хруст шеи",
         schema: 31381,
         pol: "Drwina: Karkoskręt",
         bra: "Provocação: Quiroprata da Casa",
@@ -21273,6 +23226,7 @@ export let dataItems = {
     1956: {
         img: "taunt_roar_o_war",
         eng: "Taunt: Roar O'War",
+        rus: "Насмешка: Вой войны",
         schema: 31380,
         pol: "Drwina: Ryk wojenny",
         bra: "Provocação: Rugido de Guerra",
@@ -21282,6 +23236,7 @@ export let dataItems = {
     1957: {
         img: "taunt_borrowed_bones",
         eng: "Taunt: Borrowed Bones",
+        rus: "Насмешка: Скелет со стороны",
         schema: 31382,
         pol: "Drwina: Lekarska lichwa",
         bra: "Provocação: Esqueleto Emprestado",
@@ -21291,6 +23246,7 @@ export let dataItems = {
     1958: {
         img: "taunt_crypt_creeper",
         eng: "Taunt: The Crypt Creeper",
+        rus: "Насмешка: Могильный мошенник",
         schema: 31289,
         pol: "Drwina: Strach do szpiegu kości",
         bra: "Provocação: Descanso do Drácula",
@@ -21300,6 +23256,7 @@ export let dataItems = {
     1959: {
         img: "bigger_mann_on_campus",
         eng: "Bigger Mann on Campus",
+        rus: "Статусный студент",
         schema: 31435,
         pol: "Większa szycha z akademika",
         bra: "O Verdadeiro Dono do Pedaço",
@@ -21310,6 +23267,7 @@ export let dataItems = {
     1960: {
         img: "balkans_brute",
         eng: "Balkan's Brute",
+        rus: "Брутальный балканец",
         schema: 31434,
         pol: "Bałkański brutal",
         bra: "Brutamontes dos Bálcãs",
@@ -21320,6 +23278,7 @@ export let dataItems = {
     1961: {
         img: "impact_impaler",
         eng: "Impact Impaler",
+        rus: "Штык-шлем",
         schema: 31432,
         pol: "Szpiczasty spopielacz",
         bra: "Empalador de Impactos",
@@ -21330,6 +23289,7 @@ export let dataItems = {
     1962: {
         img: "rugged_rags",
         eng: "Rugged Rags",
+        rus: "Обноски оборванца",
         schema: 31430,
         pol: "Poszarpane łachmany",
         bra: "Maltrapilho Bom de Mira",
@@ -21340,6 +23300,7 @@ export let dataItems = {
     1963: {
         img: "the_covert_covers",
         eng: "The Covert Covers",
+        rus: "Скрытное прикрытие",
         schema: 31428,
         pol: "Osłonięte oblicze",
         bra: "Assassino Alpino",
@@ -21350,6 +23311,7 @@ export let dataItems = {
     1964: {
         img: "sleuth_suit",
         eng: "Sleuth Suit",
+        rus: "Сыскной наряд",
         schema: 31426,
         pol: "Wymięty prochowiec",
         bra: "Investigador de Rastros",
@@ -21360,6 +23322,7 @@ export let dataItems = {
     1965: {
         img: "nightcap",
         eng: "Nightcap",
+        rus: "Снотворное средство",
         schema: 31422,
         pol: "Dobranocna czapeczka",
         bra: "Descanso do Demolidor",
@@ -21370,6 +23333,7 @@ export let dataItems = {
     1966: {
         img: "the_puffed_practitioner",
         eng: "The Puffed Practitioner",
+        rus: "Пуховик практика",
         schema: 31420,
         pol: "Puchaty praktyk",
         bra: "O Doutor Almofadado",
@@ -21380,6 +23344,7 @@ export let dataItems = {
     1967: {
         img: "wanderers_wool",
         eng: "Wanderer's Wool",
+        rus: "Шапка скитальца",
         schema: 31419,
         pol: "Wełniany włóczykij",
         bra: "Do Bom Velhinho",
@@ -21390,6 +23355,7 @@ export let dataItems = {
     1968: {
         img: "cozy_cover_up",
         eng: "Cozy Cover-Up",
+        rus: "Уютный утеплитель",
         schema: 31416,
         pol: "Przytulne przyodzienie",
         bra: "Cobertura Confortável",
@@ -21400,6 +23366,7 @@ export let dataItems = {
     1969: {
         img: "isotopic_insulator",
         eng: "Isotopic Insulator",
+        rus: "Изотопный изолятор",
         schema: 31436,
         pol: "Izotopowy izolator",
         bra: "Agasalho Atômico",
@@ -21410,6 +23377,7 @@ export let dataItems = {
     1970: {
         img: "torchers_trench_coat",
         eng: "Torcher's Trench Coat",
+        rus: "Пальто опалителя",
         schema: 31433,
         pol: "Pochodny płaszcz",
         bra: "Terror da Trincheira",
@@ -21420,6 +23388,7 @@ export let dataItems = {
     1971: {
         img: "strasbourg_scholar",
         eng: "Strasbourg Scholar",
+        rus: "Страсбургский спец",
         schema: 31427,
         pol: "Uczony ze Strasburga",
         bra: "O Estudioso de Estrasburgo",
@@ -21430,6 +23399,7 @@ export let dataItems = {
     1972: {
         img: "clue_hairdo",
         eng: "Clue Hairdo",
+        rus: "Стиль сыщика",
         schema: 31425,
         pol: "Znamienna zaczeska",
         bra: "Perito em Pistas",
@@ -21440,6 +23410,7 @@ export let dataItems = {
     1973: {
         img: "slumber_slacks",
         eng: "Slumber Slacks",
+        rus: "Панталоны полусонного",
         schema: 31424,
         pol: "Senne spodnie",
         bra: "Calças do Cochilo",
@@ -21450,6 +23421,7 @@ export let dataItems = {
     1974: {
         img: "the_frigid_fashion",
         eng: "The Frigid Fashion",
+        rus: "Морозная мода",
         schema: 31421,
         pol: "Oziębły modniś",
         bra: "O Estilo do Gelo",
@@ -21460,6 +23432,7 @@ export let dataItems = {
     1975: {
         img: "trench_warefarer",
         eng: "Trench Warfarer",
+        rus: "Окопный воин",
         schema: 31418,
         pol: "Bitewny trencz",
         bra: "Casaco das Trincheiras",
@@ -21469,6 +23442,7 @@ export let dataItems = {
     1976: {
         img: "the_dapper_dickens",
         eng: "The Dapper Dickens",
+        rus: "Щепетильный щёголь",
         schema: 31417,
         pol: "Elegancki Ebenezer",
         bra: "O Dickens Distinto",
@@ -21479,6 +23453,7 @@ export let dataItems = {
     1977: {
         img: "bonk_beanie",
         eng: "Bonk Beanie",
+        rus: "Бонк-шапка",
         schema: 31437,
         pol: "Bonkowe beanie",
         bra: "Gorro Gaseificante",
@@ -21489,6 +23464,7 @@ export let dataItems = {
     1978: {
         img: "masked_loyalty",
         eng: "Masked Loyalty",
+        rus: "Маска преданности",
         schema: 31431,
         pol: "Zamaskowana lojalność",
         bra: "Lealdade Mascarada",
@@ -21499,6 +23475,7 @@ export let dataItems = {
     1979: {
         img: "lazy_lounger",
         eng: "Lazy Lounger",
+        rus: "Ленивый лежебока",
         schema: 31423,
         pol: "Ospały obibok",
         bra: "Pijama da Preguiça",
@@ -21509,6 +23486,7 @@ export let dataItems = {
     1980: {
         img: "boarders_beanie",
         eng: "Boarder's Beanie",
+        rus: "Шапка сноубордиста",
         schema: 31415,
         pol: "Czapka pensjonariusza",
         bra: "Touca de Classe",
@@ -21519,6 +23497,7 @@ export let dataItems = {
     1981: {
         img: "scruffed_n_stitched",
         eng: "Scruffed 'n Stitched",
+        rus: "Потрёпанный и подшитый",
         schema: 31429,
         pol: "Zadrapany i zszyty",
         bra: "Desocupado e Esfarrapado",
@@ -21529,6 +23508,7 @@ export let dataItems = {
     1982: {
         img: "taunt_foul_play",
         eng: "Taunt: Foul Play",
+        rus: "Насмешка: Нечестная игра",
         schema: 31414,
         pol: "Drwina: Nieczysta zagrywka",
         bra: "Provocação: Cartão Vermelho",
@@ -21539,6 +23519,7 @@ export let dataItems = {
     1983: {
         img: "taunt_cheers",
         eng: "Taunt: Cheers!",
+        rus: "Насмешка: Тост!",
         schema: 31412,
         pol: "Drwina: Na zdrowie!",
         bra: "Provocação: Um Brinde!",
@@ -21549,6 +23530,7 @@ export let dataItems = {
     1984: {
         img: "taunt_mourning_mercs",
         eng: "Taunt: Mourning Mercs",
+        rus: "Насмешка: Горюющие головорезы",
         schema: 31413,
         pol: "Drwina: Najemnicze nieszczęście",
         bra: "Provocação: Mercenário Melancólico",
@@ -21559,136 +23541,274 @@ export let dataItems = {
     1985: {
         img: "invisible_flame",
         eng: "Invisible Flame",
+        rus: "Невидимое пламя",
         schema: 31463
     },
     1986: {
         img: "the_vaudeville_visor",
         eng: "The Vaudeville Visor",
+        rus: "Злодейское забрало",
         schema: 31461
     },
     1987: {
         img: "commonwealth_commando",
         eng: "Commonwealth Commando",
+        rus: "Стрелок Содружества",
         schema: 31459
     },
     1988: {
         img: "the_aimframe",
         eng: "The Aimframe",
+        rus: "Целеусмотритель",
         schema: 31458
     },
     1989: {
         img: "watchmanns_wetsuit",
         eng: "Watchmann's Wetsuit",
+        rus: "Дозорный дайвер",
         schema: 31457
     },
     1990: {
         img: "brutes_braces",
         eng: "Brute's Braces",
+        rus: "Подтяжки подельника",
         schema: 31453
     },
     1991: {
         img: "pathfinder",
         eng: "Pathfinder",
+        rus: "Первооткрыватель",
         schema: 31450
     },
     1992: {
         img: "daring_dell",
         eng: "Daring Dell",
+        rus: "Дерзкий Делл",
         schema: 31445
     },
     1993: {
         img: "desk_engineer",
         eng: "Desk Engineer",
+        rus: "Офисный инженер",
         schema: 31444
     },
     1994: {
         img: "the_brand_loyalist",
         eng: "The Brand Loyalist",
+        rus: "Преданный потребитель",
         schema: 31443
     },
     1995: {
         img: "scorched_earth_stompers",
         eng: "Scorched Earth Stompers",
+        rus: "Вытаптыватели выжженной земли",
         schema: 31464
     },
     1996: {
         img: "tankers_top",
         eng: "Tanker's Top",
+        rus: "Куртка танкиста",
         schema: 31460
     },
     1997: {
         img: "the_tropical_brim",
         eng: "The Tropical Brim",
+        rus: "Широкополые тропики",
         schema: 31456
     },
     1998: {
         img: "crooks_cap",
         eng: "Crook's Cap",
+        rus: "Кепарь кидалы",
         schema: 31452
     },
     1999: {
         img: "justice_johns",
         eng: "Justice Johns",
+        rus: "Сапоги справедливости",
         schema: 31451
     },
     2000: {
         img: "sneaky_blinder",
         eng: "Sneaky Blinder",
+        rus: "Скрытный козырёк",
         schema: 31447
     },
     2001: {
         img: "the_big_star",
         eng: "The Big Star",
+        rus: "Большая звезда",
         schema: 31446
     },
     2002: {
         img: "tuxedo_royale",
         eng: "Tuxedo Royale",
+        rus: "Смокинг \"Рояль\"",
         schema: 31448
     },
     2003: {
         img: "fire_marshal",
         eng: "Fire Marshal",
+        rus: "Начальник бригады",
         schema: 31462
     },
     2004: {
         img: "free_manns_fashion",
         eng: "Free Mann's Fashion",
+        rus: "Физиономия физика",
         schema: 31454
     },
     2005: {
         img: "control_patrol",
         eng: "Control Patrol",
+        rus: "Контрольный патрульный",
         schema: 31449
     },
     2006: {
         img: "botler_2000",
         eng: "Botler 2000",
+        rus: "Ботецкий 2000",
         schema: 31442
     },
     2007: {
         img: "hazardous_environment_vest",
         eng: "Hazardous Environment Vest",
+        rus: "Защитный жилет",
         schema: 31455
     },
     2008: {
         img: "taunt_can_it",
         eng: "Taunt: Can It!",
+        rus: "Насмешка: На помойку!",
         schema: 31438
     },
     2009: {
         img: "taunt_cremators_condolences",
         eng: "Taunt: Cremators Condolences",
+        rus: "Насмешка: Сожаления сожжённым",
         schema: 31439
     },
     2010: {
         img: "taunt_straight_shooter_tutor",
         eng: "Taunt: Straight Shooter Tutor",
+        rus: "Насмешка: Прицельная помощь",
         schema: 31440
     },
     2011: {
         img: "taunt_unleashed_rage",
         eng: "Taunt: Unleashed Rage",
+        rus: "Насмешка: Приступ гнева",
         schema: 31441
+    },
+    2012: {
+        img: "school_nuisance",
+        eng: "School Nuisance",
+		rus: "Школьная шпана"
+    },
+    2013: {
+        img: "strikeout",
+        eng: "Strikeout",
+		rus: "Страйком по голове"
+    },
+    2014: {
+        img: "chiromancer's_kit",
+        eng: "Chiromancer's Kit",
+		rus: "Комплект хироманта"
+    },
+    2015: {
+        img: "sear_seer",
+        eng: "Sear Seer",
+		rus: "Провидец пламени"
+    },
+    2016: {
+        img: "badlands_bandido",
+        eng: "Badlands Bandido",
+		rus: "Преступник пустошей"
+    },
+
+    2017: {
+        img: "defaced_detonator",
+        eng: "Defaced Detonator",
+		rus: "Двуликий детонатор"
+    },
+    2018: {
+        img: "dusk_duster",
+        eng: "Dusk Duster",
+		rus: "Полуночный пыльник"
+    },
+    2019: {
+        img: "hellish_overlord",
+        eng: "Hellish Overlord",
+		rus: "Адский властелин"
+    },
+    2020: {
+        img: "strigoi_stare",
+        eng: "Strigoi Stare",
+		rus: "Взгляд вампира"
+    },
+    2021: {
+        img: "contaminated_carryall",
+        eng: "Contaminated Carryall",
+		rus: "Радиоактивный ранец"
+    },
+    2022: {
+        img: "delldozer",
+        eng: "Delldozer",
+		rus: "Делльдозер"
+    },
+    2023: {
+        img: "contaminated_carryall",
+        eng: "Contaminated Carryall",
+		rus: "Радиоактивный ранец"
+    },
+    2024: {
+        img: "mannhattan_protect",
+        eng: "Mannhattan Protect",
+		rus: "Маннхэттенский протектор"
+    },
+    2025: {
+        img: "nuclear_necessity",
+        eng: "Nuclear Necessity",
+		rus: "Ядерный специалитет"
+    },
+    2026: {
+        img: "surgeon_general",
+        eng: "Surgeon General",
+		rus: "Генеральный хирург"
+    },
+    2027: {
+        img: "witch_doctor",
+        eng: "Witch Doctor",
+		rus: "Вуду-врачеватель"
+    },
+    2028: {
+        img: "nightfall_veil",
+        eng: "Nightfall Veil",
+		rus: "Сумрачное кимоно"
+    },
+    2029: {
+        img: "shadow_shroud",
+        eng: "Shadow Shroud",
+		rus: "Скрытый сумраком"
+    },
+    2030: {
+        img: "duality_of_mantle",
+        eng: "Duality of Mantle",
+		rus: "Маннтия двойственности"
+    },
+    2031: {
+        img: "fleet_commander",
+        eng: "Fleet Commander",
+		rus: "Флотский коммандер"
+    },
+    2032: {
+        img: "spider_sights",
+        eng: "Spider Sights",
+		rus: "Пауч-очки"
+    },
+    2033: {
+        img: "triboniophorus_gentlemannus",
+        eng: "Triboniophorus Gentlemannus",
+		rus: "Трибониофорус Джентльманнус"
     }
 }
