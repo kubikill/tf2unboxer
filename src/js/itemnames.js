@@ -23700,7 +23700,7 @@ export let dataItems = {
         rus: "Насмешка: Приступ гнева",
         schema: 31441
     },
-    2012: {
+    2012: { // hw2024 items
         img: "school_nuisance",
         eng: "School Nuisance",
 		rus: "Школьная шпана"
@@ -23810,5 +23810,85 @@ export let dataItems = {
         img: "triboniophorus_gentlemannus",
         eng: "Triboniophorus Gentlemannus",
 		rus: "Трибониофорус Джентльманнус"
-    }
+    },
+    2034: { // hw2024 taunts
+        img: "peace_out",
+        eng: "Taunt: Peace Out",
+		rus: "Насмешка: Земля стекловатой"
+    },
+    2035: {
+        img: "crushing_defeat",
+        eng: "Taunt: Crushing Defeat",
+		rus: "Насмешка: Сокрушительное поражение"
+    },
+    2036: {
+        img: "punchline",
+        eng: "Taunt: Punchline",
+		rus: "Насмешка: Розыгрыш"
+    },
+    2037: {
+        img: "commending_clap",
+        eng: "Taunt: Commending Clap",
+		rus: "Насмешка: Хвалебные хлопки"
+    },
+    2038: { // hw2024 warpaint
+        img: "broken_record_war_paint",
+        eng: "Broken Record War Paint",
+        rus: "Боевая краска \"Битая пластинка\"",
+    },
+    2039: {
+        img: "necropolish_war_paint",
+        eng: "Necropolish War Paint",
+        rus: "Боевая краска \"Некрополироль\"",
+    },
+    2040: {
+        img: "stardust_war_paint",
+        eng: "Stardust War Paint",
+        rus: "Боевая краска \"Звёздная пыль\"",
+    },
+    2041: {
+        img: "graphite_gripped_war_paint",
+        eng: "Graphite Gripped War Paint",
+        rus: "Боевая краска \"Грани графита\"",
+    },
+    2042: {
+        img: "piranha_mania_war_paint",
+        eng: "Piranha Mania War Paint",
+        rus: "Боевая краска \"Проба пираньи\"",
+    },
+    2043: {
+        img: "stealth_specialist_war_paint",
+        eng: "Stealth Specialist War Paint",
+        rus: "Боевая краска \"Спец по скрытности\"",
+    },
+    2044: {
+        img: "blackout_war_paint",
+        eng: "Blackout War Paint",
+        rus: "Боевая краска \"Затемнение\"",
+    },
+    2045: {
+        img: "brawler's_iron_war_paint",
+        eng: "Brawler's Iron War Paint",
+        rus: "Боевая краска \"Клеймо вояки\"",
+    },
+    2046: {
+        img: "gobi_glazed_war_paint",
+        eng: "Gobi Glazed War Paint",
+        rus: "Боевая краска \"Пустынное покрытие\"",
+    },
+    2047: {
+        img: "sleek_greek_war_paint",
+        eng: "Sleek Greek War Paint",
+        rus: "Боевая краска \"Греческая грация\"",
+    },
+    2048: {
+        img: "team_charged_war_paint",
+        eng: "Team Charged War Paint",
+        rus: "Боевая краска \"Заряд команды\"",
+    },
+    2049: {
+        img: "team_detail_war_paint",
+        eng: "Team Detail War Paint",
+        rus: "Боевая краска \"Командная отделка\"",
+    },
 }

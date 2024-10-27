@@ -3320,5 +3320,138 @@ export let dataEffects = {
         eng: "Bewitching Bugs",
         rus: "Обаятельные бабочки",
         schema: 349
-    }
+    },
+
+    307: { // hw2024 misc unusual effects
+        img: "",
+        eng: "Spectral Fire",
+        rus: "Спектральный огонь",
+        schema: 350
+    },
+    308: {
+        img: "",
+        eng: "Galactic Flame",
+        rus: "Галактическое пламя",
+        schema: 351
+    },
+    309: {
+        img: "",
+        eng: "Revived Recharge",
+        rus: "Реанимирующий разряд",
+        schema: 352
+    },
+    310: {
+        img: "",
+        eng: "Frankencharged",
+        rus: "Франкеншторм",
+        schema: 353
+    },
+    311: {
+        img: "",
+        eng: "Undead Electricity",
+        rus: "Энергия нежити",
+        schema: 354
+    },
+    312: {
+        img: "",
+        eng: "Phantom Plague",
+        rus: "Трупный туман",
+        schema: 355
+    },
+    313: {
+        img: "",
+        eng: "Haunting Haze",
+        rus: "Проклятая пелена",
+        schema: 356
+    },
+    314: {
+        img: "",
+        eng: "Vicious Vampires",
+        rus: "Мыши-мучители",
+        schema: 357
+    },
+    315: {
+        img: "",
+        eng: "Ravenous Ravens",
+        rus: "Вороватые вороны",
+        schema: 358
+    },
+    316: {
+        img: "",
+        eng: "Delightful Doves",
+        rus: "Грациозные голуби",
+        schema: 359
+    },
+    317: {
+        img: "",
+        eng: "Searing Stove",
+        rus: "Пылающая плита",
+        schema: 360
+    },
+    318: {
+        img: "",
+        eng: "Über Blaze",
+        rus: "Убер-запал",
+        schema: 361
+    },
+    319: { // hw2024 taunst unusual effects
+        img: "",
+        eng: "Power Pressure",
+        rus: "Скопление силы",
+        schema: 362
+    },
+    320: {
+        img: "",
+        eng: "Obnoxious Confetti",
+        rus: "Надоедливое конфетти",
+        schema: 363
+    },
+    321: {
+        img: "",
+        eng: "Lovable Confetti",
+        rus: "Симпатичное конфетти",
+        schema: 364
+    },
+    322: {
+        img: "",
+        eng: "Confetti Celebration",
+        rus: "Торжественное конфетти",
+        schema: 366
+    },
+    323: {
+        img: "",
+        eng: "Magnifying Momentum",
+        rus: "Нагнетание напряжения",
+        schema: 367
+    },
+    324: {
+        img: "",
+        eng: "Charging Catalyst",
+        rus: "Захватывающая зарядка",
+        schema: 368
+    },
+    325: {
+        img: "",
+        eng: "Heavy Rain",
+        rus: "Ливень",
+        schema: 369
+    },
+    326: {
+        img: "",
+        eng: "Amplifying Aura",
+        rus: "Аккумулирующая аура",
+        schema: 370
+    },
+    327: {
+        img: "",
+        eng: "Pumpkin Patch",
+        rus: "Тыквенная грядка",
+        schema: 371
+    },
+    328: {
+        img: "",
+        eng: "Mystic Fusion",
+        rus: "Мистическое слияние",
+        schema: 372
+    },
 }
