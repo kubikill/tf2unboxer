@@ -24,31 +24,6 @@ function Crate(op) {
         chance - Chance of getting a case exclusive bonus item instead of a global bonus item. 1 = 0.01%, 10000 = 100%
     */
 
-    /* Опции:
-        id - Определяет название и иконку ящика, которые загружаются из cratenames.js.
-        series - Номер серии ящика
-        loot - Содержит содержимое ящика
-        effects - Содержит необычные эффекты, доступные в этом ящике
-        note - Примечание к ящику (например, текст "Предметы, полученные из этого ящика, могут иметь качество Strange и/или Unusual."). Текст загружается из text.js
-        autoChance - Если в ящике только предметы от Commando до Elite градации, установите значение true, чтобы автоматически определить шанс получения предмета в зависимости от его ценности:
-            0 или undefined - Использовать шансы, установленные для каждого предмета.
-            1 - Установить шансы на предметы в зависимости от их градации, чтобы шанс выпадения предмета с определенной градацией был:
-                Mercenary - 80%
-                Commando - 16%
-                Assassin - 3.2%
-                Elite - 0.8%
-            2 - Дать каждому предмету равные шансы на выпадение.
-        unusualtype - Определяет, могут ли необычные предметы выпадать из этого ящика и каким образом.
-            0 или undefined - Необычные предметы не могут быть получены из этого ящика.
-            1 - Выбрать случайный предмет из универсального набора необычных предметов.
-            2 - Выбрать случайный предмет из ящика с качеством 10. У предметов с более высокой градацией шансы выпадения ниже.
-            3 - То же, что и 2, но каждый предмет имеет равные шансы на выпадение.
-        bonus - Определяет, могут ли из этого ящика выпадать бонусные предметы.
-        exclusiveBonus - Определяет эксклюзивные бонусные предметы для данного ящика
-            loot - Список эксклюзивных бонусных предметов для данного ящика
-            chance - Шанс получить эксклюзивный бонусный предмет вместо глобального бонусного предмета. 1 = 0.01%, 10000 = 100%
-*/
-
     this.id = op.id;
     this.series = op.series;
     this.loot = null;
@@ -115,26 +90,6 @@ function Item(op) {
         grade - Item grade.
     */
 
-    /* Опции:
-    id - Определяет название и иконку предмета, которые загружаются из itemnames.js
-    chance - Шанс получения этого предмета. 1 = 0.01%, 10000 = 100%. Может быть оставлен пустым, если для ящика установлено autoChance в true.
-    quality - Определяет качество и/или характеристики предмета:
-        0 - Unusual
-        1 - Unique
-        2 - Strange
-        3 - Haunted
-        4 - 90% шанс быть Unique, 10% шанс быть Strange
-        5 - Decorated - 10% Battle Scarred, 20% Well Worn, 40% Field Tested, 20% Minimal Wear, 10% Factory New
-        6 - Decorated - То же, что и 5, но также с 10% шансом быть Strange и 1% шансом быть Unusual
-        7 - 99% шанс быть Unique, 1% шанс быть Unusual
-        8 - 90% шанс быть Unique, 10% шанс быть Strange Haunted
-        9 - Unique, но может быть заменён: 10% шанс быть Strange или 1% шанс быть Unusual.
-        10 - То же, что и 4, но также с 1% шансом быть Unusual. Может быть как Strange, так и Unusual
-        11 - Killstreak Kit. 65% шанс быть обычным, 25% шанс быть Specialized, 10% шанс быть Professional.
-        12 - Strangifier
-    grade - Градация предмета.
-*/
-
     this.id = op.id;
     if (typeof op.chance === "undefined" && typeof this.chance === "undefined") {
         this.chance = 0;
@@ -149,7 +104,7 @@ function Item(op) {
     }
 }
 
-// Unusual effects cosmetics pool (EFFECTS)
+// Unusual item pools shared between crates
 export const unusualPool = [5, 6, 13, 14, 21, 22, 23, 28, 29, 30, 34, 35, 36, 43, 44, 45, 47, 48, 49, 51, 52, 55, 56, 57, 58, 63, 64, 65, 71, 72, 73, 111, 117, 118, 122, 123, 130, 131, 133, 134, 135, 136, 137, 140, 142, 143, 147, 148, 152, 153, 157, 160, 166, 167, 172, 177, 182, 183, 187, 188, 197, 198, 204, 210, 211, 225, 230, 235, 240, 245, 246, 250, 265, 266, 275, 281, 289, 290, 292, 294, 301, 303, 305, 308, 316, 317, 327, 341, 342, 358, 359, 362, 366, 370, 375, 376, 383, 387, 388, 389, 390, 392, 393, 394, 395, 397, 399, 400, 401, 402, 405, 407, 408, 409, 411, 413, 414, 415, 417, 418, 420, 422, 423, 425, 427, 430, 431, 432, 433, 435, 436, 438, 439, 440, 441, 454, 455, 457, 459, 460, 464, 465, 467, 471, 472, 475, 479, 480, 481, 483, 487, 488, 490, 492, 496, 501, 503, 504, 506, 510, 512, 516, 524, 525, 526, 537, 538, 541, 547, 549, 552, 553, 666, 685, 689, 691, 692, 693, 694, 696, 704, 705, 710, 712, 715, 718, 720, 725, 727, 732, 733, 739, 746, 749, 754, 755, 756, 777, 779, 784, 785, 786, 791, 792, 793, 794, 798, 804, 812, 815, 818, 902, 905, 906, 907, 908, 909, 913, 964, 1355, 1357, 1358, 1360, 1361, 1362, 1363, 1364, 1365, 1366, 1367, 1368, 1369, 1371, 1372, 1373, 1374, 1375, 1376, 1377, 1378, 1379, 1380, 1381, 1382, 1383, 1384, 1385, 1386, 1387, 1388, 1389, 1390, 1391, 1392, 1393, 1394, 1395, 1397, 1399, 1400, 1401, 1403, 1404, 1405, 1406, 1407, 1408, 1410, 1411, 1412, 1413, 1414, 1415, 1416, 1417, 1418, 1419, 1421];
 export const miscUnusualPool = [46, 50, 53, 54, 191, 260, 291, 343, 434, 470, 482, 707, 1356, 1396, 1398, 1402, 1409, 1420];
 export const sniperVsSpyUnusualsPool = [62, 70, 124, 158, 178, 194, 1354, 1359, 1370];
@@ -194,7 +149,7 @@ export const summer24FX = [289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299
 
 
 // Halloween 2024 Update
-export const hw24FX = [307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328];
+export const hw24FX = [307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318];
 
 
 // Global bonus item list
@@ -246,6 +201,7 @@ halloweenModeCrateList.summer23 = halloweenModeCrateList.xmas22.concat([154]);
 halloweenModeCrateList.hw23 = halloweenModeCrateList.summer23.concat([155]);
 halloweenModeCrateList.xmas23 = halloweenModeCrateList.hw23.concat([157]);
 halloweenModeCrateList.summer24 = halloweenModeCrateList.xmas23.concat([158]);
+halloweenModeCrateList.hw24 = halloweenModeCrateList.summer24.concat([159]);
 
 // Crate array
 export let cA = [
@@ -409,7 +365,7 @@ export let cA = [
     new Crate({ id: 100, series: 142, effects: hw23FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [1951, 1952, 1953, 1954], chance: 5000} }),
     new Crate({ id: 101, series: 143, effects: xmas23FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }),
     new Crate({ id: 102, series: 144, effects: summer24FX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
-    new Crate({ id: 103, series: 145, effects: hw24FX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 103, series: 145, effects: hw24FX, note: 5, unusual: 2, autoChance: 1, bonus: true }), /* [160] */
     new Crate({ id: 104, series: 146, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
 
 ];

@@ -2678,7 +2678,7 @@ rus: '<span class="colormercenary">Наемника</span> предметов о
         rus: "Лето 2024"
     },
     222: {
-        eng: "Scream Fortress XVI (2022)",
+        eng: "Scream Fortress XVI (2024)",
         rus: "Вииизг Фортресс XVI (2024)",
         sch: "尖叫要塞 XVI（2024）",
         rom: "Fortareata Urlatoare XVI (2024)",

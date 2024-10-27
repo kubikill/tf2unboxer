@@ -1,0 +1,8 @@
+#btngroup {
+    margin: 8px 0;
+}
+#cratenamesoutput,
+#itemnamesoutput,
+#unusualfxoutput {
+    display: none;
+}
