@@ -4,9 +4,9 @@ let save = {options: {
 
 }};
 
-import { 
+import {
     unusualPool,
-    cA, 
+    cA,
     crateOrder,
     globalBonusItemArray,
     unusualifierArray,
@@ -14,9 +14,9 @@ import {
     strangePartBonusArray,
     creepyCrateBonusArray,
     halloweenModeCrateList,
-    hw11FX, 
-    hw12FX, 
-    hw13FX, 
+    hw11FX,
+    hw12FX,
+    hw13FX,
     hw14FX,
     hw15FX,
     hw16FX,
@@ -40,6 +40,7 @@ import {
     miscUnusualPool,
     eotlGlitchUnusualPool,
     sniperVsSpyUnusualsPool,
+    hw24FX,
     } from "./crate.js";
 
 const wearTable = ["", "FN", "MW", "FT", "WW", "BS"];
@@ -373,6 +374,9 @@ function unbox() { // This function handles the unboxing itself: which item is u
                         break;
                     case "summer24":
                         effectsArray = summer24FX;
+                        break;
+                    case "hw24":
+                        effectsArray = hw24FX;
                         break;
                 }
             } else {
@@ -845,7 +849,7 @@ self.onmessage = function(e) {
         save.options = JSON.parse(e.data.options);
         currentCrate = e.data.crate;
         currentCrateObj = cA[crateOrder[currentCrate]];
-    
+
         let bulkCounter = 0;
         while (bulkCounter < e.data.crateNum) {
             let item = unbox();

@@ -2,6 +2,7 @@ export let dataEffects = {
     1: {
         img: "burning_flames",
         eng: "Burning Flames",
+        rus: "Язычки пламени",
         schema: 13,
         pol: "palące płomienie",
         sch: "熊熊烈焰",
@@ -13,6 +14,7 @@ export let dataEffects = {
     2: {
         img: "circling_heart",
         eng: "Circling Heart",
+        rus: "Кружащееся сердце",
         schema: 19,
         pol: "wirujące serce",
         sch: "旋转之心",
@@ -24,6 +26,7 @@ export let dataEffects = {
     3: {
         img: "circling_peace_sign",
         eng: "Circling Peace Sign",
+        rus: "Кружащийся знак мира",
         schema: 18,
         pol: "wirujący znak pokoju",
         sch: "旋转和平标志",
@@ -35,6 +38,7 @@ export let dataEffects = {
     4: {
         img: "circling_tf_logo",
         eng: "Circling TF Logo",
+        rus: "Кружащийся логотип TF",
         schema: 11,
         pol: "wirujące logo TF",
         sch: "旋转TF徽标",
@@ -46,6 +50,7 @@ export let dataEffects = {
     5: {
         img: "green_confetti",
         eng: "Green Confetti",
+        rus: "Зелёное конфетти",
         schema: 6,
         pol: "zielone konfetti",
         sch: "绿色彩带",
@@ -57,6 +62,7 @@ export let dataEffects = {
     6: {
         img: "green_energy",
         eng: "Green Energy",
+        rus: "Зелёное свечение",
         schema: 9,
         pol: "zielona energia",
         sch: "绿色能量",
@@ -68,6 +74,7 @@ export let dataEffects = {
     7: {
         img: "haunted_ghosts",
         eng: "Haunted Ghosts",
+        rus: "Назойливые привидения",
         schema: 8,
         pol: "straszliwe duchy",
         sch: "灵魂附体",
@@ -79,6 +86,7 @@ export let dataEffects = {
     8: {
         img: "massed_flies",
         eng: "Massed Flies",
+        rus: "Туча мух",
         schema: 12,
         pol: "chmara much",
         sch: "苍蝇云集",
@@ -90,6 +98,7 @@ export let dataEffects = {
     9: {
         img: "purple_confetti",
         eng: "Purple Confetti",
+        rus: "Пурпурное конфетти",
         schema: 7,
         pol: "fioletowe konfetti",
         sch: "紫色彩带",
@@ -101,6 +110,7 @@ export let dataEffects = {
     10: {
         img: "purple_energy",
         eng: "Purple Energy",
+        rus: "Пурпурное свечение",
         schema: 10,
         pol: "fioletowa energia",
         sch: "紫色能量",
@@ -112,6 +122,7 @@ export let dataEffects = {
     11: {
         img: "scorching_flames",
         eng: "Scorching Flames",
+        rus: "Опаляющее пламя",
         schema: 14,
         pol: "piekące płomienie",
         sch: "炉火纯青",
@@ -123,6 +134,7 @@ export let dataEffects = {
     12: {
         img: "searing_plasma",
         eng: "Searing Plasma",
+        rus: "Выжигающая плазма",
         schema: 15,
         pol: "paląca plazma",
         sch: "剧烈离子体",
@@ -134,6 +146,7 @@ export let dataEffects = {
     13: {
         img: "sunbeams",
         eng: "Sunbeams",
+        rus: "Солнечные лучи",
         schema: 17,
         pol: "promienie Słońca",
         sch: "太阳之光",
@@ -145,6 +158,7 @@ export let dataEffects = {
     14: {
         img: "vivid_plasma",
         eng: "Vivid Plasma",
+        rus: "Яркая плазма",
         schema: 16,
         pol: "żywa plazma",
         sch: "活泼离子体",
@@ -157,6 +171,7 @@ export let dataEffects = {
     15: {
         img: "72",
         eng: "'72",
+        rus: "72-й",
         schema: 3004,
         pol: "1972",
         sch: "炫目舞会",
@@ -166,6 +181,7 @@ export let dataEffects = {
     16: {
         img: "fountain_of_delight",
         eng: "Fountain of Delight",
+        rus: "Фонтан желаний",
         schema: 3005,
         pol: "fontanna rozkoszy",
         sch: "快乐之源",
@@ -177,6 +193,7 @@ export let dataEffects = {
     17: {
         img: "holy_grail",
         eng: "Holy Grail",
+        rus: "Святой Грааль",
         schema: 3003,
         pol: "Święty Graal",
         sch: "圣杯之光",
@@ -189,6 +206,7 @@ export let dataEffects = {
     18: {
         img: "mega_strike",
         eng: "Mega Strike",
+        rus: "Мега-удар",
         schema: 3010,
         pol: "megapiorun",
         sch: "超级闪电",
@@ -200,6 +218,7 @@ export let dataEffects = {
     19: {
         img: "midnight_whirlwind",
         eng: "Midnight Whirlwind",
+        rus: "Полуночный ураган",
         schema: 3008,
         pol: "północne tornado",
         sch: "午夜风暴",
@@ -211,6 +230,7 @@ export let dataEffects = {
     20: {
         img: "screaming_tiger",
         eng: "Screaming Tiger",
+        rus: "Ревущий тигр",
         schema: 3006,
         pol: "ryczący tygrys",
         sch: "火球环绕",
@@ -222,6 +242,7 @@ export let dataEffects = {
     21: {
         img: "showstopper",
         eng: "Showstopper",
+        rus: "Гвоздь программы",
         schema: 3001,
         pol: "fajerwerki",
         sch: "烟花表演",
@@ -233,6 +254,7 @@ export let dataEffects = {
     22: {
         img: "silver_cyclone",
         eng: "Silver Cyclone",
+        rus: "Серебристый циклон",
         schema: 3009,
         pol: "srebrny cyklon",
         sch: "白银旋风",
@@ -244,6 +266,7 @@ export let dataEffects = {
     23: {
         img: "skill_gotten_gains",
         eng: "Skill Gotten Gains",
+        rus: "Нечестное мастерство",
         schema: 3007,
         pol: "umiejętnie wycwaniona forsa",
         sch: "土豪光环",
@@ -255,6 +278,7 @@ export let dataEffects = {
     24: {
         img: "isotope",
         eng: "Isotope",
+        rus: "Изотоп",
         schema: 702,
         pol: "izotop",
         sch: "绿色辐射",
@@ -266,6 +290,7 @@ export let dataEffects = {
     25: {
         img: "hot",
         eng: "Hot",
+        rus: "Жар",
         schema: 701,
         pol: "żar",
         sch: "炽热发烟",
@@ -277,6 +302,7 @@ export let dataEffects = {
     26: {
         img: "cool",
         eng: "Cool",
+        rus: "Холод",
         schema: 703,
         pol: "chłód",
         sch: "冷若冰霜",
@@ -288,6 +314,7 @@ export let dataEffects = {
     27: {
         img: "energy_orb",
         eng: "Energy Orb",
+        rus: "Энергетический шар",
         schema: 704,
         pol: "kula energii",
         sch: "能量光束",
@@ -299,6 +326,7 @@ export let dataEffects = {
     28: {
         img: "blizzardy_storm",
         eng: "Blizzardy Storm",
+        rus: "Морозная метель",
         schema: 30,
         pol: "śnieżna zamieć",
         sch: "暴雪云",
@@ -310,6 +338,7 @@ export let dataEffects = {
     29: {
         img: "bubbling",
         eng: "Bubbling",
+        rus: "Пузырьки",
         schema: 34,
         pol: "bąbelki",
         sch: "沤浮泡影",
@@ -321,6 +350,7 @@ export let dataEffects = {
     30: {
         img: "nuts_n_bolts",
         eng: "Nuts n' Bolts",
+        rus: "Болтики и гайки",
         schema: 31,
         pol: "śrubki i nakrętki",
         sch: "螺栓和螺母",
@@ -332,6 +362,7 @@ export let dataEffects = {
     31: {
         img: "orbiting_fire",
         eng: "Orbiting Fire",
+        rus: "Огненный шар",
         schema: 33,
         pol: "błędny ognik",
         sch: "火焰缠绕",
@@ -343,6 +374,7 @@ export let dataEffects = {
     32: {
         img: "orbiting_planets",
         eng: "Orbiting Planets",
+        rus: "Планетарная система",
         schema: 32,
         pol: "układ planetarny",
         sch: "行星环绕",
@@ -354,6 +386,7 @@ export let dataEffects = {
     33: {
         img: "smoking",
         eng: "Smoking",
+        rus: "Дымок",
         schema: 35,
         pol: "dym",
         sch: "乌烟瘴气",
@@ -365,6 +398,7 @@ export let dataEffects = {
     34: {
         img: "steaming",
         eng: "Steaming",
+        rus: "Струя пара",
         schema: 36,
         pol: "para",
         sch: "蒸汽腾腾",
@@ -376,6 +410,7 @@ export let dataEffects = {
     35: {
         img: "stormy_storm",
         eng: "Stormy Storm",
+        rus: "Грозная гроза",
         schema: 29,
         pol: "burzliwa burza",
         sch: "暴雨云",
@@ -387,6 +422,7 @@ export let dataEffects = {
     36: {
         img: "cauldron_bubbles",
         eng: "Cauldron Bubbles",
+        rus: "Ядовитые пары",
         schema: 39,
         pol: "bąbelki z kociołka",
         sch: "魔埚气泡",
@@ -398,6 +434,7 @@ export let dataEffects = {
     37: {
         img: "cloudy_moon",
         eng: "Cloudy Moon",
+        rus: "Мрачная луна",
         schema: 38,
         pol: "zachmurzony księżyc",
         sch: "乌云盖月",
@@ -409,6 +446,7 @@ export let dataEffects = {
     38: {
         img: "eerie_orbiting_fire",
         eng: "Eerie Orbiting Fire",
+        rus: "Жуткий огненный шар",
         schema: 40,
         pol: "straszliwy błędny ognik",
         sch: "妖娆灵焰",
@@ -420,6 +458,7 @@ export let dataEffects = {
     39: {
         img: "flaming_lantern",
         eng: "Flaming Lantern",
+        rus: "Горящий фонарь",
         schema: 37,
         pol: "płonąca latarnia",
         sch: "火焰南瓜",
@@ -431,6 +470,7 @@ export let dataEffects = {
     40: {
         img: "harvest_moon",
         eng: "Harvest Moon",
+        rus: "Луна жатвы",
         schema: 45,
         pol: "urodzajny księżyc",
         sch: "牧场物语",
@@ -442,6 +482,7 @@ export let dataEffects = {
     41: {
         img: "its_a_secret_to_everybody",
         eng: "It's A Secret To Everybody",
+        rus: "Великая тайна",
         schema: 46,
         pol: "dla wszystkich jest to sekretem",
         sch: "潜影骷髅",
@@ -453,6 +494,7 @@ export let dataEffects = {
     42: {
         img: "knifestorm",
         eng: "Knifestorm",
+        rus: "Ножевой шторм",
         schema: 43,
         pol: "ostra ulewa",
         sch: "刀光剑影",
@@ -464,6 +506,7 @@ export let dataEffects = {
     43: {
         img: "misty_skull",
         eng: "Misty Skull",
+        rus: "Туманный череп",
         schema: 44,
         pol: "tajemnicza czaszka",
         sch: "迷雾骷髅",
@@ -475,6 +518,7 @@ export let dataEffects = {
     44: {
         img: "stormy_13th_hour",
         eng: "Stormy 13th Hour",
+        rus: "Дождливый 13-й час",
         schema: 47,
         pol: "trzynasta burzliwa godzina",
         sch: "诅咒风暴",
@@ -486,6 +530,7 @@ export let dataEffects = {
     45: {
         img: "anti_freeze",
         eng: "Anti-Freeze",
+        rus: "Антифриз",
         schema: 69,
         pol: "płyn chłodzący",
         sch: "冰霜之抵",
@@ -497,6 +542,7 @@ export let dataEffects = {
     46: {
         img: "electrostatic",
         eng: "Electrostatic",
+        rus: "Статическое электричество",
         schema: 67,
         pol: "elektrostatyczność",
         sch: "静电火花",
@@ -508,6 +554,7 @@ export let dataEffects = {
     47: {
         img: "green_black_hole",
         eng: "Green Black Hole",
+        rus: "Черно-зеленая дыра",
         schema: 71,
         pol: "zielona czarna dziura",
         sch: "绿色黑洞",
@@ -519,6 +566,7 @@ export let dataEffects = {
     48: {
         img: "memory_leak",
         eng: "Memory Leak",
+        rus: "Утечка памяти",
         schema: 65,
         pol: "wyciek pamięci",
         sch: "内存溢出",
@@ -531,6 +579,7 @@ export let dataEffects = {
     49: {
         img: "overclocked",
         eng: "Overclocked",
+        rus: "Разогнанный процессор",
         schema: 66,
         pol: "podkręcenie",
         sch: "超频过度",
@@ -542,6 +591,7 @@ export let dataEffects = {
     50: {
         img: "phosphorous",
         eng: "Phosphorous",
+        rus: "Фосфористый",
         schema: 63,
         pol: "fosfor",
         sch: "磷火",
@@ -553,6 +603,7 @@ export let dataEffects = {
     51: {
         img: "power_surge",
         eng: "Power Surge",
+        rus: "Скачок напряжения",
         schema: 68,
         pol: "przepięcie",
         sch: "电弧放射",
@@ -564,6 +615,7 @@ export let dataEffects = {
     52: {
         img: "roboactive",
         eng: "Roboactive",
+        rus: "Робоактивный элемент",
         schema: 72,
         pol: "roboaktywność",
         sch: "机情紫露",
@@ -575,6 +627,7 @@ export let dataEffects = {
     53: {
         img: "sulphurous",
         eng: "Sulphurous",
+        rus: "Сернистый",
         schema: 64,
         pol: "siarka",
         sch: "硫火",
@@ -587,6 +640,7 @@ export let dataEffects = {
     54: {
         img: "time_warp",
         eng: "Time Warp",
+        rus: "Временной разлом",
         schema: 70,
         pol: "zakrzywienie czasu",
         sch: "时间扭曲",
@@ -598,6 +652,7 @@ export let dataEffects = {
     55: {
         img: "aces_high",
         eng: "Aces High",
+        rus: "Козырные тузы",
         schema: 59,
         pol: "asy pik",
         sch: "头牌高悬",
@@ -609,6 +664,7 @@ export let dataEffects = {
     56: {
         img: "cloud_9",
         eng: "Cloud 9",
+        rus: "Седьмое небо",
         schema: 58,
         pol: "niczym w niebie",
         sch: "魔心连环",
@@ -620,6 +676,7 @@ export let dataEffects = {
     57: {
         img: "dead_presidents",
         eng: "Dead Presidents",
+        rus: "Мертвые президенты",
         schema: 60,
         pol: "duży nominał",
         sch: "总统之殇",
@@ -631,6 +688,7 @@ export let dataEffects = {
     58: {
         img: "disco_beat_down",
         eng: "Disco Beat Down",
+        rus: "Ритмы диско",
         schema: 62,
         pol: "w błysku disco",
         sch: "疯狂迪斯科",
@@ -642,6 +700,7 @@ export let dataEffects = {
     59: {
         img: "kill_a_watt",
         eng: "Kill-a-Watt",
+        rus: "Уби-ватт",
         schema: 56,
         pol: "gigawat",
         sch: "金色电流",
@@ -653,6 +712,7 @@ export let dataEffects = {
     60: {
         img: "miami_nights",
         eng: "Miami Nights",
+        rus: "Ночной Майами",
         schema: 61,
         pol: "noce Miami",
         sch: "迈阿密之夜",
@@ -664,6 +724,7 @@ export let dataEffects = {
     61: {
         img: "terror_watt",
         eng: "Terror-Watt",
+        rus: "Жутко-ватт",
         schema: 57,
         pol: "megawat",
         sch: "青色电流",
@@ -674,6 +735,7 @@ export let dataEffects = {
     62: {
         img: "arcana",
         eng: "Arcana",
+        rus: "Загадки",
         schema: 73,
         pol: "arkana",
         sch: "奥秘之髓",
@@ -685,6 +747,7 @@ export let dataEffects = {
     63: {
         img: "chiroptera_venenata",
         eng: "Chiroptera Venenata",
+        rus: "Ядовитус рукокрылус",
         schema: 75,
         pol: "chiroptera venenata",
         sch: "幽冥之火",
@@ -695,6 +758,7 @@ export let dataEffects = {
     64: {
         img: "darkblaze",
         eng: "Darkblaze",
+        rus: "Темное пламя",
         schema: 79,
         pol: "ciemny płomień",
         sch: "黑暗大火",
@@ -706,6 +770,7 @@ export let dataEffects = {
     65: {
         img: "demonflame",
         eng: "Demonflame",
+        rus: "Демоническое пламя",
         schema: 80,
         pol: "demoniczny płomień",
         sch: "恶魔之火",
@@ -717,6 +782,7 @@ export let dataEffects = {
     66: {
         img: "hellfire",
         eng: "Hellfire",
+        rus: "Адское пламя",
         schema: 78,
         pol: "piekielny ogień",
         sch: "地狱之焰",
@@ -728,6 +794,7 @@ export let dataEffects = {
     67: {
         img: "poisoned_shadows",
         eng: "Poisoned Shadows",
+        rus: "Ядовитые тени",
         schema: 76,
         pol: "zatrute cienie",
         sch: "毒蕈之影",
@@ -739,6 +806,7 @@ export let dataEffects = {
     68: {
         img: "something_burning_this_way_comes",
         eng: "Something Burning This Way Comes",
+        rus: "Что-то жгучее грядет",
         schema: 77,
         pol: "jakiś płomień tu nadchodzi",
         sch: "炼狱之路",
@@ -750,6 +818,7 @@ export let dataEffects = {
     69: {
         img: "spellbound",
         eng: "Spellbound",
+        rus: "Заклятье",
         schema: 74,
         pol: "urok",
         sch: "混乱魔咒",
@@ -761,6 +830,7 @@ export let dataEffects = {
     70: {
         img: "amaranthine",
         eng: "Amaranthine",
+        rus: "Пурпур",
         schema: 82,
         pol: "amarant",
         sch: "不朽之灵",
@@ -772,6 +842,7 @@ export let dataEffects = {
     71: {
         img: "bonzo_the_all_gnawing",
         eng: "Bonzo The All-Gnawing",
+        rus: "Всепоглощающий Бонзо",
         schema: 81,
         pol: "wszechjedzący Bonzo",
         sch: "地下巨口",
@@ -783,6 +854,7 @@ export let dataEffects = {
     72: {
         img: "ghastly_ghosts_jr",
         eng: "Ghastly Ghosts Jr",
+        rus: "Малые жуткие призраки",
         schema: 85,
         pol: "młodsze upiorne upiory",
         fre: "Horribles fantômes Jr",
@@ -794,6 +866,7 @@ export let dataEffects = {
     73: {
         img: "haunted_phantasm_jr",
         eng: "Haunted Phantasm Jr",
+        rus: "Проклятый Призрак мл.",
         schema: 86,
         pol: "małe nawiedzone widziadło",
         sch: "青色小鬼魂",
@@ -805,6 +878,7 @@ export let dataEffects = {
     74: {
         img: "stare_from_beyond",
         eng: "Stare From Beyond",
+        rus: "Взгляд из бездны",
         schema: 83,
         pol: "spojrzenie z zaświatów",
         sch: "坟墓之眼",
@@ -816,6 +890,7 @@ export let dataEffects = {
     75: {
         img: "ooze",
         eng: "Ooze",
+        rus: "Слизь",
         schema: 84,
         pol: "szlam",
         sch: "泥中有眼",
@@ -828,6 +903,7 @@ export let dataEffects = {
     76: {
         img: "death_at_dusk",
         eng: "Death at Dusk",
+        rus: "Сумеречная смерть",
         schema: 90,
         pol: "śmierć o zmroku",
         sch: "落日",
@@ -839,6 +915,7 @@ export let dataEffects = {
     77: {
         img: "frostbite",
         eng: "Frostbite",
+        rus: "Мороз",
         schema: 87,
         pol: "odmrożenie",
         sch: "寒霜",
@@ -850,6 +927,7 @@ export let dataEffects = {
     78: {
         img: "molten_mallard",
         eng: "Molten Mallard",
+        rus: "Пылающая птица",
         schema: 88,
         pol: "stopiona kaczka krzyżówka",
         sch: "鸭子焰火",
@@ -861,6 +939,7 @@ export let dataEffects = {
     79: {
         img: "morning_glory",
         eng: "Morning Glory",
+        rus: "Доброе утро",
         schema: 89,
         pol: "poranna chwała",
         sch: "晨曦",
@@ -872,6 +951,7 @@ export let dataEffects = {
     80: {
         img: "abduction",
         eng: "Abduction",
+        rus: "Похищение",
         schema: 91,
         pol: "porwanie",
         sch: "吸收光束",
@@ -883,6 +963,7 @@ export let dataEffects = {
     81: {
         img: "atomic",
         eng: "Atomic",
+        rus: "Атомный",
         schema: 92,
         pol: "atomy",
         sch: "原子核",
@@ -894,6 +975,7 @@ export let dataEffects = {
     82: {
         img: "subatomic",
         eng: "Subatomic",
+        rus: "Субатомный",
         schema: 93,
         pol: "subatomy",
         sch: "亚原子粒子",
@@ -905,6 +987,7 @@ export let dataEffects = {
     83: {
         img: "electric_hat_protector",
         eng: "Electric Hat Protector",
+        rus: "Электрический защитник",
         schema: 94,
         pol: "elektryczna bariera ochronna",
         sch: "电弧保护罩",
@@ -916,6 +999,7 @@ export let dataEffects = {
     84: {
         img: "magnetic_hat_protector",
         eng: "Magnetic Hat Protector",
+        rus: "Магнетический защитник",
         schema: 95,
         pol: "magnetyczna bariera ochronna",
         sch: "磁能保护罩",
@@ -927,6 +1011,7 @@ export let dataEffects = {
     85: {
         img: "voltaic_hat_protector",
         eng: "Voltaic Hat Protector",
+        rus: "Гальванический защитник",
         schema: 96,
         pol: "galwaniczna bariera ochronna",
         sch: "高压保护罩",
@@ -938,6 +1023,7 @@ export let dataEffects = {
     86: {
         img: "galactic_codex",
         eng: "Galactic Codex",
+        rus: "Галактический кодекс",
         schema: 97,
         pol: "kodeks galaktyczny",
         sch: "星际密码",
@@ -949,6 +1035,7 @@ export let dataEffects = {
     87: {
         img: "ancient_codex",
         eng: "Ancient Codex",
+        rus: "Древний кодекс",
         schema: 98,
         pol: "kodeks starożytnych",
         sch: "远古密码",
@@ -960,6 +1047,7 @@ export let dataEffects = {
     88: {
         img: "nebula",
         eng: "Nebula",
+        rus: "Туманность",
         schema: 99,
         pol: "mgławica",
         sch: "星云",
@@ -971,6 +1059,7 @@ export let dataEffects = {
     89: {
         img: "death_by_disco",
         eng: "Death by Disco",
+        rus: "Смерть в стиле диско",
         schema: 100,
         pol: "śmierć w rytmie disco",
         sch: "骷髅蹦迪",
@@ -982,6 +1071,7 @@ export let dataEffects = {
     90: {
         img: "its_a_mystery_to_everyone",
         eng: "It's a mystery to everyone",
+        rus: "Загадка для всех",
         schema: 101,
         pol: "zagadka dla wszystkich",
         sch: "紫色幽灵",
@@ -993,6 +1083,7 @@ export let dataEffects = {
     91: {
         img: "its_a_puzzle_to_me",
         eng: "It's a puzzle to me",
+        rus: "Я сам в шоке",
         schema: 102,
         pol: "zagadka dla mnie",
         sch: "绿色幽灵",
@@ -1006,6 +1097,7 @@ export let dataEffects = {
     92: {
         img: "ether_trail",
         eng: "Ether Trail",
+        rus: "Эфирный шлейф",
         schema: 103,
         pol: "ślad eteru",
         sch: "幽冥之痕",
@@ -1017,6 +1109,7 @@ export let dataEffects = {
     93: {
         img: "nether_trail",
         eng: "Nether Trail",
+        rus: "Бесплотный шлейф",
         schema: 104,
         pol: "ślad piekieł",
         sch: "诡异之痕",
@@ -1028,6 +1121,7 @@ export let dataEffects = {
     94: {
         img: "ancient_eldritch",
         eng: "Ancient Eldritch",
+        rus: "Первобытный ужас",
         schema: 105,
         pol: "prastare dziwactwo",
         sch: "远古邪灵",
@@ -1039,6 +1133,7 @@ export let dataEffects = {
     95: {
         img: "eldritch_flame",
         eng: "Eldritch Flame",
+        rus: "Дух пламени",
         schema: 106,
         pol: "nadprzyrodzony płomień",
         sch: "邪灵之焰",
@@ -1050,6 +1145,7 @@ export let dataEffects = {
     96: {
         img: "neutron_star",
         eng: "Neutron Star",
+        rus: "Нейтронная звезда",
         schema: 107,
         pol: "gwiazda neutronowa",
         sch: "中子星",
@@ -1061,6 +1157,7 @@ export let dataEffects = {
     97: {
         img: "starstorm_slumber",
         eng: "Starstorm Slumber",
+        rus: "Галактическая греза",
         schema: 110,
         pol: "gwieździsty sen",
         sch: "蓝色流星雨",
@@ -1072,6 +1169,7 @@ export let dataEffects = {
     98: {
         img: "starstorm_insomnia",
         eng: "Starstorm Insomnia",
+        rus: "Галактическая бессонница",
         schema: 109,
         pol: "gwiaździsta bezsenność",
         sch: "绿色流星雨",
@@ -1083,6 +1181,7 @@ export let dataEffects = {
     99: {
         img: "tesla_coil",
         eng: "Tesla Coil",
+        rus: "Катушка Тесла",
         schema: 108,
         pol: "transformator Tesli",
         sch: "磁暴线圈",
@@ -1094,6 +1193,7 @@ export let dataEffects = {
     100: {
         img: "brain_drain",
         eng: "Brain Drain",
+        rus: "Мозготечка",
         schema: 111,
         pol: "drenaż mózgu",
         sch: "脑浆外泄",
@@ -1105,6 +1205,7 @@ export let dataEffects = {
     101: {
         img: "open_mind",
         eng: "Open Mind",
+        rus: "Открытый разум",
         schema: 112,
         pol: "otwarty umysł",
         sch: "脑洞大开",
@@ -1116,6 +1217,7 @@ export let dataEffects = {
     102: {
         img: "head_of_steam",
         eng: "Head of Steam",
+        rus: "Паровая голова",
         schema: 113,
         pol: "parująca głowa",
         sch: "脑浆迸裂",
@@ -1127,6 +1229,7 @@ export let dataEffects = {
     103: {
         img: "galactic_gateway",
         eng: "Galactic Gateway",
+        rus: "Галактические врата",
         schema: 114,
         pol: "galaktyczne przejście",
         sch: "星界之门",
@@ -1138,6 +1241,7 @@ export let dataEffects = {
     104: {
         img: "the_eldritch_opening",
         eng: "Eldritch Opening",
+        rus: "Зловещий просвет",
         schema: 115,
         pol: "nadprzyrodzone przejście",
         sch: "神秘之门",
@@ -1150,6 +1254,7 @@ export let dataEffects = {
     105: {
         img: "the_dark_doorway",
         eng: "Dark Doorway",
+        rus: "Тёмный проход",
         schema: 116,
         pol: "mroczne przejście",
         sch: "黑暗之门",
@@ -1162,6 +1267,7 @@ export let dataEffects = {
     106: {
         img: "ring_of_fire",
         eng: "Ring of Fire",
+        rus: "Кольцо пламени",
         schema: 117,
         pol: "pierścień ognia",
         sch: "烈焰之环",
@@ -1173,6 +1279,7 @@ export let dataEffects = {
     107: {
         img: "vicious_circle",
         eng: "Vicious Circle",
+        rus: "Порочный круг",
         schema: 118,
         pol: "błędne koło",
         sch: "堕落邪环",
@@ -1184,6 +1291,7 @@ export let dataEffects = {
     108: {
         img: "white_lightning",
         eng: "White Lightning",
+        rus: "Белая молния",
         schema: 119,
         pol: "biała błyskawica",
         sch: "白光之环",
@@ -1195,6 +1303,7 @@ export let dataEffects = {
     109: {
         img: "omniscient_orb",
         eng: "Omniscient Orb",
+        rus: "Всеведущий шар",
         schema: 120,
         pol: "kryształowa kula",
         sch: "全知之球",
@@ -1206,6 +1315,7 @@ export let dataEffects = {
     110: {
         img: "clairvoyance",
         eng: "Clairvoyance",
+        rus: "Ясновидение",
         schema: 121,
         pol: "jasnowidzenie",
         sch: "全知之眼",
@@ -1217,6 +1327,7 @@ export let dataEffects = {
     111: {
         img: "fifth_dimension",
         eng: "Fifth Dimension",
+        rus: "Пятое измерение",
         schema: 122,
         pol: "piąty wymiar",
         fre: "Cinquième dimension",
@@ -1228,6 +1339,7 @@ export let dataEffects = {
     112: {
         img: "vicious_vortex",
         eng: "Vicious Vortex",
+        rus: "Вредный вихрь",
         schema: 123,
         pol: "występny wir",
         fre: "Vortex vicieux",
@@ -1239,6 +1351,7 @@ export let dataEffects = {
     113: {
         img: "menacing_miasma",
         eng: "Menacing Miasma",
+        rus: "Мистические миазмы",
         schema: 124,
         pol: "makabryczny miazmat",
         fre: "Miasme menaçant",
@@ -1250,6 +1363,7 @@ export let dataEffects = {
     114: {
         img: "abyssal_aura",
         eng: "Abyssal Aura",
+        rus: "Астральная аура",
         schema: 125,
         pol: "aura otchłani",
         fre: "Aura abyssale",
@@ -1261,6 +1375,7 @@ export let dataEffects = {
     115: {
         img: "wicked_wood",
         eng: "Wicked Wood",
+        rus: "Чудовищная чаща",
         schema: 126,
         pol: "nikczemny las",
         fre: "Forêt funeste",
@@ -1272,6 +1387,7 @@ export let dataEffects = {
     116: {
         img: "ghastly_grove",
         eng: "Ghastly Grove",
+        rus: "Роковая роща",
         schema: 127,
         pol: "upiorny gaj",
         fre: "Bosquet hanté",
@@ -1283,6 +1399,7 @@ export let dataEffects = {
     117: {
         img: "mystical_medley",
         eng: "Mystical Medley",
+        rus: "Загадочное зарево",
         schema: 128,
         pol: "mistyczna mieszanina",
         fre: "Mélange mystique",
@@ -1294,6 +1411,7 @@ export let dataEffects = {
     118: {
         img: "ethereal_essence",
         eng: "Ethereal Essence",
+        rus: "Духовная дымка",
         schema: 129,
         pol: "eteryczna esencja",
         fre: "Essence éthérée",
@@ -1305,6 +1423,7 @@ export let dataEffects = {
     119: {
         img: "twisted_radiance",
         eng: "Twisted Radiance",
+        rus: "Спиральное сияние",
         schema: 130,
         pol: "pokrętne promieniowanie",
         fre: "Rayonnement rocambolesque",
@@ -1316,6 +1435,7 @@ export let dataEffects = {
     120: {
         img: "violet_vortex",
         eng: "Violet Vortex",
+        rus: "Виноградный вихрь",
         schema: 131,
         pol: "wrzosowy wir",
         fre: "Vortex violet",
@@ -1327,6 +1447,7 @@ export let dataEffects = {
     121: {
         img: "verdant_vortex",
         eng: "Verdant Vortex",
+        rus: "Весенний вихрь",
         schema: 132,
         pol: "zielenisty wir",
         fre: "Vortex verdoyant",
@@ -1338,6 +1459,7 @@ export let dataEffects = {
     122: {
         img: "valiant_vortex",
         eng: "Valiant Vortex",
+        rus: "Волевой вихрь",
         schema: 133,
         pol: "wiśniowy wir",
         fre: "Vortex vaillant",
@@ -1349,6 +1471,7 @@ export let dataEffects = {
     123: {
         img: "sparkling_lights",
         eng: "Sparkling Lights",
+        rus: "Сверкающие огоньки",
         schema: 134,
         pol: "migoczące światełka",
         fre: "Lumières étincelantes",
@@ -1360,6 +1483,7 @@ export let dataEffects = {
     124: {
         img: "frozen_icefall",
         eng: "Frozen Icefall",
+        rus: "Морозный ледопад",
         schema: 135,
         pol: "spadające sople",
         fre: "Chute de neige",
@@ -1371,6 +1495,7 @@ export let dataEffects = {
     125: {
         img: "fragmented_gluons",
         eng: "Fragmented Gluons",
+        rus: "Фрагментированные глюоны",
         schema: 136,
         pol: "rozproszone gluony",
         fre: "Gluons fragmentés",
@@ -1382,6 +1507,7 @@ export let dataEffects = {
     126: {
         img: "fragmented_quarks",
         eng: "Fragmented Quarks",
+        rus: "Фрагментированные кварки",
         schema: 137,
         pol: "rozproszone kwarki",
         fre: "Quarks fragmentés",
@@ -1393,6 +1519,7 @@ export let dataEffects = {
     127: {
         img: "fragmented_photons",
         eng: "Fragmented Photons",
+        rus: "Фрагментированные фотоны",
         schema: 138,
         pol: "rozproszone fotony",
         fre: "Photons fragmentés",
@@ -1404,6 +1531,7 @@ export let dataEffects = {
     128: {
         img: "defragmenting_reality",
         eng: "Defragmenting Reality",
+        rus: "Дефрагментация реальности",
         schema: 139,
         pol: "defragmentacja rzeczywistości",
         fre: "Réalité défragmentée",
@@ -1415,6 +1543,7 @@ export let dataEffects = {
     129: {
         img: "fragmenting_reality",
         eng: "Fragmenting Reality",
+        rus: "Фрагментация реальности",
         schema: 141,
         pol: "fragmentacja rzeczywistości",
         fre: "Réalité fragmentée",
@@ -1426,6 +1555,7 @@ export let dataEffects = {
     130: {
         img: "refragmenting_reality",
         eng: "Refragmenting Reality",
+        rus: "Перефрагментация реальности",
         schema: 142,
         pol: "refragmentacja rzeczywistości",
         fre: "Réalité réfragmentée",
@@ -1437,6 +1567,7 @@ export let dataEffects = {
     131: {
         img: "snowfalled",
         eng: "Snowfallen",
+        rus: "Падающий снег",
         schema: 143,
         pol: "spadający śnieg",
         fre: "Neige tombée",
@@ -1448,6 +1579,7 @@ export let dataEffects = {
     132: {
         img: "snowblinded",
         eng: "Snowblinded",
+        rus: "Слепящий снег",
         schema: 144,
         pol: "oślepiający śnieg",
         fre: "Aveuglé par la neige",
@@ -1459,6 +1591,7 @@ export let dataEffects = {
     133: {
         img: "pyroland_daydream",
         eng: "Pyroland Daydream",
+        rus: "Грёза Пироландии",
         schema: 145,
         pol: "pyrolandowy sen na jawie",
         fre: "Rêve de Pyroland",
@@ -1470,6 +1603,7 @@ export let dataEffects = {
     134: {
         img: "verdatica",
         eng: "Verdatica",
+        rus: "Виридиатика",
         schema: 147,
         pol: "werdatyka",
         fre: "Verdatica",
@@ -1481,6 +1615,7 @@ export let dataEffects = {
     135: {
         img: "aromatica",
         eng: "Aromatica",
+        rus: "Ароматика",
         schema: 148,
         pol: "aromatyka",
         fre: "Aromatica",
@@ -1492,6 +1627,7 @@ export let dataEffects = {
     136: {
         img: "chromatica",
         eng: "Chromatica",
+        rus: "Хроматика",
         schema: 149,
         pol: "chromatyka",
         fre: "Chromatica",
@@ -1503,6 +1639,7 @@ export let dataEffects = {
     137: {
         img: "prismatica",
         eng: "Prismatica",
+        rus: "Призматика",
         schema: 150,
         pol: "pryzmatyka",
         fre: "Prismatica",
@@ -1514,6 +1651,7 @@ export let dataEffects = {
     138: {
         img: "bee_swarm",
         eng: "Bee Swarm",
+        rus: "Рой пчёл",
         schema: 151,
         pol: "pszczeli rój",
         fre: "Essaim d'abeilles",
@@ -1525,6 +1663,7 @@ export let dataEffects = {
     139: {
         img: "frisky_fireflies",
         eng: "Frisky Fireflies",
+        rus: "Озорные светлячки",
         schema: 152,
         pol: "świetliste świetliki",
         fre: "Lucioles lumineuses",
@@ -1536,6 +1675,7 @@ export let dataEffects = {
     140: {
         img: "smoldering_spirits",
         eng: "Smoldering Spirits",
+        rus: "Тлеющие духи",
         schema: 153,
         pol: "zapalone zjawy",
         fre: "Esprits espiègles",
@@ -1547,6 +1687,7 @@ export let dataEffects = {
     141: {
         img: "wandering_wisps",
         eng: "Wandering Wisps",
+        rus: "Блуждающие огоньки",
         schema: 154,
         pol: "wędrujące ogniki",
         fre: "Fées fêtardes",
@@ -1558,6 +1699,7 @@ export let dataEffects = {
     142: {
         img: "kaleidoscope",
         eng: "Kaleidoscope",
+        rus: "Калейдоскоп",
         schema: 155,
         pol: "kalejdoskop",
         fre: "Kaléidoscope",
@@ -1569,6 +1711,7 @@ export let dataEffects = {
     143: {
         img: "green_giggler",
         eng: "Green Giggler",
+        rus: "Зелёные забавы",
         schema: 156,
         pol: "zielony zgrywus",
         fre: "Vert de peur",
@@ -1580,6 +1723,7 @@ export let dataEffects = {
     144: {
         img: "laugh_o_lantern",
         eng: "Laugh-O-Lantern",
+        rus: "Светильник смеха",
         schema: 157,
         pol: "śmiechobuzie",
         fre: "Rire citrouille",
@@ -1591,6 +1735,7 @@ export let dataEffects = {
     145: {
         img: "plum_prankster",
         eng: "Plum Prankster",
+        rus: "Пурпурный проказник",
         schema: 158,
         pol: "śliwkowy śmieszek",
         fre: "Raillerie violente",
@@ -1602,6 +1747,7 @@ export let dataEffects = {
     146: {
         img: "pyroland_nightmare",
         eng: "Pyroland Nightmare",
+        rus: "Кошмар Пироландии",
         schema: 159,
         pol: "koszmar z Pyrolandu",
         fre: "Cauchemar de Pyroland",
@@ -1613,6 +1759,7 @@ export let dataEffects = {
     147: {
         img: "gravelly_ghoul",
         eng: "Gravelly Ghoul",
+        rus: "Гравиевый гуль",
         schema: 160,
         pol: "żwirowy ghul",
         fre: "Goule pétrifiée",
@@ -1623,6 +1770,7 @@ export let dataEffects = {
     148: {
         img: "vexed_volcanics",
         eng: "Vexed Volcanics",
+        rus: "Взбешённый вулканит",
         schema: 161,
         pol: "wkurzający wulkanit",
         fre: "Goule volcanique",
@@ -1633,6 +1781,7 @@ export let dataEffects = {
     149: {
         img: "gourdian_angel",
         eng: "Gourdian Angel",
+        rus: "Тыква-хранитель",
         schema: 162,
         pol: "dynioł stróż",
         fre: "Citrouille flottante",
@@ -1644,6 +1793,7 @@ export let dataEffects = {
     150: {
         img: "pumpkin_party",
         eng: "Pumpkin Party",
+        rus: "Тыквенная тусовка",
         schema: 163,
         pol: "dyniowa domówka",
         fre: "Fête de la citrouille",
@@ -1655,6 +1805,7 @@ export let dataEffects = {
     151: {
         img: "blighted_snowstorm",
         eng: "Blighted Snowstorm",
+        rus: "Проклятый буран",
         schema: 170,
         pol: "zniweczona burza śnieżna",
         hun: "Elátkozott hóvihar",
@@ -1665,6 +1816,7 @@ export let dataEffects = {
     152: {
         img: "distant_dream",
         eng: "Distant Dream",
+        rus: "Далёкие дрёмы",
         schema: 168,
         pol: "odległy sen",
         bra: "Ilusão distante",
@@ -1675,6 +1827,7 @@ export let dataEffects = {
     153: {
         img: "divine_desire",
         eng: "Divine Desire",
+        rus: "Великое влечение",
         schema: 167,
         pol: "boskie pożądanie",
         bra: "Desejo divino",
@@ -1685,6 +1838,7 @@ export let dataEffects = {
     154: {
         img: "frozen_fractals",
         eng: "Frozen Fractals",
+        rus: "Синий снегопад",
         schema: 164,
         pol: "zamrożone fraktale",
         bra: "Fractais congelados",
@@ -1695,6 +1849,7 @@ export let dataEffects = {
     155: {
         img: "genus_plasmos",
         eng: "Genus Plasmos",
+        rus: "Генус Плазмос",
         schema: 172,
         pol: "genus plasmos",
         fre: "Origine de la création"
@@ -1702,6 +1857,7 @@ export let dataEffects = {
     156: {
         img: "lavender_landfall",
         eng: "Lavender Landfall",
+        rus: "Лавандовый ледопад",
         schema: 165,
         pol: "lawendowa lawina",
         bra: "Flocos de lavanda",
@@ -1712,6 +1868,7 @@ export let dataEffects = {
     157: {
         img: "mirthful_mistletoe",
         eng: "Mirthful Mistletoe",
+        rus: "Отрадная омела",
         schema: 175,
         pol: "radosna jemioła",
         hun: "Felvidító fagyöngy",
@@ -1722,6 +1879,7 @@ export let dataEffects = {
     158: {
         img: "pale_nimbus",
         eng: "Pale Nimbus",
+        rus: "Бледный ореол",
         schema: 171,
         pol: "blada chmura",
         hun: "Halvány dicsfény",
@@ -1731,6 +1889,7 @@ export let dataEffects = {
     159: {
         img: "serenus_lumen",
         eng: "Serenus Lumen",
+        rus: "Серенус Люмен",
         schema: 173,
         pol: "serenus lumen",
         bra: "Serenum lumen",
@@ -1739,6 +1898,7 @@ export let dataEffects = {
     160: {
         img: "special_snowfall",
         eng: "Special Snowfall",
+        rus: "Медовая метель",
         schema: 166,
         pol: "specjalny śnieg",
         bra: "Flocos especiais",
@@ -1749,6 +1909,7 @@ export let dataEffects = {
     161: {
         img: "ventum_maris",
         eng: "Ventum Maris",
+        rus: "Вентум Марис",
         schema: 174,
         pol: "ventum maris",
         bra: "Ventus maris",
@@ -1757,6 +1918,7 @@ export let dataEffects = {
     162: {
         img: "violent_wintertide",
         eng: "Violent Wintertide",
+        rus: "Суровая зима",
         schema: 169,
         pol: "gwałtowna fala zimy",
         hun: "Heves hófergeteg",
@@ -1767,6 +1929,7 @@ export let dataEffects = {
     163: {
         img: "resonation",
         eng: "Resonation",
+        rus: "Резонанс",
         schema: 177,
         pol: "rezonowanie",
         bra: "Ressonância",
@@ -1776,6 +1939,7 @@ export let dataEffects = {
     164: {
         img: "aggradation",
         eng: "Aggradation",
+        rus: "Аграданс",
         schema: 178,
         pol: "agradacja",
         bra: "Agradação",
@@ -1784,6 +1948,7 @@ export let dataEffects = {
     165: {
         img: "lucidation",
         eng: "Lucidation",
+        rus: "Яснонанс",
         schema: 179,
         pol: "naświetlenie",
         bra: "Elucidação",
@@ -1793,6 +1958,7 @@ export let dataEffects = {
     166: {
         img: "stunning",
         eng: "Stunning",
+        rus: "Оглушение",
         schema: 180,
         pol: "ogłuszenie",
         bra: "Estonteante",
@@ -1802,21 +1968,25 @@ export let dataEffects = {
     167: {
         img: "ardentum_saturnalis",
         eng: "Ardentum Saturnalis",
+        rus: "Пылкус Сатурналис",
         schema: 181
     },
     168: {
         img: "fragrancium_elementalis",
         eng: "Fragrancium Elementalis",
+        rus: "Благоухатус Элементалис",
         schema: 182
     },
     169: {
         img: "reverium_irregularis",
         eng: "Reverium Irregularis",
+        rus: "Вращатус Непостоянис",
         schema: 183
     },
     170: {
         img: "perennial_petals",
         eng: "Perennial Petals",
+        rus: "Вечное цветение",
         schema: 185,
         pol: "okwiaty",
         bra: "Pétalas perenes",
@@ -1826,6 +1996,7 @@ export let dataEffects = {
     171: {
         img: "flavorsome_sunset",
         eng: "Flavorsome Sunset",
+        rus: "Ароматный закат",
         schema: 186,
         pol: "bogaty zachód Słońca",
         bra: "Ocaso saboroso",
@@ -1835,6 +2006,7 @@ export let dataEffects = {
     172: {
         img: "raspberry_bloom",
         eng: "Raspberry Bloom",
+        rus: "Малиновый ореол",
         schema: 187,
         pol: "malinowy rozkwit",
         bra: "Explosão de framboesa",
@@ -1844,6 +2016,7 @@ export let dataEffects = {
     173: {
         img: "iridescence",
         eng: "Iridescence",
+        rus: "Переливчатость",
         schema: 188,
         pol: "iryzacja",
         bra: "Iridescência",
@@ -1852,6 +2025,7 @@ export let dataEffects = {
     174: {
         img: "tempered_thorns",
         eng: "Tempered Thorns",
+        rus: "Роковые рога",
         schema: 189,
         pol: "zahartowane ciernie",
         hun: "Szolid szarvak",
@@ -1862,6 +2036,7 @@ export let dataEffects = {
     175: {
         img: "devilish_diablo",
         eng: "Devilish Diablo",
+        rus: "Дьявольский демон",
         schema: 190,
         pol: "diabelski pomiot",
         bra: "Diabo diabólico",
@@ -1872,6 +2047,7 @@ export let dataEffects = {
     176: {
         img: "severed_serration",
         eng: "Severed Serration",
+        rus: "Отвратные отростки",
         schema: 191,
         pol: "wyostrzone zmysły",
         hun: "Heves hegyesség",
@@ -1882,6 +2058,7 @@ export let dataEffects = {
     177: {
         img: "shrieking_shades",
         eng: "Shrieking Shades",
+        rus: "Визжащие видения",
         schema: 192,
         pol: "wrzeszczące cienie",
         hun: "Sikoltó árnyak",
@@ -1892,6 +2069,7 @@ export let dataEffects = {
     178: {
         img: "restless_wraiths",
         eng: "Restless Wraiths",
+        rus: "Беспокойные духи",
         schema: 193,
         pol: "niespokojne upiory",
         hun: "Nyugtalan lidércek",
@@ -1902,6 +2080,7 @@ export let dataEffects = {
     179: {
         img: "infernal_wraith",
         eng: "Infernal Wraith",
+        rus: "Души из преисподней",
         schema: 195,
         pol: "piekielne upiory",
         hun: "Pokoli lidérc",
@@ -1912,6 +2091,7 @@ export let dataEffects = {
     180: {
         img: "phantom_crown",
         eng: "Phantom Crown",
+        rus: "Фантомный венец",
         schema: 196,
         pol: "widmowa korona",
         hun: "Fantomkorona",
@@ -1922,6 +2102,7 @@ export let dataEffects = {
     181: {
         img: "ancient_specter",
         eng: "Ancient Specter",
+        rus: "Древний дух",
         schema: 197,
         pol: "starożytne widmo",
         hun: "Ősi jelenés",
@@ -1932,6 +2113,7 @@ export let dataEffects = {
     182: {
         img: "viridescent_peeper",
         eng: "Viridescent Peeper",
+        rus: "Зеленоватый зодчий",
         schema: 198,
         pol: "zielonkawy podglądacz",
         hun: "Zöld kémlelő",
@@ -1942,6 +2124,7 @@ export let dataEffects = {
     183: {
         img: "eyes_of_molten",
         eng: "Eyes of Molten",
+        rus: "Огненный обзор",
         schema: 199,
         pol: "oczy stopionego",
         hun: "Izzó szemek",
@@ -1952,6 +2135,7 @@ export let dataEffects = {
     184: {
         img: "ominous_stare",
         eng: "Ominous Stare",
+        rus: "Грозные глаза",
         schema: 200,
         pol: "złowieszcze spojrzenie",
         hun: "Baljós tekintet",
@@ -1962,6 +2146,7 @@ export let dataEffects = {
     185: {
         img: "pumpkin_moon",
         eng: "Pumpkin Moon",
+        rus: "Тыквенная луна",
         schema: 201,
         pol: "dyniowy księżyc",
         hun: "Tökhold",
@@ -1972,6 +2157,7 @@ export let dataEffects = {
     186: {
         img: "frantic_spooker",
         eng: "Frantic Spooker",
+        rus: "Неистовый страшила",
         schema: 202,
         pol: "szalony straszak",
         hun: "Kétségbeesett kísértet",
@@ -1982,6 +2168,7 @@ export let dataEffects = {
     187: {
         img: "frightened_poltergeist",
         eng: "Frightened Poltergeist",
+        rus: "Пугливый полтергейст",
         schema: 203,
         pol: "przestraszony duch",
         bra: "Poltergeist pávido",
@@ -1992,6 +2179,7 @@ export let dataEffects = {
     188: {
         img: "energetic_haunter",
         eng: "Energetic Haunter",
+        rus: "Энергичный преследователь",
         schema: 204,
         pol: "energetyczna zjawa",
         hun: "Energikus kísértő",
@@ -2002,6 +2190,7 @@ export let dataEffects = {
     189: {
         img: "smissmas_tree",
         eng: "Smissmas Tree",
+        rus: "Шмождественская ёлка",
         schema: 205,
         pol: "śniąteczne drzewko",
         bra: "Árvore de Natal",
@@ -2011,6 +2200,7 @@ export let dataEffects = {
     190: {
         img: "hospitable_festivity",
         eng: "Hospitable Festivity",
+        rus: "Гостеприимное торжество",
         schema: 206,
         pol: "w gości na Święta",
         bra: "Festividade hospitaleira",
@@ -2020,6 +2210,7 @@ export let dataEffects = {
     191: {
         img: "condescending_embrace",
         eng: "Condescending Embrace",
+        rus: "Снисходительное объятие",
         schema: 207,
         pol: "wzgardliwe objęcie",
         hun: "Leereszkedő ölelés",
@@ -2029,6 +2220,7 @@ export let dataEffects = {
     192: {
         img: "sparkling_spruce",
         eng: "Sparkling Spruce",
+        rus: "Сверкающая сосна",
         schema: 209,
         pol: "iskrzący świerk",
         hun: "Sziporkázó luc",
@@ -2038,6 +2230,7 @@ export let dataEffects = {
     193: {
         img: "glittering_juniper",
         eng: "Glittering Juniper",
+        rus: "Блестящий можжевельник",
         schema: 210,
         pol: "lśniący jałowiec",
         hun: "Csillogó boróka",
@@ -2047,6 +2240,7 @@ export let dataEffects = {
     194: {
         img: "prismatic_pine",
         eng: "Prismatic Pine",
+        rus: "Призменная пихта",
         schema: 211,
         pol: "pryzmatyczna sosna",
         bra: "Pinheiro prismático",
@@ -2056,6 +2250,7 @@ export let dataEffects = {
     195: {
         img: "smissmas_swirl",
         eng: "Spiraling Lights",
+        rus: "Спиральная гирлянда",
         schema: 212,
         pol: "spiralne światełka",
         hun: "Forgó fények",
@@ -2066,6 +2261,7 @@ export let dataEffects = {
     196: {
         img: "twisting_lights",
         eng: "Twisting Lights",
+        rus: "Вьющаяся гирлянда",
         schema: 213,
         pol: "pokręcone światełka",
         hun: "Táncoló fények",
@@ -2075,6 +2271,7 @@ export let dataEffects = {
     197: {
         img: "stardust_pathway",
         eng: "Stardust Pathway",
+        rus: "Путеводная звезда",
         schema: 214,
         pol: "gwiezdna ścieżka",
         bra: "Estrada estrelada",
@@ -2084,6 +2281,7 @@ export let dataEffects = {
     198: {
         img: "flurry_rush",
         eng: "Flurry Rush",
+        rus: "Снежный взлёт",
         schema: 215,
         pol: "śnieżna gorączka",
         hun: "Pelyhes pukkanás",
@@ -2093,6 +2291,7 @@ export let dataEffects = {
     199: {
         img: "spark_of_smissmas",
         eng: "Spark of Smissmas",
+        rus: "Шмождественская искра",
         schema: 216,
         pol: "iskra Śniąt",
         bra: "Chama do Natal",
@@ -2102,6 +2301,7 @@ export let dataEffects = {
     200: {
         img: "polar_forecast",
         eng: "Polar Forecast",
+        rus: "Полярная погода",
         schema: 218,
         pol: "polarna prognoza",
         bra: "Previsão polar",
@@ -2111,6 +2311,7 @@ export let dataEffects = {
     201: {
         img: "shining_stag",
         eng: "Shining Stag",
+        rus: "Ослепительный олень",
         schema: 219,
         pol: "lśniący jeleń",
         hun: "Ragyogó rénszarvas",
@@ -2120,6 +2321,7 @@ export let dataEffects = {
     202: {
         img: "holiday_horns",
         eng: "Holiday Horns",
+        rus: "Развесёлые рога",
         schema: 220,
         pol: "świąteczne rogi",
         bra: "Galhada galharda",
@@ -2129,6 +2331,7 @@ export let dataEffects = {
     203: {
         img: "ardent_antlers",
         eng: "Ardent Antlers",
+        rus: "Роскошные рога",
         schema: 221,
         pol: "płomienne poroże",
         hun: "Lángagancsok",
@@ -2138,6 +2341,7 @@ export let dataEffects = {
     204: {
         img: "festive_lights",
         eng: "Festive Lights",
+        rus: "Праздничные лампочки",
         schema: 223,
         pol: "świąteczne światełka",
         bra: "Luzes festivas",
@@ -2147,6 +2351,7 @@ export let dataEffects = {
     205: {
         img: "crustacean_sensation",
         eng: "Crustacean Sensation",
+        rus: "Крабовые красавчики",
         schema: 224,
         pol: "sensacyjne skorupiaki",
         bra: "Sensação crustácea",
@@ -2157,6 +2362,7 @@ export let dataEffects = {
     206: {
         img: "frosted_decadence",
         eng: "Frosted Decadence",
+        rus: "Гламурная глазурь",
         schema: 226,
         pol: "mroźna dekadencja",
         bra: "Decadência glacê",
@@ -2166,6 +2372,7 @@ export let dataEffects = {
     207: {
         img: "sprinkled_delights",
         eng: "Sprinkled Delights",
+        rus: "Вкусный восторг",
         schema: 228,
         pol: "posypkowe przysmaki",
         bra: "Prazeres granulados",
@@ -2176,6 +2383,7 @@ export let dataEffects = {
     208: {
         img: "terrestrial_favor",
         eng: "Terrestrial Favor",
+        rus: "Земные заботы",
         schema: 229,
         pol: "ziemska życzliwość",
         bra: "Benevolência terrestre",
@@ -2185,6 +2393,7 @@ export let dataEffects = {
     209: {
         img: "tropical_thrill",
         eng: "Tropical Thrill",
+        rus: "Тропический трепет",
         schema: 230,
         pol: "tropikalny dreszcz",
         bra: "Agitação tropical",
@@ -2194,6 +2403,7 @@ export let dataEffects = {
     210: {
         img: "flourishing_passion",
         eng: "Flourishing Passion",
+        rus: "Цветастые страсти",
         schema: 231,
         pol: "kwitnąca pasja",
         bra: "Paixão florescente",
@@ -2203,6 +2413,7 @@ export let dataEffects = {
     211: {
         img: "dazzling_fireworks",
         eng: "Dazzling Fireworks",
+        rus: "Искристый фейерверк",
         schema: 232,
         pol: "olśniewające fajerwerki",
         bra: "Pirotecnia deslumbrante",
@@ -2213,6 +2424,7 @@ export let dataEffects = {
     212: {
         img: "blazing_fireworks",
         eng: "Blazing Fireworks",
+        rus: "Полыхающий фейерверк",
         schema: 233,
         pol: "ogniste fajerwerki",
         bra: "Pirotecnia ardente",
@@ -2223,6 +2435,7 @@ export let dataEffects = {
     213: {
         img: "shimmering_fireworks",
         eng: "Shimmering Fireworks",
+        rus: "Блистающий фейерверк",
         schema: 234,
         pol: "lśniące fajerwerki",
         bra: "Pirotecnia lustrosa",
@@ -2233,6 +2446,7 @@ export let dataEffects = {
     214: {
         img: "twinkling_fireworks",
         eng: "Twinkling Fireworks",
+        rus: "Мерцающий фейерверк",
         schema: 235,
         pol: "migoczące fajerwerki",
         bra: "Pirotecnia reluzente",
@@ -2243,6 +2457,7 @@ export let dataEffects = {
     215: {
         img: "sparkling_fireworks",
         eng: "Sparkling Fireworks",
+        rus: "Сверкающий фейерверк",
         schema: 236,
         pol: "iskrzące fajerwerki",
         bra: "Pirotecnia resplandecente",
@@ -2253,6 +2468,7 @@ export let dataEffects = {
     216: {
         img: "glowing_fireworks",
         eng: "Glowing Fireworks",
+        rus: "Сияющий фейерверк",
         schema: 237,
         pol: "jaskrawe fajerwerki",
         bra: "Pirotecnia luminosa",
@@ -2263,6 +2479,7 @@ export let dataEffects = {
     217: {
         img: "glimmering_fireworks",
         eng: "Glimmering Fireworks",
+        rus: "Переливчатый фейерверк",
         schema: 238,
         pol: "błyszczące fajerwerki",
         bra: "Pirotecnia cintilante",
@@ -2273,6 +2490,7 @@ export let dataEffects = {
     218: {
         img: "flying_lights",
         eng: "Flying Lights",
+        rus: "Небесные фонарики",
         schema: 239,
         pol: "latające latarnie",
         hun: "Repülő fények",
@@ -2282,6 +2500,7 @@ export let dataEffects = {
     219: {
         img: "limelight",
         eng: "Limelight",
+        rus: "Зелёные огоньки",
         schema: 241,
         pol: "limonkowe latarnie",
         bra: "Holofotes",
@@ -2291,6 +2510,7 @@ export let dataEffects = {
     220: {
         img: "shining_star",
         eng: "Shining Star",
+        rus: "Сияющие звёздочки",
         schema: 242,
         pol: "lśniąca gwiazda",
         bra: "Estrela cintilante",
@@ -2300,6 +2520,7 @@ export let dataEffects = {
     221: {
         img: "cold_cosmos",
         eng: "Cold Cosmos",
+        rus: "Вечерняя вселенная",
         schema: 243,
         pol: "zimny kosmos",
         hun: "Hideg kozmosz",
@@ -2309,6 +2530,7 @@ export let dataEffects = {
     222: {
         img: "refracting_fractals",
         eng: "Refracting Fractals",
+        rus: "Флуктуация фракталов",
         schema: 244,
         pol: "fraktalne załamanie",
         bra: "Fractais refratores",
@@ -2318,6 +2540,7 @@ export let dataEffects = {
     223: {
         img: "startrance",
         eng: "Startrance",
+        rus: "Звёздный час",
         schema: 245,
         pol: "gwiezdny trans",
         hun: "Csillagtransz",
@@ -2327,6 +2550,7 @@ export let dataEffects = {
     224: {
         img: "starlush",
         eng: "Starlush",
+        rus: "Звёздная болезнь",
         schema: 247,
         pol: "gwiezdny gaj",
         hun: "Csillagfény",
@@ -2336,6 +2560,7 @@ export let dataEffects = {
     225: {
         img: "stardust",
         eng: "Stardust",
+        rus: "Звёздная пыль",
         schema: 249,
         pol: "gwiezdny pył",
         hun: "Csillagpor",
@@ -2345,6 +2570,7 @@ export let dataEffects = {
     226: {
         img: "contagious_eruption",
         eng: "Contagious Eruption",
+        rus: "Вирусное извержение",
         schema: 250,
         pol: "zaraźliwa erupcja",
         hun: "Fertőző kitörés",
@@ -2354,6 +2580,7 @@ export let dataEffects = {
     227: {
         img: "daydream_eruption",
         eng: "Daydream Eruption",
+        rus: "Воображённое извержение",
         schema: 251,
         pol: "senna erupcja",
         hun: "Álmodozó kitörés",
@@ -2363,6 +2590,7 @@ export let dataEffects = {
     228: {
         img: "volcanic_eruption",
         eng: "Volcanic Eruption",
+        rus: "Вулканическое извержение",
         schema: 252,
         pol: "wulkaniczna erupcja",
         bra: "Erupção vulcânica",
@@ -2372,6 +2600,7 @@ export let dataEffects = {
     229: {
         img: "divine_sunlight",
         eng: "Divine Sunlight",
+        rus: "Божественный свет",
         schema: 253,
         pol: "boskie światło",
         bra: "Alvorada divina",
@@ -2382,6 +2611,7 @@ export let dataEffects = {
     230: {
         img: "audiophile",
         eng: "Audiophile",
+        rus: "Аудиофилия",
         schema: 254,
         pol: "audiofil",
         bra: "Audiófilo",
@@ -2391,6 +2621,7 @@ export let dataEffects = {
     231: {
         img: "soundwave",
         eng: "Soundwave",
+        rus: "Звукотерапия",
         schema: 255,
         pol: "fala dźwiękowa",
         bra: "Onda sonora",
@@ -2401,6 +2632,7 @@ export let dataEffects = {
     232: {
         img: "synesthesia",
         eng: "Synesthesia",
+        rus: "Синестезия",
         schema: 256,
         pol: "synestezja",
         bra: "Sinestesia",
@@ -2411,6 +2643,7 @@ export let dataEffects = {
     233: {
         img: "haunted_kraken",
         eng: "Haunted Kraken",
+        rus: "Проклятый Кракен",
         schema: 257,
         pol: "nawiedzony Kraken",
         bra: "Kraken assombrado",
@@ -2420,6 +2653,7 @@ export let dataEffects = {
     234: {
         img: "eerie_kraken",
         eng: "Eerie Kraken",
+        rus: "Жуткий Кракен",
         schema: 258,
         bra: "Kraken sombrio",
         fre: "Kraken sinistre",
@@ -2429,6 +2663,7 @@ export let dataEffects = {
     235: {
         img: "soulful_slice",
         eng: "Soulful Slice",
+        rus: "Проникновенный порез",
         schema: 259,
         bra: "Golpe gosmento",
         fre: "Une tranche d'âme",
@@ -2438,6 +2673,7 @@ export let dataEffects = {
     236: {
         img: "horsemanns_hack",
         eng: "Horsemann's Hack",
+        rus: "Возмездие всадника",
         schema: 260,
         bra: "Corte certeiro",
         fre: "Coup de hache du cavalier sans tête",
@@ -2447,6 +2683,7 @@ export let dataEffects = {
     237: {
         img: "haunted_forever",
         eng: "Haunted Forever!",
+        rus: "Вечное проклятие!",
         schema: 261,
         pol: "wieczyste nawiedzenie",
         bra: "Assombrado para sempre!",
@@ -2456,6 +2693,7 @@ export let dataEffects = {
     238: {
         img: "forever_and_forever",
         eng: "Forever And Forever!",
+        rus: "На веки вечные!",
         schema: 263,
         pol: "już zawsze, na zawsze",
         bra: "Para todo o sempre!",
@@ -2465,6 +2703,7 @@ export let dataEffects = {
     239: {
         img: "cursed_forever",
         eng: "Cursed Forever!",
+        rus: "Вечное заклятие!",
         schema: 264,
         pol: "permamentne przekleństwo",
         bra: "Amaldiçoado para sempre!",
@@ -2474,6 +2713,7 @@ export let dataEffects = {
     240: {
         img: "moth_plague",
         eng: "Moth Plague",
+        rus: "Нашествие мотыльков",
         schema: 265,
         pol: "plaga ciem",
         bra: "Praga de mariposas",
@@ -2483,6 +2723,7 @@ export let dataEffects = {
     241: {
         img: "malevolent_monoculi",
         eng: "Malevolent Monoculi",
+        rus: "Гадкие Глазастусы",
         schema: 266,
         bra: "Monoculi malevolentes",
         fre: "Œil maléfique",
@@ -2492,6 +2733,7 @@ export let dataEffects = {
     242: {
         img: "haunted_wick",
         eng: "Haunted Wick",
+        rus: "Проклятый фитиль",
         schema: 267,
         pol: "nawiedzony knot",
         bra: "Pavio assombrado",
@@ -2501,6 +2743,7 @@ export let dataEffects = {
     243: {
         img: "wicked_wick",
         eng: "Wicked Wick",
+        rus: "Одержимый фитиль",
         schema: 269,
         pol: "nikczemny knot",
         bra: "Pavio perverso",
@@ -2510,6 +2753,7 @@ export let dataEffects = {
     244: {
         img: "spectral_wick",
         eng: "Spectral Wick",
+        rus: "Призрачный фитиль",
         schema: 270,
         pol: "widmowy knot",
         bra: "Pavio espectral",
@@ -2519,6 +2763,7 @@ export let dataEffects = {
     245: {
         img: "musical_maelstrom",
         eng: "Musical Maelstrom",
+        rus: "Кружащая композиция",
         schema: 271,
         pol: "muzyczny mętlik",
         bra: "Turbilhão musical",
@@ -2528,6 +2773,7 @@ export let dataEffects = {
     246: {
         img: "verdant_virtuoso",
         eng: "Verdant Virtuoso",
+        rus: "Вечнозелёный виртуоз",
         schema: 272,
         pol: "zielony wirtuoz",
         bra: "Virtuoso verdejante",
@@ -2537,6 +2783,7 @@ export let dataEffects = {
     247: {
         img: "silver_serenade",
         eng: "Silver Serenade",
+        rus: "Серебряная серенада",
         schema: 273,
         pol: "srebrzysta serenada",
         bra: "Serenata prateada",
@@ -2546,6 +2793,7 @@ export let dataEffects = {
     248: {
         img: "cosmic_constellations",
         eng: "Cosmic Constellations",
+        rus: "Космические созвездия",
         schema: 274,
         pol: "kosmiczne konstelacje",
         bra: "Constelações cósmicas",
@@ -2555,6 +2803,7 @@ export let dataEffects = {
     249: {
         img: "dazzling_constellations",
         eng: "Dazzling Constellations",
+        rus: "Ослепительные созвездия",
         schema: 276,
         pol: "oślepiające konstelacje",
         bra: "Constelações deslumbrantes",
@@ -2564,6 +2813,7 @@ export let dataEffects = {
     250: {
         img: "tainted_frost",
         eng: "Tainted Frost",
+        rus: "Запятнанный мороз",
         schema: 277,
         pol: "skażona szadź",
         bra: "Geada manchada",
@@ -2573,6 +2823,7 @@ export let dataEffects = {
     251: {
         img: "starlight_haze",
         eng: "Starlight Haze",
+        rus: "Звёздный туман",
         schema: 278,
         pol: "gwiezdna mgławica",
         bra: "Neblina estelar",
@@ -2582,6 +2833,7 @@ export let dataEffects = {
     252: {
         img: "hard_carry",
         eng: "Hard Carry",
+        rus: "Тяжёлая ноша",
         schema: 279,
         pol: "tajna teczka",
         bra: "Carregador sonhador",
@@ -2591,6 +2843,7 @@ export let dataEffects = {
     253: {
         img: "jellyfish_field",
         eng: "Jellyfish Field",
+        rus: "Поле медуз",
         schema: 281,
         pol: "mielizna meduz",
         bra: "Campo de águas-vivas",
@@ -2600,6 +2853,7 @@ export let dataEffects = {
     254: {
         img: "jellyfish_hunter",
         eng: "Jellyfish Hunter",
+        rus: "Охотник на медуз",
         schema: 283,
         pol: "łowca meduz",
         bra: "Caçador de águas-vivas",
@@ -2609,6 +2863,7 @@ export let dataEffects = {
     255: {
         img: "jellyfish_jam",
         eng: "Jellyfish Jam",
+        rus: "Мелодия медуз",
         schema: 284,
         pol: "meduzi melanż",
         bra: "Dança das águas-vivas",
@@ -2618,6 +2873,7 @@ export let dataEffects = {
     256: {
         img: "global_clusters",
         eng: "Global Clusters",
+        rus: "Глобальные скопления",
         schema: 285,
         pol: "gromada globalna",
         bra: "Constelação",
@@ -2627,6 +2883,7 @@ export let dataEffects = {
     257: {
         img: "celestial_starburst",
         eng: "Celestial Starburst",
+        rus: "Небесные вспышки",
         schema: 286,
         pol: "wybuch na nieboskłonie",
         bra: "Explosão estelar",
@@ -2636,6 +2893,7 @@ export let dataEffects = {
     258: {
         img: "sylicone_succiduous",
         eng: "Sylicone Succiduous",
+        rus: "Кремниевый крен",
         schema: 287,
         pol: "spadający silikon",
         bra: "Silício cadente",
@@ -2645,6 +2903,7 @@ export let dataEffects = {
     259: {
         img: "sakura_smoke_bomb",
         eng: "Sakura Smoke Bomb",
+        rus: "Дымная сакура",
         schema: 288,
         pol: "wiśniowa bomba dymna",
         bra: "Bomba de cerejeira",
@@ -2654,6 +2913,7 @@ export let dataEffects = {
     260: {
         img: "treasure_trove",
         eng: "Treasure Trove",
+        rus: "Сыпучие сокровища",
         schema: 289,
         pol: "żyła złota",
         bra: "Baú do tesouro",
@@ -2663,6 +2923,7 @@ export let dataEffects = {
     261: {
         img: "bubble_breeze",
         eng: "Bubble Breeze",
+        rus: "Полёт пузырьков",
         schema: 290,
         pol: "bąbelkowa bryza",
         bra: "Borbulho de bolhas",
@@ -2672,6 +2933,7 @@ export let dataEffects = {
     262: {
         img: "fireflies",
         eng: "Fireflies",
+        rus: "Светлячки",
         schema: 291,
         pol: "świetliki",
         bra: "Vaga-lumes",
@@ -2681,6 +2943,7 @@ export let dataEffects = {
     263: {
         img: "mountain_halo",
         eng: "Mountain Halo",
+        rus: "Горный нимб",
         schema: 292,
         pol: "górska aureola",
         bra: "Mundo das nuvens",
@@ -2690,6 +2953,7 @@ export let dataEffects = {
     264: {
         img: "celestial_summit",
         eng: "Celestial Summit",
+        rus: "Небесный ореол",
         schema: 293,
         pol: "niebiański szczyt",
         bra: "Cume celestial",
@@ -2699,6 +2963,7 @@ export let dataEffects = {
     265: {
         img: "stellar_ascent",
         eng: "Stellar Ascent",
+        rus: "Звёздный восход",
         schema: 294,
         pol: "gwiezdna wzniosłość",
         bra: "Ascensão estelar",
@@ -2708,6 +2973,7 @@ export let dataEffects = {
     266: {
         img: "sapped",
         eng: "Sapped",
+        rus: "Жертва жучка",
         schema: 295,
         pol: "zasapowany",
         bra: "Sabotado",
@@ -2717,6 +2983,7 @@ export let dataEffects = {
     267: {
         img: "hellspawned_horns",
         eng: "Hellspawned Horns",
+        rus: "Адские рога",
         schema: 297,
         pol: "rogi z piekła rodem",
         bra: "Chifres diabólicos",
@@ -2726,6 +2993,7 @@ export let dataEffects = {
     268: {
         img: "demonic_impaler",
         eng: "Demonic Impaler",
+        rus: "Демонический бодатель",
         schema: 299,
         pol: "palownik z czeluści",
         bra: "Empaladores demoníacos",
@@ -2735,6 +3003,7 @@ export let dataEffects = {
     269: {
         img: "revenants_rack",
         eng: "Revenant's Rack",
+        rus: "Инфернальные наросты",
         schema: 300,
         pol: "piekielne poroże",
         bra: "Retaliação pontiaguda",
@@ -2744,6 +3013,7 @@ export let dataEffects = {
     270: {
         img: "sixth_sense",
         eng: "Sixth Sense",
+        rus: "Шестое чувство",
         schema: 301,
         pol: "szósty zmysł",
         bra: "Sexto sentido",
@@ -2753,6 +3023,7 @@ export let dataEffects = {
     271: {
         img: "amygdala",
         eng: "Amygdala",
+        rus: "Амигдала",
         schema: 303,
         pol: "ciało migdałowate",
         bra: "Amígdala",
@@ -2762,6 +3033,7 @@ export let dataEffects = {
     272: {
         img: "the_bone_zone",
         eng: "Bone Zone",
+        rus: "Черепокружение",
         schema: 304,
         pol: "strefa gnatów",
         bra: "Zona óssea",
@@ -2772,6 +3044,7 @@ export let dataEffects = {
     273: {
         img: "arachnes_web",
         eng: "Arachne's Web",
+        rus: "Паутина Арахны",
         schema: 305,
         pol: "pajęcza pajęczyna",
         bra: "Teia da tecelã",
@@ -2781,6 +3054,7 @@ export let dataEffects = {
     274: {
         img: "acidic_climate",
         eng: "Acidic Climate",
+        rus: "Кислотный климат",
         schema: 306,
         pol: "kwaśny deszcz",
         bra: "Tempestade ácida",
@@ -2790,6 +3064,7 @@ export let dataEffects = {
     275: {
         img: "otherworldly_weather",
         eng: "Otherworldly Weather",
+        rus: "Потусторонняя погода",
         schema: 307,
         pol: "pogoda pozaświata",
         bra: "Tempestade cósmica",
@@ -2799,6 +3074,7 @@ export let dataEffects = {
     276: {
         img: "nightmarish_storm",
         eng: "Nightmarish Storm",
+        rus: "Ураган ужасов",
         schema: 308,
         pol: "koszmarna burza",
         bra: "Tempestade sinistra",
@@ -2808,6 +3084,7 @@ export let dataEffects = {
     277: {
         img: "icestruck",
         eng: "Icestruck",
+        rus: "Ледяная стрела",
         schema: 309,
         pol: "lodowate uderzenie",
         bra: "Flechada gelada",
@@ -2818,6 +3095,7 @@ export let dataEffects = {
     278: {
         img: "goldstruck",
         eng: "Goldstruck",
+        rus: "Золотая стрела",
         schema: 311,
         pol: "złote uderzenie",
         bra: "Flechada dourada",
@@ -2828,6 +3106,7 @@ export let dataEffects = {
     279: {
         img: "radiant_rivalry",
         eng: "Radiant Rivalry",
+        rus: "Сияющий соперник",
         schema: 312,
         pol: "rozpromieniona rywalizacja",
         bra: "Rivalidade radiante",
@@ -2838,6 +3117,7 @@ export let dataEffects = {
     280: {
         img: "radiant_legacy",
         eng: "Radiant Legacy",
+        rus: "Блистательное наследие",
         schema: 314,
         pol: "rozpromieniona sukcesja",
         bra: "Legado luminoso",
@@ -2848,6 +3128,7 @@ export let dataEffects = {
     281: {
         img: "frosty_flavours",
         eng: "Frosty Flavours",
+        rus: "Позёмочная присыпка",
         schema: 315,
         pol: "mroźne posmaki",
         bra: "Cérebro congelado",
@@ -2858,6 +3139,7 @@ export let dataEffects = {
     282: {
         img: "mint_frost",
         eng: "Mint Frost",
+        rus: "Мятный мороз",
         schema: 317,
         pol: "mroźna mięta",
         bra: "Geada de menta",
@@ -2868,6 +3150,7 @@ export let dataEffects = {
     283: {
         img: "north_star",
         eng: "North Star",
+        rus: "Полярная звезда",
         schema: 318,
         pol: "Gwiazda Polarna",
         bra: "Estrela Polar",
@@ -2878,6 +3161,7 @@ export let dataEffects = {
     284: {
         img: "prettiest_star",
         eng: "Prettiest Star",
+        rus: "Прекраснейшая звезда",
         schema: 320,
         pol: "najładniejsza gwiazda",
         bra: "Estrela bela",
@@ -2888,6 +3172,7 @@ export let dataEffects = {
     285: {
         img: "festive_falling_star",
         eng: "Festive Falling Star",
+        rus: "Праздничный звездопад",
         schema: 321,
         pol: "świąteczna opadająca gwiazda",
         bra: "Estrela-cadente festiva",
@@ -2898,6 +3183,7 @@ export let dataEffects = {
     286: {
         img: "lunar_lights",
         eng: "Lunar Lights",
+        rus: "Лунные огни",
         schema: 322,
         pol: "księżycowe światełka",
         bra: "Faíscas lunares",
@@ -2908,6 +3194,7 @@ export let dataEffects = {
     287: {
         img: "fairly_lights",
         eng: "Fairy Lights",
+        rus: "Сказочные огни",
         schema: 324,
         pol: "wróżkowe światełka",
         bra: "Faíscas fantásticas",
@@ -2918,6 +3205,7 @@ export let dataEffects = {
     288: {
         img: "natural_lights",
         eng: "Natural Lights",
+        rus: "Лесные огни",
         schema: 325,
         pol: "naturalne światełka",
         bra: "Faíscas naturais",
@@ -2928,91 +3216,242 @@ export let dataEffects = {
     289: {
         img: "loyalists_coronet",
         eng: "Loyalist's Coronet",
+        rus: "Коронет лоялиста",
         schema: 327
     },
     290: {
         img: "knights_prideful_spirit",
         eng: "Knight's Prideful Spirit",
+        rus: "Гордый дух рыцаря",
         schema: 329
     },
     291: {
         img: "barons_cherished_chaplet",
         eng: "Baron's Cherished Chaplet",
+        rus: "Заветный венок барона",
         schema: 330
     },
     292: {
         img: "lure_of_the_deep",
         eng: "Lure of the Deep",
+        rus: "Приманка глубин",
         schema: 331
     },
     293: {
         img: "violent_viridian",
         eng: "Violent Viridian",
+        rus: "Изумрудный изувер",
         schema: 333
     },
     294: {
         img: "magenta_monstrum",
         eng: "Magenta Monstrum",
+        rus: "Пурпурный палач",
         schema: 334
     },
     295: {
         img: "rainbow_reverie",
         eng: "Rainbow Reverie",
+        rus: "Радужная радость",
         schema: 335
     },
     296: {
         img: "cuban_smoke",
         eng: "Cuban Smoke",
+        rus: "Кубинский дымок",
         schema: 336
     },
     297: {
         img: "melting_mohawk",
         eng: "Melting Mohawk",
+        rus: "Испепеляющий ирокез",
         schema: 337
     },
     298: {
         img: "scorched_scalp",
         eng: "Scorched Scalp",
+        rus: "Жгучий череп",
         schema: 339
     },
     299: {
         img: "ignited_crest",
         eng: "Ignited Crest",
+        rus: "Тлеющее темя",
         schema: 340
     },
     300: {
         img: "rare_shine",
         eng: "Rare Shine",
+        rus: "Редкое сияние",
         schema: 341
     },
     301: {
         img: "distant_drift",
         eng: "Distant Drift",
+        rus: "Дальний дрейф",
         schema: 342
     },
     302: {
         img: "warp_drive",
         eng: "Warp Drive",
+        rus: "Варп-двигатель",
         schema: 344
     },
     303: {
         img: "overdrive",
         eng: "Overdrive",
+        rus: "Овердрайв",
         schema: 345
     },
     304: {
         img: "butterfly_season",
         eng: "Butterfly Season",
+        rus: "Сезон бабочек",
         schema: 346
     },
     305: {
         img: "psycho_delic",
         eng: "Psycho-delic",
+        rus: "Психо-делия",
         schema: 348
     },
     306: {
         img: "bewitching_bugs",
         eng: "Bewitching Bugs",
+        rus: "Обаятельные бабочки",
         schema: 349
-    }
+    },
+
+    307: { // hw2024 misc unusual effects
+        img: "",
+        eng: "Spectral Fire",
+        rus: "Спектральный огонь",
+        schema: 350
+    },
+    308: {
+        img: "",
+        eng: "Galactic Flame",
+        rus: "Галактическое пламя",
+        schema: 351
+    },
+    309: {
+        img: "",
+        eng: "Revived Recharge",
+        rus: "Реанимирующий разряд",
+        schema: 352
+    },
+    310: {
+        img: "",
+        eng: "Frankencharged",
+        rus: "Франкеншторм",
+        schema: 353
+    },
+    311: {
+        img: "",
+        eng: "Undead Electricity",
+        rus: "Энергия нежити",
+        schema: 354
+    },
+    312: {
+        img: "",
+        eng: "Phantom Plague",
+        rus: "Трупный туман",
+        schema: 355
+    },
+    313: {
+        img: "",
+        eng: "Haunting Haze",
+        rus: "Проклятая пелена",
+        schema: 356
+    },
+    314: {
+        img: "",
+        eng: "Vicious Vampires",
+        rus: "Мыши-мучители",
+        schema: 357
+    },
+    315: {
+        img: "",
+        eng: "Ravenous Ravens",
+        rus: "Вороватые вороны",
+        schema: 358
+    },
+    316: {
+        img: "",
+        eng: "Delightful Doves",
+        rus: "Грациозные голуби",
+        schema: 359
+    },
+    317: {
+        img: "",
+        eng: "Searing Stove",
+        rus: "Пылающая плита",
+        schema: 360
+    },
+    318: {
+        img: "",
+        eng: "Über Blaze",
+        rus: "Убер-запал",
+        schema: 361
+    },
+    319: { // hw2024 taunst unusual effects
+        img: "",
+        eng: "Power Pressure",
+        rus: "Скопление силы",
+        schema: 362
+    },
+    320: {
+        img: "",
+        eng: "Obnoxious Confetti",
+        rus: "Надоедливое конфетти",
+        schema: 363
+    },
+    321: {
+        img: "",
+        eng: "Lovable Confetti",
+        rus: "Симпатичное конфетти",
+        schema: 364
+    },
+    322: {
+        img: "",
+        eng: "Confetti Celebration",
+        rus: "Торжественное конфетти",
+        schema: 366
+    },
+    323: {
+        img: "",
+        eng: "Magnifying Momentum",
+        rus: "Нагнетание напряжения",
+        schema: 367
+    },
+    324: {
+        img: "",
+        eng: "Charging Catalyst",
+        rus: "Захватывающая зарядка",
+        schema: 368
+    },
+    325: {
+        img: "",
+        eng: "Heavy Rain",
+        rus: "Ливень",
+        schema: 369
+    },
+    326: {
+        img: "",
+        eng: "Amplifying Aura",
+        rus: "Аккумулирующая аура",
+        schema: 370
+    },
+    327: {
+        img: "",
+        eng: "Pumpkin Patch",
+        rus: "Тыквенная грядка",
+        schema: 371
+    },
+    328: {
+        img: "",
+        eng: "Mystic Fusion",
+        rus: "Мистическое слияние",
+        schema: 372
+    },
 }
