@@ -42,6 +42,7 @@ function parseOutput(input) {
         .replaceAll(`"hun":`, `hun:`)
         .replaceAll(`"rom":`, `rom:`)
         .replaceAll(`"swe":`, `swe:`)
+        .replaceAll(`"rus":`, `rus:`)
         .replaceAll(`"schema":`, `schema:`)
         .replaceAll(`"schema2":`, `schema2:`);
 }
