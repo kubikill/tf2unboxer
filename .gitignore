@@ -21,3 +21,6 @@ bin-release/
 node_modules
 dist
 .parcel-cache
+
+# Contents of vdf folder
+vdf/

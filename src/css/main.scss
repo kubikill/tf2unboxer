@@ -1,8 +1,9 @@
+@use "sass:meta";
 * {
     box-sizing: border-box;
 }
 
-@import "_icons";
+@include meta.load-css("_icons");
 
 #loadingscreen.loaded {
     display: none !important;

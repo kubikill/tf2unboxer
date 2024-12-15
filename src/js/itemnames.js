@@ -323,7 +323,7 @@ export let dataItems = {
         bra: "Sua Eterna Recompensa",
         schema: 225,
         hun: "Örökké Tartó Jutalmad",
-        swe: "Din Eviga Belöning"
+        swe: "Evighetsbelöningen"
     },
     28: {
         img: "whoopee_cap",
@@ -3414,7 +3414,7 @@ export let dataItems = {
     286: {
         img: "business_casual",
         eng: "Business Casual",
-        rus: "Повседневно-деловой",
+        rus: "Деловой стиляга",
         pol: "Luźny biznes",
         sch: "商务休闲衫",
         fre: "Le Businessman Détendu",
@@ -3821,7 +3821,7 @@ export let dataItems = {
     320: {
         img: "original",
         eng: "The Original",
-        rus: "Прародитель",
+        rus: "Оригинальная окраска",
         pol: "Oryginalna",
         sch: "原版",
         fre: "Originel",
@@ -4121,7 +4121,7 @@ export let dataItems = {
     345: {
         img: "festive_holy_mackerel",
         eng: "The Festive Holy Mackerel",
-        rus: "Праздничный Поддай леща",
+        rus: "Поддай праздничного леща",
         pol: "Świąteczna Święta makrela",
         sch: "节日圣灵鲭鱼",
         fre: "Maquereau Sacré festif",
@@ -5662,7 +5662,7 @@ export let dataItems = {
     474: {
         img: "borscht_belt",
         eng: "Borscht Belt",
-        rus: "Борщевый пояс",
+        rus: "Пояс по борщу",
         pol: "Czerwony pas",
         sch: "罗宋腰带",
         fre: "Gros plein de bortch",
@@ -5774,7 +5774,7 @@ export let dataItems = {
         pol: "Wypieszczony Pyro",
         sch: "骄奢火焰兵头巾",
         fre: "Le Pyro Pomponné",
-        bra: "O Pyro Privilegiado",
+        bra: "Pyro com Privilégios",
         schema: 30139,
         hun: "A Kicicomázott Piró",
         swe: "Bortskämda Pyro"
@@ -5875,7 +5875,7 @@ export let dataItems = {
     492: {
         img: "tartan_spartan",
         eng: "Tartan Spartan",
-        rus: "Шотландский спартанец",
+        rus: "Нас мало, но мы в килтах",
         pol: "Demolka w kratę",
         sch: "炸弹专家",
         fre: "Spartiate Écossais",
@@ -7475,7 +7475,7 @@ export let dataItems = {
     626: {
         img: "second_opinion",
         eng: "Second Opinion",
-        rus: "Второе мнение",
+        rus: "Другое мнение",
         pol: "Druga opinia",
         sch: "第二选择",
         fre: "Second diagnostic",
@@ -9296,7 +9296,7 @@ export let dataItems = {
     778: {
         img: "paisley_pro",
         eng: "Paisley Pro",
-        rus: "Турецкий огурчик",
+        rus: "Турецкий огурчик",
         pol: "Paislejowe polo",
         sch: "佩斯利花边衬衫",
         fre: "Le Paisley du pro",
@@ -9918,7 +9918,7 @@ export let dataItems = {
     830: {
         img: "classic",
         eng: "Classic",
-        rus: "Классическая",
+        rus: "Классический",
         pol: "Klasycznie",
         sch: "经典",
         fre: "Classique",
@@ -10862,7 +10862,7 @@ export let dataItems = {
     908: {
         img: "screamin_eagle",
         eng: "Screamin' Eagle",
-        rus: "Кричащий орел",
+        rus: "Клекочущий орёл",
         pol: "As przestworzy",
         sch: "呼啸雄鹰",
         fre: "Piqué du faucon",
@@ -11154,7 +11154,7 @@ export let dataItems = {
         rus: "Маска мошенника",
         pol: "Maska szarlatana",
         sch: "行骗者的面具",
-        fre: "Masque de Charlatant",
+        fre: "Masque de Charlatan",
         bra: "Símbolo do Saltimbanco",
         schema: 30573,
         hun: "Mountebank Maszkja",
@@ -11668,7 +11668,7 @@ export let dataItems = {
     975: {
         img: "dalokohs_bar",
         eng: "The Dalokohs Bar",
-        rus: "Плитка «Далокош»",
+        rus: "Плитка \"Далокош\"",
         pol: "Tabliczka Ladyczeko",
         sch: "达勒克斯巧克力块",
         fre: "La Barre de Dalokohs",
@@ -14110,7 +14110,7 @@ export let dataItems = {
     1176: {
         img: "upgrade",
         eng: "The Upgrade",
-        rus: "Прогресс",
+        rus: "Улучшение",
         pol: "Ulepszenie",
         sch: "升级",
         fre: "Amélioration",
@@ -14734,10 +14734,10 @@ export let dataItems = {
     1228: {
         img: "mannana_peeled_war_paint",
         eng: "Mannana Peeled War Paint",
-        rus: "Боевая краска \"Маннановая кожура\"",
-        pol: "Obrany banan | Barwy wojenne",
+        rus: "\"Маннановая кожура\" Боевая краска",
+        pol: "Obrany banan Barwy wojenne",
         sch: "曼恩香蕉 战绘",
-        fre: "Mannanas | Peinture de guerre",
+        fre: "Mannanas Peinture de guerre",
         bra: "| Mannana Descascada | Tinta de Guerra",
         schema: 16302,
         hun: "Hámozott Mannános Harci festés",
@@ -14747,10 +14747,10 @@ export let dataItems = {
     1229: {
         img: "leopard_printed_war_paint",
         eng: "Leopard Printed War Paint",
-        rus: "Боевая краска \"Леопардовая шкура\"",
-        pol: "Panterka | Barwy wojenne",
+        rus: "\"Леопардовая шкура\" Боевая краска",
+        pol: "Panterka Barwy wojenne",
         sch: "斑点豹纹 战绘",
-        fre: "Léopard | Peinture de guerre",
+        fre: "Léopard Peinture de guerre",
         bra: "| Pele de Leopardo | Tinta de Guerra",
         schema: 16310,
         hun: "Leopárdmintás Harci festés",
@@ -14760,10 +14760,10 @@ export let dataItems = {
     1230: {
         img: "tiger_buffed_war_paint",
         eng: "Tiger Buffed War Paint",
-        rus: "Боевая краска \"Тигровый окрас\"",
-        pol: "Tygrysi pazur | Barwy wojenne",
+        rus: "\"Тигровый окрас\" Боевая краска",
+        pol: "Tygrysi pazur Barwy wojenne",
         sch: "老虎条纹 战绘",
-        fre: "Tigre | Peinture de guerre",
+        fre: "Tigre Peinture de guerre",
         bra: "| Pele de Tigre | Tinta de Guerra",
         schema: 16307,
         hun: "Tigriscsíkozott Harci festés",
@@ -14773,10 +14773,10 @@ export let dataItems = {
     1231: {
         img: "bamboo_brushed_war_paint",
         eng: "Bamboo Brushed War Paint",
-        rus: "Боевая краска \"Бамбуковые мазки\"",
-        pol: "Bambusowe krycie | Barwy wojenne",
+        rus: "\"Бамбуковые мазки\" Боевая краска",
+        pol: "Bambusowe krycie Barwy wojenne",
         sch: "势如破竹 战绘",
-        fre: "Bambou | Peinture de guerre",
+        fre: "Bambou Peinture de guerre",
         bra: "| Pintura de Bambu | Tinta de Guerra",
         schema: 16306,
         hun: "Bambusszal Borított Harci festés",
@@ -14786,10 +14786,10 @@ export let dataItems = {
     1232: {
         img: "anodized_aloha_war_paint",
         eng: "Anodized Aloha War Paint",
-        rus: "Боевая краска \"Алоха в закате\"",
-        pol: "Anodowane aloha | Barwy wojenne",
+        rus: "\"Алоха в закате\" Боевая краска",
+        pol: "Anodowane aloha Barwy wojenne",
         sch: "椰林风光 战绘",
-        fre: "Aloha | Peinture de guerre",
+        fre: "Aloha Peinture de guerre",
         bra: "| Aloha-dização | Tinta de Guerra",
         schema: 16305,
         hun: "Alohásan Eloxált Harci festés",
@@ -14799,10 +14799,10 @@ export let dataItems = {
     1233: {
         img: "pina_polished_war_paint",
         eng: "Piña Polished War Paint",
-        rus: "Боевая краска \"Изысканный ананас\"",
-        pol: "Piña colada | Barwy wojenne",
+        rus: "\"Изысканный ананас\" Боевая краска",
+        pol: "Piña colada Barwy wojenne",
         sch: "菠萝图案 战绘",
-        fre: "Piña | Peinture de guerre",
+        fre: "Piña Peinture de guerre",
         bra: "| Aroma de Abacaxi | Tinta de Guerra",
         schema: 16309,
         hun: "Ananászos Harci festés",
@@ -14812,10 +14812,10 @@ export let dataItems = {
     1234: {
         img: "croc_dusted_war_paint",
         eng: "Croc Dusted War Paint",
-        rus: "Боевая краска \"Крокодилий оттенок\"",
-        pol: "Siła krokodyla | Barwy wojenne",
+        rus: "\"Крокодилий оттенок\" Боевая краска",
+        pol: "Siła krokodyla Barwy wojenne",
         sch: "鳄鱼池塘 战绘",
-        fre: "Croco | Peinture de guerre",
+        fre: "Croco Peinture de guerre",
         bra: "| Crocodilos Cromados | Tinta de Guerra",
         schema: 16308,
         hun: "Krokodilos Harci festés",
@@ -14825,10 +14825,10 @@ export let dataItems = {
     1235: {
         img: "macaw_masked_war_paint",
         eng: "Macaw Masked War Paint",
-        rus: "Боевая краска \"Маска макао\"",
-        pol: "Papuzi kamuflaż | Barwy wojenne",
+        rus: "\"Маска макао\" Боевая краска",
+        pol: "Papuzi kamuflaż Barwy wojenne",
         sch: "金刚鹦鹉 战绘",
-        fre: "Ara macao | Peinture de guerre",
+        fre: "Ara macao Peinture de guerre",
         bra: "| Disfarce de Arara | Tinta de Guerra",
         schema: 16303,
         hun: "Papagájborítású Harci festés",
@@ -14838,10 +14838,10 @@ export let dataItems = {
     1236: {
         img: "yeti_coated_war_paint",
         eng: "Yeti Coated War Paint",
-        rus: "Боевая краска \"Меховой йети\"",
-        pol: "Skóra z yeti | Barwy wojenne",
+        rus: "\"Меховой йети\" Боевая краска",
+        pol: "Skóra z yeti Barwy wojenne",
         sch: "雪人之眼 战绘",
-        fre: "Yéti | Peinture de guerre",
+        fre: "Yéti Peinture de guerre",
         bra: "| Revestimento Abominável | Tinta de Guerra",
         schema: 16300,
         hun: "Jetiborítású Harci festés",
@@ -14851,10 +14851,10 @@ export let dataItems = {
     1237: {
         img: "sax_waxed_war_paint",
         eng: "Sax Waxed War Paint",
-        rus: "Боевая краска \"Лощёный Сакстон\"",
-        pol: "Złoty mat | Barwy wojenne",
+        rus: "\"Лощёный Сакстон\" Боевая краска",
+        pol: "Złoty mat Barwy wojenne",
         sch: "萨克斯顿 战绘",
-        fre: "Saxton | Peinture de guerre",
+        fre: "Saxton Peinture de guerre",
         bra: "| Saxton à Cera | Tinta de Guerra",
         schema: 16304,
         hun: "Saxin Sima Harci festés",
@@ -14864,10 +14864,10 @@ export let dataItems = {
     1238: {
         img: "park_pigmented_war_paint",
         eng: "Park Pigmented War Paint",
-        rus: "Боевая краска \"Пигмент парка\" ",
-        pol: "Nastrój parku | Barwy wojenne",
+        rus: "\"Пигмент парка\" Боевая краска",
+        pol: "Nastrój parku Barwy wojenne",
         sch: "公园海报 战绘",
-        fre: "Yeti Park | Peinture de guerre",
+        fre: "Yeti Park Peinture de guerre",
         bra: "| Passeio no Parque | Tinta de Guerra",
         schema: 16301,
         hun: "Parkstílusú Harci festés",
@@ -14877,10 +14877,10 @@ export let dataItems = {
     1239: {
         img: "bloom_buffed_war_paint",
         eng: "Bloom Buffed War Paint",
-        rus: "Боевая краска \"Цветочный глянец\"",
-        pol: "Kwiecisty rozkwit | Barwy wojenne",
+        rus: "\"Цветочный глянец\" Боевая краска",
+        pol: "Kwiecisty rozkwit Barwy wojenne",
         sch: "鲜花盛开 战绘",
-        fre: "Floraison | Peinture de guerre",
+        fre: "Floraison Peinture de guerre",
         bra: "| Forro Florido | Tinta de Guerra",
         schema: 17200,
         hun: "Virágba Borult Harci festés",
@@ -14890,10 +14890,10 @@ export let dataItems = {
     1240: {
         img: "cardboard_boxed_war_paint",
         eng: "Cardboard Boxed War Paint",
-        rus: "Боевая краска \"Картонная коробка\"",
-        pol: "Kartonowe opakowanie | Barwy wojenne",
+        rus: "\"Картонная коробка\" Боевая краска",
+        pol: "Kartonowe opakowanie Barwy wojenne",
         sch: "纸盒包裹 战绘",
-        fre: "Emboité | Peinture de guerre",
+        fre: "Emboité Peinture de guerre",
         bra: "| Papelão | Tinta de Guerra",
         schema: 17211,
         hun: "Kartondobozolt Harci festés",
@@ -14903,10 +14903,10 @@ export let dataItems = {
     1241: {
         img: "star_crossed_war_paint",
         eng: "Star Crossed War Paint",
-        rus: "Боевая краска \"Звёздная обёртка\"",
-        pol: "Gwiezdna podróż | Barwy wojenne",
+        rus: "\"Звёздная обёртка\" Боевая краска",
+        pol: "Gwiezdna podróż Barwy wojenne",
         sch: "璀璨星空 战绘",
-        fre: "Stellaire | Peinture de guerre",
+        fre: "Stellaire Peinture de guerre",
         bra: "| Estrelado | Tinta de Guerra",
         schema: 17208,
         hun: "Rossz Csillagzatú Harci festés",
@@ -14916,10 +14916,10 @@ export let dataItems = {
     1242: {
         img: "merc_stained_war_paint",
         eng: "Merc Stained War Paint",
-        rus: "Боевая краска \"Символы наёмника\"",
-        pol: "Symbol najemnika | Barwy wojenne",
+        rus: "\"Символы наёмника\" Боевая краска",
+        pol: "Symbol najemnika Barwy wojenne",
         sch: "佣兵之印 战绘",
-        fre: "Mercenaire | Peinture de guerre",
+        fre: "Mercenaire Peinture de guerre",
         bra: "| Mercenário Cúbico | Tinta de Guerra",
         schema: 17203,
         hun: "Zsoldfoltos Harci festés",
@@ -14929,10 +14929,10 @@ export let dataItems = {
     1243: {
         img: "quack_canvassed_war_paint",
         eng: "Quack Canvassed War Paint",
-        rus: "Боевая краска \"Крякнутый узор\"",
-        pol: "Kwacze opowieści | Barwy wojenne",
+        rus: "\"Крякнутый узор\" Боевая краска",
+        pol: "Kwacze opowieści Barwy wojenne",
         sch: "致命之鸭 战绘",
-        fre: "Coincoin | Peinture de guerre",
+        fre: "Coincoin Peinture de guerre",
         bra: "| Patos Estam-patos | Tinta de Guerra",
         schema: 17201,
         hun: "Kacsákkal Tarkított Harci festés",
@@ -14942,10 +14942,10 @@ export let dataItems = {
     1244: {
         img: "clover_camod_war_paint",
         eng: "Clover Camo'd War Paint",
-        rus: "Боевая краска \"Клеверный камуфляж\"",
-        pol: "Irlandzkie szczęście | Barwy wojenne",
+        rus: "\"Клеверный камуфляж\" Боевая краска",
+        pol: "Irlandzkie szczęście Barwy wojenne",
         sch: "四叶草纹 战绘",
-        fre: "Porte-bonheur | Peinture de guerre",
+        fre: "Porte-bonheur Peinture de guerre",
         bra: "| Camuflagem de Trevos | Tinta de Guerra",
         schema: 17209,
         hun: "Lóherékkel Álcázott Harci festés",
@@ -14955,10 +14955,10 @@ export let dataItems = {
     1245: {
         img: "pizza_polished_war_paint",
         eng: "Pizza Polished War Paint",
-        rus: "Боевая краска \"Полированная пицца\"",
-        pol: "Palce lizać | Barwy wojenne",
+        rus: "\"Полированная пицца\" Боевая краска",
+        pol: "Palce lizać Barwy wojenne",
         sch: "食欲大振 战绘",
-        fre: "Pizza | Peinture de guerre",
+        fre: "Pizza Peinture de guerre",
         bra: "| Polimento de Pizza | Tinta de Guerra",
         schema: 17206,
         hun: "Pizzával Polírozott Harci festés",
@@ -14968,10 +14968,10 @@ export let dataItems = {
     1246: {
         img: "kill_covered_war_paint",
         eng: "Kill Covered War Paint",
-        rus: "Боевая краска \"Посмертные засечки\"",
-        pol: "Zabójstwo potwierdzone | Barwy wojenne",
+        rus: "\"Посмертные засечки\" Боевая краска",
+        pol: "Zabójstwo potwierdzone Barwy wojenne",
         sch: "杀戮刻痕 战绘",
-        fre: "Dénombrement | Peinture de guerre",
+        fre: "Dénombrement Peinture de guerre",
         bra: "| Contando Vítimas | Tinta de Guerra",
         schema: 17204,
         hun: "Gyilokrovott Harci festés",
@@ -14981,10 +14981,10 @@ export let dataItems = {
     1247: {
         img: "bank_rolled_war_paint",
         eng: "Bank Rolled War Paint",
-        rus: "Боевая краска \"Крупный номинал\"",
-        pol: "Na bogato | Barwy wojenne",
+        rus: "\"Крупный номинал\" Боевая краска",
+        pol: "Na bogato Barwy wojenne",
         sch: "为所欲为 战绘",
-        fre: "Billets de banque | Peinture de guerre",
+        fre: "Billets de banque Peinture de guerre",
         bra: "| Cobertura de Cédulas | Tinta de Guerra",
         schema: 17202,
         hun: "Pénzelt Harci festés",
@@ -14994,10 +14994,10 @@ export let dataItems = {
     1248: {
         img: "bonk_varnished_war_paint",
         eng: "Bonk Varnished War Paint",
-        rus: "Боевая краска \"Газированное покрытие\"",
-        pol: "Bonkowo | Barwy wojenne",
+        rus: "\"Газированное покрытие\" Боевая краска",
+        pol: "Bonkowo Barwy wojenne",
         sch: "辐射超标 战绘",
-        fre: "Bonk | Peinture de guerre",
+        fre: "Bonk Peinture de guerre",
         bra: "| Verniz Bonk | Tinta de Guerra",
         schema: 17207,
         hun: "Poffra Fényezett Harci festés",
@@ -15007,10 +15007,10 @@ export let dataItems = {
     1249: {
         img: "dream_piped_war_paint",
         eng: "Dream Piped War Paint",
-        rus: "Боевая краска \"Нежные мечты\"",
-        pol: "Słodziaśne sny | Barwy wojenne",
+        rus: "\"Нежные мечты\" Боевая краска",
+        pol: "Słodziaśne sny Barwy wojenne",
         sch: "幻境之物 战绘",
-        fre: "Rose bonbon | Peinture de guerre",
+        fre: "Rose bonbon Peinture de guerre",
         bra: "| Animais Fofinhos | Tinta de Guerra",
         schema: 17212,
         hun: "Vágyálmodott Harci festés",
@@ -15020,10 +15020,10 @@ export let dataItems = {
     1250: {
         img: "freedom_wrapped_war_paint",
         eng: "Freedom Wrapped War Paint",
-        rus: "Боевая краска \"Обёртка свободы\"",
-        pol: "Waleczna wolność | Barwy wojenne",
+        rus: "\"Обёртка свободы\" Боевая краска",
+        pol: "Waleczna wolność Barwy wojenne",
         sch: "星条花纹 战绘",
-        fre: "Libertaire | Peinture de guerre",
+        fre: "Libertaire Peinture de guerre",
         bra: "| Padrão Patriota | Tinta de Guerra",
         schema: 17210,
         hun: "Szabadságba Csomagolt Harci festés",
@@ -15033,10 +15033,10 @@ export let dataItems = {
     1251: {
         img: "fire_glazed_war_paint",
         eng: "Fire Glazed War Paint",
-        rus: "Боевая краска \"Языки пламени\"",
-        pol: "Glazurowany ogień | Barwy wojenne",
+        rus: "\"Языки пламени\" Боевая краска",
+        pol: "Glazurowany ogień Barwy wojenne",
         sch: "烈焰之纹 战绘",
-        fre: "Brasier | Peinture de guerre",
+        fre: "Brasier Peinture de guerre",
         bra: "| Chama Esmaltada | Tinta de Guerra",
         schema: 17205,
         hun: "Tűznyalta Harci festés",
@@ -15046,10 +15046,10 @@ export let dataItems = {
     1252: {
         img: "civic_duty_mk_ii_war_paint",
         eng: "Civic Duty Mk.II War Paint",
-        rus: "Боевая краска \"Гражданский долг, вер. 2.0\"",
-        pol: "Obywatelski obowiązek wz. II | Barwy wojenne",
+        rus: "\"Гражданский долг, вер. 2.0\" Боевая краска",
+        pol: "Obywatelski obowiązek wz. II Barwy wojenne",
         sch: "公民义务 Mk.II 战绘",
-        fre: "Devoir civique Mk.II | Peinture de guerre",
+        fre: "Devoir civique Mk.II Peinture de guerre",
         bra: "| Dever Civil Mk.II | Tinta de Guerra",
         schema: 16144,
         hun: "Állampolgári Kötelesség, II. széria Harci festés",
@@ -15059,10 +15059,10 @@ export let dataItems = {
     1253: {
         img: "civil_servant_mk_ii_war_paint",
         eng: "Civil Servant Mk.II War Paint",
-        rus: "Боевая краска \"Гражданский врач, вер. 2.0\"",
-        pol: "Służba cywilna wz. II | Barwy wojenne",
+        rus: "\"Гражданский врач, вер. 2.0\" Боевая краска",
+        pol: "Służba cywilna wz. II Barwy wojenne",
         sch: "公仆 Mk.II 战绘",
-        fre: "Fonctionnaire Mk.II | Peinture de guerre",
+        fre: "Fonctionnaire Mk.II Peinture de guerre",
         bra: "| Servidor Público Mk.II | Tinta de Guerra",
         schema: 16139,
         hun: "Köztisztviselő, II. széria Harci festés",
@@ -15072,10 +15072,10 @@ export let dataItems = {
     1254: {
         img: "autumn_mk_ii_war_paint",
         eng: "Autumn Mk.II War Paint",
-        rus: "Боевая краска \"Осень, вер. 2.0\"",
-        pol: "Jesień wz. II | Barwy wojenne",
+        rus: "\"Осень, вер. 2.0\" Боевая краска",
+        pol: "Jesień wz. II Barwy wojenne",
         sch: "秋日 Mk.II 战绘",
-        fre: "Automne Mk.II | Peinture de guerre",
+        fre: "Automne Mk.II Peinture de guerre",
         bra: "| Outono Mk.II | Tinta de Guerra",
         schema: 16160,
         hun: "Őszi, II. széria Harci festés",
@@ -15085,10 +15085,10 @@ export let dataItems = {
     1255: {
         img: "plaid_potshotter_mk_ii_war_paint",
         eng: "Plaid Potshotter Mk.II War Paint",
-        rus: "Боевая краска \"Плед в клеточку, вер. 2.0\"",
-        pol: "Strzelec w kratę wz. II | Barwy wojenne",
+        rus: "\"Плед в клеточку, вер. 2.0\" Боевая краска",
+        pol: "Strzelec w kratę wz. II Barwy wojenne",
         sch: "格纹猛击者 Mk.II 战绘",
-        fre: "Tir à carreau Mk.II | Peinture de guerre",
+        fre: "Tir à carreau Mk.II Peinture de guerre",
         bra: "| Saia Mk.II | Tinta de Guerra",
         schema: 16122,
         hun: "Kockás Kocalövész, II. széria Harci festés",
@@ -15098,10 +15098,10 @@ export let dataItems = {
     1256: {
         img: "night_owl_mk_ii_war_paint",
         eng: "Night Owl Mk.II War Paint",
-        rus: "Боевая краска \"Ночной гуляка, вер. 2.0\"",
-        pol: "Nocna sowa wz. II | Barwy wojenne",
+        rus: "\"Ночной гуляка, вер. 2.0\" Боевая краска",
+        pol: "Nocna sowa wz. II Barwy wojenne",
         sch: "夜枭 Mk.II 战绘",
-        fre: "Oiseau de nuit Mk.II | Peinture de guerre",
+        fre: "Oiseau de nuit Mk.II Peinture de guerre",
         bra: "| Coruja da Noite Mk.II | Tinta de Guerra",
         schema: 16114,
         hun: "Éjjeli Bagoly, II. széria Harci festés",
@@ -15111,10 +15111,10 @@ export let dataItems = {
     1257: {
         img: "woodsy_widowmaker_mk_ii_war_paint",
         eng: "Woodsy Widowmaker Mk.II War Paint",
-        rus: "Боевая краска \"Лесной овдовитель, вер. 2.0\"",
-        pol: "Lesisty owdawiacz wz. II | Barwy wojenne",
+        rus: "\"Лесной овдовитель, вер. 2.0\" Боевая краска",
+        pol: "Lesisty owdawiacz wz. II Barwy wojenne",
         sch: "绝后之木 Mk.II 战绘",
-        fre: "Endeuilleur boisé Mk.II | Peinture de guerre",
+        fre: "Endeuilleur boisé Mk.II Peinture de guerre",
         bra: "| Viuvadora Verdejante Mk.II | Tinta de Guerra",
         schema: 16113,
         hun: "Erdei Özvegycsináló, II. széria Harci festés",
@@ -15124,10 +15124,10 @@ export let dataItems = {
     1258: {
         img: "forest_fire_mk_ii_war_paint",
         eng: "Forest Fire Mk.II War Paint",
-        rus: "Боевая краска \"Лесной пожар, вер. 2.0\"",
-        pol: "Leśny ogień wz. II | Barwy wojenne",
+        rus: "\"Лесной пожар, вер. 2.0\" Боевая краска",
+        pol: "Leśny ogień wz. II Barwy wojenne",
         sch: "森林之火 Mk.II 战绘",
-        fre: "Feu de forêt Mk.II | Peinture de guerre",
+        fre: "Feu de forêt Mk.II Peinture de guerre",
         bra: "| Fogo na Floresta Mk.II | Tinta de Guerra",
         schema: 16109,
         hun: "Erdőtűz, II. széria Harci festés",
@@ -15137,10 +15137,10 @@ export let dataItems = {
     1259: {
         img: "woodland_warrior_mk_ii_war_paint",
         eng: "Woodland Warrior Mk.II War Paint",
-        rus: "Боевая краска \"Лесной воитель, вер. 2.0\"",
-        pol: "Leśny wojownik wz. II | Barwy wojenne",
+        rus: "\"Лесной воитель, вер. 2.0\" Боевая краска",
+        pol: "Leśny wojownik wz. II Barwy wojenne",
         sch: "林地战士 Mk.II 战绘",
-        fre: "Va-t-en-guerre des bois Mk.II | Peinture de guerre",
+        fre: "Va-t-en-guerre des bois Mk.II Peinture de guerre",
         bra: "| Matador do Matagal Mk.II | Tinta de Guerra",
         schema: 16106,
         hun: "Erdei Harcos, II. széria Harci festés",
@@ -15150,10 +15150,10 @@ export let dataItems = {
     1260: {
         img: "carpet_bomber_mk_ii_war_paint",
         eng: "Carpet Bomber Mk.II War Paint",
-        rus: "Боевая краска \"Ковровый бомбардировщик, вер. 2.0\"",
-        pol: "Nalot dywanowy wz. II | Barwy wojenne",
+        rus: "\"Ковровый бомбардировщик, вер. 2.0\" Боевая краска",
+        pol: "Nalot dywanowy wz. II Barwy wojenne",
         sch: "地毯式轰炸 Mk.II 战绘",
-        fre: "Bombardier tapissé Mk.II | Peinture de guerre",
+        fre: "Bombardier tapissé Mk.II Peinture de guerre",
         bra: "| Arrasa Quarteirão Mk.II | Tinta de Guerra",
         schema: 16104,
         hun: "Szőnyegbombázó, II. széria Harci festés",
@@ -15163,10 +15163,10 @@ export let dataItems = {
     1261: {
         img: "wrapped_reviver_mk_ii_war_paint",
         eng: "Wrapped Reviver Mk.II War Paint",
-        rus: "Боевая краска \"Обмотанный оживитель, вер. 2.0\"",
-        pol: "Spakowany ożywiciel wz. II | Barwy wojenne",
+        rus: "\"Обмотанный оживитель, вер. 2.0\" Боевая краска",
+        pol: "Spakowany ożywiciel wz. II Barwy wojenne",
         sch: "迷彩救援者 Mk.II 战绘",
-        fre: "Résurrection emballée Mk.II | Peinture de guerre",
+        fre: "Résurrection emballée Mk.II Peinture de guerre",
         bra: "| Revivedor Embrulhado Mk.II | Tinta de Guerra",
         schema: 16102,
         hun: "Becsomagolt Felélesztő, II. széria Harci festés",
@@ -15176,10 +15176,10 @@ export let dataItems = {
     1262: {
         img: "nutcracker_mk_ii_war_paint",
         eng: "Nutcracker Mk.II War Paint",
-        rus: "Боевая краска \"Щелкунчик, вер. 2.0\"",
-        pol: "Dziadek do orzechów wz. II | Barwy wojenne",
+        rus: "\"Щелкунчик, вер. 2.0\" Боевая краска",
+        pol: "Dziadek do orzechów wz. II Barwy wojenne",
         sch: "胡桃夹子 Mk.II 战绘",
-        fre: "Casse-noix Mk.II | Peinture de guerre",
+        fre: "Casse-noix Mk.II Peinture de guerre",
         bra: "| Quebra-Nozes Mk.II | Tinta de Guerra",
         schema: 16161,
         hun: "Diótörő, II. széria Harci festés",
@@ -15189,10 +15189,10 @@ export let dataItems = {
     1263: {
         img: "smalltown_bringdown_mk_ii_war_paint",
         eng: "Smalltown Bringdown Mk.II War Paint",
-        rus: "Боевая краска \"Провинциальный разрушитель, вер. 2.0\"",
-        pol: "Miasteczkowy łomot wz. II | Barwy wojenne",
+        rus: "\"Провинциальный разрушитель, вер. 2.0\" Боевая краска",
+        pol: "Miasteczkowy łomot wz. II Barwy wojenne",
         sch: "夷平小镇 Mk.II 战绘",
-        fre: "Casse-village Mk.II | Peinture de guerre",
+        fre: "Casse-village Mk.II Peinture de guerre",
         bra: "| Vilão do Vilarejo Mk.II | Tinta de Guerra",
         schema: 16143,
         hun: "Kisvárosi Kedélyrontó, II. széria Harci festés",
@@ -15202,10 +15202,10 @@ export let dataItems = {
     1264: {
         img: "macabre_web_mk_ii_war_paint",
         eng: "Macabre Web Mk.II War Paint",
-        rus: "Боевая краска \"Паутина, вер. 2.0\"",
-        pol: "Makabryczna sieć wz. II | Barwy wojenne",
+        rus: "\"Паутина, вер. 2.0\" Боевая краска",
+        pol: "Makabryczna sieć wz. II Barwy wojenne",
         sch: "亡者之网 Mk.II 战绘",
-        fre: "Toiles macabres Mk.II | Peinture de guerre",
+        fre: "Toiles macabres Mk.II Peinture de guerre",
         bra: "| Teia Macabra Mk.II | Tinta de Guerra",
         schema: 16163,
         hun: "Kísértethálós, II. széria Harci festés",
@@ -15215,10 +15215,10 @@ export let dataItems = {
     1265: {
         img: "iron_wood_mk_ii_war_paint",
         eng: "Iron Wood Mk.II War Paint",
-        rus: "Боевая краска \"Железное дерево, вер. 2.0\"",
-        pol: "Drzewo żelazne wz. II | Barwy wojenne",
+        rus: "\"Железное дерево, вер. 2.0\" Боевая краска",
+        pol: "Drzewo żelazne wz. II Barwy wojenne",
         sch: "铁木 Mk.II 战绘",
-        fre: "Bois métallique Mk.II | Peinture de guerre",
+        fre: "Bois métallique Mk.II Peinture de guerre",
         bra: "| Madeira de Ferro Mk.II | Tinta de Guerra",
         schema: 16120,
         hun: "Vasfa, II. széria Harci festés",
@@ -15228,10 +15228,10 @@ export let dataItems = {
     1266: {
         img: "backwoods_boomstick_mk_ii_war_paint",
         eng: "Backwoods Boomstick Mk.II War Paint",
-        rus: "Боевая краска \"Камуфляжный огнестрел, вер. 2.0\"",
-        pol: "Grzmiący kij z puszczy wz. II | Barwy wojenne",
+        rus: "\"Камуфляжный огнестрел, вер. 2.0\" Боевая краска",
+        pol: "Grzmiący kij z puszczy wz. II Barwy wojenne",
         sch: "荒野神兵 Mk.II 战绘",
-        fre: "Fusil de derrière les fagots Mk.II | Peinture de guerre",
+        fre: "Fusil de derrière les fagots Mk.II Peinture de guerre",
         bra: "| Sertão Mk.II | Tinta de Guerra",
         schema: 16112,
         hun: "Susnyás-sörétes, II. széria Harci festés",
@@ -15241,10 +15241,10 @@ export let dataItems = {
     1267: {
         img: "masked_mender_mk_ii_war_paint",
         eng: "Masked Mender Mk.II War Paint",
-        rus: "Боевая краска \"Военный врач, вер. 2.0\"",
-        pol: "Zakamuflowany uzdrowiciel wz. II | Barwy wojenne",
+        rus: "\"Военный врач, вер. 2.0\" Боевая краска",
+        pol: "Zakamuflowany uzdrowiciel wz. II Barwy wojenne",
         sch: "蒙面者 Mk.II 战绘",
-        fre: "Dépannage masqué Mk.II | Peinture de guerre",
+        fre: "Dépannage masqué Mk.II Peinture de guerre",
         bra: "| Medicamento Mascarado Mk.II | Tinta de Guerra",
         schema: 16105,
         hun: "Maszkos Befoltozó, II. széria Harci festés",
@@ -15254,10 +15254,10 @@ export let dataItems = {
     1268: {
         img: "dead_reckoner_mk_ii_war_paint",
         eng: "Dead Reckoner Mk.II War Paint",
-        rus: "Боевая краска \"Счислитель пути, вер. 2.0\"",
-        pol: "Trupi zwiad wz. II | Barwy wojenne",
+        rus: "\"Счислитель пути, вер. 2.0\" Боевая краска",
+        pol: "Trupi zwiad wz. II Barwy wojenne",
         sch: "死亡判官 Mk.II 战绘",
-        fre: "Cible de la mort Mk.II | Peinture de guerre",
+        fre: "Cible de la mort Mk.II Peinture de guerre",
         bra: "| Cadáver Calculista Mk.II | Tinta de Guerra",
         schema: 16151,
         hun: "Halálos Leszámoló, II. széria Harci festés",
@@ -15267,10 +15267,10 @@ export let dataItems = {
     1269: {
         img: "bovine_blazemaker_mk_ii_war_paint",
         eng: "Bovine Blazemaker Mk.II War Paint",
-        rus: "Боевая краска \"Бычий пламемёт, вер. 2.0\"",
-        pol: "Bawoli podpalacz wz. II | Barwy wojenne",
+        rus: "\"Бычий пламемёт, вер. 2.0\" Боевая краска",
+        pol: "Bawoli podpalacz wz. II Barwy wojenne",
         sch: "奶牛花纹 Mk.II 战绘",
-        fre: "Bovin Mk.II | Peinture de guerre",
+        fre: "Bovin Mk.II Peinture de guerre",
         bra: "| Bovino na Brasa Mk.II | Tinta de Guerra",
         schema: 16130,
         hun: "Tüzes Tehén, II. széria Harci festés",
@@ -15520,10 +15520,10 @@ export let dataItems = {
     1290: {
         img: "geometrical_teams_war_paint",
         eng: "Geometrical Teams War Paint",
-        rus: "Боевая краска \"Геометрия команд\"",
-        pol: "Geometria | Barwy wojenne",
+        rus: "\"Геометрия команд\" Боевая краска",
+        pol: "Geometria Barwy wojenne",
         sch: "几何图案 战绘",
-        fre: "Géométrie | Peinture de guerre",
+        fre: "Géométrie Peinture de guerre",
         bra: "| Formas Geométricas | Tinta de Guerra",
         schema: 17215,
         hun: "Geometriai csapatok Harci festés",
@@ -15533,10 +15533,10 @@ export let dataItems = {
     1291: {
         img: "bomber_soul_war_paint",
         eng: "Bomber Soul War Paint",
-        rus: "Боевая краска \"Душа истребителя\"",
-        pol: "Dusza bombardiera | Barwy wojenne",
+        rus: "\"Душа истребителя\" Боевая краска",
+        pol: "Dusza bombardiera Barwy wojenne",
         sch: "高空轰炸 战绘",
-        fre: "Militaire | Peinture de guerre",
+        fre: "Militaire Peinture de guerre",
         bra: "| Alma do Bombardeiro | Tinta de Guerra",
         schema: 17217,
         hun: "Bombázó lélek Harci festés",
@@ -15546,10 +15546,10 @@ export let dataItems = {
     1292: {
         img: "polar_surprise_war_paint",
         eng: "Polar Surprise War Paint",
-        rus: "Боевая краска \"Полярный сюрприз\"",
-        pol: "Polarna niespodzianka | Barwy wojenne",
+        rus: "\"Полярный сюрприз\" Боевая краска",
+        pol: "Polarna niespodzianka Barwy wojenne",
         sch: "圣诞萌物 战绘",
-        fre: "Ours polaire | Peinture de guerre",
+        fre: "Ours polaire Peinture de guerre",
         bra: "| Surpresa Polar | Tinta de Guerra",
         schema: 17221,
         hun: "Sarkvidéki meglepetés Harci festés",
@@ -15559,10 +15559,10 @@ export let dataItems = {
     1293: {
         img: "cabin_fevered_war_paint",
         eng: "Cabin Fevered War Paint",
-        rus: "Боевая краска \"Клаустрофобия\"",
-        pol: "Lśnienie | Barwy wojenne",
+        rus: "\"Клаустрофобия\" Боевая краска",
+        pol: "Lśnienie Barwy wojenne",
         sch: "幽闭恐惧 战绘",
-        fre: "Hexagone | Peinture de guerre",
+        fre: "Hexagone Peinture de guerre",
         bra: "| Claustrofobia | Tinta de Guerra",
         schema: 17220,
         hun: "Bezártság Harci festés",
@@ -15572,10 +15572,10 @@ export let dataItems = {
     1294: {
         img: "alien_tech_war_paint",
         eng: "Alien Tech War Paint",
-        rus: "Боевая краска \"Внеземные технологии\"",
-        pol: "Technologia obcych | Barwy wojenne",
+        rus: "\"Внеземные технологии\" Боевая краска",
+        pol: "Technologia obcych Barwy wojenne",
         sch: "外星科技 战绘",
-        fre: "Extraterrestre | Peinture de guerre",
+        fre: "Extraterrestre Peinture de guerre",
         bra: "| Tecnologia Alienígena | Tinta de Guerra",
         schema: 17232,
         hun: "Földönkívüli technológia Harci festés",
@@ -15585,10 +15585,10 @@ export let dataItems = {
     1295: {
         img: "dovetailed_war_paint",
         eng: "Dovetailed War Paint",
-        rus: "Боевая краска \"Голубятня\"",
-        pol: "Gołębie serce | Barwy wojenne",
+        rus: "\"Голубятня\" Боевая краска",
+        pol: "Gołębie serce Barwy wojenne",
         sch: "阿基米德 战绘",
-        fre: "Plumes d'Archimède | Peinture de guerre",
+        fre: "Plumes d'Archimède Peinture de guerre",
         bra: "| Pombos | Tinta de Guerra",
         schema: 17224,
         hun: "Fecskefarkas Harci festés",
@@ -15598,10 +15598,10 @@ export let dataItems = {
     1296: {
         img: "damascus_and_mahogany_war_paint",
         eng: "Damascus & Mahogany War Paint",
-        rus: "Боевая краска \"Сталь и дерево\"",
-        pol: "Stal damasceńska i mahoń | Barwy wojenne",
+        rus: "\"Сталь и дерево\" Боевая краска",
+        pol: "Stal damasceńska i mahoń Barwy wojenne",
         sch: "大马士革 战绘",
-        fre: "Damascus et Mahogany | Peinture de guerre",
+        fre: "Damascus et Mahogany Peinture de guerre",
         bra: "| Damasco e Mogno | Tinta de Guerra",
         schema: 17234,
         hun: "Damaszkusz és mahagóni Harci festés",
@@ -15611,10 +15611,10 @@ export let dataItems = {
     1297: {
         img: "hazard_warning_war_paint",
         eng: "Hazard Warning War Paint",
-        rus: "Боевая краска \"Угроза жизни\"",
-        pol: "Zagrożenie środowiskowe | Barwy wojenne",
+        rus: "\"Угроза жизни\" Боевая краска",
+        pol: "Zagrożenie środowiskowe Barwy wojenne",
         sch: "危险警告 战绘",
-        fre: "Danger | Peinture de guerre",
+        fre: "Danger Peinture de guerre",
         bra: "| Aviso de Perigo | Tinta de Guerra",
         schema: 17226,
         hun: "Veszélyjelzés Harci festés",
@@ -15624,10 +15624,10 @@ export let dataItems = {
     1298: {
         img: "neo_tokyo_war_paint",
         eng: "Neo Tokyo War Paint",
-        rus: "Боевая краска \"Нео-Токио\"",
-        pol: "Neo Tokio | Barwy wojenne",
+        rus: "\"Нео-Токио\" Боевая краска",
+        pol: "Neo Tokio Barwy wojenne",
         sch: "新东京都 战绘",
-        fre: "Neo Tokyo | Peinture de guerre",
+        fre: "Neo Tokyo Peinture de guerre",
         bra: "| Neo Tokyo | Tinta de Guerra",
         schema: 17214,
         hun: "Neo Tokyo Harci festés",
@@ -15637,10 +15637,10 @@ export let dataItems = {
     1299: {
         img: "uranium_war_paint",
         eng: "Uranium War Paint",
-        rus: "Боевая краска \"Уран\"",
-        pol: "Uran | Barwy wojenne",
+        rus: "\"Уран\" Боевая краска",
+        pol: "Uran Barwy wojenne",
         sch: "核子动力 战绘",
-        fre: "Uranium | Peinture de guerre",
+        fre: "Uranium Peinture de guerre",
         bra: "| Urânio | Tinta de Guerra",
         schema: 17218,
         hun: "Urán Harci festés",
@@ -15650,10 +15650,10 @@ export let dataItems = {
     1300: {
         img: "hana_war_paint",
         eng: "Hana War Paint",
-        rus: "Боевая краска \"Цветение\"",
-        pol: "Hana | Barwy wojenne",
+        rus: "\"Цветение\" Боевая краска",
+        pol: "Hana Barwy wojenne",
         sch: "寒梅盛开 战绘",
-        fre: "Hana | Peinture de guerre",
+        fre: "Hana Peinture de guerre",
         bra: "| Hana | Tinta de Guerra",
         schema: 17223,
         hun: "Hana Harci festés",
@@ -15663,10 +15663,10 @@ export let dataItems = {
     1301: {
         img: "cosmic_calamity_war_paint",
         eng: "Cosmic Calamity War Paint",
-        rus: "Боевая краска \"Космоугроза\"",
-        pol: "Kosmiczna katastrofa | Barwy wojenne",
+        rus: "\"Космоугроза\" Боевая краска",
+        pol: "Kosmiczna katastrofa Barwy wojenne",
         sch: "宇宙灾难 战绘",
-        fre: "Cosmos | Peinture de guerre",
+        fre: "Cosmos Peinture de guerre",
         bra: "| Calamidade Cósmica | Tinta de Guerra",
         schema: 17225,
         hun: "Kozmikus felfordulás Harci festés",
@@ -15676,10 +15676,10 @@ export let dataItems = {
     1302: {
         img: "mosaic_war_paint",
         eng: "Mosaic War Paint",
-        rus: "Боевая краска \"Мозаика\"",
-        pol: "Mozaika | Barwy wojenne",
+        rus: "\"Мозаика\" Боевая краска",
+        pol: "Mozaika Barwy wojenne",
         sch: "古典工艺 战绘",
-        fre: "Mosaïque | Peinture de guerre",
+        fre: "Mosaïque Peinture de guerre",
         bra: "| Mosaico | Tinta de Guerra",
         schema: 17228,
         hun: "Mozaik Harci festés",
@@ -15689,10 +15689,10 @@ export let dataItems = {
     1303: {
         img: "jazzy_war_paint",
         eng: "Jazzy War Paint",
-        rus: "Боевая краска \"Джаз\"",
-        pol: "Bajer | Barwy wojenne",
+        rus: "\"Джаз\" Боевая краска",
+        pol: "Bajer Barwy wojenne",
         sch: "变幻之色 战绘",
-        fre: "Jazzy | Peinture de guerre",
+        fre: "Jazzy Peinture de guerre",
         bra: "| Jazz | Tinta de Guerra",
         schema: 17230,
         hun: "Dzsesszes Harci festés",
@@ -15702,10 +15702,10 @@ export let dataItems = {
     1304: {
         img: "miami_element_war_paint",
         eng: "Miami Element War Paint",
-        rus: "Боевая краска \"Элемент Майами\"",
-        pol: "Klimat Miami | Barwy wojenne",
+        rus: "\"Элемент Майами\" Боевая краска",
+        pol: "Klimat Miami Barwy wojenne",
         sch: "五彩像素 战绘",
-        fre: "Miami | Peinture de guerre",
+        fre: "Miami Peinture de guerre",
         bra: "| Elemento Miami | Tinta de Guerra",
         schema: 17213,
         hun: "A Miami-tényező Harci festés",
@@ -16177,10 +16177,10 @@ export let dataItems = {
     1344: {
         img: "haunted_ghosts_war_paint",
         eng: "Haunted Ghosts War Paint",
-        rus: "Боевая краска \"Призрачные призраки\"",
-        pol: "Nawiedzone duchy | Barwy wojenne",
+        rus: "\"Призрачные призраки\" Боевая краска",
+        pol: "Nawiedzone duchy Barwy wojenne",
         sch: "恐怖鬼魂 战绘",
-        fre: "Vert de peur | Peinture de guerre",
+        fre: "Vert de peur Peinture de guerre",
         bra: "| Fantasmas Assombrados | Tinta de Guerra",
         schema: 17236,
         hun: "Kísérteties szellemek Harci festés",
@@ -16190,10 +16190,10 @@ export let dataItems = {
     1345: {
         img: "totally_boned_war_paint",
         eng: "Totally Boned War Paint",
-        rus: "Боевая краска \"Костяшки\"",
-        pol: "Całkowite skostnienie | Barwy wojenne",
+        rus: "\"Костяшки\" Боевая краска",
+        pol: "Całkowite skostnienie Barwy wojenne",
         sch: "白骨累累 战绘",
-        fre: "Paquet d'os | Peinture de guerre",
+        fre: "Paquet d'os Peinture de guerre",
         bra: "| Puro Osso | Tinta de Guerra",
         schema: 17240,
         hun: "Kicsontozva Harci festés",
@@ -16203,10 +16203,10 @@ export let dataItems = {
     1346: {
         img: "horror_holiday_war_paint",
         eng: "Horror Holiday War Paint",
-        rus: "Боевая краска \"Праздник ужасов\"",
-        pol: "Straszne święta | Barwy wojenne",
+        rus: "\"Праздник ужасов\" Боевая краска",
+        pol: "Straszne święta Barwy wojenne",
         sch: "恐怖假日 战绘",
-        fre: "Vacances mortelles | Peinture de guerre",
+        fre: "Vacances mortelles Peinture de guerre",
         bra: "| Passeio Pavoroso | Tinta de Guerra",
         schema: 17239,
         hun: "Rémünnep Harci festés",
@@ -16216,10 +16216,10 @@ export let dataItems = {
     1347: {
         img: "spirit_of_halloween_war_paint",
         eng: "Spirit of Halloween War Paint",
-        rus: "Боевая краска \"Дух Хеллоуина\"",
-        pol: "Duch Halloween | Barwy wojenne",
+        rus: "\"Дух Хеллоуина\" Боевая краска",
+        pol: "Duch Halloween Barwy wojenne",
         sch: "万圣之魂 战绘",
-        fre: "Esprit d'Halloween | Peinture de guerre",
+        fre: "Esprit d'Halloween Peinture de guerre",
         bra: "| Espírito de Dia das Bruxas | Tinta de Guerra",
         schema: 17238,
         hun: "Halloweeni hangulat Harci festés",
@@ -16229,10 +16229,10 @@ export let dataItems = {
     1348: {
         img: "calavera_canvas_war_paint",
         eng: "Calavera Canvas War Paint",
-        rus: "Боевая краска \"Калаверская канва\"",
-        pol: "Kolorowa calavera | Barwy wojenne",
+        rus: "\"Калаверская канва\" Боевая краска",
+        pol: "Kolorowa calavera Barwy wojenne",
         sch: "亡灵狂欢 战绘",
-        fre: "Calaveras | Peinture de guerre",
+        fre: "Calaveras Peinture de guerre",
         bra: "| Caveiras Coloridas | Tinta de Guerra",
         schema: 17244,
         hun: "Calavera vászon Harci festés",
@@ -16242,10 +16242,10 @@ export let dataItems = {
     1349: {
         img: "spectral_shimmered_war_paint",
         eng: "Spectral Shimmered War Paint",
-        rus: "Боевая краска \"Мерцающие души\"",
-        pol: "Duchowy błysk | Barwy wojenne",
+        rus: "\"Мерцающие души\" Боевая краска",
+        pol: "Duchowy błysk Barwy wojenne",
         sch: "幽灵缠身 战绘",
-        fre: "Fantôluminescence | Peinture de guerre",
+        fre: "Fantôluminescence Peinture de guerre",
         bra: "| Brilho Espectral | Tinta de Guerra",
         schema: 17237,
         hun: "Szellemesen sziporkázó Harci festés",
@@ -16255,10 +16255,10 @@ export let dataItems = {
     1350: {
         img: "skull_study_war_paint",
         eng: "Skull Study War Paint",
-        rus: "Боевая краска \"Череда черепов\"",
-        pol: "Czaszkowa krata | Barwy wojenne",
+        rus: "\"Череда черепов\" Боевая краска",
+        pol: "Czaszkowa krata Barwy wojenne",
         sch: "暗色骷髅 战绘",
-        fre: "Étude de crânes | Peinture de guerre",
+        fre: "Étude de crânes Peinture de guerre",
         bra: "| Estudo Esquelético | Tinta de Guerra",
         schema: 17235,
         hun: "Koponyatanulmány Harci festés",
@@ -16268,8 +16268,8 @@ export let dataItems = {
     1351: {
         img: "ghost_town_war_paint",
         eng: "Ghost Town War Paint",
-        rus: "Боевая краска \"Город призраков\"",
-        pol: "Miasto duchów | Barwy wojenne",
+        rus: "\"Город призраков\" Боевая краска",
+        pol: "Miasto duchów Barwy wojenne",
         sch: "阴森之城 战绘",
         fre: "Ville fantôme | Peinture de guerre",
         bra: "| Cidade Fantasma | Tinta de Guerra",
@@ -16281,10 +16281,10 @@ export let dataItems = {
     1352: {
         img: "tumor_toasted_war_paint",
         eng: "Tumor Toasted War Paint",
-        rus: "Боевая краска \"Опухшее тесто\"",
-        pol: "Wypieczone nowotwory | Barwy wojenne",
+        rus: "\"Опухшее тесто\" Боевая краска",
+        pol: "Wypieczone nowotwory Barwy wojenne",
         sch: "肿瘤附体 战绘",
-        fre: "Tu meurs | Peinture de guerre",
+        fre: "Tu meurs Peinture de guerre",
         bra: "| Torrada com Tumor | Tinta de Guerra",
         schema: 17243,
         hun: "Tumoros Harci festés",
@@ -16294,10 +16294,10 @@ export let dataItems = {
     1353: {
         img: "electroshocked_war_paint",
         eng: "Electroshocked War Paint",
-        rus: "Боевая краска \"Электрошок\"",
-        pol: "Elektrowstrząs | Barwy wojenne",
+        rus: "\"Электрошок\" Боевая краска",
+        pol: "Elektrowstrząs Barwy wojenne",
         sch: "电刑处决 战绘",
-        fre: "Électrochocs | Peinture de guerre",
+        fre: "Électrochocs Peinture de guerre",
         bra: "| Eletrochoque | Tinta de Guerra",
         schema: 17241,
         hun: "Delejes Harci festés",
@@ -16887,7 +16887,7 @@ export let dataItems = {
         bra: "Faixa Amarela do Mestre",
         schema: 110,
         hun: "A Mester Sárga Öve",
-        swe: "Mästarens Gula Bälte"
+        swe: "Mästarens gula bälte"
     },
     1403: {
         img: "crocleather_slouch",
@@ -17534,7 +17534,8 @@ export let dataItems = {
         bra: "Glória Imperdoável",
         schema: 31040,
         hun: "Megbocsáthatatlan Dicsőség",
-        ger: "Unverziehener Ruhm"
+        ger: "Unverziehener Ruhm",
+        swe: "Oförlåten ära"
     },
     1457: {
         img: "bobby_bonnet",
@@ -17959,7 +17960,7 @@ export let dataItems = {
     1492: {
         img: "marxman",
         eng: "Marxman",
-        rus: "Ворошиловский стрелок",
+        rus: "Очки Маркса",
         pol: "Marksowe oblicze",
         sch: "马列主义者",
         fre: "Le Marxman",
@@ -18327,7 +18328,8 @@ export let dataItems = {
         bra: "Peça Perdida",
         schema: 31101,
         hun: "Hiányzó Darab",
-        ger: "Fehlendes Stück"
+        ger: "Fehlendes Stück",
+        swe: "Saknad bit"
     },
     1524: {
         img: "glittering_garland",
@@ -18399,7 +18401,8 @@ export let dataItems = {
         bra: "Arquimedes de Bolso",
         schema: 31099,
         hun: "Zseb-médész",
-        ger: "Taschen-Medes"
+        ger: "Taschen-Medes",
+        swe: "Fick-Medes"
     },
     1530: {
         img: "discovision",
@@ -18446,7 +18449,8 @@ export let dataItems = {
         bra: "Agasalho Álgido",
         schema: 31094,
         hun: "Sapka, Sál",
-        ger: "Winterschal"
+        ger: "Winterschal",
+        swe: "Vinterbyltad"
     },
     1534: {
         img: "mislaid_sweater",
@@ -18457,7 +18461,8 @@ export let dataItems = {
         sch: "迷失毛衣",
         bra: "Suéter do Sorrateiro",
         schema: 31102,
-        hun: "Elhagyott Pulóver"
+        hun: "Elhagyott Pulóver",
+        swe: "Borttappad tröja"
     },
     1535: {
         img: "public_speaker",
@@ -18468,7 +18473,8 @@ export let dataItems = {
         sch: "高音喇叭",
         bra: "Palestrinha",
         schema: 31095,
-        hun: "Harci Hangadó"
+        hun: "Harci Hangadó",
+        swe: "Offentlig talare"
     },
     1536: {
         img: "smissmas_saxton",
@@ -18480,7 +18486,8 @@ export let dataItems = {
         bra: "Saxton Noel",
         schema: 31089,
         hun: "Galácsonyi Saxton",
-        ger: "Smissmas-Saxton"
+        ger: "Smissmas-Saxton",
+        swe: "Smissmas-Saxton"
     },
     1537: {
         img: "provisions_cap",
@@ -18491,7 +18498,8 @@ export let dataItems = {
         sch: "补给帽",
         bra: "Patrocínio do Fornecedor",
         schema: 31097,
-        hun: "Ellátmánysapka"
+        hun: "Ellátmánysapka",
+        swe: "Provisionskeps"
     },
     1538: {
         img: "candy_crown",
@@ -18508,9 +18516,9 @@ export let dataItems = {
     1539: {
         img: "alpine_war_paint",
         eng: "Alpine War Paint",
-        rus: "Боевая краска \"Высокогорье\"",
-        pol: "Alpy | Barwy wojenne",
-        fre: "Alpin | Peinture de guerre",
+        rus: "\"Высокогорье\" Боевая краска",
+        pol: "Alpy Barwy wojenne",
+        fre: "Alpin Peinture de guerre",
         sch: "阿尔卑斯 战绘",
         bra: "| Alpina | Tinta de Guerra",
         schema: 17252,
@@ -18521,9 +18529,9 @@ export let dataItems = {
     1540: {
         img: "gift_wrapped_war_paint",
         eng: "Gift Wrapped War Paint",
-        rus: "Боевая краска \"Подарочная бумага\"",
-        pol: "Zapakowany prezent | Barwy wojenne",
-        fre: "Cadeau emballé | Peinture de guerre",
+        rus: "\"Подарочная бумага\" Боевая краска",
+        pol: "Zapakowany prezent Barwy wojenne",
+        fre: "Cadeau emballé Peinture de guerre",
         sch: "圣诞礼盒 战绘",
         bra: "| Embrulho de Presente | Tinta de Guerra",
         schema: 17253,
@@ -18534,9 +18542,9 @@ export let dataItems = {
     1541: {
         img: "seriously_snowed_war_paint",
         eng: "Seriously Snowed War Paint",
-        rus: "Боевая краска \"Сильный снегопад\"",
-        pol: "Straszna śnieżyca | Barwy wojenne",
-        fre: "Neige abondante | Peinture de guerre",
+        rus: "\"Сильный снегопад\" Боевая краска",
+        pol: "Straszna śnieżyca Barwy wojenne",
+        fre: "Neige abondante Peinture de guerre",
         sch: "雪人佣兵 战绘",
         bra: "| Mercenáriozinhos de Neve | Tinta de Guerra",
         schema: 17249,
@@ -18547,9 +18555,9 @@ export let dataItems = {
     1542: {
         img: "igloo_war_paint",
         eng: "Igloo War Paint",
-        rus: "Боевая краска \"Иглу\"",
-        pol: "Igloo | Barwy wojenne",
-        fre: "Igloo | Peinture de guerre",
+        rus: "\"Иглу\" Боевая краска",
+        pol: "Igloo Barwy wojenne",
+        fre: "Igloo Peinture de guerre",
         sch: "冰砖小屋 战绘",
         bra: "| Iglu | Tinta de Guerra",
         schema: 17248,
@@ -18560,9 +18568,9 @@ export let dataItems = {
     1543: {
         img: "sleighin_style_war_paint",
         eng: "Sleighin' Style War Paint",
-        rus: "Боевая краска \"Стильные сани\"",
-        pol: "Kulig | Barwy wojenne",
-        fre: "Traineau stylé | Peinture de guerre",
+        rus: "\"Стильные сани\" Боевая краска",
+        pol: "Kulig Barwy wojenne",
+        fre: "Traineau stylé Peinture de guerre",
         sch: "雪橇彩带 战绘",
         bra: "| Trenó | Tinta de Guerra",
         schema: 17251,
@@ -18573,9 +18581,9 @@ export let dataItems = {
     1544: {
         img: "snow_covered_war_paint",
         eng: "Snow Covered War Paint",
-        rus: "Боевая краска \"Снежный покров\"",
-        pol: "Pokrywa śnieżna | Barwy wojenne",
-        fre: "Couvert de neige | Peinture de guerre",
+        rus: "\"Снежный покров\" Боевая краска",
+        pol: "Pokrywa śnieżna Barwy wojenne",
+        fre: "Couvert de neige Peinture de guerre",
         sch: "雪花覆盖 战绘",
         bra: "| Flocos de Neve | Tinta de Guerra",
         schema: 17245,
@@ -18586,9 +18594,9 @@ export let dataItems = {
     1545: {
         img: "frost_ornamented_war_paint",
         eng: "Frost Ornamented War Paint",
-        rus: "Боевая краска \"Морозные узоры\"",
-        pol: "Mroźne zdobienie | Barwy wojenne",
-        fre: "Décorations givrées | Peinture de guerre",
+        rus: "\"Морозные узоры\" Боевая краска",
+        pol: "Mroźne zdobienie Barwy wojenne",
+        fre: "Décorations givrées Peinture de guerre",
         sch: "冰霜之饰 战绘",
         bra: "| Ornamento Congelado | Tinta de Guerra",
         schema: 17246,
@@ -18599,9 +18607,9 @@ export let dataItems = {
     1546: {
         img: "smissmas_camo_war_paint",
         eng: "Smissmas Camo War Paint",
-        rus: "Боевая краска \"Шмождественский камуфляж\"",
-        pol: "Śniąteczny kamuflaż | Barwy wojenne",
-        fre: "Camouflage Smissmas | Peinture de guerre",
+        rus: "\"Шмождественский камуфляж\" Боевая краска",
+        pol: "Śniąteczny kamuflaż Barwy wojenne",
+        fre: "Camouflage Smissmas Peinture de guerre",
         sch: "圣诞迷彩 战绘",
         bra: "| Camuflagem Festiva | Tinta de Guerra",
         schema: 17250,
@@ -18612,9 +18620,9 @@ export let dataItems = {
     1547: {
         img: "smissmas_village_war_paint",
         eng: "Smissmas Village War Paint",
-        rus: "Боевая краска \"Шмождественская деревня\"",
-        pol: "Śniąteczna wioska | Barwy wojenne",
-        fre: "Village Smissmas | Peinture de guerre",
+        rus: "\"Шмождественская деревня\" Боевая краска",
+        pol: "Śniąteczna wioska Barwy wojenne",
+        fre: "Village Smissmas Peinture de guerre",
         sch: "圣诞村庄 战绘",
         bra: "| Vila do Polo Norte | Tinta de Guerra",
         schema: 17247,
@@ -18625,9 +18633,9 @@ export let dataItems = {
     1548: {
         img: "winterland_wrapped_war_paint",
         eng: "Winterland Wrapped War Paint",
-        rus: "Боевая краска \"Праздничные полосы\"",
-        pol: "Zimowa kraina | Barwy wojenne",
-        fre: "Emballage hivernal | Peinture de guerre",
+        rus: "\"Праздничные полосы\" Боевая краска",
+        pol: "Zimowa kraina Barwy wojenne",
+        fre: "Emballage hivernal Peinture de guerre",
         sch: "冬日条纹 战绘",
         bra: "| Embrulho de Natal | Tinta de Guerra",
         schema: 17254,
@@ -18657,7 +18665,8 @@ export let dataItems = {
         schema: 31120,
         hun: "Harci Üvegcsék",
         fre: "Jarmements",
-        ger: "Jarategürtel"
+        ger: "Jarategürtel",
+        swe: "Jarateväst"
     },
     1551: {
         img: "sophisticated_smoker",
@@ -18693,7 +18702,8 @@ export let dataItems = {
         bra: "Lutador em Chamas",
         schema: 31108,
         hun: "Lánglovag",
-        ger: "Feuerkämpfer"
+        ger: "Feuerkämpfer",
+        swe: "Eldig fighter"
     },
     1554: {
         img: "poolside_polo",
@@ -18705,7 +18715,8 @@ export let dataItems = {
         schema: 31118,
         hun: "Vízipóló",
         fre: "Polo du croisiériste",
-        ger: "Pool-Polo"
+        ger: "Pool-Polo",
+        swe: "Poolpolo"
     },
     1555: {
         img: "crabe_de_chapeau",
@@ -18740,7 +18751,8 @@ export let dataItems = {
         schema: 31112,
         hun: "Bazári Bigyó",
         fre: "Soldier à ressort",
-        ger: "Basarspielerei"
+        ger: "Basarspielerei",
+        swe: "Basargubben"
     },
     1558: {
         img: "head_of_defense",
@@ -18751,7 +18763,8 @@ export let dataItems = {
         bra: "Mini-stro da Defesa",
         schema: 31114,
         hun: "A Fővédnök",
-        fre: "Mitraille entêtée"
+        fre: "Mitraille entêtée",
+        swe: "Försvarets överhuvud"
     },
     1559: {
         img: "flatliner",
@@ -18775,7 +18788,8 @@ export let dataItems = {
         schema: 31119,
         hun: "Turistakellékek",
         fre: "Attirail du touriste",
-        ger: "Urlauberutensilien"
+        ger: "Urlauberutensilien",
+        swe: "Turistens duffel"
     },
     1561: {
         img: "hazard_headgear",
@@ -18812,7 +18826,8 @@ export let dataItems = {
         schema: 31113,
         hun: "Behatolás és Bombázás",
         fre: "Force spéciale",
-        ger: "Bombenschutzhelm"
+        ger: "Bombenschutzhelm",
+        swe: "Insatsstyrka"
     },
     1564: {
         img: "momma_kiev",
@@ -19120,7 +19135,7 @@ export let dataItems = {
     },
     1589: {
         img: "semi_tame_trappers_hat",
-        eng: "Semi-tame Trapper's Hat",
+        eng: "Semi-Tame Trapper's Hat",
         rus: "Полудомашняя охотничья шапка",
         pol: "Półoswojona czapka trapera",
         fre: "Raton laveur empaillé",
@@ -19205,12 +19220,12 @@ export let dataItems = {
     1596: {
         img: "organically_hellraised_war_paint",
         eng: "Organ-ically Hellraised War Paint",
-        rus: "Боевая краска \"Выращено в аду\"",
-        pol: "Organiczny pomiot | Barwy wojenne",
+        rus: "\"Выращено в аду\" Боевая краска",
+        pol: "Organiczny pomiot Barwy wojenne",
         sch: "原生狱火 战绘",
         bra: "| Terror Orgânico | Tinta de Guerra",
         schema: 17256,
-        fre: "Incinération infernale | Peinture de guerre",
+        fre: "Incinération infernale Peinture de guerre",
         hun: "Szerv-esen pokolbantermesztett Harci festés",
         rom: "Organ-ically Hellraised Vopsea de război",
         swe: "Helvetets lågor Krigsfärg"
@@ -19218,12 +19233,12 @@ export let dataItems = {
     1597: {
         img: "spider_season_war_paint",
         eng: "Spider Season War Paint",
-        rus: "Боевая краска \"Паучья пора\"",
-        pol: "Pajęcza pora | Barwy wojenne",
+        rus: "\"Паучья пора\" Боевая краска",
+        pol: "Pajęcza pora Barwy wojenne",
         sch: "蜘蛛之季 战绘",
         bra: "| Temporada de Aranhas | Tinta de Guerra",
         schema: 17269,
-        fre: "Araignées géantes | Peinture de guerre",
+        fre: "Araignées géantes Peinture de guerre",
         hun: "Pókszezon Harci festés",
         rom: "Spider Season Vopsea de război",
         swe: "Spindelsäsong Krigsfärg"
@@ -19231,12 +19246,12 @@ export let dataItems = {
     1598: {
         img: "gourdy_green_war_paint",
         eng: "Gourdy Green War Paint",
-        rus: "Боевая краска \"Тыквенный камуфляж\"",
-        pol: "Dyniowa zieleń | Barwy wojenne",
+        rus: "\"Тыквенный камуфляж\" Боевая краска",
+        pol: "Dyniowa zieleń Barwy wojenne",
         sch: "南瓜迷彩 战绘",
         bra: "| Horta de Abóboras | Tinta de Guerra",
         schema: 17267,
-        fre: "Gazon maudit | Peinture de guerre",
+        fre: "Gazon maudit Peinture de guerre",
         hun: "Tökös zöld Harci festés",
         rom: "Gourdy Green Vopsea de război",
         swe: "Pumpaodling Krigsfärg"
@@ -19244,11 +19259,11 @@ export let dataItems = {
     1599: {
         img: "eyestalker_war_paint",
         eng: "Eyestalker War Paint",
-        rus: "Боевая краска \"Глазастые заросли\"",
-        pol: "Podglądaczka | Barwy wojenne",
+        rus: "\"Глазастые заросли\" Боевая краска",
+        pol: "Podglądaczka Barwy wojenne",
         sch: "眼球果实 战绘",
         schema: 17265,
-        fre: "Phytœil | Peinture de guerre",
+        fre: "Phytœil Peinture de guerre",
         bra: "| Guaran-ahhhhh | Tinta de Guerra",
         hun: "Szemkocsányos Harci festés",
         rom: "Eyestalker Vopsea de război",
@@ -19257,12 +19272,12 @@ export let dataItems = {
     1600: {
         img: "death_deluxe_war_paint",
         eng: "Death Deluxe War Paint",
-        rus: "Боевая краска \"Пышная погибель\"",
-        pol: "Luksusowa śmierć | Barwy wojenne",
+        rus: "\"Пышная погибель\" Боевая краска",
+        pol: "Luksusowa śmierć Barwy wojenne",
         sch: "死亡玫瑰 战绘",
         bra: "| Morte de Luxo | Tinta de Guerra",
         schema: 17263,
-        fre: "Cercueil | Peinture de guerre",
+        fre: "Cercueil Peinture de guerre",
         hun: "Díszes halál Harci festés",
         rom: "Death Deluxe Vopsea de război",
         swe: "Dödslyx Krigsfärg"
@@ -19270,12 +19285,12 @@ export let dataItems = {
     1601: {
         img: "portal_plastered_war_paint",
         eng: "Portal Plastered War Paint",
-        rus: "Боевая краска \"Портальное покрытие\"",
-        pol: "Portalowa tapeta | Barwy wojenne",
+        rus: "\"Портальное покрытие\" Боевая краска",
+        pol: "Portalowa tapeta Barwy wojenne",
         sch: "冥界之门 战绘",
         bra: "| Pintura de Portal | Tinta de Guerra",
         schema: 17262,
-        fre: "Portail magique | Peinture de guerre",
+        fre: "Portail magique Peinture de guerre",
         hun: "Portáltapaszos Harci festés",
         rom: "Portal Plastered Vopsea de război",
         swe: "Portalsnurr Krigsfärg"
@@ -19283,12 +19298,12 @@ export let dataItems = {
     1602: {
         img: "candy_coated_war_paint",
         eng: "Candy Coated War Paint",
-        rus: "Боевая краска \"Карамельный кров\"",
-        pol: "Cukierek | Barwy wojenne",
+        rus: "\"Карамельный кров\" Боевая краска",
+        pol: "Cukierek Barwy wojenne",
         sch: "万圣糖果 战绘",
         bra: "| Revestimento Doce | Tinta de Guerra",
         schema: 17258,
-        fre: "Friandise | Peinture de guerre",
+        fre: "Friandise Peinture de guerre",
         hun: "Cukorkapapíros Harci festés",
         rom: "Candy Coated Vopsea de război",
         swe: "Kanderat Krigsfärg"
@@ -19296,12 +19311,12 @@ export let dataItems = {
     1603: {
         img: "spiders_cluster_war_paint",
         eng: "Spider's Cluster War Paint",
-        rus: "Боевая краска \"Паучий переплёт\"",
-        pol: "Sieć pająka | Barwy wojenne",
+        rus: "\"Паучий переплёт\" Боевая краска",
+        pol: "Sieć pająka Barwy wojenne",
         sch: "毒巢蛛网 战绘",
         bra: "| Aglomerado de Aranhas | Tinta de Guerra",
         schema: 17266,
-        fre: "Toiles d'araignée | Peinture de guerre",
+        fre: "Toiles d'araignée Peinture de guerre",
         hun: "Pókfürtös Harci festés",
         rom: "Spider's Cluster Vopsea de război",
         swe: "Spindeldesign Krigsfärg"
@@ -19309,12 +19324,12 @@ export let dataItems = {
     1604: {
         img: "raving_dead_war_paint",
         eng: "Raving Dead War Paint",
-        rus: "Боевая краска \"Дохлая тусовка\"",
-        pol: "Tańczący umarli | Barwy wojenne",
+        rus: "\"Дохлая тусовка\" Боевая краска",
+        pol: "Tańczący umarli Barwy wojenne",
         sch: "亡者狂言 战绘",
         bra: "| Mortos Muito Loucos | Tinta de Guerra",
         schema: 17264,
-        fre: "Squelette | Peinture de guerre",
+        fre: "Squelette Peinture de guerre",
         hun: "Haláli buli Harci festés",
         rom: "Raving Dead Vopsea de război",
         swe: "Dödsparty Krigsfärg"
@@ -19322,12 +19337,12 @@ export let dataItems = {
     1605: {
         img: "crawlspace_critters_war_paint",
         eng: "Crawlspace Critters War Paint",
-        rus: "Боевая краска \"Твари из подпола\"",
-        pol: "Piwniczne pełzacze | Barwy wojenne",
+        rus: "\"Твари из подпола\" Боевая краска",
+        pol: "Piwniczne pełzacze Barwy wojenne",
         sch: "狭缝生物 战绘",
         bra: "| Criaturinhas Escondidas | Tinta de Guerra",
         schema: 17261,
-        fre: "Galetas | Peinture de guerre",
+        fre: "Galetas Peinture de guerre",
         hun: "Falban motoszkálós Harci festés",
         rom: "Crawlspace Critters Vopsea de război",
         swe: "Kryp i krypin Krigsfärg"
@@ -19335,12 +19350,12 @@ export let dataItems = {
     1606: {
         img: "sweet_toothed_war_paint",
         eng: "Sweet Toothed War Paint",
-        rus: "Боевая краска \"Сластёна\"",
-        pol: "Łakomczuch | Barwy wojenne",
+        rus: "\"Сластёна\" Боевая краска",
+        pol: "Łakomczuch Barwy wojenne",
         sch: "嗜甜成瘾 战绘",
         bra: "| Dentinhos Doces | Tinta de Guerra",
         schema: 17260,
-        fre: "Bec sucré | Peinture de guerre",
+        fre: "Bec sucré Peinture de guerre",
         hun: "Édesszájú Harci festés",
         rom: "Sweet Toothed Vopsea de război",
         swe: "Gottegris Krigsfärg"
@@ -19348,12 +19363,12 @@ export let dataItems = {
     1607: {
         img: "helldriver_war_paint",
         eng: "Helldriver War Paint",
-        rus: "Боевая краска \"Адский гонщик\"",
-        pol: "Piekielnik | Barwy wojenne",
+        rus: "\"Адский гонщик\" Боевая краска",
+        pol: "Piekielnik Barwy wojenne",
         sch: "地狱追逐 战绘",
         bra: "| Ácido Mortífero | Tinta de Guerra",
         schema: 17255,
-        fre: "Chlorophylle | Peinture de guerre",
+        fre: "Chlorophylle Peinture de guerre",
         hun: "Pokolhajtó Harci festés",
         rom: "Helldriver Vopsea de război",
         swe: "Grönt inferno Krigsfärg"
@@ -19361,12 +19376,12 @@ export let dataItems = {
     1608: {
         img: "mummified_mimic_war_paint",
         eng: "Mummified Mimic War Paint",
-        rus: "Боевая краска \"Мумифицированный мимик\"",
-        pol: "Mumifikowany mimik | Barwy wojenne",
+        rus: "\"Мумифицированный мимик\" Боевая краска",
+        pol: "Mumifikowany mimik Barwy wojenne",
         sch: "狞笑干尸 战绘",
         bra: "| Mímico Mumificado | Tinta de Guerra",
         schema: 17268,
-        fre: "Momification | Peinture de guerre",
+        fre: "Momification Peinture de guerre",
         hun: "Múmia-mimikri Harci festés",
         rom: "Mummified Mimic Vopsea de război",
         swe: "Mumiebandage Krigsfärg"
@@ -19374,12 +19389,12 @@ export let dataItems = {
     1609: {
         img: "pumpkin_pied_war_paint",
         eng: "Pumpkin Pied War Paint",
-        rus: "Боевая краска \"Тыквенный пирог\"",
-        pol: "Dyniowe ciasto | Barwy wojenne",
+        rus: "\"Тыквенный пирог\" Боевая краска",
+        pol: "Dyniowe ciasto Barwy wojenne",
         sch: "南瓜甜点 战绘",
         bra: "| Torta de Abóbora | Tinta de Guerra",
         schema: 17259,
-        fre: "Tarte aux citrouilles | Peinture de guerre",
+        fre: "Tarte à la citrouille Peinture de guerre",
         hun: "Tökös-pités Harci festés",
         rom: "Pumpkin Pied Vopsea de război",
         swe: "Höstmys Krigsfärg"
@@ -19387,12 +19402,12 @@ export let dataItems = {
     1610: {
         img: "spectrum_splattered_war_paint",
         eng: "Spectrum Splattered War Paint",
-        rus: "Боевая краска \"Спектральный всплеск\"",
-        pol: "Rozbryzgany duch | Barwy wojenne",
+        rus: "\"Спектральный всплеск\" Боевая краска",
+        pol: "Rozbryzgany duch Barwy wojenne",
         sch: "魔血泼溅 战绘",
         bra: "| Gotas Cromáticas | Tinta de Guerra",
         schema: 17257,
-        fre: "Spectre | Peinture de guerre",
+        fre: "Spectre Peinture de guerre",
         hun: "Spektrálpacás Harci festés",
         rom: "Spectrum Splattered Vopsea de război",
         swe: "Spektrumsplatter Krigsfärg"
@@ -19772,7 +19787,7 @@ export let dataItems = {
     1642: {
         img: "taunt_shred_alert",
         eng: "Taunt: The Shred Alert",
-        rus: "Насмешка: Боевой запил",
+        rus: "Боевой запил",
         schema: 1015,
         pol: "Szyderstwo szarpidruta",
         fre: "Raillerie : La Shred Alert",
@@ -20090,7 +20105,8 @@ export let dataItems = {
         hun: "Díszdobozos Kivitel",
         fre: "Savates emballées",
         ger: "Geschenkpantoffeln",
-        sch: "礼盒大脚"
+        sch: "礼盒大脚",
+        swe: "Festliga tipp tapp"
     },
     1669: {
         img: "shoestring_santa",
@@ -20126,7 +20142,8 @@ export let dataItems = {
         hun: "Cukorkagancs",
         fre: "Ramures sucrées",
         ger: "Kandisgeweih",
-        sch: "糖果鹿角"
+        sch: "糖果鹿角",
+        swe: "Godishjort"
     },
     1672: {
         img: "festive_fascinator",
@@ -20138,7 +20155,8 @@ export let dataItems = {
         hun: "Vidám Villongás",
         fre: "Serre-tête festif",
         ger: "Festliches Stirnband",
-        sch: "彩灯发带"
+        sch: "彩灯发带",
+        swe: "Festligt diadem"
     },
     1673: {
         img: "reindoonibeanie",
@@ -20149,7 +20167,8 @@ export let dataItems = {
         bra: "Renagorro",
         hun: "Rénkornisapka",
         fre: "Bonnet rennicorne",
-        sch: "驯鹿独角兽之帽"
+        sch: "驯鹿独角兽之帽",
+        swe: "Renhörningsmössa"
     },
     1674: {
         img: "particulate_protector",
@@ -20161,7 +20180,8 @@ export let dataItems = {
         hun: "Részecskeszűrő",
         fre: "Protecteur de particules",
         ger: "Partikelmaske",
-        sch: "有害微粒过滤器"
+        sch: "有害微粒过滤器",
+        swe: "Partikelskydd"
     },
     1675: {
         img: "the_killing_tree",
@@ -20173,7 +20193,8 @@ export let dataItems = {
         hun: "Karácsonyfa Alávaló",
         fre: "Sapin mortel",
         ger: "Serienförster",
-        sch: "会说话的树"
+        sch: "会说话的树",
+        swe: "Mordgran"
     },
     1676: {
         img: "the_smissmass_sorcerer",
@@ -20197,7 +20218,8 @@ export let dataItems = {
         hun: "Álommannus Sipka",
         fre: "Marchand de sommeil",
         ger: "SandMannmütze",
-        sch: "睡魔之触"
+        sch: "睡魔之触",
+        swe: "John Blunds borste"
     },
     1678: {
         img: "bedbug_protection",
@@ -20209,7 +20231,8 @@ export let dataItems = {
         hun: "Álombiztonsági Egyenruha",
         fre: "Pyjama protecteur",
         ger: "Anti-Bettwanzen-Pyjama",
-        sch: "瞌睡虫之衣"
+        sch: "瞌睡虫之衣",
+        swe: "Lusskydd"
     },
     1679: {
         img: "professionals_pom_pom",
@@ -20221,7 +20244,8 @@ export let dataItems = {
         hun: "Profi Pompon",
         fre: "Pro du pompon",
         ger: "Profi-Bommelmütze",
-        sch: "专业佣兵的毛球帽"
+        sch: "专业佣兵的毛球帽",
+        swe: "Proffstoffs"
     },
     1680: {
         img: "blitzen_bowl",
@@ -20233,7 +20257,8 @@ export let dataItems = {
         hun: "Rénbányász-sisak",
         fre: "L'écuelle de Comète",
         ger: "Blitzenhelm",
-        sch: "电光驯鹿盔"
+        sch: "电光驯鹿盔",
+        swe: "Rudolfs hink"
     },
     1681: {
         img: "night_ward",
@@ -20269,7 +20294,8 @@ export let dataItems = {
         hun: "Magasan Tornyosuló Téli Sapkák",
         fre: "Imposante pile de bonnets",
         ger: "Hochragende Säule von Beanies",
-        sch: "层叠高耸之圣诞帽"
+        sch: "层叠高耸之圣诞帽",
+        swe: "Reslig luvpelare"
     },
     1684: {
         img: "the_round_a_bout",
@@ -20293,162 +20319,163 @@ export let dataItems = {
         fre: "Imposante pile de cadeaux",
         ger: "Hochragender Geschenkehaufen",
         schema: 31173,
-        sch: "层叠高耸之礼物帽"
+        sch: "层叠高耸之礼物帽",
+        swe: "Hög presenthög"
     },
     1686: {
         img: "snowflake_swirled_war_paint",
         eng: "Snowflake Swirled War Paint",
-        rus: "Боевая краска \"Снежная спираль\"",
+        rus: "\"Снежная спираль\" Боевая краска",
         schema: 17277,
-        pol: "Wir z płatkami śniegu | Barwy wojenne",
+        pol: "Wir z płatkami śniegu Barwy wojenne",
         bra: "| Espiral Flocada | Tinta de Guerra",
         hun: "Kavargós-hópihés Harci festés",
         rom: "Snowflake Swirled Vopsea de război",
-        fre: "Tourbillon de flocons | Peinture de guerre",
+        fre: "Tourbillon de flocons Peinture de guerre",
         swe: "Virvlande snöflingor Krigsfärg"
     },
     1687: {
         img: "snow_globalization_war_paint",
         eng: "Snow Globalization War Paint",
-        rus: "Боевая краска \"Снежный шар\"",
+        rus: "\"Снежный шар\" Боевая краска",
         schema: 17275,
-        pol: "Śnieżna globalizacja | Barwy wojenne",
+        pol: "Śnieżna globalizacja Barwy wojenne",
         bra: "| Globalização de Neve | Tinta de Guerra",
         hun: "Hócsatározás Harci festés",
         rom: "Snow Globalization Vopsea de război",
-        fre: "Hiver universel | Peinture de guerre",
+        fre: "Hiver universel Peinture de guerre",
         swe: "Snögubbar och tögubbar Krigsfärg"
     },
     1688: {
         img: "glacial_glazed_war_paint",
         eng: "Glacial Glazed War Paint",
-        rus: "Боевая краска \"Ледниковый лак\"",
+        rus: "\"Ледниковый лак\" Боевая краска",
         schema: 17282,
-        pol: "Zimowe zeszklenie | Barwy wojenne",
+        pol: "Zimowe zeszklenie Barwy wojenne",
         bra: "| Azulejos Glaciais | Tinta de Guerra",
         hun: "Gleccserbevonatú Harci festés",
         rom: "Glacial Glazed Vopsea de război",
-        fre: "Banquise polaire | Peinture de guerre",
+        fre: "Banquise polaire Peinture de guerre",
         swe: "Kristallklar Krigsfärg"
     },
     1689: {
         img: "gifting_manns_wrapping_paper_war_paint",
         eng: "Gifting Mann's Wrapping Paper War Paint",
-        rus: "Боевая краска \"Обёрточная бумага щедрого Манна\"",
+        rus: "\"Обёрточная бумага щедрого Манна\" Боевая краска",
         schema: 17276,
-        pol: "Prezentowy papier do pakowania | Barwy wojenne",
+        pol: "Prezentowy papier do pakowania Barwy wojenne",
         bra: "| Papel de Presente do Mann Presente | Tinta de Guerra",
         hun: "Manntasztikus csomagolópapír Harci festés",
         rom: "Gifting Mann's Wrapping Paper Vopsea de război",
-        fre: "Papier cadeau Mannifique | Peinture de guerre",
+        fre: "Papier cadeau Mannifique Peinture de guerre",
         swe: "Manntastiskt presentpapper Krigsfärg"
     },
     1690: {
         img: "peppermint_swirl_war_paint",
         eng: "Peppermint Swirl War Paint",
-        rus: "Боевая краска \"Мятный вихрь\"",
+        rus: "\"Мятный вихрь\" Боевая краска",
         schema: 17273,
-        pol: "Cukierkowy wir | Barwy wojenne",
+        pol: "Cukierkowy wir Barwy wojenne",
         bra: "| Espiral de Hortelã-Pimenta | Tinta de Guerra",
         hun: "Borsmenta forgatag Harci festés",
         rom: "Peppermint Swirl Vopsea de război",
-        fre: "Berlingot | Peinture de guerre",
+        fre: "Berlingot Peinture de guerre",
         swe: "Polkagrisrandig Krigsfärg"
     },
     1691: {
         img: "gingerbread_winner_war_paint",
         eng: "Gingerbread Winner War Paint",
-        rus: "Боевая краска \"Пряничный победитель\"",
+        rus: "\"Пряничный победитель\" Боевая краска",
         schema: 17270,
-        pol: "Piernikowy zwycięzca | Barwy wojenne",
+        pol: "Piernikowy zwycięzca Barwy wojenne",
         bra: "| Ganha-Pão de Mel | Tinta de Guerra",
         hun: "Nyerő mézeskalács Harci festés",
         rom: "Gingerbread Winner Vopsea de război",
-        fre: "Gagne-pain d'épice | Peinture de guerre",
+        fre: "Gagne-pain d'épice Peinture de guerre",
         swe: "Pepparkakskrusidull Krigsfärg"
     },
     1692: {
         img: "smissmas_spycrabs_war_paint",
         eng: "Smissmas Spycrabs War Paint",
-        rus: "Боевая краска \"Шмождественские крабы-шпионы\"",
+        rus: "\"Шмождественские крабы-шпионы\" Боевая краска",
         schema: 17278,
-        pol: "Śniąteczne szpiegokraby | Barwy wojenne",
+        pol: "Śniąteczne szpiegokraby Barwy wojenne",
         bra: "| Spyranguejos de Natal | Tinta de Guerra",
         hun: "Galácsonyi kémrákok Harci festés",
         rom: "Smissmas Spycrabs Vopsea de război",
-        fre: "Spycrabs de Smissmas | Peinture de guerre",
+        fre: "Spycrabs de Smissmas Peinture de guerre",
         swe: "Spionkrabban firar jul Krigsfärg"
     },
     1693: {
         img: "elfin_enamel_war_paint",
         eng: "Elfin Enamel War Paint",
-        rus: "Боевая краска \"Эльфийская эмаль\"",
+        rus: "\"Эльфийская эмаль\" Боевая краска",
         schema: 17272,
-        pol: "Elfia emalia | Barwy wojenne",
+        pol: "Elfia emalia Barwy wojenne",
         bra: "| Esmalte Élfico | Tinta de Guerra",
         hun: "Manós máz Harci festés",
         rom: "Elfin Enamel Vopsea de război",
-        fre: "Elfe émaillé | Peinture de guerre",
+        fre: "Elfe émaillé Peinture de guerre",
         swe: "Alvisk emalj Krigsfärg"
     },
     1694: {
         img: "frozen_aurora_war_paint",
         eng: "Frozen Aurora War Paint",
-        rus: "Боевая краска \"Застывшая заря\"",
+        rus: "\"Застывшая заря\" Боевая краска",
         schema: 17279,
-        pol: "Mroźna zorza | Barwy wojenne",
+        pol: "Mroźna zorza Barwy wojenne",
         bra: "| Aurora Congelada | Tinta de Guerra",
         hun: "Fagyott sarki fény Harci festés",
         rom: "Frozen Aurora Vopsea de război",
-        fre: "Aurore gelée | Peinture de guerre",
+        fre: "Aurore gelée Peinture de guerre",
         swe: "Iskall Aurora Krigsfärg"
     },
     1695: {
         img: "cookie_fortress_war_paint",
         eng: "Cookie Fortress War Paint",
-        rus: "Боевая краска \"Пряничные наёмнички\"",
+        rus: "\"Пряничные наёмнички\" Боевая краска",
         schema: 17283,
-        pol: "Ciasteczkowa forteca | Barwy wojenne",
+        pol: "Ciasteczkowa forteca Barwy wojenne",
         bra: "| Fortaleza de Biscolachas | Tinta de Guerra",
         hun: "Sütierőd Harci festés",
         rom: "Cookie Fortress Vopsea de război",
-        fre: "Pain d'épice | Peinture de guerre",
+        fre: "Pain d'épice Peinture de guerre",
         swe: "Kaksoldater Krigsfärg"
     },
     1696: {
         img: "frosty_delivery_war_paint",
         eng: "Frosty Delivery War Paint",
-        rus: "Боевая краска \"Морозная посылка\"",
+        rus: "\"Морозная посылка\" Боевая краска",
         schema: 17281,
-        pol: "Mroźna dostawa | Barwy wojenne",
+        pol: "Mroźna dostawa Barwy wojenne",
         bra: "| Entrega Gélida | Tinta de Guerra",
         hun: "Deres szállítmány Harci festés",
         rom: "Frosty Delivery Vopsea de război",
-        fre: "Livraison givrée | Peinture de guerre",
+        fre: "Livraison givrée Peinture de guerre",
         swe: "Frostpost Krigsfärg"
     },
     1697: {
         img: "saccharine_striped_war_paint",
         eng: "Saccharine Striped War Paint",
-        rus: "Боевая краска \"Сладкие полоски\"",
+        rus: "\"Сладкие полоски\" Боевая краска",
         schema: 17271,
-        pol: "Przesłodkie pasy | Barwy wojenne",
+        pol: "Przesłodkie pasy Barwy wojenne",
         bra: "| Listras Adocicadas | Tinta de Guerra",
         hun: "Cukorkacsíkos Harci festés",
         rom: "Saccharine Striped Vopsea de război",
-        fre: "Stries saccharines | Peinture de guerre",
+        fre: "Stries saccharines Peinture de guerre",
         swe: "Raffigt räfflad Krigsfärg"
     },
     1698: {
         img: "starlight_serenity_war_paint",
         eng: "Starlight Serenity War Paint",
-        rus: "Боевая краска \"Полуночный покой\"",
+        rus: "\"Полуночный покой\" Боевая краска",
         schema: 17280,
-        pol: "Gwiezdne ukojenie | Barwy wojenne",
+        pol: "Gwiezdne ukojenie Barwy wojenne",
         bra: "| Serenidade Estrelada | Tinta de Guerra",
         hun: "Csillagfényes csendesség Harci festés",
         rom: "Starlight Serenity Vopsea de război",
-        fre: "Astres radieux | Peinture de guerre",
+        fre: "Astres radieux Peinture de guerre",
         swe: "Rogivande stjärnljus Krigsfärg"
     },
     1699: {
@@ -20460,7 +20487,8 @@ export let dataItems = {
         bra: "Provocação: Escocês Exausto",
         hun: "Beszólás: Napozófedélzet",
         fre: "Raillerie : En poupe",
-        ger: "Verspottung: Locker im Liegestuhl"
+        ger: "Verspottung: Locker im Liegestuhl",
+        swe: "Hån: Däckad"
     },
     1700: {
         img: "taunt_time_out_therapy",
@@ -20471,7 +20499,8 @@ export let dataItems = {
         bra: "Provocação: Pausa Fora de Hora",
         hun: "Beszólás: Pihentető terápia",
         fre: "Raillerie : Une pause bien méritée",
-        ger: "Verspottung: Auszeittherapie"
+        ger: "Verspottung: Auszeittherapie",
+        swe: "Hån: Soffterapi"
     },
     1701: {
         img: "taunt_rocket_jockey",
@@ -20493,7 +20522,8 @@ export let dataItems = {
         bra: "Provocação: Charlie Bonk Jr.",
         hun: "Beszólás: Bostoni aszfaltbetyár",
         fre: "Raillerie : Le skateur de Boston",
-        ger: "Verspottung: Der Boston-Boarder"
+        ger: "Verspottung: Der Boston-Boarder",
+        swe: "Hån: Bostonboard"
     },
     1703: {
         img: "taunt_scorchers_solo",
@@ -20504,7 +20534,8 @@ export let dataItems = {
         bra: "Provocação: Fique Pianinho",
         hun: "Beszólás: Tüzes szóló",
         fre: "Raillerie : Solo d'enfer",
-        ger: "Verspottung: Schwelendes Solo"
+        ger: "Verspottung: Schwelendes Solo",
+        swe: "Hån: Skållande solo"
     },
     1704: {
         img: "taunt_texas_truckin",
@@ -20515,7 +20546,8 @@ export let dataItems = {
         bra: "Provocação: Tratorzinho do Texas",
         hun: "Beszólás: Texasi traktoros",
         fre: "Raillerie : Transport texan",
-        ger: "Verspottung: Texas-Traktor"
+        ger: "Verspottung: Texas-Traktor",
+        swe: "Hån: Texastruck"
     },
     1705: {
         img: "taunt_spin_to_win",
@@ -20526,7 +20558,8 @@ export let dataItems = {
         bra: "Provocação: Dando a Seta",
         hun: "Beszólás: Szerencsekerék",
         fre: "Raillerie : Signalisation",
-        ger: "Verspottung: Schild schmeißen"
+        ger: "Verspottung: Schild schmeißen",
+        swe: "Hån: Ingen återvändo"
     },
     1706: {
         img: "taunt_the_fist_bump",
@@ -20537,7 +20570,8 @@ export let dataItems = {
         bra: "Provocação: Soquinho",
         hun: "Beszólás: Ökölpacsi",
         fre: "Raillerie : Check",
-        ger: "Verspottung: Fauststoß"
+        ger: "Verspottung: Fauststoß",
+        swe: "Hån: Fist bump"
     },
     1707: {
         img: "manndatory_attire",
@@ -20548,7 +20582,8 @@ export let dataItems = {
         hun: "Kötelező Viselet",
         bra: "Gravata Mannífica",
         fre: "Tenue Manndatoire",
-        sch: "曼恩公司职员领带"
+        sch: "曼恩公司职员领带",
+        swe: "Obligatorisk klädsel"
     },
     1708: {
         img: "roaming_roman",
@@ -20559,7 +20594,8 @@ export let dataItems = {
         bra: "Centurião Errante",
         hun: "Romboló Római",
         fre: "Romain rétif",
-        sch: "罗马自由客"
+        sch: "罗马自由客",
+        swe: "Runtresande romare"
     },
     1709: {
         img: "brim_of_fire",
@@ -20570,7 +20606,8 @@ export let dataItems = {
         bra: "Aba Labareda",
         hun: "Tüzes Karima",
         fre: "Shérif flamboyant",
-        sch: "烈焰牛仔"
+        sch: "烈焰牛仔",
+        swe: "Brinnbrätte"
     },
     1710: {
         img: "wild_brim_slouch",
@@ -20581,7 +20618,8 @@ export let dataItems = {
         bra: "Couro do Pântano",
         hun: "Vadonkalap",
         fre: "Chapeau mou croc-croco",
-        sch: "宽檐鳄皮帽"
+        sch: "宽檐鳄皮帽",
+        swe: "Vild slokhatt"
     },
     1711: {
         img: "fried_batter",
@@ -20592,7 +20630,8 @@ export let dataItems = {
         bra: "Corredor do Caixa",
         hun: "Ütős Sütő",
         fre: "Batteur frit",
-        sch: "煎炸大厨"
+        sch: "煎炸大厨",
+        swe: "Smetsmäck"
     },
     1712: {
         img: "reel_fly_hat",
@@ -20603,7 +20642,8 @@ export let dataItems = {
         bra: "Isca Cocuruta",
         hun: "Pecáskalap",
         fre: "Chapêche",
-        sch: "圆满收杆帽"
+        sch: "圆满收杆帽",
+        swe: "Hatt på krok"
     },
     1713: {
         img: "two_punch_mann",
@@ -20625,7 +20665,8 @@ export let dataItems = {
         bra: "Vai Pescá",
         hun: "Kifogta, Hazavitte, Megsütötte",
         fre: "Grillades de poisson",
-        sch: "放长线钓烤鱼"
+        sch: "放长线钓烤鱼",
+        swe: "Grillad fisk"
     },
     1715: {
         img: "thousand_yard_stare",
@@ -20636,7 +20677,8 @@ export let dataItems = {
         bra: "Olho no Olho",
         hun: "Tágra Nyílt Szemek",
         fre: "Regard exorbité",
-        sch: "千码凝视"
+        sch: "千码凝视",
+        swe: "Tom i blick"
     },
     1716: {
         img: "snack_stack",
@@ -20647,7 +20689,8 @@ export let dataItems = {
         bra: "Pilha de Sandviches",
         hun: "Harapnivaló Halom",
         fre: "Crane-croute",
-        sch: "层层美味"
+        sch: "层层美味",
+        swe: "Mellanmålstorn"
     },
     1717: {
         img: "crocodile_dandy",
@@ -20658,7 +20701,8 @@ export let dataItems = {
         bra: "Crocodilo Dândi",
         hun: "Krokodilos Piperkőc",
         fre: "Costume croco",
-        sch: "鳄鱼丹迪"
+        sch: "鳄鱼丹迪",
+        swe: "Krokodildandy"
     },
     1718: {
         img: "meal_dealer",
@@ -20669,7 +20713,8 @@ export let dataItems = {
         bra: "Atendente de Lanchonete",
         hun: "Ételfutár",
         fre: "Serveur ultrarapide",
-        sch: "速食专营"
+        sch: "速食专营",
+        swe: "Snabbservering"
     },
     1719: {
         img: "water_waders",
@@ -20680,7 +20725,8 @@ export let dataItems = {
         bra: "Pesca à Prova d'Água",
         hun: "Gázlónadrág",
         fre: "Salopette de pêche",
-        sch: "渔家涉水服"
+        sch: "渔家涉水服",
+        swe: "Vadare"
     },
     1720: {
         img: "the_sightliner",
@@ -20691,7 +20737,8 @@ export let dataItems = {
         hun: "Célbamérő",
         bra: "Os Sentinolhos",
         fre: "Technobinocles",
-        sch: "头戴式步哨枪"
+        sch: "头戴式步哨枪",
+        swe: "Siktlinjen"
     },
     1721: {
         img: "the_panisher",
@@ -20702,7 +20749,8 @@ export let dataItems = {
         bra: "O Frigideiro",
         hun: "A Serpenyítő",
         fre: "Poêleur",
-        sch: "顶锅侠"
+        sch: "顶锅侠",
+        swe: "Stekarn"
     },
     1722: {
         img: "fast_food",
@@ -20713,7 +20761,8 @@ export let dataItems = {
         bra: "Entrega Rápida",
         hun: "Gyorskaja",
         fre: "Prêt-à-manger",
-        sch: "快餐特递"
+        sch: "快餐特递",
+        swe: "Snabbmat"
     },
     1723: {
         img: "crustaceous_cowl",
@@ -20724,7 +20773,8 @@ export let dataItems = {
         bra: "Capuz Crustáceo",
         hun: "Rákámzsa",
         fre: "Capuchon crustacé",
-        sch: "间谍蟹兜帽"
+        sch: "间谍蟹兜帽",
+        swe: "Kräftkåpa"
     },
     1724: {
         img: "ballooniphones",
@@ -20735,7 +20785,8 @@ export let dataItems = {
         bra: "Balãonifones",
         hun: "Lufifüles",
         fre: "Balliphones",
-        sch: "气球独角兽耳机"
+        sch: "气球独角兽耳机",
+        swe: "Ballonglurar"
     },
     1725: {
         img: "beanie_the_all_gnawing",
@@ -21029,144 +21080,144 @@ export let dataItems = {
     1750: {
         img: "sarsparilla_sprayed_war_paint",
         eng: "Sarsparilla Sprayed War Paint",
-        rus: "Боевая краска \"Газированное граффити\"",
+        rus: "\"Газированное граффити\" Боевая краска",
         schema: 17284,
-        pol: "Śmiechu warte | Barwy wojenne",
+        pol: "Śmiechu warte Barwy wojenne",
         hun: "Sarsaparilla-mintás Harci festés",
         swe: "Sarsaparillasprejad Krigsfärg",
         bra: "| Salsaparrilhado | Tinta de Guerra",
-        fre: "Salsepareille | Peinture de guerre"
+        fre: "Salsepareille Peinture de guerre"
     },
     1751: {
         img: "kiln_conquer_war_paint",
         eng: "Kiln & Conquer War Paint",
-        rus: "Боевая краска \"Печные муки\"",
+        rus: "\"Печные муки\" Боевая краска",
         schema: 17296,
-        pol: "Palić i podbijać | Barwy wojenne",
+        pol: "Palić i podbijać Barwy wojenne",
         hun: "Ölj és hódíts Harci festés",
         bra: "| Assar e Conquistar | Tinta de Guerra",
-        fre: "Conquête à chaud | Peinture de guerre",
+        fre: "Conquête à chaud Peinture de guerre",
         swe: "Bränna och erövra Krigsfärg"
     },
     1752: {
         img: "searing_souls_war_paint",
         eng: "Searing Souls War Paint",
-        rus: "Боевая краска \"Горящие души\"",
+        rus: "\"Горящие души\" Боевая краска",
         schema: 17293,
-        pol: "Płonące dusze | Barwy wojenne",
+        pol: "Płonące dusze Barwy wojenne",
         hun: "Lángoló Lelkek Harci festés",
         bra: "| Almas Agonizantes | Tinta de Guerra",
-        fre: "Âmes ardentes | Peinture de guerre",
+        fre: "Âmes ardentes Peinture de guerre",
         swe: "Brinnande själar Krigsfärg"
     },
     1753: {
         img: "potent_poison_war_paint",
         eng: "Potent Poison War Paint",
-        rus: "Боевая краска \"Ядрёный яд\"",
+        rus: "\"Ядрёный яд\" Боевая краска",
         schema: 17292,
-        pol: "Silna trucizna | Barwy wojenne",
+        pol: "Silna trucizna Barwy wojenne",
         hun: "Hatásos méreg Harci festés",
         bra: "| Caldeirão Borbulhante | Tinta de Guerra",
-        fre: "Poison puissant | Peinture de guerre",
+        fre: "Poison puissant Peinture de guerre",
         swe: "Starkt gift Krigsfärg"
     },
     1754: {
         img: "simple_spirits_war_paint",
         eng: "Simple Spirits War Paint",
-        rus: "Боевая краска \"Простые приведения\"",
+        rus: "\"Простые приведения\" Боевая краска",
         schema: 17290,
-        pol: "Drobne duszki | Barwy wojenne",
+        pol: "Drobne duszki Barwy wojenne",
         hun: "Egyszerűen szellemes Harci festés",
         bra: "| Fantasminhas | Tinta de Guerra",
-        fre: "Petits esprits | Peinture de guerre",
+        fre: "Petits esprits Peinture de guerre",
         swe: "Simpla spöken Krigsfärg"
     },
     1755: {
         img: "skull_cracked_war_paint",
         eng: "Skull Cracked War Paint",
-        rus: "Боевая краска \"Хруст черепов\"",
+        rus: "\"Хруст черепов\" Боевая краска",
         schema: 17286,
-        pol: "Spękane czaszki | Barwy wojenne",
+        pol: "Spękane czaszki Barwy wojenne",
         hun: "Koponyarepesztő Harci festés",
         bra: "| Crânios Quebrados | Tinta de Guerra",
-        fre: "Crânes fêlés | Peinture de guerre",
+        fre: "Crânes fêlés Peinture de guerre",
         swe: "Skallspräckare Krigsfärg"
     },
     1756: {
         img: "necromanced_war_paint",
         eng: "Necromanced War Paint",
-        rus: "Боевая краска \"Нежить\"",
+        rus: "\"Нежить\" Боевая краска",
         schema: 17297,
-        pol: "Nekromancja | Barwy wojenne",
+        pol: "Nekromancja Barwy wojenne",
         hun: "Felélesztve Harci festés",
         bra: "| Necromante | Tinta de Guerra",
-        fre: "Nécromancie | Peinture de guerre",
+        fre: "Nécromancie Peinture de guerre",
         swe: "Nekromantad Krigsfärg"
     },
     1757: {
         img: "polter_guised_war_paint",
         eng: "Polter-Guised War Paint",
-        rus: "Боевая краска \"Покров полтергейста\"",
+        rus: "\"Покров полтергейста\" Боевая краска",
         schema: 17295,
-        pol: "Cierpiące dusze | Barwy wojenne",
+        pol: "Cierpiące dusze Barwy wojenne",
         hun: "Kísérteties külső Harci festés",
         bra: "| Paranormal | Tinta de Guerra",
-        fre: "Apparition | Peinture de guerre",
+        fre: "Apparition Peinture de guerre",
         swe: "Begeistrad Krigsfärg"
     },
     1758: {
         img: "neon_ween_war_paint",
         eng: "Neon-ween War Paint",
-        rus: "Боевая краска \"Неоноуин\"",
+        rus: "\"Неоноуин\" Боевая краска",
         schema: 17289,
-        pol: "Neonween | Barwy wojenne",
+        pol: "Neonween Barwy wojenne",
         hun: "Neon-ween Harci festés",
         bra: "| Travessuras de Neon | Tinta de Guerra",
-        fre: "Néonween | Peinture de guerre",
+        fre: "Néonween Peinture de guerre",
         swe: "Neonween Krigsfärg"
     },
     1759: {
         img: "swashbuckled_war_paint",
         eng: "Swashbuckled War Paint",
-        rus: "Боевая краска \"Контрабанда\"",
+        rus: "\"Контрабанда\" Боевая краска",
         schema: 17285,
-        pol: "Pirat | Barwy wojenne",
+        pol: "Pirat Barwy wojenne",
         hun: "Kalózos Harci festés",
         bra: "| Pirata | Tinta de Guerra",
-        fre: "Flibuste | Peinture de guerre",
+        fre: "Flibuste Peinture de guerre",
         swe: "Buckanjärad Krigsfärg"
     },
     1760: {
         img: "broken_bones_war_paint",
         eng: "Broken Bones War Paint",
-        rus: "Боевая краска \"Кости в крошку\"",
+        rus: "\"Кости в крошку\" Боевая краска",
         schema: 17291,
-        pol: "Połamane kości | Barwy wojenne",
+        pol: "Połamane kości Barwy wojenne",
         hun: "Törött csontok Harci festés",
         bra: "| Quebra-Ossos | Tinta de Guerra",
-        fre: "Os broyés | Peinture de guerre",
+        fre: "Os broyés Peinture de guerre",
         swe: "Brutna ben Krigsfärg"
     },
     1761: {
         img: "party_phantoms_war_paint",
         eng: "Party Phantoms War Paint",
-        rus: "Боевая краска \"Дискотека духов\"",
+        rus: "\"Дискотека духов\" Боевая краска",
         schema: 17294,
-        pol: "Imprezowe upiory | Barwy wojenne",
+        pol: "Imprezowe upiory Barwy wojenne",
         hun: "Bulifantomok Harci festés",
         bra: "| Fantasmas Festeiros | Tinta de Guerra",
-        fre: "Fantômes fêtards | Peinture de guerre",
+        fre: "Fantômes fêtards Peinture de guerre",
         swe: "Partyfantomer Krigsfärg"
     },
     1762: {
         img: "misfortunate_war_paint",
         eng: "Misfortunate War Paint",
-        rus: "Боевая краска \"Неудача\"",
+        rus: "\"Неудача\" Боевая краска",
         schema: 17287,
-        pol: "Nieszczęście | Barwy wojenne",
+        pol: "Nieszczęście Barwy wojenne",
         hun: "Szerencsétlen Harci festés",
         bra: "| Desafortunado | Tinta de Guerra",
-        fre: "Colvert | Peinture de guerre",
+        fre: "Colvert Peinture de guerre",
         swe: "Otursbenägen Krigsfärg"
     },
     1763: {
@@ -21188,7 +21239,8 @@ export let dataItems = {
         pol: "Drwina: Pyskaty pacynkarz",
         hun: "Beszólás: A borzasztó bábos",
         bra: "Provocação: O General de Pano",
-        fre: "Raillerie : Marionnettiste grossier"
+        fre: "Raillerie : Marionnettiste grossier",
+        swe: "Hån: Plump buktalare"
     },
     1765: {
         img: "taunt_the_mannbulance",
@@ -21198,7 +21250,8 @@ export let dataItems = {
         pol: "Drwina: Mannbulans!",
         hun: "Beszólás: A Manntőautó!",
         bra: "Provocação: A Mannbulância!",
-        fre: "Raillerie : Mannbulance !"
+        fre: "Raillerie : Mannbulance !",
+        swe: "Hån: Mannbulansen!"
     },
     1766: {
         img: "taunt_bare_knuckle_beatdown",
@@ -21208,7 +21261,8 @@ export let dataItems = {
         pol: "Drwina: Srogi łomot",
         hun: "Beszlás: Pusztakezes lezúzás",
         bra: "Provocação: Batedor de Moscou",
-        fre: "Raillerie : Boxon du boxeur"
+        fre: "Raillerie : Boxon du boxeur",
+        swe: "Hån: Knytnävsknockout"
     },
     1767: {
         img: "taunt_the_homerunners_hobby",
@@ -21218,7 +21272,8 @@ export let dataItems = {
         pol: "Drwina: Hobby chłystka",
         hun: "Beszólás: A hazafutó hobbija",
         bra: "Provocação: Passatempo do Batedor",
-        fre: "Raillerie : un coup de batte et basta"
+        fre: "Raillerie : un coup de batte et basta",
+        swe: "Hån: Springpojkens hobby"
     },
     1768: {
         img: "festive_cover_up",
@@ -21228,7 +21283,8 @@ export let dataItems = {
         pol: "Świąteczna przykrywka",
         hun: "Ünnepi Fedés",
         bra: "Fachada Festiva",
-        fre: "Accoutrement abiétin"
+        fre: "Accoutrement abiétin",
+        swe: "Grann täckmantel"
     },
     1769: {
         img: "el_fiestibrero",
@@ -21244,7 +21300,8 @@ export let dataItems = {
         pol: "Podejrzany prezent",
         bra: "Oferenda Obscura",
         hun: "Aljas Ajándék",
-        fre: "Cadeau sinistre"
+        fre: "Cadeau sinistre",
+        swe: "Gåtfull gåva"
     },
     1771: {
         img: "brain_cane",
@@ -21254,7 +21311,8 @@ export let dataItems = {
         pol: "Laska mózgowa",
         hun: "Agyszúrás",
         bra: "Apunhalada Açucarada",
-        fre: "Sucre d'organe"
+        fre: "Sucre d'organe",
+        swe: "Hjärnpolka"
     },
     1772: {
         img: "cozy_catchers",
@@ -21264,7 +21322,8 @@ export let dataItems = {
         pol: "Lodowate łapacze",
         hun: "Hógolyófogó",
         bra: "Pegadores Aconchegantes",
-        fre: "Boule moufle"
+        fre: "Boule moufle",
+        swe: "Snöfångare"
     },
     1773: {
         img: "the_giftcrafter",
@@ -21274,7 +21333,8 @@ export let dataItems = {
         pol: "Pakowacz prezentów",
         hun: "Ajándékcsináló",
         bra: "O Artesão Agasalhado",
-        fre: "Chapeau lutin"
+        fre: "Chapeau lutin",
+        swe: "Presenttillverkare"
     },
     1774: {
         img: "festive_frames",
@@ -21284,7 +21344,8 @@ export let dataItems = {
         pol: "Bożonarodzeniowe bryle",
         bra: "Óculos Ornamentais",
         hun: "Karácsonyi Keret",
-        fre: "Binocles enguirlandés"
+        fre: "Binocles enguirlandés",
+        swe: "Festliga bågar"
     },
     1775: {
         img: "mooshanka",
@@ -21294,7 +21355,8 @@ export let dataItems = {
         pol: "Karibuszanka",
         hun: "Holdsánka",
         bra: "Ushankalce",
-        fre: "Beuhshanka"
+        fre: "Beuhshanka",
+        swe: "Muushanka"
     },
     1776: {
         img: "elf_defense",
@@ -21304,7 +21366,8 @@ export let dataItems = {
         pol: "Elfia obrona",
         hun: "Manóvédelem",
         bra: "Protetor do Polo Norte",
-        fre: "Delfense"
+        fre: "Delfense",
+        swe: "Tomtelycka"
     },
     1777: {
         img: "gnome_dome",
@@ -21314,7 +21377,8 @@ export let dataItems = {
         pol: "Kartonowy krasnal",
         bra: "Natal Artesanal",
         hun: "Törpfedél",
-        fre: "Gnome de Noël"
+        fre: "Gnome de Noël",
+        swe: "Nisseluva"
     },
     1778: {
         img: "elf_made_bandanna",
@@ -21324,7 +21388,8 @@ export let dataItems = {
         pol: "Wyelfiona bandana",
         hun: "Manó Kendő",
         bra: "Bandana Élfica",
-        fre: "Bandana elfique"
+        fre: "Bandana elfique",
+        swe: "Nissens snusnäsduk"
     },
     1779: {
         img: "seasonal_spring",
@@ -21334,7 +21399,8 @@ export let dataItems = {
         pol: "Sezonowy skoczek",
         hun: "Feltekert Fejfenyő",
         bra: "Espiral de Natal",
-        fre: "Spirale sapin"
+        fre: "Spirale sapin",
+        swe: "Julfjäder"
     },
     1780: {
         img: "elf_ignition",
@@ -21344,7 +21410,8 @@ export let dataItems = {
         pol: "Elfia pożoga",
         hun: "Manógyújtás",
         bra: "Ignição Elfervescente",
-        fre: "Pyrelfe"
+        fre: "Pyrelfe",
+        swe: "Jultändning"
     },
     1781: {
         img: "train_of_thought",
@@ -21354,7 +21421,8 @@ export let dataItems = {
         pol: "Tor myślenia",
         hun: "Mozdonygépész",
         bra: "Fumacinha Polar",
-        fre: "Wagon de tête"
+        fre: "Wagon de tête",
+        swe: "Huvudkonduktör"
     },
     1782: {
         img: "seasonal_employee",
@@ -21364,7 +21432,8 @@ export let dataItems = {
         pol: "Pracownik sezonowy",
         hun: "Szezonális Alkalmazott",
         bra: "Profissional Sazonal",
-        fre: "Employé saisonnier"
+        fre: "Employé saisonnier",
+        swe: "Säsongsanställd"
     },
     1783: {
         img: "reindoonihorns",
@@ -21374,7 +21443,8 @@ export let dataItems = {
         pol: "Reniferożcowe poroże",
         hun: "Rénkornissszarv",
         bra: "Renachifres",
-        fre: "Rennicornes"
+        fre: "Rennicornes",
+        swe: "Renhörningshorn"
     },
     1784: {
         img: "jolly_jester",
@@ -21384,7 +21454,8 @@ export let dataItems = {
         pol: "Świąteczny śmieszek",
         bra: "Bobo do Norte",
         hun: "Boldog Bolondozó",
-        fre: "Bouffon noëlesque"
+        fre: "Bouffon noëlesque",
+        swe: "Munter narr"
     },
     1785: {
         img: "merry_cone",
@@ -21394,7 +21465,8 @@ export let dataItems = {
         pol: "Świąteczny stożek",
         hun: "Vidám Csúcsdísz",
         bra: "Papai Chapéu",
-        fre: "Chapeau pointu de Noël"
+        fre: "Chapeau pointu de Noël",
+        swe: "Munter strut"
     },
     1786: {
         img: "hat_chocolate",
@@ -21404,7 +21476,8 @@ export let dataItems = {
         pol: "Czapka na ciepło",
         hun: "Fejcsokoládé",
         bra: "Chapéulate Quente",
-        fre: "Chapeaucolat chaud"
+        fre: "Chapeaucolat chaud",
+        swe: "Knoppkopp"
     },
     1787: {
         img: "oh_deer",
@@ -21414,7 +21487,8 @@ export let dataItems = {
         pol: "Ale jeleń!",
         hun: "Szarvamra!",
         bra: "Cervos Me Mordam",
-        fre: "Cerf-tête"
+        fre: "Cerf-tête",
+        swe: "Rudolf"
     },
     1788: {
         img: "taunt_doctors_defibrillators",
@@ -21424,7 +21498,8 @@ export let dataItems = {
         pol: "Drwina: Defibrylatory doktora",
         bra: "Provocação: Desfibrilador do Doutor",
         hun: "Beszólás: Orvosi defibrillátor",
-        fre: "Raillerie : Défibrillateurs du docteur"
+        fre: "Raillerie : Défibrillateurs du docteur",
+        swe: "Hån: Doktorns defibrillatorer"
     },
     1789: {
         img: "taunt_shooters_stakeout",
@@ -21434,7 +21509,8 @@ export let dataItems = {
         pol: "Drwina: Obcykany obserwator",
         hun: "Beszólás: Lövészállás",
         bra: "Provocação: A Tocaia do Atirador",
-        fre: "Raillerie : Planque du tireur"
+        fre: "Raillerie : Planque du tireur",
+        swe: "Hån: Spaningsuppdrag"
     },
     1790: {
         img: "taunt_the_hot_wheeler",
@@ -21444,7 +21520,8 @@ export let dataItems = {
         pol: "Drwina: Spalacz gum",
         hun: "Beszólás: Tüzes járgány",
         bra: "Provocação: Triciclo Tunado",
-        fre: "Raillerie : Chauffard"
+        fre: "Raillerie : Chauffard",
+        swe: "Hån: Asfaltsbrännaren"
     },
     1791: {
         img: "undercover_brolly",
@@ -21454,7 +21531,8 @@ export let dataItems = {
         pol: "Przeciwsłoneczna przykrywka",
         hun: "Napernyőfedett Ügynök",
         fre: "Ombrelle incognito",
-        bra: "Guarda-Solitário"
+        bra: "Guarda-Solitário",
+        swe: "Paraflax"
     },
     1792: {
         img: "team_player",
@@ -21513,7 +21591,8 @@ export let dataItems = {
         bra: "Pugnador Praiano",
         hun: "Mezítlábas Bunyós",
         fre: "Baroudeur en claquettes",
-        sch: "赤足搏命汉"
+        sch: "赤足搏命汉",
+        swe: "Barfota bråkmakare"
     },
     1797: {
         img: "hawaiian_hunter",
@@ -21524,7 +21603,8 @@ export let dataItems = {
         bra: "Atirador Havaiano",
         hun: "Hawaii Vadász",
         fre: "Chasseur hawaïen",
-        sch: "夏威夷猎手"
+        sch: "夏威夷猎手",
+        swe: "Tropisk jägare"
     },
     1798: {
         img: "chaser",
@@ -21535,7 +21615,8 @@ export let dataItems = {
         bra: "O Perseguidor",
         hun: "Üldöző",
         fre: "Trench",
-        sch: "追缉风衣"
+        sch: "追缉风衣",
+        swe: "Förföljare"
     },
     1799: {
         img: "western_wraps",
@@ -21546,7 +21627,8 @@ export let dataItems = {
         bra: "Agasalho do Velho Oeste",
         hun: "Nyugati Hacuka",
         fre: "Blouson du Far West",
-        sch: "西部荒野夹克"
+        sch: "西部荒野夹克",
+        swe: "Vilda västen"
     },
     1800: {
         img: "pests_pads",
@@ -21569,7 +21651,8 @@ export let dataItems = {
         bra: "Balde de Miolos de Boston",
         hun: "Bostoni Agyvödör",
         fre: "Protège-caboche",
-        sch: "波士顿护脑盔"
+        sch: "波士顿护脑盔",
+        swe: "Bostonhink"
     },
     1802: {
         img: "ripped_rider",
@@ -21580,7 +21663,8 @@ export let dataItems = {
         bra: "O Motoqueiro Marrento",
         hun: "Szakadt Széltoló",
         fre: "Doudoune déchirée",
-        swe: "Tuff knutte"
+        swe: "Tuff knutte",
+        sch: "撕袖夹克"
     },
     1803: {
         img: "fizzy_pharmacist",
@@ -21603,7 +21687,8 @@ export let dataItems = {
         bra: "O Detetive",
         hun: "Nyomozó",
         fre: "Fédora",
-        sch: "警部之帽"
+        sch: "警部之帽",
+        swe: "Detektiv"
     },
     1805: {
         img: "hawaiian_hangover",
@@ -21614,7 +21699,8 @@ export let dataItems = {
         bra: "A Ressaca do Recesso",
         hun: "Hawaii Másnaposság",
         fre: "Gueule de bois tropicale",
-        sch: "宿醉夏威夷"
+        sch: "宿醉夏威夷",
+        swe: "Tropisk baksmälla"
     },
     1806: {
         img: "tropical_camo",
@@ -21673,7 +21759,8 @@ export let dataItems = {
         bra: "Cabeça Explosiva",
         hun: "Agydurrantó",
         fre: "Casque explosif",
-        swe: "Hjärnsprängare"
+        swe: "Hjärnsprängare",
+        sch: "头脑疯爆"
     },
     1811: {
         img: "monsieur_grenouille",
@@ -21701,7 +21788,7 @@ export let dataItems = {
         schema: 31263,
         pol: "Wulkaniczny wojownik",
         fre: "Kimono flamboyant",
-        sch: "火焰空手道服"
+        sch: "火山道服"
     },
     1814: {
         img: "rocko",
@@ -21733,7 +21820,8 @@ export let dataItems = {
         bra: "Inquisidor Demolidor",
         fre: "Inquisiteur nocturne",
         hun: "Rémes Kalap",
-        sch: "暗夜之魇"
+        sch: "暗夜之魇",
+        swe: "Pilgrimsbrätte"
     },
     1817: {
         img: "more_gun_marshal",
@@ -21744,7 +21832,8 @@ export let dataItems = {
         bra: "Marechal Munido",
         fre: "Marshal surarmé",
         hun: "„Több Fegyver” Rendőrbíró",
-        sch: "枪多势众"
+        sch: "枪多势众",
+        swe: "Ammunitionsmarskalk"
     },
     1818: {
         img: "hunting_cloak",
@@ -21755,7 +21844,8 @@ export let dataItems = {
         fre: "Veston de chasse",
         hun: "Vadászköpeny",
         pol: "Peleryna polującego",
-        sch: "猎头者的潜行服"
+        sch: "猎头者的潜行服",
+        swe: "Jaktmantel"
     },
     1819: {
         img: "the_imps_imprint",
@@ -21766,7 +21856,8 @@ export let dataItems = {
         bra: "O Colete do Capetinha",
         fre: "La veste du vandale",
         hun: "Ördögi Lenyomat",
-        sch: "怪衫酷孩"
+        sch: "怪衫酷孩",
+        swe: "Odågans symbol"
     },
     1820: {
         img: "starlight_sorcerer",
@@ -21777,7 +21868,8 @@ export let dataItems = {
         bra: "Feiticeiro Estrelado",
         fre: "Sorcier du firmament",
         hun: "Csillagos Varázsló",
-        sch: "星辉术士"
+        sch: "星辉术士",
+        swe: "Stjärnmagiker"
     },
     1821: {
         img: "beaten_and_bruised",
@@ -21788,7 +21880,8 @@ export let dataItems = {
         bra: "Espancado e Esmurrado",
         fre: "Rossé et cabossé",
         hun: "Legyőzve és Összeverve",
-        sch: "鼻青脸肿"
+        sch: "鼻青脸肿",
+        swe: "Illa tilltygad"
     },
     1822: {
         img: "bombard_brigadier",
@@ -21798,7 +21891,8 @@ export let dataItems = {
         bra: "Brigadeiro Bombardeiro",
         fre: "Brigadier bombardier",
         hun: "Bombázó-brigadéros",
-        pol: "Bombowy brygadier"
+        pol: "Bombowy brygadier",
+        swe: "Bombbrigadör"
     },
     1823: {
         img: "firearm_protector",
@@ -21809,7 +21903,8 @@ export let dataItems = {
         bra: "Bombeiro Incivil",
         fre: "Soldat des flammes",
         hun: "Tűzfegyver-vizsgáló",
-        sch: "消防保护盔"
+        sch: "消防保护盔",
+        swe: "Brandskydd"
     },
     1824: {
         img: "horror_shawl",
@@ -21820,7 +21915,8 @@ export let dataItems = {
         bra: "Xale de Horrores",
         fre: "Capuchon de l'horreur",
         hun: "Rémcsuklya",
-        sch: "骇然硕物"
+        sch: "骇然硕物",
+        swe: "Skräcksjal"
     },
     1825: {
         img: "the_turncoat",
@@ -21831,7 +21927,8 @@ export let dataItems = {
         fre: "Redingote",
         hun: "Nagykabát",
         pol: "Renegat",
-        sch: "无间道大衣"
+        sch: "无间道大衣",
+        swe: "Överlöpare"
     },
     1826: {
         img: "dustbowl_devil",
@@ -21842,7 +21939,8 @@ export let dataItems = {
         bra: "Demônio de Dustbowl",
         fre: "Diable du Dustbowl",
         hun: "A Homokvihar Ördöge",
-        sch: "沙场鬼才"
+        sch: "沙场鬼才",
+        swe: "Ökenfan"
     },
     1827: {
         img: "the_masked_fiend",
@@ -21853,7 +21951,8 @@ export let dataItems = {
         bra: "A Máscara do Malvado",
         fre: "Démon masqué",
         hun: "Álarcos Ördög",
-        sch: "覆面小鬼"
+        sch: "覆面小鬼",
+        swe: "Maskerad plågoande"
     },
     1828: {
         img: "safety_stripes",
@@ -21864,7 +21963,8 @@ export let dataItems = {
         bra: "Listras Refletivas",
         fre: "Bandes réfléchissantes",
         hun: "Láthatósági Csíkok",
-        sch: "安保条纹服"
+        sch: "安保条纹服",
+        swe: "Reflexränder"
     },
     1829: {
         img: "road_block",
@@ -21875,7 +21975,8 @@ export let dataItems = {
         fre: "Route barrée",
         hun: "Úttorlasz",
         pol: "Blokada drogowa",
-        sch: "拦路恶霸"
+        sch: "拦路恶霸",
+        swe: "Vägspärr"
     },
     1830: {
         img: "the_lavish_labwear",
@@ -21886,7 +21987,8 @@ export let dataItems = {
         fre: "Blouse de luxe",
         hun: "Fényűző Laborköpeny",
         pol: "Litościwy laborant",
-        sch: "竭谋肆恶"
+        sch: "竭谋肆恶",
+        swe: "Schangtil labbrock"
     },
     1831: {
         img: "headhunters_brim",
@@ -21897,7 +21999,8 @@ export let dataItems = {
         fre: "Chapeau du chasseur de têtes",
         hun: "Fejvadász-kalap",
         pol: "Kapelusz łowcy głów",
-        sch: "猎头者的宽檐帽"
+        sch: "猎头者的宽檐帽",
+        swe: "Huvudjägarens brätte"
     },
     1832: {
         img: "cranial_cowl",
@@ -21908,7 +22011,8 @@ export let dataItems = {
         fre: "Capuchon crânien",
         hun: "Koponyakámzsa",
         pol: "Czaszkowy kaptur",
-        sch: "颅骨兜帽"
+        sch: "颅骨兜帽",
+        swe: "Skallekåpa"
     },
     1833: {
         img: "alcoholic_automaton",
@@ -21919,7 +22023,8 @@ export let dataItems = {
         bra: "Autômato Movido a Álcool",
         fre: "Automate alcoolique",
         hun: "Alkoholos Automata",
-        sch: "嗜酒机体"
+        sch: "嗜酒机体",
+        swe: "Fyllbult"
     },
     1834: {
         img: "road_rage",
@@ -21930,7 +22035,8 @@ export let dataItems = {
         fre: "Rage au volant",
         hun: "Országúti Dühöngés",
         pol: "Agresja drogowa",
-        sch: "公路暴徒"
+        sch: "公路暴徒",
+        swe: "Vägbuse"
     },
     1835: {
         img: "victorian_villainy",
@@ -21941,7 +22047,8 @@ export let dataItems = {
         fre: "Infamie victorienne",
         hun: "Viktoriánus Vérengzés",
         pol: "Wiktoriański winowajca",
-        sch: "邪智典范"
+        sch: "邪智典范",
+        swe: "Viktoriansk skurk"
     },
     1836: {
         img: "propaniac",
@@ -21952,7 +22059,8 @@ export let dataItems = {
         bra: "Propaníaco",
         fre: "Propaniaque",
         hun: "Gázos Séró",
-        sch: "喷焰莫西干"
+        sch: "喷焰莫西干",
+        swe: "Propan"
     },
     1837: {
         img: "the_onimann",
@@ -21963,7 +22071,8 @@ export let dataItems = {
         bra: "Onimann",
         fre: "Onimann",
         hun: "Onimann",
-        sch: "鬼侍假面"
+        sch: "鬼侍假面",
+        swe: "Onimann"
     },
     1838: {
         img: "mishas_maw",
@@ -21974,7 +22083,8 @@ export let dataItems = {
         fre: "Tête d'ours",
         hun: "Mackópofa",
         pol: "Niedźwiedzia przysługa",
-        sch: "巨熊米沙"
+        sch: "巨熊米沙",
+        swe: "Mishas mule"
     },
     1839: {
         img: "cabinet_mann",
@@ -21985,7 +22095,8 @@ export let dataItems = {
         bra: "Fliperamann",
         fre: "Manitou de l'arcade",
         hun: "Játékgép-gépész",
-        sch: "头号街机"
+        sch: "头号街机",
+        swe: "Arkadmannen"
     },
     1840: {
         img: "fire_breather",
@@ -21996,7 +22107,8 @@ export let dataItems = {
         bra: "O Bafo do Dragão",
         fre: "Cracheur de feu",
         hun: "Tűzköpő",
-        sch: "炎息小龙"
+        sch: "炎息小龙",
+        swe: "Eldsprutare"
     },
     1841: {
         img: "magical_mount",
@@ -22007,7 +22119,8 @@ export let dataItems = {
         bra: "Montaria Mágica",
         fre: "Monture magique",
         hun: "Mágikus Hátas",
-        sch: "独角兽坐骑"
+        sch: "独角兽坐骑",
+        swe: "Magiskt riddjur"
     },
     1842: {
         img: "pony_express",
@@ -22017,36 +22130,37 @@ export let dataItems = {
         pol: "Poczta konna",
         bra: "A Cavalgada Maldita",
         fre: "Le Poney Express",
-        sch: "小马快跑"
+        sch: "小马快跑",
+        swe: "Ponnyexpressen"
     },
     1843: {
         img: "cream_corned_war_paint",
         eng: "Cream Corned War Paint",
-        rus: "Боевая краска \"Карамельная кукуруза\"",
+        rus: "\"Карамельная кукуруза\" Боевая краска",
         schema: 17401,
-        pol: "Krem kukurydziany | Barwy wojenne",
+        pol: "Krem kukurydziany Barwy wojenne",
         bra: "| Creme de Abóbora | Tinta de Guerra",
-        fre: "Estampillé maïs | Peinture de guerre",
+        fre: "Estampillé maïs Peinture de guerre",
         hun: "Cukorkabevonat Harci festés",
         swe: "Stuvad majs Krigsfärg"
     },
     1844: {
         img: "hypergon_war_paint",
         eng: "Hypergon War Paint",
-        rus: "Боевая краска \"Гиперугольник\"",
+        rus: "\"Гиперугольник\" Боевая краска",
         schema: 17408,
-        pol: "Hipergon | Barwy wojenne",
+        pol: "Hipergon Barwy wojenne",
         bra: "| Hipergono | Tinta de Guerra",
-        fre: "Hypergone | Peinture de guerre",
+        fre: "Hypergone Peinture de guerre",
         hun: "Húhatszög Harci festés",
         swe: "Hypergonal Krigsfärg"
     },
     1845: {
         img: "health_and_hell_green_war_paint",
         eng: "Health and Hell (Green) War Paint",
-        rus: "Боевая краска \"Польза преисподней (зелёная)\"",
+        rus: "\"Польза преисподней (зелёная)\" Боевая краска",
         schema: 17407,
-        pol: "Zdrowie i piekło (zieleń) | Barwy wojenne",
+        pol: "Zdrowie i piekło (zieleń) Barwy wojenne",
         bra: "| Verde e Inferno | Tinta de Guerra",
         fre: "Vie et enfer (vert) | Peinture de guerre",
         hun: "Élet és Pokol (zöld) Harci festés",
@@ -22055,88 +22169,88 @@ export let dataItems = {
     1846: {
         img: "health_and_hell_war_paint",
         eng: "Health and Hell War Paint",
-        rus: "Боевая краска \"Польза преисподней\"",
+        rus: "\"Польза преисподней\" Боевая краска",
         schema: 17406,
-        pol: "Zdrowie i piekło | Barwy wojenne",
+        pol: "Zdrowie i piekło Barwy wojenne",
         bra: "| Vida e Inferno | Tinta de Guerra",
-        fre: "Vie et enfer | Peinture de guerre",
+        fre: "Vie et enfer Peinture de guerre",
         hun: "Élet és Pokol Harci festés",
         swe: "Hälsa och helvete Krigsfärg"
     },
     1847: {
         img: "sunriser_war_paint",
         eng: "Sunriser War Paint",
-        rus: "Боевая краска \"Вестник рассвета\"",
+        rus: "\"Вестник рассвета\" Боевая краска",
         schema: 17402,
-        pol: "Wschód słońca | Barwy wojenne",
+        pol: "Wschód słońca Barwy wojenne",
         bra: "| Forja Solar | Tinta de Guerra",
-        fre: "Force solaire | Peinture de guerre",
+        fre: "Force solaire Peinture de guerre",
         hun: "Napkeltegető Harci festés",
         swe: "Solgångare Krigsfärg"
     },
     1848: {
         img: "chilly_autumn_war_paint",
         eng: "Chilly Autumn War Paint",
-        rus: "Боевая краска \"Прохладная осень\"",
+        rus: "\"Прохладная осень\" Боевая краска",
         schema: 17410,
-        pol: "Chłodna jesień | Barwy wojenne",
+        pol: "Chłodna jesień Barwy wojenne",
         bra: "| Calafrios em Outono | Tinta de Guerra",
-        fre: "Frimas d'automne | Peinture de guerre",
+        fre: "Frimas d'automne Peinture de guerre",
         hun: "Hűvös Ősz Harci festés",
         swe: "Kylig höst Krigsfärg"
     },
     1849: {
         img: "pumpkin_plastered_war_paint",
         eng: "Pumpkin Plastered War Paint",
-        rus: "Боевая краска \"Тыквенный трафарет\"",
+        rus: "\"Тыквенный трафарет\" Боевая краска",
         schema: 17409,
-        pol: "Dyniowa dekoracja | Barwy wojenne",
+        pol: "Dyniowa dekoracja Barwy wojenne",
         bra: "| Pintura de Abóbora | Tinta de Guerra",
-        fre: "Torché à la citrouille | Peinture de guerre",
+        fre: "Torché à la citrouille Peinture de guerre",
         hun: "Tökre Mázolt Harci festés",
         swe: "Pumpapackad Krigsfärg"
     },
     1850: {
         img: "metalized_soul_war_paint",
         eng: "Metalized Soul War Paint",
-        rus: "Боевая краска \"Металлическая душа\"",
+        rus: "\"Металлическая душа\" Боевая краска",
         schema: 17404,
-        pol: "Metaliczna dusza | Barwy wojenne",
+        pol: "Metaliczna dusza Barwy wojenne",
         bra: "| Alma Metalizada | Tinta de Guerra",
-        fre: "Âme métallisée | Peinture de guerre",
+        fre: "Âme métallisée Peinture de guerre",
         hun: "Fémlelkű Harci festés",
         swe: "Metallisk själ Krigsfärg"
     },
     1851: {
         img: "ghoul_blaster_war_paint",
         eng: "Ghoul Blaster War Paint",
-        rus: "Боевая краска \"Уборщик за призраками\"",
+        rus: "\"Уборщик за призраками\" Боевая краска",
         schema: 17400,
-        pol: "Pogromca duchów | Barwy wojenne",
+        pol: "Pogromca duchów Barwy wojenne",
         bra: "| Caça-Espíritos | Tinta de Guerra",
-        fre: "Brise-fantôme | Peinture de guerre",
+        fre: "Brise-fantôme Peinture de guerre",
         hun: "Szellemaprító Harci festés",
         swe: "Spöksprängare Krigsfärg"
     },
     1852: {
         img: "bonzo_gnawed_war_paint",
         eng: "Bonzo Gnawed War Paint",
-        rus: "Боевая краска \"Укусы Бонзо\"",
+        rus: "\"Укусы Бонзо\" Боевая краска",
         schema: 17405,
-        pol: "Obgryzający Bonzo | Barwy wojenne",
+        pol: "Obgryzający Bonzo Barwy wojenne",
         bra: "| Tormento do Bonzo | Tinta de Guerra",
-        fre: "Bonzo rongé | Peinture de guerre",
+        fre: "Bonzo rongé Peinture de guerre",
         hun: "Bonzo-rágcsálta Harci festés",
         swe: "Bonzo-biten Krigsfärg"
     },
     1853: {
         img: "sacred_slayer_war_paint",
         eng: "Sacred Slayer War Paint",
-        rus: "Боевая краска \"Праведный палач\"",
+        rus: "\"Праведный палач\" Боевая краска",
         schema: 17403,
-        pol: "Święty zabójca | Barwy wojenne",
+        pol: "Święty zabójca Barwy wojenne",
         bra: "| Assassino Sagrado | Tinta de Guerra",
-        fre: "Occision sacrée | Peinture de guerre",
+        fre: "Occision sacrée Peinture de guerre",
         hun: "Felszentelt Fegyverzet Harci festés",
         swe: "Helgad baneman Krigsfärg"
     },
@@ -22148,7 +22262,8 @@ export let dataItems = {
         bra: "Provocação: Canhão do Cachaceiro",
         fre: "Raillerie : Le canon du poivrot",
         hun: "Beszólás: Részeges ágyútöltelék",
-        pol: "Drwina: Armata alkoholika"
+        pol: "Drwina: Armata alkoholika",
+        swe: "Hån: Drunk Mann's Cannon"
     },
     1855: {
         img: "taunt_shanty_shipmate",
@@ -22158,7 +22273,8 @@ export let dataItems = {
         pol: "Drwina: Pijackie szanty",
         bra: "Provocação: O Marambaia",
         fre: "Raillerie : Terre en vue",
-        hun: "Beszólás: Tintás tengerész"
+        hun: "Beszólás: Tintás tengerész",
+        swe: "Hån: Shanty Shipmate"
     },
     1856: {
         img: "taunt_texas_twirl_em",
@@ -22168,7 +22284,8 @@ export let dataItems = {
         pol: "Drwina: Teksański tupaniec",
         bra: "Provocação: Pula-Laço Texano",
         fre: "Raillerie : Pro du lasso",
-        hun: "Beszólás: Texasi tornádó"
+        hun: "Beszólás: Texasi tornádó",
+        swe: "Hån: Texas Twirl 'Em"
     },
     1857: {
         img: "taunt_the_travel_agent",
@@ -22177,7 +22294,8 @@ export let dataItems = {
         schema: 31290,
         bra: "Provocação: O Agente de Viagem",
         fre: "Raillerie : L'hélico-gadget",
-        hun: "Beszólás: Az utazó ügynök"
+        hun: "Beszólás: Az utazó ügynök",
+        swe: "Hån: Resebyrån"
     },
     1858: {
         img: "taunt_the_scaredycat",
@@ -22187,7 +22305,8 @@ export let dataItems = {
         bra: "Provocação: Que Susto!",
         fre: "Raillerie : La poule mouillée !",
         hun: "Beszólás: A gyáva nyúl!",
-        pol: "Drwina: Płochliwy jak zając!"
+        pol: "Drwina: Płochliwy jak zając!",
+        swe: "Hån: Räddhare!"
     },
     1859: {
         img: "lumbercap",
@@ -22198,7 +22317,8 @@ export let dataItems = {
         bra: "Chapéu do Lenhador",
         fre: "Chapeau de bûcheron",
         hun: "Favágósapka",
-        sch: "采伐工之帽"
+        sch: "采伐工之帽",
+        swe: "Timmerkeps"
     },
     1860: {
         img: "the_soft_hard_hat",
@@ -22209,7 +22329,8 @@ export let dataItems = {
         bra: "O Lã-pacete",
         fre: "Casque tricoté",
         hun: "Puha Védősisak",
-        sch: "粗纺精装头盔"
+        sch: "粗纺精装头盔",
+        swe: "Stickad skyddshjälm"
     },
     1861: {
         img: "heavy_heating",
@@ -22220,7 +22341,8 @@ export let dataItems = {
         bra: "Aquecimento Pesado",
         fre: "Réchauffe-Heavy",
         hun: "Bemelegítő",
-        sch: "热血重装"
+        sch: "热血重装",
+        swe: "Tung värme"
     },
     1862: {
         img: "arctic_mole",
@@ -22231,7 +22353,8 @@ export let dataItems = {
         bra: "Toupeira do Ártico",
         fre: "Taupe arctique",
         hun: "Sarki Vakond",
-        sch: "极地鼹鼠"
+        sch: "极地鼹鼠",
+        swe: "Arktisk mullvad"
     },
     1863: {
         img: "glasgow_bankroll",
@@ -22242,7 +22365,8 @@ export let dataItems = {
         bra: "Gala de Glasgow",
         fre: "Flambeur de Glasgow",
         hun: "Glasgow-i Pénzeszsák",
-        sch: "格拉斯哥老钱"
+        sch: "格拉斯哥老钱",
+        swe: "Glasgow-höjdare"
     },
     1864: {
         img: "partizan",
@@ -22264,7 +22388,8 @@ export let dataItems = {
         bra: "Sobretudo do Sangue-Frio",
         fre: "Manteau d'assassin",
         hun: "Hidegvérű Kabát",
-        sch: "冷血大衣"
+        sch: "冷血大衣",
+        swe: "Kallblodig kappa"
     },
     1866: {
         img: "bulb_bonnet",
@@ -22275,7 +22400,8 @@ export let dataItems = {
         bra: "Ornamento do Briguento",
         fre: "Bonnet à boule",
         hun: "Gömbdísz Sapka",
-        sch: "圣诞彩球盔"
+        sch: "圣诞彩球盔",
+        swe: "Julkula"
     },
     1867: {
         img: "crosshair_cardigan",
@@ -22286,7 +22412,8 @@ export let dataItems = {
         bra: "Cardigã do Caçador",
         fre: "Cardigan du tireur",
         hun: "Szálkeresztes Kardigán",
-        sch: "准星羊毛衫"
+        sch: "准星羊毛衫",
+        swe: "Korshårskofta"
     },
     1868: {
         img: "oktoberfester",
@@ -22297,7 +22424,8 @@ export let dataItems = {
         bra: "Oktoberfesteiro",
         fre: "Oktoberfêtard",
         hun: "Oktoberfest-elő",
-        sch: "啤酒狂欢客"
+        sch: "啤酒狂欢客",
+        swe: "Oktoberfestare"
     },
     1869: {
         img: "the_cool_warm_sweater",
@@ -22308,7 +22436,8 @@ export let dataItems = {
         bra: "O Lã-gasalho",
         fre: "Pull en laine",
         hun: "Menő Meleg Pulóver",
-        sch: "寒冬暖意毛衣"
+        sch: "寒冬暖意毛衣",
+        swe: "Cool varm tröja"
     },
     1870: {
         img: "ol_reliable",
@@ -22319,7 +22448,8 @@ export let dataItems = {
         bra: "Velharia Vigorosa",
         fre: "L'incassable",
         hun: "A Jó Öreg",
-        sch: "百炼战盔"
+        sch: "百炼战盔",
+        swe: "Gamle trofast"
     },
     1871: {
         img: "underminers_overcoat",
@@ -22330,7 +22460,8 @@ export let dataItems = {
         bra: "Casacão do Construtor",
         fre: "Manteau du sapeur-minier",
         hun: "Az Aláásó Felöltője",
-        sch: "穴居怪客"
+        sch: "穴居怪客",
+        swe: "Gruvarbetarens överrock"
     },
     1872: {
         img: "plaid_lad",
@@ -22341,7 +22472,8 @@ export let dataItems = {
         bra: "Chapéu Xadrez do Escocês",
         fre: "Béret écossais",
         hun: "Skótkockás Legény",
-        sch: "花呢格纹小伙"
+        sch: "花呢格纹小伙",
+        swe: "Skotskrutig keps"
     },
     1873: {
         img: "firebrand",
@@ -22352,7 +22484,8 @@ export let dataItems = {
         bra: "Manifestante Flamejante",
         fre: "Révolution ardente",
         hun: "Égetnivaló",
-        sch: "反抗军大衣"
+        sch: "反抗军大衣",
+        swe: "Eldmärkt"
     },
     1874: {
         img: "frostbite_bonnet",
@@ -22363,7 +22496,8 @@ export let dataItems = {
         bra: "Chapéu do Sangue-Frio",
         fre: "Chapka rembourrée",
         hun: "Fagyálló Usánka",
-        sch: "覆霜皮帽"
+        sch: "覆霜皮帽",
+        swe: "Frostbiten usjanka"
     },
     1875: {
         img: "infiltrators_insulation",
@@ -22374,7 +22508,8 @@ export let dataItems = {
         bra: "Isolamento do Infiltrador",
         fre: "Sous couverture",
         hun: "Beszivárgó-szigetelés",
-        sch: "渗透者的御寒服"
+        sch: "渗透者的御寒服",
+        swe: "Infiltratörens tröja"
     },
     1876: {
         img: "the_wooly_pulli",
@@ -22385,7 +22520,8 @@ export let dataItems = {
         bra: "O Suéter do Cirurgião",
         fre: "Pullüber",
         hun: "Gyapjúpulcsi",
-        sch: "柔顺羊毛衫"
+        sch: "柔顺羊毛衫",
+        swe: "P-ull-over"
     },
     1877: {
         img: "colonel_kringle",
@@ -22396,7 +22532,8 @@ export let dataItems = {
         bra: "Coronel Noel",
         fre: "Colonel Noël",
         hun: "Télapó Ezredes",
-        sch: "圣诞上校"
+        sch: "圣诞上校",
+        swe: "Kapten Klapp"
     },
     1878: {
         img: "battle_bear",
@@ -22407,7 +22544,8 @@ export let dataItems = {
         bra: "Ursinho de Guerra",
         fre: "Ourson de combat",
         hun: "Harci Maci",
-        sch: "战斗小熊"
+        sch: "战斗小熊",
+        swe: "Stridsbamse"
     },
     1879: {
         img: "motley_sleeves",
@@ -22418,7 +22556,8 @@ export let dataItems = {
         bra: "Mangas Maneiras",
         fre: "Tatoué de partout",
         hun: "Tarka Karok",
-        sch: "花臂混混"
+        sch: "花臂混混",
+        swe: "Brokiga ärmar"
     },
     1880: {
         img: "festive_rack",
@@ -22429,7 +22568,8 @@ export let dataItems = {
         bra: "Galhadas Festivas",
         fre: "Bois festifs",
         hun: "Ünnepi Agancs",
-        sch: "节日鹿角"
+        sch: "节日鹿角",
+        swe: "Festlig krona"
     },
     1881: {
         img: "trappers_flap",
@@ -22440,7 +22580,8 @@ export let dataItems = {
         bra: "Armadilheiro Aquecido",
         fre: "Toque du trappeur",
         hun: "Prémvadász Prémsapka",
-        sch: "捕猎者的绒皮帽"
+        sch: "捕猎者的绒皮帽",
+        swe: "Pompongmössa"
     },
     1882: {
         img: "taunt_russian_rubdown",
@@ -22450,7 +22591,8 @@ export let dataItems = {
         pol: "Drwina: Odpicowany oręż",
         bra: "Provocação: Limpeza Pesada",
         fre: "Raillerie : Astiquage à la russe.",
-        hun: "Beszólás: Orosz tisztogatás"
+        hun: "Beszólás: Orosz tisztogatás",
+        swe: "Hån: Rysk rutin"
     },
     1883: {
         img: "taunt_tailored_terminal",
@@ -22460,7 +22602,8 @@ export let dataItems = {
         pol: "Drwina: Teczkowy terminal",
         bra: "Provocação: Terminal Portátil",
         fre: "Raillerie : Terminal sur mesure.",
-        hun: "Beszólás: Személyi terminál"
+        hun: "Beszólás: Személyi terminál",
+        swe: "Hån: Skräddarsydd terminal"
     },
     1884: {
         img: "taunt_roasty_toasty",
@@ -22470,7 +22613,8 @@ export let dataItems = {
         pol: "Drwina: Pieczone pianki",
         bra: "Provocação: Acampado e Tostado",
         fre: "Raillerie : Grillade au coin du feu.",
-        hun: "Beszólás: Pirító Piró"
+        hun: "Beszólás: Pirító Piró",
+        swe: "Hån: Lägereldsmys"
     },
     1885: {
         img: "stealth_bomber",
@@ -22480,7 +22624,8 @@ export let dataItems = {
         bra: "Bombardeiro Sorrateiro",
         fre: "Le pantalon camouflage",
         hun: "Lopakodó Bombázó",
-        sch: "潜行爆破挂带"
+        sch: "潜行爆破挂带",
+        swe: "Smygbyxor"
     },
     1886: {
         img: "le_professionnel",
@@ -22500,7 +22645,8 @@ export let dataItems = {
         fre: "Contremaitre",
         hun: "Rakodómunkás",
         bra: "Construtor de Carga",
-        sch: "货仓建设工"
+        sch: "货仓建设工",
+        swe: "Reflexväst"
     },
     1888: {
         img: "blast_bowl",
@@ -22511,7 +22657,8 @@ export let dataItems = {
         bra: "O Capacete de Stickies",
         fre: "La tête dure",
         hun: "Bombasisak",
-        sch: "爆弹圆顶盔"
+        sch: "爆弹圆顶盔",
+        swe: "Risktagarn"
     },
     1889: {
         img: "heavy_metal",
@@ -22531,7 +22678,8 @@ export let dataItems = {
         bra: "Fora-da-Lei Seca",
         fre: "Fédora du contrebandier",
         hun: "Karimás Szeszcsempész",
-        sch: "私酒贩运商"
+        sch: "私酒贩运商",
+        swe: "Hembrännaren"
     },
     1891: {
         img: "medical_emergency",
@@ -22542,7 +22690,8 @@ export let dataItems = {
         bra: "Emergência Médica",
         fre: "Urgence médicale",
         hun: "Orvosi Vészhelyzet",
-        sch: "医疗急救包"
+        sch: "医疗急救包",
+        swe: "Nödsituation"
     },
     1892: {
         img: "bushman",
@@ -22553,7 +22702,8 @@ export let dataItems = {
         bra: "O Homem Robusto do Arbusto",
         fre: "Le bushman",
         hun: "Bozótjáró",
-        sch: "丛林猛男"
+        sch: "丛林猛男",
+        swe: "Bushmannen"
     },
     1893: {
         img: "firestalker",
@@ -22564,7 +22714,8 @@ export let dataItems = {
         bra: "O Detetive Elementar",
         fre: "Le détective chaud bouillant",
         hun: "Tűzvadász",
-        sch: "火场密客"
+        sch: "火场密客",
+        swe: "Elementär mössa"
     },
     1894: {
         img: "brothers_in_blues",
@@ -22575,7 +22726,8 @@ export let dataItems = {
         bra: "Chapéu do Cara de Pau",
         fre: "Les BLU Brothers",
         hun: "Blues Testvérek",
-        sch: "蓝调兄弟帽"
+        sch: "蓝调兄弟帽",
+        swe: "Bluesbröder"
     },
     1895: {
         img: "prohibition_opposition",
@@ -22586,7 +22738,8 @@ export let dataItems = {
         bra: "Oposição à Proibição",
         fre: "Antiprohibition",
         hun: "Tilalomellenző",
-        sch: "禁酒反对派"
+        sch: "禁酒反对派",
+        swe: "Förbudsmotstånd"
     },
     1896: {
         img: "preventative_measure",
@@ -22597,7 +22750,8 @@ export let dataItems = {
         bra: "Medida Preventiva",
         fre: "Mesure préventive",
         hun: "Megelőző Intézkedés",
-        sch: "有备无患背心"
+        sch: "有备无患背心",
+        swe: "Förebyggande åtgärd"
     },
     1897: {
         img: "hazard_handler",
@@ -22607,7 +22761,9 @@ export let dataItems = {
         pol: "Ryzykowna robota",
         bra: "Equipamento de Proteção Total",
         fre: "Visière à toute épreuve",
-        hun: "Veszélykezelő"
+        hun: "Veszélykezelő",
+        sch: "危险品处理员",
+        swe: "Säkerhetsansvarig"
     },
     1898: {
         img: "soho_sleuth",
@@ -22618,7 +22774,8 @@ export let dataItems = {
         bra: "Investigador Londrino",
         fre: "Le limier londonien",
         hun: "Sohói Szimat",
-        sch: "苏豪神探"
+        sch: "苏豪神探",
+        swe: "Snokrock"
     },
     1899: {
         img: "close_quarters_cover",
@@ -22628,7 +22785,9 @@ export let dataItems = {
         pol: "Bandana bliskiej batalii",
         bra: "Semblante Sólido da Serpente",
         fre: "Combat rapproché",
-        hun: "Közelharci Fedezék"
+        hun: "Közelharci Fedezék",
+        sch: "近身头带",
+        swe: "Närsynt pannband"
     },
     1900: {
         img: "hog_heels",
@@ -22638,7 +22797,9 @@ export let dataItems = {
         pol: "Okucie oprycha",
         fre: "Bottes de baroudeur",
         hun: "Sárdagasztó",
-        bra: "Moda do Motoqueiro"
+        bra: "Moda do Motoqueiro",
+        sch: "机车铁蹄靴",
+        swe: "Hojklackat"
     },
     1901: {
         img: "shrapnel_shell",
@@ -22648,7 +22809,9 @@ export let dataItems = {
         pol: "Odłamkowe odzienie",
         bra: "A Estileira Stickeira",
         fre: "La cuirasse coriace",
-        hun: "Tapadóbomba Héj"
+        hun: "Tapadóbomba Héj",
+        sch: "爆弹携行具",
+        swe: "Splitterskal"
     },
     1902: {
         img: "cleaners_cap",
@@ -22658,7 +22821,9 @@ export let dataItems = {
         pol: "Czapka czyściciela",
         bra: "Touca do Assassino",
         fre: "Bonnet de l'assassin",
-        hun: "Takarítósapka"
+        hun: "Takarítósapka",
+        sch: "肃清者的帽子",
+        swe: "Undanröjarens keps"
     },
     1903: {
         img: "brother_mann",
@@ -22669,7 +22834,8 @@ export let dataItems = {
         fre: "Le biker",
         hun: "Mann Testvér",
         bra: "Mano Mann",
-        sch: "曼恩老哥"
+        sch: "曼恩老哥",
+        swe: "Broder Mann"
     },
     1904: {
         img: "cranium_cover",
@@ -22679,7 +22845,9 @@ export let dataItems = {
         pol: "Przesłona potylicy",
         bra: "Ação Defensiva",
         fre: "Couverture crânienne",
-        hun: "Koponyafedél"
+        hun: "Koponyafedél",
+        sch: "首级防护头盔",
+        swe: "Kraniumskydd"
     },
     1905: {
         img: "uber_wear",
@@ -22690,7 +22858,8 @@ export let dataItems = {
         bra: "Übercolete",
         fre: "Süber classe",
         hun: "Über-Viselet",
-        sch: "超能马甲"
+        sch: "超能马甲",
+        swe: "Über-kläder"
     },
     1906: {
         img: "flame_warrior",
@@ -22700,7 +22869,9 @@ export let dataItems = {
         pol: "Żarzący żołnierz",
         bra: "Guerreiro das Chamas",
         fre: "Le guerrier tout feu tout flamme",
-        hun: "Lángharcos"
+        hun: "Lángharcos",
+        sch: "火焰武士",
+        swe: "Flamma"
     },
     1907: {
         img: "glorious_gambeson",
@@ -22711,7 +22882,8 @@ export let dataItems = {
         bra: "O Gibão Glorioso",
         fre: "Le joli jaque",
         hun: "Dicső Dolmány",
-        sch: "扬名战甲"
+        sch: "扬名战甲",
+        swe: "Härlig gambeson"
     },
     1908: {
         img: "full_metal_helmet",
@@ -22722,7 +22894,8 @@ export let dataItems = {
         bra: "Capacete Nascido para Matar",
         fre: "Casque fourre-tout",
         hun: "Kőkemény Fémsisak",
-        sch: "全金属头盔"
+        sch: "全金属头盔",
+        swe: "Helmantlad hjälm"
     },
     1909: {
         img: "cranium_cooler",
@@ -22732,107 +22905,119 @@ export let dataItems = {
         pol: "Schłodzona skroń",
         bra: "Cabeça Fria",
         fre: "Ventilo frontal",
-        hun: "Koponyahűtő"
+        hun: "Koponyahűtő",
+        sch: "首级散热盔",
+        swe: "Kraniumkylare"
     },
     1910: {
         img: "secretly_serviced_war_paint",
         eng: "Secretly Serviced War Paint",
-        rus: "Боевая краска \"Секретная служба\"",
+        rus: "\"Секретная служба\" Боевая краска",
         schema: 17412,
-        pol: "Sekretny serwis | Barwy wojenne",
+        pol: "Sekretny serwis Barwy wojenne",
         bra: "| Serviço Secreto | Tinta de Guerra",
-        fre: "Services secrets | Peinture de guerre",
-        hun: "Titkosszolgálati Harci festés"
+        fre: "Services secrets Peinture de guerre",
+        hun: "Titkosszolgálati Harci festés",
+        swe: "Hemlig elegans Krigsfärg"
     },
     1911: {
         img: "pacific_peacemaker_war_paint",
         eng: "Pacific Peacemaker War Paint",
-        rus: "Боевая краска \"Тихоокеанский тихоня\"",
+        rus: "\"Тихоокеанский тихоня\" Боевая краска",
         schema: 17419,
-        pol: "Pacyficzny pacyfista | Barwy wojenne",
+        pol: "Pacyficzny pacyfista Barwy wojenne",
         bra: "| Pacificador do Pacífico | Tinta de Guerra",
-        fre: "Pacificateur du Pacifique | Peinture de guerre",
-        hun: "Békés Békéltető Harci festés"
+        fre: "Pacificateur du Pacifique Peinture de guerre",
+        hun: "Békés Békéltető Harci festés",
+        swe: "Söderhavets fredsmäklare Krigsfärg"
     },
     1912: {
         img: "team_serviced_war_paint",
         eng: "Team Serviced War Paint",
-        rus: "Боевая краска \"Командная служба\"",
+        rus: "\"Командная служба\" Боевая краска",
         schema: 17417,
-        pol: "Praca zespołowa | Barwy wojenne",
+        pol: "Praca zespołowa Barwy wojenne",
         bra: "| Agente de Campo | Tinta de Guerra",
-        fre: "Au service de l'équipe | Peinture de guerre",
-        hun: "Csapatszolgálati Harci festés"
+        fre: "Au service de l'équipe Peinture de guerre",
+        hun: "Csapatszolgálati Harci festés",
+        swe: "Laganda Krigsfärg"
     },
     1913: {
         img: "bomb_carrier_war_paint",
         eng: "Bomb Carrier War Paint",
-        rus: "Боевая краска \"Бомбоносец\"",
+        rus: "\"Бомбоносец\" Боевая краска",
         schema: 17414,
-        pol: "Przenoszący bombę | Barwy wojenne",
+        pol: "Przenoszący bombę Barwy wojenne",
         bra: "| Demolição Blindada | Tinta de Guerra",
-        fre: "Machine de guerre | Peinture de guerre",
-        hun: "Bombahordozó Harci festés"
+        fre: "Machine de guerre Peinture de guerre",
+        hun: "Bombahordozó Harci festés",
+        swe: "Bombhangar Krigsfärg"
     },
     1914: {
         img: "mechanized_monster_war_paint",
         eng: "Mechanized Monster War Paint",
-        rus: "Боевая краска \"Механический монстр\"",
+        rus: "\"Механический монстр\" Боевая краска",
         schema: 17420,
-        pol: "Mechaniczne monstrum | Barwy wojenne",
+        pol: "Mechaniczne monstrum Barwy wojenne",
         bra: "| Monstro Mecanizado | Tinta de Guerra",
-        fre: "Monstre mécanisé | Peinture de guerre",
-        hun: "Gépesített Szörny Harci festés"
+        fre: "Monstre mécanisé Peinture de guerre",
+        hun: "Gépesített Szörny Harci festés",
+        swe: "Mekaniserat monster Krigsfärg"
     },
     1915: {
         img: "warborn_war_paint",
         eng: "Warborn War Paint",
-        rus: "Боевая краска \"Рождённый в бою\"",
+        rus: "\"Рождённый в бою\" Боевая краска",
         schema: 17418,
-        pol: "Zrodzony z wojny | Barwy wojenne",
+        pol: "Zrodzony z wojny Barwy wojenne",
         bra: "| Nascido para Matar | Tinta de Guerra",
-        fre: "Destin de guerre | Peinture de guerre",
-        hun: "Háborús Harci festés"
+        fre: "Destin de guerre Peinture de guerre",
+        hun: "Háborús Harci festés",
+        swe: "Krigsfödd Krigsfärg"
     },
     1916: {
         img: "steel_brushed_war_paint",
         eng: "Steel Brushed War Paint",
-        rus: "Боевая краска \"Матовая сталь\"",
+        rus: "\"Матовая сталь\" Боевая краска",
         schema: 17411,
-        pol: "Stalowy szlif | Barwy wojenne",
+        pol: "Stalowy szlif Barwy wojenne",
         bra: "| Banho de Prata | Tinta de Guerra",
-        fre: "Acier | Peinture de guerre",
-        hun: "Szálcsiszolt Harci festés"
+        fre: "Acier Peinture de guerre",
+        hun: "Szálcsiszolt Harci festés",
+        swe: "Stålborstad Krigsfärg"
     },
     1917: {
         img: "business_class_war_paint",
         eng: "Business Class War Paint",
-        rus: "Боевая краска \"Бизнес-класс\"",
+        rus: "\"Бизнес-класс\" Боевая краска",
         schema: 17415,
-        pol: "Klasa biznesowa | Barwy wojenne",
+        pol: "Klasa biznesowa Barwy wojenne",
         bra: "| Classe Executiva | Tinta de Guerra",
-        fre: "Classe affaires | Peinture de guerre",
-        hun: "Első Osztály Harci festés"
+        fre: "Classe affaires Peinture de guerre",
+        hun: "Első Osztály Harci festés",
+        swe: "Affärsklass Krigsfärg"
     },
     1918: {
         img: "deadly_dragon_war_paint",
         eng: "Deadly Dragon War Paint",
-        rus: "Боевая краска \"Яростный ящер\"",
+        rus: "\"Яростный ящер\" Боевая краска",
         schema: 17416,
-        pol: "Zabójczy smok | Barwy wojenne",
+        pol: "Zabójczy smok Barwy wojenne",
         bra: "| Destruição do Dragão | Tinta de Guerra",
-        fre: "Dragon mortel | Peinture de guerre",
-        hun: "Halálos Sárkány Harci festés"
+        fre: "Dragon mortel Peinture de guerre",
+        hun: "Halálos Sárkány Harci festés",
+        swe: "Dödlig drake Krigsfärg"
     },
     1919: {
         img: "sky_stallion_war_paint",
         eng: "Sky Stallion War Paint",
-        rus: "Боевая краска \"Железный жеребец\"",
+        rus: "\"Железный жеребец\" Боевая краска",
         schema: 17413,
-        pol: "Podniebny ogier | Barwy wojenne",
+        pol: "Podniebny ogier Barwy wojenne",
         bra: "| Ás do Ar | Tinta de Guerra",
-        fre: "Étalon céleste | Peinture de guerre",
-        hun: "Égi Mén Harci festés"
+        fre: "Étalon céleste Peinture de guerre",
+        hun: "Égi Mén Harci festés",
+        swe: "Himmelshingsten Krigsfärg"
     },
     1920: {
         img: "taunt_killer_joke",
@@ -22842,7 +23027,8 @@ export let dataItems = {
         pol: "Drwina: Zabójczy żart",
         bra: "Provocação: Piada de Matar",
         fre: "Raillerie : Mort de rire",
-        hun: "Beszólás: Durva vicces"
+        hun: "Beszólás: Durva vicces",
+        swe: "Hån: Galghumor"
     },
     1921: {
         img: "taunt_star_spangled_strategy",
@@ -22863,7 +23049,8 @@ export let dataItems = {
         pol: "Drwina: Dekapitacyjny doktor",
         bra: "Provocação: O Médico da Cabeça",
         fre: "Raillerie : Le docteur a la grosse tête",
-        hun: "Beszólás: A főorvos"
+        hun: "Beszólás: A főorvos",
+        swe: "Hån: Huvudläkaren"
     },
     1923: {
         img: "taunt_teufort_tango",
@@ -22873,7 +23060,8 @@ export let dataItems = {
         pol: "Drwina: Teufordzkie tango",
         bra: "Provocação: Tango de Teufort",
         fre: "Raillerie : Tango de Teufort",
-        hun: "Beszólás: Teufort tangó"
+        hun: "Beszólás: Teufort tangó",
+        swe: "Hån: Teufort-tango"
     },
     1924: {
         img: "taunt_road_rager",
@@ -22883,7 +23071,8 @@ export let dataItems = {
         pol: "Drwina: Krzyczący kierowca",
         bra: "Provocação: O Perigo na Estrada",
         fre: "Raillerie : Le cacou de la route",
-        hun: "Beszólás: Országúti dühöngő"
+        hun: "Beszólás: Országúti dühöngő",
+        swe: "Hån: Vägbusen"
     },
     1925: {
         img: "taunt_killer_signature",
@@ -22893,7 +23082,8 @@ export let dataItems = {
         pol: "Drwina: Zabójczy podpis",
         bra: "Provocação: Agrado aos Admiradores",
         fre: "Raillerie : La signature meurtrière",
-        hun: "Beszólás: Döglesztő szignó"
+        hun: "Beszólás: Döglesztő szignó",
+        swe: "Hån: Rama in det"
     },
     1926: {
         img: "make_ogre",
@@ -22904,7 +23094,8 @@ export let dataItems = {
         bra: "Harmonização Ogrível",
         fre: "Métamorphogre",
         hun: "Ogresszivitás",
-        sch: "食人魔面目"
+        sch: "食人魔面目",
+        swe: "Förtrollande look"
     },
     1927: {
         img: "medical_mummy",
@@ -22915,7 +23106,8 @@ export let dataItems = {
         bra: "Múmia Médica",
         fre: "Mommie médicale",
         hun: "Orvosi Múmia",
-        sch: "医用木乃伊"
+        sch: "医用木乃伊",
+        swe: "Medicinsk mumie"
     },
     1928: {
         img: "six_eyed_specs",
@@ -22926,7 +23118,8 @@ export let dataItems = {
         bra: "São Seis Olhos",
         fre: "Verres hexoculaires",
         hun: "Hatszem-optika",
-        sch: "六眼目镜"
+        sch: "六眼目镜",
+        swe: "Spindelbrillor"
     },
     1929: {
         img: "concealed_convict",
@@ -22937,7 +23130,8 @@ export let dataItems = {
         bra: "Condenado Camuflado",
         fre: "Prisonnier planqué",
         hun: "Fedett Fegyenc",
-        sch: "匿迹囚徒"
+        sch: "匿迹囚徒",
+        swe: "Diskret fånge"
     },
     1930: {
         img: "constructors_cover",
@@ -22948,7 +23142,8 @@ export let dataItems = {
         bra: "Cobertura do Construtor",
         fre: "Cuirasse du contremaitre",
         hun: "Szerelő-szerelés",
-        sch: "精工细筑甲"
+        sch: "精工细筑甲",
+        swe: "Byggarens beskydd"
     },
     1931: {
         img: "thunder_dome",
@@ -22959,7 +23154,8 @@ export let dataItems = {
         bra: "Cúpula do Trovão",
         fre: "Casque du tonnerre",
         hun: "Viharkupola",
-        sch: "雷霆圆盔"
+        sch: "雷霆圆盔",
+        swe: "Dunderkruka"
     },
     1932: {
         img: "splitting_headache",
@@ -22970,7 +23166,8 @@ export let dataItems = {
         bra: "Mente Afiada",
         fre: "Lame de tête",
         hun: "Hasogató Fejfájás",
-        sch: "头痛锯裂"
+        sch: "头痛锯裂",
+        swe: "Splittrande huvudvärk"
     },
     1933: {
         img: "shortness_of_breath",
@@ -22981,7 +23178,8 @@ export let dataItems = {
         bra: "Falta de Ar",
         fre: "Souffle court",
         hun: "Légszomj",
-        sch: "绝息面具"
+        sch: "绝息面具",
+        swe: "Andnöd"
     },
     1934: {
         img: "mean_captain",
@@ -22992,7 +23190,8 @@ export let dataItems = {
         bra: "O Capetão da Equipe",
         fre: "Capitaine cornu",
         hun: "A Gonoszkapitány",
-        sch: "卑鄙领袖之帽"
+        sch: "卑鄙领袖之帽",
+        swe: "Obehagskaptenen"
     },
     1935: {
         img: "ludicrously_lunatic_lunon_fedora",
@@ -23003,7 +23202,8 @@ export let dataItems = {
         bra: "Fedora de Lunônio Loucamente Lunático",
         fre: "Loufoque et lunatique fedora fluo",
         hun: "Fölöttébb Fantasztikus Fénylő Fedora",
-        sch: "陆离光怪之月晶软呢帽"
+        sch: "陆离光怪之月晶软呢帽",
+        swe: "Befängd lunonfedora"
     },
     1936: {
         img: "jumping_jester",
@@ -23014,7 +23214,8 @@ export let dataItems = {
         bra: "Bufão Brincalhão",
         fre: "Bouffon bondissant",
         hun: "Pattogó Bohóc",
-        sch: "跃动小丑"
+        sch: "跃动小丑",
+        swe: "Hoppande hovnarr"
     },
     1937: {
         img: "sharpshooters_shroud",
@@ -23025,7 +23226,8 @@ export let dataItems = {
         bra: "Fachada do Feiticeiro",
         fre: "Tabar du tireur",
         hun: "Mesterlövész-köpönyeg",
-        sch: "神射手的披风"
+        sch: "神射手的披风",
+        swe: "Skarpskyttens cape"
     },
     1938: {
         img: "main_cast",
@@ -23036,7 +23238,8 @@ export let dataItems = {
         bra: "O Gesso Espesso",
         fre: "Plâtre principal",
         hun: "Öngyógyító",
-        sch: "遍体石膏"
+        sch: "遍体石膏",
+        swe: "Gipsförband"
     },
     1939: {
         img: "classic_criminal",
@@ -23047,7 +23250,8 @@ export let dataItems = {
         bra: "Criminoso Clássico",
         fre: "Criminel classique",
         hun: "Klasszikus Bűnöző",
-        sch: "典型惯犯"
+        sch: "典型惯犯",
+        swe: "Klassisk kriminell"
     },
     1940: {
         img: "dell_dynamic",
@@ -23058,7 +23262,8 @@ export let dataItems = {
         bra: "Dell Dinâmico",
         fre: "Dell dynamique",
         hun: "Dinamikus Dell",
-        sch: "翱翔动力盔"
+        sch: "翱翔动力盔",
+        swe: "Dynamiska Dell"
     },
     1941: {
         img: "stunt_suit",
@@ -23069,7 +23274,8 @@ export let dataItems = {
         bra: "Traje do Acrobata",
         fre: "Tenue de cascadeur",
         hun: "Kaszkadőrruha",
-        sch: "炫目战衣"
+        sch: "炫目战衣",
+        swe: "Stuntdräkt"
     },
     1942: {
         img: "dead_heat",
@@ -23092,7 +23298,8 @@ export let dataItems = {
         bra: "Manto do Mago",
         fre: "Cape du sorcier belliqueux",
         hun: "Csatamágusi Csataköpeny",
-        sch: "战巫战袍"
+        sch: "战巫战袍",
+        swe: "Trollkarlens krigsmantel"
     },
     1944: {
         img: "clowns_coverup",
@@ -23103,7 +23310,8 @@ export let dataItems = {
         bra: "Cobertura Circense",
         fre: "Masque de clown",
         hun: "Bohócálca",
-        sch: "小丑化身"
+        sch: "小丑化身",
+        swe: "Clownfeja"
     },
     1945: {
         img: "mad_lad",
@@ -23114,7 +23322,8 @@ export let dataItems = {
         bra: "Farda da Estrada",
         fre: "Maboul",
         hun: "Őrült Legény",
-        sch: "火爆怒汉"
+        sch: "火爆怒汉",
+        swe: "Token"
     },
     1946: {
         img: "last_laugh",
@@ -23125,7 +23334,8 @@ export let dataItems = {
         bra: "A Última Risada",
         fre: "Qui rira le dernier",
         hun: "Az Utolsó Nevetés",
-        sch: "笑到最后"
+        sch: "笑到最后",
+        swe: "Sista skrattet"
     },
     1947: {
         img: "sightseer",
@@ -23136,7 +23346,8 @@ export let dataItems = {
         bra: "Assassino Arcano",
         fre: "Chapeau pointu",
         hun: "Messzelátó",
-        sch: "透视先知"
+        sch: "透视先知",
+        swe: "Allseende siare"
     },
     1948: {
         img: "power_spike",
@@ -23147,7 +23358,8 @@ export let dataItems = {
         bra: "Penteado Potente",
         fre: "Survoltage",
         hun: "Áramlöket",
-        sch: "超级刺猬头"
+        sch: "超级刺猬头",
+        swe: "Spännande spret"
     },
     1949: {
         img: "demonic_dome",
@@ -23158,7 +23370,8 @@ export let dataItems = {
         bra: "Domo Demoníaco",
         fre: "Casque démoniaque",
         hun: "Démoni Búra",
-        sch: "魔族颅盔"
+        sch: "魔族颅盔",
+        swe: "Demonisk hjälm"
     },
     1950: {
         img: "bare_bear_bones",
@@ -23169,7 +23382,8 @@ export let dataItems = {
         bra: "Osso de Urso Grosso",
         fre: "Crâne d'ours",
         hun: "Medvekoponya",
-        sch: "雄威熊骨"
+        sch: "雄威熊骨",
+        swe: "Bara björnben"
     },
     1951: {
         img: "blastphomet",
@@ -23200,7 +23414,8 @@ export let dataItems = {
         bra: "Furgão de Papelão",
         fre: "Véhicule autoporté",
         hun: "Lakógatyó",
-        sch: "自驾游"
+        sch: "自驾游",
+        swe: "Eko-bil"
     },
     1954: {
         img: "fiercesome_fluorescence",
@@ -23211,7 +23426,8 @@ export let dataItems = {
         bra: "Fluorescência Feroz",
         fre: "Fluorescence abyssale",
         hun: "Félelmetes Fluoreszcencia",
-        sch: "汹涌荧光"
+        sch: "汹涌荧光",
+        swe: "Frän fluorescens"
     },
     1955: {
         img: "taunt_neck_snap",
@@ -23221,7 +23437,8 @@ export let dataItems = {
         pol: "Drwina: Karkoskręt",
         bra: "Provocação: Quiroprata da Casa",
         fre: "Raillerie : Brisage de nuque",
-        hun: "Beszólás: Nyakropogtató"
+        hun: "Beszólás: Nyakropogtató",
+        swe: "Hån: Nackspärr"
     },
     1956: {
         img: "taunt_roar_o_war",
@@ -23231,7 +23448,8 @@ export let dataItems = {
         pol: "Drwina: Ryk wojenny",
         bra: "Provocação: Rugido de Guerra",
         fre: "Raillerie : Cri de guerre",
-        hun: "Beszólás: Csatakurjantás"
+        hun: "Beszólás: Csatakurjantás",
+        swe: "Hån: Krigsvrål"
     },
     1957: {
         img: "taunt_borrowed_bones",
@@ -23241,7 +23459,8 @@ export let dataItems = {
         pol: "Drwina: Lekarska lichwa",
         bra: "Provocação: Esqueleto Emprestado",
         fre: "Raillerie : Squelette emprunté",
-        hun: "Beszólás: Kölcsöncsontváz"
+        hun: "Beszólás: Kölcsöncsontváz",
+        swe: "Hån: Knyckta knotor"
     },
     1958: {
         img: "taunt_crypt_creeper",
@@ -23251,7 +23470,8 @@ export let dataItems = {
         pol: "Drwina: Strach do szpiegu kości",
         bra: "Provocação: Descanso do Drácula",
         fre: "Raillerie : Vagabond des cryptes",
-        hun: "Beszólás: A kripták kémje"
+        hun: "Beszólás: A kripták kémje",
+        swe: "Hån: Gravväktaren"
     },
     1959: {
         img: "bigger_mann_on_campus",
@@ -23284,7 +23504,8 @@ export let dataItems = {
         bra: "Empalador de Impactos",
         fre: "Empaleur percutant",
         hun: "Döfködő Tökfödő",
-        swe: "Pickelhuva"
+        swe: "Pickelhuva",
+        sch: "冲击刺盔"
     },
     1962: {
         img: "rugged_rags",
@@ -23405,7 +23626,8 @@ export let dataItems = {
         bra: "Perito em Pistas",
         fre: "Coiffure de l'inspecteur",
         hun: "Agyafúrt Hajzat",
-        swe: "Detektivfrisyr"
+        swe: "Detektivfrisyr",
+        sch: "破案式发型"
     },
     1973: {
         img: "slumber_slacks",
@@ -23437,7 +23659,8 @@ export let dataItems = {
         pol: "Bitewny trencz",
         bra: "Casaco das Trincheiras",
         fre: "Trench à toute épreuve",
-        hun: "Lövészárkoló"
+        hun: "Lövészárkoló",
+        swe: "Skyttegravskrigare"
     },
     1976: {
         img: "the_dapper_dickens",
@@ -23542,353 +23765,903 @@ export let dataItems = {
         img: "invisible_flame",
         eng: "Invisible Flame",
         rus: "Невидимое пламя",
-        schema: 31463
+        schema: 31463,
+        pol: "Niewidzialny płomień",
+        sch: "无形赤焰",
+        bra: "Chama Camuflada",
+        fre: "Flamme invisible",
+        hun: "Láthatatlan Láng",
+        swe: "Osynlig flamma"
     },
     1986: {
         img: "the_vaudeville_visor",
         eng: "The Vaudeville Visor",
         rus: "Злодейское забрало",
-        schema: 31461
+        schema: 31461,
+        pol: "Wizja wodewilu",
+        sch: "杂耍面罩",
+        bra: "A Viseira Vaudeville",
+        fre: "Visière vaudevillesque",
+        hun: "Vaudeville-maszk",
+        swe: "Vaudeville-visir"
     },
     1987: {
         img: "commonwealth_commando",
         eng: "Commonwealth Commando",
         rus: "Стрелок Содружества",
-        schema: 31459
+        schema: 31459,
+        pol: "Wojskowy wspólnoty",
+        sch: "英联邦突击队",
+        bra: "Comandante da Comunidade",
+        fre: "Commando du Commonwealth",
+        hun: "Köztársasági Kommandó",
+        swe: "Statsmaktens strateg"
     },
     1988: {
         img: "the_aimframe",
         eng: "The Aimframe",
         rus: "Целеусмотритель",
-        schema: 31458
+        schema: 31458,
+        pol: "Celny czerep",
+        sch: "瞄准辅助仪",
+        bra: "Equipamento de Precisão",
+        fre: "Monture de visée",
+        hun: "Célkeret",
+        swe: "Hjälmvisir"
     },
     1989: {
         img: "watchmanns_wetsuit",
         eng: "Watchmann's Wetsuit",
         rus: "Дозорный дайвер",
-        schema: 31457
+        schema: 31457,
+        pol: "Piankowy podkoszulek",
+        sch: "救生员的泳装",
+        bra: "Macacão de Mergulho do Médico",
+        fre: "Combi du surveillant de baignade",
+        hun: "Úszómannster",
+        swe: "Livvaktens våtdräkt"
     },
     1990: {
         img: "brutes_braces",
         eng: "Brute's Braces",
         rus: "Подтяжки подельника",
-        schema: 31453
+        schema: 31453,
+        pol: "Szelki szumowiny",
+        sch: "莽夫的吊裤带",
+        bra: "Suspensórios Soviéticos",
+        fre: "Bretelles de la brute",
+        hun: "A Nagydarab Nadrágtartója",
+        swe: "Busens hängslen"
     },
     1991: {
         img: "pathfinder",
         eng: "Pathfinder",
         rus: "Первооткрыватель",
-        schema: 31450
+        schema: 31450,
+        pol: "Szlakoprzecieracz",
+        sch: "探路猛士",
+        bra: "Patrulha das Trilhas",
+        fre: "Éclaireur",
+        hun: "Úttörő",
+        swe: "Vägvisare"
     },
     1992: {
         img: "daring_dell",
         eng: "Daring Dell",
         rus: "Дерзкий Делл",
-        schema: 31445
+        schema: 31445,
+        pol: "Dziarski Dell",
+        sch: "无畏戴尔",
+        bra: "Dell Destemido",
+        fre: "Dell l'Intrépide",
+        hun: "Merész Dell",
+        swe: "Djärva Dell"
     },
     1993: {
         img: "desk_engineer",
         eng: "Desk Engineer",
         rus: "Офисный инженер",
-        schema: 31444
+        schema: 31444,
+        pol: "Inżynier wsparcia",
+        sch: "白领工程师",
+        bra: "Engenheiro de Escritório",
+        fre: "Ingénieur-cadre",
+        hun: "Asztali Mérnök",
+        swe: "Skrivbordsingenjör"
     },
     1994: {
         img: "the_brand_loyalist",
         eng: "The Brand Loyalist",
         rus: "Преданный потребитель",
-        schema: 31443
+        schema: 31443,
+        pol: "Wielbiciel marki",
+        sch: "品牌代言帽",
+        bra: "O Freguês Fiel",
+        fre: "Fidèle client",
+        hun: "Márkahű",
+        swe: "Varumärkeslojalist"
     },
     1995: {
         img: "scorched_earth_stompers",
         eng: "Scorched Earth Stompers",
         rus: "Вытаптыватели выжженной земли",
-        schema: 31464
+        schema: 31464,
+        pol: "Tąpnięcie spalonej ziemi",
+        sch: "焦土战靴",
+        bra: "Calças Cargo Queimadas",
+        fre: "Dégaine de la terre brulée",
+        hun: "Parázstaposók",
+        swe: "Sotsulor"
     },
     1996: {
         img: "tankers_top",
         eng: "Tanker's Top",
         rus: "Куртка танкиста",
-        schema: 31460
+        schema: 31460,
+        pol: "Wiatrówka wojaka",
+        sch: "坦克手上衣",
+        bra: "Casaco do Combatente",
+        fre: "Blouson d'aviateur",
+        hun: "Harckocsizó Zubbony",
+        swe: "Tankerjacka"
     },
     1997: {
         img: "the_tropical_brim",
         eng: "The Tropical Brim",
         rus: "Широкополые тропики",
-        schema: 31456
+        schema: 31456,
+        pol: "Tropikalne rondo",
+        sch: "热带宽檐帽",
+        bra: "A Aba Tropical",
+        fre: "Bord tropical",
+        hun: "Trópusi Karima",
+        swe: "Tropiskt brätte"
     },
     1998: {
         img: "crooks_cap",
         eng: "Crook's Cap",
         rus: "Кепарь кидалы",
-        schema: 31452
+        schema: 31452,
+        pol: "Kaszkiet kanciarza",
+        sch: "恶徒之帽",
+        bra: "Boina do Brigão",
+        fre: "Casquette de l'escroc",
+        hun: "A Simlis Sapkája",
+        swe: "Tjuvmössa"
     },
     1999: {
         img: "justice_johns",
         eng: "Justice Johns",
         rus: "Сапоги справедливости",
-        schema: 31451
+        schema: 31451,
+        pol: "Szorty sprawiedliwości",
+        sch: "正义琼斯",
+        bra: "Justiça Justa",
+        fre: "Justicier à la culotte courte",
+        hun: "Szafarigatya",
+        swe: "Korta kortbyxor"
     },
     2000: {
         img: "sneaky_blinder",
         eng: "Sneaky Blinder",
         rus: "Скрытный козырёк",
-        schema: 31447
+        schema: 31447,
+        pol: "Sztorc szpiona",
+        sch: "浴血谍帮",
+        bra: "Sangue, Sabotadas e Facadas",
+        hun: "Birminghami Bandatag",
+        swe: "Smygkeps"
     },
     2001: {
         img: "the_big_star",
         eng: "The Big Star",
         rus: "Большая звезда",
-        schema: 31446
+        schema: 31446,
+        pol: "Wielka gwiazda",
+        sch: "大牌明星",
+        bra: "O Engenheiro Espetacular",
+        fre: "Étoile montante",
+        hun: "Nagy Sztár",
+        swe: "Stora stjärnan"
     },
     2002: {
         img: "tuxedo_royale",
         eng: "Tuxedo Royale",
         rus: "Смокинг \"Рояль\"",
-        schema: 31448
+        schema: 31448,
+        pol: "Szykowny smoking",
+        sch: "皇家礼服",
+        bra: "Assassino Royale",
+        fre: "Smoking de casino",
+        hun: "Smoking Royale",
+        swe: "Förstklassig smoking"
     },
     2003: {
         img: "fire_marshal",
         eng: "Fire Marshal",
         rus: "Начальник бригады",
-        schema: 31462
+        schema: 31462,
+        pol: "Marszałek płonny",
+        sch: "烈火队长",
+        bra: "Marechal do Fogo",
+        fre: "Capitaine pompier",
+        hun: "Tűzparancsnok",
+        swe: "Brandmarskalk"
     },
     2004: {
         img: "free_manns_fashion",
         eng: "Free Mann's Fashion",
         rus: "Физиономия физика",
-        schema: 31454
+        schema: 31454,
+        pol: "Aparycja antyobywatela",
+        sch: "弗里曼博士",
+        bra: "Face do Físico",
+        fre: "À la Freeman",
+        hun: "Free Mann Ábrázata",
+        swe: "Freemanns mode"
     },
     2005: {
         img: "control_patrol",
         eng: "Control Patrol",
         rus: "Контрольный патрульный",
-        schema: 31449
+        schema: 31449,
+        pol: "Patrol kontrolny",
+        sch: "控制点巡逻兵",
+        bra: "Patrulha do Controle",
+        fre: "Garde forestier",
+        hun: "Ellenőrző Felügyelő",
+        swe: "Kontrollpatrull"
     },
     2006: {
         img: "botler_2000",
         eng: "Botler 2000",
         rus: "Ботецкий 2000",
-        schema: 31442
+        schema: 31442,
+        pol: "Robolokaj 2000",
+        sch: "机器服务员 2000",
+        bra: "Mordomobô 2000",
+        fre: "Robeau 2000",
+        hun: "Komornyik 2000"
     },
     2007: {
         img: "hazardous_environment_vest",
         eng: "Hazardous Environment Vest",
         rus: "Защитный жилет",
-        schema: 31455
+        schema: 31455,
+        pol: "Kamizelka HEV",
+        sch: "危险环境防护服",
+        bra: "Traje para Condições Biológicas Adversas",
+        fre: "Veste Hazmat",
+        hun: "Veszélyes Környezeti Mellény",
+        swe: "Väst för farlig miljö"
     },
     2008: {
         img: "taunt_can_it",
         eng: "Taunt: Can It!",
         rus: "Насмешка: На помойку!",
-        schema: 31438
+        schema: 31438,
+        pol: "Drwina: Do kosza!",
+        sch: "嘲讽：快到桶里来！",
+        bra: "Provocação: Na Lata!",
+        fre: "Raillerie : À la poubelle !",
+        hun: "Beszólás: Szemét!",
+        swe: "Hån: In i tunnan!"
     },
     2009: {
         img: "taunt_cremators_condolences",
         eng: "Taunt: Cremators Condolences",
         rus: "Насмешка: Сожаления сожжённым",
-        schema: 31439
+        schema: 31439,
+        pol: "Drwina: Kondolencje krematora",
+        sch: "嘲讽：火葬哀悼",
+        bra: "Provocação: Pêsames Piromaníacos",
+        fre: "Raillerie : Condoléances du crématorium",
+        hun: "Beszólás: A hamvasztó részvétnyilvánítása",
+        swe: "Hån: Sympati från krematoriet"
     },
     2010: {
         img: "taunt_straight_shooter_tutor",
         eng: "Taunt: Straight Shooter Tutor",
         rus: "Насмешка: Прицельная помощь",
-        schema: 31440
+        schema: 31440,
+        pol: "Drwina: Szkoleniowiec solidnych strzelców",
+        sch: "嘲讽：射击助教",
+        bra: "Provocação: Instrutor Atirador",
+        fre: "Raillerie : Coach de tir",
+        hun: "Beszólás: Jóllövészeti oktató",
+        swe: "Hån: Lektion i att sikta"
     },
     2011: {
         img: "taunt_unleashed_rage",
         eng: "Taunt: Unleashed Rage",
         rus: "Насмешка: Приступ гнева",
-        schema: 31441
+        schema: 31441,
+        pol: "Drwina: Wyzwolona wściekłość",
+        sch: "嘲讽：怒不可遏",
+        bra: "Provocação: Só Pra Contrariado",
+        fre: "Raillerie : Accès de colère",
+        hun: "Beszólás: Szabadjára engedett düh",
+        swe: "Hån: Frigjort raseri"
     },
-    2012: { // hw2024 items
+    2012: {
         img: "school_nuisance",
         eng: "School Nuisance",
-		rus: "Школьная шпана"
+        rus: "Школьная шпана",
+        pol: "Uciążliwy uczeń",
+        sch: "校园刺头",
+        bra: "Pestinha da Turma",
+        fre: "Petite teigne",
+        hun: "Iskolai Nyűg",
+        swe: "Skolmobbaren",
+        schema: 31479
     },
     2013: {
         img: "strikeout",
         eng: "Strikeout",
-		rus: "Страйком по голове"
+        rus: "Страйком по голове",
+        pol: "Wynaturzone wyautowanie",
+        sch: "三振出人命",
+        bra: "O Batedor Abatido",
+        fre: "Mauvaise frappe",
+        hun: "Kidobott",
+        swe: "Huvudträff",
+        schema: 31480
     },
     2014: {
         img: "chiromancer's_kit",
         eng: "Chiromancer's Kit",
-		rus: "Комплект хироманта"
+        rus: "Комплект хироманта",
+        pol: "Przyrządy proroka",
+        sch: "占卜师的行头",
+        bra: "Kit do Quiromante",
+        fre: "Kit du voyant",
+        hun: "Tűzgyújtó Készlet",
+        swe: "Chiromancers kit",
+        schema: 31478
     },
     2015: {
         img: "sear_seer",
         eng: "Sear Seer",
-		rus: "Провидец пламени"
+        rus: "Провидец пламени",
+        pol: "Wrzący wróżbita",
+        sch: "焦灼先知",
+        bra: "Vidente Ardente",
+        fre: "Prophète pyromane",
+        hun: "Zsarátnok-látnok",
+        swe: "Svedd siare",
+        schema: 31477
     },
     2016: {
         img: "badlands_bandido",
         eng: "Badlands Bandido",
-		rus: "Преступник пустошей"
+        rus: "Преступник пустошей",
+        pol: "Bandyta z Badlandów",
+        sch: "恶地劫匪",
+        bra: "Bandido das Badlands",
+        fre: "Bandido des Badlands",
+        hun: "Pusztai Bandita",
+        swe: "Badlandsbandit",
+        schema: 31488
     },
-
     2017: {
         img: "defaced_detonator",
         eng: "Defaced Detonator",
-		rus: "Двуликий детонатор"
+        rus: "Двуликий детонатор",
+        pol: "Zeszpecony zapalnik",
+        sch: "半脸爆客",
+        bra: "Detonador Descarado",
+        fre: "Détonateur défiguré",
+        hun: "Arctalan Robbantgató",
+        swe: "Ansiktslyft",
+        schema: 31489
     },
     2018: {
         img: "dusk_duster",
         eng: "Dusk Duster",
-		rus: "Полуночный пыльник"
+        rus: "Полуночный пыльник",
+        pol: "Pudermantel półmroku",
+        sch: "暮光防尘衣",
+        bra: "Casacão do Crepúsculo",
+        fre: "Cache-poussière du crépuscule",
+        hun: "Alkonyat-gúnya",
+        swe: "Aftonrock",
+        schema: 31483
     },
     2019: {
         img: "hellish_overlord",
         eng: "Hellish Overlord",
-		rus: "Адский властелин"
+        rus: "Адский властелин",
+        pol: "Diabelski dominator",
+        sch: "地狱霸主",
+        bra: "Senhor do Inferno",
+        fre: "Seigneur infernal",
+        hun: "Pokoli Nagyúr",
+        swe: "Djävulsk herre",
+        schema: 31481
     },
     2020: {
         img: "strigoi_stare",
         eng: "Strigoi Stare",
-		rus: "Взгляд вампира"
+        rus: "Взгляд вампира",
+        pol: "Spojrzenie strzygonia",
+        sch: "血族凝视",
+        bra: "Strigoi Estiloso",
+        fre: "Regard de strigoï",
+        hun: "Sztrigojpillantás",
+        swe: "Strigois ögon",
+        schema: 31482
     },
     2021: {
         img: "contaminated_carryall",
         eng: "Contaminated Carryall",
-		rus: "Радиоактивный ранец"
+        rus: "Радиоактивный ранец",
+        pol: "Skażona sakwa",
+        sch: "核污染背包",
+        bra: "Carga Contaminada",
+        fre: "Fourretout contaminé",
+        hun: "Szennyezett Tatyó",
+        swe: "Radioaktiv ryggsäck",
+        schema: 31486
     },
     2022: {
         img: "delldozer",
         eng: "Delldozer",
-		rus: "Делльдозер"
+        rus: "Делльдозер",
+        pol: "Delldożer",
+        sch: "德州推土机",
+        bra: "Homem-Sentinela",
+        fre: "Buzzer",
+        hun: "Delldózer",
+        schema: 31487
     },
     2023: {
         img: "contaminated_carryall",
         eng: "Contaminated Carryall",
-		rus: "Радиоактивный ранец"
+        rus: "Радиоактивный ранец",
+        pol: "Skażona sakwa",
+        sch: "核污染背包",
+        bra: "Carga Contaminada",
+        fre: "Fourretout contaminé",
+        hun: "Szennyezett Tatyó",
+        swe: "Radioaktiv ryggsäck"
     },
     2024: {
         img: "mannhattan_protect",
         eng: "Mannhattan Protect",
-		rus: "Маннхэттенский протектор"
+        rus: "Маннхэттенский протектор",
+        pol: "Protektor Mannhattanu",
+        sch: "核威胁防护",
+        bra: "Protetor Mannhattan",
+        fre: "Combi Hazmat",
+        hun: "Mannhattan Védelem",
+        swe: "Mannhattanskydd",
+        schema: 31484
     },
     2025: {
         img: "nuclear_necessity",
         eng: "Nuclear Necessity",
-		rus: "Ядерный специалитет"
+        rus: "Ядерный специалитет",
+        pol: "Nuklearny niezbędnik",
+        sch: "核灾必备服",
+        bra: "Necessidade Nuclear",
+        fre: "Nécessité nucléaire",
+        hun: "Nukleáris Szükséglet",
+        swe: "Nukleär nödvändighet",
+        schema: 31485
     },
     2026: {
         img: "surgeon_general",
         eng: "Surgeon General",
-		rus: "Генеральный хирург"
+        rus: "Генеральный хирург",
+        pol: "Naczelny chirurg",
+        sch: "军医处长",
+        bra: "Cirurgião-Geral",
+        fre: "Chirurgien en chef",
+        hun: "Tiszti Főorvos",
+        swe: "Generalkirurg",
+        schema: 31476
     },
     2027: {
         img: "witch_doctor",
         eng: "Witch Doctor",
-		rus: "Вуду-врачеватель"
+        rus: "Вуду-врачеватель",
+        pol: "Szpitalny szaman",
+        sch: "巫医礼帽",
+        bra: "O Curandeiro",
+        fre: "Chaman",
+        hun: "Boszorkánydoktor",
+        swe: "Häxdoktor",
+        schema: 31475
     },
     2028: {
         img: "nightfall_veil",
         eng: "Nightfall Veil",
-		rus: "Сумрачное кимоно"
+        rus: "Сумрачное кимоно",
+        pol: "Zasłona zmroku",
+        sch: "夜幕隐身衣",
+        bra: "Véu do Crepúsculo",
+        fre: "Ombre du crépuscule",
+        hun: "Napszállta-lepel",
+        swe: "Nattslöja",
+        schema: 31474
     },
     2029: {
         img: "shadow_shroud",
         eng: "Shadow Shroud",
-		rus: "Скрытый сумраком"
+        rus: "Скрытый сумраком",
+        pol: "Całun cienia",
+        sch: "暗影蒙面罩",
+        bra: "Capuz das Sombras",
+        fre: "Silhouette de l'ombre",
+        hun: "Árnylepel",
+        swe: "Gömd i skuggan",
+        schema: 31473
     },
     2030: {
         img: "duality_of_mantle",
         eng: "Duality of Mantle",
-		rus: "Маннтия двойственности"
+        rus: "Маннтия двойственности",
+        pol: "Dwoistość okrycia",
+        sch: "神魔兜帽",
+        bra: "Dualidade de um Manto",
+        fre: "Double-cap",
+        hun: "A Köpönyeg Kettőssége",
+        swe: "Mantelns dualitet",
+        schema: 31472
     },
     2031: {
         img: "fleet_commander",
         eng: "Fleet Commander",
-		rus: "Флотский коммандер"
+        rus: "Флотский коммандер",
+        pol: "Komandor floty",
+        sch: "舰船指挥官",
+        bra: "Comandante da Frota",
+        fre: "Commandant de flotte",
+        hun: "Flottaparancsnok",
+        swe: "Flottans befälhavare",
+        schema: 31469
     },
     2032: {
         img: "spider_sights",
         eng: "Spider Sights",
-		rus: "Пауч-очки"
+        rus: "Пауч-очки",
+        pol: "Pajęcze patrzałki",
+        sch: "蜘蛛眼镜",
+        bra: "Caracnídea",
+        fre: "Yeux d'araignée",
+        hun: "Pókszemcsi",
+        swe: "Spindelögon",
+        schema: 31471
     },
     2033: {
         img: "triboniophorus_gentlemannus",
         eng: "Triboniophorus Gentlemannus",
-		rus: "Трибониофорус Джентльманнус"
+        rus: "Трибониофорус Джентльманнус",
+        pol: "Triboniophorus Dżentelmennus",
+        sch: "鼻涕虫绅士",
+        bra: "Triboniophorus Cavalheirus",
+        schema: 31470
     },
-    2034: { // hw2024 taunts
+    2034: {
         img: "peace_out",
         eng: "Taunt: Peace Out",
-		rus: "Насмешка: Земля стекловатой"
+        rus: "Насмешка: Земля стекловатой",
+        pol: "Drwina: Nara",
+        sch: "嘲讽：慢走不送",
+        bra: "Provocação: Já Vai Tarde",
+        fre: "Raillerie : Repos illusoire",
+        hun: "Beszólás: Béke veled!",
+        swe: "Hån: Vila i frid",
+        schema: 31466
     },
     2035: {
         img: "crushing_defeat",
         eng: "Taunt: Crushing Defeat",
-		rus: "Насмешка: Сокрушительное поражение"
+        rus: "Насмешка: Сокрушительное поражение",
+        pol: "Drwina: Miażdżąca porażka",
+        sch: "嘲讽：粉碎对手",
+        bra: "Provocação: Derrota Esmagadora",
+        fre: "Raillerie : Défaite écrasante",
+        hun: "Beszólás: Zúzós vereség",
+        swe: "Hån: Förkrossande förlust",
+        schema: 31465
     },
     2036: {
         img: "punchline",
-        eng: "Taunt: Punchline",
-		rus: "Насмешка: Розыгрыш"
+        eng: "Taunt: The Punchline",
+        rus: "Насмешка: Розыгрыш",
+        pol: "Drwina: Puenta",
+        sch: "嘲讽：抖个包袱",
+        bra: "Provocação: Rá-volver",
+        fre: "Raillerie : Réplique qui tue",
+        hun: "Beszólás: A csattanó",
+        swe: "Hån: Slutkläm",
+        schema: 31468
     },
     2037: {
         img: "commending_clap",
         eng: "Taunt: Commending Clap",
-		rus: "Насмешка: Хвалебные хлопки"
+        rus: "Насмешка: Хвалебные хлопки",
+        pol: "Drwina: Aprobujący aplauz",
+        sch: "嘲讽：鼓掌表扬",
+        bra: "Provocação: Salva de Palmas",
+        fre: "Raillerie : Applaudissements admiratifs",
+        hun: "Beszólás: Elismerő taps",
+        swe: "Hån: Stående ovationer",
+        schema: 31467
     },
-    2038: { // hw2024 warpaint
+    2038: {
         img: "broken_record_war_paint",
         eng: "Broken Record War Paint",
-        rus: "Боевая краска \"Битая пластинка\"",
+        rus: "\"Битая пластинка\" Боевая краска",
+        pol: "rozbita płyta Barwy wojenne",
+        sch: "残败唱片 战绘",
+        bra: "| Vinil Rachado | Tinta de Guerra",
+        fre: "Disque brisé Peinture de guerre",
+        hun: "Törött lemez Harci festés",
+        swe: "Repad skiva Krigsfärg",
+        schema: 17432
     },
     2039: {
         img: "necropolish_war_paint",
         eng: "Necropolish War Paint",
-        rus: "Боевая краска \"Некрополироль\"",
+        rus: "\"Некрополироль\" Боевая краска",
+        pol: "nekropolerka Barwy wojenne",
+        sch: "白骨累累 战绘",
+        bra: "| Necropolimento | Tinta de Guerra",
+        fre: "Nécropolish Peinture de guerre",
+        hun: "Nekropolír Harci festés",
+        swe: "Nekropolerad Krigsfärg",
+        schema: 17430
     },
     2040: {
         img: "stardust_war_paint",
         eng: "Stardust War Paint",
-        rus: "Боевая краска \"Звёздная пыль\"",
+        rus: "\"Звёздная пыль\" Боевая краска",
+        pol: "gwiezdny pył Barwy wojenne",
+        sch: "星尘妙想 战绘",
+        bra: "| Poeira Cósmica | Tinta de Guerra",
+        fre: "Poussière d'étoile Peinture de guerre",
+        hun: "Csillagpor Harci festés",
+        swe: "Stjärnstoft Krigsfärg",
+        schema: 17421
     },
     2041: {
         img: "graphite_gripped_war_paint",
         eng: "Graphite Gripped War Paint",
-        rus: "Боевая краска \"Грани графита\"",
+        rus: "\"Грани графита\" Боевая краска",
+        pol: "grafitowe okrycie Barwy wojenne",
+        sch: "石墨握把 战绘",
+        bra: "| Fibra de Carbono | Tinta de Guerra",
+        fre: "Crosse graphite Peinture de guerre",
+        hun: "Grafit markolatú Harci festés",
+        swe: "Grafitgrepp Krigsfärg",
+        schema: 17425
     },
     2042: {
         img: "piranha_mania_war_paint",
         eng: "Piranha Mania War Paint",
-        rus: "Боевая краска \"Проба пираньи\"",
+        rus: "\"Проба пираньи\" Боевая краска",
+        pol: "piraniowy zawrót głowy Barwy wojenne",
+        sch: "食人鱼狂潮 战绘",
+        bra: "| Piranha Mania | Tinta de Guerra",
+        fre: "Piranha mania Peinture de guerre",
+        hun: "Piranha mánia Harci festés",
+        swe: "Pirayamani Krigsfärg",
+        schema: 17427
     },
     2043: {
         img: "stealth_specialist_war_paint",
         eng: "Stealth Specialist War Paint",
-        rus: "Боевая краска \"Спец по скрытности\"",
+        rus: "\"Спец по скрытности\" Боевая краска",
+        pol: "specjalista skradania Barwy wojenne",
+        sch: "隐形专家 战绘",
+        bra: "| Especialista Furtivo | Tinta de Guerra",
+        fre: "Spécialité furtive Peinture de guerre",
+        hun: "Lopakodás-specialista Harci festés",
+        swe: "Smygspecialisten Krigsfärg",
+        schema: 17426
     },
     2044: {
         img: "blackout_war_paint",
         eng: "Blackout War Paint",
-        rus: "Боевая краска \"Затемнение\"",
+        rus: "\"Затемнение\" Боевая краска",
+        pol: "zaciemnienie Barwy wojenne",
+        sch: "酷黑武士 战绘",
+        bra: "| Blecaute | Tinta de Guerra",
+        fre: "Noir c'est noir Peinture de guerre",
+        hun: "Elsötétítés Harci festés",
+        swe: "Blackout Krigsfärg",
+        schema: 17431
     },
     2045: {
         img: "brawler's_iron_war_paint",
         eng: "Brawler's Iron War Paint",
-        rus: "Боевая краска \"Клеймо вояки\"",
+        rus: "\"Клеймо вояки\" Боевая краска",
+        pol: "spluwa siepacza Barwy wojenne",
+        sch: "斗士铁拳 战绘",
+        bra: "| Ferro do Valentão | Tinta de Guerra",
+        fre: "Fonte du bagarreur Peinture de guerre",
+        hun: "Bunyós vas Harci festés",
+        swe: "Järnskinn Krigsfärg",
+        schema: 17429
     },
     2046: {
         img: "gobi_glazed_war_paint",
         eng: "Gobi Glazed War Paint",
-        rus: "Боевая краска \"Пустынное покрытие\"",
+        rus: "\"Пустынное покрытие\" Боевая краска",
+        pol: "gobijska glazura Barwy wojenne",
+        sch: "戈壁釉彩 战绘",
+        bra: "| Camuflagem Desértica | Tinta de Guerra",
+        fre: "Émail de Gobi Peinture de guerre",
+        hun: "Sivatagi bevonatú Harci festés",
+        swe: "Gobiglaserad Krigsfärg",
+        schema: 17423
     },
     2047: {
         img: "sleek_greek_war_paint",
         eng: "Sleek Greek War Paint",
-        rus: "Боевая краска \"Греческая грация\"",
+        rus: "\"Греческая грация\" Боевая краска",
+        pol: "gustowny Grek Barwy wojenne",
+        sch: "希腊浪纹 战绘",
+        bra: "| Gregelegância | Tinta de Guerra",
+        fre: "Carrelage grec Peinture de guerre",
+        hun: "Menő görög Harci festés",
+        swe: "Grekisk elegans Krigsfärg",
+        schema: 17424
     },
     2048: {
         img: "team_charged_war_paint",
         eng: "Team Charged War Paint",
-        rus: "Боевая краска \"Заряд команды\"",
+        rus: "\"Заряд команды\" Боевая краска",
+        pol: "ładunek zespołowy Barwy wojenne",
+        sch: "全队充能 战绘",
+        bra: "| Equipe Eletrizante | Tinta de Guerra",
+        fre: "Équipe chargée à bloc Peinture de guerre",
+        hun: "Csapatra töltött Harci festés",
+        swe: "Teamladdad Krigsfärg",
+        schema: 17428
     },
     2049: {
         img: "team_detail_war_paint",
         eng: "Team Detail War Paint",
-        rus: "Боевая краска \"Командная отделка\"",
+        rus: "\"Командная отделка\" Боевая краска",
+        pol: "drużynowy detal Barwy wojenne",
+        sch: "灰影幢幢 战绘",
+        bra: "| Detalhe da Equipe | Tinta de Guerra",
+        fre: "Couleur d'équipe Peinture de guerre",
+        hun: "Csapatjelző Harci festés",
+        swe: "Lagdetalj Krigsfärg",
+        schema: 17422
     },
+    2050: {
+        img: "snug_sharpshooter",
+        eng: "Snug Sharpshooter",
+        schema: 31516
+    },
+    2051: {
+        img: "the_westcoat",
+        eng: "The Westcoat",
+        schema: 31515
+    },
+    2052: {
+        img: "commanding_presence",
+        eng: "Commanding Presence",
+        schema: 31512
+    },
+    2053: {
+        img: "field_fatigues",
+        eng: "Field Fatigues",
+        schema: 31508
+    },
+    2054: {
+        img: "the_crimbo_cap",
+        eng: "The Crimbo Cap",
+        schema: 31505
+    },
+    2055: {
+        img: "consiglieres_coverup",
+        eng: "Consigliere's Coverup",
+        schema: 31504
+    },
+    2056: {
+        img: "poleur_voyeur",
+        eng: "Poleur Voyeur",
+        schema: 31500
+    },
+    2057: {
+        img: "hot_spaniel",
+        eng: "Hot Spaniel",
+        schema: 31497
+    },
+    2058: {
+        img: "the_battle_music",
+        eng: "The Battle Music",
+        schema: 31496
+    },
+    2059: {
+        img: "dapper_noel",
+        eng: "Dapper Noel",
+        schema: 31494
+    },
+    2060: {
+        img: "bucks_brim",
+        eng: "Buck's Brim",
+        schema: 31514
+    },
+    2061: {
+        img: "mine_sweepers",
+        eng: "Mine Sweepers",
+        schema: 31513
+    },
+    2062: {
+        img: "cossack_camo",
+        eng: "Cossack Camo",
+        schema: 31509
+    },
+    2063: {
+        img: "polar_charger",
+        eng: "Polar Charger",
+        schema: 31507
+    },
+    2064: {
+        img: "the_triple_jumper",
+        eng: "The Triple Jumper",
+        schema: 31506
+    },
+    2065: {
+        img: "the_checkered_past",
+        eng: "The Checkered Past",
+        schema: 31503
+    },
+    2066: {
+        img: "le_frosteaux",
+        eng: "Le Frosteaux",
+        schema: 31501
+    },
+    2067: {
+        img: "frostbite_fit",
+        eng: "Frostbite Fit",
+        schema: 31498
+    },
+    2068: {
+        img: "laire_filteure",
+        eng: "L'aire Filteure",
+        schema: 31499
+    },
+    2069: {
+        img: "the_top_brass",
+        eng: "The Top Brass",
+        schema: 31511
+    },
+    2070: {
+        img: "battle_balaclava",
+        eng: "Battle Balaclava",
+        schema: 31510
+    },
+    2071: {
+        img: "scrooge_mcdoc",
+        eng: "Scrooge McDoc",
+        schema: 31502
+    },
+    2072: {
+        img: "the_necroprancer",
+        eng: "The Necroprancer",
+        schema: 31495
+    },
+    2073: {
+        img: "taunt_forehead_slice",
+        eng: "Taunt: Fore-Head Slice",
+        schema: 31493
+    },
+    2074: {
+        img: "taunt_peace",
+        eng: "Taunt: Peace!",
+        schema: 31492
+    },
+    2075: {
+        img: "taunt_curtain_call",
+        eng: "Taunt: Curtain Call",
+        schema: 31491
+    }
 }

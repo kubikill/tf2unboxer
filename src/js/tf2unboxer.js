@@ -27,6 +27,7 @@ import {
     xmas21FX,
     xmas22FX,
     xmas23FX,
+    xmas24FX,
     nice2014UnusualPool,
     allGensFX,
     limitedLateSummerUnusualPool,
@@ -39,10 +40,18 @@ import {
     hw24FX,
 } from "./crate.js";
 
-import { dataItems } from "./itemnames.js";
-import { dataCrates } from "./cratenames.js";
-import { dataEffects } from "./unusualeffects.js";
-import { dataUi } from "./text.js";
+import {
+    dataItems
+} from "./itemnames.js";
+import {
+    dataCrates
+} from "./cratenames.js";
+import {
+    dataEffects
+} from "./unusualeffects.js";
+import {
+    dataUi
+} from "./text.js";
 
 import {
     LZString
@@ -1038,7 +1047,7 @@ function generateCrateDetails(crate, el, saveObj, bonus) {
                     tempHTML += `<div${gradeClass2}>
                     <p class="cratedetailsitemname">${getString("item", item.id)}</p>
                     <div>
-                    <img class="cratedetailsitemimg" src="./images/item/skins/FN${getImg("item", item.id)}" loading="lazy">
+                    <img class="cratedetailsitemimg" src="./images/item/skins/BS${getImg("item", item.id)}" loading="lazy">
                         <div class="cratedetailsqualitylist">
                             <p class="colorunique">${getString("ui", 80)}:</p>
                             <p>${saveObject.crates[crate][index].FN}</p>
@@ -1670,6 +1679,9 @@ function generateEffectList() {
             case "hw24":
                 effectsArray = hw24FX;
                 break;
+            case "xmas24":
+                effectsArray = xmas24FX;
+                break;
         }
     } else {
         effectsArray = currentCrateObj.effects;
@@ -2270,6 +2282,9 @@ function unbox() { // This function handles the unboxing itself: which item is u
                         break;
                     case "hw24":
                         effectsArray = hw24FX;
+                        break;
+                    case "xmas24":
+                        effectsArray = xmas24FX;
                         break;
                 }
             } else {

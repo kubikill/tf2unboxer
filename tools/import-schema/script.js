@@ -35,6 +35,7 @@ function parseOutput(input) {
         .replaceAll(`"fre":`, `fre:`)
         .replaceAll(`\\\\n`, ` `)
         .replaceAll(`\\u0005`, ``)
+        .replaceAll('\\\\\\"', `\\"`)
         .replaceAll(`"spa":`, `spa:`)
         .replaceAll(`"ger":`, `ger:`)
         .replaceAll(`"bra":`, `bra:`)

@@ -29,7 +29,7 @@ var VDF = {
             line = lines[i].trim();
 
             // skip empty and comment lines
-            if( line == "" || line[0] == '/') { continue; }
+            if( line == "" || line[0] == '/' || line[0] == "\u0000") { continue; }
 
             // one level deeper
             if( line[0] == "{" ) {
@@ -38,7 +38,7 @@ var VDF = {
             }
 
             if(expect_bracket) {
-                throw new SyntaxError("VDF.parse: invalid syntax on line " + (i+1));
+                throw new SyntaxError("VDF.parse: expect bracket - invalid syntax on line " + (i+1));
             }
 
             // one level back

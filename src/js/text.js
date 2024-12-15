@@ -2677,11 +2677,22 @@ rus: '<span class="colormercenary">Наемника</span> предметов о
         eng: "Summer 2024",
         rus: "Лето 2024"
     },
-    222: {
+    221: {
         eng: "Scream Fortress XVI (2024)",
         rus: "Вииизг Фортресс XVI (2024)",
         sch: "尖叫要塞 XVI（2024）",
         rom: "Fortareata Urlatoare XVI (2024)",
 		swe: "Skrik Fortress XVI (2024)"
+    },
+    222: {
+        eng: "Smissmas 2024",
+        rus: "Смиссмас 2024",
+        pol: "Śnięta 2024",
+        sch: "圣诞节 2024",
+        bra: "Natal de 2024",
+        cze: "Vánoce 2024",
+        hun: "Galácsony 2024",
+        rom: "Craciun 2024",
+		swe: "Smissmas 2024"
     },
 }

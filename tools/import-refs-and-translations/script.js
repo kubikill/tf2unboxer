@@ -1,20 +1,20 @@
 import {
     dataCrates
-} from "../../src/js/cratenames.js"
+} from "./../../src/js/cratenames.js"
 ''
 import {
     dataItems
-} from "../../src/js/itemnames.js";
+} from "./../../src/js/itemnames.js";
 import {
     dataEffects
-} from "../../src/js/unusualeffects.js";
+} from "./../../src/js/unusualeffects.js";
 
 let vdfFile = [];
 let wpFile = [];
 
 // English, Polish, Simplified Chinese, Brazilian Portuguese, French, Czech, Hungarian, Romanian, Swedish, Russian
 let translationProperty = ["eng", "pol", "sch", "bra", "fre", "cze", "hun", "rom", "swe", "rus"];
-let warPaintString = [" War Paint", " Barwy wojenne", " 战绘", " Tinta de Guerra", " Peinture de guerre", " Válečné maskování", " Harci festés", " Vopsea de război", " Krigsfärg"];
+let warPaintString = [" War Paint", " Barwy wojenne", " 战绘", " Tinta de Guerra", " Peinture de guerre", " Válečné maskování", " Harci festés", " Vopsea de război", " Krigsfärg", " Боевая краска"];
 
 let downloaded = 0;
 let downloadedWp = 0;
@@ -57,30 +57,30 @@ let loadedOrder = [];
 let vdfTable = [];
 let wpTable = [];
 
-function fetchVdf(file) {
+function fetchVdf(file, index) {
     console.log(`Fetching ${file}`);
     fetch(`./vdf/${file}.txt`)
         .then(response => response.blob())
         .then((data) => {
-            console.log(`Putting ${file}}`);
-            parseVDF(data, file);
+            console.log(`Putting ${file}`);
+            parseVDF(data, index);
         })
 }
 
-function fetchWp(file) {
+function fetchWp(file, index) {
     fetch(`./vdf/${file}.txt`)
         .then(response => response.blob())
         .then((data) => {
-            parseWarPaint(data,file);
+            parseWarPaint(data, index);
         })
 }
 
-vdfUrlTable.forEach((file) => {
-    fetchVdf(file);
+vdfUrlTable.forEach((file, index) => {
+    fetchVdf(file, index);
 });
 
-wpUrlTable.forEach((file) => {
-    fetchWp(file);
+wpUrlTable.forEach((file, index) => {
+    fetchWp(file, index);
 });
 
 document.querySelector("#execute").onclick = () => {
@@ -93,7 +93,7 @@ document.querySelector("#createlist").onclick = () => {
 
 function checkStrings(contents) {
     let missingStrings = [];
-    let crateOutput = "{";
+    let crateOutput = "";
     let itemOutput = "";
     let fxOutput = "";
 
@@ -105,13 +105,24 @@ function checkStrings(contents) {
 
     // Checking cratenames.js
 
+    const crateRefValues = Object.values(crateRef);
+    const crateRefKeys = Object.keys(crateRef);
+
     for (let crateKey in dataCrates) {
         let crateString = dataCrates[crateKey].eng;
+        if (crateRefValues.includes(crateString)) {
+            crateOutput += `"${crateRefKeys.find(key => crateRef[key] === crateString)}": "${crateString}",<br>`;
+            continue;
+        }
         let vdfStringFound = false;
         for (let vdfKey in contents) {
             let vdfString = contents[vdfKey];
             if (crateString === vdfString) {
                 let translatedStringKey = vdfKey.replace("[english]", "");
+                if (crateRef.hasOwnProperty(translatedStringKey)) {
+                    crateOutput += `"${crateRef[translatedStringKey]}": "${crateString}",<br>`;
+                    break;
+                }
                 crateOutput += `"${translatedStringKey}": "${crateString}",<br>`;
                 vdfStringFound = true;
                 delete contents[vdfKey];
@@ -124,9 +135,9 @@ function checkStrings(contents) {
         }
     }
     if (missingStrings.length > 0) {
-        crateOutput += `}<h1>MISSING STRINGS</h1> ${missingStrings.join("<br>")}`;
+        crateOutput += `<h1>MISSING STRINGS</h1> ${missingStrings.join("<br>")}`;
     } else {
-        crateOutput += `}<h1>No missing strings</h1>`;
+        crateOutput += `<h1>No missing strings</h1>`;
     }
     document.querySelector("#cratenamesoutput").innerHTML += crateOutput;
 
@@ -134,10 +145,17 @@ function checkStrings(contents) {
 
     missingStrings = [];
 
+    const itemRefValues = Object.values(itemRef);
+    const itemRefKeys = Object.keys(itemRef);
+
     for (let itemKey in dataItems) {
         let itemString = dataItems[itemKey].eng;
         if (itemString.includes(" War Paint")) {
-            itemString.replace(" War Paint", "");
+            continue;
+        }
+        if (itemRefValues.includes(itemString)) {
+            itemOutput += `"${itemRefKeys.find(key => itemRef[key] === itemString)}": "${itemString}",<br>`;
+            continue;
         }
         let vdfStringFound = false;
         for (let vdfKey in contents) {
@@ -179,8 +197,15 @@ function checkStrings(contents) {
 
     missingStrings = [];
 
+    const fxRefValues = Object.values(fxRef);
+    const fxRefKeys = Object.keys(fxRef);
+
     for (let fxKey in dataEffects) {
         let fxString = dataEffects[fxKey].eng;
+        if (fxRefValues.includes(fxString)) {
+            fxOutput += `"${fxRefKeys.find(key => fxRef[key] === fxString)}": "${fxString}",<br>`;
+            continue;
+        }
         let vdfStringFound = false;
         for (let vdfKey in contents) {
             let vdfString = contents[vdfKey];
@@ -264,6 +289,7 @@ function parseOutput(input) {
         .replaceAll(`"fre":`, `fre:`)
         .replaceAll(`\\\\n`, ` `)
         .replaceAll(`\\u0005`, ``)
+        .replaceAll('\\\\\\"', `\\"`)
         .replaceAll(`"spa":`, `spa:`)
         .replaceAll(`"ger":`, `ger:`)
         .replaceAll(`"bra":`, `bra:`)
@@ -282,7 +308,7 @@ function findTranslations() {
     let missingStringHTMLEffects = [];
     for (let [index, file] of vdfFile.entries()) {
         if (index == 0) {
-            return;
+            continue;
         }
         let missingStrings = [];
 
@@ -356,7 +382,7 @@ function findTranslations() {
             }
         };
         missingStringHTMLEffects.push(`<br><h1>MISSING STRINGS ${translationProperty[index]}</h1> ${missingStrings.join("<br>")}`);
-    });
+    };
     document.querySelector("#cratenamesoutput").innerHTML = parseOutput(JSON.stringify(dataCrates)) + missingStringHTMLCrates.join("");
     document.querySelector("#itemnamesoutput").innerHTML = parseOutput(JSON.stringify(dataItems)) + missingStringHTMLItems.join("");;
     document.querySelector("#unusualfxoutput").innerHTML = parseOutput(JSON.stringify(dataEffects)) + missingStringHTMLEffects.join("");;

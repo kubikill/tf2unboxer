@@ -31,6 +31,7 @@ import {
     xmas21FX,
     xmas22FX,
     xmas23FX,
+    xmas24FX,
     summer23FX,
     summer24FX,
     nice2014UnusualPool,
@@ -368,6 +369,9 @@ function unbox() { // This function handles the unboxing itself: which item is u
                         break;
                     case "xmas23":
                         effectsArray = xmas23FX;
+                        break;
+                    case "xmas24":
+                        effectsArray = xmas24FX;
                         break;
                     case "summer23":
                         effectsArray = summer23FX;

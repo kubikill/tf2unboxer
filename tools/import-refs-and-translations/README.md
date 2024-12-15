@@ -29,8 +29,9 @@ This tool was built only for internal use and needs several quality of life impr
   - tf_proto_obj_defs_swedish.txt
   - tf_russian.txt
   - tf_proto_obj_defs_russian.txt
+  - etc. for files for remaining languages available in unboxer.tf
 2. Run the html file (for example by using the Live Preview extension in VSCode). 
 3. Press "Create list" to generate ref list
-4. Copy output to ref,js
+4. Copy output to ref.js
 5. Press "Find translations"
 6. Copy output to itemnames.js, cratenames.js and unusualeffects.js
