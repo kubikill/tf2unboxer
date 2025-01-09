@@ -28,8 +28,7 @@
     <meta name="twitter:image" content="./squarelogo.png" />
     <title>Error 404 - Unboxer.tf</title>
 
-    <link rel="preconnect" href="https://unboxertf2.goatcounter.com">
-    <link rel="preconnect" href="https://gc.zgo.at">
+    <link rel="preconnect" href="$PLAUSIBLE_URL">
     <link rel="preload" as="font" href="./font/tf2build.woff2" crossorigin="anonymous" />
     <link rel="preload" as="font" href="./font/tf2secondary.woff2" crossorigin="anonymous" />
 
@@ -38,17 +37,8 @@
         @import "./css/404.scss";
     </style>
 
-    <!-- Load analytics-->
-    <script>
-        window.goatcounter = {
-            referrer: function () {
-                return goatcounter.get_query('ref') ||
-                    goatcounter.get_query('utm_campaign') ||
-                    goatcounter.get_query('utm_source') ||
-                    document.referrer
-            },
-        }
-    </script>
+    <!-- Load analytics and error tracking-->
+    <script async data-domain="unboxer.tf" src="$PLAUSIBLE_SCRIPT_URL"></script>
     <script type="module">
         // Register service worker
         if ('serviceWorker' in navigator) {
@@ -57,7 +47,6 @@
             });
         }
     </script>
-    <script data-goatcounter="https://unboxertf2.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>
 
 <body>

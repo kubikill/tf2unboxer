@@ -59,20 +59,6 @@ import {
 
 // Function for reporting errors to analytics
 let errorTimeout = false;
-
-function reportError(message) {
-    if (!errorTimeout) {
-        window.goatcounter.count({
-            path: `Error ${generateRandomString()}`, // Yes, this is stupid, but this is required to prevent GoatCounter from grouping bug reports together
-            title: message,
-            event: true,
-        })
-        errorTimeout = true;
-        setTimeout(() => {
-            errorTimeout = false;
-        }, 10000)
-    }
-}
 // Compressed function for deep merging objects. a - target object, b - source object
 const mergeDeep = (a, b) => {
     for (const c of Object.keys(b)) b[c] instanceof Object && c in a && Object.assign(b[c], mergeDeep(a[c], b[c]));
@@ -1974,472 +1960,455 @@ function generateMarketplaceTfUrl(arg) {
 function unbox() { // This function handles the unboxing itself: which item is unboxed, what are its qualities, wear, effect etc.
     let randomNumber, unusualRandomNumber, itemId, itemWear, itemEffect, itemKillstreak, bonusDrops, cratePos;
     let itemQuality = [];
-    try {
-        const crate = currentCrateObj;
-        randomNumber = Math.floor((Math.random() * 10000) + 1); // Between 1 and 10000
-        unusualRandomNumber = Math.floor((Math.random() * 150) + 1) // Between 1 and 150
-        let tempNumber = 0;
-        // Select item from crate
-        let crateItem;
-        if (crate.unusual && ((unusualRandomNumber === 1) || save.options.forceUnusual)) { // 0.66% chance
-            // Item is a random unusual. Pick a random unusual, then assign Unusual (and Strange if applicable) qualities
-            let unusualArray = [];
-            switch (crate.unusual) {
-                case 1: // Pick a random unusual from the general unusual pool
-                    unusualArray = unusualPool.slice();
-                    if (currentCrate === 96 && save.options.eotlGlitch) {
-                        unusualArray = unusualArray.concat(eotlGlitchUnusualPool);
-                    }
-                    if (currentCrateObj.series >= 1 && currentCrateObj.series <= 55 && save.options.sniperVsSpyUnusuals) {
-                        unusualArray = unusualArray.concat(sniperVsSpyUnusualsPool);
-                    }
-                    if (currentCrateObj.series >= 1 && currentCrateObj.series <= 102 && save.options.miscUnusuals) {
-                        unusualArray = unusualArray.concat(miscUnusualPool);
-                    }
-                    if (currentCrateObj.series === 89) {
-                        unusualArray = unusualArray.concat(nice2014UnusualPool);
-                    } else if (currentCrateObj.series === 86) {
-                        unusualArray = unusualArray.concat(limitedLateSummerUnusualPool);
-                    }
-                    itemId = unusualArray[Math.floor(Math.random() * unusualArray.length)];
+    const crate = currentCrateObj;
+    randomNumber = Math.floor((Math.random() * 10000) + 1); // Between 1 and 10000
+    unusualRandomNumber = Math.floor((Math.random() * 150) + 1) // Between 1 and 150
+    let tempNumber = 0;
+    // Select item from crate
+    let crateItem;
+    if (crate.unusual && ((unusualRandomNumber === 1) || save.options.forceUnusual)) { // 0.66% chance
+        // Item is a random unusual. Pick a random unusual, then assign Unusual (and Strange if applicable) qualities
+        let unusualArray = [];
+        switch (crate.unusual) {
+            case 1: // Pick a random unusual from the general unusual pool
+                unusualArray = unusualPool.slice();
+                if (currentCrate === 96 && save.options.eotlGlitch) {
+                    unusualArray = unusualArray.concat(eotlGlitchUnusualPool);
+                }
+                if (currentCrateObj.series >= 1 && currentCrateObj.series <= 55 && save.options.sniperVsSpyUnusuals) {
+                    unusualArray = unusualArray.concat(sniperVsSpyUnusualsPool);
+                }
+                if (currentCrateObj.series >= 1 && currentCrateObj.series <= 102 && save.options.miscUnusuals) {
+                    unusualArray = unusualArray.concat(miscUnusualPool);
+                }
+                if (currentCrateObj.series === 89) {
+                    unusualArray = unusualArray.concat(nice2014UnusualPool);
+                } else if (currentCrateObj.series === 86) {
+                    unusualArray = unusualArray.concat(limitedLateSummerUnusualPool);
+                }
+                itemId = unusualArray[Math.floor(Math.random() * unusualArray.length)];
 
-                    if (nice2014UnusualPool.includes(itemId)) {
-                        let qualityRandomNumber = Math.floor((Math.random() * 10) + 1); // Between 1 and 10
-                        if (qualityRandomNumber == 10 || save.options.forceStrange) {
-                            itemQuality.push("strange");
-                        }
+                if (nice2014UnusualPool.includes(itemId)) {
+                    let qualityRandomNumber = Math.floor((Math.random() * 10) + 1); // Between 1 and 10
+                    if (qualityRandomNumber == 10 || save.options.forceStrange) {
+                        itemQuality.push("strange");
                     }
+                }
 
-                    crateItem = {
-                        id: itemId,
-                        quality: null
+                crateItem = {
+                    id: itemId,
+                    quality: null
+                };
+                break;
+            case 2: // Pick a random unusual from the same crate, which can have the Unusual quality. Items with higher grades have a smaller chance of being picked
+                let gradeRandom;
+                if (save.options.forceGrade) {
+                    gradeRandom = save.options.forceGradeNum;
+                } else {
+                    gradeRandom = Math.floor((Math.random() * 1000) + 1); // Between 1 and 1000
+                    if (gradeRandom <= 8) { // Elite - 0.8%
+                        gradeRandom = 6;
+                    } else if (gradeRandom <= 40) { // Assassin - 3.2%
+                        gradeRandom = 5;
+                    } else if (gradeRandom <= 200) { // Commando - 16%
+                        gradeRandom = 4;
+                    } else { // Mercnary - 80%
+                        gradeRandom = 3;
                     };
-                    break;
-                case 2: // Pick a random unusual from the same crate, which can have the Unusual quality. Items with higher grades have a smaller chance of being picked
-                    let gradeRandom;
-                    if (save.options.forceGrade) {
-                        gradeRandom = save.options.forceGradeNum;
-                    } else {
-                        gradeRandom = Math.floor((Math.random() * 1000) + 1); // Between 1 and 1000
-                        if (gradeRandom <= 8) { // Elite - 0.8%
-                            gradeRandom = 6;
-                        } else if (gradeRandom <= 40) { // Assassin - 3.2%
-                            gradeRandom = 5;
-                        } else if (gradeRandom <= 200) { // Commando - 16%
-                            gradeRandom = 4;
-                        } else { // Mercnary - 80%
-                            gradeRandom = 3;
-                        };
-                    }
-                    while (unusualArray.length === 0) {
-                        unusualArray = crate.loot.filter(item => {
-                            return [6, 7, 9, 10].includes(item.quality) && item.grade == gradeRandom;
-                        });
-                        if (save.options.miscUnusuals && currentCrate === 105 && gradeRandom === 4) {
-                            unusualArray.push(crate.loot[5]) // Captain Space Mann
-                        }
-                        if (gradeRandom <= 2) {
-                            throw new Error;
-                        }
-                        gradeRandom--;
-                    }
-                    crateItem = unusualArray[Math.floor(Math.random() * unusualArray.length)];
-                    itemId = crateItem.id;
-                    break;
-                case 3: // Same as case 2, but items have equal chance of being picked instead
+                }
+                while (unusualArray.length === 0) {
                     unusualArray = crate.loot.filter(item => {
-                        return [6, 7, 9, 10].includes(item.quality);
+                        return [6, 7, 9, 10].includes(item.quality) && item.grade == gradeRandom;
                     });
-                    crateItem = unusualArray[Math.floor(Math.random() * unusualArray.length)];
-                    itemId = crateItem.id;
-                    break;
-            }
-            itemQuality.push("unusual");
-        } else {
-            // Unbox something else
-            switch (crate.autoChance) {
-                case 1:
-                    let gradeRandom;
-                    if (save.options.forceGrade) {
-                        gradeRandom = save.options.forceGradeNum;
-                    } else {
-                        gradeRandom = Math.floor((Math.random() * 1000) + 1); // Between 1 and 1000
-                        if (gradeRandom <= 8) { // Elite - 0.8%
-                            gradeRandom = 6;
-                        } else if (gradeRandom <= 40) { // Assassin - 3.2%
-                            gradeRandom = 5;
-                        } else if (gradeRandom <= 200) { // Commando - 16%
-                            gradeRandom = 4;
-                        } else { // Mercnary - 80%
-                            gradeRandom = 3;
-                        };
-
-                        if (crate.loot[0].grade === 1) gradeRandom -= 2;
+                    if (save.options.miscUnusuals && currentCrate === 105 && gradeRandom === 4) {
+                        unusualArray.push(crate.loot[5]) // Captain Space Mann
                     }
-                    let itemPool = [];
-                    while (itemPool.length === 0) {
-                        itemPool = crate.loot.filter(item => {
-                            return item.grade == gradeRandom;
-                        });
-                        if (gradeRandom <= 0) {
-                            throw new Error;
-                        }
-                        gradeRandom--;
+                    if (gradeRandom <= 2) {
+                        throw new Error;
                     }
-
-                    let randomItemNumber = Math.floor(Math.random() * (itemPool.length)); // Between 0 and itemPool.length - 1
-                    crateItem = itemPool[randomItemNumber];
-                    cratePos = crate.loot.findIndex(it => {
-                        return it.id == crateItem.id;
-                    })
-                    break;
-
-                case 2:
-                    let randomItemNumber2 = Math.floor(Math.random() * (crate.loot.length)); // Between 0 and crate.loot.length - 1
-                    crateItem = crate.loot[randomItemNumber2];
-                    cratePos = randomItemNumber2;
-                    break;
-
-                default:
-                    randomNumber = Math.floor((Math.random() * 9900) + 1);
-                    for (const item in crate.loot) {
-                        if (randomNumber > tempNumber && randomNumber <= tempNumber + crate.loot[item].chance) {
-                            crateItem = crate.loot[item]; // Create a copy of the item we unboxed. Otherwise, we may end up modifying the item in the crate
-                            cratePos = item;
-                            break;
-                        } else {
-                            tempNumber += crate.loot[item].chance;
-                        }
-                    };
-            }
+                    gradeRandom--;
+                }
+                crateItem = unusualArray[Math.floor(Math.random() * unusualArray.length)];
+                itemId = crateItem.id;
+                break;
+            case 3: // Same as case 2, but items have equal chance of being picked instead
+                unusualArray = crate.loot.filter(item => {
+                    return [6, 7, 9, 10].includes(item.quality);
+                });
+                crateItem = unusualArray[Math.floor(Math.random() * unusualArray.length)];
+                itemId = crateItem.id;
+                break;
         }
-        itemId = crateItem.id;
+        itemQuality.push("unusual");
+    } else {
+        // Unbox something else
+        switch (crate.autoChance) {
+            case 1:
+                let gradeRandom;
+                if (save.options.forceGrade) {
+                    gradeRandom = save.options.forceGradeNum;
+                } else {
+                    gradeRandom = Math.floor((Math.random() * 1000) + 1); // Between 1 and 1000
+                    if (gradeRandom <= 8) { // Elite - 0.8%
+                        gradeRandom = 6;
+                    } else if (gradeRandom <= 40) { // Assassin - 3.2%
+                        gradeRandom = 5;
+                    } else if (gradeRandom <= 200) { // Commando - 16%
+                        gradeRandom = 4;
+                    } else { // Mercnary - 80%
+                        gradeRandom = 3;
+                    };
 
-        // Handle random unusual items and item qualities
-        let generateWear = false;
-        if (crateItem.quality != null) {
-            // Item is not a random unusual. Assign quality
-            let qualityRandomNumber;
-            switch (crateItem.quality) {
-                case 0:
-                    itemQuality.push("unusual");
-                    break;
-                case 1:
-                case 7:
-                    itemQuality.push("unique");
-                    break;
-                case 2:
+                    if (crate.loot[0].grade === 1) gradeRandom -= 2;
+                }
+                let itemPool = [];
+                while (itemPool.length === 0) {
+                    itemPool = crate.loot.filter(item => {
+                        return item.grade == gradeRandom;
+                    });
+                    if (gradeRandom <= 0) {
+                        throw new Error;
+                    }
+                    gradeRandom--;
+                }
+
+                let randomItemNumber = Math.floor(Math.random() * (itemPool.length)); // Between 0 and itemPool.length - 1
+                crateItem = itemPool[randomItemNumber];
+                cratePos = crate.loot.findIndex(it => {
+                    return it.id == crateItem.id;
+                })
+                break;
+
+            case 2:
+                let randomItemNumber2 = Math.floor(Math.random() * (crate.loot.length)); // Between 0 and crate.loot.length - 1
+                crateItem = crate.loot[randomItemNumber2];
+                cratePos = randomItemNumber2;
+                break;
+
+            default:
+                randomNumber = Math.floor((Math.random() * 9900) + 1);
+                for (const item in crate.loot) {
+                    if (randomNumber > tempNumber && randomNumber <= tempNumber + crate.loot[item].chance) {
+                        crateItem = crate.loot[item]; // Create a copy of the item we unboxed. Otherwise, we may end up modifying the item in the crate
+                        cratePos = item;
+                        break;
+                    } else {
+                        tempNumber += crate.loot[item].chance;
+                    }
+                };
+        }
+    }
+    itemId = crateItem.id;
+
+    // Handle random unusual items and item qualities
+    let generateWear = false;
+    if (crateItem.quality != null) {
+        // Item is not a random unusual. Assign quality
+        let qualityRandomNumber;
+        switch (crateItem.quality) {
+            case 0:
+                itemQuality.push("unusual");
+                break;
+            case 1:
+            case 7:
+                itemQuality.push("unique");
+                break;
+            case 2:
+                itemQuality.push("strange");
+                break;
+            case 3:
+                itemQuality.push("haunted");
+                break;
+            case 4:
+            case 9:
+            case 10:
+                qualityRandomNumber = Math.floor((Math.random() * 10) + 1); // Between 1 and 10
+                if (qualityRandomNumber == 10 || save.options.forceStrange) {
                     itemQuality.push("strange");
-                    break;
-                case 3:
-                    itemQuality.push("haunted");
-                    break;
-                case 4:
-                case 9:
-                case 10:
-                    qualityRandomNumber = Math.floor((Math.random() * 10) + 1); // Between 1 and 10
-                    if (qualityRandomNumber == 10 || save.options.forceStrange) {
-                        itemQuality.push("strange");
-                    } else {
-                        itemQuality.push("unique");
-                    }
-                    break;
-                case 5:
-                    generateWear = true;
-                    break;
-                case 6:
-                    generateWear = true;
-                    qualityRandomNumber = Math.floor((Math.random() * 10) + 1); // Between 1 and 10
-                    if (qualityRandomNumber == 10 || save.options.forceStrange) {
-                        itemQuality.push("strange");
-                    };
-                    break;
-                case 8:
-                    qualityRandomNumber = Math.floor((Math.random() * 10) + 1); // Between 1 and 10
-                    if (qualityRandomNumber == 10 || save.options.forceStrange) {
-                        itemQuality.push("strange", "haunted");
-                    } else {
-                        itemQuality.push("unique");
-                    }
-                    break;
-                case 11:
+                } else {
                     itemQuality.push("unique");
-                    itemKillstreak = {
-                        sheen: null,
-                        killstreaker: null
-                    }
-                    qualityRandomNumber = Math.floor((Math.random() * 100) + 1);
-                    if (qualityRandomNumber > 65 || save.options.forceProKit) {
-                        // Pick sheen
-                        itemKillstreak.sheen = Math.floor((Math.random() * (sheenTable.length - 1)) + 1);
-                    }
-                    if (qualityRandomNumber > 90 || save.options.forceProKit) {
-                        // Pick killstreaker
-                        itemKillstreak.killstreaker = Math.floor((Math.random() * (killstreakerTable.length - 1)) + 1);
-                    }
-                    break;
-                case 12:
-                    itemQuality.push("strangifier");
-                    break;
-            };
+                }
+                break;
+            case 5:
+                generateWear = true;
+                break;
+            case 6:
+                generateWear = true;
+                qualityRandomNumber = Math.floor((Math.random() * 10) + 1); // Between 1 and 10
+                if (qualityRandomNumber == 10 || save.options.forceStrange) {
+                    itemQuality.push("strange");
+                };
+                break;
+            case 8:
+                qualityRandomNumber = Math.floor((Math.random() * 10) + 1); // Between 1 and 10
+                if (qualityRandomNumber == 10 || save.options.forceStrange) {
+                    itemQuality.push("strange", "haunted");
+                } else {
+                    itemQuality.push("unique");
+                }
+                break;
+            case 11:
+                itemQuality.push("unique");
+                itemKillstreak = {
+                    sheen: null,
+                    killstreaker: null
+                }
+                qualityRandomNumber = Math.floor((Math.random() * 100) + 1);
+                if (qualityRandomNumber > 65 || save.options.forceProKit) {
+                    // Pick sheen
+                    itemKillstreak.sheen = Math.floor((Math.random() * (sheenTable.length - 1)) + 1);
+                }
+                if (qualityRandomNumber > 90 || save.options.forceProKit) {
+                    // Pick killstreaker
+                    itemKillstreak.killstreaker = Math.floor((Math.random() * (killstreakerTable.length - 1)) + 1);
+                }
+                break;
+            case 12:
+                itemQuality.push("strangifier");
+                break;
         };
-        if (itemQuality.length === 1) {
-            itemQuality = itemQuality[0];
+    };
+    if (itemQuality.length === 1) {
+        itemQuality = itemQuality[0];
+    } else {
+        itemQuality = itemQuality.join("");
+    }
+
+    // Wear
+    itemWear = 0;
+    if (generateWear) {
+        let randomWear = Math.floor((Math.random() * 10) + 1);
+        switch (randomWear) {
+            case 1: // 10% - Battle Scarred
+                itemWear = 1;
+                break;
+            case 2:
+            case 3: // 20% - Well-Worn
+                itemWear = 2;
+                break;
+            case 4:
+            case 5:
+            case 6:
+            case 7: // 40% - Field-Tested
+                itemWear = 3;
+                break;
+            case 8:
+            case 9: // 20% - Minimal Wear
+                itemWear = 4;
+                break;
+            case 10: // 10% - Factory New
+                itemWear = 5;
+                break;
+        }
+    }
+
+    // Unusual effect
+    itemEffect = 0;
+    if (itemQuality.includes("unusual")) {
+        let effectsArray;
+        if (!["none", null, undefined].includes(save.options.halloweenMode) && halloweenModeCrateList[save.options.halloweenMode].includes(currentCrate)) {
+            switch (save.options.halloweenMode) {
+                case "hw11":
+                    effectsArray = hw11FX;
+                    break;
+                case "hw12":
+                    effectsArray = hw12FX;
+                    break;
+                case "hw13":
+                    effectsArray = hw13FX;
+                    break;
+                case "hw14":
+                    effectsArray = hw14FX;
+                    break;
+                case "hw16":
+                    effectsArray = hw16FX;
+                    break;
+                case "hw17":
+                    effectsArray = hw17FX;
+                    break;
+                case "hw18":
+                    effectsArray = hw18FX;
+                    break;
+                case "hw19":
+                    effectsArray = hw19FX;
+                    break;
+                case "hw20":
+                    effectsArray = hw20FX;
+                    break;
+                case "hw21":
+                    effectsArray = hw21FX;
+                    break;
+                case "hw22":
+                    effectsArray = hw22FX;
+                    break;
+                case "hw23":
+                    effectsArray = hw23FX;
+                    break;
+                case "xmas19":
+                    effectsArray = xmas19FX;
+                    break;
+                case "xmas20":
+                    effectsArray = xmas20FX;
+                    break;
+                case "xmas21":
+                    effectsArray = xmas21FX;
+                    break;
+                case "xmas22":
+                    effectsArray = xmas22FX;
+                    break;
+                case "xmas23":
+                    effectsArray = xmas23FX;
+                    break;
+                case "summer23":
+                    effectsArray = summer23FX;
+                    break;
+                case "summer24":
+                    effectsArray = summer24FX;
+                    break;
+                case "hw24":
+                    effectsArray = hw24FX;
+                    break;
+                case "xmas24":
+                    effectsArray = xmas24FX;
+                    break;
+            }
         } else {
-            itemQuality = itemQuality.join("");
-        }
+            effectsArray = crate.effects;
 
-        // Wear
-        itemWear = 0;
-        if (generateWear) {
-            let randomWear = Math.floor((Math.random() * 10) + 1);
-            switch (randomWear) {
-                case 1: // 10% - Battle Scarred
-                    itemWear = 1;
-                    break;
-                case 2:
-                case 3: // 20% - Well-Worn
-                    itemWear = 2;
-                    break;
-                case 4:
-                case 5:
-                case 6:
-                case 7: // 40% - Field-Tested
-                    itemWear = 3;
-                    break;
-                case 8:
-                case 9: // 20% - Minimal Wear
-                    itemWear = 4;
-                    break;
-                case 10: // 10% - Factory New
-                    itemWear = 5;
-                    break;
-            }
-        }
-
-        // Unusual effect
-        itemEffect = 0;
-        if (itemQuality.includes("unusual")) {
-            let effectsArray;
-            if (!["none", null, undefined].includes(save.options.halloweenMode) && halloweenModeCrateList[save.options.halloweenMode].includes(currentCrate)) {
-                switch (save.options.halloweenMode) {
-                    case "hw11":
-                        effectsArray = hw11FX;
-                        break;
-                    case "hw12":
-                        effectsArray = hw12FX;
-                        break;
-                    case "hw13":
-                        effectsArray = hw13FX;
-                        break;
-                    case "hw14":
-                        effectsArray = hw14FX;
-                        break;
-                    case "hw16":
-                        effectsArray = hw16FX;
-                        break;
-                    case "hw17":
-                        effectsArray = hw17FX;
-                        break;
-                    case "hw18":
-                        effectsArray = hw18FX;
-                        break;
-                    case "hw19":
-                        effectsArray = hw19FX;
-                        break;
-                    case "hw20":
-                        effectsArray = hw20FX;
-                        break;
-                    case "hw21":
-                        effectsArray = hw21FX;
-                        break;
-                    case "hw22":
-                        effectsArray = hw22FX;
-                        break;
-                    case "hw23":
-                        effectsArray = hw23FX;
-                        break;
-                    case "xmas19":
-                        effectsArray = xmas19FX;
-                        break;
-                    case "xmas20":
-                        effectsArray = xmas20FX;
-                        break;
-                    case "xmas21":
-                        effectsArray = xmas21FX;
-                        break;
-                    case "xmas22":
-                        effectsArray = xmas22FX;
-                        break;
-                    case "xmas23":
-                        effectsArray = xmas23FX;
-                        break;
-                    case "summer23":
-                        effectsArray = summer23FX;
-                        break;
-                    case "summer24":
-                        effectsArray = summer24FX;
-                        break;
-                    case "hw24":
-                        effectsArray = hw24FX;
-                        break;
-                    case "xmas24":
-                        effectsArray = xmas24FX;
-                        break;
-                }
-            } else {
-                effectsArray = crate.effects;
-
-                // If unboxing an Unusual robohat from the Robo Community Crate, add 1st, 2nd and 3rd gen effects to effect pool
-                if (currentCrateObj.series === 58) {
-                    for (let item of currentCrateObj.loot) {
-                        if (itemId === item.id) {
-                            effectsArray = effectsArray.concat(allGensFX);
-                        }
+            // If unboxing an Unusual robohat from the Robo Community Crate, add 1st, 2nd and 3rd gen effects to effect pool
+            if (currentCrateObj.series === 58) {
+                for (let item of currentCrateObj.loot) {
+                    if (itemId === item.id) {
+                        effectsArray = effectsArray.concat(allGensFX);
                     }
                 }
             }
-            itemEffect = effectsArray[Math.floor(Math.random() * effectsArray.length)];
-        };
+        }
+        itemEffect = effectsArray[Math.floor(Math.random() * effectsArray.length)];
+    };
 
-        // Bonus drops
+    // Bonus drops
 
-        bonusDrops = [];
-        if (crate.bonus) {
-            let bonusNum = 0;
-            if (save.options.forceBonusItem) {
-                bonusNum = 3;
-            } else {
-                bonusNum = 0;
-                let bonusChance = Math.floor((Math.random() * 5) + 1); // Between 1 and 5
-                if (bonusChance <= 2 || save.options.forceBonusItem) { // 40% chance to get bonus drop
+    bonusDrops = [];
+    if (crate.bonus) {
+        let bonusNum = 0;
+        if (save.options.forceBonusItem) {
+            bonusNum = 3;
+        } else {
+            bonusNum = 0;
+            let bonusChance = Math.floor((Math.random() * 5) + 1); // Between 1 and 5
+            if (bonusChance <= 2 || save.options.forceBonusItem) { // 40% chance to get bonus drop
+                bonusNum++;
+                bonusChance = Math.floor((Math.random() * 5) + 1) // Between 1 and 5
+                if (bonusChance == 1) { // 20% chance to get another bonus drop (8%)
                     bonusNum++;
-                    bonusChance = Math.floor((Math.random() * 5) + 1) // Between 1 and 5
-                    if (bonusChance == 1) { // 20% chance to get another bonus drop (8%)
+                    bonusChance = Math.floor((Math.random() * 25) + 1) // Between 1 and 25
+                    if (bonusChance == 1) { // 4% chance to get third bonus drop (0.32%)
                         bonusNum++;
-                        bonusChance = Math.floor((Math.random() * 25) + 1) // Between 1 and 25
-                        if (bonusChance == 1) { // 4% chance to get third bonus drop (0.32%)
-                            bonusNum++;
-                        }
                     }
                 }
             }
-            let oneExclusiveBonusUnboxed = false;
-            for (; bonusNum > 0; bonusNum--) {
-                let unusualifierChance = Math.floor((Math.random() * 1000) + 1) // Between 1 and 1000
-                if (unusualifierChance <= 15 || save.options.forceUnusualifier) { // 1.5% chance
-                    // Unbox unusualifier
-                    let randomTaunt = Math.floor(Math.random() * unusualifierArray.length);
+        }
+        let oneExclusiveBonusUnboxed = false;
+        for (; bonusNum > 0; bonusNum--) {
+            let unusualifierChance = Math.floor((Math.random() * 1000) + 1) // Between 1 and 1000
+            if (unusualifierChance <= 15 || save.options.forceUnusualifier) { // 1.5% chance
+                // Unbox unusualifier
+                let randomTaunt = Math.floor(Math.random() * unusualifierArray.length);
+                bonusDrops.push({
+                    id: 770,
+                    taunt: unusualifierArray[randomTaunt]
+                })
+            } else {
+                let unboxExclusive = false;
+                if (crate.exclusiveBonus && !oneExclusiveBonusUnboxed) {
+                    let exclusiveBonusChance = Math.floor((Math.random() * 10000) + 1) // Between 1 and 10000
+                    if (exclusiveBonusChance <= crate.exclusiveBonus.chance) {
+                        unboxExclusive = true;
+                        if (crate.oneExclusiveBonus) {
+                            oneExclusiveBonusUnboxed = true;
+                        }
+                    }
+                }
+
+                if (unboxExclusive) {
+                    // Case exclusive bonus drop
+                    let randomBonus = Math.floor(Math.random() * crate.exclusiveBonus.loot.length);
                     bonusDrops.push({
-                        id: 770,
-                        taunt: unusualifierArray[randomTaunt]
+                        id: crate.exclusiveBonus.loot[randomBonus]
                     })
                 } else {
-                    let unboxExclusive = false;
-                    if (crate.exclusiveBonus && !oneExclusiveBonusUnboxed) {
-                        let exclusiveBonusChance = Math.floor((Math.random() * 10000) + 1) // Between 1 and 10000
-                        if (exclusiveBonusChance <= crate.exclusiveBonus.chance) {
-                            unboxExclusive = true;
-                            if (crate.oneExclusiveBonus) {
-                                oneExclusiveBonusUnboxed = true;
-                            }
-                        }
-                    }
-
-                    if (unboxExclusive) {
-                        // Case exclusive bonus drop
-                        let randomBonus = Math.floor(Math.random() * crate.exclusiveBonus.loot.length);
-                        bonusDrops.push({
-                            id: crate.exclusiveBonus.loot[randomBonus]
-                        })
-                    } else {
-                        // Global bonus drop
-                        let randomBonus = Math.floor(Math.random() * globalBonusItemArray.length)
-                        switch (globalBonusItemArray[randomBonus]) {
-                            case "paint": // Pick random paint
-                                bonusDrops.push({
-                                    id: paintBonusArray[Math.floor(Math.random() * paintBonusArray.length)]
-                                });
-                                break;
-                            case "strangepart": // Pick random strange part
-                                bonusDrops.push({
-                                    id: strangePartBonusArray[Math.floor(Math.random() * strangePartBonusArray.length)]
-                                });
-                                break;
-                            default:
-                                bonusDrops.push({
-                                    id: globalBonusItemArray[randomBonus]
-                                })
-                                break;
-                        }
+                    // Global bonus drop
+                    let randomBonus = Math.floor(Math.random() * globalBonusItemArray.length)
+                    switch (globalBonusItemArray[randomBonus]) {
+                        case "paint": // Pick random paint
+                            bonusDrops.push({
+                                id: paintBonusArray[Math.floor(Math.random() * paintBonusArray.length)]
+                            });
+                            break;
+                        case "strangepart": // Pick random strange part
+                            bonusDrops.push({
+                                id: strangePartBonusArray[Math.floor(Math.random() * strangePartBonusArray.length)]
+                            });
+                            break;
+                        default:
+                            bonusDrops.push({
+                                id: globalBonusItemArray[randomBonus]
+                            })
+                            break;
                     }
                 }
             }
-        } else if (crate.exclusiveBonus) {
-            let exclusiveBonusChance = Math.floor((Math.random() * 10000) + 1) // Between 1 and 10000
-            if (exclusiveBonusChance <= crate.exclusiveBonus.chance || save.options.forceBonusItem) {
-                let randomBonus = Math.floor(Math.random() * crate.exclusiveBonus.loot.length);
-                bonusDrops.push({
-                    id: crate.exclusiveBonus.loot[randomBonus]
-                })
-            }
         }
-        if (crate.creepyBonus) {
-            let bonusChance = Math.floor((Math.random() * 50) + 1) // Between 1 and 50
-            if (bonusChance === 1 || save.options.forceBonusItem) { // 2% chance
-                let randomBonus = Math.floor(Math.random() * creepyCrateBonusArray.length);
-                let itemKillstreak;
-                if (creepyCrateBonusArray[randomBonus].quality === 11) {
-                    itemKillstreak = {
-                        sheen: null,
-                        killstreaker: null
-                    }
-                    let randomKillstreak = Math.floor((Math.random() * 100) + 1);
-                    if (randomKillstreak > 65 || save.options.forceProKit) {
-                        // Pick sheen
-                        itemKillstreak.sheen = Math.floor((Math.random() * (sheenTable.length - 1)) + 1);
-                    }
-                    if (randomKillstreak > 90 || save.options.forceProKit) {
-                        // Pick killstreaker
-                        itemKillstreak.killstreaker = Math.floor((Math.random() * (killstreakerTable.length - 1)) + 1);
-                    }
-
+    } else if (crate.exclusiveBonus) {
+        let exclusiveBonusChance = Math.floor((Math.random() * 10000) + 1) // Between 1 and 10000
+        if (exclusiveBonusChance <= crate.exclusiveBonus.chance || save.options.forceBonusItem) {
+            let randomBonus = Math.floor(Math.random() * crate.exclusiveBonus.loot.length);
+            bonusDrops.push({
+                id: crate.exclusiveBonus.loot[randomBonus]
+            })
+        }
+    }
+    if (crate.creepyBonus) {
+        let bonusChance = Math.floor((Math.random() * 50) + 1) // Between 1 and 50
+        if (bonusChance === 1 || save.options.forceBonusItem) { // 2% chance
+            let randomBonus = Math.floor(Math.random() * creepyCrateBonusArray.length);
+            let itemKillstreak;
+            if (creepyCrateBonusArray[randomBonus].quality === 11) {
+                itemKillstreak = {
+                    sheen: null,
+                    killstreaker: null
                 }
-                bonusDrops.push({
-                    id: creepyCrateBonusArray[randomBonus].id,
-                    quality: creepyCrateBonusArray[randomBonus].quality,
-                    killstreak: itemKillstreak
-                })
+                let randomKillstreak = Math.floor((Math.random() * 100) + 1);
+                if (randomKillstreak > 65 || save.options.forceProKit) {
+                    // Pick sheen
+                    itemKillstreak.sheen = Math.floor((Math.random() * (sheenTable.length - 1)) + 1);
+                }
+                if (randomKillstreak > 90 || save.options.forceProKit) {
+                    // Pick killstreaker
+                    itemKillstreak.killstreaker = Math.floor((Math.random() * (killstreakerTable.length - 1)) + 1);
+                }
+
             }
+            bonusDrops.push({
+                id: creepyCrateBonusArray[randomBonus].id,
+                quality: creepyCrateBonusArray[randomBonus].quality,
+                killstreak: itemKillstreak
+            })
         }
+    }
 
-        // Return item
-        return {
-            id: itemId,
-            cratePos: cratePos,
-            name: getString("item", itemId),
-            quality: itemQuality,
-            wear: itemWear,
-            grade: crateItem.grade,
-            effect: itemEffect,
-            killstreak: itemKillstreak,
-            bonus: bonusDrops
-        }
-    } catch (err) {
-        let errorMessage = `Something went wrong when executing unbox().
-    Error stack: ${err.stack}
-
-    currentCrate: ${currentCrate}
-    randomNumber: ${randomNumber}
-    unusualRandomNumber: ${unusualRandomNumber}
-    forceUnusual: ${save.options.forceUnusual}
-    itemId: ${itemId}
-    quality: ${itemQuality}
-    wear: ${itemWear}
-    effect: ${itemEffect}`;
-
-        console.error(errorMessage);
-        reportError(errorMessage);
+    // Return item
+    return {
+        id: itemId,
+        cratePos: cratePos,
+        name: getString("item", itemId),
+        quality: itemQuality,
+        wear: itemWear,
+        grade: crateItem.grade,
+        effect: itemEffect,
+        killstreak: itemKillstreak,
+        bonus: bonusDrops
     }
 }
 
@@ -2605,7 +2574,6 @@ function beginUnbox() { // This function handles the unbox countdown and shows t
     }
 
     function showResults() {
-        try {
             DOM.results.lootName.removeAttribute("class");
             DOM.results.effectImg.src = emptyImage;
             DOM.results.kitField.innerHTML = "";
@@ -2841,20 +2809,6 @@ function beginUnbox() { // This function handles the unbox countdown and shows t
                     DOM.results.statUnusualsUnboxedDiv.style.display = "none";
                 }
             }
-        } catch (err) {
-            let errorMessage = `Something went wrong when executing beginUnbox().
-    Error stack: ${err.stack}
-
-    currentCrate: ${currentCrate}
-    forceUnusual: ${save.options.forceUnusual}
-    itemId: ${unboxResult.id}
-    quality: ${unboxResult.quality}
-    wear: ${unboxResult.wear}
-    effect: ${unboxResult.effect}`;
-
-            console.error(errorMessage);
-            reportError(errorMessage);
-        }
     }
 }
 
@@ -3700,7 +3654,7 @@ bulkWorker.onmessage = function (e) {
         DOM.bulkResults.stats.classList.add("bulkvisible");
         DOM.bulkResults.container.style.display = "block";
     } else if (e.data.error) {
-        reportError(e.data.error);
+        throw new Error(e.data.error);
     }
 }
 
