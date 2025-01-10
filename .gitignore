@@ -24,3 +24,5 @@ dist
 
 # Contents of vdf folder
 vdf/
+
+.env
