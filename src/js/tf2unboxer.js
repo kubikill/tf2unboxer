@@ -2304,7 +2304,7 @@ function unbox() { // This function handles the unboxing itself: which item is u
         } else {
             bonusNum = 0;
             let bonusChance = Math.floor((Math.random() * 5) + 1); // Between 1 and 5
-            if (bonusChance <= 2 || save.options.forceBonusItem) { // 33% chance to get bonus drop
+            if (bonusChance <= 2 || save.options.forceBonusItem) { // 40% chance to get bonus drop
                 bonusNum++;
                 bonusChance = Math.floor((Math.random() * 5) + 1) // Between 1 and 5
                 if (bonusChance == 1) { // 20% chance to get another bonus drop (8%)

@@ -427,7 +427,7 @@ function unbox() { // This function handles the unboxing itself: which item is u
             let oneExclusiveBonusUnboxed = false;
             for (; bonusNum > 0; bonusNum--) {
                 let unusualifierChance = Math.floor((Math.random() * 1000) + 1) // Between 1 and 1000
-                if (unusualifierChance <= 15 || save.options.forceUnusualifier) { // 1.5% chance
+                if (unusualifierChance <= 10 || save.options.forceUnusualifier) { // 1% chance
                     // Unbox unusualifier
                     let randomTaunt = Math.floor(Math.random() * unusualifierArray.length);
                     bonusDrops.push({
