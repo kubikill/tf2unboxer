@@ -3,12 +3,7 @@ A Team Fortress 2 crate/case simulator.
 
 Available at [https://unboxer.tf](https://unboxer.tf).
 
-## 10.26.2024
-- Added Russian translation
-- Added HW 2024 cases (only in .js, with pics)
-- Only items added from HW 2024 (no pics, just in .js), no taunts, no warpaints
-
-# HOWTO (ENG)
+# HOWTO
 
 1. **Install Node.js** if you don't have it on your computer yet. Go to the [official Node.js website](https://nodejs.org/) and download the latest version.
 
