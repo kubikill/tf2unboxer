@@ -87,5 +87,4 @@ function generateDef() {
 
 document.querySelector("#itembtn").onclick = () => {
     document.querySelector("#itemnamesoutput").style.display = "block";
-    document.querySelector("#unusualfxoutput").style.display = "none";
 }

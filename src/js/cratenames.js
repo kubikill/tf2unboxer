@@ -19,7 +19,7 @@ export let dataCrates = {
         fre: "Caisse festive de Noël",
         bra: "Caixa Festiva de Fim de Ano",
         hun: "Ünnepélyes Téli Láda",
-        swe: "Festlig Vinter-Låda"
+        swe: "Festlig vinterlåda"
     },
     3: {
         img: "mann_co_audition_reel",
@@ -30,7 +30,7 @@ export let dataCrates = {
         fre: "Bobine Mann Co.",
         bra: "Rolo de Filme da Mann Co.",
         hun: "Mann Co. Filmtekercs",
-        swe: "Auditionrulle från Mann co."
+        swe: "Auditionrulle från Mann Co."
     },
     4: {
         img: "concealed_killer_weapons_case",
@@ -53,7 +53,7 @@ export let dataCrates = {
         fre: "Glacière Rafraîchissante de l'Été",
         bra: "Cooler Refrescante de Férias",
         hun: "Frissítő Nyári Hűtőtáska",
-        swe: "Uppfriskande Frysbox"
+        swe: "Uppfriskande frysbox"
     },
     6: {
         img: "salvaged_mann_co_supply_crate",
@@ -64,7 +64,7 @@ export let dataCrates = {
         fre: "Caisse Mann Co. de récupération",
         bra: "Caixa Recuperada de Suprimentos da Mann Co.",
         hun: "Megmentett Mann Co. Ellátmányláda",
-        swe: "Bärgad Förrådslåda Från Mann Co."
+        swe: "Bärgad förrådslåda från Mann Co."
     },
     7: {
         img: "naughty_winter_crate",
@@ -75,7 +75,7 @@ export let dataCrates = {
         fre: "Caisse d'hiver vilaine",
         bra: "Caixa Malcomportada de Fim de Ano",
         hun: "Rosszcsont Téli Láda",
-        swe: "Stygg Vinterlåda"
+        swe: "Stygg vinterlåda"
     },
     8: {
         img: "nice_winter_crate",
@@ -86,7 +86,7 @@ export let dataCrates = {
         fre: "Caisse d'hiver bien sage",
         bra: "Caixa Bem-Comportada de Fim de Ano",
         hun: "Rendes Téli Láda",
-        swe: "Snäll Vinterlåda"
+        swe: "Snäll vinterlåda"
     },
     9: {
         img: "scorched_crate",
@@ -97,7 +97,7 @@ export let dataCrates = {
         fre: "Caisse roussie",
         bra: "Caixa Chamuscada",
         hun: "Megperzselt Láda",
-        swe: "Bränd Låda"
+        swe: "Bränd låda"
     },
     10: {
         img: "fall_crate",
@@ -119,7 +119,7 @@ export let dataCrates = {
         fre: "Caisse sinistre",
         bra: "Caixa Sombria",
         hun: "Kísérteties Láda",
-        swe: "Kuslig Låda"
+        swe: "Kuslig låda"
     },
     12: {
         img: "naughty_winter_crate_2012",
@@ -296,7 +296,7 @@ export let dataCrates = {
         fre: "Caisse effrayante",
         bra: "Caixa Apavorante",
         hun: "Kísérteties Láda",
-        swe: "Spöklik Låda"
+        swe: "Spöklik låda"
     },
     28: {
         img: "naughty_winter_crate_2013",
@@ -330,7 +330,7 @@ export let dataCrates = {
         fre: "Coffre-fort Mann Co.",
         bra: "Caixa-Forte da Mann Co.",
         hun: "Mann Co. Páncélkazetta",
-        swe: "Mann Co. Kassaskåp"
+        swe: "Mann Co.-kassaskåp"
     },
     31: {
         img: "mann_co_supply_munition",
@@ -374,7 +374,7 @@ export let dataCrates = {
         fre: "Caisse sinistre déverrouillée de Scout",
         bra: "Caixa Destrancada Horripilante do Scout",
         hun: "Bezáratlan Rémisztő Felderítő Láda",
-        swe: "Upplåst kuslig Spanar-låda"
+        swe: "Upplåst kuslig Scout-låda"
     },
     35: {
         img: "unlocked_creepy_soldier_crate",
@@ -407,7 +407,7 @@ export let dataCrates = {
         fre: "Caisse sinistre déverrouillée de Demoman",
         bra: "Caixa Destrancada Horripilante do Demoman",
         hun: "Bezáratlan Rémisztő Robbantós Láda",
-        swe: "Upplåst kuslig Demo-låda"
+        swe: "Upplåst kuslig Demoman-låda"
     },
     38: {
         img: "unlocked_creepy_heavy_crate",
@@ -418,7 +418,7 @@ export let dataCrates = {
         fre: "Caisse sinistre déverrouillée de Heavy",
         bra: "Caixa Destrancada Horripilante do Heavy",
         hun: "Bezáratlan Rémisztő Gépágyús Láda",
-        swe: "Upplåst kuslig Tung Artillerist-låda"
+        swe: "Upplåst kuslig Heavy-låda"
     },
     39: {
         img: "unlocked_creepy_engineer_crate",
@@ -429,7 +429,7 @@ export let dataCrates = {
         fre: "Caisse sinistre déverrouillée d'Engineer",
         bra: "Caixa Destrancada Horripilante do Engineer",
         hun: "Bezáratlan Rémisztő Mérnök Láda",
-        swe: "Upplåst kuslig Ingenjör-låda"
+        swe: "Upplåst kuslig Engineer-låda"
     },
     40: {
         img: "unlocked_creepy_medic_crate",
@@ -462,7 +462,7 @@ export let dataCrates = {
         fre: "Caisse sinistre déverrouillée de Spy",
         bra: "Caixa Destrancada Horripilante do Spy",
         hun: "Bezáratlan Rémisztő Kém Láda",
-        swe: "Upplåst kuslig Spion-låda"
+        swe: "Upplåst kuslig Spy-låda"
     },
     43: {
         img: "limited_late_summer_crate",
@@ -473,12 +473,12 @@ export let dataCrates = {
         fre: "Caisse limitée de fin d'été",
         bra: "Caixa Limitada de Férias Atrasada",
         hun: "Limitált Késő Nyári Láda",
-        swe: "Begränsad Sensommarlåda"
+        swe: "Begränsad sensommarlåda"
     },
     44: {
         img: "end_of_the_line_community_crate",
         eng: "End of the Line Community Crate",
-        rus: "Ящик от сообщества \\\"The End of the Line\\\"",
+        rus: "Ящик от сообщества \"The End of the Line\"",
         pol: "Skrzynka aktualizacji społeczności „Koniec trasy”",
         sch: "End of the Line 社区补给箱",
         fre: "Caisse communautaire End of the Line",
@@ -512,7 +512,7 @@ export let dataCrates = {
     47: {
         img: "powerhouse_weapons_case",
         eng: "Powerhouse Weapons Case",
-        rus: "Кейс \\\"Оружие с Powerhouse\\\"",
+        rus: "Кейс \"Оружие с Powerhouse\"",
         pol: "Skrzynia Powerhouse",
         sch: "Powerhouse 武器箱",
         fre: "La caisse d'armes Powerhouse",
@@ -536,7 +536,7 @@ export let dataCrates = {
     49: {
         img: "quarantined_collection_case",
         eng: "Quarantined Collection Case",
-        rus: "Кейс коллекции \\\"Карантин\\\"",
+        rus: "Кейс коллекции \"Карантин\"",
         pol: "Skrzynia kolekcji kwarantanny",
         sch: "隔离收藏品箱",
         fre: "Caisse de la collection Quarantaine",
@@ -549,7 +549,7 @@ export let dataCrates = {
     50: {
         img: "confidential_collection_case",
         eng: "Confidential Collection Case",
-        rus: "Кейс коллекции \\\"Засекречено\\\"",
+        rus: "Кейс коллекции \"Засекречено\"",
         pol: "Skrzynia kolekcji poufne",
         sch: "机密收藏品箱",
         fre: "Caisse de la collection Confidentielle",
@@ -574,7 +574,7 @@ export let dataCrates = {
     52: {
         img: "pyroland_weapons_case",
         eng: "Pyroland Weapons Case",
-        rus: "Кейс \\\"Пироландия\\\"",
+        rus: "Кейс \"Пироландия\"",
         pol: "Skrzynia Pyrolandu",
         sch: "火焰幻境武器箱",
         fre: "Caisse d'armes Pyroland",
@@ -586,7 +586,7 @@ export let dataCrates = {
     53: {
         img: "warbird_weapons_case",
         eng: "Warbird Weapons Case",
-        rus: "Кейс \\\"Летучий отряд\\\"",
+        rus: "Кейс \"Летучий отряд\"",
         pol: "Skrzynia Warbird",
         sch: "战鸟武器箱",
         fre: "Caisse d'armes Warbird",
@@ -710,7 +710,7 @@ export let dataCrates = {
         pol: "Barwy wojenne bohatera wojennego Otwarty pojemnik stopnia cywil",
         sch: "功勋英雄 民用级无锁战绘箱",
         fre: "Peinture de guerre Decorated War Hero Caisse ouverte de niveau Civil",
-        bra: "Tinta de Guerra \\\"Veterano Condecorado\\\" Caixa Destrancada Nv. Civil",
+        bra: "Tinta de Guerra \"Veterano Condecorado\" Caixa Destrancada Nv. Civil",
         hun: "„Kitüntetett Háborús Hős” harci festés Civil fokozatú kulcs nélküli táska",
         rom: "Vopsea de război „Decorated War Hero” Cutie neîncuiată de ordin civil",
         cze: "Decorated War Hero Civilian Grade Keyless Case",
@@ -723,7 +723,7 @@ export let dataCrates = {
         pol: "Barwy wojenne najemnika kontraktowego Otwarty pojemnik stopnia cywil",
         sch: "合同履行者 民用级无锁战绘箱",
         fre: "Peinture de guerre « Contract Campaigner » Caisse ouverte de niveau Civil",
-        bra: "Tinta de Guerra \\\"Contratado da Campanha\\\" Caixa Destrancada Nv. Civil",
+        bra: "Tinta de Guerra \"Contratado da Campanha\" Caixa Destrancada Nv. Civil",
         hun: "„Szerződéses Hadjáratozó” harci festés Civil fokozatú kulcs nélküli táska",
         rom: "Vopsea de război „Contract Campaigner” Cutie neîncuiată de ordin civil",
         cze: "Contract Campaigner Civilian Grade Keyless Case",
@@ -780,7 +780,7 @@ export let dataCrates = {
     69: {
         img: "scream_fortress_x_war_paint_case",
         eng: "Scream Fortress X War Paint Case",
-        rus: "Кейс с боевой краской \\\"Вииизг Фортресс X\\\"",
+        rus: "Кейс с боевой краской \"Вииизг Фортресс X\"",
         pol: "Skrzynia barw wojennych Scream Fortress X",
         sch: "尖叫要塞 X 战绘箱",
         fre: "Caisse de peintures Scream Fortress X",
@@ -921,7 +921,7 @@ export let dataCrates = {
         fre: "Caisse cosmétique Multi-classe ouverte",
         bra: "Caixa de Cosméticos Destrancada Multiclasses",
         hun: "Kinyitott Több Osztályú Díszítő Láda",
-        swe: "Upplåst kosmetiklåda (Multiklass)"
+        swe: "Upplåst kosmetiklåda (flera klasser)"
     },
     82: {
         img: "spooky_spoils_case",
@@ -986,7 +986,7 @@ export let dataCrates = {
     87: {
         img: "scream_fortress_xii_war_paint_case",
         eng: "Scream Fortress XII War Paint Case",
-        rus: "Кейс с боевой краской \\\"Вииизг Фортресс XII\\\"",
+        rus: "Кейс с боевой краской \"Вииизг Фортресс XII\"",
         pol: "Skrzynia barw wojennych Scream Fortress XII",
         fre: "Caisse de peintures Scream Fortress XII",
         sch: "尖叫要塞 XII 战绘箱",
@@ -1043,13 +1043,14 @@ export let dataCrates = {
     92: {
         img: "scream_fortress_xiii_war_paint_case",
         eng: "Scream Fortress XIII War Paint Case",
-        rus: "Кейс с боевой краской \\\"Вииизг Фортресс XIII\\\"",
+        rus: "Кейс с боевой краской \"Вииизг Фортресс XIII\"",
         pol: "Skrzynia barw wojennych Scream Fortress XIII",
         hun: "Scream Fortress XIII Harci Festés Táska",
         swe: "Scream Fortress XIII-krigsfärgväska",
         bra: "Caixa de Tintas de Guerra do Scream Fortress XIII",
         fre: "Caisse de peintures Scream Fortress XIII",
-        rom: "Cutie cu vopsea de război Scream Fortress XIII"
+        rom: "Cutie cu vopsea de război Scream Fortress XIII",
+        sch: "尖叫要塞 XIII 战绘箱"
     },
     93: {
         img: "winter_2021_cosmetic_case",
@@ -1083,18 +1084,20 @@ export let dataCrates = {
         fre: "Caisse du butin des goules",
         hun: "Hátborzongató Haszon Táska",
         rom: "Cutie Ghoulish Gains",
-        swe: "Ghoulish Gains-väska"
+        swe: "Ghoulish Gains-väska",
+        sch: "邪秽赃污石匣"
     },
     96: {
         img: "scream_fortress_xiv_war_paint_case",
         eng: "Scream Fortress XIV War Paint Case",
-        rus: "Кейс с боевой краской \\\"Вииизг Фортресс XIV\\\"",
+        rus: "Кейс с боевой краской \"Вииизг Фортресс XIV\"",
         pol: "Pojemnik barw wojennych Scream Fortress XIV",
         bra: "Caixa de Tintas de Guerra do Scream Fortress XIV",
         fre: "Caisse de peintures Scream Fortress XIV",
         hun: "Scream Fortress XIV Harci Festés Táska",
         rom: "Cutie cu vopsea de război Scream Fortress XIV",
-        swe: "Scream Fortress XIV-krigsfärgväska"
+        swe: "Scream Fortress XIV-krigsfärgväska",
+        sch: "尖叫要塞 XIV 战绘箱"
     },
     97: {
         img: "winter_2022_cosmetic_case",
@@ -1105,7 +1108,8 @@ export let dataCrates = {
         fre: "Caisse de cosmétiques d'hiver 2022",
         hun: "Tél 2022 Díszítő Táska",
         rom: "Cutie cu accesorii Winter 2022",
-        swe: "Vinter 2022-kosmetikväska"
+        swe: "Vinter 2022-kosmetikväska",
+        sch: "2022 冬季饰品箱"
     },
     98: {
         img: "summer_2023_cosmetic_case",
@@ -1128,7 +1132,8 @@ export let dataCrates = {
         fre: "Caisse de peintures d'été 2023",
         hun: "Nyár 2023 Harci Festés Táska",
         rom: "Cutie cu vopsea de război Summer 2023",
-        swe: "Sommar 2023-krigsfärgväska"
+        swe: "Sommar 2023-krigsfärgväska",
+        sch: "2023 夏季战绘箱"
     },
     100: {
         img: "bone_chilling_bonanza_case",
@@ -1139,7 +1144,8 @@ export let dataCrates = {
         fre: "Caisse du Magot macabre",
         hun: "Borzongató Bonanza Táska",
         rom: "Cutie Bone-Chilling Bonanza",
-        swe: "Bone-Chilling Bonanza-väska"
+        swe: "Bone-Chilling Bonanza-väska",
+        sch: "刺骨暴富石匣"
     },
     101: {
         img: "winter_2023_cosmetic_case",
@@ -1150,7 +1156,8 @@ export let dataCrates = {
         fre: "Caisse de cosmétiques d'hiver 2023",
         hun: "Tél 2023 Díszítő Táska",
         rom: "Cutie cu accesorii Winter 2023",
-        swe: "Vinter 2023-kosmetiklåda"
+        swe: "Vinter 2023-kosmetiklåda",
+        sch: "2023 冬季饰品箱"
     },
     102: {
         img: "summer_2024_cosmetic_case",
@@ -1179,7 +1186,7 @@ export let dataCrates = {
     104: {
         img: "scream_fortress_xvi_war_paint_case",
         eng: "Scream Fortress XVI War Paint Case",
-        rus: "Кейс с боевой краской \\\"Вииизг Фортресс XVI\\\"",
+        rus: "Кейс с боевой краской \"Вииизг Фортресс XVI\"",
         pol: "Skrzynia barw wojennych Scream Fortress XVI",
         sch: "尖叫要塞 XVI 战绘箱",
         bra: "Caixa de Tintas de Guerra do Scream Fortress XVI",
@@ -1190,6 +1197,18 @@ export let dataCrates = {
     },
     105: {
         img: "winter_2024_cosmetic_case",
-        eng: "Winter 2024 Cosmetic Case"
+        eng: "Winter 2024 Cosmetic Case",
+        pol: "Zimowy pojemnik ozdób 2024",
+        sch: "2024 冬季饰品箱",
+        bra: "Caixa de Cosméticos de Fim de Ano de 2024",
+        fre: "Caisse de cosmétiques d'hiver 2024",
+        hun: "Tél 2024 Díszítő Táska",
+        rom: "Cutie cu accesorii Winter 2024",
+        swe: "Vinter 2024-kosmetikväska",
+        rus: "Зимний кейс с аксессуарами 2024"
+    },
+    106: {
+        img: "summer_2025_cosmetic_case",
+        eng: "Summer 2025 Cosmetic Case"
     }
 }

@@ -2643,7 +2643,8 @@ rus: '<span class="colormercenary">Наемника</span> предметов о
     },
     215: {
         eng: "Summer 2023",
-        rus: "Лето 2023"
+        rus: "Лето 2023",
+        pol: "Lato 2023"
     },
     216: {
         eng: "Scream Fortress XV (2023)",
@@ -2675,7 +2676,8 @@ rus: '<span class="colormercenary">Наемника</span> предметов о
     },
     220: {
         eng: "Summer 2024",
-        rus: "Лето 2024"
+        rus: "Лето 2024",
+        pol: "Lato 2024"
     },
     221: {
         eng: "Scream Fortress XVI (2024)",
@@ -2694,5 +2696,10 @@ rus: '<span class="colormercenary">Наемника</span> предметов о
         hun: "Galácsony 2024",
         rom: "Craciun 2024",
 		swe: "Smissmas 2024"
+    },
+    223: {
+        eng: "Summer 2025",
+        rus: "Лето 2025",
+        pol: "Lato 2025"
     },
 }

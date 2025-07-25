@@ -42,6 +42,7 @@ import {
     eotlGlitchUnusualPool,
     sniperVsSpyUnusualsPool,
     hw24FX,
+    summer25FX,
     } from "./crate.js";
 
 const wearTable = ["", "FN", "MW", "FT", "WW", "BS"];
@@ -378,6 +379,9 @@ function unbox() { // This function handles the unboxing itself: which item is u
                         break;
                     case "summer24":
                         effectsArray = summer24FX;
+                        break;
+                    case "summer25":
+                        effectsArray = summer25FX;
                         break;
                     case "hw24":
                         effectsArray = hw24FX;

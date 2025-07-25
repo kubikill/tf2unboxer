@@ -9,7 +9,7 @@ export let dataEffects = {
         fre: "Flammes brûlantes",
         bra: "Chamas ardentes",
         hun: "Lobogó lángok",
-        swe: "Brinnande Lågor"
+        swe: "Brinnande lågor"
     },
     2: {
         img: "circling_heart",
@@ -21,7 +21,7 @@ export let dataEffects = {
         fre: "Coeur tournant",
         bra: "Coração circulante",
         hun: "Keringő szív",
-        swe: "Cirklande Hjärta"
+        swe: "Cirklande hjärta"
     },
     3: {
         img: "circling_peace_sign",
@@ -33,7 +33,7 @@ export let dataEffects = {
         fre: "Symbole Peace tournant",
         bra: "Símbolo de paz circulante",
         hun: "Keringő béke-jel",
-        swe: "Cirklande Fredstecken"
+        swe: "Cirklande fredstecken"
     },
     4: {
         img: "circling_tf_logo",
@@ -45,7 +45,7 @@ export let dataEffects = {
         fre: "Logo TF tournant",
         bra: "Logo do TF circulante",
         hun: "Keringő TF logó",
-        swe: "Cirklande TF-Logga"
+        swe: "Cirklande TF-logotyp"
     },
     5: {
         img: "green_confetti",
@@ -57,7 +57,7 @@ export let dataEffects = {
         fre: "Confetti verts",
         bra: "Confete verde",
         hun: "Zöld konfetti",
-        swe: "Grön Konfetti"
+        swe: "Grön konfetti"
     },
     6: {
         img: "green_energy",
@@ -69,7 +69,7 @@ export let dataEffects = {
         fre: "Énergie verte",
         bra: "Energia verde",
         hun: "Zöld energia",
-        swe: "Grön Energi"
+        swe: "Grön energi"
     },
     7: {
         img: "haunted_ghosts",
@@ -81,7 +81,7 @@ export let dataEffects = {
         fre: "Fantômes",
         bra: "Fantasmas assombrados",
         hun: "Kísértő szellemek",
-        swe: "Hemsökta Spöken"
+        swe: "Hemsökta spöken"
     },
     8: {
         img: "massed_flies",
@@ -105,7 +105,7 @@ export let dataEffects = {
         fre: "Confetti violets",
         bra: "Confete roxo",
         hun: "Lila konfetti",
-        swe: "Lila Konfetti"
+        swe: "Lila konfetti"
     },
     10: {
         img: "purple_energy",
@@ -117,7 +117,7 @@ export let dataEffects = {
         fre: "Énergie violette",
         bra: "Energia roxa",
         hun: "Lila energia",
-        swe: "Lila Energi"
+        swe: "Lila energi"
     },
     11: {
         img: "scorching_flames",
@@ -129,7 +129,7 @@ export let dataEffects = {
         fre: "Flammes écorcheuses",
         bra: "Chamas escaldantes",
         hun: "Perzselő lángok",
-        swe: "Brännheta Lågor"
+        swe: "Brännheta lågor"
     },
     12: {
         img: "searing_plasma",
@@ -141,7 +141,7 @@ export let dataEffects = {
         fre: "Plasma brûlant",
         bra: "Plasma escaldante",
         hun: "Égető plazma",
-        swe: "Glödande Plasma"
+        swe: "Glödande plasma"
     },
     13: {
         img: "sunbeams",
@@ -166,7 +166,7 @@ export let dataEffects = {
         bra: "Plasma vívido",
         hun: "Élénk plazma",
         rom: "Plasmă Strălucitoare",
-        swe: "Intensiv Plasma"
+        swe: "Intensiv plasma"
     },
     15: {
         img: "72",
@@ -357,7 +357,7 @@ export let dataEffects = {
         fre: "Écrous & Boulons",
         bra: "Porcas e parafusos",
         hun: "Anyák és csavarok",
-        swe: "Muttrar å Skruvar"
+        swe: "Muttrar å skruvar"
     },
     31: {
         img: "orbiting_fire",
@@ -369,7 +369,7 @@ export let dataEffects = {
         fre: "Flamme en Orbite",
         bra: "Fogo orbitante",
         hun: "Keringő tűzcsóva",
-        swe: "Kretsande Eld"
+        swe: "Kretsande eld"
     },
     32: {
         img: "orbiting_planets",
@@ -381,7 +381,7 @@ export let dataEffects = {
         fre: "Planètes en Orbite",
         bra: "Planetas orbitantes",
         hun: "Keringő bolygók",
-        swe: "Kretsande Planeter"
+        swe: "Kretsande planeter"
     },
     33: {
         img: "smoking",
@@ -441,7 +441,7 @@ export let dataEffects = {
         fre: "Lune voilée",
         bra: "Lua nublada",
         hun: "Felhős hold",
-        swe: "Molnig Måne"
+        swe: "Molnig måne"
     },
     38: {
         img: "eerie_orbiting_fire",
@@ -453,7 +453,7 @@ export let dataEffects = {
         fre: "Sinistre flamme en orbite",
         bra: "Fogo assustador orbitante",
         hun: "Hátborzongató keringő tűz",
-        swe: "Kuslig Kretsande Eld"
+        swe: "Kuslig kretsande eld"
     },
     39: {
         img: "flaming_lantern",
@@ -465,7 +465,7 @@ export let dataEffects = {
         fre: "Lanterne enflammée",
         bra: "Lanterna flamejante",
         hun: "Lángoló lámpás",
-        swe: "Flammande Lykta"
+        swe: "Flammande lykta"
     },
     40: {
         img: "harvest_moon",
@@ -513,7 +513,7 @@ export let dataEffects = {
         fre: "Crâne mystique",
         bra: "Caveira nebulosa",
         hun: "Ködös koponya",
-        swe: "Dimmig Dödskalle"
+        swe: "Dimmig dödskalle"
     },
     44: {
         img: "stormy_13th_hour",
@@ -525,7 +525,7 @@ export let dataEffects = {
         fre: "Orage de la 13ᵉ heure",
         bra: "Décima terceira hora tempestuosa",
         hun: "Viharos 13. óra",
-        swe: "Den Stormiga 13:nde Timmen"
+        swe: "Den stormiga 13:e timmen"
     },
     45: {
         img: "anti_freeze",
@@ -683,7 +683,7 @@ export let dataEffects = {
         fre: "Présidents morts",
         bra: "Verdinhas",
         hun: "Halott elnökök",
-        swe: "Döda Presidenter"
+        swe: "Döda presidenter"
     },
     58: {
         img: "disco_beat_down",
@@ -801,7 +801,7 @@ export let dataEffects = {
         fre: "Ombre empoisonnée",
         bra: "Veneno sombrio",
         hun: "Mérgezett árnyak",
-        swe: "Förgiftade Skuggor"
+        swe: "Förgiftade skuggor"
     },
     68: {
         img: "something_burning_this_way_comes",
@@ -813,7 +813,7 @@ export let dataEffects = {
         fre: "Ombre enflammée",
         bra: "Arder ou não arder",
         hun: "Lángoló lélek közeleg",
-        swe: "Något Brinnande Hitåt Kommer"
+        swe: "Något brinnande hitåt ränner"
     },
     69: {
         img: "spellbound",
@@ -846,7 +846,7 @@ export let dataEffects = {
         schema: 81,
         pol: "wszechjedzący Bonzo",
         sch: "地下巨口",
-        fre: "Bonzo The All-Gnawing",
+        fre: "Bonzo le rongeur de savoir",
         bra: "Bonzo, o atormentador",
         hun: "Bonzó, a Mindentrágó",
         swe: "Bonzo, den evigt gnagande"
@@ -885,7 +885,7 @@ export let dataEffects = {
         fre: "Regards de l'au-delà",
         bra: "Olhar do além",
         hun: "Túlvilági tekintet",
-        swe: "Blicken från bakom"
+        swe: "Blicken från andra sidan"
     },
     75: {
         img: "ooze",
@@ -1073,7 +1073,7 @@ export let dataEffects = {
         eng: "It's a Mystery to Everyone",
         rus: "Загадка для всех",
         schema: 101,
-        pol: "zagadka dla wszystkich",
+        pol: "dla wszystkich jest to tajemnicą",
         sch: "紫色幽灵",
         fre: "C'est un mystère pour tout le monde",
         bra: "É um mistério",
@@ -1953,7 +1953,8 @@ export let dataEffects = {
         bra: "Ressonância",
         hun: "Rezonancia",
         fre: "Résonance",
-        swe: "Resonans"
+        swe: "Resonans",
+        sch: "共鸣电光"
     },
     164: {
         img: "aggradation",
@@ -1963,7 +1964,8 @@ export let dataEffects = {
         pol: "agradacja",
         bra: "Agradação",
         hun: "Ingerencia",
-        swe: "Aggradering"
+        swe: "Aggradering",
+        sch: "高能电光"
     },
     165: {
         img: "lucidation",
@@ -1974,7 +1976,8 @@ export let dataEffects = {
         bra: "Elucidação",
         hun: "Luminencia",
         fre: "Élucidation",
-        swe: "Upplysande"
+        swe: "Upplysande",
+        sch: "明澈电光"
     },
     166: {
         img: "stunning",
@@ -1991,19 +1994,22 @@ export let dataEffects = {
         img: "ardentum_saturnalis",
         eng: "Ardentum Saturnalis",
         rus: "Пылкус Сатурналис",
-        schema: 181
+        schema: 181,
+        sch: "璀璨星弦"
     },
     168: {
         img: "fragrancium_elementalis",
         eng: "Fragrancium Elementalis",
         rus: "Благоухатус Элементалис",
-        schema: 182
+        schema: 182,
+        sch: "迷离星弦"
     },
     169: {
         img: "reverium_irregularis",
         eng: "Reverium Irregularis",
         rus: "Вращатус Непостоянис",
-        schema: 183
+        schema: 183,
+        sch: "梦幻星弦"
     },
     170: {
         img: "perennial_petals",
@@ -2014,7 +2020,8 @@ export let dataEffects = {
         bra: "Pétalas perenes",
         hun: "Örökszép szirmok",
         fre: "Pétales pérennes",
-        swe: "Fleråriga kronblad"
+        swe: "Fleråriga kronblad",
+        sch: "花香常漫"
     },
     171: {
         img: "flavorsome_sunset",
@@ -2025,7 +2032,8 @@ export let dataEffects = {
         bra: "Ocaso saboroso",
         hun: "Ízléses naplemente",
         fre: "Coucher de soleil pittoresque",
-        swe: "Smakfull solnedgång"
+        swe: "Smakfull solnedgång",
+        sch: "落幕余晖"
     },
     172: {
         img: "raspberry_bloom",
@@ -2036,7 +2044,8 @@ export let dataEffects = {
         bra: "Explosão de framboesa",
         hun: "Málnavirág",
         fre: "Éclosion fruitée",
-        swe: "Hallonblomster"
+        swe: "Hallonblomster",
+        sch: "华彩绽放"
     },
     173: {
         img: "iridescence",
@@ -2046,7 +2055,8 @@ export let dataEffects = {
         pol: "iryzacja",
         bra: "Iridescência",
         hun: "Színjátszás",
-        swe: "Regnbågsskimmer"
+        swe: "Regnbågsskimmer",
+        sch: "虹彩萦绕"
     },
     174: {
         img: "tempered_thorns",
@@ -2057,7 +2067,8 @@ export let dataEffects = {
         hun: "Szolid szarvak",
         swe: "Härdade horn",
         bra: "Chifres temperados",
-        fre: "Cornes canon"
+        fre: "Cornes canon",
+        sch: "棘刺魔角"
     },
     175: {
         img: "devilish_diablo",
@@ -2068,7 +2079,8 @@ export let dataEffects = {
         bra: "Diabo diabólico",
         hun: "Ördögi ördög",
         swe: "Diabolisk djävul",
-        fre: "Diable démoniaque"
+        fre: "Diable démoniaque",
+        sch: "赤炎魔角"
     },
     176: {
         img: "severed_serration",
@@ -2079,7 +2091,8 @@ export let dataEffects = {
         hun: "Heves hegyesség",
         swe: "Tjusiga taggar",
         bra: "Saliência serrilhada",
-        fre: "Perches pourpres"
+        fre: "Perches pourpres",
+        sch: "幽能魔角"
     },
     177: {
         img: "shrieking_shades",
@@ -2090,7 +2103,8 @@ export let dataEffects = {
         hun: "Sikoltó árnyak",
         swe: "Gapande gastar",
         bra: "Aparição aflita",
-        fre: "Cris crâniens"
+        fre: "Cris crâniens",
+        sch: "鬼哭狼嚎"
     },
     178: {
         img: "restless_wraiths",
@@ -2101,7 +2115,8 @@ export let dataEffects = {
         hun: "Nyugtalan lidércek",
         swe: "Osaliga andar",
         bra: "Assombro agitado",
-        fre: "Apparitions agitées"
+        fre: "Apparitions agitées",
+        sch: "惊神泣鬼"
     },
     179: {
         img: "infernal_wraith",
@@ -2112,7 +2127,8 @@ export let dataEffects = {
         hun: "Pokoli lidérc",
         swe: "Infernaliska vålnader",
         bra: "Espíritos infernais",
-        fre: "Spectres sulfureux"
+        fre: "Spectres sulfureux",
+        sch: "幽冥魂冠"
     },
     180: {
         img: "phantom_crown",
@@ -2123,7 +2139,8 @@ export let dataEffects = {
         hun: "Fantomkorona",
         swe: "Fantomkrona",
         bra: "Coroa fantasmagórica",
-        fre: "Couronne fantomatique"
+        fre: "Couronne fantomatique",
+        sch: "幻影魂冠"
     },
     181: {
         img: "ancient_specter",
@@ -2134,7 +2151,8 @@ export let dataEffects = {
         hun: "Ősi jelenés",
         swe: "Forntida spöke",
         bra: "Espectro ancestral",
-        fre: "Spectres anciens"
+        fre: "Spectres anciens",
+        sch: "上古魂冠"
     },
     182: {
         img: "viridescent_peeper",
@@ -2145,7 +2163,8 @@ export let dataEffects = {
         hun: "Zöld kémlelő",
         swe: "Kusliga korpgluggar",
         bra: "Visão viridescente",
-        fre: "Visage verdoyant"
+        fre: "Visage verdoyant",
+        sch: "妒意凝视"
     },
     183: {
         img: "eyes_of_molten",
@@ -2156,7 +2175,8 @@ export let dataEffects = {
         hun: "Izzó szemek",
         swe: "Brännande blick",
         bra: "Testemunha das chamas",
-        fre: "Regard retors"
+        fre: "Regard retors",
+        sch: "灼怒凝视"
     },
     184: {
         img: "ominous_stare",
@@ -2167,7 +2187,8 @@ export let dataEffects = {
         hun: "Baljós tekintet",
         swe: "Olycksbådande blick",
         bra: "Olhar odioso",
-        fre: "Présence pesante"
+        fre: "Présence pesante",
+        sch: "怪诞凝视"
     },
     185: {
         img: "pumpkin_moon",
@@ -2178,7 +2199,8 @@ export let dataEffects = {
         hun: "Tökhold",
         swe: "Pumpamåne",
         bra: "Lua de abóbora",
-        fre: "Lune citrouille"
+        fre: "Lune citrouille",
+        sch: "瓜月当空"
     },
     186: {
         img: "frantic_spooker",
@@ -2189,7 +2211,8 @@ export let dataEffects = {
         hun: "Kétségbeesett kísértet",
         swe: "Frenetiskt spöke",
         bra: "Camarada ansioso",
-        fre: "Fantôme frénétique"
+        fre: "Fantôme frénétique",
+        sch: "狂乱怪灵"
     },
     187: {
         img: "frightened_poltergeist",
@@ -2200,7 +2223,8 @@ export let dataEffects = {
         bra: "Poltergeist pávido",
         hun: "Rémült kísértet",
         swe: "Skrämd poltergeist",
-        fre: "Ectoplasme effrayé"
+        fre: "Ectoplasme effrayé",
+        sch: "惊恐怪灵"
     },
     188: {
         img: "energetic_haunter",
@@ -2211,7 +2235,8 @@ export let dataEffects = {
         hun: "Energikus kísértő",
         swe: "Energisk gast",
         bra: "Espectro energético",
-        fre: "Revenant remuant"
+        fre: "Revenant remuant",
+        sch: "欢脱怪灵"
     },
     189: {
         img: "smissmas_tree",
@@ -2398,7 +2423,8 @@ export let dataEffects = {
         bra: "Sensação crustácea",
         hun: "Tengerparti érzés",
         fre: "Instant crustacé",
-        swe: "Kräftskiva"
+        swe: "Kräftskiva",
+        sch: "蟹意满面"
     },
     206: {
         img: "frosted_decadence",
@@ -2409,7 +2435,8 @@ export let dataEffects = {
         bra: "Decadência glacê",
         hun: "Deres dekadencia",
         fre: "Glaçage décadent",
-        swe: "Frostad dekadens"
+        swe: "Frostad dekadens",
+        sch: "霜落纷纷"
     },
     207: {
         img: "sprinkled_delights",
@@ -2431,7 +2458,8 @@ export let dataEffects = {
         bra: "Benevolência terrestre",
         hun: "Földi kegy",
         fre: "Faveur terrestre",
-        swe: "Galaktisk gunst"
+        swe: "Galaktisk gunst",
+        sch: "交织之境"
     },
     209: {
         img: "tropical_thrill",
@@ -2442,7 +2470,8 @@ export let dataEffects = {
         bra: "Agitação tropical",
         hun: "Trópusi izgalom",
         fre: "Frisson tropical",
-        swe: "Tropisk magi"
+        swe: "Tropisk magi",
+        sch: "交织之力"
     },
     210: {
         img: "flourishing_passion",
@@ -2453,7 +2482,8 @@ export let dataEffects = {
         bra: "Paixão florescente",
         hun: "Virágzó szenvedély",
         fre: "Passion florissante",
-        swe: "Sprakande passion"
+        swe: "Sprakande passion",
+        sch: "交织之意"
     },
     211: {
         img: "dazzling_fireworks",
@@ -2464,7 +2494,8 @@ export let dataEffects = {
         bra: "Pirotecnia deslumbrante",
         hun: "Káprázatos tűzijáték",
         fre: "Feux d'artifice éblouissants",
-        swe: "Bländande fyrverkerier"
+        swe: "Bländande fyrverkerier",
+        sch: "闪映爆竹"
     },
     212: {
         img: "blazing_fireworks",
@@ -2486,7 +2517,8 @@ export let dataEffects = {
         bra: "Pirotecnia lustrosa",
         hun: "Sziporkázó tűzijáték",
         fre: "Feux d'artifice scintillants",
-        swe: "Skimrande fyrverkerier"
+        swe: "Skimrande fyrverkerier",
+        sch: "闪耀爆竹"
     },
     214: {
         img: "twinkling_fireworks",
@@ -2530,7 +2562,8 @@ export let dataEffects = {
         bra: "Pirotecnia cintilante",
         hun: "Fénylő tűzijáték",
         fre: "Feux d'artifice miroitants",
-        swe: "Glittrande fyrverkerier"
+        swe: "Glittrande fyrverkerier",
+        sch: "闪色爆竹"
     },
     218: {
         img: "flying_lights",
@@ -2541,7 +2574,8 @@ export let dataEffects = {
         hun: "Repülő fények",
         bra: "Lanternas voadoras",
         fre: "Lanternes volantes",
-        swe: "Svävande ljus"
+        swe: "Svävande ljus",
+        sch: "映福天灯"
     },
     219: {
         img: "limelight",
@@ -2552,7 +2586,8 @@ export let dataEffects = {
         bra: "Holofotes",
         hun: "Reflektorfény",
         fre: "Lampions citron vert",
-        swe: "Rampljus"
+        swe: "Rampljus",
+        sch: "寓福天灯"
     },
     220: {
         img: "shining_star",
@@ -2563,7 +2598,8 @@ export let dataEffects = {
         bra: "Estrela cintilante",
         hun: "Ragyogó csillag",
         fre: "Lumières orange",
-        swe: "Glänsande stjärna"
+        swe: "Glänsande stjärna",
+        sch: "祈福天灯"
     },
     221: {
         img: "cold_cosmos",
@@ -2574,7 +2610,8 @@ export let dataEffects = {
         hun: "Hideg kozmosz",
         bra: "Cosmo gélido",
         fre: "Cosmos glacial",
-        swe: "Kall kosmos"
+        swe: "Kall kosmos",
+        sch: "寒暮星辰"
     },
     222: {
         img: "refracting_fractals",
@@ -2585,7 +2622,8 @@ export let dataEffects = {
         bra: "Fractais refratores",
         hun: "Töredező fraktálok",
         fre: "Fractales réfractantes",
-        swe: "Brytande fraktaler"
+        swe: "Brytande fraktaler",
+        sch: "双升螺旋"
     },
     223: {
         img: "startrance",
@@ -2596,7 +2634,8 @@ export let dataEffects = {
         hun: "Csillagtransz",
         bra: "Transe astral",
         fre: "Transe stellaire",
-        swe: "Stjärntrans"
+        swe: "Stjärntrans",
+        sch: "星律波纹"
     },
     224: {
         img: "starlush",
@@ -2607,7 +2646,8 @@ export let dataEffects = {
         hun: "Csillagfény",
         bra: "Verdor espacial",
         fre: "Vert luisant",
-        swe: "Stjärngrönska"
+        swe: "Stjärngrönska",
+        sch: "星萃波纹"
     },
     225: {
         img: "stardust",
@@ -2641,7 +2681,8 @@ export let dataEffects = {
         hun: "Álmodozó kitörés",
         bra: "Erupção estelar",
         fre: "Éruption onirique",
-        swe: "Dagdrömsutbrott"
+        swe: "Dagdrömsutbrott",
+        sch: "梦境喷发"
     },
     228: {
         img: "volcanic_eruption",
@@ -2652,7 +2693,8 @@ export let dataEffects = {
         bra: "Erupção vulcânica",
         hun: "Vulkánkitörés",
         fre: "Éruption volcanique",
-        swe: "Vulkanutbrott"
+        swe: "Vulkanutbrott",
+        sch: "熔岩喷发"
     },
     229: {
         img: "divine_sunlight",
@@ -2663,7 +2705,8 @@ export let dataEffects = {
         bra: "Alvorada divina",
         hun: "Isteni napfény",
         fre: "Soleil divin",
-        swe: "Gudomliga strålar"
+        swe: "Gudomliga strålar",
+        sch: "神圣日光"
     },
     230: {
         img: "audiophile",
@@ -2673,7 +2716,8 @@ export let dataEffects = {
         pol: "audiofil",
         bra: "Audiófilo",
         hun: "Audiofil",
-        swe: "Musikälskare"
+        swe: "Musikälskare",
+        sch: "韵感声波"
     },
     231: {
         img: "soundwave",
@@ -2684,7 +2728,8 @@ export let dataEffects = {
         bra: "Onda sonora",
         hun: "Hanghullám",
         fre: "Fréquence sonore",
-        swe: "Ljudvåg"
+        swe: "Ljudvåg",
+        sch: "动感声波"
     },
     232: {
         img: "synesthesia",
@@ -2695,7 +2740,8 @@ export let dataEffects = {
         bra: "Sinestesia",
         hun: "Szinesztézia",
         fre: "Synesthésie",
-        swe: "Synestesi"
+        swe: "Synestesi",
+        sch: "劲感声波"
     },
     233: {
         img: "haunted_kraken",
@@ -2706,7 +2752,8 @@ export let dataEffects = {
         bra: "Kraken assombrado",
         fre: "Kraken hanté",
         hun: "Lidérces kraken",
-        swe: "Hemsökt Kraken"
+        swe: "Hemsökt Kraken",
+        sch: "海魔触须"
     },
     234: {
         img: "eerie_kraken",
@@ -2717,7 +2764,8 @@ export let dataEffects = {
         fre: "Kraken sinistre",
         hun: "Hajmeresztő kraken",
         pol: "upiorny Kraken",
-        swe: "Kusliga Kraken"
+        swe: "Kusliga Kraken",
+        sch: "海妖触须"
     },
     235: {
         img: "soulful_slice",
@@ -2728,7 +2776,8 @@ export let dataEffects = {
         fre: "Une tranche d'âme",
         hun: "Szellemes fejsze",
         pol: "straszliwa siekiera",
-        swe: "Spökhugg"
+        swe: "Spökhugg",
+        sch: "断魂灵斧"
     },
     236: {
         img: "horsemanns_hack",
@@ -2739,7 +2788,8 @@ export let dataEffects = {
         fre: "Coup de hache du cavalier sans tête",
         hun: "A Lovas csapása",
         pol: "jatka Jeźdźca",
-        swe: "Horsemannens hugg"
+        swe: "Horsemannens hugg",
+        sch: "斩首灵斧"
     },
     237: {
         img: "haunted_forever",
@@ -2750,7 +2800,8 @@ export let dataEffects = {
         bra: "Assombrado para sempre!",
         fre: "Hanté à vie",
         hun: "Örökké kísértett!",
-        swe: "Evigt hemsökt!"
+        swe: "Evigt hemsökt!",
+        sch: "永劫诅咒！"
     },
     238: {
         img: "forever_and_forever",
@@ -2761,7 +2812,8 @@ export let dataEffects = {
         bra: "Para todo o sempre!",
         fre: "Pour toujours et à tout jamais !",
         hun: "Örökkön örökké!",
-        swe: "För evigt och för alltid!"
+        swe: "För evigt och för alltid!",
+        sch: "永恒诅咒！"
     },
     239: {
         img: "cursed_forever",
@@ -2772,7 +2824,8 @@ export let dataEffects = {
         bra: "Amaldiçoado para sempre!",
         fre: "Maudit pour toujours !",
         hun: "Örökké átkozott!",
-        swe: "Evigt förbannad!"
+        swe: "Evigt förbannad!",
+        sch: "永世诅咒！"
     },
     240: {
         img: "moth_plague",
@@ -2783,7 +2836,8 @@ export let dataEffects = {
         bra: "Praga de mariposas",
         fre: "Nuée de papillons de nuit",
         hun: "Molyhad",
-        swe: "Malpest"
+        swe: "Malpest",
+        sch: "蛾疫风波"
     },
     241: {
         img: "malevolent_monoculi",
@@ -2794,7 +2848,8 @@ export let dataEffects = {
         fre: "Œil maléfique",
         hun: "Rosszakaró Monoculusok",
         pol: "mroczne Monoculusy",
-        swe: "Enögd ondska"
+        swe: "Enögd ondska",
+        sch: "眼观六路"
     },
     242: {
         img: "haunted_wick",
@@ -2805,7 +2860,8 @@ export let dataEffects = {
         bra: "Pavio assombrado",
         fre: "Mèche hantée",
         hun: "Kísérteties kanóc",
-        swe: "Spökveke"
+        swe: "Spökveke",
+        sch: "亡灵魂火"
     },
     243: {
         img: "wicked_wick",
@@ -2816,7 +2872,8 @@ export let dataEffects = {
         bra: "Pavio perverso",
         fre: "Mèche méchante",
         hun: "Komisz kanóc",
-        swe: "Vek veke"
+        swe: "Vek veke",
+        sch: "邪灵魂火"
     },
     244: {
         img: "spectral_wick",
@@ -2827,7 +2884,8 @@ export let dataEffects = {
         bra: "Pavio espectral",
         fre: "Mèche spectrale",
         hun: "Lidérces kanóc",
-        swe: "Vålnadsveke"
+        swe: "Vålnadsveke",
+        sch: "幽灵魂火"
     },
     245: {
         img: "musical_maelstrom",
@@ -2838,7 +2896,8 @@ export let dataEffects = {
         bra: "Turbilhão musical",
         fre: "Malström musical",
         hun: "Zenés forgatag",
-        swe: "Musikalisk malström"
+        swe: "Musikalisk malström",
+        sch: "音乐漩涡"
     },
     246: {
         img: "verdant_virtuoso",
@@ -2860,7 +2919,8 @@ export let dataEffects = {
         bra: "Serenata prateada",
         fre: "Sérénade argentée",
         hun: "Ezüst szerenád",
-        swe: "Silverserenad"
+        swe: "Silverserenad",
+        sch: "银白夜曲"
     },
     248: {
         img: "cosmic_constellations",
@@ -2871,7 +2931,8 @@ export let dataEffects = {
         bra: "Constelações cósmicas",
         fre: "Constellations cosmiques",
         hun: "Kozmikus csillagképek",
-        swe: "Kosmiska konstellationer"
+        swe: "Kosmiska konstellationer",
+        sch: "宇宙星座"
     },
     249: {
         img: "dazzling_constellations",
@@ -2882,7 +2943,8 @@ export let dataEffects = {
         bra: "Constelações deslumbrantes",
         fre: "Constellations éblouissantes",
         hun: "Káprázatos csillagképek",
-        swe: "Förtrollande konstellationer"
+        swe: "Förtrollande konstellationer",
+        sch: "灿烂星团"
     },
     250: {
         img: "tainted_frost",
@@ -2904,7 +2966,8 @@ export let dataEffects = {
         bra: "Neblina estelar",
         fre: "Néon nébuleux",
         hun: "Csillagfényköd",
-        swe: "Stjärnljusdimma"
+        swe: "Stjärnljusdimma",
+        sch: "星光迷雾"
     },
     252: {
         img: "hard_carry",
@@ -2937,7 +3000,8 @@ export let dataEffects = {
         bra: "Caçador de águas-vivas",
         fre: "Chasse-méduses",
         hun: "Medúzavadász",
-        swe: "Manetjägare"
+        swe: "Manetjägare",
+        sch: "水母捕手"
     },
     255: {
         img: "jellyfish_jam",
@@ -2948,7 +3012,8 @@ export let dataEffects = {
         bra: "Dança das águas-vivas",
         fre: "Confiture de méduses",
         hun: "Medúzalekvár",
-        swe: "Manetstoj"
+        swe: "Manetstoj",
+        sch: "水母果酱"
     },
     256: {
         img: "global_clusters",
@@ -2991,7 +3056,8 @@ export let dataEffects = {
         bra: "Bomba de cerejeira",
         fre: "Fumigène fleuri",
         hun: "Sakura füstbomba",
-        swe: "Blomstrande rökbomb"
+        swe: "Blomstrande rökbomb",
+        sch: "樱花烟雾弹"
     },
     260: {
         img: "treasure_trove",
@@ -3002,7 +3068,8 @@ export let dataEffects = {
         bra: "Baú do tesouro",
         fre: "Jackpot",
         hun: "Kincsesbánya",
-        swe: "Guldgruva"
+        swe: "Guldgruva",
+        sch: "无主宝藏"
     },
     261: {
         img: "bubble_breeze",
@@ -3024,7 +3091,8 @@ export let dataEffects = {
         bra: "Vaga-lumes",
         fre: "Lucioles",
         hun: "Szentjánosbogarak",
-        swe: "Eldflugor"
+        swe: "Eldflugor",
+        sch: "萤火虫"
     },
     263: {
         img: "mountain_halo",
@@ -3046,7 +3114,8 @@ export let dataEffects = {
         bra: "Cume celestial",
         fre: "Sommet céleste",
         hun: "Mennyei csúcs",
-        swe: "Stjärntopp"
+        swe: "Stjärntopp",
+        sch: "星际之巅"
     },
     265: {
         img: "stellar_ascent",
@@ -3068,7 +3137,8 @@ export let dataEffects = {
         bra: "Sabotado",
         fre: "Saboté",
         hun: "Mentesítve",
-        swe: "Sappad"
+        swe: "Sappad",
+        sch: "电子瘫痪"
     },
     267: {
         img: "hellspawned_horns",
@@ -3079,7 +3149,8 @@ export let dataEffects = {
         bra: "Chifres diabólicos",
         fre: "Cornes diaboliques",
         hun: "Pokol szülte szarvak",
-        swe: "Helvetshorn"
+        swe: "Helvetshorn",
+        sch: "地狱号角"
     },
     268: {
         img: "demonic_impaler",
@@ -3134,7 +3205,8 @@ export let dataEffects = {
         fre: "Crânerie",
         hun: "A csontzóna",
         rom: "The Bone Zone",
-        swe: "Benzonen"
+        swe: "Benzonen",
+        sch: "骸骨地带"
     },
     273: {
         img: "arachnes_web",
@@ -3156,7 +3228,8 @@ export let dataEffects = {
         bra: "Tempestade ácida",
         fre: "Climat acide",
         hun: "Savas éghajlat",
-        swe: "Surt klimat"
+        swe: "Surt klimat",
+        sch: "酸性气候"
     },
     275: {
         img: "otherworldly_weather",
@@ -3189,7 +3262,8 @@ export let dataEffects = {
         bra: "Flechada gelada",
         fre: "Flèche glacée",
         hun: "Jégnyíl",
-        swe: "Isträff"
+        swe: "Isträff",
+        sch: "冰霜飞箭"
     },
     278: {
         img: "goldstruck",
@@ -3200,7 +3274,8 @@ export let dataEffects = {
         bra: "Flechada dourada",
         fre: "Flèche dorée",
         hun: "Aranynyíl",
-        swe: "Guldträff"
+        swe: "Guldträff",
+        sch: "黄金飞箭"
     },
     279: {
         img: "radiant_rivalry",
@@ -3255,7 +3330,8 @@ export let dataEffects = {
         bra: "Estrela Polar",
         fre: "Étoile polaire",
         hun: "Sarkcsillag",
-        swe: "Nordstjärnan"
+        swe: "Nordstjärnan",
+        sch: "北极星"
     },
     284: {
         img: "prettiest_star",
@@ -3674,41 +3750,132 @@ export let dataEffects = {
     319: {
         img: "sizzling",
         eng: "Sizzling",
-        schema: 364
+        schema: 364,
+        pol: "skwierczenie",
+        sch: "滋滋冒气",
+        bra: "Escaldante",
+        fre: "Brulant",
+        hun: "Sistergő",
+        swe: "Rykande",
+        rus: "Обжарка"
     },
     320: {
         img: "crystal_crown",
         eng: "Crystal Crown",
-        schema: 365
+        schema: 365,
+        pol: "kryształowa korona",
+        sch: "水晶王冠",
+        bra: "Coroa de cristal",
+        fre: "Couronne de cristal",
+        hun: "Kristálykorona",
+        swe: "Kristallkrona",
+        rus: "Кристальная корона"
     },
     321: {
         img: "halcyon_halo",
         eng: "Halcyon Halo",
-        schema: 367
+        schema: 367,
+        pol: "cudowna aureola",
+        sch: "太平光环",
+        bra: "Auréola pacífica",
+        fre: "Halo merveilleux",
+        hun: "Boldog glória",
+        swe: "Salig gloria",
+        rus: "Невозмутимый нимб"
     },
     322: {
         img: "ghosts_of_smissmas_time",
         eng: "Ghosts of Smissmas Time",
-        schema: 368
+        schema: 368,
+        pol: "duch śniąt",
+        sch: "圣诞众灵",
+        bra: "Fantasmas das festividades",
+        fre: "Fantômes de Smissmas",
+        hun: "Galácsonyi szellemek",
+        swe: "Smissmas andar",
+        rus: "Духи Шмождества"
     },
     323: {
         img: "aurora_skies",
         eng: "Aurora Skies",
-        schema: 369
+        schema: 369,
+        pol: "zorzowe niebo",
+        sch: "极地夜空",
+        bra: "Céus auroreais",
+        fre: "Ciel boréal",
+        hun: "Auróra égbolt",
+        swe: "Polarsky",
+        rus: "Полярные небеса"
     },
     324: {
         img: "shining_bokeh",
         eng: "Shining Bokeh",
-        schema: 370
+        schema: 370,
+        pol: "błyszczące rozmycie",
+        sch: "闪亮散焦",
+        bra: "Bokeh brilhante",
+        fre: "Bokeh brillant",
+        hun: "Fénylő bokréta",
+        swe: "Glänsande bokeh",
+        rus: "Блестящее боке"
     },
     325: {
         img: "playful_aurora",
         eng: "Playful Aurora",
-        schema: 371
+        schema: 371,
+        pol: "zorzowa zabawa",
+        sch: "欢腾极光",
+        bra: "Aurora brincalhona",
+        fre: "Aurore espiègle",
+        hun: "Játékos auróra",
+        swe: "Lekfull aurora",
+        rus: "Игривое сияние"
     },
     326: {
         img: "frisky_morning",
         eng: "Frisky Morning",
-        schema: 372
+        schema: 372,
+        pol: "rozbrykany poranek",
+        sch: "蓬勃朝气",
+        bra: "Manhã animada",
+        fre: "Matin fringant",
+        hun: "Csípős reggel",
+        swe: "Frisk morgon",
+        rus: "Резвое утро"
+    },
+    327: {
+        img: "drunkard",
+        eng: "Drunkard",
+        schema: 373
+    },
+    328: {
+        img: "blades_of_betrayal",
+        eng: "Blades of Betrayal",
+        schema: 374
+    },
+    329: {
+        img: "deaths_daggers",
+        eng: "Death's Daggers",
+        schema: 376
+    },
+    330: {
+        img: "fully_charged",
+        eng: "Fully Charged",
+        schema: 377
+    },
+    331: {
+        img: "overcharged",
+        eng: "Overcharged",
+        schema: 379
+    },
+    332: {
+        img: "piercing_headache",
+        eng: "Piercing Headache",
+        schema: 380
+    },
+    333: {
+        img: "decimating_wind",
+        eng: "Decimating Wind",
+        schema: 381
     }
 }

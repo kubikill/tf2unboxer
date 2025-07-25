@@ -38,6 +38,7 @@ import {
     sniperVsSpyUnusualsPool,
     summer24FX,
     hw24FX,
+    summer25FX,
 } from "./crate.js";
 
 import {
@@ -1662,6 +1663,9 @@ function generateEffectList() {
             case "summer24":
                 effectsArray = summer24FX;
                 break;
+            case "summer25":
+                effectsArray = summer25FX;
+                break;
             case "hw24":
                 effectsArray = hw24FX;
                 break;
@@ -2265,6 +2269,9 @@ function unbox() { // This function handles the unboxing itself: which item is u
                 case "summer24":
                     effectsArray = summer24FX;
                     break;
+                case "summer25":
+                    effectsArray = summer25FX;
+                    break;
                 case "hw24":
                     effectsArray = hw24FX;
                     break;
@@ -2297,7 +2304,7 @@ function unbox() { // This function handles the unboxing itself: which item is u
         } else {
             bonusNum = 0;
             let bonusChance = Math.floor((Math.random() * 5) + 1); // Between 1 and 5
-            if (bonusChance <= 2 || save.options.forceBonusItem) { // 40% chance to get bonus drop
+            if (bonusChance <= 2 || save.options.forceBonusItem) { // 33% chance to get bonus drop
                 bonusNum++;
                 bonusChance = Math.floor((Math.random() * 5) + 1) // Between 1 and 5
                 if (bonusChance == 1) { // 20% chance to get another bonus drop (8%)
@@ -2312,7 +2319,7 @@ function unbox() { // This function handles the unboxing itself: which item is u
         let oneExclusiveBonusUnboxed = false;
         for (; bonusNum > 0; bonusNum--) {
             let unusualifierChance = Math.floor((Math.random() * 1000) + 1) // Between 1 and 1000
-            if (unusualifierChance <= 15 || save.options.forceUnusualifier) { // 1.5% chance
+            if (unusualifierChance <= 10 || save.options.forceUnusualifier) { // 1% chance
                 // Unbox unusualifier
                 let randomTaunt = Math.floor(Math.random() * unusualifierArray.length);
                 bonusDrops.push({
