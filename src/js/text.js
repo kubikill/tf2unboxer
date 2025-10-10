@@ -2595,16 +2595,6 @@ rus: '<span class="colormercenary">Наемника</span> предметов о
         rus: "Филиппинский",
 		pol: "Filipiński"
 	},
-    221: {
-        eng: 'Russian',
-        rus: "Русский",
-        pol: "Rosyjski",
-        hun: "Orosz",
-        rom: "Rusă",
-        swe: "Ryska",
-        fil: "Ruso"
-    },
-
     211: {
         eng: "Scream Fortress XIII (2021)",
         rus: "Вииизг Фортресс XIII (2021)",
@@ -2701,5 +2691,21 @@ rus: '<span class="colormercenary">Наемника</span> предметов о
         eng: "Summer 2025",
         rus: "Лето 2025",
         pol: "Lato 2025"
+    },
+    224: {
+        eng: 'Russian',
+        rus: "Русский",
+        pol: "Rosyjski",
+        hun: "Orosz",
+        rom: "Rusă",
+        swe: "Ryska",
+        fil: "Ruso"
+    },
+    225: {
+        eng: "Scream Fortress XVII (2025)",
+        rus: "Вииизг Фортресс XVII (2025)",
+        sch: "尖叫要塞 XVII（2025）",
+        rom: "Fortareata Urlatoare XVII (2025)",
+		swe: "Skrik Fortress XVII (2025)"
     },
 }

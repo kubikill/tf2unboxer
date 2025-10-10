@@ -1209,6 +1209,18 @@ export let dataCrates = {
     },
     106: {
         img: "summer_2025_cosmetic_case",
-        eng: "Summer 2025 Cosmetic Case"
+        eng: "Summer 2025 Cosmetic Case",
+        pol: "Letni pojemnik ozdób 2025",
+        sch: "2025 夏季饰品箱",
+        bra: "Caixa de Cosméticos das Férias de 2025",
+        fre: "Caisse de cosmétiques d'été 2025",
+        hun: "Nyár 2025 Díszítő Táska",
+        rom: "Cutie cu accesorii Summer 2025",
+        swe: "Sommar 2025-kosmetikväska",
+        rus: "Летний кейс с аксессуарами 2025"
+    },
+    107: {
+        img: "spectral_stash_case",
+        eng: "Spectral Stash Case"
     }
 }

@@ -1,8 +1,10 @@
 let currentCrate = 0;
 let currentCrateObj;
-let save = {options: {
+let save = {
+    options: {
 
-}};
+    }
+};
 
 import {
     unusualPool,
@@ -43,7 +45,8 @@ import {
     sniperVsSpyUnusualsPool,
     hw24FX,
     summer25FX,
-    } from "./crate.js";
+    hw25FX,
+} from "./crate.js";
 
 const wearTable = ["", "FN", "MW", "FT", "WW", "BS"];
 const sheenTable = ["", 128, 129, 130, 131, 132, 133, 134];
@@ -59,9 +62,11 @@ function crateHasRandomStranges(crate) {
     }
     return result;
 }
+
 function getString(arg1, arg2) {
     return null;
 }
+
 function reportError(err) {
     self.postMessage({
         error: err
@@ -385,6 +390,9 @@ function unbox() { // This function handles the unboxing itself: which item is u
                         break;
                     case "hw24":
                         effectsArray = hw24FX;
+                        break;
+                    case "hw25":
+                        effectsArray = hw25FX;
                         break;
                 }
             } else {
@@ -851,7 +859,7 @@ function addToStats(unboxResult, saveObj, saveToStorage) {
     }
 }
 
-self.onmessage = function(e) {
+self.onmessage = function (e) {
     if (e.data.crate != undefined) {
         let bulkSave = e.data.bulkSave;
         save.options = JSON.parse(e.data.options);
