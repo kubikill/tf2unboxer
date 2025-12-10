@@ -3620,7 +3620,7 @@ export let dataEffects = {
         sch: "精神迷幻",
         bra: "Psico-délico",
         fre: "Psychodélique",
-        hun: "Pszichedelikus",
+        hun: "Pszicho-delikus",
         swe: "Psykodelisk"
     },
     306: {
@@ -3962,36 +3962,140 @@ export let dataEffects = {
     334: {
         img: "ocean_swirl",
         eng: "Ocean Swirl",
-        schema: 382
+        schema: 382,
+        pol: "oceaniczny wir",
+        sch: "大洋漩涡",
+        bra: "Redemoinho",
+        fre: "Tourbillon océanique",
+        hun: "Óceáni örvény",
+        swe: "Havsvirvel",
+        rus: "Океанское завихрение"
     },
     335: {
         img: "toxic_swirl",
         eng: "Toxic Swirl",
-        schema: 384
+        schema: 384,
+        pol: "toksyczny wir",
+        sch: "剧毒漩涡",
+        bra: "Venenoinho",
+        fre: "Tourbillon toxique",
+        hun: "Mérgező örvény",
+        swe: "Giftvirvel",
+        rus: "Токсичное завихрение"
     },
     336: {
         img: "candle_flame",
         eng: "Candle Flame",
-        schema: 385
+        schema: 385,
+        pol: "płomień świecy",
+        sch: "摇曳烛火",
+        bra: "Fogo de vela",
+        fre: "Flamme de bougie",
+        hun: "Gyertyaláng",
+        swe: "Ljuslåga",
+        rus: "Пламя свечи"
     },
     337: {
         img: "sizzling_aroma",
         eng: "Sizzling Aroma",
-        schema: 387
+        schema: 387,
+        pol: "skwierczący aromat",
+        sch: "滋油喷香",
+        bra: "Aroma ardente",
+        fre: "Arôme flambé",
+        hun: "Sistergő aroma",
+        swe: "Rykande arom",
+        rus: "Обжигающий аромат"
     },
     338: {
         img: "toxic_aroma",
         eng: "Toxic Aroma",
-        schema: 389
+        schema: 389,
+        pol: "toksyczny aromat",
+        sch: "毒液迷臭",
+        bra: "Aroma tóxico",
+        fre: "Arôme toxique",
+        hun: "Mérgező aroma",
+        swe: "Giftig arom",
+        rus: "Токсичный аромат"
     },
     339: {
         img: "current_conductor",
         eng: "Current Conductor",
-        schema: 390
+        schema: 390,
+        pol: "przewodnik prądu",
+        sch: "电流导体",
+        bra: "Condutor de corrente",
+        fre: "Conducteur de courant",
+        hun: "Áramvezető",
+        swe: "Strömledare",
+        rus: "Переменчивый проводник"
     },
     340: {
         img: "sandy",
         eng: "Sandy",
-        schema: 392
+        schema: 392,
+        pol: "piaskowiec",
+        sch: "灰头土脸",
+        bra: "Arenoso",
+        fre: "Sableux",
+        hun: "Homokos",
+        swe: "Sandig",
+        rus: "Песочник"
+    },
+    341: {
+        img: "chromatic_blaze",
+        eng: "Chromatic Blaze",
+        schema: 393
+    },
+    342: {
+        img: "frostfire",
+        eng: "Frostfire",
+        schema: 394
+    },
+    343: {
+        img: "spectrum_inferno",
+        eng: "Spectrum Inferno",
+        schema: 395
+    },
+    344: {
+        img: "calm_snowfall",
+        eng: "Calm Snowfall",
+        schema: 396
+    },
+    345: {
+        img: "team_recognition",
+        eng: "Team Recognition",
+        schema: 397
+    },
+    346: {
+        img: "old_hire",
+        eng: "Old Hire",
+        schema: 399
+    },
+    347: {
+        img: "analog_fortress",
+        eng: "Analog Fortress",
+        schema: 401
+    },
+    348: {
+        img: "winter_whiteout",
+        eng: "Winter Whiteout",
+        schema: 402
+    },
+    349: {
+        img: "midnight_frostfall",
+        eng: "Midnight Frostfall",
+        schema: 403
+    },
+    350: {
+        img: "twilight_snowfall",
+        eng: "Twilight Snowfall",
+        schema: 404
+    },
+    351: {
+        img: "cryogenic",
+        eng: "Cryogenic",
+        schema: 405
     }
 }

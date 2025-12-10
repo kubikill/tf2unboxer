@@ -46,6 +46,7 @@ import {
     hw24FX,
     summer25FX,
     hw25FX,
+    xmas25FX,
 } from "./crate.js";
 
 const wearTable = ["", "FN", "MW", "FT", "WW", "BS"];
@@ -378,6 +379,9 @@ function unbox() { // This function handles the unboxing itself: which item is u
                         break;
                     case "xmas24":
                         effectsArray = xmas24FX;
+                        break;
+                    case "xmas25":
+                        effectsArray = xmas25FX;
                         break;
                     case "summer23":
                         effectsArray = summer23FX;

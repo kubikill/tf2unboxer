@@ -2708,4 +2708,15 @@ rus: '<span class="colormercenary">Наемника</span> предметов о
         rom: "Fortareata Urlatoare XVII (2025)",
 		swe: "Skrik Fortress XVII (2025)"
     },
+    226: {
+        eng: "Smissmas 2025",
+        rus: "Смиссмас 2025",
+        pol: "Śnięta 2025",
+        sch: "圣诞节 2025",
+        bra: "Natal de 2025",
+        cze: "Vánoce 2025",
+        hun: "Galácsony 2025",
+        rom: "Craciun 2025",
+		swe: "Smissmas 2025"
+    },
 }

@@ -900,7 +900,7 @@ export let dataItems = {
         schema: 1108,
         pol: "Drwina: Kup sobie życie",
         sch: "嘲讽：强者的施舍",
-        fre: "Raillerie : Achète-toi une Vie",
+        fre: "Raillerie : Achète-toi une vie",
         bra: "Provocação: Compre uma Vida",
         hun: "Beszólás: Vegyél életet",
         swe: "Hån: Köp ett liv"
@@ -1346,7 +1346,7 @@ export let dataItems = {
         fre: "L'Avarice de Zepheniah",
         bra: "Ganância do Zepheniah",
         schema: 5028,
-        hun: "Zephaniah Kapzsisága",
+        hun: "Zepheniah Kapzsisága",
         swe: "Zepheniahs girighet"
     },
     114: {
@@ -13479,7 +13479,7 @@ export let dataItems = {
         pol: "Wieczny biegacz",
         sch: "日行者",
         fre: "Dayjogger",
-        bra: "O Caçador de Cabeças",
+        bra: "O Demolidor do Dia",
         schema: 30779,
         hun: "A Fénybenkocogó",
         swe: "Dagjoggaren"
@@ -14270,7 +14270,7 @@ export let dataItems = {
         pol: "Bożek pożytku Conaghera",
         sch: "工程之神的塑像",
         fre: "Idole de Conagher",
-        bra: "Ídolo de Utilidades dos Conaghers",
+        bra: "Ídolo de Utilidades do Conagher",
         schema: 30908,
         hun: "Conagher Műszaki Bálványa",
         swe: "Conaghers händiga avbildning"
@@ -22349,7 +22349,8 @@ export let dataItems = {
         fre: "Raillerie : L'hélico-gadget",
         hun: "Beszólás: Az utazó ügynök",
         swe: "Hån: Resebyrån",
-        sch: "嘲讽：飞天密谍"
+        sch: "嘲讽：飞天密谍",
+        pol: "Drwina: Agent podróżny"
     },
     1858: {
         img: "taunt_the_scaredycat",
@@ -22683,7 +22684,8 @@ export let dataItems = {
         fre: "Le pantalon camouflage",
         hun: "Lopakodó Bombázó",
         sch: "潜行爆破挂带",
-        swe: "Smygbyxor"
+        swe: "Smygbyxor",
+        pol: "Przyczajony piechur"
     },
     1886: {
         img: "le_professionnel",
@@ -23128,7 +23130,7 @@ export let dataItems = {
         eng: "Taunt: Teufort Tango",
         rus: "Насмешка: Туфортское танго",
         schema: 31351,
-        pol: "Drwina: Teufordzkie tango",
+        pol: "Drwina: Teuforckie tango",
         bra: "Provocação: Tango de Teufort",
         fre: "Raillerie : Tango de Teufort",
         hun: "Beszólás: Teufort tangó",
@@ -25067,7 +25069,7 @@ export let dataItems = {
         bra: "Boina de Birmingham",
         fre: "Bonnet du brigandeau",
         hun: "Beretvás Ellenző",
-        swe: "Rånarkeps",
+        swe: "Gubbkeps",
         rus: "Косой козырёк"
     },
     2088: {
@@ -25253,151 +25255,483 @@ export let dataItems = {
     2103: {
         img: "viscera_visor",
         eng: "Viscera Visor",
-        schema: 31571
+        schema: 31571,
+        pol: "Wgląd do wnętrzności",
+        sch: "破脏护脸罩",
+        bra: "Visor Antivísceras",
+        fre: "Visière à viscères",
+        hun: "Vérellenző",
+        swe: "Splatterskärm",
+        rus: "Преграда для потрохов"
     },
     2104: {
         img: "professor_photon",
         eng: "Professor Photon",
-        schema: 31569
+        schema: 31569,
+        pol: "Profesor Foton",
+        sch: "光子教授",
+        bra: "Professor Próton",
+        fre: "Professeur Photon",
+        hun: "Foton Professzor",
+        swe: "Professor Foton",
+        rus: "Профессор Фотон"
     },
     2105: {
         img: "the_misdirector",
         eng: "The Misdirector",
-        schema: 31566
+        schema: 31566,
+        pol: "Dezorientor",
+        sch: "误导艺术",
+        bra: "O Ilusionista Ilusivo",
+        fre: "L'escamoteur",
+        hun: "Eligazgató",
+        swe: "Vilseledare",
+        rus: "Глазоотвод"
     },
     2106: {
         img: "seamanns_stubble",
         eng: "Seamann's Stubble",
-        schema: 31565
+        schema: 31565,
+        pol: "Szczecina morskiej wygi",
+        sch: "水手的络腮胡",
+        bra: "A Barba Vai Fumar",
+        fre: "Barbe du marin",
+        hun: "Matrózszakáll",
+        swe: "Sjömannens stubb",
+        rus: "Моряцкие заросли"
     },
     2107: {
         img: "torn_terror",
         eng: "Torn Terror",
-        schema: 31563
+        schema: 31563,
+        pol: "Podarty postrach",
+        sch: "非主流分子",
+        bra: "Metidinho e Maltrapilho",
+        fre: "Gredin dépenaillé",
+        hun: "Szakadt Szörnyűség",
+        swe: "Rivjärnet",
+        rus: "Рваный разбой"
     },
     2108: {
         img: "feathered_villain",
         eng: "Feathered Villain",
-        schema: 31559
+        schema: 31559,
+        pol: "Pierzasty przeciwnik",
+        sch: "仇敌的夹羽帽",
+        bra: "Emplumado e Preparado",
+        fre: "Vaurien volatile",
+        hun: "Tollas Ellenség",
+        swe: "Befjädrad best",
+        rus: "Оперённый оппонент"
     },
     2109: {
         img: "air_exchanger",
         eng: "Air Exchanger",
-        schema: 31555
+        schema: 31555,
+        pol: "Filtrator",
+        sch: "新风换气面罩",
+        bra: "Trocador de Ar",
+        fre: "Échangeur d'air",
+        hun: "Légcserélő",
+        swe: "Luftväxlare",
+        rus: "Конвертер кислорода"
     },
     2110: {
         img: "poncho_del_pesado",
         eng: "Poncho del Pesado",
-        schema: 31554
+        schema: 31554,
+        pol: "Ponczo del przytuszy",
+        sch: "厚重披风",
+        rus: "Пончо дель песадо"
     },
     2111: {
         img: "service_satchel",
         eng: "Service Satchel",
-        schema: 31551
+        schema: 31551,
+        pol: "Służbowa sakwa",
+        sch: "维护小工具",
+        bra: "Ferramentas do Fundidor",
+        fre: "Sacoche de service",
+        hun: "Szerviztáska",
+        swe: "Tjänsteväska",
+        rus: "Сервисная сумка"
     },
     2112: {
         img: "technicians_tunic",
         eng: "Technician's Tunic",
-        schema: 31550
+        schema: 31550,
+        pol: "Tunika technika",
+        sch: "技术员的制服",
+        bra: "Túnica do Técnico",
+        fre: "Combi du technicien",
+        hun: "Technikusi Tunika",
+        swe: "Teknikerns tunika",
+        rus: "Туника техника"
     },
     2113: {
         img: "mad_drip",
         eng: "Mad Drip",
-        schema: 31570
+        schema: 31570,
+        pol: "Szalona stylówa",
+        sch: "狂妄之人",
+        bra: "Insanamente Estiloso",
+        fre: "Esbroufe",
+        hun: "Bolondcseppek",
+        swe: "Sjukt stilig",
+        rus: "Сумасшедший стиль"
     },
     2114: {
         img: "sleight_of_hand",
         eng: "Sleight of Hand",
-        schema: 31567
+        schema: 31567,
+        pol: "Kuglarz",
+        sch: "魔术妙妙手",
+        bra: "Truque na Manga",
+        fre: "Prestidigitateur",
+        hun: "Sima Leosztás",
+        swe: "Fingerfärdig flärd",
+        rus: "Ловкость рук"
     },
     2115: {
         img: "ripped_runts",
         eng: "Ripped Runts",
-        schema: 31564
+        schema: 31564,
+        pol: "Narwany typ",
+        sch: "犟牛破洞裤",
+        bra: "Rasgos Radicais",
+        fre: "Avorton déguenillé",
+        hun: "Szakadt Szerkó",
+        swe: "Trasbyxor",
+        rus: "Лютые лохмотья"
     },
     2116: {
         img: "pantaloons_of_unabashed_villainy",
         eng: "Pantaloons of Unabashed Villainy",
-        schema: 31561
+        schema: 31561,
+        pol: "Pantalony bezwstydnej nikczemności",
+        sch: "无耻行径",
+        bra: "Calças Orgulhosamente Vilanescas",
+        fre: "Futal d'infamie culottée",
+        hun: "A Szégyentelen Gazság Pantallója",
+        swe: "Gentlemannaskurkens djärva pantalonger",
+        rus: "Панталоны бесстыдного беззакония"
     },
     2117: {
         img: "industrial_insurgent",
         eng: "Industrial Insurgent",
-        schema: 31556
+        schema: 31556,
+        pol: "Przemysłowy powstaniec",
+        sch: "工业叛乱者",
+        bra: "Insurgente Industrial",
+        fre: "Insurgé industriel",
+        hun: "Ipari Felkelő",
+        swe: "Industriell upprorsmakare",
+        rus: "Заводской зачинщик"
     },
     2118: {
         img: "el_gigantes_gunbelt",
         eng: "El Gigante's Gunbelt",
-        schema: 31553
+        schema: 31553,
+        pol: "El pulchne pasy",
+        sch: "巨汉的武装挂袋",
+        bra: "Munición del Gigante",
+        fre: "Ceinture à munitions d'El Gigante",
+        hun: "El Gigante Töltényöve",
+        swe: "El Gigantes pistolbälte",
+        rus: "Патронташ Эль Гиганте"
     },
     2119: {
         img: "heat_shield",
         eng: "Heat Shield",
-        schema: 31549
+        schema: 31549,
+        pol: "Termiczna tarcza",
+        sch: "隔热面罩",
+        bra: "Escudo Térmico",
+        fre: "Protection thermique",
+        hun: "Hőpajzs",
+        swe: "Värmesköld",
+        rus: "Прикрытие от пекла"
     },
     2120: {
         img: "cigarillo_caballero",
         eng: "Cigarillo Caballero",
-        schema: 31552
+        schema: 31552,
+        pol: "Cygarro c'awalera",
+        sch: "叼雪茄的绅士",
+        bra: "Cigarro del Caballero",
+        rus: "Сеньор Сигарилло"
     },
     2121: {
         img: "vanishing_act",
         eng: "Vanishing Act",
-        schema: 31568
+        schema: 31568,
+        pol: "Sztuka znikania",
+        sch: "大变活人",
+        bra: "Capa da Camuflagem",
+        fre: "Cape éclipsante",
+        hun: "Eltűnőszám",
+        swe: "Spårlös",
+        rus: "Трюк с исчезновением"
     },
     2122: {
         img: "buzz_kill",
         eng: "Buzz Kill",
-        schema: 31562
+        schema: 31562,
+        pol: "Psuja",
+        sch: "扫兴鬼",
+        bra: "Pestinha da Primavera",
+        fre: "Teigne impétueuse",
+        hun: "Hangulatgyilkos",
+        swe: "Barret",
+        rus: "Обломщик"
     },
     2123: {
         img: "velveteen_villain",
         eng: "Velveteen Villain",
-        schema: 31560
+        schema: 31560,
+        pol: "Aksamitny adwersarz",
+        sch: "反派的仿鹅绒大衣",
+        bra: "Vilão de Veludo",
+        fre: "Le Teigneux de velours",
+        hun: "Bársony Bajkeverő",
+        swe: "Sammetskval",
+        rus: "Вельветовый вредитель"
     },
     2124: {
         img: "hellscape",
         eng: "Hellscape",
-        schema: 31557
+        schema: 31557,
+        pol: "Piekłobraz",
+        sch: "狱火石骸",
+        bra: "Visual Infernal",
+        fre: "Tronche infernale",
+        hun: "Pokolnéző",
+        rus: "Адский рельеф"
     },
     2125: {
         img: "fused_plates",
         eng: "Fused Plates",
-        schema: 31558
+        schema: 31558,
+        pol: "Złączone zbrojenie",
+        sch: "易爆板甲",
+        bra: "Pavio Crânio",
+        fre: "Panoplie pétaradante",
+        hun: "Egyesített Lemezek",
+        swe: "Svets och blod",
+        rus: "Фитильные латы"
     },
     2126: {
         img: "pyromantic_plumage",
         eng: "Pyromantic Plumage",
-        schema: 31572
+        schema: 31572,
+        pol: "Piromanckie piórka",
+        sch: "浴火金羽",
+        bra: "Plumagem Piromântica",
+        fre: "Plumage pyromantique",
+        hun: "Piromantikus Tollazat",
+        swe: "Flammande fjäderskrud",
+        rus: "Плюмаж пироманта"
     },
     2127: {
         img: "one_man_convoy",
         eng: "One-Man Convoy",
-        schema: 31573
+        schema: 31573,
+        pol: "Jednoosobowy konwój",
+        sch: "一人成军",
+        bra: "Otimização de Primeira",
+        fre: "Convoi cuirassé",
+        hun: "Egyfős Konvoj",
+        swe: "Enmanskonvoj",
+        rus: "Конвой-одиночка"
     },
     2128: {
         img: "face_lift",
         eng: "Face Lift",
-        schema: 31574
+        schema: 31574,
+        pol: "Lifting twarzy",
+        sch: "人皮面具",
+        bra: "É a Sua Cara",
+        fre: "Lifting",
+        hun: "Ál-arc",
+        swe: "Ansiktslyft",
+        rus: "Подтяжка лица"
     },
     2129: {
         img: "zepheniahs_shroud",
         eng: "Zepheniah's Shroud",
-        schema: 31575
+        schema: 31575,
+        pol: "Zasłona Zefeniasza",
+        sch: "泽老的裹尸床单",
+        bra: "Semblante do Zepheniah",
+        fre: "Voile de Zepheniah",
+        hun: "Zepheniah Leple",
+        swe: "Zepheniahs svepning",
+        rus: "Завеса Зефенайи"
     },
     2130: {
         img: "taunt_healthcare_hog",
         eng: "Taunt: Healthcare Hog",
-        schema: 31546
+        schema: 31546,
+        pol: "Drwina: Złodziej zdrowia",
+        sch: "嘲讽：有药不给拿",
+        bra: "Provocação: Primeiro Eu me Socorro",
+        fre: "Raillerie : Privation de soins",
+        hun: "Beszólás: Mentő cukkolás",
+        swe: "Hån: Vårdslöst beteende (Healthcare Hog)",
+        rus: "Насмешка: Лишение лечения"
     },
     2131: {
         img: "taunt_ring_king",
         eng: "Taunt: Ring King",
-        schema: 31547
+        schema: 31547,
+        pol: "Drwina: Król ringu",
+        sch: "嘲讽：王者金腰带",
+        bra: "Provocação: Rei do Ringue",
+        fre: "Raillerie : Roi du ring",
+        hun: "Beszólás: A ring királya",
+        swe: "Hån: Ringkungen (Ring King)",
+        rus: "Насмешка: Король ринга"
     },
     2132: {
         img: "taunt_heartbreaker",
         eng: "Taunt: Heartbreaker",
-        schema: 31545
+        schema: 31545,
+        pol: "Drwina: Łamacz serc",
+        sch: "嘲讽：令人心碎",
+        bra: "Provocação: Explode-Coração",
+        fre: "Raillerie : Brisecœur",
+        hun: "Beszólás: Szívtipró",
+        swe: "Hån: Hjärtekrossaren (Heartbreaker)",
+        rus: "Насмешка: Сердцегуб"
+    },
+    2133: {
+        img: "sydney_shearling",
+        eng: "Sydney Shearling",
+        schema: 31592
+    },
+    2134: {
+        img: "black_tie_affair",
+        eng: "Black Tie Affair",
+        schema: 31597
+    },
+    2135: {
+        img: "alpine_apparel",
+        eng: "Alpine Apparel",
+        schema: 31583
+    },
+    2136: {
+        img: "scrub_stompers",
+        eng: "Scrub Stompers",
+        schema: 31601
+    },
+    2137: {
+        img: "epilogue_locks",
+        eng: "Epilogue Locks",
+        schema: 31593
+    },
+    2138: {
+        img: "deserters_duster",
+        eng: "Deserter's Duster",
+        schema: 31588
+    },
+    2139: {
+        img: "air_head",
+        eng: "Air Head",
+        schema: 31591
+    },
+    2140: {
+        img: "punchers_polar_puffer",
+        eng: "Puncher's Polar Puffer",
+        schema: 31585
+    },
+    2141: {
+        img: "lazer_gazers",
+        eng: "Lazer Gazers",
+        schema: 31579
+    },
+    2142: {
+        img: "snow_merc",
+        eng: "Snow Merc",
+        schema: 31580
+    },
+    2143: {
+        img: "aristocravat",
+        eng: "Aristocravat",
+        schema: 31598
+    },
+    2144: {
+        img: "alpine_hawk",
+        eng: "Alpine Hawk",
+        schema: 31582
+    },
+    2145: {
+        img: "flatline_flatcap",
+        eng: "Flatline Flatcap",
+        schema: 31599
+    },
+    2146: {
+        img: "the_sole_providers",
+        eng: "The Sole Providers",
+        schema: 31595
+    },
+    2147: {
+        img: "commonwealth_commander",
+        eng: "Commonwealth Commander",
+        schema: 31586
+    },
+    2148: {
+        img: "festive_fleece",
+        eng: "Festive Fleece",
+        schema: 31590
+    },
+    2149: {
+        img: "chill_seeker",
+        eng: "Chill-Seeker",
+        schema: 31584
+    },
+    2150: {
+        img: "scrooge_mccrocket",
+        eng: "Scrooge McCrocket",
+        schema: 31596
+    },
+    2151: {
+        img: "blizzard_bonnet",
+        eng: "Blizzard Bonnet",
+        schema: 31589
+    },
+    2152: {
+        img: "cardiologists_cardigan",
+        eng: "Cardiologist's Cardigan",
+        schema: 31600
+    },
+    2153: {
+        img: "willis_warmer",
+        eng: "Willis' Warmer",
+        schema: 31594
+    },
+    2154: {
+        img: "veterans_visor",
+        eng: "Veteran's Visor",
+        schema: 31587
+    },
+    2155: {
+        img: "the_old_days_devotion",
+        eng: "The Old Days Devotion",
+        schema: 31581
+    },
+    2156: {
+        img: "taunt_the_critical_fail",
+        eng: "Taunt: The Critical Fail",
+        schema: 31577
+    },
+    2157: {
+        img: "taunt_dead_manns_drink",
+        eng: "Taunt: Dead Mann's Drink",
+        schema: 31576
+    },
+    2158: {
+        img: "taunt_chairholder",
+        eng: "Taunt: Chairholder",
+        schema: 31578
     }
 }
