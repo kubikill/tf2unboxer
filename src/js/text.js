@@ -2719,4 +2719,17 @@ rus: '<span class="colormercenary">Наемника</span> предметов о
         rom: "Craciun 2025",
 		swe: "Smissmas 2025"
     },
+    227: {
+        eng: "View on Crate.tf",
+        rus: "Посмотреть на Crate.tf",
+        pol: "Wyświetl na Crate.tf",
+        sch: "在 Crate.tf 查看",
+        bra: "Ver em Crate.tf",
+        fre: "Voir sur Crate.tf",
+        cze: "Více na Crate.tf",
+        hun: "Megnézés Crate.tf-en",
+        rom: "Vezi pe Crate.tf",
+		swe: "Se på Crate.tf",
+		fil: "Itingna sa Crate.tf"
+    },
 }
