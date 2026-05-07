@@ -488,6 +488,7 @@ a.btn {
 
 #gridviewbtn {
     top: 6%;
+    z-index: 5;
 
     >i {
         font-size: 6vh;
@@ -496,13 +497,20 @@ a.btn {
 
 #randomcratebtn {
     top: 18%;
+    display: none;
 }
+
+#cratewindow.gridactive #randomcratebtn {
+    display: flex;
+}
+
 #searchbtn {
     top: 30%;
 }
 
 #previouscratebtn {
     left: -2.75vh;
+    z-index: 10;
 }
 
 #nextcratebtn {
@@ -545,16 +553,6 @@ a.btn {
     width: 8vh;
     height: 100%;
     color: #fbf1d7;
-}
-
-#crateimagediv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    bottom: 0;
 }
 
 #crateinfotext {
@@ -605,11 +603,12 @@ a.btn {
     display: flex;
 }
 
-#crateimagediv img {
-    max-width: 100vw;
-    max-height: 70%;
-    height: 70%;
-    object-fit: contain;
+#crateimage {
+    width: 100%;
+    height: auto;
+    max-width: 40vh;
+    margin: 0 auto;
+    display: block;
 }
 
 #crategridsearch {
@@ -690,13 +689,16 @@ a.btn {
 #crateinfo {
     height: 100%;
     width: 100%;
+    position: relative;
 }
 
 #cratedetails {
-    height: 100%;
-    width: 100%;
     position: absolute;
-    top: 0;
+    top: 10%;
+    height: 80%;
+    left: 0;
+    width: 100%;
+    overflow: auto;
 }
 
 img {
@@ -713,9 +715,13 @@ img {
     color: #FFD700;
     font-family: "TF2 Build";
     text-align: center;
-    font-size: 3vh;
+    font-size: 2.25vh;
     margin: 0;
     padding: 1vh 0.5vh 0 0.5vh;
+
+    @media (min-aspect-ratio: 3/5) {
+        font-size: 3vh;
+    }
 }
 
 #crateseries {
@@ -925,6 +931,27 @@ img {
     #lootstatscontainer {
         flex-direction: row;
         height: 15%;
+    }
+}
+
+#cratemarketbtns {
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    gap: 1vh;
+    justify-content: center;
+
+    a {
+        height: 6vh;
+        width: 6vh;
+        position: relative;
+    }
+
+    [data-tooltip]::after {
+        min-width: 20vh;
+        white-space: normal;
     }
 }
 
@@ -1595,15 +1622,13 @@ div.visible {
 
 #cratelootdiv,
 #crateeffectsdiv {
-    max-height: 80%;
-    overflow: auto;
     text-align: center;
     font-family: "TF2 Secondary";
     font-size: 2vh;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
+}
+
+#crateeffectsdiv {
+    margin-top: 5vh;
 }
 
 #cratelootlist,
@@ -1660,6 +1685,11 @@ div.visible {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    position: sticky;
+    top: 0;
+    background-color: #383530;
+    z-index: 10;
+    padding-bottom: 1vh;
 
     div {
         text-align: center;
@@ -1773,27 +1803,97 @@ div.visible {
 }
 
 @media (orientation: portrait) {
-    @media (max-aspect-ratio: 6 / 10) {
-        #lootstatscontainer {
-            height: 40% !important;
+    #optionsscreen section>div {
+        flex-basis: 100%;
+        border-right: none !important;
 
-            div span {
-                display: block;
-            }
+        &:nth-last-of-type(2) {
+            border-bottom: 0.25vh solid #776B5F;
+        }
+    }
+
+    #cratedetailsheader {
+        height: auto !important;
+        flex-direction: column;
+        padding: 0 1vh;
+
+        >img {
+            display: none;
         }
 
-        .btngroup.col2 {
-            grid-template-columns: 6vh auto !important;
+        >div {
+            margin: 1vh 0 !important;
+        }
+    }
 
-            [data-option]:nth-of-type(even),
-            [data-optionvalue]:nth-of-type(even) {
-                order: 1;
+    #cratedetails {
+        left: 10%;
+        width: 80%;
+    }
 
-                +p,
-                +span {
-                    order: 1;
-                }
+    #cratewindow {
+        width: 100%;
+        left: 0;
+        border-left: 0;
+        border-right: 0;
+        border-radius: 0;
+        top: 7%;
+        height: 86%;
+
+        >.btn {
+            right: 0.5vh;
+        }
+    }
+
+    #previouscratebtn {
+        left: 0.5vh;
+    }
+
+    #nextcratebtn {
+        right: 0.5vh;
+    }
+
+    #statscontainerinner>nav {
+        width: 98%;
+    }
+
+    .break {
+        display: initial;
+    }
+
+    #cratemain {
+        width: 100%;
+    }
+
+    #lootunboxchance {
+        left: 5%;
+    }
+
+    #lootunboxedtimes {
+        right: 5%;
+    }
+
+    #lootbonusitemcontainer {
+        .bonustooltip {
+            min-width: 33vw;
+        }
+
+        &.i2 {
+            .bonustooltip {
+                min-width: 40vw;
             }
+        }
+    }
+
+    @media (max-aspect-ratio: 9 / 10) {
+
+        #unboxeditem {
+            border-left: 0;
+            border-right: 0;
+            border-radius: 0;
+            width: 100%;
+            padding: 0 1vh;
+            left: 0;
         }
     }
 
@@ -1878,6 +1978,22 @@ div.visible {
             transform: translateX(-50%);
         }
 
+        #cratemarketbtns {
+            bottom: 8.5%;
+        }
+
+        #cratedetails {
+            padding-left: 3%;
+            padding-right: 3%;
+            width: 100%;
+            left: 0;
+            height: 72%;
+        }
+
+        #crateimage {
+            margin-top: -10%;
+        }
+
         #crateselectscreen nav.top {
 
             .btn,
@@ -1890,20 +2006,6 @@ div.visible {
             width: 100%;
             height: initial;
             margin-bottom: 1vh;
-        }
-
-        #cratelootdiv,
-        #crateeffectsdiv {
-            padding: 0 1vh;
-            max-height: 71%;
-            width: 100% !important;
-            left: 0 !important;
-            top: 48% !important;
-        }
-
-        #cratedetails {
-            width: 100% !important;
-            left: 0 !important;
         }
 
         #crateinforeturnbtn {
@@ -1924,11 +2026,11 @@ div.visible {
         #cratewindow:not(.gridactive) {
             #gridviewbtn {
                 top: initial;
-                bottom: 1%;
-                left: 1vh;
+                bottom: 1vh;
+                left: 42%;
                 right: initial;
                 height: 5vh;
-                width: 8vh;
+                width: 16%;
             }
 
             #randomcratebtn {
@@ -1951,19 +2053,19 @@ div.visible {
 
             #previouscratebtn {
                 top: initial;
-                bottom: 7vh;
-                left: 1vh;
+                bottom: 1vh;
+                left: 1%;
                 height: 5vh;
-                width: 45%;
+                width: 38%;
                 font-size: 6vh;
             }
 
             #nextcratebtn {
                 top: initial;
-                bottom: 7vh;
-                right: 1vh;
+                bottom: 1vh;
+                right: 1%;
                 height: 5vh;
-                width: 45%;
+                width: 38%;
                 font-size: 6vh;
             }
         }
@@ -2015,102 +2117,26 @@ div.visible {
         }
     }
 
-    @media (max-aspect-ratio: 9 / 10) {
+    @media (max-aspect-ratio: 6 / 10) {
+        #lootstatscontainer {
+            height: 40% !important;
 
-        #unboxeditem {
-            border-left: 0;
-            border-right: 0;
-            border-radius: 0;
-            width: 100%;
-            padding: 0 1vh;
-            left: 0;
-        }
-    }
-
-    #optionsscreen section>div {
-        flex-basis: 100%;
-        border-right: none !important;
-
-        &:nth-last-of-type(2) {
-            border-bottom: 0.25vh solid #776B5F;
-        }
-    }
-
-    #cratedetailsheader {
-        height: auto !important;
-        flex-direction: column;
-        padding: 0 1vh;
-
-        >img {
-            display: none;
+            div span {
+                display: block;
+            }
         }
 
-        >div {
-            margin: 1vh 0 !important;
-        }
-    }
+        .btngroup.col2 {
+            grid-template-columns: 6vh auto !important;
 
-    #cratewindow {
-        width: 100%;
-        left: 0;
-        border-left: 0;
-        border-right: 0;
-        border-radius: 0;
-        top: 7%;
-        height: 86%;
+            [data-option]:nth-of-type(even),
+            [data-optionvalue]:nth-of-type(even) {
+                order: 1;
 
-        >.btn {
-            right: 0.5vh;
-        }
-    }
-
-    #cratedetails {
-        width: calc(100% - 8vh);
-        left: 4vh;
-    }
-
-    #previouscratebtn {
-        left: 0.5vh;
-    }
-
-    #nextcratebtn {
-        right: 0.5vh;
-    }
-
-    #cratelootdiv,
-    #crateeffectsdiv {
-        left: 3.5vh;
-        width: calc(100% - 7vh);
-    }
-
-    #statscontainerinner>nav {
-        width: 98%;
-    }
-
-    .break {
-        display: initial;
-    }
-
-    #cratemain {
-        width: 100%;
-    }
-
-    #lootunboxchance {
-        left: 5%;
-    }
-
-    #lootunboxedtimes {
-        right: 5%;
-    }
-
-    #lootbonusitemcontainer {
-        .bonustooltip {
-            min-width: 33vw;
-        }
-
-        &.i2 {
-            .bonustooltip {
-                min-width: 40vw;
+                +p,
+                +span {
+                    order: 1;
+                }
             }
         }
     }
@@ -2137,12 +2163,6 @@ div.visible {
     #steambtn i,
     #soundbtn i {
         position: static;
-    }
-
-    #cratelootdiv,
-    #crateeffectsdiv {
-        left: 3.5vh;
-        width: calc(100% - 7vh);
     }
 
     #randomcratebtn {
@@ -2178,7 +2198,23 @@ div.visible {
     }
 
     @media (min-aspect-ratio: 4 / 3) {
+        #cratemarketbtns {
+            left: 3%;
+            width: 47%;
+        }
 
+        #cratedetails {
+            overflow: hidden;
+            height: 90%;
+            top: 10%;
+            width: 94%;
+            left: 3%;
+        }
+
+        #cratelootdiv {
+            overflow: auto;
+            max-height: 100%;
+        }
 
         #lootunboxchance,
         #lootunboxedtimes {
@@ -2260,9 +2296,9 @@ div.visible {
         }
 
         #cratedetails {
-            width: 50%;
-            right: 0;
-            display: block !important;
+            display: grid;
+            align-items: center;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
         }
 
         #lootbonusandstats {

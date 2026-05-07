@@ -68,70 +68,6 @@ const mergeDeep = (a, b) => {
     return Object.assign(a || {}, b), a
 };
 
-// Swipe events - https://github.com/john-doherty/swiped-events
-! function (t, e) {
-    "use strict";
-    "function" != typeof t.CustomEvent && (t.CustomEvent = function (t, n) {
-        n = n || {
-            bubbles: !1,
-            cancelable: !1,
-            detail: void 0
-        };
-        var a = e.createEvent("CustomEvent");
-        return a.initCustomEvent(t, n.bubbles, n.cancelable, n.detail), a
-    }, t.CustomEvent.prototype = t.Event.prototype), e.addEventListener("touchstart", function (t) {
-        if ("true" === t.target.getAttribute("data-swipe-ignore")) return;
-        s = t.target, r = Date.now(), n = t.touches[0].clientX, a = t.touches[0].clientY, u = 0, i = 0
-    }, !1), e.addEventListener("touchmove", function (t) {
-        if (!n || !a) return;
-        var e = t.touches[0].clientX,
-            r = t.touches[0].clientY;
-        u = n - e, i = a - r
-    }, !1), e.addEventListener("touchend", function (t) {
-        if (s !== t.target) return;
-        var e = parseInt(l(s, "data-swipe-threshold", "20"), 10),
-            o = parseInt(l(s, "data-swipe-timeout", "500"), 10),
-            c = Date.now() - r,
-            d = "",
-            p = t.changedTouches || t.touches || [];
-        Math.abs(u) > Math.abs(i) ? Math.abs(u) > e && c < o && (d = u > 0 ? "swiped-left" : "swiped-right") : Math.abs(i) > e && c < o && (d = i > 0 ? "swiped-up" : "swiped-down");
-        if ("" !== d) {
-            var b = {
-                dir: d.replace(/swiped-/, ""),
-                xStart: parseInt(n, 10),
-                xEnd: parseInt((p[0] || {}).clientX || -1, 10),
-                yStart: parseInt(a, 10),
-                yEnd: parseInt((p[0] || {}).clientY || -1, 10)
-            };
-            s.dispatchEvent(new CustomEvent("swiped", {
-                bubbles: !0,
-                cancelable: !0,
-                detail: b
-            })), s.dispatchEvent(new CustomEvent(d, {
-                bubbles: !0,
-                cancelable: !0,
-                detail: b
-            }))
-        }
-        n = null, a = null, r = null
-    }, !1);
-    var n = null,
-        a = null,
-        u = null,
-        i = null,
-        r = null,
-        s = null;
-
-    function l(t, n, a) {
-        for (; t && t !== e.documentElement;) {
-            var u = t.getAttribute(n);
-            if (u) return u;
-            t = t.parentNode
-        }
-        return a
-    }
-}(window, document);
-
 // Generate random 5-letter string
 const randomStringPool = "abcdefghijklmnopqrstuwxyz1234567890";
 
@@ -189,15 +125,14 @@ const DOM = {
         effectsContainer: document.eId("crateeffectsdiv"),
         effectsTitle: document.eId("crateeffectstitle"),
         effectsList: document.eId("crateeffectslist"),
-        infoReturnBtn: document.eId("crateinforeturnbtn"),
-        infoEffectsBtn: document.eId("crateinfoeffectsbtn"),
-        infoLootBtn: document.eId("crateinfolootbtn"),
-        moreInfoBtn: document.eId("crateinfobtn"),
         crateGrid: document.eId("crategrid"),
         crateGridSearch: document.eId("crategridsearchinput"),
         crateGridSearchBtn: document.eId("searchbtn"),
         crateGridSearchDiv: document.eId("crategridsearch"),
-        crateWindow: document.eId("cratewindow")
+        crateWindow: document.eId("cratewindow"),
+        crateSteamMarketBtn: document.eId("cratesteammarketbtn"),
+        crateBptfBtn: document.eId("cratebptfbtn"),
+        crateCratetfBtn: document.eId("cratecratetfbtn")
     },
     bulkSelect: {
         screen: document.eId("bulkunboxselect"),
@@ -1359,6 +1294,10 @@ function getSchema2(type, id) {
     }
 }
 
+function getCrateSchema(id) {
+    return cA[id].schema;
+}
+
 let strangeStringPosition = "left"; // Whether the "Strange" string in item names should appear before or after the item name
 
 function changeLanguage(lang) {
@@ -1514,11 +1453,35 @@ function jumpToCrate(param, firstLoad = false) {
     }
     currentCrateObj = cA[crateOrder[currentCrate]];
     if (!firstLoad) {
+        let urlOptions = {
+            crate: currentCrateObj.id,
+            unboxerCrate: crateOrder[currentCrate],
+            series: currentCrateObj.series,
+            quality: "unique",
+            wear: 0,
+        }
+
+        if (
+            urlOptions.crate == 57 || // Winter 2016 case
+            (urlOptions.crate >= 34 && urlOptions.crate <= 42) || // Unlocked Creepy Crates
+            (urlOptions.crate >= 72 && urlOptions.crate <= 81) // Unlocked Cosmetic Crates
+        ) {
+            urlOptions.uncraftable = true;
+        }
         DOM.main.crateName.innerHTML = getString("crate", currentCrateObj.id)
         DOM.main.series.innerHTML = getSeries(currentCrateObj.series);
         DOM.main.img.src = "./images/crate/" + getImg("crate", currentCrateObj.id);
         DOM.main.lootList.innerHTML = "";
         DOM.main.effectsList.innerHTML = "";
+        DOM.main.crateSteamMarketBtn.href = generateSteamMarketUrl(urlOptions);
+        DOM.main.crateBptfBtn.href = generateBackpackTfUrl(urlOptions);
+        if (availableOnCrateTf(urlOptions)) {
+            DOM.main.crateCratetfBtn.href = generateCrateTfUrl(urlOptions);
+            DOM.main.crateCratetfBtn.classList.remove("btndisabled");
+        } else {
+            DOM.main.crateCratetfBtn.removeAttribute("href");
+            DOM.main.crateCratetfBtn.classList.add("btndisabled");
+        }
         generateLootList();
         generateEffectList();
     }
@@ -1731,7 +1694,12 @@ function generateSteamMarketUrl(arg) {
     if (arg.quality == undefined) {
         arg.quality = "";
     }
-    let steamUrlItemName = `${getEngString("item", arg.item).replace("| ", "")}`;
+    let steamUrlItemName = '';
+    if(arg.crate) {
+        steamUrlItemName = `${getEngString("crate", arg.crate)}`;
+    } else {
+        steamUrlItemName = `${getEngString("item", arg.item).replace("| ", "")}`;
+    }
     if (arg.kit) {
         switch (arg.kit) {
             case 1:
@@ -1764,17 +1732,23 @@ function generateSteamMarketUrl(arg) {
         steamUrlItemName = "Strange " + steamUrlItemName;
         steamUrlItemName = steamUrlItemName.replace('The ', '');
     }
-    if (arg.wear != 0) {
+    if (arg.wear && arg.wear != 0) {
         steamUrlItemName += ` (${getEngString("ui", wearTableNames[arg.wear])})`;
     }
     return encodeURI(`https://steamcommunity.com/market/listings/440/${steamUrlItemName}`);
 }
 
 function generateBackpackTfUrl(arg) {
-    let bpItemName = getEngString("item", arg.item).replace('The ', '');
+    let bpItemName = '';
+    if (arg.crate) {
+        bpItemName = `${getEngString("crate", arg.crate)}`;
+    } else {
+        bpItemName = `${getEngString("item", arg.item).replace("| ", "")}`;
+    }
+
     if (arg.item == 770) {
         bpItemName = bpItemName.replace("#ITEM# ", "");
-    } else if (arg.wear != 0) {
+    } else if (arg.wear && arg.wear != 0) {
         bpItemName += ` (${getEngString("ui", wearTableNames[arg.wear])})`;
     } else if (arg.quality == "strangifier") {
         bpItemName = getEngString("item", 452).replace("#ITEM# ", "");
@@ -1831,7 +1805,7 @@ function generateBackpackTfUrl(arg) {
     }
 
     let bpCraftable = "Craftable";
-    if (arg.item == 770 || arg.kit) {
+    if (arg.uncraftable || arg.item == 770 || arg.kit) {
         bpCraftable = "Non-Craftable";
     }
 
@@ -1860,7 +1834,7 @@ function generateBackpackTfUrl(arg) {
 
 // schema1 / quality / effect / uncraftable / kitlevel / kititem / wear / schema2
 
-function generateMarketplaceTfUrl(arg) {
+function generateSKU(arg, delimiter = ";") {
     let itemId;
     if (arg.quality == "strangifier") {
         itemId = getSchema2("item", arg.item);
@@ -1879,6 +1853,8 @@ function generateMarketplaceTfUrl(arg) {
                 itemId = getSchema("item", 766);
                 break;
         }
+    } else if (arg.unboxerCrate !== null && arg.unboxerCrate !== undefined) {
+        itemId = getCrateSchema(arg.unboxerCrate);
     } else {
         itemId = getSchema("item", arg.item)
     }
@@ -1903,43 +1879,43 @@ function generateMarketplaceTfUrl(arg) {
             quality = 13;
             break;
         default:
-            if (arg.wear != 0) {
+            if (arg.wear && arg.wear != 0) {
                 quality = 15;
             } else {
-                console.warn("Unknown Mptf quality: " + arg.quality);
+                console.warn("Unknown SKU quality: " + arg.quality);
             }
     }
 
     let effect = "";
     if (arg.effect != undefined) {
-        effect = `u${getSchema("effect", arg.effect)};`;
+        effect = `u${getSchema("effect", arg.effect)}${delimiter}`;
     }
 
     let wear = "";
-    if (arg.wear != 0) {
-        wear = `w${arg.wear};`;
+    if (arg.wear && arg.wear != 0) {
+        wear = `w${arg.wear}${delimiter}`;
     }
 
     let extraQuality = "";
     if ([5, 13, 15].includes(quality) && arg.quality.includes("strange")) {
-        extraQuality = "strange;"
+        extraQuality = `strange${delimiter}`;
     }
 
     let craftable = "";
-    if (arg.kit || arg.item == 770) {
-        craftable = "uncraftable;"
+    if (
+        arg.uncraftable ||
+        arg.kit || 
+        arg.item == 770
+    ) {
+        craftable = `uncraftable${delimiter}`;
     }
 
     let kitLevel = "";
     switch (arg.kit) {
         case 1:
-            kitLevel = "kt-1;";
-            break;
         case 2:
-            kitLevel = "kt-2;";
-            break;
         case 3:
-            kitLevel = "kt-3;";
+            kitLevel = `kt-${arg.kit}${delimiter}`;
             break;
     }
 
@@ -1951,7 +1927,7 @@ function generateMarketplaceTfUrl(arg) {
     }
 
     let wpId = "";
-    if (arg.wear != 0) {
+    if (arg.wear && arg.wear != 0) {
         wpId = getSchema2("item", arg.item);
         if (wpId === false) {
             wpId = `pk${getSchema("item", arg.item).toString().slice(-3)}`;
@@ -1960,13 +1936,40 @@ function generateMarketplaceTfUrl(arg) {
         }
     }
 
-    let link = `https://marketplace.tf/items/tf2/${itemId};${quality};${effect}${craftable}${wear}${wpId}${extraQuality}${kitLevel}${kitItem}`;
-
-    if (link[link.length - 1] == ";") {
-        link = link.slice(0, -1);
+    let series = "";
+    if (arg.series) {
+        series = `c${arg.series}${delimiter}`;
     }
 
-    return encodeURI(link);
+    let sku = `${itemId}${delimiter}${quality}${delimiter}${effect}${craftable}${wear}${wpId}${extraQuality}${kitLevel}${kitItem}${series}`;
+
+    if (sku[sku.length - 1] == delimiter) {
+        sku = sku.slice(0, -1);
+    }
+
+    return sku;
+}
+
+function generateMarketplaceTfUrl(arg) {
+    return encodeURI(`https://marketplace.tf/items/tf2/${generateSKU(arg)}`);
+}
+
+function generateCrateTfUrl(arg) {
+    return encodeURI(`https://crate.tf/item/${generateSKU(arg, '-')}?r=unboxer&utm_source=unboxer.tf`);
+}
+
+function availableOnCrateTf(arg) {
+    if (
+        (arg.crate >= 34 && arg.crate <= 42) || // Unlocked Creepy Crates
+        (arg.crate >= 72 && arg.crate <= 80) || // Unlocked Cosmetic Crates (except Multiclass)
+        arg.crate === 63 || // Decorated War Hero War Paint case
+        arg.crate === 64 || // Contract Campaigner War Paint case
+        arg.crate === 32 // Bread Box
+    ) { 
+        return false;
+    }
+
+    return true;
 }
 
 // Unboxing code
@@ -3230,26 +3233,6 @@ function selectFirstCrateFromSearch() {
 }
 
 // Main screen bindings
-DOM.main.moreInfoBtn.addEventListener("click", () => {
-    DOM.main.imgContainer.style.display = "none";
-    DOM.main.detailsContainer.style.display = "block";
-});
-DOM.main.infoReturnBtn.addEventListener("click", () => {
-    DOM.main.imgContainer.style.display = "flex";
-    DOM.main.detailsContainer.style.display = "none";
-});
-DOM.main.infoEffectsBtn.addEventListener("click", () => {
-    DOM.main.effectsContainer.style.display = "block";
-    DOM.main.lootContainer.style.display = "none";
-    DOM.main.infoEffectsBtn.style.display = "none";
-    DOM.main.infoLootBtn.style.display = "flex";
-});
-DOM.main.infoLootBtn.addEventListener("click", () => {
-    DOM.main.effectsContainer.style.display = "none";
-    DOM.main.lootContainer.style.display = "block";
-    DOM.main.infoEffectsBtn.style.display = "flex";
-    DOM.main.infoLootBtn.style.display = "none";
-});
 DOM.main.gridViewBtn.addEventListener("click", () => {
     DOM.main.crateGrid.style.display = "grid";
     DOM.main.crateInfoContainer.style.display = "none";

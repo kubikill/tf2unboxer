@@ -2,6 +2,7 @@ function Crate(op) {
     /* Options:
     id - Determines crate name and icon, which are pulled from cratenames.js.
     series - Crate series number
+    schema - Crate schema number
     loot - Stores crate contents
     effects - Stores unusual effects available in this crate
     note - Crate note (like the "Items obtained from this case may have Strange and/or Unusual quality." text). Text is pulled from text.js
@@ -26,6 +27,7 @@ function Crate(op) {
 
     this.id = op.id;
     this.series = op.series;
+    this.schema = op.schema;
     this.loot = null;
     if (typeof op.effects === "undefined") {
         this.effects = [];
@@ -208,172 +210,172 @@ halloweenModeCrateList.xmas25 = halloweenModeCrateList.hw25.concat([164]);
 
 // Crate array
 export let cA = [
-    new Crate({ id: 1, series: 1, effects: gen1FX, unusual: 1, autoChance: 2 }), /*  [0] */
-    new Crate({ id: 1, series: 2, effects: gen1FX, unusual: 1 }),
-    new Crate({ id: 1, series: 3, effects: gen1FX, unusual: 1 }),
-    new Crate({ id: 1, series: 4, effects: gen1FX, unusual: 1 }),
-    new Crate({ id: 1, series: 5, effects: gen1FX, unusual: 1 }),
-    new Crate({ id: 2, series: 6, effects: gen1FX, unusual: 1 }), /* [5] */
-    new Crate({ id: 1, series: 7, effects: gen1FX, unusual: 1 }),
-    new Crate({ id: 1, series: 8, effects: gen1FX, unusual: 1 }),
-    new Crate({ id: 1, series: 9, effects: gen1FX, unusual: 1 }),
-    new Crate({ id: 1, series: 10, effects: gen1FX, unusual: 1 }),
-    new Crate({ id: 1, series: 11, effects: gen1FX, unusual: 1 }), /*  [10] */
-    new Crate({ id: 1, series: 12, effects: gen1FX, unusual: 1 }),
-    new Crate({ id: 1, series: 13, effects: gen1FX, unusual: 1 }),
-    new Crate({ id: 1, series: 14, effects: gen1FX, unusual: 1 }),
-    new Crate({ id: 1, series: 15, effects: gen1FX, unusual: 1 }),
-    new Crate({ id: 1, series: 16, effects: gen1FX, unusual: 1 }), /* [15] */
-    new Crate({ id: 1, series: 17, effects: gen1FX, unusual: 1 }),
-    new Crate({ id: 1, series: 18, effects: gen1FX, unusual: 1 }),
-    new Crate({ id: 1, series: 19, effects: gen1FX, note: 1, unusual: 1 }),
-    new Crate({ id: 1, series: 20, effects: gen1FX, note: 1, unusual: 1 }),
-    new Crate({ id: 1, series: 21, effects: gen1FX, note: 1, unusual: 1 }), /*  [20] */
-    new Crate({ id: 5, series: 22, effects: gen1FX, unusual: 1, autoChance: 2 }),
-    new Crate({ id: 1, series: 23, effects: gen1FX, note: 1, unusual: 1 }),
-    new Crate({ id: 1, series: 24, effects: gen1FX, note: 1, unusual: 1 }),
-    new Crate({ id: 1, series: 25, effects: gen1FX, note: 1, unusual: 1 }),
-    new Crate({ id: 1, series: 26, effects: gen2FX, note: 1, unusual: 1 }), /* [25] */
-    new Crate({ id: 1, series: 27, effects: gen2FX, note: 1, unusual: 1 }),
-    new Crate({ id: 1, series: 28, effects: gen2FX, note: 1, unusual: 1 }),
-    new Crate({ id: 1, series: 29, effects: gen2FX, note: 1, unusual: 1 }),
-    new Crate({ id: 6, series: 30, effects: gen2FX, note: 1, unusual: 1, autoChance: 2 }),
-    new Crate({ id: 1, series: 31, effects: gen2FX, note: 1, unusual: 1 }), /*  [30] */
-    new Crate({ id: 1, series: 32, effects: gen2FX, note: 1, unusual: 1 }),
-    new Crate({ id: 1, series: 33, effects: gen2FX, note: 1, unusual: 1 }),
-    new Crate({ id: 1, series: 34, effects: gen2FX, note: 1, unusual: 1 }),
-    new Crate({ id: 7, series: 35, effects: gen2FX, note: 2, unusual: 1 }),
-    new Crate({ id: 8, series: 36, effects: gen2FX, unusual: 1 }), /* [35] */
-    new Crate({ id: 1, series: 37, effects: gen2FX, note: 1, unusual: 1 }),
-    new Crate({ id: 1, series: 38, effects: gen2FX, note: 1, unusual: 1 }),
-    new Crate({ id: 1, series: 39, effects: gen2FX, note: 1, unusual: 1 }),
-    new Crate({ id: 6, series: 40, effects: gen2FX, note: 1, unusual: 1, autoChance: 2 }),
-    new Crate({ id: 1, series: 41, effects: gen2FX, note: 1, unusual: 1 }), /*  [40] */
-    new Crate({ id: 1, series: 42, effects: gen2FX, note: 1, unusual: 1 }),
-    new Crate({ id: 1, series: 43, effects: gen2FX, note: 1, unusual: 1 }),
-    new Crate({ id: 1, series: 44, effects: gen2FX, note: 1, unusual: 1 }),
-    new Crate({ id: 1, series: 45, effects: gen2FX, note: 1, unusual: 1 }),
-    new Crate({ id: 9, series: 46, effects: gen2FX, note: 1, unusual: 1 }), /* [45] */
-    new Crate({ id: 1, series: 47, effects: gen2FX, note: 1, unusual: 1 }),
-    new Crate({ id: 10, series: 48, effects: gen2FX, unusual: 1 }),
-    new Crate({ id: 1, series: 49, effects: gen2FX, note: 1, unusual: 1 }),
-    new Crate({ id: 6, series: 50, effects: gen2FX, note: 1, unusual: 1, autoChance: 2 }),
-    new Crate({ id: 11, series: 51, effects: hw12FX, note: 3, unusual: 1, autoChance: 2 }), /*  [50] */
-    new Crate({ id: 12, series: 52, effects: gen2FX, note: 2, unusual: 1, autoChance: 2 }),
-    new Crate({ id: 13, series: 53, effects: gen2FX, unusual: 1, autoChance: 2 }),
-    new Crate({ id: 1, series: 54, effects: gen2FX, note: 1, unusual: 1 }),
-    new Crate({ id: 1, series: 55, effects: gen2FX, note: 1, unusual: 1 }),
-    new Crate({ id: 1, series: 56, effects: gen2FX, note: 1, unusual: 1 }), /* [55] */
-    new Crate({ id: 1, series: 57, effects: gen2FX, note: 1, unusual: 1 }),
-    new Crate({ id: 14, series: 58, effects: roboFX, unusual: 1, autoChance: 2 }),
-    new Crate({ id: 1, series: 59, effects: gen3FX, note: 1, unusual: 1 }),
-    new Crate({ id: 15, series: 60, effects: gen3FX, note: 1, unusual: 1, autoChance: 2 }),
-    new Crate({ id: 16, series: 61, effects: gen3FX, unusual: 1, autoChance: 2 }), /*  [60] */
-    new Crate({ id: 17, series: 62, effects: gen3FX, unusual: 1, autoChance: 2 }),
-    new Crate({ id: 18, series: 63, effects: gen3FX, unusual: 1, autoChance: 2 }),
-    new Crate({ id: 19, series: 64, effects: gen3FX, unusual: 1, autoChance: 2 }),
-    new Crate({ id: 20, series: 65, effects: gen3FX, unusual: 1, autoChance: 2 }),
-    new Crate({ id: 21, series: 66, effects: gen3FX, unusual: 1, autoChance: 2 }), /* [65] */
-    new Crate({ id: 22, series: 67, effects: gen3FX, unusual: 1, autoChance: 2 }),
-    new Crate({ id: 23, series: 68, effects: gen3FX, unusual: 1, autoChance: 2 }),
-    new Crate({ id: 24, series: 69, effects: gen3FX, unusual: 1, autoChance: 2 }),
-    new Crate({ id: 1, series: 71, effects: gen3FX, note: 1, unusual: 1 }),
-    new Crate({ id: 25, series: 72, effects: gen3FX, unusual: 1, autoChance: 2 }), /*  [70] */
-    new Crate({ id: 26, series: 73, effects: gen3FX, unusual: 1, autoChance: 2 }),
-    new Crate({ id: 27, series: 74, effects: hw13FX, unusual: 1, autoChance: 2 }),
-    new Crate({ id: 1, series: 75, effects: gen3FX, note: 1, unusual: 1 }),
-    new Crate({ id: 1, series: 76, effects: gen3FX, note: 1, unusual: 1 }),
-    new Crate({ id: 1, series: 77, effects: gen3FX, note: 1, unusual: 1 }), /* [75] */
-    new Crate({ id: 28, series: 78, effects: gen3FX, note: 2, unusual: 1, autoChance: 2 }),
-    new Crate({ id: 29, series: 79, effects: gen3FX, unusual: 1, autoChance: 2 }),
-    new Crate({ id: 30, series: 81, effects: gen3FX, unusual: 1, autoChance: 2 }),
-    new Crate({ id: 31, series: 82, effects: gen3FX, unusual: 1 }),
-    new Crate({ id: 31, series: 83, effects: gen3FX, note: 142, unusual: 1, autoChance: 2 }), /*  [80] */
-    new Crate({ id: 3, series: 0, effects: tauntFX, note: 7, unusual: 3, autoChance: 2 }), /*  Mann Co. Audition Reel */
-    new Crate({ id: 32, series: 0, note: 2, autoChance: 2 }), /*  Bread Box */
-    new Crate({ id: 33, series: 0, effects: gen3FX, unusual: 1, autoChance: 2 }), /*  Mann Co. Stockpile Crate */
-    new Crate({ id: 31, series: 84, effects: gen3FX, note: 142, unusual: 1, autoChance: 2 }),
-    new Crate({ id: 31, series: 85, effects: gen3FX, unusual: 1 }), /* [85] */
-    new Crate({ id: 43, series: 86, effects: gen3FX, note: 4, unusual: 1, autoChance: 2 }),
-    new Crate({ id: 34, series: 0, effects: creepyCrateFx, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Scout Crate */
-    new Crate({ id: 35, series: 0, effects: creepyCrateFx, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Soldier Crate */
-    new Crate({ id: 36, series: 0, effects: creepyCrateFx, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Pyro Crate */
-    new Crate({ id: 37, series: 0, effects: creepyCrateFx, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Demo Crate [90] */
-    new Crate({ id: 38, series: 0, effects: creepyCrateFx, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Heavy Crate */
-    new Crate({ id: 39, series: 0, effects: creepyCrateFx, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Engineer Crate */
-    new Crate({ id: 40, series: 0, effects: creepyCrateFx, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Medic Crate */
-    new Crate({ id: 41, series: 0, effects: creepyCrateFx, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Sniper Crate */
-    new Crate({ id: 42, series: 0, effects: creepyCrateFx, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Spy Crate [95] */
-    new Crate({ id: 44, series: 87, effects: eotlFX, note: 2, unusual: 1, autoChance: 2 }),
-    new Crate({ id: 45, series: 88, effects: allGensFX, note: 2, unusual: 1, autoChance: 2 }),
-    new Crate({ id: 46, series: 89, effects: allGensFX, note: 4, unusual: 1, autoChance: 2 }),
-    new Crate({ id: 31, series: 90, effects: allGensFX, note: 6, unusual: 1 }),
-    new Crate({ id: 31, series: 91, effects: allGensFX, note: 142, unusual: 1, autoChance: 2 }), /*  [100] */
-    new Crate({ id: 31, series: 92, effects: allGensFX, note: 1, unusual: 1 }),
-    new Crate({ id: 4, series: 93, effects: oldWeaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }), /*  Concealed Killer Weapons Case */
-    new Crate({ id: 47, series: 94, effects: oldWeaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
-    new Crate({ id: 48, series: 95, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
-    new Crate({ id: 49, series: 96, effects: invasionFX, note: 5, unusual: 2, autoChance: 1, bonus: true }), /* [105] */
-    new Crate({ id: 50, series: 97, effects: invasionFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
-    new Crate({ id: 51, series: 98, effects: hw15FX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
-    new Crate({ id: 52, series: 99, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
-    new Crate({ id: 53, series: 100, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
-    new Crate({ id: 54, series: 101, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true }), /*  [110] */
-    new Crate({ id: 55, series: 102, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
-    new Crate({ id: 31, series: 103, effects: allGensFX, note: 1, unusual: 1 }),
-    new Crate({ id: 56, series: 104, effects: hw16FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [827, 828, 829], chance: 5000 } }),
-    new Crate({ id: 57, series: 105, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }),
-    new Crate({ id: 58, series: 106, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true }), /* [115] */
-    new Crate({ id: 59, series: 107, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
-    new Crate({ id: 60, series: 108, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
-    new Crate({ id: 61, series: 109, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
-    new Crate({ id: 62, series: 110, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
-    new Crate({ id: 63, series: 111, autoChance: 1 }), /*  [120] */
-    new Crate({ id: 64, series: 114, autoChance: 1 }),
-    new Crate({ id: 65, series: 117, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }),
-    new Crate({ id: 66, series: 118, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
-    new Crate({ id: 67, series: 119, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
-    new Crate({ id: 68, series: 120, effects: hw18FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [832, 835, 836, 837], chance: 5000 } }), /* [125] */
-    new Crate({ id: 69, series: 121, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
-    new Crate({ id: 70, series: 122, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }),
-    new Crate({ id: 71, series: 123, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
-    new Crate({ id: 72, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }),
-    new Crate({ id: 73, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }), /*  [130] */
-    new Crate({ id: 74, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }),
-    new Crate({ id: 75, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }),
-    new Crate({ id: 76, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }),
-    new Crate({ id: 77, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }),
-    new Crate({ id: 78, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }), /* [135] */
-    new Crate({ id: 79, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }),
-    new Crate({ id: 80, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }),
-    new Crate({ id: 81, series: 0, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }),
-    new Crate({ id: 82, series: 124, effects: hw19FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [1647, 1648, 1649, 1650, 1651], chance: 5000 } }),
-    new Crate({ id: 83, series: 125, effects: xmas19FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }), /*  [140] */
-    new Crate({ id: 84, series: 126, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
-    new Crate({ id: 85, series: 127, effects: summer20FX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
-    new Crate({ id: 86, series: 128, effects: hw20FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [966, 967, 968, 969, 970, 971], chance: 5000 } }),
-    new Crate({ id: 87, series: 129, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
-    new Crate({ id: 88, series: 130, effects: xmas20FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }), /* [145] */
-    new Crate({ id: 89, series: 131, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
-    new Crate({ id: 90, series: 132, effects: summer21FX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
-    new Crate({ id: 91, series: 133, effects: hw21FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [1745, 1746, 1747, 1748, 1749], chance: 5000 } }),
-    new Crate({ id: 92, series: 134, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
-    new Crate({ id: 93, series: 135, effects: xmas21FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }), /* [150] */
-    new Crate({ id: 94, series: 136, effects: summer22FX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
-    new Crate({ id: 95, series: 137, effects: hw22FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [1838, 1839, 1840, 1841,1842], chance: 5000 } }),
-    new Crate({ id: 96, series: 138, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
-    new Crate({ id: 97, series: 139, effects: xmas22FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }),
-    new Crate({ id: 98, series: 140, effects: summer23FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true }), /* [155] */
-    new Crate({ id: 99, series: 141, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
-    new Crate({ id: 100, series: 142, effects: hw23FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [1951, 1952, 1953, 1954], chance: 5000} }),
-    new Crate({ id: 101, series: 143, effects: xmas23FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }),
-    new Crate({ id: 102, series: 144, effects: summer24FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true }),
-    new Crate({ id: 103, series: 145, effects: hw24FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true }), /* [160] */
-    new Crate({ id: 104, series: 146, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
-    new Crate({ id: 105, series: 147, effects: xmas24FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }),
-    new Crate({ id: 106, series: 148, effects: summer25FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true }),
-    new Crate({ id: 107, series: 149, effects: hw25FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [2126, 2127, 2128, 2129], chance: 5000 }}),
-    new Crate({ id: 108, series: 150, effects: xmas25FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }),
+    new Crate({ id: 1, series: 1, schema: 5022, effects: gen1FX, unusual: 1, autoChance: 2 }), /*  [0] */
+    new Crate({ id: 1, series: 2, schema: 5041, effects: gen1FX, unusual: 1 }),
+    new Crate({ id: 1, series: 3, schema: 5022, effects: gen1FX, unusual: 1 }),
+    new Crate({ id: 1, series: 4, schema: 5041, effects: gen1FX, unusual: 1 }),
+    new Crate({ id: 1, series: 5, schema: 5045, effects: gen1FX, unusual: 1 }),
+    new Crate({ id: 2, series: 6, schema: 5048, effects: gen1FX, unusual: 1 }), /* [5] */
+    new Crate({ id: 1, series: 7, schema: 5022, effects: gen1FX, unusual: 1 }),
+    new Crate({ id: 1, series: 8, schema: 5041, effects: gen1FX, unusual: 1 }),
+    new Crate({ id: 1, series: 9, schema: 5045, effects: gen1FX, unusual: 1 }),
+    new Crate({ id: 1, series: 10, schema: 5045, effects: gen1FX, unusual: 1 }),
+    new Crate({ id: 1, series: 11, schema: 5041, effects: gen1FX, unusual: 1 }), /*  [10] */
+    new Crate({ id: 1, series: 12, schema: 5022, effects: gen1FX, unusual: 1 }),
+    new Crate({ id: 1, series: 13, schema: 5022, effects: gen1FX, unusual: 1 }),
+    new Crate({ id: 1, series: 14, schema: 5041, effects: gen1FX, unusual: 1 }),
+    new Crate({ id: 1, series: 15, schema: 5045, effects: gen1FX, unusual: 1 }),
+    new Crate({ id: 1, series: 16, schema: 5045, effects: gen1FX, unusual: 1 }), /* [15] */
+    new Crate({ id: 1, series: 17, schema: 5041, effects: gen1FX, unusual: 1 }),
+    new Crate({ id: 1, series: 18, schema: 5022, effects: gen1FX, unusual: 1 }),
+    new Crate({ id: 1, series: 19, schema: 5022, effects: gen1FX, note: 1, unusual: 1 }),
+    new Crate({ id: 1, series: 20, schema: 5041, effects: gen1FX, note: 1, unusual: 1 }),
+    new Crate({ id: 1, series: 21, schema: 5045, effects: gen1FX, note: 1, unusual: 1 }), /*  [20] */
+    new Crate({ id: 5, series: 22, schema: 5066, effects: gen1FX, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 1, series: 23, schema: 5022, effects: gen1FX, note: 1, unusual: 1 }),
+    new Crate({ id: 1, series: 24, schema: 5041, effects: gen1FX, note: 1, unusual: 1 }),
+    new Crate({ id: 1, series: 25, schema: 5045, effects: gen1FX, note: 1, unusual: 1 }),
+    new Crate({ id: 1, series: 26, schema: 5022, effects: gen2FX, note: 1, unusual: 1 }), /* [25] */
+    new Crate({ id: 1, series: 27, schema: 5041, effects: gen2FX, note: 1, unusual: 1 }),
+    new Crate({ id: 1, series: 28, schema: 5045, effects: gen2FX, note: 1, unusual: 1 }),
+    new Crate({ id: 1, series: 29, schema: 5045, effects: gen2FX, note: 1, unusual: 1 }),
+    new Crate({ id: 6, series: 30, schema: 5068, effects: gen2FX, note: 1, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 1, series: 31, schema: 5022, effects: gen2FX, note: 1, unusual: 1 }), /*  [30] */
+    new Crate({ id: 1, series: 32, schema: 5041, effects: gen2FX, note: 1, unusual: 1 }),
+    new Crate({ id: 1, series: 33, schema: 5045, effects: gen2FX, note: 1, unusual: 1 }),
+    new Crate({ id: 1, series: 34, schema: 5022, effects: gen2FX, note: 1, unusual: 1 }),
+    new Crate({ id: 7, series: 35, schema: 5070, effects: gen2FX, note: 2, unusual: 1 }),
+    new Crate({ id: 8, series: 36, schema: 5071, effects: gen2FX, unusual: 1 }), /* [35] */
+    new Crate({ id: 1, series: 37, schema: 5041, effects: gen2FX, note: 1, unusual: 1 }),
+    new Crate({ id: 1, series: 38, schema: 5045, effects: gen2FX, note: 1, unusual: 1 }),
+    new Crate({ id: 1, series: 39, schema: 5022, effects: gen2FX, note: 1, unusual: 1 }),
+    new Crate({ id: 6, series: 40, schema: 5068, effects: gen2FX, note: 1, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 1, series: 41, schema: 5045, effects: gen2FX, note: 1, unusual: 1 }), /*  [40] */
+    new Crate({ id: 1, series: 42, schema: 5041, effects: gen2FX, note: 1, unusual: 1 }),
+    new Crate({ id: 1, series: 43, schema: 5022, effects: gen2FX, note: 1, unusual: 1 }),
+    new Crate({ id: 1, series: 44, schema: 5041, effects: gen2FX, note: 1, unusual: 1 }),
+    new Crate({ id: 1, series: 45, schema: 5045, effects: gen2FX, note: 1, unusual: 1 }),
+    new Crate({ id: 9, series: 46, schema: 5078, effects: gen2FX, note: 1, unusual: 1 }), /* [45] */
+    new Crate({ id: 1, series: 47, schema: 5022, effects: gen2FX, note: 1, unusual: 1 }),
+    new Crate({ id: 10, series: 48, schema: 5080, effects: gen2FX, unusual: 1 }),
+    new Crate({ id: 1, series: 49, schema: 5041, effects: gen2FX, note: 1, unusual: 1 }),
+    new Crate({ id: 6, series: 50, schema: 5068, effects: gen2FX, note: 1, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 11, series: 51, schema: 5627, effects: hw12FX, note: 3, unusual: 1, autoChance: 2 }), /*  [50] */
+    new Crate({ id: 12, series: 52, schema: 5629, effects: gen2FX, note: 2, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 13, series: 53, schema: 5630, effects: gen2FX, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 1, series: 54, schema: 5022, effects: gen2FX, note: 1, unusual: 1 }),
+    new Crate({ id: 1, series: 55, schema: 5045, effects: gen2FX, note: 1, unusual: 1 }),
+    new Crate({ id: 1, series: 56, schema: 5041, effects: gen2FX, note: 1, unusual: 1 }), /* [55] */
+    new Crate({ id: 1, series: 57, schema: 5022, effects: gen2FX, note: 1, unusual: 1 }),
+    new Crate({ id: 14, series: 58, schema: 5635, effects: roboFX, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 1, series: 59, schema: 5045, effects: gen3FX, note: 1, unusual: 1 }),
+    new Crate({ id: 15, series: 60, schema: 5660, effects: gen3FX, note: 1, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 16, series: 61, schema: 5640, effects: gen3FX, unusual: 1, autoChance: 2 }), /*  [60] */
+    new Crate({ id: 17, series: 62, schema: 5642, effects: gen3FX, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 18, series: 63, schema: 5644, effects: gen3FX, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 19, series: 64, schema: 5646, effects: gen3FX, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 20, series: 65, schema: 5648, effects: gen3FX, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 21, series: 66, schema: 5650, effects: gen3FX, unusual: 1, autoChance: 2 }), /* [65] */
+    new Crate({ id: 22, series: 67, schema: 5652, effects: gen3FX, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 23, series: 68, schema: 5654, effects: gen3FX, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 24, series: 69, schema: 5656, effects: gen3FX, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 1, series: 71, schema: 5041, effects: gen3FX, note: 1, unusual: 1 }),
+    new Crate({ id: 25, series: 72, schema: 5708, effects: gen3FX, unusual: 1, autoChance: 2 }), /*  [70] */
+    new Crate({ id: 26, series: 73, schema: 5709, effects: gen3FX, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 27, series: 74, schema: 5712, effects: hw13FX, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 1, series: 75, schema: 5022, effects: gen3FX, note: 1, unusual: 1 }),
+    new Crate({ id: 1, series: 76, schema: 5041, effects: gen3FX, note: 1, unusual: 1 }),
+    new Crate({ id: 1, series: 77, schema: 5045, effects: gen3FX, note: 1, unusual: 1 }), /* [75] */
+    new Crate({ id: 28, series: 78, schema: 5714, effects: gen3FX, note: 2, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 29, series: 79, schema: 5715, effects: gen3FX, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 30, series: 81, schema: 5719, effects: gen3FX, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 31, series: 82, schema: 5734, effects: gen3FX, unusual: 1 }),
+    new Crate({ id: 31, series: 83, schema: 5735, effects: gen3FX, note: 142, unusual: 1, autoChance: 2 }), /*  [80] */
+    new Crate({ id: 3, series: 0, schema: 5739, effects: tauntFX, note: 7, unusual: 3, autoChance: 2 }), /*  Mann Co. Audition Reel */
+    new Crate({ id: 32, series: 0, schema: 5741, note: 2, autoChance: 2 }), /*  Bread Box */
+    new Crate({ id: 33, series: 0, schema: 5737, effects: gen3FX, unusual: 1, autoChance: 2 }), /*  Mann Co. Stockpile Crate */
+    new Crate({ id: 31, series: 84, schema: 5742, effects: gen3FX, note: 142, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 31, series: 85, schema: 5752, effects: gen3FX, unusual: 1 }), /* [85] */
+    new Crate({ id: 43, series: 86, schema: 5761, effects: gen3FX, note: 4, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 34, series: 0, schema: 5763, effects: creepyCrateFx, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Scout Crate */
+    new Crate({ id: 35, series: 0, schema: 5769, effects: creepyCrateFx, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Soldier Crate */
+    new Crate({ id: 36, series: 0, schema: 5764, effects: creepyCrateFx, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Pyro Crate */
+    new Crate({ id: 37, series: 0, schema: 5771, effects: creepyCrateFx, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Demo Crate [90] */
+    new Crate({ id: 38, series: 0, schema: 5765, effects: creepyCrateFx, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Heavy Crate */
+    new Crate({ id: 39, series: 0, schema: 5766, effects: creepyCrateFx, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Engineer Crate */
+    new Crate({ id: 40, series: 0, schema: 5770, effects: creepyCrateFx, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Medic Crate */
+    new Crate({ id: 41, series: 0, schema: 5768, effects: creepyCrateFx, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Sniper Crate */
+    new Crate({ id: 42, series: 0, schema: 5767, effects: creepyCrateFx, note: 8, unusual: 1, autoChance: 2, creepyBonus: true }), /*  Unlocked Creepy Spy Crate [95] */
+    new Crate({ id: 44, series: 87, schema: 5774, effects: eotlFX, note: 2, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 45, series: 88, schema: 5789, effects: allGensFX, note: 2, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 46, series: 89, schema: 5790, effects: allGensFX, note: 4, unusual: 1, autoChance: 2 }),
+    new Crate({ id: 31, series: 90, schema: 5781, effects: allGensFX, note: 6, unusual: 1 }),
+    new Crate({ id: 31, series: 91, schema: 5802, effects: allGensFX, note: 142, unusual: 1, autoChance: 2 }), /*  [100] */
+    new Crate({ id: 31, series: 92, schema: 5803, effects: allGensFX, note: 1, unusual: 1 }),
+    new Crate({ id: 4, series: 93, schema: 5806, effects: oldWeaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }), /*  Concealed Killer Weapons Case */
+    new Crate({ id: 47, series: 94, schema: 5807, effects: oldWeaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 48, series: 95, schema: 5817, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 49, series: 96, schema: 5822, effects: invasionFX, note: 5, unusual: 2, autoChance: 1, bonus: true }), /* [105] */
+    new Crate({ id: 50, series: 97, schema: 5823, effects: invasionFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 51, series: 98, schema: 5828, effects: hw15FX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 52, series: 99, schema: 5831, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 53, series: 100, schema: 5832, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 54, series: 101, schema: 5842, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true }), /*  [110] */
+    new Crate({ id: 55, series: 102, schema: 5849, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 31, series: 103, schema: 5859, effects: allGensFX, note: 1, unusual: 1 }),
+    new Crate({ id: 56, series: 104, schema: 5861, effects: hw16FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [827, 828, 829], chance: 5000 } }),
+    new Crate({ id: 57, series: 105, schema: 5865, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }),
+    new Crate({ id: 58, series: 106, schema: 5867, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true }), /* [115] */
+    new Crate({ id: 59, series: 107, schema: 5871, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 60, series: 108, schema: 5875, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 61, series: 109, schema: 5883, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 62, series: 110, schema: 5885, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 63, series: 111, schema: 18000, autoChance: 1 }), /*  [120] */
+    new Crate({ id: 64, series: 114, schema: 18004, autoChance: 1 }),
+    new Crate({ id: 65, series: 117, schema: 5888, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }),
+    new Crate({ id: 66, series: 118, schema: 5890, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 67, series: 119, schema: 5893, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 68, series: 120, schema: 5894, effects: hw18FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [832, 835, 836, 837], chance: 5000 } }), /* [125] */
+    new Crate({ id: 69, series: 121, schema: 5897, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 70, series: 122, schema: 5902, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }),
+    new Crate({ id: 71, series: 123, schema: 5904, effects: allGensFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 72, series: 0, schema: 5850, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }),
+    new Crate({ id: 73, series: 0, schema: 5852, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }), /*  [130] */
+    new Crate({ id: 74, series: 0, schema: 5856, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }),
+    new Crate({ id: 75, series: 0, schema: 5853, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }),
+    new Crate({ id: 76, series: 0, schema: 5855, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }),
+    new Crate({ id: 77, series: 0, schema: 5858, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }),
+    new Crate({ id: 78, series: 0, schema: 5854, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }), /* [135] */
+    new Crate({ id: 79, series: 0, schema: 5851, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }),
+    new Crate({ id: 80, series: 0, schema: 5857, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }),
+    new Crate({ id: 81, series: 0, schema: 5860, effects: allGensFX, note: 5, unusual: 3, autoChance: 2 }),
+    new Crate({ id: 82, series: 124, schema: 5905, effects: hw19FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [1647, 1648, 1649, 1650, 1651], chance: 5000 } }),
+    new Crate({ id: 83, series: 125, schema: 5909, effects: xmas19FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }), /*  [140] */
+    new Crate({ id: 84, series: 126, schema: 5912, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 85, series: 127, schema: 5914, effects: summer20FX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 86, series: 128, schema: 5915, effects: hw20FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [966, 967, 968, 969, 970, 971], chance: 5000 } }),
+    new Crate({ id: 87, series: 129, schema: 5918, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 88, series: 130, schema: 5922, effects: xmas20FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }), /* [145] */
+    new Crate({ id: 89, series: 131, schema: 5925, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 90, series: 132, schema: 5927, effects: summer21FX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 91, series: 133, schema: 5928, effects: hw21FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [1745, 1746, 1747, 1748, 1749], chance: 5000 } }),
+    new Crate({ id: 92, series: 134, schema: 5931, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 93, series: 135, schema: 5935, effects: xmas21FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }), /* [150] */
+    new Crate({ id: 94, series: 136, schema: 5938, effects: summer22FX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
+    new Crate({ id: 95, series: 137, schema: 5939, effects: hw22FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [1838, 1839, 1840, 1841,1842], chance: 5000 } }),
+    new Crate({ id: 96, series: 138, schema: 5942, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 97, series: 139, schema: 5947, effects: xmas22FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }),
+    new Crate({ id: 98, series: 140, schema: 5949, effects: summer23FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true }), /* [155] */
+    new Crate({ id: 99, series: 141, schema: 5951, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 100, series: 142, schema: 5952, effects: hw23FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [1951, 1952, 1953, 1954], chance: 5000} }),
+    new Crate({ id: 101, series: 143, schema: 5957, effects: xmas23FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }),
+    new Crate({ id: 102, series: 144, schema: 5959, effects: summer24FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 103, series: 145, schema: 5960, effects: hw24FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true }), /* [160] */
+    new Crate({ id: 104, series: 146, schema: 5963, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 105, series: 147, schema: 5968, effects: xmas24FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }),
+    new Crate({ id: 106, series: 148, schema: 5970, effects: summer25FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 107, series: 149, schema: 5971, effects: hw25FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [2126, 2127, 2128, 2129], chance: 5000 }}),
+    new Crate({ id: 108, series: 150, schema: 5976, effects: xmas25FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }),
 
 ];
 // This is the order the crates will show up in the menu

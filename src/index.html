@@ -90,33 +90,32 @@
             <div class="btn" id="unboxbtn" data-string="13">Unbox my loot!</div>
         </nav>
         <div id="cratewindow">
-            <div class="btn tooltipleft tooltipmobiletopright" id="gridviewbtn" data-tooltip="Grid view" data-tooltipstring="11"><i class="icon-grid"></i></div>
+            <div class="btn tooltipleft tooltipmobiletop" id="gridviewbtn" data-tooltip="Grid view" data-tooltipstring="11"><i class="icon-grid"></i></div>
             <div class="btn tooltipleft tooltipmobiletop" id="exitgridviewbtn" data-tooltip="Details view" data-tooltipstring="12" style="display: none;"><i class="icon-list"></i></div>
-            <div class="btn tooltipleft tooltipmobiletopleft tooltipmobilegridtop" id="randomcratebtn" data-tooltip="Random crate" data-tooltipstring="14"><i class="icon-dice"></i></div>
+            <div class="btn tooltipleft tooltipmobiletop" id="randomcratebtn" data-tooltip="Random crate" data-tooltipstring="14"><i class="icon-dice"></i></div>
             <div class="btn tooltipleft tooltipmobiletop" id="searchbtn" data-tooltip="Search" data-tooltipstring="204" style="display: none;"><i class="icon-search"></i></div>
-            <div id="crateinfo" data-swipe-threshold="50">
+            <div id="crateinfo">
                 <p id="cratename">Winter 2025 Cosmetic Cases</p>
                 <p id="crateseries">Series #150</p>
-                <div id="crateimagediv">
+                <div id="cratedetails">
                     <img id="crateimage" src="./images/crate/winter_2025_cosmetic_case.webp" loading="eager" fetchpriority="high" draggable="false" onmousedown="return false" alt="">
-                    <div class="btn" id="crateinfobtn" data-string="18">More info</div>
-                </div>
-                <div id="cratedetails" style="display: none;">
                     <div id="cratelootdiv">
                         <div>
                             <p id="crateloottitle" data-string="30">This crate contains one of the following items:</p>
                             <ul id="cratelootlist"><li class="colormercenary">Sydney Shearling</li><li class="colormercenary">Black Tie Affair</li><li class="colormercenary">Alpine Apparel</li><li class="colormercenary">Scrub Stompers</li><li class="colormercenary">Epilogue Locks</li><li class="colormercenary">Deserter's Duster</li><li class="colormercenary">Air Head</li><li class="colormercenary">Puncher's Polar Puffer</li><li class="colormercenary">Lazer Gazers</li><li class="colormercenary">Snow Merc</li><li class="colorcommando">Aristocravat</li><li class="colorcommando">Alpine Hawk</li><li class="colorcommando">Flatline Flatcap</li><li class="colorcommando">The Sole Providers</li><li class="colorcommando">Commonwealth Commander</li><li class="colorcommando">Festive Fleece</li><li class="colorcommando">Chill-Seeker</li><li class="colorcommando">Scrooge McCrocket</li><li class="colorassassin">Blizzard Bonnet</li><li class="colorassassin">Cardiologist's Cardigan</li><li class="colorassassin">Willis' Warmer</li><li class="colorassassin">Veteran's Visor</li><li class="colorelite">The Old Days Devotion</li></ul>
                             <span id="cratelootbonus"><p>This case may contain bonus items.</p><p>Crate/case-exclusive bonus items:</p><ul><li>The Festivizer</li></ul></span>
                             <p id="cratenote">Items obtained from this case may have Strange and/or Unusual quality.</p>
+                            <div id="crateeffectsdiv">
+                                <p id="crateeffectstitle">Unusuals may have one of the following effects:</p>
+                                <ul id="crateeffectslist"><li>Chromatic Blaze</li><li>Frostfire</li><li>Spectrum Inferno</li><li>Calm Snowfall</li><li>Team Recognition</li><li>Old Hire</li><li>Analog Fortress</li><li>Winter Whiteout</li><li>Midnight Frostfall</li><li>Twilight Snowfall</li><li>Cryogenic</li></ul>
+                            </div>
                         </div>
                     </div>
-                    <div id="crateeffectsdiv" style="display: none;">
-                        <p id="crateeffectstitle">Unusuals may have one of the following effects:</p>
-                        <ul id="crateeffectslist"><li>Chromatic Blaze</li><li>Frostfire</li><li>Spectrum Inferno</li><li>Calm Snowfall</li><li>Team Recognition</li><li>Old Hire</li><li>Analog Fortress</li><li>Winter Whiteout</li><li>Midnight Frostfall</li><li>Twilight Snowfall</li><li>Cryogenic</li></ul>
-                    </div>
-                    <div class="btn" id="crateinforeturnbtn" data-string="15">Return</div>
-                    <div class="btn" id="crateinfoeffectsbtn" data-string="16">Effects</div>
-                    <div class="btn" id="crateinfolootbtn" data-string="17" style="display: none;">Loot</div>
+                </div>
+                <div id="cratemarketbtns">
+                    <a href="https://steamcommunity.com/market/listings/440/Winter%202025%20Cosmetic%20Case" target="_blank" rel="noopener" class="btn tooltiptop" data-tooltip="View on Steam Market" data-tooltipstring="197" id="cratesteammarketbtn"><i class="icon-steam"></i></a>
+                    <a href="https://backpack.tf/stats/Unique/Winter%202025%20Cosmetic%20Case/Tradable/Craftable/" target="_blank" rel="noopener" class="btn tooltiptop" data-tooltip="View on Backpack.tf" data-tooltipstring="198" id="cratebptfbtn"><i class="icon-backpacktf"></i></a>
+                    <a href="https://crate.tf/item/5976-6-c150?r=unboxer&utm_source=unboxer.tf" target="_blank" rel="noopener" class="btn tooltiptop" data-tooltip="View on Crate.tf" data-tooltipstring="199" id="cratecratetfbtn"><i class="icon-cratetf"></i></a>
                 </div>
                 <div class="btn navbtn" id="previouscratebtn">&lt;</div>
                 <div class="btn navbtn" id="nextcratebtn">&gt;</div>
