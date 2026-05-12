@@ -497,7 +497,6 @@ a.btn {
 
 #randomcratebtn {
     top: 18%;
-    display: none;
 }
 
 #cratewindow.gridactive #randomcratebtn {
@@ -2034,12 +2033,7 @@ div.visible {
             }
 
             #randomcratebtn {
-                top: initial;
-                bottom: 1%;
-                left: initial;
-                right: 1vh;
-                height: 5vh;
-                width: 8vh;
+                display: none;
             }
 
             #searchbtn {
