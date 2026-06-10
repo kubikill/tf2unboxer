@@ -709,16 +709,16 @@ cA[33].loot = [
     new Item({ id: 211, chance: 450, quality: 1 })
 ];
 cA[34].loot = [
-    new Item({ id: 212, chance: 1042, quality: 4 }),
-    new Item({ id: 213, chance: 522, quality: 4 }),
-    new Item({ id: 214, chance: 1042, quality: 4 }),
-    new Item({ id: 215, chance: 1042, quality: 4 }),
-    new Item({ id: 216, chance: 1042, quality: 4 }),
-    new Item({ id: 217, chance: 1042, quality: 4 }),
-    new Item({ id: 218, chance: 1042, quality: 4 }),
-    new Item({ id: 219, chance: 1042, quality: 4 }),
-    new Item({ id: 220, chance: 1042, quality: 4 }),
-    new Item({ id: 221, chance: 1042, quality: 4 })
+    new Item({ id: 212, chance: 1089, quality: 4 }),
+    new Item({ id: 213, chance: 99, quality: 2 }),
+    new Item({ id: 214, chance: 1089, quality: 4 }),
+    new Item({ id: 215, chance: 1089, quality: 4 }),
+    new Item({ id: 216, chance: 1089, quality: 4 }),
+    new Item({ id: 217, chance: 1089, quality: 4 }),
+    new Item({ id: 218, chance: 1089, quality: 4 }),
+    new Item({ id: 219, chance: 1089, quality: 4 }),
+    new Item({ id: 220, chance: 1089, quality: 4 }),
+    new Item({ id: 221, chance: 1089, quality: 4 })
 ];
 cA[35].loot = [
     new Item({ id: 222, chance: 1742, quality: 1 }),
@@ -1772,7 +1772,7 @@ cA[107].loot = [
     new Item({ id: 1039, quality: 4, grade: 3 }),
     new Item({ id: 1040, quality: 10, grade: 3 }),
     new Item({ id: 1041, quality: 4, grade: 3 }),
-    new Item({ id: 1042, quality: 10, grade: 4 }),
+    new Item({ id: 1042, quality: 4, grade: 4 }),
     new Item({ id: 1043, quality: 4, grade: 4 }),
     new Item({ id: 1044, quality: 10, grade: 4 }),
     new Item({ id: 1045, quality: 4, grade: 4 }),
