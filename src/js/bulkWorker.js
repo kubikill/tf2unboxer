@@ -45,6 +45,7 @@ import {
     sniperVsSpyUnusualsPool,
     hw24FX,
     summer25FX,
+    summer26FX,
     hw25FX,
     xmas25FX,
 } from "./crate.js";
@@ -391,6 +392,9 @@ function unbox() { // This function handles the unboxing itself: which item is u
                         break;
                     case "summer25":
                         effectsArray = summer25FX;
+                        break;
+                    case "summer26":
+                        effectsArray = summer26FX;
                         break;
                     case "hw24":
                         effectsArray = hw24FX;

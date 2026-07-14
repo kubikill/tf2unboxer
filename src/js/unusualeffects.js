@@ -4046,56 +4046,200 @@ export let dataEffects = {
     341: {
         img: "chromatic_blaze",
         eng: "Chromatic Blaze",
-        schema: 393
+        schema: 393,
+        pol: "chromatyczny płomień",
+        sch: "炫彩烈焰",
+        bra: "Chama cromática",
+        fre: "Flamme chromatique",
+        hun: "Kromatikus láng",
+        swe: "Kromatisk eld",
+        rus: "Хроматическое пламя"
     },
     342: {
         img: "frostfire",
         eng: "Frostfire",
-        schema: 394
+        schema: 394,
+        pol: "lodowy płomień",
+        sch: "霜冻之火",
+        bra: "Fogo frio",
+        fre: "Flamme boréale",
+        hun: "Fagytűz",
+        swe: "Frostflamma",
+        rus: "Ледяной огонь"
     },
     343: {
         img: "spectrum_inferno",
         eng: "Spectrum Inferno",
-        schema: 395
+        schema: 395,
+        pol: "piekielne spektrum",
+        sch: "光谱燃烧",
+        bra: "Inferno espectral",
+        fre: "Brasier prismatique",
+        hun: "Spektrális tűzvész",
+        swe: "Spektralinferno",
+        rus: "Спектральное пылание"
     },
     344: {
         img: "calm_snowfall",
         eng: "Calm Snowfall",
-        schema: 396
+        schema: 396,
+        pol: "prószący śnieg",
+        sch: "宁静飘雪",
+        bra: "Neve tranquila",
+        fre: "Neige calme",
+        hun: "Nyugodt hóesés",
+        swe: "Stilla snöfall",
+        rus: "Спокойный снегопад"
     },
     345: {
         img: "team_recognition",
         eng: "Team Recognition",
-        schema: 397
+        schema: 397,
+        pol: "przedstawienie drużyny",
+        sch: "团队认证",
+        bra: "Reconhecimento da equipe",
+        fre: "Marque d'équipe",
+        hun: "Csapatelismerés",
+        swe: "Laguppvisning",
+        rus: "Признание команды"
     },
     346: {
         img: "old_hire",
         eng: "Old Hire",
-        schema: 399
+        schema: 399,
+        pol: "stary wyjadacz",
+        sch: "资深老辈",
+        bra: "Contratado clássico",
+        fre: "Vieux de la vieille",
+        hun: "Öreg róka",
+        swe: "Gammalt kontrakt",
+        rus: "Бывалый наёмник"
     },
     347: {
         img: "analog_fortress",
         eng: "Analog Fortress",
-        schema: 401
+        schema: 401,
+        pol: "analogowa forteca",
+        sch: "模拟要塞",
+        bra: "Fortaleza analógica",
+        fre: "TF analogique",
+        swe: "Analog fästning",
+        rus: "Аналоговый логотип"
     },
     348: {
         img: "winter_whiteout",
         eng: "Winter Whiteout",
-        schema: 402
+        schema: 402,
+        pol: "zimowa biel",
+        sch: "冬日白昼",
+        bra: "Nevasca invernal",
+        fre: "Manteau de neige",
+        hun: "Téli fehérség",
+        swe: "Snöflingor",
+        rus: "Морозная мгла"
     },
     349: {
         img: "midnight_frostfall",
         eng: "Midnight Frostfall",
-        schema: 403
+        schema: 403,
+        pol: "północny przymrozek",
+        sch: "午夜霜华",
+        bra: "Geada da meia-noite",
+        fre: "Gelée de minuit",
+        hun: "Éjféli fagy",
+        swe: "Midnattsfrost",
+        rus: "Полуночный мороз"
     },
     350: {
         img: "twilight_snowfall",
         eng: "Twilight Snowfall",
-        schema: 404
+        schema: 404,
+        pol: "śnieżek o zmierzchu",
+        sch: "暮色落雪",
+        bra: "Neve do anoitecer",
+        fre: "Neige crépusculaire",
+        hun: "Alkonyi hóesés",
+        swe: "Skymningssnöfall",
+        rus: "Сумеречная метель"
     },
     351: {
         img: "cryogenic",
         eng: "Cryogenic",
-        schema: 405
+        schema: 405,
+        pol: "kriogenika",
+        sch: "低温冷冻",
+        bra: "Criogênico",
+        fre: "Cryogel",
+        hun: "Mélyhűtött",
+        swe: "Kryogen",
+        rus: "Криоген"
+    },
+    352: {
+        img: "umbral_lights",
+        eng: "Umbral Lights",
+        schema: 407,
+        sch: "本影夜光",
+        bra: "Luzes na escuridão",
+        hun: "Elmosódott fények",
+        swe: "Skuggljus",
+        rus: "Смутное сияние"
+    },
+    353: {
+        img: "polar_prism",
+        eng: "Polar Prism",
+        schema: 408,
+        sch: "北境极光",
+        bra: "Noites do norte",
+        hun: "Északi éjszakák",
+        swe: "Nordliga nätter",
+        rus: "Северное свечение",
+        cze: "Northern Nights",
+        rom: "Northern Nights"
+    },
+    354: {
+        img: "solar_singed",
+        eng: "Solar Singed",
+        schema: 409,
+        sch: "日光灼烧",
+        bra: "Queimadura solar",
+        hun: "Napperzselte",
+        swe: "Solsvedd",
+        rus: "Солнечное сверкание"
+    },
+    355: {
+        img: "floral_growth",
+        eng: "Floral Growth",
+        schema: 410,
+        sch: "花卉丛生",
+        hun: "Virágözön",
+        rus: "Цвет-расцвет"
+    },
+    356: {
+        img: "stellar_orbit",
+        eng: "Stellar Orbit",
+        schema: 412,
+        sch: "坠星轨道",
+        hun: "Csillagpálya",
+        rus: "Звёздная орбита"
+    },
+    357: {
+        img: "blissful_butterflies",
+        eng: "Blissful Butterflies",
+        schema: 413,
+        sch: "极乐飞蝶",
+        bra: "Borboletas bonitas",
+        hun: "Boldog pillangók",
+        swe: "Förnöjda fjärilar",
+        rus: "Блаженные бабочки"
+    },
+    358: {
+        img: "wispful_wings",
+        eng: "Wispful Wings",
+        schema: 415,
+        sch: "飘逸仙灵",
+        bra: "Asas espirituais",
+        hun: "Leheletfinom szárnyak",
+        swe: "Vindsvepta vingar",
+        rus: "Волшебные взмахи"
     }
 }

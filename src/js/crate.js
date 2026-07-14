@@ -153,10 +153,11 @@ const summer22FX = allGensFX.concat([205, 206, 207, 208, 209, 210, 211, 212, 213
 export const summer23FX = [252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263];
 export const summer24FX = [289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306];
 export const summer25FX = [327, 328, 329, 330, 331, 332, 333];
+export const summer26FX = [352, 353, 354, 355, 356, 357, 358];
 // Global bonus item list
 export const globalBonusItemArray = [24, 7, 74, 762, 763, "paint", "strangepart", 15, 767, 768, 769];
 // List of taunts used for unusualifiers
-export const unusualifierArray = [75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 149, 920, 973, 974, 1033, 1611, 1612, 1613, 1614, 1615, 1616, 1617, 1618, 1619, 1620, 1621, 1622, 1623, 1624, 1625, 1626, 1627, 1628, 1629, 1630, 1631, 1632, 1633, 1634, 1635, 1636, 1637, 1638, 1639, 1640, 1641, 1642, 1643, 1644, 1645, 1646, 1699, 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1763, 1764, 1765, 1766, 1767, 1788, 1789, 1790, 1854, 1855, 1856, 1857, 1858, 1882, 1883, 1884, 1920, 1921, 1922, 1923, 1924, 1925, 1955, 1956, 1957, 1958, 1982, 1983, 1984, 2008, 2009, 2010, 2011, 2034, 2035, 2036, 2037, 2073, 2074, 2075, 2099, 2100, 2101, 2102, 2130, 2131, 2132, 2156, 2157, 2158];
+export const unusualifierArray = [75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 149, 920, 973, 974, 1033, 1611, 1612, 1613, 1614, 1615, 1616, 1617, 1618, 1619, 1620, 1621, 1622, 1623, 1624, 1625, 1626, 1627, 1628, 1629, 1630, 1631, 1632, 1633, 1634, 1635, 1636, 1637, 1638, 1639, 1640, 1641, 1642, 1643, 1644, 1645, 1646, 1699, 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1763, 1764, 1765, 1766, 1767, 1788, 1789, 1790, 1854, 1855, 1856, 1857, 1858, 1882, 1883, 1884, 1920, 1921, 1922, 1923, 1924, 1925, 1955, 1956, 1957, 1958, 1982, 1983, 1984, 2008, 2009, 2010, 2011, 2034, 2035, 2036, 2037, 2073, 2074, 2075, 2099, 2100, 2101, 2102, 2130, 2131, 2132, 2156, 2157, 2158, 2193, 2194, 2195, 2196];
 // List of paints used for bonus items
 export const paintBonusArray = [8, 9, 16, 17, 37, 66, 105, 106, 107, 108, 109, 110, 112, 113, 114, 119, 125, 126, 127, 248, 249, 771, 820, 821, 822, 823, 824, 825, 826];
 // List of strange parts used for bonus items
@@ -207,6 +208,7 @@ halloweenModeCrateList.xmas24 = halloweenModeCrateList.hw24.concat([160]);
 halloweenModeCrateList.summer25 = halloweenModeCrateList.xmas24.concat([162]);
 halloweenModeCrateList.hw25 = halloweenModeCrateList.summer25.concat([163]);
 halloweenModeCrateList.xmas25 = halloweenModeCrateList.hw25.concat([164]);
+halloweenModeCrateList.summer26 = halloweenModeCrateList.xmas25.concat([165]);
 
 // Crate array
 export let cA = [
@@ -375,11 +377,12 @@ export let cA = [
     new Crate({ id: 105, series: 147, schema: 5968, effects: xmas24FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }),
     new Crate({ id: 106, series: 148, schema: 5970, effects: summer25FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true }),
     new Crate({ id: 107, series: 149, schema: 5971, effects: hw25FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [2126, 2127, 2128, 2129], chance: 5000 }}),
-    new Crate({ id: 108, series: 150, schema: 5976, effects: xmas25FX, note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }),
-
+    new Crate({ id: 108, series: 150, schema: 5976, effects: xmas25FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }), /* [165] */
+    new Crate({ id: 109, series: 151, schema: 5978, effects: summer26FX, note: 5, unusual: 2, autoChance: 1, bonus: true }), 
+    new Crate({ id: 110, series: 152, schema: 5980, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
 ];
 // This is the order the crates will show up in the menu
-export let crateOrder = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165];
+export let crateOrder = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167];
 // Define loot for each crate
 cA[0].loot = [
     new Item({ id: 1, quality: 1 }),
@@ -3276,4 +3279,42 @@ cA[165].loot = [ // winter 2025 cosmetic case
     new Item({ id: 2153, quality: 4, grade: 5 }),
     new Item({ id: 2154, quality: 4, grade: 5 }),
     new Item({ id: 2155, quality: 10, grade: 6 }),
+];
+cA[166].loot = [ // summer 2026 cosmetic case
+    new Item({ id: 2159, quality: 10, grade: 3 }),
+    new Item({ id: 2160, quality: 4, grade: 3 }),
+    new Item({ id: 2161, quality: 4, grade: 3 }),
+    new Item({ id: 2162, quality: 4, grade: 3 }),
+    new Item({ id: 2163, quality: 4, grade: 3 }),
+    new Item({ id: 2164, quality: 10, grade: 3 }),
+    new Item({ id: 2165, quality: 4, grade: 3 }),
+    new Item({ id: 2166, quality: 10, grade: 3 }),
+    new Item({ id: 2167, quality: 4, grade: 3 }),
+    new Item({ id: 2168, quality: 4, grade: 3 }),
+    new Item({ id: 2169, quality: 4, grade: 4 }),
+    new Item({ id: 2170, quality: 10, grade: 4 }),
+    new Item({ id: 2171, quality: 10, grade: 4 }),
+    new Item({ id: 2172, quality: 4, grade: 4 }),
+    new Item({ id: 2173, quality: 10, grade: 4 }),
+    new Item({ id: 2174, quality: 4, grade: 4 }),
+    new Item({ id: 2175, quality: 4, grade: 4 }),
+    new Item({ id: 2176, quality: 4, grade: 4 }),
+    new Item({ id: 2177, quality: 4, grade: 5 }),
+    new Item({ id: 2178, quality: 4, grade: 5 }),
+    new Item({ id: 2179, quality: 10, grade: 5 }),
+    new Item({ id: 2180, quality: 10, grade: 5 }),
+    new Item({ id: 2181, quality: 10, grade: 6 }),
+    new Item({ id: 2182, quality: 4, grade: 6 }),
+];
+cA[167].loot = [ // summer 2026 war paints
+    new Item({ id: 2183, quality: 6, grade: 3 }),
+    new Item({ id: 2184, quality: 6, grade: 3 }),
+    new Item({ id: 2185, quality: 6, grade: 3 }),
+    new Item({ id: 2186, quality: 6, grade: 3 }),
+    new Item({ id: 2187, quality: 6, grade: 4 }),
+    new Item({ id: 2188, quality: 6, grade: 4 }),
+    new Item({ id: 2189, quality: 6, grade: 4 }),
+    new Item({ id: 2190, quality: 6, grade: 5 }),
+    new Item({ id: 2191, quality: 6, grade: 5 }),
+    new Item({ id: 2192, quality: 6, grade: 6 }),
 ];

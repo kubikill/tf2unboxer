@@ -1233,6 +1233,30 @@ export let dataCrates = {
     },
     108: {
         img: "winter_2025_cosmetic_case",
-        eng: "Winter 2025 Cosmetic Case"
+        eng: "Winter 2025 Cosmetic Case",
+        pol: "Zimowy pojemnik ozdób 2025",
+        sch: "2025 冬季饰品箱",
+        bra: "Caixa de Cosméticos de Fim de Ano de 2025",
+        fre: "Caisse de cosmétiques d'hiver 2025",
+        hun: "Tél 2025 Díszítő Táska",
+        rom: "Cutie cu accesorii Winter 2025",
+        swe: "Vinter 2025-kosmetikväska",
+        rus: "Зимний кейс с аксессуарами 2025 года"
+    },
+    109: {
+        img: "summer_2026_cosmetic_case",
+        eng: "Summer 2026 Cosmetic Case",
+        sch: "2026 夏季饰品箱",
+        hun: "Nyár 2026 Díszítő Táska",
+        rom: "Cutie cu accesorii Summer 2026",
+        rus: "Летний кейс с аксессуарами 2026 года"
+    },
+    110: {
+        img: "summer_2026_war_paint_case",
+        eng: "Summer 2026 War Paint Case",
+        sch: "2026 夏季战绘箱",
+        hun: "Nyár 2026 Harci Festés Táska",
+        rom: "Cutie cu vopsea de război Summer 2026",
+        rus: "Летний кейс с боевой краской 2026 года"
     }
 }

@@ -141,7 +141,7 @@ export let dataItems = {
         fre: "L'Étranger",
         bra: "L'Etranger",
         schema: 224,
-        hun: "L'Etranger",
+        hun: "L'Étranger",
         swe: "Främlingen"
     },
     13: {
@@ -2601,7 +2601,7 @@ export let dataItems = {
         rus: "Праздничный гаечный ключ",
         pol: "Świąteczny klucz",
         sch: "节日扳手",
-        fre: "Clé festive",
+        fre: "Clé à molette festive",
         bra: "Chave Inglesa Festiva",
         schema: 662,
         hun: "Ünnepi Franciakulcs",
@@ -6438,7 +6438,7 @@ export let dataItems = {
         rus: "Малыш кривозуб",
         pol: "Mały Forfiter",
         sch: "小鳄鱼龅牙",
-        fre: "Le P'tit Snaggletooth",
+        fre: "Sacré dentier junior",
         bra: "Filhote Dente-Torto",
         schema: 30181,
         hun: "Kis Csorbafog",
@@ -7751,7 +7751,7 @@ export let dataItems = {
     649: {
         img: "accursed_apparition",
         eng: "Accursed Apparition",
-        rus: "Проклятое приведение",
+        rus: "Проклятое привидение",
         pol: "Wyklęte widmo",
         sch: "受诅咒的亡魂",
         fre: "L'Apparition maudite",
@@ -25607,131 +25607,620 @@ export let dataItems = {
     2133: {
         img: "sydney_shearling",
         eng: "Sydney Shearling",
-        schema: 31592
+        schema: 31592,
+        pol: "Sydnejski kożuch",
+        sch: "悉尼羊皮夹克",
+        bra: "Sobretudo de Sydney",
+        fre: "Peau lainée",
+        hun: "Sydney-i Báránybőr",
+        swe: "Fårskinn från Sydney",
+        rus: "Сиднейская овчинка"
     },
     2134: {
         img: "black_tie_affair",
         eng: "Black Tie Affair",
-        schema: 31597
+        schema: 31597,
+        pol: "Strój wieczorowy",
+        sch: "黑领结之约",
+        bra: "Traje Afiado",
+        fre: "Soirée de gala",
+        hun: "Szmokingos Esemény",
+        swe: "Finkostymen",
+        rus: "Галстук интригана"
     },
     2135: {
         img: "alpine_apparel",
         eng: "Alpine Apparel",
-        schema: 31583
+        schema: 31583,
+        pol: "Alpejska odzież",
+        sch: "高原防寒服",
+        bra: "Traje Alpino",
+        fre: "Accoutrement alpin",
+        hun: "Alpesi Öltözék",
+        swe: "Fjällkläder",
+        rus: "Альпийская аляска"
     },
     2136: {
         img: "scrub_stompers",
         eng: "Scrub Stompers",
-        schema: 31601
+        schema: 31601,
+        pol: "Hoże chodaki",
+        sch: "手术专用皮鞋",
+        bra: "Mocassim Medicinal",
+        fre: "Mocassins médicaux",
+        hun: "Tükörfényes Topogók",
+        swe: "Kirurgsko",
+        rus: "Докторские давители"
     },
     2137: {
         img: "epilogue_locks",
         eng: "Epilogue Locks",
-        schema: 31593
+        schema: 31593,
+        pol: "Wieńcząca czupryna",
+        sch: "尘埃落定",
+        bra: "Corte do Crescidinho",
+        fre: "Coupe de l'épilogue",
+        hun: "Epilógus Loknik",
+        swe: "Epilogens lockar",
+        rus: "Локоны из эпилога"
     },
     2138: {
         img: "deserters_duster",
         eng: "Deserter's Duster",
-        schema: 31588
+        schema: 31588,
+        pol: "Dyplomatka dezertera",
+        sch: "叛逃者的防尘外套",
+        bra: "Desertor do Deserto",
+        fre: "Cache-poussière du déserteur",
+        hun: "Futárkabát",
+        swe: "Desertörens dammrock",
+        rus: "Пыльник перебежчика"
     },
     2139: {
         img: "air_head",
         eng: "Air Head",
-        schema: 31591
+        schema: 31591,
+        pol: "Śmigacz",
+        sch: "天际梦游家",
+        bra: "Atirador das Alturas",
+        fre: "Casque d'aviateur",
+        hun: "Pilótasapka",
+        swe: "Luftkrukan",
+        rus: "Улётный шлем"
     },
     2140: {
         img: "punchers_polar_puffer",
         eng: "Puncher's Polar Puffer",
-        schema: 31585
+        schema: 31585,
+        pol: "Pikowany polar pięściarza",
+        sch: "拳击手的极地羽绒服",
+        bra: "Proteção Polar Peso-Pesado",
+        fre: "Parka pugnace",
+        hun: "Pufidzsekis Pofonosztó",
+        swe: "Polarens polarjacka",
+        rus: "Пуховик полярного потасовщика"
     },
     2141: {
         img: "lazer_gazers",
         eng: "Lazer Gazers",
-        schema: 31579
+        schema: 31579,
+        pol: "Laserowy wzrok",
+        sch: "目光如炬",
+        bra: "Lentes de Laser",
+        fre: "Lunettes laser",
+        hun: "Lézerszemüveg",
+        swe: "Laserbrillor",
+        rus: "Глазеры"
     },
     2142: {
         img: "snow_merc",
         eng: "Snow Merc",
-        schema: 31580
+        schema: 31580,
+        pol: "Śnieżny najemnik",
+        sch: "小雪人佣兵",
+        bra: "Mercenariozinho de Neve",
+        fre: "Merceneige",
+        hun: "Hózsoldos",
+        swe: "Snösoldat",
+        rus: "Снеговик-наёмник"
     },
     2143: {
         img: "aristocravat",
         eng: "Aristocravat",
-        schema: 31598
+        schema: 31598,
+        pol: "Arystokrawat",
+        sch: "贵族领巾",
+        bra: "Aristogravata",
+        fre: "Aristocravate",
+        hun: "Arisztokravátli",
+        swe: "Aristokravatt",
+        rus: "Аристокрават"
     },
     2144: {
         img: "alpine_hawk",
         eng: "Alpine Hawk",
-        schema: 31582
+        schema: 31582,
+        pol: "Alpejski jastrząb",
+        sch: "高山雄鹰",
+        bra: "Águia Alpina",
+        fre: "Faucon alpin",
+        hun: "Alpesi Sólyom",
+        swe: "Fjällhök",
+        rus: "Альпийский ястреб"
     },
     2145: {
         img: "flatline_flatcap",
         eng: "Flatline Flatcap",
-        schema: 31599
+        schema: 31599,
+        pol: "Pulsujący kaszkiet",
+        sch: "心跳停搏报童帽",
+        bra: "Chapéu do Cirurgião",
+        fre: "Casquette terminale",
+        hun: "Szívdöglesztő Sapka",
+        swe: "Hjärtstilleståndshatt",
+        rus: "Хулиганка хирурга"
     },
     2146: {
         img: "the_sole_providers",
         eng: "The Sole Providers",
-        schema: 31595
+        schema: 31595,
+        pol: "Żywiciele rodziny",
+        sch: "喜当爹",
+        bra: "As Pantalonas da Paternidade",
+        fre: "Pantalon de papa",
+        hun: "Talpalávalók",
+        swe: "Pappabyxor",
+        rus: "Штанцы кормильца"
     },
     2147: {
         img: "commonwealth_commander",
         eng: "Commonwealth Commander",
-        schema: 31586
+        schema: 31586,
+        pol: "Wódz wspólnoty",
+        sch: "联邦指挥官",
+        bra: "Comandante da Commonwealth",
+        fre: "Commandant du Commonwealth",
+        hun: "Köztársasági Parancsnok",
+        swe: "Statsbiträde",
+        rus: "Командир Содружества"
     },
     2148: {
         img: "festive_fleece",
         eng: "Festive Fleece",
-        schema: 31590
+        schema: 31590,
+        pol: "Świąteczny polar",
+        sch: "节庆羊毛外套",
+        bra: "Demo-lã-dor",
+        fre: "Polaire festive",
+        hun: "Ünnepi Irha",
+        swe: "Festlig fleece",
+        rus: "Праздничная флиска"
     },
     2149: {
         img: "chill_seeker",
         eng: "Chill-Seeker",
-        schema: 31584
+        schema: 31584,
+        pol: "Poszukiwacz dreszczyku",
+        sch: "风雪探险家",
+        bra: "Esquiberiano",
+        fre: "Tête-gelée",
+        hun: "Fagyfödő",
+        swe: "Snölust",
+        rus: "Любитель прохлаждаться"
     },
     2150: {
         img: "scrooge_mccrocket",
         eng: "Scrooge McCrocket",
-        schema: 31596
+        schema: 31596,
+        pol: "Sknerus McKrytyk",
+        sch: "吝啬鬼麦克老炮",
+        bra: "Soldado Sovina",
+        fre: "Pingre briscard",
+        rus: "Скрудж Макракета"
     },
     2151: {
         img: "blizzard_bonnet",
         eng: "Blizzard Bonnet",
-        schema: 31589
+        schema: 31589,
+        pol: "Wełniany wicher",
+        sch: "暴雪无檐圆帽",
+        bra: "Boina da Nevasca",
+        fre: "Bonnet de blizzard",
+        hun: "Hósipka",
+        swe: "Bitande basker",
+        rus: "Снегозащитный берет"
     },
     2152: {
         img: "cardiologists_cardigan",
         eng: "Cardiologist's Cardigan",
-        schema: 31600
+        schema: 31600,
+        pol: "Kardigan kardiologa",
+        sch: "心血管科专家的羊毛衫",
+        bra: "Cardigã do Cardiologista",
+        fre: "Cardigan de cardiologue",
+        hun: "Kardiológus Kardigán",
+        swe: "Kardiologens kofta",
+        rus: "Кардиган кардиолога"
     },
     2153: {
         img: "willis_warmer",
         eng: "Willis' Warmer",
-        schema: 31594
+        schema: 31594,
+        pol: "Ocieplacz Willisa",
+        sch: "威利的毛衣",
+        bra: "Suéter da Saudade",
+        fre: "Col roulé de Willis",
+        hun: "Willis Pulóvere",
+        swe: "Willis polotröja",
+        rus: "Утеплитель Уиллиса"
     },
     2154: {
         img: "veterans_visor",
         eng: "Veteran's Visor",
-        schema: 31587
+        schema: 31587,
+        pol: "Wizjer weterana",
+        sch: "老兵的面罩",
+        bra: "Visor do Veterano",
+        fre: "Visière du vétéran",
+        hun: "Veterán Álarc",
+        swe: "Veteranvisir",
+        rus: "Визор ветерана"
     },
     2155: {
         img: "the_old_days_devotion",
         eng: "The Old Days Devotion",
-        schema: 31581
+        schema: 31581,
+        pol: "Dewota dawnych czasów",
+        sch: "旧日虔诚",
+        bra: "A Devoção dos Velhos Tempos",
+        fre: "Dévotion du temps jadis",
+        hun: "Régi Idők Rajongója",
+        swe: "Gammaldags hängivenhet",
+        rus: "Преданность ушедшей эпохе"
     },
     2156: {
         img: "taunt_the_critical_fail",
         eng: "Taunt: The Critical Fail",
-        schema: 31577
+        schema: 31577,
+        pol: "Drwina: Totalna porażka",
+        sch: "嘲讽：丢人现眼",
+        bra: "Provocação: Fracasso Crítico",
+        fre: "Raillerie : La bourde",
+        hun: "Beszólás: Kritikus hiba",
+        swe: "Hån: Kritiskt fel",
+        rus: "Насмешка: Лютый стыд"
     },
     2157: {
         img: "taunt_dead_manns_drink",
         eng: "Taunt: Dead Mann's Drink",
-        schema: 31576
+        schema: 31576,
+        pol: "Drwina: Drink drętwiaka",
+        sch: "嘲讽：好酒上路",
+        bra: "Provocação: Uma pro Zepheniah",
+        fre: "Raillerie : Le verre du mort",
+        hun: "Beszólás: Halott Mannus itala",
+        swe: "Hån: Död manns dryck",
+        rus: "Насмешка: Пойло покойника"
     },
     2158: {
         img: "taunt_chairholder",
         eng: "Taunt: Chairholder",
-        schema: 31578
+        schema: 31578,
+        pol: "Drwina: Pieniężny przewodniczący",
+        sch: "嘲讽：纸醉金迷",
+        bra: "Provocação: Trono do Dono",
+        fre: "Raillerie : Fauteuil en biftons",
+        hun: "Beszólás: Kápékanapé",
+        swe: "Hån: Stolfräsare",
+        rus: "Насмешка: Финансовая сидушка"
+    },
+    2159: {
+        img: "bald_spotter",
+        eng: "Bald Spotter",
+        schema: 31628,
+        sch: "秃顶老医",
+        hun: "Kopasz Megfigyelő",
+        rus: "Ухо-горло-лыс"
+    },
+    2160: {
+        img: "unruly_ruler",
+        eng: "Unruly Ruler",
+        schema: 31627,
+        sch: "桀骜君主",
+        hun: "Neveletlen Nagyvezér",
+        rus: "Неуправляемый правитель"
+    },
+    2161: {
+        img: "inglorious_patriot",
+        eng: "Inglorious Patriot",
+        schema: 31625,
+        sch: "无耻爱国者",
+        hun: "Becstelen Hazafi",
+        rus: "Бесславный патриот"
+    },
+    2162: {
+        img: "the_night_riders",
+        eng: "The Night Riders",
+        schema: 31621,
+        sch: "午夜骑手",
+        hun: "Éjszakai Lovas",
+        rus: "Ночной наездник"
+    },
+    2163: {
+        img: "the_long_shot",
+        eng: "The Long Shot",
+        schema: 31620,
+        sch: "孤注一掷",
+        hun: "Távoli Lövés",
+        rus: "Азартный стрелок"
+    },
+    2164: {
+        img: "the_deadliest_match",
+        eng: "The Deadliest Match",
+        schema: 31617,
+        sch: "夺命火柴",
+        hun: "Halálos Gyufás",
+        rus: "Кратчайший запал"
+    },
+    2165: {
+        img: "tropical_torcher",
+        eng: "Tropical Torcher",
+        schema: 31615,
+        sch: "热带火炬手",
+        hun: "Trópusi Tűzgyújtó",
+        rus: "Курортный костровой"
+    },
+    2166: {
+        img: "the_unknown_warrior",
+        eng: "The Unknown Warrior",
+        schema: 31614,
+        sch: "无名战士",
+        hun: "Ismeretlen Harcos",
+        rus: "Безликий боец"
+    },
+    2167: {
+        img: "barbeque_bacon_britches",
+        eng: "Barbeque Bacon Britches",
+        schema: 31613,
+        sch: "碳烤培根马裤",
+        hun: "Barbeque Bacon Bricsesz",
+        rus: "Бургерные брюки"
+    },
+    2168: {
+        img: "vested_investors_vest",
+        eng: "Vested Investor's Vest",
+        schema: 31610,
+        sch: "投资者的马甲",
+        hun: "A Beöltözött Befektető Mellénye",
+        rus: "Ангажированный акционер"
+    },
+    2169: {
+        img: "surgical_shroud",
+        eng: "Surgical Shroud",
+        schema: 31629,
+        sch: "外科蒙面领",
+        hun: "Sebészi Lepel",
+        rus: "Халат хирурга"
+    },
+    2170: {
+        img: "delusions_of_grandeur",
+        eng: "Delusions of Grandeur",
+        schema: 31626,
+        sch: "妄自尊大",
+        hun: "Nagyzási Hóbort",
+        rus: "Мегаломанн"
+    },
+    2171: {
+        img: "lieutenants_cut",
+        eng: "Lieutenant's Cut",
+        schema: 31624,
+        sch: "中尉的雪茄",
+        hun: "Hadnagyhajzat",
+        rus: "Лик лейтенанта"
+    },
+    2172: {
+        img: "atomic_bomber",
+        eng: "Atomic Bomber",
+        schema: 31622,
+        sch: "原子能夹克",
+        hun: "Atombombázó",
+        rus: "Атомный бомбер"
+    },
+    2173: {
+        img: "the_handsome_ranger",
+        eng: "The Handsome Ranger",
+        schema: 31619,
+        sch: "潇洒巡警",
+        hun: "Jóképű Lövész",
+        rus: "Красавчик в законе"
+    },
+    2174: {
+        img: "bomb_blanket",
+        eng: "Bomb Blanket",
+        schema: 31618,
+        sch: "火药披肩",
+        hun: "Bombatakaró",
+        rus: "Подрывной покров"
+    },
+    2175: {
+        img: "tzar_athlete",
+        eng: "Tzar Athlete",
+        schema: 31612,
+        sch: "沙皇运动员",
+        hun: "Cár-atléta",
+        rus: "Царь-атлет"
+    },
+    2176: {
+        img: "standing_offer",
+        eng: "Standing Offer",
+        schema: 31611,
+        sch: "长期报价裤",
+        hun: "Fennálló Ajánlat",
+        rus: "Портки предпринимателя"
+    },
+    2177: {
+        img: "deadwave_communicator",
+        eng: "Deadwave Communicator",
+        schema: 31607,
+        sch: "死波通讯器",
+        hun: "Halotthullám-vevő",
+        rus: "Передатчик мёртвых частот"
+    },
+    2178: {
+        img: "bonk_atomic_kicks",
+        eng: "Bonk! Atomic Kicks",
+        schema: 31623,
+        sch: "原子能潮牌鞋",
+        hun: "Poff! Atomcsuka",
+        rus: "Бонк! Атомный башмак"
+    },
+    2179: {
+        img: "chief_executor",
+        eng: "Chief Executor",
+        schema: 31609,
+        sch: "首席执行官",
+        hun: "Fővégrehajtó",
+        rus: "Генеральный исполнитель"
+    },
+    2180: {
+        img: "beachcombers_brim",
+        eng: "Beachcomber's Brim",
+        schema: 31608,
+        sch: "赶海人的草帽",
+        bra: "Palha do Praiano",
+        hun: "Strandgyűjtögető-kalap",
+        swe: "Stråhatt",
+        rus: "Брыль бездельника"
+    },
+    2181: {
+        img: "hard_hearing",
+        eng: "Hard Hearing",
+        schema: 31606,
+        sch: "降噪监听器",
+        hun: "Nagyothalló",
+        swe: "Nedsatt hörsel",
+        rus: "Слухоподавители"
+    },
+    2182: {
+        img: "pyros_overalls",
+        eng: "Pyro's Overalls",
+        schema: 31616,
+        sch: "火焰兵的工装裤",
+        bra: "Macacão do Incendiário",
+        hun: "Piró Kezeslábasa",
+        swe: "Pyros hängselbyxor",
+        rus: "Комбинезончик крематора"
+    },
+    2183: {
+        img: "beachy_boy_war_paint",
+        eng: "Beachy Boy War Paint",
+        schema: 17434,
+        hun: "Tengerparti Srác Harci festés",
+        swe: "Strandpojken Krigsfärg",
+        rus: "\"Пляжный паренёк\" Боевая краска"
+    },
+    2184: {
+        img: "sideshow_war_paint",
+        eng: "Sideshow War Paint",
+        schema: 17440,
+        bra: "Atração Secundária Tinta de Guerra",
+        fre: "Fête foraine Peinture de guerre",
+        hun: "Oldalsávos Harci festés",
+        swe: "Sideshow Krigsfärg",
+        rus: "\"Сайдшоу\" Боевая краска"
+    },
+    2185: {
+        img: "ocean_mapped_war_paint",
+        eng: "Ocean Mapped War Paint",
+        schema: 17437,
+        hun: "Óceántérképes Harci festés",
+        rus: "\"Подводная картография\" Боевая краска"
+    },
+    2186: {
+        img: "army_guns_war_paint",
+        eng: "Army Guns War Paint",
+        schema: 17435,
+        hun: "Katonai Fegyverek Harci festés",
+        rus: "\"Армейские пушки\" Боевая краска"
+    },
+    2187: {
+        img: "die_n_dasher_war_paint",
+        eng: "Die'n Dasher War Paint",
+        schema: 17442,
+        hun: "Bisztrókockás Harci festés",
+        rus: "\"Убил да ушёл\" Боевая краска"
+    },
+    2188: {
+        img: "krak_coated_war_paint",
+        eng: "Krak-coated War Paint",
+        schema: 17438,
+        hun: "Krakenborítású Harci festés",
+        rus: "\"Объятия Кракена\" Боевая краска"
+    },
+    2189: {
+        img: "sandwich_diner_war_paint",
+        eng: "Sandwich Diner War Paint",
+        schema: 17433,
+        bra: "Sanduicheria Tinta de Guerra",
+        fre: "Sandwich Diner Peinture de guerre",
+        hun: "Szendvicsbisztró Harci festés",
+        swe: "Sandwich Diner Krigsfärg",
+        rus: "\"Закусочная\" Боевая краска"
+    },
+    2190: {
+        img: "taxi_cabbed_war_paint",
+        eng: "Taxi Cabbed War Paint",
+        schema: 17436,
+        hun: "Taxikockás Harci festés",
+        rus: "\"Подтаксовка\" Боевая краска"
+    },
+    2191: {
+        img: "storage_war_war_paint",
+        eng: "Storage War War Paint",
+        schema: 17441,
+        hun: "Raktárháború Harci festés",
+        rus: "\"Складские склоки\" Боевая краска"
+    },
+    2192: {
+        img: "team_union_war_paint",
+        eng: "Team Union War Paint",
+        schema: 17439,
+        bra: "União da Equipe Tinta de Guerra",
+        fre: "Équipe unie Peinture de guerre",
+        hun: "Csapategység Harci festés",
+        swe: "Team Union Krigsfärg",
+        rus: "\"Единство команды\" Боевая краска"
+    },
+    2193: {
+        img: "taunt_buffoons_bivouac",
+        eng: "Taunt: Buffoon's Bivouac",
+        schema: 31603,
+        sch: "嘲讽：缺心眼的露营地",
+        hun: "Beszólás: A tökkelütött táborhelye",
+        rus: "Насмешка: Бивак болвана"
+    },
+    2194: {
+        img: "taunt_friendly_fire",
+        eng: "Taunt: Friendly Fire",
+        schema: 31605,
+        sch: "嘲讽：友军勿烧",
+        hun: "Beszólás: Baráti tűz",
+        rus: "Насмешка: Дружественный огонь"
+    },
+    2195: {
+        img: "taunt_the_circuit_breaker",
+        eng: "Taunt: The Circuit Breaker",
+        schema: 31602,
+        sch: "嘲讽：强行拉闸",
+        hun: "Beszólás: Az áramkör-megszakító",
+        rus: "Насмешка: Выключатель"
+    },
+    2196: {
+        img: "taunt_faux_calization",
+        eng: "Taunt: Faux-calization",
+        schema: 31604,
+        sch: "嘲讽：装腔作势",
+        hun: "Beszólás: Álbeszéd",
+        rus: "Насмешка: Ложный лепет"
     }
 }

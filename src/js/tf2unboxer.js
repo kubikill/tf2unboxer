@@ -39,6 +39,7 @@ import {
     summer24FX,
     hw24FX,
     summer25FX,
+    summer26FX,
     hw25FX,
     xmas25FX,
 } from "./crate.js";
@@ -955,15 +956,15 @@ function generateCrateDetails(crate, el, saveObj, bonus) {
                     let itemTotal = saveItem.FN + saveItem.MW + saveItem.FT + saveItem.WW + saveItem.BS;
                     if (item.quality === 6) {
                         strangeList = `<div class="cratedetailsqualitylist">
-                        <p class="colorstrange">${getString("ui", 80)}:</p>
+                        <p class="colorstrange" data-quality="FN">${getString("ui", 80)}:</p>
                         <p>${saveObject.crates[crate][index].FNq}</p>
-                        <p class="colorstrange">${getString("ui", 81)}:</p>
+                        <p class="colorstrange" data-quality="MW">${getString("ui", 81)}:</p>
                         <p>${saveObject.crates[crate][index].MWq}</p>
-                        <p class="colorstrange">${getString("ui", 82)}:</p>
+                        <p class="colorstrange" data-quality="FT">${getString("ui", 82)}:</p>
                         <p>${saveObject.crates[crate][index].FTq}</p>
-                        <p class="colorstrange">${getString("ui", 83)}:</p>
+                        <p class="colorstrange" data-quality="WW">${getString("ui", 83)}:</p>
                         <p>${saveObject.crates[crate][index].WWq}</p>
-                        <p class="colorstrange">${getString("ui", 84)}:</p>
+                        <p class="colorstrange" data-quality="BS">${getString("ui", 84)}:</p>
                         <p>${saveObject.crates[crate][index].BSq}</p>
                         </div>`;
                         itemTotal += saveItem.FNq + saveItem.MWq + saveItem.FTq + saveItem.WWq + saveItem.BSq;
@@ -973,15 +974,15 @@ function generateCrateDetails(crate, el, saveObj, bonus) {
                     <div>
                     <img class="cratedetailsitemimg" src="./images/item/skins/BS${getImg("item", item.id)}" loading="lazy">
                         <div class="cratedetailsqualitylist">
-                            <p class="colorunique">${getString("ui", 80)}:</p>
+                            <p class="colorunique" data-quality="FN">${getString("ui", 80)}:</p>
                             <p>${saveObject.crates[crate][index].FN}</p>
-                            <p class="colorunique">${getString("ui", 81)}:</p>
+                            <p class="colorunique" data-quality="MW">${getString("ui", 81)}:</p>
                             <p>${saveObject.crates[crate][index].MW}</p>
-                            <p class="colorunique">${getString("ui", 82)}:</p>
+                            <p class="colorunique" data-quality="FT">${getString("ui", 82)}:</p>
                             <p>${saveObject.crates[crate][index].FT}</p>
-                            <p class="colorunique">${getString("ui", 83)}:</p>
+                            <p class="colorunique" data-quality="WW">${getString("ui", 83)}:</p>
                             <p>${saveObject.crates[crate][index].WW}</p>
-                            <p class="colorunique">${getString("ui", 84)}:</p>
+                            <p class="colorunique" data-quality="BS">${getString("ui", 84)}:</p>
                             <p>${saveObject.crates[crate][index].BS}</p>
                         </div>
                         ${strangeList}
@@ -1227,6 +1228,14 @@ function generateCrateDetails(crate, el, saveObj, bonus) {
     htmlEl.content.removeAttribute("class");
     htmlEl.content.classList.add(gridClass);
     htmlEl.content.innerHTML = tempHTML;
+
+    htmlEl.content.querySelectorAll("[data-quality]").forEach(item => {
+        const itemImage = item.parentElement.parentElement.querySelector(".cratedetailsitemimg");
+        const originalSrc = itemImage.src;
+        item.addEventListener("pointerenter", function () {
+            itemImage.src = `./images/item/skins/${item.dataset.quality}${originalSrc.substring(originalSrc.lastIndexOf("/BS") + 3)}`;
+        });
+    });
 }
 
 // Keyboard events
@@ -1643,6 +1652,9 @@ function generateEffectList() {
             case "summer25":
                 effectsArray = summer25FX;
                 break;
+            case "summer26":
+                effectsArray = summer26FX;
+                break;
 
         }
     } else {
@@ -1765,7 +1777,10 @@ function generateBackpackTfUrl(arg) {
                 break;
         }
     }
-    bpItemName = bpItemName.replace("War Paint", "| War Paint");
+    
+    if (!arg.crate) {
+        bpItemName = bpItemName.replace("War Paint", "| War Paint");
+    }
 
     let bpQuality = "";
 
@@ -2295,6 +2310,9 @@ function unbox() { // This function handles the unboxing itself: which item is u
                     break;
                 case "summer25":
                     effectsArray = summer25FX;
+                    break;
+                case "summer26":
+                    effectsArray = summer26FX;
                     break;
             }
         } else {

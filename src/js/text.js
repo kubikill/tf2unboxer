@@ -2732,4 +2732,9 @@ rus: '<span class="colormercenary">Наемника</span> предметов о
 		swe: "Se på Crate.tf",
 		fil: "Itingna sa Crate.tf"
     },
+    228: {
+        eng: "Summer 2026",
+        rus: "Лето 2026",
+        pol: "Lato 2026"
+    },
 }
