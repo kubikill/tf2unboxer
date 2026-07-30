@@ -2334,7 +2334,7 @@ cA[131].loot = [
     new Item({ id: 354, quality: 4 }),
     new Item({ id: 342, quality: 10 })
 ];
-cA[132].loot = [
+cA[132].loot = [ // Demoman
     new Item({ id: 1471, quality: 4 }),
     new Item({ id: 1472, quality: 4 }),
     new Item({ id: 792, quality: 10 }),
@@ -2380,7 +2380,7 @@ cA[132].loot = [
     new Item({ id: 464, quality: 10 }),
     new Item({ id: 413, quality: 10 }),
     //Row6
-    new Item({ id: 724, quality: 10 }),
+    new Item({ id: 724, quality: 4 }),
     new Item({ id: 492, quality: 10 }),
     new Item({ id: 712, quality: 10 }),
     new Item({ id: 281, quality: 10 }),
