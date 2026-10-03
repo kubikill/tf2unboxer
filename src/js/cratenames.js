@@ -1249,7 +1249,11 @@ export let dataCrates = {
         sch: "2026 夏季饰品箱",
         hun: "Nyár 2026 Díszítő Táska",
         rom: "Cutie cu accesorii Summer 2026",
-        rus: "Летний кейс с аксессуарами 2026 года"
+        rus: "Летний кейс с аксессуарами 2026 года",
+        pol: "Letni pojemnik ozdób 2026",
+        bra: "Caixa de Cosméticos das Férias de 2026",
+        fre: "Caisse de cosmétiques d'été 2026",
+        swe: "Sommar 2026-kosmetikväska"
     },
     110: {
         img: "summer_2026_war_paint_case",
@@ -1257,6 +1261,14 @@ export let dataCrates = {
         sch: "2026 夏季战绘箱",
         hun: "Nyár 2026 Harci Festés Táska",
         rom: "Cutie cu vopsea de război Summer 2026",
-        rus: "Летний кейс с боевой краской 2026 года"
+        rus: "Летний кейс с боевой краской 2026 года",
+        pol: "Letni pojemnik barw wojennych 2026",
+        bra: "Caixa de Tintas de Guerra das Férias de 2026",
+        fre: "Caisse de peintures d'été 2026",
+        swe: "Sommar 2026-krigsfärgväska"
+    },
+    111: {
+        img: "haunted_hoard_case",
+        eng: "Haunted Hoard Case"
     }
 }

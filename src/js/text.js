@@ -2737,4 +2737,11 @@ rus: '<span class="colormercenary">Наемника</span> предметов о
         rus: "Лето 2026",
         pol: "Lato 2026"
     },
+    229: {
+        eng: "Scream Fortress XVIII (2026)",
+        rus: "Вииизг Фортресс XVIII (2026)",
+        sch: "尖叫要塞 XVIII（2026）",
+        rom: "Fortareata Urlatoare XVIII (2026)",
+		swe: "Skrik Fortress XVIII (2026)"
+    },
 }

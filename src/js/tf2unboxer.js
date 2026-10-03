@@ -1622,6 +1622,9 @@ function generateEffectList() {
             case "hw25":
                 effectsArray = hw25FX;
                 break;
+            case "hw26":
+                effectsArray = hw26FX;
+                break;
             case "xmas19":
                 effectsArray = xmas19FX;
                 break;
@@ -2280,6 +2283,9 @@ function unbox() { // This function handles the unboxing itself: which item is u
                     break;
                 case "hw25":
                     effectsArray = hw25FX;
+                    break;
+                case "hw26":
+                    effectsArray = hw26FX;
                     break;
                 case "xmas19":
                     effectsArray = xmas19FX;

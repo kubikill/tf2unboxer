@@ -40,6 +40,13 @@
     "staticOutPath": "images"
   },
   "dependencies": {
-    "@sentry/browser": "^9.42.0"
+    "@sentry/browser": "^11.4.0"
+  },
+  "allowScripts": {
+    "@parcel/watcher@2.6.0": true,
+    "lmdb@2.7.11": true,
+    "lmdb@2.8.5": true,
+    "@swc/core@1.16.13": true,
+    "msgpackr-extract@3.0.4": true
   }
 }

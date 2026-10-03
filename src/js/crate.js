@@ -134,6 +134,7 @@ export const hw22FX = [233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 24
 export const hw23FX = [264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276];
 export const hw24FX = [307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318];
 export const hw25FX = [334, 335, 336, 337, 338, 339, 340];
+export const hw26FX = [359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369];
 const tauntFX = [15, 16, 17, 18, 19, 20, 21, 22, 23];
 const oldWeaponFX = [24, 25, 26, 27];
 const weaponFX = [24, 25, 26];
@@ -157,7 +158,7 @@ export const summer26FX = [352, 353, 354, 355, 356, 357, 358];
 // Global bonus item list
 export const globalBonusItemArray = [24, 7, 74, 762, 763, "paint", "strangepart", 15, 767, 768, 769];
 // List of taunts used for unusualifiers
-export const unusualifierArray = [75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 149, 920, 973, 974, 1033, 1611, 1612, 1613, 1614, 1615, 1616, 1617, 1618, 1619, 1620, 1621, 1622, 1623, 1624, 1625, 1626, 1627, 1628, 1629, 1630, 1631, 1632, 1633, 1634, 1635, 1636, 1637, 1638, 1639, 1640, 1641, 1642, 1643, 1644, 1645, 1646, 1699, 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1763, 1764, 1765, 1766, 1767, 1788, 1789, 1790, 1854, 1855, 1856, 1857, 1858, 1882, 1883, 1884, 1920, 1921, 1922, 1923, 1924, 1925, 1955, 1956, 1957, 1958, 1982, 1983, 1984, 2008, 2009, 2010, 2011, 2034, 2035, 2036, 2037, 2073, 2074, 2075, 2099, 2100, 2101, 2102, 2130, 2131, 2132, 2156, 2157, 2158, 2193, 2194, 2195, 2196];
+export const unusualifierArray = [75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 149, 920, 973, 974, 1033, 1611, 1612, 1613, 1614, 1615, 1616, 1617, 1618, 1619, 1620, 1621, 1622, 1623, 1624, 1625, 1626, 1627, 1628, 1629, 1630, 1631, 1632, 1633, 1634, 1635, 1636, 1637, 1638, 1639, 1640, 1641, 1642, 1643, 1644, 1645, 1646, 1699, 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1763, 1764, 1765, 1766, 1767, 1788, 1789, 1790, 1854, 1855, 1856, 1857, 1858, 1882, 1883, 1884, 1920, 1921, 1922, 1923, 1924, 1925, 1955, 1956, 1957, 1958, 1982, 1983, 1984, 2008, 2009, 2010, 2011, 2034, 2035, 2036, 2037, 2073, 2074, 2075, 2099, 2100, 2101, 2102, 2130, 2131, 2132, 2156, 2157, 2158, 2193, 2194, 2195, 2196, 2220, 2221, 2222, 2223, 2224];
 // List of paints used for bonus items
 export const paintBonusArray = [8, 9, 16, 17, 37, 66, 105, 106, 107, 108, 109, 110, 112, 113, 114, 119, 125, 126, 127, 248, 249, 771, 820, 821, 822, 823, 824, 825, 826];
 // List of strange parts used for bonus items
@@ -209,6 +210,7 @@ halloweenModeCrateList.summer25 = halloweenModeCrateList.xmas24.concat([162]);
 halloweenModeCrateList.hw25 = halloweenModeCrateList.summer25.concat([163]);
 halloweenModeCrateList.xmas25 = halloweenModeCrateList.hw25.concat([164]);
 halloweenModeCrateList.summer26 = halloweenModeCrateList.xmas25.concat([165]);
+halloweenModeCrateList.hw26 = halloweenModeCrateList.summer26.concat([166]);
 
 // Crate array
 export let cA = [
@@ -378,11 +380,12 @@ export let cA = [
     new Crate({ id: 106, series: 148, schema: 5970, effects: summer25FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true }),
     new Crate({ id: 107, series: 149, schema: 5971, effects: hw25FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [2126, 2127, 2128, 2129], chance: 5000 }}),
     new Crate({ id: 108, series: 150, schema: 5976, effects: xmas25FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true, exclusiveBonus: { loot: [972], chance: 4000 }, oneExclusiveBonus: true }), /* [165] */
-    new Crate({ id: 109, series: 151, schema: 5978, effects: summer26FX, note: 5, unusual: 2, autoChance: 1, bonus: true }), 
+    new Crate({ id: 109, series: 151, schema: 5978, effects: summer26FX.concat(allGensFX), note: 5, unusual: 2, autoChance: 1, bonus: true }), 
     new Crate({ id: 110, series: 152, schema: 5980, effects: weaponFX, note: 5, unusual: 2, autoChance: 1, bonus: true }),
+    new Crate({ id: 111, series: 153, schema: 5981, effects: hw26FX, note: 5, unusual: 2, autoChance: 1, bonus: true}),
 ];
 // This is the order the crates will show up in the menu
-export let crateOrder = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167];
+export let crateOrder = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168];
 // Define loot for each crate
 cA[0].loot = [
     new Item({ id: 1, quality: 1 }),
@@ -3317,4 +3320,29 @@ cA[167].loot = [ // summer 2026 war paints
     new Item({ id: 2190, quality: 6, grade: 5 }),
     new Item({ id: 2191, quality: 6, grade: 5 }),
     new Item({ id: 2192, quality: 6, grade: 6 }),
+];
+cA[168].loot = [ // halloween 2026 cosmetic case
+    new Item({ id: 2197, quality: 4, grade: 3 }),
+    new Item({ id: 2198, quality: 10, grade: 3 }),
+    new Item({ id: 2199, quality: 4, grade: 3 }),
+    new Item({ id: 2200, quality: 4, grade: 3 }),
+    new Item({ id: 2201, quality: 10, grade: 3 }),
+    new Item({ id: 2202, quality: 4, grade: 3 }),
+    new Item({ id: 2203, quality: 4, grade: 3 }),
+    new Item({ id: 2204, quality: 4, grade: 3 }),
+    new Item({ id: 2205, quality: 10, grade: 3 }),
+    new Item({ id: 2206, quality: 4, grade: 3 }),
+    new Item({ id: 2207, quality: 4, grade: 4 }),
+    new Item({ id: 2208, quality: 4, grade: 4 }),
+    new Item({ id: 2209, quality: 10, grade: 4 }),
+    new Item({ id: 2210, quality: 4, grade: 4 }),
+    new Item({ id: 2211, quality: 4, grade: 4 }),
+    new Item({ id: 2212, quality: 4, grade: 4 }),
+    new Item({ id: 2213, quality: 4, grade: 4 }),
+    new Item({ id: 2214, quality: 10, grade: 4 }),
+    new Item({ id: 2215, quality: 10, grade: 5 }),
+    new Item({ id: 2216, quality: 4, grade: 5 }),
+    new Item({ id: 2217, quality: 4, grade: 5 }),
+    new Item({ id: 2218, quality: 10, grade: 5 }),
+    new Item({ id: 2219, quality: 10, grade: 6 }),
 ];

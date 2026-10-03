@@ -139,7 +139,7 @@ export let dataItems = {
         pol: "L'Étranger",
         sch: "陌生人",
         fre: "L'Étranger",
-        bra: "L'Etranger",
+        bra: "L'Étranger",
         schema: 224,
         hun: "L'Étranger",
         swe: "Främlingen"
@@ -1777,7 +1777,7 @@ export let dataItems = {
         schema: 463,
         pol: "Drwina: Schadenfreude",
         sch: "嘲讽：幸灾乐祸",
-        fre: "Raillerie : La Schadenfreude",
+        fre: "Raillerie : Le Plaisir Sadique",
         bra: "Provocação: A Schadenfreude",
         hun: "Beszólás: A káröröm",
         swe: "Hån: Skadeglädjen"
@@ -7478,7 +7478,7 @@ export let dataItems = {
         rus: "Другое мнение",
         pol: "Druga opinia",
         sch: "第二诊断意见",
-        fre: "Second diagnostic",
+        fre: "Deuxième avis",
         bra: "Segunda Opinião",
         schema: 30197,
         hun: "Másodvélemény",
@@ -25920,7 +25920,11 @@ export let dataItems = {
         schema: 31628,
         sch: "秃顶老医",
         hun: "Kopasz Megfigyelő",
-        rus: "Ухо-горло-лыс"
+        rus: "Ухо-горло-лыс",
+        pol: "Łysy obserwator",
+        bra: "Careca do Cirurgião",
+        fre: "Observateur dégarni",
+        swe: "Pannspegel"
     },
     2160: {
         img: "unruly_ruler",
@@ -25928,7 +25932,11 @@ export let dataItems = {
         schema: 31627,
         sch: "桀骜君主",
         hun: "Neveletlen Nagyvezér",
-        rus: "Неуправляемый правитель"
+        rus: "Неуправляемый правитель",
+        pol: "Irytujący imperator",
+        bra: "Imperador Impostor",
+        fre: "Consul cabochard",
+        swe: "Ostyrig styresman"
     },
     2161: {
         img: "inglorious_patriot",
@@ -25936,7 +25944,11 @@ export let dataItems = {
         schema: 31625,
         sch: "无耻爱国者",
         hun: "Becstelen Hazafi",
-        rus: "Бесславный патриот"
+        rus: "Бесславный патриот",
+        pol: "Przeokropny patriota",
+        bra: "Patriota Inglório",
+        fre: "Patriote sans honneur",
+        swe: "Lömsk landsman"
     },
     2162: {
         img: "the_night_riders",
@@ -25944,7 +25956,11 @@ export let dataItems = {
         schema: 31621,
         sch: "午夜骑手",
         hun: "Éjszakai Lovas",
-        rus: "Ночной наездник"
+        rus: "Ночной наездник",
+        pol: "Nocny jeździec",
+        bra: "Cavaleiros da Noite",
+        fre: "Cavaliers de la nuit",
+        swe: "Nattryttare"
     },
     2163: {
         img: "the_long_shot",
@@ -25952,7 +25968,11 @@ export let dataItems = {
         schema: 31620,
         sch: "孤注一掷",
         hun: "Távoli Lövés",
-        rus: "Азартный стрелок"
+        rus: "Азартный стрелок",
+        pol: "Strzelny spekulant",
+        bra: "O Faroeste do Extremo Leste",
+        fre: "Veste d'élite",
+        swe: "Långskott"
     },
     2164: {
         img: "the_deadliest_match",
@@ -25960,7 +25980,11 @@ export let dataItems = {
         schema: 31617,
         sch: "夺命火柴",
         hun: "Halálos Gyufás",
-        rus: "Кратчайший запал"
+        rus: "Кратчайший запал",
+        pol: "Zapałki zagłady",
+        bra: "Os Fósforos do Faroeste",
+        fre: "Craquage d'allumettes",
+        swe: "Hetlevrad huligan"
     },
     2165: {
         img: "tropical_torcher",
@@ -25968,7 +25992,11 @@ export let dataItems = {
         schema: 31615,
         sch: "热带火炬手",
         hun: "Trópusi Tűzgyújtó",
-        rus: "Курортный костровой"
+        rus: "Курортный костровой",
+        pol: "Podzwrotnikowe przyodzienie",
+        bra: "Calor dos Trópicos",
+        fre: "Flamme des Tropiques",
+        swe: "Strandsvedd"
     },
     2166: {
         img: "the_unknown_warrior",
@@ -25976,7 +26004,11 @@ export let dataItems = {
         schema: 31614,
         sch: "无名战士",
         hun: "Ismeretlen Harcos",
-        rus: "Безликий боец"
+        rus: "Безликий боец",
+        pol: "Nieznany żołnierz",
+        bra: "O Guerreiro Desconhecido",
+        fre: "Soldat Inconnu",
+        swe: "Okänd krigare"
     },
     2167: {
         img: "barbeque_bacon_britches",
@@ -25984,7 +26016,11 @@ export let dataItems = {
         schema: 31613,
         sch: "碳烤培根马裤",
         hun: "Barbeque Bacon Bricsesz",
-        rus: "Бургерные брюки"
+        rus: "Бургерные брюки",
+        pol: "Bekonowe bryczesy",
+        bra: "Calças para Churrasco",
+        fre: "Pantalon graisseux",
+        swe: "Grillbyxor"
     },
     2168: {
         img: "vested_investors_vest",
@@ -25992,7 +26028,11 @@ export let dataItems = {
         schema: 31610,
         sch: "投资者的马甲",
         hun: "A Beöltözött Befektető Mellénye",
-        rus: "Ангажированный акционер"
+        rus: "Ангажированный акционер",
+        pol: "Kamizelka kapitalisty",
+        bra: "Colete do Cabeça da Companhia",
+        fre: "Veste de l'investisseur investi",
+        swe: "Västklädd investerare"
     },
     2169: {
         img: "surgical_shroud",
@@ -26000,7 +26040,11 @@ export let dataItems = {
         schema: 31629,
         sch: "外科蒙面领",
         hun: "Sebészi Lepel",
-        rus: "Халат хирурга"
+        rus: "Халат хирурга",
+        pol: "Całun chirurga",
+        bra: "Agasalho Antisséptico",
+        fre: "Linceul chirurgical",
+        swe: "Kirurgisk klädnad"
     },
     2170: {
         img: "delusions_of_grandeur",
@@ -26008,7 +26052,11 @@ export let dataItems = {
         schema: 31626,
         sch: "妄自尊大",
         hun: "Nagyzási Hóbort",
-        rus: "Мегаломанн"
+        rus: "Мегаломанн",
+        pol: "Mania wielkości",
+        bra: "Delírio de Grandeza",
+        fre: "La Folie des Grandeurs",
+        swe: "Storhetsvansinne"
     },
     2171: {
         img: "lieutenants_cut",
@@ -26016,7 +26064,11 @@ export let dataItems = {
         schema: 31624,
         sch: "中尉的雪茄",
         hun: "Hadnagyhajzat",
-        rus: "Лик лейтенанта"
+        rus: "Лик лейтенанта",
+        pol: "Peruka podporucznika",
+        bra: "Corte do Tenente",
+        fre: "Coupe du Lieutenant",
+        swe: "Löjtnantsfrilla"
     },
     2172: {
         img: "atomic_bomber",
@@ -26024,7 +26076,11 @@ export let dataItems = {
         schema: 31622,
         sch: "原子能夹克",
         hun: "Atombombázó",
-        rus: "Атомный бомбер"
+        rus: "Атомный бомбер",
+        pol: "Atomowa wiatrówka",
+        bra: "Bombardeiro Atômico",
+        fre: "Blouson Atomique",
+        swe: "Atombombare"
     },
     2173: {
         img: "the_handsome_ranger",
@@ -26032,7 +26088,11 @@ export let dataItems = {
         schema: 31619,
         sch: "潇洒巡警",
         hun: "Jóképű Lövész",
-        rus: "Красавчик в законе"
+        rus: "Красавчик в законе",
+        pol: "Przystojny patrolowiec",
+        bra: "Patrulheiro Bonitão",
+        fre: "Garde bon chic bon genre",
+        swe: "Råbarkad ranger"
     },
     2174: {
         img: "bomb_blanket",
@@ -26040,7 +26100,11 @@ export let dataItems = {
         schema: 31618,
         sch: "火药披肩",
         hun: "Bombatakaró",
-        rus: "Подрывной покров"
+        rus: "Подрывной покров",
+        pol: "Derka detonacji",
+        bra: "Bandoleira da Fronteira",
+        fre: "Couverture explosive",
+        swe: "Bombfilt"
     },
     2175: {
         img: "tzar_athlete",
@@ -26048,7 +26112,11 @@ export let dataItems = {
         schema: 31612,
         sch: "沙皇运动员",
         hun: "Cár-atléta",
-        rus: "Царь-атлет"
+        rus: "Царь-атлет",
+        pol: "Atletyczny car",
+        bra: "Czartleta",
+        fre: "Athlète tsar",
+        swe: "Idrottstsar"
     },
     2176: {
         img: "standing_offer",
@@ -26056,7 +26124,11 @@ export let dataItems = {
         schema: 31611,
         sch: "长期报价裤",
         hun: "Fennálló Ajánlat",
-        rus: "Портки предпринимателя"
+        rus: "Портки предпринимателя",
+        pol: "Stała stawka",
+        bra: "Oferta de Pé",
+        fre: "Offre d'aplomb",
+        swe: "Stående erbjudande"
     },
     2177: {
         img: "deadwave_communicator",
@@ -26064,7 +26136,11 @@ export let dataItems = {
         schema: 31607,
         sch: "死波通讯器",
         hun: "Halotthullám-vevő",
-        rus: "Передатчик мёртвых частот"
+        rus: "Передатчик мёртвых частот",
+        pol: "Głuche łącze",
+        bra: "Comunicador de Ondas Mortas",
+        fre: "Transpondeur d'ondes mortes",
+        swe: "Vågformskommunikator"
     },
     2178: {
         img: "bonk_atomic_kicks",
@@ -26072,7 +26148,11 @@ export let dataItems = {
         schema: 31623,
         sch: "原子能潮牌鞋",
         hun: "Poff! Atomcsuka",
-        rus: "Бонк! Атомный башмак"
+        rus: "Бонк! Атомный башмак",
+        pol: "Bonk! Atomowy kopniak",
+        bra: "Bonk! Tênis Atômicos",
+        fre: "Boing ! Godasses atomiques",
+        swe: "Bonk! Atompjuckar"
     },
     2179: {
         img: "chief_executor",
@@ -26080,7 +26160,11 @@ export let dataItems = {
         schema: 31609,
         sch: "首席执行官",
         hun: "Fővégrehajtó",
-        rus: "Генеральный исполнитель"
+        rus: "Генеральный исполнитель",
+        pol: "Elegancka egzekucja",
+        bra: "Executor-Chefe",
+        fre: "Directeur général",
+        swe: "Exekutiv chef"
     },
     2180: {
         img: "beachcombers_brim",
@@ -26090,7 +26174,9 @@ export let dataItems = {
         bra: "Palha do Praiano",
         hun: "Strandgyűjtögető-kalap",
         swe: "Stråhatt",
-        rus: "Брыль бездельника"
+        rus: "Брыль бездельника",
+        pol: "Przesłona plażowego przeczesywacza",
+        fre: "Chapeau de paille"
     },
     2181: {
         img: "hard_hearing",
@@ -26099,7 +26185,10 @@ export let dataItems = {
         sch: "降噪监听器",
         hun: "Nagyothalló",
         swe: "Nedsatt hörsel",
-        rus: "Слухоподавители"
+        rus: "Слухоподавители",
+        pol: "Hardosłyszący",
+        bra: "Som Pesado",
+        fre: "Troubles auditifs"
     },
     2182: {
         img: "pyros_overalls",
@@ -26109,7 +26198,9 @@ export let dataItems = {
         bra: "Macacão do Incendiário",
         hun: "Piró Kezeslábasa",
         swe: "Pyros hängselbyxor",
-        rus: "Комбинезончик крематора"
+        rus: "Комбинезончик крематора",
+        pol: "Ogrodniczki Pyro",
+        fre: "Salopette du Pyro"
     },
     2183: {
         img: "beachy_boy_war_paint",
@@ -26117,7 +26208,11 @@ export let dataItems = {
         schema: 17434,
         hun: "Tengerparti Srác Harci festés",
         swe: "Strandpojken Krigsfärg",
-        rus: "\"Пляжный паренёк\" Боевая краска"
+        rus: "\"Пляжный паренёк\" Боевая краска",
+        pol: "Plażowicz Barwy wojenne",
+        sch: "沙滩男孩 战绘",
+        bra: "Garoto da Praia Tinta de Guerra",
+        fre: "Roi de la plage Peinture de guerre"
     },
     2184: {
         img: "sideshow_war_paint",
@@ -26127,35 +26222,57 @@ export let dataItems = {
         fre: "Fête foraine Peinture de guerre",
         hun: "Oldalsávos Harci festés",
         swe: "Sideshow Krigsfärg",
-        rus: "\"Сайдшоу\" Боевая краска"
+        rus: "\"Сайдшоу\" Боевая краска",
+        pol: "Pokaz Barwy wojenne",
+        sch: "杂耍表演 战绘"
     },
     2185: {
         img: "ocean_mapped_war_paint",
         eng: "Ocean Mapped War Paint",
         schema: 17437,
         hun: "Óceántérképes Harci festés",
-        rus: "\"Подводная картография\" Боевая краска"
+        rus: "\"Подводная картография\" Боевая краска",
+        pol: "Morskie mapowanie Barwy wojenne",
+        sch: "大洋绘图 战绘",
+        bra: "Cartografia Oceânica Tinta de Guerra",
+        fre: "Cartographie océanique Peinture de guerre",
+        swe: "Havskarta Krigsfärg"
     },
     2186: {
         img: "army_guns_war_paint",
         eng: "Army Guns War Paint",
         schema: 17435,
         hun: "Katonai Fegyverek Harci festés",
-        rus: "\"Армейские пушки\" Боевая краска"
+        rus: "\"Армейские пушки\" Боевая краска",
+        pol: "Wojskowy arsenał Barwy wojenne",
+        sch: "陆战军械 战绘",
+        bra: "Armas do Exército Tinta de Guerra",
+        fre: "Arsenal militaire Peinture de guerre",
+        swe: "Armévapen Krigsfärg"
     },
     2187: {
         img: "die_n_dasher_war_paint",
         eng: "Die'n Dasher War Paint",
         schema: 17442,
         hun: "Bisztrókockás Harci festés",
-        rus: "\"Убил да ушёл\" Боевая краска"
+        rus: "\"Убил да ушёл\" Боевая краска",
+        pol: "Jadło i jatka Barwy wojenne",
+        sch: "绝命快餐 战绘",
+        bra: "Lanchonete Letal Tinta de Guerra",
+        fre: "Resto baskets Peinture de guerre",
+        swe: "Springnota Krigsfärg"
     },
     2188: {
         img: "krak_coated_war_paint",
         eng: "Krak-coated War Paint",
         schema: 17438,
         hun: "Krakenborítású Harci festés",
-        rus: "\"Объятия Кракена\" Боевая краска"
+        rus: "\"Объятия Кракена\" Боевая краска",
+        pol: "Krakenowy kamuflaż Barwy wojenne",
+        sch: "海怪缠身 战绘",
+        bra: "Krak-elado Tinta de Guerra",
+        fre: "Enrobage kraken Peinture de guerre",
+        swe: "Krakenbelagd Krigsfärg"
     },
     2189: {
         img: "sandwich_diner_war_paint",
@@ -26165,21 +26282,33 @@ export let dataItems = {
         fre: "Sandwich Diner Peinture de guerre",
         hun: "Szendvicsbisztró Harci festés",
         swe: "Sandwich Diner Krigsfärg",
-        rus: "\"Закусочная\" Боевая краска"
+        rus: "\"Закусочная\" Боевая краска",
+        pol: "Bar kanapkowy Barwy wojenne",
+        sch: "三明治吃货 战绘"
     },
     2190: {
         img: "taxi_cabbed_war_paint",
         eng: "Taxi Cabbed War Paint",
         schema: 17436,
         hun: "Taxikockás Harci festés",
-        rus: "\"Подтаксовка\" Боевая краска"
+        rus: "\"Подтаксовка\" Боевая краска",
+        pol: "Taryfa Barwy wojenne",
+        sch: "出租的士 战绘",
+        bra: "Taxiado Tinta de Guerra",
+        fre: "Jaune taxi Peinture de guerre",
+        swe: "Taxifärgad Krigsfärg"
     },
     2191: {
         img: "storage_war_war_paint",
         eng: "Storage War War Paint",
         schema: 17441,
         hun: "Raktárháború Harci festés",
-        rus: "\"Складские склоки\" Боевая краска"
+        rus: "\"Складские склоки\" Боевая краска",
+        pol: "Wojna magazynowa Barwy wojenne",
+        sch: "后勤战争 战绘",
+        bra: "Guerra de Pósito Tinta de Guerra",
+        fre: "Guerre des garde-meubles Peinture de guerre",
+        swe: "Fyndkrig Krigsfärg"
     },
     2192: {
         img: "team_union_war_paint",
@@ -26189,7 +26318,9 @@ export let dataItems = {
         fre: "Équipe unie Peinture de guerre",
         hun: "Csapategység Harci festés",
         swe: "Team Union Krigsfärg",
-        rus: "\"Единство команды\" Боевая краска"
+        rus: "\"Единство команды\" Боевая краска",
+        pol: "Jedność drużyny Barwy wojenne",
+        sch: "战队联盟 战绘"
     },
     2193: {
         img: "taunt_buffoons_bivouac",
@@ -26197,7 +26328,11 @@ export let dataItems = {
         schema: 31603,
         sch: "嘲讽：缺心眼的露营地",
         hun: "Beszólás: A tökkelütött táborhelye",
-        rus: "Насмешка: Бивак болвана"
+        rus: "Насмешка: Бивак болвана",
+        pol: "Drwina: Biwak bufona",
+        bra: "Provocação: Bivaque do Bufão",
+        fre: "Raillerie : Le Bivouac du bouffon",
+        swe: "Hån: Pajasens hängmatta"
     },
     2194: {
         img: "taunt_friendly_fire",
@@ -26205,7 +26340,11 @@ export let dataItems = {
         schema: 31605,
         sch: "嘲讽：友军勿烧",
         hun: "Beszólás: Baráti tűz",
-        rus: "Насмешка: Дружественный огонь"
+        rus: "Насмешка: Дружественный огонь",
+        pol: "Drwina: Przyjacielskie podpalenie",
+        bra: "Provocação: Fogo Amigo",
+        fre: "Raillerie : feux de l'amitié",
+        swe: "Hån: Friendly Fire"
     },
     2195: {
         img: "taunt_the_circuit_breaker",
@@ -26213,7 +26352,11 @@ export let dataItems = {
         schema: 31602,
         sch: "嘲讽：强行拉闸",
         hun: "Beszólás: Az áramkör-megszakító",
-        rus: "Насмешка: Выключатель"
+        rus: "Насмешка: Выключатель",
+        pol: "Drwina: Brutalny bezpiecznik",
+        bra: "Provocação: O Disjuntor",
+        fre: "Raillerie : Le court-circuiteur",
+        swe: "Hån: Strömbrytaren"
     },
     2196: {
         img: "taunt_faux_calization",
@@ -26221,6 +26364,150 @@ export let dataItems = {
         schema: 31604,
         sch: "嘲讽：装腔作势",
         hun: "Beszólás: Álbeszéd",
-        rus: "Насмешка: Ложный лепет"
+        rus: "Насмешка: Ложный лепет",
+        pol: "Drwina: Kamuflizacja",
+        bra: "Provocação: Imitação Impostora",
+        fre: "Raillerie : Faux-calise",
+        swe: "Hån: Falskalisering"
+    },
+    2197: {
+        img: "twain_tassets",
+        eng: "Twain Tassets",
+        schema: 31657
+    },
+    2198: {
+        img: "bounty_hunters_brim",
+        eng: "Bounty Hunter's Brim",
+        schema: 31653
+    },
+    2199: {
+        img: "grenadiers_goggles",
+        eng: "Grenadier's Goggles",
+        schema: 31651
+    },
+    2200: {
+        img: "batters_jersey",
+        eng: "Batter's Jersey",
+        schema: 31650
+    },
+    2201: {
+        img: "rough_rider",
+        eng: "Rough Rider",
+        schema: 31648
+    },
+    2202: {
+        img: "vances_vest",
+        eng: "Vance's Vest",
+        schema: 31645
+    },
+    2203: {
+        img: "two_faced_terror",
+        eng: "Two Faced Terror",
+        schema: 31643
+    },
+    2204: {
+        img: "high_caliber_earner",
+        eng: "High Caliber Earner",
+        schema: 31640
+    },
+    2205: {
+        img: "mined_mind",
+        eng: "Mined Mind",
+        schema: 31638
+    },
+    2206: {
+        img: "skeleton_crew",
+        eng: "Skeleton Crew",
+        schema: 31635
+    },
+    2207: {
+        img: "bone_chiller",
+        eng: "Bone Chiller",
+        schema: 31636
+    },
+    2208: {
+        img: "showdown_slacks",
+        eng: "Showdown Slacks",
+        schema: 31641
+    },
+    2209: {
+        img: "clowning_cowl",
+        eng: "Clowning Cowl",
+        schema: 31642
+    },
+    2210: {
+        img: "cogwork_cargos",
+        eng: "Cogwork Cargos",
+        schema: 31646
+    },
+    2211: {
+        img: "hell_bent_leather",
+        eng: "Hell-Bent Leather",
+        schema: 31649
+    },
+    2212: {
+        img: "generals_greatcoat",
+        eng: "General's Greatcoat",
+        schema: 31652
+    },
+    2213: {
+        img: "desperado_disguise",
+        eng: "Desperado Disguise",
+        schema: 31654
+    },
+    2214: {
+        img: "crown_of_the_ye_olde_kingdom",
+        eng: "Crown of the Ye Olde Kingdom",
+        schema: 31655
+    },
+    2215: {
+        img: "the_damage_dealer",
+        eng: "The Damage Dealer",
+        schema: 31639
+    },
+    2216: {
+        img: "scaled_surcoat",
+        eng: "Scaled Surcoat",
+        schema: 31656
+    },
+    2217: {
+        img: "wayward_wrap",
+        eng: "Wayward Wrap",
+        schema: 31647
+    },
+    2218: {
+        img: "gunpowder_grin",
+        eng: "Gunpowder Grin",
+        schema: 31644
+    },
+    2219: {
+        img: "royal_remains",
+        eng: "Royal Remains",
+        schema: 31637
+    },
+    2220: {
+        img: "taunt_hippocratic_hypocrite",
+        eng: "Taunt: Hippocratic Hypocrite",
+        schema: 31630
+    },
+    2221: {
+        img: "taunt_showrunners_spirit",
+        eng: "Taunt: Showrunner's Spirit",
+        schema: 31632
+    },
+    2222: {
+        img: "taunt_barrel_roll",
+        eng: "Taunt: Barrel Roll",
+        schema: 31633
+    },
+    2223: {
+        img: "taunt_one_eyed_punt",
+        eng: "Taunt: One-Eyed Punt!",
+        schema: 31631
+    },
+    2224: {
+        img: "taunt_sear_you_later",
+        eng: "Taunt: Sear You Later",
+        schema: 31634
     }
 }

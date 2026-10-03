@@ -4182,19 +4182,23 @@ export let dataEffects = {
         bra: "Luzes na escuridão",
         hun: "Elmosódott fények",
         swe: "Skuggljus",
-        rus: "Смутное сияние"
+        rus: "Смутное сияние",
+        pol: "cieniste światła",
+        fre: "Lueurs lilas"
     },
     353: {
         img: "polar_prism",
         eng: "Polar Prism",
         schema: 408,
-        sch: "北境极光",
-        bra: "Noites do norte",
-        hun: "Északi éjszakák",
-        swe: "Nordliga nätter",
-        rus: "Северное свечение",
+        sch: "极地棱镜",
+        bra: "Prisma polar",
+        hun: "Sarki prizma",
+        swe: "Polarprism",
+        rus: "Полярная призма",
         cze: "Northern Nights",
-        rom: "Northern Nights"
+        rom: "Northern Nights",
+        pol: "polarny pryzmat",
+        fre: "Prisme polaire"
     },
     354: {
         img: "solar_singed",
@@ -4204,7 +4208,9 @@ export let dataEffects = {
         bra: "Queimadura solar",
         hun: "Napperzselte",
         swe: "Solsvedd",
-        rus: "Солнечное сверкание"
+        rus: "Солнечное сверкание",
+        pol: "słoneczna spalenizna",
+        fre: "Radiation solaire"
     },
     355: {
         img: "floral_growth",
@@ -4212,7 +4218,11 @@ export let dataEffects = {
         schema: 410,
         sch: "花卉丛生",
         hun: "Virágözön",
-        rus: "Цвет-расцвет"
+        rus: "Цвет-расцвет",
+        pol: "kwiecisty rozrost",
+        bra: "Crescimento floral",
+        fre: "Croissance florale",
+        swe: "Blomsterprakt"
     },
     356: {
         img: "stellar_orbit",
@@ -4220,7 +4230,11 @@ export let dataEffects = {
         schema: 412,
         sch: "坠星轨道",
         hun: "Csillagpálya",
-        rus: "Звёздная орбита"
+        rus: "Звёздная орбита",
+        pol: "gwiezdna orbita",
+        bra: "Órbita estelar",
+        fre: "Orbite stellaire",
+        swe: "Omloppsbana"
     },
     357: {
         img: "blissful_butterflies",
@@ -4230,7 +4244,9 @@ export let dataEffects = {
         bra: "Borboletas bonitas",
         hun: "Boldog pillangók",
         swe: "Förnöjda fjärilar",
-        rus: "Блаженные бабочки"
+        rus: "Блаженные бабочки",
+        pol: "milusie motylki",
+        fre: "Papillons prodigieux"
     },
     358: {
         img: "wispful_wings",
@@ -4240,6 +4256,63 @@ export let dataEffects = {
         bra: "Asas espirituais",
         hun: "Leheletfinom szárnyak",
         swe: "Vindsvepta vingar",
-        rus: "Волшебные взмахи"
+        rus: "Волшебные взмахи",
+        pol: "stęsknione skrzydełka",
+        fre: "Lépidospectre"
+    },
+    359: {
+        img: "flor_de_muerto",
+        eng: "Flor de Muerto",
+        schema: 416
+    },
+    360: {
+        img: "autumn_breeze",
+        eng: "Autumn Breeze",
+        schema: 418
+    },
+    361: {
+        img: "spirit_swirl",
+        eng: "Spirit Swirl",
+        schema: 419
+    },
+    362: {
+        img: "ghost_swirl",
+        eng: "Ghost Swirl",
+        schema: 420
+    },
+    363: {
+        img: "fable_feathers",
+        eng: "Fable Feathers",
+        schema: 421
+    },
+    364: {
+        img: "fable_quills",
+        eng: "Fable Quills",
+        schema: 423
+    },
+    365: {
+        img: "grudge_n_drudge",
+        eng: "Grudge n' Drudge",
+        schema: 424
+    },
+    366: {
+        img: "boil_n_toil",
+        eng: "Boil n' Toil",
+        schema: 425
+    },
+    367: {
+        img: "screaming_soul",
+        eng: "Screaming Soul",
+        schema: 426
+    },
+    368: {
+        img: "screeching_soul",
+        eng: "Screeching Soul",
+        schema: 427
+    },
+    369: {
+        img: "shrieking_soul",
+        eng: "Shrieking Soul",
+        schema: 428
     }
 }
