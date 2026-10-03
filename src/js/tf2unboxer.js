@@ -42,6 +42,7 @@ import {
     summer26FX,
     hw25FX,
     xmas25FX,
+    hw26FX,
 } from "./crate.js";
 
 import {
