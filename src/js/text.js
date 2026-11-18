@@ -2744,4 +2744,8 @@ rus: '<span class="colormercenary">Наемника</span> предметов о
         rom: "Fortareata Urlatoare XVIII (2026)",
 		swe: "Skrik Fortress XVIII (2026)"
     },
+    230: {
+        eng: "We are partnered with:",
+        pol: "Współpracujemy z:",
+    },
 }
