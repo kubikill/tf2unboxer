@@ -2745,7 +2745,7 @@ rus: '<span class="colormercenary">Наемника</span> предметов о
 		swe: "Skrik Fortress XVIII (2026)"
     },
     230: {
-        eng: "We are partnered with:",
+        eng: "We partner with:",
         pol: "Współpracujemy z:",
     },
 }
