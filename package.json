@@ -40,7 +40,7 @@
     "staticOutPath": "images"
   },
   "dependencies": {
-    "@sentry/browser": "^11.4.0"
+    "@sentry/browser": "^11.15.0"
   },
   "allowScripts": {
     "@parcel/watcher@2.6.0": true,

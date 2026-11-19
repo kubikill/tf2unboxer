@@ -2,5 +2,5 @@ import * as Sentry from '@sentry/browser';
 
 Sentry.init({
   dsn: process.env.SENTRY_DSN,
-  tracesSampleRate: 0.01,
+  release: 'unboxertf@2.20',
 });
