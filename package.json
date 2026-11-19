@@ -1,6 +1,6 @@
 {
   "name": "tf2unboxer",
-  "version": "1.0.0",
+  "version": "2.20.0",
   "description": "A Team Fortress 2 crate/case simulator.",
   "source": [
     "/src/index.html",
@@ -8,8 +8,9 @@
   ],
   "browserslist": "> 0.5%, last 2 versions, Firefox ESR, not dead, Safari >=15, iOS >=15",
   "scripts": {
-    "start": "parcel --no-source-maps",
-    "build": "parcel build"
+    "start": "SENTRY_RELEASE=unboxertf@$npm_package_version parcel --no-source-maps",
+    "build": "SENTRY_RELEASE=unboxertf@$npm_package_version parcel build",
+    "build:release": "npm run build && sentry-cli sourcemaps inject dist && sentry-cli --url https://gt.kubikill.dev/ sourcemaps upload --release unboxertf@$npm_package_version dist"
   },
   "type": "module",
   "repository": {
@@ -30,6 +31,7 @@
     "@parcel/transformer-webmanifest": "^2.15.4",
     "@parcel/watcher": "^2.5.1",
     "@plasmohq/parcel-transformer-inject-env": "^0.2.12",
+    "@sentry/cli": "^3.8.2",
     "parcel": "^2.15.4",
     "parcel-reporter-static-files-copy": "~1.5.3",
     "process": "^0.11.10",

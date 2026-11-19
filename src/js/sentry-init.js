@@ -3,7 +3,8 @@ import * as Sentry from '@sentry/browser';
 export function initSentry() {
   Sentry.init({
     dsn: process.env.SENTRY_DSN,
-    release: 'unboxertf@2.20',
+    tunnel: process.env.SENTRY_TUNNEL || undefined,
+    release: process.env.SENTRY_RELEASE,
     environment: process.env.NODE_ENV === 'production' ? 'production' : 'development',
     allowUrls: [`${self.location.origin}/`],
   });
