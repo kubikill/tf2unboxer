@@ -51,6 +51,33 @@ import {
     hw26FX,
 } from "./crate.js";
 
+import {
+    initSentry,
+    addSentryState
+} from "./sentry-init.js";
+
+let bulkJob = null;
+
+initSentry();
+addSentryState(() => ({
+    tags: {
+        thread: "bulk-worker",
+        crate: currentCrateObj?.id,
+        halloween_mode: save.options.halloweenMode,
+        cheats: bulkJob?.cheats,
+    },
+    contexts: {
+        crate: {
+            index: currentCrate,
+            key: crateOrder[currentCrate],
+            id: currentCrateObj?.id,
+            series: currentCrateObj?.series,
+        },
+        bulk_job: bulkJob,
+        options: save.options,
+    },
+}));
+
 const wearTable = ["", "FN", "MW", "FT", "WW", "BS"];
 const sheenTable = ["", 128, 129, 130, 131, 132, 133, 134];
 const killstreakerTable = ["", 135, 136, 137, 138, 139, 140, 141];
@@ -877,6 +904,11 @@ self.onmessage = function (e) {
         save.options = JSON.parse(e.data.options);
         currentCrate = e.data.crate;
         currentCrateObj = cA[crateOrder[currentCrate]];
+        bulkJob = {
+            crateNum: e.data.crateNum,
+            cheats: e.data.cheats,
+            progress: 0
+        };
 
         let bulkCounter = 0;
         while (bulkCounter < e.data.crateNum) {
@@ -890,6 +922,7 @@ self.onmessage = function (e) {
             addToUnusuals(item, bulkSave);
             addToStats(item, bulkSave);
             bulkCounter++;
+            bulkJob.progress = bulkCounter;
             if (bulkCounter % 1000 == 0) {
                 self.postMessage({
                     progress: bulkCounter

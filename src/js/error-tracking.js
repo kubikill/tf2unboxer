@@ -1,6 +1,5 @@
-import * as Sentry from '@sentry/browser';
+import { initSentry, addSentryState } from './sentry-init.js';
 
-Sentry.init({
-  dsn: process.env.SENTRY_DSN,
-  release: 'unboxertf@2.20',
-});
+initSentry();
+
+addSentryState(() => globalThis.unboxerSentryState?.());

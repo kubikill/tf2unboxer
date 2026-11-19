@@ -260,6 +260,27 @@ let inDetailsMode = true;
 let addToInventorySaveTimeout = null;
 let addToUnusualsSaveTimeout = null;
 let addToStatsSaveTimeout = null;
+
+globalThis.unboxerSentryState = () => ({
+    tags: {
+        thread: "main",
+        crate: currentCrateObj?.id,
+        language: save.options.language,
+        halloween_mode: save.options.halloweenMode,
+        cheats: isCheatsEnabled(),
+        fast_unbox: save.options.fastUnbox,
+    },
+    contexts: {
+        crate: {
+            index: currentCrate,
+            key: crateOrder[currentCrate],
+            id: currentCrateObj?.id,
+            series: currentCrateObj?.series,
+        },
+        options: save.options,
+    },
+});
+
 const emptyImage = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
 const wearTable = ["", "FN", "MW", "FT", "WW", "BS"];
 const wearTableNames = ["", 80, 81, 82, 83, 84];
@@ -3634,7 +3655,7 @@ let bulkWorker = new Worker(new URL('./bulkWorker.js',
 let bulkSave;
 bulkWorker.onmessage = function (e) {
     if (e.data.item) {
-        if (!save.options.forceUnusual && !save.options.forceUnusualifier && !save.options.forceStrange && !save.options.forceGrade && !save.options.forceProKit && !save.options.forceBonusItem) {
+        if (!isCheatsEnabled()) {
             addToInventory(e.data.item, save);
             addToUnusuals(e.data.item, save);
             addToStats(e.data.item, save);
@@ -3688,12 +3709,13 @@ bulkWorker.onmessage = function (e) {
     }
 }
 
+function isCheatsEnabled() {
+    return Boolean(save.options.forceUnusual || save.options.forceUnusualifier || save.options.forceStrange || save.options.forceGrade || save.options.forceProKit || save.options.forceBonusItem);
+}
+
 function startBulkUnbox(num) {
     bulkSave = JSON.parse(JSON.stringify(defaultSave));
-    let cheatsEnabled = false;
-    if (save.options.forceUnusual || save.options.forceUnusualifier || save.options.forceStrange || save.options.forceGrade || save.options.forceProKit || save.options.forceBonusItem) {
-        cheatsEnabled = true;
-    }
+    let cheatsEnabled = isCheatsEnabled();
     DOM.bulkSelect.container.style.display = "none";
     DOM.bulkProgress.progress.value = "0";
     DOM.bulkProgress.progressTotal.innerHTML = DOM.bulkProgress.progress.max = num;
